@@ -1,0 +1,18 @@
+/*============================================================================
+*
+* wcsconfig_test.h is generated from wcsconfig_test.h.in by 'configure'.  It
+* contains C preprocessor definitions for compiling the WCSLIB 5.15 test/demo
+* programs.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: wcsconfig_tests.h.in,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+*===========================================================================*/
+
+#include <wcsconfig.h>
+
+/* Define to 1 if the CFITSIO library is available. */
+#undef HAVE_CFITSIO
+
+/* Define to the printf format modifier for size_t type. */
+#undef MODZ
