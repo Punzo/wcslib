@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: dis_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+  $Id: dis_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=============================================================================
 *
 * In these wrappers, if
@@ -59,6 +59,7 @@
 #define disndp_   F77_FUNC(disndp,   DISNDP)
 #define dpfill_   F77_FUNC(dpfill,   DPFILL)
 #define disini_   F77_FUNC(disini,   DISINI)
+#define disinit_  F77_FUNC(disinit,  DISINIT)
 #define discpy_   F77_FUNC(discpy,   DISCPY)
 #define disfree_  F77_FUNC(disfree,  DISFREE)
 #define disprt_   F77_FUNC(disprt,   DISPRT)
@@ -112,7 +113,7 @@ int disput_(
   const int *what,
   const void *value,
   const int *j,
-  const int *k)
+  const int *dummy)
 
 {
   int j0;
@@ -195,6 +196,7 @@ int dispti_(const int *deref, int *dis, const int *what, const int *value,
 int disget_(const int *deref, const int *dis, const int *what, void *value)
 
 {
+  unsigned int l;
   int j, k, naxis;
   char   *cvalp;
   int    *ivalp;
@@ -296,11 +298,11 @@ int disget_(const int *deref, const int *dis, const int *what, void *value)
     /* Copy the contents of the wcserr struct. */
     if (disp->err) {
       idisp = (int *)(disp->err);
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = *(idisp++);
       }
     } else {
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = 0;
       }
     }
@@ -372,6 +374,22 @@ int disini_(const int *deref, const int *naxis, int *dis)
   }
 
   return disini(1, *naxis, disp);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int disinit_(const int *deref, const int *naxis, int *dis, int *ndpmax)
+
+{
+  struct disprm *disp;
+
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disinit(1, *naxis, disp, *ndpmax);
 }
 
 /*--------------------------------------------------------------------------*/

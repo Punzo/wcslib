@@ -3,12 +3,12 @@
 #-----------------------------------------------------------------------------
 # Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 # http://www.atnf.csiro.au/people/Mark.Calabretta
-# $Id: configure.ac,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+# $Id: configure.ac,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 #-----------------------------------------------------------------------------
 
-AC_INIT([WCSLIB], [5.15], [mark@calabretta.id.au], [wcslib-5.15])
+AC_INIT([WCSLIB], [5.18], [mark@calabretta.id.au], [wcslib-5.18])
 AC_PREREQ([2.53])
-AC_REVISION([$Revision: 5.15 $])
+AC_REVISION([$Revision: 5.18 $])
 AC_SUBST([PACKAGE_VERSION])
 AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION], [Define wcslib version])
 
@@ -227,6 +227,7 @@ AC_CHECK_LIB([SystemStubs], [printf\$LDBLStub], [LIBS="$LIBS -lSystemStubs"],
 # Library and installation utilities.
 #------------------------------------
 # Static library generation.
+AC_SUBST([ARFLAGS])
 AC_PROG_RANLIB
 
 # Shared library generation.

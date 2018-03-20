@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: lin_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+  $Id: lin_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -43,7 +43,9 @@
 #define lingti_  F77_FUNC(lingti,  LINGTI)
 
 #define linini_  F77_FUNC(linini,  LININI)
+#define lininit_ F77_FUNC(lininit, LININIT)
 #define lindis_  F77_FUNC(lindis,  LINDIS)
+#define lindist_ F77_FUNC(lindist, LINDIST)
 #define lincpy_  F77_FUNC(lincpy,  LINCPY)
 #define linfree_ F77_FUNC(linfree, LINFREE)
 #define linprt_  F77_FUNC(linprt,  LINPRT)
@@ -147,7 +149,8 @@ int linpti_(int *lin, const int *what, const int *value,
 int linget_(const int *lin, const int *what, void *value)
 
 {
-  int i, j, k, naxis;
+  unsigned int l;
+  int i, j, naxis;
   int *ivalp;
   double *dvalp;
   struct disprm **disvalp;
@@ -234,11 +237,11 @@ int linget_(const int *lin, const int *what, void *value)
     /* Copy the contents of the wcserr struct. */
     if (linp->err) {
       ilinp = (int *)(linp->err);
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = *(ilinp++);
       }
     } else {
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = 0;
       }
     }
@@ -270,10 +273,27 @@ int linini_(const int *naxis, int *lin)
 
 /*--------------------------------------------------------------------------*/
 
+int lininit_(const int *naxis, int *lin, int *ndpmax)
+
+{
+  return lininit(1, *naxis, (struct linprm *)lin, *ndpmax);
+}
+
+/*--------------------------------------------------------------------------*/
+
 int lindis_(const int *sequence, int *lin, int *dis)
 
 {
   return lindis(*sequence, (struct linprm *)lin, (struct disprm *)dis);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int lindist_(const int *sequence, int *lin, int *dis, int *ndpmax)
+
+{
+  return lindist(*sequence, (struct linprm *)lin, (struct disprm *)dis,
+                 *ndpmax);
 }
 
 /*--------------------------------------------------------------------------*/

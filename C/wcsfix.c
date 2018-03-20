@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsfix.c,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+  $Id: wcsfix.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *===========================================================================*/
 
 #include <math.h>
@@ -250,7 +250,7 @@ static int parse_date(const char *buf, int *hour, int *minute, double *sec)
   char ctmp[72];
 
   if (sscanf(buf, "%2d:%2d:%s", hour, minute, ctmp) < 3 ||
-      wcsutil_str2double(ctmp, "%lf", sec)) {
+      wcsutil_str2double(ctmp, sec)) {
     return 1;
   }
 
@@ -484,7 +484,7 @@ int spcfix(struct wcsprm *wcs)
   static const char *function = "spcfix";
 
   char ctype[9], specsys[9];
-  int  i, status, velref;
+  int  i, status;
   struct wcserr **err;
 
   if (wcs == 0x0) return FIXERR_NULL_POINTER;
@@ -518,7 +518,7 @@ int spcfix(struct wcsprm *wcs)
         } else {
           wcserr_set(WCSERR_SET(FIXERR_SPC_UPDATE),
             "Changed CTYPE%d from '%s' to '%s' (VELREF=%d)", i+1,
-            wcs->ctype[i], ctype, velref);
+            wcs->ctype[i], ctype, wcs->velref);
           status = 0;
         }
 

@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-# GNU makefile for building PGSBOX 5.15
+# GNU makefile for building PGSBOX 5.18
 #
 # Summary of the main targets
 # ---------------------------
@@ -26,12 +26,12 @@
 #      instead and re-run configure.
 #
 #   2) In compiling the test programs, this makefile assumes that the
-#      WCSLIB 5.15 sources reside in ../C and ../Fortran (as in the
+#      WCSLIB 5.18 sources reside in ../C and ../Fortran (as in the
 #      distribution kit).
 #
 # Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 # http://www.atnf.csiro.au/people/Mark.Calabretta
-# $Id: GNUmakefile,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 #-----------------------------------------------------------------------------
 # Get configure settings.
 include ../makedefs
@@ -64,25 +64,25 @@ vpath %.inc ../Fortran
 $(PGSBOXLIB)(%.o) : %.f
 	-@ echo ''
 	   $(FC) -I../Fortran $(FFLAGS) -c $<
-	   $(AR) r $(PGSBOXLIB) $%
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
 	-@ $(RM) $%
 
 $(PGSBOXLIB)(%.o) : %.c
 	-@ echo ''
 	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
-	   $(AR) r $(PGSBOXLIB) $%
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
 	-@ $(RM) $%
 
 $(PICLIB)(%.o) : %.f
 	-@ echo ''
 	   $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $<
-	   $(AR) r $(PICLIB) $%
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
 	-@ $(RM) $%
 
 $(PICLIB)(%.o) : %.c
 	-@ echo ''
 	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $<
-	   $(AR) r $(PICLIB) $%
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
 	-@ $(RM) $%
 
 %.i : %.c

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  PGSBOX 5.15 - draw curvilinear coordinate axes for PGPLOT.
-  Copyright (C) 1997-2016, Mark Calabretta
+  PGSBOX 5.18 - draw curvilinear coordinate axes for PGPLOT.
+  Copyright (C) 1997-2018, Mark Calabretta
 
   This file is part of PGSBOX.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: cpgsbox.c,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+  $Id: cpgsbox.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *===========================================================================*/
 
 #include <string.h>

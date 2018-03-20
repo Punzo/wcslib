@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcs_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+  $Id: wcs_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -46,6 +46,7 @@
 #define wcsnpv_  F77_FUNC(wcsnpv,  WCSNPV)
 #define wcsnps_  F77_FUNC(wcsnps,  WCSNPS)
 #define wcsini_  F77_FUNC(wcsini,  WCSINI)
+#define wcsinit_ F77_FUNC(wcsinit, WCSINIT)
 #define wcssub_  F77_FUNC(wcssub,  WCSSUB)
 #define wcscompare_  F77_FUNC(wcscompare,  WCSCOMPARE)
 #define wcsfree_ F77_FUNC(wcsfree, WCSFREE)
@@ -338,6 +339,7 @@ int wcspti_(int *wcs, const int *what, const int *value, const int *i,
 int wcsget_(const int *wcs, const int *what, void *value)
 
 {
+  unsigned int l;
   int i, j, k, naxis;
   char   *cvalp;
   int    *ivalp;
@@ -585,21 +587,21 @@ int wcsget_(const int *wcs, const int *what, void *value)
   case WCS_LIN:
     /* Copy the contents of the linprm struct. */
     iwcsp = (int *)(&(wcsp->lin));
-    for (k = 0; k < LINLEN; k++) {
+    for (l = 0; l < LINLEN; l++) {
       *(ivalp++) = *(iwcsp++);
     }
     break;
   case WCS_CEL:
     /* Copy the contents of the celprm struct. */
     iwcsp = (int *)(&(wcsp->cel));
-    for (k = 0; k < CELLEN; k++) {
+    for (l = 0; l < CELLEN; l++) {
       *(ivalp++) = *(iwcsp++);
     }
     break;
   case WCS_SPC:
     /* Copy the contents of the spcprm struct. */
     iwcsp = (int *)(&(wcsp->spc));
-    for (k = 0; k < SPCLEN; k++) {
+    for (l = 0; l < SPCLEN; l++) {
       *(ivalp++) = *(iwcsp++);
     }
     break;
@@ -607,11 +609,11 @@ int wcsget_(const int *wcs, const int *what, void *value)
     /* Copy the contents of the wcserr struct. */
     if (wcsp->err) {
       iwcsp = (int *)(wcsp->err);
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = *(iwcsp++);
       }
     } else {
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = 0;
       }
     }
@@ -649,6 +651,19 @@ int wcsini_(const int *naxis, int *wcs)
 
 {
   return wcsini(1, *naxis, (struct wcsprm *)wcs);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int wcsinit_(
+  const int *naxis,
+  int *wcs,
+  int *npvmax,
+  int *npsmax,
+  int *ndpmax)
+
+{
+  return wcsinit(1, *naxis, (struct wcsprm *)wcs, *npvmax, *npsmax, *ndpmax);
 }
 
 /*--------------------------------------------------------------------------*/

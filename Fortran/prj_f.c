@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: prj_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+  $Id: prj_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -142,7 +142,8 @@ int prjpti_(int *prj, const int *what, const int *value, const int *m)
 int prjget_(const int *prj, const int *what, void *value)
 
 {
-  int  k, m;
+  unsigned int l;
+  int  m;
   char *cvalp;
   int  *ivalp;
   double *dvalp;
@@ -213,11 +214,11 @@ int prjget_(const int *prj, const int *what, void *value)
     /* Copy the contents of the wcserr struct. */
     if (prjp->err) {
       iprjp = (int *)(prjp->err);
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = *(iprjp++);
       }
     } else {
-      for (k = 0; k < ERRLEN; k++) {
+      for (l = 0; l < ERRLEN; l++) {
         *(ivalp++) = 0;
       }
     }

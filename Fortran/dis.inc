@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.15 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2016, Mark Calabretta
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,23 +22,25 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: dis.inc,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+* $Id: dis.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=======================================================================
 
 *     Functions.
       EXTERNAL  DISALLOC,
-     :          DISPUT, DISPTC, DISPTD,  DISPTI,
-     :          DISGET, DISGTC, DISGTD,  DISGTI,
+     :          DISPUT, DISPTC,  DISPTD,  DISPTI,
+     :          DISGET, DISGTC,  DISGTD,  DISGTI,
      :          DISNDP, DPFILL,
-     :          DISINI, DISCPY, DISFREE, DISPRT, DISPERR, DISHDO,
-     :          DISSET, DISP2X, DISX2P,  DISWARP
+     :          DISINI, DISINIT, DISCPY,  DISFREE,
+     :          DISPRT, DISPERR, DISHDO,
+     :          DISSET, DISP2X,  DISX2P,  DISWARP
 
       INTEGER   DISALLOC,
-     :          DISPUT, DISPTC, DISPTD, DISPTI,
-     :          DISGET, DISGTC, DISGTD, DISGTI,
+     :          DISPUT, DISPTC,  DISPTD, DISPTI,
+     :          DISGET, DISGTC,  DISGTD, DISGTI,
      :          DISNDP, DPFILL,
-     :          DISINI, DISCPY, DISFREE, DISPRT, DISPERR, DISHDO,
-     :          DISSET, DISP2X, DISX2P, DISWARP
+     :          DISINI, DISINIT, DISCPY, DISFREE,
+     :          DISPRT, DISPERR, DISHDO,
+     :          DISSET, DISP2X,  DISX2P, DISWARP
 
 *     Length of the DISPRM and DPKEY data structures (INTEGER arrays)
 *     on 64-bit machines.  DISLEN only needs to be 28 on 32-bit

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: HPXcvt.c,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+  $Id: HPXcvt.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=============================================================================
 *
 * HPXcvt reorganises HEALPix data into a 2-D FITS image.  Refer to the usage
@@ -81,6 +81,7 @@ struct healpix {
                         /*   2: south.                                */
   char  quad;		/* Recentre longitude on quadrant (modulo 4). */
   int   nside;		/* Dimension of a base-resolution pixel.      */
+  int   padding;	/* (Dummy inserted for alignment purposes.)   */
   long  npix;		/* Total number of pixels in the data array.  */
   float *data;		/* Pointer to memory allocated to hold data.  */
 };

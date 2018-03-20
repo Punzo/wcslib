@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: tpih1.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+  $Id: tpih1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=============================================================================
 *
 * tpih1 tests wcspih(), the WCS FITS parser for image headers, and wcsfix(),
@@ -197,7 +197,9 @@ int main()
   }
   printf("%s", wcsprintf_buf());
 
-  status = wcsvfree(&nwcs, &wcs);
+  /* Defeat spurious reporting of memory leaks. */
+  wcsprintf_set(stdout);
+  wcsvfree(&nwcs, &wcs);
 
   return 0;
 }

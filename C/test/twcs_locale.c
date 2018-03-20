@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -23,7 +23,7 @@
   Author: Michael Droetboom, Space Telescope Science Institute,
      and: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcs_locale.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+  $Id: twcs_locale.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=============================================================================
 *
 * twcs_locale tests wcslib's handling of locales, such as fr_FR, that use a

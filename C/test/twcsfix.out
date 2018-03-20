@@ -10,7 +10,7 @@ INFORMATIVE message from unitfix() at line 471 of file wcsfix.c:
 Changed units: 'ARCSEC' -> 'arcsec', 'ARCSEC' -> 'arcsec', 'KM/SEC' -> 'km/s'.
 
 INFORMATIVE message from spcfix() at line 519 of file wcsfix.c:
-Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=0).
+Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
 
        flag: 137
       naxis: 3

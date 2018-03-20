@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.15 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2016, Mark Calabretta
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -23,7 +23,7 @@
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO,
      and: Michael Droetboom, Space Telescope Science Institute
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcs.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+  $Id: twcs.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
 *=============================================================================
 *
 * twcs tests wcss2p() and wcsp2s() for closure on an oblique 2-D slice through
