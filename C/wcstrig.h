@@ -164,9 +164,9 @@
 
 #include "wcsconfig.h"
 
-#ifdef HAVE_SINCOS
+/*#ifdef HAVE_SINCOS
   void sincos(double angle, double *sin, double *cos);
-#endif
+#endif*/
 
 #ifdef __cplusplus
 extern "C" {
@@ -185,11 +185,11 @@ extern "C" {
 #define asind(X) asin(X)*R2D
 #define atand(X) atan(X)*R2D
 #define atan2d(Y,X) atan2(Y,X)*R2D
-#ifdef HAVE_SINCOS
+/*#ifdef HAVE_SINCOS
   #define sincosd(X,S,C) sincos((X)*D2R,(S),(C))
 #else
   #define sincosd(X,S,C) *(S) = sin((X)*D2R); *(C) = cos((X)*D2R);
-#endif
+#endif*/
 
 #else
 
