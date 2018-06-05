@@ -109,12 +109,12 @@ void sincosd(double angle, double *s, double *c)
     }
   }
 
-#ifdef HAVE_SINCOS
+/*#ifdef HAVE_SINCOS
   sincos(angle*D2R, s, c);
-#else
+#else*/
   *s = sin(angle*D2R);
   *c = cos(angle*D2R);
-#endif
+//#endif
 
   return;
 }
