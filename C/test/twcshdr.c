@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcshdr.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcshdr.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcshdr illustrates the steps required to read WCS information (including
@@ -194,7 +194,7 @@ int main(int argc, char *argv[])
 
   /* Finished with the FITS file. */
   fits_close_file(fptr, &status);
-  free(header);
+  fits_free_memory(header, &status);
 
   /* Initialize the wcsprm struct, also taking control of memory allocated by
    * fits_read_wcstab(). */
@@ -214,7 +214,7 @@ int main(int argc, char *argv[])
       printf("%.80s\n", hptr);
     }
 
-    free(header);
+    wcsdealloc(header);
 
   } else if (dopixel) {
     while (1) {

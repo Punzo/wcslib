@@ -1,4 +1,4 @@
-/** @mainpage WCSLIB 5.18 and PGSBOX 5.18
+/** @mainpage WCSLIB 7.1 and PGSBOX 7.1
 
 @image html Bonne.gif "Bonne's projection"
 
@@ -12,6 +12,7 @@
 - @subpage diagnostics
 - @subpage vector
 - @subpage threads
+- @subpage limits
 - @subpage testing
 - @subpage fortran
 - @subpage pgsbox
@@ -20,8 +21,8 @@
 @section copyright Copyright
 
 @verbatim
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   WCSLIB is free software: you can redistribute it and/or modify it under the
   terms of the GNU Lesser General Public License as published by the Free
@@ -40,7 +41,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: mainpage.dox,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: mainpage.dox,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 @endverbatim
 */
 
@@ -73,15 +74,19 @@ The FITS WCS standard is described in
    Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
    2006, A&A, 446, 747
 
-- "Mapping on the HEALPix Grid" (HPX),
+- "Representations of distortions in FITS world coordinate systems",
+   Calabretta, M.R. et al. (WCS Paper IV, draft dated 2004/04/22),
+   available from http://www.atnf.csiro.au/people/Mark.Calabretta
+
+- "Mapping on the HEALPix Grid" (HPX, Paper V),
    Calabretta, M.R., & Roukema, B.F. 2007, MNRAS, 381, 865
 
 - "Representing the 'Butterfly' Projection in FITS: Projection Code XPH"
-   (XPH), Calabretta, M.R., & Lowe, S.R. 2013, PASA, 30, e050
+   (XPH, Paper VI), Calabretta, M.R., & Lowe, S.R. 2013, PASA, 30, e050
 
 - "Representations of time coordinates in FITS: Time and relative dimension in
-   space", Rots, A.H., Bunclark, P.S., Calabretta, M.R., Allen, S.L.,
-   Manchester R.N., & Thompson, W.T. 2015, A&A, 574, A36
+   space" (Paper VII), Rots, A.H., Bunclark, P.S., Calabretta, M.R.,
+   Allen, S.L., Manchester R.N., & Thompson, W.T. 2015, A&A, 574, A36
 
 Reprints of all published papers may be obtained from NASA's Astrophysics
 Data System (ADS), http://adsabs.harvard.edu/.  Reprints of Papers I, II
@@ -144,6 +149,17 @@ and Javascript by
   -  <B>wcsjs</B>, https://github.com/astrojs/wcsjs, a port created by Amit
      Kapadia using Emscripten, an LLVM to Javascript compiler.  wcsjs provides
      a code base for running @ref overview "WCSLIB" on web browsers.
+
+Julia wrappers (https://en.wikipedia.org/wiki/Julia_(programming_language))
+are provided by
+
+  - <B>WCS.jl</B>, https://github.com/JuliaAstro/WCS.jl, a component of Julia
+    Astro, https://github.com/JuliaAstro.
+
+An interface for the R programming language
+(https://en.wikipedia.org/wiki/R_(programming_language)) is available at
+
+  - <B>Rwcs</B>, https://github.com/asgr/Rwcs/ by Aaron Robotham.
 
 Recommended WCS-aware FITS image viewers:
 
@@ -279,6 +295,7 @@ essentially three levels, though some intermediate levels exist within these:
   The remainder of the routines in this level are independent of everything
   other than the grass-roots mathematical functions:
   - lin.h,c       -- Linear transformation matrix.
+  - dis.h,c       -- Distortion functions.
   - log.h,c       -- Logarithmic coordinates.
   - prj.h,c       -- Spherical projection equations.
   - sph.h,c       -- Spherical coordinate transformations.
@@ -428,11 +445,11 @@ memory for some of their members:
     tabfree() will then free it.  tabset() also allocates memory for the
     @a sense, @a p0, @a delta and @a extrema arrays.
 
-- disinit(): optionally allocates memory for the @ dtype, @ dp, and @ maxdis
+- disinit(): optionally allocates memory for the @a dtype, @a dp, and @a maxdis
     arrays.  disset() also allocates memory for a number of arrays that
-    hold distortion parmeters and intermediate values: @ axmap, @ Nhat,
-    @ offset, @ scale, @ iparm, and @ dparm, and also several private work
-    arrays: @ disp2x, @ disx2p, and @ tmpmem.
+    hold distortion parmeters and intermediate values: @a axmap, @a Nhat,
+    @a offset, @a scale, @a iparm, and @a dparm, and also several private work
+    arrays: @a disp2x, @a disx2p, and @a tmpmem.
 
 The caller may load data into these arrays but must not modify the struct
 members (i.e. the pointers) themselves or else memory leaks will result.
@@ -769,6 +786,29 @@ interleaved.
 */
 
 
+/** @page limits Limits
+While the FITS WCS standard imposes a limit of 99 on the number of image
+coordinate axes, WCSLIB has a limit of 32 on the number it can handle --
+enforced by wcsset(), though allowed by wcsinit().  This arises in wcsp2s()
+and wcss2p() from the use of the <EM>stat[]</EM> vector as a bit mask to
+indicate invalid pixel or world coordinate elements.
+
+In the unlikely event that it ever becomes necessary to handle more than 32
+axes, it would be a simple matter to modify the <EM>stat[]</EM> bit mask so
+that bit 32 applies to all axes beyond 31.  However, it was not considered
+worth introducing the various tests required just for the sake of pandering to
+unrealistic possibilities.
+
+In addition, tabs2p() uses a helper function, tabvox(), that has a hard-coded
+limit of 32 coordinate elements (matching the <EM>stat[]</EM> bit mask).
+While it would be a simple matter to generalise this by allocating memory from
+the heap, since tabvox() calls itself recursively and needs to be as fast as
+possible, again it was not considered worth pandering to unrealistic
+possibilities.
+*/
+
+
+
 /** @page testing Example code, testing and verification
 
 WCSLIB has an extensive test suite that also provides programming templates
@@ -884,7 +924,14 @@ integrity of the mathematical routines.
 /** @page fortran WCSLIB Fortran wrappers
 
 The Fortran subdirectory contains wrappers, written in C, that allow Fortran
-programs to use WCSLIB.
+programs to use WCSLIB.  The wrappers have no associated C header files, nor C
+function prototypes, as they are only meant to be called by Fortran code.
+Hence the C code must be consulted directly to determine the argument lists.
+This resides in files with names of the form @c *_f.c.  However, there are
+associated Fortran @c INCLUDE files that declare function return types and
+various parameter definitions.  There are also @c BLOCK @c DATA modules, in
+files with names of the form @c *_data.f, used solely to initialise error
+message strings.
 
 A prerequisite for using the wrappers is an understanding of the usage of the
 associated C routines, in particular the data structures they are based on.
@@ -915,10 +962,10 @@ prints the size of the struct in <EM>sizeof(int)</EM> units and the values in
 the Fortran include files must equal or exceed these.  On some platforms, such
 as Suns, it is important that the start of the @c INTEGER array be
 <EM><B>aligned on a @c DOUBLE @c PRECISION boundary</B></EM>, otherwise a
-@c BUS error may result.  This may be achieved via an @c EQUIVALENCE with a
-@c DOUBLE @c PRECISION variable, or by sequencing variables in a @c COMMON
-block so that the @c INTEGER array follows immediately after a @c DOUBLE
-@c PRECISION variable.
+mysterious @c BUS error may result.  This may be achieved via an
+@c EQUIVALENCE with a @c DOUBLE @c PRECISION variable, or by sequencing
+variables in a @c COMMON block so that the @c INTEGER array follows
+immediately after a @c DOUBLE @c PRECISION variable.
 
 The @c *PUT routines set only one element of an array at a time; the final one
 or two integer arguments of these routines specify 1-relative array indices
@@ -931,7 +978,7 @@ itself to -1 prior to the first call to @c WCSINIT, for example, then that
 
 The @c *GET routines retrieve whole arrays at a time and expect array
 arguments of the appropriate length where necessary.  Note that they do not
-initialize the structs.
+initialize the structs, i.e. via wcsset(), prjset(), or whatever.
 
 A basic coding fragment is
 
@@ -961,6 +1008,9 @@ A basic coding fragment is
       CTYPE1 = 'RA---SIN'
       STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE1, 1, 0)
 
+*     Use an alternate method to set CTYPE2.
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'DEC--SIN'//CHAR(0), 2, 0)
+
 *     Set PV1_3 to -1.0 (I = 1, M = 3).
       STATUS = WCSPUT (WCS, WCS_PV, -1D0, 1, 3)
 
@@ -969,8 +1019,8 @@ A basic coding fragment is
 *     Initialize.
       STATUS = WCSSET (WCS)
       IF (STATUS.NE.0) THEN
-        CALL FLUSH(6)
-        STATUS = WCSPERR(WCS, CHAR(0))
+        CALL FLUSH (6)
+        STATUS = WCSPERR (WCS, 'EXAMPLE: '//CHAR(0))
       ENDIF
 
 *     Find the "longitude" axis.
@@ -984,16 +1034,62 @@ Refer to the various Fortran test programs for further programming examples.
 In particular, @a twcs and @a twcsmix show how to retrieve elements of the
 celprm and prjprm structs contained within the wcsprm struct.
 
+Treatment of @c CHARACTER arguments in wrappers such as @c SPCTYPE, @c SPECX,
+and @c WCSSPTR, depends on whether they are given or returned.  Where a
+@c CHARACTER variable is returned, its length must match the declared length
+in the definition of the C wrapper.  The terminating null character in the C
+string, and all following it up to the declared length, are replaced with
+blanks.  If the Fortran @c CHARACTER variable were shorter than the declared
+length, an out-of-bounds memory access error would result.  If longer, the
+excess, uninitialized, characters could contain garbage.
+
+If the @c CHARACTER argument is given, a null-terminated @c CHARACTER variable
+may be provided as input, e.g. constructed using the Fortran @c CHAR(0)
+intrinsic as in the example code above.  The wrapper makes a
+character-by-character copy, searching for a NULL character in the process.
+If it finds one, the copy terminates early, resulting in a valid C string.
+In this case any trailing blanks before the @c NULL character are preserved if
+it makes sense to do so, such as in setting a prefix for use by the @c *PERR
+wrappers, such as @c WCSPERR in the example above.  If a NULL is not found,
+then the @c CHARACTER argument must be at least as long as the declared
+length, and any trailing blanks are stripped off.  Should a @c CHARACTER
+argument exceed the declared length, the excess characters are ignored.
+
+There is one exception to the above caution regarding @c CHARACTER arguments.
+The @c WCSLIB_VERSION wrapper is unusual in that it provides for the length of
+its @c CHARACTER argument to be specified, and only so many characters as fit
+within that length are returned.
+
 Note that the data type of the third argument to the @c *PUT and @c *GET
 routines differs depending on the data type of the corresponding C struct
 member, be it @a int, @a double, or @a char[].  It is essential that the
 Fortran data type match that of the C struct for @a int and @a double types,
-and be a @c CHARACTER variable of the correct length for @a char[] types.
-Compilers (e.g. g77) may warn of inconsistent usage of this argument but this
-can (usually) be safely ignored.  If these warnings become annoying,
-type-specific variants are provided for each of the @c *PUT routines, @c *PTI,
-@c *PTD, and @c *PTC for @a int, @a double, or @a char[] and likewise @c *GTI,
-@c *GTD, and @c *GTC for the @c *GET routines.
+and be a @c CHARACTER variable of the correct length for @a char[] types, or
+else be null-terminated, as in the coding example above.  As a further
+example, in the call
+
+@verbatim
+      STATUS = PRJGET (PRJ, PRJ_NAME, NAME)
+@endverbatim
+
+which returns a character string, @c NAME must be a @c CHARACTER variable of
+length 40, as declared in the prjprm struct, no less and no more, the comments
+above pertaining to wrappers that contain @c CHARACTER arguments also applying
+here.  However, a few exceptions have been made to simplify coding.  The
+relevant @c *PUT wrappers allow unterminated @c CHARACTER variables of less
+than the declared length for the following: @c prjprm::code (3 characters),
+@c spcprm::type (4 characters), @c spcprm::code (3 characters), and
+@c fitskeyid::name (8 characters).  It doesn't hurt to specify longer
+@c CHARACTER variables, but the trailing characters will be ignored.
+Notwithstanding this simplification, the length of the corresponding variables
+in the @c *GET wrappers must match the length declared in the struct.
+
+Compilers (e.g. g77) may warn of inconsistent usage of the third argument in
+the @c *PUT and @c *GET routines but this can (usually) be safely ignored.  If
+these warnings become annoying, type-specific variants are provided for each
+of the @c *PUT routines, @c *PTI, @c *PTD, and @c *PTC for @a int, @a double,
+or @a char[] and likewise @c *GTI, @c *GTD, and @c *GTC for the @c *GET
+routines.
 
 When calling wrappers for C functions that print to @a stdout, such as
 @c WCSPRT, and @c WCSPERR, or that may print to @a stderr, such as @c WCSPIH,
@@ -1060,11 +1156,11 @@ separated by periods:
    <I>linprm</I> struct changed between 4.25.1 and 5.0.
 
    In practical terms, this number becomes the major version number of the
-   WCSLIB sharable library, <B>libwcs.so.<major></B>.  To avoid possible
-   segmentation faults or bus errors that may arise from the altered ABI, the
-   dynamic (runtime) linker will not allow an application linked to a sharable
-   library with a particular major version number to run with that of a
-   different major version number.
+   WCSLIB sharable library, <B>libwcs.so.<I><major></I></B>.  To avoid
+   possible segmentation faults or bus errors that may arise from the altered
+   ABI, the dynamic (runtime) linker will not allow an application linked to a
+   sharable library with a particular major version number to run with that of
+   a different major version number.
 
    Application code must be recompiled and relinked to use a newer version of
    the WCSLIB sharable library with a new major version number.
@@ -1072,7 +1168,7 @@ separated by periods:
  - <B>Minor</B>: the second number changes when existing code is changed,
    whether due to added functionality or bug fixes.  This becomes the minor
    version number of the WCSLIB sharable library,
-   <B>libwcs.so.<major>.<minor></B>.
+   <B>libwcs.so.<I><major>.<minor></I></B>.
 
    Because the ABI remains unchanged, older applications can use the new
    sharable library without needing to be recompiled, thus obtaining the
@@ -1093,8 +1189,8 @@ The following describes what happens (or should happen) when WCSLIB's
 installation procedures are used on a typical Linux system using the GNU gcc
 compiler and GNU linker.
 
-The sharable library should be installed as libwcs.so.<major>.<minor>, say
-libwcs.so.5.4 for concreteness, and a number of symbolic links created as
+The sharable library should be installed as libwcs.so.<I><major>.<minor></I>,
+say libwcs.so.5.4 for concreteness, and a number of symbolic links created as
 follows:
 
 @verbatim

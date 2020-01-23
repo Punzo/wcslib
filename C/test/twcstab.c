@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcstab.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcstab.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcstab tests wcstab() and also provides sample code for using it in
@@ -118,7 +118,7 @@ int main()
 
   /* Finished with the FITS file. */
   fits_close_file(fptr, &status);
-  free(header);
+  fits_free_memory(header, &status);
 
   /* Clean up. */
   status = wcsvfree(&nwcs, &wcs);
@@ -165,7 +165,8 @@ int create_input()
   double tindex[] = {0.0, 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0};
 
   char   keyrec[84];
-  int    i, status;
+  int    status;
+  size_t iz;
   long   dummy, firstelem, k1, k2, p1, p2, p3;
   float  array[2*K1*K2], *fp, image[256];
   double s, t, x1, x2, z, z1, z2;
@@ -190,8 +191,8 @@ int create_input()
     if (keyrec[0] == '#') continue;
 
     /* Strip off the newline. */
-    i = strlen(keyrec) - 1;
-    if (keyrec[i] == '\n') keyrec[i] = '\0';
+    iz = strlen(keyrec) - 1;
+    if (keyrec[iz] == '\n') keyrec[iz] = '\0';
 
     fits_write_record(fptr, keyrec, &status);
   }

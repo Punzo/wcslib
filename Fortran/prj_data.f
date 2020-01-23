@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: prj_data.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: prj_data.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       BLOCK DATA PRJ_BLOCK_DATA

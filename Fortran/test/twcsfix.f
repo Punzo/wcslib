@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: twcsfix.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: twcsfix.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       PROGRAM TWCSFIX
@@ -45,13 +45,16 @@
       INTEGER   N
       PARAMETER (N = 3)
 
-      INTEGER   I, J, NAXIS
-      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), PC(N,N), RESTFRQ,
-     :          RESTWAV
-      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEOBS*72
+      INTEGER   I, J, NAXIS, VELREF
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
 
-      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, NAXIS
-      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
 
 *     On some systems, such as Sun Sparc, the struct MUST be aligned
 *     on a double precision boundary, done here using an equivalence.
@@ -82,8 +85,22 @@
       DATA RESTFRQ /1.42040575D9/
       DATA RESTWAV /0D0/
 
-*     N.B. non-standard, corresponding to MJD 35884.04861111
+*     N.B. non-standard date-time format.
       DATA DATEOBS /'1957/02/15 01:10:00'/
+      DATA DATEBEG /'1957/02/15 01:10:00'/
+      DATA DATEAVG /'1957/02/15 02:10:00'/
+      DATA DATEEND /'1957/02/15 03:10:00'/
+
+      DATA BEPOCH  / 1957.124382563D0/
+      DATA MJDBEG  / 35884.048611D0/
+
+      DATA OBSGEO_L /148.263510D0/
+      DATA OBSGEO_B /-32.998406D0/
+      DATA OBSGEO_H /   411.793D0/
+
+*     For testing SPCFIX.
+      DATA VELREF  /2/
+      DATA SPECSYS /'BARYCENT'/
 *-----------------------------------------------------------------------
       WRITE (*, 10)
  10   FORMAT ('Testing WCSLIB translator for non-standard usage ',
@@ -98,7 +115,7 @@
 *     Fix non-standard WCS keyvalues.
       STATUS = WCSFIX (7, 0, WCS, STAT)
       WRITE (*, 20) (STAT(I), I=1,WCSFIX_NWCS)
- 20   FORMAT ('WCSFIX status returns: (',I2,5(',',I2),')',/)
+ 20   FORMAT ('WCSFIX status returns: (',I2,6(',',I2),')',/)
 
       IF (STATUS.NE.0) THEN
         WRITE (*, 30) STATUS
@@ -157,13 +174,16 @@
       INTEGER   N
       PARAMETER (N = 3)
 
-      INTEGER   I, J, NAXIS, STATUS, WCS(*)
-      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N),
-     :          PC(N,N), RESTFRQ, RESTWAV
-      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEOBS*72
+      INTEGER   I, J, NAXIS, STATUS, VELREF, WCS(*)
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
 
-      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, NAXIS
-      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
 
       INCLUDE 'wcsunits.inc'
       INCLUDE 'wcs.inc'
@@ -190,7 +210,19 @@
       STATUS = WCSPUT (WCS, WCS_NPV, 1, 0, 0)
       STATUS = WCSPUT (WCS, WCS_PV, -1D0, -1, -1)
 
-      STATUS = WCSPUT (WCS, WCS_DATEOBS, DATEOBS, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_VELREF, VELREF, 0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_DATEAVG, DATEAVG, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_DATEEND, DATEEND, 0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_BEPOCH,  BEPOCH,  0, 0)
+      STATUS = WCSPUT (WCS, WCS_MJDBEG,  MJDBEG,  0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_L, 4, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_B, 5, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_H, 6, 0)
+
+      STATUS = WCSPUT (WCS, WCS_SPECSYS, SPECSYS, 0, 0)
 
       RETURN
       END

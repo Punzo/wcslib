@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: lin.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: lin.inc,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
 *     Functions.
@@ -63,7 +63,6 @@
       PARAMETER (LIN_UNITY  = 203)
       PARAMETER (LIN_AFFINE = 204)
       PARAMETER (LIN_SIMPLE = 205)
-
       PARAMETER (LIN_ERR    = 206)
 
 *     Error codes and messages.

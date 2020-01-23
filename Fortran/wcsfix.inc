@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,25 +22,28 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: wcsfix.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: wcsfix.inc,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
 *     Functions.
-      EXTERNAL  WCSFIX, CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, CYLFIX
+      EXTERNAL  WCSFIX, CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+     :          CYLFIX
 
-      INTEGER   WCSFIX, CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, CYLFIX
+      INTEGER   WCSFIX, CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+     :          CYLFIX
 
 *     Flag bits for the RELAX argument.
-      INTEGER   WCSFIX_CD, WCSFIX_DAT, WCSFIX_UNIT, WCSFIX_CEL,
-     :          WCSFIX_SPC, WCSFIX_CYL, WCSFIX_NWCS
+      INTEGER   WCSFIX_CD, WCSFIX_DAT, WCSFIX_OBS, WCSFIX_UNIT,
+     :          WCSFIX_CEL, WCSFIX_SPC, WCSFIX_CYL, WCSFIX_NWCS
 
       PARAMETER (WCSFIX_CD   = 1)
       PARAMETER (WCSFIX_DAT  = 2)
-      PARAMETER (WCSFIX_UNIT = 3)
-      PARAMETER (WCSFIX_CEL  = 4)
-      PARAMETER (WCSFIX_SPC  = 5)
-      PARAMETER (WCSFIX_CYL  = 6)
-      PARAMETER (WCSFIX_NWCS = 6)
+      PARAMETER (WCSFIX_OBS  = 3)
+      PARAMETER (WCSFIX_UNIT = 4)
+      PARAMETER (WCSFIX_CEL  = 5)
+      PARAMETER (WCSFIX_SPC  = 6)
+      PARAMETER (WCSFIX_CYL  = 7)
+      PARAMETER (WCSFIX_NWCS = 7)
 
 *     Error codes and messages.
       INTEGER   FIXERR_NO_CHANGE, FIXERR_SUCCESS, FIXERR_NULL_POINTER,

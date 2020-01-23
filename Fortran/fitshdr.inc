@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: fitshdr.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: fitshdr.inc,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
 *     Functions.
@@ -57,6 +57,15 @@
       PARAMETER (KEY_KEYVALUE  = 205)
       PARAMETER (KEY_ULEN      = 206)
       PARAMETER (KEY_COMMENT   = 207)
+
+*     Error codes and messages.
+      INTEGER   FITSHDRERR_SUCCESS, FITSHDRERR_NULL_POINTER,
+     :          FITSHDRERR_MEMORY, FITSHDRERR_FLEX_PARSER
+
+      PARAMETER (FITSHDRERR_SUCCESS      = 0)
+      PARAMETER (FITSHDRERR_NULL_POINTER = 1)
+      PARAMETER (FITSHDRERR_MEMORY       = 2)
+      PARAMETER (FITSHDRERR_FLEX_PARSER  = 3)
 
       CHARACTER FITSHDR_ERRMSG(0:3)*80
       COMMON /FITSHDR_DATA/ FITSHDR_ERRMSG

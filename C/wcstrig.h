@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,10 +22,10 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcstrig.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcstrig.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
-* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
 * (WCS) standard.  Refer to the README file provided with WCSLIB for an
 * overview of the library.
 *
@@ -164,9 +164,9 @@
 
 #include "wcsconfig.h"
 
-/*#ifdef HAVE_SINCOS
+#ifdef HAVE_SINCOS
   void sincos(double angle, double *sin, double *cos);
-#endif*/
+#endif
 
 #ifdef __cplusplus
 extern "C" {
@@ -185,11 +185,11 @@ extern "C" {
 #define asind(X) asin(X)*R2D
 #define atand(X) atan(X)*R2D
 #define atan2d(Y,X) atan2(Y,X)*R2D
-/*#ifdef HAVE_SINCOS
+#ifdef HAVE_SINCOS
   #define sincosd(X,S,C) sincos((X)*D2R,(S),(C))
 #else
   #define sincosd(X,S,C) *(S) = sin((X)*D2R); *(C) = cos((X)*D2R);
-#endif*/
+#endif
 
 #else
 

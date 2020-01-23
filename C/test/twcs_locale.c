@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -23,7 +23,7 @@
   Author: Michael Droetboom, Space Telescope Science Institute,
      and: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcs_locale.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcs_locale.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcs_locale tests wcslib's handling of locales, such as fr_FR, that use a
@@ -40,6 +40,7 @@
 #include "wcserr.h"
 #include "wcshdr.h"
 #include "wcsprintf.h"
+#include "wcsutil.h"
 
 #define HEADER_SIZE 36000
 
@@ -91,7 +92,7 @@ int main()
   wcshdo(1, wcsp, &nkeyrec, &gen_header);
   printf("%s", gen_header);
 
-  free(gen_header);
+  wcsdealloc(gen_header);
   wcsvfree(&nwcs, &wcs);
 
   return 0;

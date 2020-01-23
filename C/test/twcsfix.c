@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcsfix.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcsfix.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcsfix tests the translation routines for non-standard WCS keyvalues, the
@@ -31,6 +31,7 @@
 *---------------------------------------------------------------------------*/
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 #include <wcs.h>
@@ -38,6 +39,7 @@
 #include <wcsfix.h>
 #include <wcsprintf.h>
 #include <wcsunits.h>
+#include <wcsutil.h>
 
 
 void parser(struct wcsprm *);
@@ -59,8 +61,18 @@ const double CRVAL[3] = {265.6220947090*3600.0, -28.98849996030*3600.0,
 const double RESTFRQ = 1.42040575e9;
 const double RESTWAV = 0.0;
 
-/* N.B. non-standard, corresponding to MJD 35884.04861111 */
+/* N.B. non-standard date-time format. */
 const char DATEOBS[] = "1957/02/15 01:10:00";
+const char DATEBEG[] = "1957/02/15 01:10:00";
+const char DATEAVG[] = "1957/02/15 02:10:00";
+const char DATEEND[] = "1957/02/15 03:10:00";
+
+const double BEPOCH  = 1957.124382563;
+const double MJDBEG  = 35884.048611;
+
+const double OBSGEO_L =   148.263510;
+const double OBSGEO_B =   -32.998406;
+const double OBSGEO_H =      411.793;
 
 /* For testing spcfix(). */
 const int  VELREF = 2;
@@ -99,6 +111,9 @@ int main()
     if (info[i].status < -1 || 0 < info[i].status) {
       wcsprintf("\n");
       wcserr_prt(info+i, 0x0);
+
+      /* Free memory used to store the message. */
+      if (info[i].msg) wcsdealloc(info[i].msg);
     }
   }
 
@@ -196,8 +211,18 @@ struct wcsprm *wcs;
   wcs->pv[0].value = -1.0;
   wcs->npv = 1;
 
-  wcs->velref  = VELREF;
-  strcpy(wcs->dateobs, DATEOBS);
+  wcs->velref = VELREF;
+
+  /* dateobs and datebeg will be set by datfix(). */
+  strcpy(wcs->dateavg, DATEAVG);
+  strcpy(wcs->dateend, DATEEND);
+  wcs->bepoch = BEPOCH;
+  wcs->mjdbeg = MJDBEG;
+
+  wcs->obsgeo[3] = OBSGEO_L;
+  wcs->obsgeo[4] = OBSGEO_B;
+  wcs->obsgeo[5] = OBSGEO_H;
+
   strcpy(wcs->specsys, SPECSYS);
 
   return;

@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-# GNU makefile for building WCSLIB 5.18
+# GNU makefile for building WCSLIB 7.1
 #
 # Summary of the main targets
 # ---------------------------
@@ -32,9 +32,10 @@
 #
 # Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 # http://www.atnf.csiro.au/people/Mark.Calabretta
-# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+# $Id: GNUmakefile,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 #-----------------------------------------------------------------------------
 # Get configure settings.
+SUBDIR := .
 include makedefs
 
 ifeq "$(CHECK)" "nopgplot"
@@ -56,7 +57,7 @@ check tests :: show
 	-@ $(TIMER)
 	 @ for DIR in $(SUBDIRS) ; do \
 	     echo '' ; \
-	     $(MAKE) -i -C $$DIR cleaner ; \
+	     $(MAKE) -i -C $$DIR cleaner build ; \
 	   done
 	-@ echo ''
 	 @ for DIR in $(TSTDIRS) ; do \
@@ -141,10 +142,12 @@ config.status : configure
 	-@ $(TIMER)
 	-@ echo ''
 	-@ echo "Environment variables that affect 'configure':"
-	-@ echo "  CC       = $${CC-(undefined)}"
-	-@ echo "  CFLAGS   = $${CFLAGS-(undefined)}"
+	-@ echo "  FLEX     = $${FLEX-(undefined)}"
+	-@ echo "  FLFLAGS  = $${FLFLAGS-(undefined)}"
 	-@ echo "  CPP      = $${CPP-(undefined)}"
 	-@ echo "  CPPFLAGS = $${CPPFLAGS-(undefined)}"
+	-@ echo "  CC       = $${CC-(undefined)}"
+	-@ echo "  CFLAGS   = $${CFLAGS-(undefined)}"
 	-@ echo "  F77      = $${F77-(undefined)}"
 	-@ echo "  FFLAGS   = $${FFLAGS-(undefined)}"
 	-@ echo "  ARFLAGS  = $${ARFLAGS-(undefined)}"

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: prj_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: prj_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -49,6 +49,7 @@
 #define prjperr_ F77_FUNC(prjperr, PRJPERR)
 #define prjbchk_ F77_FUNC(prjbchk, PRJBCHK)
 
+/* Must match the values set in prj.inc. */
 #define PRJ_FLAG      100
 #define PRJ_CODE      101
 #define PRJ_R0        102
@@ -92,8 +93,10 @@ int prjput_(int *prj, const int *what, const void *value, const int *m)
     prjp->flag = *ivalp;
     break;
   case PRJ_CODE:
-    strncpy(prjp->code, cvalp, 3);
+    /* Only three characters need be given. */
+    wcsutil_strcvt(3, ' ', cvalp, prjp->code);
     prjp->code[3] = '\0';
+    wcsutil_null_fill(4, prjp->code);
     prjp->flag = 0;
     break;
   case PRJ_R0:
@@ -161,7 +164,7 @@ int prjget_(const int *prj, const int *what, void *value)
     *ivalp = prjp->flag;
     break;
   case PRJ_CODE:
-    strncpy(cvalp, prjp->code, 3);
+    wcsutil_strcvt(4, ' ', prjp->code, cvalp);
     break;
   case PRJ_R0:
     *dvalp = prjp->r0;
@@ -181,7 +184,7 @@ int prjget_(const int *prj, const int *what, void *value)
     *ivalp = prjp->bounds;
     break;
   case PRJ_NAME:
-    strncpy(cvalp, prjp->name, 40);
+    wcsutil_strcvt(40, ' ', prjp->name, cvalp);
     break;
   case PRJ_CATEGORY:
     *ivalp = prjp->category;
@@ -283,16 +286,17 @@ int prjprt_(const int *prj)
 
 /*--------------------------------------------------------------------------*/
 
-/* prefix should be null-terminated, or else of length 72 in which case
- * trailing blanks are not significant. */
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
 
 int prjperr_(int *prj, const char prefix[72])
 
 {
-  char prefix_[72];
+  char prefix_[73];
 
-  strncpy(prefix_, prefix, 72);
-  wcsutil_null_fill(72, prefix_);
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed. */
   /* If not, try CALL FLUSH(6) before calling PRJPERR in the Fortran code. */

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: tpih2.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: tpih2.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * tpih2 tests wcspih(), the WCS FITS parser for image headers, by reading a
@@ -113,7 +113,7 @@ int main()
       if (strncmp(keyrec, "COMMENT ", 8) == 0) continue;
       if (strncmp(keyrec, "HISTORY ", 8) == 0) continue;
 
-      strncpy(header+k, keyrec, 80);
+      memcpy(header+k, keyrec, 80);
       k += 80;
       nkeyrec++;
 
@@ -135,7 +135,7 @@ int main()
     fprintf(stderr, "wcspih ERROR %d: %s.\n", status, wcs_errmsg[status]);
   }
 #if defined HAVE_CFITSIO && defined DO_CFITSIO
-  free(header);
+  fits_free_memory(header, &status);
 #endif
 
   /* Plot setup. */

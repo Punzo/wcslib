@@ -1,15 +1,29 @@
 Testing WCSLIB translator for non-standard usage (twcsfix.c)
 ------------------------------------------------------------
 
-wcsfix status returns: (-1, 0, 0, 0, 0, -1)
+wcsfix status returns: (-1, 0, 0, 0, 0, 0, -1)
 
-INFORMATIVE message from datfix() at line 429 of file wcsfix.c:
-Changed '1957/02/15 01:10:00' to '1957-02-15T01:10:00'.
+INFORMATIVE message from datfix() at line 589 of file wcsfix.c:
+Set MJD-OBS to 35884.048611 from BEPOCH.
+Set DATE-OBS to '1957-02-15T01:10:00.018' from MJD-OBS.
+Set DATE-BEG to '1957-02-15T01:09:59.990' from MJD-BEG.
+Set MJD-AVG to 35884.090278 from DATE-AVG.
+Changed DATE-AVG from '1957/02/15 02:10:00' to '1957-02-15T02:10:00'.
+Set MJD-END to 35884.131944 from DATE-END.
+Changed DATE-END from '1957/02/15 03:10:00' to '1957-02-15T03:10:00'.
 
-INFORMATIVE message from unitfix() at line 471 of file wcsfix.c:
-Changed units: 'ARCSEC' -> 'arcsec', 'ARCSEC' -> 'arcsec', 'KM/SEC' -> 'km/s'.
+INFORMATIVE message from obsfix() at line 694 of file wcsfix.c:
+Set OBSGEO-X to -4554231.538 from OBSGEO-[LBH].
+Set OBSGEO-Y to  2816759.125 from OBSGEO-[LBH].
+Set OBSGEO-Z to -3454036.303 from OBSGEO-[LBH].
 
-INFORMATIVE message from spcfix() at line 519 of file wcsfix.c:
+INFORMATIVE message from unitfix() at line 834 of file wcsfix.c:
+Changed units:
+  'ARCSEC' -> 'arcsec',
+  'ARCSEC' -> 'arcsec',
+  'KM/SEC' -> 'km/s.
+
+INFORMATIVE message from spcfix() at line 882 of file wcsfix.c:
 Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
 
        flag: 137
@@ -57,27 +71,57 @@ Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
      colnum: 0
       colax: 0x<address>
                  0      0      0
-    wcsname: UNDEFINED
       cname: 0x<address>
              UNDEFINED
              UNDEFINED
              UNDEFINED
       crder: 0x<address>
-             UNDEFINED     UNDEFINED     UNDEFINED   
+               UNDEFINED    UNDEFINED    UNDEFINED
       csyer: 0x<address>
-             UNDEFINED     UNDEFINED     UNDEFINED   
+               UNDEFINED    UNDEFINED    UNDEFINED
+      czphs: 0x<address>
+               UNDEFINED    UNDEFINED    UNDEFINED
+      cperi: 0x<address>
+               UNDEFINED    UNDEFINED    UNDEFINED
+    wcsname: UNDEFINED
+    timesys: UNDEFINED
+    trefpos: UNDEFINED
+    trefdir: UNDEFINED
+    plephem: UNDEFINED
+   timeunit: UNDEFINED
+    dateref: UNDEFINED
+     mjdref:      0.000000000     0.000000000
+   timeoffs: UNDEFINED
+    dateobs: "1957-02-15T01:10:00.018"
+    datebeg: "1957-02-15T01:09:59.990"
+    dateavg: "1957-02-15T02:10:00"
+    dateend: "1957-02-15T03:10:00"
+     mjdobs:  35884.048611317
+     mjdbeg:  35884.048611000
+     mjdavg:  35884.090277778
+     mjdend:  35884.131944444
+     jepoch: UNDEFINED
+     bepoch:   1957.124382563
+     tstart: UNDEFINED
+      tstop: UNDEFINED
+    xposure: UNDEFINED
+    telapse: UNDEFINED
+    timsyer: UNDEFINED
+    timrder: UNDEFINED
+    timedel: UNDEFINED
+   timepixr: UNDEFINED
+     obsgeo:  -4554231.538450  2816759.125233 -3454036.303343
+                   148.263510      -32.998406      411.793000
+   obsorbit: UNDEFINED
     radesys: "ICRS"
     equinox: UNDEFINED
     specsys: "BARYCENT"
     ssysobs: UNDEFINED
     velosys: UNDEFINED
-    ssyssrc: UNDEFINED
     zsource: UNDEFINED
-     obsgeo: UNDEFINED     UNDEFINED     UNDEFINED     
-    dateobs: "1957-02-15T01:10:00"
-    dateavg: UNDEFINED
-     mjdobs: 35884.048611
-     mjdavg: UNDEFINED
+    ssyssrc: UNDEFINED
+    velangl: UNDEFINED
+        aux: 0x0
        ntab: 0
         tab: 0x0
        nwtb: 0
@@ -111,6 +155,9 @@ Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
     m_cname: 0x<address>  (= cname)
     m_crder: 0x<address>  (= crder)
     m_csyer: 0x<address>  (= csyer)
+    m_czphs: 0x<address>  (= czphs)
+    m_cperi: 0x<address>  (= cperi)
+      m_aux: 0x0  (= aux)
       m_tab: 0x0  (= tab)
       m_wtb: 0x0  (= wtb)
 
@@ -245,27 +292,57 @@ Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
      colnum: 0
       colax: 0x<address>
                  0      0      0
-    wcsname: UNDEFINED
       cname: 0x<address>
              UNDEFINED
              UNDEFINED
              UNDEFINED
       crder: 0x<address>
-             UNDEFINED     UNDEFINED     UNDEFINED   
+               UNDEFINED    UNDEFINED    UNDEFINED
       csyer: 0x<address>
-             UNDEFINED     UNDEFINED     UNDEFINED   
+               UNDEFINED    UNDEFINED    UNDEFINED
+      czphs: 0x<address>
+               UNDEFINED    UNDEFINED    UNDEFINED
+      cperi: 0x<address>
+               UNDEFINED    UNDEFINED    UNDEFINED
+    wcsname: UNDEFINED
+    timesys: UNDEFINED
+    trefpos: UNDEFINED
+    trefdir: UNDEFINED
+    plephem: UNDEFINED
+   timeunit: UNDEFINED
+    dateref: UNDEFINED
+     mjdref:      0.000000000     0.000000000
+   timeoffs: UNDEFINED
+    dateobs: "1957-02-15T01:10:00.018"
+    datebeg: "1957-02-15T01:09:59.990"
+    dateavg: "1957-02-15T02:10:00"
+    dateend: "1957-02-15T03:10:00"
+     mjdobs:  35884.048611317
+     mjdbeg:  35884.048611000
+     mjdavg:  35884.090277778
+     mjdend:  35884.131944444
+     jepoch: UNDEFINED
+     bepoch:   1957.124382563
+     tstart: UNDEFINED
+      tstop: UNDEFINED
+    xposure: UNDEFINED
+    telapse: UNDEFINED
+    timsyer: UNDEFINED
+    timrder: UNDEFINED
+    timedel: UNDEFINED
+   timepixr: UNDEFINED
+     obsgeo:  -4554231.538450  2816759.125233 -3454036.303343
+                   148.263510      -32.998406      411.793000
+   obsorbit: UNDEFINED
     radesys: "ICRS"
     equinox: UNDEFINED
     specsys: "BARYCENT"
     ssysobs: UNDEFINED
     velosys: UNDEFINED
-    ssyssrc: UNDEFINED
     zsource: UNDEFINED
-     obsgeo: UNDEFINED     UNDEFINED     UNDEFINED     
-    dateobs: "1957-02-15T01:10:00"
-    dateavg: UNDEFINED
-     mjdobs: 35884.048611
-     mjdavg: UNDEFINED
+    ssyssrc: UNDEFINED
+    velangl: UNDEFINED
+        aux: 0x0
        ntab: 0
         tab: 0x0
        nwtb: 0
@@ -299,6 +376,9 @@ Changed CTYPE3 from 'FELO-HEL' to 'VOPT-F2W' (VELREF=2).
     m_cname: 0x<address>  (= cname)
     m_crder: 0x<address>  (= crder)
     m_csyer: 0x<address>  (= csyer)
+    m_czphs: 0x<address>  (= czphs)
+    m_cperi: 0x<address>  (= cperi)
+      m_aux: 0x0  (= aux)
       m_tab: 0x0  (= tab)
       m_wtb: 0x0  (= wtb)
 

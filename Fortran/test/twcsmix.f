@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: twcsmix.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: twcsmix.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       PROGRAM TWCS2
@@ -219,7 +219,7 @@
       DOUBLE PRECISION IMG(4), LAT1, LATSPN(2), LNGSPN(2), LNG1, PHI,
      :          PIX1(4), PIX2(4), PIX3(4), PIXLAT, PIXLNG, THETA, TOL,
      :          WORLD(4)
-      CHARACTER PCODE*3
+      CHARACTER PCODE*4
 
 *     On some systems, such as Sun Sparc, the structs MUST be aligned
 *     on a double precision boundary, done here using equivalences.
@@ -244,7 +244,7 @@
       STATUS = CELGET (CEL, CEL_PRJ, PRJ)
       STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
       WRITE (*, 10) PCODE, TOL
- 10   FORMAT ('Testing ',A,'; reporting tolerance',1PG8.1,' deg.')
+ 10   FORMAT ('Testing ',A3,'; reporting tolerance',1PG8.1,' deg.')
 
       STATUS = WCSGET (WCS, WCS_LNG, LNGIDX)
       STATUS = WCSGET (WCS, WCS_LAT, LATIDX)
@@ -403,7 +403,7 @@
       INTEGER   DOID, STATUS
       REAL      IPT(1), JPT(1)
       DOUBLE PRECISION EULER(5), LNG1, LAT1, PHI, PIXLAT, PIXLNG, THETA
-      CHARACTER PCODE*3
+      CHARACTER PCODE*4
 
 *     On some systems, such as Sun Sparc, the structs MUST be aligned
 *     on a double precision boundary.  As a dummy argument, WCS should
@@ -456,7 +456,7 @@
       DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT, LNG, PHI(0:360),
      :          PIX(NELEM,0:360), REF(4), STEP, THETA(0:360), W(10),
      :          WORLD(NELEM,0:360)
-      CHARACTER PCODE*3, TEXT*80
+      CHARACTER PCODE*4, TEXT*80
 
 *     On some systems, such as Sun Sparc, the structs MUST be aligned
 *     on a double precision boundary.  As a dummy argument, WCS should
@@ -735,7 +735,7 @@
 *     Write a descriptive title.
       CALL PGSCI (1)
       STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
-      TEXT = PCODE // ' projection - 15 degree graticule'
+      TEXT = PCODE // 'projection - 15 degree graticule'
       WRITE (*, '(//,A)') TEXT
       CALL PGTEXT (IMIN, JMIN-10.0, TEXT)
 

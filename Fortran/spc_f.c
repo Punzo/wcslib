@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: spc_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: spc_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -62,6 +62,7 @@
 #define spcxps_  F77_FUNC(spcxps,  SPCXPS)
 #define spctrn_  F77_FUNC(spctrn,  SPCTRN)
 
+/* Must match the values set in spc.inc. */
 #define SPC_FLAG    100
 #define SPC_TYPE    101
 #define SPC_CODE    102
@@ -97,12 +98,16 @@ int spcput_(int *spc, const int *what, const void *value, const int *m)
     spcp->flag = *ivalp;
     break;
   case SPC_TYPE:
-    strncpy(spcp->type, cvalp, 4);
+    /* Only four characters need be given. */
+    wcsutil_strcvt(4, ' ', cvalp, spcp->type);
     spcp->type[4] = '\0';
+    wcsutil_null_fill(8, spcp->type);
     break;
   case SPC_CODE:
-    strncpy(spcp->code, cvalp, 3);
+    /* Only three characters need be given. */
+    wcsutil_strcvt(3, ' ', cvalp, spcp->code);
     spcp->code[3] = '\0';
+    wcsutil_null_fill(4, spcp->code);
     break;
   case SPC_CRVAL:
     spcp->crval = *dvalp;
@@ -162,10 +167,10 @@ int spcget_(const int *spc, const int *what, void *value)
     *ivalp = spcp->flag;
     break;
   case SPC_TYPE:
-    strncpy(cvalp, spcp->type, 4);
+    wcsutil_strcvt(8, ' ', spcp->type, cvalp);
     break;
   case SPC_CODE:
-    strncpy(cvalp, spcp->code, 3);
+    wcsutil_strcvt(4, ' ', spcp->code, cvalp);
     break;
   case SPC_CRVAL:
     *dvalp = spcp->crval;
@@ -254,16 +259,17 @@ int spcprt_(const int *spc)
 
 /*--------------------------------------------------------------------------*/
 
-/* prefix should be null-terminated, or else of length 72 in which case
- * trailing blanks are not significant. */
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
 
 int spcperr_(int *spc, const char prefix[72])
 
 {
-  char prefix_[72];
+  char prefix_[73];
 
-  strncpy(prefix_, prefix, 72);
-  wcsutil_null_fill(72, prefix_);
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed. */
   /* If not, try CALL FLUSH(6) before calling SPCPERR in the Fortran code. */
@@ -327,21 +333,16 @@ int spctype_(
   char ctypei_[9], scode_[4], sname_[22], stype_[5], units_[8];
   int status;
 
-  strncpy(ctypei_, ctypei, 8);
+  wcsutil_strcvt(8, ' ', ctypei, ctypei_);
   ctypei_[8] = '\0';
 
   status = spctype(ctypei_, stype_, scode_, sname_, units_, ptype, xtype,
                    restreq, (struct wcserr **)err);
 
-  wcsutil_blank_fill( 5, stype_);
-  wcsutil_blank_fill( 4, scode_);
-  wcsutil_blank_fill(22, sname_);
-  wcsutil_blank_fill( 8, units_);
-
-  strncpy(stype, stype_, 4);
-  strncpy(scode, scode_, 3);
-  strncpy(sname, sname_, 21);
-  strncpy(units, units_, 7);
+  wcsutil_strcvt( 4, ' ', stype_, stype);
+  wcsutil_strcvt( 3, ' ', scode_, scode);
+  wcsutil_strcvt(21, ' ', sname_, sname);
+  wcsutil_strcvt( 7, ' ', units_, units);
 
   return status;
 }
@@ -379,7 +380,8 @@ int spcspxe_(
 
 {
   char ctypeS_[9];
-  strncpy(ctypeS_, ctypeS, 8);
+
+  wcsutil_strcvt(8, ' ', ctypeS, ctypeS_);
   ctypeS_[8] = '\0';
 
   return spcspxe(ctypeS_, *crvalS, *restfrq, *restwav, ptype, xtype, restreq,
@@ -420,7 +422,8 @@ int spcxpse_(
 
 {
   char ctypeS_[9];
-  strncpy(ctypeS_, ctypeS, 8);
+
+  wcsutil_strcvt(8, ' ', ctypeS, ctypeS_);
   ctypeS_[8] = '\0';
 
   return spcxpse(ctypeS_, *crvalX, *restfrq, *restwav, ptype, xtype, restreq,
@@ -462,16 +465,16 @@ int spctrne_(
   int status;
   char ctypeS1_[9], ctypeS2_[9];
 
-  strncpy(ctypeS1_, ctypeS1, 8);
-  strncpy(ctypeS2_, ctypeS2, 8);
+  wcsutil_strcvt(8, ' ', ctypeS1, ctypeS1_);
   ctypeS1_[8] = '\0';
+
+  wcsutil_strcvt(8, ' ', ctypeS2, ctypeS2_);
   ctypeS2_[8] = '\0';
 
   status = spctrne(ctypeS1_, *crvalS1, *cdeltS1, *restfrq, *restwav,
                    ctypeS2_,  crvalS2,  cdeltS2, (struct wcserr **)err);
 
-  strncpy(ctypeS2, ctypeS2_, 8);
-  wcsutil_blank_fill(8, ctypeS2);
+  wcsutil_strcvt(8, ' ', ctypeS2_, ctypeS2);
 
   return status;
 }
@@ -505,16 +508,13 @@ int spcaips_(
   int status;
   char ctypeA_[9], ctype_[9], specsys_[9];
 
-  strncpy(ctypeA_, ctypeA, 8);
+  wcsutil_strcvt(8, ' ', ctypeA, ctypeA_);
   ctypeA_[8] = '\0';
 
   status = spcaips(ctypeA_, *velref, ctype_, specsys_);
 
-  wcsutil_blank_fill(9, ctype_);
-  strncpy(ctype, ctype_, 8);
-
-  wcsutil_blank_fill(9, specsys_);
-  strncpy(specsys, specsys_, 8);
+  wcsutil_strcvt(8, ' ', ctype_,   ctype);
+  wcsutil_strcvt(8, ' ', specsys_, specsys);
 
   return status;
 }

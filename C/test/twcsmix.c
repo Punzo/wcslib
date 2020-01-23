@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcsmix.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcsmix.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcsmix tests wcsmix() for closure on the 1 degree celestial graticule for
@@ -135,100 +135,100 @@ int main()
   PV[3].value = 0.0;		/* PVi_2 (set below).          */
 
   /* ARC: zenithal/azimuthal equidistant. */
-  strncpy(&CTYPE[1][5], "ARC", 3);
-  strncpy(&CTYPE[3][5], "ARC", 3);
+  memcpy(&CTYPE[1][5], "ARC", 3);
+  memcpy(&CTYPE[3][5], "ARC", 3);
   NPV = 2;
   mixex(-190.0, 190.0, -190.0, 190.0);
 
   /* ZEA: zenithal/azimuthal equal area. */
-  strncpy(&CTYPE[1][5], "ZEA", 3);
-  strncpy(&CTYPE[3][5], "ZEA", 3);
+  memcpy(&CTYPE[1][5], "ZEA", 3);
+  memcpy(&CTYPE[3][5], "ZEA", 3);
   NPV = 2;
   mixex(-120.0, 120.0, -120.0, 120.0);
 
   /* CYP: cylindrical perspective. */
-  strncpy(&CTYPE[1][5], "CYP", 3);
-  strncpy(&CTYPE[3][5], "CYP", 3);
+  memcpy(&CTYPE[1][5], "CYP", 3);
+  memcpy(&CTYPE[3][5], "CYP", 3);
   NPV = 4;
   PV[2].value = 3.0;
   PV[3].value = 0.8;
   mixex(-170.0, 170.0, -170.0, 170.0);
 
   /* CEA: cylindrical equal area. */
-  strncpy(&CTYPE[1][5], "CEA", 3);
-  strncpy(&CTYPE[3][5], "CEA", 3);
+  memcpy(&CTYPE[1][5], "CEA", 3);
+  memcpy(&CTYPE[3][5], "CEA", 3);
   NPV = 3;
   PV[2].value = 0.75;
   mixex(-200.0, 200.0, -200.0, 200.0);
 
   /* CAR: plate carree. */
-  strncpy(&CTYPE[1][5], "CAR", 3);
-  strncpy(&CTYPE[3][5], "CAR", 3);
+  memcpy(&CTYPE[1][5], "CAR", 3);
+  memcpy(&CTYPE[3][5], "CAR", 3);
   NPV = 2;
   mixex(-210.0, 210.0, -210.0, 210.0);
 
   /* SFL: Sanson-Flamsteed. */
-  strncpy(&CTYPE[1][5], "SFL", 3);
-  strncpy(&CTYPE[3][5], "SFL", 3);
+  memcpy(&CTYPE[1][5], "SFL", 3);
+  memcpy(&CTYPE[3][5], "SFL", 3);
   NPV = 2;
   mixex(-190.0, 190.0, -190.0, 190.0);
 
   /* PAR: parabolic. */
-  strncpy(&CTYPE[1][5], "PAR", 3);
-  strncpy(&CTYPE[3][5], "PAR", 3);
+  memcpy(&CTYPE[1][5], "PAR", 3);
+  memcpy(&CTYPE[3][5], "PAR", 3);
   NPV = 2;
   mixex(-190.0, 190.0, -190.0, 190.0);
 
   /* MOL: Mollweide's projection. */
-  strncpy(&CTYPE[1][5], "MOL", 3);
-  strncpy(&CTYPE[3][5], "MOL", 3);
+  memcpy(&CTYPE[1][5], "MOL", 3);
+  memcpy(&CTYPE[3][5], "MOL", 3);
   NPV = 2;
   mixex(-170.0, 170.0, -170.0, 170.0);
 
   /* AIT: Hammer-Aitoff. */
-  strncpy(&CTYPE[1][5], "AIT", 3);
-  strncpy(&CTYPE[3][5], "AIT", 3);
+  memcpy(&CTYPE[1][5], "AIT", 3);
+  memcpy(&CTYPE[3][5], "AIT", 3);
   NPV = 2;
   mixex(-170.0, 170.0, -170.0, 170.0);
 
   /* COE: conic equal area. */
-  strncpy(&CTYPE[1][5], "COE", 3);
-  strncpy(&CTYPE[3][5], "COE", 3);
+  memcpy(&CTYPE[1][5], "COE", 3);
+  memcpy(&CTYPE[3][5], "COE", 3);
   NPV = 4;
   PV[2].value = 60.0;
   PV[3].value = 15.0;
   mixex(-140.0, 140.0, -120.0, 160.0);
 
   /* COD: conic equidistant. */
-  strncpy(&CTYPE[1][5], "COD", 3);
-  strncpy(&CTYPE[3][5], "COD", 3);
+  memcpy(&CTYPE[1][5], "COD", 3);
+  memcpy(&CTYPE[3][5], "COD", 3);
   NPV = 4;
   PV[2].value = 60.0;
   PV[3].value = 15.0;
   mixex(-200.0, 200.0, -180.0, 220.0);
 
   /* BON: Bonne's projection. */
-  strncpy(&CTYPE[1][5], "BON", 3);
-  strncpy(&CTYPE[3][5], "BON", 3);
+  memcpy(&CTYPE[1][5], "BON", 3);
+  memcpy(&CTYPE[3][5], "BON", 3);
   NPV = 3;
   PV[2].value = 30.0;
   mixex(-160.0, 160.0, -160.0, 160.0);
 
   /* PCO: polyconic. */
-  strncpy(&CTYPE[1][5], "PCO", 3);
-  strncpy(&CTYPE[3][5], "PCO", 3);
+  memcpy(&CTYPE[1][5], "PCO", 3);
+  memcpy(&CTYPE[3][5], "PCO", 3);
   NPV = 2;
   mixex(-190.0, 190.0, -190.0, 190.0);
 
   /* TSC: tangential spherical cube. */
-  strncpy(&CTYPE[1][5], "TSC", 3);
-  strncpy(&CTYPE[3][5], "TSC", 3);
+  memcpy(&CTYPE[1][5], "TSC", 3);
+  memcpy(&CTYPE[3][5], "TSC", 3);
   NPV = 2;
   mixex(-340.0, 80.0, -210.0, 210.0);
 
   /* QSC: quadrilateralized spherical cube. */
-  strncpy(&CTYPE[1][5], "QSC", 3);
-  strncpy(&CTYPE[3][5], "QSC", 3);
+  memcpy(&CTYPE[1][5], "QSC", 3);
+  memcpy(&CTYPE[3][5], "QSC", 3);
   NPV = 2;
   mixex(-340.0, 80.0, -210.0, 210.0);
 

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -23,7 +23,7 @@
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO,
      and: Michael Droetboom, Space Telescope Science Institute
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: twcs.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: twcs.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * twcs tests wcss2p() and wcsp2s() for closure on an oblique 2-D slice through
@@ -102,6 +102,7 @@ int main()
   printf("      short int:%5"MODZ"u\n", sizeof(short int));
   printf("            int:%5"MODZ"u\n", sizeof(int));
   printf("       long int:%5"MODZ"u\n", sizeof(long int));
+  printf("  long long int:%5"MODZ"u\n", sizeof(long long int));
   printf("          float:%5"MODZ"u\n", sizeof(float));
   printf("         double:%5"MODZ"u\n", sizeof(double));
   printf("         char *:%5"MODZ"u\n", sizeof(char *));
@@ -114,6 +115,10 @@ int main()
   printf("struct pscard *:%5"MODZ"u\n", sizeof(struct pscard *));
 
   printf("\nSize of structs (bytes/ints):\n");
+
+  s = (sizeof(struct auxprm) == sizeof(int)*AUXLEN) ? ok : mismatch;
+  printf("         auxprm:%5"MODZ"u /%4"MODZ"u%s\n", sizeof(struct auxprm),
+         AUXLEN, s);
 
   s = (sizeof(struct celprm) == sizeof(int)*CELLEN) ? ok : mismatch;
   printf("         celprm:%5"MODZ"u /%4"MODZ"u%s\n", sizeof(struct celprm),

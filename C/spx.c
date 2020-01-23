@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: spx.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: spx.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <math.h>
@@ -54,11 +54,12 @@ const char *spx_errmsg[] = {
 *   others.
 *===========================================================================*/
 
-int specx(type, spec, restfrq, restwav, spx)
-
-const char *type;
-double spec, restfrq, restwav;
-struct spxprm *spx;
+int specx(
+  const char *type,
+  double spec,
+  double restfrq,
+  double restwav,
+  struct spxprm *spx)
 
 {
   static const char *function = "specx";
@@ -338,19 +339,23 @@ int spxperr(const struct spxprm *spx, const char *prefix)
 *   Conversions between frequency and vacuum wavelength.
 *===========================================================================*/
 
-int freqwave(dummy, nfreq, sfreq, swave, freq, wave, stat)
-
-double dummy;
-int nfreq, sfreq, swave;
-const double freq[];
-double wave[];
-int stat[];
+int freqwave(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swave,
+  const double freq[],
+  double wave[],
+  int stat[])
 
 {
   int status = 0;
   register int ifreq, *statp;
   register const double *freqp;
   register double *wavep;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   freqp = freq;
   wavep = wave;
@@ -373,19 +378,23 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int wavefreq(dummy, nwave, swave, sfreq, wave, freq, stat)
-
-double dummy;
-int nwave, swave, sfreq;
-const double wave[];
-double freq[];
-int stat[];
+int wavefreq(
+  double dummy,
+  int nwave,
+  int swave,
+  int sfreq,
+  const double wave[],
+  double freq[],
+  int stat[])
 
 {
   int status = 0;
   register int iwave, *statp;
   register const double *wavep;
   register double *freqp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   wavep = wave;
   freqp = freq;
@@ -410,13 +419,14 @@ int stat[];
 *   Conversions between frequency and air wavelength.
 *===========================================================================*/
 
-int freqawav(dummy, nfreq, sfreq, sawav, freq, awav, stat)
-
-double dummy;
-int nfreq, sfreq, sawav;
-const double freq[];
-double awav[];
-int stat[];
+int freqawav(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sawav,
+  const double freq[],
+  double awav[],
+  int stat[])
 
 {
   int status;
@@ -430,13 +440,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int awavfreq(dummy, nawav, sawav, sfreq, awav, freq, stat)
-
-double dummy;
-int nawav, sawav, sfreq;
-const double awav[];
-double freq[];
-int stat[];
+int awavfreq(
+  double dummy,
+  int nawav,
+  int sawav,
+  int sfreq,
+  const double awav[],
+  double freq[],
+  int stat[])
 
 {
   int status;
@@ -452,13 +463,14 @@ int stat[];
 *   Conversions between frequency and relativistic velocity.
 *===========================================================================*/
 
-int freqvelo(restfrq, nfreq, sfreq, svelo, freq, velo, stat)
-
-double restfrq;
-int nfreq, sfreq, svelo;
-const double freq[];
-double velo[];
-int stat[];
+int freqvelo(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svelo,
+  const double freq[],
+  double velo[],
+  int stat[])
 
 {
   double r, s;
@@ -485,13 +497,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int velofreq(restfrq, nvelo, svelo, sfreq, velo, freq, stat)
-
-double restfrq;
-int nvelo, svelo, sfreq;
-const double velo[];
-double freq[];
-int stat[];
+int velofreq(
+  double restfrq,
+  int nvelo,
+  int svelo,
+  int sfreq,
+  const double velo[],
+  double freq[],
+  int stat[])
 
 {
   int status = 0;
@@ -524,13 +537,14 @@ int stat[];
 *   Conversions between vacuum wavelength and air wavelength.
 *===========================================================================*/
 
-int waveawav(dummy, nwave, swave, sawav, wave, awav, stat)
-
-double dummy;
-int nwave, swave, sawav;
-const double wave[];
-double awav[];
-int stat[];
+int waveawav(
+  double dummy,
+  int nwave,
+  int swave,
+  int sawav,
+  const double wave[],
+  double awav[],
+  int stat[])
 
 {
   int status = 0;
@@ -538,6 +552,9 @@ int stat[];
   register int iwave, k, *statp;
   register const double *wavep;
   register double *awavp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   wavep = wave;
   awavp = awav;
@@ -569,13 +586,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int awavwave(dummy, nawav, sawav, swave, awav, wave, stat)
-
-double dummy;
-int nawav, sawav, swave;
-const double awav[];
-double wave[];
-int stat[];
+int awavwave(
+  double dummy,
+  int nawav,
+  int sawav,
+  int swave,
+  const double awav[],
+  double wave[],
+  int stat[])
 
 {
   int status = 0;
@@ -583,6 +601,9 @@ int stat[];
   register int iawav, *statp;
   register const double *awavp;
   register double *wavep;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   awavp = awav;
   wavep = wave;
@@ -612,13 +633,14 @@ int stat[];
 *   Conversions between vacuum wavelength and relativistic velocity.
 *===========================================================================*/
 
-int wavevelo(restwav, nwave, swave, svelo, wave, velo, stat)
-
-double restwav;
-int nwave, swave, svelo;
-const double wave[];
-double velo[];
-int stat[];
+int wavevelo(
+  double restwav,
+  int nwave,
+  int swave,
+  int svelo,
+  const double wave[],
+  double velo[],
+  int stat[])
 
 {
   double r, s;
@@ -645,13 +667,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int velowave(restwav, nvelo, svelo, swave, velo, wave, stat)
-
-double restwav;
-int nvelo, svelo, swave;
-const double velo[];
-double wave[];
-int stat[];
+int velowave(
+  double restwav,
+  int nvelo,
+  int svelo,
+  int swave,
+  const double velo[],
+  double wave[],
+  int stat[])
 
 {
   int status = 0;
@@ -684,13 +707,14 @@ int stat[];
 *   Conversions between air wavelength and relativistic velocity.
 *===========================================================================*/
 
-int awavvelo(dummy, nawav, sawav, svelo, awav, velo, stat)
-
-double dummy;
-int nawav, sawav, svelo;
-const double awav[];
-double velo[];
-int stat[];
+int awavvelo(
+  double dummy,
+  int nawav,
+  int sawav,
+  int svelo,
+  const double awav[],
+  double velo[],
+  int stat[])
 
 {
   int status;
@@ -704,13 +728,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int veloawav(dummy, nvelo, svelo, sawav, velo, awav, stat)
-
-double dummy;
-int nvelo, svelo, sawav;
-const double velo[];
-double awav[];
-int stat[];
+int veloawav(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sawav,
+  const double velo[],
+  double awav[],
+  int stat[])
 
 {
   int status;
@@ -726,18 +751,22 @@ int stat[];
 *   Conversions between frequency and angular frequency.
 *===========================================================================*/
 
-int freqafrq(dummy, nfreq, sfreq, safrq, freq, afrq, stat)
-
-double dummy;
-int nfreq, sfreq, safrq;
-const double freq[];
-double afrq[];
-int stat[];
+int freqafrq(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int safrq,
+  const double freq[],
+  double afrq[],
+  int stat[])
 
 {
   register int ifreq, *statp;
   register const double *freqp;
   register double *afrqp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   freqp = freq;
   afrqp = afrq;
@@ -755,18 +784,22 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int afrqfreq(dummy, nafrq, safrq, sfreq, afrq, freq, stat)
-
-double dummy;
-int nafrq, safrq, sfreq;
-const double afrq[];
-double freq[];
-int stat[];
+int afrqfreq(
+  double dummy,
+  int nafrq,
+  int safrq,
+  int sfreq,
+  const double afrq[],
+  double freq[],
+  int stat[])
 
 {
   register int iafrq, *statp;
   register const double *afrqp;
   register double *freqp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   afrqp = afrq;
   freqp = freq;
@@ -786,18 +819,22 @@ int stat[];
 *   Conversions between frequency and energy.
 *===========================================================================*/
 
-int freqener(dummy, nfreq, sfreq, sener, freq, ener, stat)
-
-double dummy;
-int nfreq, sfreq, sener;
-const double freq[];
-double ener[];
-int stat[];
+int freqener(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sener,
+  const double freq[],
+  double ener[],
+  int stat[])
 
 {
   register int ifreq, *statp;
   register const double *freqp;
   register double *enerp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   freqp = freq;
   enerp = ener;
@@ -815,18 +852,22 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int enerfreq(dummy, nener, sener, sfreq, ener, freq, stat)
-
-double dummy;
-int nener, sener, sfreq;
-const double ener[];
-double freq[];
-int stat[];
+int enerfreq(
+  double dummy,
+  int nener,
+  int sener,
+  int sfreq,
+  const double ener[],
+  double freq[],
+  int stat[])
 
 {
   register int iener, *statp;
   register const double *enerp;
   register double *freqp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   enerp = ener;
   freqp = freq;
@@ -846,18 +887,22 @@ int stat[];
 *   Conversions between frequency and wave number.
 *===========================================================================*/
 
-int freqwavn(dummy, nfreq, sfreq, swavn, freq, wavn, stat)
-
-double dummy;
-int nfreq, sfreq, swavn;
-const double freq[];
-double wavn[];
-int stat[];
+int freqwavn(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swavn,
+  const double freq[],
+  double wavn[],
+  int stat[])
 
 {
   register int ifreq, *statp;
   register const double *freqp;
   register double *wavnp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   freqp = freq;
   wavnp = wavn;
@@ -875,18 +920,22 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int wavnfreq(dummy, nwavn, swavn, sfreq, wavn, freq, stat)
-
-double dummy;
-int nwavn, swavn, sfreq;
-const double wavn[];
-double freq[];
-int stat[];
+int wavnfreq(
+  double dummy,
+  int nwavn,
+  int swavn,
+  int sfreq,
+  const double wavn[],
+  double freq[],
+  int stat[])
 
 {
   register int iwavn, *statp;
   register const double *wavnp;
   register double *freqp;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   wavnp = wavn;
   freqp = freq;
@@ -906,13 +955,14 @@ int stat[];
 *   Conversions between frequency and radio velocity.
 *===========================================================================*/
 
-int freqvrad(restfrq, nfreq, sfreq, svrad, freq, vrad, stat)
-
-double restfrq;
-int nfreq, sfreq, svrad;
-const double freq[];
-double vrad[];
-int stat[];
+int freqvrad(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svrad,
+  const double freq[],
+  double vrad[],
+  int stat[])
 
 {
   double r;
@@ -941,13 +991,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int vradfreq(restfrq, nvrad, svrad, sfreq, vrad, freq, stat)
-
-double restfrq;
-int nvrad, svrad, sfreq;
-const double vrad[];
-double freq[];
-int stat[];
+int vradfreq(
+  double restfrq,
+  int nvrad,
+  int svrad,
+  int sfreq,
+  const double vrad[],
+  double freq[],
+  int stat[])
 
 {
   double r;
@@ -974,13 +1025,14 @@ int stat[];
 *   Conversions between vacuum wavelength and optical velocity.
 *===========================================================================*/
 
-int wavevopt(restwav, nwave, swave, svopt, wave, vopt, stat)
-
-double restwav;
-int nwave, swave, svopt;
-const double wave[];
-double vopt[];
-int stat[];
+int wavevopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int svopt,
+  const double wave[],
+  double vopt[],
+  int stat[])
 
 {
   double r;
@@ -1008,13 +1060,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int voptwave(restwav, nvopt, svopt, swave, vopt, wave, stat)
-
-double restwav;
-int nvopt, svopt, swave;
-const double vopt[];
-double wave[];
-int stat[];
+int voptwave(
+  double restwav,
+  int nvopt,
+  int svopt,
+  int swave,
+  const double vopt[],
+  double wave[],
+  int stat[])
 
 {
   double r;
@@ -1041,13 +1094,14 @@ int stat[];
 *   Conversions between vacuum wavelength and redshift.
 *===========================================================================*/
 
-int wavezopt(restwav, nwave, swave, szopt, wave, zopt, stat)
-
-double restwav;
-int nwave, swave, szopt;
-const double wave[];
-double zopt[];
-int stat[];
+int wavezopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int szopt,
+  const double wave[],
+  double zopt[],
+  int stat[])
 
 {
   double r;
@@ -1075,13 +1129,14 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int zoptwave(restwav, nzopt, szopt, swave, zopt, wave, stat)
-
-double restwav;
-int nzopt, szopt, swave;
-const double zopt[];
-double wave[];
-int stat[];
+int zoptwave(
+  double restwav,
+  int nzopt,
+  int szopt,
+  int swave,
+  const double zopt[],
+  double wave[],
+  int stat[])
 
 {
   register int izopt, *statp;
@@ -1105,18 +1160,22 @@ int stat[];
 *   Conversions between relativistic velocity and beta (= v/c).
 *===========================================================================*/
 
-int velobeta(dummy, nvelo, svelo, sbeta, velo, beta, stat)
-
-double dummy;
-int nvelo, svelo, sbeta;
-const double velo[];
-double beta[];
-int stat[];
+int velobeta(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sbeta,
+  const double velo[],
+  double beta[],
+  int stat[])
 
 {
   register int ivelo, *statp;
   register const double *velop;
   register double *betap;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   velop = velo;
   betap = beta;
@@ -1134,18 +1193,22 @@ int stat[];
 
 /*--------------------------------------------------------------------------*/
 
-int betavelo(dummy, nbeta, sbeta, svelo, beta, velo, stat)
-
-double dummy;
-int nbeta, sbeta, svelo;
-const double beta[];
-double velo[];
-int stat[];
+int betavelo(
+  double dummy,
+  int nbeta,
+  int sbeta,
+  int svelo,
+  const double beta[],
+  double velo[],
+  int stat[])
 
 {
   register int ibeta, *statp;
   register const double *betap;
   register double *velop;
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
 
   betap = beta;
   velop = velo;

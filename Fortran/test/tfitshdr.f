@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: tfitshdr.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: tfitshdr.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       PROGRAM TFITSHDR
@@ -100,11 +100,11 @@
  70   FORMAT ('Found',I4,' header keyrecords.')
 
 
-*     Cull all recognized, syntactically valid WCS keyrecords from the
+*     Cull all recognised, syntactically valid WCS keyrecords from the
 *     header.
       RELAX = WCSHDR_all
       CTRL = -1
-*     WCSPIH will allocate memory for NWCS intialized WCSPRM structs.
+*     WCSPIH will allocate memory for NWCS initialised WCSPRM structs.
       IERR = WCSPIH (HEADER, NKEYRC, RELAX, CTRL, NREJECT, NWCS, WCSP)
       IF (IERR.NE.0) THEN
         WRITE (*, 80) IERR
@@ -112,7 +112,10 @@
         GO TO 999
       END IF
 
-*     Number remaining.
+*     Free the WCSPRM structs and the memory allocated for them.
+      STATUS = WCSVFREE (NWCS, WCSP)
+
+*     Number of keyrecords remaining.
       DO 90 I = 1, 288001, 80
         IF (HEADER(I:I).EQ.CHAR(0)) GO TO 100
  90   CONTINUE

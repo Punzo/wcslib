@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: dis_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: dis_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * In these wrappers, if
@@ -58,6 +58,8 @@
 
 #define disndp_   F77_FUNC(disndp,   DISNDP)
 #define dpfill_   F77_FUNC(dpfill,   DPFILL)
+#define dpkeyi_   F77_FUNC(dpkeyi,   DPKEYI)
+#define dpkeyd_   F77_FUNC(dpkeyd,   DPKEYD)
 #define disini_   F77_FUNC(disini,   DISINI)
 #define disinit_  F77_FUNC(disinit,  DISINIT)
 #define discpy_   F77_FUNC(discpy,   DISCPY)
@@ -70,6 +72,7 @@
 #define disx2p_   F77_FUNC(disx2p,   DISX2P)
 #define diswarp_  F77_FUNC(diswarp,  DISWARP)
 
+/* Must match the values set in dis.inc. */
 #define DIS_FLAG   100
 #define DIS_NAXIS  101
 #define DIS_DTYPE  102
@@ -79,16 +82,16 @@
 #define DIS_MAXDIS 106
 #define DIS_TOTDIS 107
 
-#define DIS_AXMAP  200
+#define DIS_DOCORR 200
 #define DIS_NHAT   201
-#define DIS_OFFSET 202
-#define DIS_SCALE  203
-#define DIS_IPARM  204
-#define DIS_DPARM  205
-#define DIS_INAXIS 206
-#define DIS_NDIS   207
-
-#define DIS_ERR    208
+#define DIS_AXMAP  202
+#define DIS_OFFSET 203
+#define DIS_SCALE  204
+#define DIS_IPARM  205
+#define DIS_DPARM  206
+#define DIS_INAXIS 207
+#define DIS_NDIS   208
+#define DIS_ERR    209
 
 /*--------------------------------------------------------------------------*/
 
@@ -122,6 +125,9 @@ int disput_(
   const double *dvalp;
   struct disprm *disp;
 
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
   /* Cast pointers. */
   if (*deref == 0) {
     disp = (struct disprm *)dis;
@@ -146,8 +152,7 @@ int disput_(
     disp->flag = 0;
     break;
   case DIS_DTYPE:
-    strncpy(disp->dtype[j0], cvalp, 72);
-    wcsutil_null_fill(72, disp->dtype[j0]);
+    wcsutil_strcvt(72, '\0', cvalp, disp->dtype[j0]);
     disp->flag = 0;
     break;
   case DIS_NDP:
@@ -226,8 +231,7 @@ int disget_(const int *deref, const int *dis, const int *what, void *value)
     break;
   case DIS_DTYPE:
     for (j = 0; j < naxis; j++) {
-      strncpy(cvalp, disp->dtype[j], 72);
-      wcsutil_blank_fill(72, cvalp);
+      wcsutil_strcvt(72, ' ', disp->dtype[j], cvalp);
       cvalp += 72;
     }
     break;
@@ -248,16 +252,21 @@ int disget_(const int *deref, const int *dis, const int *what, void *value)
   case DIS_TOTDIS:
     *dvalp = disp->totdis;
     break;
-  case DIS_AXMAP:
+  case DIS_DOCORR:
     for (j = 0; j < naxis; j++) {
-      for (k = 0; k < naxis; k++) {
-        *(ivalp++) = disp->axmap[j][k];
-      }
+      *(ivalp++) = disp->docorr[j];
     }
     break;
   case DIS_NHAT:
     for (j = 0; j < naxis; j++) {
       *(ivalp++) = disp->Nhat[j];
+    }
+    break;
+  case DIS_AXMAP:
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < naxis; k++) {
+        *(ivalp++) = disp->axmap[j][k];
+      }
     }
     break;
   case DIS_OFFSET:
@@ -348,16 +357,34 @@ int dpfill_(
   double *fval)
 
 {
-  char field_[72], keyword_[72];
+  char field_[73], keyword_[73];
 
-  strncpy(keyword_, keyword, 72);
-  wcsutil_null_fill(72, keyword_);
+  wcsutil_strcvt(72, '\0', keyword, keyword_);
+  keyword_[72] = '\0';
 
-  strncpy(keyword_, field, 72);
-  wcsutil_null_fill(72, field_);
+  wcsutil_strcvt(72, '\0', field, field_);
+  field_[72] = '\0';
 
   return dpfill((struct dpkey *)dp, keyword_, field_, *j, *type, *ival,
                  *fval);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int dpkeyi_(
+  const int *dp)
+
+{
+  return dpkeyi((struct dpkey *)dp);
+}
+
+/*--------------------------------------------------------------------------*/
+
+double dpkeyd_(
+  const int *dp)
+
+{
+  return dpkeyd((struct dpkey *)dp);
 }
 
 /*--------------------------------------------------------------------------*/
@@ -453,13 +480,14 @@ int disprt_(const int *deref, const int *dis)
 
 /*--------------------------------------------------------------------------*/
 
-/* prefix should be null-terminated, or else of length 72 in which case
- * trailing blanks are not significant. */
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
 
 int disperr_(const int *deref, int *dis, const char prefix[72])
 
 {
-  char prefix_[72];
+  char prefix_[73];
   const struct disprm *disp;
 
   if (*deref == 0) {
@@ -468,8 +496,8 @@ int disperr_(const int *deref, int *dis, const char prefix[72])
     disp = *(const struct disprm **)dis;
   }
 
-  strncpy(prefix_, prefix, 72);
-  wcsutil_null_fill(72, prefix_);
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed. */
   /* If not, try CALL FLUSH(6) before calling DISPERR in the Fortran code. */

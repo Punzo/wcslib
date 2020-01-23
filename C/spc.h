@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,10 +22,10 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: spc.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: spc.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
-* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
 * (WCS) standard.  Refer to the README file provided with WCSLIB for an
 * overview of the library.
 *
@@ -94,24 +94,24 @@
 *     expressed.  Each S-type is encoded as four characters and is
 *     linearly related to one of four basic types as follows:
 *
-*     F: frequency
-*       'FREQ':  frequency
-*       'AFRQ':  angular frequency
-*       'ENER':  photon energy
-*       'WAVN':  wave number
-*       'VRAD':  radio velocity
+*     F (Frequency):
+*       - 'FREQ':  frequency
+*       - 'AFRQ':  angular frequency
+*       - 'ENER':  photon energy
+*       - 'WAVN':  wave number
+*       - 'VRAD':  radio velocity
 *
-*     W: wavelength in vacuo
-*       'WAVE':  wavelength
-*       'VOPT':  optical velocity
-*       'ZOPT':  redshift
+*     W (Wavelength in vacuo):
+*       - 'WAVE':  wavelength
+*       - 'VOPT':  optical velocity
+*       - 'ZOPT':  redshift
 *
-*     A: wavelength in air
-*       'AWAV':  wavelength in air
+*     A (wavelength in Air):
+*       - 'AWAV':  wavelength in air
 *
-*     V: velocity
-*       'VELO':  relativistic velocity
-*       'BETA':  relativistic beta factor
+*     V (Velocity):
+*       - 'VELO':  relativistic velocity
+*       - 'BETA':  relativistic beta factor
 *
 *     The S-type forms the first four characters of the CTYPEia keyvalue,
 *     and CRVALia and CDELTia are expressed as S-type quantities so that
@@ -156,6 +156,11 @@
 * (wavelength), and the X-type is 'F' (frequency) by the nature of the
 * instrument.
 *
+* Air-to-vacuum wavelength conversion:
+* ------------------------------------
+* Please refer to the prologue of spx.h for important comments relating to the
+* air-to-vacuum wavelength conversion.
+*
 * Argument checking:
 * ------------------
 * The input spectral values are only checked for values that would result in
@@ -177,6 +182,11 @@
 * ----------------------------------------------------
 * spcini() sets all members of a spcprm struct to default values.  It should
 * be used to initialize every spcprm struct.
+*
+* PLEASE NOTE: If the spcprm struct has already been initialized, then before
+* reinitializing, it spcfree() should be used to free any memory that may have
+* been allocated to store an error message.  A memory leak may otherwise
+* result.
 *
 * Given and returned:
 *   spc       struct spcprm*

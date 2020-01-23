@@ -3,12 +3,12 @@
 #-----------------------------------------------------------------------------
 # Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 # http://www.atnf.csiro.au/people/Mark.Calabretta
-# $Id: configure.ac,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+# $Id: configure.ac,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 #-----------------------------------------------------------------------------
 
-AC_INIT([WCSLIB], [5.18], [mark@calabretta.id.au], [wcslib-5.18])
+AC_INIT([WCSLIB], [7.1], [mark@calabretta.id.au], [wcslib-7.1])
 AC_PREREQ([2.53])
-AC_REVISION([$Revision: 5.18 $])
+AC_REVISION([$Revision: 7.1 $])
 AC_SUBST([PACKAGE_VERSION])
 AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION], [Define wcslib version])
 
@@ -20,8 +20,8 @@ AC_CONFIG_SRCDIR([C/wcs.h])
 AC_CONFIG_AUX_DIR([config])
 
 # Get the system type.
-AC_CANONICAL_BUILD
-ARCH="${build_cpu}-$build_os"
+AC_CANONICAL_HOST
+ARCH="${host_cpu}-$host_os"
 AC_SUBST([ARCH])
 
 
@@ -85,6 +85,16 @@ if test "x$ac_cv_header_stdc" = xno; then
     ERROR: WCSLIB configuration failure.
     -------------------------------------------------------------------], [1])
 fi
+
+# Flex uses fileno() and other POSIX features whose prototypes are only
+# available from glibc's stdio.h with an appropriate preprocessor macro
+# definition.  This cannot be set within the flex description file itself
+# as stdio.h is included in the generated C code before any part of the
+# description.  See fileno(3) and feature_test_macros(7).
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  FLFLAGS="$FLFLAGS -D_POSIX_C_SOURCE=1"
+fi
+AC_SUBST([FLFLAGS])
 
 # Checks for ANSI C library functions (suggested by autoscan - fseeko and
 # stat are only required by fitshdr).
@@ -207,6 +217,27 @@ else
     # Fortran object modules such as pgsbox.
     AC_F77_LIBRARY_LDFLAGS
 
+    # Tidy up FLIBS.
+    dirs=
+    libs=
+    for flib in $FLIBS
+    do
+      case "$flib" in
+      -L*)  
+        dir=`echo "$flib" | sed -e 's/-L//'`
+        dir=-L`cd "$dir" && pwd`
+        dirs="$dirs $dir"
+        ;;  
+      *) 
+        libs="$libs $flib"
+        ;;  
+      esac
+    done
+
+    dirs=`for dir in $dirs ; do echo "$dir" ; done | sort -u | xargs`
+
+    FLIBS="$dirs$libs"
+
     # F77 name mangling (defines the F77_FUNC preprocessor macro).
     AC_F77_WRAPPERS
 
@@ -227,6 +258,9 @@ AC_CHECK_LIB([SystemStubs], [printf\$LDBLStub], [LIBS="$LIBS -lSystemStubs"],
 # Library and installation utilities.
 #------------------------------------
 # Static library generation.
+# Ensure "non-deterministic" archives are produced during the build process.
+ar rU conftest.a > /dev/null 2>&1 && ARFLAGS="U"
+rm -f conftest.a
 AC_SUBST([ARFLAGS])
 AC_PROG_RANLIB
 
@@ -238,7 +272,7 @@ if test "x$ac_cv_c_compiler_gnu" = xyes ; then
   SHRFLAGS="-fPIC"
   SHRLD="\$(CC) \$(SHRFLAGS)"
 
-  case "$build_os" in
+  case "$host_os" in
   darwin*)
     SHRLIB="libwcs.$LIBVER.dylib"
     SONAME="libwcs.$SHVER.dylib"
@@ -246,7 +280,7 @@ if test "x$ac_cv_c_compiler_gnu" = xyes ; then
     SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER"
     SHRLN="libwcs.dylib"
 
-    case "$build_cpu" in
+    case "$host_cpu" in
     powerpc*)
       # Switch off -fPIC (not applicable for PowerPC Macs).
       CFLAGS="$CFLAGS -mdynamic-no-pic"
@@ -281,6 +315,11 @@ AC_SUBST([SHRLN])
 # Installation utilities.
 AC_PROG_LN_S
 AC_PROG_INSTALL
+
+# Older versions of GNU make do not have the -O option, which only facilitates
+# legibility of the output from parallel builds (make -j).
+make --help | grep '\-O' >/dev/null 2>&1 && MAKEFLAGS="-Otarget"
+AC_SUBST([MAKEFLAGS])
 
 AC_MSG_NOTICE([End of primary configuration.
 ])
@@ -509,6 +548,8 @@ AC_SUBST([INSTDIR])
 
 AC_MSG_NOTICE([End of auxiliary configuration.
 ])
+
+AC_SUBST([FLAVOUR])
 
 
 # Do it.

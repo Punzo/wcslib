@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,10 +22,10 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: cel.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: cel.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
-* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
 * (WCS) standard.  Refer to the README file provided with WCSLIB for an
 * overview of the library.
 *
@@ -72,6 +72,11 @@
 * celini() sets all members of a celprm struct to default values.  It should
 * be used to initialize every celprm struct.
 *
+* PLEASE NOTE: If the celprm struct has already been initialized, then before
+* reinitializing, it celfree() should be used to free any memory that may have
+* been allocated to store an error message.  A memory leak may otherwise
+* result.
+*
 * Returned:
 *   cel       struct celprm*
 *                       Celestial transformation parameters.
@@ -110,6 +115,7 @@
 *             int       Status return value:
 *                         0: Success.
 *                         1: Null celprm pointer passed.
+*
 *
 * celperr() - Print error messages from a celprm struct
 * -----------------------------------------------------

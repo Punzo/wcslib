@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -23,7 +23,7 @@
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   Module author: Michael Droettboom
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcserr.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcserr.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdarg.h>
@@ -46,9 +46,7 @@ int wcserr_enable(int enable)
 
 /*--------------------------------------------------------------------------*/
 
-int wcserr_prt(
-  const struct wcserr *err,
-  const char *prefix)
+int wcserr_prt(const struct wcserr *err, const char *prefix)
 
 {
   if (!wcserr_enabled) {
@@ -80,12 +78,16 @@ int wcserr_prt(
 
 /*--------------------------------------------------------------------------*/
 
-int wcserr_clear(
-  struct wcserr **errp)
+int wcserr_clear(struct wcserr **errp)
 
 {
-  if (*errp) free(*errp);
-  *errp = 0x0;
+  if (*errp) {
+    if ((*errp)->msg) {
+      free((*errp)->msg);
+    }
+    free(*errp);
+    *errp = 0x0;
+  }
 
   return 0;
 }
@@ -102,7 +104,7 @@ int wcserr_set(
   ...)
 
 {
-  char fmt[128];
+  int  msglen;
   struct wcserr *err;
   va_list argp;
 
@@ -118,21 +120,34 @@ int wcserr_set(
       *errp = err = calloc(1, sizeof(struct wcserr));
     }
 
+    if (err == 0x0) {
+      return status;
+    }
+
     err->status   = status;
     err->function = function;
     err->file     = file;
     err->line_no  = line_no;
+    err->msg      = 0x0;
 
-    /* Workaround for a compiler segv from gcc 4.2.1 in MacOSX 10.7. */
-    strncpy(fmt, format, 128);
-
+    /* Determine the required message buffer size. */
     va_start(argp, format);
-    vsnprintf(err->msg, WCSERR_MSG_LENGTH, fmt, argp);
+    msglen = vsnprintf(0x0, 0, format, argp) + 1;
     va_end(argp);
 
-  } else if (err) {
-    free(err);
-    *errp = 0x0;
+    if (msglen <= 0 || (err->msg = malloc(msglen)) == 0x0) {
+      wcserr_clear(errp);
+      return status;
+    }
+
+    /* Write the message. */
+    va_start(argp, format);
+    msglen = vsnprintf(err->msg, msglen, format, argp);
+    va_end(argp);
+
+    if (msglen < 0) {
+      wcserr_clear(errp);
+    }
   }
 
   return status;
@@ -140,11 +155,11 @@ int wcserr_set(
 
 /*--------------------------------------------------------------------------*/
 
-int wcserr_copy(
-  const struct wcserr *src,
-  struct wcserr *dst)
+int wcserr_copy(const struct wcserr *src, struct wcserr *dst)
 
 {
+  size_t msglen;
+
   if (src == 0x0) {
     if (dst) {
       memset(dst, 0, sizeof(struct wcserr));
@@ -154,6 +169,13 @@ int wcserr_copy(
 
   if (dst) {
     memcpy(dst, src, sizeof(struct wcserr));
+
+    if (src->msg) {
+      msglen = strlen(src->msg) + 1;
+      if ((dst->msg = malloc(msglen))) {
+        strcpy(dst->msg, src->msg);
+      }
+    }
   }
 
   return src->status;

@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: fitshdr.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: fitshdr.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
 *=============================================================================
 * Usage: fitshdr [infile]
 *-----------------------------------------------------------------------------
@@ -291,7 +291,7 @@ int main(int argc, char **argv)
       "bytes).\n", equals, ihdr, (ihdr == 1)?"":"s", iblock, blksiz, nbyte);
 
     if (argc > 1 && !stat(argv[i], &instat)) {
-      if (nbyte != instat.st_size) {
+      if ((off_t)nbyte != instat.st_size) {
         printf("WARNING: File is too short by %lld bytes.\n",
           nbyte - instat.st_size);
       }

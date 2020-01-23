@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: doxextr.l,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: doxextr.l,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * doxextr.l is a Flex description file containing a lexical scanner definition
@@ -108,20 +108,21 @@ DASH {WS1}-{WS1}
 	             int *ilist);
 	void endspecial(int *special);
 	void printe(const char *text, const char *name);
+
+	*listype = '-';
+	memset(name, 0, 32);
 	
-	ilist   = 0;
-	listndt[0] = -1;
-	listype[0] = '-';
-	lmore   = 0;
-	*name   = '\0';
-	nfunc   = 0;
-	pass1   = 1;
-	pcont   = 0;
-	plist   = 0;
-	section = PROLOG;
-	special = 0;
+	ilist      = 0;
+	*listndt   = -1;
+	lmore      = 0;
+	nfunc      = 0;
+	pass1      = 1;
+	pcont      = 0;
+	plist      = 0;
+	section    = PROLOG;
+	special    = 0;
 	subsection = 0;
-	td = 0;
+	td         = 0;
 	
 	BEGIN(PROLOG);
 	
@@ -163,11 +164,17 @@ DASH {WS1}-{WS1}
 	
 	      printf("*/\n");
 	    }
+	
+	    for (ifunc = 0; ifunc < nfunc; ifunc++) {
+	      free(proto[ifunc]);
+	      free(func[ifunc]);
+	    }
+	
 	    return 0;
 	  }
 	}
 
-<*>{WS0}-+\n {
+<*>{WS0}--+\n {
 	  /* Discard underlining. */
 	}
 
@@ -211,8 +218,10 @@ DASH {WS1}-{WS1}
 	      printf("* <HR><TABLE BORDER=0>\n");
 	      special = TABLE;
 	    }
-	    printf("* <TR>\n");
-	    printf("*%s", yytext+lmore+1);
+	    printf("* <TR>\n*");
+	    if (lmore+1 < yyleng) {
+	      printf("%s", yytext+lmore+1);
+	    }
 	    td = 0;
 	    BEGIN(TABLEROW);
 	  }
@@ -341,7 +350,7 @@ DASH {WS1}-{WS1}
 	}
 
 <FNMARK>{NAME} {
-	  strncpy(name, yytext, 32);
+	  strncpy(name, yytext, 31);
 	  for (ifunc = 0; ifunc < nfunc; ifunc++) {
 	    if (strncmp(yytext, func[ifunc], 32) == 0) {
 	      printf("\n/** @fn %s\n*\n", proto[ifunc]);
@@ -542,7 +551,7 @@ DASH {WS1}-{WS1}
 	}
 
 <STRUCTMARK>{NAME} {
-	  strncpy(name, yytext, 32);
+	  strncpy(name, yytext, 31);
 	  printf("\n/** @struct %s\n*\n", yytext);
 	}
 
@@ -551,7 +560,7 @@ DASH {WS1}-{WS1}
 	}
 
 <UNIONMARK>{NAME} {
-	  strncpy(name, yytext, 32);
+	  strncpy(name, yytext, 31);
 	  printf("\n/** @union %s\n*\n", yytext);
 	}
 
@@ -603,16 +612,19 @@ DASH {WS1}-{WS1}
 	  BEGIN(PRINTE);
 	}
 
-<STRUCTVAR>(\*{WS1}|{WS1}\*?) {
-	    printf("%s", yytext);
-	  }
+<STRUCTVAR>\*{WS1}  |
+<STRUCTVAR>{WS1}\*? |
+<STRUCTVAR>"("\*+ {
+	  printf("%s", yytext);
+	}
 
 <STRUCTVAR>{NAME}, {
 	  printf("%s::%s\n*\n*   (See next ...)\n", name, yytext);
 	  BEGIN(FLUSH);
 	}
 
-<STRUCTVAR>{NAME} {
+<STRUCTVAR>{NAME} |
+<STRUCTVAR>{NAME}")(".*")" {
 	  printf("%s::%s\n*\n", name, yytext);
 	  BEGIN(FLUSH);
 	}
@@ -635,7 +647,7 @@ DASH {WS1}-{WS1}
 
 
 <DEFMARK>{NAME} {
-	  strncpy(name, yytext, 32);
+	  strncpy(name, yytext, 31);
 	  printf("\n/** @def %s\n*\n", yytext);
 	}
 
@@ -662,9 +674,9 @@ DASH {WS1}-{WS1}
 	}
 
 <TABLEROW>\n {
-	  if (td) printf("</TD>\n");
+	  if (!td) printf("<TD>");
+	  printf("</TD>\n* </TR>\n");
 	  td = 0;
-	  printf("* </TR>\n");
 	  yyless(0);
 	  BEGIN(FLUSH);
 	}
@@ -673,8 +685,9 @@ DASH {WS1}-{WS1}
 	  proto[nfunc] = malloc((yyleng+2)*sizeof(char));
 	  sprintf(proto[nfunc], "%s", yytext);
 	  func[nfunc] = malloc(32*sizeof(char));
+	  func[nfunc][31] = '\0';
 	  strtok(yytext, " ");
-	  strncpy(func[nfunc], strtok(0x0, " *("), 32);
+	  strncpy(func[nfunc], strtok(0x0, " *("), 31);
 	  nfunc++;
 	  BEGIN(FLUSH);
 	}
@@ -721,6 +734,12 @@ DASH {WS1}-{WS1}
 	
 	  } else {
 	    printf("*/\n");
+	
+	    for (ifunc = 0; ifunc < nfunc; ifunc++) {
+	      free(proto[ifunc]);
+	      free(func[ifunc]);
+	    }
+	
 	    return 0;
 	  }
 	}
@@ -806,7 +825,7 @@ void printe(const char *text, const char *name)
 
 {
   char *cp;
-  int  len;
+  int  i, len;
 
   if ((len = strlen(name))) {
     while ((cp = strstr(text, name))) {
@@ -814,15 +833,18 @@ void printe(const char *text, const char *name)
           ('a' <= *(cp-1) && *(cp-1) <= 'z') ||
           ('A' <= *(cp-1) && *(cp-1) <= 'Z'))) {
         /* Not a match. */
-        printf("%.*s", cp-text+len, text);
+        i = cp - text + len;
+        printf("%.*s", i, text);
 
       } else {
         if (*(cp+len) == ':' && *(cp+len+1) == ':') {
           // Allow references to struct members.
-          printf("%.*s", cp-text+len, text);
+          i = cp - text + len;
+          printf("%.*s", i, text);
         } else {
           // Disallow a reference and use bold font.
-          printf("%.*s@b %%%s", cp-text, text, name);
+          i = cp - text;
+          printf("%.*s@b %%%s", i, text, name);
         }
       }
       text = cp + len;

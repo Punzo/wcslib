@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: wcserr.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: wcserr.inc,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
 *     Functions.
@@ -33,9 +33,9 @@
      :          WCSERR_ENABLE, WCSERR_PRT, WCSERR_CLEAR
 
 *     Length of the WCSERR data structure (INTEGER array) on 64-bit
-*     machines.  Only needs to be 44 on 32-bit machines.
+*     machines.  Only needs to be 5 on 32-bit machines.
       INTEGER   ERRLEN
-      PARAMETER (ERRLEN = 46)
+      PARAMETER (ERRLEN = 8)
 
 *     Codes for WCSERR data structure elements used by WCSERR_GET.
       INTEGER   WCSERR_STATUS, WCSERR_LINE_NO, WCSERR_FUNCTION,
@@ -47,6 +47,6 @@
       PARAMETER (WCSERR_FILE     = 203)
       PARAMETER (WCSERR_MSG      = 204)
 
-*     WCSERR message length.
+*     Size of character variable that can hold the largest messages.
       INTEGER   WCSERR_MSG_LENGTH
-      PARAMETER (WCSERR_MSG_LENGTH = 160)
+      PARAMETER (WCSERR_MSG_LENGTH = 512)

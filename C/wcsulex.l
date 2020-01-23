@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsulex.l,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcsulex.l,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * wcsulex.l is a Flex description file containing the definition of a
@@ -39,6 +39,7 @@
 /* Options. */
 %option full
 %option never-interactive
+%option noinput
 %option noyywrap
 %option outfile="wcsulex.c"
 %option prefix="wcsulex"
@@ -71,7 +72,7 @@ ADD_SUP	  a|yr|pc|bit|[bB]yte
 ADD_SUB	  mag
 
 /* Additional recognized units for which NO metric prefixes are allowed. */
-GENERAL	  deg|arcmin|arcsec|mas|d|h|min|erg|Ry|u|D
+GENERAL	  deg|arcmin|arcsec|mas|turn|min|h|d|cy|erg|Ry|u|D
 ASTRO	  [Aa]ngstrom|AU|lyr|beam|solRad|solMass|solLum|Sun
 DEVICE	  adu|bin|chan|count|ct|photon|ph|pixel|pix|voxel
 ADD_NONE  {GENERAL}|{ASTRO}|{DEVICE}
@@ -83,10 +84,6 @@ ADD_UNIT  {ADD_ALL}|{ADD_SUP}|{ADD_SUB}|{ADD_NONE}
 %x PAREN PREFIX UNITS EXPON FLUSH
 
 %{
-/* To get the prototype for fileno() from stdio.h when gcc is invoked with
- * -std=c89 (same as -ansi) or -std=c99 since we do not define YY_INPUT. */
-#define _POSIX_SOURCE 1
-
 #include <math.h>
 #include <setjmp.h>
 #include <stdio.h>
@@ -128,6 +125,9 @@ int wcsulexe(
 #define YY_DECL int wcsulex_scanner(const char unitstr[], int *func, \
  double *scale, double units[WCSUNITS_NTYPE], struct wcserr **err, \
  yyscan_t yyscanner)
+
+/* Dummy definition to circumvent compiler warnings. */
+#define YY_INPUT(inbuff, count, bufsize) { count = YY_NULL; }
 
 /* Used in preempting the call to exit() by yy_fatal_error(). */
 jmp_buf wcsulex_abort_jmp_env;
@@ -435,7 +435,7 @@ sqrt" "*"(" {
 	}
 
 <UNITS>a|yr {
-	  /* Year (annum). */
+	  /* Julian year (annum). */
 	  factor *= 31557600.0;
 	  types[WCSUNITS_TIME] += 1.0;
 	  BEGIN(EXPON);
@@ -528,6 +528,13 @@ sqrt" "*"(" {
 <UNITS>count|ct {
 	  /* Count. */
 	  types[WCSUNITS_COUNT] += 1.0;
+	  BEGIN(EXPON);
+	}
+
+<UNITS>cy {
+	  /* Julian century. */
+	  factor *= 3155760000.0;
+	  types[WCSUNITS_TIME] += 1.0;
 	  BEGIN(EXPON);
 	}
 
@@ -817,6 +824,13 @@ sqrt" "*"(" {
 	  types[WCSUNITS_MASS]   += 1.0;
 	  types[WCSUNITS_TIME]   += 1.0;
 	  types[WCSUNITS_CHARGE] -= 1.0;
+	  BEGIN(EXPON);
+	}
+
+<UNITS>turn {
+	  /* Turn. */
+	  factor *= 360.0;
+	  types[WCSUNITS_PLANE_ANGLE] += 1.0;
 	  BEGIN(EXPON);
 	}
 

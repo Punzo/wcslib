@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: tab_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: tab_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -52,6 +52,7 @@
 #define tabx2s_  F77_FUNC(tabx2s,  TABX2S)
 #define tabs2x_  F77_FUNC(tabs2x,  TABS2X)
 
+/* Must match the value set in tab.inc. */
 #define TAB_FLAG     100
 #define TAB_M        101
 #define TAB_K        102
@@ -309,16 +310,17 @@ int tabprt_(const int *tab)
 
 /*--------------------------------------------------------------------------*/
 
-/* prefix should be null-terminated, or else of length 72 in which case
- * trailing blanks are not significant. */
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
 
 int tabperr_(int *tab, const char prefix[72])
 
 {
-  char prefix_[72];
+  char prefix_[73];
 
-  strncpy(prefix_, prefix, 72);
-  wcsutil_null_fill(72, prefix_);
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed. */
   /* If not, try CALL FLUSH(6) before calling TABPERR in the Fortran code. */

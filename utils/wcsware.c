@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsware.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcsware.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
 *=============================================================================
 * wcsware extracts the WCS keywords for an image from the specified FITS file,
 * constructs wcsprm structs for each coordinate representation found and
@@ -94,7 +94,7 @@ int main(int argc, char **argv)
   char *alt = 0x0, *header, *hptr, *infile, wcsname[72];
   int  allimg, alts[27], c, ctrl, dobth, dofix, dohdr, dolint, doprt, dopix,
        dowrld, hdunum, hdutype, i, ialt, j, k, keysel, nelem, nkeyrec,
-       nreject, nwcs, relax, *stat = 0x0, status, strict;
+       nreject, nwcs, ok, relax, *stat = 0x0, status, strict;
   double *imgcrd = 0x0, phi, *pixcrd = 0x0, theta, *world = 0x0;
   struct wcsprm *wcs, *wcsi = 0x0;
   fitsfile *fptr;
@@ -278,29 +278,6 @@ int main(int argc, char **argv)
   }
 
 
-  /* Read -TAB arrays from the binary table extension (if necessary). */
-  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &status)) {
-    goto fitserr;
-  }
-
-  fits_close_file(fptr, &status);
-
-
-  /* Translate non-standard WCS keyvalues? */
-  if (dofix) {
-    stat = malloc(NWCSFIX * sizeof(int));
-    if ((status = wcsfix(7, 0, wcs, stat))) {
-      for (i = 0; i < NWCSFIX; i++) {
-        if (stat[i] > 0) {
-           wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
-                      wcsfix_errmsg[stat[i]]);
-        }
-      }
-
-      return 1;
-    }
-  }
-
   /* Sort out alternates. */
   if (alt) {
     i = 0;
@@ -359,13 +336,34 @@ int main(int argc, char **argv)
       wcsprintf("\n");
     }
 
+    /* Read -TAB arrays from the binary table extension (if necessary). */
+    if (fits_read_wcstab(fptr, wcs[i].nwtb, (wtbarr *)wcs[i].wtb,
+                         &status)) {
+      goto fitserr;
+    }
+
+    /* Translate non-standard WCS keyvalues? */
+    if (dofix) {
+      stat = malloc(NWCSFIX * sizeof(int));
+      if ((status = wcsfix(7, 0, wcs+i, stat))) {
+        for (j = 0; j < NWCSFIX; j++) {
+          if (stat[j] > 0) {
+             wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                        wcsfix_errmsg[stat[j]]);
+          }
+        }
+
+        return 1;
+      }
+    }
+
     if ((status = wcsset(wcs+i))) {
       wcsperr(wcs+i, "");
       continue;
     }
 
     /* Get WCSNAME out of the wcsprm struct. */
-    strcpy(wcsname, (wcs+i)->wcsname);
+    strcpy(wcsname, wcs[i].wcsname);
 
     /* Print the struct as a FITS header. */
     if (dohdr) {
@@ -401,7 +399,7 @@ int main(int argc, char **argv)
         wcsprintf("\n%s\n", wcsname);
       }
 
-      nelem = (wcs+i)->naxis;
+      nelem = wcs[i].naxis;
       world  = realloc(world,  nelem * sizeof(double));
       imgcrd = realloc(imgcrd, nelem * sizeof(double));
       pixcrd = realloc(pixcrd, nelem * sizeof(double));
@@ -419,11 +417,21 @@ int main(int argc, char **argv)
           }
           ungetc(c, stdin);
 
-          scanf("%lf", pixcrd);
-          for (j = 1; j < nelem; j++) {
-            scanf("%*[ ,]%lf", pixcrd+j);
+          if ((ok = (scanf("%lf", pixcrd) == 1))) {
+            for (j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", pixcrd+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
           }
+
           while (fgetc(stdin) != '\n');
+
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
 
           wcsprintf("Pixel: ");
           for (j = 0; j < nelem; j++) {
@@ -437,7 +445,7 @@ int main(int argc, char **argv)
           } else {
             wcsprintf("\nImage: ");
             for (j = 0; j < nelem; j++) {
-              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
                 /* Print angles in fixed format. */
                 wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
               } else {
@@ -447,7 +455,7 @@ int main(int argc, char **argv)
 
             wcsprintf("\nWorld: ");
             for (j = 0; j < nelem; j++) {
-              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
                 /* Print angles in fixed format. */
                 wcsprintf("%s%14.6f", j?", ":"", world[j]);
               } else {
@@ -472,15 +480,25 @@ int main(int argc, char **argv)
           }
           ungetc(c, stdin);
 
-          scanf("%lf", world);
-          for (j = 1; j < nelem; j++) {
-            scanf("%*[ ,]%lf", world+j);
+          if ((ok = (scanf("%lf", world) == 1))) {
+            for (j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", world+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
           }
+
           while (fgetc(stdin) != '\n');
+
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
 
           wcsprintf("World: ");
           for (j = 0; j < nelem; j++) {
-            if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+            if (j == wcs[i].lng || j == wcs[i].lat) {
               /* Print angles in fixed format. */
               wcsprintf("%s%14.6f", j?", ":"", world[j]);
             } else {
@@ -495,7 +513,7 @@ int main(int argc, char **argv)
           } else {
             wcsprintf("\nImage: ");
             for (j = 0; j < nelem; j++) {
-              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
                 /* Print angles in fixed format. */
                 wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
               } else {
@@ -513,6 +531,8 @@ int main(int argc, char **argv)
       }
     }
   }
+
+  fits_close_file(fptr, &status);
 
   /* Defeat spurious reporting of memory leaks. */
   wcsvfree(&nwcs, &wcs);

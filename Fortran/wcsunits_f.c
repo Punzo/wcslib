@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsunits_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcsunits_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -53,12 +53,13 @@ int wcsunitse_(
   iptr err)
 
 {
-  char have_[72], want_[72];
+  char have_[73], want_[73];
 
-  strncpy(have_, have, 72);
-  strncpy(want_, want, 72);
-  have_[71] = '\0';
-  want_[71] = '\0';
+  wcsutil_strcvt(72, '\0', have, have_);
+  have_[72] = '\0';
+
+  wcsutil_strcvt(72, '\0', want, want_);
+  want_[72] = '\0';
 
   return wcsunitse(have_, want_, scale, offset, power, (struct wcserr **)err);
 }
@@ -85,10 +86,10 @@ int wcsutrne_(
 
 {
   int status;
-  char unitstr_[72];
+  char unitstr_[73];
 
-  strncpy(unitstr_, unitstr, 72);
-  unitstr_[71] = '\0';
+  wcsutil_strcvt(72, '\0', unitstr, unitstr_);
+  unitstr_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed.  If
    * not, try CALL FLUSH(6) before calling WCSUTRNE in the Fortran code. */
@@ -96,8 +97,7 @@ int wcsutrne_(
 
   status = wcsutrne(*ctrl, unitstr_, (struct wcserr **)err);
 
-  wcsutil_blank_fill(72, unitstr_);
-  strncpy(unitstr, unitstr_, 72);
+  wcsutil_strcvt(72, ' ', unitstr_, unitstr);
 
   return status;
 }
@@ -122,10 +122,10 @@ int wcsulexe_(
   iptr err)
 
 {
-  char unitstr_[72];
+  char unitstr_[73];
 
-  strncpy(unitstr_, unitstr, 72);
-  unitstr_[71] = '\0';
+  wcsutil_strcvt(72, '\0', unitstr, unitstr_);
+  unitstr_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed.  If
    * not, try CALL FLUSH(6) before calling WCSULEXE in the Fortran code. */

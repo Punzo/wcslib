@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: fitshdr_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: fitshdr_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -44,6 +44,7 @@
 
 #define fitshdr_  F77_FUNC(fitshdr,  FITSHDR)
 
+/* Must match the values set in fitshdr.inc. */
 #define KEYID_NAME   100
 #define KEYID_COUNT  101
 #define KEYID_IDX    102
@@ -71,7 +72,8 @@ int keyidput_(int *keyid, const int *i, const int *what, const void *value)
 
   switch (*what) {
   case KEYID_NAME:
-    strncpy(kidp->name, cvalp, 8);
+    /* Only eight characters need be given. */
+    wcsutil_strcvt(8, ' ', cvalp, kidp->name);
     kidp->name[8] = '\0';
     wcsutil_null_fill(12, kidp->name);
     break;
@@ -103,8 +105,7 @@ int keyidget_(const int *keyid, const int *i, const int *what, void *value)
 
   switch (*what) {
   case KEYID_NAME:
-    strncpy(cvalp, keyidp->name, 12);
-    wcsutil_blank_fill(12, cvalp);
+    wcsutil_strcvt(12, ' ', keyidp->name, cvalp);
     break;
   case KEYID_COUNT:
     *ivalp = keyidp->count;
@@ -164,9 +165,8 @@ int keyget_(
     *ivalp = keyp->status;
     break;
   case KEY_KEYWORD:
-    *nc = strlen(keyp->keyword);
-    strncpy(cvalp, keyp->keyword, 12);
-    wcsutil_blank_fill(12, cvalp);
+    *nc = (int)(strlen(keyp->keyword));
+    wcsutil_strcvt(12, ' ', keyp->keyword, cvalp);
     break;
   case KEY_TYPE:
     *ivalp = keyp->type;
@@ -215,9 +215,8 @@ int keyget_(
       break;
     case 8:
       /* String or part of a continued string. */
-      *nc = strlen(keyp->keyvalue.s);
-      strncpy(cvalp, keyp->keyvalue.s, 72);
-      wcsutil_blank_fill(72, cvalp);
+      *nc = (int)(strlen(keyp->keyvalue.s));
+      wcsutil_strcvt(72, ' ', keyp->keyvalue.s, cvalp);
       break;
     default:
       /* No value. */
@@ -228,9 +227,8 @@ int keyget_(
     *ivalp = keyp->ulen;
     break;
   case KEY_COMMENT:
-    *nc = strlen(keyp->comment);
-    strncpy(cvalp, keyp->comment, 84);
-    wcsutil_blank_fill(84, cvalp);
+    *nc = (int)(strlen(keyp->comment));
+    wcsutil_strcvt(84, ' ', keyp->comment, cvalp);
     break;
   default:
     return 1;

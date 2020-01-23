@@ -1,6 +1,6 @@
 #-----------------------------------------------------------------------------
-# WCSLIB 5.18 - an implementation of the FITS WCS standard.
-# Copyright (C) 1995-2018, Mark Calabretta
+# WCSLIB 7.1 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2020, Mark Calabretta
 #
 # This file is part of WCSLIB.
 #
@@ -21,7 +21,7 @@
 #
 # Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 # http://www.atnf.csiro.au/people/Mark.Calabretta
-# $Id: TPV7.keyrec,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+# $Id: TPV7.keyrec,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 #-----------------------------------------------------------------------------
 #
 # FITS header keyrecords used for testing the handling of the "TPV" projection
@@ -196,6 +196,7 @@ CQDIS1B = 'TPD'
 DQ1B    = 'NAXES:   2'
 DQ1B    = 'AXIS.1:  1'
 DQ1B    = 'AXIS.2:  2'
+DQ1B    = 'DOCORR:  0'
 DQ1B    = 'TPD.FWD.0:   3.0939038E-01' / TPD coefficient: 1
 DQ1B    = 'TPD.FWD.1:   9.8842111E-01' / TPD coefficient: x
 DQ1B    = 'TPD.FWD.3:  -2.1923537E-03' / TPD coefficient: r
@@ -225,6 +226,7 @@ CQDIS2B = 'TPD'
 DQ2B    = 'NAXES:   2'
 DQ2B    = 'AXIS.1:  2'
 DQ2B    = 'AXIS.2:  1'
+DQ2B    = 'DOCORR:  0'
 DQ2B    = 'TPD.FWD.1:   9.9348652E-01' / TPD coefficient: y
 DQ2B    = 'TPD.FWD.5:  -1.8103805E-06' / TPD coefficient: yx
 DQ2B    = 'TPD.FWD.7:   4.7932276E-11' / TPD coefficient: yyy

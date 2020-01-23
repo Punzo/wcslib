@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,10 +22,10 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsunits.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcsunits.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
-* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
 * (WCS) standard.  Refer to the README file provided with WCSLIB for an
 * overview of the library.
 *
@@ -138,7 +138,7 @@
 *   unitstr   char []   Null-terminated character array containing the units
 *                       specification to be translated.
 *
-*                       Inline units specifications in the a FITS header
+*                       Inline units specifications in a FITS header
 *                       keycomment are also handled.  If the first non-blank
 *                       character in unitstr is '[' then the unit string is
 *                       delimited by its matching ']'.  Blanks preceding '['
@@ -176,7 +176,7 @@
 =     beam       BEAM
 =     byte       Byte
 =     d          day, days, (D), DAY, DAYS
-=     deg        degree, degrees, DEG, DEGREE, DEGREES
+=     deg        degree, degrees, Deg, Degree, Degrees, DEG, DEGREE, DEGREES
 =     GHz        GHZ
 =     h          hr, (H), HR
 =     Hz         hz, HZ

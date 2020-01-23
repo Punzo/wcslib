@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* PGSBOX 5.18 - draw curvilinear coordinate axes for PGPLOT.
-* Copyright (C) 1997-2018, Mark Calabretta
+* PGSBOX 7.1 - draw curvilinear coordinate axes for PGPLOT.
+* Copyright (C) 1997-2020, Mark Calabretta
 *
 * This file is part of PGSBOX.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: pgsbox.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: pgsbox.f,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
 *=======================================================================
 *
 * PGSBOX draws and labels a curvilinear coordinate grid.  The caller
@@ -1297,27 +1297,27 @@
               INSIDE = X2.GT.BLC(1) .AND. X2.LT.TRC(1) .AND.
      :                 Y2.GT.BLC(2) .AND. Y2.LT.TRC(2)
 
-              IF (.NOT.INSIDE) THEN
-*               For tick marks at the left or right edge.
-                IF ((X2.EQ.BLC(1) .OR.  X2.EQ.TRC(1)) .AND.
-     :               Y2.GT.BLC(2) .AND. Y2.LT.TRC(2)) THEN
-                  INSIDE = X2.EQ.XR(NP)
-                END IF
-              END IF
-
-              IF (.NOT.INSIDE) THEN
-*               For tick marks at the bottom or top edge.
-                IF ((Y2.EQ.BLC(2) .OR.  Y2.EQ.TRC(2)) .AND.
-     :               X2.GT.BLC(1) .AND. X2.LT.TRC(1)) THEN
-                  INSIDE = Y2.EQ.YR(NP)
-                END IF
-              END IF
-
               IF (NP.EQ.0) THEN
                 NP = 1
                 XR(1) = X2
                 YR(1) = Y2
               ELSE
+                IF (.NOT.INSIDE) THEN
+*                 For tick marks at the left or right edge.
+                  IF ((X2.EQ.BLC(1) .OR.  X2.EQ.TRC(1)) .AND.
+     :                 Y2.GT.BLC(2) .AND. Y2.LT.TRC(2)) THEN
+                    INSIDE = X2.EQ.XR(NP)
+                  END IF
+                END IF
+
+                IF (.NOT.INSIDE) THEN
+*                 For tick marks at the bottom or top edge.
+                  IF ((Y2.EQ.BLC(2) .OR.  Y2.EQ.TRC(2)) .AND.
+     :                 X2.GT.BLC(1) .AND. X2.LT.TRC(1)) THEN
+                    INSIDE = Y2.EQ.YR(NP)
+                  END IF
+                END IF
+
                 IF (INSIDE) THEN
 *                 This point is inside the frame...
                   IF (.NOT.PREVIN) THEN

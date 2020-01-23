@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: tpih1.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: tpih1.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       PROGRAM TPIH1
@@ -131,8 +131,9 @@
  110  CONTINUE
 
  120  IERR = WCSIDX (NWCS, WCSP, ALTS)
-      WRITE (*, 130)
- 130  FORMAT (//,'Index of alternate coordinate descriptions found:',/,
+      WRITE (*, 130) NWCS
+ 130  FORMAT (//,'Found',I2,' alternate coordinate descriptions with ',
+     :        'indices:',/,
      :        '   A B C D E F G H I J K L M N O P Q R S T U V W X Y Z')
       DO 140 I = 0, 26
         IF (ALTS(I).LT.0) THEN

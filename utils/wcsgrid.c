@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcsgrid.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcsgrid.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
 *=============================================================================
 *
 * wcsgrid extracts the WCS keywords for an image from the specified FITS file
@@ -62,6 +62,7 @@ char usage[] =
 
 #include <wcshdr.h>
 #include <wcsfix.h>
+#include <wcsutil.h>
 #include <wcs.h>
 #include <getwcstab.h>
 
@@ -69,7 +70,7 @@ char usage[] =
 int main(int argc, char **argv)
 
 {
-  char alt = '\0', *header, idents[3][80], *infile, keyword[16], nlcprm[1],
+  char alt = '\0', *header, idents[3][80], *infile, keyword[32], nlcprm[1],
        opt[2], pgdev[16];
   int  c0[] = {-1, -1, -1, -1, -1, -1, -1};
   int  alts[27], gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2],
@@ -98,10 +99,12 @@ int main(int argc, char **argv)
       }
 
       if (argv[i][2] == '/') {
-        strncpy(pgdev+1, argv[i]+3, 15);
+        strncpy(pgdev+1, argv[i]+3, 12);
       } else {
-        strncpy(pgdev+1, argv[i]+2, 15);
+        strncpy(pgdev+1, argv[i]+2, 12);
       }
+      wcsutil_null_fill(-16, pgdev);
+
       break;
 
     case 'h':

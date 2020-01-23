@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,12 +22,13 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: spx_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: spx_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <string.h>
 
 #include <wcserr.h>
+#include <wcsutil.h>
 #include <spx.h>
 
 /* Fortran name mangling. */
@@ -35,6 +36,7 @@
 #define spxget_ F77_FUNC(spxget, SPXGET)
 #define specx_  F77_FUNC(specx,  SPECX)
 
+/* Must match the value set in spx.inc. */
 #define SPX_ERR     200
 
 /*--------------------------------------------------------------------------*/
@@ -80,17 +82,19 @@ int spxgti_(const int *spx, const int *what, int *value)
 /*--------------------------------------------------------------------------*/
 
 int specx_(
-  const char *type,
+  const char   type[4],
   const double *spec,
   const double *restfrq,
   const double *restwav,
   double *specs)
 
 {
-  char stype[5];
-  strncpy(stype, type, 4);
-  stype[4] = '\0';
-  return specx(stype, *spec, *restfrq, *restwav, (struct spxprm *)specs);
+  char type_[5];
+
+  wcsutil_strcvt(4, '\0', type, type_);
+  type_[4] = '\0';
+
+  return specx(type_, *spec, *restfrq, *restwav, (struct spxprm *)specs);
 }
 
 /*--------------------------------------------------------------------------*/

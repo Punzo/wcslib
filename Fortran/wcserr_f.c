@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: wcserr_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: wcserr_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *===========================================================================*/
 
 #include <stdio.h>
@@ -41,11 +41,14 @@
 #define wcserr_prt_     F77_FUNC(wcserr_prt, WCSERR_PRT)
 #define wcserr_clear_   F77_FUNC(wcserr_clear, WCSERR_CLEAR)
 
+/* Must match the values set in wcserr.inc. */
 #define WCSERR_STATUS   200
 #define WCSERR_LINE_NO  201
 #define WCSERR_FUNCTION 202
 #define WCSERR_FILE     203
 #define WCSERR_MSG      204
+
+#define WCSERR_MSG_LENGTH 512
 
 /*--------------------------------------------------------------------------*/
 
@@ -69,16 +72,18 @@ int wcserr_get_(const int *err, const int *what, void *value)
     *ivalp = errp->line_no;
     break;
   case WCSERR_FUNCTION:
-    strncpy(cvalp, errp->function, 72);
-    wcsutil_blank_fill(72, cvalp);
+    wcsutil_strcvt(72, ' ', errp->function, cvalp);
     break;
   case WCSERR_FILE:
-    strncpy(cvalp, errp->file, 72);
-    wcsutil_blank_fill(72, cvalp);
+    wcsutil_strcvt(72, ' ', errp->file, cvalp);
     break;
   case WCSERR_MSG:
-    strncpy(cvalp, errp->msg, WCSERR_MSG_LENGTH);
-    wcsutil_blank_fill(WCSERR_MSG_LENGTH, cvalp);
+    /* The character variable must be of length WCSERR_MSG_LENGTH. */
+    if (errp) {
+      wcsutil_strcvt(WCSERR_MSG_LENGTH, ' ', errp->msg, cvalp);
+    } else {
+      wcsutil_strcvt(WCSERR_MSG_LENGTH, ' ', "", cvalp);
+    }
     break;
   default:
     return 1;
@@ -107,12 +112,17 @@ int wcserr_enable_(const int *enable)
 
 /*--------------------------------------------------------------------------*/
 
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
+
 int wcserr_prt_(const int *err, const char prefix[72])
 
 {
-  char prefix_[72];
-  strncpy(prefix_, prefix, 72);
-  prefix_[71] = '\0';
+  char prefix_[73];
+
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
 
   /* This may or may not force the Fortran I/O buffers to be flushed.  If
    * not, try CALL FLUSH(6) before calling WCSERR_PRT in the Fortran code. */

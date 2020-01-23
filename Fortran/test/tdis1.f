@@ -1,7 +1,7 @@
 *=======================================================================
 *
-* WCSLIB 5.18 - an implementation of the FITS WCS standard.
-* Copyright (C) 1995-2018, Mark Calabretta
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
 *
 * This file is part of WCSLIB.
 *
@@ -22,7 +22,7 @@
 *
 * Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
 * http://www.atnf.csiro.au/people/Mark.Calabretta
-* $Id: tdis1.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+* $Id: tdis1.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=======================================================================
 
       PROGRAM TDIS1
@@ -65,7 +65,7 @@
 
       DATA INFILE /'TPV7.fits'/
 *-----------------------------------------------------------------------
-      STATUS = WCSERR_ENABLE(1)
+      STATUS = WCSERR_ENABLE (1)
 
       WRITE (*, 10)
  10   FORMAT (
@@ -123,7 +123,7 @@
 
 
 *     Parse the header.
-      CALL FLUSH(6)
+      CALL FLUSH (6)
       STATUS = WCSPIH (HEADER, NKEYRC, WCSHDR_none, 2, NREJECT, NWCS,
      :                 WCSP)
       IF (STATUS.NE.0) GO TO 999
@@ -133,16 +133,16 @@
       IF (STATUS.NE.0) GO TO 999
 
 *     Translate the TPV "projection" into a sequent distortion.
-      STATUS = WCSSET(WCS)
+      STATUS = WCSSET (WCS)
       IF (STATUS.NE.0) THEN
-        STATUS = WCSPERR(WCS, CHAR(0))
+        STATUS = WCSPERR (WCS, CHAR(0))
         GO TO 999
       END IF
 
-*     Henceforth, we will work with linprm.
+*     Henceforth, we will work with linprm.  Make a shallow copy.
       STATUS = WCSGET (WCS, WCS_LIN, LIN)
       IF (STATUS.NE.0) THEN
-        STATUS = WCSPERR(WCS, CHAR(0))
+        STATUS = WCSPERR (WCS, CHAR(0))
         GO TO 999
       END IF
 
@@ -262,5 +262,9 @@
 
 *     Free the memory allocated by WCSPIH.
  999  STATUS = WCSVFREE (NWCS, WCSP)
+
+*     Free memory, allocated via the call to WCSSET, in the copy we made.
+*     Also frees allocated memory in the shallow copy we made of linprm.
+      STATUS = WCSFREE (WCS)
 
       END

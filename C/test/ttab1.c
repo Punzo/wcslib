@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: ttab1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: ttab1.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * ttab1 tests the -TAB routines for closure.
@@ -123,33 +123,31 @@ int main()
     if (i == 9) printf("\n");
   }
 
-  nl = 1;
   if (status0) {
-    if (nl) printf("\n");
-    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
-    nl = 0;
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 16; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
   }
 
   if (status1) {
-    if (nl) printf("\n");
-    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 16; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
   }
 
   /* Test closure. */
   nl = 1;
   residmax = 0.0;
   for (i = 0; i < 16; i++) {
-    if (stat0[i]) {
-      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
-      nl = 1;
-      continue;
-    }
-
-    if (stat1[i]) {
-      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
-      nl = 1;
-      continue;
-    }
+    if (stat0[i] || stat1[i]) continue;
 
     resid = fabs(xt1[i] - xt0[i]);
     if (resid > residmax) residmax = resid;
@@ -164,6 +162,43 @@ int main()
       nl = 0;
     }
   }
+
+  /* Check error handling. */
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+  xt0[0] =  0.0;
+  xt0[1] = 11.0;
+  status0 = tabx2s(&tab, 2, 1, (double *)xt0, (double *)s, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 2; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+  }
+
+  s[0] =   0.0;
+  s[1] = 200.0;
+  status1 = tabs2x(&tab, 2, 1, (double *)s, (double *)xt1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 2; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+  }
+
+  printf("\nReports of four invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
 
   tabfree(&tab);
   tab.index = 0x0;
@@ -231,33 +266,31 @@ int main()
     }
   }
 
-  nl = 1;
   if (status0) {
-    if (nl) printf("\n");
-    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
-    nl = 0;
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 12; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
   }
 
   if (status1) {
-    if (nl) printf("\n");
-    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 12; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
   }
 
   /* Test closure. */
   nl = 1;
   residmax = 0.0;
   for (i = 0; i < 12; i++) {
-    if (stat0[i]) {
-      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
-      nl = 1;
-      continue;
-    }
-
-    if (stat1[i]) {
-      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
-      nl = 1;
-      continue;
-    }
+    if (stat0[i] || stat1[i]) continue;
 
     resid = fabs(xt1[i] - xt0[i]);
     if (resid > residmax) residmax = resid;
@@ -351,16 +384,30 @@ int main()
     }
   }
 
-  nl = 1;
   if (status0) {
-    if (nl) printf("\n");
-    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
-    nl = 0;
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+        if (stat0[n]) {
+          printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+            x0[i][j][1], stat0[n]);
+        }
+      }
+    }
   }
 
   if (status1) {
-    if (nl) printf("\n");
-    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+        if (stat1[n]) {
+          printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+            world[i][j][0], world[i][j][1], stat1[n]);
+        }
+      }
+    }
   }
 
   /* Check for closure. */
@@ -369,19 +416,7 @@ int main()
   residmax = 0.0;
   for (i = 0; i < 11; i++) {
     for (j = 0; j < 11; j++, n++) {
-      if (stat0[n]) {
-        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
-          x0[i][j][1], stat0[n]);
-        nl = 1;
-        continue;
-      }
-
-      if (stat1[n]) {
-        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
-          world[i][j][0], world[i][j][1], stat1[n]);
-        nl = 1;
-        continue;
-      }
+      if (stat0[n] || stat1[n]) continue;
 
       for (m = 0; m < M; m++) {
         resid = fabs(x1[i][j][m] - x0[i][j][m]);
@@ -404,6 +439,58 @@ int main()
   }
 
   printf("\ntabx2s/tabs2x: Maximum closure residual = %.1e\n", residmax);
+
+  /* Check error handling. */
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+
+  x0[0][0][0] = -5.0;
+  x0[0][0][1] =  1.0;
+  x0[0][1][0] =  0.0;
+  x0[0][1][1] =  0.0;
+  x0[0][2][0] = 31.0;
+  x0[0][2][1] =  1.0;
+  x0[0][3][0] =  0.0;
+  x0[0][3][1] = 17.0;
+  status0 = tabx2s(&tab, 4, 2, (double *)x0, (double *)world, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (j = 0; j < 4; j++) {
+      if (stat0[j]) {
+        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[0][j][0],
+          x0[0][j][1], stat0[j]);
+      }
+    }
+  }
+
+  world[0][0][0] = -1.0;
+  world[0][0][1] =  0.0;
+  world[0][1][0] =  0.0;
+  world[0][1][1] = -2.0;
+  world[0][2][0] =  4.0;
+  world[0][2][1] =  0.0;
+  world[0][3][0] =  0.0;
+  world[0][3][1] =  1.0;
+  status1 = tabs2x(&tab, 4, 2, (double *)world, (double *)x1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (j = 0; j < 4; j++) {
+      if (stat1[j]) {
+        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+          world[0][j][0], world[0][j][1], stat1[j]);
+      }
+    }
+  }
+
+  printf("\nReports of eight invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
 
   tabfree(&tab);
 

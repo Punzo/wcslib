@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,7 +22,7 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: tdis1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: tdis1.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * tdis1 tests the WCSLIB distortion functions for closure.  Input comes from
@@ -131,7 +131,7 @@ int main(int argc, char *argv[])
         continue;
       }
 
-      strncpy(header+k, keyrec, 80);
+      memcpy(header+k, keyrec, 80);
       k += 80;
       nkeyrec++;
 
@@ -337,6 +337,8 @@ int main(int argc, char *argv[])
       disfn = lin->dispre->dtype[0];
     } else if (lin->disseq) {
       disfn = lin->disseq->dtype[0];
+    } else {
+      disfn = 0x0;
     }
 
     wcsprintf("\n");
@@ -528,7 +530,7 @@ int tpv2poly(struct wcsprm *wcs)
     {0, 6, 0}, {7, 0, 0}, {6, 1, 0}, {5, 2, 0}, {4, 3, 0},	/* 30 - 34 */
     {3, 4, 0}, {2, 5, 0}, {1, 6, 0}, {0, 7, 0}, {0, 0, 7}};	/* 35 - 39 */
 
-  char dqi[8], dqifield[32];
+  char dqi[16], dqifield[32];
   int  i, k, m, naux, nterms;
   struct disprm *dis;
   struct dpkey  *keyp;
@@ -540,7 +542,7 @@ int tpv2poly(struct wcsprm *wcs)
 
   /* Set values in the disprm struct. */
   dis->flag = -1;
-  disndp(22 + 3*wcs->npv);
+  disndp(24 + 3*wcs->npv);
   lindis(2, &(wcs->lin), dis);
 
 
@@ -566,6 +568,7 @@ int tpv2poly(struct wcsprm *wcs)
     dpfill(keyp++, dqi, "NAXES",  i, 0, 2, 0.0);
     dpfill(keyp++, dqi, "AXIS.1", i, 0, (i==1)?1:2, 0.0);
     dpfill(keyp++, dqi, "AXIS.2", i, 0, (i==1)?2:1, 0.0);
+    dpfill(keyp++, dqi, "DOCORR", i, 0, 0, 0.0);
 
     if (naux) {
       dpfill(keyp++, dqi, "NAUX",   i, 0, 1, 0.0);

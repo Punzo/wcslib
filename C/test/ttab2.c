@@ -1,7 +1,7 @@
 /*============================================================================
 
-  WCSLIB 5.18 - an implementation of the FITS WCS standard.
-  Copyright (C) 1995-2018, Mark Calabretta
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
 
   This file is part of WCSLIB.
 
@@ -22,13 +22,13 @@
 
   Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
   http://www.atnf.csiro.au/people/Mark.Calabretta
-  $Id: ttab2.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+  $Id: ttab2.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
 *=============================================================================
 *
 * ttab2 tests the -TAB routines using PGPLOT for graphical display.  It
 * demonstrates the nature of linear interpolation in 2 dimensions by
-* contouring the interior a single 2 x 2 interpolation element as the values
-* in each corner change.
+* contouring the interior of a single 2 x 2 interpolation element as the
+* values in each corner change.
 *
 *---------------------------------------------------------------------------*/
 
