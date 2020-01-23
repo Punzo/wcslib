@@ -25,8 +25,8 @@ SET(INCLUDE_DIRS
 )
 
 # Define project version
-SET(${PROJECT_NAME}_MAJOR_VERSION 5)
-SET(${PROJECT_NAME}_MINOR_VERSION 18)
+SET(${PROJECT_NAME}_MAJOR_VERSION 7)
+SET(${PROJECT_NAME}_MINOR_VERSION 1)
 SET(${PROJECT_NAME}_VERSION ${${PROJECT_NAME}_MAJOR_VERSION}.${${PROJECT_NAME}_MINOR_VERSION})
 SET(LIB_NAME wcslib)
 
@@ -78,7 +78,7 @@ SET(H_FILES
     C/cel.h   C/dis.h   C/fitshdr.h   C/getwcstab.h   C/lin.h   C/log.h
     C/prj.h   C/spc.h   C/sph.h   C/spx.h   C/tab.h   C/wcs.h
     C/wcserr.h   C/wcsfix.h   C/wcshdr.h   C/wcsprintf.h
-    C/wcstrig.h   C/wcsunits.h   C/wcsutil.h
+    C/wcstrig.h   C/wcsunits.h   C/wcsutil.h   C/wtbarr.h
 )
 
 SET(SRC_FILES
