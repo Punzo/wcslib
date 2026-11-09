@@ -1,0 +1,5840 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.21.57;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.06.42.50;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.07.20;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.04.23.38;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.53.44;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.15.03;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.51.00;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.03.50.41;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.03.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2006.08.02.00.14.58;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.08.08.08.40.48;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.04.02.06.17.13;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.05.10.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.09.03.02.26.08;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.43.08;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.11.03.51.48;	author cal103;	state Exp;
+branches;
+next	4.7.1.5;
+
+4.7.1.5
+date	2011.08.15.05.56.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	4.18.1.2;
+
+4.18.1.2
+date	2013.07.15.14.17.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.01.15.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.18.08.13.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.05.09.34.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.13.16.15.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for the routines that implement the WCS spectral
+conversion equations; contains the definition of the "spxprm" struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: spx.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the spx routines
+* ---------------------------
+* Routines in this suite implement the spectral coordinate systems recognized
+* by the FITS World Coordinate System (WCS) standard, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+*
+* specx() is a scalar routine that, given one spectral variable (e.g.
+* frequency), computes all the others (e.g. wavelength, velocity, etc.) plus
+* the required derivatives of each with respect to the others.  The results
+* are returned in the spxprm struct.
+*
+* spxperr() prints the error message(s) (if any) stored in a spxprm struct.
+*
+* The remaining routines are all vector conversions from one spectral
+* variable to another.  The API of these functions only differ in whether the
+* rest frequency or wavelength need be supplied.
+*
+* Non-linear:
+*   - freqwave()    frequency              ->  vacuum wavelength
+*   - wavefreq()    vacuum wavelength      ->  frequency
+*
+*   - freqawav()    frequency              ->  air wavelength
+*   - awavfreq()    air wavelength         ->  frequency
+*
+*   - freqvelo()    frequency              ->  relativistic velocity
+*   - velofreq()    relativistic velocity  ->  frequency
+*
+*   - waveawav()    vacuum wavelength      ->  air wavelength
+*   - awavwave()    air wavelength         ->  vacuum wavelength
+*
+*   - wavevelo()    vacuum wavelength      ->  relativistic velocity
+*   - velowave()    relativistic velocity  ->  vacuum wavelength
+*
+*   - awavvelo()    air wavelength         ->  relativistic velocity
+*   - veloawav()    relativistic velocity  ->  air wavelength
+*
+* Linear:
+*   - freqafrq()    frequency              ->  angular frequency
+*   - afrqfreq()    angular frequency      ->  frequency
+*
+*   - freqener()    frequency              ->  energy
+*   - enerfreq()    energy                 ->  frequency
+*
+*   - freqwavn()    frequency              ->  wave number
+*   - wavnfreq()    wave number            ->  frequency
+*
+*   - freqvrad()    frequency              ->  radio velocity
+*   - vradfreq()    radio velocity         ->  frequency
+*
+*   - wavevopt()    vacuum wavelength      ->  optical velocity
+*   - voptwave()    optical velocity       ->  vacuum wavelength
+*
+*   - wavezopt()    vacuum wavelength      ->  redshift
+*   - zoptwave()    redshift               ->  vacuum wavelength
+*
+*   - velobeta()    relativistic velocity  ->  beta (= v/c)
+*   - betavelo()    beta (= v/c)           ->  relativistic velocity
+*
+* These are the workhorse routines, to be used for fast transformations.
+* Conversions may be done "in place" by calling the routine with the output
+* vector set to the input.
+*
+* Air-to-vacuum wavelength conversion:
+* ------------------------------------
+* The air-to-vacuum wavelength conversion in early drafts of WCS Paper III
+* cites Cox (ed., 2000, Allen’s Astrophysical Quantities, AIP Press,
+* Springer-Verlag, New York), which itself derives from Edlén (1953, Journal
+* of the Optical Society of America, 43, 339).  This is the IAU standard,
+* adopted in 1957 and again in 1991.  No more recent IAU resolution replaces
+* this relation, and it is the one used by WCSLIB.
+*
+* However, the Cox relation was replaced in later drafts of Paper III, and as
+* eventually published, by the IUGG relation (1999, International Union of
+* Geodesy and Geophysics, comptes rendus of the 22nd General Assembly,
+* Birmingham UK, p111).  There is a nearly constant ratio between the two,
+* with IUGG/Cox = 1.000015 over most of the range between 200nm and 10,000nm.
+*
+* The IUGG relation itself is derived from the work of Ciddor (1996, Applied
+* Optics, 35, 1566), which is used directly by the Sloan Digital Sky Survey.
+* It agrees closely with Cox; longwards of 2500nm, the ratio Ciddor/Cox is
+* fixed at 1.000000021, decreasing only slightly, to 1.000000018, at 1000nm.
+*
+* The Cox, IUGG, and Ciddor relations all accurately provide the wavelength
+* dependence of the air-to-vacuum wavelength conversion.  However, for full
+* accuracy, the atmospheric temperature, pressure, and partial pressure of
+* water vapour must be taken into account.  These will determine a small,
+* wavelength-independent scale factor and offset, which is not considered by
+* WCS Paper III.
+*
+* WCS Paper III is also silent on the question of the range of validity of the
+* air-to-vacuum wavelength conversion.  Cox's relation would appear to be
+* valid in the range 200nm to 10,000nm.  Both the Cox and the Ciddor relations
+* have singularities below 200nm, with Cox's at 156nm and 83nm.  WCSLIB checks
+* neither the range of validity, nor for these singularities.
+*
+* Argument checking:
+* ------------------
+* The input spectral values are only checked for values that would result
+* in floating point exceptions.  In particular, negative frequencies and
+* wavelengths are allowed, as are velocities greater than the speed of
+* light.  The same is true for the spectral parameters - rest frequency and
+* wavelength.
+*
+* Accuracy:
+* ---------
+* No warranty is given for the accuracy of these routines (refer to the
+* copyright notice); intending users must satisfy for themselves their
+* adequacy for the intended purpose.  However, closure effectively to within
+* double precision rounding error was demonstrated by test routine tspec.c
+* which accompanies this software.
+*
+*
+* specx() - Spectral cross conversions (scalar)
+* ---------------------------------------------
+* Given one spectral variable specx() computes all the others, plus the
+* required derivatives of each with respect to the others.
+*
+* Given:
+*   type      const char*
+*                       The type of spectral variable given by spec, FREQ,
+*                       AFRQ, ENER, WAVN, VRAD, WAVE, VOPT, ZOPT, AWAV, VELO,
+*                       or BETA (case sensitive).
+*
+*   spec      double    The spectral variable given, in SI units.
+*
+*   restfrq,
+*   restwav   double    Rest frequency [Hz] or rest wavelength in vacuo [m],
+*                       only one of which need be given.  The other should be
+*                       set to zero.  If both are zero, only a subset of the
+*                       spectral variables can be computed, the remainder are
+*                       set to zero.  Specifically, given one of FREQ, AFRQ,
+*                       ENER, WAVN, WAVE, or AWAV the others can be computed
+*                       without knowledge of the rest frequency.  Likewise,
+*                       VRAD, VOPT, ZOPT, VELO, and BETA.
+*
+* Given and returned:
+*   specs     struct spxprm*
+*                       Data structure containing all spectral variables and
+*                       their derivatives, in SI units.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null spxprm pointer passed.
+*                         2: Invalid spectral parameters.
+*                         3: Invalid spectral variable.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       spxprm::err if enabled, see wcserr_enable().
+*
+* freqafrq(), afrqfreq(), freqener(), enerfreq(), freqwavn(), wavnfreq(),
+* freqwave(), wavefreq(), freqawav(), awavfreq(), waveawav(), awavwave(),
+* velobeta(), and betavelo() implement vector conversions between wave-like
+* or velocity-like spectral types (i.e. conversions that do not need the rest
+* frequency or wavelength).  They all have the same API.
+*
+*
+* spxperr() - Print error messages from a spxprm struct
+* -----------------------------------------------------
+* spxperr() prints the error message(s) (if any) stored in a spxprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   spx       const struct spxprm*
+*                       Spectral variables and their derivatives.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null spxprm pointer passed.
+*
+*
+* freqafrq() - Convert frequency to angular frequency (vector)
+* ------------------------------------------------------------
+* freqafrq() converts frequency to angular frequency.
+*
+* Given:
+*   param     double    Ignored.
+*
+*   nspec     int       Vector length.
+*
+*   instep,
+*   outstep   int       Vector strides.
+*
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* freqvelo(), velofreq(), freqvrad(), and vradfreq() implement vector
+* conversions between frequency and velocity spectral types.  They all have
+* the same API.
+*
+*
+* freqvelo() - Convert frequency to relativistic velocity (vector)
+* ----------------------------------------------------------------
+* freqvelo() converts frequency to relativistic velocity.
+*
+* Given:
+*   param     double    Rest frequency [Hz].
+*
+*   nspec     int       Vector length.
+*
+*   instep,
+*   outstep   int       Vector strides.
+*
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* wavevelo(), velowave(), awavvelo(), veloawav(), wavevopt(), voptwave(),
+* wavezopt(), and zoptwave() implement vector conversions between wavelength
+* and velocity spectral types.  They all have the same API.
+*
+*
+* wavevelo() - Conversions between wavelength and velocity types (vector)
+* -----------------------------------------------------------------------
+* wavevelo() converts vacuum wavelength to relativistic velocity.
+*
+* Given:
+*   param     double    Rest wavelength in vacuo [m].
+*
+*   nspec     int       Vector length.
+*
+*   instep,
+*   outstep   int       Vector strides.
+*
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* spxprm struct - Spectral variables and their derivatives
+* --------------------------------------------------------
+* The spxprm struct contains the value of all spectral variables and their
+* derivatives.   It is used solely by specx() which constructs it from
+* information provided via its function arguments.
+*
+* This struct should be considered read-only, no members need ever be set nor
+* should ever be modified by the user.
+*
+*   double restfrq
+*     (Returned) Rest frequency [Hz].
+*
+*   double restwav
+*     (Returned) Rest wavelength [m].
+*
+*   int wavetype
+*     (Returned) True if wave types have been computed, and ...
+*
+*   int velotype
+*     (Returned) ... true if velocity types have been computed; types are
+*     defined below.
+*
+*     If one or other of spxprm::restfrq and spxprm::restwav is given
+*     (non-zero) then all spectral variables may be computed.  If both are
+*     given, restfrq is used.  If restfrq and restwav are both zero, only wave
+*     characteristic xor velocity type spectral variables may be computed
+*     depending on the variable given.   These flags indicate what is
+*     available.
+*
+*   double freq
+*     (Returned) Frequency [Hz] (wavetype).
+*
+*   double afrq
+*     (Returned) Angular frequency [rad/s] (wavetype).
+*
+*   double ener
+*     (Returned) Photon energy [J] (wavetype).
+*
+*   double wavn
+*     (Returned) Wave number [/m] (wavetype).
+*
+*   double vrad
+*     (Returned) Radio velocity [m/s] (velotype).
+*
+*   double wave
+*     (Returned) Vacuum wavelength [m] (wavetype).
+*
+*   double vopt
+*     (Returned) Optical velocity [m/s] (velotype).
+*
+*   double zopt
+*     (Returned) Redshift [dimensionless] (velotype).
+*
+*   double awav
+*     (Returned) Air wavelength [m] (wavetype).
+*
+*   double velo
+*     (Returned) Relativistic velocity [m/s] (velotype).
+*
+*   double beta
+*     (Returned) Relativistic beta [dimensionless] (velotype).
+*
+*   double dfreqafrq
+*     (Returned) Derivative of frequency with respect to angular frequency
+*     [/rad] (constant, = 1 / 2*pi), and ...
+*   double dafrqfreq
+*     (Returned) ... vice versa [rad] (constant, = 2*pi, always available).
+*
+*   double dfreqener
+*     (Returned) Derivative of frequency with respect to photon energy
+*     [/J/s] (constant, = 1/h), and ...
+*   double denerfreq
+*     (Returned) ... vice versa [Js] (constant, = h, Planck's constant,
+*     always available).
+*
+*   double dfreqwavn
+*     (Returned) Derivative of frequency with respect to wave number [m/s]
+*     (constant, = c, the speed of light in vacuo), and ...
+*   double dwavnfreq
+*     (Returned) ... vice versa [s/m] (constant, = 1/c, always available).
+*
+*   double dfreqvrad
+*     (Returned) Derivative of frequency with respect to radio velocity [/m],
+*     and ...
+*   double dvradfreq
+*     (Returned) ... vice versa [m] (wavetype && velotype).
+*
+*   double dfreqwave
+*     (Returned) Derivative of frequency with respect to vacuum wavelength
+*     [/m/s], and ...
+*   double dwavefreq
+*     (Returned) ... vice versa [m s] (wavetype).
+*
+*   double dfreqawav
+*     (Returned) Derivative of frequency with respect to air wavelength,
+*     [/m/s], and ...
+*   double dawavfreq
+*     (Returned) ... vice versa [m s] (wavetype).
+*
+*   double dfreqvelo
+*     (Returned) Derivative of frequency with respect to relativistic
+*     velocity [/m], and ...
+*   double dvelofreq
+*     (Returned) ... vice versa [m] (wavetype && velotype).
+*
+*   double dwavevopt
+*     (Returned) Derivative of vacuum wavelength with respect to optical
+*     velocity [s], and ...
+*   double dvoptwave
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+*
+*   double dwavezopt
+*     (Returned) Derivative of vacuum wavelength with respect to redshift [m],
+*     and ...
+*   double dzoptwave
+*     (Returned) ... vice versa [/m] (wavetype && velotype).
+*
+*   double dwaveawav
+*     (Returned) Derivative of vacuum wavelength with respect to air
+*     wavelength [dimensionless], and ...
+*   double dawavwave
+*     (Returned) ... vice versa [dimensionless] (wavetype).
+*
+*   double dwavevelo
+*     (Returned) Derivative of vacuum wavelength with respect to relativistic
+*     velocity [s], and ...
+*   double dvelowave
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+*
+*   double dawavvelo
+*     (Returned) Derivative of air wavelength with respect to relativistic
+*     velocity [s], and ...
+*   double dveloawav
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+*
+*   double dvelobeta
+*     (Returned) Derivative of relativistic velocity with respect to
+*     relativistic beta [m/s] (constant, = c, the speed of light in vacuo),
+*     and ...
+*   double dbetavelo
+*     (Returned) ... vice versa [s/m] (constant, = 1/c, always available).
+*
+*   struct wcserr *err
+*     (Returned) If enabled, when an error status is returned, this struct
+*     contains detailed information about the error, see wcserr_enable().
+*
+*   void *padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+*
+* Global variable: const char *spx_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_SPEC
+#define WCSLIB_SPEC
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern const char *spx_errmsg[];
+
+enum spx_errmsg {
+  SPXERR_SUCCESS          = 0,	// Success.
+  SPXERR_NULL_POINTER     = 1,	// Null spxprm pointer passed.
+  SPXERR_BAD_SPEC_PARAMS  = 2,	// Invalid spectral parameters.
+  SPXERR_BAD_SPEC_VAR     = 3,	// Invalid spectral variable.
+  SPXERR_BAD_INSPEC_COORD = 4 	// One or more of the inspec coordinates were
+				// invalid.
+};
+
+struct spxprm {
+  double restfrq, restwav;	// Rest frequency [Hz] and wavelength [m].
+
+  int wavetype, velotype;	// True if wave/velocity types have been
+				// computed; types are defined below.
+
+  // Spectral variables computed by specx().
+  //--------------------------------------------------------------------------
+  double freq,			// wavetype: Frequency [Hz].
+         afrq,			// wavetype: Angular frequency [rad/s].
+         ener,			// wavetype: Photon energy [J].
+         wavn,			// wavetype: Wave number [/m].
+         vrad,			// velotype: Radio velocity [m/s].
+         wave,			// wavetype: Vacuum wavelength [m].
+         vopt,			// velotype: Optical velocity [m/s].
+         zopt,			// velotype: Redshift.
+         awav,			// wavetype: Air wavelength [m].
+         velo,			// velotype: Relativistic velocity [m/s].
+         beta;			// velotype: Relativistic beta.
+
+  // Derivatives of spectral variables computed by specx().
+  //--------------------------------------------------------------------------
+  double dfreqafrq, dafrqfreq,	// Constant, always available.
+         dfreqener, denerfreq,	// Constant, always available.
+         dfreqwavn, dwavnfreq,	// Constant, always available.
+         dfreqvrad, dvradfreq,	// wavetype && velotype.
+         dfreqwave, dwavefreq,	// wavetype.
+         dfreqawav, dawavfreq,	// wavetype.
+         dfreqvelo, dvelofreq,	// wavetype && velotype.
+         dwavevopt, dvoptwave,	// wavetype && velotype.
+         dwavezopt, dzoptwave,	// wavetype && velotype.
+         dwaveawav, dawavwave,	// wavetype.
+         dwavevelo, dvelowave,	// wavetype && velotype.
+         dawavvelo, dveloawav,	// wavetype && velotype.
+         dvelobeta, dbetavelo;	// Constant, always available.
+
+  // Error handling
+  //--------------------------------------------------------------------------
+  struct wcserr *err;
+
+  // Private
+  //--------------------------------------------------------------------------
+  void   *padding;		// (Dummy inserted for alignment purposes.)
+};
+
+// Size of the spxprm struct in int units, used by the Fortran wrappers.
+#define SPXLEN (sizeof(struct spxprm)/sizeof(int))
+
+
+int specx(const char *type, double spec, double restfrq, double restwav,
+          struct spxprm *specs);
+
+int spxperr(const struct spxprm *spx, const char *prefix);
+
+// For use in declaring function prototypes, e.g. in spcprm.
+#define SPX_ARGS double param, int nspec, int instep, int outstep, \
+    const double inspec[], double outspec[], int stat[]
+
+int freqafrq(SPX_ARGS);
+int afrqfreq(SPX_ARGS);
+
+int freqener(SPX_ARGS);
+int enerfreq(SPX_ARGS);
+
+int freqwavn(SPX_ARGS);
+int wavnfreq(SPX_ARGS);
+
+int freqwave(SPX_ARGS);
+int wavefreq(SPX_ARGS);
+
+int freqawav(SPX_ARGS);
+int awavfreq(SPX_ARGS);
+
+int waveawav(SPX_ARGS);
+int awavwave(SPX_ARGS);
+
+int velobeta(SPX_ARGS);
+int betavelo(SPX_ARGS);
+
+
+int freqvelo(SPX_ARGS);
+int velofreq(SPX_ARGS);
+
+int freqvrad(SPX_ARGS);
+int vradfreq(SPX_ARGS);
+
+
+int wavevelo(SPX_ARGS);
+int velowave(SPX_ARGS);
+
+int awavvelo(SPX_ARGS);
+int veloawav(SPX_ARGS);
+
+int wavevopt(SPX_ARGS);
+int voptwave(SPX_ARGS);
+
+int wavezopt(SPX_ARGS);
+int zoptwave(SPX_ARGS);
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_SPEC
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: spx.h,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: spx.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.2.1.3 2024/05/13 16:15:46 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+d460 1
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Inserted a blank line in the prologue required for document generation.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+a459 1
+*
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: spx.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d477 6
+a482 6
+  SPXERR_SUCCESS          = 0,	/* Success. */
+  SPXERR_NULL_POINTER     = 1,	/* Null spxprm pointer passed. */
+  SPXERR_BAD_SPEC_PARAMS  = 2,	/* Invalid spectral parameters. */
+  SPXERR_BAD_SPEC_VAR     = 3,	/* Invalid spectral variable. */
+  SPXERR_BAD_INSPEC_COORD = 4 	/* One or more of the inspec coordinates were
+				   invalid. */
+d486 1
+a486 1
+  double restfrq, restwav;	/* Rest frequency [Hz] and wavelength [m].  */
+d488 2
+a489 2
+  int wavetype, velotype;	/* True if wave/velocity types have been    */
+				/* computed; types are defined below.       */
+d491 29
+a519 29
+  /* Spectral variables computed by specx().                                */
+  /*------------------------------------------------------------------------*/
+  double freq,			/* wavetype: Frequency [Hz].                */
+         afrq,			/* wavetype: Angular frequency [rad/s].     */
+         ener,			/* wavetype: Photon energy [J].             */
+         wavn,			/* wavetype: Wave number [/m].              */
+         vrad,			/* velotype: Radio velocity [m/s].          */
+         wave,			/* wavetype: Vacuum wavelength [m].         */
+         vopt,			/* velotype: Optical velocity [m/s].        */
+         zopt,			/* velotype: Redshift.                      */
+         awav,			/* wavetype: Air wavelength [m].            */
+         velo,			/* velotype: Relativistic velocity [m/s].   */
+         beta;			/* velotype: Relativistic beta.             */
+
+  /* Derivatives of spectral variables computed by specx().                 */
+  /*------------------------------------------------------------------------*/
+  double dfreqafrq, dafrqfreq,	/* Constant, always available.              */
+         dfreqener, denerfreq,	/* Constant, always available.              */
+         dfreqwavn, dwavnfreq,	/* Constant, always available.              */
+         dfreqvrad, dvradfreq,	/* wavetype && velotype.                    */
+         dfreqwave, dwavefreq,	/* wavetype.                                */
+         dfreqawav, dawavfreq,	/* wavetype.                                */
+         dfreqvelo, dvelofreq,	/* wavetype && velotype.                    */
+         dwavevopt, dvoptwave,	/* wavetype && velotype.                    */
+         dwavezopt, dzoptwave,	/* wavetype && velotype.                    */
+         dwaveawav, dawavwave,	/* wavetype.                                */
+         dwavevelo, dvelowave,	/* wavetype && velotype.                    */
+         dawavvelo, dveloawav,	/* wavetype && velotype.                    */
+         dvelobeta, dbetavelo;	/* Constant, always available.              */
+d521 2
+a522 2
+  /* Error handling                                                         */
+  /*------------------------------------------------------------------------*/
+d525 3
+a527 3
+  /* Private                                                                */
+  /*------------------------------------------------------------------------*/
+  void   *padding;		/* (Dummy inserted for alignment purposes.) */
+d530 1
+a530 1
+/* Size of the spxprm struct in int units, used by the Fortran wrappers. */
+d539 1
+a539 1
+/* For use in declaring function prototypes, e.g. in spcprm. */
+d589 1
+a589 1
+#endif /* WCSLIB_SPEC */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: spx.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d480 6
+a485 6
+  SPXERR_SUCCESS          = 0,	// Success.
+  SPXERR_NULL_POINTER     = 1,	// Null spxprm pointer passed.
+  SPXERR_BAD_SPEC_PARAMS  = 2,	// Invalid spectral parameters.
+  SPXERR_BAD_SPEC_VAR     = 3,	// Invalid spectral variable.
+  SPXERR_BAD_INSPEC_COORD = 4 	// One or more of the inspec coordinates were
+				// invalid.
+d489 1
+a489 1
+  double restfrq, restwav;	// Rest frequency [Hz] and wavelength [m].
+d491 2
+a492 2
+  int wavetype, velotype;	// True if wave/velocity types have been
+				// computed; types are defined below.
+d494 29
+a522 29
+  // Spectral variables computed by specx().
+  //--------------------------------------------------------------------------
+  double freq,			// wavetype: Frequency [Hz].
+         afrq,			// wavetype: Angular frequency [rad/s].
+         ener,			// wavetype: Photon energy [J].
+         wavn,			// wavetype: Wave number [/m].
+         vrad,			// velotype: Radio velocity [m/s].
+         wave,			// wavetype: Vacuum wavelength [m].
+         vopt,			// velotype: Optical velocity [m/s].
+         zopt,			// velotype: Redshift.
+         awav,			// wavetype: Air wavelength [m].
+         velo,			// velotype: Relativistic velocity [m/s].
+         beta;			// velotype: Relativistic beta.
+
+  // Derivatives of spectral variables computed by specx().
+  //--------------------------------------------------------------------------
+  double dfreqafrq, dafrqfreq,	// Constant, always available.
+         dfreqener, denerfreq,	// Constant, always available.
+         dfreqwavn, dwavnfreq,	// Constant, always available.
+         dfreqvrad, dvradfreq,	// wavetype && velotype.
+         dfreqwave, dwavefreq,	// wavetype.
+         dfreqawav, dawavfreq,	// wavetype.
+         dfreqvelo, dvelofreq,	// wavetype && velotype.
+         dwavevopt, dvoptwave,	// wavetype && velotype.
+         dwavezopt, dzoptwave,	// wavetype && velotype.
+         dwaveawav, dawavwave,	// wavetype.
+         dwavevelo, dvelowave,	// wavetype && velotype.
+         dawavvelo, dveloawav,	// wavetype && velotype.
+         dvelobeta, dbetavelo;	// Constant, always available.
+d524 2
+a525 2
+  // Error handling
+  //--------------------------------------------------------------------------
+d528 3
+a530 3
+  // Private
+  //--------------------------------------------------------------------------
+  void   *padding;		// (Dummy inserted for alignment purposes.)
+d533 1
+a533 1
+// Size of the spxprm struct in int units, used by the Fortran wrappers.
+d542 1
+a542 1
+// For use in declaring function prototypes, e.g. in spcprm.
+d592 1
+a592 1
+#endif // WCSLIB_SPEC
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: spx.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: spx.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.18.1.2 2018/07/05 09:34:22 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+d100 33
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Added a note to the prologue concerning the air-to-vacuum wavelength
+conversion.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+a99 33
+*
+* Air-to-vacuum wavelength conversion:
+* ------------------------------------
+* The air-to-vacuum wavelength conversion in early drafts of WCS Paper III
+* cites Cox (ed., 2000, Allen’s Astrophysical Quantities, AIP Press,
+* Springer-Verlag, New York), which itself derives from Edlén (1953, Journal
+* of the Optical Society of America, 43, 339).  This is the IAU standard,
+* adopted in 1957 and again in 1991.  No more recent IAU resolution replaces
+* this relation, and it is the one used by WCSLIB.
+*
+* However, the Cox relation was replaced in later drafts of Paper III, and as
+* eventually published, by the IUGG relation (1999, International Union of
+* Geodesy and Geophysics, comptes rendus of the 22nd General Assembly,
+* Birmingham UK, p111).  There is a nearly constant ratio between the two,
+* with IUGG/Cox = 1.000015 over most of the range between 200nm and 10,000nm.
+*
+* The IUGG relation itself is derived from the work of Ciddor (1996, Applied
+* Optics, 35, 1566), which is used directly by the Sloan Digital Sky Survey.
+* It agrees closely with Cox; longwards of 2500nm, the ratio Ciddor/Cox is
+* fixed at 1.000000021, decreasing only slightly, to 1.000000018, at 1000nm.
+*
+* The Cox, IUGG, and Ciddor relations all accurately provide the wavelength
+* dependence of the air-to-vacuum wavelength conversion.  However, for full
+* accuracy, the atmospheric temperature, pressure, and partial pressure of
+* water vapour must be taken into account.  These will determine a small,
+* wavelength-independent scale factor and offset, which is not considered by
+* WCS Paper III.
+*
+* WCS Paper III is also silent on the question of the range of validity of the
+* air-to-vacuum wavelength conversion.  Cox's relation would appear to be
+* valid in the range 200nm to 10,000nm.  Both the Cox and the Ciddor relations
+* have singularities below 200nm, with Cox's at 156nm and 83nm.  WCSLIB checks
+* neither the range of validity, nor for these singularities.
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.6.1.2 2015/06/18 08:13:51 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+d50 2
+d163 19
+d507 1
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Added spxperr() for convenience in reporting errors.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+a49 2
+* spxperr() prints the error message(s) (if any) stored in a spxprm struct.
+*
+a160 19
+* spxperr() - Print error messages from a spxprm struct
+* -----------------------------------------------------
+* spxperr() prints the error message(s) (if any) stored in a spxprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   spx       const struct spxprm*
+*                       Spectral variables and their derivatives.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null spxprm pointer passed.
+*
+*
+a485 1
+int spxperr(const struct spxprm *spx, const char *prefix);
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d28 3
+a30 2
+* WCSLIB 5.4 - C routines that implement the spectral coordinate systems
+* recognized by the FITS World Coordinate System (WCS) standard.  Refer to
+a31 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d33 4
+a36 6
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d38 6
+a44 2
+* Summary of the spx routines
+* ---------------------------
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Boilerplate change to the prologue to ensure that references to the WCS
+Papers appear in the doxygen manual.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+d28 12
+a39 3
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+a43 10
+* Routines in this suite implement the spectral coordinate systems recognized
+* by the FITS World Coordinate System (WCS) standard, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+*
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.3 - C routines that implement the spectral coordinate systems
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.2 - C routines that implement the spectral coordinate systems
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.1 - C routines that implement the spectral coordinate systems
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.25.1.3 2015/04/03 01:15:51 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.0 - C routines that implement the spectral coordinate systems
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.25 - C routines that implement the spectral coordinate systems
+d403 1
+a403 1
+*     (Returned) If enabled, when an error status is returned this struct
+a420 2
+
+#include "wcserr.h"
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@No need to include wcserr.h.  Prologue wording tweaks.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+d403 1
+a403 1
+*     (Returned) If enabled, when an error status is returned, this struct
+d421 2
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.24 - C routines that implement the spectral coordinate systems
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.23 - C routines that implement the spectral coordinate systems
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.22 - C routines that implement the spectral coordinate systems
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.21 - C routines that implement the spectral coordinate systems
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.20 - C routines that implement the spectral coordinate systems
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.18.1.2 2013/07/15 14:17:06 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.19 - C routines that implement the spectral coordinate systems
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.18 - C routines that implement the spectral coordinate systems
+d337 1
+a337 1
+*     (constant, = c, the speed of light in vacuuo), and ...
+d397 1
+a397 1
+*     relativistic beta [m/s] (constant, = c, the speed of light in vacuu0),
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.18.1.2
+log
+@Spelling correction in prologue, vacuuo -> vacuo.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+d337 1
+a337 1
+*     (constant, = c, the speed of light in vacuo), and ...
+d397 1
+a397 1
+*     relativistic beta [m/s] (constant, = c, the speed of light in vacuo),
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.17 - C routines that implement the spectral coordinate systems
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.16 - C routines that implement the spectral coordinate systems
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.15 - C routines that implement the spectral coordinate systems
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.h,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.14 - C routines that implement the spectral coordinate systems
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: spx.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.13 - C routines that implement the spectral coordinate systems
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: spx.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.12 - C routines that implement the spectral coordinate systems
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.11 - C routines that implement the spectral coordinate systems
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.10 - C routines that implement the spectral coordinate systems
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.9 - C routines that implement the spectral coordinate systems
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.7.1.5 2011/08/15 05:56:30 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.8 - C routines that implement the spectral coordinate systems
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.7 - C routines that implement the spectral coordinate systems
+d131 1
+d133 1
+d156 2
+d172 1
+d174 1
+d177 1
+d183 1
+d207 1
+d209 1
+d212 1
+d218 1
+d242 1
+d244 1
+d247 1
+d253 1
+d408 6
+d428 1
+d432 8
+d476 8
+d496 1
+a496 1
+                 const double inspec[], double outspec[], int stat[]
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@a153 2
+* If the return value >= 2, a detailed error message is set in the
+* specs->err struct.  See wcserr.h for error handling instructions.
+d179 1
+a179 1
+*                         
+a391 4
+*   struct wcserr err
+*     (Returned) When an error status is returned, this
+*     structure contains detailed information about the error.
+*     
+a403 1
+  
+d406 1
+a406 2
+#include "wcserr.h"
+  
+a408 7
+enum spx_errmsg {
+  SPXERR_SUCCESS          = 0, /* Success */
+  SPXERR_NULL_POINTER     = 1, /* Null spxprm pointer passed */
+  SPXERR_BAD_SPEC_PARAMS  = 2, /* Invalid spectral parameters */
+  SPXERR_BAD_SPEC_VAR     = 3, /* Invalid spectral variable */
+  SPXERR_BAD_INSPEC_COORD = 4  /* One or more of the inspec coordinates were invalid */
+};
+a444 4
+
+  /* Error handling                                                         */
+  /*------------------------------------------------------------------------*/
+  struct wcserr err;
+d457 1
+a457 1
+    const double inspec[], double outspec[], int stat[]
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+a130 1
+*
+a131 1
+*
+d154 2
+a155 2
+*                       For returns > 1, a detailed error message is set in
+*                       spxprm::err.
+a169 1
+*
+a170 1
+*
+a172 1
+*
+a177 1
+*
+d181 1
+a181 1
+*
+a200 1
+*
+a201 1
+*
+a203 1
+*
+a208 1
+*
+a231 1
+*
+a232 1
+*
+a234 1
+*
+a239 1
+*
+d394 4
+a397 4
+*   struct wcserr *err
+*     (Returned) When an error status is returned, this struct contains
+*     detailed information about the error.
+*
+d410 1
+d414 1
+a414 1
+
+d418 5
+a422 6
+  SPXERR_SUCCESS          = 0,	/* Success. */
+  SPXERR_NULL_POINTER     = 1,	/* Null spxprm pointer passed. */
+  SPXERR_BAD_SPEC_PARAMS  = 2,	/* Invalid spectral parameters. */
+  SPXERR_BAD_SPEC_VAR     = 3,	/* Invalid spectral variable. */
+  SPXERR_BAD_INSPEC_COORD = 4 	/* One or more of the inspec coordinates were
+				   invalid. */
+d463 1
+a463 1
+  struct wcserr *err;
+@
+
+
+4.7.1.4
+log
+@Clarify that detailed error messages are only returned in wcserr if enabled.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+d157 1
+a157 1
+*                       spxprm::err if enabled, see wcserr_enable().
+d409 2
+a410 2
+*     (Returned) If enabled, when an error status is returned this struct
+*     contains detailed information about the error, see wcserr_enable().
+@
+
+
+4.7.1.5
+log
+@Added padding to the spxprm struct to cater for the Fortran wrappers in
+SunOS 5.9.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.7.1.4 2011/08/11 03:51:48 cal103 Exp cal103 $
+a411 2
+*   void *padding
+*     (An unused variable inserted for alignment purposes only.)
+a477 4
+
+  /* Private                                                                */
+  /*------------------------------------------------------------------------*/
+  void   *padding;		/* (Dummy inserted for alignment purposes.) */
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.6 - C routines that implement the spectral coordinate systems
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.h,v 4.4.1.3 2010/01/19 03:42:50 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.5 - C routines that implement the spectral coordinate systems
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.3.1.3 2009/07/22 05:10:07 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.4 - C routines that implement the spectral coordinate systems
+d289 1
+a289 1
+*     (Returned) Wave number [1/m] (wavetype).
+d314 1
+a314 1
+*     [1/rad] (constant, = 1 / 2*pi), and ...
+d320 1
+a320 1
+*     [1/Js] (constant, = 1/h), and ...
+d332 1
+a332 1
+*     (Returned) Derivative of frequency with respect to radio velocity [1/m],
+d339 1
+a339 1
+*     [1/ms], and ...
+d345 1
+a345 1
+*     [1/ms], and ...
+d351 1
+a351 1
+*     velocity [1/m], and ...
+d359 1
+a359 1
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+d365 1
+a365 1
+*     (Returned) ... vice versa [1/m] (wavetype && velotype).
+d377 1
+a377 1
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+d383 1
+a383 1
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+d421 1
+a421 1
+         wavn,			/* wavetype: Wave number [1/m].              */
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Fixed units specifications in the prologue to conform with Paper I.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.h,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+d289 1
+a289 1
+*     (Returned) Wave number [/m] (wavetype).
+d314 1
+a314 1
+*     [/rad] (constant, = 1 / 2*pi), and ...
+d320 1
+a320 1
+*     [/J/s] (constant, = 1/h), and ...
+d332 1
+a332 1
+*     (Returned) Derivative of frequency with respect to radio velocity [/m],
+d339 1
+a339 1
+*     [/m/s], and ...
+d345 1
+a345 1
+*     [/m/s], and ...
+d351 1
+a351 1
+*     velocity [/m], and ...
+d359 1
+a359 1
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+d365 1
+a365 1
+*     (Returned) ... vice versa [/m] (wavetype && velotype).
+d377 1
+a377 1
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+d383 1
+a383 1
+*     (Returned) ... vice versa [/s] (wavetype && velotype).
+d421 1
+a421 1
+         wavn,			/* wavetype: Wave number [/m].              */
+@
+
+
+4.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.h,v 4.4.1.2 2009/09/03 02:26:08 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: spx.h,v 4.2.1.4 2007/12/03 05:02:17 cal103 Exp cal103 $
+d34 2
+a35 2
+*   WCSLIB 4.3 - C routines that implement the spectral coordinate systems
+*   recognized by the FITS World Coordinate System (WCS) standard.  Refer to
+d37 2
+a38 2
+*      "Representations of world coordinates in FITS",
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 356
+a395 190
+*      "Representations of spectral coordinates in FITS",
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+*
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+*
+*
+*   Summary of the spx routines
+*   ---------------------------
+*      specx() is a scalar routine that, given one spectral variable (e.g.
+*      frequency), computes all the others (e.g. wavelength, velocity, etc.)
+*      plus the required derivatives of each with respect to the others.  The
+*      results are returned in the spxprm struct, described in detail below.
+*
+*      The remaining routines are all vector conversions from one spectral
+*      variable to another.  Conversion may be done "in place" by calling
+*      the routine with the output vector set to the input.
+*
+*      Non-linear   From                    To
+*      ----------   ---------------------   ---------------------
+*      freqwave()   frequency               vacuum wavelength
+*      wavefreq()   vacuum wavelength       frequency
+*
+*      freqawav()   frequency               air wavelength
+*      awavfreq()   air wavelength          frequency
+*
+*      freqvelo()   frequency               relativistic velocity
+*      velofreq()   relativistic velocity   frequency
+*
+*      waveawav()   vacuum wavelength       air wavelength
+*      awavwave()   air wavelength          vacuum wavelength
+*
+*      wavevelo()   vacuum wavelength       relativistic velocity
+*      velowave()   relativistic velocity   vacuum wavelength
+*
+*      awavvelo()   air wavelength          relativistic velocity
+*      veloawav()   relativistic velocity   air wavelength
+*
+*      Linear       From                    To
+*      ----------   ---------------------   ---------------------
+*      freqafrq()   frequency               angular frequency
+*      afrqfreq()   angular frequency       frequency
+*
+*      freqener()   frequency               energy
+*      enerfreq()   energy                  frequency
+*
+*      freqwavn()   frequency               wave number
+*      wavnfreq()   wave number             frequency
+*
+*      freqvrad()   frequency               radio velocity
+*      vradfreq()   radio velocity          frequency
+*
+*      wavevopt()   vacuum wavelength       optical velocity
+*      voptwave()   optical velocity        vacuum wavelength
+*
+*      wavezopt()   vacuum wavelength       redshift
+*      zoptwave()   redshift                vacuum wavelength
+*
+*      velobeta()   relativistic velocity   beta (= v/c)
+*      betavelo()   beta (= v/c)            relativistic velocity
+*
+*
+*   Spectral cross conversions (scalar); specx()
+*   --------------------------------------------
+*   Given one spectral variable specx() computes all the others, plus the
+*   required derivatives of each with respect to the others.
+*
+*   Given:
+*      type     const char*
+*                        The type of spectral variable given by spec, FREQ,
+*                        AFRQ, ENER, WAVN, VRAD, WAVE, VOPT, ZOPT, AWAV, VELO,
+*                        or BETA (case sensitive).
+*      spec     double   The spectral variable given, in SI units.
+*      restfrq  double   Rest frequency (Hz) or rest wavelength in vacuum (m),
+*      restwav  double   only one of which need be given.  The other should be
+*                        set to zero.  If both are zero, only a subset of the
+*                        spectral variables can be computed, the remainder
+*                        are set to zero.  Specifically, given one of FREQ,
+*                        AFRQ, ENER, WAVN, WAVE, or AWAV the others can be
+*                        computed without knowledge of the rest frequency.
+*                        Likewise, VRAD, VOPT, ZOPT, VELO, and BETA.
+*
+*   Given and returned:
+*      specs    struct spxprm*
+*                        Data structure defined below containing all spectral
+*                        variables and their derivatives, in SI units.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null spxprm pointer passed.
+*                           2: Invalid spectral parameters.
+*                           3: Invalid spectral variable.
+*
+*
+*   Spectral conversions (vector); freqwave(), wavefreq(), etc.
+*   -----------------------------------------------------------
+*   Vector conversions from one spectral variable to another.  These are the
+*   workhorse routines to be used for fast transformations.
+*
+*   Given:
+*      param    double   1) Rest frequency (Hz) when the conversion is between
+*                           frequency and any type of velocity, i.e.
+*                              freqvelo(), velofreq(),
+*                              freqvrad(), vradfreq().
+*
+*                        2) Rest wavelength in vacuum (m) when the conversion
+*                           is between vacuum or air wavelength and any type
+*                           of velocity, i.e.
+*                              wavevelo(), velowave(),
+*                              awavvelo(), veloawav(),
+*                              wavevopt(), voptwave(),
+*                              wavezopt(), zoptwave().
+*
+*                        3) Ignored otherwise, i.e.
+*                              freqwave(), wavefreq(),
+*                              freqawav(), awavfreq(),
+*                              waveawav(), awavwave(),
+*                              freqafrq(), afrqfreq(),
+*                              freqener(), enerfreq(),
+*                              freqwavn(), wavnfreq(),
+*                              velobeta(), betavelo().
+*
+*      nspec    int      Vector length, see below.
+*      instep   int
+*      outstep  int      Vector strides, see below.
+*      inspec   const double[]
+*                        Input spectral variables, in SI units.
+*
+*   Returned:
+*      outspec  double[] Output spectral variables, in SI units.
+*      stat     int[]    Status return value for each vector element:
+*                           0: Success.
+*                           1: Invalid value of inspec.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           2: Invalid spectral parameters.
+*                           4: One or more of the inspec coordinates were
+*                              invalid, as indicated by the stat vector.
+*
+*
+*   Vector lengths and strides
+*   --------------------------
+*   Vector computation in the spectral code mainly speeds it by amortising the
+*   function call overhead.  The vector length function argument refers to the
+*   number of spectral variables in both the input and output spectral
+*   vectors.
+*
+*   The vector stride arguments allow the caller to specify that successive
+*   elements of a vector are not contiguous in memory.  This applies equally
+*   to vectors given to, or returned from a function.  As a simple example
+*   consider the following two arrangements in memory of a spectral vector
+*   s[], with four elements, s1, s2, s3, and s4, together with x[] and y[]
+*   vectors:
+*
+*      1) s1 s2 s3 s4 x1 x2 x3 x4 y1 y2 y3 y4
+*
+*      2) x1 y1 s1 x2 y2 s2 x3 y3 s3 x4 y4 s4
+*
+*   In (1), the address of s[] is s1, its stride is 1, and length 4.
+*   In (2), the address of s[] is s1, its stride is 3, and length 4.
+*
+*   If the vector length is 1 then the stride is ignored and may be set to 0.
+*
+*
+*   Status return values
+*   --------------------
+*   Error messages to match the status value returned from each function are
+*   are encoded in the spx_errmsg character array.
+*
+*
+*   Argument checking
+*   -----------------
+*   The input spectral values are only checked for values that would result
+*   in floating point exceptions.  In particular, negative frequencies and
+*   wavelengths are allowed, as are velocities greater than the speed of
+*   light.  The same is true for the spectral parameters - rest frequency and
+*   wavelength.
+*
+*
+*   Accuracy
+*   --------
+*   No warranty is given for the accuracy of these routines (refer to the
+*   copyright notice above); intending users must satisfy for themselves their
+*   adequacy for the intended purpose.  However, closure effectively to within
+*   double precision rounding error was demonstrated by test routine tspec.c
+*   which accompanies this software.
+d411 1
+a411 1
+   /* The spxprm data structure is used solely by specx().                  */
+d413 1
+a413 9
+   double restfrq, restwav;	/* Rest frequency (Hz) and wavelength (m).  */
+
+   /* If one or other of restfrq and restwav is given (non-zero) then all   */
+   /* spectral variables may be computed.  If both are given, restfrq is    */
+   /* used.  If restfrq and restwav are both zero, only wave characteristic */
+   /* xor velocity type spectral variables may be computed depending on the */
+   /* variable given.   These flags indicate what is available.             */
+   /*-----------------------------------------------------------------------*/
+   int wavetype, velotype;	/* True if wave/velocity types have been    */
+d416 29
+a444 29
+   /* Spectral variables computed by specx().                               */
+   /*-----------------------------------------------------------------------*/
+   double freq,			/* wavetype: Frequency (Hz).                */
+          afrq,			/* wavetype: Angular frequency (rad/s).     */
+          ener,			/* wavetype: Photon energy (J).             */
+          wavn,			/* wavetype: Wave number (/m).              */
+          vrad,			/* velotype: Radio velocity (m/s).          */
+          wave,			/* wavetype: Vacuum wavelength (m).         */
+          vopt,			/* velotype: Optical velocity (m/s).        */
+          zopt,			/* velotype: Redshift.                      */
+          awav,			/* wavetype: Air wavelength (m).            */
+          velo,			/* velotype: Relativistic velocity (m/s).   */
+          beta;			/* velotype: Relativistic beta.             */
+
+   /* Derivatives of spectral variables computed by specx().                */
+   /*-----------------------------------------------------------------------*/
+   double dfreqafrq, dafrqfreq, /* Constant, always available.              */
+          dfreqener, denerfreq, /* Constant, always available.              */
+          dfreqwavn, dwavnfreq, /* Constant, always available.              */
+          dfreqvrad, dvradfreq, /* wavetype && velotype.                    */
+          dfreqwave, dwavefreq, /* wavetype.                                */
+          dfreqawav, dawavfreq, /* wavetype.                                */
+          dfreqvelo, dvelofreq, /* wavetype && velotype.                    */
+          dwavevopt, dvoptwave, /* wavetype && velotype.                    */
+          dwavezopt, dzoptwave, /* wavetype && velotype.                    */
+          dwaveawav, dawavwave, /* wavetype.                                */
+          dwavevelo, dvelowave, /* wavetype && velotype.                    */
+          dawavvelo, dveloawav, /* wavetype && velotype.                    */
+          dvelobeta, dbetavelo; /* Constant, always available.              */
+d447 1
+d451 7
+a457 1
+int specx(const char *, double, double, double, struct spxprm *);
+d459 2
+a460 2
+/* Use the preprocessor to declare the remaining function prototypes. */
+#define SPX_ARGS double, int, int, int, const double[], double[], int[]
+d462 2
+a463 1
+#define SPX_PROTO(CODE) int CODE(SPX_ARGS);
+d465 2
+a466 2
+SPX_PROTO(freqafrq)
+SPX_PROTO(afrqfreq)
+d468 2
+a469 2
+SPX_PROTO(freqener)
+SPX_PROTO(enerfreq)
+d471 2
+a472 2
+SPX_PROTO(freqwavn)
+SPX_PROTO(wavnfreq)
+d474 2
+a475 2
+SPX_PROTO(freqvrad)
+SPX_PROTO(vradfreq)
+d477 2
+a478 2
+SPX_PROTO(freqwave)
+SPX_PROTO(wavefreq)
+a479 2
+SPX_PROTO(freqawav)
+SPX_PROTO(awavfreq)
+d481 2
+a482 2
+SPX_PROTO(freqvelo)
+SPX_PROTO(velofreq)
+d484 2
+a485 2
+SPX_PROTO(wavevopt)
+SPX_PROTO(voptwave)
+a486 2
+SPX_PROTO(wavezopt)
+SPX_PROTO(zoptwave)
+d488 2
+a489 2
+SPX_PROTO(waveawav)
+SPX_PROTO(awavwave)
+d491 2
+a492 2
+SPX_PROTO(wavevelo)
+SPX_PROTO(velowave)
+d494 2
+a495 2
+SPX_PROTO(awavvelo)
+SPX_PROTO(veloawav)
+d497 2
+a498 2
+SPX_PROTO(velobeta)
+SPX_PROTO(betavelo)
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: spx.h,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.4 - C routines that implement the spectral coordinate systems
+@
+
+
+4.3.1.2
+log
+@Replaced references to text "above" or "below" with "(see ... above|below)"
+so that they can be parsed out of the doxygen markup.
+@
+text
+@d31 1
+a31 1
+    $Id: spx.h,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d53 1
+a53 1
+*      results are returned in the spxprm struct (see below).
+d125 2
+a126 2
+*                        Data structure containing all spectral variables and
+*                        their derivatives, in SI units (see below).
+d164 1
+a164 1
+*      nspec    int      Vector length (see below).
+d166 1
+a166 1
+*      outstep  int      Vector strides (see below).
+d226 1
+a226 1
+*   copyright notice); intending users must satisfy for themselves their
+@
+
+
+4.3.1.3
+log
+@Changes required for generation of the manual using doxextr and doxygen,
+including naming of arguments in function prototypes.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: spx.h,v 4.3.1.2 2008/04/02 06:17:13 cal103 Exp cal103 $
+d34 2
+a35 2
+* WCSLIB 4.4 - C routines that implement the spectral coordinate systems
+* recognized by the FITS World Coordinate System (WCS) standard.  Refer to
+d37 2
+a38 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 190
+a229 356
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+*
+*
+* Summary of the spx routines
+* ---------------------------
+* specx() is a scalar routine that, given one spectral variable (e.g.
+* frequency), computes all the others (e.g. wavelength, velocity, etc.) plus
+* the required derivatives of each with respect to the others.  The results
+* are returned in the spxprm struct.
+*
+* The remaining routines are all vector conversions from one spectral
+* variable to another.  The API of these functions only differ in whether the
+* rest frequency or wavelength need be supplied.
+*
+* Non-linear:
+*   - freqwave()    frequency              ->  vacuum wavelength
+*   - wavefreq()    vacuum wavelength      ->  frequency
+*
+*   - freqawav()    frequency              ->  air wavelength
+*   - awavfreq()    air wavelength         ->  frequency
+*
+*   - freqvelo()    frequency              ->  relativistic velocity
+*   - velofreq()    relativistic velocity  ->  frequency
+*
+*   - waveawav()    vacuum wavelength      ->  air wavelength
+*   - awavwave()    air wavelength         ->  vacuum wavelength
+*
+*   - wavevelo()    vacuum wavelength      ->  relativistic velocity
+*   - velowave()    relativistic velocity  ->  vacuum wavelength
+*
+*   - awavvelo()    air wavelength         ->  relativistic velocity
+*   - veloawav()    relativistic velocity  ->  air wavelength
+*
+* Linear:
+*   - freqafrq()    frequency              ->  angular frequency
+*   - afrqfreq()    angular frequency      ->  frequency
+*
+*   - freqener()    frequency              ->  energy
+*   - enerfreq()    energy                 ->  frequency
+*
+*   - freqwavn()    frequency              ->  wave number
+*   - wavnfreq()    wave number            ->  frequency
+*
+*   - freqvrad()    frequency              ->  radio velocity
+*   - vradfreq()    radio velocity         ->  frequency
+*
+*   - wavevopt()    vacuum wavelength      ->  optical velocity
+*   - voptwave()    optical velocity       ->  vacuum wavelength
+*
+*   - wavezopt()    vacuum wavelength      ->  redshift
+*   - zoptwave()    redshift               ->  vacuum wavelength
+*
+*   - velobeta()    relativistic velocity  ->  beta (= v/c)
+*   - betavelo()    beta (= v/c)           ->  relativistic velocity
+*
+* These are the workhorse routines, to be used for fast transformations.
+* Conversions may be done "in place" by calling the routine with the output
+* vector set to the input.
+*
+* Argument checking:
+* ------------------
+* The input spectral values are only checked for values that would result
+* in floating point exceptions.  In particular, negative frequencies and
+* wavelengths are allowed, as are velocities greater than the speed of
+* light.  The same is true for the spectral parameters - rest frequency and
+* wavelength.
+*
+* Accuracy:
+* ---------
+* No warranty is given for the accuracy of these routines (refer to the
+* copyright notice); intending users must satisfy for themselves their
+* adequacy for the intended purpose.  However, closure effectively to within
+* double precision rounding error was demonstrated by test routine tspec.c
+* which accompanies this software.
+*
+*
+* specx() - Spectral cross conversions (scalar)
+* ---------------------------------------------
+* Given one spectral variable specx() computes all the others, plus the
+* required derivatives of each with respect to the others.
+*
+* Given:
+*   type      const char*
+*                       The type of spectral variable given by spec, FREQ,
+*                       AFRQ, ENER, WAVN, VRAD, WAVE, VOPT, ZOPT, AWAV, VELO,
+*                       or BETA (case sensitive).
+*   spec      double    The spectral variable given, in SI units.
+*   restfrq,
+*   restwav   double    Rest frequency [Hz] or rest wavelength in vacuo [m],
+*                       only one of which need be given.  The other should be
+*                       set to zero.  If both are zero, only a subset of the
+*                       spectral variables can be computed, the remainder are
+*                       set to zero.  Specifically, given one of FREQ, AFRQ,
+*                       ENER, WAVN, WAVE, or AWAV the others can be computed
+*                       without knowledge of the rest frequency.  Likewise,
+*                       VRAD, VOPT, ZOPT, VELO, and BETA.
+*
+* Given and returned:
+*   specs     struct spxprm*
+*                       Data structure containing all spectral variables and
+*                       their derivatives, in SI units.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null spxprm pointer passed.
+*                         2: Invalid spectral parameters.
+*                         3: Invalid spectral variable.
+*
+*
+* freqafrq(), afrqfreq(), freqener(), enerfreq(), freqwavn(), wavnfreq(),
+* freqwave(), wavefreq(), freqawav(), awavfreq(), waveawav(), awavwave(),
+* velobeta(), and betavelo() implement vector conversions between wave-like
+* or velocity-like spectral types (i.e. conversions that do not need the rest
+* frequency or wavelength).  They all have the same API.
+*
+*
+* freqafrq() - Convert frequency to angular frequency (vector)
+* ------------------------------------------------------------
+* freqafrq() converts frequency to angular frequency.
+*
+* Given:
+*   param     double    Ignored.
+*   nspec     int       Vector length.
+*   instep,
+*   outstep   int       Vector strides.
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* freqvelo(), velofreq(), freqvrad(), and vradfreq() implement vector
+* conversions between frequency and velocity spectral types.  They all have
+* the same API.
+*
+*
+* freqvelo() - Convert frequency to relativistic velocity (vector)
+* ----------------------------------------------------------------
+* freqvelo() converts frequency to relativistic velocity.
+*
+* Given:
+*   param     double    Rest frequency [Hz].
+*   nspec     int       Vector length.
+*   instep,
+*   outstep   int       Vector strides.
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* wavevelo(), velowave(), awavvelo(), veloawav(), wavevopt(), voptwave(),
+* wavezopt(), and zoptwave() implement vector conversions between wavelength
+* and velocity spectral types.  They all have the same API.
+*
+*
+* wavevelo() - Conversions between wavelength and velocity types (vector)
+* -----------------------------------------------------------------------
+* wavevelo() converts vacuum wavelength to relativistic velocity.
+*
+* Given:
+*   param     double    Rest wavelength in vacuo [m].
+*   nspec     int       Vector length.
+*   instep,
+*   outstep   int       Vector strides.
+*   inspec    const double[]
+*                       Input spectral variables, in SI units.
+*
+* Returned:
+*   outspec   double[]  Output spectral variables, in SI units.
+*   stat      int[]     Status return value for each vector element:
+*                         0: Success.
+*                         1: Invalid value of inspec.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Invalid spectral parameters.
+*                         4: One or more of the inspec coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* spxprm struct - Spectral variables and their derivatives
+* --------------------------------------------------------
+* The spxprm struct contains the value of all spectral variables and their
+* derivatives.   It is used solely by specx() which constructs it from
+* information provided via its function arguments.
+*
+* This struct should be considered read-only, no members need ever be set nor
+* should ever be modified by the user.
+*
+*   double restfrq
+*     (Returned) Rest frequency [Hz].
+*
+*   double restwav
+*     (Returned) Rest wavelength [m].
+*
+*   int wavetype
+*     (Returned) True if wave types have been computed, and ...
+*
+*   int velotype
+*     (Returned) ... true if velocity types have been computed; types are
+*     defined below.
+*
+*     If one or other of spxprm::restfrq and spxprm::restwav is given
+*     (non-zero) then all spectral variables may be computed.  If both are
+*     given, restfrq is used.  If restfrq and restwav are both zero, only wave
+*     characteristic xor velocity type spectral variables may be computed
+*     depending on the variable given.   These flags indicate what is
+*     available.
+*
+*   double freq
+*     (Returned) Frequency [Hz] (wavetype).
+*
+*   double afrq
+*     (Returned) Angular frequency [rad/s] (wavetype).
+*
+*   double ener
+*     (Returned) Photon energy [J] (wavetype).
+*
+*   double wavn
+*     (Returned) Wave number [1/m] (wavetype).
+*
+*   double vrad
+*     (Returned) Radio velocity [m/s] (velotype).
+*
+*   double wave
+*     (Returned) Vacuum wavelength [m] (wavetype).
+*
+*   double vopt
+*     (Returned) Optical velocity [m/s] (velotype).
+*
+*   double zopt
+*     (Returned) Redshift [dimensionless] (velotype).
+*
+*   double awav
+*     (Returned) Air wavelength [m] (wavetype).
+*
+*   double velo
+*     (Returned) Relativistic velocity [m/s] (velotype).
+*
+*   double beta
+*     (Returned) Relativistic beta [dimensionless] (velotype).
+*
+*   double dfreqafrq
+*     (Returned) Derivative of frequency with respect to angular frequency
+*     [1/rad] (constant, = 1 / 2*pi), and ...
+*   double dafrqfreq
+*     (Returned) ... vice versa [rad] (constant, = 2*pi, always available).
+*
+*   double dfreqener
+*     (Returned) Derivative of frequency with respect to photon energy
+*     [1/Js] (constant, = 1/h), and ...
+*   double denerfreq
+*     (Returned) ... vice versa [Js] (constant, = h, Planck's constant,
+*     always available).
+*
+*   double dfreqwavn
+*     (Returned) Derivative of frequency with respect to wave number [m/s]
+*     (constant, = c, the speed of light in vacuuo), and ...
+*   double dwavnfreq
+*     (Returned) ... vice versa [s/m] (constant, = 1/c, always available).
+*
+*   double dfreqvrad
+*     (Returned) Derivative of frequency with respect to radio velocity [1/m],
+*     and ...
+*   double dvradfreq
+*     (Returned) ... vice versa [m] (wavetype && velotype).
+*
+*   double dfreqwave
+*     (Returned) Derivative of frequency with respect to vacuum wavelength
+*     [1/ms], and ...
+*   double dwavefreq
+*     (Returned) ... vice versa [m s] (wavetype).
+*
+*   double dfreqawav
+*     (Returned) Derivative of frequency with respect to air wavelength,
+*     [1/ms], and ...
+*   double dawavfreq
+*     (Returned) ... vice versa [m s] (wavetype).
+*
+*   double dfreqvelo
+*     (Returned) Derivative of frequency with respect to relativistic
+*     velocity [1/m], and ...
+*   double dvelofreq
+*     (Returned) ... vice versa [m] (wavetype && velotype).
+*
+*   double dwavevopt
+*     (Returned) Derivative of vacuum wavelength with respect to optical
+*     velocity [s], and ...
+*   double dvoptwave
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+*
+*   double dwavezopt
+*     (Returned) Derivative of vacuum wavelength with respect to redshift [m],
+*     and ...
+*   double dzoptwave
+*     (Returned) ... vice versa [1/m] (wavetype && velotype).
+*
+*   double dwaveawav
+*     (Returned) Derivative of vacuum wavelength with respect to air
+*     wavelength [dimensionless], and ...
+*   double dawavwave
+*     (Returned) ... vice versa [dimensionless] (wavetype).
+*
+*   double dwavevelo
+*     (Returned) Derivative of vacuum wavelength with respect to relativistic
+*     velocity [s], and ...
+*   double dvelowave
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+*
+*   double dawavvelo
+*     (Returned) Derivative of air wavelength with respect to relativistic
+*     velocity [s], and ...
+*   double dveloawav
+*     (Returned) ... vice versa [1/s] (wavetype && velotype).
+*
+*   double dvelobeta
+*     (Returned) Derivative of relativistic velocity with respect to
+*     relativistic beta [m/s] (constant, = c, the speed of light in vacuu0),
+*     and ...
+*   double dbetavelo
+*     (Returned) ... vice versa [s/m] (constant, = 1/c, always available).
+*
+*
+* Global variable: const char *spx_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+d245 1
+a245 1
+  double restfrq, restwav;	/* Rest frequency [Hz] and wavelength [m].  */
+d247 9
+a255 1
+  int wavetype, velotype;	/* True if wave/velocity types have been    */
+d258 29
+a286 29
+  /* Spectral variables computed by specx().                                */
+  /*------------------------------------------------------------------------*/
+  double freq,			/* wavetype: Frequency [Hz].                */
+         afrq,			/* wavetype: Angular frequency [rad/s].     */
+         ener,			/* wavetype: Photon energy [J].             */
+         wavn,			/* wavetype: Wave number [1/m].              */
+         vrad,			/* velotype: Radio velocity [m/s].          */
+         wave,			/* wavetype: Vacuum wavelength [m].         */
+         vopt,			/* velotype: Optical velocity [m/s].        */
+         zopt,			/* velotype: Redshift.                      */
+         awav,			/* wavetype: Air wavelength [m].            */
+         velo,			/* velotype: Relativistic velocity [m/s].   */
+         beta;			/* velotype: Relativistic beta.             */
+
+  /* Derivatives of spectral variables computed by specx().                 */
+  /*------------------------------------------------------------------------*/
+  double dfreqafrq, dafrqfreq,	/* Constant, always available.              */
+         dfreqener, denerfreq,	/* Constant, always available.              */
+         dfreqwavn, dwavnfreq,	/* Constant, always available.              */
+         dfreqvrad, dvradfreq,	/* wavetype && velotype.                    */
+         dfreqwave, dwavefreq,	/* wavetype.                                */
+         dfreqawav, dawavfreq,	/* wavetype.                                */
+         dfreqvelo, dvelofreq,	/* wavetype && velotype.                    */
+         dwavevopt, dvoptwave,	/* wavetype && velotype.                    */
+         dwavezopt, dzoptwave,	/* wavetype && velotype.                    */
+         dwaveawav, dawavwave,	/* wavetype.                                */
+         dwavevelo, dvelowave,	/* wavetype && velotype.                    */
+         dawavvelo, dveloawav,	/* wavetype && velotype.                    */
+         dvelobeta, dbetavelo;	/* Constant, always available.              */
+a288 1
+/* Size of the spxprm struct in int units, used by the Fortran wrappers. */
+d292 1
+a292 7
+int specx(const char *type, double spec, double restfrq, double restwav,
+          struct spxprm *specs);
+
+
+/* For use in declaring function prototypes, e.g. in spcprm. */
+#define SPX_ARGS double param, int nspec, int instep, int outstep, \
+                 const double inspec[], double outspec[], int stat[]
+d294 2
+a295 2
+int freqafrq(SPX_ARGS);
+int afrqfreq(SPX_ARGS);
+d297 1
+a297 2
+int freqener(SPX_ARGS);
+int enerfreq(SPX_ARGS);
+d299 2
+a300 2
+int freqwavn(SPX_ARGS);
+int wavnfreq(SPX_ARGS);
+d302 2
+a303 2
+int freqwave(SPX_ARGS);
+int wavefreq(SPX_ARGS);
+d305 2
+a306 2
+int freqawav(SPX_ARGS);
+int awavfreq(SPX_ARGS);
+d308 2
+a309 2
+int waveawav(SPX_ARGS);
+int awavwave(SPX_ARGS);
+d311 2
+a312 2
+int velobeta(SPX_ARGS);
+int betavelo(SPX_ARGS);
+d314 2
+d317 2
+a318 2
+int freqvelo(SPX_ARGS);
+int velofreq(SPX_ARGS);
+d320 2
+a321 2
+int freqvrad(SPX_ARGS);
+int vradfreq(SPX_ARGS);
+d323 2
+d326 2
+a327 2
+int wavevelo(SPX_ARGS);
+int velowave(SPX_ARGS);
+d329 2
+a330 2
+int awavvelo(SPX_ARGS);
+int veloawav(SPX_ARGS);
+d332 2
+a333 2
+int wavevopt(SPX_ARGS);
+int voptwave(SPX_ARGS);
+d335 2
+a336 2
+int wavezopt(SPX_ARGS);
+int zoptwave(SPX_ARGS);
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: spx.h,v 4.1 2005/08/25 06:42:50 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.2 - C routines that implement the spectral coordinate systems
+d38 1
+a38 1
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (paper I)
+d41 5
+a45 2
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L. 2005, A&A,
+*      (paper III, in preparation)
+d48 2
+a49 2
+*   Summary of routines
+*   -------------------
+d340 1
+a340 1
+};
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.h,v 4.2 2005/09/21 13:21:57 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.3 - C routines that implement the spectral coordinate systems
+@
+
+
+4.2.1.2
+log
+@Removed an extraneous ';' following the closing '}' of the 'extern "C" {'
+block provided for use in C++.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2006, Mark Calabretta
+d30 1
+a30 1
+*   $Id: spx.h,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d37 1
+a37 1
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 2
+a41 2
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+d336 1
+a336 1
+}
+@
+
+
+4.2.1.3
+log
+@Referenced the README file for an overview of the library.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: spx.h,v 4.2.1.2 2006/08/02 00:14:58 cal103 Exp cal103 $
+a42 2
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+d44 2
+a45 3
+*
+*   Summary of the spx routines
+*   ---------------------------
+@
+
+
+4.2.1.4
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: spx.h,v 4.2.1.3 2007/08/08 08:40:48 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: removed the logarithmic conversion functions.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.h,v 4.0 2005/02/04 06:07:20 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.1 - C routines that implement the spectral coordinate systems
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; removed const from the double args in
+the prototype for specx() to match the definition in spx.c.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.h,v 3.6 2004/08/25 04:23:38 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.0 - C routines that implement the spectral coordinate systems
+a54 5
+*      Logarithmic conversions
+*      ------------------------
+*      speclog()    Converts spectral values to their natural logarithm
+*      logspec()    Restores spectral values from their natural logarithm
+*
+a131 26
+*   Logarithmic conversions (vector); speclog(), logspec()
+*   ---------------------------------------------------------------
+*   Vector logarithmic conversions.
+*
+*   Given:
+*      param    double   Ignored.
+*      nspec    int      Vector length, see below.
+*      instep   int
+*      outstep  int      Vector strides, see below.
+*      inspec   const double[]
+*                        Input spectral variables, in SI units.
+*
+*   Returned:
+*      outspec  double[] Output spectral variables, in SI units.
+*      stat     int[]    Status return value for each vector element:
+*                           0: Success.
+*                           1: Invalid value of inspec.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           2: Invalid spectral parameters.
+*                           4: One or more of the inspec coordinates were
+*                              invalid, as indicated by the stat vector.
+*
+*
+a293 3
+
+SPX_PROTO(speclog)
+SPX_PROTO(logspec)
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value"; removed support for K&R C.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 13
+a18 13
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: spx.h,v 3.5 2004/06/28 01:53:44 mcalabre Exp mcalabre $
+d33 2
+a34 2
+*   WCSLIB 3.6 - C routines that implement the spectral coordinate systems
+*   recognized by the FITS World Coordinate System (WCS) convention.  Refer to
+d40 1
+a40 1
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L. 2004, A&A,
+d47 3
+a49 2
+*      frequency, computes all the others (e.g. wavelength, velocity, etc.)
+*      plus the required derivatives of each with respect to the others.
+d211 2
+a212 2
+*   Vector length and strides
+*   -------------------------
+a273 2
+   /* Parameters to be provided (see specx() description above).            */
+   /*-----------------------------------------------------------------------*/
+d285 1
+a285 1
+   /* Spectral variables; set one, the others will be computed by specx().  */
+d299 1
+a299 1
+   /* Derivatives of spectral variables; computed by specx().               */
+d319 1
+a319 2
+int specx(const char *, const double, const double, const double,
+          struct spxprm *);
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: spx.h,v 3.4 2004/02/11 00:15:03 mcalabre Exp mcalabre $
+d33 1
+a33 1
+*   WCSLIB 3.5 - C routines that implement the spectral coordinate systems
+d129 1
+a129 1
+*               int      Error status
+d150 1
+a150 1
+*      stat     int[]    Error status for each vector element:
+d155 1
+a155 1
+*               int      Error status
+d198 1
+a198 1
+*      stat     int[]    Error status for each vector element:
+d203 1
+a203 1
+*               int      Error status
+d234 3
+a236 3
+*   Error codes
+*   -----------
+*   Error messages to match the function return error code for all routines
+a265 5
+#if !defined(__STDC__) && !defined(__cplusplus)
+#ifndef const
+#define const
+#endif
+#endif
+d267 1
+a268 1
+extern const char *spx_errmsg[];
+d319 1
+a322 1
+
+a323 1
+#if __STDC__ || defined(__cplusplus)
+a324 3
+#else
+#define SPX_ARGS
+#endif
+d369 1
+@
+
+
+3.4
+log
+@WCSLIB 3.4: incremented the date of Paper III.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+d33 1
+a33 1
+*   WCSLIB 3.4 - C routines that implement the spectral coordinate systems
+a256 3
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: spx.h,v 3.3 2003/10/21 08:51:00 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d30 1
+a30 1
+*   WCSLIB 3.3 - C routines that implement the spectral coordinate systems
+d37 1
+a37 1
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L. 2003, A&A,
+d256 1
+a256 1
+*   $Id: spx.h,v 3.2 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.2 - C routines that implement the spectral coordinate systems
+d256 1
+a256 1
+*   $Id: spx.h,v 3.1 2003/04/28 03:50:41 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+Added macro definition of SPXLEN.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.1 - C routines that implement the spectral coordinate systems
+d120 1
+a120 1
+*   Returned:
+d128 3
+a130 2
+*                           1: Invalid spectral parameters.
+*                           2: Invalid spectral variable.
+d149 1
+a149 1
+*                           1: Invalid spectral variable.
+d154 3
+a156 2
+*                           1: Invalid spectral parameters.
+*                           2: One or more invalid spectral variables.
+d197 1
+a197 1
+*                           1: Invalid spectral variable.
+d202 3
+a204 2
+*                           1: Invalid spectral parameters.
+*                           2: One or more invalid spectral variables.
+d256 1
+a256 1
+*   $Id: spx.h,v 3.0 2003/04/01 04:03:42 mcalabre Exp mcalabre $
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.0 - C routines that implement the spectral coordinate systems
+d253 1
+a253 1
+*   $Id$
+d318 2
+@

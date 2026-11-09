@@ -1,0 +1,5268 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.02.15.15;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.22.07.45.37;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.34.26;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.36.39;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.05.55;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.23.05;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.10.05;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.40.16;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.29.01.54.34;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.16.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2005.12.16.03.48.31;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.06.29.06.42.12;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.03.05.14.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.37.43;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.12.05.35.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.12.14.13.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.08.36.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.02.04.08.22;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.3;
+
+7.6.1.3
+date	2021.07.02.04.09.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.15.40.33;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.25.08.34.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test closure of the WCSLIB spectral coordinate transformation
+routines and also plot the non-linear deviation (requires PGPLOT and X11).
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tspc.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tspc tests the spectral transformation driver routines for closure.
+*
+*---------------------------------------------------------------------------*/
+
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
+
+#include <cpgplot.h>
+
+#include <wcstrig.h>
+#include <spc.h>
+
+
+#define NSPEC 10001
+
+const double tol = 1.0e-11;
+const double C = 2.99792458e8;
+
+int closure(const char[9], double, double, int, double, double, double);
+
+// KPNO MARS spectrograph grism parameters.
+double mars[7] = {4.5e5, 1.0, 27.0, 1.765, -1.077e6, 3.0, 5.0};
+
+
+int main()
+
+{
+  printf(
+    "Testing closure of WCSLIB spectral transformation routines (tspc.c)\n"
+    "-------------------------------------------------------------------\n");
+
+  // List status return messages.
+  printf("\nList of spc status return values:\n");
+  for (int status = 1; status <= 4; status++) {
+    printf("%4d: %s.\n", status, spc_errmsg[status]);
+  }
+
+
+  // PGPLOT initialization.
+  char devtyp[16];
+  strncpy(devtyp, "/xwindow", 16);
+  cpgbeg(0, devtyp, 1, 1);
+
+  int    naxisj = NSPEC;
+  double crpixj = naxisj/2 + 1;
+
+  double restfrq = 1420.40595e6;
+  double restwav = C/restfrq;
+  double x1 = 1.0e9;
+  double x2 = 2.0e9;
+  double cdeltX = (x2 - x1)/(naxisj - 1);
+  double crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear frequency axis, span: %.1f to %.1f (GHz), step: %.3f "
+         "(kHz)\n---------------------------------------------------------"
+         "-----------------\n", x1*1e-9, x2*1e-9, cdeltX*1e-3);
+
+  int nFail = 0;
+  nFail += closure("WAVE-F2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-F2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+
+  restwav = 700.0e-9;
+  restfrq = C/restwav;
+  x1 = 300.0e-9;
+  x2 = 900.0e-9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear vacuum wavelength axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n---------------------------------------------"
+         "-----------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  nFail += closure("FREQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-W2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-W2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  printf("\nLinear air wavelength axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n------------------------------------------"
+         "--------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  nFail += closure("FREQ-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-A2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-A2W", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-A2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-A2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-A2V", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-A2V", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  restfrq = 1420.40595e6;
+  restwav = C/restfrq;
+  x1 = -0.96*C;
+  x2 =  0.96*C;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear velocity axis, span: %.0f to %.0f m/s, step: %.0f "
+         "(m/s)\n------------------------------------------------------"
+         "--------------------\n", x1, x2, cdeltX);
+  nFail += closure("FREQ-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-V2A", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  restwav = 650.0e-9;
+  restfrq = C/restwav;
+  x1 =  300e-9;
+  x2 = 1000e-9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nVacuum wavelength grism axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n--------------------------------------------"
+         "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  nFail += closure("FREQ-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-GRI", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  // Reproduce Fig. 5 of Paper III.
+  naxisj = 1700;
+  crpixj = 719.8;
+  crvalX = 7245.2e-10;
+  cdeltX = 2.956e-10;
+  restwav = 8500.0e-10;
+  restfrq = C/restwav;
+  x1 = crvalX + (1 - crpixj)*cdeltX;
+  x2 = crvalX + (naxisj - crpixj)*cdeltX;
+  mars[5] = 0.0;
+  mars[6] = 0.0;
+  printf("\nAir wavelength grism axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n--------------------------------------------"
+         "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  nFail += closure("AWAV-GRA", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-GRA", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+  cpgask(0);
+  cpgend();
+
+  if (nFail) {
+    printf("\nFAIL: %d closure residuals exceed reporting tolerance.\n",
+      nFail);
+  } else {
+    printf("\nPASS: All closure residuals are within reporting tolerance.\n");
+  }
+
+  return nFail;
+}
+
+//----------------------------------------------------------------------------
+
+int closure (
+  const char ctypeS[9],
+  double restfrq,
+  double restwav,
+  int    naxisj,
+  double crpixj,
+  double cdeltX,
+  double crvalX)
+
+{
+  int status;
+
+  // Get keyvalues for the required spectral axis type.
+  char   ptype, xtype;
+  int    restreq;
+  double crvalS, dSdX;
+  if ((status = spcxps(ctypeS, crvalX, restfrq, restwav, &ptype, &xtype,
+                       &restreq, &crvalS, &dSdX))) {
+    printf("ERROR %d from spcxps() for %s.\n", status, ctypeS);
+    return 1;
+  }
+  double cdeltS = cdeltX * dSdX;
+
+  struct spcprm spc;
+  spcini(&spc);
+
+  if (ctypeS[5] == 'G') {
+    // KPNO MARS spectrograph grism parameters.
+    spc.pv[0] = mars[0];
+    spc.pv[1] = mars[1];
+    spc.pv[2] = mars[2];
+    spc.pv[3] = mars[3];
+    spc.pv[4] = mars[4];
+    spc.pv[5] = mars[5];
+    spc.pv[6] = mars[6];
+  }
+
+  // Construct the axis.
+  double spec1[NSPEC];
+  for (int j = 0; j < naxisj; j++) {
+    spec1[j] = (j+1 - crpixj)*cdeltS;
+  }
+
+  printf("%4s (CRVALk+w) range: %13.6e to %13.6e, step: %13.6e\n", ctypeS,
+    crvalS+spec1[0], crvalS+spec1[naxisj-1], cdeltS);
+
+
+  // Initialize.
+  spc.flag = 0;
+  spc.crval = crvalS;
+  spc.restfrq = restfrq;
+  spc.restwav = restwav;
+  strncpy(spc.type, ctypeS, 4);
+  spc.type[4] = '\0';
+  strncpy(spc.code, ctypeS+5, 4);
+
+  // Convert the first to the second.
+  int    stat1[NSPEC], stat2[NSPEC];
+  double spec2[NSPEC];
+  if ((status = spcx2s(&spc, naxisj, 1, 1, spec1, spec2, stat1))) {
+    printf("spcx2s ERROR %d: %s.\n", status, spc_errmsg[status]);
+  }
+
+  // Convert the second back to the first.
+  double clos[NSPEC];
+  if ((status = spcs2x(&spc, naxisj, 1, 1, spec2, clos, stat2))) {
+    printf("spcs2x ERROR %d: %s.\n", status, spc_errmsg[status]);
+  }
+
+  double residmax = 0.0;
+
+  // Test closure.
+  int nFail = 0;
+  for (int j = 0; j < naxisj; j++) {
+    if (stat1[j]) {
+      printf("%s: w =%20.12e -> %s = ???, stat = %d\n", ctypeS, spec1[j],
+             spc.type, stat1[j]);
+      continue;
+    }
+
+    if (stat2[j]) {
+      printf("%s: w =%20.12e -> %s =%20.12e -> w = ???, stat = %d\n",
+             ctypeS, spec1[j], spc.type, spec2[j], stat2[j]);
+      continue;
+    }
+
+    double resid = fabs((clos[j] - spec1[j])/cdeltS);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      nFail++;
+      printf("%s: w =%20.12e -> %s =%20.12e ->\n          w =%20.12e,  "
+             "resid =%20.12e\n", ctypeS, spec1[j], spc.type, spec2[j],
+             clos[j], resid);
+    }
+  }
+
+  printf("%s: Maximum closure residual = %.1e pixel.\n", ctypeS, residmax);
+
+
+  // Draw graph.
+  cpgbbuf();
+  cpgeras();
+
+  float x[NSPEC], y[NSPEC];
+  float xmin = (float)(crvalS + spec1[0]);
+  float xmax = (float)(crvalS + spec1[naxisj-1]);
+  float ymin = (float)(spec2[0]) - xmin;
+  float ymax = ymin;
+  for (int j = 0; j < naxisj; j++) {
+    x[j] = (float)(j+1);
+    y[j] = (float)(spec2[j] - (crvalS + spec1[j]));
+    if (y[j] > ymax) ymax = y[j];
+    if (y[j] < ymin) ymin = y[j];
+  }
+
+  int j = (int)crpixj + 1;
+  if (y[j] < 0.0) {
+    float tmp  = ymin;
+    ymin = ymax;
+    ymax = tmp;
+  }
+
+  cpgask(0);
+  cpgenv(1.0f, (float)naxisj, ymin, ymax, 0, -1);
+
+  char sname[32], title[80], units[8], ylab[80];
+  cpgsci(1);
+  cpgbox("ABNTS", 0.0f, 0, "BNTS", 0.0f, 0);
+  spctyp(ctypeS, 0x0, 0x0, sname, units, 0x0, 0x0, 0x0);
+  snprintf(ylab, 80, "%s - correction [%s]", sname, units);
+  snprintf(title, 80, "%s:  CRVALk + w [%s]", ctypeS, units);
+  cpglab("Pixel coordinate", ylab, title);
+
+  cpgaxis("N", 0.0f, ymax, (float)naxisj, ymax, xmin, xmax, 0.0f, 0, -0.5f,
+    0.0f, 0.5f, -0.5f, 0.0f);
+
+  cpgaxis("N", (float)naxisj, ymin, (float)naxisj, ymax, (float)(ymin/cdeltS),
+    (float)(ymax/cdeltS), 0.0f, 0, 0.5f, 0.0f, 0.5f, 0.1f, 0.0f);
+  cpgmtxt("R", 2.2f, 0.5f, 0.5f, "Pixel offset");
+
+  cpgline(naxisj, x, y);
+  cpgsci(7);
+  cpgpt1((float)crpixj, 0.0f, 24);
+  cpgebuf();
+
+  // Allow 200ms to view the plot on fast machines.
+  struct timespec nano = {(time_t)0, 200000000L};
+  nanosleep(&nano, 0x0);
+
+  printf("Type <RETURN> for next page: ");
+  (void)getchar();
+
+  printf("\n");
+
+  return nFail;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.6.1.3 2026/04/25 08:34:54 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d29 2
+a30 2
+// Needed to get nanosleep() from time.h.
+#define _POSIX_C_SOURCE 199309L
+d69 3
+a71 3
+  char text[80];
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+d256 1
+a256 1
+  strcpy(spc.code, ctypeS+5);
+d332 2
+a333 2
+  sprintf(ylab, "%s - correction [%s]", sname, units);
+  sprintf(title, "%s:  CRVALk + w [%s]", ctypeS, units);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Inconsequential changes prompted by clang-tidy:
+ - Replaced use of strcpy() with strncpy(), and sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d69 3
+a71 3
+  char devtyp[16];
+  strncpy(devtyp, "/xwindow", 16);
+  cpgbeg(0, devtyp, 1, 1);
+d256 1
+a256 1
+  strncpy(spc.code, ctypeS+5, 4);
+d332 2
+a333 2
+  snprintf(ylab, 80, "%s - correction [%s]", sname, units);
+  snprintf(title, 80, "%s:  CRVALk + w [%s]", ctypeS, units);
+@
+
+
+8.6.1.3
+log
+@Include wcsconfig_tests.h to get the _POSIX_C_SOURCE definition required
+for nanosleep() rather than setting it here.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.6.1.2 2026/04/10 15:40:33 mcalabre Exp mcalabre $
+d29 2
+a30 2
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tspc.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tspc.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 7.6.1.3 2021/07/02 04:09:51 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tspc.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.5.1.2 2021/04/13 08:36:34 mcalabre Exp mcalabre $
+d29 3
+a56 5
+  char text[80];
+  int  naxisj, nFail = 0, status;
+  double cdeltX, crpixj, crvalX, restfrq, restwav, x1, x2;
+
+
+d63 1
+a63 1
+  for (status = 1; status <= 4; status++) {
+d69 1
+d73 2
+a74 2
+  naxisj = NSPEC;
+  crpixj = naxisj/2 + 1;
+d76 6
+a81 6
+  restfrq = 1420.40595e6;
+  restwav = C/restfrq;
+  x1 = 1.0e9;
+  x2 = 2.0e9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+d85 2
+d212 1
+a212 8
+  char ptype, sname[32], title[80], units[8], xtype, ylab[80];
+  int  nFail = 0, restreq, stat1[NSPEC], stat2[NSPEC], status;
+  register int j;
+  float  tmp, x[NSPEC], xmin, xmax, y[NSPEC], ymax, ymin;
+  double cdeltS, clos[NSPEC], crvalS, dSdX, resid, residmax, spec1[NSPEC],
+         spec2[NSPEC];
+  struct spcprm spc;
+
+d215 3
+d223 1
+a223 1
+  cdeltS = cdeltX * dSdX;
+d225 1
+d240 2
+a241 1
+  for (j = 0; j < naxisj; j++) {
+d259 2
+d266 1
+d271 1
+a271 1
+  residmax = 0.0;
+d274 2
+a275 1
+  for (j = 0; j < naxisj; j++) {
+d288 1
+a288 1
+    resid = fabs((clos[j] - spec1[j])/cdeltS);
+d306 6
+a311 5
+  xmin = (float)(crvalS + spec1[0]);
+  xmax = (float)(crvalS + spec1[naxisj-1]);
+  ymin = (float)(spec2[0]) - xmin;
+  ymax = ymin;
+  for (j = 0; j < naxisj; j++) {
+d318 1
+a318 1
+  j = (int)crpixj + 1;
+d320 1
+a320 1
+    tmp  = ymin;
+d328 1
+d349 1
+a349 1
+  struct timespec nano = {0, 200000000};
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d54 5
+d65 1
+a65 1
+  for (int status = 1; status <= 4; status++) {
+a70 1
+  char text[80];
+d74 2
+a75 2
+  int    naxisj = NSPEC;
+  double crpixj = naxisj/2 + 1;
+d77 6
+a82 6
+  double restfrq = 1420.40595e6;
+  double restwav = C/restfrq;
+  double x1 = 1.0e9;
+  double x2 = 2.0e9;
+  double cdeltX = (x2 - x1)/(naxisj - 1);
+  double crvalX = x1 + (crpixj - 1.0)*cdeltX;
+a85 2
+
+  int nFail = 0;
+d211 8
+a218 1
+  int status;
+a220 3
+  char   ptype, xtype;
+  int    restreq;
+  double crvalS, dSdX;
+d226 1
+a226 1
+  double cdeltS = cdeltX * dSdX;
+a227 1
+  struct spcprm spc;
+d242 1
+a242 2
+  double spec1[NSPEC];
+  for (int j = 0; j < naxisj; j++) {
+a259 2
+  int    stat1[NSPEC], stat2[NSPEC];
+  double spec2[NSPEC];
+a264 1
+  double clos[NSPEC];
+d269 1
+a269 1
+  double residmax = 0.0;
+d272 1
+a272 2
+  int nFail = 0;
+  for (int j = 0; j < naxisj; j++) {
+d285 1
+a285 1
+    double resid = fabs((clos[j] - spec1[j])/cdeltS);
+d303 5
+a307 6
+  float x[NSPEC], y[NSPEC];
+  float xmin = (float)(crvalS + spec1[0]);
+  float xmax = (float)(crvalS + spec1[naxisj-1]);
+  float ymin = (float)(spec2[0]) - xmin;
+  float ymax = ymin;
+  for (int j = 0; j < naxisj; j++) {
+d314 1
+a314 1
+  int j = (int)crpixj + 1;
+d316 1
+a316 1
+    float tmp  = ymin;
+a323 1
+  char sname[32], title[80], units[8], ylab[80];
+@
+
+
+7.6.1.3
+log
+@Defined _POSIX_C_SOURCE as 199309L to get the function prototype etc. for
+nanosleep() from time.h.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.6.1.2 2021/07/02 04:08:22 mcalabre Exp mcalabre $
+a28 3
+// Needed to get nanosleep() from time.h.
+#define _POSIX_C_SOURCE 199309L
+
+d346 1
+a346 1
+  struct timespec nano = {(time_t)0, 200000000L};
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+a28 1
+#include <cpgplot.h>
+d32 3
+d342 4
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Inserted a 200ms pause to slow things down during 'make check', otherwise
+the graphics had become just a blur.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d29 1
+a32 3
+#include <time.h>
+
+#include <cpgplot.h>
+a339 4
+
+  // Allow 200ms to view the plot on fast machines.
+  struct timespec nano = {0, 200000000};
+  nanosleep(&nano, 0x0);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tspc.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tspc.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tspc.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d45 1
+a45 1
+/* KPNO MARS spectrograph grism parameters. */
+d61 1
+a61 1
+  /* List status return messages. */
+d68 1
+a68 1
+  /* PGPLOT initialization. */
+d167 1
+a167 1
+  /* Reproduce Fig. 5 of Paper III. */
+d197 1
+a197 1
+/*--------------------------------------------------------------------------*/
+d218 1
+a218 1
+  /* Get keyvalues for the required spectral axis type. */
+d229 1
+a229 1
+    /* KPNO MARS spectrograph grism parameters. */
+d239 1
+a239 1
+  /* Construct the axis. */
+d248 1
+a248 1
+  /* Initialize. */
+d257 1
+a257 1
+  /* Convert the first to the second. */
+d262 1
+a262 1
+  /* Convert the second back to the first. */
+d269 1
+a269 1
+  /* Test closure. */
+d297 1
+a297 1
+  /* Draw graph. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tspc.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d48 1
+a48 1
+// KPNO MARS spectrograph grism parameters.
+d64 1
+a64 1
+  // List status return messages.
+d71 1
+a71 1
+  // PGPLOT initialization.
+d170 1
+a170 1
+  // Reproduce Fig. 5 of Paper III.
+d200 1
+a200 1
+//----------------------------------------------------------------------------
+d221 1
+a221 1
+  // Get keyvalues for the required spectral axis type.
+d232 1
+a232 1
+    // KPNO MARS spectrograph grism parameters.
+d242 1
+a242 1
+  // Construct the axis.
+d251 1
+a251 1
+  // Initialize.
+d260 1
+a260 1
+  // Convert the first to the second.
+d265 1
+a265 1
+  // Convert the second back to the first.
+d272 1
+a272 1
+  // Test closure.
+d300 1
+a300 1
+  // Draw graph.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tspc.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tspc.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tspc.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tspc.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tspc.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tspc.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tspc.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.7.1.3 2011/08/12 14:13:15 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+d50 1
+a53 2
+const double C = 2.99792458e8;
+
+d62 1
+a62 1
+  int naxisj, status;
+d93 6
+a98 6
+  closure("WAVE-F2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-F2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+d109 8
+a116 8
+  closure("FREQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-W2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-W2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d122 10
+a131 10
+  closure("FREQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-A2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-A2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d143 9
+a151 9
+  closure("FREQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-V2A",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d163 11
+a173 11
+  closure("FREQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-GRI", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d190 2
+a191 2
+  closure("AWAV-GRA",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-GRA",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d196 8
+a203 1
+  return 0;
+d208 8
+a215 5
+int closure (ctypeS, restfrq, restwav, naxisj, crpixj, cdeltX, crvalX)
+
+const char ctypeS[9];
+int   naxisj;
+double cdeltX, crpixj, crvalX, restfrq, restwav;
+d219 1
+a219 1
+  int  restreq, stat1[NSPEC], stat2[NSPEC], status;
+d253 1
+a253 1
+  printf("%4s (CRVALk+w) range: %13.6E to %13.6E, step: %13.6E\n", ctypeS,
+d281 1
+a281 1
+      printf("%s: w =%20.12E -> %s = ???, stat = %d\n", ctypeS, spec1[j],
+d287 1
+a287 1
+      printf("%s: w =%20.12E -> %s =%20.12E -> w = ???, stat = %d\n",
+d296 3
+a298 2
+      printf("%s: w =%20.12E -> %s =%20.12E ->\n          w =%20.12E,  "
+             "resid =%20.12E\n", ctypeS, spec1[j], spc.type, spec2[j],
+d303 1
+a303 1
+  printf("%s: Maximum closure residual = %.12E pixel\n", ctypeS, residmax);
+d355 1
+a355 1
+  return 0;
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Use lower-case 'e' in exponential notation for legibility.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d244 1
+a244 1
+  printf("%4s (CRVALk+w) range: %13.6e to %13.6e, step: %13.6e\n", ctypeS,
+d272 1
+a272 1
+      printf("%s: w =%20.12e -> %s = ???, stat = %d\n", ctypeS, spec1[j],
+d278 1
+a278 1
+      printf("%s: w =%20.12e -> %s =%20.12e -> w = ???, stat = %d\n",
+d287 2
+a288 2
+      printf("%s: w =%20.12e -> %s =%20.12e ->\n          w =%20.12e,  "
+             "resid =%20.12e\n", ctypeS, spec1[j], spc.type, spec2[j],
+d293 1
+a293 1
+  printf("%s: Maximum closure residual = %.1e pixel.\n", ctypeS, residmax);
+@
+
+
+4.7.1.3
+log
+@Report PASS/FAIL and return the number of failures.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.7.1.2 2011/08/12 05:35:50 cal103 Exp cal103 $
+a49 1
+const double C = 2.99792458e8;
+d53 2
+d63 1
+a63 1
+  int  naxisj, nFail = 0, status;
+d94 6
+a99 6
+  nFail += closure("WAVE-F2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-F2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+d110 8
+a117 8
+  nFail += closure("FREQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-W2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-W2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d123 10
+a132 10
+  nFail += closure("FREQ-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-A2F", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-A2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-A2W", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-A2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-A2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-A2V", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-A2V", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d144 9
+a152 9
+  nFail += closure("FREQ-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-V2F", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-V2W", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-V2A", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d164 11
+a174 11
+  nFail += closure("FREQ-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AFRQ-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ENER-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVN-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VRAD-GRI", restfrq, 0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("WAVE-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VOPT-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("ZOPT-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("AWAV-GRI", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("BETA-GRI", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d191 2
+a192 2
+  nFail += closure("AWAV-GRA", 0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  nFail += closure("VELO-GRA", 0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d197 1
+a197 8
+  if (nFail) {
+    printf("\nFAIL: %d closure residuals exceed reporting tolerance.\n",
+      nFail);
+  } else {
+    printf("\nPASS: All closure residuals are within reporting tolerance.\n");
+  }
+
+  return nFail;
+d202 5
+a206 8
+int closure (
+  const char ctypeS[9],
+  double restfrq,
+  double restwav,
+  int    naxisj,
+  double crpixj,
+  double cdeltX,
+  double crvalX)
+d210 1
+a210 1
+  int  nFail = 0, restreq, stat1[NSPEC], stat2[NSPEC], status;
+a286 1
+      nFail++;
+d345 1
+a345 1
+  return nFail;
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tspc.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.3.1.2 2009/07/22 06:37:43 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tspc.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tspc.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tspc.c,v 4.2.1.4 2007/12/03 05:14:45 cal103 Exp $
+d34 1
+a34 1
+*   tspc tests the spectral transformation driver routines for closure.
+d62 131
+a192 131
+   char text[80];
+   int naxisj, status;
+   double cdeltX, crpixj, crvalX, restfrq, restwav, x1, x2;
+
+
+   printf(
+     "Testing closure of WCSLIB spectral transformation routines (tspc.c)\n"
+     "-------------------------------------------------------------------\n");
+
+   /* List status return messages. */
+   printf("\nList of spc status return values:\n");
+   for (status = 1; status <= 4; status++) {
+      printf("%4d: %s.\n", status, spc_errmsg[status]);
+   }
+
+
+   /* PGPLOT initialization. */
+   strcpy(text, "/xwindow");
+   cpgbeg(0, text, 1, 1);
+
+   naxisj = NSPEC;
+   crpixj = naxisj/2 + 1;
+
+   restfrq = 1420.40595e6;
+   restwav = C/restfrq;
+   x1 = 1.0e9;
+   x2 = 2.0e9;
+   cdeltX = (x2 - x1)/(naxisj - 1);
+   crvalX = x1 + (crpixj - 1.0)*cdeltX;
+   printf("\nLinear frequency axis, span: %.1f to %.1f (GHz), step: %.3f "
+          "(kHz)\n---------------------------------------------------------"
+          "-----------------\n", x1*1e-9, x2*1e-9, cdeltX*1e-3);
+   closure("WAVE-F2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-F2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+
+   restwav = 700.0e-9;
+   restfrq = C/restwav;
+   x1 = 300.0e-9;
+   x2 = 900.0e-9;
+   cdeltX = (x2 - x1)/(naxisj - 1);
+   crvalX = x1 + (crpixj - 1.0)*cdeltX;
+   printf("\nLinear vacuum wavelength axis, span: %.0f to %.0f (nm), "
+          "step: %f (nm)\n---------------------------------------------"
+          "-----------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+   closure("FREQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-W2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-W2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+   printf("\nLinear air wavelength axis, span: %.0f to %.0f (nm), "
+          "step: %f (nm)\n------------------------------------------"
+          "--------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+   closure("FREQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-A2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-A2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+   restfrq = 1420.40595e6;
+   restwav = C/restfrq;
+   x1 = -0.96*C;
+   x2 =  0.96*C;
+   cdeltX = (x2 - x1)/(naxisj - 1);
+   crvalX = x1 + (crpixj - 1.0)*cdeltX;
+   printf("\nLinear velocity axis, span: %.0f to %.0f m/s, step: %.0f "
+          "(m/s)\n------------------------------------------------------"
+          "--------------------\n", x1, x2, cdeltX);
+   closure("FREQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-V2A",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+   restwav = 650.0e-9;
+   restfrq = C/restwav;
+   x1 =  300e-9;
+   x2 = 1000e-9;
+   cdeltX = (x2 - x1)/(naxisj - 1);
+   crvalX = x1 + (crpixj - 1.0)*cdeltX;
+   printf("\nVacuum wavelength grism axis, span: %.0f to %.0f (nm), "
+          "step: %f (nm)\n--------------------------------------------"
+          "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+   closure("FREQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-GRI", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+   /* Reproduce Fig. 5 of Paper III. */
+   naxisj = 1700;
+   crpixj = 719.8;
+   crvalX = 7245.2e-10;
+   cdeltX = 2.956e-10;
+   restwav = 8500.0e-10;
+   restfrq = C/restwav;
+   x1 = crvalX + (1 - crpixj)*cdeltX;
+   x2 = crvalX + (naxisj - crpixj)*cdeltX;
+   mars[5] = 0.0;
+   mars[6] = 0.0;
+   printf("\nAir wavelength grism axis, span: %.0f to %.0f (nm), "
+          "step: %f (nm)\n--------------------------------------------"
+          "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+   closure("AWAV-GRA",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-GRA",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d194 2
+a195 2
+   cpgask(0);
+   cpgend();
+d197 1
+a197 1
+   return 0;
+d209 130
+a338 131
+   char ptype, sname[32], title[80], units[8], xtype, ylab[80];
+   int  restreq, stat1[NSPEC], stat2[NSPEC], status;
+   register int j;
+   float  tmp, x[NSPEC], xmin, xmax, y[NSPEC], ymax, ymin;
+   double cdeltS, clos[NSPEC], crvalS, dSdX, resid, residmax, spec1[NSPEC],
+          spec2[NSPEC];
+   struct spcprm spc;
+
+
+   /* Get keyvalues for the required spectral axis type. */
+   if ((status = spcxps(ctypeS, crvalX, restfrq, restwav, &ptype, &xtype,
+                        &restreq, &crvalS, &dSdX))) {
+      printf("ERROR %d from spcxps() for %s.\n", status, ctypeS);
+      return 1;
+   }
+   cdeltS = cdeltX * dSdX;
+
+   spcini(&spc);
+
+   if (ctypeS[5] == 'G') {
+      /* KPNO MARS spectrograph grism parameters. */
+      spc.pv[0] = mars[0];
+      spc.pv[1] = mars[1];
+      spc.pv[2] = mars[2];
+      spc.pv[3] = mars[3];
+      spc.pv[4] = mars[4];
+      spc.pv[5] = mars[5];
+      spc.pv[6] = mars[6];
+   }
+
+   /* Construct the axis. */
+   for (j = 0; j < naxisj; j++) {
+      spec1[j] = (j+1 - crpixj)*cdeltS;
+   }
+
+   printf("%4s (CRVALk+w) range: %13.6E to %13.6E, step: %13.6E\n", ctypeS,
+          crvalS+spec1[0], crvalS+spec1[naxisj-1], cdeltS);
+
+
+   /* Initialize. */
+   spc.flag = 0;
+   spc.crval = crvalS;
+   spc.restfrq = restfrq;
+   spc.restwav = restwav;
+   strncpy(spc.type, ctypeS, 4);
+   spc.type[4] = '\0';
+   strcpy(spc.code, ctypeS+5);
+
+   /* Convert the first to the second. */
+   if ((status = spcx2s(&spc, naxisj, 1, 1, spec1, spec2, stat1))) {
+      printf("spcx2s ERROR %d: %s.\n", status, spc_errmsg[status]);
+   }
+
+   /* Convert the second back to the first. */
+   if ((status = spcs2x(&spc, naxisj, 1, 1, spec2, clos, stat2))) {
+      printf("spcs2x ERROR %d: %s.\n", status, spc_errmsg[status]);
+   }
+
+   residmax = 0.0;
+
+   /* Test closure. */
+   for (j = 0; j < naxisj; j++) {
+      if (stat1[j]) {
+         printf("%s: w =%20.12E -> %s = ???, stat = %d\n", ctypeS, spec1[j],
+                spc.type, stat1[j]);
+         continue;
+      }
+
+      if (stat2[j]) {
+         printf("%s: w =%20.12E -> %s =%20.12E -> w = ???, stat = %d\n",
+                ctypeS, spec1[j], spc.type, spec2[j], stat2[j]);
+         continue;
+      }
+
+      resid = fabs((clos[j] - spec1[j])/cdeltS);
+      if (resid > residmax) residmax = resid;
+
+      if (resid > tol) {
+         printf("%s: w =%20.12E -> %s =%20.12E ->\n"
+                "          w =%20.12E,  resid =%20.12E\n", ctypeS,
+                spec1[j], spc.type, spec2[j], clos[j], resid);
+      }
+   }
+
+   printf("%s: Maximum closure residual = %.12E pixel\n", ctypeS, residmax);
+
+
+   /* Draw graph. */
+   cpgbbuf();
+   cpgeras();
+
+   xmin = (float)(crvalS + spec1[0]);
+   xmax = (float)(crvalS + spec1[naxisj-1]);
+   ymin = (float)(spec2[0]) - xmin;
+   ymax = ymin;
+   for (j = 0; j < naxisj; j++) {
+      x[j] = (float)(j+1);
+      y[j] = (float)(spec2[j] - (crvalS + spec1[j]));
+      if (y[j] > ymax) ymax = y[j];
+      if (y[j] < ymin) ymin = y[j];
+   }
+
+   j = (int)crpixj + 1;
+   if (y[j] < 0.0) {
+      tmp  = ymin;
+      ymin = ymax;
+      ymax = tmp;
+   }
+
+   cpgask(0);
+   cpgenv(1.0f, (float)naxisj, ymin, ymax, 0, -1);
+
+   cpgsci(1);
+   cpgbox("ABNTS", 0.0f, 0, "BNTS", 0.0f, 0);
+   spctyp(ctypeS, 0x0, 0x0, sname, units, 0x0, 0x0, 0x0);
+   sprintf(ylab, "%s - correction [%s]", sname, units);
+   sprintf(title, "%s:  CRVALk + w [%s]", ctypeS, units);
+   cpglab("Pixel coordinate", ylab, title);
+
+   cpgaxis("N", 0.0f, ymax, (float)naxisj, ymax, xmin, xmax, 0.0f, 0,
+           -0.5f, 0.0f, 0.5f, -0.5f, 0.0f);
+
+   cpgaxis("N", (float)naxisj, ymin, (float)naxisj, ymax,
+           (float)(ymin/cdeltS), (float)(ymax/cdeltS), 0.0f, 0, 0.5f, 0.0f,
+           0.5f, 0.1f, 0.0f);
+   cpgmtxt("R", 2.2f, 0.5f, 0.5f, "Pixel offset");
+
+   cpgline(naxisj, x, y);
+   cpgsci(7);
+   cpgpt1((float)crpixj, 0.0f, 24);
+   cpgebuf();
+d340 2
+a341 2
+   printf("Type <RETURN> for next page: ");
+   (void)getchar();
+d343 1
+a343 1
+   printf("\n");
+d345 1
+a345 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tspc.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tspc.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 1
+a34 1
+* tspc tests the spectral transformation driver routines for closure.
+d62 131
+a192 131
+  char text[80];
+  int naxisj, status;
+  double cdeltX, crpixj, crvalX, restfrq, restwav, x1, x2;
+
+
+  printf(
+    "Testing closure of WCSLIB spectral transformation routines (tspc.c)\n"
+    "-------------------------------------------------------------------\n");
+
+  /* List status return messages. */
+  printf("\nList of spc status return values:\n");
+  for (status = 1; status <= 4; status++) {
+    printf("%4d: %s.\n", status, spc_errmsg[status]);
+  }
+
+
+  /* PGPLOT initialization. */
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+
+  naxisj = NSPEC;
+  crpixj = naxisj/2 + 1;
+
+  restfrq = 1420.40595e6;
+  restwav = C/restfrq;
+  x1 = 1.0e9;
+  x2 = 2.0e9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear frequency axis, span: %.1f to %.1f (GHz), step: %.3f "
+         "(kHz)\n---------------------------------------------------------"
+         "-----------------\n", x1*1e-9, x2*1e-9, cdeltX*1e-3);
+  closure("WAVE-F2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-F2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-F2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-F2V", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+
+  restwav = 700.0e-9;
+  restfrq = C/restwav;
+  x1 = 300.0e-9;
+  x2 = 900.0e-9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear vacuum wavelength axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n---------------------------------------------"
+         "-----------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  closure("FREQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-W2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-W2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-W2A",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-W2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  printf("\nLinear air wavelength axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n------------------------------------------"
+         "--------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  closure("FREQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-A2F",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-A2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-A2W",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-A2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-A2V",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  restfrq = 1420.40595e6;
+  restwav = C/restfrq;
+  x1 = -0.96*C;
+  x2 =  0.96*C;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nLinear velocity axis, span: %.0f to %.0f m/s, step: %.0f "
+         "(m/s)\n------------------------------------------------------"
+         "--------------------\n", x1, x2, cdeltX);
+  closure("FREQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-V2F", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-V2W",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-V2A",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  restwav = 650.0e-9;
+  restfrq = C/restwav;
+  x1 =  300e-9;
+  x2 = 1000e-9;
+  cdeltX = (x2 - x1)/(naxisj - 1);
+  crvalX = x1 + (crpixj - 1.0)*cdeltX;
+  printf("\nVacuum wavelength grism axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n--------------------------------------------"
+         "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  closure("FREQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("AFRQ-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("ENER-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVN-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VRAD-GRI", restfrq,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("WAVE-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("ZOPT-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("AWAV-GRI",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+  closure("BETA-GRI",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+
+  /* Reproduce Fig. 5 of Paper III. */
+  naxisj = 1700;
+  crpixj = 719.8;
+  crvalX = 7245.2e-10;
+  cdeltX = 2.956e-10;
+  restwav = 8500.0e-10;
+  restfrq = C/restwav;
+  x1 = crvalX + (1 - crpixj)*cdeltX;
+  x2 = crvalX + (naxisj - crpixj)*cdeltX;
+  mars[5] = 0.0;
+  mars[6] = 0.0;
+  printf("\nAir wavelength grism axis, span: %.0f to %.0f (nm), "
+         "step: %f (nm)\n--------------------------------------------"
+         "------------------------------\n", x1*1e9, x2*1e9, cdeltX*1e9);
+  closure("AWAV-GRA",     0.0,     0.0, naxisj, crpixj, cdeltX, crvalX);
+  closure("VELO-GRA",     0.0, restwav, naxisj, crpixj, cdeltX, crvalX);
+d194 2
+a195 2
+  cpgask(0);
+  cpgend();
+d197 1
+a197 1
+  return 0;
+d209 131
+a339 130
+  char ptype, sname[32], title[80], units[8], xtype, ylab[80];
+  int  restreq, stat1[NSPEC], stat2[NSPEC], status;
+  register int j;
+  float  tmp, x[NSPEC], xmin, xmax, y[NSPEC], ymax, ymin;
+  double cdeltS, clos[NSPEC], crvalS, dSdX, resid, residmax, spec1[NSPEC],
+         spec2[NSPEC];
+  struct spcprm spc;
+
+
+  /* Get keyvalues for the required spectral axis type. */
+  if ((status = spcxps(ctypeS, crvalX, restfrq, restwav, &ptype, &xtype,
+                       &restreq, &crvalS, &dSdX))) {
+    printf("ERROR %d from spcxps() for %s.\n", status, ctypeS);
+    return 1;
+  }
+  cdeltS = cdeltX * dSdX;
+
+  spcini(&spc);
+
+  if (ctypeS[5] == 'G') {
+    /* KPNO MARS spectrograph grism parameters. */
+    spc.pv[0] = mars[0];
+    spc.pv[1] = mars[1];
+    spc.pv[2] = mars[2];
+    spc.pv[3] = mars[3];
+    spc.pv[4] = mars[4];
+    spc.pv[5] = mars[5];
+    spc.pv[6] = mars[6];
+  }
+
+  /* Construct the axis. */
+  for (j = 0; j < naxisj; j++) {
+    spec1[j] = (j+1 - crpixj)*cdeltS;
+  }
+
+  printf("%4s (CRVALk+w) range: %13.6E to %13.6E, step: %13.6E\n", ctypeS,
+    crvalS+spec1[0], crvalS+spec1[naxisj-1], cdeltS);
+
+
+  /* Initialize. */
+  spc.flag = 0;
+  spc.crval = crvalS;
+  spc.restfrq = restfrq;
+  spc.restwav = restwav;
+  strncpy(spc.type, ctypeS, 4);
+  spc.type[4] = '\0';
+  strcpy(spc.code, ctypeS+5);
+
+  /* Convert the first to the second. */
+  if ((status = spcx2s(&spc, naxisj, 1, 1, spec1, spec2, stat1))) {
+    printf("spcx2s ERROR %d: %s.\n", status, spc_errmsg[status]);
+  }
+
+  /* Convert the second back to the first. */
+  if ((status = spcs2x(&spc, naxisj, 1, 1, spec2, clos, stat2))) {
+    printf("spcs2x ERROR %d: %s.\n", status, spc_errmsg[status]);
+  }
+
+  residmax = 0.0;
+
+  /* Test closure. */
+  for (j = 0; j < naxisj; j++) {
+    if (stat1[j]) {
+      printf("%s: w =%20.12E -> %s = ???, stat = %d\n", ctypeS, spec1[j],
+             spc.type, stat1[j]);
+      continue;
+    }
+
+    if (stat2[j]) {
+      printf("%s: w =%20.12E -> %s =%20.12E -> w = ???, stat = %d\n",
+             ctypeS, spec1[j], spc.type, spec2[j], stat2[j]);
+      continue;
+    }
+
+    resid = fabs((clos[j] - spec1[j])/cdeltS);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      printf("%s: w =%20.12E -> %s =%20.12E ->\n          w =%20.12E,  "
+             "resid =%20.12E\n", ctypeS, spec1[j], spc.type, spec2[j],
+             clos[j], resid);
+    }
+  }
+
+  printf("%s: Maximum closure residual = %.12E pixel\n", ctypeS, residmax);
+
+
+  /* Draw graph. */
+  cpgbbuf();
+  cpgeras();
+
+  xmin = (float)(crvalS + spec1[0]);
+  xmax = (float)(crvalS + spec1[naxisj-1]);
+  ymin = (float)(spec2[0]) - xmin;
+  ymax = ymin;
+  for (j = 0; j < naxisj; j++) {
+    x[j] = (float)(j+1);
+    y[j] = (float)(spec2[j] - (crvalS + spec1[j]));
+    if (y[j] > ymax) ymax = y[j];
+    if (y[j] < ymin) ymin = y[j];
+  }
+
+  j = (int)crpixj + 1;
+  if (y[j] < 0.0) {
+    tmp  = ymin;
+    ymin = ymax;
+    ymax = tmp;
+  }
+
+  cpgask(0);
+  cpgenv(1.0f, (float)naxisj, ymin, ymax, 0, -1);
+
+  cpgsci(1);
+  cpgbox("ABNTS", 0.0f, 0, "BNTS", 0.0f, 0);
+  spctyp(ctypeS, 0x0, 0x0, sname, units, 0x0, 0x0, 0x0);
+  sprintf(ylab, "%s - correction [%s]", sname, units);
+  sprintf(title, "%s:  CRVALk + w [%s]", ctypeS, units);
+  cpglab("Pixel coordinate", ylab, title);
+
+  cpgaxis("N", 0.0f, ymax, (float)naxisj, ymax, xmin, xmax, 0.0f, 0, -0.5f,
+    0.0f, 0.5f, -0.5f, 0.0f);
+
+  cpgaxis("N", (float)naxisj, ymin, (float)naxisj, ymax, (float)(ymin/cdeltS),
+    (float)(ymax/cdeltS), 0.0f, 0, 0.5f, 0.0f, 0.5f, 0.1f, 0.0f);
+  cpgmtxt("R", 2.2f, 0.5f, 0.5f, "Pixel offset");
+
+  cpgline(naxisj, x, y);
+  cpgsci(7);
+  cpgpt1((float)crpixj, 0.0f, 24);
+  cpgebuf();
+d341 2
+a342 2
+  printf("Type <RETURN> for next page: ");
+  (void)getchar();
+d344 1
+a344 1
+  printf("\n");
+d346 1
+a346 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tspc.c,v 4.1 2005/08/22 07:45:37 cal103 Exp cal103 $
+a65 7
+   /* Uncomment the following two lines to raise SIGFPE on floating point
+    * exceptions for the Sun FORTRAN compiler.  This signal can be caught
+    * within 'dbx' by issuing the command "catch FPE".
+    */
+/* #include <floatingpoint.h> */
+/* ieee_handler("set", "common", SIGFPE_ABORT); */
+
+d219 2
+a220 2
+   if (status = spcxps(ctypeS, crvalX, restfrq, restwav, &ptype, &xtype,
+                       &restreq, &crvalS, &dSdX)) {
+d258 1
+a258 1
+   if (status = spcx2s(&spc, naxisj, 1, 1, spec1, spec2, stat1)) {
+d263 1
+a263 1
+   if (status = spcs2x(&spc, naxisj, 1, 1, spec2, clos, stat2)) {
+d323 1
+a323 1
+   spctyp(ctypeS, 0, 0, sname, units, 0, 0, 0);
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tspc.c,v 4.2 2005/09/22 02:15:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Removed comment re catching floating point exceptions in SunOS.
+@
+text
+@d30 1
+a30 1
+*   $Id: tspc.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+d64 7
+@
+
+
+4.2.1.3
+log
+@Parenthesised assignments used as truth values.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: tspc.c,v 4.2.1.2 2005/12/16 03:48:31 cal103 Exp cal103 $
+d218 2
+a219 2
+   if ((status = spcxps(ctypeS, crvalX, restfrq, restwav, &ptype, &xtype,
+                        &restreq, &crvalS, &dSdX))) {
+d257 1
+a257 1
+   if ((status = spcx2s(&spc, naxisj, 1, 1, spec1, spec2, stat1))) {
+d262 1
+a262 1
+   if ((status = spcs2x(&spc, naxisj, 1, 1, spec2, clos, stat2))) {
+@
+
+
+4.2.1.4
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tspc.c,v 4.2.1.3 2007/06/29 06:42:12 cal103 Exp cal103 $
+d322 1
+a322 1
+   spctyp(ctypeS, 0x0, 0x0, sname, units, 0x0, 0x0, 0x0);
+@
+
+
+4.1
+log
+@WCSLIB 4.1: trivial changes.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tspc.c,v 4.0 2005/02/04 06:34:26 cal103 Exp cal103 $
+d73 3
+a75 2
+   printf("\nTesting closure of WCSLIB spectral transformation routines\n");
+   printf("----------------------------------------------------------\n");
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; set the rest frequency and/or wavelength
+to 0.0 in all of the closure tests to check that it is handled properly;
+condensed the code significantly by using the new function spcxps() to
+construct the spectral axis; renamed certain variables to match Paper III.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tspc.c,v 3.6 2004/08/25 05:36:39 cal103 Exp cal103 $
+d62 1
+a62 2
+   int naxisj;
+   register int j;
+d78 2
+a79 2
+   for (j = 1; j <= 4 ; j++) {
+      printf("   %d: %s.\n", j, spc_errmsg[j]);
+d214 1
+a214 1
+   char ptype, cname[32], title[80], units[8], xtype, ylab[80];
+d264 1
+a264 1
+      printf("spcx2s: %s.\n", spc_errmsg[status]);
+d269 1
+a269 1
+      printf("spcs2x: %s.\n", spc_errmsg[status]);
+d328 3
+a330 3
+   spctyp(ctypeS, cname, units, &xtype, &ptype, &restreq);
+   sprintf(ylab, "%s - correction %s", cname, units);
+   sprintf(title, "%s:  CRVALk + w %s", ctypeS, units);
+@
+
+
+3.6
+log
+@WCSLIB 3.6: in error messages, print "ERROR" (in uppercase) - POSIX standard;
+removed support for K&R C.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by the
+*   Free Software Foundation; either version 2 of the License, or (at your
+*   option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d17 2
+a18 2
+*   with this library; if not, write to the Free Software Foundation, Inc.,
+*   675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: tspc.c,v 3.5 2004/06/28 01:05:55 mcalabre Exp mcalabre $
+d100 6
+a105 7
+   closure("WAVE-F2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-F2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-F2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-F2A", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-F2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-F2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+
+d116 8
+a123 8
+   closure("FREQ-W2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-W2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-W2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-W2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-W2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-W2A", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-W2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-W2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+d129 10
+a138 10
+   closure("FREQ-A2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-A2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-A2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-A2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-A2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-A2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-A2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-A2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-A2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-A2V", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+d150 9
+a158 9
+   closure("FREQ-V2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-V2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-V2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-V2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-V2F", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-V2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-V2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-V2W", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-V2A", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+d170 11
+a180 11
+   closure("FREQ-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AFRQ-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ENER-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVN-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VRAD-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("WAVE-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VOPT-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("ZOPT-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("AWAV-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("BETA-GRI", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+d197 2
+a198 2
+   closure("AWAV-GRA", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+   closure("VELO-GRA", restfrq, restwav, naxisj, crpixj, cdeltX, crvalX);
+d208 1
+a208 1
+int closure (ctype, restfrq, restwav, naxisj, crpixj, cdeltX, crvalX)
+d210 1
+a210 1
+const char ctype[9];
+d215 2
+a216 3
+   char ctypeS[5], ctypeX[5], qtype, stype[32], title[80], units[8], xtype,
+          ylab[80];
+   int stat1[NSPEC], stat2[NSPEC], status;
+d219 2
+a220 3
+   double clos[NSPEC], cdeltS, crvalS, dQdX, dSdQ, resid, residmax,
+          spec1[NSPEC], spec2[NSPEC];
+   struct spxprm spx;
+d224 8
+d234 1
+a234 11
+   /* Construct a linear axis of the required X-type. */
+   xtype = ctype[5];
+   if (xtype == 'F') {
+      strcpy(ctypeX, "FREQ");
+   } else if (xtype == 'W') {
+      strcpy(ctypeX, "WAVE");
+   } else if (xtype == 'A') {
+      strcpy(ctypeX, "AWAV");
+   } else if (xtype == 'V') {
+      strcpy(ctypeX, "VELO");
+   } else if (xtype == 'G') {
+a242 88
+
+      /* cdeltX and crvalX were given as wavelengths... */
+      if (ctype[7] == 'I') {
+         /* ...in vacuum. */
+         xtype = 'W';
+         strcpy(ctypeX, "WAVE");
+      } else {
+         /* ...in air. */
+         xtype = 'A';
+         strcpy(ctypeX, "AWAV");
+      }
+   } else {
+      return 1;
+   }
+
+   specx(ctypeX, crvalX, restfrq, restwav, &spx);
+
+   /* What is the required spectral type? */
+   strncpy(ctypeS, ctype, 4);
+   ctypeS[4] = '\0';
+   if (strcmp(ctypeS, "FREQ") == 0) {
+      strcpy(stype, "Frequency");
+      strcpy(units, "(Hz)");
+      crvalS = spx.freq;
+      dSdQ = 1.0;
+      qtype = 'F';
+   } else if (strcmp(ctypeS, "AFRQ") == 0) {
+      strcpy(stype, "Angular frequency");
+      strcpy(units, "(deg/s)");
+      crvalS = spx.afrq;
+      dSdQ = spx.dafrqfreq;
+      qtype = 'F';
+   } else if (strcmp(ctypeS, "ENER") == 0) {
+      strcpy(stype, "Photon energy");
+      strcpy(units, "(J)");
+      crvalS = spx.ener;
+      dSdQ = spx.denerfreq;
+      qtype = 'F';
+   } else if (strcmp(ctypeS, "WAVN") == 0) {
+      strcpy(stype, "Wavenumber");
+      strcpy(units, "(1/m)");
+      crvalS = spx.wavn;
+      dSdQ = spx.dwavnfreq;
+      qtype = 'F';
+   } else if (strcmp(ctypeS, "VRAD") == 0) {
+      strcpy(stype, "Radio velocity");
+      strcpy(units, "(m/s)");
+      crvalS = spx.vrad;
+      dSdQ = spx.dvradfreq;
+      qtype = 'F';
+   } else if (strcmp(ctypeS, "WAVE") == 0) {
+      strcpy(stype, "Vacuum wavelength");
+      strcpy(units, "(m)");
+      crvalS = spx.wave;
+      dSdQ = 1.0;
+      qtype = 'W';
+   } else if (strcmp(ctypeS, "VOPT") == 0) {
+      strcpy(stype, "Optical velocity");
+      strcpy(units, "(m/s)");
+      crvalS = spx.vopt;
+      dSdQ = spx.dvoptwave;
+      qtype = 'W';
+   } else if (strcmp(ctypeS, "ZOPT") == 0) {
+      strcpy(stype, "Redshift");
+      strcpy(units, "");
+      crvalS = spx.zopt;
+      dSdQ = spx.dzoptwave;
+      qtype = 'W';
+   } else if (strcmp(ctypeS, "AWAV") == 0) {
+      strcpy(stype, "Air wavelength");
+      strcpy(units, "(m)");
+      crvalS = spx.awav;
+      dSdQ = 1.0;
+      qtype = 'A';
+   } else if (strcmp(ctypeS, "VELO") == 0) {
+      strcpy(stype, "Relativistic velocity");
+      strcpy(units, "(m/s)");
+      crvalS = spx.velo;
+      dSdQ = 1.0;
+      qtype = 'V';
+   } else if (strcmp(ctypeS, "BETA") == 0) {
+      strcpy(stype, "Velocity ratio (v/c)");
+      strcpy(units, "");
+      crvalS = spx.beta;
+      dSdQ = spx.dbetavelo;
+      qtype = 'V';
+   } else {
+      return 1;
+a244 38
+   /* Find dQ/dX. */
+   dQdX = 1.0;
+   if (xtype == 'F') {
+      if (qtype == 'W') {
+         dQdX = spx.dwavefreq;
+      } else if (qtype == 'A') {
+         dQdX = spx.dawavfreq;
+      } else if (qtype == 'V') {
+         dQdX = spx.dvelofreq;
+      }
+   } else if (xtype == 'W') {
+      if (qtype == 'F') {
+         dQdX = spx.dfreqwave;
+      } else if (qtype == 'A') {
+         dQdX = spx.dawavwave;
+      } else if (qtype == 'V') {
+         dQdX = spx.dvelowave;
+      }
+   } else if (xtype == 'A') {
+      if (qtype == 'F') {
+         dQdX = spx.dfreqawav;
+      } else if (qtype == 'W') {
+         dQdX = spx.dwaveawav;
+      } else if (qtype == 'V') {
+         dQdX = spx.dveloawav;
+      }
+   } else if (xtype == 'V') {
+      if (qtype == 'F') {
+         dQdX = spx.dfreqvelo;
+      } else if (qtype == 'W') {
+         dQdX = spx.dwavevelo;
+      } else if (qtype == 'A') {
+         dQdX = spx.dawavvelo;
+      }
+   }
+
+   cdeltS = dSdQ * dQdX * cdeltX;
+
+d250 1
+a250 1
+   printf("%s (CRVALk+w) range: %13.6E to %13.6E, step: %13.6E\n", ctypeS,
+d259 3
+a261 2
+   strcpy(spc.type, ctypeS);
+   strcpy(spc.code, ctype+5);
+d265 1
+a265 1
+      printf("spcx2s: %s.\n", spx_errmsg[status]);
+d270 1
+a270 1
+      printf("spcs2x: %s.\n", spx_errmsg[status]);
+d278 1
+a278 1
+         printf("%s: w =%20.12E -> %s = ???, stat = %d\n", ctype, spec1[j],
+d285 1
+a285 1
+                ctype, spec1[j], spc.type, spec2[j], stat2[j]);
+d294 1
+a294 1
+                "          w =%20.12E,  resid =%20.12E\n", ctype,
+d299 1
+a299 1
+   printf("%s: Maximum closure residual = %.12E pixel\n", ctype, residmax);
+d329 3
+a331 2
+   sprintf(ylab, "%s - correction %s", stype, units);
+   sprintf(title, "%s:  CRVALk + w %s", ctype, units);
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tspc.c,v 3.4 2004/02/11 00:23:05 mcalabre Exp mcalabre $
+a44 5
+#ifndef __STDC__
+#ifndef const
+#define const
+#endif
+#endif
+d77 2
+a78 2
+   /* List error messages. */
+   printf("\nList of spc error codes:\n");
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+a34 1
+*   $Id: tspc.c,v 3.3 2003/10/21 08:10:05 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tspc.c,v 3.2 2003/09/09 04:40:16 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id: tspc.c,v 3.1 2003/04/29 01:54:34 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+Minor refinement of PGPLOT paging.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id: tspc.c,v 3.1 2003/04/28 04:27:07 mcalabre Exp $
+d81 3
+a83 13
+   printf("\nList of spcset error codes:\n");
+   for (j = 1; j <= 1 ; j++) {
+      printf("   %d: %s.\n", j, spcset_errmsg[j]);
+   }
+
+   printf("\nList of spcx2s error codes:\n");
+   for (j = 1; j <= 2 ; j++) {
+      printf("   %d: %s.\n", j, spcx2s_errmsg[j]);
+   }
+
+   printf("\nList of spcs2x error codes:\n");
+   for (j = 1; j <= 2 ; j++) {
+      printf("   %d: %s.\n", j, spcs2x_errmsg[j]);
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id$
+d489 2
+a490 2
+   cpgask(1);
+   cpgpage();
+@

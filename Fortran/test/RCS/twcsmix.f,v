@@ -1,0 +1,7223 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.42;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.52.43;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.42.52;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.37.53;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.26.05.48.45;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.46.04;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.35.34;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.04.52.32;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.04.18;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.36.48;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.05.49.32;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.04.48.53;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.10.21;	author mcalabre;	state Exp;
+branches;
+next	2.15;
+
+2.15
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.14;
+
+2.14
+date	2001.09.05.04.34.02;	author mcalabre;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	2000.12.04.05.16.00;	author mcalabre;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	99.12.13.03.38.04;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	99.11.19.02.26.20;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	99.06.16.00.19.23;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	98.02.25.06.48.10;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	96.05.07.21.13.13;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	95.12.22.02.46.09;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	95.11.16.06.13.57;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	95.11.16.04.52.52;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	95.11.09.03.22.28;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.09.12.07.05.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.37.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.08.02.06.43.42;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.37.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.35;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.07.28.07;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.06.02.50.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.07;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.34.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.27.03.10.22;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.08.16.01.34.41;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.24.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.41.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.12.04.12.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.41.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.08.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.02.59.36;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.29.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	7.2.1.2;
+
+7.2.1.2
+date	2020.05.07.04.02.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.11.08;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.32.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.02.06.55.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test WCSMIX, the high level WCSLIB mixed coordinate conversion
+routine (requires PGPLOT and X11).
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@*=======================================================================
+*
+* WCSLIB 8.10 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2026, Mark Calabretta
+*
+* This file is part of WCSLIB.
+*
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcsmix.f,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=======================================================================
+
+      PROGRAM TWCS2
+*-----------------------------------------------------------------------
+*
+* TWCS2 tests WCSMIX for closure on the 1 degree celestial graticule for
+* a number of selected projections.  Points with good solutions are
+* marked with a white dot on a graphical display of the projection while
+* bad solutions are flagged with a red circle.
+*
+*-----------------------------------------------------------------------
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 4)
+
+      INTEGER   I, J, K, NAXIS, NPV, PVI(4), PVM(4)
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), LATPOLE, LONPOLE,
+     :          PC(N,N), PV(4), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72
+
+      DOUBLE PRECISION TOL
+      PARAMETER (TOL = 1D-9)
+
+      COMMON /HEADER/ NAXIS, NPV, CRPIX, PC, CDELT, CRVAL, LONPOLE,
+     :                LATPOLE, RESTFRQ, RESTWAV, PVI, PVM, PV
+      COMMON /HEADCH/ CTYPE
+
+      DATA NAXIS   /N/
+      DATA (CRPIX(J), J=1,N)
+     :             /513D0,   0D0,   0D0,   0D0/
+      DATA ((PC(I,J),J=1,N),I=1,N)
+     :             /1.1D0,    0D0,    0D0,    0D0,
+     :                0D0,  1.0D0,    0D0,  0.1D0,
+     :                0D0,    0D0,  1.0D0,    0D0,
+     :                0D0,  0.2D0,    0D0,  1.0D0/
+      DATA (CDELT(I), I=1,N)
+     :             /-9.635265432D-6, 1D0, 1D0, -1D0/
+      DATA (CTYPE(I), I=1,N)
+     :           /'WAVE-F2W', 'XLAT-xxx ', 'TIME    ', 'XLON-xxx '/
+      DATA (CRVAL(I), I=1,N)
+     :             /0.214982042D0, -30D0, -2D3, 150D0/
+      DATA LONPOLE /150D0/
+      DATA LATPOLE /999D0/
+      DATA RESTFRQ /1.42040575D9/
+      DATA RESTWAV /0D0/
+
+*     Set PVi_m keyvalues for the longitude axis (I = 4) so that the
+*     fiducial native coordinates are at the native pole, i.e.
+*     (phi0,theta0) = (0,90), but without any fiducial offset.  We do
+*     this as a test, and also so that all projections will be
+*     exercised with the same obliquity parameters.
+      DATA (PVI(K), PVM(K), PV(K), K=1,2)
+     :             /4, 1,  0D0,
+     :              4, 2, 90D0/
+
+*     PVi_m keyvalues for the latitude axis (I = 2).  Value may be reset
+*     below.
+      DATA (PVI(K), PVM(K), PV(K), K=3,4)
+     :             /2, 1, 0D0,
+     :              2, 2, 0D0/
+*-----------------------------------------------------------------------
+      WRITE (*, 10)
+ 10   FORMAT ('Testing WCSLIB wcsmix routine (twcsmix.f)',/,
+     :        '-----------------------------------------')
+
+*     PGPLOT initialization.
+      CALL PGBEG (0, '/xwindow', 1, 1)
+
+*     Define pen colours.
+      CALL PGSCR (0, 0.00, 0.00, 0.00)
+      CALL PGSCR (1, 1.00, 1.00, 0.00)
+      CALL PGSCR (2, 1.00, 1.00, 1.00)
+      CALL PGSCR (3, 0.50, 0.50, 0.80)
+      CALL PGSCR (4, 0.80, 0.50, 0.50)
+      CALL PGSCR (5, 0.80, 0.80, 0.80)
+      CALL PGSCR (6, 0.50, 0.50, 0.80)
+      CALL PGSCR (7, 0.80, 0.50, 0.50)
+      CALL PGSCR (8, 0.30, 0.50, 0.30)
+      CALL PGSCR (9, 1.00, 0.75, 0.00)
+
+*     ARC: zenithal/azimuthal equidistant.
+      CTYPE(2)(6:8) = 'ARC'
+      CTYPE(4)(6:8) = 'ARC'
+      NPV = 2
+      CALL MIXEX (TOL, -190.0, 190.0, -190.0, 190.0)
+
+*     ZEA: zenithal/azimuthal equal area.
+      CTYPE(2)(6:8) = 'ZEA'
+      CTYPE(4)(6:8) = 'ZEA'
+      NPV = 2
+      CALL MIXEX (TOL, -120.0, 120.0, -120.0, 120.0)
+
+*     CYP: cylindrical perspective.
+      CTYPE(2)(6:8) = 'CYP'
+      CTYPE(4)(6:8) = 'CYP'
+      NPV = 4
+      PV(3) = 3D0
+      PV(4) = 0.8D0
+      CALL MIXEX (TOL, -170.0, 170.0, -170.0, 170.0)
+
+*     CEA: cylindrical equal area.
+      CTYPE(2)(6:8) = 'CEA'
+      CTYPE(4)(6:8) = 'CEA'
+      NPV = 3
+      PV(3) = 0.75D0
+      CALL MIXEX (TOL, -200.0, 200.0, -200.0, 200.0)
+
+*     CAR: plate carree.
+      CTYPE(2)(6:8) = 'CAR'
+      CTYPE(4)(6:8) = 'CAR'
+      NPV = 2
+      CALL MIXEX (TOL, -210.0, 210.0, -210.0, 210.0)
+
+*     SFL: Sanson-Flamsteed.
+      CTYPE(2)(6:8) = 'SFL'
+      CTYPE(4)(6:8) = 'SFL'
+      NPV = 2
+      CALL MIXEX (TOL, -190.0, 190.0, -190.0, 190.0)
+
+*     PAR: parabolic.
+      CTYPE(2)(6:8) = 'PAR'
+      CTYPE(4)(6:8) = 'PAR'
+      NPV = 2
+      CALL MIXEX (TOL, -190.0, 190.0, -190.0, 190.0)
+
+*     MOL: Mollweide's projection.
+      CTYPE(2)(6:8) = 'MOL'
+      CTYPE(4)(6:8) = 'MOL'
+      NPV = 2
+      CALL MIXEX (TOL, -170.0, 170.0, -170.0, 170.0)
+
+*     AIT: Hammer-Aitoff.
+      CTYPE(2)(6:8) = 'AIT'
+      CTYPE(4)(6:8) = 'AIT'
+      NPV = 2
+      CALL MIXEX (TOL, -170.0, 170.0, -170.0, 170.0)
+
+*     COE: conic equal area.
+      CTYPE(2)(6:8) = 'COE'
+      CTYPE(4)(6:8) = 'COE'
+      NPV = 4
+      PV(3) = 60D0
+      PV(4) = 15D0
+      CALL MIXEX (TOL, -140.0, 140.0, -120.0, 160.0)
+
+*     COD: conic equidistant.
+      CTYPE(2)(6:8) = 'COD'
+      CTYPE(4)(6:8) = 'COD'
+      NPV = 4
+      PV(3) = 60D0
+      PV(4) = 15D0
+      CALL MIXEX (TOL, -200.0, 200.0, -180.0, 220.0)
+
+*     BON: Bonne's projection.
+      CTYPE(2)(6:8) = 'BON'
+      CTYPE(4)(6:8) = 'BON'
+      NPV = 3
+      PV(3) = 30D0
+      CALL MIXEX (TOL, -160.0, 160.0, -160.0, 160.0)
+
+*     PCO: polyconic.
+      CTYPE(2)(6:8) = 'PCO'
+      CTYPE(4)(6:8) = 'PCO'
+      NPV = 2
+      CALL MIXEX (TOL, -190.0, 190.0, -190.0, 190.0)
+
+*     TSC: tangential spherical cube.
+      CTYPE(2)(6:8) = 'TSC'
+      CTYPE(4)(6:8) = 'TSC'
+      NPV = 2
+      CALL MIXEX (TOL, -340.0, 80.0, -210.0, 210.0)
+
+*     QSC: quadrilateralized spherical cube.
+      CTYPE(2)(6:8) = 'QSC'
+      CTYPE(4)(6:8) = 'QSC'
+      NPV = 2
+      CALL MIXEX (TOL, -340.0, 80.0, -210.0, 210.0)
+
+      CALL PGEND ()
+
+      END
+
+
+*-----------------------------------------------------------------------
+      SUBROUTINE MIXEX (TOL, IMIN, IMAX, JMIN, JMAX)
+*-----------------------------------------------------------------------
+*   MIXEX tests WCSMIX.
+*
+*   Given:
+*      TOL      D        Reporting tolerance, degrees.
+*-----------------------------------------------------------------------
+      INTEGER   DOID, ILAT, ILNG, LATIDX, LNGIDX, SPCIDX, STAT, STATUS
+      REAL      IMAX, IMIN, IPT(1), JMAX, JMIN, JPT(1)
+      DOUBLE PRECISION IMG(4), LAT1, LATSPN(2), LNGSPN(2), LNG1, PHI,
+     :          PIX1(4), PIX2(4), PIX3(4), PIXLAT, PIXLNG, THETA, TOL,
+     :          WORLD(4)
+      CHARACTER PCODE*4
+
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary, done here using equivalences.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'wcs.inc'
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INTEGER   CEL(CELLEN), PRJ(PRJLEN), WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY1, DUMMY2, DUMMY3
+      EQUIVALENCE (CEL,DUMMY1), (PRJ,DUMMY2), (WCS,DUMMY3)
+*-----------------------------------------------------------------------
+*     This routine simulates the actions of a FITS header parser.
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+      CALL PARSER (WCS)
+
+
+*     Draw the coordinate graticule.
+      CALL GRDPLT(WCS, IMIN, IMAX, JMIN, JMAX)
+
+
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ(1))
+      STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+      WRITE (*, 10) PCODE, TOL
+ 10   FORMAT ('Testing ',A3,'; reporting tolerance',1PG8.1,' deg.')
+
+      STATUS = WCSGTI (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+      WORLD(1) = 0D0
+      WORLD(2) = 0D0
+      WORLD(3) = 0D0
+      WORLD(4) = 0D0
+      WORLD(SPCIDX) = 2.99792458D8 / 1.42040595D9
+
+      DO 80 ILAT = 90, -90, -1
+        LAT1 = DBLE(ILAT)
+
+        DO 70 ILNG = -180, 180, 15
+          LNG1 = DBLE(ILNG)
+
+          WORLD(LNGIDX) = LNG1
+          WORLD(LATIDX) = LAT1
+          STATUS = WCSS2P (WCS, 1, 4, WORLD(1), PHI, THETA, IMG(1),
+     :                     PIX1(1), STAT)
+          IF (STATUS.NE.0) THEN
+            WRITE (*, 20) PCODE, LNG1, LAT1, STATUS
+ 20         FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+     :         '  ERROR',I3)
+            GO TO 70
+          END IF
+
+          PIXLNG = PIX1(LNGIDX)
+          PIXLAT = PIX1(LATIDX)
+
+          IPT(1) = REAL(PIXLNG)
+          JPT(1) = REAL(PIXLAT)
+          CALL PGPT (1, IPT, JPT, -1)
+
+          LNGSPN(1) = LNG1 - 9.3D0
+          IF (LNGSPN(1).LT.-180D0) LNGSPN(1) = -180D0
+          LNGSPN(2) = LNG1 + 4.1D0
+          IF (LNGSPN(2).GT. 180D0) LNGSPN(2) =  180D0
+          LATSPN(1) = LAT1 - 3.7D0
+          IF (LATSPN(1).LT. -90D0) LATSPN(1) =  -90D0
+          LATSPN(2) = LAT1 + 7.2D0
+          IF (LATSPN(2).GT.  90D0) LATSPN(2) =   90D0
+
+          DOID = 1
+
+          PIX2(LNGIDX) = PIXLNG
+          STATUS = WCSMIX (WCS, LNGIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :       PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  A: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA, IMG(1),
+     :                       PIX3(1), STAT)
+            IF (STATUS.NE.0) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  A: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :              (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :               ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 30) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 30           FORMAT ('  A: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '       (I2) =',F20.15,'     J2  =',F20.15)
+            END IF
+          END IF
+
+          PIX2(LATIDX) = PIXLAT
+          STATUS = WCSMIX (WCS, LATIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  B: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA,
+     :                       IMG(1), PIX3(1), STAT)
+            IF (STATUS.NE.0) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  B: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :              (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :               ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 40) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 40           FORMAT ('  B: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '        I2  =',F20.15,'    (J2) =',F20.15)
+            END IF
+          END IF
+
+          WORLD(LATIDX) = LAT1
+
+          PIX2(LNGIDX) = PIXLNG
+          STATUS = WCSMIX (WCS, LNGIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  C: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA,
+     :                       IMG(1), PIX3(1), STAT)
+            IF (STATUS.NE.0) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  C: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :              (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :               ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 50) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 50           FORMAT ('  C:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '       (I2) =',F20.15,'     J2  =',F20.15)
+            END IF
+          END IF
+
+          PIX2(LATIDX) = PIXLAT
+          STATUS = WCSMIX (WCS, LATIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  D: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA, IMG(1),
+     :                       PIX3(1), STAT)
+            IF (STATUS.NE.0) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  D: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :              (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :               ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 60) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 60           FORMAT ('  D:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '        I2  =',F20.15,'    (J2) =',F20.15)
+            END IF
+          END IF
+
+ 70     CONTINUE
+ 80   CONTINUE
+
+      STATUS = WCSFREE (WCS)
+
+      RETURN
+      END
+
+
+*-----------------------------------------------------------------------
+      SUBROUTINE ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+*-----------------------------------------------------------------------
+      INTEGER   DOID, STATUS
+      REAL      IPT(1), JPT(1)
+      DOUBLE PRECISION EULER(5), LNG1, LAT1, PHI, PIXLAT, PIXLNG, THETA
+      CHARACTER PCODE*4
+
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  The others are aligned here using
+*     equivalences.  Failure to do this may result in mysterious "bus
+*     errors".
+      INCLUDE 'wcs.inc'
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INTEGER   CEL(CELLEN), PRJ(PRJLEN), WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY1, DUMMY2
+      EQUIVALENCE (CEL,DUMMY1), (PRJ,DUMMY2)
+*-----------------------------------------------------------------------
+      IF (DOID.NE.0) THEN
+*       Compute native coordinates.
+        STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+        STATUS = CELGTD (CEL, CEL_EULER, EULER)
+        CALL SPHS2X (EULER, 1, 1, 1, 1, LNG1, LAT1, PHI, THETA)
+
+        STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+        STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+        WRITE (*, 10) PCODE, LNG1, LAT1, PHI, THETA, PIXLNG, PIXLAT
+ 10     FORMAT (/,A3,':  LNG1  =',F20.15,'   LAT1  =',F20.15,/,
+     :            '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :            '        I1  =',F20.15,'     J1  =',F20.15)
+        DOID = 0
+
+        CALL PGSCI (9)
+        IPT(1) = REAL(PIXLNG)
+        JPT(1) = REAL(PIXLAT)
+        CALL PGPT (1, IPT, JPT, 21)
+        CALL PGSCI (2)
+      END IF
+
+      RETURN
+      END
+
+
+*-----------------------------------------------------------------------
+      SUBROUTINE GRDPLT (WCS, IMIN, IMAX, JMIN, JMAX)
+*-----------------------------------------------------------------------
+*     Number of axes.
+      INTEGER   N, NELEM
+      PARAMETER (N = 4, NELEM = 9)
+
+      LOGICAL   CUBIC
+      INTEGER   CATEG, CI, ILAT, ILNG, J, K, LATIDX, LNGIDX, SPCIDX,
+     :          STAT(0:360), STATUS
+      REAL      IMAX, IMIN, JMAX, JMIN, IR(0:1023), JR(0:1023)
+      DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT, LNG, PHI(0:360),
+     :          PIX(NELEM,0:360), REF(4), STEP, THETA(0:360), W(10),
+     :          WORLD(NELEM,0:360)
+      CHARACTER PCODE*4, TEXT*80
+
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  The others are aligned here using
+*     equivalences.  Failure to do this may result in mysterious "bus
+*     errors".
+      INCLUDE 'wcs.inc'
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INCLUDE 'lin.inc'
+      INTEGER   CEL(CELLEN), LIN(LINLEN), PRJ(PRJLEN), WCS(WCSLEN)
+      INTEGER   NATIVE(WCSLEN)
+      DOUBLE PRECISION DUMMY1, DUMMY2, DUMMY3, DUMMY4
+      EQUIVALENCE (CEL,DUMMY1), (LIN,DUMMY2), (PRJ,DUMMY3),
+     :          (NATIVE,DUMMY4)
+*-----------------------------------------------------------------------
+*     Initialize non-celestial world coordinates.
+      STATUS = WCSGTI (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+
+      FREQ = 1.42040595D9 - 180D0 * 62500D0
+      DO 10 J = 0, 360
+        WORLD(1,J) = 0D0
+        WORLD(2,J) = 0D0
+        WORLD(3,J) = 0D0
+        WORLD(4,J) = 0D0
+
+        WORLD(SPCIDX,J) = 2.99792458D8 / FREQ
+        FREQ = FREQ + 62500D0
+ 10   CONTINUE
+
+
+*     Define PGPLOT viewport.
+      CALL PGENV (IMIN, IMAX, JMIN, JMAX, 1, -2)
+
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGTI (PRJ, PRJ_CATEGORY, CATEG)
+      CUBIC = CATEG.EQ.7
+      IF (CUBIC) THEN
+*       Some sort of quad-cube projection.
+        CALL PGSCI (8)
+
+*       Draw the map boundary.
+        DO 20 J = 0, 8
+          IMG(1,J) = 0D0
+          IMG(2,J) = 0D0
+          IMG(3,J) = 0D0
+          IMG(4,J) = 0D0
+ 20     CONTINUE
+
+        STATUS = PRJGTD (PRJ, PRJ_W, W)
+        IMG(LNGIDX,0) = -W(1)
+        IMG(LATIDX,0) =  W(1)
+        IMG(LNGIDX,1) = -W(1)
+        IMG(LATIDX,1) =  W(1)*3D0
+        IMG(LNGIDX,2) =  W(1)
+        IMG(LATIDX,2) =  W(1)*3D0
+        IMG(LNGIDX,3) =  W(1)
+        IMG(LATIDX,3) = -W(1)*3D0
+        IMG(LNGIDX,4) = -W(1)
+        IMG(LATIDX,4) = -W(1)*3D0
+        IMG(LNGIDX,5) = -W(1)
+        IMG(LATIDX,5) =  W(1)
+        IMG(LNGIDX,6) =  W(1)*7D0
+        IMG(LATIDX,6) =  W(1)
+        IMG(LNGIDX,7) =  W(1)*7D0
+        IMG(LATIDX,7) = -W(1)
+        IMG(LNGIDX,8) = -W(1)
+        IMG(LATIDX,8) = -W(1)
+
+        STATUS = WCSGTI (WCS, WCS_LIN, LIN(1))
+        STATUS = LINX2P (LIN, 9, NELEM, IMG, PIX)
+
+        DO 30 J = 0, 8
+          IR(J) = REAL(PIX(LNGIDX,J))
+          JR(J) = REAL(PIX(LATIDX,J))
+ 30     CONTINUE
+
+        CALL PGLINE (9, IR, JR)
+      END IF
+
+      IF (CATEG.EQ.6) THEN
+*       Polyconic.
+        STEP = 10D0
+      ELSE
+        STEP = 15D0
+      END IF
+
+
+*     Draw the native coordinate graticule faintly in the background.
+      STATUS = WCSPTI (NATIVE, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSCOPY (WCS, NATIVE)
+      STATUS = WCSPTD (NATIVE, WCS_CRVAL,     0D0, LNGIDX, 0)
+      STATUS = WCSPTD (NATIVE, WCS_CRVAL,    90D0, LATIDX, 0)
+      STATUS = WCSPTD (NATIVE, WCS_LONPOLE, 180D0, 0, 0)
+      STATUS = WCSSET (NATIVE)
+
+      CALL PGSCI (8)
+
+*     Draw native meridians of longitude.
+      DO 60 ILNG = -180, 180, 15
+        LNG = DBLE(ILNG)
+        IF (ILNG.EQ.-180) LNG = -179.99D0
+        IF (ILNG.EQ.+180) LNG = +179.99D0
+
+        J = 0
+        DO 40 ILAT = -90, 90
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = DBLE(ILAT)
+          J = J + 1
+ 40     CONTINUE
+
+        STATUS = WCSS2P (NATIVE, 181, NELEM, WORLD(1,0),
+     :                   PHI(0), THETA(0), IMG(1,0), PIX(1,0), STAT(0))
+        IF (STATUS.NE.0) GO TO 60
+
+        J = 0
+        K = 0
+        DO 50 ILAT = -90, 90
+          IF (CUBIC .AND. K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+            END IF
+          END IF
+
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+          J = J + 1
+          K = K + 1
+ 50     CONTINUE
+
+        CALL PGLINE (K, IR, JR)
+ 60   CONTINUE
+
+*     Draw native parallels of latitude.
+      DO 90 ILAT = -90, 90, 15
+        LAT = DBLE(ILAT)
+
+        J = 0
+        DO 70 ILNG = -180, 180
+          LNG = DBLE(ILNG)
+          IF (ILNG.EQ.-180) LNG = -179.99D0
+          IF (ILNG.EQ.+180) LNG = +179.99D0
+
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 70     CONTINUE
+
+        STATUS = WCSS2P (NATIVE, 361, NELEM, WORLD(1,0),
+     :                   PHI(0), THETA(0), IMG(1,0), PIX(1,0), STAT(0))
+        IF (STATUS.NE.0) GO TO 90
+
+        J = 0
+        K = 0
+        DO 80 ILNG = -180, 180
+          IF (CUBIC .AND. K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+            END IF
+          END IF
+
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+          J = J + 1
+          K = K + 1
+ 80     CONTINUE
+
+        CALL PGLINE (K, IR, JR)
+ 90   CONTINUE
+
+      STATUS = WCSFREE (NATIVE)
+
+
+*     Draw a colour-coded celestial coordinate graticule.
+      CI = 1
+
+*     Draw celestial meridians of longitude.
+      DO 120 ILNG = -180, 180, 15
+        LNG = DBLE(ILNG)
+
+        CI = CI + 1
+        IF (CI.GT.7) CI = 2
+        IF (ILNG.NE.0) THEN
+          CALL PGSCI (CI)
+        ELSE
+          CALL PGSCI (1)
+        END IF
+
+        J = 0
+        DO 100 ILAT = -90, 90
+          LAT = DBLE(ILAT)
+
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 100    CONTINUE
+
+        STATUS = WCSS2P (WCS, 181, NELEM, WORLD(1,0), PHI(0), THETA(0),
+     :                   IMG(1,0), PIX(1,0), STAT(0))
+        IF (STATUS.NE.0) GO TO 120
+
+        J = 0
+        K = 0
+        DO 110 ILAT = -90, 90
+*         Test for discontinuities.
+          IF (K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+            END IF
+          END IF
+
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+          J = J + 1
+          K = K + 1
+ 110    CONTINUE
+
+        CALL PGLINE (K, IR, JR)
+ 120  CONTINUE
+
+*     Draw celestial parallels of latitude.
+      CI = 1
+      DO 150 ILAT = -90, 90, 15
+        LAT = DBLE(ILAT)
+
+        CI = CI + 1
+        IF (CI.GT.7) CI = 2
+        IF (ILAT.NE.0) THEN
+          CALL PGSCI (CI)
+        ELSE
+          CALL PGSCI (1)
+        END IF
+
+        J = 0
+        DO 130 ILNG = -180, 180
+          WORLD(LNGIDX,J) = DBLE(ILNG)
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 130    CONTINUE
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD(1,0), PHI(0), THETA(0),
+     :                   IMG(1,0), PIX(1,0), STAT(0))
+        IF (STATUS.NE.0) GO TO 150
+
+        J = 0
+        K = 0
+        DO 140 ILNG = -180, 180
+*         Test for discontinuities.
+          IF (K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+            END IF
+          END IF
+
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+          J = J + 1
+          K = K + 1
+ 140    CONTINUE
+
+        CALL PGLINE (K, IR, JR)
+ 150  CONTINUE
+
+
+*     Write a descriptive title.
+      CALL PGSCI (1)
+      STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+      TEXT = PCODE // 'projection - 15 degree graticule'
+      WRITE (*, '(//,A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-10.0, TEXT)
+
+      STATUS = CELGTD (CEL, CEL_REF, REF)
+      WRITE (TEXT, 160) REF(1), REF(2)
+ 160  FORMAT ('centered on celestial coordinates (',F6.2,',',F6.2,')')
+      WRITE (*, '(A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-20.0, TEXT)
+
+      WRITE (TEXT, 170) REF(3), REF(4)
+ 170  FORMAT ('with celestial pole at native coordinates (',F7.2,
+     :   ',',F7.2,')')
+      WRITE (*, '(A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-30.0, TEXT)
+
+      CALL PGSCI (2)
+
+
+      RETURN
+      END
+
+
+*-----------------------------------------------------------------------
+      SUBROUTINE PARSER (WCS)
+*-----------------------------------------------------------------------
+* In practice a parser would read the FITS header until it encountered
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+*
+* In this simulation the header keyvalues are set in the main program in
+* variables passed in COMMON.
+*-----------------------------------------------------------------------
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 4)
+
+      INTEGER   I, J, K, NAXIS, NPV, PVI(4), PVM(4), STATUS, WCS(*)
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), LATPOLE, LONPOLE,
+     :          PC(N,N), PV(4), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72
+
+      INCLUDE 'wcs.inc'
+
+      COMMON /HEADER/ NAXIS, NPV, CRPIX, PC, CDELT, CRVAL, LONPOLE,
+     :                LATPOLE, RESTFRQ, RESTWAV, PVI, PVM, PV
+      COMMON /HEADCH/ CTYPE
+*-----------------------------------------------------------------------
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSINI (NAXIS, WCS)
+
+      DO 20 I = 1, NAXIS
+        STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+
+        DO 10 J = 1, NAXIS
+          STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+ 10     CONTINUE
+
+        STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+ 20   CONTINUE
+
+      STATUS = WCSPTD (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+
+      DO 30 K = 1, NPV
+        STATUS = WCSPTD (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+ 30   CONTINUE
+
+*     Extract information from the FITS header.
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSSET ERROR',I3)
+      END IF
+
+      RETURN
+      END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.5 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2025, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcsmix.f,v 8.4.1.2 2025/12/06 13:37:19 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2026, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcsmix.f,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2025, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.13 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.7 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.6.1.2 2021/07/02 06:55:30 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d241 2
+a242 2
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+d264 2
+a265 2
+          STATUS = WCSS2P (WCS, 1, 4, WORLD, PHI, THETA, IMG, PIX1,
+     :                     STAT)
+d298 2
+a299 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d322 2
+a323 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d348 2
+a349 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d372 2
+a373 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d420 1
+a420 1
+        STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+d494 1
+a494 1
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+d530 1
+a530 1
+        STATUS = WCSGTI (WCS, WCS_LIN, LIN)
+d572 2
+a573 2
+        STATUS = WCSS2P (NATIVE, 181, NELEM, WORLD, PHI, THETA, IMG,
+     :                   PIX, STAT)
+d611 2
+a612 2
+        STATUS = WCSS2P (NATIVE, 361, NELEM, WORLD, PHI, THETA, IMG,
+     :                   PIX, STAT)
+d662 2
+a663 2
+        STATUS = WCSS2P (WCS, 181, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                   STAT)
+d707 2
+a708 2
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                   STAT)
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@gfortran 11.1.0 now compares the argument list in all calls to the same
+subroutine or function that occur anywhere in a source file.  A compilation
+error results if any arguments do not match in rank (scalar, vector, array,
+etc.).  The error can be downgraded to a warning with -std=legacy, but such
+warnings can only be suppressed by inhibiting ALL warnings.  This annoying
+behaviour makes it necessary for the subroutine or function calls to match,
+or at least appear so.  This affected several calls to WCSGTI, CELGTI, and
+WCSS2P.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d241 2
+a242 2
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ(1))
+d264 2
+a265 2
+          STATUS = WCSS2P (WCS, 1, 4, WORLD(1), PHI, THETA, IMG(1),
+     :                     PIX1(1), STAT)
+d298 2
+a299 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA, IMG(1),
+     :                       PIX3(1), STAT)
+d322 2
+a323 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA,
+     :                       IMG(1), PIX3(1), STAT)
+d348 2
+a349 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA,
+     :                       IMG(1), PIX3(1), STAT)
+d372 2
+a373 2
+            STATUS = WCSS2P (WCS, 1, 0, WORLD(1), PHI, THETA, IMG(1),
+     :                       PIX3(1), STAT)
+d420 1
+a420 1
+        STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+d494 1
+a494 1
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL(1))
+d530 1
+a530 1
+        STATUS = WCSGTI (WCS, WCS_LIN, LIN(1))
+d572 2
+a573 2
+        STATUS = WCSS2P (NATIVE, 181, NELEM, WORLD(1,0),
+     :                   PHI(0), THETA(0), IMG(1,0), PIX(1,0), STAT(0))
+d611 2
+a612 2
+        STATUS = WCSS2P (NATIVE, 361, NELEM, WORLD(1,0),
+     :                   PHI(0), THETA(0), IMG(1,0), PIX(1,0), STAT(0))
+d662 2
+a663 2
+        STATUS = WCSS2P (WCS, 181, NELEM, WORLD(1,0), PHI(0), THETA(0),
+     :                   IMG(1,0), PIX(1,0), STAT(0))
+d707 2
+a708 2
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD(1,0), PHI(0), THETA(0),
+     :                   IMG(1,0), PIX(1,0), STAT(0))
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.3.1.3 2021/01/28 12:32:09 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsmix.f,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.3 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
+a20 2
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+*
+d23 1
+a23 1
+* $Id: twcsmix.f,v 7.2.1.2 2020/05/07 04:02:41 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d21 2
+d25 1
+a25 1
+* $Id: twcsmix.f,v 7.3.1.2 2021/01/19 14:11:08 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d235 1
+a235 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+d243 3
+a245 3
+      STATUS = WCSGET (WCS, WCS_CEL, CEL)
+      STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+d249 3
+a251 3
+      STATUS = WCSGET (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGET (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGET (WCS, WCS_SPEC, SPCIDX)
+d422 2
+a423 2
+        STATUS = WCSGET (WCS, WCS_CEL, CEL)
+        STATUS = CELGET (CEL, CEL_EULER, EULER)
+d426 2
+a427 2
+        STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+        STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+d477 3
+a479 3
+      STATUS = WCSGET (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGET (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGET (WCS, WCS_SPEC, SPCIDX)
+d496 3
+a498 3
+      STATUS = WCSGET (WCS, WCS_CEL, CEL)
+      STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGET (PRJ, PRJ_CATEGORY, CATEG)
+d512 1
+a512 1
+        STATUS = PRJGET (PRJ, PRJ_W, W)
+d532 1
+a532 1
+        STATUS = WCSGET (WCS, WCS_LIN, LIN)
+d552 1
+a552 1
+      STATUS = WCSPUT (NATIVE, WCS_FLAG, -1, 0, 0)
+d554 3
+a556 3
+      STATUS = WCSPUT (NATIVE, WCS_CRVAL,     0D0, LNGIDX, 0)
+      STATUS = WCSPUT (NATIVE, WCS_CRVAL,    90D0, LATIDX, 0)
+      STATUS = WCSPUT (NATIVE, WCS_LONPOLE, 180D0, 0, 0)
+d737 1
+a737 1
+      STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+d742 1
+a742 1
+      STATUS = CELGET (CEL, CEL_REF, REF)
+d787 1
+a787 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+d791 1
+a791 1
+        STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d794 1
+a794 1
+          STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+d797 3
+a799 3
+        STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d802 2
+a803 2
+      STATUS = WCSPUT (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+d805 2
+a806 2
+      STATUS = WCSPUT (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d809 1
+a809 1
+        STATUS = WCSPUT (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.2.1.2
+log
+@Replaced calls to PRJGET, CELGET, WCSPUT, and WCSGET with their type-
+specific equivalents.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d235 1
+a235 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+d243 3
+a245 3
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+d249 3
+a251 3
+      STATUS = WCSGTI (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+d422 2
+a423 2
+        STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+        STATUS = CELGTD (CEL, CEL_EULER, EULER)
+d426 2
+a427 2
+        STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+        STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+d477 3
+a479 3
+      STATUS = WCSGTI (WCS, WCS_LNG, LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT, LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+d496 3
+a498 3
+      STATUS = WCSGTI (WCS, WCS_CEL, CEL)
+      STATUS = CELGTI (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGTI (PRJ, PRJ_CATEGORY, CATEG)
+d512 1
+a512 1
+        STATUS = PRJGTD (PRJ, PRJ_W, W)
+d532 1
+a532 1
+        STATUS = WCSGTI (WCS, WCS_LIN, LIN)
+d552 1
+a552 1
+      STATUS = WCSPTI (NATIVE, WCS_FLAG, -1, 0, 0)
+d554 3
+a556 3
+      STATUS = WCSPTD (NATIVE, WCS_CRVAL,     0D0, LNGIDX, 0)
+      STATUS = WCSPTD (NATIVE, WCS_CRVAL,    90D0, LATIDX, 0)
+      STATUS = WCSPTD (NATIVE, WCS_LONPOLE, 180D0, 0, 0)
+d737 1
+a737 1
+      STATUS = PRJGTC (PRJ, PRJ_CODE, PCODE)
+d742 1
+a742 1
+      STATUS = CELGTD (CEL, CEL_REF, REF)
+d787 1
+a787 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+d791 1
+a791 1
+        STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d794 1
+a794 1
+          STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+d797 3
+a799 3
+        STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d802 2
+a803 2
+      STATUS = WCSPTD (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+d805 2
+a806 2
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d809 1
+a809 1
+        STATUS = WCSPTD (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.4.1.3 2019/12/31 03:29:14 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d222 1
+a222 1
+      CHARACTER PCODE*3
+d247 1
+a247 1
+ 10   FORMAT ('Testing ',A,'; reporting tolerance',1PG8.1,' deg.')
+d406 1
+a406 1
+      CHARACTER PCODE*3
+d459 1
+a459 1
+      CHARACTER PCODE*3, TEXT*80
+d738 1
+a738 1
+      TEXT = PCODE // ' projection - 15 degree graticule'
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@In MIXEX, ID, and GRDPLT, a CHARACTER variable of length 4 (PCODE) is
+required for PRJ_CODE from PRJGET.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d222 1
+a222 1
+      CHARACTER PCODE*4
+d247 1
+a247 1
+ 10   FORMAT ('Testing ',A3,'; reporting tolerance',1PG8.1,' deg.')
+d406 1
+a406 1
+      CHARACTER PCODE*4
+d459 1
+a459 1
+      CHARACTER PCODE*4, TEXT*80
+d738 1
+a738 1
+      TEXT = PCODE // 'projection - 15 degree graticule'
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.4.1.2 2019/12/31 02:59:36 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.2.1.2 2019/05/10 02:08:35 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.17.1.2 2018/01/10 08:26:53 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.17 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.15.1.2 2017/01/15 04:08:23 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.15 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.12.1.2 2016/01/25 05:21:36 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.12 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.25.1.2 2015/01/06 01:02:37 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.25 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.20.1.2 2014/03/21 06:41:05 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.20 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.17.1.2 2013/07/12 04:12:36 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.16.1.2 2013/01/29 05:11:18 cal103 Exp cal103 $
+d278 2
+a279 2
+          IPT(1) = PIXLNG
+          JPT(1) = PIXLAT
+d435 2
+a436 2
+        IPT(1) = PIXLNG
+        JPT(1) = PIXLAT
+d536 2
+a537 2
+          IR(J) = PIX(LNGIDX,J)
+          JR(J) = PIX(LATIDX,J)
+d589 2
+a590 2
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+d628 2
+a629 2
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+d680 2
+a681 2
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+d725 2
+a726 2
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Fixed inconsequential warnings from gfortran 4.7.2 relating to implicit
+type conversions.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d278 2
+a279 2
+          IPT(1) = REAL(PIXLNG)
+          JPT(1) = REAL(PIXLAT)
+d435 2
+a436 2
+        IPT(1) = REAL(PIXLNG)
+        JPT(1) = REAL(PIXLAT)
+d536 2
+a537 2
+          IR(J) = REAL(PIX(LNGIDX,J))
+          JR(J) = REAL(PIX(LATIDX,J))
+d589 2
+a590 2
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+d628 2
+a629 2
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+d680 2
+a681 2
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+d725 2
+a726 2
+          IR(K) = REAL(PIX(LNGIDX,J))
+          JR(K) = REAL(PIX(LATIDX,J))
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.16 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.14.1.1 2012/07/13 10:04:58 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsmix.f,v 4.13.1.2 2012/07/13 03:41:54 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsmix.f,v 4.14 2012/07/13 10:02:42 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d21 1
+a21 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d23 3
+a25 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcsmix.f,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d21 7
+a27 1
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcsmix.f,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.8.1.3 2012/01/24 05:24:12 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.8 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d230 3
+d414 5
+d467 5
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added a comment in the code reinforcing the necessity for INTEGER arrays
+holding structs to be aligned on a DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a229 3
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary, done here using equivalences.
+*     Failure to do this may result in mysterious "bus errors".
+a410 5
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  The others are aligned here using
+*     equivalences.  Failure to do this may result in mysterious "bus
+*     errors".
+a458 5
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  The others are aligned here using
+*     equivalences.  Failure to do this may result in mysterious "bus
+*     errors".
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.8.1.2 2011/08/16 01:34:41 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.6.1.3 2011/01/27 03:10:22 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.6 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d234 2
+d415 2
+d465 3
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Use EQUIVALENCEs to ensure that the CEL, LIN, PRJ, and WCS arrays are
+aligned on a DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.6.1.2 2011/01/14 06:34:16 cal103 Exp cal103 $
+a233 2
+      DOUBLE PRECISION DUMMY1, DUMMY2, DUMMY3
+      EQUIVALENCE (CEL,DUMMY1), (PRJ,DUMMY2), (WCS,DUMMY3)
+a412 2
+      DOUBLE PRECISION DUMMY1, DUMMY2
+      EQUIVALENCE (CEL,DUMMY1), (PRJ,DUMMY2)
+a460 3
+      DOUBLE PRECISION DUMMY1, DUMMY2, DUMMY3, DUMMY4
+      EQUIVALENCE (CEL,DUMMY1), (LIN,DUMMY2), (PRJ,DUMMY3),
+     :          (NATIVE,DUMMY4)
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.4.1.2 2010/01/19 03:44:57 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.3.1.3 2009/08/06 02:50:21 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.4 2009/08/06 07:52:43 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsmix.f,v 4.4.1.1 2009/08/10 08:55:07 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+*   This file is part of WCSLIB.
+d8 4
+a11 4
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 4
+a16 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d18 2
+a19 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+d29 3
+a31 3
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: twcsmix.f,v 4.2.1.3 2007/12/03 05:37:50 cal103 Exp cal103 $
+d37 4
+a40 4
+*   TWCS2 tests WCSMIX for closure on the 1 degree celestial graticule
+*   for a number of selected projections.  Points with good solutions
+*   are marked with a white dot on a graphical display of the projection
+*   while bad solutions are flagged with a red circle.
+d260 1
+a260 1
+         LAT1 = DBLE(ILAT)
+d262 2
+a263 2
+         DO 70 ILNG = -180, 180, 15
+            LNG1 = DBLE(ILNG)
+d265 37
+a301 3
+            WORLD(LNGIDX) = LNG1
+            WORLD(LATIDX) = LAT1
+            STATUS = WCSS2P (WCS, 1, 4, WORLD, PHI, THETA, IMG, PIX1,
+d304 11
+a314 4
+               WRITE (*, 20) PCODE, LNG1, LAT1, STATUS
+ 20            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+     :            '  ERROR',I3)
+               GO TO 70
+d316 1
+d318 9
+a326 21
+            PIXLNG = PIX1(LNGIDX)
+            PIXLAT = PIX1(LATIDX)
+
+            IPT(1) = PIXLNG
+            JPT(1) = PIXLAT
+            CALL PGPT (1, IPT, JPT, -1)
+
+            LNGSPN(1) = LNG1 - 9.3D0
+            IF (LNGSPN(1).LT.-180D0) LNGSPN(1) = -180D0
+            LNGSPN(2) = LNG1 + 4.1D0
+            IF (LNGSPN(2).GT. 180D0) LNGSPN(2) =  180D0
+            LATSPN(1) = LAT1 - 3.7D0
+            IF (LATSPN(1).LT. -90D0) LATSPN(1) =  -90D0
+            LATSPN(2) = LAT1 + 7.2D0
+            IF (LATSPN(2).GT.  90D0) LATSPN(2) =   90D0
+
+            DOID = 1
+
+            PIX2(LNGIDX) = PIXLNG
+            STATUS = WCSMIX (WCS, LNGIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :         PHI, THETA, IMG, PIX2)
+d328 11
+a338 18
+               CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (*, '(A,I2)') '  A: WCSMIX ERROR', STATUS
+            ELSE
+               STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                          STAT)
+               IF (STATUS.NE.0) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, '(A,I2)') '  A: WCSS2P ERROR', STATUS
+               ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :                 (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :                  ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, 30) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                          THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 30               FORMAT ('  A: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                    '       (I2) =',F20.15,'     J2  =',F20.15)
+               END IF
+d340 1
+d342 1
+a342 23
+            PIX2(LATIDX) = PIXLAT
+            STATUS = WCSMIX (WCS, LATIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :         PHI, THETA, IMG, PIX2)
+            IF (STATUS.NE.0) THEN
+               CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (*, '(A,I2)') '  B: WCSMIX ERROR', STATUS
+            ELSE
+               STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                          STAT)
+               IF (STATUS.NE.0) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, '(A,I2)') '  B: WCSS2P ERROR', STATUS
+               ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :                 (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :                  ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, 40) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                          THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 40               FORMAT ('  B: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                    '        I2  =',F20.15,'    (J2) =',F20.15)
+               END IF
+            END IF
+d344 9
+a352 5
+            WORLD(LATIDX) = LAT1
+
+            PIX2(LNGIDX) = PIXLNG
+            STATUS = WCSMIX (WCS, LNGIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :         PHI, THETA, IMG, PIX2)
+d354 11
+a364 18
+               CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (*, '(A,I2)') '  C: WCSMIX ERROR', STATUS
+            ELSE
+               STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                          STAT)
+               IF (STATUS.NE.0) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, '(A,I2)') '  C: WCSS2P ERROR', STATUS
+               ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :                 (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :                  ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, 50) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                          THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 50               FORMAT ('  C:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                    '       (I2) =',F20.15,'     J2  =',F20.15)
+               END IF
+d366 1
+d368 9
+a376 3
+            PIX2(LATIDX) = PIXLAT
+            STATUS = WCSMIX (WCS, LATIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :         PHI, THETA, IMG, PIX2)
+d378 11
+a388 18
+               CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (*, '(A,I2)') '  D: WCSMIX ERROR', STATUS
+            ELSE
+               STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                          STAT)
+               IF (STATUS.NE.0) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, '(A,I2)') '  D: WCSS2P ERROR', STATUS
+               ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :                 (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :                  ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+                  CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (*, 60) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                          THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 60               FORMAT ('  D:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                    '        I2  =',F20.15,'    (J2) =',F20.15)
+               END IF
+d390 1
+d392 1
+a392 1
+ 70      CONTINUE
+d415 18
+a432 18
+*        Compute native coordinates.
+         STATUS = WCSGET (WCS, WCS_CEL, CEL)
+         STATUS = CELGET (CEL, CEL_EULER, EULER)
+         CALL SPHS2X (EULER, 1, 1, 1, 1, LNG1, LAT1, PHI, THETA)
+
+         STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+         STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+         WRITE (*, 10) PCODE, LNG1, LAT1, PHI, THETA, PIXLNG, PIXLAT
+ 10      FORMAT (/,A3,':  LNG1  =',F20.15,'   LAT1  =',F20.15,/,
+     :             '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :             '        I1  =',F20.15,'     J1  =',F20.15)
+         DOID = 0
+
+         CALL PGSCI (9)
+         IPT(1) = PIXLNG
+         JPT(1) = PIXLAT
+         CALL PGPT (1, IPT, JPT, 21)
+         CALL PGSCI (2)
+d469 4
+a472 4
+         WORLD(1,J) = 0D0
+         WORLD(2,J) = 0D0
+         WORLD(3,J) = 0D0
+         WORLD(4,J) = 0D0
+d474 2
+a475 2
+         WORLD(SPCIDX,J) = 2.99792458D8 / FREQ
+         FREQ = FREQ + 62500D0
+d487 2
+a488 2
+*        Some sort of quad-cube projection.
+         CALL PGSCI (8)
+d490 35
+a524 35
+*        Draw the map boundary.
+         DO 20 J = 0, 8
+            IMG(1,J) = 0D0
+            IMG(2,J) = 0D0
+            IMG(3,J) = 0D0
+            IMG(4,J) = 0D0
+ 20      CONTINUE
+
+         STATUS = PRJGET (PRJ, PRJ_W, W)
+         IMG(LNGIDX,0) = -W(1)
+         IMG(LATIDX,0) =  W(1)
+         IMG(LNGIDX,1) = -W(1)
+         IMG(LATIDX,1) =  W(1)*3D0
+         IMG(LNGIDX,2) =  W(1)
+         IMG(LATIDX,2) =  W(1)*3D0
+         IMG(LNGIDX,3) =  W(1)
+         IMG(LATIDX,3) = -W(1)*3D0
+         IMG(LNGIDX,4) = -W(1)
+         IMG(LATIDX,4) = -W(1)*3D0
+         IMG(LNGIDX,5) = -W(1)
+         IMG(LATIDX,5) =  W(1)
+         IMG(LNGIDX,6) =  W(1)*7D0
+         IMG(LATIDX,6) =  W(1)
+         IMG(LNGIDX,7) =  W(1)*7D0
+         IMG(LATIDX,7) = -W(1)
+         IMG(LNGIDX,8) = -W(1)
+         IMG(LATIDX,8) = -W(1)
+
+         STATUS = WCSGET (WCS, WCS_LIN, LIN)
+         STATUS = LINX2P (LIN, 9, NELEM, IMG, PIX)
+
+         DO 30 J = 0, 8
+            IR(J) = PIX(LNGIDX,J)
+            JR(J) = PIX(LATIDX,J)
+ 30      CONTINUE
+d526 1
+a526 1
+         CALL PGLINE (9, IR, JR)
+d530 2
+a531 2
+*        Polyconic.
+         STEP = 10D0
+d533 1
+a533 1
+         STEP = 15D0
+d549 23
+a571 24
+         LNG = DBLE(ILNG)
+         IF (ILNG.EQ.-180) LNG = -179.99D0
+         IF (ILNG.EQ.+180) LNG = +179.99D0
+
+         J = 0
+         DO 40 ILAT = -90, 90
+            WORLD(LNGIDX,J) = LNG
+            WORLD(LATIDX,J) = DBLE(ILAT)
+            J = J + 1
+ 40      CONTINUE
+
+         STATUS = WCSS2P (NATIVE, 181, NELEM, WORLD, PHI, THETA, IMG,
+     :                    PIX, STAT)
+         IF (STATUS.NE.0) GO TO 60
+
+         J = 0
+         K = 0
+         DO 50 ILAT = -90, 90
+            IF (CUBIC .AND. K.GT.0) THEN
+               IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :             ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+                  IF (K.GT.1) CALL PGLINE (K, IR, JR)
+                  K = 0
+               END IF
+d573 1
+d575 5
+a579 5
+            IR(K) = PIX(LNGIDX,J)
+            JR(K) = PIX(LATIDX,J)
+            J = J + 1
+            K = K + 1
+ 50      CONTINUE
+d581 1
+a581 1
+         CALL PGLINE (K, IR, JR)
+d586 1
+a586 1
+         LAT = DBLE(ILAT)
+d588 23
+a610 24
+         J = 0
+         DO 70 ILNG = -180, 180
+            LNG = DBLE(ILNG)
+            IF (ILNG.EQ.-180) LNG = -179.99D0
+            IF (ILNG.EQ.+180) LNG = +179.99D0
+
+            WORLD(LNGIDX,J) = LNG
+            WORLD(LATIDX,J) = LAT
+            J = J + 1
+ 70      CONTINUE
+
+         STATUS = WCSS2P (NATIVE, 361, NELEM, WORLD, PHI, THETA, IMG,
+     :                    PIX, STAT)
+         IF (STATUS.NE.0) GO TO 90
+
+         J = 0
+         K = 0
+         DO 80 ILNG = -180, 180
+            IF (CUBIC .AND. K.GT.0) THEN
+               IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :             ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+                  IF (K.GT.1) CALL PGLINE (K, IR, JR)
+                  K = 0
+               END IF
+d612 1
+d614 5
+a618 5
+            IR(K) = PIX(LNGIDX,J)
+            JR(K) = PIX(LATIDX,J)
+            J = J + 1
+            K = K + 1
+ 80      CONTINUE
+d620 1
+a620 1
+         CALL PGLINE (K, IR, JR)
+d631 1
+a631 1
+         LNG = DBLE(ILNG)
+d633 30
+a662 31
+         CI = CI + 1
+         IF (CI.GT.7) CI = 2
+         IF (ILNG.NE.0) THEN
+            CALL PGSCI (CI)
+         ELSE
+            CALL PGSCI (1)
+         END IF
+
+         J = 0
+         DO 100 ILAT = -90, 90
+            LAT = DBLE(ILAT)
+
+            WORLD(LNGIDX,J) = LNG
+            WORLD(LATIDX,J) = LAT
+            J = J + 1
+ 100     CONTINUE
+
+         STATUS = WCSS2P (WCS, 181, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                    STAT)
+         IF (STATUS.NE.0) GO TO 120
+
+         J = 0
+         K = 0
+         DO 110 ILAT = -90, 90
+*           Test for discontinuities.
+            IF (K.GT.0) THEN
+               IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :             ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+                  IF (K.GT.1) CALL PGLINE (K, IR, JR)
+                  K = 0
+               END IF
+d664 1
+d666 5
+a670 5
+            IR(K) = PIX(LNGIDX,J)
+            JR(K) = PIX(LATIDX,J)
+            J = J + 1
+            K = K + 1
+ 110     CONTINUE
+d672 1
+a672 1
+         CALL PGLINE (K, IR, JR)
+d678 1
+a678 1
+         LAT = DBLE(ILAT)
+d680 28
+a707 29
+         CI = CI + 1
+         IF (CI.GT.7) CI = 2
+         IF (ILAT.NE.0) THEN
+            CALL PGSCI (CI)
+         ELSE
+            CALL PGSCI (1)
+         END IF
+
+         J = 0
+         DO 130 ILNG = -180, 180
+            WORLD(LNGIDX,J) = DBLE(ILNG)
+            WORLD(LATIDX,J) = LAT
+            J = J + 1
+ 130     CONTINUE
+
+         STATUS = WCSS2P (WCS, 361, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                    STAT)
+         IF (STATUS.NE.0) GO TO 150
+
+         J = 0
+         K = 0
+         DO 140 ILNG = -180, 180
+*           Test for discontinuities.
+            IF (K.GT.0) THEN
+               IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :             ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+                  IF (K.GT.1) CALL PGLINE (K, IR, JR)
+                  K = 0
+               END IF
+d709 1
+d711 5
+a715 5
+            IR(K) = PIX(LNGIDX,J)
+            JR(K) = PIX(LATIDX,J)
+            J = J + 1
+            K = K + 1
+ 140     CONTINUE
+d717 1
+a717 1
+         CALL PGLINE (K, IR, JR)
+d777 1
+a777 1
+         STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d779 7
+a785 7
+         DO 10 J = 1, NAXIS
+            STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+ 10      CONTINUE
+
+         STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+         STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+         STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d795 1
+a795 1
+         STATUS = WCSPUT (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+d801 2
+a802 2
+         WRITE (*, 40) STATUS
+ 40      FORMAT ('WCSSET ERROR',I3)
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+*   $Id: twcsmix.f,v 4.3 2007/12/27 05:42:52 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+* This file is part of WCSLIB.
+d8 4
+a11 4
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+d13 4
+a16 4
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+d18 2
+a19 2
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcsmix.f,v 4.3.1.1 2007/12/27 13:25:35 cal103 Exp cal103 $
+d37 4
+a40 4
+* TWCS2 tests WCSMIX for closure on the 1 degree celestial graticule for
+* a number of selected projections.  Points with good solutions are
+* marked with a white dot on a graphical display of the projection while
+* bad solutions are flagged with a red circle.
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsmix.f,v 4.3.1.2 2009/07/22 07:28:07 cal103 Exp cal103 $
+d260 1
+a260 1
+        LAT1 = DBLE(ILAT)
+d262 2
+a263 2
+        DO 70 ILNG = -180, 180, 15
+          LNG1 = DBLE(ILNG)
+d265 3
+a267 37
+          WORLD(LNGIDX) = LNG1
+          WORLD(LATIDX) = LAT1
+          STATUS = WCSS2P (WCS, 1, 4, WORLD, PHI, THETA, IMG, PIX1,
+     :                     STAT)
+          IF (STATUS.NE.0) THEN
+            WRITE (*, 20) PCODE, LNG1, LAT1, STATUS
+ 20         FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+     :         '  ERROR',I3)
+            GO TO 70
+          END IF
+
+          PIXLNG = PIX1(LNGIDX)
+          PIXLAT = PIX1(LATIDX)
+
+          IPT(1) = PIXLNG
+          JPT(1) = PIXLAT
+          CALL PGPT (1, IPT, JPT, -1)
+
+          LNGSPN(1) = LNG1 - 9.3D0
+          IF (LNGSPN(1).LT.-180D0) LNGSPN(1) = -180D0
+          LNGSPN(2) = LNG1 + 4.1D0
+          IF (LNGSPN(2).GT. 180D0) LNGSPN(2) =  180D0
+          LATSPN(1) = LAT1 - 3.7D0
+          IF (LATSPN(1).LT. -90D0) LATSPN(1) =  -90D0
+          LATSPN(2) = LAT1 + 7.2D0
+          IF (LATSPN(2).GT.  90D0) LATSPN(2) =   90D0
+
+          DOID = 1
+
+          PIX2(LNGIDX) = PIXLNG
+          STATUS = WCSMIX (WCS, LNGIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :       PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  A: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+d270 4
+a273 11
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  A: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :              (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :               ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 30) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 30           FORMAT ('  A: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '       (I2) =',F20.15,'     J2  =',F20.15)
+a274 1
+          END IF
+d276 45
+a320 9
+          PIX2(LATIDX) = PIXLAT
+          STATUS = WCSMIX (WCS, LATIDX, 1, LATSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  B: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d322 18
+a339 11
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  B: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :              (ABS(WORLD(LATIDX)- LAT1).GT.TOL .OR.
+     :               ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 40) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 40           FORMAT ('  B: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '        I2  =',F20.15,'    (J2) =',F20.15)
+a340 1
+          END IF
+d342 1
+a342 1
+          WORLD(LATIDX) = LAT1
+d344 3
+a346 9
+          PIX2(LNGIDX) = PIXLNG
+          STATUS = WCSMIX (WCS, LNGIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  C: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d348 18
+a365 11
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  C: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LNGIDX)-PIXLNG).GT.TOL .AND.
+     :              (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :               ABS(PIX2(LATIDX)-PIXLAT).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 50) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 50           FORMAT ('  C:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '       (I2) =',F20.15,'     J2  =',F20.15)
+a366 1
+          END IF
+d368 3
+a370 9
+          PIX2(LATIDX) = PIXLAT
+          STATUS = WCSMIX (WCS, LATIDX, 2, LNGSPN, 1D0, 0, WORLD,
+     :                     PHI, THETA, IMG, PIX2)
+          IF (STATUS.NE.0) THEN
+            CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+            WRITE (*, '(A,I2)') '  D: WCSMIX ERROR', STATUS
+          ELSE
+            STATUS = WCSS2P (WCS, 1, 0, WORLD, PHI, THETA, IMG, PIX3,
+     :                       STAT)
+d372 18
+a389 11
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, '(A,I2)') '  D: WCSS2P ERROR', STATUS
+            ELSE IF (ABS(PIX3(LATIDX)-PIXLAT).GT.TOL .AND.
+     :              (ABS(WORLD(LNGIDX)- LNG1).GT.TOL .OR.
+     :               ABS(PIX2(LNGIDX)-PIXLNG).GT.TOL)) THEN
+              CALL ID (WCS, DOID, LNG1, LAT1, PIXLNG, PIXLAT)
+              WRITE (*, 60) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+     :                      THETA, PIX2(LNGIDX), PIX2(LATIDX)
+ 60           FORMAT ('  D:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     :                '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :                '        I2  =',F20.15,'    (J2) =',F20.15)
+a390 1
+          END IF
+d392 1
+a392 1
+ 70     CONTINUE
+d415 18
+a432 18
+*       Compute native coordinates.
+        STATUS = WCSGET (WCS, WCS_CEL, CEL)
+        STATUS = CELGET (CEL, CEL_EULER, EULER)
+        CALL SPHS2X (EULER, 1, 1, 1, 1, LNG1, LAT1, PHI, THETA)
+
+        STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+        STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+        WRITE (*, 10) PCODE, LNG1, LAT1, PHI, THETA, PIXLNG, PIXLAT
+ 10     FORMAT (/,A3,':  LNG1  =',F20.15,'   LAT1  =',F20.15,/,
+     :            '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     :            '        I1  =',F20.15,'     J1  =',F20.15)
+        DOID = 0
+
+        CALL PGSCI (9)
+        IPT(1) = PIXLNG
+        JPT(1) = PIXLAT
+        CALL PGPT (1, IPT, JPT, 21)
+        CALL PGSCI (2)
+d469 4
+a472 4
+        WORLD(1,J) = 0D0
+        WORLD(2,J) = 0D0
+        WORLD(3,J) = 0D0
+        WORLD(4,J) = 0D0
+d474 2
+a475 2
+        WORLD(SPCIDX,J) = 2.99792458D8 / FREQ
+        FREQ = FREQ + 62500D0
+d487 2
+a488 2
+*       Some sort of quad-cube projection.
+        CALL PGSCI (8)
+d490 35
+a524 35
+*       Draw the map boundary.
+        DO 20 J = 0, 8
+          IMG(1,J) = 0D0
+          IMG(2,J) = 0D0
+          IMG(3,J) = 0D0
+          IMG(4,J) = 0D0
+ 20     CONTINUE
+
+        STATUS = PRJGET (PRJ, PRJ_W, W)
+        IMG(LNGIDX,0) = -W(1)
+        IMG(LATIDX,0) =  W(1)
+        IMG(LNGIDX,1) = -W(1)
+        IMG(LATIDX,1) =  W(1)*3D0
+        IMG(LNGIDX,2) =  W(1)
+        IMG(LATIDX,2) =  W(1)*3D0
+        IMG(LNGIDX,3) =  W(1)
+        IMG(LATIDX,3) = -W(1)*3D0
+        IMG(LNGIDX,4) = -W(1)
+        IMG(LATIDX,4) = -W(1)*3D0
+        IMG(LNGIDX,5) = -W(1)
+        IMG(LATIDX,5) =  W(1)
+        IMG(LNGIDX,6) =  W(1)*7D0
+        IMG(LATIDX,6) =  W(1)
+        IMG(LNGIDX,7) =  W(1)*7D0
+        IMG(LATIDX,7) = -W(1)
+        IMG(LNGIDX,8) = -W(1)
+        IMG(LATIDX,8) = -W(1)
+
+        STATUS = WCSGET (WCS, WCS_LIN, LIN)
+        STATUS = LINX2P (LIN, 9, NELEM, IMG, PIX)
+
+        DO 30 J = 0, 8
+          IR(J) = PIX(LNGIDX,J)
+          JR(J) = PIX(LATIDX,J)
+ 30     CONTINUE
+d526 1
+a526 1
+        CALL PGLINE (9, IR, JR)
+d530 2
+a531 2
+*       Polyconic.
+        STEP = 10D0
+d533 1
+a533 1
+        STEP = 15D0
+d549 24
+a572 23
+        LNG = DBLE(ILNG)
+        IF (ILNG.EQ.-180) LNG = -179.99D0
+        IF (ILNG.EQ.+180) LNG = +179.99D0
+
+        J = 0
+        DO 40 ILAT = -90, 90
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = DBLE(ILAT)
+          J = J + 1
+ 40     CONTINUE
+
+        STATUS = WCSS2P (NATIVE, 181, NELEM, WORLD, PHI, THETA, IMG,
+     :                   PIX, STAT)
+        IF (STATUS.NE.0) GO TO 60
+
+        J = 0
+        K = 0
+        DO 50 ILAT = -90, 90
+          IF (CUBIC .AND. K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+a573 1
+          END IF
+d575 5
+a579 5
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+          J = J + 1
+          K = K + 1
+ 50     CONTINUE
+d581 1
+a581 1
+        CALL PGLINE (K, IR, JR)
+d586 1
+a586 1
+        LAT = DBLE(ILAT)
+d588 24
+a611 23
+        J = 0
+        DO 70 ILNG = -180, 180
+          LNG = DBLE(ILNG)
+          IF (ILNG.EQ.-180) LNG = -179.99D0
+          IF (ILNG.EQ.+180) LNG = +179.99D0
+
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 70     CONTINUE
+
+        STATUS = WCSS2P (NATIVE, 361, NELEM, WORLD, PHI, THETA, IMG,
+     :                   PIX, STAT)
+        IF (STATUS.NE.0) GO TO 90
+
+        J = 0
+        K = 0
+        DO 80 ILNG = -180, 180
+          IF (CUBIC .AND. K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.2D0 .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.5D0) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+a612 1
+          END IF
+d614 5
+a618 5
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+          J = J + 1
+          K = K + 1
+ 80     CONTINUE
+d620 1
+a620 1
+        CALL PGLINE (K, IR, JR)
+d631 1
+a631 1
+        LNG = DBLE(ILNG)
+d633 31
+a663 30
+        CI = CI + 1
+        IF (CI.GT.7) CI = 2
+        IF (ILNG.NE.0) THEN
+          CALL PGSCI (CI)
+        ELSE
+          CALL PGSCI (1)
+        END IF
+
+        J = 0
+        DO 100 ILAT = -90, 90
+          LAT = DBLE(ILAT)
+
+          WORLD(LNGIDX,J) = LNG
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 100    CONTINUE
+
+        STATUS = WCSS2P (WCS, 181, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                   STAT)
+        IF (STATUS.NE.0) GO TO 120
+
+        J = 0
+        K = 0
+        DO 110 ILAT = -90, 90
+*         Test for discontinuities.
+          IF (K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+a664 1
+          END IF
+d666 5
+a670 5
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+          J = J + 1
+          K = K + 1
+ 110    CONTINUE
+d672 1
+a672 1
+        CALL PGLINE (K, IR, JR)
+d678 1
+a678 1
+        LAT = DBLE(ILAT)
+d680 29
+a708 28
+        CI = CI + 1
+        IF (CI.GT.7) CI = 2
+        IF (ILAT.NE.0) THEN
+          CALL PGSCI (CI)
+        ELSE
+          CALL PGSCI (1)
+        END IF
+
+        J = 0
+        DO 130 ILNG = -180, 180
+          WORLD(LNGIDX,J) = DBLE(ILNG)
+          WORLD(LATIDX,J) = LAT
+          J = J + 1
+ 130    CONTINUE
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD, PHI, THETA, IMG, PIX,
+     :                   STAT)
+        IF (STATUS.NE.0) GO TO 150
+
+        J = 0
+        K = 0
+        DO 140 ILNG = -180, 180
+*         Test for discontinuities.
+          IF (K.GT.0) THEN
+            IF (ABS(PIX(LNGIDX,J)-IR(K-1)).GT.STEP .OR.
+     :          ABS(PIX(LATIDX,J)-JR(K-1)).GT.STEP) THEN
+              IF (K.GT.1) CALL PGLINE (K, IR, JR)
+              K = 0
+a709 1
+          END IF
+d711 5
+a715 5
+          IR(K) = PIX(LNGIDX,J)
+          JR(K) = PIX(LATIDX,J)
+          J = J + 1
+          K = K + 1
+ 140    CONTINUE
+d717 1
+a717 1
+        CALL PGLINE (K, IR, JR)
+d777 1
+a777 1
+        STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d779 7
+a785 7
+        DO 10 J = 1, NAXIS
+          STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+ 10     CONTINUE
+
+        STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d795 1
+a795 1
+        STATUS = WCSPUT (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+d801 2
+a802 2
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSSET ERROR',I3)
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; removed comment
+on catching IEEE floating point exceptions with the Sun Fortran compiler.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d6 1
+a6 4
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+d8 4
+a11 4
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+d13 7
+a19 3
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d31 1
+a31 1
+*   $Id: twcsmix.f,v 4.1 2005/08/26 05:48:45 cal103 Exp cal103 $
+d78 1
+a78 1
+*     Set PVi_m cards for the longitude axis (I = 4) so that the
+d87 1
+a87 1
+*     PVi_m cards for the latitude axis (I = 2).  Value may be reset
+d751 3
+a753 3
+* the NAXIS card which must occur near the start of the header, before
+* any of the WCS keywords.  It would then use WCSINI to allocate memory
+* for arrays in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcsmix.f,v 4.2 2005/09/21 13:37:53 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Fixed long lines in the GNU copyright notice.
+Replaced use of the obsolete term "card".
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 4
+a9 4
+*   WCSLIB is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with WCSLIB; if not, write to the Free Software Foundation,
+*   Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d30 1
+a30 1
+*   $Id: twcsmix.f,v 4.2.1.1 2005/12/05 01:37:43 cal103 Exp cal103 $
+d77 1
+a77 1
+*     Set PVi_m keyvalues for the longitude axis (I = 4) so that the
+d86 1
+a86 1
+*     PVi_m keyvalues for the latitude axis (I = 2).  Value may be reset
+d750 3
+a752 3
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d6 4
+a9 6
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 2
+a14 2
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d16 3
+a18 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d30 1
+a30 1
+*   $Id: twcsmix.f,v 4.2.1.2 2007/08/02 06:43:42 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: set wcsprm.flag to -1 prior to calling WCSINI in MIXEX, and
+release memory before returning with WCSFREE.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcsmix.f,v 4.0 2005/02/04 12:46:04 cal103 Exp cal103 $
+d92 3
+a94 9
+*     Uncomment the following two lines to raise SIGFPE on floating
+*     point exceptions for the Sun FORTRAN compiler.  This signal can
+*     be caught within 'dbx' by issuing the command "catch FPE".
+*#include <floatingpoint.h>
+*     call ieee_handler ('set', 'common', SIGFPE_ABORT)
+
+      WRITE (*, 5)
+ 5    FORMAT (/,'Testing WCSLIB wcsmix routine',/,
+     :          '-----------------------------')
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcsmix.f,v 3.6 2004/08/25 06:35:34 cal103 Exp cal103 $
+d400 2
+d543 1
+d628 2
+d778 1
+@
+
+
+3.6
+log
+@WCSLIB 3.6: changed "WRITE (6, ...)" to "WRITE (*, ...)" as being standard
+FORTRAN and notionally more portable; in error messages, print "ERROR"
+(in uppercase) - POSIX standard.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with this library; if not, write to the Free Software
+*   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: twcs2.f,v 3.5 2004/06/28 04:52:32 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcs2.f,v 3.4 2004/02/11 00:04:18 mcalabre Exp mcalabre $
+d98 1
+a98 1
+      WRITE (6, 5)
+a116 1
+
+d252 1
+a252 1
+      WRITE (6, 10) PCODE, TOL
+d275 1
+a275 1
+               WRITE (6, 20) PCODE, LNG1, LAT1, STATUS
+d277 1
+a277 1
+     :            '  error',I3)
+d304 1
+a304 1
+               WRITE (6, '(A,I2)') '  A: WCSMIX error', STATUS
+d310 1
+a310 1
+                  WRITE (6, '(A,I2)') '  A: WCSS2P error', STATUS
+d315 1
+a315 1
+                  WRITE (6, 30) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+d328 1
+a328 1
+               WRITE (6, '(A,I2)') '  B: WCSMIX error', STATUS
+d334 1
+a334 1
+                  WRITE (6, '(A,I2)') '  B: WCSS2P error', STATUS
+d339 1
+a339 1
+                  WRITE (6, 40) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+d354 1
+a354 1
+               WRITE (6, '(A,I2)') '  C: WCSMIX error', STATUS
+d360 1
+a360 1
+                  WRITE (6, '(A,I2)') '  C: WCSS2P error', STATUS
+d365 1
+a365 1
+                  WRITE (6, 50) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+d378 1
+a378 1
+               WRITE (6, '(A,I2)') '  D: WCSMIX error', STATUS
+d384 1
+a384 1
+                  WRITE (6, '(A,I2)') '  D: WCSS2P error', STATUS
+d389 1
+a389 1
+                  WRITE (6, 60) WORLD(LNGIDX), WORLD(LATIDX), PHI,
+d425 1
+a425 1
+         WRITE (6, 10) PCODE, LNG1, LAT1, PHI, THETA, PIXLNG, PIXLAT
+d544 1
+a544 1
+      STATUS = WCSPUT (NATIVE, WCS_LONPOLE, 999D0, 0, 0)
+d725 1
+a725 1
+      WRITE (6, '(//,A)') TEXT
+d731 1
+a731 1
+      WRITE (6, '(A)') TEXT
+d737 1
+a737 1
+      WRITE (6, '(A)') TEXT
+d800 2
+a801 2
+         WRITE (6, 40) STATUS
+ 40      FORMAT ('WCSSET error',I3)
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+d32 1
+a40 1
+*   $Id: twcs2.f,v 3.3 2003/10/21 08:36:48 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3: check the error status returned by WCSSET in PARSER.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 3.2 2003/09/09 05:49:32 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: set WCS_FLAG = -1 to initialize memory management in WCSINI;
+renamed WCSCPY to WCSCOPY.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d37 1
+a37 1
+*   $Id: twcs2.f,v 3.1 2003/04/28 04:48:53 mcalabre Exp mcalabre $
+d56 1
+a56 1
+      DATA (CRPIX(I), I=1,N)
+d142 1
+a142 1
+*     CAR: Cartesian.
+d423 1
+a423 2
+         WRITE (6, 10) PRJ_CODE, LNG1, LAT1, PHI, THETA, PIXLNG,
+     :      PIXLAT
+d797 4
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d37 1
+a37 1
+*   $Id: twcs2.f,v 3.0 2003/04/01 05:10:21 mcalabre Exp mcalabre $
+d239 1
+d540 1
+a540 1
+      STATUS = WCSCPY (WCS, NATIVE)
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.15 2002/04/03 01:24:44 mcalabre Exp $
+@
+
+
+2.15
+log
+@Updated date in copyright notice.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+d11 2
+a12 2
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+d14 1
+a14 1
+*   Library General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d32 3
+a34 3
+*   TWCS2 tests WCSMIX for closure on the 1 degree celestial grid for
+*   a number of selected projections.  Points with good solutions are
+*   marked with a white dot on a graphical display of the projection
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.14 2001/09/05 04:34:02 mcalabre Exp mcalabre $
+d39 8
+a46 13
+*     Set maximum number of axes (MAXIS) and number of axes (NAXIS).
+      INTEGER   M, N
+      PARAMETER (M = 10, N = 4)
+
+*     Force alignment.
+      COMMON /DUMMY/ LIN, MAXIS, NAXIS, CRPIX, PC, CDELT, PIXIMG, IMGPIX
+
+      INTEGER   I, IERR, J
+      DOUBLE PRECISION CDELT(M), CRPIX(M), CRVAL(M), CEL0(10), CELC(10),
+     *          CELP(10), IMGPIX(M,M), LATC, LIN, MAXIS, NAXIS,
+     *          NTV0(10), NTVC(10), NTVP(10), PC(M,M), PIXIMG(M,M),
+     *          PRJ(0:20)
+      CHARACTER CTYPE(M)*8
+d51 5
+a55 2
+      DATA (CTYPE(I), I=1,N)
+     *           /'FREQ    ', 'XLAT--xxx', 'TIME    ', 'XLON--xxx'/
+d57 6
+a62 6
+     *           / 0.0D0,  0.0D0,  0.0D0,  0.0D0/
+      DATA ((PC(I,J),I=1,N),J=1,N)
+     *           / 1.1D0,    0D0,    0D0,    0D0,
+     *               0D0,  1.0D0,    0D0,  0.1D0,
+     *               0D0,    0D0,  1.0D0,    0D0,
+     *               0D0,  0.2D0,    0D0,  1.0D0/
+d64 3
+a66 1
+     *           / 1.0D0,  1.0D0,  1.0D0, -1.0D0/
+d68 20
+a87 1
+     *           / 408D6,  0.0D0,   -2D3,  0.0D0/
+d97 1
+a97 1
+     *          '-----------------------------')
+a113 10
+      LIN   = 0D0
+      MAXIS = DBLE(M)
+      NAXIS = DBLE(N)
+
+      DO 10 J = 0, 20
+         PRJ(J) = 0D0
+ 10   CONTINUE
+
+*     Latitude midway between the standard parallels for the conics.
+      LATC = 60D0
+a114 42
+*     Set reference angles for native grids; polar projections...
+      NTVP(1)  =   0D0
+      NTVP(2)  =  90D0
+      NTVP(3)  = 999D0
+      NTVP(4)  = 999D0
+
+*     ...conic projections...
+      NTVC(1)  =   0D0
+      NTVC(2)  =  LATC
+      NTVC(3)  = 999D0
+      NTVC(4)  = 999D0
+
+*     ...cylindrical and conventional projections.
+      NTV0(1)  =   0D0
+      NTV0(2)  =   0D0
+      NTV0(3)  = 999D0
+      NTV0(4)  = 999D0
+
+*     Set reference angles for the celestial grids; polar projections...
+      CELP(1) = 150D0
+      CELP(2) = -30D0
+      CELP(3) = 150D0
+      CELP(4) = 999D0
+
+*     Force CELP to be initialized since we want to use it now.
+      CELP(5) = 0D0
+      CALL CELSET ('ARC', CELP, PRJ, IERR)
+
+*     Compute reference angles for the cylindrical and conic projections
+*     so that they all use the same oblique celestial grid regardless of
+*     the reference point; conic projections...
+      CALL SPHREV (0D0, LATC, CELP(6), CELC(1), CELC(2), IERR)
+      CALL SPHFWD (0D0, 90D0, CELP(6), CELC(3), CELC(4), IERR)
+
+*     ...cylindrical and conventional projections.
+      CALL SPHREV (0D0,  0D0, CELP(6), CEL0(1), CEL0(2), IERR)
+      CALL SPHFWD (0D0, 90D0, CELP(6), CEL0(3), CEL0(4), IERR)
+
+*     Note that we have 6 contexts (NTVP, NTVC, NTV0, CELP, CELC, and
+*     CEL0).  Routines GRDPLT and MIXEX will each force these to be
+*     initialized on every invokation since PCODE will differ each time.
+
+d118 2
+a119 3
+      CALL GRDPLT (1, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTVP,
+     *   CELP, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CELP, PRJ, LIN)
+d124 2
+a125 3
+      CALL GRDPLT (1, -120.0, 120.0, -120.0, 120.0, CTYPE, CRVAL, NTVP,
+     *   CELP, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CELP, PRJ, LIN)
+d130 4
+a133 5
+      PRJ(1) = 3D0
+      PRJ(2) = 0.8D0
+      CALL GRDPLT (2, -170.0, 170.0, -170.0, 170.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d138 3
+a140 4
+      PRJ(1) = 0.75D0
+      CALL GRDPLT (2, -200.0, 200.0, -200.0, 200.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d145 2
+a146 3
+      CALL GRDPLT (2, -210.0, 210.0, -210.0, 210.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d151 2
+a152 3
+      CALL GRDPLT (4, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d157 2
+a158 3
+      CALL GRDPLT (4, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d163 2
+a164 3
+      CALL GRDPLT (4, -170.0, 170.0, -170.0, 170.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d169 2
+a170 3
+      CALL GRDPLT (4, -170.0, 170.0, -170.0, 170.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d175 4
+a178 5
+      PRJ(1) = LATC
+      PRJ(2) = 15D0
+      CALL GRDPLT (3, -140.0, 140.0, -120.0, 160.0, CTYPE, CRVAL, NTVC,
+     *   CELC, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CELC, PRJ, LIN)
+d183 4
+a186 5
+      PRJ(1) = LATC
+      PRJ(2) = 15D0
+      CALL GRDPLT (3, -200.0, 200.0, -180.0, 220.0, CTYPE, CRVAL, NTVC,
+     *   CELC, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CELC, PRJ, LIN)
+d191 3
+a193 4
+      PRJ(1) = 30D0
+      CALL GRDPLT (4, -160.0, 160.0, -160.0, 160.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d198 2
+a199 3
+      CALL GRDPLT (4, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d204 2
+a205 3
+      CALL GRDPLT (5, -340.0, 80.0, -210.0, 210.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d210 2
+a211 3
+      CALL GRDPLT (5, -340.0, 80.0, -210.0, 210.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d219 223
+a441 2
+      SUBROUTINE GRDPLT (TYPE, IMIN, IMAX, JMIN, JMAX, CTYPE, CRVAL,
+     *   NATIVE, CELEST, PRJ, LIN)
+d443 35
+a477 12
+      INTEGER   CI, IERR, ILAT, ILNG, K, TYPE, WCS(0:3)
+      REAL      IMAX, IMIN, JMAX, JMIN, IR(512), JR(512)
+      DOUBLE PRECISION CELEST(10), CRVAL(*), IMG(4), NATIVE(10), LAT,
+     *          LIN(*), LNG, PHI, PIX(4), PRJ(0:20), STEP, THETA,
+     *          WORLD(4)
+      CHARACTER CTYPE(*)*8, PCODE*3, TEXT*80
+*-----------------------------------------------------------------------
+      WCS(0) = 0
+      NATIVE(5) = 0D0
+      CELEST(5) = 0D0
+      PRJ(10) = 0D0
+      PRJ(11) = 0D0
+d479 1
+d483 5
+a487 10
+*     Issue a dummy call to initialize data structures.
+      WORLD(1) = CRVAL(1)
+      WORLD(2) = CRVAL(2)
+      WORLD(3) = CRVAL(3)
+      WORLD(4) = CRVAL(4)
+      CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CELEST, PHI, THETA, PRJ,
+     *   IMG, LIN, PIX, IERR)
+      PCODE = CTYPE(WCS(1))(6:8)
+
+      IF (TYPE.EQ.5) THEN
+d492 34
+a525 58
+         IMG(1) = 0D0
+         IMG(2) = 0D0
+         IMG(3) = 0D0
+         IMG(4) = 0D0
+
+         IMG(WCS(1)) = -PRJ(12)
+         IMG(WCS(2)) =  PRJ(12)
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(1) = PIX(WCS(1))
+         JR(1) = PIX(WCS(2))
+
+         IMG(WCS(1)) = -PRJ(12)
+         IMG(WCS(2)) =  PRJ(12)*3D0
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(2) = PIX(WCS(1))
+         JR(2) = PIX(WCS(2))
+
+         IMG(WCS(1)) =  PRJ(12)
+         IMG(WCS(2)) =  PRJ(12)*3D0
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(3) = PIX(WCS(1))
+         JR(3) = PIX(WCS(2))
+
+         IMG(WCS(1)) =  PRJ(12)
+         IMG(WCS(2)) = -PRJ(12)*3D0
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(4) = PIX(WCS(1))
+         JR(4) = PIX(WCS(2))
+
+         IMG(WCS(1)) = -PRJ(12)
+         IMG(WCS(2)) = -PRJ(12)*3D0
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(5) = PIX(WCS(1))
+         JR(5) = PIX(WCS(2))
+
+         IMG(WCS(1)) = -PRJ(12)
+         IMG(WCS(2)) =  PRJ(12)
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(6) = PIX(WCS(1))
+         JR(6) = PIX(WCS(2))
+
+         IMG(WCS(1)) =  PRJ(12)*7D0
+         IMG(WCS(2)) =  PRJ(12)
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(7) = PIX(WCS(1))
+         JR(7) = PIX(WCS(2))
+
+         IMG(WCS(1)) =  PRJ(12)*7D0
+         IMG(WCS(2)) = -PRJ(12)
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(8) = PIX(WCS(1))
+         JR(8) = PIX(WCS(2))
+
+         IMG(WCS(1)) = -PRJ(12)
+         IMG(WCS(2)) = -PRJ(12)
+         CALL LINFWD (IMG, LIN, PIX, IERR)
+         IR(9) = PIX(WCS(1))
+         JR(9) = PIX(WCS(2))
+d530 6
+a535 10
+*     Write a descriptive title.
+      CALL PGSCI (1)
+      TEXT = PCODE // ' projection - 15 degree graticule'
+      WRITE (6, '(/,A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-10.0, TEXT)
+
+      WRITE (TEXT, 10) CELEST(1), CELEST(2)
+ 10   FORMAT ('centered on celestial coordinates (',F6.2,',',F6.2,')')
+      WRITE (6, '(A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-20.0, TEXT)
+a536 5
+      WRITE (TEXT, 20) CELEST(3), CELEST(4)
+ 20   FORMAT ('with celestial pole at native coordinates (',F7.2,
+     *   ',',F7.2,')')
+      WRITE (6, '(A)') TEXT
+      CALL PGTEXT (IMIN, JMIN-30.0, TEXT)
+d538 6
+a544 1
+*     Draw the native coordinate grid faintly in the background.
+a546 6
+      IF (TYPE.EQ.4) THEN
+         STEP = 10D0
+      ELSE
+         STEP = 15D0
+      END IF
+
+d548 1
+a548 1
+      DO 40 ILNG = -180, 180, 15
+d553 12
+d566 4
+a569 12
+         DO 30 ILAT = -90, 90
+            LAT = DBLE(ILAT)
+
+            WORLD(WCS(1)) = LNG
+            WORLD(WCS(2)) = LAT
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, NATIVE, PHI, THETA,
+     *         PRJ, IMG, LIN, PIX, IERR)
+            IF (IERR.NE.0) GO TO 30
+
+            IF (TYPE.EQ.5 .AND. K.GT.0) THEN
+               IF (ABS(PIX(WCS(1))-IR(K)).GT.2.0 .OR.
+     *             ABS(PIX(WCS(2))-JR(K)).GT.5.0) THEN
+d575 3
+d579 1
+a579 3
+            IR(K) = PIX(WCS(1))
+            JR(K) = PIX(WCS(2))
+ 30      CONTINUE
+d582 1
+a582 1
+ 40   CONTINUE
+d585 1
+a585 1
+      DO 60 ILAT = -90, 90, 15
+d588 2
+a589 2
+         K = 0
+         DO 50 ILNG = -180, 180
+d594 15
+a608 9
+            WORLD(WCS(1)) = LNG
+            WORLD(WCS(2)) = LAT
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, NATIVE, PHI, THETA,
+     *         PRJ, IMG, LIN, PIX, IERR)
+            IF (IERR.NE.0) GO TO 50
+
+            IF (TYPE.EQ.5 .AND. K.GT.0) THEN
+               IF (ABS(PIX(WCS(1))-IR(K)).GT.2.0 .OR.
+     *             ABS(PIX(WCS(2))-JR(K)).GT.5.0) THEN
+d614 3
+d618 1
+a618 3
+            IR(K) = PIX(WCS(1))
+            JR(K) = PIX(WCS(2))
+ 50      CONTINUE
+d621 1
+a621 1
+ 60   CONTINUE
+d624 1
+a624 1
+*     Draw a colour-coded celestial coordinate grid.
+d628 1
+a628 1
+      DO 80 ILNG = -180, 180, 15
+d639 2
+a640 2
+         K = 0
+         DO 70 ILAT = -90, 90
+d643 8
+a650 5
+            WORLD(WCS(1)) = LNG
+            WORLD(WCS(2)) = LAT
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CELEST, PHI, THETA,
+     *         PRJ, IMG, LIN, PIX, IERR)
+            IF (IERR.NE.0) GO TO 70
+d652 3
+d657 2
+a658 2
+               IF (ABS(PIX(WCS(1))-IR(K)).GT.STEP .OR.
+     *             ABS(PIX(WCS(2))-JR(K)).GT.STEP) THEN
+d664 3
+d668 1
+a668 3
+            IR(K) = PIX(WCS(1))
+            JR(K) = PIX(WCS(2))
+ 70      CONTINUE
+d671 1
+a671 1
+ 80   CONTINUE
+d675 1
+a675 1
+      DO 100 ILAT = -90, 90, 15
+d686 12
+d699 1
+a699 9
+         DO 90 ILNG = -180, 180
+            LNG = DBLE(ILNG)
+
+            WORLD(WCS(1)) = LNG
+            WORLD(WCS(2)) = LAT
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CELEST, PHI, THETA,
+     *         PRJ, IMG, LIN, PIX, IERR)
+            IF (IERR.NE.0) GO TO 90
+
+d702 2
+a703 2
+               IF (ABS(PIX(WCS(1))-IR(K)).GT.STEP .OR.
+     *             ABS(PIX(WCS(2))-JR(K)).GT.STEP) THEN
+d709 3
+d713 1
+a713 3
+            IR(K) = PIX(WCS(1))
+            JR(K) = PIX(WCS(2))
+ 90      CONTINUE
+d716 2
+a717 1
+ 100  CONTINUE
+d719 19
+d740 1
+a744 1
+      SUBROUTINE MIXEX (TOL, CTYPE, CRVAL, CEL, PRJ, LIN)
+d746 6
+a751 6
+*   MIXEX tests WCSMIX.
+*
+*   Given:
+*      TOL      D        Reporting tolerance, degrees.
+*      CTYPE    C()*8    Coordinate axis types.
+*      CRVAL    D()      Coordinate reference values.
+d753 2
+a754 4
+*   Given and returned:
+*      CEL      D(10)    Coordinate transformation parameters.
+*      PRJ      D(0:20)  Projection parameters.
+*      LIN      D()      Linear transformation parameters.
+d756 3
+a758 23
+      INTEGER   DOID, IERR, K, LAT, LNG, WCS(0:3)
+      REAL      IPT(1), JPT(1)
+      DOUBLE PRECISION CEL(10), CRVAL(*), IMG(4), LAT1, LATSPN(2),
+     *          LIN(*), LNGSPN(2), LNG1, PHI, PIX1(4), PIX2(4),
+     *          PIX3(4), PIXLAT, PIXLNG, PRJ(0:20), THETA, TOL, WORLD(4)
+      CHARACTER CTYPE(*)*8, PCODE*3
+*-----------------------------------------------------------------------
+      WCS(0)  = 0
+      CEL(5)  = 0D0
+      PRJ(10) = 0D0
+      PRJ(11) = 0D0
+
+*     Find the projection code.
+      CALL WCSSET (NINT(LIN(3)), CTYPE, WCS, IERR)
+      PCODE = CTYPE(WCS(1))(6:8)
+
+      WRITE (6, 10) PCODE, TOL
+ 10   FORMAT ('Testing ',A,'; reporting tolerance',1PG8.1,' deg.')
+
+      WORLD(1) = 0D0
+      WORLD(2) = 0D0
+      WORLD(3) = 0D0
+      WORLD(4) = 0D0
+d760 4
+a763 2
+      DO 80 LAT = 90, -90, -1
+         LAT1 = DBLE(LAT)
+d765 1
+a765 2
+         DO 70 LNG = -180, 180
+            LNG1 = DBLE(LNG)
+d767 5
+a771 126
+            WORLD(WCS(1)) = LNG1
+            WORLD(WCS(2)) = LAT1
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMG, LIN, PIX1, IERR)
+            IF (IERR.NE.0) THEN
+               WRITE (6, 20) PCODE, LNG1, LAT1, IERR
+ 20            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+     *            '  error',I3)
+               GO TO 70
+            END IF
+
+            PIXLNG = PIX1(WCS(1))
+            PIXLAT = PIX1(WCS(2))
+
+            IPT(1) = PIXLNG
+            JPT(1) = PIXLAT
+            CALL PGPT (1, IPT, JPT, -1)
+
+            LNGSPN(1) = LNG1 - 9.3D0
+            IF (LNGSPN(1).LT.-180D0) LNGSPN(1) = -180D0
+            LNGSPN(2) = LNG1 + 4.1D0
+            IF (LNGSPN(2).GT. 180D0) LNGSPN(2) =  180D0
+            LATSPN(1) = LAT1 - 3.7D0
+            IF (LATSPN(1).LT. -90D0) LATSPN(1) =  -90D0
+            LATSPN(2) = LAT1 + 7.2D0
+            IF (LATSPN(2).GT.  90D0) LATSPN(2) =   90D0
+
+            DOID = 1
+
+            PIX2(WCS(1)) = PIXLNG
+            CALL WCSMIX (CTYPE, WCS, WCS(1), 1, LATSPN, 1D0, 0, WORLD,
+     *         CRVAL, CEL, PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+            IF (IERR.NE.0) THEN
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (6, '(A,I2)') '  A: WCSMIX error', IERR
+            ELSE
+               CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA,
+     *            PRJ, IMG, LIN, PIX3, IERR)
+               IF (IERR.NE.0) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, '(A,I2)') '  A: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(1))-PIXLNG).GT.TOL .AND.
+     *                 (ABS(WORLD(WCS(2))- LAT1).GT.TOL .OR.
+     *                  ABS(PIX2(WCS(2))-PIXLAT).GT.TOL)) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, 30) WORLD(WCS(1)), WORLD(WCS(2)), PHI,
+     *                          THETA, PIX2(WCS(1)), PIX2(WCS(2))
+ 30               FORMAT ('  A: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     *                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     *                    '       (I2) =',F20.15,'     J2  =',F20.15)
+               END IF
+            END IF
+
+            PIX2(WCS(2)) = PIXLAT
+            CALL WCSMIX (CTYPE, WCS, WCS(2), 1, LATSPN, 1D0, 0, WORLD,
+     *         CRVAL, CEL, PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+            IF (IERR.NE.0) THEN
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (6, '(A,I2)') '  B: WCSMIX error', IERR
+            ELSE
+               CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA,
+     *            PRJ, IMG, LIN, PIX3, IERR)
+               IF (IERR.NE.0) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, '(A,I2)') '  B: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(2))-PIXLAT).GT.TOL .AND.
+     *                 (ABS(WORLD(WCS(2))- LAT1).GT.TOL .OR.
+     *                  ABS(PIX2(WCS(1))-PIXLNG).GT.TOL)) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, 40) WORLD(WCS(1)), WORLD(WCS(2)), PHI,
+     *                          THETA, PIX2(WCS(1)), PIX2(WCS(2))
+ 40               FORMAT ('  B: (LNG2) =',F20.15,'   LAT2  =',F20.15,/,
+     *                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     *                    '        I2  =',F20.15,'    (J2) =',F20.15)
+               END IF
+            END IF
+
+            WORLD(WCS(2)) = LAT1
+
+            PIX2(WCS(1)) = PIXLNG
+            CALL WCSMIX (CTYPE, WCS, WCS(1), 2, LNGSPN, 1D0, 0, WORLD,
+     *         CRVAL, CEL, PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+            IF (IERR.NE.0) THEN
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (6, '(A,I2)') '  C: WCSMIX error', IERR
+            ELSE
+               CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA,
+     *            PRJ, IMG, LIN, PIX3, IERR)
+               IF (IERR.NE.0) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, '(A,I2)') '  C: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(1))-PIXLNG).GT.TOL .AND.
+     *                 (ABS(WORLD(WCS(1))- LNG1).GT.TOL .OR.
+     *                  ABS(PIX2(WCS(2))-PIXLAT).GT.TOL)) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, 50) WORLD(WCS(1)), WORLD(WCS(2)), PHI,
+     *                          THETA, PIX2(WCS(1)), PIX2(WCS(2))
+ 50               FORMAT ('  C:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     *                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     *                    '       (I2) =',F20.15,'     J2  =',F20.15)
+               END IF
+            END IF
+
+            PIX2(WCS(2)) = PIXLAT
+            CALL WCSMIX (CTYPE, WCS, WCS(2), 2, LNGSPN, 1D0, 0, WORLD,
+     *         CRVAL, CEL, PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+            IF (IERR.NE.0) THEN
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+               WRITE (6, '(A,I2)') '  D: WCSMIX error', IERR
+            ELSE
+               CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA,
+     *            PRJ, IMG, LIN, PIX3, IERR)
+               IF (IERR.NE.0) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, '(A,I2)') '  D: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(2))-PIXLAT).GT.TOL .AND.
+     *                 (ABS(WORLD(WCS(1))- LNG1).GT.TOL .OR.
+     *                  ABS(PIX2(WCS(1))-PIXLNG).GT.TOL)) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+                  WRITE (6, 60) WORLD(WCS(1)), WORLD(WCS(2)), PHI,
+     *                          THETA, PIX2(WCS(1)), PIX2(WCS(2))
+ 60               FORMAT ('  D:  LNG2  =',F20.15,'  (LAT2) =',F20.15,/,
+     *                    '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     *                    '        I2  =',F20.15,'    (J2) =',F20.15)
+               END IF
+            END IF
+d773 2
+a774 2
+ 70      CONTINUE
+ 80   CONTINUE
+d776 3
+a778 3
+      DO 90 K = 0, 20
+         PRJ(K) = 0D0
+ 90   CONTINUE
+d780 4
+a783 2
+      RETURN
+      END
+d785 2
+d788 2
+a789 11
+*-----------------------------------------------------------------------
+      SUBROUTINE ID (DOID, PCODE, CEL, LNG1, LAT1, PIXLNG, PIXLAT)
+*-----------------------------------------------------------------------
+      INTEGER   DOID, IERR
+      REAL      IPT(1), JPT(1)
+      DOUBLE PRECISION CEL(10), PIXLNG, PIXLAT, LNG1, LAT1, PHI, THETA
+      CHARACTER PCODE*3
+*-----------------------------------------------------------------------
+      IF (DOID.NE.0) THEN
+*        Compute native coordinates.
+         CALL SPHFWD (LNG1, LAT1, CEL(6), PHI, THETA, IERR)
+d791 3
+a793 6
+         WRITE (6, 10) PCODE, LNG1, LAT1, PHI, THETA, PIXLNG,
+     *      PIXLAT
+ 10      FORMAT (/,A3,':  LNG1  =',F20.15,'   LAT1  =',F20.15,/,
+     *             '       PHI  =',F20.15,'  THETA  =',F20.15,/,
+     *             '        I1  =',F20.15,'     J1  =',F20.15)
+         DOID = 0
+d795 2
+a796 6
+         CALL PGSCI (9)
+         IPT(1) = PIXLNG
+         JPT(1) = PIXLAT
+         CALL PGPT (1, IPT, JPT, 21)
+         CALL PGSCI (2)
+      END IF
+@
+
+
+2.14
+log
+@Augmented the error reports.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.13 2000/12/04 05:16:00 mcalabre Exp mcalabre $
+@
+
+
+2.13
+log
+@Renamed "GLS" -> "SFL"; reordered projections to match paper.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.12 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+d631 5
+a635 2
+                  WRITE (6, 30) WORLD(WCS(2)), PIX2(WCS(2))
+ 30               FORMAT ('  A: LAT2 =',F20.15,'    J2 =',F20.15)
+d655 5
+a659 2
+                  WRITE (6, 40) WORLD(WCS(2)), PIX2(WCS(1))
+ 40               FORMAT ('  B: LAT2 =',F20.15,'    I2 =',F20.15)
+d681 5
+a685 2
+                  WRITE (6, 50) WORLD(WCS(1)), PIX2(WCS(2))
+ 50               FORMAT ('  C: LNG2 =',F20.15,'    J2 =',F20.15)
+d705 5
+a709 2
+                  WRITE (6, 60) WORLD(WCS(1)), PIX2(WCS(1))
+ 60               FORMAT ('  D: LNG2 =',F20.15,'    I2 =',F20.15)
+d738 3
+a740 3
+ 10      FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *           '      PHI =',F20.15,' THETA =',F20.15,/,
+     *           '       I1 =',F20.15,'    J1 =',F20.15)
+@
+
+
+2.12
+log
+@Updated date in copyright notice.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs2.f,v 2.11 1999/12/13 03:38:04 mcalabre Exp mcalabre $
+d171 8
+d186 25
+a210 5
+*     CEA: cylindrical equal area.
+      CTYPE(2)(6:8) = 'CEA'
+      CTYPE(4)(6:8) = 'CEA'
+      PRJ(1) = 0.75D0
+      CALL GRDPLT (2, -200.0, 200.0, -200.0, 200.0, CTYPE, CRVAL, NTV0,
+d214 3
+a216 3
+*     COD: conic equidistant.
+      CTYPE(2)(6:8) = 'COD'
+      CTYPE(4)(6:8) = 'COD'
+d219 1
+a219 1
+      CALL GRDPLT (3, -200.0, 200.0, -180.0, 220.0, CTYPE, CRVAL, NTVC,
+d223 3
+a225 3
+*     COE: conic equal area.
+      CTYPE(2)(6:8) = 'COE'
+      CTYPE(4)(6:8) = 'COE'
+d228 1
+a228 1
+      CALL GRDPLT (3, -140.0, 140.0, -120.0, 160.0, CTYPE, CRVAL, NTVC,
+d247 4
+a250 11
+*     GLS: Sanson-Flamsteed (global sinusoid).
+      CTYPE(2)(6:8) = 'GLS'
+      CTYPE(4)(6:8) = 'GLS'
+      CALL GRDPLT (4, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     PAR: parabolic.
+      CTYPE(2)(6:8) = 'PAR'
+      CTYPE(4)(6:8) = 'PAR'
+      CALL GRDPLT (4, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+a253 14
+*     AIT: Hammer-Aitoff.
+      CTYPE(2)(6:8) = 'AIT'
+      CTYPE(4)(6:8) = 'AIT'
+      CALL GRDPLT (4, -170.0, 170.0, -170.0, 170.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     MOL: Mollweide's projection.
+      CTYPE(2)(6:8) = 'MOL'
+      CTYPE(4)(6:8) = 'MOL'
+      CALL GRDPLT (4, -170.0, 170.0, -170.0, 170.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+a256 7
+      CALL GRDPLT (5, -340.0, 80.0, -210.0, 210.0, CTYPE, CRVAL, NTV0,
+     *   CEL0, PRJ, LIN)
+      CALL MIXEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     TSC: tangential spherical cube.
+      CTYPE(2)(6:8) = 'TSC'
+      CTYPE(4)(6:8) = 'TSC'
+@
+
+
+2.11
+log
+@Lowered reporting tolerance to 1e-9 (was 1e-10).
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.10 1999/11/19 02:26:20 mcalabre Exp mcalabre $
+@
+
+
+2.10
+log
+@Moved COMMON declaration before variable declaration for g77;
+"Closure tolerance" becomes "Reporting tolerance"; changed labelling on
+error messages from 1,2,3,4 to A,B,C,D to avoid confusion with other numbers.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs2.f,v 2.9 1999/06/16 00:19:23 mcalabre Exp mcalabre $
+d54 1
+a54 1
+      PARAMETER (TOL = 1.0D-10)
+@
+
+
+2.9
+log
+@Updated date in copyright notice.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs2.f,v 2.8 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+d43 3
+a68 3
+
+*     Force alignment.
+      COMMON /DUMMY/ LIN, MAXIS, NAXIS, CRPIX, PC, CDELT, PIXIMG, IMGPIX
+d547 1
+a547 1
+*      TOL      D        Closure tolerance, degrees.
+d573 1
+a573 1
+ 10   FORMAT ('Testing ',A,'; closure tolerance',1PG9.1,' deg.')
+d620 1
+a620 1
+               WRITE (6, '(A,I2)') '  1: WCSMIX error', IERR
+d626 4
+a629 2
+                  WRITE (6, '(A,I2)') '  1: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(1))-PIXLNG).GT.TOL) THEN
+d632 1
+a632 1
+ 30               FORMAT ('  1: LAT2 =',F20.15,'    J2 =',F20.15)
+d641 1
+a641 1
+               WRITE (6, '(A,I2)') '  2: WCSMIX error', IERR
+d647 4
+a650 2
+                  WRITE (6, '(A,I2)') '  2: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(2))-PIXLAT).GT.TOL) THEN
+d653 1
+a653 1
+ 40               FORMAT ('  2: LAT2 =',F20.15,'    I2 =',F20.15)
+d664 1
+a664 1
+               WRITE (6, '(A,I2)') '  3: WCSMIX error', IERR
+d670 4
+a673 2
+                  WRITE (6, '(A,I2)') '  3: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(1))-PIXLNG).GT.TOL) THEN
+d676 1
+a676 1
+ 50               FORMAT ('  3: LNG2 =',F20.15,'    J2 =',F20.15)
+d685 1
+a685 1
+               WRITE (6, '(A,I2)') '  4: WCSMIX error', IERR
+d691 4
+a694 2
+                  WRITE (6, '(A,I2)') '  4: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(WCS(2))-PIXLAT).GT.TOL) THEN
+d697 1
+a697 1
+ 60               FORMAT ('  4: LNG2 =',F20.15,'    I2 =',F20.15)
+@
+
+
+2.8
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.7 1998/02/25 06:48:10 mcalabre Exp mcalabre $
+@
+
+
+2.7
+log
+@Removed the warning about WCSMIX error 5 (no solution); call WCSMIX with
+VITER = 0 to cause it to use its default value; tweaked the plot boundary
+for COD and COE to prevent truncation; fixed plotting of the boundary of
+quadcube projections.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d37 1
+a37 1
+*   $Id: twcs2.f,v 2.6 1996/05/07 21:13:13 mcalabre Exp mcalabre $
+@
+
+
+2.6
+log
+@Minor change to output formatting.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs.f,v 2.5 1995/12/22 02:46:09 mcalabre Exp mcalabre $
+a147 6
+      WRITE (6, 20)
+ 20   FORMAT (/,'Note: Expect to see a few occurrences of WCSMIX ',
+     *   'error 5 (no solution) at',/,'points corresponding to the ',
+     *   'native poles for those projections where the',/,
+     *   'pole is represented as a finite interval.',/)
+
+d191 1
+a191 1
+      CALL GRDPLT (3, -200.0, 200.0, -190.0, 210.0, CTYPE, CRVAL, NTVC,
+d200 1
+a200 1
+      CALL GRDPLT (3, -140.0, 140.0, -130.0, 150.0, CTYPE, CRVAL, NTVC,
+d305 2
+a306 2
+         IMG(WCS(1)) = -PRJ(11)
+         IMG(WCS(2)) =  PRJ(11)
+d311 2
+a312 2
+         IMG(WCS(1)) = -PRJ(11)
+         IMG(WCS(2)) =  PRJ(11)*3D0
+d317 2
+a318 2
+         IMG(WCS(1)) =  PRJ(11)
+         IMG(WCS(2)) =  PRJ(11)*3D0
+d323 2
+a324 2
+         IMG(WCS(1)) =  PRJ(11)
+         IMG(WCS(2)) = -PRJ(11)*3D0
+d329 2
+a330 2
+         IMG(WCS(1)) = -PRJ(11)
+         IMG(WCS(2)) = -PRJ(11)*3D0
+d335 2
+a336 2
+         IMG(WCS(1)) = -PRJ(11)
+         IMG(WCS(2)) =  PRJ(11)
+d341 2
+a342 2
+         IMG(WCS(1)) =  PRJ(11)*7D0
+         IMG(WCS(2)) =  PRJ(11)
+d347 2
+a348 2
+         IMG(WCS(1)) =  PRJ(11)*7D0
+         IMG(WCS(2)) = -PRJ(11)
+d353 2
+a354 2
+         IMG(WCS(1)) = -PRJ(11)
+         IMG(WCS(2)) = -PRJ(11)
+d365 1
+a365 1
+      WRITE (6, '(A)') TEXT
+d616 1
+a616 1
+            CALL WCSMIX (CTYPE, WCS, WCS(1), 1, LATSPN, 1D0, 2, WORLD,
+d635 1
+a635 1
+            CALL WCSMIX (CTYPE, WCS, WCS(2), 1, LATSPN, 1D0, 2, WORLD,
+d656 1
+a656 1
+            CALL WCSMIX (CTYPE, WCS, WCS(1), 2, LNGSPN, 1D0, 2, WORLD,
+d675 1
+a675 1
+            CALL WCSMIX (CTYPE, WCS, WCS(2), 2, LNGSPN, 1D0, 2, WORLD,
+@
+
+
+2.5
+log
+@Changed dimensions from WCS(0:2) to WCS(0:3).
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d29 1
+a29 1
+      PROGRAM TWCS
+d32 1
+a32 1
+*   twcs tests WCSMIX for closure on the 1 degree celestial grid for
+d37 1
+a37 1
+*   $Id: twcs.f,v 2.4 1995/11/16 06:13:57 mcalabre Exp mcalabre $
+d76 4
+d149 3
+a151 5
+ 20   FORMAT (/,'Testing WCS.',/,
+     *   'Note: Expect to see a few occurrences of WCSMIX error 5 (no ',
+     *   'solution) at',/,
+     *   'points corresponding to the native poles for those ',
+     *   'projections where the',/,
+d197 1
+a197 1
+      CALL GRDPLT (3, -200.0, 200.0, -200.0, 200.0, CTYPE, CRVAL, NTVC,
+d206 1
+a206 1
+      CALL GRDPLT (3, -140.0, 140.0, -140.0, 140.0, CTYPE, CRVAL, NTVC,
+@
+
+
+2.4
+log
+@Tweaked the sizes of the PGPLOT viewports to avoid truncation.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs.f,v 2.3 1995/11/16 04:52:52 mcalabre Exp mcalabre $
+d274 1
+a274 1
+      INTEGER   CI, IERR, ILAT, ILNG, K, TYPE, WCS(0:2)
+d560 1
+a560 1
+      INTEGER   DOID, IERR, K, LAT, LNG, WCS(0:2)
+@
+
+
+2.3
+log
+@Changed to use the generalized WCS driver routines.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs.f,v 2.2 1995/11/09 03:22:28 mcalabre Exp mcalabre $
+d171 1
+a171 1
+      CALL GRDPLT (2, -160.0, 160.0, -160.0, 160.0, CTYPE, CRVAL, NTV0,
+d178 1
+a178 1
+      CALL GRDPLT (2, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTV0,
+d186 1
+a186 1
+      CALL GRDPLT (2, -195.0, 195.0, -195.0, 195.0, CTYPE, CRVAL, NTV0,
+d195 1
+a195 1
+      CALL GRDPLT (3, -190.0, 190.0, -190.0, 190.0, CTYPE, CRVAL, NTVC,
+d212 1
+a212 1
+      CALL GRDPLT (4, -150.0, 150.0, -150.0, 150.0, CTYPE, CRVAL, NTV0,
+d240 1
+a240 1
+      CALL GRDPLT (4, -165.0, 165.0, -165.0, 165.0, CTYPE, CRVAL, NTV0,
+d247 1
+a247 1
+      CALL GRDPLT (4, -165.0, 165.0, -165.0, 165.0, CTYPE, CRVAL, NTV0,
+d254 1
+a254 1
+      CALL GRDPLT (5, -335.0, 65.0, -180.0, 180.0, CTYPE, CRVAL, NTV0,
+d261 1
+a261 1
+      CALL GRDPLT (5, -335.0, 65.0, -180.0, 180.0, CTYPE, CRVAL, NTV0,
+@
+
+
+2.2
+log
+@Changed the PC matrix slightly, adding more non-zero off-diagonal elements.
+Changed the message about WCSMIX error 4 to error 5.  Changed constant
+array declarators of size 1 to assumed-size array declarators.
+@
+text
+@d37 1
+a37 1
+*   $Id: twcs.f,v 2.1 1995/09/12 07:05:20 mcalabre Exp mcalabre $
+d44 5
+a48 3
+      DOUBLE PRECISION CDELT(M), CRPIX(M), CEL0(10), CELC(10), CELP(10),
+     *          IMGPIX(M,M), LATC, LIN, MAXIS, NAXIS, NTV0(10),
+     *          NTVC(10), NTVP(10), PC(M,M), PIXIMG(M,M), PRJ(0:20)
+d53 2
+d58 4
+a61 4
+     *           / 1.1D0,  0.1D0,  .02D0,  .01D0,
+     *             0.2D0,  1.0D0,  .01D0,  .01D0,
+     *             .05D0,  .03D0,  1.0D0,  0.0D0,
+     *             .01D0,  .04D0,  .03D0,  1.0D0/
+d63 3
+a65 1
+     *           /-1.0D0,  1.0D0,  1.0D0,  1.0D0/
+d153 5
+a157 3
+      CALL GRDPLT ('ARC', 1, -190.0, 190.0, -190.0, 190.0, NTVP, CELP,
+     *   PRJ, LIN)
+      CALL MIXEX ('ARC', TOL, CELP, PRJ, LIN)
+d160 5
+a164 3
+      CALL GRDPLT ('ZEA', 1, -120.0, 120.0, -120.0, 120.0, NTVP, CELP,
+     *   PRJ, LIN)
+      CALL MIXEX ('ZEA', TOL, CELP, PRJ, LIN)
+d167 2
+d171 3
+a173 3
+      CALL GRDPLT ('CYP', 2, -160.0, 160.0, -160.0, 160.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('CYP', TOL, CEL0, PRJ, LIN)
+d176 5
+a180 3
+      CALL GRDPLT ('CAR', 2, -190.0, 190.0, -190.0, 190.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('CAR', TOL, CEL0, PRJ, LIN)
+d183 2
+d186 3
+a188 3
+      CALL GRDPLT ('CEA', 2, -195.0, 195.0, -195.0, 195.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('CEA', TOL, CEL0, PRJ, LIN)
+d191 2
+d195 3
+a197 3
+      CALL GRDPLT ('COD', 3, -190.0, 190.0, -190.0, 190.0, NTVC, CELC,
+     *   PRJ, LIN)
+      CALL MIXEX ('COD', TOL, CELC, PRJ, LIN)
+d200 2
+d204 3
+a206 3
+      CALL GRDPLT ('COE', 3, -140.0, 140.0, -140.0, 140.0, NTVC, CELC,
+     *   PRJ, LIN)
+      CALL MIXEX ('COE', TOL, CELC, PRJ, LIN)
+d209 2
+d212 3
+a214 3
+      CALL GRDPLT ('BON', 4, -150.0, 150.0, -150.0, 150.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('BON', TOL, CEL0, PRJ, LIN)
+d217 5
+a221 3
+      CALL GRDPLT ('PCO', 4, -190.0, 190.0, -190.0, 190.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('PCO', TOL, CEL0, PRJ, LIN)
+d224 5
+a228 3
+      CALL GRDPLT ('GLS', 4, -190.0, 190.0, -190.0, 190.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('GLS', TOL, CEL0, PRJ, LIN)
+d231 5
+a235 3
+      CALL GRDPLT ('PAR', 4, -190.0, 190.0, -190.0, 190.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('PAR', TOL, CEL0, PRJ, LIN)
+d238 5
+a242 3
+      CALL GRDPLT ('AIT', 4, -165.0, 165.0, -165.0, 165.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('AIT', TOL, CEL0, PRJ, LIN)
+d245 5
+a249 3
+      CALL GRDPLT ('MOL', 4, -165.0, 165.0, -165.0, 165.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('MOL', TOL, CEL0, PRJ, LIN)
+d252 5
+a256 3
+      CALL GRDPLT ('QSC', 5, -335.0, 65.0, -180.0, 180.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('QSC', TOL, CEL0, PRJ, LIN)
+d259 5
+a263 3
+      CALL GRDPLT ('TSC', 5, -335.0, 65.0, -180.0, 180.0, NTV0, CEL0,
+     *   PRJ, LIN)
+      CALL MIXEX ('TSC', TOL, CEL0, PRJ, LIN)
+d271 2
+a272 2
+      SUBROUTINE GRDPLT (PCODE, TYPE, IMIN, IMAX, JMIN, JMAX, NATIVE,
+     *   CELEST, PRJ, LIN)
+d274 1
+a274 2
+      CHARACTER PCODE*3, TEXT*80
+      INTEGER   CI, IERR, ILAT, ILNG, K, TYPE
+d276 4
+a279 2
+      DOUBLE PRECISION CELEST(10), IMG(4), NATIVE(10), LAT, LIN(*), LNG,
+     *          PHI, PIX(4), PRJ(0:20), STEP, THETA, X, Y
+d281 1
+d291 7
+a297 1
+      CALL CELFWD (PCODE, 0D0, 0D0, CELEST, PHI, THETA, PRJ, X, Y, IERR)
+d304 7
+a310 4
+         IMG(1) = -PRJ(11)
+         IMG(2) =  PRJ(11)
+         IMG(3) =  0D0
+         IMG(4) =  0D0
+d312 2
+a313 2
+         IR(1) = PIX(1)
+         JR(1) = PIX(2)
+d315 2
+a316 2
+         IMG(1) = -PRJ(11)
+         IMG(2) =  PRJ(11)*3D0
+d318 2
+a319 2
+         IR(2) = PIX(1)
+         JR(2) = PIX(2)
+d321 2
+a322 2
+         IMG(1) =  PRJ(11)
+         IMG(2) =  PRJ(11)*3D0
+d324 2
+a325 2
+         IR(3) = PIX(1)
+         JR(3) = PIX(2)
+d327 2
+a328 2
+         IMG(1) =  PRJ(11)
+         IMG(2) = -PRJ(11)*3D0
+d330 2
+a331 2
+         IR(4) = PIX(1)
+         JR(4) = PIX(2)
+d333 2
+a334 2
+         IMG(1) = -PRJ(11)
+         IMG(2) = -PRJ(11)*3D0
+d336 2
+a337 2
+         IR(5) = PIX(1)
+         JR(5) = PIX(2)
+d339 2
+a340 2
+         IMG(1) = -PRJ(11)
+         IMG(2) =  PRJ(11)
+d342 2
+a343 2
+         IR(6) = PIX(1)
+         JR(6) = PIX(2)
+d345 2
+a346 2
+         IMG(1) =  PRJ(11)*7D0
+         IMG(2) =  PRJ(11)
+d348 2
+a349 2
+         IR(7) = PIX(1)
+         JR(7) = PIX(2)
+d351 2
+a352 2
+         IMG(1) =  PRJ(11)*7D0
+         IMG(2) = -PRJ(11)
+d354 2
+a355 2
+         IR(8) = PIX(1)
+         JR(8) = PIX(2)
+d357 2
+a358 2
+         IMG(1) = -PRJ(11)
+         IMG(2) = -PRJ(11)
+d360 2
+a361 2
+         IR(9) = PIX(1)
+         JR(9) = PIX(2)
+d403 4
+a406 2
+            CALL WCSFWD (PCODE, LNG, LAT, NATIVE, PHI, THETA, PRJ, IMG,
+     *         LIN, PIX, IERR)
+d410 2
+a411 2
+               IF (ABS(PIX(1)-IR(K)).GT.2.0 .OR.
+     *             ABS(PIX(2)-JR(K)).GT.5.0) THEN
+d418 2
+a419 2
+            IR(K) = PIX(1)
+            JR(K) = PIX(2)
+d435 4
+a438 2
+            CALL WCSFWD (PCODE, LNG, LAT, NATIVE, PHI, THETA, PRJ, IMG,
+     *         LIN, PIX, IERR)
+d442 2
+a443 2
+               IF (ABS(PIX(1)-IR(K)).GT.2.0 .OR.
+     *             ABS(PIX(2)-JR(K)).GT.5.0) THEN
+d450 2
+a451 2
+            IR(K) = PIX(1)
+            JR(K) = PIX(2)
+d477 4
+a480 2
+            CALL WCSFWD (PCODE, LNG, LAT, CELEST, PHI, THETA, PRJ, IMG,
+     *         LIN, PIX, IERR)
+d485 2
+a486 2
+               IF (ABS(PIX(1)-IR(K)).GT.STEP .OR.
+     *             ABS(PIX(2)-JR(K)).GT.STEP) THEN
+d493 2
+a494 2
+            IR(K) = PIX(1)
+            JR(K) = PIX(2)
+d517 4
+a520 2
+            CALL WCSFWD (PCODE, LNG, LAT, CELEST, PHI, THETA, PRJ, IMG,
+     *         LIN, PIX, IERR)
+d525 2
+a526 2
+               IF (ABS(PIX(1)-IR(K)).GT.STEP .OR.
+     *             ABS(PIX(2)-JR(K)).GT.STEP) THEN
+d533 2
+a534 2
+            IR(K) = PIX(1)
+            JR(K) = PIX(2)
+d546 1
+a546 1
+      SUBROUTINE MIXEX (PCODE, TOL, CEL, PRJ, LIN)
+d548 1
+a548 1
+*   MIXEX tests WCS.
+a550 1
+*      PCODE    C*3      Projection code.
+d552 2
+d556 1
+a556 1
+*      CEL   D(10)    Coordinate transformation parameters.
+d558 1
+d560 1
+a560 1
+      INTEGER   DOID, IERR, K, LAT, LNG
+d562 4
+a565 4
+      DOUBLE PRECISION CEL(10), IMG(4), LAT1, LAT2, LATSPN(2), LIN(*),
+     *          LNGSPN(2), LNG1, LNG2, PHI, PIX1(4), PIX2(4), PIX3(4),
+     *          PRJ(0:20), THETA, TOL
+      CHARACTER PCODE*3
+d567 9
+d579 4
+a582 3
+      CEL(5)  = 0D0
+      PRJ(10) = 0D0
+      PRJ(11) = 0D0
+d590 4
+a593 2
+            CALL WCSFWD (PCODE, LNG1, LAT1, CEL, PHI, THETA, PRJ, IMG,
+     *         LIN, PIX1, IERR)
+d601 5
+a605 2
+            IPT(1) = PIX1(1)
+            JPT(1) = PIX1(2)
+d619 3
+a621 3
+            PIX2(1) = PIX1(1)
+            CALL WCSMIX (PCODE, -1, LATSPN, 1D0, 2, LNG1, LAT2, CEL,
+     *         PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+d623 2
+a624 2
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+               WRITE (6, '(A,I2)') ' -1: WCSMIX error', IERR
+d626 2
+a627 2
+               CALL WCSFWD (PCODE, LNG1, LAT2, CEL, PHI, THETA, PRJ,
+     *            IMG, LIN, PIX3, IERR)
+d629 6
+a634 6
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, '(A,I2)') ' -1: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(1)-PIX1(1)).GT.TOL) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, 30) LAT2, PIX2(2)
+ 30               FORMAT (' -1: LAT2 =',F20.15,'    J2 =',F20.15)
+d638 3
+a640 3
+            PIX2(2) = PIX1(2)
+            CALL WCSMIX (PCODE, -2, LATSPN, 1D0, 2, LNG1, LAT2, CEL,
+     *         PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+d642 2
+a643 2
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+               WRITE (6, '(A,I2)') ' -2: WCSMIX error', IERR
+d645 2
+a646 2
+               CALL WCSFWD (PCODE, LNG1, LAT2, CEL, PHI, THETA, PRJ,
+     *            IMG, LIN, PIX3, IERR)
+d648 6
+a653 6
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, '(A,I2)') ' -2: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(2)-PIX1(2)).GT.TOL) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, 40) LAT2, PIX2(1)
+ 40               FORMAT (' -2: LAT2 =',F20.15,'    I2 =',F20.15)
+d657 1
+d659 3
+a661 3
+            PIX2(1) = PIX1(1)
+            CALL WCSMIX (PCODE, 1, LNGSPN, 1D0, 2, LNG2, LAT1, CEL,
+     *         PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+d663 2
+a664 2
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+               WRITE (6, '(A,I2)') '  1: WCSMIX error', IERR
+d666 2
+a667 2
+               CALL WCSFWD (PCODE, LNG2, LAT1, CEL, PHI, THETA, PRJ,
+     *            IMG, LIN, PIX3, IERR)
+d669 6
+a674 6
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, '(A,I2)') '  1: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(1)-PIX1(1)).GT.TOL) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, 50) LNG2, PIX2(2)
+ 50               FORMAT ('  1: LNG2 =',F20.15,'    J2 =',F20.15)
+d678 3
+a680 4
+
+            PIX2(2) = PIX1(2)
+            CALL WCSMIX (PCODE, 2, LNGSPN, 1D0, 2, LNG2, LAT1, CEL,
+     *         PHI, THETA, PRJ, IMG, LIN, PIX2, IERR)
+d682 2
+a683 2
+               CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+               WRITE (6, '(A,I2)') '  2: WCSMIX error', IERR
+d685 2
+a686 2
+               CALL WCSFWD (PCODE, LNG2, LAT1, CEL, PHI, THETA, PRJ,
+     *            IMG, LIN, PIX3, IERR)
+d688 6
+a693 6
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, '(A,I2)') '  2: WCSFWD error', IERR
+               ELSE IF (ABS(PIX3(2)-PIX1(2)).GT.TOL) THEN
+                  CALL ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+                  WRITE (6, 60) LNG2, PIX2(1)
+ 60               FORMAT ('  2: LNG2 =',F20.15,'    I2 =',F20.15)
+d709 1
+a709 1
+      SUBROUTINE ID (DOID, PCODE, CEL, LNG1, LAT1, PIX1)
+d713 1
+a713 1
+      DOUBLE PRECISION CEL(10), PIX1(4), LNG1, LAT1, PHI, THETA
+d720 2
+a721 1
+         WRITE (6, 10) PCODE, LNG1, LAT1, PHI, THETA, PIX1(1), PIX1(2)
+d728 2
+a729 2
+         IPT(1) = PIX1(1)
+         JPT(1) = PIX1(2)
+@
+
+
+2.1
+log
+@Initial revision
+@
+text
+@d37 1
+a37 1
+*   $Id$
+d54 4
+a57 4
+     *           / 1.1D0,  0.1D0,  0.0D0,  0.0D0,
+     *             0.2D0,  1.0D0,  0.0D0,  0.0D0,
+     *             0.0D0,  0.0D0,  1.0D0,  0.0D0,
+     *             0.0D0,  0.0D0,  0.0D0,  1.0D0/
+d140 5
+a144 5
+     *   'Note: Expect to see a few occurrences of WCSMIX error 4 (no ',
+     *   'solution) at points',/,
+     *   'corresponding to the native poles for those projections ',
+     *   'where the pole is',/,
+     *   'represented as a finite interval.',/)
+d241 1
+a241 1
+      DOUBLE PRECISION CELEST(10), IMG(4), NATIVE(10), LAT, LIN(1), LNG,
+d412 1
+a412 1
+         lng = DBLE(ILNG)
+d505 1
+a505 1
+      DOUBLE PRECISION CEL(10), IMG(4), LAT1, LAT2, LATSPN(2), LIN(1),
+@

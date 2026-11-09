@@ -1,0 +1,5370 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.02.15.15;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.31.04.08.59;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.06.11.49.07;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.02.04.06.41.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.06.42.45;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.12.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.38.03;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.02.01.05.35.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.12.03.07.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.13.02.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	7.2.1.2;
+
+7.2.1.2
+date	2020.06.03.02.56.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.21.04.33.31;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.3;
+
+7.7.1.3
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.08.39.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program that tests closure of the tabular coordinate routines.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: ttab1.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* ttab1 tests the -TAB routines for closure.
+*
+*---------------------------------------------------------------------------*/
+
+#include <math.h>
+#include <stdio.h>
+
+#include <tab.h>
+
+// Reporting tolerance.
+const double tol = 1.0e-8;
+
+int main()
+
+{
+  // These variables are used by several independent tests.
+  int    K[2], M, nFail = 0, stat0[128], stat1[128], status, status0, status1;
+  double *index[1], residmax, s[16], world[11][11][2], xt0[16], xt1[16],
+         x0[11][11][2], x1[11][11][2];
+
+  printf(
+    "Testing closure of WCSLIB tabular coordinate routines (ttab1.c)\n"
+    "---------------------------------------------------------------\n");
+
+  // List status return messages.
+  printf("\nList of tab status return values:\n");
+  for (status = 1; status <= 5; status++) {
+    printf("%4d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  printf("\nReporting tolerance %5.1G.\n", tol);
+
+
+  // First a 1-dimensional table without index.
+  printf("\nOne-dimensional test without index:\n");
+  M = 1;
+  K[0] = 10;
+
+  struct tabprm tab;
+  tab.flag  = -1;
+  tab.index = index;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  tab.M = M;
+  tab.K[0] = K[0];
+  tab.map[0] = 0;
+  tab.crval[0] = 0.0;
+
+  tab.index[0] = 0x0;
+
+  tab.coord[0] = 101.0;
+  tab.coord[1] = 102.0;
+  tab.coord[2] = 104.0;
+  tab.coord[3] = 107.0;
+  tab.coord[4] = 111.0;
+  tab.coord[5] = 116.0;
+  tab.coord[6] = 122.0;
+  tab.coord[7] = 129.0;
+  tab.coord[8] = 137.0;
+  tab.coord[9] = 146.0;
+
+  xt0[0]  =  1.0;
+  xt0[1]  =  2.0;
+  xt0[2]  =  3.0;
+  xt0[3]  =  4.0;
+  xt0[4]  =  5.0;
+  xt0[5]  =  6.0;
+  xt0[6]  =  7.0;
+  xt0[7]  =  8.0;
+  xt0[8]  =  9.0;
+  xt0[9]  = 10.0;
+
+  xt0[10] =  0.5;
+  xt0[11] =  1.1;
+  xt0[12] =  2.5;
+  xt0[13] =  4.7;
+  xt0[14] =  8.125;
+  xt0[15] = 10.5;
+
+  status0 = tabx2s(&tab, 16, 1, (double *)xt0, (double *)s, stat0);
+  status1 = tabs2x(&tab, 16, 1, (double *)s, (double *)xt1, stat1);
+
+  printf("    x   ->     s    ->   x\n");
+  for (int i = 0; i < 16; i++) {
+    printf("%8.5f%12.5f%9.5f", xt0[i], s[i], xt1[i]);
+    if (stat0[i] || stat1[i]) {
+      printf("  ERROR\n");
+    } else {
+      printf("\n");
+    }
+    if (i == 9) printf("\n");
+  }
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (int i = 0; i < 16; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+  }
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (int i = 0; i < 16; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+  }
+
+  // Test closure.
+  residmax = 0.0;
+  for (int i = 0, nl = 1; i < 16; i++) {
+    if (stat0[i] || stat1[i]) continue;
+
+    double resid = fabs(xt1[i] - xt0[i]);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      nFail++;
+      if (nl) printf("\n");
+      printf("   Closure error:\n");
+      printf("      x = %20.15f\n", xt0[i]);
+      printf("   -> s = %20.15f\n", s[i]);
+      printf("   -> x = %20.15f\n", xt1[i]);
+      nl = 0;
+    }
+  }
+
+  // Check error handling.
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+  xt0[0] =  0.0;
+  xt0[1] = 11.0;
+  status0 = tabx2s(&tab, 2, 1, (double *)xt0, (double *)s, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (int i = 0; i < 2; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+  }
+
+  s[0] =   0.0;
+  s[1] = 200.0;
+  status1 = tabs2x(&tab, 2, 1, (double *)s, (double *)xt1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (int i = 0; i < 2; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+  }
+
+  printf("\nReports of four invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
+
+  tabfree(&tab);
+  tab.index = 0x0;
+
+
+  // Now the 1-dimensional table from Sect. 6.2.3 of Paper III.
+  printf("\n\nOne-dimensional test with index:\n");
+  M = 1;
+  K[0] = 8;
+
+  tab.flag  = -1;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  tab.M = M;
+  tab.K[0] = K[0];
+  tab.map[0] = 0;
+  tab.crval[0] = 0.0;
+
+  tab.index[0][0] = 0.0;
+  tab.index[0][1] = 1.0;
+  tab.index[0][2] = 1.0;
+  tab.index[0][3] = 2.0;
+  tab.index[0][4] = 2.0;
+  tab.index[0][5] = 3.0;
+  tab.index[0][6] = 3.0;
+  tab.index[0][7] = 4.0;
+
+  tab.coord[0] = 1997.84512;
+  tab.coord[1] = 1997.84631;
+  tab.coord[2] = 1993.28451;
+  tab.coord[3] = 1993.28456;
+  tab.coord[4] = 2001.59234;
+  tab.coord[5] = 2001.59239;
+  tab.coord[6] = 2002.18265;
+  tab.coord[7] = 2002.18301;
+
+  double epsilon = 1e-3;
+  double crpix   = 0.5;
+  xt0[0]  = 0.5 + epsilon - crpix;
+  xt0[1]  = 1.0           - crpix;
+  xt0[2]  = 1.5 - epsilon - crpix;
+  xt0[3]  = 1.5 + epsilon - crpix;
+  xt0[4]  = 2.0           - crpix;
+  xt0[5]  = 2.5 - epsilon - crpix;
+  xt0[6]  = 2.5 + epsilon - crpix;
+  xt0[7]  = 3.0           - crpix;
+  xt0[8]  = 3.5 - epsilon - crpix;
+  xt0[9]  = 3.5 + epsilon - crpix;
+  xt0[10] = 4.0           - crpix;
+  xt0[11] = 4.5 - epsilon - crpix;
+
+  status0 = tabx2s(&tab, 12, 1, (double *)xt0, (double *)s, stat0);
+  status1 = tabs2x(&tab, 12, 1, (double *)s, (double *)xt1, stat1);
+
+  printf("    x   ->   time   ->   x\n");
+  for (int i = 0; i < 12; i++) {
+    printf("%8.5f%12.5f%9.5f", xt0[i], s[i], xt1[i]);
+    if (stat0[i] || stat1[i]) {
+      printf("  ERROR\n");
+    } else {
+      printf("\n");
+    }
+  }
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (int i = 0; i < 12; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+  }
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (int i = 0; i < 12; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+  }
+
+  // Test closure.
+  residmax = 0.0;
+  for (int i = 0, nl = 1; i < 12; i++) {
+    if (stat0[i] || stat1[i]) continue;
+
+    double resid = fabs(xt1[i] - xt0[i]);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      nFail++;
+      if (nl) printf("\n");
+      printf("   Closure error:\n");
+      printf("      x = %20.15f\n", xt0[i]);
+      printf("   -> s = %20.15f\n", s[i]);
+      printf("   -> x = %20.15f\n", xt1[i]);
+      nl = 0;
+    }
+  }
+
+  tabfree(&tab);
+
+
+  // Now a 2-dimensional table.
+  printf("\n\nTwo-dimensional test with index:\n");
+  M = 2;
+  int K1 = 32;
+  int K2 = 16;
+  K[0] = K1;
+  K[1] = K2;
+  int map[] = {0, 1};
+  double crval[] = {4.0, -1.0};
+
+  tab.flag = -1;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  // Set up the tabprm struct.
+  tab.M = M;
+  for (int m = 0; m < tab.M; m++) {
+    tab.K[m] = K[m];
+    tab.map[m] = map[m];
+    tab.crval[m] = crval[m];
+
+    // Construct a trivial 0-relative index.
+    for (int k = 0; k < tab.K[m]; k++) {
+      tab.index[m][k] = (double)k;
+    }
+  }
+
+  // Construct a coordinate table.
+  double z = 1.0 / (double)((K1-1) * (K2-1));
+  for (int k2 = 0, n = 0; k2 < K2; k2++) {
+    for (int k1 = 0; k1 < K1; k1++) {
+      tab.coord[n++] =  3.0*k1*k2*z;
+      tab.coord[n++] = -1.0*(K1-k1-1)*k2*z + 0.01*k1;
+    }
+  }
+
+  // Construct an array of intermediate world coordinates to transform.
+  for (int i = 0; i < 11; i++) {
+    for (int j = 0; j < 11; j++) {
+      // Compute psi_m within bounds...
+      double psi_0 = i*(K1-1)/10.0;
+      double psi_1 = j*(K2-1)/10.0;
+
+      // ...then compute x from it.
+      x0[i][j][0] = psi_0 - crval[0];
+      x0[i][j][1] = psi_1 - crval[1];
+    }
+  }
+
+  // Transform them to and fro.
+  status0 = tabx2s(&tab, 121, 2, (double *)x0, (double *)world, stat0);
+  status1 = tabs2x(&tab, 121, 2, (double *)world, (double *)x1, stat1);
+
+  // Print the results.
+  printf("     x     ->     s       ->     x  \n");
+  for (int i = 0, n = 0; i < 11; i++) {
+    for (int j = 0; j < 11; j++, n++) {
+      // Print every sixth one only.
+      if (n%6) continue;
+
+      printf("(%4.1f,%4.1f)  (%4.2f,%6.3f)  (%4.1f,%4.1f)",
+        x0[i][j][0], x0[i][j][1], world[i][j][0], world[i][j][1],
+        x1[i][j][0], x1[i][j][1]);
+      if (stat0[n] || stat1[n]) {
+        printf("  ERROR\n");
+      } else {
+        printf("\n");
+      }
+    }
+  }
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (int i = 0, n = 0; i < 11; i++) {
+      for (int j = 0; j < 11; j++, n++) {
+        if (stat0[n]) {
+          printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+            x0[i][j][1], stat0[n]);
+        }
+      }
+    }
+  }
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (int i = 0, n = 0; i < 11; i++) {
+      for (int j = 0; j < 11; j++, n++) {
+        if (stat1[n]) {
+          printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+            world[i][j][0], world[i][j][1], stat1[n]);
+        }
+      }
+    }
+  }
+
+  // Check for closure.
+  residmax = 0.0;
+  for (int i = 0, n = 0, nl = 1; i < 11; i++) {
+    for (int j = 0; j < 11; j++, n++) {
+      if (stat0[n] || stat1[n]) continue;
+
+      for (int m = 0; m < M; m++) {
+        double resid = fabs(x1[i][j][m] - x0[i][j][m]);
+        if (resid > residmax) residmax = resid;
+
+        if (resid > tol) {
+          nFail++;
+          if (nl) printf("\n");
+          printf("   Closure error:\n");
+          printf("      x = (%20.15f,%20.15f)\n", x0[i][j][0], x0[i][j][1]);
+          printf("   -> w = (%20.15f,%20.15f)\n", world[i][j][0],
+            world[i][j][1]);
+          printf("   -> x = (%20.15f,%20.15f)\n", x1[i][j][0], x1[i][j][1]);
+          nl = 0;
+
+          break;
+        }
+      }
+    }
+  }
+
+  printf("\ntabx2s/tabs2x: Maximum closure residual = %.1e\n", residmax);
+
+  // Check error handling.
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+
+  x0[0][0][0] = -5.0;
+  x0[0][0][1] =  1.0;
+  x0[0][1][0] =  0.0;
+  x0[0][1][1] =  0.0;
+  x0[0][2][0] = 31.0;
+  x0[0][2][1] =  1.0;
+  x0[0][3][0] =  0.0;
+  x0[0][3][1] = 17.0;
+  status0 = tabx2s(&tab, 4, 2, (double *)x0, (double *)world, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (int j = 0; j < 4; j++) {
+      if (stat0[j]) {
+        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[0][j][0],
+          x0[0][j][1], stat0[j]);
+      }
+    }
+  }
+
+  world[0][0][0] = -1.0;
+  world[0][0][1] =  0.0;
+  world[0][1][0] =  0.0;
+  world[0][1][1] = -2.0;
+  world[0][2][0] =  4.0;
+  world[0][2][1] =  0.0;
+  world[0][3][0] =  0.0;
+  world[0][3][1] =  1.0;
+  status1 = tabs2x(&tab, 4, 2, (double *)world, (double *)x1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (int j = 0; j < 4; j++) {
+      if (stat1[j]) {
+        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+          world[0][j][0], world[0][j][1], stat1[j]);
+      }
+    }
+  }
+
+  printf("\nReports of eight invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
+
+  tabfree(&tab);
+
+
+  if (nFail) {
+    printf("\nFAIL: %d closure residuals exceed reporting tolerance.\n",
+      nFail);
+  } else {
+    printf("\nPASS: All closure residuals are within reporting tolerance.\n");
+  }
+
+  return nFail;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.6.1.2 2026/04/25 08:39:15 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d42 2
+a43 2
+  double *index[1], resid, residmax, s[16], world[11][11][2],
+         xt0[16], xt1[16], x0[11][11][2], x1[11][11][2];
+d146 1
+a146 1
+    resid = fabs(xt1[i] - xt0[i]);
+d288 1
+a288 1
+    resid = fabs(xt1[i] - xt0[i]);
+d411 1
+a411 1
+        resid = fabs(x1[i][j][m] - x0[i][j][m]);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Just a teensy-weensy tweakette.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d42 2
+a43 2
+  double *index[1], residmax, s[16], world[11][11][2], xt0[16], xt1[16],
+         x0[11][11][2], x1[11][11][2];
+d146 1
+a146 1
+    double resid = fabs(xt1[i] - xt0[i]);
+d288 1
+a288 1
+    double resid = fabs(xt1[i] - xt0[i]);
+d411 1
+a411 1
+        double resid = fabs(x1[i][j][m] - x0[i][j][m]);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: ttab1.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: ttab1.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.7.1.3 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d40 4
+a43 7
+  char   nl;
+  int    i, j, K[2], K1, K2, k, k1, k2, M, m, map[2], n, nFail = 0,
+         stat0[128], stat1[128], status, status0, status1;
+  double crpix, crval[2], epsilon, *index[1], psi_0, psi_1, resid, residmax,
+         s[16], world[11][11][2], xt0[16], xt1[16], x0[11][11][2],
+         x1[11][11][2], z;
+  struct tabprm tab;
+d63 1
+d111 1
+a111 1
+  for (i = 0; i < 16; i++) {
+d124 1
+a124 1
+    for (i = 0; i < 16; i++) {
+d134 1
+a134 1
+    for (i = 0; i < 16; i++) {
+a141 1
+  nl = 1;
+d143 1
+a143 1
+  for (i = 0; i < 16; i++) {
+d172 1
+a172 1
+    for (i = 0; i < 2; i++) {
+d186 1
+a186 1
+    for (i = 0; i < 2; i++) {
+d235 2
+a236 2
+  epsilon = 1e-3;
+  crpix   = 0.5;
+d254 1
+a254 1
+  for (i = 0; i < 12; i++) {
+d266 1
+a266 1
+    for (i = 0; i < 12; i++) {
+d276 1
+a276 1
+    for (i = 0; i < 12; i++) {
+a283 1
+  nl = 1;
+d285 1
+a285 1
+  for (i = 0; i < 12; i++) {
+d308 6
+a313 6
+  K[0] = K1 = 32;
+  K[1] = K2 = 16;
+  map[0] = 0;
+  map[1] = 1;
+  crval[0] =  4.0;
+  crval[1] = -1.0;
+d323 1
+a323 1
+  for (m = 0; m < tab.M; m++) {
+d329 1
+a329 1
+    for (k = 0; k < tab.K[m]; k++) {
+d335 3
+a337 4
+  n = 0;
+  z = 1.0 / (double)((K1-1) * (K2-1));
+  for (k2 = 0; k2 < K2; k2++) {
+    for (k1 = 0; k1 < K1; k1++) {
+d344 2
+a345 2
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++) {
+d347 2
+a348 2
+      psi_0 = i*(K1-1)/10.0;
+      psi_1 = j*(K2-1)/10.0;
+d362 2
+a363 3
+  n = 0;
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++, n++) {
+d381 2
+a382 3
+    n = 0;
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+d394 2
+a395 3
+    n = 0;
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+a404 2
+  n  = 0;
+  nl = 1;
+d406 2
+a407 2
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++, n++) {
+d410 1
+a410 1
+      for (m = 0; m < M; m++) {
+d451 1
+a451 1
+    for (j = 0; j < 4; j++) {
+d472 1
+a472 1
+    for (j = 0; j < 4; j++) {
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+d40 7
+a46 4
+  // These variables are used by several independent tests.
+  int    K[2], M, nFail = 0, stat0[128], stat1[128], status, status0, status1;
+  double *index[1], resid, residmax, s[16], world[11][11][2],
+         xt0[16], xt1[16], x0[11][11][2], x1[11][11][2];
+a65 1
+  struct tabprm tab;
+d113 1
+a113 1
+  for (int i = 0; i < 16; i++) {
+d126 1
+a126 1
+    for (int i = 0; i < 16; i++) {
+d136 1
+a136 1
+    for (int i = 0; i < 16; i++) {
+d144 1
+d146 1
+a146 1
+  for (int i = 0, nl = 1; i < 16; i++) {
+d175 1
+a175 1
+    for (int i = 0; i < 2; i++) {
+d189 1
+a189 1
+    for (int i = 0; i < 2; i++) {
+d238 2
+a239 2
+  double epsilon = 1e-3;
+  double crpix   = 0.5;
+d257 1
+a257 1
+  for (int i = 0; i < 12; i++) {
+d269 1
+a269 1
+    for (int i = 0; i < 12; i++) {
+d279 1
+a279 1
+    for (int i = 0; i < 12; i++) {
+d287 1
+d289 1
+a289 1
+  for (int i = 0, nl = 1; i < 12; i++) {
+d312 6
+a317 6
+  int K1 = 32;
+  int K2 = 16;
+  K[0] = K1;
+  K[1] = K2;
+  int map[] = {0, 1};
+  double crval[] = {4.0, -1.0};
+d327 1
+a327 1
+  for (int m = 0; m < tab.M; m++) {
+d333 1
+a333 1
+    for (int k = 0; k < tab.K[m]; k++) {
+d339 4
+a342 3
+  double z = 1.0 / (double)((K1-1) * (K2-1));
+  for (int k2 = 0, n = 0; k2 < K2; k2++) {
+    for (int k1 = 0; k1 < K1; k1++) {
+d349 2
+a350 2
+  for (int i = 0; i < 11; i++) {
+    for (int j = 0; j < 11; j++) {
+d352 2
+a353 2
+      double psi_0 = i*(K1-1)/10.0;
+      double psi_1 = j*(K2-1)/10.0;
+d367 3
+a369 2
+  for (int i = 0, n = 0; i < 11; i++) {
+    for (int j = 0; j < 11; j++, n++) {
+d387 3
+a389 2
+    for (int i = 0, n = 0; i < 11; i++) {
+      for (int j = 0; j < 11; j++, n++) {
+d401 3
+a403 2
+    for (int i = 0, n = 0; i < 11; i++) {
+      for (int j = 0; j < 11; j++, n++) {
+d413 2
+d416 2
+a417 2
+  for (int i = 0, n = 0, nl = 1; i < 11; i++) {
+    for (int j = 0; j < 11; j++, n++) {
+d420 1
+a420 1
+      for (int m = 0; m < M; m++) {
+d461 1
+a461 1
+    for (int j = 0; j < 4; j++) {
+d482 1
+a482 1
+    for (int j = 0; j < 4; j++) {
+@
+
+
+7.7.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.7.1.2 2022/03/21 04:33:31 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: ttab1.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: ttab1.c,v 7.2.1.2 2020/06/03 02:56:47 mcalabre Exp mcalabre $
+d34 1
+a34 1
+/* Reporting tolerance. */
+d52 1
+a52 1
+  /* List status return messages. */
+d61 1
+a61 1
+  /* First a 1-dimensional table without index. */
+d143 1
+a143 1
+  /* Test closure. */
+d163 1
+a163 1
+  /* Check error handling. */
+d204 1
+a204 1
+  /* Now the 1-dimensional table from Sect. 6.2.3 of Paper III. */
+d286 1
+a286 1
+  /* Test closure. */
+d309 1
+a309 1
+  /* Now a 2-dimensional table. */
+d325 1
+a325 1
+  /* Set up the tabprm struct. */
+d332 1
+a332 1
+    /* Construct a trivial 0-relative index. */
+d338 1
+a338 1
+  /* Construct a coordinate table. */
+d348 1
+a348 1
+  /* Construct an array of intermediate world coordinates to transform. */
+d351 1
+a351 1
+      /* Compute psi_m within bounds... */
+d355 1
+a355 1
+      /* ...then compute x from it. */
+d361 1
+a361 1
+  /* Transform them to and fro. */
+d365 1
+a365 1
+  /* Print the results. */
+d370 1
+a370 1
+      /* Print every sixth one only. */
+d412 1
+a412 1
+  /* Check for closure. */
+d442 1
+a442 1
+  /* Check error handling. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: ttab1.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d37 1
+a37 1
+// Reporting tolerance.
+d55 1
+a55 1
+  // List status return messages.
+d64 1
+a64 1
+  // First a 1-dimensional table without index.
+d146 1
+a146 1
+  // Test closure.
+d166 1
+a166 1
+  // Check error handling.
+d207 1
+a207 1
+  // Now the 1-dimensional table from Sect. 6.2.3 of Paper III.
+d289 1
+a289 1
+  // Test closure.
+d312 1
+a312 1
+  // Now a 2-dimensional table.
+d328 1
+a328 1
+  // Set up the tabprm struct.
+d335 1
+a335 1
+    // Construct a trivial 0-relative index.
+d341 1
+a341 1
+  // Construct a coordinate table.
+d351 1
+a351 1
+  // Construct an array of intermediate world coordinates to transform.
+d354 1
+a354 1
+      // Compute psi_m within bounds...
+d358 1
+a358 1
+      // ...then compute x from it.
+d364 1
+a364 1
+  // Transform them to and fro.
+d368 1
+a368 1
+  // Print the results.
+d373 1
+a373 1
+      // Print every sixth one only.
+d415 1
+a415 1
+  // Check for closure.
+d445 1
+a445 1
+  // Check error handling.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: ttab1.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: ttab1.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d390 1
+d404 1
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.2.1.2
+log
+@Fixed a bug in error message reporting.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+a389 1
+    n = 0;
+a402 1
+    n = 0;
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.4.1.3 2019/12/31 13:02:55 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+a125 1
+  nl = 1;
+d127 7
+a133 3
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+d137 7
+a143 2
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+d150 1
+a150 11
+    if (stat0[i]) {
+      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      nl = 1;
+      continue;
+    }
+
+    if (stat1[i]) {
+      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      nl = 1;
+      continue;
+    }
+d166 37
+a268 1
+  nl = 1;
+d270 7
+a276 3
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+d280 7
+a286 2
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+d293 1
+a293 11
+    if (stat0[i]) {
+      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      nl = 1;
+      continue;
+    }
+
+    if (stat1[i]) {
+      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      nl = 1;
+      continue;
+    }
+a386 1
+  nl = 1;
+d388 10
+a397 3
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+d401 10
+a410 2
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+d419 1
+a419 13
+      if (stat0[n]) {
+        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+          x0[i][j][1], stat0[n]);
+        nl = 1;
+        continue;
+      }
+
+      if (stat1[n]) {
+        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+          world[i][j][0], world[i][j][1], stat1[n]);
+        nl = 1;
+        continue;
+      }
+d442 52
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.3
+log
+@Added tests of the handling of out-of-bounds coordinates by tabx2s() and
+tabs2x().
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+d126 1
+d128 3
+a130 7
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 16; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+d134 2
+a135 7
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 16; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+d142 11
+a152 1
+    if (stat0[i] || stat1[i]) continue;
+a167 37
+  /* Check error handling. */
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+  xt0[0] =  0.0;
+  xt0[1] = 11.0;
+  status0 = tabx2s(&tab, 2, 1, (double *)xt0, (double *)s, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 2; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+  }
+
+  s[0] =   0.0;
+  s[1] = 200.0;
+  status1 = tabs2x(&tab, 2, 1, (double *)s, (double *)xt1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 2; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+  }
+
+  printf("\nReports of four invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
+
+d234 1
+d236 3
+a238 7
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 12; i++) {
+      if (stat0[i]) {
+        printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      }
+    }
+d242 2
+a243 7
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 12; i++) {
+      if (stat1[i]) {
+        printf("   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      }
+    }
+d250 11
+a260 1
+    if (stat0[i] || stat1[i]) continue;
+d354 1
+d356 3
+a358 10
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+        if (stat0[n]) {
+          printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+            x0[i][j][1], stat0[n]);
+        }
+      }
+    }
+d362 2
+a363 10
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+        if (stat1[n]) {
+          printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+            world[i][j][0], world[i][j][1], stat1[n]);
+        }
+      }
+    }
+d372 13
+a384 1
+      if (stat0[n] || stat1[n]) continue;
+a406 52
+
+  /* Check error handling. */
+  printf("\n");
+  printf("------------------------------------"
+         "------------------------------------\n"
+         "Test of error handling in tabx2s() and tabs2x().\n");
+
+  x0[0][0][0] = -5.0;
+  x0[0][0][1] =  1.0;
+  x0[0][1][0] =  0.0;
+  x0[0][1][1] =  0.0;
+  x0[0][2][0] = 31.0;
+  x0[0][2][1] =  1.0;
+  x0[0][3][0] =  0.0;
+  x0[0][3][1] = 17.0;
+  status0 = tabx2s(&tab, 4, 2, (double *)x0, (double *)world, stat0);
+
+  if (status0) {
+    printf("\ntabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+
+    for (j = 0; j < 4; j++) {
+      if (stat0[j]) {
+        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[0][j][0],
+          x0[0][j][1], stat0[j]);
+      }
+    }
+  }
+
+  world[0][0][0] = -1.0;
+  world[0][0][1] =  0.0;
+  world[0][1][0] =  0.0;
+  world[0][1][1] = -2.0;
+  world[0][2][0] =  4.0;
+  world[0][2][1] =  0.0;
+  world[0][3][0] =  0.0;
+  world[0][3][1] =  1.0;
+  status1 = tabs2x(&tab, 4, 2, (double *)world, (double *)x1, stat1);
+
+  if (status1) {
+    printf("\ntabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+
+    for (j = 0; j < 4; j++) {
+      if (stat1[j]) {
+        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+          world[0][j][0], world[0][j][1], stat1[j]);
+      }
+    }
+  }
+
+  printf("\nReports of eight invalid coordinates are expected.\n"
+         "------------------------------------"
+         "------------------------------------\n");
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: ttab1.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: ttab1.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: ttab1.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: ttab1.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.7.1.2 2011/08/12 03:07:50 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.6.1.3 2011/02/01 05:35:12 cal103 Exp cal103 $
+d50 2
+a51 2
+  int    i, j, K[2], K1, K2, k, k1, k2, M, m, map[2], n, stat0[128],
+         stat1[128], status, status0, status1;
+d164 1
+d272 1
+d397 1
+d412 1
+a412 1
+  printf("\nMaximum closure residual = %.12E\n", residmax);
+d416 9
+a424 1
+  return 0;
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Report PASS/FAIL and return the number of failures.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d50 2
+a51 2
+  int    i, j, K[2], K1, K2, k, k1, k2, M, m, map[2], n, nFail = 0,
+         stat0[128], stat1[128], status, status0, status1;
+a163 1
+      nFail++;
+a270 1
+      nFail++;
+a394 1
+          nFail++;
+d409 1
+a409 1
+  printf("\ntabx2s/tabs2x: Maximum closure residual = %.1e\n", residmax);
+d413 1
+a413 9
+
+  if (nFail) {
+    printf("\nFAIL: %d closure residuals exceed reporting tolerance.\n",
+      nFail);
+  } else {
+    printf("\nPASS: All closure residuals are within reporting tolerance.\n");
+  }
+
+  return nFail;
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+a45 3
+#define K1 32
+#define K2 16
+
+d49 6
+a54 8
+  const int M = 2;
+  const int K[] = {K1, K2};
+  const int map[] = {0, 1};
+  const double crval[] = {1.0, -1.0};
+
+  int i, j, k, k1, k2, m, n, stat0[128], stat1[128], status;
+  double crpix4, epsilon, resid, residmax, time[12], world[11][11][2],
+         xt0[12], xt1[12], x0[11][11][2], x1[11][11][2], z;
+d70 113
+a182 3
+  /* First a 1-dimensional table from Sect. 6.2.3 of Paper III. */
+  printf("\nOne-dimensional test:\n");
+  tab.flag = -1;
+d188 2
+a189 2
+  tab.M = 1;
+  tab.K[0] = 8;
+d212 16
+a227 13
+  crpix4  = 0.5;
+  xt0[0]  = 0.5 + epsilon - crpix4;
+  xt0[1]  = 1.0           - crpix4;
+  xt0[2]  = 1.5 - epsilon - crpix4;
+  xt0[3]  = 1.5 + epsilon - crpix4;
+  xt0[4]  = 2.0           - crpix4;
+  xt0[5]  = 2.5 - epsilon - crpix4;
+  xt0[6]  = 2.5 + epsilon - crpix4;
+  xt0[7]  = 3.0           - crpix4;
+  xt0[8]  = 3.5 - epsilon - crpix4;
+  xt0[9]  = 3.5 + epsilon - crpix4;
+  xt0[10] = 4.0           - crpix4;
+  xt0[11] = 4.5 - epsilon - crpix4;
+d229 8
+a236 2
+  if ((status = tabx2s(&tab, 12, 1, (double *)xt0, (double *)time, stat0))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+d239 5
+a243 2
+  if ((status = tabs2x(&tab, 12, 1, (double *)time, (double *)xt1, stat1))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+d246 3
+a248 3
+  printf("    x   ->   time   ->   x\n");
+  for (i = 0; i < 12; i++) {
+    printf("%8.5f%12.5f%9.5f\n", xt0[i], time[i], xt1[i]);
+a249 1
+  printf("\n");
+d252 1
+d256 2
+a257 1
+      printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+d262 2
+a263 1
+      printf("   tabs2x: t = %6.1f, stat = %d\n", time[i], stat1[i]);
+d271 1
+d274 1
+a274 1
+      printf("   -> t = %20.15f\n", time[i]);
+d276 1
+d284 9
+a292 1
+  printf("Two-dimensional test:\n");
+d299 1
+d306 1
+d312 1
+d314 1
+a314 1
+  z = 1.0 / ((K1-1) * (K2-1));
+d322 1
+d325 30
+a354 2
+      x0[i][j][0] = j*(K1-1)/10.0 - crval[0];
+      x0[i][j][1] = i*(K2-1)/10.0 - crval[1];
+d358 5
+a362 2
+  if ((status = tabx2s(&tab, 121, 2, (double *)x0, (double *)world, stat0))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+d365 3
+a367 2
+  if ((status = tabs2x(&tab, 121, 2, (double *)world, (double *)x1, stat1))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+d370 3
+a372 2
+  /* Test closure. */
+  n = 0;
+d377 4
+a380 3
+         printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+           x0[i][j][1], stat0[n]);
+         continue;
+d386 1
+d395 1
+d401 1
+d409 1
+a409 1
+  printf("Maximum closure residual = %.12E\n", residmax);
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Added a new test based on a 1-dimensional table without index.
+Worked over the other tests, mainly to improve the output and
+source code comments.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+d46 3
+d52 8
+a59 6
+  char   nl;
+  int    i, j, K[2], K1, K2, k, k1, k2, M, m, map[2], n, stat0[128],
+         stat1[128], status, status0, status1;
+  double crpix, crval[2], epsilon, *index[1], psi_0, psi_1, resid, residmax,
+         s[16], world[11][11][2], xt0[16], xt1[16], x0[11][11][2],
+         x1[11][11][2], z;
+d75 3
+a77 113
+  /* First a 1-dimensional table without index. */
+  printf("\nOne-dimensional test without index:\n");
+  M = 1;
+  K[0] = 10;
+
+  tab.flag  = -1;
+  tab.index = index;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  tab.M = M;
+  tab.K[0] = K[0];
+  tab.map[0] = 0;
+  tab.crval[0] = 0.0;
+
+  tab.index[0] = 0x0;
+
+  tab.coord[0] = 101.0;
+  tab.coord[1] = 102.0;
+  tab.coord[2] = 104.0;
+  tab.coord[3] = 107.0;
+  tab.coord[4] = 111.0;
+  tab.coord[5] = 116.0;
+  tab.coord[6] = 122.0;
+  tab.coord[7] = 129.0;
+  tab.coord[8] = 137.0;
+  tab.coord[9] = 146.0;
+
+  xt0[0]  =  1.0;
+  xt0[1]  =  2.0;
+  xt0[2]  =  3.0;
+  xt0[3]  =  4.0;
+  xt0[4]  =  5.0;
+  xt0[5]  =  6.0;
+  xt0[6]  =  7.0;
+  xt0[7]  =  8.0;
+  xt0[8]  =  9.0;
+  xt0[9]  = 10.0;
+
+  xt0[10] =  0.5;
+  xt0[11] =  1.1;
+  xt0[12] =  2.5;
+  xt0[13] =  4.7;
+  xt0[14] =  8.125;
+  xt0[15] = 10.5;
+
+  status0 = tabx2s(&tab, 16, 1, (double *)xt0, (double *)s, stat0);
+  status1 = tabs2x(&tab, 16, 1, (double *)s, (double *)xt1, stat1);
+
+  printf("    x   ->     s    ->   x\n");
+  for (i = 0; i < 16; i++) {
+    printf("%8.5f%12.5f%9.5f", xt0[i], s[i], xt1[i]);
+    if (stat0[i] || stat1[i]) {
+      printf("  ERROR\n");
+    } else {
+      printf("\n");
+    }
+    if (i == 9) printf("\n");
+  }
+
+  nl = 1;
+  if (status0) {
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+  }
+
+  if (status1) {
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+  }
+
+  /* Test closure. */
+  nl = 1;
+  residmax = 0.0;
+  for (i = 0; i < 16; i++) {
+    if (stat0[i]) {
+      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      nl = 1;
+      continue;
+    }
+
+    if (stat1[i]) {
+      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      nl = 1;
+      continue;
+    }
+
+    resid = fabs(xt1[i] - xt0[i]);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      if (nl) printf("\n");
+      printf("   Closure error:\n");
+      printf("      x = %20.15f\n", xt0[i]);
+      printf("   -> s = %20.15f\n", s[i]);
+      printf("   -> x = %20.15f\n", xt1[i]);
+      nl = 0;
+    }
+  }
+
+  tabfree(&tab);
+  tab.index = 0x0;
+
+
+  /* Now the 1-dimensional table from Sect. 6.2.3 of Paper III. */
+  printf("\n\nOne-dimensional test with index:\n");
+  M = 1;
+  K[0] = 8;
+
+  tab.flag  = -1;
+d83 2
+a84 2
+  tab.M = M;
+  tab.K[0] = K[0];
+d107 13
+a119 16
+  crpix   = 0.5;
+  xt0[0]  = 0.5 + epsilon - crpix;
+  xt0[1]  = 1.0           - crpix;
+  xt0[2]  = 1.5 - epsilon - crpix;
+  xt0[3]  = 1.5 + epsilon - crpix;
+  xt0[4]  = 2.0           - crpix;
+  xt0[5]  = 2.5 - epsilon - crpix;
+  xt0[6]  = 2.5 + epsilon - crpix;
+  xt0[7]  = 3.0           - crpix;
+  xt0[8]  = 3.5 - epsilon - crpix;
+  xt0[9]  = 3.5 + epsilon - crpix;
+  xt0[10] = 4.0           - crpix;
+  xt0[11] = 4.5 - epsilon - crpix;
+
+  status0 = tabx2s(&tab, 12, 1, (double *)xt0, (double *)s, stat0);
+  status1 = tabs2x(&tab, 12, 1, (double *)s, (double *)xt1, stat1);
+d121 2
+a122 8
+  printf("    x   ->   time   ->   x\n");
+  for (i = 0; i < 12; i++) {
+    printf("%8.5f%12.5f%9.5f", xt0[i], s[i], xt1[i]);
+    if (stat0[i] || stat1[i]) {
+      printf("  ERROR\n");
+    } else {
+      printf("\n");
+    }
+d125 2
+a126 5
+  nl = 1;
+  if (status0) {
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+d129 3
+a131 3
+  if (status1) {
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+d133 1
+a135 1
+  nl = 1;
+d139 1
+a139 2
+      printf("\n   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      nl = 1;
+d144 1
+a144 2
+      printf("\n   tabs2x: s = %6.1f, stat = %d\n", s[i], stat1[i]);
+      nl = 1;
+a151 1
+      if (nl) printf("\n");
+d154 1
+a154 1
+      printf("   -> s = %20.15f\n", s[i]);
+a155 1
+      nl = 0;
+d163 1
+a163 9
+  printf("\n\nTwo-dimensional test with index:\n");
+  M = 2;
+  K[0] = K1 = 32;
+  K[1] = K2 = 16;
+  map[0] = 0;
+  map[1] = 1;
+  crval[0] =  4.0;
+  crval[1] = -1.0;
+
+a169 1
+  /* Set up the tabprm struct. */
+a175 1
+    /* Construct a trivial 0-relative index. */
+a180 1
+  /* Construct a coordinate table. */
+d182 1
+a182 1
+  z = 1.0 / (double)((K1-1) * (K2-1));
+a189 1
+  /* Construct an array of intermediate world coordinates to transform. */
+d192 2
+a193 30
+      /* Compute psi_m within bounds... */
+      psi_0 = i*(K1-1)/10.0;
+      psi_1 = j*(K2-1)/10.0;
+
+      /* ...then compute x from it. */
+      x0[i][j][0] = psi_0 - crval[0];
+      x0[i][j][1] = psi_1 - crval[1];
+    }
+  }
+
+  /* Transform them to and fro. */
+  status0 = tabx2s(&tab, 121, 2, (double *)x0, (double *)world, stat0);
+  status1 = tabs2x(&tab, 121, 2, (double *)world, (double *)x1, stat1);
+
+  /* Print the results. */
+  printf("     x     ->     s       ->     x  \n");
+  n = 0;
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++, n++) {
+      /* Print every sixth one only. */
+      if (n%6) continue;
+
+      printf("(%4.1f,%4.1f)  (%4.2f,%6.3f)  (%4.1f,%4.1f)",
+        x0[i][j][0], x0[i][j][1], world[i][j][0], world[i][j][1],
+        x1[i][j][0], x1[i][j][1]);
+      if (stat0[n] || stat1[n]) {
+        printf("  ERROR\n");
+      } else {
+        printf("\n");
+      }
+d197 2
+a198 5
+  nl = 1;
+  if (status0) {
+    if (nl) printf("\n");
+    printf("tabx2s ERROR %d: %s.\n", status0, tab_errmsg[status0]);
+    nl = 0;
+d201 2
+a202 3
+  if (status1) {
+    if (nl) printf("\n");
+    printf("tabs2x ERROR %d: %s.\n", status1, tab_errmsg[status1]);
+d205 2
+a206 3
+  /* Check for closure. */
+  n  = 0;
+  nl = 1;
+d211 3
+a213 4
+        printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+          x0[i][j][1], stat0[n]);
+        nl = 1;
+        continue;
+a218 1
+        nl = 1;
+a226 1
+          if (nl) printf("\n");
+a231 1
+          nl = 0;
+d239 1
+a239 1
+  printf("\nMaximum closure residual = %.12E\n", residmax);
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.3.1.2 2009/07/22 06:38:03 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: ttab1.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: ttab1.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: ttab1.c,v 4.2.1.3 2007/12/03 05:12:59 cal103 Exp $
+d34 1
+a34 1
+*   ttab1 tests the -TAB routines for closure.
+d52 161
+a212 88
+   const int M = 2;
+   const int K[] = {K1, K2};
+   const int map[] = {0, 1};
+   const double crval[] = {1.0, -1.0};
+
+   int i, j, k, k1, k2, m, n, stat0[128], stat1[128], status;
+   double crpix4, epsilon, resid, residmax, time[12], world[11][11][2],
+          xt0[12], xt1[12], x0[11][11][2], x1[11][11][2], z;
+   struct tabprm tab;
+
+   printf(
+      "Testing closure of WCSLIB tabular coordinate routines (ttab1.c)\n"
+      "---------------------------------------------------------------\n");
+
+   /* List status return messages. */
+   printf("\nList of tab status return values:\n");
+   for (status = 1; status <= 5; status++) {
+      printf("%4d: %s.\n", status, tab_errmsg[status]);
+   }
+
+   printf("\nReporting tolerance %5.1G.\n", tol);
+
+
+   /* First a 1-dimensional table from Sect. 6.2.3 of Paper III. */
+   printf("\nOne-dimensional test:\n");
+   tab.flag = -1;
+   if ((status = tabini(1, M, K, &tab))) {
+      printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+      return 1;
+   }
+
+   tab.M = 1;
+   tab.K[0] = 8;
+   tab.map[0] = 0;
+   tab.crval[0] = 0.0;
+
+   tab.index[0][0] = 0.0;
+   tab.index[0][1] = 1.0;
+   tab.index[0][2] = 1.0;
+   tab.index[0][3] = 2.0;
+   tab.index[0][4] = 2.0;
+   tab.index[0][5] = 3.0;
+   tab.index[0][6] = 3.0;
+   tab.index[0][7] = 4.0;
+
+   tab.coord[0] = 1997.84512;
+   tab.coord[1] = 1997.84631;
+   tab.coord[2] = 1993.28451;
+   tab.coord[3] = 1993.28456;
+   tab.coord[4] = 2001.59234;
+   tab.coord[5] = 2001.59239;
+   tab.coord[6] = 2002.18265;
+   tab.coord[7] = 2002.18301;
+
+   epsilon = 1e-3;
+   crpix4  = 0.5;
+   xt0[0]  = 0.5 + epsilon - crpix4;
+   xt0[1]  = 1.0           - crpix4;
+   xt0[2]  = 1.5 - epsilon - crpix4;
+   xt0[3]  = 1.5 + epsilon - crpix4;
+   xt0[4]  = 2.0           - crpix4;
+   xt0[5]  = 2.5 - epsilon - crpix4;
+   xt0[6]  = 2.5 + epsilon - crpix4;
+   xt0[7]  = 3.0           - crpix4;
+   xt0[8]  = 3.5 - epsilon - crpix4;
+   xt0[9]  = 3.5 + epsilon - crpix4;
+   xt0[10] = 4.0           - crpix4;
+   xt0[11] = 4.5 - epsilon - crpix4;
+
+   if ((status = tabx2s(&tab, 12, 1, (double *)xt0, (double *)time, stat0))) {
+      printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+   }
+
+   if ((status = tabs2x(&tab, 12, 1, (double *)time, (double *)xt1, stat1))) {
+      printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+   }
+
+   printf("    x   ->   time   ->   x\n");
+   for (i = 0; i < 12; i++) {
+      printf("%8.5f%12.5f%9.5f\n", xt0[i], time[i], xt1[i]);
+   }
+   printf("\n");
+
+   /* Test closure. */
+   residmax = 0.0;
+   for (i = 0; i < 12; i++) {
+      if (stat0[i]) {
+         printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+d216 4
+a219 13
+      if (stat1[i]) {
+         printf("   tabs2x: t = %6.1f, stat = %d\n", time[i], stat1[i]);
+         continue;
+      }
+
+      resid = fabs(xt1[i] - xt0[i]);
+      if (resid > residmax) residmax = resid;
+
+      if (resid > tol) {
+         printf("   Closure error:\n");
+         printf("      x = %20.15f\n", xt0[i]);
+         printf("   -> t = %20.15f\n", time[i]);
+         printf("   -> x = %20.15f\n", xt1[i]);
+a220 4
+   }
+
+   tabfree(&tab);
+
+d222 3
+a224 13
+   /* Now a 2-dimensional table. */
+   printf("Two-dimensional test:\n");
+   tab.flag = -1;
+   if ((status = tabini(1, M, K, &tab))) {
+      printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+      return 1;
+   }
+
+   tab.M = M;
+   for (m = 0; m < tab.M; m++) {
+      tab.K[m] = K[m];
+      tab.map[m] = map[m];
+      tab.crval[m] = crval[m];
+d226 6
+a231 20
+      for (k = 0; k < tab.K[m]; k++) {
+         tab.index[m][k] = (double)k;
+      }
+   }
+
+   n = 0;
+   z = 1.0 / ((K1-1) * (K2-1));
+   for (k2 = 0; k2 < K2; k2++) {
+      for (k1 = 0; k1 < K1; k1++) {
+         tab.coord[n++] =  3.0*k1*k2*z;
+         tab.coord[n++] = -1.0*(K1-k1-1)*k2*z + 0.01*k1;
+      }
+   }
+
+   for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++) {
+         x0[i][j][0] = j*(K1-1)/10.0 - crval[0];
+         x0[i][j][1] = i*(K2-1)/10.0 - crval[1];
+      }
+   }
+d233 2
+a234 43
+   if ((status = tabx2s(&tab, 121, 2, (double *)x0, (double *)world,
+                        stat0))) {
+      printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+   }
+
+   if ((status = tabs2x(&tab, 121, 2, (double *)world, (double *)x1,
+                        stat1))) {
+      printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+   }
+
+   /* Test closure. */
+   n = 0;
+   residmax = 0.0;
+   for (i = 0; i < 11; i++) {
+      for (j = 0; j < 11; j++, n++) {
+         if (stat0[n]) {
+            printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+               x0[i][j][1], stat0[n]);
+            continue;
+         }
+
+         if (stat1[n]) {
+            printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+               world[i][j][0], world[i][j][1], stat1[n]);
+            continue;
+         }
+
+         for (m = 0; m < M; m++) {
+            resid = fabs(x1[i][j][m] - x0[i][j][m]);
+            if (resid > residmax) residmax = resid;
+
+            if (resid > tol) {
+               printf("   Closure error:\n");
+               printf("      x = (%20.15f,%20.15f)\n", x0[i][j][0],
+                 x0[i][j][1]);
+               printf("   -> w = (%20.15f,%20.15f)\n", world[i][j][0],
+                 world[i][j][1]);
+               printf("   -> x = (%20.15f,%20.15f)\n", x1[i][j][0],
+                 x1[i][j][1]);
+
+               break;
+            }
+         }
+d236 2
+a237 1
+   }
+d239 1
+a239 1
+   printf("Maximum closure residual = %.12E\n", residmax);
+d241 1
+a241 1
+   tabfree(&tab);
+d243 1
+a243 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: ttab1.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: ttab1.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 1
+a34 1
+* ttab1 tests the -TAB routines for closure.
+d52 88
+a139 161
+  const int M = 2;
+  const int K[] = {K1, K2};
+  const int map[] = {0, 1};
+  const double crval[] = {1.0, -1.0};
+
+  int i, j, k, k1, k2, m, n, stat0[128], stat1[128], status;
+  double crpix4, epsilon, resid, residmax, time[12], world[11][11][2],
+         xt0[12], xt1[12], x0[11][11][2], x1[11][11][2], z;
+  struct tabprm tab;
+
+  printf(
+    "Testing closure of WCSLIB tabular coordinate routines (ttab1.c)\n"
+    "---------------------------------------------------------------\n");
+
+  /* List status return messages. */
+  printf("\nList of tab status return values:\n");
+  for (status = 1; status <= 5; status++) {
+    printf("%4d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  printf("\nReporting tolerance %5.1G.\n", tol);
+
+
+  /* First a 1-dimensional table from Sect. 6.2.3 of Paper III. */
+  printf("\nOne-dimensional test:\n");
+  tab.flag = -1;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  tab.M = 1;
+  tab.K[0] = 8;
+  tab.map[0] = 0;
+  tab.crval[0] = 0.0;
+
+  tab.index[0][0] = 0.0;
+  tab.index[0][1] = 1.0;
+  tab.index[0][2] = 1.0;
+  tab.index[0][3] = 2.0;
+  tab.index[0][4] = 2.0;
+  tab.index[0][5] = 3.0;
+  tab.index[0][6] = 3.0;
+  tab.index[0][7] = 4.0;
+
+  tab.coord[0] = 1997.84512;
+  tab.coord[1] = 1997.84631;
+  tab.coord[2] = 1993.28451;
+  tab.coord[3] = 1993.28456;
+  tab.coord[4] = 2001.59234;
+  tab.coord[5] = 2001.59239;
+  tab.coord[6] = 2002.18265;
+  tab.coord[7] = 2002.18301;
+
+  epsilon = 1e-3;
+  crpix4  = 0.5;
+  xt0[0]  = 0.5 + epsilon - crpix4;
+  xt0[1]  = 1.0           - crpix4;
+  xt0[2]  = 1.5 - epsilon - crpix4;
+  xt0[3]  = 1.5 + epsilon - crpix4;
+  xt0[4]  = 2.0           - crpix4;
+  xt0[5]  = 2.5 - epsilon - crpix4;
+  xt0[6]  = 2.5 + epsilon - crpix4;
+  xt0[7]  = 3.0           - crpix4;
+  xt0[8]  = 3.5 - epsilon - crpix4;
+  xt0[9]  = 3.5 + epsilon - crpix4;
+  xt0[10] = 4.0           - crpix4;
+  xt0[11] = 4.5 - epsilon - crpix4;
+
+  if ((status = tabx2s(&tab, 12, 1, (double *)xt0, (double *)time, stat0))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  if ((status = tabs2x(&tab, 12, 1, (double *)time, (double *)xt1, stat1))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  printf("    x   ->   time   ->   x\n");
+  for (i = 0; i < 12; i++) {
+    printf("%8.5f%12.5f%9.5f\n", xt0[i], time[i], xt1[i]);
+  }
+  printf("\n");
+
+  /* Test closure. */
+  residmax = 0.0;
+  for (i = 0; i < 12; i++) {
+    if (stat0[i]) {
+      printf("   tabx2s: x = %6.1f, stat = %d\n", xt0[i], stat0[i]);
+      continue;
+    }
+
+    if (stat1[i]) {
+      printf("   tabs2x: t = %6.1f, stat = %d\n", time[i], stat1[i]);
+      continue;
+    }
+
+    resid = fabs(xt1[i] - xt0[i]);
+    if (resid > residmax) residmax = resid;
+
+    if (resid > tol) {
+      printf("   Closure error:\n");
+      printf("      x = %20.15f\n", xt0[i]);
+      printf("   -> t = %20.15f\n", time[i]);
+      printf("   -> x = %20.15f\n", xt1[i]);
+    }
+  }
+
+  tabfree(&tab);
+
+
+  /* Now a 2-dimensional table. */
+  printf("Two-dimensional test:\n");
+  tab.flag = -1;
+  if ((status = tabini(1, M, K, &tab))) {
+    printf("tabini ERROR %d: %s.\n", status, tab_errmsg[status]);
+    return 1;
+  }
+
+  tab.M = M;
+  for (m = 0; m < tab.M; m++) {
+    tab.K[m] = K[m];
+    tab.map[m] = map[m];
+    tab.crval[m] = crval[m];
+
+    for (k = 0; k < tab.K[m]; k++) {
+      tab.index[m][k] = (double)k;
+    }
+  }
+
+  n = 0;
+  z = 1.0 / ((K1-1) * (K2-1));
+  for (k2 = 0; k2 < K2; k2++) {
+    for (k1 = 0; k1 < K1; k1++) {
+      tab.coord[n++] =  3.0*k1*k2*z;
+      tab.coord[n++] = -1.0*(K1-k1-1)*k2*z + 0.01*k1;
+    }
+  }
+
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++) {
+      x0[i][j][0] = j*(K1-1)/10.0 - crval[0];
+      x0[i][j][1] = i*(K2-1)/10.0 - crval[1];
+    }
+  }
+
+  if ((status = tabx2s(&tab, 121, 2, (double *)x0, (double *)world, stat0))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  if ((status = tabs2x(&tab, 121, 2, (double *)world, (double *)x1, stat1))) {
+    printf("tabx2s ERROR %d: %s.\n", status, tab_errmsg[status]);
+  }
+
+  /* Test closure. */
+  n = 0;
+  residmax = 0.0;
+  for (i = 0; i < 11; i++) {
+    for (j = 0; j < 11; j++, n++) {
+      if (stat0[n]) {
+         printf("   tabx2s: x = (%6.1f,%6.1f), stat = %d\n", x0[i][j][0],
+           x0[i][j][1], stat0[n]);
+d143 13
+a155 4
+      if (stat1[n]) {
+        printf("   tabs2x: s = (%6.1f,%6.1f), stat = %d\n",
+          world[i][j][0], world[i][j][1], stat1[n]);
+        continue;
+d157 4
+d162 13
+a174 3
+      for (m = 0; m < M; m++) {
+        resid = fabs(x1[i][j][m] - x0[i][j][m]);
+        if (resid > residmax) residmax = resid;
+d176 20
+a195 6
+        if (resid > tol) {
+          printf("   Closure error:\n");
+          printf("      x = (%20.15f,%20.15f)\n", x0[i][j][0], x0[i][j][1]);
+          printf("   -> w = (%20.15f,%20.15f)\n", world[i][j][0],
+            world[i][j][1]);
+          printf("   -> x = (%20.15f,%20.15f)\n", x1[i][j][0], x1[i][j][1]);
+d197 43
+a239 2
+          break;
+        }
+d241 1
+a241 2
+    }
+  }
+d243 1
+a243 1
+  printf("Maximum closure residual = %.12E\n", residmax);
+d245 1
+a245 1
+  tabfree(&tab);
+d247 1
+a247 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; fixed non-standard
+usage reported by 'gcc -ansi -pedantic'.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: ttab1.c,v 4.1 2005/08/31 04:08:59 cal103 Exp cal103 $
+d78 1
+a78 1
+   if (status = tabini(1, M, K, &tab)) {
+d121 1
+a121 1
+   if (status = tabx2s(&tab, 12, 1, (double *)xt0, (double *)time, stat0)) {
+d125 1
+a125 1
+   if (status = tabs2x(&tab, 12, 1, (double *)time, (double *)xt1, stat1)) {
+d165 1
+a165 1
+   if (status = tabini(1, M, K, &tab)) {
+d197 2
+a198 1
+   if (status = tabx2s(&tab, 121, 2, (double *)x0, (double *)world, stat0)) {
+d202 2
+a203 1
+   if (status = tabs2x(&tab, 121, 2, (double *)world, (double *)x1, stat1)) {
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: ttab1.c,v 4.2 2005/09/22 02:15:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Parenthesised assignments used as truth values.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: ttab1.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+d77 1
+a77 1
+   if ((status = tabini(1, M, K, &tab))) {
+d120 1
+a120 1
+   if ((status = tabx2s(&tab, 12, 1, (double *)xt0, (double *)time, stat0))) {
+d124 1
+a124 1
+   if ((status = tabs2x(&tab, 12, 1, (double *)time, (double *)xt1, stat1))) {
+d164 1
+a164 1
+   if ((status = tabini(1, M, K, &tab))) {
+d196 1
+a196 2
+   if ((status = tabx2s(&tab, 121, 2, (double *)x0, (double *)world,
+                        stat0))) {
+d200 1
+a200 2
+   if ((status = tabs2x(&tab, 121, 2, (double *)world, (double *)x1,
+                        stat1))) {
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: ttab1.c,v 4.2.1.2 2007/06/29 06:42:45 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: invoke tabfree() to prevent purify reporting memory leaks;
+trivial changes to output formatting.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: ttab1.c,v 4.0 2005/02/06 11:49:07 cal103 Exp cal103 $
+d45 3
+d51 2
+a52 2
+   const int M  = 2;
+   const int K[] = {32, 16};
+d57 2
+a58 2
+   double crpix4, epsilon, resid, residmax, time[12], world[11][11][M],
+          xt0[12], xt1[12], x0[11][11][M], x1[11][11][M], z;
+d61 3
+a63 2
+   printf("\nTesting closure of WCSLIB tabular coordinate routines\n");
+   printf("-----------------------------------------------------\n");
+d181 3
+a183 3
+   z = 1.0 / ((K[0]-1) * (K[1]-1));
+   for (k2 = 0; k2 < K[1]; k2++) {
+      for (k1 = 0; k1 < K[0]; k1++) {
+d185 1
+a185 1
+         tab.coord[n++] = -1.0*(K[0]-k1-1)*k2*z + 0.01*k1;
+d191 2
+a192 2
+         x0[i][j][0] = j*(K[0]-1)/10.0 - crval[0];
+         x0[i][j][1] = i*(K[1]-1)/10.0 - crval[1];
+@
+
+
+4.0
+log
+@WCSLIB 4.0: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: ttab1.c,v 4.0 2005/02/04 06:50:22 cal103 Exp cal103 $
+d49 1
+a49 3
+   const int K1 = 32;
+   const int K2 = 16;
+   const int K[] = {K1, K2};
+d63 2
+a64 2
+   for (j = 1; j <= 4 ; j++) {
+      printf("   %d: %s.\n", j, tab_errmsg[j]);
+d71 1
+d74 1
+a74 1
+      printf("tabini: %s.\n", tab_errmsg[status]);
+d117 1
+a117 1
+      printf("tabx2s: %s.\n", tab_errmsg[status]);
+d121 1
+a121 1
+      printf("tabx2s: %s.\n", tab_errmsg[status]);
+d124 1
+a124 1
+   printf("\nOne-dimensional test:\n    x   ->   time   ->   x\n");
+d154 2
+d158 1
+d161 1
+a161 1
+      printf("tabini: %s.\n", tab_errmsg[status]);
+d177 3
+a179 3
+   z = 1.0/((K1-1)*(K2-1));
+   for (k2 = 0; k2 < K2; k2++) {
+      for (k1 = 0; k1 < K1; k1++) {
+d181 1
+a181 1
+         tab.coord[n++] = -1.0*(K1-k1-1)*k2*z + 0.01*k1;
+d187 2
+a188 2
+         x0[i][j][0] = j*(K1-1)/10.0 - crval[0];
+         x0[i][j][1] = i*(K2-1)/10.0 - crval[1];
+d193 1
+a193 1
+      printf("tabx2s: %s.\n", tab_errmsg[status]);
+d197 1
+a197 1
+      printf("tabx2s: %s.\n", tab_errmsg[status]);
+a200 1
+   printf("Two-dimensional test:\n");
+d237 2
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 238
+@

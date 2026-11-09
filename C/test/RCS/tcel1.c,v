@@ -1,0 +1,5519 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.02.15.15;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.22.07.29.13;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.24.20;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.31.25;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.02.17;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.23.05;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.10.05;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.40.16;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.04.27.07;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.16.39;	author mcalabre;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	2002.04.03.01.25.29;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2002.04.03.00.08.13;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2001.11.15.03.42.24;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2001.10.18.04.51.35;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.12.04.08.28.07;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2000.05.10.04.44.05;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.12.13.07.31.13;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.06.16.00.04.54;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.02.25.07.05.50;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.01.30.00.17.46;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	96.05.07.20.29.03;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.06.29.46;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.12.06.25.54;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.13.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.12.03.05.12.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.37.43;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.12.51.02;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.10.13.29.43;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.4;
+
+8.6.1.4
+date	2026.04.25.07.56.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test the WCSLIB celestial coordinate transformation routines by
+plotting an oblique test grid (requires PGPLOT and X11).
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tcel1.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tcel1 tests the spherical projection driver routines supplied with WCSLIB by
+* drawing native and celestial coordinate graticules for Bonne's projection.
+*
+*---------------------------------------------------------------------------*/
+
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
+
+#include <cpgplot.h>
+
+#include <cel.h>
+
+int main()
+
+{
+  printf(
+  "Testing WCSLIB celestial coordinate transformation routines (tcel1.c)\n"
+  "---------------------------------------------------------------------\n");
+
+  // List status return messages.
+  printf("\nList of cel status return values:\n");
+  for (int status = 1; status <= 6; status++) {
+    printf("%4d: %s.\n", status, cel_errmsg[status]);
+  }
+
+  printf("\n");
+
+
+  // Initialize.
+  struct celprm native;
+  celini(&native);
+
+  // Reference angles for the native graticule (in fact, the defaults).
+  native.ref[0] = 0.0;
+  native.ref[1] = 0.0;
+
+  // Set up Bonne's projection with conformal latitude at +35.
+  strncpy(native.prj.code, "BON", 4);
+  native.prj.pv[1] = 35.0;
+
+
+  // Celestial graticule.
+  struct celprm celestial;
+  celini(&celestial);
+  celestial.prj = native.prj;
+
+
+  // PGPLOT initialization.
+  char text[80];
+  strncpy(text, "/xwindow", 80);
+  cpgbeg(0, text, 1, 1);
+
+  // Define pen colours.
+  cpgscr(0, 0.0f, 0.0f, 0.0f);
+  cpgscr(1, 1.0f, 1.0f, 0.0f);
+  cpgscr(2, 1.0f, 1.0f, 1.0f);
+  cpgscr(3, 0.5f, 0.5f, 0.8f);
+  cpgscr(4, 0.8f, 0.5f, 0.5f);
+  cpgscr(5, 0.8f, 0.8f, 0.8f);
+  cpgscr(6, 0.5f, 0.5f, 0.8f);
+  cpgscr(7, 0.8f, 0.5f, 0.5f);
+  cpgscr(8, 0.3f, 0.5f, 0.3f);
+
+  // Define PGPLOT viewport.
+  cpgenv(-180.0f, 180.0f, -90.0f, 140.0f, 1, -2);
+
+  int stat[361];
+  double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+
+  // Loop over CRVAL2, LONPOLE, and LATPOLE with CRVAL1 incrementing by
+  // 15 degrees each time (it has an uninteresting effect).
+  int crval1 = -180;
+  for (int crval2 = -90; crval2 <=  90; crval2 += 30) {
+    for (int lonpole = -180; lonpole <= 180; lonpole += 30) {
+      for (int latpole = -1; latpole <= 1; latpole += 2) {
+        // For the celestial graticule, set the celestial coordinates of the
+        // reference point of the projection (which for Bonne's projection is
+        // at the intersection of the native equator and prime meridian), the
+	// native longitude of the celestial pole, and extra information
+	// needed to determine the celestial latitude of the native pole.
+	// These correspond to FITS keywords CRVAL1, CRVAL2, LONPOLE, and
+	// LATPOLE.
+        celestial.ref[0] = (double)crval1;
+        celestial.ref[1] = (double)crval2;
+        celestial.ref[2] = (double)lonpole;
+        celestial.ref[3] = (double)latpole;
+
+        // Skip invalid values of LONPOLE.
+        if (celset(&celestial)) {
+          continue;
+        }
+
+        // Skip redundant values of LATPOLE.
+        if (latpole == 1 && fabs(celestial.ref[3]) < 0.1) {
+          continue;
+        }
+
+        // Buffer PGPLOT output.
+        cpgbbuf();
+        cpgeras();
+
+        // Write a descriptive title.
+        snprintf(text, 80, "Bonne's projection (BON) - 15 degree graticule");
+        printf("\n%s\n", text);
+        cpgtext(-180.0f, -100.0f, text);
+
+        snprintf(text, 80, "centred on celestial coordinates (%7.2f,%6.2f)",
+          celestial.ref[0], celestial.ref[1]);
+        printf("%s\n", text);
+        cpgtext (-180.0f, -110.0f, text);
+
+        snprintf(text, 80, "with north celestial pole at native coordinates "
+          "(%7.2f,%7.2f)", celestial.ref[2], celestial.ref[3]);
+        printf("%s\n", text);
+        cpgtext(-180.0f, -120.0f, text);
+
+
+        // Draw the native graticule faintly in the background.
+        cpgsci(8);
+
+        // Draw native meridians of longitude.
+        for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+          lat[j] = (double)ilat;
+        }
+
+        float xr[512], yr[512];
+        for (int ilng = -180; ilng <= 180; ilng += 15) {
+          lng[0] = (double)ilng;
+          if (ilng == -180) lng[0] = -179.99;
+          if (ilng ==  180) lng[0] =  179.99;
+
+          // Dash the longitude of the celestial pole.
+          if ((ilng-lonpole)%360 == 0) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          int k = 0;
+          for (int j = 0; j < 181; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+            }
+
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        // Draw native parallels of latitude.
+        lng[0]   = -179.99;
+        lng[360] =  179.99;
+        for (int j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+          lng[j] = (double)ilng;
+        }
+
+        for (int ilat = -90; ilat <= 90; ilat += 15) {
+          lat[0] = (double)ilat;
+
+          cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          int k = 0;
+          for (int j = 0; j < 361; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+            }
+
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+        }
+
+
+        // Draw a colour-coded celestial coordinate graticule.
+        int ci = 1;
+
+        // Draw celestial meridians of longitude.
+        for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+          lat[j] = (double)ilat;
+        }
+
+        for (int ilng = -180; ilng <= 180; ilng += 15) {
+          lng[0] = (double)ilng;
+
+          if (++ci > 7) ci = 2;
+          cpgsci(ilng?ci:1);
+
+          // Dash the reference longitude.
+          if ((ilng-crval1)%360 == 0) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          int k = 0;
+          for (int j = 0; j < 181; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+            }
+
+            // Test for discontinuities.
+            if (j > 0) {
+              if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+              }
+            }
+
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        // Draw celestial parallels of latitude.
+        for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+          lng[j] = (double)ilng;
+        }
+
+        ci = 1;
+        for (int ilat = -90; ilat <= 90; ilat += 15) {
+          lat[0] = (double)ilat;
+
+          if (++ci > 7) ci = 2;
+          cpgsci(ilat?ci:1);
+
+          // Dash the reference latitude.
+          if (ilat == crval2) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          int k = 0;
+          for (int j = 0; j < 361; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+            }
+
+            // Test for discontinuities.
+            if (j > 0) {
+              if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+              }
+            }
+
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        // Flush PGPLOT buffer.
+        cpgebuf();
+
+        // Allow 250ms to view the plot on fast machines.
+        struct timespec nano = {(time_t)0, 250000000L};
+        nanosleep(&nano, 0x0);
+
+        printf(" Type <RETURN> for next page: ");
+        getc(stdin);
+
+        // Cycle through celestial longitudes.
+        if ((crval1 += 15) > 180) crval1 = -180;
+
+        // Skip boring celestial latitudes.
+        if (crval2 == 0) break;
+      }
+
+      if (crval2 == 0) break;
+    }
+  }
+
+  cpgask(0);
+  cpgend();
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.6.1.4 2026/04/25 07:56:50 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d30 3
+a32 1
+#include <cpgplot.h>
+d37 3
+a45 8
+  char   text[80];
+  int    ci, crval1, crval2, ilat, ilng, j, k, latpole, lonpole, stat[361],
+         status;
+  float  xr[512], yr[512];
+  double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+  struct celprm native, celestial;
+
+
+d52 1
+a52 1
+  for (status = 1; status <= 6; status++) {
+d60 1
+d68 1
+a68 1
+  strcpy(native.prj.code, "BON");
+d73 1
+d79 2
+a80 1
+  strcpy(text, "/xwindow");
+d97 3
+d102 4
+a105 4
+  crval1 = -180;
+  for (crval2 = -90; crval2 <=  90; crval2 += 30) {
+    for (lonpole = -180; lonpole <= 180; lonpole += 30) {
+      for (latpole = -1; latpole <= 1; latpole += 2) {
+d133 1
+a133 1
+        sprintf(text, "Bonne's projection (BON) - 15 degree graticule");
+d137 1
+a137 1
+        sprintf(text, "centred on celestial coordinates (%7.2f,%6.2f)",
+d142 1
+a142 1
+        sprintf(text, "with north celestial pole at native coordinates "
+d152 1
+a152 1
+        for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d156 2
+a157 1
+        for (ilng = -180; ilng <= 180; ilng += 15) {
+d170 2
+a171 2
+          k = 0;
+          for (j = 0; j < 181; j++) {
+d191 1
+a191 1
+        for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+d195 1
+a195 1
+        for (ilat = -90; ilat <= 90; ilat += 15) {
+d200 2
+a201 2
+          k = 0;
+          for (j = 0; j < 361; j++) {
+d218 1
+a218 1
+        ci = 1;
+d221 1
+a221 1
+        for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d225 1
+a225 1
+        for (ilng = -180; ilng <= 180; ilng += 15) {
+d239 2
+a240 2
+          k = 0;
+          for (j = 0; j < 181; j++) {
+d266 1
+a266 1
+        for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d271 1
+a271 1
+        for (ilat = -90; ilat <= 90; ilat += 15) {
+d285 2
+a286 2
+          k = 0;
+          for (j = 0; j < 361; j++) {
+d313 5
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d41 8
+d55 1
+a55 1
+  for (int status = 1; status <= 6; status++) {
+a62 1
+  struct celprm native;
+a74 1
+  struct celprm celestial;
+a79 1
+  char text[80];
+a96 3
+  int stat[361];
+  double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+
+d99 4
+a102 4
+  int crval1 = -180;
+  for (int crval2 = -90; crval2 <=  90; crval2 += 30) {
+    for (int lonpole = -180; lonpole <= 180; lonpole += 30) {
+      for (int latpole = -1; latpole <= 1; latpole += 2) {
+d149 1
+a149 1
+        for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d153 1
+a153 2
+        float xr[512], yr[512];
+        for (int ilng = -180; ilng <= 180; ilng += 15) {
+d166 2
+a167 2
+          int k = 0;
+          for (int j = 0; j < 181; j++) {
+d187 1
+a187 1
+        for (int j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+d191 1
+a191 1
+        for (int ilat = -90; ilat <= 90; ilat += 15) {
+d196 2
+a197 2
+          int k = 0;
+          for (int j = 0; j < 361; j++) {
+d214 1
+a214 1
+        int ci = 1;
+d217 1
+a217 1
+        for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d221 1
+a221 1
+        for (int ilng = -180; ilng <= 180; ilng += 15) {
+d235 2
+a236 2
+          int k = 0;
+          for (int j = 0; j < 181; j++) {
+d262 1
+a262 1
+        for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d267 1
+a267 1
+        for (int ilat = -90; ilat <= 90; ilat += 15) {
+d281 2
+a282 2
+          int k = 0;
+          for (int j = 0; j < 361; j++) {
+@
+
+
+8.6.1.3
+log
+@Replaced use of strcpy() with strncpy(), and sprintf() with snprintf().
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.6.1.2 2026/04/10 12:51:02 mcalabre Exp mcalabre $
+d63 1
+a63 1
+  strncpy(native.prj.code, "BON", 4);
+d75 1
+a75 1
+  strncpy(text, "/xwindow", 80);
+d128 1
+a128 1
+        snprintf(text, 80, "Bonne's projection (BON) - 15 degree graticule");
+d132 1
+a132 1
+        snprintf(text, 80, "centred on celestial coordinates (%7.2f,%6.2f)",
+d137 1
+a137 1
+        snprintf(text, 80, "with north celestial pole at native coordinates "
+@
+
+
+8.6.1.4
+log
+@Inserted a 250ms pause to slow things down during 'make check', otherwise
+the graphics had just become a blur.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.6.1.3 2026/04/10 13:29:43 mcalabre Exp mcalabre $
+d30 1
+a30 3
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+a34 3
+#include <time.h>
+
+#include <cpgplot.h>
+a307 5
+
+        // Allow 250ms to view the plot on fast machines.
+        struct timespec nano = {(time_t)0, 250000000L};
+        nanosleep(&nano, 0x0);
+
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tcel1.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tcel1.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel1.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tcel1.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d53 1
+a53 1
+  /* List status return messages. */
+d62 1
+a62 1
+  /* Initialize. */
+d65 1
+a65 1
+  /* Reference angles for the native graticule (in fact, the defaults). */
+d69 1
+a69 1
+  /* Set up Bonne's projection with conformal latitude at +35. */
+d74 1
+a74 1
+  /* Celestial graticule. */
+d79 1
+a79 1
+  /* PGPLOT initialization. */
+d83 1
+a83 1
+  /* Define pen colours. */
+d94 1
+a94 1
+  /* Define PGPLOT viewport. */
+d97 2
+a98 2
+  /* Loop over CRVAL2, LONPOLE, and LATPOLE with CRVAL1 incrementing by */
+  /* 15 degrees each time (it has an uninteresting effect).             */
+d103 7
+a109 8
+        /* For the celestial graticule, set the celestial coordinates of
+         * the reference point of the projection (which for Bonne's
+         * projection is at the intersection of the native equator and
+         * prime meridian), the native longitude of the celestial pole,
+         * and extra information needed to determine the celestial
+         * latitude of the native pole.  These correspond to FITS keywords
+         * CRVAL1, CRVAL2, LONPOLE, and LATPOLE.
+         */
+d115 1
+a115 1
+        /* Skip invalid values of LONPOLE. */
+d120 1
+a120 1
+        /* Skip redundant values of LATPOLE. */
+d125 1
+a125 1
+        /* Buffer PGPLOT output. */
+d129 1
+a129 1
+        /* Write a descriptive title. */
+d145 1
+a145 1
+        /* Draw the native graticule faintly in the background. */
+d148 1
+a148 1
+        /* Draw native meridians of longitude. */
+d158 1
+a158 1
+          /* Dash the longitude of the celestial pole. */
+d184 1
+a184 1
+        /* Draw native parallels of latitude. */
+d213 1
+a213 1
+        /* Draw a colour-coded celestial coordinate graticule. */
+d216 1
+a216 1
+        /* Draw celestial meridians of longitude. */
+d227 1
+a227 1
+          /* Dash the reference longitude. */
+d243 1
+a243 1
+            /* Test for discontinuities. */
+d261 1
+a261 1
+        /* Draw celestial parallels of latitude. */
+d273 1
+a273 1
+          /* Dash the reference latitude. */
+d289 1
+a289 1
+            /* Test for discontinuities. */
+d307 1
+a307 1
+        /* Flush PGPLOT buffer. */
+d312 1
+a312 1
+        /* Cycle through celestial longitudes. */
+d315 1
+a315 1
+        /* Skip boring celestial latitudes. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tcel1.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d56 1
+a56 1
+  // List status return messages.
+d65 1
+a65 1
+  // Initialize.
+d68 1
+a68 1
+  // Reference angles for the native graticule (in fact, the defaults).
+d72 1
+a72 1
+  // Set up Bonne's projection with conformal latitude at +35.
+d77 1
+a77 1
+  // Celestial graticule.
+d82 1
+a82 1
+  // PGPLOT initialization.
+d86 1
+a86 1
+  // Define pen colours.
+d97 1
+a97 1
+  // Define PGPLOT viewport.
+d100 2
+a101 2
+  // Loop over CRVAL2, LONPOLE, and LATPOLE with CRVAL1 incrementing by
+  // 15 degrees each time (it has an uninteresting effect).
+d106 8
+a113 7
+        // For the celestial graticule, set the celestial coordinates of the
+        // reference point of the projection (which for Bonne's projection is
+        // at the intersection of the native equator and prime meridian), the
+	// native longitude of the celestial pole, and extra information
+	// needed to determine the celestial latitude of the native pole.
+	// These correspond to FITS keywords CRVAL1, CRVAL2, LONPOLE, and
+	// LATPOLE.
+d119 1
+a119 1
+        // Skip invalid values of LONPOLE.
+d124 1
+a124 1
+        // Skip redundant values of LATPOLE.
+d129 1
+a129 1
+        // Buffer PGPLOT output.
+d133 1
+a133 1
+        // Write a descriptive title.
+d149 1
+a149 1
+        // Draw the native graticule faintly in the background.
+d152 1
+a152 1
+        // Draw native meridians of longitude.
+d162 1
+a162 1
+          // Dash the longitude of the celestial pole.
+d188 1
+a188 1
+        // Draw native parallels of latitude.
+d217 1
+a217 1
+        // Draw a colour-coded celestial coordinate graticule.
+d220 1
+a220 1
+        // Draw celestial meridians of longitude.
+d231 1
+a231 1
+          // Dash the reference longitude.
+d247 1
+a247 1
+            // Test for discontinuities.
+d265 1
+a265 1
+        // Draw celestial parallels of latitude.
+d277 1
+a277 1
+          // Dash the reference latitude.
+d293 1
+a293 1
+            // Test for discontinuities.
+d311 1
+a311 1
+        // Flush PGPLOT buffer.
+d316 1
+a316 1
+        // Cycle through celestial longitudes.
+d319 1
+a319 1
+        // Skip boring celestial latitudes.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tcel1.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tcel1.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel1.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel1.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tcel1.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tcel1.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.3.1.2 2009/07/22 06:37:43 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel1.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel1.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tcel1.c,v 4.2.1.2 2007/12/03 05:12:59 cal103 Exp $
+d34 2
+a35 3
+*   tcel1 tests the spherical projection driver routines supplied with WCSLIB
+*   by drawing native and celestial coordinate graticules for Bonne's
+*   projection.
+d50 132
+a181 78
+   char   text[80];
+   int    ci, crval1, crval2, ilat, ilng, j, k, latpole, lonpole, stat[361],
+          status;
+   float  xr[512], yr[512];
+   double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+   struct celprm native, celestial;
+
+
+   printf(
+   "Testing WCSLIB celestial coordinate transformation routines (tcel1.c)\n"
+   "---------------------------------------------------------------------\n");
+
+   /* List status return messages. */
+   printf("\nList of cel status return values:\n");
+   for (status = 1; status <= 6; status++) {
+      printf("%4d: %s.\n", status, cel_errmsg[status]);
+   }
+
+   printf("\n");
+
+
+   /* Initialize. */
+   celini(&native);
+
+   /* Reference angles for the native graticule (in fact, the defaults). */
+   native.ref[0] = 0.0;
+   native.ref[1] = 0.0;
+
+   /* Set up Bonne's projection with conformal latitude at +35. */
+   strcpy(native.prj.code, "BON");
+   native.prj.pv[1] = 35.0;
+
+
+   /* Celestial graticule. */
+   celini(&celestial);
+   celestial.prj = native.prj;
+
+
+   /* PGPLOT initialization. */
+   strcpy(text, "/xwindow");
+   cpgbeg(0, text, 1, 1);
+
+   /* Define pen colours. */
+   cpgscr(0, 0.0f, 0.0f, 0.0f);
+   cpgscr(1, 1.0f, 1.0f, 0.0f);
+   cpgscr(2, 1.0f, 1.0f, 1.0f);
+   cpgscr(3, 0.5f, 0.5f, 0.8f);
+   cpgscr(4, 0.8f, 0.5f, 0.5f);
+   cpgscr(5, 0.8f, 0.8f, 0.8f);
+   cpgscr(6, 0.5f, 0.5f, 0.8f);
+   cpgscr(7, 0.8f, 0.5f, 0.5f);
+   cpgscr(8, 0.3f, 0.5f, 0.3f);
+
+   /* Define PGPLOT viewport. */
+   cpgenv(-180.0f, 180.0f, -90.0f, 140.0f, 1, -2);
+
+   /* Loop over CRVAL2, LONPOLE, and LATPOLE with CRVAL1 incrementing by */
+   /* 15 degrees each time (it has an uninteresting effect).             */
+   crval1 = -180;
+   for (crval2 = -90; crval2 <=  90; crval2 += 30) {
+      for (lonpole = -180; lonpole <= 180; lonpole += 30) {
+         for (latpole = -1; latpole <= 1; latpole += 2) {
+            /* For the celestial graticule, set the celestial coordinates of
+             * the reference point of the projection (which for Bonne's
+             * projection is at the intersection of the native equator and
+             * prime meridian), the native longitude of the celestial pole,
+             * and extra information needed to determine the celestial
+             * latitude of the native pole.  These correspond to FITS keywords
+             * CRVAL1, CRVAL2, LONPOLE, and LATPOLE.
+             */
+            celestial.ref[0] = (double)crval1;
+            celestial.ref[1] = (double)crval2;
+            celestial.ref[2] = (double)lonpole;
+            celestial.ref[3] = (double)latpole;
+
+            /* Skip invalid values of LONPOLE. */
+            if (celset(&celestial)) {
+               continue;
+d184 28
+a211 3
+            /* Skip redundant values of LATPOLE. */
+            if (latpole == 1 && fabs(celestial.ref[3]) < 0.1) {
+               continue;
+d214 37
+a250 26
+            /* Buffer PGPLOT output. */
+            cpgbbuf();
+            cpgeras();
+
+            /* Write a descriptive title. */
+            sprintf(text, "Bonne's projection (BON) - 15 degree graticule");
+            printf("\n%s\n", text);
+            cpgtext(-180.0f, -100.0f, text);
+
+            sprintf(text, "centred on celestial coordinates (%7.2f,%6.2f)",
+               celestial.ref[0], celestial.ref[1]);
+            printf("%s\n", text);
+            cpgtext (-180.0f, -110.0f, text);
+
+            sprintf(text, "with north celestial pole at native coordinates "
+               "(%7.2f,%7.2f)", celestial.ref[2], celestial.ref[3]);
+            printf("%s\n", text);
+            cpgtext(-180.0f, -120.0f, text);
+
+
+            /* Draw the native graticule faintly in the background. */
+            cpgsci(8);
+
+            /* Draw native meridians of longitude. */
+            for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+               lat[j] = (double)ilat;
+d253 6
+a258 30
+            for (ilng = -180; ilng <= 180; ilng += 15) {
+               lng[0] = (double)ilng;
+               if (ilng == -180) lng[0] = -179.99;
+               if (ilng ==  180) lng[0] =  179.99;
+
+               /* Dash the longitude of the celestial pole. */
+               if ((ilng-lonpole)%360 == 0) {
+                  cpgsls(2);
+                  cpgslw(5);
+               }
+
+               cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                      stat);
+
+               k = 0;
+               for (j = 0; j < 181; j++) {
+                  if (stat[j]) {
+                     if (k > 1) cpgline(k, xr, yr);
+                     k = 0;
+                     continue;
+                  }
+
+                  xr[k] = -x[j];
+                  yr[k] =  y[j];
+                  k++;
+               }
+
+               cpgline(k, xr, yr);
+               cpgsls(1);
+               cpgslw(1);
+d261 36
+a296 5
+            /* Draw native parallels of latitude. */
+            lng[0]   = -179.99;
+            lng[360] =  179.99;
+            for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+               lng[j] = (double)ilng;
+d299 6
+a304 20
+            for (ilat = -90; ilat <= 90; ilat += 15) {
+               lat[0] = (double)ilat;
+
+               cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                      stat);
+
+               k = 0;
+               for (j = 0; j < 361; j++) {
+                  if (stat[j]) {
+                     if (k > 1) cpgline(k, xr, yr);
+                     k = 0;
+                     continue;
+                  }
+
+                  xr[k] = -x[j];
+                  yr[k] =  y[j];
+                  k++;
+               }
+
+               cpgline(k, xr, yr);
+d307 14
+d322 2
+a323 2
+            /* Draw a colour-coded celestial coordinate graticule. */
+            ci = 1;
+d325 3
+a327 7
+            /* Draw celestial meridians of longitude. */
+            for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+               lat[j] = (double)ilat;
+            }
+
+            for (ilng = -180; ilng <= 180; ilng += 15) {
+               lng[0] = (double)ilng;
+d329 3
+a331 100
+               if (++ci > 7) ci = 2;
+               cpgsci(ilng?ci:1);
+
+               /* Dash the reference longitude. */
+               if ((ilng-crval1)%360 == 0) {
+                  cpgsls(2);
+                  cpgslw(5);
+               }
+
+               cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                      stat);
+
+               k = 0;
+               for (j = 0; j < 181; j++) {
+                  if (stat[j]) {
+                     if (k > 1) cpgline(k, xr, yr);
+                     k = 0;
+                     continue;
+                  }
+
+                  /* Test for discontinuities. */
+                  if (j > 0) {
+                     if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                     }
+                  }
+
+                  xr[k] = -x[j];
+                  yr[k] =  y[j];
+                  k++;
+               }
+
+               cpgline(k, xr, yr);
+               cpgsls(1);
+               cpgslw(1);
+            }
+
+            /* Draw celestial parallels of latitude. */
+            for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+               lng[j] = (double)ilng;
+            }
+
+            ci = 1;
+            for (ilat = -90; ilat <= 90; ilat += 15) {
+               lat[0] = (double)ilat;
+
+               if (++ci > 7) ci = 2;
+               cpgsci(ilat?ci:1);
+
+               /* Dash the reference latitude. */
+               if (ilat == crval2) {
+                  cpgsls(2);
+                  cpgslw(5);
+               }
+
+               cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                      stat);
+
+               k = 0;
+               for (j = 0; j < 361; j++) {
+                  if (stat[j]) {
+                     if (k > 1) cpgline(k, xr, yr);
+                     k = 0;
+                     continue;
+                  }
+
+                  /* Test for discontinuities. */
+                  if (j > 0) {
+                     if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                     }
+                  }
+
+                  xr[k] = -x[j];
+                  yr[k] =  y[j];
+                  k++;
+               }
+
+               cpgline(k, xr, yr);
+               cpgsls(1);
+               cpgslw(1);
+            }
+
+            /* Flush PGPLOT buffer. */
+            cpgebuf();
+            printf(" Type <RETURN> for next page: ");
+            getc(stdin);
+
+            /* Cycle through celestial longitudes. */
+            if ((crval1 += 15) > 180) crval1 = -180;
+
+            /* Skip boring celestial latitudes. */
+            if (crval2 == 0) break;
+         }
+
+         if (crval2 == 0) break;
+      }
+   }
+d333 2
+a334 2
+   cpgask(0);
+   cpgend();
+d336 1
+a336 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tcel1.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tcel1.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 3
+a36 2
+* tcel1 tests the spherical projection driver routines supplied with WCSLIB by
+* drawing native and celestial coordinate graticules for Bonne's projection.
+d51 78
+a128 132
+  char   text[80];
+  int    ci, crval1, crval2, ilat, ilng, j, k, latpole, lonpole, stat[361],
+         status;
+  float  xr[512], yr[512];
+  double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+  struct celprm native, celestial;
+
+
+  printf(
+  "Testing WCSLIB celestial coordinate transformation routines (tcel1.c)\n"
+  "---------------------------------------------------------------------\n");
+
+  /* List status return messages. */
+  printf("\nList of cel status return values:\n");
+  for (status = 1; status <= 6; status++) {
+    printf("%4d: %s.\n", status, cel_errmsg[status]);
+  }
+
+  printf("\n");
+
+
+  /* Initialize. */
+  celini(&native);
+
+  /* Reference angles for the native graticule (in fact, the defaults). */
+  native.ref[0] = 0.0;
+  native.ref[1] = 0.0;
+
+  /* Set up Bonne's projection with conformal latitude at +35. */
+  strcpy(native.prj.code, "BON");
+  native.prj.pv[1] = 35.0;
+
+
+  /* Celestial graticule. */
+  celini(&celestial);
+  celestial.prj = native.prj;
+
+
+  /* PGPLOT initialization. */
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+
+  /* Define pen colours. */
+  cpgscr(0, 0.0f, 0.0f, 0.0f);
+  cpgscr(1, 1.0f, 1.0f, 0.0f);
+  cpgscr(2, 1.0f, 1.0f, 1.0f);
+  cpgscr(3, 0.5f, 0.5f, 0.8f);
+  cpgscr(4, 0.8f, 0.5f, 0.5f);
+  cpgscr(5, 0.8f, 0.8f, 0.8f);
+  cpgscr(6, 0.5f, 0.5f, 0.8f);
+  cpgscr(7, 0.8f, 0.5f, 0.5f);
+  cpgscr(8, 0.3f, 0.5f, 0.3f);
+
+  /* Define PGPLOT viewport. */
+  cpgenv(-180.0f, 180.0f, -90.0f, 140.0f, 1, -2);
+
+  /* Loop over CRVAL2, LONPOLE, and LATPOLE with CRVAL1 incrementing by */
+  /* 15 degrees each time (it has an uninteresting effect).             */
+  crval1 = -180;
+  for (crval2 = -90; crval2 <=  90; crval2 += 30) {
+    for (lonpole = -180; lonpole <= 180; lonpole += 30) {
+      for (latpole = -1; latpole <= 1; latpole += 2) {
+        /* For the celestial graticule, set the celestial coordinates of
+         * the reference point of the projection (which for Bonne's
+         * projection is at the intersection of the native equator and
+         * prime meridian), the native longitude of the celestial pole,
+         * and extra information needed to determine the celestial
+         * latitude of the native pole.  These correspond to FITS keywords
+         * CRVAL1, CRVAL2, LONPOLE, and LATPOLE.
+         */
+        celestial.ref[0] = (double)crval1;
+        celestial.ref[1] = (double)crval2;
+        celestial.ref[2] = (double)lonpole;
+        celestial.ref[3] = (double)latpole;
+
+        /* Skip invalid values of LONPOLE. */
+        if (celset(&celestial)) {
+          continue;
+        }
+
+        /* Skip redundant values of LATPOLE. */
+        if (latpole == 1 && fabs(celestial.ref[3]) < 0.1) {
+          continue;
+        }
+
+        /* Buffer PGPLOT output. */
+        cpgbbuf();
+        cpgeras();
+
+        /* Write a descriptive title. */
+        sprintf(text, "Bonne's projection (BON) - 15 degree graticule");
+        printf("\n%s\n", text);
+        cpgtext(-180.0f, -100.0f, text);
+
+        sprintf(text, "centred on celestial coordinates (%7.2f,%6.2f)",
+          celestial.ref[0], celestial.ref[1]);
+        printf("%s\n", text);
+        cpgtext (-180.0f, -110.0f, text);
+
+        sprintf(text, "with north celestial pole at native coordinates "
+          "(%7.2f,%7.2f)", celestial.ref[2], celestial.ref[3]);
+        printf("%s\n", text);
+        cpgtext(-180.0f, -120.0f, text);
+
+
+        /* Draw the native graticule faintly in the background. */
+        cpgsci(8);
+
+        /* Draw native meridians of longitude. */
+        for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+          lat[j] = (double)ilat;
+        }
+
+        for (ilng = -180; ilng <= 180; ilng += 15) {
+          lng[0] = (double)ilng;
+          if (ilng == -180) lng[0] = -179.99;
+          if (ilng ==  180) lng[0] =  179.99;
+
+          /* Dash the longitude of the celestial pole. */
+          if ((ilng-lonpole)%360 == 0) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          k = 0;
+          for (j = 0; j < 181; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+d131 3
+a133 28
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        /* Draw native parallels of latitude. */
+        lng[0]   = -179.99;
+        lng[360] =  179.99;
+        for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+          lng[j] = (double)ilng;
+        }
+
+        for (ilat = -90; ilat <= 90; ilat += 15) {
+          lat[0] = (double)ilat;
+
+          cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          k = 0;
+          for (j = 0; j < 361; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+d136 26
+a161 37
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+        }
+
+
+        /* Draw a colour-coded celestial coordinate graticule. */
+        ci = 1;
+
+        /* Draw celestial meridians of longitude. */
+        for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+          lat[j] = (double)ilat;
+        }
+
+        for (ilng = -180; ilng <= 180; ilng += 15) {
+          lng[0] = (double)ilng;
+
+          if (++ci > 7) ci = 2;
+          cpgsci(ilng?ci:1);
+
+          /* Dash the reference longitude. */
+          if ((ilng-crval1)%360 == 0) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          k = 0;
+          for (j = 0; j < 181; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+d164 30
+a193 6
+            /* Test for discontinuities. */
+            if (j > 0) {
+              if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+              }
+d196 5
+a200 36
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        /* Draw celestial parallels of latitude. */
+        for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+          lng[j] = (double)ilng;
+        }
+
+        ci = 1;
+        for (ilat = -90; ilat <= 90; ilat += 15) {
+          lat[0] = (double)ilat;
+
+          if (++ci > 7) ci = 2;
+          cpgsci(ilat?ci:1);
+
+          /* Dash the reference latitude. */
+          if (ilat == crval2) {
+            cpgsls(2);
+            cpgslw(5);
+          }
+
+          cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+          k = 0;
+          for (j = 0; j < 361; j++) {
+            if (stat[j]) {
+              if (k > 1) cpgline(k, xr, yr);
+              k = 0;
+              continue;
+d203 29
+a231 6
+            /* Test for discontinuities. */
+            if (j > 0) {
+              if (fabs(x[j]-x[j-1]) > 4.0 || fabs(y[j]-y[j-1]) > 4.0) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+              }
+d234 2
+a235 14
+            xr[k] = -x[j];
+            yr[k] =  y[j];
+            k++;
+          }
+
+          cpgline(k, xr, yr);
+          cpgsls(1);
+          cpgslw(1);
+        }
+
+        /* Flush PGPLOT buffer. */
+        cpgebuf();
+        printf(" Type <RETURN> for next page: ");
+        getc(stdin);
+d237 2
+a238 2
+        /* Cycle through celestial longitudes. */
+        if ((crval1 += 15) > 180) crval1 = -180;
+d240 95
+a334 2
+        /* Skip boring celestial latitudes. */
+        if (crval2 == 0) break;
+d336 1
+d338 2
+a339 6
+      if (crval2 == 0) break;
+    }
+  }
+
+  cpgask(0);
+  cpgend();
+d341 1
+a341 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tcel1.c,v 4.1 2005/08/22 07:29:13 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel1.c,v 4.2 2005/09/22 02:15:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tcel1.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel1.c,v 4.0 2005/02/04 06:24:20 cal103 Exp cal103 $
+d58 3
+a60 2
+   printf("\nTesting WCSLIB celestial coordinate transformation routines\n");
+   printf("-----------------------------------------------------------\n");
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel1.c,v 3.6 2004/08/25 05:31:25 cal103 Exp cal103 $
+d51 2
+a52 1
+   int    ci, crval1, crval2, ilat, ilng, j, k, latpole, lonpole, stat[361];
+d63 2
+a64 2
+   for (k = 1; k <= 6 ; k++) {
+      printf("   %d: %s.\n", k, cel_errmsg[k]);
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value".
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by the
+*   Free Software Foundation; either version 2 of the License, or (at your
+*   option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d17 2
+a18 2
+*   with this library; if not, write to the Free Software Foundation, Inc.,
+*   675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: tcel1.c,v 3.5 2004/06/28 01:02:17 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel1.c,v 3.4 2004/02/11 00:23:05 mcalabre Exp mcalabre $
+d60 2
+a61 2
+   /* List error messages. */
+   printf("\nList of cel error codes:\n");
+@
+
+
+3.4
+log
+@WCSLIB 3.4: renamed tcel to tcel1; added "Type <RETURN> for next page:"
+between plots so that it is possible to step through them.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+a36 1
+*   $Id: tcel.c,v 3.3 2003/10/21 08:10:05 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d30 1
+a30 1
+*   tcel tests the spherical projection driver routines supplied with WCSLIB
+d34 1
+a34 1
+*   $Id: tcel.c,v 3.2 2003/09/09 04:40:16 mcalabre Exp mcalabre $
+d319 2
+@
+
+
+3.2
+log
+@WCSLIB 3.2: rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d34 1
+a34 1
+*   $Id: tcel.c,v 3.1 2003/04/28 04:27:07 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d34 1
+a34 1
+*   $Id: tcel.c,v 3.0 2003/04/01 04:16:39 mcalabre Exp mcalabre $
+d59 3
+a61 13
+   printf("\nList of celset error codes:\n");
+   for (k = 1; k <= 3 ; k++) {
+      printf("   %d: %s.\n", k, celset_errmsg[k]);
+   }
+
+   printf("\nList of celx2s error codes:\n");
+   for (k = 1; k <= 4 ; k++) {
+      printf("   %d: %s.\n", k, celx2s_errmsg[k]);
+   }
+
+   printf("\nList of cels2x error codes:\n");
+   for (k = 1; k <= 4 ; k++) {
+      printf("   %d: %s.\n", k, cels2x_errmsg[k]);
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d34 1
+a34 1
+*   $Id: tcel.c,v 2.9 2001/11/15 03:42:24 mcalabre Exp $
+@
+
+
+2.11
+log
+@Updated date in copyright notice.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d31 2
+a32 1
+*   by drawing native and celestial coordinate grids for Bonne's projection.
+d34 1
+a34 1
+*   $Id: tcel.c,v 2.10 2002/04/03 00:08:13 mcalabre Exp mcalabre $
+d37 1
+d42 2
+a43 2
+#include <cpgplot.h>
+#include "cel.h"
+d48 2
+a49 3
+   char   pcode[4], text[80];
+   int    ci, ilat, ilng, j;
+   int    crval1, crval2, latpole, lonpole;
+d51 1
+a51 1
+   double lat, lng, phi, theta, x, y;
+a52 1
+   struct prjprm prj;
+d60 2
+a61 2
+   for (j = 1; j <=2 ; j++) {
+      printf("   %d: %s.\n", j, celset_errmsg[j]);
+d64 3
+a66 3
+   printf("\nList of celfwd error codes:\n");
+   for (j = 1; j <=3 ; j++) {
+      printf("   %d: %s.\n", j, celfwd_errmsg[j]);
+d69 3
+a71 3
+   printf("\nList of celrev error codes:\n");
+   for (j = 1; j <=3 ; j++) {
+      printf("   %d: %s.\n", j, celrev_errmsg[j]);
+d77 7
+d85 3
+a87 1
+   strcpy(pcode, "BON");
+d89 3
+a91 12
+   /* Initialize projection parameters. */
+   prj.flag = 0;
+   prj.r0 = 0.0;
+   for (j = 0; j < 10; prj.p[j++] = 0.0);
+   prj.p[1] = 35.0;
+
+   /* Set reference angles for the native grid. */
+   native.ref[0] =   0.0;
+   native.ref[1] =   0.0;
+   native.ref[2] = 999.0;
+   native.ref[3] = 999.0;
+   native.flag   = 0;
+d93 1
+d112 2
+a113 1
+   /* Loop over CRVAL1, CRVAL2, LONPOLE, and LATPOLE. */
+d115 2
+a116 2
+   for (crval2 =  -90; crval2 <=  90; crval2 += 45) {
+      for (lonpole = -180; lonpole <= 180; lonpole += 45) {
+d118 7
+a124 7
+            /* For the celestial grid, set the celestial coordinates of the
+             * reference point of the projection (which for Bonne's projection
+             * is at the intersection of the native equator and prime
+             * meridian), the native longitude of the celestial pole, and
+             * extra information needed to determine the celestial latitude of
+             * the native pole.  These correspond to FITS keywords CRVAL1,
+             * CRVAL2, LONPOLE, and LATPOLE.
+a129 1
+            celestial.flag   = 0;
+d132 1
+a132 1
+            if (celset(pcode, &celestial, &prj)) {
+d146 1
+a146 1
+            sprintf(text, "%s projection - 15 degree graticule", pcode);
+d150 1
+a150 2
+            sprintf(text,
+               "centered on celestial coordinates (%7.2f,%6.2f)",
+d155 2
+a156 3
+            sprintf(text,
+               "with north celestial pole at native coordinates (%7.2f,%7.2f)",
+               celestial.ref[2], celestial.ref[3]);
+d161 1
+a161 1
+            /* Draw the native coordinate grid faintly in the background. */
+d165 4
+d170 3
+a172 3
+               lng = (double)ilng;
+               if (ilng == -180) lng = -179.99;
+               if (ilng ==  180) lng =  179.99;
+d180 2
+a181 3
+               j = 0;
+               for (ilat = -90; ilat <= 90; ilat++) {
+                  lat = (double)ilat;
+d183 5
+a187 2
+                  if (celfwd(pcode, lng, lat, &native, &phi, &theta, &prj,
+                             &x, &y)) {
+d191 3
+a193 3
+                  xr[j] = -x;
+                  yr[j] =  y;
+                  j++;
+d196 1
+a196 1
+               cpgline(j, xr, yr);
+d202 6
+d209 1
+a209 1
+               lat = (double)ilat;
+d211 2
+a212 5
+               j = 0;
+               for (ilng = -180; ilng <= 180; ilng++) {
+                  lng = (double)ilng;
+                  if (ilng == -180) lng = -179.99;
+                  if (ilng ==  180) lng =  179.99;
+d214 5
+a218 2
+                  if (celfwd(pcode, lng, lat, &native, &phi, &theta, &prj,
+                             &x, &y)) {
+d222 3
+a224 3
+                  xr[j] = -x;
+                  yr[j] =  y;
+                  j++;
+d227 1
+a227 1
+               cpgline(j, xr, yr);
+d231 1
+a231 1
+            /* Draw a colour-coded celestial coordinate grid. */
+d235 4
+d240 1
+a240 1
+               lng = (double)ilng;
+d251 2
+a252 3
+               j = 0;
+               for (ilat = -90; ilat <= 90; ilat++) {
+                  lat = (double)ilat;
+d254 5
+a258 2
+                  if (celfwd(pcode, lng, lat, &celestial, &phi, &theta, &prj,
+                             &x, &y)) {
+d264 3
+a266 3
+                     if (fabs(x+xr[j-1]) > 4.0 || fabs(y-yr[j-1]) > 4.0) {
+                        if (j > 1) cpgline(j, xr, yr);
+                        j = 0;
+d270 3
+a272 3
+                  xr[j] = -x;
+                  yr[j] =  y;
+                  j++;
+d275 1
+a275 1
+               cpgline(j, xr, yr);
+d281 4
+d287 1
+a287 1
+               lat = (double)ilat;
+d298 2
+a299 3
+               j = 0;
+               for (ilng = -180; ilng <= 180; ilng++) {
+                  lng = (double)ilng;
+d301 5
+a305 2
+                  if (celfwd(pcode, lng, lat, &celestial, &phi, &theta, &prj,
+                             &x, &y)) {
+d311 3
+a313 3
+                     if (fabs(x+xr[j-1]) > 4.0 || fabs(y-yr[j-1]) > 4.0) {
+                        if (j > 1) cpgline(j, xr, yr);
+                        j = 0;
+d317 3
+a319 3
+                  xr[j] = -x;
+                  yr[j] =  y;
+                  j++;
+d322 1
+a322 1
+               cpgline(j, xr, yr);
+@
+
+
+2.10
+log
+@Buffer PGPLOT output.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.9 2001/11/15 03:42:24 mcalabre Exp mcalabre $
+@
+
+
+2.9
+log
+@LONGPOLE -> LONPOLE.
+@
+text
+@d33 1
+a33 1
+*   $Id: tcel.c,v 2.8 2001/10/18 04:51:35 mcalabre Exp mcalabre $
+d140 4
+d304 2
+a305 2
+            /* New page. */
+            cpgpage();
+d318 1
+@
+
+
+2.8
+log
+@Fixed comments relating to LATPOLE.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.7 2000/12/04 08:28:07 mcalabre Exp mcalabre $
+d48 1
+a48 1
+   int    crval1, crval2, latpole, longpole;
+d57 1
+a57 1
+ 
+d63 1
+a63 1
+ 
+d68 1
+a68 1
+ 
+d111 1
+a111 1
+   /* Loop over CRVAL1, CRVAL2, LONGPOLE, and LATPOLE. */
+d114 1
+a114 1
+      for (longpole = -180; longpole <= 180; longpole += 45) {
+d122 1
+a122 1
+             * CRVAL2, LONGPOLE, and LATPOLE.
+d126 1
+a126 1
+            celestial.ref[2] = (double)longpole;
+d130 1
+a130 1
+            /* Skip invalid values of LONGPOLE. */
+d168 1
+a168 1
+               if ((ilng-longpole)%360 == 0) {
+@
+
+
+2.7
+log
+@Use the cpgplot interface to PGPLOT; eliminated GNU compiler warnings.
+@
+text
+@d33 1
+a33 1
+*   $Id: tcel.c,v 2.7 2000/12/04 06:49:56 mcalabre Exp mcalabre $
+d120 2
+a121 2
+             * extra information needed to determine the native latitude of
+             * the celestial pole.  These correspond to FITS keywords CRVAL1,
+@
+
+
+2.6
+log
+@Updated date in copyright notice.
+@
+text
+@d33 1
+a33 1
+*   $Id: tcel.c,v 2.5 1999/12/13 07:31:13 mcalabre Exp mcalabre $
+d40 1
+d43 1
+a43 1
+main()
+d95 1
+a95 1
+   pgbeg(0, text, 1, 1);
+d98 9
+a106 9
+   pgscr(0, 0.00, 0.00, 0.00);
+   pgscr(1, 1.00, 1.00, 0.00);
+   pgscr(2, 1.00, 1.00, 1.00);
+   pgscr(3, 0.50, 0.50, 0.80);
+   pgscr(4, 0.80, 0.50, 0.50);
+   pgscr(5, 0.80, 0.80, 0.80);
+   pgscr(6, 0.50, 0.50, 0.80);
+   pgscr(7, 0.80, 0.50, 0.50);
+   pgscr(8, 0.30, 0.50, 0.30);
+d109 1
+a109 1
+   pgenv(-180.0, 180.0, -90.0, 140.0, 1, -2);
+d143 1
+a143 1
+            pgtext(-180.0, -100.0, text);
+d146 1
+a146 1
+               "centered on celestial coordinates (%7.2lf,%6.2lf)",
+d149 1
+a149 1
+            pgtext (-180.0, -110.0, text);
+d152 1
+a152 1
+               "with north celestial pole at native coordinates (%7.2lf,%7.2lf)",
+d155 1
+a155 1
+            pgtext(-180.0, -120.0, text);
+d159 1
+a159 1
+            pgsci(8);
+d169 2
+a170 2
+                  pgsls(2);
+                  pgslw(5);
+d187 3
+a189 3
+               pgline(j, xr, yr);
+               pgsls(1);
+               pgslw(1);
+d212 1
+a212 1
+               pgline(j, xr, yr);
+d224 1
+a224 1
+               pgsci(ilng?ci:1);
+d228 2
+a229 2
+                  pgsls(2);
+                  pgslw(5);
+d244 1
+a244 1
+                        if (j > 1) pgline(j, xr, yr);
+d254 3
+a256 3
+               pgline(j, xr, yr);
+               pgsls(1);
+               pgslw(1);
+d265 1
+a265 1
+               pgsci(ilat?ci:1);
+d269 2
+a270 2
+                  pgsls(2);
+                  pgslw(5);
+d285 1
+a285 1
+                        if (j > 1) pgline(j, xr, yr);
+d295 3
+a297 3
+               pgline(j, xr, yr);
+               pgsls(1);
+               pgslw(1);
+d301 1
+a301 1
+            pgpage();
+d314 1
+a314 1
+   pgend();
+@
+
+
+2.5
+log
+@Revised include file handling; added return statement.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.4 1999/06/16 00:04:54 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d33 1
+a33 1
+*   $Id: tcel.c,v 2.3 1998/02/25 07:05:50 mcalabre Exp mcalabre $
+d36 1
+d39 1
+d315 1
+a315 1
+   exit(0);
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.2 1998/01/30 00:17:46 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Include <stdlib.h>, and replace return from main with exit.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1997 Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.1 1996/05/07 20:29:03 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Print predefined error messages.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 2.0 1995/09/12 06:29:46 mcalabre Exp mcalabre $
+d36 1
+d313 1
+a313 1
+   return 0;
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tcel.c,v 1.2 1995/09/12 06:25:54 mcalabre Exp mcalabre $
+d50 23
+d138 1
+a138 1
+            printf("%s\n", text);
+@
+
+
+1.2
+log
+@1) Renamed from twcs -> tcel.
+2) Draw a sequence of celestial grids.
+3) Draw meridians and parallels corresponding to CRVAL1, CRVAL2, and
+   LONGPOLE using dashed lines.
+@
+text
+@d33 1
+a33 1
+*   $Id: tcel.c,v 1.1 1995/01/31 03:13:15 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d30 2
+a31 2
+*   twcs tests WCSLIB by drawing native and celestial coordinate grids for
+*   Bonne's projection.
+d33 1
+a33 1
+*   $Id$
+d36 2
+a37 1
+#include "wcs.h"
+d43 2
+a44 1
+   int    ci, ierr, ilat, ilng, j;
+d46 2
+a47 2
+   double lat, lat0, lng, lng0, phi0, x, y;
+   struct wcsprm native, celestial;
+d50 1
+a50 1
+   /* Set up Bonne's projection with reference latitude at +30. */
+d57 1
+a57 1
+   prj.p[1] = 30.0;
+d62 2
+a63 1
+   native.ref[2] = 180.0;
+a65 10
+   /* For the celestial grid, set the celestial coordinates of the reference
+    * point of Bonne's projection (which is at the intersection of the native
+    * equator and prime meridian) and the native longitude of the celestial
+    * pole.  These correspond to FITS keywords CRVAL1, CRVAL2, and LONGPOLE.
+    */
+   celestial.ref[0] = 150.0;
+   celestial.ref[1] = -30.0;
+   celestial.ref[2] = 150.0;
+   celestial.flag   = 0;
+
+d74 2
+a75 2
+   pgscr(3, 0.80, 0.50, 0.50);
+   pgscr(4, 0.50, 0.50, 0.80);
+d77 2
+a78 2
+   pgscr(6, 0.80, 0.50, 0.50);
+   pgscr(7, 0.50, 0.50, 0.80);
+d82 1
+a82 1
+   pgenv(-180.0, 180.0, -90.0, 130.0, 1, -2);
+d84 23
+a106 4
+   /* Write a descriptive title. */
+   sprintf(text, "%s projection - 15 degree graticule", pcode);
+   printf("%s\n", text);
+   pgtext(-180.0, -100.0, text);
+d108 4
+a111 4
+   sprintf(text, "centered on celestial coordinates (%6.2lf,%6.2lf)",
+      celestial.ref[0], celestial.ref[1]);
+   printf("%s\n", text);
+   pgtext (-180.0, -110.0, text);
+d113 32
+a144 4
+   sprintf(text, "with north celestial pole at native longitude%7.2lf",
+      celestial.ref[2]);
+   printf("%s\n", text);
+   pgtext(-180.0, -120.0, text);
+d146 3
+d150 14
+a163 2
+   /* Draw the native coordinate grid faintly in the background. */
+   pgsci(8);
+d165 3
+a167 4
+   /* Draw native meridians of longitude. */
+   for (ilng = -180; ilng <= 180; ilng += 15) {
+      lng = (double)ilng;
+      if (ilng == -180) lng = -179.99;
+d169 15
+a183 3
+      j = 0;
+      for (ilat = 90; ilat >= -90; ilat--) {
+         lat = (double)ilat;
+d185 2
+a186 1
+         if (wcsfwd(pcode, lng, lat, &native, &prj, &x, &y)) continue;
+a187 4
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+      }
+d189 2
+a190 2
+      pgline(j, xr, yr);
+   }
+d192 12
+a203 15
+   /* Draw native parallels of latitude. */
+   for (ilat = 90; ilat >= -90; ilat -= 15) {
+      lat = (double)ilat;
+
+      j = 0;
+      for (ilng = -180; ilng <= 180; ilng++) {
+         lng = (double)ilng;
+         if (ilng == -180) lng = -179.99;
+
+         if (wcsfwd(pcode, lng, lat, &native, &prj, &x, &y)) continue;
+
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+      }
+d205 3
+a207 2
+      pgline(j, xr, yr);
+   }
+d209 22
+d232 13
+a244 2
+   /* Draw a colour-coded celestial coordinate grid. */
+   ci = 1;
+d246 3
+a248 10
+   /* Draw celestial meridians of longitude. */
+   for (ilng = -180; ilng <= 180; ilng += 15) {
+      lng = (double)ilng;
+
+      if (++ci > 7) ci = 2;
+      pgsci(ilng?ci:1);
+
+      j = 0;
+      for (ilat = 90; ilat >= -90; ilat--) {
+         lat = (double)ilat;
+d250 21
+a270 7
+         if (wcsfwd(pcode, lng, lat, &celestial, &prj, &x, &y)) continue;
+
+         /* Test for discontinuities. */
+         if (j > 0) {
+            if (fabs(x+xr[j-1]) > 3.0 || fabs(y-yr[j-1]) > 3.0) {
+               if (j > 1) pgline(j, xr, yr);
+               j = 0;
+a271 1
+         }
+d273 2
+a274 4
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+      }
+d276 2
+a277 2
+      pgline(j, xr, yr);
+   }
+d279 2
+a280 20
+   /* Draw celestial parallels of latitude. */
+   ci = 1;
+   for (ilat = 90; ilat >= -90; ilat -= 15) {
+      lat = (double)ilat;
+
+      if (++ci > 7) ci = 2;
+      pgsci(ilat?ci:1);
+
+      j = 0;
+      for (ilng = -180; ilng <= 180; ilng++) {
+         lng = (double)ilng;
+
+         if (wcsfwd(pcode, lng, lat, &celestial, &prj, &x, &y)) continue;
+
+         /* Test for discontinuities. */
+         if (j > 0) {
+            if (fabs(x+xr[j-1]) > 3.0 || fabs(y-yr[j-1]) > 3.0) {
+               if (j > 1) pgline(j, xr, yr);
+               j = 0;
+            }
+d283 1
+a283 3
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+a284 2
+
+      pgline(j, xr, yr);
+@

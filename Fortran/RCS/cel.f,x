@@ -1,0 +1,1025 @@
+head	2.10;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+2.10
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2001.11.16.03.51.46;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2001.11.15.03.43.01;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2001.10.18.04.50.52;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2000.12.17.23.22.30;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	2000.12.04.05.04.12;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	99.06.16.00.15.45;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.07.31;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.09.37.26;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.12.09.36.59;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.09.11.04.49.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Driver routines for WCS transformations between (lng,lat) celestial
+coordinates and (x,y) image plane coordinates.
+@
+
+
+2.10
+log
+@Updated date in copyright notice.
+@
+text
+@*=======================================================================
+*
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*
+*   FORTRAN routines which implement the FITS World Coordinate System
+*   (WCS) convention.
+*
+*   Summary of routines
+*   -------------------
+*   These routines are provided as drivers for the lower level spherical
+*   coordinate transformation and projection routines.  There are
+*   separate driver routines for the forward, CELFWD, and reverse,
+*   CELREV, transformations.
+*
+*   An initialization routine, CELSET, computes intermediate values from
+*   the transformation parameters but need not be called explicitly -
+*   see the explanation of CEL(5) below.
+*
+*
+*   Initialization routine; CELSET
+*   ------------------------------
+*   Initializes elements of a CEL array which hold intermediate values.
+*   Note that this routine need not be called directly; it will be
+*   invoked by CELFWD and CELREV if CEL(5) is zero.
+*
+*   Given:
+*      PCODE    C*3      WCS projection code (see below)
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (see below)
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Ill-conditioned coordinate transformation
+*                              parameters.
+*
+*   Forward transformation; CELFWD
+*   ------------------------------
+*   Compute (X,Y) coordinates in the plane of projection from celestial
+*   coordinates (LNG,LAT).
+*
+*   Given:
+*      PCODE    C*3      WCS projection code (see below)
+*      LNG,LAT  D        Celestial longitude and latitude of the
+*                        projected point, in degrees.
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (see below)
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      X,Y      D        Projected coordinates, "degrees".
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid value of (LNG,LAT).
+*
+*   Reverse transformation; CELREV
+*   ------------------------------
+*   Compute the celestial coordinates (LNG,LAT) of the point with
+*   projected coordinates (X,Y).
+*
+*   Given:
+*      PCODE    C*3      WCS projection code (see below).
+*      X,Y      D        Projected coordinates, "degrees".
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (see below)
+*
+*   Returned:
+*      LNG,LAT  D        Celestial longitude and latitude of the
+*                        projected point, in degrees.
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid value of (X,Y).
+*
+*   Coordinate transformation parameters
+*   ------------------------------------
+*   The CEL array consists of the following:
+*
+*      CEL(1:4)
+*         The first pair of values should be set to the celestial
+*         longitude and latitude (usually right ascension and
+*         declination) of the reference point of the projection.  These
+*         are given by the CRVALn keywords in FITS.
+*
+*         The second pair of values are the native longitude and
+*         latitude of the pole of the celestial coordinate system which
+*         correspond to the FITS keywords LONPOLE and LATPOLE.
+*
+*         LONPOLE defaults to 0 degrees if the celestial latitude of
+*         the reference point of the projection is greater than the
+*         native latitude, otherwise 180 degrees.  (This is the
+*         condition for the celestial latitude to increase in the same
+*         direction as the native latitude at the reference point.)
+*         CEL(3) may be set to 999.0 to indicate that the correct
+*         default should be substituted.
+*
+*         In some circumstances the celestial latitude of the native
+*         pole may be determined by the first three values only to
+*         within a sign and LATPOLE is used to choose between the two
+*         solutions.  LATPOLE is set in CEL(4) and the solution closest
+*         to this value is used to reset CEL(4).  It is therefore
+*         legitimate, for example, to set CEL(4) to 999D0 to choose the
+*         more northerly solution - the default if the LATPOLE card is
+*         omitted from the FITS header.  For the special case where the
+*         reference point of the projection is at native latitude zero,
+*         its celestial latitude is zero, and LONPOLE = +/- 90 then the
+*         celestial latitude of the native pole is not determined by the
+*         first three reference values and LATPOLE specifies it
+*         completely.
+*
+*      CEL(5)
+*         If any of CEL(1:4) are set or changed or if PCODE is changed
+*         then CEL(5) must be set to zero.  This signals the
+*         initialization routine, CELSET, to recompute the index and
+*         other intermediaries.  Once it is set PCODE is ignored.
+*
+*   The remaining elements of the CEL array are maintained by the
+*   initialization routines and should not be modified.  This is done
+*   for the sake of efficiency and to allow an arbitrary number of
+*   contexts to be maintained simultaneously.
+*
+*      CEL(6:10)
+*         Euler angles and associated intermediaries derived from the
+*         coordinate reference values.
+*
+*
+*   WCS projection codes
+*   --------------------
+*   Zenithals/azimuthals:
+*      AZP: zenithal/azimuthal perspective
+*      TAN: gnomonic
+*      STG: stereographic
+*      SIN: synthesis (generalized orthographic)
+*      ARC: zenithal/azimuthal equidistant
+*      ZPN: zenithal/azimuthal polynomial
+*      ZEA: zenithal/azimuthal equal area
+*      AIR: Airy
+*
+*   Cylindricals:
+*      CYP: cylindrical perspective
+*      CEA: cylindrical equal area
+*      CAR: Cartesian
+*      MER: Mercator
+*
+*   Pseudo-cylindricals:
+*      SFL: Sanson-Flamsteed
+*      PAR: parabolic
+*      MOL: Mollweide
+*
+*   Conventional:
+*      AIT: Hammer-Aitoff
+*
+*   Conics:
+*      COP: conic perspective
+*      COD: conic equidistant
+*      COE: conic equal area
+*      COO: conic orthomorphic
+*
+*   Polyconics:
+*      BON: Bonne
+*      PCO: polyconic
+*
+*   Quad-cubes:
+*      TSC: tangential spherical cube
+*      CSC: COBE quadrilateralized spherical cube
+*      QSC: quadrilateralized spherical cube
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: cel.f,v 2.9 2001/11/16 03:51:46 mcalabre Exp mcalabre $
+*=======================================================================
+      SUBROUTINE CELSET (PCODE, CEL, PRJ, IERR)
+*-----------------------------------------------------------------------
+      LOGICAL   DOPHIP
+      INTEGER   IERR
+      DOUBLE PRECISION CLAT0, CPHIP, CTHE0, LATP, LATP1, LATP2, PHI0,
+     *          PRJ(0:20), SLAT0, SPHIP, STHE0, THETA0, CEL(10), TOL, U,
+     *          V, X, Y, Z
+      CHARACTER PCODE*3
+
+      DOUBLE PRECISION ACOSD, ATAN2D, COSD, SIND
+
+      PARAMETER (TOL = 1D-10)
+*-----------------------------------------------------------------------
+*     Initialize the projection driver routines.
+      CALL PRJSET (PCODE, PRJ, PHI0, THETA0, IERR)
+      IF (IERR.NE.0) THEN
+         RETURN
+      END IF
+      CEL(5) = PRJ(11)
+
+*     Set default for native longitude of the celestial pole?
+      DOPHIP = CEL(3).EQ.999D0
+
+*     Compute celestial coordinates of the native pole.
+      IF (THETA0.EQ.90D0) THEN
+*        Reference point is at the native pole.
+         IF (DOPHIP) THEN
+*           Set default for longitude of the celestial pole.
+            CEL(3) = 180D0
+         END IF
+
+         LATP = CEL(2)
+         CEL(4) = LATP
+
+         CEL(6) = CEL(1)
+         CEL(7) = 90D0 - LATP
+
+      ELSE
+*        Reference point away from the native pole.
+
+         IF (DOPHIP) THEN
+*           Set default for longitude of the celestial pole.
+            IF (CEL(2).LT.THETA0) THEN
+               CEL(3) = 180D0
+            ELSE
+               CEL(3) = 0D0
+            END IF
+         END IF
+
+         CLAT0 = COSD(CEL(2))
+         SLAT0 = SIND(CEL(2))
+         CPHIP = COSD(CEL(3))
+         SPHIP = SIND(CEL(3))
+         CTHE0 = COSD(THETA0)
+         STHE0 = SIND(THETA0)
+
+         X = CTHE0*CPHIP
+         Y = STHE0
+         Z = SQRT(X*X + Y*Y)
+         IF (Z.EQ.0D0) THEN
+            IF (SLAT0.NE.0D0) THEN
+               IERR = 1
+               RETURN
+            END IF
+
+*           LATP determined by LATPOLE in this case.
+            LATP = CEL(4)
+         ELSE
+            IF (ABS(SLAT0/Z).GT.1D0) THEN
+               IERR = 1
+               RETURN
+            END IF
+
+            U = ATAN2D(Y, X)
+            V = ACOSD(SLAT0/Z)
+
+            LATP1 = U + V
+            IF (LATP1.GT.180D0) THEN
+               LATP1 = LATP1 - 360D0
+            ELSE IF (LATP1.LT.-180D0) THEN
+               LATP1 = LATP1 + 360D0
+            END IF
+
+            LATP2 = U - V
+            IF (LATP2.GT.180D0) THEN
+               LATP2 = LATP2 - 360D0
+            ELSE IF (LATP2.LT.-180D0) THEN
+               LATP2 = LATP2 + 360D0
+            END IF
+
+            IF (ABS(CEL(4)-LATP1).LT.ABS(CEL(4)-LATP2)) THEN
+               IF (ABS(LATP1).LT.90D0+TOL) THEN
+                  LATP = LATP1
+               ELSE
+                  LATP = LATP2
+               END IF
+            ELSE
+               IF (ABS(LATP2).LT.90D0+TOL) THEN
+                  LATP = LATP2
+               ELSE
+                  LATP = LATP1
+               END IF
+            END IF
+
+            CEL(4) = LATP
+         END IF
+
+         CEL(7) = 90D0 - LATP
+
+         Z = COSD(LATP)*CLAT0
+         IF (ABS(Z).LT.TOL) THEN
+            IF (ABS(CLAT0).LT.TOL) THEN
+*              Celestial pole at the reference point.
+               CEL(6) = CEL(1)
+               CEL(7) = 90D0 - THETA0
+            ELSE IF (LATP.GT.0D0) THEN
+*              Celestial pole at the native north pole.
+               CEL(6) = CEL(1) + CEL(3) - 180D0
+               CEL(7) = 0D0
+            ELSE IF (LATP.LT.0D0) THEN
+*              Celestial pole at the native south pole.
+               CEL(6) = CEL(1) - CEL(3)
+               CEL(7) = 180D0
+            END IF
+         ELSE
+            X = (STHE0 - SIND(LATP)*SLAT0)/Z
+            Y =  SPHIP*CTHE0/CLAT0
+            IF (X.EQ.0D0 .AND. Y.EQ.0D0) THEN
+               IERR = 1
+               RETURN
+            END IF
+
+            CEL(6) = CEL(1) - ATAN2D(Y,X)
+         END IF
+
+*        Make CEL(6) the same sign as CEL(1).
+         IF (CEL(1).GE.0D0) THEN
+            IF (CEL(6).LT.0D0) CEL(6) = CEL(6) + 360D0
+         ELSE
+            IF (CEL(6).GT.0D0) CEL(6) = CEL(6) - 360D0
+         END IF
+      END IF
+
+      CEL(8)  = CEL(3)
+      CEL(9)  = COSD(CEL(7))
+      CEL(10) = SIND(CEL(7))
+
+*     Check for ill-conditioned parameters.
+      IF (ABS(LATP).GT.90D0+TOL) THEN
+         IERR = 2
+         RETURN
+      END IF
+
+      IERR = 0
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE CELFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ, X, Y,
+     *   IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR
+      DOUBLE PRECISION LAT, LNG, PHI, PRJ(0:20), CEL(10), THETA, X, Y
+      CHARACTER PCODE*3
+*-----------------------------------------------------------------------
+      IF (CEL(5).EQ.0D0) THEN
+         CALL CELSET (PCODE, CEL, PRJ, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+*     Compute native coordinates.
+      CALL SPHFWD (LNG, LAT, CEL(6), PHI, THETA, IERR)
+
+*     Apply projection formulae.
+      CALL PRJFWD (PHI, THETA, PRJ, X, Y, IERR)
+      IF (IERR.EQ.1) THEN
+         IERR = 2
+      ELSE IF (IERR.EQ.2) THEN
+         IERR = 3
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE CELREV (PCODE, X, Y, PRJ, PHI, THETA, CEL, LNG, LAT,
+     *   IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR
+      DOUBLE PRECISION LAT, LNG, PHI, PRJ(0:20), THETA, CEL(10), X, Y
+      CHARACTER PCODE*3
+*-----------------------------------------------------------------------
+      IF (CEL(5).EQ.0D0) THEN
+         CALL CELSET (PCODE, CEL, PRJ, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+*     Apply deprojection formulae.
+      CALL PRJREV (X, Y, PRJ, PHI, THETA, IERR)
+      IF (IERR.NE.0) THEN
+         IF (IERR.EQ.1) THEN
+            IERR = 2
+         ELSE IF (IERR.EQ.2) THEN
+            IERR = 3
+         END IF
+         RETURN
+      END IF
+
+*     Compute celestial coordinates.
+      CALL SPHREV (PHI, THETA, CEL(6), LNG, LAT, IERR)
+
+      RETURN
+      END
+@
+
+
+2.9
+log
+@Revised call sequence to PRJSET.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d224 1
+a224 1
+*   $Id: cel.f,v 2.8 2001/11/15 03:43:01 mcalabre Exp mcalabre $
+@
+
+
+2.8
+log
+@LONGPOLE -> LONPOLE.
+@
+text
+@d224 1
+a224 1
+*   $Id: cel.f,v 2.7 2001/10/18 04:50:52 mcalabre Exp mcalabre $
+d230 1
+a230 1
+      DOUBLE PRECISION CLAT0, CPHIP, CTHE0, LATP, LATP1, LATP2,
+d240 1
+a240 1
+      CALL PRJSET (PCODE, PRJ, THETA0, IERR)
+@
+
+
+2.7
+log
+@Fixed comments relating to LATPOLE.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d142 1
+a142 1
+*         correspond to the FITS keywords LONGPOLE and LATPOLE.
+d144 1
+a144 1
+*         LONGPOLE defaults to 0 degrees if the celestial latitude of
+d148 1
+a148 1
+*         direction as the native latitude at the reference point.) 
+d161 1
+a161 1
+*         its celestial latitude is zero, and LONGPOLE = +/- 90 then the
+d170 1
+a170 1
+*         other intermediaries.  Once it is set PCODE is ignored.  
+d224 1
+a224 1
+*   $Id: cel.f,v 2.6 2000/12/17 23:22:30 mcalabre Exp mcalabre $
+@
+
+
+2.6
+log
+@Augmented prologue to mention CRVALn.
+@
+text
+@d152 13
+a164 12
+*         In some circumstances the latitude of the native pole may be
+*         determined by the first three values only to within a sign and
+*         LATPOLE is used to choose between the two solutions.  LATPOLE
+*         is set in CEL(4) and the solution closest to this value is
+*         used to reset CEL(4).  It is therefore legitimate, for
+*         example, to set CEL(4) to 999D0 to choose the more northerly
+*         solution - the default if the LATPOLE card is omitted from the
+*         FITS header.  For the special case where the reference point
+*         of the projection is at native latitude zero, its celestial
+*         latitude is zero, and LONGPOLE = +/- 90 then the native
+*         latitude of the pole is not determined by the first three
+*         reference values and LATPOLE specifies it completely.
+d224 1
+a224 1
+*   $Id: cel.f,v 2.5 2000/12/04 05:04:12 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Modified CELSET, CELFWD and CELREV to use PRJSET, PRJFWD and PRJREV.
+@
+text
+@d137 2
+a138 1
+*         declination) of the reference point of the projection.
+d223 1
+a223 1
+*   $Id: cel.f,v 2.4 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d165 4
+a168 6
+*         This stores an index for fast lookup to the projection routine
+*         indicated by PCODE; once it is set PCODE is ignored.  If any
+*         of CEL(1:4) are set or changed or if PCODE is changed then
+*         CEL(5) must be set to zero.  This signals the initialization
+*         routine, CELSET, to recompute the index and other
+*         intermediaries.
+d185 1
+a186 1
+*      STG: stereographic
+d194 1
+d197 8
+a204 1
+*      CEA: cylindrical equal area
+a215 8
+*   Pseudo-cylindricals:
+*      GLS: Sanson-Flamsteed (global sinusoidal)
+*      PAR: parabolic
+*      MOL: Mollweide
+*
+*   Conventional:
+*      AIT: Hammer-Aitoff
+*
+d217 1
+a219 1
+*      TSC: tangential spherical cube
+d222 1
+a222 1
+*   $Id: cel.f,v 2.3 1999/06/16 00:15:45 mcalabre Exp mcalabre $
+d227 1
+a227 1
+      INTEGER   IERR, IREF(25), NDX
+d231 1
+a231 1
+      CHARACTER PCODES*99, PCODE*3
+a235 5
+
+      DATA PCODES(01:40) /'AZP TAN SIN STG ARC ZPN ZEA AIR CYP CAR '/
+      DATA PCODES(41:80) /'MER CEA COP COD COE COO BON PCO GLS PAR '/
+      DATA PCODES(81:99) /'AIT MOL CSC QSC TSC'/
+      DATA IREF /2,2,2,2,2,2,2,2,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0/
+d237 3
+a239 17
+*     Determine the projection type.
+      NDX = (INDEX(PCODES,PCODE) - 1)/4 + 1
+      IF (NDX.EQ.0) THEN
+*        Unrecognized projection code.
+         IERR = 1
+         RETURN
+      END IF
+
+*     Native latitude of the reference point.
+      IF (IREF(NDX).EQ.0) THEN
+         THETA0 = 0D0
+      ELSE IF (IREF(NDX).EQ.1) THEN
+         THETA0 = PRJ(1)
+      ELSE IF (IREF(NDX).EQ.2) THEN
+         THETA0 = 90D0
+      ELSE
+         IERR = 1
+d242 1
+d248 1
+a248 1
+      IF (IREF(NDX).EQ.2) THEN
+a369 1
+      CEL(5)  = DBLE(NDX)
+d397 3
+a399 107
+*     The computed GOTO is used instead of an IF-block for efficiency.
+      GO TO ( 10,  20,  30,  40,  50,  60,  70,  80,
+     *       110, 120, 130, 140,
+     *       210, 220, 230, 240,
+     *       310, 320, 330, 340, 350, 360, 370, 380, 390) NINT(CEL(5))
+
+*     AZP: zenithal/azimuthal perspective.
+ 10   CALL AZPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     TAN: gnomonic (tan).
+ 20   CALL TANFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     SIN: orthographic (sine).
+ 30   CALL SINFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     STG: stereographic.
+ 40   CALL STGFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ARC: zenithal/azimuthal equidistant.
+ 50   CALL ARCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ZPN: zenithal/azimuthal polynomial.
+ 60   CALL ZPNFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ZEA: zenithal/azimuthal equal area.
+ 70   CALL ZEAFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     AIR: Airy's zenithal projection.
+ 80   CALL AIRFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CYP: cylindrical perspective.
+ 110  CALL CYPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CAR: Cartesian.
+ 120  CALL CARFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     MER: Mercator's.
+ 130  CALL MERFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CEA: cylindrical equal area.
+ 140  CALL CEAFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COP: conic perspective.
+ 210  CALL COPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COD: conic equidistant.
+ 220  CALL CODFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COE: conic equal area.
+ 230  CALL COEFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COO: conic orthomorphic.
+ 240  CALL COOFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     BON: Bonne's projection.
+ 310  CALL BONFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     PCO: polyconic.
+ 320  CALL PCOFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     GLS: Sanson-Flamsteed (global sinusoid).
+ 330  CALL GLSFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     PAR: parabolic.
+ 340  CALL PARFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     AIT: Hammer-Aitoff.
+ 350  CALL AITFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     MOL: Mollweide's projection.
+ 360  CALL MOLFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CSC: COBE quadrilateralized spherical cube.
+ 370  CALL CSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     QSC: quadrilateralized spherical cube.
+ 380  CALL QSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     TSC: tangential spherical cube.
+ 390  CALL TSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+ 400  IF (IERR.EQ.1) THEN
+d421 9
+a429 111
+*     The computed GOTO is used instead of an IF-block for efficiency.
+      GO TO ( 10,  20,  30,  40,  50,  60,  70,  80,
+     *       110, 120, 130, 140,
+     *       210, 220, 230, 240,
+     *       310, 320, 330, 340, 350, 360, 370, 380, 390) NINT(CEL(5))
+
+*     AZP: zenithal/azimuthal perspective.
+ 10   CALL AZPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     TAN: gnomonic (tan).
+ 20   CALL TANREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     SIN: orthographic (sine).
+ 30   CALL SINREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     STG: stereographic.
+ 40   CALL STGREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ARC: zenithal/azimuthal equidistant.
+ 50   CALL ARCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ZPN: zenithal/azimuthal polynomial.
+ 60   CALL ZPNREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ZEA: zenithal/azimuthal equal area.
+ 70   CALL ZEAREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     AIR: Airy's zenithal projection.
+ 80   CALL AIRREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CYP: cylindrical perspective.
+ 110  CALL CYPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CAR: Cartesian.
+ 120  CALL CARREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     MER: Mercator's.
+ 130  CALL MERREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CEA: cylindrical equal area.
+ 140  CALL CEAREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COP: conic perspective.
+ 210  CALL COPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COD: conic equidistant.
+ 220  CALL CODREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COE: conic equal area.
+ 230  CALL COEREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COO: conic orthomorphic.
+ 240  CALL COOREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     BON: Bonne's projection.
+ 310  CALL BONREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     PCO: polyconic.
+ 320  CALL PCOREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     GLS: Sanson-Flamsteed (global sinusoid).
+ 330  CALL GLSREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     PAR: parabolic.
+ 340  CALL PARREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     AIT: Hammer-Aitoff.
+ 350  CALL AITREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     MOL: Mollweide's projection.
+ 360  CALL MOLREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CSC: COBE quadrilateralized spherical cube.
+ 370  CALL CSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     QSC: quadrilateralized spherical cube.
+ 380  CALL QSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     TSC: tangential spherical cube.
+ 390  CALL TSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     Compute native coordinates.
+ 400  IF (IERR.EQ.1) THEN
+         IERR = 2
+      ELSE IF (IERR.EQ.2) THEN
+         IERR = 3
+a430 1
+      IF (IERR.NE.0) RETURN
+d432 1
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d224 1
+a224 1
+*   $Id: cel.f,v 2.2 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d224 1
+a224 1
+*   $Id: cel.f,v 2.1 1995/11/09 03:07:31 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Make CEL(6) the same sign as CEL(1).  Also, ensure that LATP is defined
+when the reference point is at the pole for the test for ill-conditioned
+parameters.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d224 1
+a224 1
+*   $Id: cel.f,v 2.0 1995/09/12 09:37:26 mcalabre Exp mcalabre $
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d224 1
+a224 1
+*   $Id: cel.f,v 1.2 1995/09/12 09:36:59 mcalabre Exp mcalabre $
+a273 1
+         CEL(4) = CEL(2)
+d275 3
+d279 2
+a280 1
+         CEL(7) = 90D0 - CEL(2)
+d377 7
+@
+
+
+1.2
+log
+@Revised the description of LATPOLE in the prologue.
+@
+text
+@d224 1
+a224 1
+*   $Id: cel.f,v 1.1 1995/09/11 04:49:08 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision - cloned from revision 1.1 of wcs.f with the following
+changes:
+1) Renamed from WCS* -> CEL*.
+2) Reference latitude for conics now at the midpoint of the standard
+   parallels.
+3) CEL(4) now contains LATPOLE, CEL(5) contains the flag, and CEL(6-10)
+   the Euler angles.
+4) CELSET now correctly interprets LONGPOLE and LATPOLE as per the new
+   draft specification.
+@
+text
+@d145 14
+a158 9
+*         native latitude, otherwise 180 degrees.  CEL(3) may be set
+*         to 999.0 to indicate that the correct default should be
+*         substituted.
+*
+*         The latitude of the native pole is usually determined by the
+*         first three values to within a sign and the sign of LATPOLE is
+*         used to disambiguate such cases - the more northerly solution
+*         is chosen if LATPOLE is non-negative).  The computed value is
+*         set in CEL(4).  For the special case where the reference point
+d224 1
+a224 1
+*   $Id$
+@

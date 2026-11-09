@@ -1,0 +1,2256 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	1.0;
+
+1.0
+date	2015.06.16.07.35.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.03.06.14.52;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.08.01.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@tdis2 tests wcssub()'s handling of distortion functions.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tdis2.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tdis2 tests wcssub()'s handling of distortion functions.  Input comes from
+* the FITS file specified as an argument, or else from SIP.fits.
+*
+*---------------------------------------------------------------------------*/
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <wcserr.h>
+#include <wcshdr.h>
+#include <wcsprintf.h>
+#include <lin.h>
+#include <wcs.h>
+
+#define HEADER_SIZE 36000
+
+int main(int argc, char *argv[])
+
+{
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+  setvbuf(stdout, NULL, _IOLBF, 0);
+
+  wcserr_enable(1);
+  wcsprintf_set(stdout);
+
+  wcsprintf("Testing wcssub() with distortions (tdis2.c)\n"
+            "-------------------------------------------\n");
+
+  // Optional file name specified?
+  const char *infile = "SIP.fits";
+  if (1 < argc) {
+    infile = argv[1];
+  }
+
+
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+  FILE *fptr;
+  if ((fptr = fopen(infile, "r")) == 0) {
+    wcsprintf("ERROR opening %s\n", infile);
+    return 1;
+  }
+
+  int naxis[4];
+  memset(naxis, 0, 2*sizeof(int));
+
+  char header[288001];
+  int hp = 0;
+  int nkeyrec = 0;
+  int gotend = 0;
+  for (int iblock = 0; iblock < 100; iblock++) {
+    for (int ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+      char keyrec[81];
+      if (fgets(keyrec, 81, fptr) == 0) {
+        break;
+      }
+
+      if (strncmp(keyrec, "        ", 8) == 0) continue;
+      if (strncmp(keyrec, "COMMENT ", 8) == 0) continue;
+      if (strncmp(keyrec, "HISTORY ", 8) == 0) continue;
+
+      if (strncmp(keyrec, "NAXIS", 5) == 0) {
+        if (keyrec[5] == ' ') {
+          int n;
+          sscanf(keyrec+10, "%d", &n);
+          if (4 < n) {
+            wcsprintf("ERROR, can't handle more than 4 axes.\n");
+            return 1;
+          }
+          continue;
+        }
+
+        int j, n;
+        sscanf(keyrec+5, "%d = %d", &j, &n);
+        naxis[j-1] = n;
+        continue;
+      }
+
+      memcpy(header+hp, keyrec, 80);
+      hp += 80;
+      nkeyrec++;
+
+      if (strncmp(keyrec, "END       ", 10) == 0) {
+        // An END keyrecord was read, but read the rest of the block.
+        gotend = 1;
+      }
+    }
+
+    if (gotend) break;
+  }
+  fclose(fptr);
+
+
+  // Parse the header.
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+  if ((wcspih(header, nkeyrec, WCSHDR_none, 2, &nreject, &nwcs, &wcs))) {
+    wcsperr(wcs, 0x0);
+    return 1;
+  }
+
+  // Extract the coordinate description for a transposed subimage and prepend
+  // a new axis.  Also tests wcssub() on a struct that hasn't been set up.
+  int nsub = 3;
+  int axes[4];
+  axes[0] = 0;
+  axes[1] = WCSSUB_LATITUDE;
+  axes[2] = WCSSUB_LONGITUDE;
+
+  int status;
+  struct wcsprm wcsext;
+  wcsext.flag = -1;
+  if ((status = wcssub(1, wcs, &nsub, axes, &wcsext))) {
+    wcsperr(&wcsext, "");
+    goto cleanup;
+  } else if (nsub == 0) {
+    printf("None of the requested subimage axes were found.\n");
+    goto cleanup;
+  }
+
+
+  // Print the original and extracted structs.
+  printf("\nInitial contents of wcsprm struct:\n");
+  if ((status = wcsset(wcs))) {
+    wcsperr(wcs, "");
+    goto cleanup;
+  };
+
+  wcsprt(wcs);
+
+  printf("\n\nExtracted contents of wcsprm struct:\n");
+  if ((status = wcsset(&wcsext))) {
+    wcsperr(&wcsext, "");
+    goto cleanup;
+  }
+
+  wcsprt(&wcsext);
+
+
+  // Compute distortion statistics in the initial struct.
+  double pixblc[]  = {  1.0,   1.0, 1.0, 1.0};
+  double pixtrc[]  = {256.0, 256.0, 1.0, 1.0};
+  double pixsamp[] = {  1.0,   1.0, 1.0, 1.0};
+
+  int nsamp;
+
+  double stats[15];
+  double *maxdis = stats;
+  double *maxtot = maxdis + 4;
+  double *avgdis = maxtot + 1;
+  double *avgtot = avgdis + 4;
+  double *rmsdis = avgtot + 1;
+  double *rmstot = rmsdis + 4;
+
+  struct linprm *lin = &(wcs->lin);
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp,
+              maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+    linperr(lin, 0x0);
+    return 1;
+  }
+
+  for (int k = 0; k < 12; k++) {
+    if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+  }
+
+  wcsprintf("\n\n"
+    "Initial linwarp() statistics computed over %d sample points:\n"
+    "  Max distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                  axis 4: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n"
+    " Mean distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                  axis 4: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n"
+    "  RMS distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                  axis 4: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n",
+    nsamp, maxdis[0], maxdis[1], maxdis[2], maxdis[3], *maxtot,
+           avgdis[0], avgdis[1], avgdis[2], avgdis[3], *avgtot,
+           rmsdis[0], rmsdis[1], rmsdis[2], rmsdis[3], *rmstot);
+
+
+  // Compute distortion statistics in the extracted struct.
+  pixtrc[0]  =   1.0;
+  pixtrc[1]  = 256.0;
+  pixtrc[2]  = 256.0;
+
+  lin = &(wcsext.lin);
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp,
+              maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+    linperr(lin, 0x0);
+    return 1;
+  }
+
+  for (int k = 0; k < 12; k++) {
+    if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+  }
+
+  wcsprintf("\n"
+    "linwarp() statistics for extract computed over the same %d points:\n"
+    "  Max distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n"
+    " Mean distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n"
+    "  RMS distortion, axis 1: %10.5f pixels\n"
+    "                  axis 2: %10.5f pixels\n"
+    "                  axis 3: %10.5f pixels\n"
+    "                   total: %10.5f pixels\n",
+    nsamp, maxdis[0], maxdis[1], maxdis[2], *maxtot,
+           avgdis[0], avgdis[1], avgdis[2], *avgtot,
+           rmsdis[0], rmsdis[1], rmsdis[2], *rmstot);
+
+
+cleanup:
+  wcsvfree(&nwcs, &wcs);
+  wcsfree(&wcsext);
+
+  return status;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.6.1.2 2026/04/25 08:01:44 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d46 3
+a48 11
+  char *infile = "SIP.fits";
+
+  char keyrec[81], header[288001];
+  int  axes[4], gotend, iblock, ikeyrec, j, k, n, naxis[4], nkeyrec, nreject,
+       nsamp, nsub, nwcs, status;
+  double pixblc[4], pixsamp[4], pixtrc[4];
+  double *avgdis, *avgtot, *maxdis, *maxtot, *rmsdis, *rmstot, stats[15];
+  FILE   *fptr;
+  struct linprm *lin;
+  struct wcsprm *wcs, wcsext;
+
+a52 4
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+  setvbuf(stdout, NULL, _IOLBF, 0);
+
+d57 1
+d64 1
+d70 1
+d73 7
+a79 5
+  k = 0;
+  nkeyrec = 0;
+  gotend = 0;
+  for (iblock = 0; iblock < 100; iblock++) {
+    for (ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+d90 1
+d99 1
+d105 2
+a106 2
+      memcpy(header+k, keyrec, 80);
+      k += 80;
+d121 2
+d130 2
+a131 1
+  nsub = 3;
+d136 2
+d167 13
+a179 19
+  maxdis = stats;
+  maxtot = maxdis + 4;
+  avgdis = maxtot + 1;
+  avgtot = avgdis + 4;
+  rmsdis = avgtot + 1;
+  rmstot = rmsdis + 4;
+
+  pixblc[0]  =   1.0;
+  pixblc[1]  =   1.0;
+  pixblc[2]  =   1.0;
+  pixblc[3]  =   1.0;
+  pixtrc[0]  = 256.0;
+  pixtrc[1]  = 256.0;
+  pixtrc[2]  =   1.0;
+  pixtrc[3]  =   1.0;
+  pixsamp[0] =   1.0;
+  pixsamp[1] =   1.0;
+  pixsamp[2] =   1.0;
+  pixsamp[3] =   1.0;
+d181 1
+a181 1
+  lin = &(wcs->lin);
+d188 1
+a188 1
+  for (k = 0; k < 12; k++) {
+d226 1
+a226 1
+  for (k = 0; k < 12; k++) {
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d46 15
+a64 3
+  wcserr_enable(1);
+  wcsprintf_set(stdout);
+
+a68 1
+  const char *infile = "SIP.fits";
+a74 1
+  FILE *fptr;
+a79 1
+  int naxis[4];
+d82 5
+a86 7
+  char header[288001];
+  int hp = 0;
+  int nkeyrec = 0;
+  int gotend = 0;
+  for (int iblock = 0; iblock < 100; iblock++) {
+    for (int ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+      char keyrec[81];
+a96 1
+          int n;
+a104 1
+        int j, n;
+d110 2
+a111 2
+      memcpy(header+hp, keyrec, 80);
+      hp += 80;
+a125 2
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+d133 1
+a133 2
+  int nsub = 3;
+  int axes[4];
+a137 2
+  int status;
+  struct wcsprm wcsext;
+d167 19
+a185 13
+  double pixblc[]  = {  1.0,   1.0, 1.0, 1.0};
+  double pixtrc[]  = {256.0, 256.0, 1.0, 1.0};
+  double pixsamp[] = {  1.0,   1.0, 1.0, 1.0};
+
+  int nsamp;
+
+  double stats[15];
+  double *maxdis = stats;
+  double *maxtot = maxdis + 4;
+  double *avgdis = maxtot + 1;
+  double *avgtot = avgdis + 4;
+  double *rmsdis = avgtot + 1;
+  double *rmstot = rmsdis + 4;
+d187 1
+a187 1
+  struct linprm *lin = &(wcs->lin);
+d194 1
+a194 1
+  for (int k = 0; k < 12; k++) {
+d232 1
+a232 1
+  for (int k = 0; k < 12; k++) {
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tdis2.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tdis2.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis2.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tdis2.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d61 2
+a62 2
+  /* Set line buffering in case stdout is redirected to a file, otherwise
+   * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+d68 1
+a68 1
+  /* Optional file name specified? */
+d74 1
+a74 1
+  /* Read in the FITS header, excluding COMMENT and HISTORY keyrecords. */
+d115 1
+a115 1
+        /* An END keyrecord was read, but read the rest of the block. */
+d125 1
+a125 1
+  /* Parse the header. */
+d131 2
+a132 2
+  /* Extract the coordinate description for a transposed subimage and prepend
+     a new axis.  Also tests wcssub() on a struct that hasn't been set up. */
+d148 1
+a148 1
+  /* Print the original and extracted structs. */
+d166 1
+a166 1
+  /* Compute distortion statistics in the initial struct. */
+d220 1
+a220 1
+  /* Compute distortion statistics in the extracted struct. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tdis2.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d64 2
+a65 2
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+d71 1
+a71 1
+  // Optional file name specified?
+d77 1
+a77 1
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+d118 1
+a118 1
+        // An END keyrecord was read, but read the rest of the block.
+d128 1
+a128 1
+  // Parse the header.
+d134 2
+a135 2
+  // Extract the coordinate description for a transposed subimage and prepend
+  // a new axis.  Also tests wcssub() on a struct that hasn't been set up.
+d151 1
+a151 1
+  // Print the original and extracted structs.
+d169 1
+a169 1
+  // Compute distortion statistics in the initial struct.
+d223 1
+a223 1
+  // Compute distortion statistics in the extracted struct.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tdis2.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tdis2.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.4.1.3 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d113 1
+a113 1
+      strncpy(header+k, keyrec, 80);
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Consequent on warnings from gcc 9.2.0 with -Wstringop-truncation (via -Wall),
+replaced use of strncpy() with memcpy().
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d113 1
+a113 1
+      memcpy(header+k, keyrec, 80);
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.4.1.2 2019/12/03 06:14:52 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis2.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id$
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis2.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+1.0
+log
+@Empty revision.
+@
+text
+@d1 263
+@

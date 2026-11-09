@@ -1,0 +1,1295 @@
+head	4.1;
+access;
+symbols;
+locks
+	cal103:4.1; strict;
+comment	@# @;
+
+
+4.1
+date	2005.08.30.08.20.29;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.05.05.14;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.22.58;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.04.40.10;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.11.52;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.22.07.27.10;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.03.49.50;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.03.42;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	2001.11.15.03.22.51;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	2000.12.04.05.21.14;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	99.12.14.01.06.15;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.20.25.24;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.16.06.53.28;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.11.04.35.48;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.11.04.26.29;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.13.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Explanatory document for using and installing WCSLIB.
+@
+
+
+4.1
+log
+@WCSLIB 4.1: Completely rewritten to provide a general introduction and
+overview of WCSLIB.
+@
+text
+@------------------------------------------------------------------------------
+                                  WCSLIB 4.1
+------------------------------------------------------------------------------
+    WCSLIB 4.1 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2005, Mark Calabretta
+
+    WCSLIB is free software; you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 2 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+------------------------------------------------------------------------------
+
+INTRODUCTION
+------------
+
+WCSLIB is a C library, supplied with a full set of Fortran wrappers, that
+implements the "World Coordinate System" (WCS) convention in FITS (Flexible
+Image Transport System).  It also includes a PGPLOT-based routine, PGSBOX,
+for drawing general curvilinear coordinate graticules.
+
+The FITS data format is widely used within the international astronomical
+community, from the radio to gamma-ray regimes, for data interchange and
+archive, and also increasingly as an online format.  It is described in
+
+  "Definition of The Flexible Image Transport System (FITS)",
+   Hanisch, R.J., Farris, A., Greisen, E.W., et al. 2001, A&A, 376, 359
+
+which formalizes NOST 100-2.0, a document produced by the NASA/Science
+Office of Standards and Technology, see http://fits.gsfc.nasa.gov.
+
+The WCS conventions, which have been adopted as formal FITS standards, are
+described in
+
+  "Representations of world coordinates in FITS" (Paper I),
+   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061-1075
+
+  "Representations of celestial coordinates in FITS" (Paper II),
+   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077-1122
+
+  "Representations of spectral coordinates in FITS" (Paper III),
+   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+   2005, A&A, (submitted)
+
+Paper IV, "Representations of distortions in FITS world coordinate systems",
+is in preparation.
+
+Reprints of all published papers may be obtained from NASA's Astrophysics
+Data System (ADS):
+
+   http://adsabs.harvard.edu/
+
+Reprints of Papers I and II and drafts of Papers III and IV are available from
+
+   http://www.atnf.csiro.au/~mcalabre/
+
+and
+
+   http://www.aoc.nrao.edu/~egreisen/
+
+The first of these sites also includes errata and supplementary material for
+Paper II and is the primary site for Paper IV while it is in preparation.
+
+Additional information on all aspects of FITS and its various software
+implementations may be found at the FITS Support Office
+
+   http://fits.gsfc.nasa.gov
+
+
+
+FITS WCS SOFTWARE
+-----------------
+
+The WCSLIB software distribution (i.e. this library) may be obtained from
+
+   http://www.atnf.csiro.au/~mcalabre/WCS/
+
+The remainder of this document describes its use.
+
+Other implementations of the FITS WCS standards are also available:
+wcstools, developed by Doug Mink, may be obtained from
+
+   http://tdc-www.harvard.edu/software/wcstools/
+
+and AST, developed by David Berry within the U.K. Starlink project
+
+   http://www.starlink.ac.uk/ast/
+
+David Berry also provides a very useful facility for experimenting with FITS
+WCS descriptions; go to the above site and then look at the section entitled
+"FITS-WCS Plotting Demo".
+
+The general FITS IO library, CFITSIO, referred to elsewhere, is available from
+
+   http://heasarc.gsfc.nasa.gov/fitsio
+
+This is used optionally by some of the high-level WCSLIB test programs.
+
+PGPLOT, a Fortran plotting package on which PGSBOX is based (see below) and
+also used by some of the WCSLIB self-test suite, is available from
+
+   http://astro.caltech.edu/~tjp/pgplot/
+
+
+
+OVERVIEW
+--------
+
+WCSLIB is documented in its header files which provide a detailed description
+of the purpose of each function and its interface.  This section explains how
+the library as a whole is structured.  We will normally refer to WCSLIB
+'routines', meaning C functions or Fortran 'subroutines', though the latter
+are actually wrappers implemented in C.
+
+WCSLIB is layered software, each layer depends only on those beneath;
+understanding WCSLIB first means understanding its stratigraphy.
+
+There are essentially three levels, though some intermediate levels exist
+within these:
+
+  1) The top layer consists of routines that provide the connection between
+     FITS files and the high-level WCSLIB data structures, the main function
+     being to parse a FITS header, extract WCS information, and copy it into
+     a wcsprm struct.  The lexical parsers among these are implemented as flex
+     descriptions (source files with .l suffix) and the C code generated from
+     these by flex is included in the source distribution.
+
+       wcshdr.{h,c}    ...Routines for constructing wcsprm data structures
+                          from information in a FITS header (uses wcspih()).
+       wcspih.l        ...Lexical parser for WCS cards in an image header.
+       getwcstab.{h,c} ...Implementation of a -TAB binary table reader in
+                          CFITSIO.
+
+     A generic FITS header parser is also provided to handle non-WCS cards
+     which are ignored by wcspih():
+
+       fitshdr.{h,l}   ...Generic FITS header parser (not WCS-specific).
+
+     The philosophy adopted for dealing with non-standard WCS usage is to
+     translate it at this level so that the middle- and low-level routines
+     need only deal with standard constructs:
+
+       wcsfix.{h,c}    ...Translator for non-standard FITS WCS constructs
+                          (uses wcsutrn()).
+       wcsutrn.l       ...Lexical translator for non-standard units
+                          specifications.
+
+     As a concrete example, within this layer the CTYPEia header cards would
+     be extracted from a FITS header and their values copied into the ctype[]
+     array within a wcsprm struct.  None of the header cards are interpreted.
+
+  2) The middle layer analyses the WCS information obtained from the FITS
+     header by the top-level routines, identifying the separate steps of the
+     WCS algorithm chain for each of the coordinate axes in the image.  It
+     constructs the various data structures on which the low-level routines
+     are based and invokes them in the correct sequence.  Thus the wcsprm
+     struct is essentially the glue that binds together the low-level routines
+     into a complete coordinate description.
+
+       wcs.{h,c}       ...Driver routines for the low-level routines.
+       wcsunits.{h,c}  ...Unit conversions (uses wcsulex()).
+       wcsulex.l       ...Lexical parser for units specifications.
+
+     To continue the above example, within this layer the ctype[] cards in a
+     wcsprm struct are analysed to determine the nature of the coordinate
+     axes in the image.
+
+  3) Applications programmers who use the top- and middle-level routines
+     generally need know nothing about the low-level routines.  These are
+     essentially mathematical in nature and largely independent of FITS
+     itself.  The mathematical formulae and algorithms cited in the WCS
+     Papers, for example the spherical projection equations of Paper II and
+     the lookup-table methods of Paper III, are implemented by the routines
+     in this layer, some of which serve to aggregate others:
+
+       cel.{h,c}       ...Celestial coordinate transformations, combines
+                          prj.{h,c} and sph.{h,c}
+       spc.{h,c}       ...Spectral coordinate transformations, combines
+                          transformations from spx.{h,c}.
+
+     The remainder of the routines in this level are independent of everything
+     other than the grass-roots mathematical functions:
+
+       lin.{h,c}       ...Linear transformation matrix.
+       log.{h,c}       ...Logarithmic coordinates.
+       prj.{h,c}       ...Spherical projection equations.
+       sph.{h,c}       ...Spherical coordinate transformations.
+       spx.{h,c}       ...Basic spectral transformations.
+       tab.{h,c}       ...Coordinate lookup tables.
+
+     As the routines within this layer are quite generic, some, principally
+     the implementation of the spherical projection equations, have been used
+     in other packages (AST, wcstools) that provide their own implementations
+     of the functionality of the top and middle-level routines.
+
+  4) At the grass-roots level there are a number of mathematical and utility
+     routines.
+
+     When dealing with celestial coordinate systems it is often desirable to
+     use an angular measure that provides an exact representation of the
+     latitude of the north or south pole.  The WCSLIB routines use the
+     following trigonometric functions that take or return angles in degrees:
+
+       cosd() sind() tand() acosd() asind() atand() atan2d()
+
+     These "trigd" routines are expected to handle angles that are a multiple
+     of 90 degrees returning an exact result.  Some C implementations provide
+     these as part of a system library and in such cases it may (or may not!)
+     be preferable to use them.  wcstrig.c provides wrappers on the standard
+     trig functions based on radian measure, adding tests for multiples of
+     90 degrees.
+
+     However, wcstrig.h also provides the choice of using preprocessor macro
+     implementations of the trigd functions that don't test for multiples of
+     90 degrees (compile with -DWCSTRIG_MACRO).  These are typically 20%
+     faster but may lead to problems near the poles.
+
+       wcsmath.h       ...Defines mathematical and other constants.
+       wcstrig.{h,c}   ...Various implementations of trigd functions.
+       wcsutil.{h,c}   ...Simple utility functions for string manipulation,
+                          etc. used by WCSLIB.
+
+Complementary to the C library, a set of wrappers are provided that allow all
+WCSLIB C functions to be called by Fortran programs.  Refer to the README file
+in ../FORTRAN.
+
+Plotting of coordinate graticules is one of the more important requirements of
+a world coordinate system.  WCSLIB provides a PGPLOT-based subroutine, PGSBOX
+(Fortran), that handles general curvilinear coordinates via a user-supplied
+function - PGWCSL provides the interface to WCSLIB.  A C wrapper, cpgsbox(),
+is also provided.  Refer to the README file in ../pgsbox.
+
+
+WCSLIB DATA STRUCTURES
+----------------------
+
+The WCSLIB routines are based on data structures specific to them: wcsprm for
+the wcs.{h,c} routines, celprm for cel.{h,c}, and likewise spcprm, linprm,
+prjprm and tabprm, with struct definitions contained in the corresponding
+header files: wcs.h, cel.h, etc.  The structs store the parameters that define
+a coordinate transformation and also intermediate values derived from those
+parameters.  As a high-level object, the wcsprm struct contains linprm,
+tabprm, spcprm, and celprm structs, and in turn the celprm struct contains a
+prjprm struct.  Hence the wcsprm struct contains everything needed for a
+complete coordinate description.
+
+Applications programmers who use the top- and middle-level routines generally
+only need to pass wcsprm structs from one routine that fills them to another
+that uses them.  However, since these structs are fundamental to WCSLIB it is
+worthwhile knowing something about the way they work.
+
+Three basic operations apply to all WCSLIB structs:
+
+  1) Initialize.  Each struct has a specific initialization routine, e.g.
+     wcsini(), celini(), spcini(), etc.  These allocate memory (if required)
+     and set all struct members to default values.
+
+  2) Fill in the required values.  Each struct has members whose values must
+     be provided.  For example, for wcsprm these values correspond to FITS WCS
+     header keyvalues as are provided by the top-level header parsing
+     routine, wcspih().
+
+  3) Compute intermediate values.  Specific setup routines, e.g. wcsset(),
+     celset(), spcset(), etc., compute intermediate values from the values
+     provided.  In particular, wcsset() analyses the FITS WCS keyvalues
+     provided, fills the required values in the lower-level structs contained
+     in wcsprm, and invokes the setup routine for each of them.
+
+Each struct contains a "flag" member that records its setup state.  This is
+cleared by the initialization routine and checked by the routines that use the
+struct; they will invoke the setup routine automatically if necessary, hence
+it need not be invoked specifically by the application programmer.  However,
+if any of the required values in a struct are changed then either the setup
+routine must be invoked on it, or else the flag must be zeroed to signal that
+the struct needs to be reset.
+
+The initialization routine may be invoked repeatedly on a struct if it is
+desired to reuse it.  However, the flag member of structs that contain
+allocated memory (wcsprm, linprm and tabprm) must be set to -1 before the
+first initialization to initialize memory management, but not subsequently or
+else memory leaks will result.
+
+Each struct has one or more service routines: to do deep copies from one to
+another, to print its contents, and to free allocated memory.  Refer to the
+header files for a detailed description.
+
+
+
+EXAMPLE CODE, TESTING AND VERIFICATION
+--------------------------------------
+
+WCSLIB has an extensive test suite which also provides programming templates
+as well as demonstrations.  Test programs, with names that indicate the main
+WCSLIB routine under test, reside in ./test and each contains a brief
+description of its purpose.
+
+The high- and middle-level test programs are more instructive for applications
+programming, while the low-level tests are vital for verifying the integrity
+of the mathematical routines.
+
+High level:
+
+  twcstab provides an example of high-level applications programming using
+  WCSLIB and CFITSIO.  It constructs an input FITS test file, specifically for
+  testing TAB coordinates, partly using wcstab.cards, and then extracts the
+  coordinate description from it following the steps outlined in wcshdr.h.
+
+  tpih1 and tpih2 verify wcspih().  The first prints the contents of the
+  structs returned by wcspih() using wcsprt() and the second uses cpgsbox() to
+  draw coordinate graticules.  Input for these comes from a FITS WCS test
+  header implemented as a list of card images, wcs.cards, one card per line,
+  together with a program, tofits, that compiles these into a valid FITS file.
+
+  tfitshdr also uses wcs.cards to test the generic FITS header parsing
+  routine.
+
+  twcsfix sets up a wcsprm struct containing various non-standard constructs
+  and then invokes wcsfix() to translate them all to standard usage.
+
+Middle level:
+
+  twcs tests closure of wcss2p() and wcsp2s() for a number of selected
+  projections.  twcsmix verifies wcsmix() on the 1 degree grid of celestial
+  longitude and latitude for a number of selected projections.  It plots a
+  test grid for each projection and indicates the location of successful and
+  failed solutions.  twcssub tests the extraction of a coordinate description
+  for a subimage from a wcsprm struct by wcssub().
+
+  tunits tests wcsutrn(), wcsunits() and wcsulex(), the units specification
+  translator, converter and parser, either interactively or using a list of
+  units specifications contained in units_test.
+
+Low level:
+
+  tlin, tlog, tprj1, tsph, tspc, tspc, and ttab1 test "closure" of the
+  respective routines.  Closure tests apply the forward and reverse
+  transformations in sequence and compare the result with the original value.
+  Ideally, the result should agree exactly, but because of floating point
+  rounding errors there is usually a small discrepancy so it is only required
+  to agree within a "closure tolerance".
+
+  tprj1 tests for closure separately for longitude and latitude except at the
+  poles where it only tests for closure in latitude.  Note that closure in
+  longitude does not deal with angular displacements on the sky.  This is
+  appropriate for many projections such as the cylindricals where circumpolar
+  parallels are projected at the same length as the equator.  On the other
+  hand, tsph does test for closure in angular displacement.
+
+  The tolerance for reporting closure discrepancies is set at 1e-10 degree for
+  most projections; this is slightly less than 3 microarcsec.  The worst case
+  closure figure is reported for each projection and this is usually better
+  than the reporting tolerance by several orders of magnitude.  tprj1 and tsph
+  test closure at all points on the 1 degree grid of native longitude and
+  latitude and to within 5 degrees of any latitude of divergence for those
+  projections that cannot represent the full sphere.  Closure is also tested
+  at a sequence of points close to the reference point (tprj1) or pole (tsph).
+
+  Closure has been verified at all test points for SUN workstations.  However,
+  non-closure may be observed for other machines near native latitude -90 for
+  the zenithal, cylindrical and conic equal area projections (ZEA, CEA and
+  COE), and near divergent latitudes of projections such as the azimuthal
+  perspective and stereographic projections (AZP and STG).   Rounding errors
+  may also carry points between faces of the quad-cube projections (CSC, QSC,
+  and TSC).  Although such excursions may produce long lists of non-closure
+  points, this is not necessarily indicative of a fundamental problem.
+
+  Note that the inverse of the COBE quad-qube projection (CSC) is a polynomial
+  approximation and its closure tolerance is intrinsically poor.
+
+  Although tests for closure help to verify the internal consistency of the
+  routines they do not verify them in an absolute sense.  This is partly
+  addressed by tcel1, tcel2, tprj2, ttab2 and ttab3 which plot graticules for
+  visual inspection of scaling, orientation, and other macroscopic
+  characteristics of the projections.
+
+
+INSTALLATION
+------------
+It is anticipated that the installation of WCSLIB will be handled by GNU
+autoconf in the near future.
+
+In the meantime, a GNU makefile is provided; GNU make (gmake) must be used.  A
+few variables that you may need to tailor for your purposes are defined at the
+start of the makefile; instructions are given in the makefile itself.  You
+should then be able to build 'libwcs.a' via
+
+   gmake
+
+The test programs can be compiled and exercised in one step via
+
+   gmake test
+
+
+Author
+------
+Mark Calabretta, Australia Telescope National Facility
+mcalabre@@atnf.csiro.au
+
+$Id: README,v 4.0 2005/02/04 05:05:14 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: added a GPL copyright notice; revised author list for Paper III.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 4.0
+d4 1
+a4 1
+    WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d6 1
+a6 1
+ 
+d11 1
+a11 1
+ 
+d16 1
+a16 1
+ 
+d20 1
+a20 1
+ 
+d30 2
+a31 2
+WCSLIB is a C library that implements the "World Coordinate System" (WCS)
+convention in FITS (Flexible Image Transport System).  It is available from
+d33 14
+a46 1
+   http://www.atnf.csiro.au/~mcalabre/
+d48 2
+a49 2
+The convention, which has been adopted as a formal FITS standard, is described
+in
+d51 1
+a51 1
+   "Representations of world coordinates in FITS" (Paper I),
+d54 6
+a59 1
+and
+d61 2
+a62 2
+   "Representations of celestial coordinates in FITS" (Paper II),
+   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077-1122
+d64 2
+a65 1
+WCSLIB also implements the proposed spectral coordinate convention
+d67 1
+a67 3
+   "Representations of spectral coordinates in FITS" (Paper III),
+   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+   A&A, (in preparation)
+d69 1
+a69 1
+Reprints of Papers I, and II, and the draft of Paper III are available from
+d77 7
+a83 2
+Paper IV, "Representations of distortions in FITS world coordinate systems"
+is also in preparation.
+a84 1
+WCSLIB itself (i.e. this suite) may be obtained from
+a85 1
+   http://www.atnf.csiro.au/~mcalabre/WCS
+d87 2
+d90 1
+d92 31
+a122 1
+Manifest
+a123 104
+C/
+   Makefile     GNU makefile for installing WCSLIB.
+   README       This file.
+   CHANGES      List of changes made since v1.0.
+
+   lin.c        Implementation of the WCS linear transformation.
+   lin.h        Header file for lin.c; contains the definition of the
+                "linprm" struct and function prototypes.
+
+   prj.c        Implementation of the WCS spherical projections.
+   prj.h        Header file for prj.c; contains the definition of the
+                "prjprm" struct and function prototypes.
+
+   sph.c        WCS spherical coordinate transformation routines.
+   sph.h        Header file for sph.c.
+
+   cel.c        Spherical projection driver routines.
+   cel.h        Header file for cel.c; contains the definition of the
+                "celprm" struct and function prototypes.
+
+   spx.c        Low-level spectral conversion routines.
+   spx.h        Header file for spx.c; contains the definition of the
+                "spxprm" struct and function prototypes.
+
+   spc.c        Implementation of the WCS spectral coordinates.
+   spc.h        Header file for spc.c; contains the definition of the
+                "spcprm" struct and function prototypes.
+
+   wcs.c        High level WCS driver routines.
+   wcs.h        Header file for wcs.c; contains the definition of the
+                "wcsprm" struct and function prototypes.
+
+   wcspih.l     Flex description file for the WCS parser for FITS image
+                headers.
+   wcspih.c     The C source code produced by Flex from wcspih.l.
+   wcshdr.c     Implementation of service routines for the header parser.
+   wcshdr.h     Header file for wcshdr.c and wcspih.c.
+
+   cylfix.c     Implementation of a function, cylfix(), that fixes WCS FITS
+                header cards for malformed cylindrical projections.
+   cylfix.h     Header file for cylfix.c.
+
+   wcstrig.c    Implementation of trigonometric functions that deal with
+                degrees rather than radians.
+   wcstrig.h    Header file for wcstrig.c; contains function prototypes.
+   wcsmath.h    Definition of mathematical constants used by WCSLIB.
+
+C/test/
+   tlin.c       Test closure of the linear transformation routines.
+   tprj1.c      Test closure of the WCS projection routines.
+   tprj2.c      Plot test grids for each projection (requires PGPLOT and X11).
+   tsph.c       Test closure of the WCS spherical coordinate transformation
+                routines.
+   tcel1.c      Plot oblique test grids (requires PGPLOT and X11).
+   tcel2.c      Plot oblique test grids (requires PGPLOT and X11).
+   tspx.c       Test closure of the spectral transformation routines.
+   tspc.c       Test closure of the spectral transformation driver routines
+                (requires PGPLOT and X11).
+   twcs.c       Test closure of wcss2p() and wcsp2s().
+   twcsmix.c    Test closure of wcsmix() (requires PGPLOT and X11).
+   twcssub.c    Test the extraction of a coordinate description for a subimage
+                from a wcsprm struct by wcssub().
+   tpih1.c      Test wcspih(), printing out the wcsprm structs using wcsprt().
+   tpih2.c      Test wcspih(), plotting coordinate grids (requires PGSBOX,
+                PGPLOT, and X11).
+   wcs.cards    FITS WCS test header cards for tpih1 and tpih2.
+   tofits.c     Utility to convert wcs.cards into a valid FITS file.
+
+C/test_s/
+   README       Describes usage of the scalar preprocessor macros for the
+                lin.c, prj.c, and sph.c routines.
+   tlin_s.c     Scalar version of tlin.c.
+   tprj1_s.c    Scalar version of tprj1.c.
+   tprj2_s.c    Scalar version of tprj2.c.
+   tsph_s.c     Scalar version of tsph.c.
+
+
+
+Usage
+-----
+Usage of the routines is described in detail in the prologue comments in
+wcshdr.h, wcs.h, cel.h, sph.h, prj.h, spc.h, spx.h, and lin.h.
+
+The main interface is via the high level wcsp2s(), wcss2p(), and wcsmix()
+driver routines, although direct calls may sometimes be useful to celx2s() and
+cels2x() described in cel.c, and linp2x() and linx2p() described in lin.h.
+
+The various test programs are also intended to serve as programming templates
+as well as demonstrations.
+
+
+Caveats
+-------
+The routines use a simple mechanism to store intermediate values and thereby
+save recomputing them on every call; the structs which contain coordinate
+transformation and projection parameters ("wcsprm", "celprm", "prjprm",
+"spcprm", and "linprm") are also used to store intermediate values derived
+from these parameters.  Particular members of the structs are flags that
+must be set to zero when any of the parameters are set (or reset), thereby
+signalling that the intermediate values need to be computed.
+
+Service routines are provided to manage the various structs, including memory
+allocation and initialization to default values, and it is advisable to use
+these.  Refer to the header files for a detailed description.
+d125 266
+d392 2
+a393 1
+Verification
+d395 7
+a401 79
+The tlin, tprj1, tsph, tspx, and tspc programs test closure of the linear
+transformation routines, projection routines, spherical coordinate
+transformation routines, and spectral coordinate transformation routines.
+
+"Closure" tests apply the forward and reverse transformations in sequence and
+compare the result with the original value.  Ideally, the result should agree
+exactly, but because of floating point rounding errors there is usually a
+small discrepancy so it is only required to agree within a "closure
+tolerance".
+
+tprj1 tests for closure separately for longitude and latitude except at the
+poles where it only tests for closure in latitude.  Note that closure in
+longitude does not deal with angular displacements on the sky.  This is
+appropriate for many projections such as the cylindricals where circumpolar
+parallels are projected at the same length as the equator.  On the other hand,
+tsph does test for closure in angular displacement.
+
+The tolerance for reporting closure discrepancies is set at 1e-10 degree for
+most projections; this is slightly less than 3 microarcsec.  The worst case
+closure figure is reported for each projection and this is usually better than
+the reporting tolerance by several orders of magnitude.  tprj1 and tsph test
+closure at all points on the 1 degree grid of native longitude and latitude
+and to within 5 degrees of any latitude of divergence for those projections
+that cannot represent the full sphere.  Closure is also tested at a sequence
+of points close to the reference point (tprj1) or pole (tsph).
+
+Closure has been verified at all test points for SUN workstations.  However,
+non-closure may be observed for other machines near native latitude -90 for
+the zenithal, cylindrical and conic equal area projections (ZEA, CEA and COE),
+and near divergent latitudes of projections such as the azimuthal perspective
+and stereographic projections (AZP and STG).   Rounding errors may also carry
+points between faces of the quad-cube projections (CSC, QSC, and TSC).
+Although such excursions may produce long lists of non-closure points, this
+is not necessarily indicative of a fundamental problem.
+
+Note that the inverse of the COBE quad-qube projection (CSC) is a polynomial
+approximation and its closure tolerance is intrinsically poor.
+
+Although tests for closure help to verify the internal consistency of the
+routines they do not verify them in an absolute sense.  This is partly
+addressed by tprj2, tcel1, and tcel2 which plot test grids for visual
+inspection of scaling, orientation, and other macroscopic characteristics of
+the projections.
+
+twcs tests closure of wcss2p() and wcsp2s() for a number of selected
+projections.  twcsmix verifies wcsmix() on the 1 degree grid of celestial
+longitude and latitude for a number of selected projections.  It plots a test
+grid for each projection and indicates the location of successful and failed
+solutions.  twcssub tests the extraction of a coordinate description for a
+subimage from a wcsprm struct by wcssub().
+
+tpih1 and tpih2 verify wcspih().  The first prints the contents of the structs
+returned by wcspih() using wcsprt() and the second uses cpgsbox() to draw
+coordinate graticules.  Input for these comes from a FITS WCS test header
+implemented as a list of card images, wcs.cards, one card per line, together
+with a program, tofits, that compiles these into a valid FITS file.
+
+
+Trigonometric functions
+-----------------------
+The WCSLIB routines use the following trigonometric functions that take or
+return angular arguments in degrees:
+
+   cosd() sind() tand() acosd() asind() atand() atan2d()
+
+These routines explicitly handle angles that are a multiple of 90 degrees
+returning an exact result.
+
+These functions are provided in wcstrig.c.  However, some C implementations
+also provide them as part of a system library and in such cases it is usually
+preferable to use the native versions.
+
+
+Installation notes
+------------------
+A GNU makefile is provided; GNU make (referred to below as gmake) must be
+used.  A few variables that you may need to tailor for your purposes are
+defined at the start of the makefile; instructions are given in the makefile
+itself.  You should then be able to build 'libwcs.a' via
+d405 1
+a405 2
+A suite of test programs is also provided to verify the library.  You can
+compile and exercise the test programs in one step via
+d415 1
+a415 1
+$Id: README,v 3.6 2004/08/25 05:22:58 cal103 Exp cal103 $
+@
+
+
+3.6
+log
+@WCSLIB 3.6: updated the notes relating to twcs (formerly twcs1), twcsmix
+(formerly twcs2), and twcssub (new).
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.6
+d4 26
+d49 1
+a49 1
+   Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L.
+d272 1
+a272 1
+$Id: README,v 3.5 2004/06/28 04:40:10 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5: updated the notes and list of files relating to the WCS header
+parser - wcspih.{l,c}, wcshdr.{h,c}, tpih[12].c, wcs.cards, and tofits.c;
+twcsprt.c has been withdrawn.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.5
+d103 4
+a106 2
+   twcs1.c      Test closure of wcss2p() and wcsp2s().
+   twcs2.c      Test closure of wcsmix() (requires PGPLOT and X11).
+d197 2
+a198 2
+twcs1 tests closure of wcss2p() and wcsp2s() for a number of selected
+projections.  twcs2 verifies wcsmix() on the 1 degree grid of celestial
+d201 2
+a202 1
+solutions.
+d229 2
+a230 2
+used.  A few variables are defined at the start of the makefile that you may
+need to tailor for your purposes; instructions are given in the makefile
+d246 1
+a246 1
+$Id: README,v 3.4 2004/02/11 00:11:52 mcalabre Exp mcalabre $
+@
+
+
+3.4
+log
+@WCSLIB 3.4: renamed tcel to tcel1 and added tcel2.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.4
+d4 2
+a5 2
+WCSLIB is a C library which implements the "World Coordinate System" (WCS)
+convention in FITS (Flexible Image Transport System).
+d7 2
+d77 7
+a83 1
+   cylfix.c     Implementation of a function, cylfix(), which fixes WCS FITS
+d87 1
+a87 1
+   wcstrig.c    Implementation of trigonometric functions which deal with
+d105 5
+a109 1
+   twcsprt.c    Tests printing of the wcsprm struct by wcsprt().
+d124 1
+a124 1
+wcs.h, cel.h, sph.h, prj.h, spc.h, spx.h, and lin.h.
+d140 1
+a140 1
+from these parameters.  Particular members of the structs are flags which
+d174 1
+a174 1
+which cannot represent the full sphere.  Closure is also tested at a sequence
+d201 6
+d210 1
+a210 1
+The WCSLIB routines use the following trigonometric functions which take or
+d215 1
+a215 1
+These routines explicitly handle angles which are a multiple of 90 degrees
+d226 1
+a226 1
+used.  A few variables are defined at the start of the makefile which you may
+d243 1
+a243 1
+$Id: README,v 3.3 2003/10/22 07:27:10 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.3
+d90 2
+a91 1
+   tcel.c       Plot oblique test grids (requires PGPLOT and X11).
+d179 3
+a181 3
+addressed by tprj2 and tcel which plot test grids for visual inspection of
+scaling, orientation, and other macroscopic characteristics of the
+projections.
+d225 1
+a225 1
+$Id: README,v 3.2 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.2
+d224 1
+a224 1
+$Id: README,v 3.1 2003/04/28 03:49:50 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d2 1
+a2 1
+                                    WCSLIB
+d224 1
+a224 1
+$Id: README,v 3.0 2003/04/01 04:03:42 mcalabre Exp mcalabre $
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d75 4
+d224 1
+a224 1
+$Id: README,v 2.5 2001/11/15 03:22:51 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@LONGPOLE -> LONPOLE.
+@
+text
+@d2 1
+a2 1
+                               WCSLIB (C suite)
+d4 2
+a5 3
+WCSLIB consists of independent C and FORTRAN implementations of the spherical
+projections and coordinate transformations defined in the proposed "World
+Coordinate System" (WCS) convention in FITS (Flexible Image Transport System).
+d7 2
+a8 3
+The proposal is described in "Representations of Celestial Coordinates in
+FITS" by Mark R. Calabretta and Eric W. Greisen, a draft of which is available
+from
+d10 2
+a11 1
+   http://www.atnf.csiro.au/~mcalabre
+d13 1
+a13 1
+WCSLIB itself (i.e. this suite) can be obtained from
+d15 2
+a16 1
+   ftp://ftp.atnf.csiro.au/pub/software/wcslib
+d18 1
+a18 1
+mirrored at
+d20 3
+a22 1
+   ftp://fits.cv.nrao.edu/fits/src/wcs
+d24 1
+d26 15
+d43 2
+a44 1
+   Makefile     GNU makefile for installing WCSLIB
+d48 23
+d74 3
+a76 13
+   cel.c        Spherical projection driver routines.
+   cel.h        Header file for cel.c; contains the definition of the
+                "celprm" struct and function prototypes.
+   sph.c        WCS spherical coordinate transformation routines.
+   sph.h        Header file for sph.c.
+   proj.c       Implementation of the WCS spherical projections.
+   proj.h       Header file for proj.c; contains the definition of the
+                "prjprm" struct and function prototypes.
+   lin.c        Implementation of the WCS linear transformation.
+   lin.h        Header file for lin.c; contains the definition of the
+                "linprm" struct and function prototypes.
+   wcstrig.c    Trigonometric functions which deal with degrees rather than
+                radians.
+d78 1
+d80 1
+d82 2
+a83 2
+   tproj1.c     Test closure of the WCS projection routines.
+   tproj2.c     Plot test grids for each projection (requires PGPLOT and X11).
+d87 4
+a90 1
+   twcs1.c      Test closure of wcsfwd() and wcsrev().
+d92 1
+a92 1
+
+d94 7
+a100 21
+Usage caveats
+-------------
+Usage of the routines is described in the prologue comments in wcs.c, cel.c,
+sph.c, proj.c, and lin.c.  The main interface is via the high level wcsfwd(),
+wcsrev(), and wcsmix() driver routines, although direct calls may sometimes be
+useful to celfwd() and celrev() described in cel.c, and linfwd() and linrev()
+described in lin.c.  The twcs1.c, tcel.c and tlin test programs may be taken
+as programming templates.
+
+The routines use a simple mechanism to store intermediate values and thereby
+save recomputing them on every call.  The structs which contain coordinate
+transformation and projection parameters ("wcsprm", "linprm", "celprm" and
+"prjprm") are also used to store intermediate values derived from the
+parameters.  Particular members of these structs are flags which must be set
+to zero when any of the parameters are set (or reset), thereby signalling that
+the intermediate values need to be computed.  This mechanism also allows an
+indefinite number of contexts to be maintained.
+
+Note that while the FITS "LONPOLE" and "LATPOLE" keywords assumes sensible
+default values if omitted from the FITS header, this condition must be
+signalled explicitly as described in the prologue to cel.c.
+a102 11
+Nomenclature
+------------
+In WCSLIB the "forward" direction is from (lng,lat) celestial coordinates to
+(x,y) coordinates in the plane of projection.  This accords with the notion
+that spherical projections are a projection of the sphere onto a plane, the
+"reverse" direction is therefore that of deprojection from plane to sphere.
+
+Unfortunately, this is opposite to what is generally understood to be the
+forward direction for FITS, namely that of transforming pixel coordinates to
+world coordinates.  However, the ordering of function argument lists should
+make it clear what is intended.
+d104 4
+d109 3
+a111 6
+Installation notes
+------------------
+A GNU makefile is provided; GNU make (referred to below as gmake) must be
+used.  A few variables are defined at the start of the makefile which you may
+need to tailor for your purposes; instructions are given in the makefile
+itself.  You should then be able to build 'libwcs_c.a' via
+d113 2
+a114 1
+   gmake
+a115 2
+A suite of test programs is also provided to verify the library.  You can
+compile and exercise the test programs in one step via
+d117 13
+a129 1
+   gmake test
+d134 4
+a137 2
+The tlin, tproj1 and tsph programs test closure of the linear transformation
+routines, projection routines and spherical coordinate transformations.
+d144 1
+a144 1
+tproj1 tests for closure separately for longitude and latitude except at the
+d154 1
+a154 1
+the reporting tolerance by several orders of magnitude.  tproj1 and tsph test
+d158 1
+a158 1
+of points close to the reference point (tproj1) or pole (tsph).
+d174 1
+a174 1
+addressed by tproj2 and tcel which plot test grids for visual inspection of
+d178 1
+a178 1
+twcs1 tests closure of wcsfwd() and wcsrev() for a number of selected
+d200 15
+d220 1
+a220 1
+$Id: README,v 2.4 2000/12/04 05:21:14 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Removed tpgc.c and tpgf.f from the manifest, the cpgplot interface is now
+used by the test routines.
+@
+text
+@d9 1
+a9 1
+FITS" by Mark Calabretta and Eric W. Greisen, a draft of which is available
+a13 4
+or
+
+   http://www.cv.nrao.edu/~egreisen
+
+d75 1
+a75 1
+Note that while the FITS "LONGPOLE" and "LATPOLE" keywords assumes sensible
+d163 1
+a163 1
+ 
+d165 1
+a165 1
+ 
+d179 1
+a179 1
+$Id: README,v 2.3 1999/12/14 01:06:15 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@Revised prologue, new web addresses for retrieval.
+@
+text
+@a58 2
+   tpgc.c       C interfaces to PGPLOT used by tproj2 and tcel.
+   tpgf.f       FORTRAN interfaces to PGPLOT used by tproj2 and tcel.
+d183 1
+a183 1
+$Id: README,v 2.2 1996/05/07 20:25:24 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@twcs was split into twcs1 and twcs2.  Mention optional use of wcstrig.
+@
+text
+@d1 6
+a6 5
+WCSLIB contains C routines which implement the proposed "World Coordinate
+System" (WCS) convention in FITS (Flexible Image Transport System).
+This proposal is described in "Representations of Celestial Coordinates in
+FITS" by Eric W. Greisen and Mark Calabretta.  A draft of this document is
+available via anonymous ftp from fits.cv.nrao.edu:/fits/documents/wcs.
+d8 3
+d12 15
+d40 1
+d185 1
+a185 1
+$Id: README,v 2.1 1995/11/16 06:53:28 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Mention wcsprm struct.
+@
+text
+@d37 2
+a38 1
+   twcs.c       Test WCS routines (requires PGPLOT and X11).
+d49 2
+a50 2
+described in lin.c.  The twcs.c, tcel.c and tlin test programs may be taken as
+programming templates.
+d138 2
+a139 1
+The twcs test program verifies wcsmix() on the 1 degree grid of celestial
+d145 15
+d165 1
+a165 1
+$Id: README,v 2.0 1995/09/11 04:35:48 mcalabre Exp mcalabre $
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d12 1
+d53 5
+a57 5
+transformation and projection parameters ("linprm", "celprm" and "prjprm") are
+also used to store intermediate values derived from the parameters.
+Particular members of these structs are flags which must be set to zero when
+any of the parameters are set (or reset), thereby signalling that the
+intermediate values need to be computed.  This mechanism also allows an
+d148 1
+a148 1
+$Id: README,v 1.2 1995/09/11 04:26:29 mcalabre Exp mcalabre $
+@
+
+
+1.2
+log
+@Updated aspects of the notes relating to lin.c and cel.c, and also LATPOLE.
+Added a new section "Nomenclature" explaining why the forward and reverse
+directions are named as they are.  Revised the discussion of closure to say
+that the tolerance is for reporting discrepant points and the worst-case
+closure figure is reported for each projection.
+@
+text
+@d147 1
+a147 1
+$Id: README,v 1.1 1995/01/31 03:13:15 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d13 7
+d23 3
+a25 4
+   sph.c        WCS spherical coordinate transformation routines.
+   wcs.c        WCS driver routines.
+   wcs.h        Header file for wcs.c; contains the definition of the
+                "wcsprm" struct and function prototypes.
+d28 1
+a28 1
+   wcstrig.h    Header file for wcs.c; contains function prototypes.
+d30 1
+d35 4
+a38 3
+   twcs.c       Plot an oblique test grid (requires PGPLOT and X11).
+   tpgc.c       C interfaces to PGPLOT used by tproj2 and twcs.
+   tpgf.f       FORTRAN interfaces to PGPLOT used by tproj2 and twcs.
+d41 8
+a48 7
+Usage notes
+-----------
+Usage of the routines is described in the prologue comments in wcs.c and
+proj.c (and also sph.c but this will not usually need to be used directly).
+The main interface is via the driver routines, wcsfwd() and wcsrev(),
+described in wcs.c.  The twcs.c test program may be taken as a programming
+template.
+d51 12
+a62 8
+save recomputing them on every call.  This consists of extending the structs
+("wcsprm" and "prjprm") which contain coordinate transformation and projection
+parameters so that they also store intermediate values.  Particular members of
+these structs (wcsprm.flag and prjprm.flag)) are flags which must be set (or
+reset) to zero when the parameters are set (or reset), thereby signalling that
+the intermediate values need to be computed (or recomputed).  This mechanism
+also allows an indefinite number of contexts to be maintained, something which
+is not possible via global variables.
+d64 11
+a74 2
+You should also be aware that while the default value of the FITS "LONGPOLE"
+keyword is 180 degrees this must be explicitly set in wcs.ref[2].
+d81 2
+a82 2
+need to tailor for your purposes.  You should then be able to build
+'libwcs_c.a' via
+d86 2
+a87 7
+A suite of test programs is also provided to verify the library.  Two of
+these, tproj1 and tsph, test for closure of the forward and reverse projection
+and spherical coordinate transformation routines.  Another two use PGPLOT to
+draw test coordinate grids using an X-windows viewer.  If PGPLOT and/or X11 is
+not available then you can defeat the compilation of these latter two test
+programs by unsetting the PGPLOTLIB variable in the makefile.  You can compile
+and exercise the test programs in one step via
+d94 7
+a100 6
+The tproj1 and tsph programs test closure of the projection routines and
+spherical coordinate transformations.  "Closure" tests apply the forward and
+reverse transformations in sequence and compare the result with the original
+value.  Ideally, the result should agree exactly, but because of floating
+point rounding errors there is usually a small discrepancy so it is only
+required to agree within a "closure tolerance".
+d109 8
+a116 5
+The closure tolerance specified for most projections is 1e-10 degree which is
+slightly less than 3 microarcsec.  Closure is tested at all points on the 1
+degree grid of native longitude and latitude and to within 5 degrees of any
+latitude of divergence for those projections which cannot represent the full
+sphere.
+d132 1
+a132 1
+addressed by tproj2 and twcs which plot test grids for visual inspection of
+d136 5
+d147 1
+a147 1
+$Id$
+@

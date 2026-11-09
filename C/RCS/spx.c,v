@@ -1,0 +1,8012 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.21.57;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.06.40.25;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.02.59;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.04.07.22;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.53.24;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.15.03;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.52.49;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.03.50.41;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.03.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.00.43.10;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.10.08.07.58.59;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.04.28.39;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.43.08;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.18.08.14.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.13.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.01.13.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.05.07.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.08.12.35.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Implementation of the WCS spectral conversion equations.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: spx.c,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*===========================================================================*/
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+
+#include "wcserr.h"
+#include "wcsmath.h"
+#include "spx.h"
+
+
+// Map status return value to message.
+const char *spx_errmsg[] = {
+  "Success",
+  "Null spxprm pointer passed",
+  "Invalid spectral parameters",
+  "Invalid spectral variable",
+  "One or more of the inspec coordinates were invalid"};
+
+// Convenience macro for invoking wcserr_set().
+#define SPX_ERRMSG(status) WCSERR_SET(status), spx_errmsg[status]
+
+#define C 2.99792458e8
+#define h 6.6260755e-34
+
+/*============================================================================
+*   Spectral cross conversions; given one spectral coordinate it computes all
+*   the others, plus the required derivatives of each with respect to the
+*   others.
+*===========================================================================*/
+
+int specx(
+  const char *type,
+  double spec,
+  double restfrq,
+  double restwav,
+  struct spxprm *spx)
+
+{
+  static const char *function = "specx";
+
+  if (spx == 0x0) return SPXERR_NULL_POINTER;
+  struct wcserr **err = &(spx->err);
+
+  int haverest = 1;
+  if (restfrq == 0.0) {
+    if (restwav == 0.0) {
+      // No line rest frequency supplied.
+      haverest = 0;
+
+      // Temporarily set a dummy value for conversions.
+      spx->restwav = 1.0;
+    } else {
+      spx->restwav = restwav;
+    }
+    spx->restfrq = C/spx->restwav;
+
+  } else {
+    spx->restfrq = restfrq;
+    spx->restwav = C/restfrq;
+  }
+
+  spx->err = 0x0;
+
+  // Convert to frequency.
+  spx->wavetype = 0;
+  spx->velotype = 0;
+  if (strcmp(type, "FREQ") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable: frequency == 0");
+    }
+    spx->freq = spec;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "AFRQ") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable: frequency == 0");
+    }
+    spx->freq = spec/(2.0*PI);
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "ENER") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable: frequency == 0");
+    }
+    spx->freq = spec/h;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "WAVN") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable: frequency == 0");
+    }
+    spx->freq = spec*C;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VRAD") == 0) {
+    spx->freq = spx->restfrq*(1.0 - spec/C);
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "WAVE") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable: frequency == 0");
+    }
+    spx->freq = C/spec;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VOPT") == 0) {
+    double s = 1.0 + spec/C;
+    if (s == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable");
+    }
+    spx->freq = spx->restfrq/s;
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "ZOPT") == 0) {
+    double s = 1.0 + spec;
+    if (s == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable");
+    }
+    spx->freq = spx->restfrq/s;
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "AWAV") == 0) {
+    if (spec == 0.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable");
+    }
+
+    double n, s;
+    s = 1.0/spec;
+    s *= s;
+    n  =   2.554e8 / (0.41e14 - s);
+    n += 294.981e8 / (1.46e14 - s);
+    n += 1.000064328;
+    spx->freq = C/(spec*n);
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VELO") == 0) {
+    double beta = spec/C;
+    if (fabs(beta) == 1.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable");
+    }
+    spx->freq = spx->restfrq*(1.0 - beta)/sqrt(1.0 - beta*beta);
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "BETA") == 0) {
+    if (fabs(spec) == 1.0) {
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+        "Invalid spectral variable");
+    }
+    spx->freq = spx->restfrq*(1.0 - spec)/sqrt(1.0 - spec*spec);
+    spx->velotype = 1;
+
+  } else {
+    // Unrecognized type.
+    return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_PARAMS),
+      "Unrecognized spectral type '%s'", type);
+  }
+
+
+  // Convert frequency to the other spectral types.
+  double n, s, t, u;
+  n = 1.0;
+  for (int k = 0; k < 4; k++) {
+    s = n*spx->freq/C;
+    s *= s;
+    t = 0.41e14 - s;
+    u = 1.46e14 - s;
+    n = 1.000064328 + (2.554e8/t + 294.981e8/u);
+  }
+
+  double dwaveawav = n - 2.0*s*(2.554e8/(t*t) + 294.981e8/(u*u));
+
+  s = spx->freq/spx->restfrq;
+
+  spx->ener = spx->freq*h;
+  spx->afrq = spx->freq*(2.0*PI);
+  spx->wavn = spx->freq/C;
+  spx->vrad = C*(1.0 - s);
+  spx->wave = C/spx->freq;
+  spx->awav = spx->wave/n;
+  spx->vopt = C*(1.0/s - 1.0);
+  spx->zopt = spx->vopt/C;
+  spx->velo = C*(1.0 - s*s)/(1.0 + s*s);
+  spx->beta = spx->velo/C;
+
+  // Compute the required derivatives.
+  double gamma = 1.0/sqrt(1.0 - spx->beta*spx->beta);
+
+  spx->dfreqafrq = 1.0/(2.0*PI);
+  spx->dafrqfreq = 1.0/spx->dfreqafrq;
+
+  spx->dfreqener = 1.0/h;
+  spx->denerfreq = 1.0/spx->dfreqener;
+
+  spx->dfreqwavn = C;
+  spx->dwavnfreq = 1.0/spx->dfreqwavn;
+
+  spx->dfreqvrad = -spx->restfrq/C;
+  spx->dvradfreq = 1.0/spx->dfreqvrad;
+
+  spx->dfreqwave = -spx->freq/spx->wave;
+  spx->dwavefreq = 1.0/spx->dfreqwave;
+
+  spx->dfreqawav = spx->dfreqwave * dwaveawav;
+  spx->dawavfreq = 1.0/spx->dfreqawav;
+
+  spx->dfreqvelo = -gamma*spx->restfrq/(C + spx->velo);
+  spx->dvelofreq = 1.0/spx->dfreqvelo;
+
+  spx->dwavevopt = spx->restwav/C;
+  spx->dvoptwave = 1.0/spx->dwavevopt;
+
+  spx->dwavezopt = spx->restwav;
+  spx->dzoptwave = 1.0/spx->dwavezopt;
+
+  spx->dwaveawav = dwaveawav;
+  spx->dawavwave = 1.0/spx->dwaveawav;
+
+  spx->dwavevelo = gamma*spx->restwav/(C - spx->velo);
+  spx->dvelowave = 1.0/spx->dwavevelo;
+
+  spx->dawavvelo = spx->dwavevelo/dwaveawav;
+  spx->dveloawav = 1.0/spx->dawavvelo;
+
+  spx->dvelobeta = C;
+  spx->dbetavelo = 1.0/spx->dvelobeta;
+
+
+  // Reset values if no line rest frequency was supplied.
+  if (haverest) {
+    spx->wavetype = 1;
+    spx->velotype = 1;
+
+  } else {
+    spx->restfrq = 0.0;
+    spx->restwav = 0.0;
+
+    if (!spx->wavetype) {
+      // Don't have wave characteristic types.
+      spx->freq = 0.0;
+      spx->afrq = 0.0;
+      spx->ener = 0.0;
+      spx->wavn = 0.0;
+      spx->wave = 0.0;
+      spx->awav = 0.0;
+
+      spx->dfreqwave = 0.0;
+      spx->dwavefreq = 0.0;
+
+      spx->dfreqawav = 0.0;
+      spx->dawavfreq = 0.0;
+
+      spx->dwaveawav = 0.0;
+      spx->dawavwave = 0.0;
+
+    } else {
+      // Don't have velocity types.
+      spx->vrad = 0.0;
+      spx->vopt = 0.0;
+      spx->zopt = 0.0;
+      spx->velo = 0.0;
+      spx->beta = 0.0;
+    }
+
+    spx->dfreqvrad = 0.0;
+    spx->dvradfreq = 0.0;
+
+    spx->dfreqvelo = 0.0;
+    spx->dvelofreq = 0.0;
+
+    spx->dwavevopt = 0.0;
+    spx->dvoptwave = 0.0;
+
+    spx->dwavezopt = 0.0;
+    spx->dzoptwave = 0.0;
+
+    spx->dwavevelo = 0.0;
+    spx->dvelowave = 0.0;
+
+    spx->dawavvelo = 0.0;
+    spx->dveloawav = 0.0;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int spxperr(const struct spxprm *spx, const char *prefix)
+
+{
+  if (spx == 0x0) return SPXERR_NULL_POINTER;
+
+  if (spx->err) {
+    wcserr_prt(spx->err, prefix);
+  }
+
+  return 0;
+}
+
+
+/*============================================================================
+*   Conversions between frequency and vacuum wavelength.
+*===========================================================================*/
+
+int freqwave(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swave,
+  const double freq[],
+  double wave[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *freqp = freq;
+  double *wavep = wave;
+  int *statp = stat;
+  int status = 0;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    if (*freqp != 0.0) {
+      *wavep = C/(*freqp);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    freqp += sfreq;
+    wavep += swave;
+  }
+
+  return status;
+}
+
+//----------------------------------------------------------------------------
+
+int wavefreq(
+  double dummy,
+  int nwave,
+  int swave,
+  int sfreq,
+  const double wave[],
+  double freq[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *wavep = wave;
+  double *freqp = freq;
+  int *statp = stat;
+  int status = 0;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    if (*wavep != 0.0) {
+      *freqp = C/(*wavep);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    wavep += swave;
+    freqp += sfreq;
+  }
+
+  return status;
+}
+
+/*============================================================================
+*   Conversions between frequency and air wavelength.
+*===========================================================================*/
+
+int freqawav(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sawav,
+  const double freq[],
+  double awav[],
+  int stat[])
+
+{
+  int status;
+  if ((status = freqwave(dummy, nfreq, sfreq, sawav, freq, awav, stat))) {
+    return status;
+  }
+
+  return waveawav(dummy, nfreq, sawav, sawav, awav, awav, stat);
+}
+
+//----------------------------------------------------------------------------
+
+int awavfreq(
+  double dummy,
+  int nawav,
+  int sawav,
+  int sfreq,
+  const double awav[],
+  double freq[],
+  int stat[])
+
+{
+  int status;
+  if ((status = awavwave(dummy, nawav, sawav, sfreq, awav, freq, stat))) {
+    return status;
+  }
+
+  return wavefreq(dummy, nawav, sfreq, sfreq, freq, freq, stat);
+}
+
+/*============================================================================
+*   Conversions between frequency and relativistic velocity.
+*===========================================================================*/
+
+int freqvelo(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svelo,
+  const double freq[],
+  double velo[],
+  int stat[])
+
+{
+  double r = restfrq*restfrq;
+
+  const double *freqp = freq;
+  double *velop = velo;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    double s = *freqp * *freqp;
+    *velop = C*(r - s)/(r + s);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    velop += svelo;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int velofreq(
+  double restfrq,
+  int nvelo,
+  int svelo,
+  int sfreq,
+  const double velo[],
+  double freq[],
+  int stat[])
+
+{
+  const double *velop = velo;
+  double *freqp = freq;
+  int *statp = stat;
+  int status = 0;
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+    double s = C + *velop;
+    if (s != 0.0) {
+      *freqp = restfrq*sqrt((C - *velop)/s);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    velop += svelo;
+    freqp += sfreq;
+  }
+
+  return status;
+}
+
+/*============================================================================
+*   Conversions between vacuum wavelength and air wavelength.
+*===========================================================================*/
+
+int waveawav(
+  double dummy,
+  int nwave,
+  int swave,
+  int sawav,
+  const double wave[],
+  double awav[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *wavep = wave;
+  double *awavp = awav;
+  int *statp = stat;
+  int status = 0;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    if (*wavep != 0.0) {
+      double n = 1.0;
+      for (int k = 0; k < 4; k++) {
+        double s  = n/(*wavep);
+        s *= s;
+        n  =   2.554e8 / (0.41e14 - s);
+        n += 294.981e8 / (1.46e14 - s);
+        n += 1.000064328;
+      }
+
+      *awavp = (*wavep)/n;
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    wavep += swave;
+    awavp += sawav;
+  }
+
+  return status;
+}
+
+//----------------------------------------------------------------------------
+
+int awavwave(
+  double dummy,
+  int nawav,
+  int sawav,
+  int swave,
+  const double awav[],
+  double wave[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *awavp = awav;
+  double *wavep = wave;
+  int *statp = stat;
+  int status = 0;
+  for (int iawav = 0; iawav < nawav; iawav++) {
+    if (*awavp != 0.0) {
+      double n, s;
+      s = 1.0/(*awavp);
+      s *= s;
+      n  =   2.554e8 / (0.41e14 - s);
+      n += 294.981e8 / (1.46e14 - s);
+      n += 1.000064328;
+      *wavep = (*awavp)*n;
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    awavp += sawav;
+    wavep += swave;
+  }
+
+  return status;
+}
+
+/*============================================================================
+*   Conversions between vacuum wavelength and relativistic velocity.
+*===========================================================================*/
+
+int wavevelo(
+  double restwav,
+  int nwave,
+  int swave,
+  int svelo,
+  const double wave[],
+  double velo[],
+  int stat[])
+
+{
+  double r = restwav*restwav;
+
+  const double *wavep = wave;
+  double *velop = velo;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    double s = *wavep * *wavep;
+    *velop = C*(s - r)/(s + r);
+    *(statp++) = 0;
+
+    wavep += swave;
+    velop += svelo;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int velowave(
+  double restwav,
+  int nvelo,
+  int svelo,
+  int swave,
+  const double velo[],
+  double wave[],
+  int stat[])
+
+{
+  const double *velop = velo;
+  double *wavep = wave;
+  int *statp = stat;
+  int status = 0;
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+    double s = C - *velop;
+    if (s != 0.0) {
+      *wavep = restwav*sqrt((C + *velop)/s);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = SPXERR_BAD_INSPEC_COORD;
+    }
+
+    velop += svelo;
+    wavep += swave;
+  }
+
+  return status;
+}
+
+/*============================================================================
+*   Conversions between air wavelength and relativistic velocity.
+*===========================================================================*/
+
+int awavvelo(
+  double dummy,
+  int nawav,
+  int sawav,
+  int svelo,
+  const double awav[],
+  double velo[],
+  int stat[])
+
+{
+  int status;
+  if ((status = awavwave(dummy, nawav, sawav, svelo, awav, velo, stat))) {
+    return status;
+  }
+
+  return wavevelo(dummy, nawav, svelo, svelo, velo, velo, stat);
+}
+
+//----------------------------------------------------------------------------
+
+int veloawav(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sawav,
+  const double velo[],
+  double awav[],
+  int stat[])
+
+{
+  int status;
+  if ((status = velowave(dummy, nvelo, svelo, sawav, velo, awav, stat))) {
+    return status;
+  }
+
+  return waveawav(dummy, nvelo, sawav, sawav, awav, awav, stat);
+}
+
+/*============================================================================
+*   Conversions between frequency and angular frequency.
+*===========================================================================*/
+
+int freqafrq(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int safrq,
+  const double freq[],
+  double afrq[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *freqp = freq;
+  double *afrqp = afrq;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    *afrqp = (*freqp)*(2.0*PI);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    afrqp += safrq;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int afrqfreq(
+  double dummy,
+  int nafrq,
+  int safrq,
+  int sfreq,
+  const double afrq[],
+  double freq[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *afrqp = afrq;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iafrq = 0; iafrq < nafrq; iafrq++) {
+    *freqp = (*afrqp)/(2.0*PI);
+    *(statp++) = 0;
+
+    afrqp += safrq;
+    freqp += sfreq;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between frequency and energy.
+*===========================================================================*/
+
+int freqener(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sener,
+  const double freq[],
+  double ener[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *freqp = freq;
+  double *enerp = ener;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    *enerp = (*freqp)*h;
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    enerp += sener;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int enerfreq(
+  double dummy,
+  int nener,
+  int sener,
+  int sfreq,
+  const double ener[],
+  double freq[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *enerp = ener;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iener = 0; iener < nener; iener++) {
+    *freqp = (*enerp)/h;
+    *(statp++) = 0;
+
+    enerp += sener;
+    freqp += sfreq;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between frequency and wave number.
+*===========================================================================*/
+
+int freqwavn(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swavn,
+  const double freq[],
+  double wavn[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *freqp = freq;
+  double *wavnp = wavn;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    *wavnp = (*freqp)/C;
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    wavnp += swavn;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int wavnfreq(
+  double dummy,
+  int nwavn,
+  int swavn,
+  int sfreq,
+  const double wavn[],
+  double freq[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *wavnp = wavn;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iwavn = 0; iwavn < nwavn; iwavn++) {
+    *freqp = (*wavnp)*C;
+    *(statp++) = 0;
+
+    wavnp += swavn;
+    freqp += sfreq;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between frequency and radio velocity.
+*===========================================================================*/
+
+int freqvrad(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svrad,
+  const double freq[],
+  double vrad[],
+  int stat[])
+
+{
+  if (restfrq == 0.0) {
+    return SPXERR_BAD_SPEC_PARAMS;
+  }
+  double r = C/restfrq;
+
+  const double *freqp = freq;
+  double *vradp = vrad;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    *vradp = r*(restfrq - *freqp);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    vradp += svrad;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int vradfreq(
+  double restfrq,
+  int nvrad,
+  int svrad,
+  int sfreq,
+  const double vrad[],
+  double freq[],
+  int stat[])
+
+{
+  double r = restfrq/C;
+
+  const double *vradp = vrad;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int ivrad = 0; ivrad < nvrad; ivrad++) {
+    *freqp = r*(C - *vradp);
+    *(statp++) = 0;
+    vradp += svrad;
+    freqp += sfreq;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between vacuum wavelength and optical velocity.
+*===========================================================================*/
+
+int wavevopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int svopt,
+  const double wave[],
+  double vopt[],
+  int stat[])
+
+{
+  if (restwav == 0.0) {
+    return SPXERR_BAD_SPEC_PARAMS;
+  }
+  double r = C/restwav;
+
+  const double *wavep = wave;
+  double *voptp = vopt;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    *voptp = r*(*wavep) - C;
+    *(statp++) = 0;
+    wavep += swave;
+    voptp += svopt;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int voptwave(
+  double restwav,
+  int nvopt,
+  int svopt,
+  int swave,
+  const double vopt[],
+  double wave[],
+  int stat[])
+
+{
+  double r = restwav/C;
+
+  const double *voptp = vopt;
+  double *wavep = wave;
+  int *statp = stat;
+  for (int ivopt = 0; ivopt < nvopt; ivopt++) {
+    *wavep = r*(C + *voptp);
+    *(statp++) = 0;
+    voptp += svopt;
+    wavep += swave;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between vacuum wavelength and redshift.
+*===========================================================================*/
+
+int wavezopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int szopt,
+  const double wave[],
+  double zopt[],
+  int stat[])
+
+{
+  if (restwav == 0.0) {
+    return SPXERR_BAD_SPEC_PARAMS;
+  }
+  double r = 1.0/restwav;
+
+  const double *wavep = wave;
+  double *zoptp = zopt;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    *zoptp = r*(*wavep) - 1.0;
+    *(statp++) = 0;
+    wavep += swave;
+    zoptp += szopt;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int zoptwave(
+  double restwav,
+  int nzopt,
+  int szopt,
+  int swave,
+  const double zopt[],
+  double wave[],
+  int stat[])
+
+{
+  const double *zoptp = zopt;
+  double *wavep = wave;
+  int *statp = stat;
+  for (int izopt = 0; izopt < nzopt; izopt++) {
+    *wavep = restwav*(1.0 + *zoptp);
+    *(statp++) = 0;
+    zoptp += szopt;
+    wavep += swave;
+  }
+
+  return 0;
+}
+
+/*============================================================================
+*   Conversions between relativistic velocity and beta (= v/c).
+*===========================================================================*/
+
+int velobeta(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sbeta,
+  const double velo[],
+  double beta[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *velop = velo;
+  double *betap = beta;
+  int *statp = stat;
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+    *betap = (*velop)/C;
+    *(statp++) = 0;
+
+    velop += svelo;
+    betap += sbeta;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int betavelo(
+  double dummy,
+  int nbeta,
+  int sbeta,
+  int svelo,
+  const double beta[],
+  double velo[],
+  int stat[])
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  const double *betap = beta;
+  double *velop = velo;
+  int *statp = stat;
+  for (int ibeta = 0; ibeta < nbeta; ibeta++) {
+    *velop = (*betap)*C;
+    *(statp++) = 0;
+
+    betap += sbeta;
+    velop += svelo;
+  }
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: spx.c,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: spx.c,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.2.1.3 2024/05/08 12:35:35 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+a63 5
+  register int k;
+  int haverest;
+  double beta, dwaveawav, gamma, n, s, t, u;
+  struct wcserr **err;
+
+d65 1
+a65 1
+  err = &(spx->err);
+d67 1
+a67 1
+  haverest = 1;
+d135 1
+a135 1
+    s = 1.0 + spec/C;
+d144 1
+a144 1
+    s = 1.0 + spec;
+d157 2
+d168 1
+a168 1
+    beta = spec/C;
+d192 1
+d194 1
+a194 1
+  for (k = 0; k < 4; k++) {
+d202 1
+a202 1
+  dwaveawav = n - 2.0*s*(2.554e8/(t*t) + 294.981e8/(u*u));
+d218 1
+a218 1
+  gamma = 1.0/sqrt(1.0 - spx->beta*spx->beta);
+a346 5
+  int status = 0;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *wavep;
+
+d350 5
+a354 4
+  freqp = freq;
+  wavep = wave;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+a381 5
+  int status = 0;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *freqp;
+
+d385 5
+a389 4
+  wavep = wave;
+  freqp = freq;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+a419 1
+
+a439 1
+
+d461 7
+a467 12
+  double r, s;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *velop;
+
+  r = restfrq*restfrq;
+
+  freqp = freq;
+  velop = velo;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    s = *freqp * *freqp;
+d490 3
+d494 2
+a495 10
+  double s;
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *freqp;
+
+  velop = velo;
+  freqp = freq;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+    s = C + *velop;
+a524 6
+  int status = 0;
+  double n, s;
+  register int iwave, k, *statp;
+  register const double *wavep;
+  register double *awavp;
+
+d528 5
+a532 4
+  wavep = wave;
+  awavp = awav;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+d534 3
+a536 3
+      n = 1.0;
+      for (k = 0; k < 4; k++) {
+        s  = n/(*wavep);
+a568 6
+  int status = 0;
+  double n, s;
+  register int iawav, *statp;
+  register const double *awavp;
+  register double *wavep;
+
+d572 5
+a576 4
+  awavp = awav;
+  wavep = wave;
+  statp = stat;
+  for (iawav = 0; iawav < nawav; iawav++) {
+d578 1
+d612 7
+a618 12
+  double r, s;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *velop;
+
+  r = restwav*restwav;
+
+  wavep = wave;
+  velop = velo;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    s = *wavep * *wavep;
+d641 3
+d645 2
+a646 10
+  double s;
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *wavep;
+
+  velop = velo;
+  wavep = wave;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+    s = C - *velop;
+a676 1
+
+a696 1
+
+a717 4
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *afrqp;
+
+d721 4
+a724 4
+  freqp = freq;
+  afrqp = afrq;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+a746 4
+  register int iafrq, *statp;
+  register const double *afrqp;
+  register double *freqp;
+
+d750 4
+a753 4
+  afrqp = afrq;
+  freqp = freq;
+  statp = stat;
+  for (iafrq = 0; iafrq < nafrq; iafrq++) {
+a777 4
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *enerp;
+
+d781 4
+a784 4
+  freqp = freq;
+  enerp = ener;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+a806 4
+  register int iener, *statp;
+  register const double *enerp;
+  register double *freqp;
+
+d810 4
+a813 4
+  enerp = ener;
+  freqp = freq;
+  statp = stat;
+  for (iener = 0; iener < nener; iener++) {
+a837 4
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *wavnp;
+
+d841 4
+a844 4
+  freqp = freq;
+  wavnp = wavn;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+a866 4
+  register int iwavn, *statp;
+  register const double *wavnp;
+  register double *freqp;
+
+d870 4
+a873 4
+  wavnp = wavn;
+  freqp = freq;
+  statp = stat;
+  for (iwavn = 0; iwavn < nwavn; iwavn++) {
+a897 5
+  double r;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *vradp;
+
+d901 1
+a901 1
+  r = C/restfrq;
+d903 4
+a906 4
+  freqp = freq;
+  vradp = vrad;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+d929 6
+a934 11
+  double r;
+  register int ivrad, *statp;
+  register const double *vradp;
+  register double *freqp;
+
+  r = restfrq/C;
+
+  vradp = vrad;
+  freqp = freq;
+  statp = stat;
+  for (ivrad = 0; ivrad < nvrad; ivrad++) {
+a957 5
+  double r;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *voptp;
+
+d961 1
+a961 1
+  r = C/restwav;
+d963 4
+a966 4
+  wavep = wave;
+  voptp = vopt;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+d988 6
+a993 11
+  double r;
+  register int ivopt, *statp;
+  register const double *voptp;
+  register double *wavep;
+
+  r = restwav/C;
+
+  voptp = vopt;
+  wavep = wave;
+  statp = stat;
+  for (ivopt = 0; ivopt < nvopt; ivopt++) {
+a1016 5
+  double r;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *zoptp;
+
+d1020 1
+a1020 1
+  r = 1.0/restwav;
+d1022 4
+a1025 4
+  wavep = wave;
+  zoptp = zopt;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+d1047 4
+a1050 8
+  register int izopt, *statp;
+  register const double *zoptp;
+  register double *wavep;
+
+  zoptp = zopt;
+  wavep = wave;
+  statp = stat;
+  for (izopt = 0; izopt < nzopt; izopt++) {
+a1073 4
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *betap;
+
+d1077 4
+a1080 4
+  velop = velo;
+  betap = beta;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+a1102 4
+  register int ibeta, *statp;
+  register const double *betap;
+  register double *velop;
+
+d1106 4
+a1109 4
+  betap = beta;
+  velop = velo;
+  statp = stat;
+  for (ibeta = 0; ibeta < nbeta; ibeta++) {
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d64 5
+d70 1
+a70 1
+  struct wcserr **err = &(spx->err);
+d72 1
+a72 1
+  int haverest = 1;
+d140 1
+a140 1
+    double s = 1.0 + spec/C;
+d149 1
+a149 1
+    double s = 1.0 + spec;
+a161 2
+
+    double n, s;
+d171 1
+a171 1
+    double beta = spec/C;
+a194 1
+  double n, s, t, u;
+d196 1
+a196 1
+  for (int k = 0; k < 4; k++) {
+d204 1
+a204 1
+  double dwaveawav = n - 2.0*s*(2.554e8/(t*t) + 294.981e8/(u*u));
+d220 1
+a220 1
+  double gamma = 1.0/sqrt(1.0 - spx->beta*spx->beta);
+d349 5
+d357 4
+a360 5
+  const double *freqp = freq;
+  double *wavep = wave;
+  int *statp = stat;
+  int status = 0;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+d388 5
+d396 4
+a399 5
+  const double *wavep = wave;
+  double *freqp = freq;
+  int *statp = stat;
+  int status = 0;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+d430 1
+d451 1
+d473 12
+a484 7
+  double r = restfrq*restfrq;
+
+  const double *freqp = freq;
+  double *velop = velo;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+    double s = *freqp * *freqp;
+a506 3
+  const double *velop = velo;
+  double *freqp = freq;
+  int *statp = stat;
+d508 10
+a517 2
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+    double s = C + *velop;
+d547 6
+d556 4
+a559 5
+  const double *wavep = wave;
+  double *awavp = awav;
+  int *statp = stat;
+  int status = 0;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+d561 3
+a563 3
+      double n = 1.0;
+      for (int k = 0; k < 4; k++) {
+        double s  = n/(*wavep);
+d596 6
+d605 4
+a608 5
+  const double *awavp = awav;
+  double *wavep = wave;
+  int *statp = stat;
+  int status = 0;
+  for (int iawav = 0; iawav < nawav; iawav++) {
+a609 1
+      double n, s;
+d643 12
+a654 7
+  double r = restwav*restwav;
+
+  const double *wavep = wave;
+  double *velop = velo;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+    double s = *wavep * *wavep;
+a676 3
+  const double *velop = velo;
+  double *wavep = wave;
+  int *statp = stat;
+d678 10
+a687 2
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+    double s = C - *velop;
+d718 1
+d739 1
+d761 4
+d768 4
+a771 4
+  const double *freqp = freq;
+  double *afrqp = afrq;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+d794 4
+d801 4
+a804 4
+  const double *afrqp = afrq;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iafrq = 0; iafrq < nafrq; iafrq++) {
+d829 4
+d836 4
+a839 4
+  const double *freqp = freq;
+  double *enerp = ener;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+d862 4
+d869 4
+a872 4
+  const double *enerp = ener;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iener = 0; iener < nener; iener++) {
+d897 4
+d904 4
+a907 4
+  const double *freqp = freq;
+  double *wavnp = wavn;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+d930 4
+d937 4
+a940 4
+  const double *wavnp = wavn;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int iwavn = 0; iwavn < nwavn; iwavn++) {
+d965 5
+d973 1
+a973 1
+  double r = C/restfrq;
+d975 4
+a978 4
+  const double *freqp = freq;
+  double *vradp = vrad;
+  int *statp = stat;
+  for (int ifreq = 0; ifreq < nfreq; ifreq++) {
+d1001 11
+a1011 6
+  double r = restfrq/C;
+
+  const double *vradp = vrad;
+  double *freqp = freq;
+  int *statp = stat;
+  for (int ivrad = 0; ivrad < nvrad; ivrad++) {
+d1035 5
+d1043 1
+a1043 1
+  double r = C/restwav;
+d1045 4
+a1048 4
+  const double *wavep = wave;
+  double *voptp = vopt;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+d1070 11
+a1080 6
+  double r = restwav/C;
+
+  const double *voptp = vopt;
+  double *wavep = wave;
+  int *statp = stat;
+  for (int ivopt = 0; ivopt < nvopt; ivopt++) {
+d1104 5
+d1112 1
+a1112 1
+  double r = 1.0/restwav;
+d1114 4
+a1117 4
+  const double *wavep = wave;
+  double *zoptp = zopt;
+  int *statp = stat;
+  for (int iwave = 0; iwave < nwave; iwave++) {
+d1139 8
+a1146 4
+  const double *zoptp = zopt;
+  double *wavep = wave;
+  int *statp = stat;
+  for (int izopt = 0; izopt < nzopt; izopt++) {
+d1170 4
+d1177 4
+a1180 4
+  const double *velop = velo;
+  double *betap = beta;
+  int *statp = stat;
+  for (int ivelo = 0; ivelo < nvelo; ivelo++) {
+d1203 4
+d1210 4
+a1213 4
+  const double *betap = beta;
+  double *velop = velo;
+  int *statp = stat;
+  for (int ibeta = 0; ibeta < nbeta; ibeta++) {
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: spx.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: spx.c,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: spx.c,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: spx.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d34 1
+a34 1
+/* Map status return value to message. */
+d42 1
+a42 1
+/* Convenience macro for invoking wcserr_set(). */
+d75 1
+a75 1
+      /* No line rest frequency supplied. */
+d78 1
+a78 1
+      /* Temporarily set a dummy value for conversions. */
+d92 1
+a92 1
+  /* Convert to frequency. */
+d188 1
+a188 1
+    /* Unrecognized type. */
+d194 1
+a194 1
+  /* Convert frequency to the other spectral types. */
+d219 1
+a219 1
+  /* Compute the required derivatives. */
+d262 1
+a262 1
+  /* Reset values if no line rest frequency was supplied. */
+d272 1
+a272 1
+      /* Don't have wave characteristic types. */
+d290 1
+a290 1
+      /* Don't have velocity types. */
+d320 1
+a320 1
+/*--------------------------------------------------------------------------*/
+d354 1
+a354 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d376 1
+a376 1
+/*--------------------------------------------------------------------------*/
+d393 1
+a393 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d438 1
+a438 1
+/*--------------------------------------------------------------------------*/
+d495 1
+a495 1
+/*--------------------------------------------------------------------------*/
+d553 1
+a553 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d584 1
+a584 1
+/*--------------------------------------------------------------------------*/
+d602 1
+a602 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d665 1
+a665 1
+/*--------------------------------------------------------------------------*/
+d726 1
+a726 1
+/*--------------------------------------------------------------------------*/
+d765 1
+a765 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d782 1
+a782 1
+/*--------------------------------------------------------------------------*/
+d798 1
+a798 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d833 1
+a833 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d850 1
+a850 1
+/*--------------------------------------------------------------------------*/
+d866 1
+a866 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d901 1
+a901 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d918 1
+a918 1
+/*--------------------------------------------------------------------------*/
+d934 1
+a934 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d989 1
+a989 1
+/*--------------------------------------------------------------------------*/
+d1058 1
+a1058 1
+/*--------------------------------------------------------------------------*/
+d1127 1
+a1127 1
+/*--------------------------------------------------------------------------*/
+d1174 1
+a1174 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d1191 1
+a1191 1
+/*--------------------------------------------------------------------------*/
+d1207 1
+a1207 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: spx.c,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d37 1
+a37 1
+// Map status return value to message.
+d45 1
+a45 1
+// Convenience macro for invoking wcserr_set().
+d78 1
+a78 1
+      // No line rest frequency supplied.
+d81 1
+a81 1
+      // Temporarily set a dummy value for conversions.
+d95 1
+a95 1
+  // Convert to frequency.
+d191 1
+a191 1
+    // Unrecognized type.
+d197 1
+a197 1
+  // Convert frequency to the other spectral types.
+d222 1
+a222 1
+  // Compute the required derivatives.
+d265 1
+a265 1
+  // Reset values if no line rest frequency was supplied.
+d275 1
+a275 1
+      // Don't have wave characteristic types.
+d293 1
+a293 1
+      // Don't have velocity types.
+d323 1
+a323 1
+//----------------------------------------------------------------------------
+d357 1
+a357 1
+  // Avert nuisance compiler warnings about unused parameters.
+d379 1
+a379 1
+//----------------------------------------------------------------------------
+d396 1
+a396 1
+  // Avert nuisance compiler warnings about unused parameters.
+d441 1
+a441 1
+//----------------------------------------------------------------------------
+d498 1
+a498 1
+//----------------------------------------------------------------------------
+d556 1
+a556 1
+  // Avert nuisance compiler warnings about unused parameters.
+d587 1
+a587 1
+//----------------------------------------------------------------------------
+d605 1
+a605 1
+  // Avert nuisance compiler warnings about unused parameters.
+d668 1
+a668 1
+//----------------------------------------------------------------------------
+d729 1
+a729 1
+//----------------------------------------------------------------------------
+d768 1
+a768 1
+  // Avert nuisance compiler warnings about unused parameters.
+d785 1
+a785 1
+//----------------------------------------------------------------------------
+d801 1
+a801 1
+  // Avert nuisance compiler warnings about unused parameters.
+d836 1
+a836 1
+  // Avert nuisance compiler warnings about unused parameters.
+d853 1
+a853 1
+//----------------------------------------------------------------------------
+d869 1
+a869 1
+  // Avert nuisance compiler warnings about unused parameters.
+d904 1
+a904 1
+  // Avert nuisance compiler warnings about unused parameters.
+d921 1
+a921 1
+//----------------------------------------------------------------------------
+d937 1
+a937 1
+  // Avert nuisance compiler warnings about unused parameters.
+d992 1
+a992 1
+//----------------------------------------------------------------------------
+d1061 1
+a1061 1
+//----------------------------------------------------------------------------
+d1130 1
+a1130 1
+//----------------------------------------------------------------------------
+d1177 1
+a1177 1
+  // Avert nuisance compiler warnings about unused parameters.
+d1194 1
+a1194 1
+//----------------------------------------------------------------------------
+d1210 1
+a1210 1
+  // Avert nuisance compiler warnings about unused parameters.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: spx.c,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: spx.c,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 6.2.1.3 2019/07/08 05:07:57 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d57 6
+a62 5
+int specx(type, spec, restfrq, restwav, spx)
+
+const char *type;
+double spec, restfrq, restwav;
+struct spxprm *spx;
+d342 8
+a349 7
+int freqwave(dummy, nfreq, sfreq, swave, freq, wave, stat)
+
+double dummy;
+int nfreq, sfreq, swave;
+const double freq[];
+double wave[];
+int stat[];
+d381 8
+a388 7
+int wavefreq(dummy, nwave, swave, sfreq, wave, freq, stat)
+
+double dummy;
+int nwave, swave, sfreq;
+const double wave[];
+double freq[];
+int stat[];
+d422 8
+a429 7
+int freqawav(dummy, nfreq, sfreq, sawav, freq, awav, stat)
+
+double dummy;
+int nfreq, sfreq, sawav;
+const double freq[];
+double awav[];
+int stat[];
+d443 8
+a450 7
+int awavfreq(dummy, nawav, sawav, sfreq, awav, freq, stat)
+
+double dummy;
+int nawav, sawav, sfreq;
+const double awav[];
+double freq[];
+int stat[];
+d466 8
+a473 7
+int freqvelo(restfrq, nfreq, sfreq, svelo, freq, velo, stat)
+
+double restfrq;
+int nfreq, sfreq, svelo;
+const double freq[];
+double velo[];
+int stat[];
+d500 8
+a507 7
+int velofreq(restfrq, nvelo, svelo, sfreq, velo, freq, stat)
+
+double restfrq;
+int nvelo, svelo, sfreq;
+const double velo[];
+double freq[];
+int stat[];
+d540 8
+a547 7
+int waveawav(dummy, nwave, swave, sawav, wave, awav, stat)
+
+double dummy;
+int nwave, swave, sawav;
+const double wave[];
+double awav[];
+int stat[];
+d589 8
+a596 7
+int awavwave(dummy, nawav, sawav, swave, awav, wave, stat)
+
+double dummy;
+int nawav, sawav, swave;
+const double awav[];
+double wave[];
+int stat[];
+d636 8
+a643 7
+int wavevelo(restwav, nwave, swave, svelo, wave, velo, stat)
+
+double restwav;
+int nwave, swave, svelo;
+const double wave[];
+double velo[];
+int stat[];
+d670 8
+a677 7
+int velowave(restwav, nvelo, svelo, swave, velo, wave, stat)
+
+double restwav;
+int nvelo, svelo, swave;
+const double velo[];
+double wave[];
+int stat[];
+d710 8
+a717 7
+int awavvelo(dummy, nawav, sawav, svelo, awav, velo, stat)
+
+double dummy;
+int nawav, sawav, svelo;
+const double awav[];
+double velo[];
+int stat[];
+d731 8
+a738 7
+int veloawav(dummy, nvelo, svelo, sawav, velo, awav, stat)
+
+double dummy;
+int nvelo, svelo, sawav;
+const double velo[];
+double awav[];
+int stat[];
+d754 8
+a761 7
+int freqafrq(dummy, nfreq, sfreq, safrq, freq, afrq, stat)
+
+double dummy;
+int nfreq, sfreq, safrq;
+const double freq[];
+double afrq[];
+int stat[];
+d787 8
+a794 7
+int afrqfreq(dummy, nafrq, safrq, sfreq, afrq, freq, stat)
+
+double dummy;
+int nafrq, safrq, sfreq;
+const double afrq[];
+double freq[];
+int stat[];
+d822 8
+a829 7
+int freqener(dummy, nfreq, sfreq, sener, freq, ener, stat)
+
+double dummy;
+int nfreq, sfreq, sener;
+const double freq[];
+double ener[];
+int stat[];
+d855 8
+a862 7
+int enerfreq(dummy, nener, sener, sfreq, ener, freq, stat)
+
+double dummy;
+int nener, sener, sfreq;
+const double ener[];
+double freq[];
+int stat[];
+d890 8
+a897 7
+int freqwavn(dummy, nfreq, sfreq, swavn, freq, wavn, stat)
+
+double dummy;
+int nfreq, sfreq, swavn;
+const double freq[];
+double wavn[];
+int stat[];
+d923 8
+a930 7
+int wavnfreq(dummy, nwavn, swavn, sfreq, wavn, freq, stat)
+
+double dummy;
+int nwavn, swavn, sfreq;
+const double wavn[];
+double freq[];
+int stat[];
+d958 8
+a965 7
+int freqvrad(restfrq, nfreq, sfreq, svrad, freq, vrad, stat)
+
+double restfrq;
+int nfreq, sfreq, svrad;
+const double freq[];
+double vrad[];
+int stat[];
+d994 8
+a1001 7
+int vradfreq(restfrq, nvrad, svrad, sfreq, vrad, freq, stat)
+
+double restfrq;
+int nvrad, svrad, sfreq;
+const double vrad[];
+double freq[];
+int stat[];
+d1028 8
+a1035 7
+int wavevopt(restwav, nwave, swave, svopt, wave, vopt, stat)
+
+double restwav;
+int nwave, swave, svopt;
+const double wave[];
+double vopt[];
+int stat[];
+d1063 8
+a1070 7
+int voptwave(restwav, nvopt, svopt, swave, vopt, wave, stat)
+
+double restwav;
+int nvopt, svopt, swave;
+const double vopt[];
+double wave[];
+int stat[];
+d1097 8
+a1104 7
+int wavezopt(restwav, nwave, swave, szopt, wave, zopt, stat)
+
+double restwav;
+int nwave, swave, szopt;
+const double wave[];
+double zopt[];
+int stat[];
+d1132 8
+a1139 7
+int zoptwave(restwav, nzopt, szopt, swave, zopt, wave, stat)
+
+double restwav;
+int nzopt, szopt, swave;
+const double zopt[];
+double wave[];
+int stat[];
+d1163 8
+a1170 7
+int velobeta(dummy, nvelo, svelo, sbeta, velo, beta, stat)
+
+double dummy;
+int nvelo, svelo, sbeta;
+const double velo[];
+double beta[];
+int stat[];
+d1196 8
+a1203 7
+int betavelo(dummy, nbeta, sbeta, svelo, beta, velo, stat)
+
+double dummy;
+int nbeta, sbeta, svelo;
+const double beta[];
+double velo[];
+int stat[];
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Switched to ANSI style argument lists in function definitions.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d57 5
+a61 6
+int specx(
+  const char *type,
+  double spec,
+  double restfrq,
+  double restwav,
+  struct spxprm *spx)
+d341 7
+a347 8
+int freqwave(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swave,
+  const double freq[],
+  double wave[],
+  int stat[])
+d379 7
+a385 8
+int wavefreq(
+  double dummy,
+  int nwave,
+  int swave,
+  int sfreq,
+  const double wave[],
+  double freq[],
+  int stat[])
+d419 7
+a425 8
+int freqawav(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sawav,
+  const double freq[],
+  double awav[],
+  int stat[])
+d439 7
+a445 8
+int awavfreq(
+  double dummy,
+  int nawav,
+  int sawav,
+  int sfreq,
+  const double awav[],
+  double freq[],
+  int stat[])
+d461 7
+a467 8
+int freqvelo(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svelo,
+  const double freq[],
+  double velo[],
+  int stat[])
+d494 7
+a500 8
+int velofreq(
+  double restfrq,
+  int nvelo,
+  int svelo,
+  int sfreq,
+  const double velo[],
+  double freq[],
+  int stat[])
+d533 7
+a539 8
+int waveawav(
+  double dummy,
+  int nwave,
+  int swave,
+  int sawav,
+  const double wave[],
+  double awav[],
+  int stat[])
+d581 7
+a587 8
+int awavwave(
+  double dummy,
+  int nawav,
+  int sawav,
+  int swave,
+  const double awav[],
+  double wave[],
+  int stat[])
+d627 7
+a633 8
+int wavevelo(
+  double restwav,
+  int nwave,
+  int swave,
+  int svelo,
+  const double wave[],
+  double velo[],
+  int stat[])
+d660 7
+a666 8
+int velowave(
+  double restwav,
+  int nvelo,
+  int svelo,
+  int swave,
+  const double velo[],
+  double wave[],
+  int stat[])
+d699 7
+a705 8
+int awavvelo(
+  double dummy,
+  int nawav,
+  int sawav,
+  int svelo,
+  const double awav[],
+  double velo[],
+  int stat[])
+d719 7
+a725 8
+int veloawav(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sawav,
+  const double velo[],
+  double awav[],
+  int stat[])
+d741 7
+a747 8
+int freqafrq(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int safrq,
+  const double freq[],
+  double afrq[],
+  int stat[])
+d773 7
+a779 8
+int afrqfreq(
+  double dummy,
+  int nafrq,
+  int safrq,
+  int sfreq,
+  const double afrq[],
+  double freq[],
+  int stat[])
+d807 7
+a813 8
+int freqener(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int sener,
+  const double freq[],
+  double ener[],
+  int stat[])
+d839 7
+a845 8
+int enerfreq(
+  double dummy,
+  int nener,
+  int sener,
+  int sfreq,
+  const double ener[],
+  double freq[],
+  int stat[])
+d873 7
+a879 8
+int freqwavn(
+  double dummy,
+  int nfreq,
+  int sfreq,
+  int swavn,
+  const double freq[],
+  double wavn[],
+  int stat[])
+d905 7
+a911 8
+int wavnfreq(
+  double dummy,
+  int nwavn,
+  int swavn,
+  int sfreq,
+  const double wavn[],
+  double freq[],
+  int stat[])
+d939 7
+a945 8
+int freqvrad(
+  double restfrq,
+  int nfreq,
+  int sfreq,
+  int svrad,
+  const double freq[],
+  double vrad[],
+  int stat[])
+d974 7
+a980 8
+int vradfreq(
+  double restfrq,
+  int nvrad,
+  int svrad,
+  int sfreq,
+  const double vrad[],
+  double freq[],
+  int stat[])
+d1007 7
+a1013 8
+int wavevopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int svopt,
+  const double wave[],
+  double vopt[],
+  int stat[])
+d1041 7
+a1047 8
+int voptwave(
+  double restwav,
+  int nvopt,
+  int svopt,
+  int swave,
+  const double vopt[],
+  double wave[],
+  int stat[])
+d1074 7
+a1080 8
+int wavezopt(
+  double restwav,
+  int nwave,
+  int swave,
+  int szopt,
+  const double wave[],
+  double zopt[],
+  int stat[])
+d1108 7
+a1114 8
+int zoptwave(
+  double restwav,
+  int nzopt,
+  int szopt,
+  int swave,
+  const double zopt[],
+  double wave[],
+  int stat[])
+d1138 7
+a1144 8
+int velobeta(
+  double dummy,
+  int nvelo,
+  int svelo,
+  int sbeta,
+  const double velo[],
+  double beta[],
+  int stat[])
+d1170 7
+a1176 8
+int betavelo(
+  double dummy,
+  int nbeta,
+  int sbeta,
+  int svelo,
+  const double beta[],
+  double velo[],
+  int stat[])
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.18.1.2 2018/07/25 01:13:56 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d355 3
+d393 3
+d548 3
+d596 3
+d754 3
+d786 3
+d820 3
+d852 3
+d886 3
+d918 3
+d1151 3
+d1182 3
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@In freqwave(), wavefreq(), waveawav(), awavwave(), freqafrq(), afrqfreq(),
+freqener(), enerfreq(), freqwavn(), wavnfreq(), velobeta(), and betavelo(),
+avert nuisance compiler warnings about unused parameters
+(gcc -Wunused-parameter).
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+a354 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a389 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a541 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a586 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a741 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a770 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a801 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a830 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a861 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a890 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a1120 3
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+
+a1148 3
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.15.1.2 2017/01/15 04:13:33 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.6.1.2 2015/06/18 08:14:08 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d317 14
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Added spxperr().
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+a316 14
+  }
+
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int spxperr(const struct spxprm *spx, const char *prefix)
+
+{
+  if (spx == 0x0) return SPXERR_NULL_POINTER;
+
+  if (spx->err) {
+    wcserr_prt(spx->err, prefix);
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: spx.c,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: spx.c,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: spx.c,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: spx.c,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: spx.c,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d38 2
+a40 1
+#include "wcsmath.h"
+d51 2
+d70 2
+d75 1
+d77 2
+a78 1
+  if (spx == 0x0) return 1;
+d98 2
+d104 4
+a107 1
+    if (spec == 0.0) return 3;
+d112 4
+a115 1
+    if (spec == 0.0) return 3;
+d120 4
+a123 1
+    if (spec == 0.0) return 3;
+d128 4
+a131 1
+    if (spec == 0.0) return 3;
+d140 4
+a143 1
+    if (spec == 0.0) return 3;
+d149 4
+a152 1
+    if (s == 0.0) return 3;
+d158 4
+a161 1
+    if (s == 0.0) return 3;
+d166 4
+a169 1
+    if (spec == 0.0) return 3;
+d180 4
+a183 1
+    if (fabs(beta) == 1.0) return 3;
+d188 4
+a191 1
+    if (fabs(spec) == 1.0) return 3;
+d197 2
+a198 1
+    return 2;
+d356 1
+a356 1
+      status = 4;
+d391 1
+a391 1
+      status = 4;
+d505 1
+a505 1
+      status = 4;
+d552 1
+a552 1
+      status = 4;
+d593 1
+a593 1
+      status = 4;
+d665 1
+a665 1
+      status = 4;
+d916 1
+a916 1
+    return 2;
+d984 1
+a984 1
+    return 2;
+d1051 1
+a1051 1
+    return 2;
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@a53 2
+#define SPXERR_SET(err, status) WCSERR_SET(err, status, spx_errmsg[status])
+
+d71 1
+a71 1
+  if (spx == 0x0) return SPXERR_NULL_POINTER;
+a72 2
+  wcserr_ini(&spx->err);
+  
+d95 1
+a95 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable: frequency == 0");
+    }
+d100 1
+a100 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable: frequency == 0");
+    }
+d105 1
+a105 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable: frequency == 0");
+    }
+d110 1
+a110 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable: frequency == 0");
+    }
+d119 1
+a119 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable: frequency == 0");
+    }
+d125 1
+a125 5
+    if (s == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable");
+    }
+d131 1
+a131 5
+    if (s == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable");
+    }
+d136 1
+a136 5
+    if (spec == 0.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable");
+    }
+d147 1
+a147 5
+    if (fabs(beta) == 1.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable");
+    }
+d152 1
+a152 5
+    if (fabs(spec) == 1.0) {
+      return WCSERR_SET(
+        &spx->err, SPXERR_BAD_SPEC_VAR,
+        "Invalid spectral variable");
+    }
+d158 1
+a158 3
+    return WCSERR_SET(
+      &spx->err, SPXERR_BAD_SPEC_PARAMS,
+      "Unrecognized spectral type '%s'", type);
+d316 1
+a316 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d351 1
+a351 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d465 1
+a465 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d512 1
+a512 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d553 1
+a553 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d625 1
+a625 1
+      status = SPXERR_BAD_INSPEC_COORD;
+d876 1
+a876 1
+    return SPXERR_BAD_SPEC_PARAMS;
+d944 1
+a944 1
+    return SPXERR_BAD_SPEC_PARAMS;
+d1011 1
+a1011 1
+    return SPXERR_BAD_SPEC_PARAMS;
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+d38 1
+a38 1
+#include "wcserr.h"
+a39 1
+#include "spx.h"
+a49 2
+/* Convenience macro for invoking wcserr_set(). */
+#define SPX_ERRMSG(status) WCSERR_SET(status), spx_errmsg[status]
+d54 2
+a68 2
+  static const char *function = "specx";
+
+a71 1
+  struct wcserr **err;
+a73 1
+  err = &(spx->err);
+d75 2
+a94 2
+  spx->err = 0x0;
+
+d100 2
+a101 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d109 2
+a110 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d118 2
+a119 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d127 2
+a128 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d140 2
+a141 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d150 2
+a151 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d160 2
+a161 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d169 2
+a170 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d184 2
+a185 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d193 2
+a194 1
+      return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_VAR),
+d202 2
+a203 1
+    return wcserr_set(WCSERR_SET(SPXERR_BAD_SPEC_PARAMS),
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: spx.c,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.3.1.3 2009/07/22 04:28:39 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: spx.c,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: spx.c,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: spx.c,v 4.2.1.3 2007/12/03 05:02:17 cal103 Exp cal103 $
+d39 1
+d44 5
+a48 5
+   "Success",
+   "Null spxprm pointer passed",
+   "Invalid spectral parameters",
+   "Invalid spectral variable",
+   "One or more of the inspec coordinates were invalid"};
+d67 217
+a283 152
+   register int k;
+   int haverest;
+   double beta, dwaveawav, gamma, n, s, t, u;
+
+   if (spx == 0x0) return 1;
+
+   haverest = 1;
+   if (restfrq == 0.0) {
+      if (restwav == 0.0) {
+         /* No line rest frequency supplied. */
+         haverest = 0;
+
+         /* Temporarily set a dummy value for conversions. */
+         spx->restwav = 1.0;
+      } else {
+        spx->restwav = restwav;
+      }
+      spx->restfrq = C/spx->restwav;
+
+   } else {
+      spx->restfrq = restfrq;
+      spx->restwav = C/restfrq;
+   }
+
+   /* Convert to frequency. */
+   spx->wavetype = 0;
+   spx->velotype = 0;
+   if (strcmp(type, "FREQ") == 0) {
+      if (spec == 0.0) return 3;
+      spx->freq = spec;
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "AFRQ") == 0) {
+      if (spec == 0.0) return 3;
+      spx->freq = spec/360.0;
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "ENER") == 0) {
+      if (spec == 0.0) return 3;
+      spx->freq = spec/h;
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "WAVN") == 0) {
+      if (spec == 0.0) return 3;
+      spx->freq = spec*C;
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "VRAD") == 0) {
+      spx->freq = spx->restfrq*(1.0 - spec/C);
+      spx->velotype = 1;
+
+   } else if (strcmp(type, "WAVE") == 0) {
+      if (spec == 0.0) return 3;
+      spx->freq = C/spec;
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "VOPT") == 0) {
+      s = 1.0 + spec/C;
+      if (s == 0.0) return 3;
+      spx->freq = spx->restfrq/s;
+      spx->velotype = 1;
+
+   } else if (strcmp(type, "ZOPT") == 0) {
+      s = 1.0 + spec;
+      if (s == 0.0) return 3;
+      spx->freq = spx->restfrq/s;
+      spx->velotype = 1;
+
+   } else if (strcmp(type, "AWAV") == 0) {
+      if (spec == 0.0) return 3;
+      s = 1.0/spec;
+      s *= s;
+      n  =   2.554e8 / (0.41e14 - s);
+      n += 294.981e8 / (1.46e14 - s);
+      n += 1.000064328;
+      spx->freq = C/(spec*n);
+      spx->wavetype = 1;
+
+   } else if (strcmp(type, "VELO") == 0) {
+      beta = spec/C;
+      if (fabs(beta) == 1.0) return 3;
+      spx->freq = spx->restfrq*(1.0 - beta)/sqrt(1.0 - beta*beta);
+      spx->velotype = 1;
+
+   } else if (strcmp(type, "BETA") == 0) {
+      if (fabs(spec) == 1.0) return 3;
+      spx->freq = spx->restfrq*(1.0 - spec)/sqrt(1.0 - spec*spec);
+      spx->velotype = 1;
+
+   } else {
+      /* Unrecognized type. */
+      return 2;
+   }
+
+
+   /* Convert frequency to the other spectral types. */
+   n = 1.0;
+   for (k = 0; k < 4; k++) {
+      s = n*spx->freq/C;
+      s *= s;
+      t = 0.41e14 - s;
+      u = 1.46e14 - s;
+      n = 1.000064328 + (2.554e8/t + 294.981e8/u);
+   }
+
+   dwaveawav = n - 2.0*s*(2.554e8/(t*t) + 294.981e8/(u*u));
+
+   s = spx->freq/spx->restfrq;
+
+   spx->ener = spx->freq*h;
+   spx->afrq = spx->freq*360.0;
+   spx->wavn = spx->freq/C;
+   spx->vrad = C*(1.0 - s);
+   spx->wave = C/spx->freq;
+   spx->awav = spx->wave/n;
+   spx->vopt = C*(1.0/s - 1.0);
+   spx->zopt = spx->vopt/C;
+   spx->velo = C*(1.0 - s*s)/(1.0 + s*s);
+   spx->beta = spx->velo/C;
+
+   /* Compute the required derivatives. */
+   gamma = 1.0/sqrt(1.0 - spx->beta*spx->beta);
+
+   spx->dfreqafrq = 1.0/360.0;
+   spx->dafrqfreq = 1.0/spx->dfreqafrq;
+
+   spx->dfreqener = 1.0/h;
+   spx->denerfreq = 1.0/spx->dfreqener;
+
+   spx->dfreqwavn = C;
+   spx->dwavnfreq = 1.0/spx->dfreqwavn;
+
+   spx->dfreqvrad = -spx->restfrq/C;
+   spx->dvradfreq = 1.0/spx->dfreqvrad;
+
+   spx->dfreqwave = -spx->freq/spx->wave;
+   spx->dwavefreq = 1.0/spx->dfreqwave;
+
+   spx->dfreqawav = spx->dfreqwave * dwaveawav;
+   spx->dawavfreq = 1.0/spx->dfreqawav;
+
+   spx->dfreqvelo = -gamma*spx->restfrq/(C + spx->velo);
+   spx->dvelofreq = 1.0/spx->dfreqvelo;
+
+   spx->dwavevopt = spx->restwav/C;
+   spx->dvoptwave = 1.0/spx->dwavevopt;
+
+   spx->dwavezopt = spx->restwav;
+   spx->dzoptwave = 1.0/spx->dwavezopt;
+
+   spx->dwaveawav = dwaveawav;
+   spx->dawavwave = 1.0/spx->dwaveawav;
+d285 1
+a285 66
+   spx->dwavevelo = gamma*spx->restwav/(C - spx->velo);
+   spx->dvelowave = 1.0/spx->dwavevelo;
+
+   spx->dawavvelo = spx->dwavevelo/dwaveawav;
+   spx->dveloawav = 1.0/spx->dawavvelo;
+
+   spx->dvelobeta = C;
+   spx->dbetavelo = 1.0/spx->dvelobeta;
+
+
+   /* Reset values if no line rest frequency was supplied. */
+   if (haverest) {
+      spx->wavetype = 1;
+      spx->velotype = 1;
+
+   } else {
+      spx->restfrq = 0.0;
+      spx->restwav = 0.0;
+
+      if (!spx->wavetype) {
+         /* Don't have wave characteristic types. */
+         spx->freq = 0.0;
+         spx->afrq = 0.0;
+         spx->ener = 0.0;
+         spx->wavn = 0.0;
+         spx->wave = 0.0;
+         spx->awav = 0.0;
+
+         spx->dfreqwave = 0.0;
+         spx->dwavefreq = 0.0;
+
+         spx->dfreqawav = 0.0;
+         spx->dawavfreq = 0.0;
+
+         spx->dwaveawav = 0.0;
+         spx->dawavwave = 0.0;
+
+      } else {
+         /* Don't have velocity types. */
+         spx->vrad = 0.0;
+         spx->vopt = 0.0;
+         spx->zopt = 0.0;
+         spx->velo = 0.0;
+         spx->beta = 0.0;
+      }
+
+      spx->dfreqvrad = 0.0;
+      spx->dvradfreq = 0.0;
+
+      spx->dfreqvelo = 0.0;
+      spx->dvelofreq = 0.0;
+
+      spx->dwavevopt = 0.0;
+      spx->dvoptwave = 0.0;
+
+      spx->dwavezopt = 0.0;
+      spx->dzoptwave = 0.0;
+
+      spx->dwavevelo = 0.0;
+      spx->dvelowave = 0.0;
+
+      spx->dawavvelo = 0.0;
+      spx->dveloawav = 0.0;
+   }
+
+   return 0;
+d302 20
+a321 16
+   int status = 0;
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *wavep;
+
+   freqp = freq;
+   wavep = wave;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      if (*freqp != 0.0) {
+         *wavep = C/(*freqp);
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+d323 1
+a323 5
+      freqp += sfreq;
+      wavep += swave;
+   }
+
+   return status;
+d337 20
+a356 20
+   int status = 0;
+   register int iwave, *statp;
+   register const double *wavep;
+   register double *freqp;
+
+   wavep = wave;
+   freqp = freq;
+   statp = stat;
+   for (iwave = 0; iwave < nwave; iwave++) {
+      if (*wavep != 0.0) {
+         *freqp = C/(*wavep);
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+
+      wavep += swave;
+      freqp += sfreq;
+   }
+d358 1
+a358 1
+   return status;
+d374 1
+a374 1
+   int status;
+d376 3
+a378 3
+   if ((status = freqwave(dummy, nfreq, sfreq, sawav, freq, awav, stat))) {
+      return status;
+   }
+d380 1
+a380 1
+   return waveawav(dummy, nfreq, sawav, sawav, awav, awav, stat);
+d394 1
+a394 1
+   int status;
+d396 3
+a398 3
+   if ((status = awavwave(dummy, nawav, sawav, sfreq, awav, freq, stat))) {
+      return status;
+   }
+d400 1
+a400 1
+   return wavefreq(dummy, nawav, sfreq, sfreq, freq, freq, stat);
+d416 18
+a433 14
+   double r, s;
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *velop;
+
+   r = restfrq*restfrq;
+
+   freqp = freq;
+   velop = velo;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      s = *freqp * *freqp;
+      *velop = C*(r - s)/(r + s);
+      *(statp++) = 0;
+d435 1
+a435 5
+      freqp += sfreq;
+      velop += svelo;
+   }
+
+   return 0;
+d449 22
+a470 18
+   int status = 0;
+   double s;
+   register int ivelo, *statp;
+   register const double *velop;
+   register double *freqp;
+
+   velop = velo;
+   freqp = freq;
+   statp = stat;
+   for (ivelo = 0; ivelo < nvelo; ivelo++) {
+      s = C + *velop;
+      if (s != 0.0) {
+         *freqp = restfrq*sqrt((C - *velop)/s);
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+d472 1
+a472 5
+      velop += svelo;
+      freqp += sfreq;
+   }
+
+   return status;
+d488 18
+a505 25
+   int status = 0;
+   double n, s;
+   register int iwave, k, *statp;
+   register const double *wavep;
+   register double *awavp;
+
+   wavep = wave;
+   awavp = awav;
+   statp = stat;
+   for (iwave = 0; iwave < nwave; iwave++) {
+      if (*wavep != 0.0) {
+         n = 1.0;
+         for (k = 0; k < 4; k++) {
+            s  = n/(*wavep);
+            s *= s;
+            n  =   2.554e8 / (0.41e14 - s);
+            n += 294.981e8 / (1.46e14 - s);
+            n += 1.000064328;
+         }
+
+         *awavp = (*wavep)/n;
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+d508 10
+a517 3
+      wavep += swave;
+      awavp += sawav;
+   }
+d519 1
+a519 1
+   return status;
+d533 26
+a558 22
+   int status = 0;
+   double n, s;
+   register int iawav, *statp;
+   register const double *awavp;
+   register double *wavep;
+
+   awavp = awav;
+   wavep = wave;
+   statp = stat;
+   for (iawav = 0; iawav < nawav; iawav++) {
+      if (*awavp != 0.0) {
+         s = 1.0/(*awavp);
+         s *= s;
+         n  =   2.554e8 / (0.41e14 - s);
+         n += 294.981e8 / (1.46e14 - s);
+         n += 1.000064328;
+         *wavep = (*awavp)*n;
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+d560 1
+a560 5
+      awavp += sawav;
+      wavep += swave;
+   }
+
+   return status;
+d576 18
+a593 18
+   double r, s;
+   register int iwave, *statp;
+   register const double *wavep;
+   register double *velop;
+
+   r = restwav*restwav;
+
+   wavep = wave;
+   velop = velo;
+   statp = stat;
+   for (iwave = 0; iwave < nwave; iwave++) {
+      s = *wavep * *wavep;
+      *velop = C*(s - r)/(s + r);
+      *(statp++) = 0;
+
+      wavep += swave;
+      velop += svelo;
+   }
+d595 1
+a595 1
+   return 0;
+d609 22
+a630 22
+   int status = 0;
+   double s;
+   register int ivelo, *statp;
+   register const double *velop;
+   register double *wavep;
+
+   velop = velo;
+   wavep = wave;
+   statp = stat;
+   for (ivelo = 0; ivelo < nvelo; ivelo++) {
+      s = C - *velop;
+      if (s != 0.0) {
+         *wavep = restwav*sqrt((C + *velop)/s);
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+
+      velop += svelo;
+      wavep += swave;
+   }
+d632 1
+a632 1
+   return status;
+d648 1
+a648 1
+   int status;
+d650 3
+a652 3
+   if ((status = awavwave(dummy, nawav, sawav, svelo, awav, velo, stat))) {
+      return status;
+   }
+d654 1
+a654 1
+   return wavevelo(dummy, nawav, svelo, svelo, velo, velo, stat);
+d668 1
+a668 1
+   int status;
+d670 3
+a672 3
+   if ((status = velowave(dummy, nvelo, svelo, sawav, velo, awav, stat))) {
+      return status;
+   }
+d674 1
+a674 1
+   return waveawav(dummy, nvelo, sawav, sawav, awav, awav, stat);
+d690 14
+a703 14
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *afrqp;
+
+   freqp = freq;
+   afrqp = afrq;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      *afrqp = (*freqp)*360.0;
+      *(statp++) = 0;
+
+      freqp += sfreq;
+      afrqp += safrq;
+   }
+d705 1
+a705 1
+   return 0;
+d719 14
+a732 14
+   register int iafrq, *statp;
+   register const double *afrqp;
+   register double *freqp;
+
+   afrqp = afrq;
+   freqp = freq;
+   statp = stat;
+   for (iafrq = 0; iafrq < nafrq; iafrq++) {
+      *freqp = (*afrqp)/360.0;
+      *(statp++) = 0;
+
+      afrqp += safrq;
+      freqp += sfreq;
+   }
+d734 1
+a734 1
+   return 0;
+d750 14
+a763 10
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *enerp;
+
+   freqp = freq;
+   enerp = ener;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      *enerp = (*freqp)*h;
+      *(statp++) = 0;
+d765 1
+a765 5
+      freqp += sfreq;
+      enerp += sener;
+   }
+
+   return 0;
+d779 14
+a792 14
+   register int iener, *statp;
+   register const double *enerp;
+   register double *freqp;
+
+   enerp = ener;
+   freqp = freq;
+   statp = stat;
+   for (iener = 0; iener < nener; iener++) {
+      *freqp = (*enerp)/h;
+      *(statp++) = 0;
+
+      enerp += sener;
+      freqp += sfreq;
+   }
+d794 1
+a794 1
+   return 0;
+d810 14
+a823 14
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *wavnp;
+
+   freqp = freq;
+   wavnp = wavn;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      *wavnp = (*freqp)/C;
+      *(statp++) = 0;
+
+      freqp += sfreq;
+      wavnp += swavn;
+   }
+d825 1
+a825 1
+   return 0;
+d839 14
+a852 10
+   register int iwavn, *statp;
+   register const double *wavnp;
+   register double *freqp;
+
+   wavnp = wavn;
+   freqp = freq;
+   statp = stat;
+   for (iwavn = 0; iwavn < nwavn; iwavn++) {
+      *freqp = (*wavnp)*C;
+      *(statp++) = 0;
+d854 1
+a854 5
+      wavnp += swavn;
+      freqp += sfreq;
+   }
+
+   return 0;
+d870 20
+a889 16
+   double r;
+   register int ifreq, *statp;
+   register const double *freqp;
+   register double *vradp;
+
+   if (restfrq == 0.0) {
+      return 2;
+   }
+   r = C/restfrq;
+
+   freqp = freq;
+   vradp = vrad;
+   statp = stat;
+   for (ifreq = 0; ifreq < nfreq; ifreq++) {
+      *vradp = r*(restfrq - *freqp);
+      *(statp++) = 0;
+d891 1
+a891 5
+      freqp += sfreq;
+      vradp += svrad;
+   }
+
+   return 0;
+d905 16
+a920 16
+   double r;
+   register int ivrad, *statp;
+   register const double *vradp;
+   register double *freqp;
+
+   r = restfrq/C;
+
+   vradp = vrad;
+   freqp = freq;
+   statp = stat;
+   for (ivrad = 0; ivrad < nvrad; ivrad++) {
+      *freqp = r*(C - *vradp);
+      *(statp++) = 0;
+      vradp += svrad;
+      freqp += sfreq;
+   }
+d922 1
+a922 1
+   return 0;
+d938 19
+a956 19
+   double r;
+   register int iwave, *statp;
+   register const double *wavep;
+   register double *voptp;
+
+   if (restwav == 0.0) {
+      return 2;
+   }
+   r = C/restwav;
+
+   wavep = wave;
+   voptp = vopt;
+   statp = stat;
+   for (iwave = 0; iwave < nwave; iwave++) {
+      *voptp = r*(*wavep) - C;
+      *(statp++) = 0;
+      wavep += swave;
+      voptp += svopt;
+   }
+d958 1
+a958 1
+   return 0;
+d972 16
+a987 16
+   double r;
+   register int ivopt, *statp;
+   register const double *voptp;
+   register double *wavep;
+
+   r = restwav/C;
+
+   voptp = vopt;
+   wavep = wave;
+   statp = stat;
+   for (ivopt = 0; ivopt < nvopt; ivopt++) {
+      *wavep = r*(C + *voptp);
+      *(statp++) = 0;
+      voptp += svopt;
+      wavep += swave;
+   }
+d989 1
+a989 1
+   return 0;
+d1005 19
+a1023 19
+   double r;
+   register int iwave, *statp;
+   register const double *wavep;
+   register double *zoptp;
+
+   if (restwav == 0.0) {
+      return 2;
+   }
+   r = 1.0/restwav;
+
+   wavep = wave;
+   zoptp = zopt;
+   statp = stat;
+   for (iwave = 0; iwave < nwave; iwave++) {
+      *zoptp = r*(*wavep) - 1.0;
+      *(statp++) = 0;
+      wavep += swave;
+      zoptp += szopt;
+   }
+d1025 1
+a1025 1
+   return 0;
+d1039 13
+a1051 13
+   register int izopt, *statp;
+   register const double *zoptp;
+   register double *wavep;
+
+   zoptp = zopt;
+   wavep = wave;
+   statp = stat;
+   for (izopt = 0; izopt < nzopt; izopt++) {
+      *wavep = restwav*(1.0 + *zoptp);
+      *(statp++) = 0;
+      zoptp += szopt;
+      wavep += swave;
+   }
+d1053 1
+a1053 1
+   return 0;
+d1069 14
+a1082 14
+   register int ivelo, *statp;
+   register const double *velop;
+   register double *betap;
+
+   velop = velo;
+   betap = beta;
+   statp = stat;
+   for (ivelo = 0; ivelo < nvelo; ivelo++) {
+      *betap = (*velop)/C;
+      *(statp++) = 0;
+
+      velop += svelo;
+      betap += sbeta;
+   }
+d1084 1
+a1084 1
+   return 0;
+d1098 14
+a1111 14
+   register int ibeta, *statp;
+   register const double *betap;
+   register double *velop;
+
+   betap = beta;
+   velop = velo;
+   statp = stat;
+   for (ibeta = 0; ibeta < nbeta; ibeta++) {
+      *velop = (*betap)*C;
+      *(statp++) = 0;
+
+      betap += sbeta;
+      velop += svelo;
+   }
+d1113 1
+a1113 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: spx.c,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Angular frequency is measured in rad/s, not deg/s.
+@
+text
+@d31 1
+a31 1
+    $Id: spx.c,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+a38 1
+#include "wcsmath.h"
+d100 1
+a100 1
+      spx->freq = spec/(2.0*PI);
+d176 1
+a176 1
+   spx->afrq = spx->freq*(2.0*PI);
+d189 1
+a189 1
+   spx->dfreqafrq = 1.0/(2.0*PI);
+d697 1
+a697 1
+      *afrqp = (*freqp)*(2.0*PI);
+d726 1
+a726 1
+      *freqp = (*afrqp)/(2.0*PI);
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: spx.c,v 4.3.1.2 2008/10/08 07:58:59 cal103 Exp cal103 $
+d44 5
+a48 5
+  "Success",
+  "Null spxprm pointer passed",
+  "Invalid spectral parameters",
+  "Invalid spectral variable",
+  "One or more of the inspec coordinates were invalid"};
+d67 152
+a218 217
+  register int k;
+  int haverest;
+  double beta, dwaveawav, gamma, n, s, t, u;
+
+  if (spx == 0x0) return 1;
+
+  haverest = 1;
+  if (restfrq == 0.0) {
+    if (restwav == 0.0) {
+      /* No line rest frequency supplied. */
+      haverest = 0;
+
+      /* Temporarily set a dummy value for conversions. */
+      spx->restwav = 1.0;
+    } else {
+      spx->restwav = restwav;
+    }
+    spx->restfrq = C/spx->restwav;
+
+  } else {
+    spx->restfrq = restfrq;
+    spx->restwav = C/restfrq;
+  }
+
+  /* Convert to frequency. */
+  spx->wavetype = 0;
+  spx->velotype = 0;
+  if (strcmp(type, "FREQ") == 0) {
+    if (spec == 0.0) return 3;
+    spx->freq = spec;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "AFRQ") == 0) {
+    if (spec == 0.0) return 3;
+    spx->freq = spec/(2.0*PI);
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "ENER") == 0) {
+    if (spec == 0.0) return 3;
+    spx->freq = spec/h;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "WAVN") == 0) {
+    if (spec == 0.0) return 3;
+    spx->freq = spec*C;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VRAD") == 0) {
+    spx->freq = spx->restfrq*(1.0 - spec/C);
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "WAVE") == 0) {
+    if (spec == 0.0) return 3;
+    spx->freq = C/spec;
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VOPT") == 0) {
+    s = 1.0 + spec/C;
+    if (s == 0.0) return 3;
+    spx->freq = spx->restfrq/s;
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "ZOPT") == 0) {
+    s = 1.0 + spec;
+    if (s == 0.0) return 3;
+    spx->freq = spx->restfrq/s;
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "AWAV") == 0) {
+    if (spec == 0.0) return 3;
+    s = 1.0/spec;
+    s *= s;
+    n  =   2.554e8 / (0.41e14 - s);
+    n += 294.981e8 / (1.46e14 - s);
+    n += 1.000064328;
+    spx->freq = C/(spec*n);
+    spx->wavetype = 1;
+
+  } else if (strcmp(type, "VELO") == 0) {
+    beta = spec/C;
+    if (fabs(beta) == 1.0) return 3;
+    spx->freq = spx->restfrq*(1.0 - beta)/sqrt(1.0 - beta*beta);
+    spx->velotype = 1;
+
+  } else if (strcmp(type, "BETA") == 0) {
+    if (fabs(spec) == 1.0) return 3;
+    spx->freq = spx->restfrq*(1.0 - spec)/sqrt(1.0 - spec*spec);
+    spx->velotype = 1;
+
+  } else {
+    /* Unrecognized type. */
+    return 2;
+  }
+
+
+  /* Convert frequency to the other spectral types. */
+  n = 1.0;
+  for (k = 0; k < 4; k++) {
+    s = n*spx->freq/C;
+    s *= s;
+    t = 0.41e14 - s;
+    u = 1.46e14 - s;
+    n = 1.000064328 + (2.554e8/t + 294.981e8/u);
+  }
+
+  dwaveawav = n - 2.0*s*(2.554e8/(t*t) + 294.981e8/(u*u));
+
+  s = spx->freq/spx->restfrq;
+
+  spx->ener = spx->freq*h;
+  spx->afrq = spx->freq*(2.0*PI);
+  spx->wavn = spx->freq/C;
+  spx->vrad = C*(1.0 - s);
+  spx->wave = C/spx->freq;
+  spx->awav = spx->wave/n;
+  spx->vopt = C*(1.0/s - 1.0);
+  spx->zopt = spx->vopt/C;
+  spx->velo = C*(1.0 - s*s)/(1.0 + s*s);
+  spx->beta = spx->velo/C;
+
+  /* Compute the required derivatives. */
+  gamma = 1.0/sqrt(1.0 - spx->beta*spx->beta);
+
+  spx->dfreqafrq = 1.0/(2.0*PI);
+  spx->dafrqfreq = 1.0/spx->dfreqafrq;
+
+  spx->dfreqener = 1.0/h;
+  spx->denerfreq = 1.0/spx->dfreqener;
+
+  spx->dfreqwavn = C;
+  spx->dwavnfreq = 1.0/spx->dfreqwavn;
+
+  spx->dfreqvrad = -spx->restfrq/C;
+  spx->dvradfreq = 1.0/spx->dfreqvrad;
+
+  spx->dfreqwave = -spx->freq/spx->wave;
+  spx->dwavefreq = 1.0/spx->dfreqwave;
+
+  spx->dfreqawav = spx->dfreqwave * dwaveawav;
+  spx->dawavfreq = 1.0/spx->dfreqawav;
+
+  spx->dfreqvelo = -gamma*spx->restfrq/(C + spx->velo);
+  spx->dvelofreq = 1.0/spx->dfreqvelo;
+
+  spx->dwavevopt = spx->restwav/C;
+  spx->dvoptwave = 1.0/spx->dwavevopt;
+
+  spx->dwavezopt = spx->restwav;
+  spx->dzoptwave = 1.0/spx->dwavezopt;
+
+  spx->dwaveawav = dwaveawav;
+  spx->dawavwave = 1.0/spx->dwaveawav;
+
+  spx->dwavevelo = gamma*spx->restwav/(C - spx->velo);
+  spx->dvelowave = 1.0/spx->dwavevelo;
+
+  spx->dawavvelo = spx->dwavevelo/dwaveawav;
+  spx->dveloawav = 1.0/spx->dawavvelo;
+
+  spx->dvelobeta = C;
+  spx->dbetavelo = 1.0/spx->dvelobeta;
+
+
+  /* Reset values if no line rest frequency was supplied. */
+  if (haverest) {
+    spx->wavetype = 1;
+    spx->velotype = 1;
+
+  } else {
+    spx->restfrq = 0.0;
+    spx->restwav = 0.0;
+
+    if (!spx->wavetype) {
+      /* Don't have wave characteristic types. */
+      spx->freq = 0.0;
+      spx->afrq = 0.0;
+      spx->ener = 0.0;
+      spx->wavn = 0.0;
+      spx->wave = 0.0;
+      spx->awav = 0.0;
+
+      spx->dfreqwave = 0.0;
+      spx->dwavefreq = 0.0;
+
+      spx->dfreqawav = 0.0;
+      spx->dawavfreq = 0.0;
+
+      spx->dwaveawav = 0.0;
+      spx->dawavwave = 0.0;
+
+    } else {
+      /* Don't have velocity types. */
+      spx->vrad = 0.0;
+      spx->vopt = 0.0;
+      spx->zopt = 0.0;
+      spx->velo = 0.0;
+      spx->beta = 0.0;
+    }
+
+    spx->dfreqvrad = 0.0;
+    spx->dvradfreq = 0.0;
+
+    spx->dfreqvelo = 0.0;
+    spx->dvelofreq = 0.0;
+
+    spx->dwavevopt = 0.0;
+    spx->dvoptwave = 0.0;
+
+    spx->dwavezopt = 0.0;
+    spx->dzoptwave = 0.0;
+
+    spx->dwavevelo = 0.0;
+    spx->dvelowave = 0.0;
+
+    spx->dawavvelo = 0.0;
+    spx->dveloawav = 0.0;
+  }
+d220 66
+a285 1
+  return 0;
+d302 20
+a321 20
+  int status = 0;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *wavep;
+
+  freqp = freq;
+  wavep = wave;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    if (*freqp != 0.0) {
+      *wavep = C/(*freqp);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    freqp += sfreq;
+    wavep += swave;
+  }
+d323 1
+a323 1
+  return status;
+d337 20
+a356 20
+  int status = 0;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *freqp;
+
+  wavep = wave;
+  freqp = freq;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    if (*wavep != 0.0) {
+      *freqp = C/(*wavep);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    wavep += swave;
+    freqp += sfreq;
+  }
+d358 1
+a358 1
+  return status;
+d374 1
+a374 1
+  int status;
+d376 3
+a378 3
+  if ((status = freqwave(dummy, nfreq, sfreq, sawav, freq, awav, stat))) {
+    return status;
+  }
+d380 1
+a380 1
+  return waveawav(dummy, nfreq, sawav, sawav, awav, awav, stat);
+d394 1
+a394 1
+  int status;
+d396 3
+a398 3
+  if ((status = awavwave(dummy, nawav, sawav, sfreq, awav, freq, stat))) {
+    return status;
+  }
+d400 1
+a400 1
+  return wavefreq(dummy, nawav, sfreq, sfreq, freq, freq, stat);
+d416 14
+a429 18
+  double r, s;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *velop;
+
+  r = restfrq*restfrq;
+
+  freqp = freq;
+  velop = velo;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    s = *freqp * *freqp;
+    *velop = C*(r - s)/(r + s);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    velop += svelo;
+  }
+d431 5
+a435 1
+  return 0;
+d449 22
+a470 22
+  int status = 0;
+  double s;
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *freqp;
+
+  velop = velo;
+  freqp = freq;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+    s = C + *velop;
+    if (s != 0.0) {
+      *freqp = restfrq*sqrt((C - *velop)/s);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    velop += svelo;
+    freqp += sfreq;
+  }
+d472 1
+a472 1
+  return status;
+d488 25
+a512 18
+  int status = 0;
+  double n, s;
+  register int iwave, k, *statp;
+  register const double *wavep;
+  register double *awavp;
+
+  wavep = wave;
+  awavp = awav;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    if (*wavep != 0.0) {
+      n = 1.0;
+      for (k = 0; k < 4; k++) {
+        s  = n/(*wavep);
+        s *= s;
+        n  =   2.554e8 / (0.41e14 - s);
+        n += 294.981e8 / (1.46e14 - s);
+        n += 1.000064328;
+d515 3
+a517 10
+      *awavp = (*wavep)/n;
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    wavep += swave;
+    awavp += sawav;
+  }
+d519 1
+a519 1
+  return status;
+d533 26
+a558 26
+  int status = 0;
+  double n, s;
+  register int iawav, *statp;
+  register const double *awavp;
+  register double *wavep;
+
+  awavp = awav;
+  wavep = wave;
+  statp = stat;
+  for (iawav = 0; iawav < nawav; iawav++) {
+    if (*awavp != 0.0) {
+      s = 1.0/(*awavp);
+      s *= s;
+      n  =   2.554e8 / (0.41e14 - s);
+      n += 294.981e8 / (1.46e14 - s);
+      n += 1.000064328;
+      *wavep = (*awavp)*n;
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    awavp += sawav;
+    wavep += swave;
+  }
+d560 1
+a560 1
+  return status;
+d576 18
+a593 18
+  double r, s;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *velop;
+
+  r = restwav*restwav;
+
+  wavep = wave;
+  velop = velo;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    s = *wavep * *wavep;
+    *velop = C*(s - r)/(s + r);
+    *(statp++) = 0;
+
+    wavep += swave;
+    velop += svelo;
+  }
+d595 1
+a595 1
+  return 0;
+d609 22
+a630 22
+  int status = 0;
+  double s;
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *wavep;
+
+  velop = velo;
+  wavep = wave;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+    s = C - *velop;
+    if (s != 0.0) {
+      *wavep = restwav*sqrt((C + *velop)/s);
+      *(statp++) = 0;
+    } else {
+      *(statp++) = 1;
+      status = 4;
+    }
+
+    velop += svelo;
+    wavep += swave;
+  }
+d632 1
+a632 1
+  return status;
+d648 1
+a648 1
+  int status;
+d650 3
+a652 3
+  if ((status = awavwave(dummy, nawav, sawav, svelo, awav, velo, stat))) {
+    return status;
+  }
+d654 1
+a654 1
+  return wavevelo(dummy, nawav, svelo, svelo, velo, velo, stat);
+d668 1
+a668 1
+  int status;
+d670 3
+a672 3
+  if ((status = velowave(dummy, nvelo, svelo, sawav, velo, awav, stat))) {
+    return status;
+  }
+d674 1
+a674 1
+  return waveawav(dummy, nvelo, sawav, sawav, awav, awav, stat);
+d690 14
+a703 14
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *afrqp;
+
+  freqp = freq;
+  afrqp = afrq;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    *afrqp = (*freqp)*(2.0*PI);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    afrqp += safrq;
+  }
+d705 1
+a705 1
+  return 0;
+d719 14
+a732 14
+  register int iafrq, *statp;
+  register const double *afrqp;
+  register double *freqp;
+
+  afrqp = afrq;
+  freqp = freq;
+  statp = stat;
+  for (iafrq = 0; iafrq < nafrq; iafrq++) {
+    *freqp = (*afrqp)/(2.0*PI);
+    *(statp++) = 0;
+
+    afrqp += safrq;
+    freqp += sfreq;
+  }
+d734 1
+a734 1
+  return 0;
+d750 10
+a759 14
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *enerp;
+
+  freqp = freq;
+  enerp = ener;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    *enerp = (*freqp)*h;
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    enerp += sener;
+  }
+d761 5
+a765 1
+  return 0;
+d779 14
+a792 14
+  register int iener, *statp;
+  register const double *enerp;
+  register double *freqp;
+
+  enerp = ener;
+  freqp = freq;
+  statp = stat;
+  for (iener = 0; iener < nener; iener++) {
+    *freqp = (*enerp)/h;
+    *(statp++) = 0;
+
+    enerp += sener;
+    freqp += sfreq;
+  }
+d794 1
+a794 1
+  return 0;
+d810 14
+a823 14
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *wavnp;
+
+  freqp = freq;
+  wavnp = wavn;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    *wavnp = (*freqp)/C;
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    wavnp += swavn;
+  }
+d825 1
+a825 1
+  return 0;
+d839 10
+a848 14
+  register int iwavn, *statp;
+  register const double *wavnp;
+  register double *freqp;
+
+  wavnp = wavn;
+  freqp = freq;
+  statp = stat;
+  for (iwavn = 0; iwavn < nwavn; iwavn++) {
+    *freqp = (*wavnp)*C;
+    *(statp++) = 0;
+
+    wavnp += swavn;
+    freqp += sfreq;
+  }
+d850 5
+a854 1
+  return 0;
+d870 16
+a885 20
+  double r;
+  register int ifreq, *statp;
+  register const double *freqp;
+  register double *vradp;
+
+  if (restfrq == 0.0) {
+    return 2;
+  }
+  r = C/restfrq;
+
+  freqp = freq;
+  vradp = vrad;
+  statp = stat;
+  for (ifreq = 0; ifreq < nfreq; ifreq++) {
+    *vradp = r*(restfrq - *freqp);
+    *(statp++) = 0;
+
+    freqp += sfreq;
+    vradp += svrad;
+  }
+d887 5
+a891 1
+  return 0;
+d905 16
+a920 16
+  double r;
+  register int ivrad, *statp;
+  register const double *vradp;
+  register double *freqp;
+
+  r = restfrq/C;
+
+  vradp = vrad;
+  freqp = freq;
+  statp = stat;
+  for (ivrad = 0; ivrad < nvrad; ivrad++) {
+    *freqp = r*(C - *vradp);
+    *(statp++) = 0;
+    vradp += svrad;
+    freqp += sfreq;
+  }
+d922 1
+a922 1
+  return 0;
+d938 19
+a956 19
+  double r;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *voptp;
+
+  if (restwav == 0.0) {
+    return 2;
+  }
+  r = C/restwav;
+
+  wavep = wave;
+  voptp = vopt;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    *voptp = r*(*wavep) - C;
+    *(statp++) = 0;
+    wavep += swave;
+    voptp += svopt;
+  }
+d958 1
+a958 1
+  return 0;
+d972 16
+a987 16
+  double r;
+  register int ivopt, *statp;
+  register const double *voptp;
+  register double *wavep;
+
+  r = restwav/C;
+
+  voptp = vopt;
+  wavep = wave;
+  statp = stat;
+  for (ivopt = 0; ivopt < nvopt; ivopt++) {
+    *wavep = r*(C + *voptp);
+    *(statp++) = 0;
+    voptp += svopt;
+    wavep += swave;
+  }
+d989 1
+a989 1
+  return 0;
+d1005 19
+a1023 19
+  double r;
+  register int iwave, *statp;
+  register const double *wavep;
+  register double *zoptp;
+
+  if (restwav == 0.0) {
+    return 2;
+  }
+  r = 1.0/restwav;
+
+  wavep = wave;
+  zoptp = zopt;
+  statp = stat;
+  for (iwave = 0; iwave < nwave; iwave++) {
+    *zoptp = r*(*wavep) - 1.0;
+    *(statp++) = 0;
+    wavep += swave;
+    zoptp += szopt;
+  }
+d1025 1
+a1025 1
+  return 0;
+d1039 13
+a1051 13
+  register int izopt, *statp;
+  register const double *zoptp;
+  register double *wavep;
+
+  zoptp = zopt;
+  wavep = wave;
+  statp = stat;
+  for (izopt = 0; izopt < nzopt; izopt++) {
+    *wavep = restwav*(1.0 + *zoptp);
+    *(statp++) = 0;
+    zoptp += szopt;
+    wavep += swave;
+  }
+d1053 1
+a1053 1
+  return 0;
+d1069 14
+a1082 14
+  register int ivelo, *statp;
+  register const double *velop;
+  register double *betap;
+
+  velop = velo;
+  betap = beta;
+  statp = stat;
+  for (ivelo = 0; ivelo < nvelo; ivelo++) {
+    *betap = (*velop)/C;
+    *(statp++) = 0;
+
+    velop += svelo;
+    betap += sbeta;
+  }
+d1084 1
+a1084 1
+  return 0;
+d1098 14
+a1111 14
+  register int ibeta, *statp;
+  register const double *betap;
+  register double *velop;
+
+  betap = beta;
+  velop = velo;
+  statp = stat;
+  for (ibeta = 0; ibeta < nbeta; ibeta++) {
+    *velop = (*betap)*C;
+    *(statp++) = 0;
+
+    betap += sbeta;
+    velop += svelo;
+  }
+d1113 1
+a1113 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: spx.c,v 4.1 2005/08/25 06:40:25 cal103 Exp cal103 $
+d375 1
+a375 1
+   if (status = freqwave(dummy, nfreq, sfreq, sawav, freq, awav, stat)) {
+d395 1
+a395 1
+   if (status = awavwave(dummy, nawav, sawav, sfreq, awav, freq, stat)) {
+d649 1
+a649 1
+   if (status = awavwave(dummy, nawav, sawav, svelo, awav, velo, stat)) {
+d669 1
+a669 1
+   if (status = velowave(dummy, nvelo, svelo, sawav, velo, awav, stat)) {
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.c,v 4.2 2005/09/21 13:21:57 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Parenthesised assignments used as truth values.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: spx.c,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d374 1
+a374 1
+   if ((status = freqwave(dummy, nfreq, sfreq, sawav, freq, awav, stat))) {
+d394 1
+a394 1
+   if ((status = awavwave(dummy, nawav, sawav, sfreq, awav, freq, stat))) {
+d648 1
+a648 1
+   if ((status = awavwave(dummy, nawav, sawav, svelo, awav, velo, stat))) {
+d668 1
+a668 1
+   if ((status = velowave(dummy, nvelo, svelo, sawav, velo, awav, stat))) {
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: spx.c,v 4.2.1.2 2007/06/29 00:43:10 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: removed the logarithmic conversion functions; set spx_errmsg[0]
+to "success".
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.c,v 4.0 2005/02/04 06:02:59 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; fixed a bug in specx() if restfrq == 0.0
+and restwav != 0.0, and also ensure that spx.freq is set to 0.0 if wave
+characteristic types are not available.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: spx.c,v 3.6 2004/08/25 04:07:22 cal103 Exp cal103 $
+d42 1
+a42 1
+   0,
+d69 1
+a69 1
+   if (spx == 0) return 1;
+a280 67
+   }
+
+   return 0;
+}
+
+
+/*============================================================================
+*   Logarithmic conversions.
+*===========================================================================*/
+
+int speclog(dummy, nspec, sspec, sloge, spec, loge, stat)
+
+double dummy;
+int nspec, sspec, sloge;
+const double spec[];
+double loge[];
+int stat[];
+
+{
+   int status = 0;
+   register int ispec, *statp;
+   register const double *specp;
+   register double *logep;
+
+   specp = spec;
+   logep = loge;
+   statp = stat;
+   for (ispec = 0; ispec < nspec; ispec++) {
+      if (*specp > 0.0) {
+         *logep = log(*specp);
+         *(statp++) = 0;
+      } else {
+         *(statp++) = 1;
+         status = 4;
+      }
+
+      specp += sspec;
+      logep += sloge;
+   }
+
+   return status;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int logspec(dummy, nloge, sloge, sspec, loge, spec, stat)
+
+double dummy;
+int nloge, sloge, sspec;
+const double loge[];
+double spec[];
+int stat[];
+
+{
+   register int iloge, *statp;
+   register const double *logep;
+   register double *specp;
+
+   logep = loge;
+   specp = spec;
+   statp = stat;
+   for (iloge = 0; iloge < nloge; iloge++) {
+      *specp = exp(*logep);
+      *(statp++) = 0;
+
+      logep += sloge;
+      specp += sspec;
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value".
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+d11 4
+a14 4
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: spx.c,v 3.5 2004/06/28 01:53:24 mcalabre Exp mcalabre $
+d76 2
+d79 2
+d83 1
+d239 2
+a241 1
+         spx->afrq = 0.0;
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: spx.c,v 3.4 2004/02/11 00:15:03 mcalabre Exp mcalabre $
+d40 1
+a40 1
+/* Map error number to error message for each function. */
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d29 2
+a30 1
+*   $Id: spx.c,v 3.3 2003/10/21 08:52:49 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d29 1
+a29 1
+*   $Id: spx.c,v 3.2 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: test for null spxprm pointer given as function argument;
+rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: spx.c,v 3.1 2003/04/28 03:50:41 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: spx.c,v 3.0 2003/04/01 04:03:42 mcalabre Exp mcalabre $
+d42 1
+d44 2
+a45 1
+   "Invalid spectral coordinate"};
+d68 2
+d87 1
+a87 1
+      if (spec == 0.0) return 2;
+d92 1
+a92 1
+      if (spec == 0.0) return 2;
+d97 1
+a97 1
+      if (spec == 0.0) return 2;
+d102 1
+a102 1
+      if (spec == 0.0) return 2;
+d111 1
+a111 1
+      if (spec == 0.0) return 2;
+d117 1
+a117 1
+      if (s == 0.0) return 2;
+d123 1
+a123 1
+      if (s == 0.0) return 2;
+d128 1
+a128 1
+      if (spec == 0.0) return 2;
+d139 1
+a139 1
+      if (fabs(beta) == 1.0) return 2;
+d144 1
+a144 1
+      if (fabs(spec) == 1.0) return 2;
+d150 1
+a150 1
+      return 1;
+d307 1
+a307 1
+         status = 2;
+a327 1
+   int status = 0;
+d343 1
+a343 1
+   return status;
+d374 1
+a374 1
+         status = 2;
+d409 1
+a409 1
+         status = 2;
+d435 1
+a435 1
+     return status;
+d455 1
+a455 1
+     return status;
+d523 1
+a523 1
+         status = 2;
+d546 1
+a546 1
+   int status;
+d570 1
+a570 1
+         status = 2;
+d577 1
+a577 1
+   return 0;
+d591 1
+a591 1
+   int status;
+d611 1
+a611 1
+         status = 2;
+d618 1
+a618 1
+   return 0;
+d683 1
+a683 1
+         status = 2;
+d709 1
+a709 1
+     return status;
+d729 1
+a729 1
+     return status;
+a747 1
+   int status = 0;
+d763 1
+a763 1
+   return status;
+a776 1
+   int status = 0;
+d792 1
+a792 1
+   return status;
+a807 1
+   int status = 0;
+d823 1
+a823 1
+   return status;
+a836 1
+   int status = 0;
+d852 1
+a852 1
+   return status;
+a867 1
+   int status = 0;
+d883 1
+a883 1
+   return status;
+a896 1
+   int status = 0;
+d912 1
+a912 1
+   return status;
+d934 1
+a934 1
+      return 1;
+d1002 1
+a1002 1
+      return 1;
+d1069 1
+a1069 1
+      return 1;
+a1126 1
+   int status = 0;
+d1142 1
+a1142 1
+   return status;
+a1155 1
+   int status = 0;
+d1171 1
+a1171 1
+   return status;
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id$
+@

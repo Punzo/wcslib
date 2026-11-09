@@ -1,0 +1,6343 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.42;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.52.43;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.42.52;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.37.53;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.26.13.56.46;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.46.04;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.35.34;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.04.52.24;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.04.18;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.36.48;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.05.38.38;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.04.48.53;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.10.21;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2001.09.05.05.11.03;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2000.12.04.05.14.00;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.12.13.03.39.25;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.11.19.02.25.39;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.06.16.00.19.01;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.09.10.06.49.02;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	96.05.07.21.15.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.37.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.06.54.29;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.08.02.06.43.42;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.03.05.37.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.35;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.07.28.07;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.06.02.50.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.07;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.38.43;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.27.01.19.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.03.11.58;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.10.07.25.19;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.11.03.04.15;	author cal103;	state Exp;
+branches;
+next	4.7.1.5;
+
+4.7.1.5
+date	2011.08.12.02.56.46;	author cal103;	state Exp;
+branches;
+next	4.7.1.6;
+
+4.7.1.6
+date	2011.08.12.04.48.02;	author cal103;	state Exp;
+branches;
+next	4.7.1.7;
+
+4.7.1.7
+date	2011.08.12.08.34.26;	author cal103;	state Exp;
+branches;
+next	4.7.1.8;
+
+4.7.1.8
+date	2011.08.13.03.05.22;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.08.16.01.43.12;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.24.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.03.15.05.51.17;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.41.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.41.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.37;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.05.08.24.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.08.09.41.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.08.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.29.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	7.2.1.2;
+
+7.2.1.2
+date	2020.05.07.04.09.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.11.08;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.32.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.02.06.20.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.15.34.47;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.10.15.12.23;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.5;
+
+8.2.1.5
+date	2024.05.13.12.38.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.05.08.34.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test closure of the high-level WCSLIB coordinate transformation
+routines.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@*=======================================================================
+*
+* WCSLIB 8.10 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2026, Mark Calabretta
+*
+* This file is part of WCSLIB.
+*
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcs.f,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=======================================================================
+
+      PROGRAM TWCS
+*-----------------------------------------------------------------------
+*
+* TWCS1 tests WCSS2P and WCSP2S for closure on an oblique 2-D slice
+* through a 4-D image with celestial, spectral and logarithmic
+* coordinate axes.
+*
+*-----------------------------------------------------------------------
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcserr.inc'
+      INCLUDE 'wcsmath.inc'
+
+      DOUBLE PRECISION TOL
+      PARAMETER (TOL = 1D-10)
+
+      INTEGER   NELEM
+      PARAMETER (NELEM = 9)
+
+      LOGICAL   PASSED
+      INTEGER   CHECK_ERROR, ETEST, I, J, K, LAT, LATIDX, LNG, LNGIDX,
+     :          NFAIL(0:3), SPCIDX, STAT(0:360), STATUS, TEST_ERRORS
+      DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT1, LNG1, PHI(0:360),
+     :          PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R, RESID,
+     :          RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+     :          WORLD2(NELEM,0:360)
+      CHARACTER VERS*8
+
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 4)
+
+*     WCS header parameters.
+      INTEGER   NAXIS, NPV, PVI(3), PVM(3)
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), LATPOLE, LONPOLE,
+     :          PC(N,N), PV(3), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72
+
+      COMMON /HEADER/ NAXIS, NPV, CRPIX, PC, CDELT, CRVAL, LONPOLE,
+     :                LATPOLE, RESTFRQ, RESTWAV, PVI, PVM, PV
+      COMMON /HEADCH/ CTYPE
+
+      DATA NAXIS   /N/
+      DATA (CRPIX(J), J=1,N)
+     :             /513D0,   0D0,   0D0,   0D0/
+      DATA ((PC(I,J),J=1,N),I=1,N)
+     :             /1.1D0,   0D0,   0D0,   0D0,
+     :                0D0, 1.0D0,   0D0, 0.1D0,
+     :                0D0,   0D0, 1.0D0,   0D0,
+     :                0D0, 0.2D0,   0D0, 1.0D0/
+      DATA (CDELT(I), I=1,N)
+     :             /-9.635265432D-6, 1D0, 0.1D0, -1D0/
+      DATA (CTYPE(I), I=1,N)
+     :           /'WAVE-F2W', 'XLAT-BON', 'TIME-LOG', 'XLON-BON'/
+      DATA (CRVAL(I), I=1,N)
+     :             /0.214982042D0, -30D0, 1D0, 150D0/
+      DATA LONPOLE /150D0/
+      DATA LATPOLE /999D0/
+      DATA RESTFRQ /1.42040575D9/
+      DATA RESTWAV /0D0/
+
+*     Set PVi_m keyvalues for the longitude axis (I = 4).  For test
+*     purposes, these are set so that the fiducial native coordinates
+*     are at the native pole, i.e. so that (phi0,theta0) = (0,90), but
+*     without any fiducial offset, i.e. iwith PVi_0a == 0 (by default).
+      DATA NPV     /3/
+      DATA (PVI(K), PVM(K), PV(K), K=1,2)
+     :             /4, 1,  0D0,
+     :              4, 2, 90D0/
+
+*     PVi_m keyvalues for the latitude axis (I = 2).
+      DATA PVI(3), PVM(3), PV(3)
+     :             /2, 1, -30D0/
+
+
+*     For the wcserr tests.
+      COMMON /ERRTST/ ETEST
+      DATA ETEST /0/
+*-----------------------------------------------------------------------
+      CALL WCSLIB_VERSION (VERS, 8)
+      WRITE (*, 10) VERS
+ 10   FORMAT ('WCSLIB version number: ',A,/)
+
+      WRITE (*, 20)
+ 20   FORMAT ('Testing closure of WCSLIB world coordinate ',
+     :        'transformation routines (twcs.f)',/,
+     :        '-------------------------------------------',
+     :        '--------------------------------',/)
+
+
+*     This routine simulates the actions of a FITS header parser.
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+      CALL PARSER (WCS)
+
+*     Test WCSENQ - note that the struct is unset.
+      NFAIL(0) = 0
+      IF (WCSENQ(WCS, WCSENQ_MEM).EQ.0) THEN
+        NFAIL(0) = 1
+        WRITE (*, 30)
+ 30     FORMAT ('Unexpected result from WCSENQ: memory.')
+      END IF
+
+*     Put the struct in bypass mode (as a test).
+      STATUS = WCSPTI (WCS, WCS_FLAG, 1, 0, 0)
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSSET ERROR',I3)
+      END IF
+
+*     Test WCSENQ.
+      IF (WCSENQ(WCS, WCSENQ_SET + WCSENQ_BYP).EQ.0) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 50)
+ 50     FORMAT ('Unexpected result from WCSENQ: set and bypass.')
+      END IF
+
+      IF (WCSENQ(WCS, WCSENQ_CHK).EQ.0) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 60) 'a'
+ 60     FORMAT ('Unexpected result from WCSENQ: checksum (',A,').')
+      END IF
+
+*     Further test for WCSENQ - an inconsequential change.
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, 999.001D0, 0, 0)
+      IF (WCSENQ(WCS, WCSENQ_CHK).EQ.1) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 60) 'b'
+      END IF
+
+
+      IF (NFAIL(0).GT.0) WRITE (*, '()')
+      WRITE (*, 70) TOL
+ 70   FORMAT ('Reporting tolerance',1PG8.1,' pixel.')
+
+*     Get indices.
+      STATUS = WCSGTI (WCS, WCS_LNG,  LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT,  LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+
+*     Initialize non-celestial world coordinates.
+      TIME = 1D0
+      FREQ = 1.42040595D9 - 180D0 * 62500D0
+      DO 80 K = 0, 360
+        WORLD1(1,K) = 0D0
+        WORLD1(2,K) = 0D0
+        WORLD1(3,K) = 0D0
+        WORLD1(4,K) = 0D0
+
+        WORLD1(3,K) = TIME
+        TIME = 1.01D0 * TIME
+
+        WORLD1(SPCIDX,K) = 2.99792458D8 / FREQ
+        FREQ = FREQ + 62500D0
+ 80   CONTINUE
+
+      NFAIL(1) = 0
+      RESMAX = 0D0
+      DO 160 LAT = 90, -90, -1
+        LAT1 = DBLE(LAT)
+
+        K = 0
+        DO 90 LNG = -180, 180
+          LNG1 = DBLE(LNG)
+
+          WORLD1(LNGIDX,K) = LNG1
+          WORLD1(LATIDX,K) = LAT1
+          K = K + 1
+ 90     CONTINUE
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD1, PHI, THETA, IMG,
+     :                   PIXEL1, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 100) STATUS, LAT1
+ 100      FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+        END IF
+
+        STATUS = WCSP2S (WCS, 361, NELEM, PIXEL1, IMG, PHI, THETA,
+     :                   WORLD2, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 110) STATUS, LAT1
+ 110      FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+        END IF
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD2, PHI, THETA, IMG,
+     :                   PIXEL2, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 120) STATUS, LAT1
+ 120      FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+        END IF
+
+        DO 150 K = 0, 360
+          RESID = 0D0
+          DO 130 I = 1, NAXIS
+            R = PIXEL2(I,K) - PIXEL1(I,K)
+            RESID = RESID + R*R
+ 130      CONTINUE
+
+          RESID = SQRT(RESID)
+          IF (RESID.GT.RESMAX) RESMAX = RESID
+
+          IF (RESID.GT.TOL) THEN
+            NFAIL(1) = NFAIL(1) + 1
+            WRITE (*, 140) (WORLD1(I,K), I=1,NAXIS),
+     :                     (PIXEL1(I,K), I=1,NAXIS),
+     :                     (WORLD2(I,K), I=1,NAXIS),
+     :                     (PIXEL2(I,K), I=1,NAXIS)
+ 140        FORMAT (/,'Closure error:',/,
+     :                'world1:',4F18.12,/,
+     :                'pixel1:',4F18.12,/,
+     :                'world2:',4F18.12,/,
+     :                'pixel2:',4F18.12)
+          END IF
+
+          LNG1 = LNG1 + 1D0
+ 150    CONTINUE
+ 160  CONTINUE
+
+      WRITE (*, 170) RESMAX
+ 170  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+     :        ' pixel.')
+
+
+*     Test WCSERR.
+      WRITE (*, 180)
+ 180  FORMAT (/,'IGNORE messages marked with ''OK'', they test ',
+     :          'WCSERR: ')
+
+      STATUS = WCSERR_ENABLE(1)
+
+*     Test 1 - take it out of bypass mode, so now WCSSET should fail.
+      STATUS = WCSPTD (WCS, WCS_PV, UNDEFINED, PVI(3), PVM(3))
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSSET (WCS)
+      NFAIL(3) = CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :                        'Invalid parameter value')
+
+      NFAIL(3) = NFAIL(3) + TEST_ERRORS()
+
+      WRITE (*, '()')
+
+      PASSED = .TRUE.
+      IF (NFAIL(0).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 190)
+ 190    FORMAT ('FAIL: Unexpected result from WCSENQ.')
+      END IF
+
+      IF (NFAIL(1).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 200) NFAIL(1)
+ 200    FORMAT ('FAIL:',I5,' closure residuals exceed reporting ',
+     :    'tolerance.')
+      END IF
+
+      IF (NFAIL(3).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 210) NFAIL(3)
+ 210    FORMAT ('FAIL:',I5,' error messages differ from that ',
+     :    'expected.')
+      END IF
+
+      IF (PASSED) THEN
+        WRITE (*, 220)
+ 220    FORMAT (
+     :    'PASS: All enquiry results returned as expected',/,
+     :    'PASS: All closure residuals are within reporting ',
+     :           'tolerance.',/,
+     :    'PASS: All error messages reported as expected.')
+      END IF
+
+
+*     Clean up.
+      STATUS = WCSFREE(WCS)
+
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE PARSER (WCS)
+*-----------------------------------------------------------------------
+* In practice a parser would read the FITS header until it encountered
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+*
+* In this simulation the header keyvalues are set in the main program in
+* variables passed in COMMON.
+*-----------------------------------------------------------------------
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 4)
+
+      INTEGER   I, J, K, NAXIS, NPV, PVI(3), PVM(3), STATUS, WCS(*)
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), LATPOLE, LONPOLE,
+     :          PC(N,N), PV(3), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72
+
+      INCLUDE 'wcs.inc'
+
+      COMMON /HEADER/ NAXIS, NPV, CRPIX, PC, CDELT, CRVAL, LONPOLE,
+     :                LATPOLE, RESTFRQ, RESTWAV, PVI, PVM, PV
+      COMMON /HEADCH/ CTYPE
+*-----------------------------------------------------------------------
+      STATUS = WCSINI (NAXIS, WCS)
+
+      DO 20 I = 1, NAXIS
+         STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+
+         DO 10 J = 1, NAXIS
+            STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+ 10      CONTINUE
+
+         STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+         STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+         STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+ 20   CONTINUE
+
+      STATUS = WCSPTD (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+
+      DO 30 K = 1, NPV
+         STATUS = WCSPTD (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+ 30   CONTINUE
+
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION TEST_ERRORS()
+*-----------------------------------------------------------------------
+      CHARACTER NULL*1
+      PARAMETER (NULL = CHAR(0))
+
+      INTEGER   CHECK_ERROR, ETEST, NFAIL, STATUS
+      CHARACTER CTYPE*72
+
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'wcs.inc'
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+
+      COMMON /ERRTST/ ETEST
+*-----------------------------------------------------------------------
+      NFAIL = 0
+
+*     Test 2.
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSINI (-32, WCS)
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :          'naxis must not be negative (got -32)')
+
+*     Test 3.
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_SUCCESS, ' ')
+
+*     Test 4; CTYPE strings handled with CHARACTER*72 variable.
+      CTYPE = 'CUBEFACE'
+      STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE, 2, 0)
+      STATUS = WCSSET (WCS)
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Multiple CUBEFACE axes (in CTYPE1 and CTYPE2)')
+
+*     Test 5; CTYPE strings handled C-style, i.e. with trailing '\0'.
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'RA---FOO'//NULL, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'DEC--BAR'//NULL, 2, 0)
+      STATUS = WCSSET (WCS)
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Unrecognized projection code (FOO in CTYPE1)')
+
+*     Test 6.
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'RA---TAN'//NULL, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'FREQ-LOG'//NULL, 2, 0)
+      STATUS = WCSSET (WCS)
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Unmatched celestial axes')
+
+      STATUS = WCSFREE(WCS)
+
+      TEST_ERRORS = NFAIL
+
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION CHECK_ERROR(WCS, STATUS, EXSTATUS, EXMSG)
+*-----------------------------------------------------------------------
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcserr.inc'
+
+      INTEGER   EXSTATUS, ILEN, ISTAT, ETEST, STATUS, WCS(WCSLEN)
+      CHARACTER ERRMSG*(WCSERR_MSG_LENGTH), EXMSG*(*)
+
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  WCSERR is aligned here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INTEGER   WCSERR(ERRLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCSERR,DUMMY)
+
+      COMMON /ERRTST/ ETEST
+*-----------------------------------------------------------------------
+      IF (STATUS.NE.0) THEN
+        ISTAT = WCSGTI (WCS, WCS_ERR, WCSERR(1))
+        ISTAT = WCSERR_GTC (WCSERR, WCSERR_MSG, ERRMSG)
+      ELSE
+        ERRMSG = ' '
+      END IF
+
+      ETEST = ETEST + 1
+      WRITE (*, 10) ETEST
+ 10   FORMAT (/,'Test ',I2,'...')
+
+      IF (STATUS.EQ.EXSTATUS .AND. ERRMSG.EQ.EXMSG) THEN
+        CALL FLUSH(6)
+        ISTAT = WCSPERR (WCS, 'OK: '//CHAR(0))
+        WRITE (*, *) '...succeeded.'
+        CHECK_ERROR = 0
+      ELSE
+        WRITE (*, 20) EXSTATUS, EXMSG(:ILEN(EXMSG))
+ 20     FORMAT ('Expected error ',I2,': ''',A,''', got')
+        CALL FLUSH(6)
+        ISTAT = WCSPERR (WCS, CHAR(0))
+        WRITE (*, *) '...failed.'
+        CHECK_ERROR = 1
+      END IF
+
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION ILEN(STRING)
+*-----------------------------------------------------------------------
+      CHARACTER STRING*(*)
+*-----------------------------------------------------------------------
+      DO 10 ILEN = LEN(STRING), 1, -1
+        IF (STRING(ILEN:ILEN).NE. ' ') RETURN
+ 10   CONTINUE
+
+      ILEN = 0
+      END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.6.1.2 2026/04/05 08:34:34 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.5.1.2 2026/03/29 13:36:19 mcalabre Exp mcalabre $
+d390 1
+a390 1
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_MEMORY,
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@WCSINI now returns WCSERR_BAD_PARAM instead of WCSERR_MEMORY if naxis is
+negative.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d390 1
+a390 1
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.5 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2025, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcs.f,v 8.4.1.2 2025/12/06 13:37:19 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2026, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcs.f,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2025, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.2.1.5 2024/05/13 12:38:06 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d46 1
+d48 1
+a48 2
+     :          NFAIL1, NFAIL2, SPCIDX, STAT(0:360), STATUS,
+     :          TEST_ERRORS, VERS(3)
+d53 1
+d113 2
+a114 1
+      WRITE (*, 10) WCSLIB_VERSION(VERS)
+d121 1
+a121 1
+     :        '--------------------------------')
+d128 7
+a134 2
+      WRITE (*, 30) TOL
+ 30   FORMAT (/,'Reporting tolerance',1PG8.1,' pixel.')
+d136 32
+d177 1
+a177 1
+      DO 40 K = 0, 360
+d188 1
+a188 1
+ 40   CONTINUE
+d190 1
+a190 1
+      NFAIL1 = 0
+d192 1
+a192 1
+      DO 120 LAT = 90, -90, -1
+d196 1
+a196 1
+        DO 50 LNG = -180, 180
+d202 1
+a202 1
+ 50     CONTINUE
+d207 3
+a209 3
+          WRITE (*, 60) STATUS, LAT1
+ 60       FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d215 3
+a217 3
+          WRITE (*, 70) STATUS, LAT1
+ 70       FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d223 3
+a225 3
+          WRITE (*, 80) STATUS, LAT1
+ 80       FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d228 1
+a228 1
+        DO 110 K = 0, 360
+d230 1
+a230 1
+          DO 90 I = 1, NAXIS
+d233 1
+a233 1
+ 90       CONTINUE
+d239 2
+a240 2
+            NFAIL1 = NFAIL1 + 1
+            WRITE (*, 100) (WORLD1(I,K), I=1,NAXIS),
+d244 1
+a244 1
+ 100        FORMAT (/,'Closure error:',/,
+d252 2
+a253 2
+ 110    CONTINUE
+ 120  CONTINUE
+d255 2
+a256 2
+      WRITE (*, 130) RESMAX
+ 130  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+d261 3
+a263 3
+      WRITE (*, 140)
+ 140  FORMAT (//,'IGNORE messages marked with ''OK'', they test ',
+     :           'WCSERR: ')
+d267 1
+a267 1
+*     Test 1.
+d269 1
+d271 2
+a272 2
+      NFAIL2 = CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :                      'Invalid parameter value')
+d274 1
+a274 1
+      NFAIL2 = NFAIL2 + TEST_ERRORS()
+d276 15
+a290 6
+      IF (NFAIL1.NE.0 .OR. NFAIL2.NE.0) THEN
+        IF (NFAIL1.NE.0) THEN
+          WRITE (*, 150) NFAIL1
+ 150      FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+     :      'tolerance.')
+        END IF
+d292 4
+a295 9
+        IF (NFAIL2.NE.0) THEN
+          WRITE (*, 160) NFAIL2
+ 160      FORMAT ('FAIL:',I5,' error messages differ from that ',
+     :      'expected.')
+        END IF
+      ELSE
+        WRITE (*, 170)
+ 170    FORMAT (/,'PASS: All closure residuals are within reporting ',
+     :    'tolerance.',/,'PASS: All error messages reported as ',
+d299 9
+a363 7
+*     Extract information from the FITS header.
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+         WRITE (*, 40) STATUS
+ 40      FORMAT ('WCSSET ERROR',I3)
+      END IF
+
+d451 1
+a451 1
+        ISTAT = WCSERR_GET (WCSERR, WCSERR_MSG, ERRMSG)
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Fixed a call to WCSLIB_VERSION and in function CHECK_ERROR, replaced a call
+to WCSERR_GET with WCSERR_GTC.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+d48 1
+a48 1
+     :          TEST_ERRORS
+a52 1
+      CHARACTER VERS*8
+d112 1
+a112 2
+      CALL WCSLIB_VERSION (VERS, 8)
+      WRITE (*, 10) VERS
+d405 1
+a405 1
+        ISTAT = WCSERR_GTC (WCSERR, WCSERR_MSG, ERRMSG)
+@
+
+
+8.2.1.4
+log
+@Changes mirroring those made to twcs.c.  Note that it is not possible to
+test bypass mode in wcsset() in the same way as is done in twcs.c as any
+change to a parameter in wcsprm made by wcsput_() will also reset
+wcsprm::flag to 1 and hence trigger a full pass through wcsset().
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.2.1.3 2024/05/06 15:34:47 mcalabre Exp mcalabre $
+a45 1
+      LOGICAL   PASSED
+d47 2
+a48 1
+     :          NFAIL(0:3), SPCIDX, STAT(0:360), STATUS, TEST_ERRORS
+d121 1
+a121 1
+     :        '--------------------------------',/)
+d128 2
+a129 15
+*     Test WCSENQ - note that the struct is unset.
+      NFAIL(0) = 0
+      IF (WCSENQ(WCS, WCSENQ_MEM).EQ.0) THEN
+        NFAIL(0) = 1
+        WRITE (*, 30)
+ 30     FORMAT ('Unexpected result from WCSENQ: memory.')
+      END IF
+
+*     Put the struct in bypass mode (as a test).
+      STATUS = WCSPTI (WCS, WCS_FLAG, 1, 0, 0)
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSSET ERROR',I3)
+      END IF
+a130 11
+*     Test WCSENQ.
+      IF (WCSENQ(WCS, WCSENQ_SET + WCSENQ_BYP).EQ.0) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 50)
+ 50     FORMAT ('Unexpected result from WCSENQ: set and bypass.')
+      END IF
+
+
+      IF (NFAIL(0).GT.0) WRITE (*, '()')
+      WRITE (*, 60) TOL
+ 60   FORMAT ('Reporting tolerance',1PG8.1,' pixel.')
+d140 1
+a140 1
+      DO 70 K = 0, 360
+d151 1
+a151 1
+ 70   CONTINUE
+d153 1
+a153 1
+      NFAIL(1) = 0
+d155 1
+a155 1
+      DO 150 LAT = 90, -90, -1
+d159 1
+a159 1
+        DO 80 LNG = -180, 180
+d165 1
+a165 1
+ 80     CONTINUE
+d170 3
+a172 3
+          WRITE (*, 90) STATUS, LAT1
+ 90       FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 150
+d178 3
+a180 3
+          WRITE (*, 100) STATUS, LAT1
+ 100      FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 150
+d186 3
+a188 3
+          WRITE (*, 110) STATUS, LAT1
+ 110      FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 150
+d191 1
+a191 1
+        DO 140 K = 0, 360
+d193 1
+a193 1
+          DO 120 I = 1, NAXIS
+d196 1
+a196 1
+ 120      CONTINUE
+d202 2
+a203 2
+            NFAIL(1) = NFAIL(1) + 1
+            WRITE (*, 130) (WORLD1(I,K), I=1,NAXIS),
+d207 1
+a207 1
+ 130        FORMAT (/,'Closure error:',/,
+d215 2
+a216 2
+ 140    CONTINUE
+ 150  CONTINUE
+d218 2
+a219 2
+      WRITE (*, 160) RESMAX
+ 160  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+d224 3
+a226 3
+      WRITE (*, 170)
+ 170  FORMAT (/,'IGNORE messages marked with ''OK'', they test ',
+     :          'WCSERR: ')
+d230 1
+a230 1
+*     Test 1 - take it out of bypass mode, so now WCSSET should fail.
+a231 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+d233 2
+a234 2
+      NFAIL(3) = CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :                        'Invalid parameter value')
+d236 1
+a236 1
+      NFAIL(3) = NFAIL(3) + TEST_ERRORS()
+d238 6
+a243 1
+      WRITE (*, '()')
+d245 9
+a253 18
+      PASSED = .TRUE.
+      IF (NFAIL(0).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 180)
+ 180    FORMAT ('FAIL: Unexpected result from WCSENQ.')
+      END IF
+
+      IF (NFAIL(1).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 190) NFAIL(1)
+ 190    FORMAT ('FAIL:',I5,' closure residuals exceed reporting ',
+     :    'tolerance.')
+      END IF
+
+      IF (NFAIL(3).NE.0) THEN
+        PASSED = .FALSE.
+        WRITE (*, 200) NFAIL(3)
+ 200    FORMAT ('FAIL:',I5,' error messages differ from that ',
+a256 9
+      IF (PASSED) THEN
+        WRITE (*, 210)
+ 210    FORMAT (
+     :    'PASS: Enquiry results returned as expected',/,
+     :    'PASS: All closure residuals are within reporting ',
+     :           'tolerance.',/,
+     :    'PASS: All error messages reported as expected.')
+      END IF
+
+d312 7
+@
+
+
+8.2.1.5
+log
+@Added tests for wcsenq() with WCSENQ_CHK.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.2.1.4 2024/05/10 15:12:23 mcalabre Exp mcalabre $
+a150 13
+      IF (WCSENQ(WCS, WCSENQ_CHK).EQ.0) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 60) 'a'
+ 60     FORMAT ('Unexpected result from WCSENQ: checksum (',A,').')
+      END IF
+
+*     Further test for WCSENQ - an inconsequential change.
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, 999.001D0, 0, 0)
+      IF (WCSENQ(WCS, WCSENQ_CHK).EQ.1) THEN
+        NFAIL(0) = NFAIL(0) + 1
+        WRITE (*, 60) 'b'
+      END IF
+
+d153 2
+a154 2
+      WRITE (*, 70) TOL
+ 70   FORMAT ('Reporting tolerance',1PG8.1,' pixel.')
+d164 1
+a164 1
+      DO 80 K = 0, 360
+d175 1
+a175 1
+ 80   CONTINUE
+d179 1
+a179 1
+      DO 160 LAT = 90, -90, -1
+d183 1
+a183 1
+        DO 90 LNG = -180, 180
+d189 1
+a189 1
+ 90     CONTINUE
+d194 3
+a196 3
+          WRITE (*, 100) STATUS, LAT1
+ 100      FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+d202 3
+a204 3
+          WRITE (*, 110) STATUS, LAT1
+ 110      FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+d210 3
+a212 3
+          WRITE (*, 120) STATUS, LAT1
+ 120      FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 160
+d215 1
+a215 1
+        DO 150 K = 0, 360
+d217 1
+a217 1
+          DO 130 I = 1, NAXIS
+d220 1
+a220 1
+ 130      CONTINUE
+d227 1
+a227 1
+            WRITE (*, 140) (WORLD1(I,K), I=1,NAXIS),
+d231 1
+a231 1
+ 140        FORMAT (/,'Closure error:',/,
+d239 2
+a240 2
+ 150    CONTINUE
+ 160  CONTINUE
+d242 2
+a243 2
+      WRITE (*, 170) RESMAX
+ 170  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+d248 2
+a249 2
+      WRITE (*, 180)
+ 180  FORMAT (/,'IGNORE messages marked with ''OK'', they test ',
+d268 2
+a269 2
+        WRITE (*, 190)
+ 190    FORMAT ('FAIL: Unexpected result from WCSENQ.')
+d274 2
+a275 2
+        WRITE (*, 200) NFAIL(1)
+ 200    FORMAT ('FAIL:',I5,' closure residuals exceed reporting ',
+d281 2
+a282 2
+        WRITE (*, 210) NFAIL(3)
+ 210    FORMAT ('FAIL:',I5,' error messages differ from that ',
+d287 3
+a289 3
+        WRITE (*, 220)
+ 220    FORMAT (
+     :    'PASS: All enquiry results returned as expected',/,
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.13 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.7 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 7.6.1.2 2021/07/02 06:20:30 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcs.f,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d404 1
+a404 1
+        ISTAT = WCSGTI (WCS, WCS_ERR, WCSERR)
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@gfortran 11.1.0 now compares the argument list in all calls to the same
+subroutine or function that occur anywhere in a source file.  A compilation
+error results if any arguments do not match in rank (scalar, vector, array,
+etc.).  The error can be downgraded to a warning with -std=legacy, but such
+warnings can only be suppressed by inhibiting ALL warnings.  This annoying
+behaviour makes it necessary for the subroutine or function calls to match,
+or at least appear so.  This affected one call to WCSGTI in relation to the
+VALUE argument.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d404 1
+a404 1
+        ISTAT = WCSGTI (WCS, WCS_ERR, WCSERR(1))
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcs.f,v 7.3.1.3 2021/01/28 12:32:09 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcs.f,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.3 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
+a20 2
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+*
+d23 1
+a23 1
+* $Id: twcs.f,v 7.2.1.2 2020/05/07 04:09:46 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d21 2
+d25 1
+a25 1
+* $Id: twcs.f,v 7.3.1.2 2021/01/19 14:11:08 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d125 1
+a125 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+d133 3
+a135 3
+      STATUS = WCSGET (WCS, WCS_LNG,  LNGIDX)
+      STATUS = WCSGET (WCS, WCS_LAT,  LATIDX)
+      STATUS = WCSGET (WCS, WCS_SPEC, SPCIDX)
+d231 1
+a231 1
+      STATUS = WCSPUT (WCS, WCS_PV, UNDEFINED, PVI(3), PVM(3))
+d292 1
+a292 1
+         STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d295 1
+a295 1
+            STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+d298 3
+a300 3
+         STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+         STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+         STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d303 2
+a304 2
+      STATUS = WCSPUT (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+d306 2
+a307 2
+      STATUS = WCSPUT (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d310 1
+a310 1
+         STATUS = WCSPUT (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+d344 1
+a344 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+d350 1
+a350 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+d356 2
+a357 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE, 2, 0)
+d363 1
+a363 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+d365 2
+a366 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---FOO'//NULL, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'DEC--BAR'//NULL, 2, 0)
+d372 1
+a372 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+d374 2
+a375 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---TAN'//NULL, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'FREQ-LOG'//NULL, 2, 0)
+d406 1
+a406 1
+        ISTAT = WCSGET (WCS, WCS_ERR, WCSERR)
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.2.1.2
+log
+@Replaced calls to WCSPUT and WCSGET with their type-specific equivalents.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d125 1
+a125 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+d133 3
+a135 3
+      STATUS = WCSGTI (WCS, WCS_LNG,  LNGIDX)
+      STATUS = WCSGTI (WCS, WCS_LAT,  LATIDX)
+      STATUS = WCSGTI (WCS, WCS_SPEC, SPCIDX)
+d231 1
+a231 1
+      STATUS = WCSPTD (WCS, WCS_PV, UNDEFINED, PVI(3), PVM(3))
+d292 1
+a292 1
+         STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d295 1
+a295 1
+            STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+d298 3
+a300 3
+         STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+         STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+         STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d303 2
+a304 2
+      STATUS = WCSPTD (WCS, WCS_LONPOLE, LONPOLE, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_LATPOLE, LATPOLE, 0, 0)
+d306 2
+a307 2
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d310 1
+a310 1
+         STATUS = WCSPTD (WCS, WCS_PV, PV(K), PVI(K), PVM(K))
+d344 1
+a344 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+d350 1
+a350 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+d356 2
+a357 2
+      STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE, 2, 0)
+d363 1
+a363 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+d365 2
+a366 2
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'RA---FOO'//NULL, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'DEC--BAR'//NULL, 2, 0)
+d372 1
+a372 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, 0, 0, 0)
+d374 2
+a375 2
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'RA---TAN'//NULL, 1, 0)
+      STATUS = WCSPTC (WCS, WCS_CTYPE, 'FREQ-LOG'//NULL, 2, 0)
+d406 1
+a406 1
+        ISTAT = WCSGTI (WCS, WCS_ERR, WCSERR)
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 6.4.1.2 2019/12/31 03:29:14 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 6.2.1.2 2019/05/10 02:08:35 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.17.1.2 2018/01/10 08:26:53 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.17 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.15.1.2 2017/01/15 04:08:23 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.15 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.12.1.2 2016/01/25 05:21:36 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.12 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.1.1.2 2015/04/08 09:41:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+d325 3
+d329 1
+d354 4
+a357 3
+*     Test 4.
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'CUBEFACE', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'CUBEFACE', 2, 0)
+d362 1
+a362 1
+*     Test 5.
+d365 2
+a366 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---FOO', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'DEC--BAR', 2, 0)
+d374 2
+a375 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---TAN', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'FREQ-LOG', 2, 0)
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Bug fix in TEST_ERRORS, uncovered by -fsanitize-address (gcc 4.8), reported
+by Ole Streicher.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+a324 3
+      CHARACTER NULL*1
+      PARAMETER (NULL = CHAR(0))
+
+a325 1
+      CHARACTER CTYPE*72
+d350 3
+a352 4
+*     Test 4; CTYPE strings handled with CHARACTER*72 variable.
+      CTYPE = 'CUBEFACE'
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE, 2, 0)
+d357 1
+a357 1
+*     Test 5; CTYPE strings handled C-style, i.e. with trailing '\0'.
+d360 2
+a361 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---FOO'//NULL, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'DEC--BAR'//NULL, 2, 0)
+d369 2
+a370 2
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---TAN'//NULL, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'FREQ-LOG'//NULL, 2, 0)
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.25.1.3 2015/03/05 08:24:14 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.25 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d50 1
+a50 1
+     :          TEST_ERRORS
+d114 5
+a118 2
+      WRITE (*, 10)
+ 10   FORMAT ('Testing closure of WCSLIB world coordinate ',
+d128 2
+a129 2
+      WRITE (*, 20) TOL
+ 20   FORMAT (/,'Reporting tolerance',1PG8.1,' pixel.')
+d140 1
+a140 1
+      DO 30 K = 0, 360
+d151 1
+a151 1
+ 30   CONTINUE
+d155 1
+a155 1
+      DO 110 LAT = 90, -90, -1
+d159 1
+a159 1
+        DO 40 LNG = -180, 180
+d165 1
+a165 1
+ 40     CONTINUE
+d170 3
+a172 3
+          WRITE (*, 50) STATUS, LAT1
+ 50       FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+d178 3
+a180 3
+          WRITE (*, 60) STATUS, LAT1
+ 60       FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+d186 3
+a188 3
+          WRITE (*, 70) STATUS, LAT1
+ 70       FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+d191 1
+a191 1
+        DO 100 K = 0, 360
+d193 1
+a193 1
+          DO 80 I = 1, NAXIS
+d196 1
+a196 1
+ 80       CONTINUE
+d203 5
+a207 5
+            WRITE (*, 90) (WORLD1(I,K), I=1,NAXIS),
+     :                    (PIXEL1(I,K), I=1,NAXIS),
+     :                    (WORLD2(I,K), I=1,NAXIS),
+     :                    (PIXEL2(I,K), I=1,NAXIS)
+ 90         FORMAT (/,'Closure error:',/,
+d215 2
+a216 2
+ 100    CONTINUE
+ 110  CONTINUE
+d218 2
+a219 2
+      WRITE (*, 120) RESMAX
+ 120  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+d224 2
+a225 2
+      WRITE (*, 130)
+ 130  FORMAT (//,'IGNORE messages marked with ''OK'', they test ',
+d240 2
+a241 2
+          WRITE (*, 140) NFAIL1
+ 140      FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+d246 2
+a247 2
+          WRITE (*, 150) NFAIL2
+ 150      FORMAT ('FAIL:',I5,' error messages differ from that ',
+d251 2
+a252 2
+        WRITE (*, 160)
+ 160    FORMAT (/,'PASS: All closure residuals are within reporting ',
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Exercise WCSLIB_VERSION.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.25.1.2 2015/01/06 01:02:37 mcalabre Exp mcalabre $
+d50 1
+a50 1
+     :          TEST_ERRORS, VERS(3)
+d114 2
+a115 5
+      WRITE (*, 10) WCSLIB_VERSION(VERS)
+ 10   FORMAT ('WCSLIB version number: ',A,/)
+
+      WRITE (*, 20)
+ 20   FORMAT ('Testing closure of WCSLIB world coordinate ',
+d125 2
+a126 2
+      WRITE (*, 30) TOL
+ 30   FORMAT (/,'Reporting tolerance',1PG8.1,' pixel.')
+d137 1
+a137 1
+      DO 40 K = 0, 360
+d148 1
+a148 1
+ 40   CONTINUE
+d152 1
+a152 1
+      DO 120 LAT = 90, -90, -1
+d156 1
+a156 1
+        DO 50 LNG = -180, 180
+d162 1
+a162 1
+ 50     CONTINUE
+d167 3
+a169 3
+          WRITE (*, 60) STATUS, LAT1
+ 60       FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d175 3
+a177 3
+          WRITE (*, 70) STATUS, LAT1
+ 70       FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d183 3
+a185 3
+          WRITE (*, 80) STATUS, LAT1
+ 80       FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 120
+d188 1
+a188 1
+        DO 110 K = 0, 360
+d190 1
+a190 1
+          DO 90 I = 1, NAXIS
+d193 1
+a193 1
+ 90       CONTINUE
+d200 5
+a204 5
+            WRITE (*, 100) (WORLD1(I,K), I=1,NAXIS),
+     :                     (PIXEL1(I,K), I=1,NAXIS),
+     :                     (WORLD2(I,K), I=1,NAXIS),
+     :                     (PIXEL2(I,K), I=1,NAXIS)
+ 100        FORMAT (/,'Closure error:',/,
+d212 2
+a213 2
+ 110    CONTINUE
+ 120  CONTINUE
+d215 2
+a216 2
+      WRITE (*, 130) RESMAX
+ 130  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+d221 2
+a222 2
+      WRITE (*, 140)
+ 140  FORMAT (//,'IGNORE messages marked with ''OK'', they test ',
+d237 2
+a238 2
+          WRITE (*, 150) NFAIL1
+ 150      FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+d243 2
+a244 2
+          WRITE (*, 160) NFAIL2
+ 160      FORMAT ('FAIL:',I5,' error messages differ from that ',
+d248 2
+a249 2
+        WRITE (*, 170)
+ 170    FORMAT (/,'PASS: All closure residuals are within reporting ',
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.20.1.2 2014/03/21 06:41:05 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.20 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.16.1.2 2013/01/29 05:11:18 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.16 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcs.f,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.14.1.1 2012/07/13 10:04:58 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcs.f,v 4.13.1.3 2012/07/13 03:41:54 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcs.f,v 4.14 2012/07/13 10:02:42 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d21 1
+a21 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d23 3
+a25 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcs.f,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+d340 1
+a340 1
+     :          'naxis must be positive (got -32)')
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Updated to reflect the changed error message from wcsini().
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+d346 1
+a346 1
+     :          'naxis must not be negative (got -32)')
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d21 7
+a27 1
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcs.f,v 4.13.1.2 2012/03/15 05:51:17 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.8.1.3 2012/01/24 05:24:12 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.8 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.8 2011/08/13 03:05:22 cal103 Exp cal103 $
+d56 4
+a59 4
+     :          TEST_ERRORS, WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY, FREQ, IMG(NELEM,0:360), LAT1, LNG1,
+     :          PHI(0:360), PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R,
+     :          RESID, RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+d62 5
+d328 5
+d334 3
+a336 2
+
+      INTEGER   CHECK_ERROR, ETEST, NFAIL, STATUS, WCS(WCSLEN)
+d390 1
+a390 2
+      INTEGER   EXSTATUS, ILEN, ISTAT, ETEST, STATUS, WCS(WCSLEN),
+     :          WCSERR(ERRLEN)
+d393 8
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@In TEST_ERRORS, forced alignment of the WCS array on a DOUBLE PRECISION
+boundary.  Failure to do this caused bus errors on a Sparc.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp $
+d56 4
+a59 4
+     :          TEST_ERRORS
+      DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT1, LNG1, PHI(0:360),
+     :          PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R, RESID,
+     :          RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+a61 5
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+d323 1
+a323 1
+      INTEGER   CHECK_ERROR, ETEST, NFAIL, STATUS
+d325 1
+a325 7
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'wcs.inc'
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+d379 2
+a380 1
+      INTEGER   EXSTATUS, ILEN, ISTAT, ETEST, STATUS, WCS(WCSLEN)
+a382 8
+*     On some systems, such as Sun Sparc, the structs MUST be aligned
+*     on a double precision boundary.  As a dummy argument, WCS should
+*     already be aligned.  WCSERR is aligned here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INTEGER   WCSERR(ERRLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCSERR,DUMMY)
+
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.8.1.2 2011/08/16 01:43:12 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.6.1.3 2011/01/27 01:19:53 cal103 Exp cal103 $
+d42 6
+d51 13
+d68 2
+a69 1
+      INTEGER   I, J, K, NAXIS, NPV, PVI(3), PVM(3)
+a109 2
+      INTEGER   NELEM
+      PARAMETER (NELEM = 9)
+d111 3
+a113 12
+      INTEGER   LAT, LATIDX, LNG, LNGIDX, SPCIDX, STAT(0:360), STATUS
+      DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT1, LNG1, PHI(0:360),
+     :          PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R, RESID,
+     :          RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+     :          WORLD2(NELEM,0:360)
+
+      INCLUDE 'wcs.inc'
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+d151 1
+d200 1
+d217 25
+a241 1
+ 120  FORMAT ('Maximum closure residual:',1P,G11.3,' pixel.')
+d243 14
+d318 104
+a421 1
+      RETURN
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Mirror changes made to twcs.c for testing wcserr.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+a41 6
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcserr.inc'
+      INCLUDE 'wcsmath.inc'
+
+a44 12
+      INTEGER   NELEM
+      PARAMETER (NELEM = 9)
+
+      INTEGER   ETEST, I, J, K, LAT, LATIDX, LNG, LNGIDX, SPCIDX,
+     :          STAT(0:360), STATUS, WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY, FREQ, IMG(NELEM,0:360), LAT1, LNG1,
+     :          PHI(0:360), PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R,
+     :          RESID, RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+     :          WORLD2(NELEM,0:360)
+
+      EQUIVALENCE (WCS,DUMMY)
+
+d49 1
+a49 2
+*     WCS header parameters.
+      INTEGER   NAXIS, NPV, PVI(3), PVM(3)
+d90 8
+d99 6
+a104 3
+*     For the wcserr tests.
+      COMMON /ERRTST/ ETEST
+      DATA ETEST /0/
+a207 18
+
+*     Test WCSERR.
+      WRITE (*, 130)
+ 130  FORMAT (//,'IGNORE messages marked with ''OK'', they test ',
+     :           'WCSERR: ')
+
+      STATUS = WCSERR_ENABLE(1)
+
+*     Test 1.
+      STATUS = WCSPUT (WCS, WCS_PV, UNDEFINED, PVI(3), PVM(3))
+      STATUS = WCSSET (WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :  'Invalid parameter value')
+
+      CALL TEST_ERRORS
+
+
+*     Clean up.
+d269 1
+a269 102
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE TEST_ERRORS
+*-----------------------------------------------------------------------
+      INCLUDE 'wcs.inc'
+
+      INTEGER   ETEST, STATUS, WCS(WCSLEN)
+
+      COMMON /ERRTST/ ETEST
+*-----------------------------------------------------------------------
+*     Test 2.
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSINI (-32, WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_MEMORY,
+     :  'naxis must be positive (got -32)')
+
+*     Test 3.
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+      status = WCSINI (1000000000, WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_MEMORY,
+     :  'Memory allocation failed')
+
+*     Test 4.
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_SUCCESS, ' ')
+
+*     Test 5.
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'CUBEFACE', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'CUBEFACE', 2, 0)
+      STATUS = WCSSET (WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :  'Multiple CUBEFACE axes (in CTYPE0 and CTYPE1)')
+
+*     Test 6.
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---FOO', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'DEC--BAR', 2, 0)
+      STATUS = WCSSET (WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :  'Unrecognized projection code (FOO in CTYPE0)')
+
+*     Test 7.
+      STATUS = WCSPUT (WCS, WCS_FLAG, 0, 0, 0)
+      STATUS = WCSINI (2, WCS)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'RA---TAN', 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CTYPE, 'FREQ-LOG', 2, 0)
+      STATUS = WCSSET (WCS)
+      CALL CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :  'Unmatched celestial axes')
+
+      STATUS = WCSFREE(WCS)
+
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE CHECK_ERROR(WCS, STATUS, EXSTATUS, EXMSG)
+*-----------------------------------------------------------------------
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcserr.inc'
+
+      INTEGER   EXSTATUS, ILEN, ISTAT, ETEST, STATUS, WCS(WCSLEN),
+     :          WCSERR(ERRLEN)
+      CHARACTER ERRMSG*(WCSERR_MSG_LENGTH), EXMSG*(*)
+
+      COMMON /ERRTST/ ETEST
+*-----------------------------------------------------------------------
+      IF (STATUS.NE.0) THEN
+        ISTAT = WCSGET (WCS, WCS_ERR, WCSERR)
+        ISTAT = WCSERR_GET (WCSERR, WCSERR_MSG, ERRMSG)
+      ELSE
+        ERRMSG = ' '
+      END IF
+
+      ETEST = ETEST + 1
+      WRITE (*, 10) ETEST
+ 10   FORMAT (/,'Test ',I2,'...')
+
+      IF (STATUS.EQ.EXSTATUS .AND. ERRMSG.EQ.EXMSG) THEN
+        ISTAT = WCSPERR (WCS, 'OK: '//CHAR(0))
+        WRITE (*, *) '...succeeded.'
+      ELSE
+        WRITE (*, 20) EXSTATUS, EXMSG(:ILEN(EXMSG))
+ 20     FORMAT ('Expected error ',I2,': ''',A,''', got')
+        ISTAT = WCSPERR (WCS, CHAR(0))
+        WRITE (*, *) '...failed.'
+      END IF
+
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION ILEN(STRING)
+*-----------------------------------------------------------------------
+      CHARACTER STRING*(*)
+*-----------------------------------------------------------------------
+      DO 10 ILEN = LEN(STRING), 1, -1
+        IF (STRING(ILEN:ILEN).NE. ' ') RETURN
+ 10   CONTINUE
+
+      ILEN = 0
+@
+
+
+4.7.1.3
+log
+@In TEST_ERRORS, FITS axis numbers are now correctly reported as
+1-relative.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.2 2011/08/09 03:11:58 cal103 Exp cal103 $
+d328 1
+a328 1
+     :  'Multiple CUBEFACE axes (in CTYPE1 and CTYPE2)')
+d337 1
+a337 1
+     :  'Unrecognized projection code (FOO in CTYPE1)')
+@
+
+
+4.7.1.4
+log
+@Removed the memory allocation test from TEST_ERRORS - it doesn't
+actually fail on Macs!
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.3 2011/08/10 07:25:19 cal103 Exp cal103 $
+d314 6
+d323 1
+a323 1
+*     Test 4.
+d330 1
+a330 1
+*     Test 5.
+d339 1
+a339 1
+*     Test 6.
+@
+
+
+4.7.1.5
+log
+@Report PASS or FAIL and the number of failures.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.4 2011/08/11 03:04:15 cal103 Exp cal103 $
+d54 2
+a55 3
+      INTEGER   ETEST, I, J, K, LAT, LATIDX, LNG, LNGIDX, NFAIL1,
+     :          NFAIL2, SPCIDX, STAT(0:360), STATUS, TEST_ERRORS,
+     :          WCS(WCSLEN)
+a149 1
+      NFAIL1 = 0
+a197 1
+            NFAIL1 = NFAIL1 + 1
+d214 1
+a214 2
+ 120  FORMAT ('WCSP2S/WCSS2P: Maximum closure residual =',1P,G8.1,
+     :        ' pixel.')
+d227 2
+a228 2
+      NFAIL2 = CHECK_ERROR (WCS, STATUS, WCSERR_BAD_PARAM,
+     :                      'Invalid parameter value')
+d230 1
+a230 20
+      NFAIL2 = NFAIL2 + TEST_ERRORS()
+
+      IF (NFAIL1.NE.0 .OR. NFAIL2.NE.0) THEN
+        IF (NfAIL1.NE.0) THEN
+          WRITE (*, 140) NFAIL1
+ 140      FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+     :      'tolerance.')
+        END IF
+
+        IF (NFAIL2.NE.0) THEN
+          WRITE (*, 150) NFAIL2
+ 150      FORMAT ('FAIL:',I5,' error messages differ from that ',
+     :      'expected.')
+        END IF
+      ELSE
+        WRITE (*, 160)
+ 160    FORMAT (/,'PASS: All closure residuals are within reporting ',
+     :    'tolerance.',/,'PASS: All error messages reported as ',
+     :    'expected.')
+      END IF
+d298 1
+a298 1
+      INTEGER FUNCTION TEST_ERRORS
+d302 1
+a302 1
+      INTEGER   ETEST, NFAIL, STATUS, WCS(WCSLEN)
+a305 2
+      NFAIL = 0
+
+d309 2
+a310 2
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_MEMORY,
+     :          'naxis must be positive (got -32)')
+d315 1
+a315 1
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_SUCCESS, ' ')
+d321 2
+a322 2
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Multiple CUBEFACE axes (in CTYPE1 and CTYPE2)')
+d330 2
+a331 2
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Unrecognized projection code (FOO in CTYPE1)')
+d339 2
+a340 2
+      NFAIL = NFAIL + CHECK_ERROR (WCS, STATUS, WCSERR_BAD_CTYPE,
+     :          'Unmatched celestial axes')
+a343 2
+      TEST_ERRORS = NFAIL
+
+d347 1
+a347 1
+      INTEGER FUNCTION CHECK_ERROR(WCS, STATUS, EXSTATUS, EXMSG)
+a371 1
+        CHECK_ERROR = 0
+a376 1
+        CHECK_ERROR = 1
+@
+
+
+4.7.1.6
+log
+@Declared CHECK_ERROR.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.5 2011/08/12 02:56:46 cal103 Exp cal103 $
+d54 3
+a56 3
+      INTEGER   CHECK_ERROR, ETEST, I, J, K, LAT, LATIDX, LNG, LNGIDX,
+     :          NFAIL1, NFAIL2, SPCIDX, STAT(0:360), STATUS,
+     :          TEST_ERRORS, WCS(WCSLEN)
+d325 1
+a325 1
+      INTEGER   CHECK_ERROR, ETEST, NFAIL, STATUS, WCS(WCSLEN)
+@
+
+
+4.7.1.7
+log
+@Call FLUSH so that Fortran output is synchronized with that from the C
+functions that use printf().
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.6 2011/08/12 04:48:02 cal103 Exp cal103 $
+d237 1
+a237 1
+        IF (NFAIL1.NE.0) THEN
+a396 1
+        CALL FLUSH(6)
+a402 1
+        CALL FLUSH(6)
+@
+
+
+4.7.1.8
+log
+@Syntactic sugar that seems to be required by gfortran 4.3.2 - it doesn't
+recognize a FUNCTION statement lacking parentheses.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.7.1.7 2011/08/12 08:34:26 cal103 Exp cal103 $
+d321 1
+a321 1
+      INTEGER FUNCTION TEST_ERRORS()
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.6 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d103 2
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp $
+@
+
+
+4.6.1.3
+log
+@Use an EQUIVALENCE to ensure that the WCS array is aligned on a
+DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.6.1.2 2011/01/14 06:38:43 cal103 Exp cal103 $
+a102 2
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcs.f,v 4.4.1.2 2010/01/19 03:44:57 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.3.1.3 2009/08/06 02:50:21 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.4 2009/08/06 07:52:43 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcs.f,v 4.4.1.1 2009/08/10 08:55:07 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+*   This file is part of WCSLIB.
+d8 4
+a11 4
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 4
+a16 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d18 2
+a19 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+d29 3
+a31 3
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: twcs.f,v 4.2.1.4 2007/12/03 05:37:50 cal103 Exp cal103 $
+d37 3
+a39 3
+*   TWCS1 tests WCSS2P and WCSP2S for closure on an oblique 2-D slice
+*   through a 4-D image with celestial, spectral and logarithmic
+*   coordinate axes.
+d128 4
+a131 4
+         WORLD1(1,K) = 0D0
+         WORLD1(2,K) = 0D0
+         WORLD1(3,K) = 0D0
+         WORLD1(4,K) = 0D0
+d133 2
+a134 2
+         WORLD1(3,K) = TIME
+         TIME = 1.01D0 * TIME
+d136 2
+a137 2
+         WORLD1(SPCIDX,K) = 2.99792458D8 / FREQ
+         FREQ = FREQ + 62500D0
+d142 1
+a142 1
+         LAT1 = DBLE(LAT)
+d144 54
+a197 54
+         K = 0
+         DO 40 LNG = -180, 180
+            LNG1 = DBLE(LNG)
+
+            WORLD1(LNGIDX,K) = LNG1
+            WORLD1(LATIDX,K) = LAT1
+            K = K + 1
+ 40      CONTINUE
+
+         STATUS = WCSS2P (WCS, 361, NELEM, WORLD1, PHI, THETA, IMG,
+     :                    PIXEL1, STAT)
+         IF (STATUS.NE.0) THEN
+            WRITE (*, 50) STATUS, LAT1
+ 50         FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+            GO TO 110
+         END IF
+
+         STATUS = WCSP2S (WCS, 361, NELEM, PIXEL1, IMG, PHI, THETA,
+     :                    WORLD2, STAT)
+         IF (STATUS.NE.0) THEN
+            WRITE (*, 60) STATUS, LAT1
+ 60         FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+            GO TO 110
+         END IF
+
+         STATUS = WCSS2P (WCS, 361, NELEM, WORLD2, PHI, THETA, IMG,
+     :                    PIXEL2, STAT)
+         IF (STATUS.NE.0) THEN
+            WRITE (*, 70) STATUS, LAT1
+ 70         FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+            GO TO 110
+         END IF
+
+         DO 100 K = 0, 360
+            RESID = 0D0
+            DO 80 I = 1, NAXIS
+               R = PIXEL2(I,K) - PIXEL1(I,K)
+               RESID = RESID + R*R
+ 80         CONTINUE
+
+            RESID = SQRT(RESID)
+            IF (RESID.GT.RESMAX) RESMAX = RESID
+
+            IF (RESID.GT.TOL) THEN
+               WRITE (*, 90) (WORLD1(I,K), I=1,NAXIS),
+     :                       (PIXEL1(I,K), I=1,NAXIS),
+     :                       (WORLD2(I,K), I=1,NAXIS),
+     :                       (PIXEL2(I,K), I=1,NAXIS)
+ 90            FORMAT (/,'Closure error:',/,
+     :                   'world1:',4F18.12,/,
+     :                   'pixel1:',4F18.12,/,
+     :                   'world2:',4F18.12,/,
+     :                   'pixel2:',4F18.12)
+            END IF
+d199 2
+a200 2
+            LNG1 = LNG1 + 1D0
+ 100     CONTINUE
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+*   $Id: twcs.f,v 4.3 2007/12/27 05:42:52 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+* This file is part of WCSLIB.
+d8 4
+a11 4
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+d13 4
+a16 4
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+d18 2
+a19 2
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcs.f,v 4.3.1.1 2007/12/27 13:25:35 cal103 Exp cal103 $
+d37 3
+a39 3
+* TWCS1 tests WCSS2P and WCSP2S for closure on an oblique 2-D slice
+* through a 4-D image with celestial, spectral and logarithmic
+* coordinate axes.
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d31 1
+a31 1
+* $Id: twcs.f,v 4.3.1.2 2009/07/22 07:28:07 cal103 Exp cal103 $
+d128 4
+a131 4
+        WORLD1(1,K) = 0D0
+        WORLD1(2,K) = 0D0
+        WORLD1(3,K) = 0D0
+        WORLD1(4,K) = 0D0
+d133 2
+a134 2
+        WORLD1(3,K) = TIME
+        TIME = 1.01D0 * TIME
+d136 2
+a137 2
+        WORLD1(SPCIDX,K) = 2.99792458D8 / FREQ
+        FREQ = FREQ + 62500D0
+d142 1
+a142 1
+        LAT1 = DBLE(LAT)
+d144 54
+a197 54
+        K = 0
+        DO 40 LNG = -180, 180
+          LNG1 = DBLE(LNG)
+
+          WORLD1(LNGIDX,K) = LNG1
+          WORLD1(LATIDX,K) = LAT1
+          K = K + 1
+ 40     CONTINUE
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD1, PHI, THETA, IMG,
+     :                   PIXEL1, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 50) STATUS, LAT1
+ 50       FORMAT (3X,'WCSS2P(1) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+        END IF
+
+        STATUS = WCSP2S (WCS, 361, NELEM, PIXEL1, IMG, PHI, THETA,
+     :                   WORLD2, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 60) STATUS, LAT1
+ 60       FORMAT (3X,'WCSP2S ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+        END IF
+
+        STATUS = WCSS2P (WCS, 361, NELEM, WORLD2, PHI, THETA, IMG,
+     :                   PIXEL2, STAT)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 70) STATUS, LAT1
+ 70       FORMAT (3X,'WCSS2P(2) ERROR',I3,' (LAT1 =',F20.15, ')')
+          GO TO 110
+        END IF
+
+        DO 100 K = 0, 360
+          RESID = 0D0
+          DO 80 I = 1, NAXIS
+            R = PIXEL2(I,K) - PIXEL1(I,K)
+            RESID = RESID + R*R
+ 80       CONTINUE
+
+          RESID = SQRT(RESID)
+          IF (RESID.GT.RESMAX) RESMAX = RESID
+
+          IF (RESID.GT.TOL) THEN
+            WRITE (*, 90) (WORLD1(I,K), I=1,NAXIS),
+     :                    (PIXEL1(I,K), I=1,NAXIS),
+     :                    (WORLD2(I,K), I=1,NAXIS),
+     :                    (PIXEL2(I,K), I=1,NAXIS)
+ 90         FORMAT (/,'Closure error:',/,
+     :                'world1:',4F18.12,/,
+     :                'pixel1:',4F18.12,/,
+     :                'world2:',4F18.12,/,
+     :                'pixel2:',4F18.12)
+          END IF
+d199 2
+a200 2
+          LNG1 = LNG1 + 1D0
+ 100    CONTINUE
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; removed comment
+on catching IEEE floating point exceptions with the Sun Fortran compiler.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d6 1
+a6 4
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+d8 4
+a11 4
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+d13 7
+a19 3
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d31 1
+a31 1
+*   $Id: twcs.f,v 4.1 2005/08/26 13:56:46 cal103 Exp cal103 $
+d77 1
+a77 1
+*     Set PVi_m cards for the longitude axis (I = 4).  For test
+d86 1
+a86 1
+*     PVi_m cards for the latitude axis (I = 2).
+d94 4
+a97 4
+      DOUBLE PRECISION DLAT, DLNG, FREQ, IMG(NELEM,0:360), LAT1, LNG1,
+     :          PHI(0:360), PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360),
+     :          R, RESID, RESMAX, THETA(0:360), TIME,
+     :          WORLD1(NELEM,0:360), WORLD2(NELEM,0:360)
+d214 3
+a216 3
+* the NAXIS card which must occur near the start of the header, before
+* any of the WCS keywords.  It would then use WCSINI to allocate memory
+* for arrays in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcs.f,v 4.2 2005/09/21 13:37:53 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Removed a couple of unused variables.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: twcs.f,v 4.2.1.1 2005/12/05 01:37:43 cal103 Exp cal103 $
+d93 4
+a96 4
+      DOUBLE PRECISION FREQ, IMG(NELEM,0:360), LAT1, LNG1, PHI(0:360),
+     :          PIXEL1(NELEM,0:360), PIXEL2(NELEM,0:360), R, RESID,
+     :          RESMAX, THETA(0:360), TIME, WORLD1(NELEM,0:360),
+     :          WORLD2(NELEM,0:360)
+@
+
+
+4.2.1.3
+log
+@Fixed long lines in the GNU copyright notice.
+Replaced use of the obsolete term "card".
+@
+text
+@d6 4
+a9 4
+*   WCSLIB is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with WCSLIB; if not, write to the Free Software Foundation,
+*   Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d30 1
+a30 1
+*   $Id: twcs.f,v 4.2.1.2 2007/06/29 06:54:29 cal103 Exp cal103 $
+d76 1
+a76 1
+*     Set PVi_m keyvalues for the longitude axis (I = 4).  For test
+d85 1
+a85 1
+*     PVi_m keyvalues for the latitude axis (I = 2).
+d213 3
+a215 3
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.4
+log
+@Switched to LGPL 3.0.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d6 4
+a9 6
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 2
+a14 2
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d16 3
+a18 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d30 1
+a30 1
+*   $Id: twcs.f,v 4.2.1.3 2007/08/02 06:43:42 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: substantially changed this from testing closure on the 1 degree
+celestial graticule for a number of selected projections to testing closure
+for an oblique 2-D slice through a 4-D image with celestial, spectral and
+logarithmic coordinate axes; check for anomalies when reporting struct sizes.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcs.f,v 4.0 2005/02/04 12:46:04 cal103 Exp cal103 $
+a102 6
+*     Uncomment the following two lines to raise SIGFPE on floating
+*     point exceptions for the Sun FORTRAN compiler.  This signal can
+*     be caught within 'dbx' by issuing the command "catch FPE".
+*#include <floatingpoint.h>
+*     call ieee_handler ('set', 'common', SIGFPE_ABORT)
+
+d104 4
+a107 4
+ 10   FORMAT (/,'Testing closure of WCSLIB world coordinate ',
+     :          'transformation routines',/,
+     :          '-------------------------------------------',
+     :          '-----------------------')
+a206 2
+
+      RETURN
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcs.f,v 3.6 2004/08/25 06:35:34 cal103 Exp cal103 $
+d33 1
+a33 1
+      PROGRAM TWCS1
+d36 3
+a38 2
+*   TWCS1 tests WCSS2P and WCSP2S for closure on the 1 degree celestial
+*   graticule for a number of selected projections.
+d41 3
+d48 1
+a48 1
+      INTEGER   I, J, K, NAXIS, NPV, PVI(4), PVM(4)
+d50 1
+a50 1
+     :          PC(N,N), PV(4), RESTFRQ, RESTWAV
+a52 3
+      DOUBLE PRECISION TOL
+      PARAMETER (TOL = 1D-9)
+
+d66 1
+a66 1
+     :             /-9.635265432D-6, 1D0, 1D0, -1D0/
+d68 1
+a68 1
+     :           /'WAVE-F2W', 'XLAT-xxx ', 'TIME    ', 'XLON-xxx '/
+d70 1
+a70 1
+     :             /0.214982042D0, -30D0, -2D3, 150D0/
+d76 5
+a80 5
+*     Set PVi_m cards for the longitude axis (I = 4) so that the
+*     fiducial native coordinates are at the native pole, i.e.
+*     (phi0,theta0) = (0,90), but without any fiducial offset.  We do
+*     this as a test, and also so that all projections will be
+*     exercised with the same obliquity parameters.
+d85 17
+a101 5
+*     PVi_m cards for the latitude axis (I = 2).  Value may be reset
+*     below.
+      DATA (PVI(K), PVM(K), PV(K), K=3,4)
+     :             /2, 1, 0D0,
+     :              2, 2, 0D0/
+a115 125
+*     ARC: zenithal/azimuthal equidistant.
+      CTYPE(2)(6:8) = 'ARC'
+      CTYPE(4)(6:8) = 'ARC'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     ZEA: zenithal/azimuthal equal area.
+      CTYPE(2)(6:8) = 'ZEA'
+      CTYPE(4)(6:8) = 'ZEA'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     CYP: cylindrical perspective.
+      CTYPE(2)(6:8) = 'CYP'
+      CTYPE(4)(6:8) = 'CYP'
+      NPV = 4
+      PV(3) = 3D0
+      PV(4) = 0.8D0
+      CALL WCSEX (TOL)
+
+*     CEA: cylindrical equal area.
+      CTYPE(2)(6:8) = 'CEA'
+      CTYPE(4)(6:8) = 'CEA'
+      NPV = 3
+      PV(3) = 0.75D0
+      CALL WCSEX (TOL)
+
+*     CAR: plate carree.
+      CTYPE(2)(6:8) = 'CAR'
+      CTYPE(4)(6:8) = 'CAR'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     SFL: Sanson-Flamsteed.
+      CTYPE(2)(6:8) = 'SFL'
+      CTYPE(4)(6:8) = 'SFL'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     PAR: parabolic.
+      CTYPE(2)(6:8) = 'PAR'
+      CTYPE(4)(6:8) = 'PAR'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     MOL: Mollweide's projection.
+      CTYPE(2)(6:8) = 'MOL'
+      CTYPE(4)(6:8) = 'MOL'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     AIT: Hammer-Aitoff.
+      CTYPE(2)(6:8) = 'AIT'
+      CTYPE(4)(6:8) = 'AIT'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     COE: conic equal area.
+      CTYPE(2)(6:8) = 'COE'
+      CTYPE(4)(6:8) = 'COE'
+      NPV = 4
+      PV(3) = 60D0
+      PV(4) = 15D0
+      CALL WCSEX (TOL)
+
+*     COD: conic equidistant.
+      CTYPE(2)(6:8) = 'COD'
+      CTYPE(4)(6:8) = 'COD'
+      NPV = 4
+      PV(3) = 60D0
+      PV(4) = 15D0
+      CALL WCSEX (TOL)
+
+*     BON: Bonne's projection.
+      CTYPE(2)(6:8) = 'BON'
+      CTYPE(4)(6:8) = 'BON'
+      NPV = 3
+      PV(3) = 30D0
+      CALL WCSEX (TOL)
+
+*     PCO: polyconic.
+      CTYPE(2)(6:8) = 'PCO'
+      CTYPE(4)(6:8) = 'PCO'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     TSC: tangential spherical cube.
+      CTYPE(2)(6:8) = 'TSC'
+      CTYPE(4)(6:8) = 'TSC'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+*     QSC: quadrilateralized spherical cube.
+      CTYPE(1) = 'CUBEFACE'
+      CTYPE(2)(6:8) = 'QSC'
+      CTYPE(4)(6:8) = 'QSC'
+      NPV = 2
+      CALL WCSEX (TOL)
+
+      END
+
+
+*-----------------------------------------------------------------------
+      SUBROUTINE WCSEX (TOL)
+*-----------------------------------------------------------------------
+*   WCSEX tests closure of WCSS2P and WCSP2S.
+*
+*   Given:
+*      TOL      D        Reporting tolerance, degrees.
+*-----------------------------------------------------------------------
+      INTEGER   NELEM
+      PARAMETER (NELEM = 9)
+
+      INTEGER   K, LAT, LATIDX, LNGIDX, SPCIDX, STAT(0:360), STATUS
+      DOUBLE PRECISION DLAT, DLATMX, DLNG, DLNGMX, FREQ,
+     :          IMG1(NELEM,0:360), IMG2(NELEM,0:360), LAT1, LNG1,
+     :          PHI1(0:360), PHI2(0:360), PIX(NELEM,0:360),
+     :          THETA1(0:360), THETA2(0:360), TOL, WORLD(NELEM,0:360)
+      CHARACTER PCODE*3
+
+      INCLUDE 'wcs.inc'
+      INCLUDE 'cel.inc'
+      INCLUDE 'prj.inc'
+      INTEGER   CEL(CELLEN), PRJ(PRJLEN), WCS(WCSLEN)
+*-----------------------------------------------------------------------
+d120 2
+a121 5
+      STATUS = WCSGET (WCS, WCS_CEL, CEL)
+      STATUS = CELGET (CEL, CEL_PRJ, PRJ)
+      STATUS = PRJGET (PRJ, PRJ_CODE, PCODE)
+      WRITE (*, 10) PCODE, TOL
+ 10   FORMAT (/,'Testing ',A,'; reporting tolerance',1PG8.1,' deg.')
+d130 1
+d132 8
+a139 5
+      DO 20 K = 0, 360
+         WORLD(1,K) = 0D0
+         WORLD(2,K) = 0D0
+         WORLD(3,K) = 0D0
+         WORLD(4,K) = 0D0
+d141 1
+a141 1
+         WORLD(SPCIDX,K) = 2.99792458D8 / FREQ
+d143 1
+a143 1
+ 20   CONTINUE
+d145 2
+a146 3
+      DLNGMX = 0D0
+      DLATMX = 0D0
+      DO 100 LAT = 90, -90, -1
+d149 16
+a164 6
+         LNG1 = -180D0
+         DO 30 K = 0, 360
+            WORLD(LNGIDX,K) = LNG1
+            WORLD(LATIDX,K) = LAT1
+            LNG1 = LNG1 + 1D0
+ 30      CONTINUE
+d166 2
+a167 2
+         STATUS = WCSS2P (WCS, 361, NELEM, WORLD, PHI1, THETA1, IMG1,
+     :                    PIX, STAT)
+d169 3
+a171 3
+            WRITE (*, 40) PCODE, LAT1, STATUS
+ 40         FORMAT (3X,A3,': LAT1 =',F20.15, '  ERROR',I3)
+            GO TO 100
+d174 2
+a175 2
+         STATUS = WCSP2S (WCS, 361, NELEM, PIX, IMG2, PHI2, THETA2,
+     :                    WORLD, STAT)
+d177 3
+a179 3
+            WRITE (*, 50) PCODE, LAT1, STATUS
+ 50         FORMAT (3X,A3,': LAT1 =',F20.15,/, '  ERROR',I3)
+            GO TO 100
+d182 20
+a201 22
+         LNG1 = -180D0
+         DO 90 K = 0, 360
+            DLNG = ABS(WORLD(LNGIDX,K) - LNG1)
+            IF (DLNG.GT.180D0) DLNG = ABS(DLNG - 360D0)
+            IF (ABS(LAT).NE.90 .AND. DLNG.GT.DLNGMX) DLNGMX = DLNG
+
+            DLAT = ABS(WORLD(LATIDX,K) - LAT1)
+            IF (DLAT.GT.DLATMX) DLATMX = DLAT
+
+            IF (DLAT.GT.TOL .OR.
+     :         (DLNG.GT.TOL .AND. ABS(LAT).NE.90)) THEN
+               WRITE (*, 60) PCODE, LNG1, LAT1, WORLD(LNGIDX,K),
+     :            WORLD(LATIDX,K)
+ 60            FORMAT (8X,A3,': LNG1 =',F20.15,'    LAT1 =',F20.15,/,
+     :                 8X,'     LNG2 =',F20.15,'    LAT2 =',F20.15)
+               WRITE (*, 70) PHI1(K), THETA1(K), PHI2(K), THETA2(K)
+ 70            FORMAT (8X,'     PHI1 =',F20.15,'  THETA1 =',F20.15,/,
+     :                 8X,'     PHI2 =',F20.15,'  THETA2 =',F20.15)
+               WRITE (*, 80) IMG1(LNGIDX,K), IMG1(LATIDX,K),
+     :                       IMG2(LNGIDX,K), IMG2(LATIDX,K)
+ 80            FORMAT (8X,'       X1 =',F20.15,'      Y1 =',F20.15,/,
+     :                 8X,'       X2 =',F20.15,'      Y2 =',F20.15)
+d205 2
+a206 2
+ 90      CONTINUE
+ 100  CONTINUE
+d208 2
+a209 3
+      WRITE (*, 110) DLNGMX, DLATMX
+ 110  FORMAT ('     Maximum closure residual: lng',1P,G10.3,'   lat',
+     :        G10.3)
+d232 1
+a232 1
+      INTEGER   I, J, K, NAXIS, NPV, PVI(4), PVM(4), STATUS, WCS(*)
+d234 1
+a234 1
+     :          PC(N,N), PV(4), RESTFRQ, RESTWAV
+@
+
+
+3.6
+log
+@WCSLIB 3.6: changed "WRITE (6, ...)" to "WRITE (*, ...)" as being standard
+FORTRAN and notionally more portable; in error messages, print "ERROR"
+(in uppercase) - POSIX standard.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with this library; if not, write to the Free Software
+*   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: twcs1.f,v 3.5 2004/06/28 04:52:24 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcs1.f,v 3.4 2004/02/11 00:04:18 mcalabre Exp mcalabre $
+d96 1
+a96 1
+      WRITE (6, 10)
+d235 1
+a235 1
+      WRITE (6, 10) PCODE, TOL
+d271 2
+a272 2
+            WRITE (6, 40) PCODE, LAT1, STATUS
+ 40         FORMAT (3X,A3,': LAT1 =',F20.15, '  error',I3)
+d279 2
+a280 2
+            WRITE (6, 50) PCODE, LAT1, STATUS
+ 50         FORMAT (3X,A3,': LAT1 =',F20.15,/, '  error',I3)
+d295 1
+a295 1
+               WRITE (6, 60) PCODE, LNG1, LAT1, WORLD(LNGIDX,K),
+d299 1
+a299 1
+               WRITE (6, 70) PHI1(K), THETA1(K), PHI2(K), THETA2(K)
+d302 1
+a302 1
+               WRITE (6, 80) IMG1(LNGIDX,K), IMG1(LATIDX,K),
+d312 1
+a312 1
+      WRITE (6, 110) DLNGMX, DLATMX
+d375 2
+a376 2
+         WRITE (6, 40) STATUS
+ 40      FORMAT ('WCSSET error',I3)
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+d32 1
+a38 1
+*   $Id: twcs1.f,v 3.3 2003/10/21 08:36:48 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3: check the error status returned by WCSSET in PARSER.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 3.2 2003/09/09 05:38:38 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: set WCS_FLAG = -1 to initialize memory management in WCSINI.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d35 1
+a35 1
+*   $Id: twcs1.f,v 3.1 2003/04/28 04:48:53 mcalabre Exp mcalabre $
+d54 1
+a54 1
+      DATA (CRPIX(I), I=1,N)
+d127 1
+a127 1
+*     CAR: Cartesian.
+d371 4
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d35 1
+a35 1
+*   $Id: twcs1.f,v 3.0 2003/04/01 05:10:21 mcalabre Exp mcalabre $
+d226 1
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.10 2002/04/03 01:24:44 mcalabre Exp $
+@
+
+
+2.10
+log
+@Updated date in copyright notice.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+d11 2
+a12 2
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+d14 1
+a14 1
+*   Library General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d32 2
+a33 2
+*   TWCS1 tests WCSFWD and WCSREV for closure on the 1 degree celestial
+*   grid for a number of selected projections.
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.9 2001/09/05 05:11:03 mcalabre Exp mcalabre $
+d37 8
+a44 12
+*     Set maximum number of axes (MAXIS) and number of axes (NAXIS).
+      INTEGER   M, N
+      PARAMETER (M = 10, N = 4)
+
+*     Force alignment.
+      COMMON /DUMMY/ LIN, MAXIS, NAXIS, CRPIX, PC, CDELT, PIXIMG, IMGPIX
+
+      INTEGER   I, IERR, J
+      DOUBLE PRECISION CDELT(M), CRPIX(M), CRVAL(M), CEL0(10), CELC(10),
+     *          CELP(10), IMGPIX(M,M), LATC, LIN, MAXIS, NAXIS,
+     *          PC(M,M), PIXIMG(M,M), PRJ(0:20)
+      CHARACTER CTYPE(M)*8
+d49 5
+a53 2
+      DATA (CTYPE(I), I=1,N)
+     *           /'FREQ    ', 'XLAT--xxx', 'TIME    ', 'XLON--xxx'/
+d55 6
+a60 6
+     *           / 0.0D0,  0.0D0,  0.0D0,  0.0D0/
+      DATA ((PC(I,J),I=1,N),J=1,N)
+     *           / 1.1D0,    0D0,    0D0,    0D0,
+     *               0D0,  1.0D0,    0D0,  0.1D0,
+     *               0D0,    0D0,  1.0D0,    0D0,
+     *               0D0,  0.2D0,    0D0,  1.0D0/
+d62 3
+a64 1
+     *           / 1.0D0,  1.0D0,  1.0D0, -1.0D0/
+d66 20
+a85 1
+     *           / 408D6,  0.0D0,   -2D3,  0.0D0/
+d93 5
+a97 40
+      WRITE (6, 5)
+ 5    FORMAT (/,'Testing closure of WCSLIB world coordinate ',
+     *          'transformation routines',/,
+     *          '-------------------------------------------',
+     *          '-----------------------')
+
+      LIN   = 0D0
+      MAXIS = DBLE(M)
+      NAXIS = DBLE(N)
+
+      DO 10 J = 0, 20
+         PRJ(J) = 0D0
+ 10   CONTINUE
+
+*     Latitude midway between the standard parallels for the conics.
+      LATC = 60D0
+
+*     Set reference angles for the celestial grids; polar projections...
+      CELP(1) = 150D0
+      CELP(2) = -30D0
+      CELP(3) = 150D0
+      CELP(4) = 999D0
+
+*     Force CELP to be initialized since we want to use it now.
+      CELP(5) = 0D0
+      CALL CELSET ('ARC', CELP, PRJ, IERR)
+
+*     Compute reference angles for the cylindrical and conic projections
+*     so that they all use the same oblique celestial grid regardless of
+*     the reference point; conic projections...
+      CALL SPHREV (0D0, LATC, CELP(6), CELC(1), CELC(2), IERR)
+      CALL SPHFWD (0D0, 90D0, CELP(6), CELC(3), CELC(4), IERR)
+
+*     ...cylindrical and conventional projections.
+      CALL SPHREV (0D0,  0D0, CELP(6), CEL0(1), CEL0(2), IERR)
+      CALL SPHFWD (0D0, 90D0, CELP(6), CEL0(3), CEL0(4), IERR)
+
+*     Note that we have 3 contexts (CELP, CELC, and CEL0).  WCSEX will
+*     force these to be initialized on every invokation since PCODE will
+*     differ each time.
+d99 1
+d103 2
+a104 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CELP, PRJ, LIN)
+d109 2
+a110 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CELP, PRJ, LIN)
+d115 4
+a118 3
+      PRJ(1) = 3D0
+      PRJ(2) = 0.8D0
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d123 3
+a125 2
+      PRJ(1) = 0.75D0
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d130 2
+a131 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d136 2
+a137 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d142 2
+a143 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d148 2
+a149 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d154 2
+a155 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d160 4
+a163 3
+      PRJ(1) = LATC
+      PRJ(2) = 15D0
+      CALL WCSEX (TOL, CTYPE, CRVAL, CELC, PRJ, LIN)
+d168 4
+a171 3
+      PRJ(1) = LATC
+      PRJ(2) = 15D0
+      CALL WCSEX (TOL, CTYPE, CRVAL, CELC, PRJ, LIN)
+d176 3
+a178 2
+      PRJ(1) = 30D0
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d183 2
+a184 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d189 2
+a190 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d196 2
+a197 1
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+d202 2
+a203 1
+      SUBROUTINE WCSEX (TOL, CTYPE, CRVAL, CEL, PRJ, LIN)
+d205 1
+a205 1
+*   WCSEX tests closure of WCSFWD and WCSREV.
+d209 3
+a211 18
+*      CTYPE    C()*8    Coordinate axis types.
+*      CRVAL    D()      Coordinate reference values.
+*
+*   Given and returned:
+*      CEL      D(10)    Coordinate transformation parameters.
+*      PRJ      D(0:20)  Projection parameters.
+*      LIN      D()      Linear transformation parameters.
+*-----------------------------------------------------------------------
+      INTEGER   IERR, J, LAT, LNG, WCS(0:3)
+      DOUBLE PRECISION CEL(10), CRVAL(*), DLAT, DLATMX, DLNG, DLNGMX,
+     *          IMG1(4), IMG2(4), LAT1, LIN(*), LNG1, PHI1, PHI2,
+     *          PIX(4), PRJ(0:20), THETA1, THETA2, TOL, WORLD(4)
+      CHARACTER CTYPE(*)*8, PCODE*3
+*-----------------------------------------------------------------------
+      WCS(0)  = 0
+      CEL(5)  = 0D0
+      PRJ(10) = 0D0
+      PRJ(11) = 0D0
+d213 14
+a226 2
+      DLNGMX = 0D0
+      DLATMX = 0D0
+d228 3
+a230 4
+*     Find the projection code.
+      CALL WCSSET (NINT(LIN(3)), CTYPE, WCS, IERR)
+      PCODE = CTYPE(WCS(1))(6:8)
+
+a233 2
+      DO 80 LAT = 90, -90, -1
+         LAT1 = DBLE(LAT)
+d235 16
+a250 2
+         DO 70 LNG = -180, 180
+            LNG1 = DBLE(LNG)
+d252 4
+a255 15
+            WORLD(1) = 0D0
+            WORLD(2) = 0D0
+            WORLD(3) = 0D0
+            WORLD(4) = 0D0
+            WORLD(WCS(1)) = LNG1
+            WORLD(WCS(2)) = LAT1
+
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI1, THETA1,
+     *         PRJ, IMG1, LIN, PIX, IERR)
+            IF (IERR.NE.0) THEN
+               WRITE (6, 20) PCODE, LNG1, LAT1, IERR
+ 20            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+     *            '  error',I3)
+               GO TO 70
+            END IF
+d257 28
+a284 8
+            CALL WCSREV (CTYPE, WCS, PIX, LIN, IMG2, PRJ, PHI2, THETA2,
+     *         CRVAL, CEL, WORLD, IERR)
+            IF (IERR.NE.0) THEN
+               WRITE (6, 30) PCODE, LNG1, LAT1, IERR
+ 30            FORMAT (8X,A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 '  Error',I3)
+               GO TO 70
+            END IF
+d286 1
+a286 4
+            DLNG = ABS(WORLD(WCS(1))-LNG1)
+            IF (DLNG.GT.180D0) DLNG = ABS(DLNG-360D0)
+            IF (ABS(LAT).NE.90 .AND. DLNG.GT.DLNGMX) DLNGMX = DLNG
+            DLAT = ABS(WORLD(WCS(2))-LAT1)
+d290 12
+a301 12
+     *         (DLNG.GT.TOL .AND. ABS(LAT).NE.90)) THEN
+               WRITE (6, 40) PCODE, LNG1, LAT1, WORLD(WCS(1)),
+     *            WORLD(WCS(2))
+ 40            FORMAT (8X,A3,': LNG1 =',F20.15,'    LAT1 =',F20.15,/,
+     *                 8X,'     LNG2 =',F20.15,'    LAT2 =',F20.15)
+               WRITE (6, 50) PHI1, THETA1, PHI2, THETA2
+ 50            FORMAT (8X,'     PHI1 =',F20.15,'  THETA1 =',F20.15,/,
+     *                 8X,'     PHI2 =',F20.15,'  THETA2 =',F20.15)
+               WRITE (6, 60) IMG1(WCS(1)), IMG1(WCS(2)), IMG2(WCS(1)),
+     *                       IMG2(WCS(2))
+ 60            FORMAT (8X,'       X1 =',F20.15,'    Y1 =',F20.15,/,
+     *                 8X,'       X2 =',F20.15,'    Y2 =',F20.15)
+a302 2
+ 70      CONTINUE
+ 80   CONTINUE
+d304 48
+a351 2
+      WRITE (6, 90) DLNGMX, DLATMX
+ 90   FORMAT (13X,'Maximum residual (sky): LNG',1P,G10.3,'   LAT',G10.3)
+d353 4
+d358 12
+a369 3
+      DO 100 J = 0, 20
+         PRJ(J) = 0D0
+ 100  CONTINUE
+@
+
+
+2.9
+log
+@Transferred the CUBEFACE axis from TSC to QSC.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.8 2000/12/04 05:14:00 mcalabre Exp mcalabre $
+@
+
+
+2.8
+log
+@Renamed "GLS" -> "SFL"; reordered projections to match paper.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.7 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+a187 1
+      CTYPE(1) = 'CUBEFACE'
+d193 1
+@
+
+
+2.7
+log
+@Updated date in copyright notice.
+@
+text
+@d35 1
+a35 1
+*   $Id: twcs1.f,v 2.6 1999/12/13 03:39:25 mcalabre Exp mcalabre $
+d131 6
+d142 18
+a159 4
+*     CEA: cylindrical equal area.
+      CTYPE(2)(6:8) = 'CEA'
+      CTYPE(4)(6:8) = 'CEA'
+      PRJ(1) = 0.75D0
+d162 3
+a164 3
+*     COD: conic equidistant.
+      CTYPE(2)(6:8) = 'COD'
+      CTYPE(4)(6:8) = 'COD'
+d169 3
+a171 3
+*     COE: conic equal area.
+      CTYPE(2)(6:8) = 'COE'
+      CTYPE(4)(6:8) = 'COE'
+d187 4
+a190 18
+*     GLS: Sanson-Flamsteed (global sinusoid).
+      CTYPE(2)(6:8) = 'GLS'
+      CTYPE(4)(6:8) = 'GLS'
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     PAR: parabolic.
+      CTYPE(2)(6:8) = 'PAR'
+      CTYPE(4)(6:8) = 'PAR'
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     AIT: Hammer-Aitoff.
+      CTYPE(2)(6:8) = 'AIT'
+      CTYPE(4)(6:8) = 'AIT'
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     MOL: Mollweide's projection.
+      CTYPE(2)(6:8) = 'MOL'
+      CTYPE(4)(6:8) = 'MOL'
+a195 6
+      CALL WCSEX (TOL, CTYPE, CRVAL, CEL0, PRJ, LIN)
+
+*     TSC: tangential spherical cube.
+      CTYPE(1) = 'CUBEFACE'
+      CTYPE(2)(6:8) = 'TSC'
+      CTYPE(4)(6:8) = 'TSC'
+@
+
+
+2.6
+log
+@Lowered reporting tolerance to 1e-9 (was 1e-10) and report intermediate
+values for points outside this tolerance.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.5 1999/11/19 02:25:39 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Moved COMMON declaration before variable declaration for g77;
+"Closure tolerance" becomes "Reporting tolerance".
+@
+text
+@d35 1
+a35 1
+*   $Id: twcs1.f,v 2.4 1999/06/16 00:19:01 mcalabre Exp mcalabre $
+d51 1
+a51 1
+      PARAMETER (TOL = 1.0D-10)
+d217 2
+a218 2
+     *          IMG(4), LAT1, LIN(*), LNG1, PHI, PIX(4), PRJ(0:20),
+     *          THETA, TOL, WORLD(4)
+d236 1
+a236 1
+      DO 60 LAT = 90, -90, -1
+d239 1
+a239 1
+         DO 50 LNG = -180, 180
+d249 2
+a250 2
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMG, LIN, PIX, IERR)
+d255 1
+a255 1
+               GO TO 50
+d258 1
+a258 1
+            CALL WCSREV (CTYPE, WCS, PIX, LIN, IMG, PRJ, PHI, THETA,
+d264 1
+a264 1
+               GO TO 50
+d273 2
+a274 1
+            IF (DLAT.GT.TOL) THEN
+d277 9
+a285 7
+ 40            FORMAT (8X,A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 8X,'     LNG2 =',F20.15,'  LAT2 =',F20.15)
+            ELSE IF (ABS(LAT).NE.90) THEN
+               IF (DLNG.GT.TOL) THEN
+                  WRITE (6, 40) PCODE, LNG1, LAT1, WORLD(WCS(1)),
+     *               WORLD(WCS(2))
+               END IF
+d287 2
+a288 2
+ 50      CONTINUE
+ 60   CONTINUE
+d290 2
+a291 2
+      WRITE (6, 70) DLNGMX, DLATMX
+ 70   FORMAT (13X,'Maximum residual (sky): LNG',1P,G10.3,'   LAT',G10.3)
+d294 1
+a294 1
+      DO 80 J = 0, 20
+d296 1
+a296 1
+ 80   CONTINUE
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d35 1
+a35 1
+*   $Id: twcs1.f,v 2.3 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+d41 3
+a65 3
+
+*     Force alignment.
+      COMMON /DUMMY/ LIN, MAXIS, NAXIS, CRPIX, PC, CDELT, PIXIMG, IMGPIX
+d206 1
+a206 1
+*      TOL      D        Closure tolerance, degrees.
+d234 1
+a234 1
+ 10   FORMAT (/,'Testing ',A,'; closure tolerance',1PG9.1,' deg.')
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.2 1996/09/10 06:49:02 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Fixed reporting of non-closure latitudes.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d35 1
+a35 1
+*   $Id: twcs1.f,v 2.1 1996/05/07 21:15:04 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Initial revision
+@
+text
+@d35 1
+a35 1
+*   $Id: twcs1.f,v 1.1 1996/05/07 21:13:48 mcalabre Exp mcalabre $
+d275 1
+a275 1
+     *            WORLD(WCS(1))
+d281 1
+a281 1
+     *               WORLD(WCS(1))
+@

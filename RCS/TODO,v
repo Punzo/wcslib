@@ -1,0 +1,3088 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.30.47;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	0.0;
+
+0.0
+date	2009.08.06.02.41.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.42.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.29.02.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.10.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.10.13.18.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.05.13.07.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@WCSLIB jobs to be done and wish list.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@Next time the wcsprm struct needs changing:
+-------------------------------------------
+- ...
+
+
+
+TODO - more stars mean higher priority
+(these need to be reviewed and prioritised):
+
+
+Autoconf
+--------
+* Define macros for BEGIN_C_DECLS and END_C_DECLS (for C++) and use them in
+  the headers (autoconf book, Sect. 7.1.3).
+
+* Function definitions (autoconf book, Sect. 7.1.4).
+
+
+C library (defects)
+-------------------
+** wcshdo(): Handle CUBEFACE and STOKES axes.
+
+* wcsmix(): Fix polar case.
+
+* wcsbth(): Flag axis or column numbers with leading 0, e.g. 0CRPX03?
+
+* awavwave() and waveawav(): Check the range of validity of the refraction
+  equations when computing to/from AWAV.
+
+* tabs2x() extrapolation for multi-dimensional tables.
+
+
+C library (components of the standard yet to be implemented)
+------------------------------------------------------------
+Paper I:   Sect. 3.5: Coordinate system cross references for bintable image
+           arrays - wcsbth().  WCSXna -> WCSTna, e.g. WCSX13A -> WCST12B
+           Straightforward in principle.  Requires that wcsbth() match the
+           WCSXna keyvalue with the (arbitrary) WCSTna keyvalue and create a
+           copy for WCSXna of the wcsprm struct created for WCSTna.
+
+Paper II:  Complete.
+
+Paper III: Appendix A: Implement VELANGLa.  While it should be straightforward
+           to implement the equations, changes are required to the API of some
+           spc and spx functions.  Also how to handle multiple roots?
+
+Paper IV:  Support for distortions in bintables - wcsbth().  Straightforward
+           in principle.  Requires parsing distortion keywords for bintable
+           image arrays and pixel lists.
+
+           Support for distortions in wcscompare().  Testing for an exact
+           match should be straightforward.
+
+           Sect. 3.4: Implement Lookup distortion type.  Implementation is
+           similar to -TAB coordinates but the distortion array must be read
+           from an image extension so requires help from CFITSIO or similar.
+
+Paper V:   Complete.
+
+Paper VI:  Complete.
+
+Paper VII: Sect 4.1.4: TREFDIR/TRDIRn is only partially implemented.  TREFDIR
+           contains references to (i.e. the names of) two other, arbitrary
+           keywords (e.g. RA_NOM and DEC_NOM) that contain the reference
+           longitude and latitude.  Currently, a user would have to parse the
+           TREFDIR keyvalue returned by wcspih() and then use fitshdr()
+           subsequently to retrieve the keyvalues.  Probably best left as is
+           with a comment added to the prologue of wcs.h.
+
+
+C library (extensions)
+----------------------
+* Investigate the possibility of allowing output arrays to be set to input
+  arrays, e.g. prjs2x(prj, nx, ny, sxy, sxy, x, y, x, y, stat).
+
+* Deal with r0 < 0.
+
+* C++ wrapper classes.
+
+* Interface to SoFA for rewriting WCS keywords to change coordinate systems
+  and Doppler frames.
+
+* Routine returning, for any projection, the sky solid angle subtended by a
+  pixel (Patrick Sizun, email 2005-01-04; Jürgen Knödlseder, email
+  2009-02-23, and others).
+
+* Routine returning, for any projection, the value of the Jacobian at any
+  point.
+
+* cutfwd() & cutrev(): given a path defined by a (possibly parameterized)
+  function of pixel coordinates (for example, a slice) cutfwd() accepts either
+  longitude or latitude and returns the pixel coordinates, cutrev() accepts
+  one or other element of the pixel coordinate and returns the longitude and
+  latitude.
+
+
+Testing
+-------
+* Create a more complicated test header for testing wcsbth.
+
+* Verify and distribute the FITS test file generated by twcstab.
+
+* In tcel2, some of the graticules are missing their parallels of latitude.
+
+* Augment twcstab.c with an optional coordinate grid plot.
+
+* Change Fortran/test/ttab2.f to match C/test/ttab2.c.
+
+* Write a C++ test program.
+
+
+PGSBOX (defects)
+----------------
+*** Part of the graticule is missing from the first plate carrée test.
+
+*** Fix gaps in pgtest CYP grid lines at +/-180.
+
+* pgsbox/pgwcsl doesn't properly handle the divergence of Mercator's
+  projection.
+
+* pgwcsl doesn't handle discontinuities between the faces of the quadcube
+  projections - the native longitude doesn't jump in passing between faces.
+
+* pgsbox/pgwcsl can't handle pixels that lie outside the principle range
+  of native longitude [-180,180].  There doesn't appear to be much hope of
+  handling this.
+
+
+PGSBOX (extensions)
+-------------------
+* Generalise pgwcsl to 2-D slices of an N-D image, e.g. an RA-Vel slice
+  through an RA-Dec-Vel cube.
+
+
+$Id: TODO,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.6.1.2 2026/04/05 13:07:41 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d135 1
+a135 1
+$Id: TODO,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d30 2
+d135 1
+a135 1
+$Id: TODO,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d133 1
+a133 1
+$Id: TODO,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Minor extrapolation for multi-dimensional tables in tabs2x().
+@
+text
+@a29 2
+* tabs2x() extrapolation for multi-dimensional tables.
+
+d133 1
+a133 1
+$Id: TODO,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d133 1
+a133 1
+$Id: TODO,v 8.4.1.2 2025/11/10 13:18:01 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d133 1
+a133 1
+$Id: TODO,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d19 3
+a21 3
+C library
+---------
+*** Implement DSS projection.
+d23 1
+a23 1
+*** Support for distortions in wcsbth() and wcscompare().
+d25 1
+a25 1
+** Implement Lookup distortion type from Paper IV.
+d27 2
+a28 1
+** CUBEFACE and STOKES handling in wcshdo().
+a29 3
+* Routine returning, for any projection, the sky solid angle subtended by a
+  pixel (Patrick Sizun, email 2005-01-04; Jürgen Knödlseder, email
+  2009-02-23, and others).
+d31 20
+a50 2
+* Routine returning, for any projection, the value of the Jacobian at any
+  point.
+d52 3
+a54 1
+* Fix wcsmix() polar case.
+d56 1
+a56 4
+* wcsbth
+  + Implement bintable cross-references:
+    WCSXna -> WCSTna, e.g. WCSX13A -> WCST12B (fully specified)
+  + Flag axis or column numbers with leading 0, e.g. 0CRPX03?
+d58 1
+a58 2
+* Check the range of validity of the refraction equations when computing
+  AWAV.
+d60 7
+a66 2
+* Implement VELANGLa from Paper III - requires changes to the interfaces
+  of some spc and spx functions.  Also how to handle multiple roots?
+a67 2
+* Interface to SoFA for rewriting WCS keywords to change coordinate systems
+  and Doppler frames.
+d69 2
+d76 12
+a93 2
+* C++ wrapper classes.
+
+d110 2
+a111 5
+PGSBOX
+------
+* Generalise pgwcsl to 2-D slices of an N-D image, e.g. an RA-Vel slice
+  through an RA-Dec-Vel cube.
+
+d127 7
+a133 1
+$Id: TODO,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Reorganised, in particular to identify components of the FITSWCS standard
+yet to be implemented.
+@
+text
+@d19 3
+a21 3
+C library (defects)
+-------------------
+** wcshdo(): Handle CUBEFACE and STOKES axes.
+d23 1
+a23 1
+* wcsmix(): Fix polar case.
+d25 1
+a25 1
+* wcsbth(): Flag axis or column numbers with leading 0, e.g. 0CRPX03?
+d27 1
+a27 2
+* awavwave() and waveawav(): Check the range of validity of the refraction
+  equations when computing to/from AWAV.
+d29 3
+d33 2
+a34 7
+C library (components of the standard yet to be implemented)
+------------------------------------------------------------
+Paper I:   Sect. 3.5: Coordinate system cross references for bintable image
+           arrays - wcsbth().  WCSXna -> WCSTna, e.g. WCSX13A -> WCST12B
+           Straightforward in principle.  Requires that wcsbth() match the
+           WCSXna keyvalue with the (arbitrary) WCSTna keyvalue and create a
+           copy for WCSXna of the wcsprm struct created for WCSTna.
+d36 1
+a36 1
+Paper II:  Complete.
+d38 4
+a41 3
+Paper III: Appendix A: Implement VELANGLa.  While it should be straightforward
+           to implement the equations, changes are required to the API of some
+           spc and spx functions.  Also how to handle multiple roots?
+d43 2
+a44 3
+Paper IV:  Support for distortions in bintables - wcsbth().  Straightforward
+           in principle.  Requires parsing distortion keywords for bintable
+           image arrays and pixel lists.
+d46 2
+a47 2
+           Support for distortions in wcscompare().  Testing for an exact
+           match should be straightforward.
+d49 2
+a50 5
+           Sect. 3.4: Implement Lookup distortion type.  Implementation is
+           similar to -TAB coordinates but the distortion array must be read
+           from an image extension so requires help from CFITSIO or similar.
+
+Paper V:   Complete.
+a51 13
+Paper VI:  Complete.
+
+Paper VII: Sect 4.1.4: TREFDIR/TRDIRn is only partially implemented.  TREFDIR
+           contains references to (i.e. the names of) two other, arbitrary
+           keywords (e.g. RA_NOM and DEC_NOM) that contain the reference
+           longitude and latitude.  Currently, a user would have to parse the
+           TREFDIR keyvalue returned by wcspih() and then use fitshdr()
+           subsequently to retrieve the keyvalues.  Probably best left as is
+           with a comment added to the prologue of wcs.h.
+
+
+C library (extensions)
+----------------------
+a56 12
+* C++ wrapper classes.
+
+* Interface to SoFA for rewriting WCS keywords to change coordinate systems
+  and Doppler frames.
+
+* Routine returning, for any projection, the sky solid angle subtended by a
+  pixel (Patrick Sizun, email 2005-01-04; Jürgen Knödlseder, email
+  2009-02-23, and others).
+
+* Routine returning, for any projection, the value of the Jacobian at any
+  point.
+
+d63 2
+d81 5
+a85 2
+PGSBOX (defects)
+----------------
+d101 1
+a101 7
+PGSBOX (extensions)
+-------------------
+* Generalise pgwcsl to 2-D slices of an N-D image, e.g. an RA-Vel slice
+  through an RA-Dec-Vel cube.
+
+
+$Id: TODO,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 1
+a3 1
+- Add wcsprm::time to record the time axis number (along with lng,lat,spec).
+d101 1
+a101 1
+$Id: TODO,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.7.1.2 2022/03/25 06:10:02 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d101 1
+a101 1
+$Id: TODO,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d1 6
+d101 1
+a101 1
+$Id: TODO,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Added a reminder about things to change in the wcsprm struct next time
+the ABI changes.
+@
+text
+@a0 6
+Next time the wcsprm struct needs changing:
+-------------------------------------------
+- Add wcsprm::time to record the time axis number (along with lng,lat,spec).
+
+
+
+d95 1
+a95 1
+$Id: TODO,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.6.1.2 2015/06/29 02:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d95 1
+a95 1
+$Id: TODO,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d1 10
+a10 1
+TODO (needs to be categorized and ordered properly):
+a11 1
+* In tcel2, some of the graticules are missing their parallels of latitude.
+d13 3
+a15 1
+* Mac OS X 10.5.7 malloc problems - August Muench, 2009/07/07.
+d17 1
+a17 2
+* Change test suite to report summary "PASS" / "FAIL" at the end where
+  possible.
+d19 1
+a19 1
+* Change Fortran/test/ttab2.f to match C/test/ttab2.c.
+d21 1
+a21 2
+* Define macros with informative names for status return values.  E.g.
+  status == 1 from wcs.c functions would be #define WCS_NULLPTR 1.
+d23 3
+a25 2
+* New "fixer" function to translate non-standard longitude/latitude pairs,
+  e.g. "LONG"/"NPOL" -> xLON/xLAT or yzLN/yzLT (Pan Chai email, 2008/02/26).
+d27 2
+a28 2
+* wcsbth
+  + Create a more complicated test header for testing.
+d30 1
+a30 1
+* CUBEFACE and STOKES handling in wcshdo().
+d37 2
+a38 1
+* Write a C++ test program.
+d40 2
+a41 1
+* Fix gaps in pgtest CYP grid lines at +/-180.
+d43 2
+a44 1
+* Interface to SoFA for changing Doppler frames and coordinate systems.
+d46 2
+d49 1
+d51 5
+a55 4
+Autoconf
+--------
+* Define macros for BEGIN_C_DECLS and END_C_DECLS (for C++) and use them in
+  the headers (autoconf book, Sect. 7.1.3).
+d57 1
+a57 1
+* Function definitions (autoconf book, Sect. 7.1.4).
+d60 1
+a60 1
+General
+d62 2
+d66 1
+a66 5
+* Create and distribute FITS test files for spectral coordinates.
+
+
+C library
+---------
+d70 1
+a70 2
+* Check the range of validity of the refraction equations when computing
+  AWAV.
+d72 1
+a72 14
+* Implement VELANGLa from Paper III - requires changes to the interfaces
+  of some spc and spx functions.  Also how to handle multiple roots?
+
+* Function to convert coordinate systems, e.g. FK5 to ICRS (Neil).
+
+* FITS WCS verifier (Bill Pence, email 2004/12/17).
+
+* Investigate the possibility of allowing output arrays to be set to input
+  arrays, e.g. prjs2x(prj, nx, ny, sxy, sxy, x, y, x, y, stat).
+
+* Investigate the speed of the wcstrig wrappers (Emmanuel Bertin, email)
+  versus the macro implementation.
+
+* Implement Paper IV.
+d80 1
+d82 1
+a82 3
+Low priority
+------------
+* Fix wcsmix() polar case.
+a83 23
+* Routine returning, for any projection, the sky solid angle subtended by a
+  pixel (Patrick Sizun, email 2005-01-04; Jürgen Knödlseder, email
+  2009-02-23).
+
+* Routine returning, for any projection, the value of the Jacobian at any
+  point.
+
+
+WCSLIB
+------
+* Deal with r0 < 0.
+
+* cutfwd() & cutrev(): given a path defined by a (possibly parameterized)
+  function of pixel coordinates (for example, a slice) cutfwd() accepts either
+  longitude or latitude and returns the pixel coordinates, cutrev() accepts
+  one or other element of the pixel coordinate and returns the longitude and
+  latitude.
+
+* C++ wrapper classes.
+
+
+PGSBOX
+------
+d87 1
+a87 1
+* pgwcls doesn't handle discontinuities between the faces of the quadcube
+d90 1
+a90 1
+* pgsbox/pgwcsl can't handle pixels which lie outside the principle range
+d95 1
+a95 1
+$Id: TODO,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Kicked it back to life, somewhat.
+@
+text
+@d1 33
+a33 2
+TODO - more stars mean higher priority
+(these need to be reviewed and prioritised):
+d44 3
+a46 3
+C library
+---------
+*** Implement DSS projection.
+d48 1
+a48 1
+*** Support for distortions in wcsbth() and wcscompare().
+a49 1
+** Implement Lookup distortion type from Paper IV.
+d51 2
+a52 1
+** CUBEFACE and STOKES handling in wcshdo().
+d54 1
+a54 13
+* Routine returning, for any projection, the sky solid angle subtended by a
+  pixel (Patrick Sizun, email 2005-01-04; Jürgen Knödlseder, email
+  2009-02-23, and others).
+
+* Routine returning, for any projection, the value of the Jacobian at any
+  point.
+
+* Fix wcsmix() polar case.
+
+* wcsbth
+  + Implement bintable cross-references:
+    WCSXna -> WCSTna, e.g. WCSX13A -> WCST12B (fully specified)
+  + Flag axis or column numbers with leading 0, e.g. 0CRPX03?
+d62 3
+a64 2
+* Interface to SoFA for rewriting WCS keywords to change coordinate systems
+  and Doppler frames.
+d69 26
+a105 15
+Testing
+-------
+* Create a more complicated test header for testing wcsbth.
+
+* Verify and distribute the FITS test file generated by twcstab.
+
+* In tcel2, some of the graticules are missing their parallels of latitude.
+
+* Augment twcstab.c with an optional coordinate grid plot.
+
+* Change Fortran/test/ttab2.f to match C/test/ttab2.c.
+
+* Write a C++ test program.
+
+
+a107 7
+* Generalise pgwcsl to 2-D slices of an N-D image, e.g. an RA-Vel slice
+  through an RA-Dec-Vel cube.
+
+*** Part of the graticule is missing from the first plate carrée test.
+
+*** Fix gaps in pgtest CYP grid lines at +/-180.
+
+d111 1
+a111 1
+* pgwcsl doesn't handle discontinuities between the faces of the quadcube
+d114 1
+a114 1
+* pgsbox/pgwcsl can't handle pixels that lie outside the principle range
+d119 1
+a119 1
+$Id: TODO,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.4.1.1 2009/08/10 08:42:06 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d119 1
+a119 1
+$Id$
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: TODO,v 4.4 2009/08/06 07:30:47 cal103 Exp $
+@
+
+
+0.0
+log
+@Concatenation of old TODO files.
+@
+text
+@d1 1
+a1 1
+TODO-1 -----------------------------------------------------------------------
+d3 3
+a5 3
+WCSLIB
+------
+* Deal with r0 < 0.
+d7 2
+a8 1
+* CDELT + PC arguments -> CD.
+d10 1
+a10 1
+* Generalization of TAN projection.
+d12 2
+a13 1
+* Vector implementation.
+d15 2
+a16 1
+* Pixel regularization image.
+d18 2
+a19 5
+* cutfwd() & cutrev(): given a path defined by a (possibly parameterized)
+  function of pixel coordinates (for example, a slice) cutfwd() accepts either
+  longitude or latitude and returns the pixel coordinates, cutrev() accepts
+  one or other element of the pixel coordinate and returns the longitude and
+  latitude.
+d21 1
+a21 1
+* C++ wrapper classes.
+d23 4
+d28 1
+a28 4
+PGSBOX
+------
+* pgsbox/pgwcsl doesn't properly handle the divergence of Mercator's
+  projection.
+d30 1
+a30 2
+* pgwcls doesn't handle discontinuities between the faces of the quadcube
+  projections - the native longitude doesn't jump in passing between faces.
+d32 1
+a32 3
+* pgsbox/pgwcsl can't handle pixels which lie outside the principle range
+  of native longitude [-180,180].  There doesn't appear to be much hope of
+  handling this.
+a34 1
+TODO-2 -----------------------------------------------------------------------
+a65 2
+* FITS WCS header parser for bintables.
+
+a74 5
+FORTRAN library
+---------------
+* Change Fortran/ttab2.f to match C version.
+
+
+d93 3
+a95 1
+TODO-3 -----------------------------------------------------------------------
+d97 5
+a101 1
+Done
+d103 1
+a103 1
+* Porting issues:
+a104 2
+  Fedora
+    2005/11/18  Michelle Miller		...OK (gfortran)
+d106 4
+a109 99
+  MacOSX
+    2005/10/28  Jeremy Brewer		...OK (flex)
+    2006/06/08  Paul Kunz		...OK (flex,install)
+    2006/08/07  Matthew Whiting		...OK (flex)
+    2006/05/16  Robert Lupton		...OK (shlibs,signbit,etc.)
+
+  Solaris 2.8
+    2005/12/14  Brian Irby		...OK (gmake)
+
+  64-bit Linux
+    2006/05/31  Ger			...OK (%x formatting)
+    2006/08/11  Paul Kunz		...OK (flex, %x)
+
+  OSF/alpha 4.1
+    2005/12/14  Brian Irby		...OK (flex,OSF C compiler quirks)
+
+* Clean compile (gmake cleanest ; gmake ; gmake tests):
+     linux      (grus,      Debian sarge, gcc/g77 3.3.5)
+     linux      (etch,      Debian etch,  gcc 4.1.2, g77 3.4.6)
+     sun4sol    (cetus,     SunOS 5.6,    gcc 2.95.3, g77 0.5.25)
+     sun4sol    (cetus,     SunOS 5.6,    cc/f77 WS6.2)
+     sun4sol    (atlas,     SunOS 5.8,    cc/f77 WS6 v5.1)
+     sun4sol    (lynx,      SunOS 5.9,    cc/f77 WS6.2 v5.3)
+     darwin_ppc (crab,      Darwin 8.8.0, gcc/g77 3.4.6)
+     darwin_x86 (cancer,    Darwin 8.9.1, gcc 4.3.0, g77 3.4.0)
+     linux64    (delphinus, Debian etch,  gcc 4.1.2, g77 3.4.6)
+
+* Configure/build: conditionally link twcstab, twcshdr and wcsgrid to
+  getwcstab.o if fits_read_wcstab() is not present in CFITSIO.
+
+* Configure/build: check for availability of flex and its version.  If
+  the required version is not available then substitute pre-generated
+  output using flex 2.5.33 (in Debian etch).
+
+* Configure/build: Fortran name-mangling.
+
+* 32-bit alignment in the data structs - all OK.
+
+* Linux compiler warnings generated with 'gcc -std=c89':
+    ISO C does not support the `%Ld' scanf format (fitshdr.l,
+      fitshdr_f.c & tfitshdr.c) - replace with %lld.
+    String length '535' is greater than the length '509' ISO C89
+      compilers are required to support (tcel2.c) - fixed.
+    string length '809' is greater than the length '509' ISO C89
+      compilers are required to support (HPXcvt.c) - ignored.
+    'yyunput' defined but not used (fitshdr.l) - added '%option nounput'.
+    Implicit declaration of function 'setlinebuf' (tbth1.c, tfitshdr.c,
+      tpih1.c, tpih2.c, twcstab.c) - use setvbuf() instead.
+    Implicit declaration of function 'fileno' (wcsulex.c, wcsutrn.c) -
+      only in flex-generated code so should be ok.
+
+* Linux64 compiler errors generated with 'gcc -std=c89':
+    Conflicting types for 'read' (wcsulex.c, wcsutrn.c) - old version
+    of flex (2.5.4) on delphinus needed upgrading (to 2.5.33).
+
+* Linux64 compiler warnings generated with 'gcc -std=c89':
+    Format '%lld' expects type 'long long int *', but argument 3 has
+      type 'int64 *' (fitshdr.l, tfitshdr.c) - fixed configure.ac.
+    ISO C forbids conversion of function pointer to object pointer type
+      (casts in the various *prt functions) - ignored.
+
+* 64-bit alignment in the data structs.
+    cel.h: celprm		OK
+    spx.h: spxprm		OK
+    lin.h: linprm		Fixed
+    prj.h: prjprm		Fixed
+    spc.h: spcprm		Fixed
+    tab.h: tabprm		Fixed
+    wcs.h: pvcard		OK
+           pscard		OK
+           wtbarr		Can't be changed because of CFITSIO
+           wcsprm		Fixed
+    fitshdr.h: fitskeyid	OK
+               fitskey		OK
+    getwcstab.h: typedef struct	Can't be changed because of CFITSIO
+
+* Function wcshdo() to write out a wcsprm struct as a FITS header.
+
+* wcspih
+    2007/06/07  Jim Lewis (removal of cards from header)
+
+* Check thread-safety - OK except for Flex code.
+
+* Each header file should reference the README file.
+
+* wcsbth()
+  + Implementation completed for bintable image array keywords and pixel
+    list keywords (single image).
+  + Image header keyword inheritance mechanism in bintables.
+  + Implement colsel.
+  + Implement keysel.
+  + Check that DATE-AVG DATE-OBS MJD-AVG MJD-OBS OBSGEO-X/Y/Z and their
+    bintable equivalents, DAVGn DOBSn MJDAn MJDOBn OBSGXn OBSGYn OBSGZn,
+    do not, by themselves, cause a wcsprm struct to be created.
+
+* Memory leak in flex-generated code.
+    2005/10/21  Ger (valgrind)
+    2006/12/28  Jim Lewis
+  Fixed.
+d111 2
+a112 1
+* Switch to LGPL 3.0.
+d114 3
+a116 1
+* Tests run cleanly (gmake cleanest ; gmake check):
+a117 2
+------------------------------------------------------------------------------
+Jobs for v4.4:
+d119 1
+a119 19
+* wcsbth
+  + Create a more complicated test header for testing.
+
+* CUBEFACE and STOKES handling in wcshdo().
+
+* wcsbth
+  + Implement bintable cross-references:
+    WCSXna -> WCSTna, e.g. WCSX13A -> WCST12B (fully specified)
+  + Flag axis or column numbers with leading 0, e.g. 0CRPX03?
+
+* Check that GLS is translated properly to SFL (probably isn't).
+
+* Write a C++ test program.
+
+* Fix gaps in pgtest CYP grid lines at +/-180.
+
+* Change test suite to report summary "pass" / "fail" where possible.
+
+* Interface to SoFA for changing Doppler frames and coordinate systems.
+@

@@ -1,0 +1,1501 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	0.0;
+
+0.0
+date	2018.10.19.07.41.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	6.1.1.2;
+
+6.1.1.2
+date	2018.10.20.09.43.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Definition and documentation of the wtbarr struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wtbarr.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the wtbarr struct
+* ----------------------------
+* The wtbarr struct is used by wcstab() in extracting coordinate lookup tables
+* from a binary table extension (BINTABLE) and copying them into the tabprm
+* structs stored in wcsprm.
+*
+*
+* wtbarr struct - Extraction of coordinate lookup tables from BINTABLE
+* --------------------------------------------------------------------
+* Function wcstab(), which is invoked automatically by wcspih(), sets up an
+* array of wtbarr structs to assist in extracting coordinate lookup tables
+* from a binary table extension (BINTABLE) and copying them into the tabprm
+* structs stored in wcsprm.  Refer to the usage notes for wcspih() and
+* wcstab() in wcshdr.h, and also the prologue to tab.h.
+*
+* For C++ usage, because of a name space conflict with the wtbarr typedef
+* defined in CFITSIO header fitsio.h, the wtbarr struct is renamed to wtbarr_s
+* by preprocessor macro substitution with scope limited to wtbarr.h itself,
+* and similarly in wcs.h.
+*
+*   int i
+*     (Given) Image axis number.
+*
+*   int m
+*     (Given) wcstab array axis number for index vectors.
+*
+*   int kind
+*     (Given) Character identifying the wcstab array type:
+*       - c: coordinate array,
+*       - i: index vector.
+*
+*   char extnam[72]
+*     (Given) EXTNAME identifying the binary table extension.
+*
+*   int extver
+*     (Given) EXTVER identifying the binary table extension.
+*
+*   int extlev
+*     (Given) EXTLEV identifying the binary table extension.
+*
+*   char ttype[72]
+*     (Given) TTYPEn identifying the column of the binary table that contains
+*     the wcstab array.
+*
+*   long row
+*     (Given) Table row number.
+*
+*   int ndim
+*     (Given) Expected dimensionality of the wcstab array.
+*
+*   int *dimlen
+*     (Given) Address of the first element of an array of int of length ndim
+*     into which the wcstab array axis lengths are to be written.
+*
+*   double **arrayp
+*     (Given) Pointer to an array of double which is to be allocated by the
+*     user and into which the wcstab array is to be written.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_WTBARR
+#define WCSLIB_WTBARR
+
+#ifdef __cplusplus
+extern "C" {
+#define wtbarr wtbarr_s		// See prologue above.
+#endif
+				// For extracting wcstab arrays.  Matches
+				// the wtbarr typedef defined in CFITSIO
+				// header fitsio.h.
+struct wtbarr {
+  int  i;			// Image axis number.
+  int  m;			// Array axis number for index vectors.
+  int  kind;			// wcstab array type.
+  char extnam[72];		// EXTNAME of binary table extension.
+  int  extver;			// EXTVER  of binary table extension.
+  int  extlev;			// EXTLEV  of binary table extension.
+  char ttype[72];		// TTYPEn of column containing the array.
+  long row;			// Table row number.
+  int  ndim;			// Expected wcstab array dimensionality.
+  int  *dimlen;			// Where to write the array axis lengths.
+  double **arrayp;		// Where to write the address of the array
+				// allocated to store the wcstab array.
+};
+
+#ifdef __cplusplus
+#undef wtbarr
+}
+#endif
+
+#endif // WCSLIB_WTBARR
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wtbarr.h,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wtbarr.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wtbarr.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wtbarr.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d95 1
+a95 1
+#define wtbarr wtbarr_s		/* See prologue above.                      */
+d97 3
+a99 3
+				/* For extracting wcstab arrays.  Matches   */
+				/* the wtbarr typedef defined in CFITSIO    */
+				/* header fitsio.h.                         */
+d101 12
+a112 12
+  int  i;			/* Image axis number.                       */
+  int  m;			/* Array axis number for index vectors.     */
+  int  kind;			/* wcstab array type.                       */
+  char extnam[72];		/* EXTNAME of binary table extension.       */
+  int  extver;			/* EXTVER  of binary table extension.       */
+  int  extlev;			/* EXTLEV  of binary table extension.       */
+  char ttype[72];		/* TTYPEn of column containing the array.   */
+  long row;			/* Table row number.                        */
+  int  ndim;			/* Expected wcstab array dimensionality.    */
+  int  *dimlen;			/* Where to write the array axis lengths.   */
+  double **arrayp;		/* Where to write the address of the array  */
+				/* allocated to store the wcstab array.     */
+d120 1
+a120 1
+#endif /* WCSLIB_WTBARR */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wtbarr.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d98 1
+a98 1
+#define wtbarr wtbarr_s		// See prologue above.
+d100 3
+a102 3
+				// For extracting wcstab arrays.  Matches
+				// the wtbarr typedef defined in CFITSIO
+				// header fitsio.h.
+d104 12
+a115 12
+  int  i;			// Image axis number.
+  int  m;			// Array axis number for index vectors.
+  int  kind;			// wcstab array type.
+  char extnam[72];		// EXTNAME of binary table extension.
+  int  extver;			// EXTVER  of binary table extension.
+  int  extlev;			// EXTLEV  of binary table extension.
+  char ttype[72];		// TTYPEn of column containing the array.
+  long row;			// Table row number.
+  int  ndim;			// Expected wcstab array dimensionality.
+  int  *dimlen;			// Where to write the array axis lengths.
+  double **arrayp;		// Where to write the address of the array
+				// allocated to store the wcstab array.
+d123 1
+a123 1
+#endif // WCSLIB_WTBARR
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wtbarr.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wtbarr.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wtbarr.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.1.1.2 2018/10/20 09:43:39 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wtbarr.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id$
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+d33 7
+d50 2
+a51 1
+* by preprocessor macro substitution with scope limited to wcs.h itself.
+d98 1
+a102 3
+#ifdef __cplusplus
+#define wtbarr wtbarr_s		/* See prologue above.                      */
+#endif
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+6.1.1.2
+log
+@Added a Summary line for doxextr/doxygen.  Minor inconsequential tweaks.
+@
+text
+@d25 1
+a25 1
+  $Id: wtbarr.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+a32 7
+* Summary of the wtbarr struct
+* ----------------------------
+* The wtbarr struct is used by wcstab() in extracting coordinate lookup tables
+* from a binary table extension (BINTABLE) and copying them into the tabprm
+* structs stored in wcsprm.
+*
+*
+d43 1
+a43 2
+* by preprocessor macro substitution with scope limited to wtbarr.h itself,
+* and similarly in wcs.h.
+a89 1
+#define wtbarr wtbarr_s		/* See prologue above.                      */
+d94 3
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 117
+@

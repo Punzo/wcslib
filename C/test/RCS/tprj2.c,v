@@ -1,0 +1,6504 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.02.15.15;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.22.07.45.05;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.32.50;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.31.25;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.05.42;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.23.05;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.10.05;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.40.16;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.04.27.07;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.16.39;	author mcalabre;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	2002.04.03.01.25.29;	author mcalabre;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	2001.11.16.02.40.55;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2001.11.15.05.15.11;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2001.11.15.03.04.19;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2000.12.04.08.22.50;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.05.10.04.44.05;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.12.13.07.44.08;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.11.19.00.30.40;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.02.25.07.05.50;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.01.30.00.22.06;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.20.30.14;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.12.22.02.43.29;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.06.39.44;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.12.06.35.54;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.13.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.12.03.05.12.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.37.43;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.12.04.08.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.08.36.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.15.16.10;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.10.15.19.46;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.4;
+
+8.6.1.4
+date	2026.04.25.08.25.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test the WCSLIB spherical projection routines by plotting test grids
+(requires PGPLOT and X11).
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tprj2.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tproj2 tests projection routines by plotting test graticules using PGPLOT.
+*
+*---------------------------------------------------------------------------*/
+
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
+
+#include <cpgplot.h>
+
+#include <prj.h>
+
+
+void prjplt(char pcode[4], int north, int south, struct prjprm *prj);
+
+int main()
+
+{
+  printf("Testing WCSLIB spherical projection routines (tprj2.c)\n"
+         "------------------------------------------------------\n");
+
+  // List status return messages.
+  printf("\nList of prj status return values:\n");
+  for (int status = 1; status <= 4; status++) {
+    printf("%4d: %s.\n", status, prj_errmsg[status]);
+  }
+
+  printf("\n");
+
+
+  // PGPLOT initialization.
+  char devtyp[16];
+  strncpy(devtyp, "/xwindow", 16);
+  cpgbeg(0, devtyp, 1, 1);
+
+  // Define pen colours.
+  cpgscr(0, 0.00f, 0.00f, 0.00f);
+  cpgscr(1, 1.00f, 1.00f, 0.00f);
+  cpgscr(2, 1.00f, 1.00f, 1.00f);
+  cpgscr(3, 0.50f, 0.50f, 0.80f);
+  cpgscr(4, 0.80f, 0.50f, 0.50f);
+  cpgscr(5, 0.80f, 0.80f, 0.80f);
+  cpgscr(6, 0.50f, 0.50f, 0.80f);
+  cpgscr(7, 0.80f, 0.50f, 0.50f);
+  cpgscr(8, 0.30f, 0.50f, 0.30f);
+
+  char fmt1[80], fmt2[80];
+  strncpy(fmt1, "\n%s projection\n", 80);
+  strncpy(fmt2, "\n%s projection\nParameters:", 80);
+
+  struct prjprm prj;
+  prjini(&prj);
+
+  // AZP: zenithal/azimuthal perspective.
+  prj.pv[1] =   2.0;
+  prj.pv[2] =  30.0;
+  printf(fmt2, "Zenithal/azimuthal perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("AZP", 90, -90, &prj);
+
+  // SZP: slant zenithal perspective.
+  prj.pv[1] =   2.0;
+  prj.pv[2] = 210.0;
+  prj.pv[3] =  60.0;
+  printf(fmt2, "Slant zenithal perspective");
+  printf("%12.5f%12.5f%12.5f\n", prj.pv[1], prj.pv[2], prj.pv[3]);
+  prjplt("SZP", 90, -90, &prj);
+
+  // TAN: gnomonic.
+  printf(fmt1, "Gnomonic");
+  prjplt("TAN", 90,   5, &prj);
+
+  // STG: stereographic.
+  printf(fmt1, "Stereographic");
+  prjplt("STG", 90, -85, &prj);
+
+  // SIN: orthographic.
+  prj.pv[1] = -0.3;
+  prj.pv[2] =  0.5;
+  printf(fmt2, "Orthographic/synthesis");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("SIN", 90, -90, &prj);
+
+  // ARC: zenithal/azimuthal equidistant.
+  printf(fmt1, "Zenithal/azimuthal equidistant");
+  prjplt("ARC", 90, -90, &prj);
+
+  // ZPN: zenithal/azimuthal polynomial.
+  prj.pv[0] =  0.05000;
+  prj.pv[1] =  0.95000;
+  prj.pv[2] = -0.02500;
+  prj.pv[3] = -0.15833;
+  prj.pv[4] =  0.00208;
+  prj.pv[5] =  0.00792;
+  prj.pv[6] = -0.00007;
+  prj.pv[7] = -0.00019;
+  prj.pv[8] =  0.00000;
+  prj.pv[9] =  0.00000;
+  printf(fmt2, "Zenithal/azimuthal polynomial");
+  printf("%12.5f%12.5f%12.5f%12.5f%12.5f\n",
+    prj.pv[0], prj.pv[1], prj.pv[2], prj.pv[3], prj.pv[4]);
+  printf("           %12.5f%12.5f%12.5f%12.5f%12.5f\n",
+    prj.pv[5], prj.pv[6], prj.pv[7], prj.pv[8], prj.pv[9]);
+  prjplt("ZPN", 90,  10, &prj);
+
+  // ZEA: zenithal/azimuthal equal area.
+  printf(fmt1, "Zenithal/azimuthal equal area");
+  prjplt("ZEA", 90, -90, &prj);
+
+  // AIR: Airy's zenithal projection.
+  prj.pv[1] = 45.0;
+  printf(fmt2, "Airy's zenithal");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("AIR", 90, -85, &prj);
+
+  // CYP: cylindrical perspective.
+  prj.pv[1] = 3.0;
+  prj.pv[2] = 0.8;
+  printf(fmt2, "Cylindrical perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("CYP", 90, -90, &prj);
+
+  // CEA: cylindrical equal area.
+  prj.pv[1] = 0.75;
+  printf(fmt2, "Cylindrical equal area");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("CEA", 90, -90, &prj);
+
+  // CAR: plate carree.
+  printf(fmt1, "Plate carree");
+  prjplt("CAR", 90, -90, &prj);
+
+  // MER: Mercator's.
+  printf(fmt1, "Mercator's");
+  prjplt("MER", 85, -85, &prj);
+
+  // SFL: Sanson-Flamsteed.
+  printf(fmt1, "Sanson-Flamsteed (global sinusoid)");
+  prjplt("SFL", 90, -90, &prj);
+
+  // PAR: parabolic.
+  printf(fmt1, "Parabolic");
+  prjplt("PAR", 90, -90, &prj);
+
+  // MOL: Mollweide's projection.
+  printf(fmt1, "Mollweide's");
+  prjplt("MOL", 90, -90, &prj);
+
+  // AIT: Hammer-Aitoff.
+  printf(fmt1, "Hammer-Aitoff");
+  prjplt("AIT", 90, -90, &prj);
+
+  // COP: conic perspective.
+  prj.pv[1] =  60.0;
+  prj.pv[2] =  15.0;
+  printf(fmt2, "Conic perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COP", 90, -25, &prj);
+
+  // COE: conic equal area.
+  prj.pv[1] =  60.0;
+  prj.pv[2] = -15.0;
+  printf(fmt2, "Conic equal area");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COE", 90, -90, &prj);
+
+  // COD: conic equidistant.
+  prj.pv[1] = -60.0;
+  prj.pv[2] =  15.0;
+  printf(fmt2, "Conic equidistant");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COD", 90, -90, &prj);
+
+  // COO: conic orthomorphic.
+  prj.pv[1] = -60.0;
+  prj.pv[2] = -15.0;
+  printf(fmt2, "Conic orthomorphic");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COO", 85, -90, &prj);
+
+  // BON: Bonne's projection.
+  prj.pv[1] = 30.0;
+  printf(fmt2, "Bonne's");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("BON", 90, -90, &prj);
+
+  // PCO: polyconic.
+  printf(fmt1, "Polyconic");
+  prjplt("PCO", 90, -90, &prj);
+
+  // TSC: tangential spherical cube.
+  printf(fmt1, "Tangential spherical cube");
+  prjplt("TSC", 90, -90, &prj);
+
+  // CSC: COBE quadrilateralized spherical cube.
+  printf(fmt1, "COBE quadrilateralized spherical cube");
+  prjplt("CSC", 90, -90, &prj);
+
+  // QSC: quadrilateralized spherical cube.
+  printf(fmt1, "Quadrilateralized spherical cube");
+  prjplt("QSC", 90, -90, &prj);
+
+  // HPX: HEALPix projection.
+  prj.pv[1] = 4.0;
+  prj.pv[2] = 3.0;
+  printf(fmt1, "HEALPix");
+  prjplt("HPX", 90, -90, &prj);
+
+  // XPH: HEALPix polar, aka "butterfly" projection.
+  printf(fmt1, "Butterfly");
+  prjplt("XPH", 90, -90, &prj);
+
+  cpgask(0);
+  cpgend();
+
+  return 0;
+}
+
+
+/*----------------------------------------------------------------------------
+*   PRJPLT draws a 15 degree coordinate graticule.
+*
+*   Given:
+*      pcode[4]  char     Projection mnemonic.
+*      north     int      Northern cutoff latitude, degrees.
+*      south     int      Southern cutoff latitude, degrees.
+*
+*   Given and returned:
+*      prj       prjprm*  Projection parameters.
+*---------------------------------------------------------------------------*/
+
+void prjplt(
+  char   pcode[4],
+  int    north,
+  int    south,
+  struct prjprm *prj)
+
+{
+  strncpy(prj->code, pcode, 4);
+  printf("Plotting %s; latitudes%3d to%4d.\n", prj->code, north, south);
+
+  cpgask(0);
+
+  char   text[80];
+  int    stat[361];
+  float  xr[512], yr[512];
+  double lat[361], lng[361], x[361], y[361];
+
+  prjset(prj);
+  if (prj->category == QUADCUBE) {
+    // Draw the perimeter of the quadcube projection.
+    cpgenv(-335.0f, 65.0f, -200.0f, 200.0f, 1, -2);
+    cpgsci(2);
+
+    snprintf(text, 80, "%s - 15 degree graticule", pcode);
+    cpgtext(-340.0f, -220.0f, text);
+
+    cpgsci(8);
+
+    xr[0] =      45.0 + prj->x0;
+    yr[0] =      45.0 - prj->y0;
+    xr[1] =      45.0 + prj->x0;
+    yr[1] =  3.0*45.0 - prj->y0;
+    xr[2] =     -45.0 + prj->x0;
+    yr[2] =  3.0*45.0 - prj->y0;
+    xr[3] =     -45.0 + prj->x0;
+    yr[3] = -3.0*45.0 - prj->y0;
+    xr[4] =      45.0 + prj->x0;
+    yr[4] = -3.0*45.0 - prj->y0;
+    xr[5] =      45.0 + prj->x0;
+    yr[5] =      45.0 - prj->y0;
+    xr[6] = -7.0*45.0 + prj->x0;
+    yr[6] =      45.0 - prj->y0;
+    xr[7] = -7.0*45.0 + prj->x0;
+    yr[7] =     -45.0 - prj->y0;
+    xr[8] =      45.0 + prj->x0;
+    yr[8] =     -45.0 - prj->y0;
+    cpgline(9, xr, yr);
+
+  } else {
+    cpgenv(-200.0f, 200.0f, -200.0f, 200.0f, 1, -2);
+    cpgsci(2);
+    snprintf(text, 80, "%s - 15 degree graticule", pcode);
+    cpgtext(-240.0f, -220.0f, text);
+
+    if (prj->category == HEALPIX) {
+      cpgsci(8);
+
+      if (strcmp(pcode, "HPX") == 0) {
+        // Draw the perimeter of the HEALPix projection.
+        int h = (int)(prj->pv[1] + 0.5);
+        float sx = 180.0f / h;
+        float sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+
+        float hx = 180.0f + prj->x0;
+        float hy = sy - sx - prj->y0;
+        cpgmove(hx, hy);
+
+        for (int j = 0; j < h; j++) {
+          hx -= sx;
+          hy += sx;
+          cpgdraw(hx, hy);
+
+          hx -= sx;
+          hy -= sx;
+          cpgdraw(hx, hy);
+        }
+
+        hx = 180.0f + prj->x0;
+        hy = -sy + sx - prj->y0;
+
+        int k = ((int)prj->pv[2])%2 ? 1 : -1;
+        if (k == -1) hy -= sx;
+
+        cpgmove(hx, hy);
+
+        for (int j = 0; j < h; j++) {
+          hx -= sx;
+          hy -= k*sx;
+          cpgdraw(hx, hy);
+
+          hx -= sx;
+          hy += k*sx;
+          cpgdraw(hx, hy);
+        }
+
+      } else if (strcmp(pcode, "XPH") == 0) {
+        for (int ilng = -90; ilng <= 180; ilng+=90) {
+          lng[0] = (double)ilng - 0.0001;
+
+          for (int j = 0, ilat = 90; ilat >= -90; ilat--, j++) {
+            lat[j] = (double)ilat;
+          }
+
+          prj->prjs2x(prj, 1, 181, 1, 1, lng, lat, x, y, stat);
+
+          for (int j = 0; j < 181; j++) {
+            xr[j] = -x[j];
+            yr[j] =  y[j];
+          }
+
+          cpgline(181, xr, yr);
+        }
+      }
+    }
+  }
+
+
+  int ci = 1;
+  for (int ilng = -180; ilng <= 180; ilng+=15) {
+    if (++ci > 7) ci = 2;
+
+    lng[0] = (double)ilng;
+
+    cpgsci(ilng?ci:1);
+
+    int len = north - south + 1;
+    for (int j = 0, ilat = north; ilat >= south; ilat--, j++) {
+      lat[j] = (double)ilat;
+    }
+
+    prj->prjs2x(prj, 1, len, 1, 1, lng, lat, x, y, stat);
+
+    int k = 0;
+    for (int j = 0; j < len; j++) {
+      if (stat[j]) {
+        if (k > 1) cpgline(k, xr, yr);
+        k = 0;
+        continue;
+      }
+
+      if (prj->category == QUADCUBE && j > 0) {
+        if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+          if (k > 1) cpgline(k, xr, yr);
+          k = 0;
+        }
+      } else if (strcmp(pcode, "HPX") == 0 && ilng == 180) {
+        if (x[j] > 180.0) {
+          continue;
+        }
+      }
+
+      xr[k] = -x[j];
+      yr[k] =  y[j];
+      k++;
+    }
+
+    cpgline(k, xr, yr);
+  }
+
+  ci = 1;
+  int interrupted = (prj->category == QUADCUBE || prj->category == HEALPIX);
+  for (int ilat = -90; ilat <= 90; ilat += 15) {
+    if (++ci > 7) ci = 2;
+
+    if (ilat > north) continue;
+    if (ilat < south) continue;
+
+    lat[0] = (double)ilat;
+
+    cpgsci(ilat?ci:1);
+
+    for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+      lng[j] = (double)ilng;
+    }
+
+    prj->prjs2x(prj, 361, 1, 1, 1, lng, lat, x, y, stat);
+
+    int k = 0;
+    for (int j = 0; j <= 360; j++) {
+      if (stat[j]) {
+        if (k > 1) cpgline(k, xr, yr);
+        k = 0;
+        continue;
+      }
+
+      if (interrupted && j > 0) {
+        if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+          if (k > 1) cpgline(k, xr, yr);
+          k = 0;
+        }
+      }
+
+      xr[k] = -x[j];
+      yr[k] =  y[j];
+      k++;
+    }
+
+    cpgline(k, xr, yr);
+  }
+
+  cpgsci(1);
+  xr[0] = 0.0f;
+  yr[0] = 0.0f;
+  cpgpt(1, xr, yr, 21);
+
+  // Allow 250ms to view the plot on fast machines.
+  struct timespec nano = {(time_t)0, 250000000L};
+  nanosleep(&nano, 0x0);
+
+  cpgask(1);
+  cpgpage();
+
+  prjini(prj);
+
+  return;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.6.1.4 2026/04/25 08:25:02 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d29 2
+a30 2
+// Needed to get nanosleep() from time.h.
+#define _POSIX_C_SOURCE 199309L
+d43 2
+a47 6
+  void prjplt();
+  int  status;
+  char text[80], text1[80], text2[80];
+  struct prjprm prj;
+
+
+d53 1
+a53 1
+  for (status = 1; status <= 4; status++) {
+d61 3
+a63 2
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+d76 3
+a78 2
+  strcpy(text1, "\n%s projection\n");
+  strcpy(text2, "\n%s projection\nParameters:");
+d80 1
+d86 1
+a86 1
+  printf(text2, "Zenithal/azimuthal perspective");
+d94 1
+a94 1
+  printf(text2, "Slant zenithal perspective");
+d99 1
+a99 1
+  printf(text1, "Gnomonic");
+d103 1
+a103 1
+  printf(text1, "Stereographic");
+d109 1
+a109 1
+  printf(text2, "Orthographic/synthesis");
+d114 1
+a114 1
+  printf(text1, "Zenithal/azimuthal equidistant");
+d128 1
+a128 1
+  printf(text2, "Zenithal/azimuthal polynomial");
+d136 1
+a136 1
+  printf(text1, "Zenithal/azimuthal equal area");
+d141 1
+a141 1
+  printf(text2, "Airy's zenithal");
+d148 1
+a148 1
+  printf(text2, "Cylindrical perspective");
+d154 1
+a154 1
+  printf(text2, "Cylindrical equal area");
+d159 1
+a159 1
+  printf(text1, "Plate carree");
+d163 1
+a163 1
+  printf(text1, "Mercator's");
+d167 1
+a167 1
+  printf(text1, "Sanson-Flamsteed (global sinusoid)");
+d171 1
+a171 1
+  printf(text1, "Parabolic");
+d175 1
+a175 1
+  printf(text1, "Mollweide's");
+d179 1
+a179 1
+  printf(text1, "Hammer-Aitoff");
+d185 1
+a185 1
+  printf(text2, "Conic perspective");
+d192 1
+a192 1
+  printf(text2, "Conic equal area");
+d199 1
+a199 1
+  printf(text2, "Conic equidistant");
+d206 1
+a206 1
+  printf(text2, "Conic orthomorphic");
+d212 1
+a212 1
+  printf(text2, "Bonne's");
+d217 1
+a217 1
+  printf(text1, "Polyconic");
+d221 1
+a221 1
+  printf(text1, "Tangential spherical cube");
+d225 1
+a225 1
+  printf(text1, "COBE quadrilateralized spherical cube");
+d229 1
+a229 1
+  printf(text1, "Quadrilateralized spherical cube");
+d235 1
+a235 1
+  printf(text1, "HEALPix");
+d239 1
+a239 1
+  printf(text1, "Butterfly");
+d261 5
+a265 5
+void prjplt(pcode, north, south, prj)
+
+char   pcode[4];
+int    north, south;
+struct prjprm *prj;
+d268 1
+a268 8
+  char   text[80];
+  int    ci, h, ilat, ilng, interrupted, len, stat[361];
+  register int j, k;
+  float  hx, hy, sx, sy, xr[512], yr[512];
+  double lat[361], lng[361], x[361], y[361];
+
+  strcpy(prj->code, pcode);
+
+d273 5
+d283 2
+a284 1
+    sprintf(text,"%s - 15 degree graticule", pcode);
+d312 1
+a312 1
+    sprintf(text,"%s - 15 degree graticule", pcode);
+d320 3
+a322 3
+        h = (int)(prj->pv[1] + 0.5);
+        sx = 180.0f / h;
+        sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+d324 2
+a325 2
+        hx = 180.0f + prj->x0;
+        hy = sy - sx - prj->y0;
+d328 1
+a328 1
+        for (j = 0; j < h; j++) {
+d341 1
+a341 1
+        k = ((int)prj->pv[2])%2 ? 1 : -1;
+d346 1
+a346 1
+        for (j = 0; j < h; j++) {
+d357 1
+a357 1
+        for (ilng = -90; ilng <= 180; ilng+=90) {
+d360 1
+a360 1
+          for (j = 0, ilat = 90; ilat >= -90; ilat--, j++) {
+d366 1
+a366 1
+          for (j = 0; j < 181; j++) {
+d378 2
+a379 2
+  ci = 1;
+  for (ilng = -180; ilng <= 180; ilng+=15) {
+d386 2
+a387 2
+    len = north - south + 1;
+    for (j = 0, ilat = north; ilat >= south; ilat--, j++) {
+d393 2
+a394 2
+    k = 0;
+    for (j = 0; j < len; j++) {
+d421 2
+a422 2
+  interrupted = (prj->category == QUADCUBE || prj->category == HEALPIX);
+  for (ilat = -90; ilat <= 90; ilat += 15) {
+d432 1
+a432 1
+    for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d438 2
+a439 2
+    k = 0;
+    for (j = 0; j <= 360; j++) {
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d47 3
+d57 1
+a57 1
+  for (int status = 1; status <= 4; status++) {
+d65 2
+a66 3
+  char devtyp[16];
+  strcpy(devtyp, "/xwindow");
+  cpgbeg(0, devtyp, 1, 1);
+d79 2
+a80 3
+  char fmt1[80], fmt2[80];
+  strcpy(fmt1, "\n%s projection\n");
+  strcpy(fmt2, "\n%s projection\nParameters:");
+a81 1
+  struct prjprm prj;
+d87 1
+a87 1
+  printf(fmt2, "Zenithal/azimuthal perspective");
+d95 1
+a95 1
+  printf(fmt2, "Slant zenithal perspective");
+d100 1
+a100 1
+  printf(fmt1, "Gnomonic");
+d104 1
+a104 1
+  printf(fmt1, "Stereographic");
+d110 1
+a110 1
+  printf(fmt2, "Orthographic/synthesis");
+d115 1
+a115 1
+  printf(fmt1, "Zenithal/azimuthal equidistant");
+d129 1
+a129 1
+  printf(fmt2, "Zenithal/azimuthal polynomial");
+d137 1
+a137 1
+  printf(fmt1, "Zenithal/azimuthal equal area");
+d142 1
+a142 1
+  printf(fmt2, "Airy's zenithal");
+d149 1
+a149 1
+  printf(fmt2, "Cylindrical perspective");
+d155 1
+a155 1
+  printf(fmt2, "Cylindrical equal area");
+d160 1
+a160 1
+  printf(fmt1, "Plate carree");
+d164 1
+a164 1
+  printf(fmt1, "Mercator's");
+d168 1
+a168 1
+  printf(fmt1, "Sanson-Flamsteed (global sinusoid)");
+d172 1
+a172 1
+  printf(fmt1, "Parabolic");
+d176 1
+a176 1
+  printf(fmt1, "Mollweide's");
+d180 1
+a180 1
+  printf(fmt1, "Hammer-Aitoff");
+d186 1
+a186 1
+  printf(fmt2, "Conic perspective");
+d193 1
+a193 1
+  printf(fmt2, "Conic equal area");
+d200 1
+a200 1
+  printf(fmt2, "Conic equidistant");
+d207 1
+a207 1
+  printf(fmt2, "Conic orthomorphic");
+d213 1
+a213 1
+  printf(fmt2, "Bonne's");
+d218 1
+a218 1
+  printf(fmt1, "Polyconic");
+d222 1
+a222 1
+  printf(fmt1, "Tangential spherical cube");
+d226 1
+a226 1
+  printf(fmt1, "COBE quadrilateralized spherical cube");
+d230 1
+a230 1
+  printf(fmt1, "Quadrilateralized spherical cube");
+d236 1
+a236 1
+  printf(fmt1, "HEALPix");
+d240 1
+a240 1
+  printf(fmt1, "Butterfly");
+d262 5
+a266 5
+void prjplt(
+  char   pcode[4],
+  int    north,
+  int    south,
+  struct prjprm *prj)
+d269 6
+d276 1
+a280 5
+  char   text[80];
+  int    stat[361];
+  float  xr[512], yr[512];
+  double lat[361], lng[361], x[361], y[361];
+
+a285 1
+
+d322 3
+a324 3
+        int h = (int)(prj->pv[1] + 0.5);
+        float sx = 180.0f / h;
+        float sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+d326 2
+a327 2
+        float hx = 180.0f + prj->x0;
+        float hy = sy - sx - prj->y0;
+d330 1
+a330 1
+        for (int j = 0; j < h; j++) {
+d343 1
+a343 1
+        int k = ((int)prj->pv[2])%2 ? 1 : -1;
+d348 1
+a348 1
+        for (int j = 0; j < h; j++) {
+d359 1
+a359 1
+        for (int ilng = -90; ilng <= 180; ilng+=90) {
+d362 1
+a362 1
+          for (int j = 0, ilat = 90; ilat >= -90; ilat--, j++) {
+d368 1
+a368 1
+          for (int j = 0; j < 181; j++) {
+d380 2
+a381 2
+  int ci = 1;
+  for (int ilng = -180; ilng <= 180; ilng+=15) {
+d388 2
+a389 2
+    int len = north - south + 1;
+    for (int j = 0, ilat = north; ilat >= south; ilat--, j++) {
+d395 2
+a396 2
+    int k = 0;
+    for (int j = 0; j < len; j++) {
+d423 2
+a424 2
+  int interrupted = (prj->category == QUADCUBE || prj->category == HEALPIX);
+  for (int ilat = -90; ilat <= 90; ilat += 15) {
+d434 1
+a434 1
+    for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d440 2
+a441 2
+    int k = 0;
+    for (int j = 0; j <= 360; j++) {
+@
+
+
+8.6.1.3
+log
+@Inconsequential changes prompted by clang-tidy:
+ - Replaced use of strcpy() with strncpy(), and sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.6.1.2 2026/04/10 15:16:10 mcalabre Exp mcalabre $
+d63 1
+a63 1
+  strncpy(devtyp, "/xwindow", 16);
+d78 2
+a79 2
+  strncpy(fmt1, "\n%s projection\n", 80);
+  strncpy(fmt2, "\n%s projection\nParameters:", 80);
+d269 1
+a269 1
+  strncpy(prj->code, pcode, 4);
+d285 1
+a285 1
+    snprintf(text, 80, "%s - 15 degree graticule", pcode);
+d313 1
+a313 1
+    snprintf(text, 80, "%s - 15 degree graticule", pcode);
+@
+
+
+8.6.1.4
+log
+@Include wcsconfig_tests.h to get the _POSIX_C_SOURCE definition required
+for nanosleep() rather than setting it here.  Converted the K&R-C-style
+declaration of prjplt() to ANSI C.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.6.1.3 2026/04/10 15:19:46 mcalabre Exp mcalabre $
+d29 2
+a30 2
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+a42 2
+void prjplt(char pcode[4], int north, int south, struct prjprm *prj);
+
+d46 3
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tprj2.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tprj2.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.6.1.2 2021/07/01 14:19:28 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.5.1.2 2021/04/13 08:36:34 mcalabre Exp mcalabre $
+d29 3
+d469 1
+a469 1
+  struct timespec nano = {0, 250000000};
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Defined _POSIX_C_SOURCE as 199309L to get the function prototype etc. for
+nanosleep() from time.h.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+a28 3
+// Needed to get nanosleep() from time.h.
+#define _POSIX_C_SOURCE 199309L
+
+d466 1
+a466 1
+  struct timespec nano = {(time_t)0, 250000000L};
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+a28 1
+#include <cpgplot.h>
+d33 3
+d465 3
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Inserted a 200ms pause to slow things down during 'make check', otherwise
+the graphics had become just a blur.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d29 1
+a33 3
+#include <time.h>
+
+#include <cpgplot.h>
+a462 3
+  // Allow 250ms to view the plot on fast machines.
+  struct timespec nano = {0, 250000000};
+  nanosleep(&nano, 0x0);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tprj2.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tprj2.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d50 1
+a50 1
+  /* List status return messages. */
+d59 1
+a59 1
+  /* PGPLOT initialization. */
+d63 1
+a63 1
+  /* Define pen colours. */
+d79 1
+a79 1
+  /* AZP: zenithal/azimuthal perspective. */
+d86 1
+a86 1
+  /* SZP: slant zenithal perspective. */
+d94 1
+a94 1
+  /* TAN: gnomonic. */
+d98 1
+a98 1
+  /* STG: stereographic. */
+d102 1
+a102 1
+  /* SIN: orthographic. */
+d109 1
+a109 1
+  /* ARC: zenithal/azimuthal equidistant. */
+d113 1
+a113 1
+  /* ZPN: zenithal/azimuthal polynomial. */
+d131 1
+a131 1
+  /* ZEA: zenithal/azimuthal equal area. */
+d135 1
+a135 1
+  /* AIR: Airy's zenithal projection. */
+d141 1
+a141 1
+  /* CYP: cylindrical perspective. */
+d148 1
+a148 1
+  /* CEA: cylindrical equal area. */
+d154 1
+a154 1
+  /* CAR: plate carree. */
+d158 1
+a158 1
+  /* MER: Mercator's. */
+d162 1
+a162 1
+  /* SFL: Sanson-Flamsteed. */
+d166 1
+a166 1
+  /* PAR: parabolic. */
+d170 1
+a170 1
+  /* MOL: Mollweide's projection. */
+d174 1
+a174 1
+  /* AIT: Hammer-Aitoff. */
+d178 1
+a178 1
+  /* COP: conic perspective. */
+d185 1
+a185 1
+  /* COE: conic equal area. */
+d192 1
+a192 1
+  /* COD: conic equidistant. */
+d199 1
+a199 1
+  /* COO: conic orthomorphic. */
+d206 1
+a206 1
+  /* BON: Bonne's projection. */
+d212 1
+a212 1
+  /* PCO: polyconic. */
+d216 1
+a216 1
+  /* TSC: tangential spherical cube. */
+d220 1
+a220 1
+  /* CSC: COBE quadrilateralized spherical cube. */
+d224 1
+a224 1
+  /* QSC: quadrilateralized spherical cube. */
+d228 1
+a228 1
+  /* HPX: HEALPix projection. */
+d234 1
+a234 1
+  /* XPH: HEALPix polar, aka "butterfly" projection. */
+d278 1
+a278 1
+    /* Draw the perimeter of the quadcube projection. */
+d316 1
+a316 1
+        /* Draw the perimeter of the HEALPix projection. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tprj2.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d53 1
+a53 1
+  // List status return messages.
+d62 1
+a62 1
+  // PGPLOT initialization.
+d66 1
+a66 1
+  // Define pen colours.
+d82 1
+a82 1
+  // AZP: zenithal/azimuthal perspective.
+d89 1
+a89 1
+  // SZP: slant zenithal perspective.
+d97 1
+a97 1
+  // TAN: gnomonic.
+d101 1
+a101 1
+  // STG: stereographic.
+d105 1
+a105 1
+  // SIN: orthographic.
+d112 1
+a112 1
+  // ARC: zenithal/azimuthal equidistant.
+d116 1
+a116 1
+  // ZPN: zenithal/azimuthal polynomial.
+d134 1
+a134 1
+  // ZEA: zenithal/azimuthal equal area.
+d138 1
+a138 1
+  // AIR: Airy's zenithal projection.
+d144 1
+a144 1
+  // CYP: cylindrical perspective.
+d151 1
+a151 1
+  // CEA: cylindrical equal area.
+d157 1
+a157 1
+  // CAR: plate carree.
+d161 1
+a161 1
+  // MER: Mercator's.
+d165 1
+a165 1
+  // SFL: Sanson-Flamsteed.
+d169 1
+a169 1
+  // PAR: parabolic.
+d173 1
+a173 1
+  // MOL: Mollweide's projection.
+d177 1
+a177 1
+  // AIT: Hammer-Aitoff.
+d181 1
+a181 1
+  // COP: conic perspective.
+d188 1
+a188 1
+  // COE: conic equal area.
+d195 1
+a195 1
+  // COD: conic equidistant.
+d202 1
+a202 1
+  // COO: conic orthomorphic.
+d209 1
+a209 1
+  // BON: Bonne's projection.
+d215 1
+a215 1
+  // PCO: polyconic.
+d219 1
+a219 1
+  // TSC: tangential spherical cube.
+d223 1
+a223 1
+  // CSC: COBE quadrilateralized spherical cube.
+d227 1
+a227 1
+  // QSC: quadrilateralized spherical cube.
+d231 1
+a231 1
+  // HPX: HEALPix projection.
+d237 1
+a237 1
+  // XPH: HEALPix polar, aka "butterfly" projection.
+d281 1
+a281 1
+    // Draw the perimeter of the quadcube projection.
+d319 1
+a319 1
+        // Draw the perimeter of the HEALPix projection.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tprj2.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tprj2.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.17.1.2 2013/07/12 04:08:06 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+d237 4
+a315 1
+      /* Draw the perimeter of the HEALPix projection. */
+d318 25
+a342 17
+      h = (int)(prj->pv[1] + 0.5);
+      sx = 180.0f / h;
+      sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+
+      hx = 180.0f + prj->x0;
+      hy = sy - sx - prj->y0;
+      cpgmove(hx, hy);
+
+      for (j = 0; j < h; j++) {
+        hx -= sx;
+        hy += sx;
+        cpgdraw(hx, hy);
+
+        hx -= sx;
+        hy -= sx;
+        cpgdraw(hx, hy);
+      }
+d344 1
+a344 2
+      hx = 180.0f + prj->x0;
+      hy = -sy + sx - prj->y0;
+d346 9
+a354 2
+      k = ((int)prj->pv[2])%2 ? 1 : -1;
+      if (k == -1) hy -= sx;
+d356 14
+a369 1
+      cpgmove(hx, hy);
+d371 2
+a372 8
+      for (j = 0; j < h; j++) {
+        hx -= sx;
+        hy -= k*sx;
+        cpgdraw(hx, hy);
+
+        hx -= sx;
+        hy += k*sx;
+        cpgdraw(hx, hy);
+d406 1
+a406 1
+      } else if (prj->category == HEALPIX && ilng == 180) {
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Added the XPH projection.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+a236 4
+  /* XPH: HEALPix polar, aka "butterfly" projection. */
+  printf(text1, "Butterfly");
+  prjplt("XPH", 90, -90, &prj);
+
+d312 1
+d315 17
+a331 19
+      if (strcmp(pcode, "HPX") == 0) {
+        /* Draw the perimeter of the HEALPix projection. */
+        h = (int)(prj->pv[1] + 0.5);
+        sx = 180.0f / h;
+        sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+
+        hx = 180.0f + prj->x0;
+        hy = sy - sx - prj->y0;
+        cpgmove(hx, hy);
+
+        for (j = 0; j < h; j++) {
+          hx -= sx;
+          hy += sx;
+          cpgdraw(hx, hy);
+
+          hx -= sx;
+          hy -= sx;
+          cpgdraw(hx, hy);
+        }
+d333 2
+a334 2
+        hx = 180.0f + prj->x0;
+        hy = -sy + sx - prj->y0;
+d336 2
+a337 2
+        k = ((int)prj->pv[2])%2 ? 1 : -1;
+        if (k == -1) hy -= sx;
+d339 1
+a339 1
+        cpgmove(hx, hy);
+d341 8
+a348 27
+        for (j = 0; j < h; j++) {
+          hx -= sx;
+          hy -= k*sx;
+          cpgdraw(hx, hy);
+
+          hx -= sx;
+          hy += k*sx;
+          cpgdraw(hx, hy);
+        }
+
+      } else if (strcmp(pcode, "XPH") == 0) {
+        for (ilng = -90; ilng <= 180; ilng+=90) {
+          lng[0] = (double)ilng - 0.0001;
+
+          for (j = 0, ilat = 90; ilat >= -90; ilat--, j++) {
+            lat[j] = (double)ilat;
+          }
+
+          prj->prjs2x(prj, 1, 181, 1, 1, lng, lat, x, y, stat);
+
+          for (j = 0; j < 181; j++) {
+            xr[j] = -x[j];
+            yr[j] =  y[j];
+          }
+
+          cpgline(181, xr, yr);
+        }
+d382 1
+a382 1
+      } else if (strcmp(pcode, "HPX") == 0 && ilng == 180) {
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tprj2.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tprj2.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tprj2.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tprj2.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.3.1.2 2009/07/22 06:37:43 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tprj2.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tprj2.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tprj2.c,v 4.2.1.2 2007/12/03 05:12:59 cal103 Exp $
+d34 1
+a34 1
+*   tproj2 tests projection routines by plotting test graticules using PGPLOT.
+d50 192
+a241 192
+   void prjplt();
+   int  status;
+   char text[80], text1[80], text2[80];
+   struct prjprm prj;
+
+
+   printf("Testing WCSLIB spherical projection routines (tprj2.c)\n"
+          "------------------------------------------------------\n");
+
+   /* List status return messages. */
+   printf("\nList of prj status return values:\n");
+   for (status = 1; status <= 4; status++) {
+      printf("%4d: %s.\n", status, prj_errmsg[status]);
+   }
+
+   printf("\n");
+
+
+   /* PGPLOT initialization. */
+   strcpy(text, "/xwindow");
+   cpgbeg(0, text, 1, 1);
+
+   /* Define pen colours. */
+   cpgscr(0, 0.00f, 0.00f, 0.00f);
+   cpgscr(1, 1.00f, 1.00f, 0.00f);
+   cpgscr(2, 1.00f, 1.00f, 1.00f);
+   cpgscr(3, 0.50f, 0.50f, 0.80f);
+   cpgscr(4, 0.80f, 0.50f, 0.50f);
+   cpgscr(5, 0.80f, 0.80f, 0.80f);
+   cpgscr(6, 0.50f, 0.50f, 0.80f);
+   cpgscr(7, 0.80f, 0.50f, 0.50f);
+   cpgscr(8, 0.30f, 0.50f, 0.30f);
+
+   strcpy(text1, "\n%s projection\n");
+   strcpy(text2, "\n%s projection\nParameters:");
+
+   prjini(&prj);
+
+   /* AZP: zenithal/azimuthal perspective. */
+   prj.pv[1] =   2.0;
+   prj.pv[2] =  30.0;
+   printf(text2, "Zenithal/azimuthal perspective");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("AZP", 90, -90, &prj);
+
+   /* SZP: slant zenithal perspective. */
+   prj.pv[1] =   2.0;
+   prj.pv[2] = 210.0;
+   prj.pv[3] =  60.0;
+   printf(text2, "Slant zenithal perspective");
+   printf("%12.5f%12.5f%12.5f\n", prj.pv[1], prj.pv[2], prj.pv[3]);
+   prjplt("SZP", 90, -90, &prj);
+
+   /* TAN: gnomonic. */
+   printf(text1, "Gnomonic");
+   prjplt("TAN", 90,   5, &prj);
+
+   /* STG: stereographic. */
+   printf(text1, "Stereographic");
+   prjplt("STG", 90, -85, &prj);
+
+   /* SIN: orthographic. */
+   prj.pv[1] = -0.3;
+   prj.pv[2] =  0.5;
+   printf(text2, "Orthographic/synthesis");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("SIN", 90, -90, &prj);
+
+   /* ARC: zenithal/azimuthal equidistant. */
+   printf(text1, "Zenithal/azimuthal equidistant");
+   prjplt("ARC", 90, -90, &prj);
+
+   /* ZPN: zenithal/azimuthal polynomial. */
+   prj.pv[0] =  0.05000;
+   prj.pv[1] =  0.95000;
+   prj.pv[2] = -0.02500;
+   prj.pv[3] = -0.15833;
+   prj.pv[4] =  0.00208;
+   prj.pv[5] =  0.00792;
+   prj.pv[6] = -0.00007;
+   prj.pv[7] = -0.00019;
+   prj.pv[8] =  0.00000;
+   prj.pv[9] =  0.00000;
+   printf(text2, "Zenithal/azimuthal polynomial");
+   printf("%12.5f%12.5f%12.5f%12.5f%12.5f\n",
+      prj.pv[0], prj.pv[1], prj.pv[2], prj.pv[3], prj.pv[4]);
+   printf("           %12.5f%12.5f%12.5f%12.5f%12.5f\n",
+      prj.pv[5], prj.pv[6], prj.pv[7], prj.pv[8], prj.pv[9]);
+   prjplt("ZPN", 90,  10, &prj);
+
+   /* ZEA: zenithal/azimuthal equal area. */
+   printf(text1, "Zenithal/azimuthal equal area");
+   prjplt("ZEA", 90, -90, &prj);
+
+   /* AIR: Airy's zenithal projection. */
+   prj.pv[1] = 45.0;
+   printf(text2, "Airy's zenithal");
+   printf("%12.5f\n", prj.pv[1]);
+   prjplt("AIR", 90, -85, &prj);
+
+   /* CYP: cylindrical perspective. */
+   prj.pv[1] = 3.0;
+   prj.pv[2] = 0.8;
+   printf(text2, "Cylindrical perspective");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("CYP", 90, -90, &prj);
+
+   /* CEA: cylindrical equal area. */
+   prj.pv[1] = 0.75;
+   printf(text2, "Cylindrical equal area");
+   printf("%12.5f\n", prj.pv[1]);
+   prjplt("CEA", 90, -90, &prj);
+
+   /* CAR: plate carree. */
+   printf(text1, "Plate carree");
+   prjplt("CAR", 90, -90, &prj);
+
+   /* MER: Mercator's. */
+   printf(text1, "Mercator's");
+   prjplt("MER", 85, -85, &prj);
+
+   /* SFL: Sanson-Flamsteed. */
+   printf(text1, "Sanson-Flamsteed (global sinusoid)");
+   prjplt("SFL", 90, -90, &prj);
+
+   /* PAR: parabolic. */
+   printf(text1, "Parabolic");
+   prjplt("PAR", 90, -90, &prj);
+
+   /* MOL: Mollweide's projection. */
+   printf(text1, "Mollweide's");
+   prjplt("MOL", 90, -90, &prj);
+
+   /* AIT: Hammer-Aitoff. */
+   printf(text1, "Hammer-Aitoff");
+   prjplt("AIT", 90, -90, &prj);
+
+   /* COP: conic perspective. */
+   prj.pv[1] =  60.0;
+   prj.pv[2] =  15.0;
+   printf(text2, "Conic perspective");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("COP", 90, -25, &prj);
+
+   /* COE: conic equal area. */
+   prj.pv[1] =  60.0;
+   prj.pv[2] = -15.0;
+   printf(text2, "Conic equal area");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("COE", 90, -90, &prj);
+
+   /* COD: conic equidistant. */
+   prj.pv[1] = -60.0;
+   prj.pv[2] =  15.0;
+   printf(text2, "Conic equidistant");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("COD", 90, -90, &prj);
+
+   /* COO: conic orthomorphic. */
+   prj.pv[1] = -60.0;
+   prj.pv[2] = -15.0;
+   printf(text2, "Conic orthomorphic");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("COO", 85, -90, &prj);
+
+   /* BON: Bonne's projection. */
+   prj.pv[1] = 30.0;
+   printf(text2, "Bonne's");
+   printf("%12.5f\n", prj.pv[1]);
+   prjplt("BON", 90, -90, &prj);
+
+   /* PCO: polyconic. */
+   printf(text1, "Polyconic");
+   prjplt("PCO", 90, -90, &prj);
+
+   /* TSC: tangential spherical cube. */
+   printf(text1, "Tangential spherical cube");
+   prjplt("TSC", 90, -90, &prj);
+
+   /* CSC: COBE quadrilateralized spherical cube. */
+   printf(text1, "COBE quadrilateralized spherical cube");
+   prjplt("CSC", 90, -90, &prj);
+
+   /* QSC: quadrilateralized spherical cube. */
+   printf(text1, "Quadrilateralized spherical cube");
+   prjplt("QSC", 90, -90, &prj);
+
+   /* HPX: HEALPix projection. */
+   prj.pv[1] = 4.0;
+   prj.pv[2] = 3.0;
+   printf(text1, "HEALPix");
+   prjplt("HPX", 90, -90, &prj);
+d243 2
+a244 2
+   cpgask(0);
+   cpgend();
+d246 1
+a246 1
+   return 0;
+d269 47
+a315 19
+   char   text[80];
+   int    ci, h, ilat, ilng, interrupted, len, stat[361];
+   register int j, k;
+   float  hx, hy, sx, sy, xr[512], yr[512];
+   double lat[361], lng[361], x[361], y[361];
+
+   strcpy(prj->code, pcode);
+
+   printf("Plotting %s; latitudes%3d to%4d.\n", prj->code, north, south);
+
+   cpgask(0);
+
+   prjset(prj);
+   if (prj->category == QUADCUBE) {
+      /* Draw the perimeter of the quadcube projection. */
+      cpgenv(-335.0f, 65.0f, -200.0f, 200.0f, 1, -2);
+      cpgsci(2);
+      sprintf(text,"%s - 15 degree graticule", pcode);
+      cpgtext(-340.0f, -220.0f, text);
+d317 2
+d321 16
+a336 65
+      xr[0] =      45.0 + prj->x0;
+      yr[0] =      45.0 - prj->y0;
+      xr[1] =      45.0 + prj->x0;
+      yr[1] =  3.0*45.0 - prj->y0;
+      xr[2] =     -45.0 + prj->x0;
+      yr[2] =  3.0*45.0 - prj->y0;
+      xr[3] =     -45.0 + prj->x0;
+      yr[3] = -3.0*45.0 - prj->y0;
+      xr[4] =      45.0 + prj->x0;
+      yr[4] = -3.0*45.0 - prj->y0;
+      xr[5] =      45.0 + prj->x0;
+      yr[5] =      45.0 - prj->y0;
+      xr[6] = -7.0*45.0 + prj->x0;
+      yr[6] =      45.0 - prj->y0;
+      xr[7] = -7.0*45.0 + prj->x0;
+      yr[7] =     -45.0 - prj->y0;
+      xr[8] =      45.0 + prj->x0;
+      yr[8] =     -45.0 - prj->y0;
+      cpgline(9, xr, yr);
+
+   } else {
+      cpgenv(-200.0f, 200.0f, -200.0f, 200.0f, 1, -2);
+      cpgsci(2);
+      sprintf(text,"%s - 15 degree graticule", pcode);
+      cpgtext(-240.0f, -220.0f, text);
+
+      if (prj->category == HEALPIX) {
+         /* Draw the perimeter of the HEALPix projection. */
+         cpgsci(8);
+
+         h = (int)(prj->pv[1] + 0.5);
+         sx = 180.0f / h;
+         sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+
+         hx = 180.0f + prj->x0;
+         hy = sy - sx - prj->y0;
+         cpgmove(hx, hy);
+
+         for (j = 0; j < h; j++) {
+            hx -= sx;
+            hy += sx;
+            cpgdraw(hx, hy);
+
+            hx -= sx;
+            hy -= sx;
+            cpgdraw(hx, hy);
+         }
+
+         hx = 180.0f + prj->x0;
+         hy = -sy + sx - prj->y0;
+
+         k = ((int)prj->pv[2])%2 ? 1 : -1;
+         if (k == -1) hy -= sx;
+
+         cpgmove(hx, hy);
+
+         for (j = 0; j < h; j++) {
+            hx -= sx;
+            hy -= k*sx;
+            cpgdraw(hx, hy);
+
+            hx -= sx;
+            hy += k*sx;
+            cpgdraw(hx, hy);
+         }
+a337 1
+   }
+d339 2
+d342 2
+a343 3
+   ci = 1;
+   for (ilng = -180; ilng <= 180; ilng+=15) {
+      if (++ci > 7) ci = 2;
+d345 1
+a345 1
+      lng[0] = (double)ilng;
+d347 8
+a354 5
+      cpgsci(ilng?ci:1);
+
+      len = north - south + 1;
+      for (j = 0, ilat = north; ilat >= south; ilat--, j++) {
+         lat[j] = (double)ilat;
+d356 2
+a358 1
+      prj->prjs2x(prj, 1, len, 1, 1, lng, lat, x, y, stat);
+d360 3
+a362 23
+      k = 0;
+      for (j = 0; j < len; j++) {
+         if (stat[j]) {
+            if (k > 1) cpgline(k, xr, yr);
+            k = 0;
+            continue;
+         }
+
+         if (prj->category == QUADCUBE && j > 0) {
+            if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+               if (k > 1) cpgline(k, xr, yr);
+               k = 0;
+            }
+         } else if (prj->category == HEALPIX && ilng == 180) {
+            if (x[j] > 180.0) {
+               continue;
+            }
+         }
+
+         xr[k] = -x[j];
+         yr[k] =  y[j];
+         k++;
+      }
+d364 1
+a364 2
+      cpgline(k, xr, yr);
+   }
+d366 1
+a366 4
+   ci = 1;
+   interrupted = (prj->category == QUADCUBE || prj->category == HEALPIX);
+   for (ilat = -90; ilat <= 90; ilat += 15) {
+      if (++ci > 7) ci = 2;
+d368 4
+a371 2
+      if (ilat > north) continue;
+      if (ilat < south) continue;
+d373 1
+a373 1
+      lat[0] = (double)ilat;
+d375 7
+a381 1
+      cpgsci(ilat?ci:1);
+d383 9
+a391 2
+      for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+         lng[j] = (double)ilng;
+d394 33
+a426 1
+      prj->prjs2x(prj, 361, 1, 1, 1, lng, lat, x, y, stat);
+d428 5
+a432 18
+      k = 0;
+      for (j = 0; j <= 360; j++) {
+         if (stat[j]) {
+            if (k > 1) cpgline(k, xr, yr);
+            k = 0;
+            continue;
+         }
+
+         if (interrupted && j > 0) {
+            if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+               if (k > 1) cpgline(k, xr, yr);
+               k = 0;
+            }
+         }
+
+         xr[k] = -x[j];
+         yr[k] =  y[j];
+         k++;
+d435 7
+a441 2
+      cpgline(k, xr, yr);
+   }
+d443 4
+a446 4
+   cpgsci(1);
+   xr[0] = 0.0f;
+   yr[0] = 0.0f;
+   cpgpt(1, xr, yr, 21);
+d449 2
+a450 2
+   cpgask(1);
+   cpgpage();
+d452 1
+a452 1
+   prjini(prj);
+d454 1
+a454 1
+   return;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tprj2.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tprj2.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 1
+a34 1
+* tproj2 tests projection routines by plotting test graticules using PGPLOT.
+d50 192
+a241 192
+  void prjplt();
+  int  status;
+  char text[80], text1[80], text2[80];
+  struct prjprm prj;
+
+
+  printf("Testing WCSLIB spherical projection routines (tprj2.c)\n"
+         "------------------------------------------------------\n");
+
+  /* List status return messages. */
+  printf("\nList of prj status return values:\n");
+  for (status = 1; status <= 4; status++) {
+    printf("%4d: %s.\n", status, prj_errmsg[status]);
+  }
+
+  printf("\n");
+
+
+  /* PGPLOT initialization. */
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+
+  /* Define pen colours. */
+  cpgscr(0, 0.00f, 0.00f, 0.00f);
+  cpgscr(1, 1.00f, 1.00f, 0.00f);
+  cpgscr(2, 1.00f, 1.00f, 1.00f);
+  cpgscr(3, 0.50f, 0.50f, 0.80f);
+  cpgscr(4, 0.80f, 0.50f, 0.50f);
+  cpgscr(5, 0.80f, 0.80f, 0.80f);
+  cpgscr(6, 0.50f, 0.50f, 0.80f);
+  cpgscr(7, 0.80f, 0.50f, 0.50f);
+  cpgscr(8, 0.30f, 0.50f, 0.30f);
+
+  strcpy(text1, "\n%s projection\n");
+  strcpy(text2, "\n%s projection\nParameters:");
+
+  prjini(&prj);
+
+  /* AZP: zenithal/azimuthal perspective. */
+  prj.pv[1] =   2.0;
+  prj.pv[2] =  30.0;
+  printf(text2, "Zenithal/azimuthal perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("AZP", 90, -90, &prj);
+
+  /* SZP: slant zenithal perspective. */
+  prj.pv[1] =   2.0;
+  prj.pv[2] = 210.0;
+  prj.pv[3] =  60.0;
+  printf(text2, "Slant zenithal perspective");
+  printf("%12.5f%12.5f%12.5f\n", prj.pv[1], prj.pv[2], prj.pv[3]);
+  prjplt("SZP", 90, -90, &prj);
+
+  /* TAN: gnomonic. */
+  printf(text1, "Gnomonic");
+  prjplt("TAN", 90,   5, &prj);
+
+  /* STG: stereographic. */
+  printf(text1, "Stereographic");
+  prjplt("STG", 90, -85, &prj);
+
+  /* SIN: orthographic. */
+  prj.pv[1] = -0.3;
+  prj.pv[2] =  0.5;
+  printf(text2, "Orthographic/synthesis");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("SIN", 90, -90, &prj);
+
+  /* ARC: zenithal/azimuthal equidistant. */
+  printf(text1, "Zenithal/azimuthal equidistant");
+  prjplt("ARC", 90, -90, &prj);
+
+  /* ZPN: zenithal/azimuthal polynomial. */
+  prj.pv[0] =  0.05000;
+  prj.pv[1] =  0.95000;
+  prj.pv[2] = -0.02500;
+  prj.pv[3] = -0.15833;
+  prj.pv[4] =  0.00208;
+  prj.pv[5] =  0.00792;
+  prj.pv[6] = -0.00007;
+  prj.pv[7] = -0.00019;
+  prj.pv[8] =  0.00000;
+  prj.pv[9] =  0.00000;
+  printf(text2, "Zenithal/azimuthal polynomial");
+  printf("%12.5f%12.5f%12.5f%12.5f%12.5f\n",
+    prj.pv[0], prj.pv[1], prj.pv[2], prj.pv[3], prj.pv[4]);
+  printf("           %12.5f%12.5f%12.5f%12.5f%12.5f\n",
+    prj.pv[5], prj.pv[6], prj.pv[7], prj.pv[8], prj.pv[9]);
+  prjplt("ZPN", 90,  10, &prj);
+
+  /* ZEA: zenithal/azimuthal equal area. */
+  printf(text1, "Zenithal/azimuthal equal area");
+  prjplt("ZEA", 90, -90, &prj);
+
+  /* AIR: Airy's zenithal projection. */
+  prj.pv[1] = 45.0;
+  printf(text2, "Airy's zenithal");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("AIR", 90, -85, &prj);
+
+  /* CYP: cylindrical perspective. */
+  prj.pv[1] = 3.0;
+  prj.pv[2] = 0.8;
+  printf(text2, "Cylindrical perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("CYP", 90, -90, &prj);
+
+  /* CEA: cylindrical equal area. */
+  prj.pv[1] = 0.75;
+  printf(text2, "Cylindrical equal area");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("CEA", 90, -90, &prj);
+
+  /* CAR: plate carree. */
+  printf(text1, "Plate carree");
+  prjplt("CAR", 90, -90, &prj);
+
+  /* MER: Mercator's. */
+  printf(text1, "Mercator's");
+  prjplt("MER", 85, -85, &prj);
+
+  /* SFL: Sanson-Flamsteed. */
+  printf(text1, "Sanson-Flamsteed (global sinusoid)");
+  prjplt("SFL", 90, -90, &prj);
+
+  /* PAR: parabolic. */
+  printf(text1, "Parabolic");
+  prjplt("PAR", 90, -90, &prj);
+
+  /* MOL: Mollweide's projection. */
+  printf(text1, "Mollweide's");
+  prjplt("MOL", 90, -90, &prj);
+
+  /* AIT: Hammer-Aitoff. */
+  printf(text1, "Hammer-Aitoff");
+  prjplt("AIT", 90, -90, &prj);
+
+  /* COP: conic perspective. */
+  prj.pv[1] =  60.0;
+  prj.pv[2] =  15.0;
+  printf(text2, "Conic perspective");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COP", 90, -25, &prj);
+
+  /* COE: conic equal area. */
+  prj.pv[1] =  60.0;
+  prj.pv[2] = -15.0;
+  printf(text2, "Conic equal area");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COE", 90, -90, &prj);
+
+  /* COD: conic equidistant. */
+  prj.pv[1] = -60.0;
+  prj.pv[2] =  15.0;
+  printf(text2, "Conic equidistant");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COD", 90, -90, &prj);
+
+  /* COO: conic orthomorphic. */
+  prj.pv[1] = -60.0;
+  prj.pv[2] = -15.0;
+  printf(text2, "Conic orthomorphic");
+  printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+  prjplt("COO", 85, -90, &prj);
+
+  /* BON: Bonne's projection. */
+  prj.pv[1] = 30.0;
+  printf(text2, "Bonne's");
+  printf("%12.5f\n", prj.pv[1]);
+  prjplt("BON", 90, -90, &prj);
+
+  /* PCO: polyconic. */
+  printf(text1, "Polyconic");
+  prjplt("PCO", 90, -90, &prj);
+
+  /* TSC: tangential spherical cube. */
+  printf(text1, "Tangential spherical cube");
+  prjplt("TSC", 90, -90, &prj);
+
+  /* CSC: COBE quadrilateralized spherical cube. */
+  printf(text1, "COBE quadrilateralized spherical cube");
+  prjplt("CSC", 90, -90, &prj);
+
+  /* QSC: quadrilateralized spherical cube. */
+  printf(text1, "Quadrilateralized spherical cube");
+  prjplt("QSC", 90, -90, &prj);
+
+  /* HPX: HEALPix projection. */
+  prj.pv[1] = 4.0;
+  prj.pv[2] = 3.0;
+  printf(text1, "HEALPix");
+  prjplt("HPX", 90, -90, &prj);
+d243 2
+a244 2
+  cpgask(0);
+  cpgend();
+d246 1
+a246 1
+  return 0;
+d269 19
+a287 47
+  char   text[80];
+  int    ci, h, ilat, ilng, interrupted, len, stat[361];
+  register int j, k;
+  float  hx, hy, sx, sy, xr[512], yr[512];
+  double lat[361], lng[361], x[361], y[361];
+
+  strcpy(prj->code, pcode);
+
+  printf("Plotting %s; latitudes%3d to%4d.\n", prj->code, north, south);
+
+  cpgask(0);
+
+  prjset(prj);
+  if (prj->category == QUADCUBE) {
+    /* Draw the perimeter of the quadcube projection. */
+    cpgenv(-335.0f, 65.0f, -200.0f, 200.0f, 1, -2);
+    cpgsci(2);
+    sprintf(text,"%s - 15 degree graticule", pcode);
+    cpgtext(-340.0f, -220.0f, text);
+
+    cpgsci(8);
+
+    xr[0] =      45.0 + prj->x0;
+    yr[0] =      45.0 - prj->y0;
+    xr[1] =      45.0 + prj->x0;
+    yr[1] =  3.0*45.0 - prj->y0;
+    xr[2] =     -45.0 + prj->x0;
+    yr[2] =  3.0*45.0 - prj->y0;
+    xr[3] =     -45.0 + prj->x0;
+    yr[3] = -3.0*45.0 - prj->y0;
+    xr[4] =      45.0 + prj->x0;
+    yr[4] = -3.0*45.0 - prj->y0;
+    xr[5] =      45.0 + prj->x0;
+    yr[5] =      45.0 - prj->y0;
+    xr[6] = -7.0*45.0 + prj->x0;
+    yr[6] =      45.0 - prj->y0;
+    xr[7] = -7.0*45.0 + prj->x0;
+    yr[7] =     -45.0 - prj->y0;
+    xr[8] =      45.0 + prj->x0;
+    yr[8] =     -45.0 - prj->y0;
+    cpgline(9, xr, yr);
+
+  } else {
+    cpgenv(-200.0f, 200.0f, -200.0f, 200.0f, 1, -2);
+    cpgsci(2);
+    sprintf(text,"%s - 15 degree graticule", pcode);
+    cpgtext(-240.0f, -220.0f, text);
+a288 2
+    if (prj->category == HEALPIX) {
+      /* Draw the perimeter of the HEALPix projection. */
+d291 65
+a355 16
+      h = (int)(prj->pv[1] + 0.5);
+      sx = 180.0f / h;
+      sy = sx * (int)(prj->pv[2] + 1.5) / 2.0f;
+
+      hx = 180.0f + prj->x0;
+      hy = sy - sx - prj->y0;
+      cpgmove(hx, hy);
+
+      for (j = 0; j < h; j++) {
+        hx -= sx;
+        hy += sx;
+        cpgdraw(hx, hy);
+
+        hx -= sx;
+        hy -= sx;
+        cpgdraw(hx, hy);
+d357 1
+a358 2
+      hx = 180.0f + prj->x0;
+      hy = -sy + sx - prj->y0;
+d360 3
+a362 2
+      k = ((int)prj->pv[2])%2 ? 1 : -1;
+      if (k == -1) hy -= sx;
+d364 1
+a364 1
+      cpgmove(hx, hy);
+d366 5
+a370 8
+      for (j = 0; j < h; j++) {
+        hx -= sx;
+        hy -= k*sx;
+        cpgdraw(hx, hy);
+
+        hx -= sx;
+        hy += k*sx;
+        cpgdraw(hx, hy);
+a371 2
+    }
+  }
+d373 1
+d375 23
+a397 3
+  ci = 1;
+  for (ilng = -180; ilng <= 180; ilng+=15) {
+    if (++ci > 7) ci = 2;
+d399 2
+a400 1
+    lng[0] = (double)ilng;
+d402 4
+a405 1
+    cpgsci(ilng?ci:1);
+d407 2
+a408 4
+    len = north - south + 1;
+    for (j = 0, ilat = north; ilat >= south; ilat--, j++) {
+      lat[j] = (double)ilat;
+    }
+d410 1
+a410 1
+    prj->prjs2x(prj, 1, len, 1, 1, lng, lat, x, y, stat);
+d412 1
+a412 7
+    k = 0;
+    for (j = 0; j < len; j++) {
+      if (stat[j]) {
+        if (k > 1) cpgline(k, xr, yr);
+        k = 0;
+        continue;
+      }
+d414 2
+a415 9
+      if (prj->category == QUADCUBE && j > 0) {
+        if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+          if (k > 1) cpgline(k, xr, yr);
+          k = 0;
+        }
+      } else if (prj->category == HEALPIX && ilng == 180) {
+        if (x[j] > 180.0) {
+          continue;
+        }
+d418 1
+a418 33
+      xr[k] = -x[j];
+      yr[k] =  y[j];
+      k++;
+    }
+
+    cpgline(k, xr, yr);
+  }
+
+  ci = 1;
+  interrupted = (prj->category == QUADCUBE || prj->category == HEALPIX);
+  for (ilat = -90; ilat <= 90; ilat += 15) {
+    if (++ci > 7) ci = 2;
+
+    if (ilat > north) continue;
+    if (ilat < south) continue;
+
+    lat[0] = (double)ilat;
+
+    cpgsci(ilat?ci:1);
+
+    for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+      lng[j] = (double)ilng;
+    }
+
+    prj->prjs2x(prj, 361, 1, 1, 1, lng, lat, x, y, stat);
+
+    k = 0;
+    for (j = 0; j <= 360; j++) {
+      if (stat[j]) {
+        if (k > 1) cpgline(k, xr, yr);
+        k = 0;
+        continue;
+      }
+d420 18
+a437 5
+      if (interrupted && j > 0) {
+        if (fabs(x[j] - x[j-1]) > 2.0 || fabs(y[j] - y[j-1]) > 5.0) {
+          if (k > 1) cpgline(k, xr, yr);
+          k = 0;
+        }
+d440 2
+a441 7
+      xr[k] = -x[j];
+      yr[k] =  y[j];
+      k++;
+    }
+
+    cpgline(k, xr, yr);
+  }
+d443 4
+a446 4
+  cpgsci(1);
+  xr[0] = 0.0f;
+  yr[0] = 0.0f;
+  cpgpt(1, xr, yr, 21);
+d449 2
+a450 2
+  cpgask(1);
+  cpgpage();
+d452 1
+a452 1
+  prjini(prj);
+d454 1
+a454 1
+  return;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tprj2.c,v 4.1 2005/08/22 07:45:05 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj2.c,v 4.2 2005/09/22 02:15:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tprj2.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: trivial changes.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj2.c,v 4.0 2005/02/04 06:32:50 cal103 Exp cal103 $
+d55 2
+a56 2
+   printf("\nTesting WCSLIB spherical projection routines\n");
+   printf("--------------------------------------------\n");
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; draw the graticule for the new HPX
+projection.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj2.c,v 3.6 2004/08/25 05:31:25 cal103 Exp cal103 $
+d50 1
+a50 1
+   int    j;
+d60 2
+a61 2
+   for (j = 1; j <= 4 ; j++) {
+      printf("   %d: %s.\n", j, prj_errmsg[j]);
+d193 7
+a206 7
+   /* COE: conic equal area. */
+   prj.pv[1] =  60.0;
+   prj.pv[2] = -15.0;
+   printf(text2, "Conic equal area");
+   printf("%12.5f%12.5f\n", prj.pv[1], prj.pv[2]);
+   prjplt("COE", 90, -90, &prj);
+
+d282 1
+d317 1
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value".
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by the
+*   Free Software Foundation; either version 2 of the License, or (at your
+*   option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d17 2
+a18 2
+*   with this library; if not, write to the Free Software Foundation, Inc.,
+*   675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: tprj2.c,v 3.5 2004/06/28 01:05:42 mcalabre Exp mcalabre $
+d236 6
+d269 1
+a269 1
+   int    ci, ilat, ilng, len, stat[361];
+d271 1
+a271 1
+   float  xr[512], yr[512];
+d308 1
+d314 40
+d385 4
+d400 1
+d425 1
+a425 1
+         if (prj->category == QUADCUBE && j > 0) {
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj2.c,v 3.4 2004/02/11 00:23:05 mcalabre Exp mcalabre $
+d58 2
+a59 2
+   /* List error messages. */
+   printf("\nList of prj error codes:\n");
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+a34 1
+*   $Id: tprj2.c,v 3.3 2003/10/21 08:10:05 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3: report CAR by its correct name.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tprj2.c,v 3.2 2003/09/09 04:40:16 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id: tprj2.c,v 3.1 2003/04/28 04:27:07 mcalabre Exp mcalabre $
+d160 2
+a161 2
+   /* CAR: Cartesian. */
+   printf(text1, "Cartesian");
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id: tprj2.c,v 3.0 2003/04/01 04:16:39 mcalabre Exp mcalabre $
+d57 3
+a59 13
+   printf("\nList of prjset error codes:\n");
+   for (j = 1; j <= 1 ; j++) {
+      printf("   %d: %s.\n", j, prjset_errmsg[j]);
+   }
+
+   printf("\nList of prjx2s error codes:\n");
+   for (j = 1; j <= 2 ; j++) {
+      printf("   %d: %s.\n", j, prjx2s_errmsg[j]);
+   }
+
+   printf("\nList of prjs2x error codes:\n");
+   for (j = 1; j <= 2 ; j++) {
+      printf("   %d: %s.\n", j, prjs2x_errmsg[j]);
+@
+
+
+3.0
+log
+@WCSLIB 3.0 (renamed from tproj2.c).
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.11 2001/11/16 02:40:55 mcalabre Exp $
+@
+
+
+2.12
+log
+@Updated date in copyright notice.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d30 1
+a30 1
+*   tproj2 tests projection routines by plotting test grids using PGPLOT.
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.11 2001/11/16 02:40:55 mcalabre Exp mcalabre $
+d35 1
+d40 2
+a41 2
+#include <cpgplot.h>
+#include "proj.h"
+d58 3
+a60 1
+   printf("   %d: %s.\n", 1, prjset_errmsg[1]);
+d62 3
+a64 3
+   printf("\nList of prjfwd error codes:\n");
+   for (j = 1; j <=2 ; j++) {
+      printf("   %d: %s.\n", j, prjfwd_errmsg[j]);
+d67 3
+a69 3
+   printf("\nList of prjrev error codes:\n");
+   for (j = 1; j <=2 ; j++) {
+      printf("   %d: %s.\n", j, prjrev_errmsg[j]);
+d93 1
+a93 1
+   for (j = 0; j < 10; prj.p[j++] = 0.0);
+d96 2
+a97 2
+   prj.p[1] =   2.0;
+   prj.p[2] =  30.0;
+d99 1
+a99 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d103 3
+a105 3
+   prj.p[1] =   2.0;
+   prj.p[2] = 210.0;
+   prj.p[3] =  60.0;
+d107 1
+a107 1
+   printf("%12.5f%12.5f%12.5f\n", prj.p[1], prj.p[2], prj.p[3]);
+d119 2
+a120 2
+   prj.p[1] = -0.3;
+   prj.p[2] =  0.5;
+d122 1
+a122 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d130 10
+a139 10
+   prj.p[0] =  0.05000;
+   prj.p[1] =  0.95000;
+   prj.p[2] = -0.02500;
+   prj.p[3] = -0.15833;
+   prj.p[4] =  0.00208;
+   prj.p[5] =  0.00792;
+   prj.p[6] = -0.00007;
+   prj.p[7] = -0.00019;
+   prj.p[8] =  0.00000;
+   prj.p[9] =  0.00000;
+d142 1
+a142 1
+      prj.p[0], prj.p[1], prj.p[2], prj.p[3], prj.p[4]);
+d144 1
+a144 1
+      prj.p[5], prj.p[6], prj.p[7], prj.p[8], prj.p[9]);
+d152 1
+a152 1
+   prj.p[1] = 45.0;
+d154 1
+a154 1
+   printf("%12.5f\n", prj.p[1]);
+d158 2
+a159 2
+   prj.p[1] = 3.0;
+   prj.p[2] = 0.8;
+d161 1
+a161 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d165 1
+a165 1
+   prj.p[1] = 0.75;
+d167 1
+a167 1
+   printf("%12.5f\n", prj.p[1]);
+d195 2
+a196 2
+   prj.p[1] =  60.0;
+   prj.p[2] =  15.0;
+d198 1
+a198 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d202 2
+a203 2
+   prj.p[1] = -60.0;
+   prj.p[2] =  15.0;
+d205 1
+a205 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d209 2
+a210 2
+   prj.p[1] =  60.0;
+   prj.p[2] = -15.0;
+d212 1
+a212 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d216 2
+a217 2
+   prj.p[1] = -60.0;
+   prj.p[2] = -15.0;
+d219 1
+a219 1
+   printf("%12.5f%12.5f\n", prj.p[1], prj.p[2]);
+d223 1
+a223 1
+   prj.p[1] = 30.0;
+d225 1
+a225 1
+   printf("%12.5f\n", prj.p[1]);
+d252 1
+a252 1
+*   PRJPLT draws a 15 degree coordinate grid.
+d271 2
+a272 2
+   int    ci, cubic, ilat, ilng;
+   register int j;
+d274 1
+a274 1
+   double lat, lng, x, y;
+d276 1
+a276 2
+   prj->flag = 0;
+   prj->r0 = 0.0;
+a277 2
+   prjset(pcode, prj);
+
+d282 2
+a283 2
+   cubic = prj->flag/100 == 7;
+   if (cubic) {
+d291 18
+a308 18
+      xr[0] =  prj->w[0];
+      yr[0] =  prj->w[0];
+      xr[1] =  prj->w[0];
+      yr[1] =  prj->w[0]*3.0;
+      xr[2] = -prj->w[0];
+      yr[2] =  prj->w[0]*3.0;
+      xr[3] = -prj->w[0];
+      yr[3] = -prj->w[0]*3.0;
+      xr[4] =  prj->w[0];
+      yr[4] = -prj->w[0]*3.0;
+      xr[5] =  prj->w[0];
+      yr[5] =  prj->w[0];
+      xr[6] = -prj->w[0]*7.0;
+      yr[6] =  prj->w[0];
+      xr[7] = -prj->w[0]*7.0;
+      yr[7] = -prj->w[0];
+      xr[8] =  prj->w[0];
+      yr[8] = -prj->w[0];
+d322 1
+a322 1
+      lng = (double)ilng;
+d326 12
+a337 7
+      j = 0;
+      for (ilat = north; ilat >= south; ilat--) {
+         lat = (double)ilat;
+
+         if (prj->prjfwd(lng, lat, prj, &x, &y)) {
+            if (j > 1) cpgline(j, xr, yr);
+            j = 0;
+d341 4
+a344 4
+         if (cubic && j > 0) {
+            if (fabs(x+xr[j-1]) > 2.0 || fabs(y-yr[j-1]) > 5.0) {
+               if (j > 1) cpgline(j, xr, yr);
+               j = 0;
+d348 3
+a350 3
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+d353 1
+a353 1
+      cpgline(j, xr, yr);
+d363 1
+a363 1
+      lat = (double)ilat;
+d367 11
+a377 7
+      j = 0;
+      for (ilng = -180; ilng <= 180; ilng++) {
+         lng = (double)ilng;
+
+         if (prj->prjfwd(lng, lat, prj, &x, &y)) {
+            if (j > 1) cpgline(j, xr, yr);
+            j = 0;
+d381 4
+a384 4
+         if (cubic && j > 0) {
+            if (fabs(x+xr[j-1]) > 2.0 || fabs(y-yr[j-1]) > 5.0) {
+               if (j > 1) cpgline(j, xr, yr);
+               j = 0;
+d388 3
+a390 3
+         xr[j] = -x;
+         yr[j] =  y;
+         j++;
+d393 1
+a393 1
+      cpgline(j, xr, yr);
+a401 2
+   for (j = 0; j < 10; prj->p[j++] = 0.0);
+
+d404 2
+@
+
+
+2.11
+log
+@Call cpgask(0) before cpgend().
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.10 2001/11/15 05:15:11 mcalabre Exp mcalabre $
+@
+
+
+2.10
+log
+@Removed the projection type from the argument list to prjplt(), this can now
+be deduced from prjprm->flag.
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 2.9 2001/11/15 03:04:19 mcalabre Exp mcalabre $
+d241 1
+@
+
+
+2.9
+log
+@Test AZP with gamma = 30; added new test for SZP; revised parameters for the
+SIN projection; removed the pointer to the forward projection routine from
+the argument list to prjplt(); don't say what's being plotted until the plot
+actually starts.
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 2.8 2000/12/04 08:22:50 mcalabre Exp mcalabre $
+d97 1
+a97 1
+   prjplt("AZP", &prj, 90, -90, 1);
+d105 1
+a105 1
+   prjplt("SZP", &prj, 90, -90, 1);
+d109 1
+a109 1
+   prjplt("TAN", &prj, 90, 5, 1);
+d113 1
+a113 1
+   prjplt("STG", &prj, 90, -85, 1);
+d120 1
+a120 1
+   prjplt("SIN", &prj, 90, -90, 1);
+d124 1
+a124 1
+   prjplt("ARC", &prj, 90, -90, 1);
+d142 1
+a142 1
+   prjplt("ZPN", &prj, 90, 10, 1);
+d146 1
+a146 1
+   prjplt("ZEA", &prj, 90, -90, 1);
+d152 1
+a152 1
+   prjplt("AIR", &prj, 90, -85, 1);
+d159 1
+a159 1
+   prjplt("CYP", &prj, 90, -90, 2);
+d165 1
+a165 1
+   prjplt("CEA", &prj, 90, -90, 2);
+d169 1
+a169 1
+   prjplt("CAR", &prj, 90, -90, 2);
+d173 1
+a173 1
+   prjplt("MER", &prj, 85, -85, 2);
+d177 1
+a177 1
+   prjplt("SFL", &prj, 90, -90, 4);
+d181 1
+a181 1
+   prjplt("PAR", &prj, 90, -90, 4);
+d185 1
+a185 1
+   prjplt("MOL", &prj, 90, -90, 4);
+d189 1
+a189 1
+   prjplt("AIT", &prj, 90, -90, 4);
+d196 1
+a196 1
+   prjplt("COP", &prj, 90, -25, 3);
+d203 1
+a203 1
+   prjplt("COD", &prj, 90, -90, 3);
+d210 1
+a210 1
+   prjplt("COE", &prj, 90, -90, 3);
+d217 1
+a217 1
+   prjplt("COO", &prj, 85, -90, 3);
+d223 1
+a223 1
+   prjplt("BON", &prj, 90, -90, 4);
+d227 1
+a227 1
+   prjplt("PCO", &prj, 90, -90, 4);
+d231 1
+a231 1
+   prjplt("TSC", &prj, 90, -90, 5);
+d235 1
+a235 1
+   prjplt("CSC", &prj, 90, -90, 5);
+d239 1
+a239 1
+   prjplt("QSC", &prj, 90, -90, 5);
+a253 6
+*      type      int      Projection classification:
+*                           1: zenithal/azimuthal
+*                           2: cylindrical
+*                           3: conic
+*                           4: conventional
+*                           5: quad cube
+d259 1
+a259 1
+void prjplt(pcode, prj, north, south, type)
+d262 1
+a262 1
+int    north, south, type;
+d267 1
+a267 1
+   int    ci, ilat, ilng;
+d280 3
+a282 1
+   if (type == 5) {
+d335 1
+a335 1
+         if (type == 5 && j > 0) {
+d371 1
+a371 1
+         if (type == 5 && j > 0) {
+@
+
+
+2.8
+log
+@Use the cpgplot interface to PGPLOT; renamed "GLS" -> "SFL"; eliminated GNU
+compiler warnings; reordered projections to match paper.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.8 2000/12/04 06:46:23 mcalabre Exp mcalabre $
+d93 2
+a94 1
+   prj.p[1] = 2.0;
+d96 10
+a105 2
+   printf("%12.5f\n", prj.p[1]);
+   prjplt("AZP", azpfwd, &prj, 90, -30, 1);
+d109 1
+a109 1
+   prjplt("TAN", tanfwd, &prj, 90, 5, 1);
+d113 1
+a113 1
+   prjplt("STG", stgfwd, &prj, 90, -85, 1);
+d116 2
+a117 2
+   prj.p[1] = 0.3;
+   prj.p[2] = 0.5;
+d120 1
+a120 1
+   prjplt("SIN", sinfwd, &prj, 90, -90, 1);
+d124 1
+a124 1
+   prjplt("ARC", arcfwd, &prj, 90, -90, 1);
+d142 1
+a142 1
+   prjplt("ZPN", zpnfwd, &prj, 90, 10, 1);
+d146 1
+a146 1
+   prjplt("ZEA", zeafwd, &prj, 90, -90, 1);
+d152 1
+a152 1
+   prjplt("AIR", airfwd, &prj, 90, -85, 1);
+d159 1
+a159 1
+   prjplt("CYP", cypfwd, &prj, 90, -90, 2);
+d165 1
+a165 1
+   prjplt("CEA", ceafwd, &prj, 90, -90, 2);
+d169 1
+a169 1
+   prjplt("CAR", carfwd, &prj, 90, -90, 2);
+d173 1
+a173 1
+   prjplt("MER", merfwd, &prj, 85, -85, 2);
+d177 1
+a177 1
+   prjplt("SFL", sflfwd, &prj, 90, -90, 4);
+d181 1
+a181 1
+   prjplt("PAR", parfwd, &prj, 90, -90, 4);
+d185 1
+a185 1
+   prjplt("MOL", molfwd, &prj, 90, -90, 4);
+d189 1
+a189 1
+   prjplt("AIT", aitfwd, &prj, 90, -90, 4);
+d196 1
+a196 1
+   prjplt("COP", copfwd, &prj, 90, -25, 3);
+d203 1
+a203 1
+   prjplt("COD", codfwd, &prj, 90, -90, 3);
+d210 1
+a210 1
+   prjplt("COE", coefwd, &prj, 90, -90, 3);
+d217 1
+a217 1
+   prjplt("COO", coofwd, &prj, 85, -90, 3);
+d223 1
+a223 1
+   prjplt("BON", bonfwd, &prj, 90, -90, 4);
+d227 1
+a227 1
+   prjplt("PCO", pcofwd, &prj, 90, -90, 4);
+d231 1
+a231 1
+   prjplt("TSC", tscfwd, &prj, 90, -90, 5);
+d235 1
+a235 1
+   prjplt("CSC", cscfwd, &prj, 90, -90, 5);
+d239 1
+a239 1
+   prjplt("QSC", qscfwd, &prj, 90, -90, 5);
+a251 1
+*      *prjfwd() int      Forward projection routine.
+d265 1
+a265 1
+void prjplt(pcode, prjfwd, prj, north, south, type)
+a268 1
+int    (*prjfwd)();
+a277 2
+   printf("Plotting %s; latitudes%3d to%4d.\n", pcode, north, south);
+
+d281 5
+a292 1
+      (void) prjfwd(0.0, 0.0, prj, &x, &y);
+d333 1
+a333 1
+         if (prjfwd(lng, lat, prj, &x, &y)) {
+d369 1
+a369 1
+         if (prjfwd(lng, lat, prj, &x, &y)) {
+d397 3
+@
+
+
+2.7
+log
+@Updated date in copyright notice.
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 2.6 1999/12/13 07:44:08 mcalabre Exp mcalabre $
+d39 1
+a41 1
+main()
+d43 2
+d74 1
+a74 1
+   pgbeg(0, text, 1, 1);
+d77 9
+a85 9
+   pgscr(0, 0.00, 0.00, 0.00);
+   pgscr(1, 1.00, 1.00, 0.00);
+   pgscr(2, 1.00, 1.00, 1.00);
+   pgscr(3, 0.50, 0.50, 0.80);
+   pgscr(4, 0.80, 0.50, 0.50);
+   pgscr(5, 0.80, 0.80, 0.80);
+   pgscr(6, 0.50, 0.50, 0.80);
+   pgscr(7, 0.80, 0.50, 0.50);
+   pgscr(8, 0.30, 0.50, 0.30);
+d95 1
+a95 1
+   printf("%12.5lf\n", prj.p[1]);
+d102 4
+d110 1
+a110 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+a112 4
+   /* STG: stereographic. */
+   printf(text1, "Stereographic");
+   prjplt("STG", stgfwd, &prj, 90, -85, 1);
+
+d129 1
+a129 1
+   printf("%12.5lf%12.5lf%12.5lf%12.5lf%12.5lf\n",
+d131 1
+a131 1
+   printf("           %12.5lf%12.5lf%12.5lf%12.5lf%12.5lf\n",
+d142 1
+a142 1
+   printf("%12.5lf\n", prj.p[1]);
+d149 1
+a149 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+d152 6
+d166 15
+a180 5
+   /* CEA: cylindrical equal area. */
+   prj.p[1] = 0.75;
+   printf(text2, "Cylindrical equal area");
+   printf("%12.5lf\n", prj.p[1]);
+   prjplt("CEA", ceafwd, &prj, 90, -90, 2);
+d186 1
+a186 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+d193 1
+a193 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+d200 1
+a200 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+d207 1
+a207 1
+   printf("%12.5lf%12.5lf\n", prj.p[1], prj.p[2]);
+d213 1
+a213 1
+   printf("%12.5lf\n", prj.p[1]);
+d220 3
+a222 7
+   /* GLS: Sanson-Flamsteed (global sinusoid). */
+   printf(text1, "Sanson-Flamsteed (global sinusoid)");
+   prjplt("GLS", glsfwd, &prj, 90, -90, 4);
+
+   /* PAR: parabolic. */
+   printf(text1, "Parabolic");
+   prjplt("PAR", parfwd, &prj, 90, -90, 4);
+a223 8
+   /* AIT: Hammer-Aitoff. */
+   printf(text1, "Hammer-Aitoff");
+   prjplt("AIT", aitfwd, &prj, 90, -90, 4);
+
+   /* MOL: Mollweide's projection. */
+   printf(text1, "Mollweide's");
+   prjplt("MOL", molfwd, &prj, 90, -90, 4);
+
+d232 1
+a232 5
+   /* TSC: tangential spherical cube. */
+   printf(text1, "Tangential spherical cube");
+   prjplt("TSC", tscfwd, &prj, 90, -90, 5);
+
+   pgend();
+d277 2
+a278 2
+      pgenv(-335.0, 65.0, -200.0, 200.0, 1, -2);
+      pgsci(2);
+d280 1
+a280 1
+      pgtext(-340.0, -220.0, text);
+d282 1
+a282 1
+      pgsci(8);
+d303 1
+a303 1
+      pgline(9, xr, yr);
+d305 2
+a306 2
+      pgenv(-200.0, 200.0, -200.0, 200.0, 1, -2);
+      pgsci(2);
+d308 1
+a308 1
+      pgtext(-240.0, -220.0, text);
+d318 1
+a318 1
+      pgsci(ilng?ci:1);
+d325 1
+a325 1
+            if (j > 1) pgline(j, xr, yr);
+d332 1
+a332 1
+               if (j > 1) pgline(j, xr, yr);
+d342 1
+a342 1
+      pgline(j, xr, yr);
+d354 1
+a354 1
+      pgsci(ilat?ci:1);
+d361 1
+a361 1
+            if (j > 1) pgline(j, xr, yr);
+d368 1
+a368 1
+               if (j > 1) pgline(j, xr, yr);
+d378 1
+a378 1
+      pgline(j, xr, yr);
+d381 1
+a381 1
+   pgsci(1);
+d384 1
+a384 1
+   pgpt(1, xr, yr, 21);
+@
+
+
+2.6
+log
+@Revised include file handling; added return statement.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.6 1999/12/13 07:33:21 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Removed test for the DSS projection.
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 2.4 1998/02/25 07:05:50 mcalabre Exp mcalabre $
+d35 1
+d38 1
+d232 1
+a232 1
+   exit(0);
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.3 1998/01/30 00:22:06 mcalabre Exp mcalabre $
+a226 31
+
+   /* DSS: Digitized Sky Survey plate solution. */
+   for (j = 0; j < 41; prj.p[j++] = 0.0);
+   prj.p[1]  =  6.7234393905749e+1;
+   prj.p[2]  = -6.1206212502750e-2;
+   prj.p[3]  =  1.5759396719012e+0;
+   prj.p[4]  =  6.1080557365045e-6;
+   prj.p[5]  = -2.6552938895374e-6;
+   prj.p[6]  =  4.4723731979254e-6; 
+   prj.p[7]  =  0.0;
+   prj.p[8]  =  2.2738613554068e-6; 
+   prj.p[9]  =  1.1780229217156e-7;
+   prj.p[10] =  2.3127913803362e-6;
+   prj.p[11] =  2.6947954285615e-7;
+   prj.p[12] =  0.0;
+   prj.p[13] =  0.0;
+   prj.p[21] =  6.7235533666628e+1;
+   prj.p[22] =  4.7635767340281e-2;
+   prj.p[23] = -7.8406019970120e-1;
+   prj.p[24] =  1.5939998327381e-6;
+   prj.p[25] =  1.8975126432299e-6;
+   prj.p[26] = -8.5014528625798e-6;
+   prj.p[27] =  0.0;
+   prj.p[28] =  2.3477758536500e-6;
+   prj.p[29] = -3.4484897053509e-8;
+   prj.p[30] =  2.4396799598502e-6;
+   prj.p[31] =  1.7572855739632e-8;
+   prj.p[32] =  0.0;
+   prj.p[33] =  0.0;
+   printf(text1, "Digitized Sky Survey");
+   prjplt("DSS", dssfwd, &prj, 90, 5, 1);
+@
+
+
+2.3
+log
+@Tweaked the SIN projection parameters and added test for the DSS projection.
+Also, include <stdlib.h>, and replace return from main with exit.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998 Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.2 1996/05/07 20:30:14 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Print predefined error messages.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.1 1995/12/22 02:43:29 mcalabre Exp mcalabre $
+d35 1
+d100 1
+a100 1
+   prj.p[2] = 1.5;
+d103 1
+a103 1
+   prjplt("SIN", sinfwd, &prj, 90, 60, 1);
+d228 31
+d261 1
+a261 1
+   return 0;
+d351 5
+a355 1
+         if (prjfwd(lng, lat, prj, &x, &y)) continue;
+d387 5
+a391 1
+         if (prjfwd(lng, lat, prj, &x, &y)) continue;
+@
+
+
+2.1
+log
+@Test prj->p[1] < 0 and/or prj->p[2] < 0 for the conics.  Also, mark the
+reference point for the projection on the grid plot.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d32 1
+a32 1
+*   $Id: tproj2.c,v 2.0 1995/09/12 06:39:44 mcalabre Exp mcalabre $
+d45 20
+d66 1
+d234 1
+a234 1
+*   PROJEX exercises the spherical projection routines.
+d237 1
+a237 1
+*      prj[4]    char     Projection mnemonic.
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 1.2 1995/09/12 06:35:54 mcalabre Exp mcalabre $
+d141 2
+a142 2
+   prj.p[1] = 60.0;
+   prj.p[2] = 15.0;
+d148 2
+a149 2
+   prj.p[1] = 60.0;
+   prj.p[2] = 15.0;
+d155 2
+a156 2
+   prj.p[1] = 60.0;
+   prj.p[2] = 15.0;
+d162 2
+a163 2
+   prj.p[1] = 60.0;
+   prj.p[2] = 15.0;
+d166 1
+a166 1
+   prjplt("COO", coofwd, &prj, 90, -85, 3);
+d346 5
+@
+
+
+1.2
+log
+@1) Reference latitude for conics now at the midpoint of the standard
+   parallels.
+2) Use pgpage() to start new plots rather then pgbeg() to save having to
+   destroy the old window and create a new one.
+3) Fixed the colour sequence for meridians (blue-red-white).
+@
+text
+@d32 1
+a32 1
+*   $Id: tproj2.c,v 1.1 1995/01/31 03:13:15 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d32 1
+a32 1
+*   $Id$
+d35 1
+d43 1
+a43 1
+   char text1[80], text2[80];
+d46 15
+d141 2
+a142 2
+   prj.p[1] = 45.0;
+   prj.p[2] = 75.0;
+d148 2
+a149 2
+   prj.p[1] = 45.0;
+   prj.p[2] = 75.0;
+d155 2
+a156 2
+   prj.p[1] = 45.0;
+   prj.p[2] = 75.0;
+d162 2
+a163 2
+   prj.p[1] = 45.0;
+   prj.p[2] = 75.0;
+d206 2
+a249 14
+   strcpy(text, "/xwindow");
+   pgbeg(0, text, 1, 1);
+
+   /* Define pen colours. */
+   pgscr(0, 0.00, 0.00, 0.00);
+   pgscr(1, 1.00, 1.00, 0.00);
+   pgscr(2, 1.00, 1.00, 1.00);
+   pgscr(3, 0.80, 0.50, 0.50);
+   pgscr(4, 0.50, 0.50, 0.80);
+   pgscr(5, 0.80, 0.80, 0.80);
+   pgscr(6, 0.80, 0.50, 0.50);
+   pgscr(7, 0.50, 0.50, 0.80);
+   pgscr(8, 0.30, 0.50, 0.30);
+
+d252 1
+d280 1
+d316 1
+a316 1
+   for (ilat = 90; ilat >= -90; ilat -= 15) {
+a345 2
+
+   pgend();
+@

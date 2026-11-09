@@ -1,0 +1,4359 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.27.24;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.58.15;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	0.0;
+
+0.0
+date	2007.07.04.06.31.08;	author cal103;	state Exp;
+branches
+	0.0.1.1;
+next	;
+
+0.0.1.1
+date	2007.07.11.02.23.36;	author cal103;	state Exp;
+branches;
+next	0.0.1.2;
+
+0.0.1.2
+date	2007.07.12.01.09.28;	author cal103;	state Exp;
+branches;
+next	0.0.1.3;
+
+0.0.1.3
+date	2007.12.27.04.54.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.22.58;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.21.06.32.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.42.06;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.07.08.08.37.41;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.16.00.18.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.11.24.01.20.14;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2010.12.14.23.51.07;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2011.01.25.05.50.52;	author cal103;	state Exp;
+branches;
+next	4.6.1.5;
+
+4.6.1.5
+date	2011.01.27.04.56.24;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.02.09.02.47.31;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.13.03.35.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.22.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.03.06.11.44.07;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.01.10.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.15.12.33.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	5.5.1.2;
+
+5.5.1.2
+date	2015.06.14.06.23.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.29.02.03.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.2;
+
+5.7.1.2
+date	2015.07.03.05.45.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.12.10.48.38;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.3;
+
+5.16.1.3
+date	2017.09.18.08.42.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.00.49.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.26.15.33.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.03.13.14.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.03.38.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.07.08.09.33.24;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.12.46.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.25.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.12.06.13.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.05.45.29;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.3;
+
+8.0.1.3
+date	2023.07.04.07.03.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2023.12.20.13.26.38;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.05.49.30;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.08.15.53.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.09.06.02.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.24.05.42.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	8.9.1.2;
+
+8.9.1.2
+date	2026.09.18.15.33.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FLAVOUR overrides of makedefs variables used for code development.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# Variable definitions for various combinations of architecture, operating
+# system, compiler, and purpose.  Used for development and testing only, not
+# required for building WCSLIB.
+#
+# Definitions in this file are only used when running 'configure'.  Variables
+# such as CC and CFLAGS are exported to the environment so that they will be
+# seen by 'configure' and from there passed to makedefs.  Thus, normal usage
+# is as follows:
+#
+#   make distclean
+#   make FLAVOUR=dev configure
+#
+# At that point the definitions here should have propagated to makedefs.
+#
+# WARNING: configure may ignore compiler options added to the CC or F77
+#          environment variables.  They must be added to CFLAGS or FFLAGS.
+#
+# Reminder: add '-d' to FLFLAGS for debugging.
+#
+# $Id: flavours,v 8.9.1.2 2026/09/18 15:33:28 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+
+F :=
+
+ifeq "$(FLAVOUR)" ""
+  override FLAVOUR := default
+endif
+
+ifeq "$(FLAVOUR)" "default"
+  F   := default
+endif
+
+ifeq "$(FLAVOUR)" "dev"
+  # Currently gcc 11.4.0.
+  F   := development
+  CC  := gcc
+  F77 := gfortran
+endif
+
+ifeq "$(FLAVOUR)" "dev12"
+  # Currently gcc 12.3.0.
+  F   := development
+  CC  := gcc-12
+  F77 := gfortran-12
+endif
+
+# Compiler optimization level.  Note that warnings produced by the compiler
+# may depend on the optimization level, e.g. -Wformat-truncation, which is
+# implied by -Wall, may produce warnings at -O2 but not at -O0.
+ifndef OPT
+  OPT := 0
+endif
+
+
+# Quench warnings about padding in foreign structs, particularly in fitsio.h.
+ifneq "$(findstring $(SUBDIR),C Fortran pgsbox)" ""
+  WPADDED := -Wpadded
+endif
+
+ifeq "$F" "development"
+  # Options for code development with gcc/gfortran.
+#  INSTRUMENT      := -fsanitize=address    # appears to be broken.
+  INSTRUMENT      := -fsanitize=undefined
+  INSTRUMENT      += -fstack-protector-strong
+  CWARNINGS       := -Wall -Wextra
+  CWARNINGS       += -Wno-clobbered -Wno-long-long -Wno-stringop-truncation
+  ifeq "$(INSTRUMENT)" ""
+    # The instrumentation options produce copious "padding" warnings.
+    CWARNINGS     += $(WPADDED)
+  endif
+  FWARNINGS       := -Wall -Wno-surprising
+  export CC       := $(CC)
+  export CPPFLAGS := -D_FORTIFY_SOURCE=2
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += -g -O$(OPT) $(INSTRUMENT) $(CWARNINGS)
+  export F77      := $(F77)
+  export FFLAGS   := -g -O$(OPT) -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+  export LDFLAGS  := $(INSTRUMENT)
+  ifdef VALGRIND
+    override VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+    override VALGRIND += --track-origins=yes
+  endif
+endif
+
+ifeq "$(FLAVOUR)" "lto"
+  # For LTO development.
+  F := $(FLAVOUR)
+  export BINDC    := yes
+  CWARNINGS       := -Wall -Wextra
+  CWARNINGS       += -Wno-clobbered -Wno-long-long -Wno-stringop-truncation
+  FWARNINGS       := -Wall -Wno-surprising
+  LTOFLAGS        := -O1 -flto=4 -Werror=odr -Werror=lto-type-mismatch -Werror=strict-aliasing
+  export CC       := gcc-12
+  export CPPFLAGS := -D_FORTIFY_SOURCE=2
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += $(LTOFLAGS) $(CWARNINGS)
+  export F77      := gfortran-12
+  export FFLAGS   := -fimplicit-none -I. $(LTOFLAGS) $(FWARNINGS)
+  export LDFLAGS  := $(LTOFLAGS)
+endif
+
+ifeq "$(FLAVOUR)" "profile"
+  # gcc with profiling (gprof).
+  F := $(FLAVOUR)
+  export CC       := gcc
+  export CPPFLAGS :=
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += -pg -g -O -Wall -Wextra -Wno-long-long $(WPADDED)
+  export FFLAGS   := -pg -g -O -fimplicit-none -Wall -I.
+  export LDFLAGS  := -pg -g $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+# Uses .clang-tidy to define checks.
+ANALYSE := clang-tidy-20
+
+# Check FLAVOUR.
+ifeq "$F" ""
+  override FLAVOUR := unrecognised
+endif
+
+# Check VALGRIND.
+ifeq "$(findstring valgrind, $(VALGRIND))" "valgrind"
+  override MODE := interactive
+else
+  # Unrecognised.
+  override VALGRIND :=
+endif
+
+# Check MODE.
+ifneq "$(MODE)" "interactive"
+  # Unrecognised.
+  override MODE :=
+endif
+
+# Check EXTRA_CLEAN.
+ifeq "$(EXTRA_CLEAN)" ""
+  EXTRA_CLEAN :=
+endif
+
+# Pass to configure though the environment.
+export FLAVOUR
+export ANALYSE
+export VALGRIND
+export MODE
+export EXTRA_CLEAN
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+d27 4
+a31 1
+  override FLAVOUR := default
+d48 3
+a50 1
+# Compiler optimization level.
+d66 2
+a67 1
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+d90 2
+a91 1
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.9.1.2
+log
+@Handle FLAVOUR=default.  Added -Wno-stringop-truncation to CWARNINGS.
+Caution that warnings produced by the compilermay depend on the
+optimization level.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+d27 1
+a30 4
+ifeq "$(FLAVOUR)" "default"
+  F   := default
+endif
+
+d45 1
+a45 3
+# Compiler optimization level.  Note that warnings produced by the compiler
+# may depend on the optimization level, e.g. -Wformat-truncation, which is
+# implied by -Wall, may produce warnings at -O2 but not at -O0.
+d61 1
+a61 2
+  CWARNINGS       := -Wall -Wextra
+  CWARNINGS       += -Wno-clobbered -Wno-long-long -Wno-stringop-truncation
+d84 1
+a84 2
+  CWARNINGS       := -Wall -Wextra
+  CWARNINGS       += -Wno-clobbered -Wno-long-long -Wno-stringop-truncation
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.6.1.2 2026/04/24 05:42:08 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+d108 2
+d137 1
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added ANALYSE and set it to clang-tidy-20.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+a107 2
+# Uses .clang-tidy to define checks.
+ANALYSE := clang-tidy-20
+a134 1
+export ANALYSE
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.3.1.2 2024/07/09 06:02:49 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d21 1
+a21 1
+# $Id: flavours,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 3
+a4 3
+# Makefile overrides for various combinations of architecture, operating
+# system and compiler.  Used for development and testing only, not required
+# for building WCSLIB.
+d6 4
+a9 2
+# Variables like CC and CFLAGS are exported into the environment so that they
+# will be seen by 'configure'.  Thus, normal usage is as follows:
+d13 5
+a17 1
+#   make
+d21 1
+a21 1
+# $Id: flavours,v 8.2.1.4 2024/05/08 15:53:55 mcalabre Exp mcalabre $
+d67 1
+a67 1
+  export CC       := $(CC) -std=c99 -pedantic
+d69 2
+a70 1
+  export CFLAGS   := -g -O$(OPT) $(INSTRUMENT) $(CWARNINGS)
+d87 1
+a87 1
+  export CC       := gcc-12 -std=c99 -pedantic
+d89 2
+a90 1
+  export CFLAGS   := $(LTOFLAGS) $(CWARNINGS)
+d99 1
+a99 1
+  export CC       := gcc -std=c99 -pedantic
+d101 2
+a102 1
+  export CFLAGS   := -pg -g -O -Wall -Wextra -Wno-long-long $(WPADDED)
+d123 1
+a123 4
+ifeq "$(MODE)" "interactive"
+  # Important not to have output batched when running the test programs.
+  MAKEFLAGS := $(filter-out -Otarget,$(MAKEFLAGS)) -Onone
+else
+d128 3
+a130 12
+
+# gmake uses FC in place of configure's F77.
+ifdef F77
+  FC := $(F77)
+endif
+
+ifndef TIMER
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST"
+endif
+
+ifdef FLAVOUR
+  TIMER := $(TIMER) ; echo "    with $(FLAVOUR) FLAVOUR."
+d133 5
+a137 7
+show ::
+	-@@ echo 'For code development...'
+	-@@ echo '  FLAVOUR     := $(FLAVOUR)'
+	-@@ echo '  MODE        := $(MODE)'
+	-@@ echo '  VALGRIND    := $(VALGRIND)'
+	-@@ echo '  EXTRA_CLEAN := $(EXTRA_CLEAN)'
+	-@@ echo ''
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@flavours is now only used to set variable definitions, which are passed in
+the environment to 'configure' and thence to makedefs.  It is no longer
+included by makedefs.
+@
+text
+@d2 3
+a4 3
+# Variable definitions for various combinations of architecture, operating
+# system, compiler, and purpose.  Used for development and testing only, not
+# required for building WCSLIB.
+d6 2
+a7 4
+# Definitions in this file are only used when running 'configure'.  Variables
+# such as CC and CFLAGS are exported to the environment so that they will be
+# seen by 'configure' and from there passed to makedefs.  Thus, normal usage
+# is as follows:
+d11 1
+a11 5
+#
+# At that point the definitions here should have propagated to makedefs.
+#
+# WARNING: configure may ignore compiler options added to the CC or F77
+#          environment variables.  They must be added to CFLAGS or FFLAGS.
+d15 1
+a15 1
+# $Id: flavours,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+d61 1
+a61 1
+  export CC       := $(CC)
+d63 1
+a63 2
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += -g -O$(OPT) $(INSTRUMENT) $(CWARNINGS)
+d80 1
+a80 1
+  export CC       := gcc-12
+d82 1
+a82 2
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += $(LTOFLAGS) $(CWARNINGS)
+d91 1
+a91 1
+  export CC       := gcc
+d93 1
+a93 2
+  export CFLAGS   := -std=c99 -pedantic
+  export CFLAGS   += -pg -g -O -Wall -Wextra -Wno-long-long $(WPADDED)
+d114 4
+a117 1
+ifneq "$(MODE)" "interactive"
+d122 12
+a133 3
+# Check EXTRA_CLEAN.
+ifeq "$(EXTRA_CLEAN)" ""
+  EXTRA_CLEAN :=
+d136 7
+a142 5
+# Pass to configure though the environment.
+export FLAVOUR
+export VALGRIND
+export MODE
+export EXTRA_CLEAN
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d26 1
+a26 1
+  # Currently gcc 11.3.0.
+d33 1
+a33 1
+  # Currently gcc 12.1.0.
+d39 5
+d52 2
+a53 1
+  INSTRUMENT      := -fsanitize=address -fsanitize=undefined
+d63 1
+a63 1
+  export CFLAGS   := -g -O0 $(INSTRUMENT) $(CWARNINGS)
+d65 1
+a65 1
+  export FFLAGS   := -g -O0 -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+d71 15
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Added a hook, OPT, to control the compiler optimization level.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+d26 1
+a26 1
+  # Currently gcc 11.4.0.
+d33 1
+a33 1
+  # Currently gcc 12.3.0.
+a38 5
+# Compiler optimization level.
+ifndef OPT
+  OPT := 0
+endif
+
+d57 1
+a57 1
+  export CFLAGS   := -g -O$(OPT) $(INSTRUMENT) $(CWARNINGS)
+d59 1
+a59 1
+  export FFLAGS   := -g -O$(OPT) -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+@
+
+
+8.2.1.3
+log
+@Added an 'lto' flavour.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.2.1.2 2023/12/20 13:26:38 mcalabre Exp mcalabre $
+a69 15
+endif
+
+ifeq "$(FLAVOUR)" "lto"
+  # For LTO development.
+  F := $(FLAVOUR)
+  export BINDC    := yes
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+  FWARNINGS       := -Wall -Wno-surprising
+  LTOFLAGS        := -O1 -flto=4 -Werror=odr -Werror=lto-type-mismatch -Werror=strict-aliasing
+  export CC       := $(CC) -std=c99 -pedantic
+  export CPPFLAGS := -D_FORTIFY_SOURCE=2
+  export CFLAGS   := $(LTOFLAGS) $(CWARNINGS)
+  export F77      := $(F77)
+  export FFLAGS   := -fimplicit-none -I. $(LTOFLAGS) $(FWARNINGS)
+  export LDFLAGS  := $(LTOFLAGS)
+@
+
+
+8.2.1.4
+log
+@Tweaks for lto flavour.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.2.1.3 2024/05/06 05:49:30 mcalabre Exp mcalabre $
+d52 1
+a52 2
+#  INSTRUMENT      := -fsanitize=address    # appears to be broken.
+  INSTRUMENT      := -fsanitize=undefined
+d79 1
+a79 1
+  export CC       := gcc-12 -std=c99 -pedantic
+d82 1
+a82 1
+  export F77      := gfortran-12
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.0.1.3 2023/07/04 07:03:56 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d10 1
+a10 1
+#   make FLAVOUR=Linux configure
+d15 1
+a15 1
+# $Id: flavours,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d18 1
+a18 14
+# The list of FLAVOURs can be set on the command line.
+F := $(shell echo $(FLAVOURS) | tr a-z A-Z)
+ifeq "$F" ""
+  F :=
+  FLAVOURS := ""
+endif
+
+ifeq "$F" "LINUX"
+  override FLAVOURS := "" Linux Linuxp
+endif
+
+ifeq "$F" "SUN"
+  override FLAVOURS := "" SUN/GNU SUN/GNU3 SUN/GNUp SUN/ANSI
+endif
+d20 17
+a36 2
+ifeq "$F" "PURE"
+  override FLAVOURS := SUN/Pure SUN/Quant
+a38 2
+F :=
+
+d45 2
+a46 4
+
+# Linux with gcc/gfortran (also works for Darwin).
+ifeq "$(FLAVOUR)" "Linux"
+  F := $(FLAVOUR)
+d55 1
+a55 23
+  export CC       := gcc -std=c99 -pedantic
+  export CPPFLAGS :=
+  export CFLAGS   := -g -O0 $(INSTRUMENT) $(CWARNINGS)
+  export F77      := gfortran
+  export FFLAGS   := -g -O0 -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+  export LDFLAGS  := $(INSTRUMENT)
+  ifdef VALGRIND
+    override VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+    override VALGRIND += --track-origins=yes
+  endif
+endif
+
+ifeq "$(FLAVOUR)" "Linux11"
+  F := $(FLAVOUR)
+  INSTRUMENT      := -fsanitize=address -fsanitize=undefined
+  INSTRUMENT      += -fstack-protector-strong
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+  ifeq "$(INSTRUMENT)" ""
+    # The instrumentation options produce copious "padding" warnings.
+    CWARNINGS     += $(WPADDED)
+  endif
+  FWARNINGS       := -Wall -Wno-surprising
+  export CC       := gcc-11.1.0 -std=c99 -pedantic
+d58 1
+a58 1
+  export F77      := gfortran-11.1.0
+a60 1
+  export LD_RUN_PATH := /usr/local/lib64
+d67 2
+a68 1
+ifeq "$(FLAVOUR)" "Linuxp"
+d73 1
+a73 1
+  export FFLAGS   := -pg -a -g -O -fimplicit-none -Wall -I.
+a78 68
+# Solaris with gcc/gfortran 4.x (lynx).
+ifeq "$(FLAVOUR)" "SUN/GNU"
+  F := $(FLAVOUR)
+  export CC       := gcc -std=c99
+  export CPPFLAGS :=
+  export CFLAGS   := -g -Wall -Wno-long-long $(WPADDED)
+  export F77      := gfortran
+  export FFLAGS   := -g -fimplicit-none -Wall -I.
+  LD      := gcc
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNU3"
+  F := $(FLAVOUR)
+  export CC       := gcc-3.1.1 -std=c99
+  export CPPFLAGS :=
+  export CFLAGS   := -g -Wall -Wno-long-long $(WPADDED)
+  export F77      := g77-3.1.1
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+  LD      := gcc-3.1.1
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNUp"
+  F := $(FLAVOUR)
+  export CC       := gcc -std=c99 -pedantic
+  export CPPFLAGS :=
+  export CFLAGS   := -pg -a -g -O -Wall -Wno-long-long $(WPADDED)
+  export FFLAGS   := -pg -a -g -O -fimplicit-none -Wall -I.
+  export LDFLAGS  := -pg -a -g $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+
+# Solaris with SUN cc/f77.
+ifeq "$(FLAVOUR)" "SUN/ANSI"
+  F := $(FLAVOUR)
+  WCSTRIG := NATIVE
+  export CC       := cc
+  export CFLAGS   := -g -I/usr/local/include
+  export F77      := f77
+  export FFLAGS   := -g -erroff=WDECL_LOCAL_NOTUSED
+  LD      := f77
+endif
+
+
+# Purify and quantify in Solaris.
+ifeq "$(FLAVOUR)" "SUN/Pure"
+  F := $(FLAVOUR)
+  WCSTRIG := NATIVE
+  export CC       := purify gcc
+  export CFLAGS   := -g
+  export F77      := purify gcc
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+  export LDFLAGS  := $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := *_pure_p*.[ao] *.pcv .pure ../C/*_pure_p*.[ao]
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Quant"
+  F := $(FLAVOUR)
+  WCSTRIG := NATIVE
+  export CC       := quantify gcc
+  export CFLAGS   := -g
+  export F77      := quantify gcc
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+  export LDFLAGS  := $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := *_pure_q*.[ao] .pure
+endif
+
+
+d80 1
+a80 1
+ifneq "$F" "$(FLAVOUR)"
+a114 12
+# Experimental (see http://upstream-tracker.org/versions/wcslib.html).
+api-sanity-check :
+	-@@ $(RM) -r $@@/
+	 @@ mkdir $@@/
+	 @@ cp C/*.h C/$(SHRLIB) $@@/
+	 @@ echo "<version>$(LIBVER)</version>" > $@@/opts.xml
+	 @@ echo "<headers>.</headers>" >> $@@/opts.xml
+	 @@ echo "<libs>.</libs>" >> $@@/opts.xml
+	 @@ echo "<gcc_options>-Dwtbarr=wtbarr_s</gcc_options>" >> $@@/opts.xml
+	   cd $@@ && api-sanity-checker -lib WCSLIB -d opts.xml \
+	     -show-retval -gen -build -run
+
+a116 1
+	-@@ echo '  FLAVOURS    := $(FLAVOURS)'
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@Removed unused FLAVOURs: SUN/GNU, SUN/GNU3, SUN/GNUp, SUN/ANSI, SUN/Pure,
+and SUN/Quant, and changed Linux11 to Linux12. Removed unused target
+api-sanity-check.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d26 9
+a34 1
+  override FLAVOURS := "" Linux Linux12 Linuxp
+d69 1
+a69 1
+ifeq "$(FLAVOUR)" "Linux12"
+d79 1
+a79 1
+  export CC       := gcc-12 -std=c99 -pedantic
+d82 1
+a82 1
+  export F77      := gfortran-12
+d97 1
+a97 1
+  export FFLAGS   := -pg -g -O -fimplicit-none -Wall -I.
+d103 68
+d206 12
+@
+
+
+8.0.1.3
+log
+@Further rationalisation of existing FLAVOURs.
+@
+text
+@d10 1
+a10 1
+#   make FLAVOUR=dev configure
+d15 1
+a15 1
+# $Id: flavours,v 8.0.1.2 2023/07/04 05:45:29 mcalabre Exp mcalabre $
+d18 5
+a22 5
+F :=
+
+ifeq "$(FLAVOUR)" ""
+  F   := default
+  override FLAVOUR := default
+d25 2
+a26 5
+ifeq "$(FLAVOUR)" "dev"
+  # Currently gcc 11.3.0.
+  F   := development
+  CC  := gcc
+  F77 := gfortran
+d29 1
+a29 6
+ifeq "$(FLAVOUR)" "dev12"
+  # Currently gcc 12.1.0.
+  F   := development
+  CC  := gcc-12
+  F77 := gfortran-12
+endif
+d37 26
+a62 2
+ifeq "$F" "development"
+  # Options for code development with gcc/gfortran.
+d71 1
+a71 1
+  export CC       := $(CC) -std=c99 -pedantic
+d74 1
+a74 1
+  export F77      := $(F77)
+d77 1
+d84 1
+a84 2
+ifeq "$(FLAVOUR)" "profile"
+  # gcc with profiling (gprof).
+d96 1
+a96 1
+ifeq "$F" ""
+d133 1
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.6.1.2 2021/07/12 06:13:01 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d49 8
+a56 1
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long $(WPADDED)
+d59 1
+a59 1
+  export CFLAGS   := -g -O0 $(CWARNINGS)
+d61 2
+a62 2
+  export FFLAGS   := -g -O0 -fimplicit-none -I. -Wall
+  export LDFLAGS  :=
+d69 1
+a69 1
+ifeq "$(FLAVOUR)" "Linux9"
+d71 2
+a72 1
+  SANITIZE        := -fsanitize=address -fsanitize=undefined
+d74 6
+a79 1
+  export CC       := gcc-9.2.0 -std=c99 -pedantic
+d81 4
+a84 4
+  export CFLAGS   := -g -O2 $(SANITIZE) $(CWARNINGS)
+  export F77      := gfortran-9.2.0
+  export FFLAGS   := -g -O2 -fimplicit-none -I. $(SANITIZE) -Wall
+  export LDFLAGS  := $(SANITIZE)
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Reworked Linux flavour a little, and replaced Linux9 with Linux11.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d49 1
+a49 8
+  INSTRUMENT      := -fsanitize=address -fsanitize=undefined
+  INSTRUMENT      += -fstack-protector-strong
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+  ifeq "$(INSTRUMENT)" ""
+    # The instrumentation options produce copious "padding" warnings.
+    CWARNINGS     += $(WPADDED)
+  endif
+  FWARNINGS       := -Wall -Wno-surprising
+d52 1
+a52 1
+  export CFLAGS   := -g -O0 $(INSTRUMENT) $(CWARNINGS)
+d54 2
+a55 2
+  export FFLAGS   := -g -O0 -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+  export LDFLAGS  := $(INSTRUMENT)
+d62 1
+a62 1
+ifeq "$(FLAVOUR)" "Linux11"
+d64 1
+a64 2
+  INSTRUMENT      := -fsanitize=address -fsanitize=undefined
+  INSTRUMENT      += -fstack-protector-strong
+d66 1
+a66 6
+  ifeq "$(INSTRUMENT)" ""
+    # The instrumentation options produce copious "padding" warnings.
+    CWARNINGS     += $(WPADDED)
+  endif
+  FWARNINGS       := -Wall -Wno-surprising
+  export CC       := gcc-11.1.0 -std=c99 -pedantic
+d68 4
+a71 4
+  export CFLAGS   := -g -O0 $(INSTRUMENT) $(CWARNINGS)
+  export F77      := gfortran-11.1.0
+  export FFLAGS   := -g -O0 -fimplicit-none -I. $(INSTRUMENT) $(FWARNINGS)
+  export LDFLAGS  := $(INSTRUMENT)
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.4.1.2 2019/12/31 03:25:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d62 1
+a62 1
+ifeq "$(FLAVOUR)" "Linux8"
+d66 1
+a66 1
+  export CC       := gcc-8 -std=c99 -pedantic
+d69 1
+a69 1
+  export F77      := gfortran-8
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Replaced Linux8 flavour with Linux9.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d62 1
+a62 1
+ifeq "$(FLAVOUR)" "Linux9"
+d66 1
+a66 1
+  export CC       := gcc-9.2.0 -std=c99 -pedantic
+d69 1
+a69 1
+  export F77      := gfortran-9.2.0
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.2.1.3 2019/07/08 12:46:16 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d40 1
+a40 9
+# Various C standards handled by features.h in Linux.
+FEATURES :=
+ifeq "$(notdir $(shell pwd))" "utils"
+  # To get off_t for fseeko() usage in fitshdr when gcc is invoked with the
+  # -std=c89 (same as -ansi) or the -std=c99 options.
+  FEATURES := -D_XOPEN_SOURCE
+endif
+
+# Elide warnings about padding in foreign structs, particularly in fitsio.h.
+d49 1
+d51 2
+a52 2
+  export CPPFLAGS := $(FEATURES)
+  export CFLAGS   := -g -O0 -Wall -Wextra -Wno-long-long $(WPADDED)
+d54 1
+a54 1
+  export FFLAGS   := -g -O0 -fimplicit-none -Wall -I.
+d64 8
+a71 6
+  export CC       := gcc-8.1.0 -std=c99 -pedantic
+  export CPPFLAGS := $(FEATURES) -D_FORTIFY_SOURCE=2
+  export CFLAGS   := -g -O2 -Wall -Wextra -Wno-long-long $(WPADDED)
+  export F77      := gfortran-8.1.0
+  export FFLAGS   := -g -O2 -fimplicit-none -Wall -I.
+  export LDFLAGS  :=
+d82 1
+a82 1
+  export CPPFLAGS := $(FEATURES)
+d94 1
+a94 1
+  export CPPFLAGS := $(FEATURES)
+d104 1
+a104 1
+  export CPPFLAGS := $(FEATURES)
+d114 1
+a114 1
+  export CPPFLAGS := $(FEATURES)
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Tidied up the compiler options for the Linux and Linux8 flavours.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+d40 9
+a48 1
+# Quench warnings about padding in foreign structs, particularly in fitsio.h.
+a56 1
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long $(WPADDED)
+d58 2
+a59 2
+  export CPPFLAGS :=
+  export CFLAGS   := -g -O0 $(CWARNINGS)
+d61 1
+a61 1
+  export FFLAGS   := -g -O0 -fimplicit-none -I. -Wall
+d71 5
+a75 7
+  SANITIZE        := -fsanitize=address -fsanitize=undefined
+  CWARNINGS       := -Wall -Wextra -Wno-clobbered -Wno-long-long
+  export CC       := gcc-8 -std=c99 -pedantic
+  export CPPFLAGS := -D_FORTIFY_SOURCE=2
+  export CFLAGS   := -g -O2 $(SANITIZE) $(CWARNINGS)
+  export F77      := gfortran-8
+  export FFLAGS   := -g -O2 -fimplicit-none -I. $(SANITIZE) -Wall
+d87 1
+a87 1
+  export CPPFLAGS :=
+d99 1
+a99 1
+  export CPPFLAGS :=
+d109 1
+a109 1
+  export CPPFLAGS :=
+d119 1
+a119 1
+  export CPPFLAGS :=
+@
+
+
+6.2.1.3
+log
+@In Linux8 flavour, need to add the -fsanitize compiler options
+to LDFLAGS as this tells the linker (gcc) to add the required
+libraries in the correct order.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.2.1.2 2019/07/08 09:33:24 mcalabre Exp mcalabre $
+d71 1
+a71 1
+  export LDFLAGS  := $(SANITIZE)
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.20.1.2 2018/10/19 03:38:04 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.19.1.2 2018/10/03 13:14:55 mcalabre Exp mcalabre $
+d48 5
+d57 1
+a57 1
+  export CC       := gcc -std=c89 -pedantic
+d59 1
+a59 1
+  export CFLAGS   := -g -O0 -Wall -Wextra -Wpadded -Wno-long-long
+d63 4
+a66 2
+         VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+         VALGRIND += --track-origins=yes
+d71 1
+a71 1
+  export CC       := gcc-8.1.0 -std=c89 -pedantic
+d73 1
+a73 1
+  export CFLAGS   := -g -O2 -Wall -Wextra -Wpadded -Wno-long-long
+d78 4
+a81 2
+         VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+         VALGRIND += --track-origins=yes
+d86 1
+a86 1
+  export CC       := gcc -std=c89 -pedantic
+d88 1
+a88 1
+  export CFLAGS   := -pg -g -O -Wall -Wextra -Wpadded -Wno-long-long
+d98 1
+a98 1
+  export CC       := gcc -std=c89
+d100 1
+a100 1
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+d108 1
+a108 1
+  export CC       := gcc-3.1.1 -std=c89
+d110 1
+a110 1
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+d118 1
+a118 1
+  export CC       := gcc -std=c89 -pedantic
+d120 1
+a120 1
+  export CFLAGS   := -pg -a -g -O -Wall -Wpadded -Wno-long-long
+d162 2
+d168 18
+d215 1
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@FLAVOUR is now set in makedefs by configure as a makefile variable.  SUBDIR
+is now set at the start of each makefile to allow context-dependent behaviour.
+In order to reduce the number of spurious warnings generated by cfitsio
+structs when compiling the utilities, -Wpadded is now only added when
+compiling the library subdirectories.  Set the gcc standard to c99 (was c89)
+as this is the minimum assumed by flex-generated C code, and some WCSLIB
+functions now also use C99 library functions such as vsnprintf() (note that
+configure routinely sets it to gnu99).  Validity checking and other changes
+relating to setting of the MODE and VALGRIND control variables on the command
+line.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a47 5
+# Elide warnings about padding in foreign structs, particularly in fitsio.h.
+ifneq "$(findstring $(SUBDIR),C Fortran pgsbox)" ""
+  WPADDED := -Wpadded
+endif
+
+d52 1
+a52 1
+  export CC       := gcc -std=c99 -pedantic
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wextra -Wno-long-long $(WPADDED)
+d58 2
+a59 4
+  ifdef VALGRIND
+    override VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+    override VALGRIND += --track-origins=yes
+  endif
+d64 1
+a64 1
+  export CC       := gcc-8.1.0 -std=c99 -pedantic
+d66 1
+a66 1
+  export CFLAGS   := -g -O2 -Wall -Wextra -Wno-long-long $(WPADDED)
+d71 2
+a72 4
+  ifdef VALGRIND
+    override VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+    override VALGRIND += --track-origins=yes
+  endif
+d77 1
+a77 1
+  export CC       := gcc -std=c99 -pedantic
+d79 1
+a79 1
+  export CFLAGS   := -pg -g -O -Wall -Wextra -Wno-long-long $(WPADDED)
+d89 1
+a89 1
+  export CC       := gcc -std=c99
+d91 1
+a91 1
+  export CFLAGS   := -g -Wall -Wno-long-long $(WPADDED)
+d99 1
+a99 1
+  export CC       := gcc-3.1.1 -std=c99
+d101 1
+a101 1
+  export CFLAGS   := -g -Wall -Wno-long-long $(WPADDED)
+d109 1
+a109 1
+  export CC       := gcc -std=c99 -pedantic
+d111 1
+a111 1
+  export CFLAGS   := -pg -a -g -O -Wall -Wno-long-long $(WPADDED)
+a152 2
+
+# Check FLAVOUR.
+a156 18
+# Check VALGRIND.
+ifeq "$(findstring valgrind, $(VALGRIND))" "valgrind"
+  override MODE := interactive
+else
+  # Unrecognised.
+  override VALGRIND :=
+endif
+
+# Check MODE.
+ifeq "$(MODE)" "interactive"
+  # Important not to have output batched when running the test programs.
+  MAKEFLAGS := $(filter-out -Otarget,$(MAKEFLAGS)) -Onone
+else
+  # Unrecognised.
+  override MODE :=
+endif
+
+
+a185 1
+	-@@ echo '  MODE        := $(MODE)'
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.18.1.2 2018/07/26 15:33:16 mcalabre Exp mcalabre $
+a56 1
+  export ARFLAGS  := U
+a68 1
+  export ARFLAGS  := U
+a80 1
+  export ARFLAGS  := U
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Removed the definition of ARFLAGS from the three Linux flavours as addition
+of the "U" flag is now handled generally by configure.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d57 1
+d70 1
+d83 1
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.17.1.2 2017/12/05 00:49:02 mcalabre Exp mcalabre $
+d59 14
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Added Linux8 flavour for locally installed gcc 8.1.0 in Linux.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+a58 14
+         VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+         VALGRIND += --track-origins=yes
+endif
+
+ifeq "$(FLAVOUR)" "Linux8"
+  F := $(FLAVOUR)
+  export CC       := gcc-8.1.0 -std=c89 -pedantic
+  export CPPFLAGS := $(FEATURES) -D_FORTIFY_SOURCE=2
+  export CFLAGS   := -g -O2 -Wall -Wextra -Wpadded -Wno-long-long
+  export F77      := gfortran-8.1.0
+  export FFLAGS   := -g -O2 -fimplicit-none -Wall -I.
+  export ARFLAGS  := U
+  export LDFLAGS  :=
+  export LD_RUN_PATH := /usr/local/lib64
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.16.1.3 2017/09/18 08:42:55 mcalabre Exp mcalabre $
+d57 1
+d69 1
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Set ARFLAGS := U in Linux and Linuxp flavours.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+a56 1
+  export ARFLAGS  := U
+a67 1
+  export ARFLAGS  := U
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long -fsanitize=address
+d57 3
+a59 2
+  export LDFLAGS  := -lasan
+         VALGRIND := valgrind -v --leak-check=yes --track-origins=yes
+d66 1
+a66 1
+  export CFLAGS   := -pg -g -O -Wall -Wpadded -Wno-long-long
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@In "Linux" flavour, removed -fsanitize-address from CFLAGS and -lasan from
+LDFLAGS as Google's address sanitizer doesn't work with linux kernel 3.16.0,
+apparently fixed in kernel version 4.12.8-2.  Also added --show-leak-kinds=all
+to VALGRIND to include "reachable leaks", i.e. memory not free'd at exit,
+such as wcsprintf_buff.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long
+d57 2
+a58 3
+  export LDFLAGS  :=
+         VALGRIND := valgrind -v --leak-check=full --show-leak-kinds=all
+         VALGRIND += --track-origins=yes
+@
+
+
+5.16.1.3
+log
+@In Linux and Linuxp flavours, added -Wextra to CFLAGS.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.16.1.2 2017/09/12 10:48:38 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wextra -Wpadded -Wno-long-long
+d66 1
+a66 1
+  export CFLAGS   := -pg -g -O -Wall -Wextra -Wpadded -Wno-long-long
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.7.1.2 2015/07/03 05:45:06 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.6.1.2 2015/06/29 02:03:15 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -Og -Wall -Wpadded -Wno-long-long -fsanitize=address
+d56 1
+a56 1
+  export FFLAGS   := -g -Og -fimplicit-none -Wall -I.
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.7.1.2
+log
+@Changed -Og back to -O0 in Linux flavour since -Og produces too many
+spurious messages about possible use of uninitialised variables.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long -fsanitize=address
+d56 1
+a56 1
+  export FFLAGS   := -g -O0 -fimplicit-none -Wall -I.
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.5.1.2 2015/06/14 06:23:24 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long -fsanitize=address
+d56 1
+a56 1
+  export FFLAGS   := -g -O0 -fimplicit-none -Wall -I.
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Changed -O0 to -Og in Linux flavour (gcc/gfortran 4.9.2).
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+d54 1
+a54 1
+  export CFLAGS   := -g -Og -Wall -Wpadded -Wno-long-long -fsanitize=address
+d56 1
+a56 1
+  export FFLAGS   := -g -Og -fimplicit-none -Wall -I.
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+a49 1
+# Reminder: add -fsanitize-address with gcc 4.8.
+d54 1
+a54 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long
+d57 1
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.5.1.2
+log
+@Added -fsanitize=address to CFLAGS for Linux flavour.  Also required -lasan
+to be added to LDFLAGS.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+d50 1
+d55 1
+a55 1
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long -fsanitize=address
+a57 1
+  export LDFLAGS  := -lasan
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.1.1.2 2015/04/15 12:33:47 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+d50 1
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Note to self about -fsanitize-address.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+a49 1
+# Reminder: add -fsanitize-address with gcc 4.8.
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.25.1.3 2015/04/03 01:10:21 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d55 1
+d57 1
+a57 1
+         VALGRIND := valgrind -v --leak-check=yes
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@For Linux flavour, set the Fortran compiler to 'gfortran -std=f95' which is
+stricter than the default gnu standard.  Added '--track-origins=yes' to the
+valgrind argument list to track the origin of uninitialised variables.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+a54 1
+  export F77      := gfortran -std=f95
+d56 1
+a56 1
+         VALGRIND := valgrind -v --leak-check=yes --track-origins=yes
+@
+
+
+4.25.1.3
+log
+@For Linux flavour, removed '-std=f95' for gfortran as it generated too many
+spurious warnings.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.25.1.2 2015/03/06 11:44:07 mcalabre Exp mcalabre $
+d55 1
+a55 1
+  export F77      := gfortran
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.16.1.2 2013/01/29 05:22:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+d154 12
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Added 'api-sanity-check' rule.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+a153 12
+# Experimental (see http://upstream-tracker.org/versions/wcslib.html).
+api-sanity-check :
+	-@@ $(RM) -r $@@/
+	 @@ mkdir $@@/
+	 @@ cp C/*.h C/$(SHRLIB) $@@/
+	 @@ echo "<version>$(LIBVER)</version>" > $@@/opts.xml
+	 @@ echo "<headers>.</headers>" >> $@@/opts.xml
+	 @@ echo "<libs>.</libs>" >> $@@/opts.xml
+	 @@ echo "<gcc_options>-Dwtbarr=wtbarr_s</gcc_options>" >> $@@/opts.xml
+	   cd $@@ && api-sanity-checker -lib WCSLIB -d opts.xml \
+	     -show-retval -gen -build -run
+
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.7.1.3 2011/08/13 03:35:15 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d15 1
+a15 1
+# $Id: flavours,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 2
+a4 3
+# system and compiler, used for WCSLIB development and testing, not for
+# distribution.  Variables like CC and CFLAGS are exported into the
+# environment so that they will be seen by 'configure', e.g.
+d6 6
+a11 2
+#   gmake distclean
+#   gmake FLAVOUR=Linux configure
+d15 1
+a15 1
+# $Id: flavours,v 4.6.1.5 2011/01/27 04:56:24 cal103 Exp cal103 $
+d49 1
+a49 1
+# Linux with gcc/g77.
+d55 1
+a55 1
+  export FFLAGS   := -g -O0 -Wimplicit -Wunused -Wno-globals -I.
+d64 1
+a64 1
+  export FFLAGS   := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+d70 1
+a70 1
+# Solaris with gcc/g77.
+d73 1
+a73 1
+  export CC       := gcc -std=c89 -pedantic
+d76 3
+a78 1
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+a90 10
+ifeq "$(FLAVOUR)" "SUN/GNU4"
+  F := $(FLAVOUR)
+  export CC       := gcc-4.5.1 -std=c89
+  export CPPFLAGS := $(FEATURES)
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export F77      := gfortran-4.5.1
+  export FFLAGS   := -g -Wunused -I.
+  LD      := gcc-4.5.1
+endif
+
+d96 1
+a96 1
+  export FFLAGS   := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@gcc/gfortran 4.x is now the default for Linux and SunOS (was gcc/g77).
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d46 1
+a46 1
+# Linux with gcc/gfortran.
+d52 1
+a52 1
+  export FFLAGS   := -g -O0 -fimplicit-none -Wall -I.
+d61 1
+a61 1
+  export FFLAGS   := -pg -a -g -O -fimplicit-none -Wall -I.
+d67 1
+a67 1
+# Solaris with gcc/gfortran 4.x (lynx).
+d70 1
+a70 1
+  export CC       := gcc -std=c89
+d73 1
+a73 3
+  export F77      := gfortran
+  export FFLAGS   := -g -fimplicit-none -Wall -I.
+  LD      := gcc
+d86 10
+d101 1
+a101 1
+  export FFLAGS   := -pg -a -g -O -fimplicit-none -Wall -I.
+@
+
+
+4.7.1.3
+log
+@Revised the prologue.  Mention that the Linux flavours also work for
+Darwin.
+@
+text
+@d3 3
+a5 2
+# system and compiler.  Used for development and testing only, not required
+# for building WCSLIB.
+d7 2
+a8 6
+# Variables like CC and CFLAGS are exported into the environment so that they
+# will be seen by 'configure'.  Thus, normal usage is as follows:
+#
+#   make distclean
+#   make FLAVOUR=Linux configure
+#   make
+d12 1
+a12 1
+# $Id: flavours,v 4.7.1.2 2011/02/09 02:47:31 cal103 Exp cal103 $
+d46 1
+a46 1
+# Linux with gcc/gfortran (also works for Darwin).
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.5.1.2 2010/11/16 00:18:12 cal103 Exp cal103 $
+d18 1
+a18 1
+  F := ""
+d34 2
+d48 1
+d51 3
+a53 2
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+d57 1
+d69 1
+d77 1
+d86 10
+d97 1
+d109 1
+d121 1
+d132 1
+d142 4
+d159 1
+a159 1
+show_all ::
+d163 1
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Define VALGRIND for Linux.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+d48 2
+a49 3
+  export CFLAGS   := -g -O0 -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -g -O0 -Wimplicit -Wunused -Wno-globals -I.
+         VALGRIND := valgrind -v --leak-check=yes
+a137 1
+	-@@ echo '  VALGRIND    := $(VALGRIND)'
+@
+
+
+4.6.1.3
+log
+@Renamed 'show_all' to 'show'.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.6.1.2 2010/11/24 01:20:14 cal103 Exp cal103 $
+d135 1
+a135 1
+show ::
+@
+
+
+4.6.1.4
+log
+@Added SUN/GNU4 flavour and put in a trap for unrecognised FLAVOUR.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.6.1.3 2010/12/14 23:51:07 cal103 Exp cal103 $
+a33 2
+F := ""
+
+a45 1
+  F := $(FLAVOUR)
+a53 1
+  F := $(FLAVOUR)
+a64 1
+  F := $(FLAVOUR)
+a71 1
+  F := $(FLAVOUR)
+a79 10
+ifeq "$(FLAVOUR)" "SUN/GNU4"
+  F := $(FLAVOUR)
+  export CC       := gcc-4.5.1 -std=c89
+  export CPPFLAGS := $(FEATURES)
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export F77      := gfortran-4.5.1
+  export FFLAGS   := -g -Wunused -I.
+  LD      := gcc-4.5.1
+endif
+
+a80 1
+  F := $(FLAVOUR)
+a91 1
+  F := $(FLAVOUR)
+a102 1
+  F := $(FLAVOUR)
+a112 1
+  F := $(FLAVOUR)
+a121 4
+ifneq "$F" "$(FLAVOUR)"
+  override FLAVOUR := unrecognised
+endif
+
+@
+
+
+4.6.1.5
+log
+@Small fix for setting FLAVOUR.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.6.1.4 2011/01/25 05:50:52 cal103 Exp cal103 $
+d18 1
+a18 1
+  F :=
+d34 1
+a34 1
+F :=
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d7 1
+a7 1
+#   gmake cleanest
+d12 1
+a12 1
+# $Id: flavours,v 4.4.1.2 2010/07/08 08:37:41 cal103 Exp cal103 $
+d49 1
+a49 1
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+d67 1
+a67 1
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+d75 1
+a75 1
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+d126 4
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Added -Wunused to FFLAGS for g77.
+@
+text
+@d7 1
+a7 1
+#   gmake distclean
+d12 1
+a12 1
+# $Id: flavours,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d49 1
+a49 1
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+d67 1
+a67 1
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+d75 1
+a75 1
+  export FFLAGS   := -g -Wimplicit -Wunused -Wno-globals -I.
+a125 4
+ifndef TIMER
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST"
+endif
+
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.3.1.2 2009/07/21 06:32:15 cal103 Exp cal103 $
+d127 1
+a127 3
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST with $(FLAVOUR) FLAVOUR "
+else
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST with vanilla FLAVOUR"
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.4 2009/08/06 07:27:24 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Rejigged reporting of the FLAVOUR.
+@
+text
+@d12 1
+a12 1
+# $Id: flavours,v 4.4.1.1 2009/08/10 08:42:06 cal103 Exp cal103 $
+d127 3
+a129 1
+  TIMER := $(TIMER) ; echo "    with $(FLAVOUR) FLAVOUR."
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d4 5
+a8 2
+# distribution.  Variable like CC and CFLAGS are exported into the environment
+# so that they will be seen by 'configure'.
+d12 1
+a12 1
+# $Id: flavours,v 0.0.1.3 2007/12/27 04:54:18 cal103 Exp cal103 $
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d9 1
+a9 1
+# $Id: flavours,v 4.3 2007/12/27 05:58:15 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Added a usage example.
+@
+text
+@d4 2
+a5 5
+# distribution.  Variables like CC and CFLAGS are exported into the
+# environment so that they will be seen by 'configure', e.g.
+#
+#   gmake cleanest
+#   gmake FLAVOUR=Linux configure
+d9 1
+a9 1
+# $Id: flavours,v 4.3.1.1 2007/12/27 13:22:58 cal103 Exp cal103 $
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 134
+@
+
+
+0.0.1.1
+log
+@Initial revision.
+@
+text
+@a0 126
+#-----------------------------------------------------------------------------
+# Makefile overrides for various combinations of architecture, operating
+# system and compiler, used for WCSLIB development and testing, not for
+# distribution.  Variable like CC and CFLAGS are exported into the environment
+# so that they will be seen by 'configure'.
+#
+# Reminder: add '-d' to FLFLAGS for debugging.
+#
+# $Id$
+#-----------------------------------------------------------------------------
+
+# The list of FLAVOURs can be set on the command line.
+F := $(shell echo $(FLAVOURS) | tr a-z A-Z)
+ifeq "$F" ""
+  F := ""
+  FLAVOURS := ""
+endif
+
+ifeq "$F" "LINUX"
+  override FLAVOURS := "" Linux Linuxp
+endif
+
+ifeq "$F" "SUN"
+  override FLAVOURS := "" SUN/GNU SUN/GNU3 SUN/GNUp SUN/ANSI
+endif
+
+ifeq "$F" "PURE"
+  override FLAVOURS := SUN/Pure SUN/Quant
+endif
+
+
+# Linux with gcc/g77.  _XOPEN_SOURCE is needed to get off_t when -ansi is
+# specified.
+ifeq "$(FLAVOUR)" "Linux"
+  export CC       := gcc -ansi -pedantic
+  export CPPFLAGS := -D_XOPEN_SOURCE
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+endif
+
+ifeq "$(FLAVOUR)" "Linuxp"
+  export CC       := gcc -ansi -pedantic
+  export CPPFLAGS := -D_XOPEN_SOURCE
+  export CFLAGS   := -pg -g -O -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  export LDFLAGS  := -pg -g $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+
+# Solaris with gcc/g77.
+ifeq "$(FLAVOUR)" "SUN/GNU"
+  export CC       := gcc -ansi -pedantic
+  export CPPFLAGS := -D_XOPEN_SOURCE
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNU3"
+  export CC       := gcc-3.1.1 -ansi
+  export CPPFLAGS := -D_XOPEN_SOURCE
+  export CFLAGS   := -g -Wall -Wpadded -Wno-long-long
+  export F77      := g77-3.1.1
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+  LD      := gcc-3.1.1
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNUp"
+  export CC       := gcc -ansi -pedantic
+  export CPPFLAGS := -D_XOPEN_SOURCE
+  export CFLAGS   := -pg -a -g -O -Wall -Wpadded -Wno-long-long
+  export FFLAGS   := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  export LDFLAGS  := -pg -a -g $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+
+# Solaris with SUN cc/f77.
+ifeq "$(FLAVOUR)" "SUN/ANSI"
+  WCSTRIG := NATIVE
+  export CC       := cc
+  export CFLAGS   := -g -I/usr/local/include
+  export F77      := f77
+  export FFLAGS   := -g -erroff=WDECL_LOCAL_NOTUSED
+  LD      := f77
+endif
+
+
+# Purify and quantify in Solaris.
+ifeq "$(FLAVOUR)" "SUN/Pure"
+  WCSTRIG := NATIVE
+  export CC       := purify gcc
+  export CFLAGS   := -g
+  export F77      := purify gcc
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+  export LDFLAGS  := $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := *_pure_p*.[ao] *.pcv .pure ../C/*_pure_p*.[ao]
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Quant"
+  WCSTRIG := NATIVE
+  export CC       := quantify gcc
+  export CFLAGS   := -g
+  export F77      := quantify gcc
+  export FFLAGS   := -g -Wimplicit -Wno-globals -I.
+  export LDFLAGS  := $(filter -L%, $(LDFLAGS))
+  override EXTRA_CLEAN := *_pure_q*.[ao] .pure
+endif
+
+# gmake uses FC in place of configure's F77.
+ifdef F77
+  FC := $(F77)
+endif
+
+ifdef FLAVOUR
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST with $(FLAVOUR) FLAVOUR "
+else
+  TIMER := date +"%a %Y/%m/%d %X %z, executing on $$HOST with vanilla FLAVOUR"
+endif
+
+show_all ::
+	-@@ echo 'For code development...'
+	-@@ echo '  FLAVOURS    := $(FLAVOURS)'
+	-@@ echo '  FLAVOUR     := $(FLAVOUR)'
+	-@@ echo '  EXTRA_CLEAN := $(EXTRA_CLEAN)'
+	-@@ echo ''
+@
+
+
+0.0.1.2
+log
+@When the "-std=c89" (= "-ansi") option is specified to gcc in Linux it
+prevents off_t from being defined in stdio.h.  _XOPEN_SOURCE may be defined
+to get it back.  However, this is only currently of interest for the fitshdr
+utility, so make this addition to CPPFLAGS only for the utils subdirectory.
+@
+text
+@d9 1
+a9 1
+# $Id: flavours,v 0.0.1.1 2007/07/11 02:23:36 cal103 Exp cal103 $
+d32 2
+a33 8
+ifeq "$(notdir $(shell pwd))" "utils"
+  # To get off_t for fseeko() usage in fitshdr when gcc is invoked with the
+  # -std=c89 (same as -ansi) or the -std=c99 options.
+  XOPEN_SOURCE := -D_XOPEN_SOURCE
+endif
+
+
+# Linux with gcc/g77.
+d35 2
+a36 2
+  export CC       := gcc -std=c89 -pedantic
+  export CPPFLAGS := $(XOPEN_SOURCE)
+d42 2
+a43 2
+  export CC       := gcc -std=c89 -pedantic
+  export CPPFLAGS := $(XOPEN_SOURCE)
+d53 2
+a54 2
+  export CC       := gcc -std=c89 -pedantic
+  export CPPFLAGS := $(XOPEN_SOURCE)
+d60 2
+a61 2
+  export CC       := gcc-3.1.1 -std=c89
+  export CPPFLAGS := $(XOPEN_SOURCE)
+d69 2
+a70 2
+  export CC       := gcc -std=c89 -pedantic
+  export CPPFLAGS := $(XOPEN_SOURCE)
+@
+
+
+0.0.1.3
+log
+@Renamed XOPEN_SOURCE to FEATURES.
+@
+text
+@d9 1
+a9 1
+# $Id: flavours,v 0.0.1.2 2007/07/12 01:09:28 cal103 Exp cal103 $
+a31 2
+# Various C standards handled by features.h in Linux.
+FEATURES :=
+d35 1
+a35 1
+  FEATURES := -D_XOPEN_SOURCE
+d42 1
+a42 1
+  export CPPFLAGS := $(FEATURES)
+d49 1
+a49 1
+  export CPPFLAGS := $(FEATURES)
+d60 1
+a60 1
+  export CPPFLAGS := $(FEATURES)
+d67 1
+a67 1
+  export CPPFLAGS := $(FEATURES)
+d76 1
+a76 1
+  export CPPFLAGS := $(FEATURES)
+@

@@ -1,0 +1,4611 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.10.01.12.09;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.57.06;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.23.04.55.25;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	0.0;
+
+0.0
+date	2005.09.23.04.29.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.03.12.44;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2005.12.05.03.14.52;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.06.29.06.57.26;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.07.04.06.34.40;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.07.05.04.35.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.07.05.07.14.10;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.07.11.02.11.19;	author cal103;	state Exp;
+branches;
+next	4.2.1.8;
+
+4.2.1.8
+date	2007.07.12.00.39.25;	author cal103;	state Exp;
+branches;
+next	4.2.1.9;
+
+4.2.1.9
+date	2007.08.08.04.36.08;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.22.58;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.02.20.00.09.55;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2008.02.20.01.00.07;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.07.21.06.30.24;	author cal103;	state Exp;
+branches;
+next	4.3.1.5;
+
+4.3.1.5
+date	2009.07.21.07.14.49;	author cal103;	state Exp;
+branches;
+next	4.3.1.6;
+
+4.3.1.6
+date	2009.07.21.07.22.33;	author cal103;	state Exp;
+branches;
+next	4.3.1.7;
+
+4.3.1.7
+date	2009.08.05.08.45.04;	author cal103;	state Exp;
+branches;
+next	4.3.1.8;
+
+4.3.1.8
+date	2009.08.10.01.10.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.41.17;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.08.10.23.58.29;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2009.08.11.00.05.17;	author cal103;	state Exp;
+branches;
+next	4.4.1.4;
+
+4.4.1.4
+date	2009.09.03.06.01.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.5;
+
+4.4.1.5
+date	2009.09.03.06.24.02;	author cal103;	state Exp;
+branches;
+next	4.4.1.6;
+
+4.4.1.6
+date	2009.09.14.06.49.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.7;
+
+4.4.1.7
+date	2010.07.09.01.44.28;	author cal103;	state Exp;
+branches;
+next	4.4.1.8;
+
+4.4.1.8
+date	2010.07.15.01.45.43;	author cal103;	state Exp;
+branches;
+next	4.4.1.9;
+
+4.4.1.9
+date	2010.07.15.04.37.22;	author cal103;	state Exp;
+branches;
+next	4.4.1.10;
+
+4.4.1.10
+date	2010.07.16.00.19.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.10.13.23.59.33;	author cal103;	state Exp;
+branches;
+next	4.5.1.3;
+
+4.5.1.3
+date	2010.11.15.23.28.19;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.12.14.03.03.26;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2010.12.14.04.37.07;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2011.01.18.03.59.08;	author cal103;	state Exp;
+branches;
+next	4.6.1.5;
+
+4.6.1.5
+date	2011.02.07.07.01.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.10.04.07.49.19;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2011.12.05.06.38.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	4.12.1.2;
+
+4.12.1.2
+date	2012.03.14.07.38.08;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.27.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	4.14.1.2;
+
+4.14.1.2
+date	2012.09.26.14.22.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.20.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.12.04.19.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.12.04.14.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.00.48.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.02.58.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.07.08.09.21.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.02.13.24.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.08.03.58.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.05.17.10.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2023.11.17.03.32.33;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.05.46.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.06.09.04.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.26.14.16.48;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.3;
+
+8.4.1.3
+date	2025.12.06.13.40.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2025.12.06.15.09.07;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.3;
+
+8.5.1.3
+date	2026.03.29.13.38.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Top-level GNU makefile for WCSLIB and PGSBOX.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# GNU makefile for building WCSLIB 8.10
+#
+# Summary of the main targets
+# ---------------------------
+#   all:       Do 'make all' in each subdirectory (excluding ./doxygen).
+#   check:     Do 'make check' in each subdirectory (compile and run tests).
+#   tests:     Do 'make tests' in each subdirectory (compile test programs but
+#              don't run them).
+#   install:   Do 'make install' in each subdirectory.
+#   uninstall: Deletes installed files (this release only), including the
+#              sharable library.
+#   clean:     Recursively delete intermediate files produced as part of the
+#              build, e.g. object modules, core dumps, etc.
+#   cleaner:   Recursively clean, and also delete test executables, test
+#              input and output, and intermediates produced in compiling the
+#              programmers' manual.
+#   distclean (or realclean): Recursively delete all platform-dependent files
+#              generated during the build, preserving only the programmers'
+#              manual and man pages (which are normally provided pre-built).
+#              It is the one to use between builds for multiple platforms.
+#   cleanest:  Like distclean, but deletes everything that can be regenerated
+#              from the source files, including the programmers' manual and
+#              man pages, but excluding 'configure'.
+#   show:      Print the values of important variables used in this and the
+#              other makefiles.
+#   writable:  Run chmod recursively to make all sources writable.
+#
+# Notes:
+#   1) If you need to make changes then preferably modify makedefs.in instead.
+#
+#   2) Refer also to the makefiles in subdirectories, particularly
+#      C/GNUmakefile.
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+# Get configure settings.
+SUBDIR := .
+include makedefs
+
+ifeq "$(CHECK)" "nopgplot"
+  TSTDIRS := $(filter-out pgsbox,$(TSTDIRS))
+endif
+
+.PHONY : build check chmod clean cleaner cleanest distclean install \
+         realclean show tests uninstall writable
+
+build :
+	-@@ for DIR in $(SUBDIRS) ; do \
+	     echo '' ; \
+	     $(TIMER) ; \
+	     $(MAKE) -k -C $$DIR build ; \
+	   done
+
+check tests :: show
+	-@@ echo ''
+	-@@ $(TIMER)
+	 @@ for DIR in $(SUBDIRS) ; do \
+	     echo '' ; \
+	     $(MAKE) -i -C $$DIR cleaner build ; \
+	   done
+	-@@ echo ''
+	 @@ for DIR in $(TSTDIRS) ; do \
+	     echo '' ; \
+	     $(TIMER) ; \
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done
+
+check ::
+	-@@ echo ''
+	-@@ echo 'Summary of results for non-graphical tests'
+	-@@ echo '------------------------------------------'
+	-@@ cat ./*/test_results
+	 @@ if grep 'FAIL:' ./*/test_results > /dev/null ; then \
+	     exit 1 ; \
+	   else \
+	     exit 0 ; \
+	   fi
+
+install :
+	 @@ for DIR in $(INSTDIR) ; do \
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done
+	   if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	     $(INSTALL) -d -m 775 $(LIBDIR)/pkgconfig ; \
+	   fi
+	   $(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+	   $(INSTALL) -m 444 wcsconfig.h wcsconfig_f77.h $(INCDIR)
+	-  if [ ! -d "$(DOCDIR)" ] ; then \
+	     $(INSTALL) -d -m 775 $(DOCDIR) ; \
+	   fi
+	   $(INSTALL) -m 444 CHANGES COPYING* README $(DOCDIR)
+	   $(INSTALL) -m 444 INSTALL THANKS VALIDATION $(DOCDIR)
+	-  if [ -h $(DOCLINK) ] ; then \
+	     $(RM) $(DOCLINK) ; \
+	   fi
+	   $(LN_S) $(notdir $(DOCDIR)) $(DOCLINK)
+	   $(MAKE) -k -C doxygen $@@
+
+uninstall :
+	 @@ for DIR in $(INSTDIR) ; do \
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done
+	-  cd $(LIBDIR) && $(RM) pkgconfig/wcslib.pc
+	-  cd $(INCDIR) && $(RM) wcsconfig*.h
+	-  $(RM) $(DOCLINK)
+	-  $(RM) $(DOCDIR)
+	   $(MAKE) -k -C doxygen $@@
+
+clean cleaner :
+	   for DIR in $(SUBDIRS) doxygen ; do \
+	     $(MAKE) -C $$DIR $@@ ; \
+	   done
+
+cleanest distclean realclean :
+	   for DIR in $(SUBDIRS) doxygen ; do \
+	     $(MAKE) -C $$DIR $@@ ; \
+	   done
+	-  $(RM) *.log
+	-  $(RM) -r autom4te.cache autoscan.log
+	-  $(RM) -r api-sanity-check
+	-  $(RM) configure~ confdefs.h conftest.*
+	-  $(RM) config.log config.status configure.lineno
+	-  $(RM) makedefs wcslib.pc
+	-  $(RM) wcsconfig.h wcsconfig_*.h
+	-  $(RM) wcslib-*.tar.gz
+
+show ::
+	-@@ echo 'Subdirectories to be built...'
+	-@@ echo '  SUBDIRS     := $(SUBDIRS)'
+	-@@ echo '  TSTDIRS     := $(TSTDIRS)'
+	-@@ echo ''
+
+writable :
+	  chmod -R u+w .
+
+GNUmakefile : makedefs ;
+
+makedefs : makedefs.in config.status
+	-@@ echo ''
+	-@@ $(TIMER)
+	   ./config.status
+
+config.status : configure
+	-@@ echo ''
+	-@@ $(TIMER)
+	-@@ echo ''
+	-@@ echo "Environment variables that affect 'configure':"
+	-@@ echo "  FLEX     = $${FLEX-(undefined)}"
+	-@@ echo "  FLFLAGS  = $${FLFLAGS-(undefined)}"
+	-@@ echo "  CPP      = $${CPP-(undefined)}"
+	-@@ echo "  CPPFLAGS = $${CPPFLAGS-(undefined)}"
+	-@@ echo "  CC       = $${CC-(undefined)}"
+	-@@ echo "  CFLAGS   = $${CFLAGS-(undefined)}"
+	-@@ echo "  F77      = $${F77-(undefined)}"
+	-@@ echo "  FFLAGS   = $${FFLAGS-(undefined)}"
+	-@@ echo "  BINDC    = $${BINDC-(undefined)}"
+	-@@ echo "  ARFLAGS  = $${ARFLAGS-(undefined)}"
+	-@@ echo "  LDFLAGS  = $${LDFLAGS-(undefined)}"
+	-@@ echo ''
+	   ./configure --no-create
+
+
+#-----------------------------------------------------------------------------
+# These are for code management.
+
+.PHONY : dist
+
+dist :
+	   $(MAKE) -C doxygen cleanest build
+	   $(MAKE) -C utils man
+	   $(MAKE) distclean
+	-@@ echo $(WCSLIBPKG)/makedefs >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/TODO     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.T >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.X >> wcslib.X
+	   rm -f $(WCSLIBPKG).tar.bz2
+	   tar cf - -C .. -X wcslib.X $(WCSLIBPKG) | \
+	     tar t | \
+	     grep -v '/$$' | \
+	     sort > wcslib.T
+	   rm -f wcslib.X
+	   tar cvf $(WCSLIBPKG).tar -C .. -T wcslib.T
+	   rm -f wcslib.T
+	   bzip2 $(WCSLIBPKG).tar
+	   chmod 444 $(WCSLIBPKG).tar.bz2
+
+install_dist :
+	   scp -p $(WCSLIBPKG).tar.bz2 cal103@@venice:/nfs/ftp/software/wcslib/
+	   ssh cal103@@venice "cd /nfs/ftp/software/wcslib/ && \
+	     rm -f wcslib.tar.bz2 && \
+	     ln -s $(WCSLIBPKG).tar.bz2 wcslib.tar.bz2"
+	   rsync --archive --delete html/ ../wwwatdocs/wcs/wcslib/
+	   cp -fp CHANGES wcslib.pdf ../wwwatdocs/wcs/
+	   mv -f $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+	   cd ../wcslib-releases/ && ./mkindex > index.html
+
+configure : configure.ac
+	-@@ echo ''
+	-@@ $(TIMER)
+	   autoconf
+	-@@ $(RM) configure~
+
+# Code development settings exported for 'configure'.
+-include flavours
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.9
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.8
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.7
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.6
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.5.1.3 2026/03/29 13:38:00 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.5
+d36 2
+a37 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 8.4.1.3 2025/12/06 13:40:44 mcalabre Exp mcalabre $
+a190 4
+	   mv -f $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+	   cd ../wcslib-releases/ && ./mkindex
+	   cp -fp CHANGES wcslib.pdf ../wwwatdocs/wcs/
+	   rsync --archive --delete html/ ../wwwatdocs/wcs/wcslib/
+d195 4
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Further changes to install_dist.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+d191 4
+a198 4
+	   rsync --archive --delete html/ ../wwwatdocs/wcs/wcslib/
+	   cp -fp CHANGES wcslib.pdf ../wwwatdocs/wcs/
+	   mv -f $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+	   cd ../wcslib-releases/ && ./mkindex > index.html
+@
+
+
+8.5.1.3
+log
+@Updated the URL for WCSLIB on ATNF's website.
+@
+text
+@d36 2
+a37 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.5.1.2 2025/12/06 15:09:07 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.4
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.3.1.2 2024/07/06 09:04:41 mcalabre Exp mcalabre $
+d175 4
+a178 14
+	-@@ echo $(WCSLIBPKG)/C/RCS        >  wcslib.X
+	-@@ echo $(WCSLIBPKG)/C/flexed/RCS >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/C/test/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/doxygen/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/Fortran/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/Fortran/test/RCS >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/makedefs     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/other        >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/pgsbox/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/RCS          >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/TODO         >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/utils/RCS    >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.T     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.X     >> wcslib.X
+d191 4
+a195 2
+	   cp -fp $(WCSLIBPKG).tar.bz2 ~/public_html/WCS/
+	   mv -f  $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+a198 2
+	   cp -fp CHANGES wcslib.pdf ~/public_html/WCS/
+	   rsync --archive --delete html/ ~/public_html/WCS/wcslib/
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Include the RCS subdirectories in the distribution tar file.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+d175 6
+d182 3
+d186 1
+@
+
+
+8.4.1.3
+log
+@Updated install_dist for the new ATNF web pages.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.4.1.2 2025/11/26 14:16:48 mcalabre Exp mcalabre $
+d175 4
+a178 4
+	-@@ echo $(WCSLIBPKG)/makedefs >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/TODO     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.T >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.X >> wcslib.X
+a190 4
+	   mv -f $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+	   cd ../wcslib-releases/ && ./mkindex
+	   cp -fp CHANGES wcslib.pdf ../wwwatdocs/wcs/
+	   rsync --archive --delete html/ ../wwwatdocs/wcs/wcslib/
+d192 2
+d197 2
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.3
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.2.1.3 2024/05/06 05:46:50 mcalabre Exp mcalabre $
+d216 1
+a216 2
+# Code development overrides must be included specifically before 'configure'
+# generates makedefs.
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Changed a comment relating to flavours.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+d216 2
+a217 1
+# Code development settings exported for 'configure'.
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.2
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d95 1
+a97 1
+	     $(LN_S) $(notdir $(DOCDIR)) $(DOCLINK) ; \
+d99 2
+a100 8
+	-  if [ ! -d "$(PDFDIR)" ] ; then \
+	     $(INSTALL) -d -m 775 $(PDFDIR) ; \
+	   fi
+	   $(INSTALL) -m 444 wcslib.pdf $(PDFDIR)
+	-  if [ ! -d "$(HTMLDIR)/html" ] ; then \
+	     $(INSTALL) -d -m 775 $(HTMLDIR)/html ; \
+	   fi
+	   $(INSTALL) -m 444 html/* $(HTMLDIR)/html
+d110 1
+a110 2
+	-  $(RM) $(PDFDIR)
+	-  $(RM) $(HTMLDIR)
+d159 1
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Moved the relevant parts of the install and uninstall rules into
+doxygen/GNUmakefile.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+a94 1
+	   $(INSTALL) -m 444 INSTALL THANKS VALIDATION $(DOCDIR)
+d97 1
+d99 8
+a106 2
+	   $(LN_S) $(notdir $(DOCDIR)) $(DOCLINK)
+	   $(MAKE) -k -C doxygen $@@
+d116 2
+a117 1
+	   $(MAKE) -k -C doxygen $@@
+@
+
+
+8.2.1.3
+log
+@In the 'config.status' rule, report the value of the BINDC environment
+variable.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.2.1.2 2023/11/17 03:32:33 mcalabre Exp mcalabre $
+a158 1
+	-@@ echo "  BINDC    = $${BINDC-(undefined)}"
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.1
+d37 1
+a37 1
+# $Id: GNUmakefile,v 8.0.1.2 2023/07/05 17:10:58 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 8.0
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d131 1
+a131 1
+	-  $(RM) confdefs.h conftest.*
+d220 1
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@Delete configure~ in the distclean and configure rules.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d131 1
+a131 1
+	-  $(RM) configure~ confdefs.h conftest.*
+a219 1
+	-@@ $(RM) configure~
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.13
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.12
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.11.1.2 2022/09/08 03:58:55 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.11
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d208 1
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@In the 'install_dist' rule, copy the tarfile to ~/public_html/WCS/, it is
+now distributed from there due to withdrawal of support for ftp in some web
+browsers.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+a207 1
+	   cp -fp $(WCSLIBPKG).tar.bz2 ~/public_html/WCS/
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.10
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.9
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.8
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.7
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.6
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.5
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.4.1.2 2021/03/02 13:24:08 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.4
+d11 2
+d37 1
+a37 1
+# $Id: GNUmakefile,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d48 1
+a48 1
+         realclean show tests writable
+d86 4
+d107 11
+a117 4
+	   if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	     $(INSTALL) -d -m 775 $(LIBDIR)/pkgconfig ; \
+	   fi
+	   $(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added an uninstall rule.
+@
+text
+@a10 2
+#   uninstall: Deletes installed files (this release only), including the
+#              sharable library.
+d35 1
+a35 1
+# $Id: GNUmakefile,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d46 1
+a46 1
+         realclean show tests uninstall writable
+a83 4
+	   if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	     $(INSTALL) -d -m 775 $(LIBDIR)/pkgconfig ; \
+	   fi
+	   $(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+d101 4
+a104 11
+
+uninstall :
+	 @@ for DIR in $(INSTDIR) ; do \
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done
+	-  cd $(LIBDIR) && $(RM) pkgconfig/wcslib.pc
+	-  cd $(INCDIR) && $(RM) wcsconfig*.h
+	-  $(RM) $(DOCLINK)
+	-  $(RM) $(DOCDIR)
+	-  $(RM) $(PDFDIR)
+	-  $(RM) $(HTMLDIR)
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.3
+d35 1
+a35 1
+# $Id: GNUmakefile,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.2
+d35 1
+a35 1
+# $Id: GNUmakefile,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 7.1
+d35 1
+a35 1
+# $Id: GNUmakefile,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 6.4
+d35 1
+a35 1
+# $Id: GNUmakefile,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 6.3
+d35 1
+a35 1
+# $Id: GNUmakefile,v 6.2.1.2 2019/07/08 09:21:34 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 6.2
+d35 1
+a35 1
+# $Id: GNUmakefile,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d145 4
+a150 2
+	-@@ echo "  CPP      = $${CPP-(undefined)}"
+	-@@ echo "  CPPFLAGS = $${CPPFLAGS-(undefined)}"
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@In the 'config.status' rule, additionally report the values of the FLEX and
+FLFLAGS environment variables before running 'configure'.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+d145 2
+a146 2
+	-@@ echo "  FLEX     = $${FLEX-(undefined)}"
+	-@@ echo "  FLFLAGS  = $${FLFLAGS-(undefined)}"
+a148 2
+	-@@ echo "  CC       = $${CC-(undefined)}"
+	-@@ echo "  CFLAGS   = $${CFLAGS-(undefined)}"
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 6.1
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.20.1.2 2018/10/19 02:58:37 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.20
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d38 1
+d60 1
+a60 1
+	     $(MAKE) -i -C $$DIR cleaner ; \
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Set SUBDIR.  The 'check' target relies on wcsware for tdis3 and twcslint, so
+it is necessary to ensure that the utilities are built as a prerequisite.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a37 1
+SUBDIR := .
+d59 1
+a59 1
+	     $(MAKE) -i -C $$DIR cleaner build ; \
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.19
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.18
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.17.1.2 2017/12/05 00:48:02 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.17
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.16.1.2 2017/09/12 04:14:25 mcalabre Exp mcalabre $
+d150 1
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Report the value of the ARFLAGS environment variable when configure is run.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+a149 1
+	-@@ echo "  ARFLAGS  = $${ARFLAGS-(undefined)}"
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.16
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+d85 1
+a85 1
+	     $(INSTALL) -d -m 2775 $(DOCDIR) ; \
+d93 1
+a93 1
+	     $(INSTALL) -d -m 2775 $(PDFDIR) ; \
+d97 1
+a97 1
+	     $(INSTALL) -d -m 2775 $(HTMLDIR)/html ; \
+d101 1
+a101 1
+	     $(INSTALL) -d -m 2775 $(LIBDIR)/pkgconfig ; \
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Removed setgid permission on installation directories (Sergio Pascual
+email 2017-09-11).
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+d85 1
+a85 1
+	     $(INSTALL) -d -m 775 $(DOCDIR) ; \
+d93 1
+a93 1
+	     $(INSTALL) -d -m 775 $(PDFDIR) ; \
+d97 1
+a97 1
+	     $(INSTALL) -d -m 775 $(HTMLDIR)/html ; \
+d101 1
+a101 1
+	     $(INSTALL) -d -m 775 $(LIBDIR)/pkgconfig ; \
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.15
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.14
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.13
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.12
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.11
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.10
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.9
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.8
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.7
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.6
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.5
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.4
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.3
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.2
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.1
+d35 1
+a35 1
+# $Id: GNUmakefile,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 5.0
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.25
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.24
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.23
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.22
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.21
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.20
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.19
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.18
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.17.1.2 2013/07/12 04:19:59 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.17
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.16.1.2 2013/01/29 05:20:53 cal103 Exp cal103 $
+d190 1
+a190 1
+	   scp -p $(WCSLIBPKG).tar.bz2 venice:/nfs/ftp/software/wcslib/
+d192 1
+a192 1
+	   ssh venice "cd /nfs/ftp/software/wcslib/ && \
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@The library is now managed by uid mcalabre, so in install_dist, remote
+access to ATNF is now explicitly through cal103@@venice.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d190 1
+a190 1
+	   scp -p $(WCSLIBPKG).tar.bz2 cal103@@venice:/nfs/ftp/software/wcslib/
+d192 1
+a192 1
+	   ssh cal103@@venice "cd /nfs/ftp/software/wcslib/ && \
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.16
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+d116 1
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Delete the api-sanity-check directory in 'cleanest'.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+a115 1
+	-  $(RM) -r api-sanity-check
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.15
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.14.1.2 2012/09/26 14:22:38 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.14
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.13.1.2 2012/07/13 03:27:07 cal103 Exp cal103 $
+d189 1
+a189 1
+	   cp -fp $(WCSLIBPKG).tar.bz2 /nfs/ftp/software/wcslib/
+d191 1
+a191 1
+	   (cd /nfs/ftp/software/wcslib/ && \
+d193 1
+a193 1
+	     ln -s $(WCSLIBPKG).tar.bz2 wcslib.tar.bz2)
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+@
+
+
+4.14.1.2
+log
+@Modified install_dist for software development from home (zeus).
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+d189 1
+a189 1
+	   scp -p $(WCSLIBPKG).tar.bz2 venice:/nfs/ftp/software/wcslib/
+d191 1
+a191 1
+	   ssh venice "cd /nfs/ftp/software/wcslib/ && \
+d193 1
+a193 1
+	     ln -s $(WCSLIBPKG).tar.bz2 wcslib.tar.bz2"
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.13
+d33 3
+a35 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.12.1.2 2012/03/14 07:38:08 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d33 3
+a35 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.12
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+d88 4
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.12.1.2
+log
+@Recreate DOCLINK, but only if it already exists.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+a87 4
+	-  if [ -h $(DOCLINK) ] ; then \
+	     $(RM) $(DOCLINK) ; \
+	     $(LN_S) $(notdir $(DOCDIR)) $(DOCLINK) ; \
+	   fi
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.11
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.10
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.9
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.8.1.3 2011/12/05 06:38:54 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.8
+d18 2
+a19 2
+#              manual (which is normally provided pre-built).  It is the one
+#              to use between builds for multiple platforms.
+d21 2
+a22 2
+#              from the source files, including the programmers' manual, but
+#              excluding 'configure'.
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d40 4
+d54 1
+a54 1
+check tests : show
+d68 11
+d157 1
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Make the utilities man pages when generating a distribution.
+@
+text
+@d18 2
+a19 2
+#              manual and man pages (which are normally provided pre-built).
+#              It is the one to use between builds for multiple platforms.
+d21 2
+a22 2
+#              from the source files, including the programmers' manual and
+#              man pages, but excluding 'configure'.
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a141 1
+	   $(MAKE) -C utils man
+@
+
+
+4.8.1.3
+log
+@Summarize the non-graphical test results.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.8.1.2 2011/10/04 07:49:19 cal103 Exp cal103 $
+a39 4
+ifeq "$(CHECK)" "nopgplot"
+  TSTDIRS := $(filter-out pgsbox,$(TSTDIRS))
+endif
+
+d50 1
+a50 1
+check tests :: show
+a63 11
+check ::
+	-@@ echo ''
+	-@@ echo 'Summary of results for non-graphical tests'
+	-@@ echo '------------------------------------------'
+	-@@ cat ./*/test_results
+	 @@ if grep 'FAIL:' ./*/test_results > /dev/null ; then \
+	     exit 1 ; \
+	   else \
+	     exit 0 ; \
+	   fi
+
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.7
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6.1.5 2011/02/07 07:01:52 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.6
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.5.1.3 2010/11/15 23:28:19 cal103 Exp cal103 $
+d69 12
+a80 3
+	   $(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES
+	   $(INSTALL) -m 444 COPYING $(INCDIR)/COPYING
+	   $(INSTALL) -m 444 README  $(INCDIR)/README
+d143 16
+a158 16
+	-@@ echo $(WCSLIBV)/C/RCS        >  wcslib.X
+	-@@ echo $(WCSLIBV)/C/flexed/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/C/test/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBV)/doxygen/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBV)/Fortran/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBV)/Fortran/test/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/makedefs     >> wcslib.X
+	-@@ echo $(WCSLIBV)/other        >> wcslib.X
+	-@@ echo $(WCSLIBV)/pgsbox/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBV)/RCS          >> wcslib.X
+	-@@ echo $(WCSLIBV)/TODO         >> wcslib.X
+	-@@ echo $(WCSLIBV)/utils/RCS    >> wcslib.X
+	-@@ echo $(WCSLIBV)/wcslib.T     >> wcslib.X
+	-@@ echo $(WCSLIBV)/wcslib.X     >> wcslib.X
+	   rm -f $(WCSLIBV).tar.bz2
+	   tar cf - -C .. -X wcslib.X $(WCSLIBV) | \
+d163 1
+a163 1
+	   tar cvf $(WCSLIBV).tar -C .. -T wcslib.T
+d165 2
+a166 2
+	   bzip2 $(WCSLIBV).tar
+	   chmod 444 $(WCSLIBV).tar.bz2
+d169 2
+a170 2
+	   cp -fp $(WCSLIBV).tar.bz2 /nfs/ftp/software/wcslib/
+	   mv -f  $(WCSLIBV).tar.bz2 ../wcslib-releases/
+d173 1
+a173 1
+	     ln -s $(WCSLIBV).tar.bz2 wcslib.tar.bz2)
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Install documentation into $(DOCDIR).
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+d69 3
+a71 8
+	-  if [ ! -d "$(DOCDIR)" ] ; then \
+	     $(INSTALL) -d -m 2775 $(DOCDIR) ; \
+	   fi
+	   $(INSTALL) -m 444 -t $(DOCDIR) CHANGES COPYING README wcslib.pdf
+	-  if [ ! -d "$(DOCDIR)/html" ] ; then \
+	     $(INSTALL) -d -m 2775 $(DOCDIR)/html ; \
+	   fi
+	   $(INSTALL) -m 444 -t $(DOCDIR)/html html/*
+@
+
+
+4.6.1.3
+log
+@Install the PDF manual into $(PDFDIR) and HTML into $(HTMLDIR).
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6.1.2 2010/12/14 03:03:26 cal103 Exp cal103 $
+d72 3
+a74 3
+	   $(INSTALL) -m 444 -t $(DOCDIR) CHANGES COPYING* README
+	-  if [ ! -d "$(PDFDIR)" ] ; then \
+	     $(INSTALL) -d -m 2775 $(PDFDIR) ; \
+d76 1
+a76 5
+	   $(INSTALL) -m 444 -t $(PDFDIR) wcslib.pdf
+	-  if [ ! -d "$(HTMLDIR)/html" ] ; then \
+	     $(INSTALL) -d -m 2775 $(HTMLDIR)/html ; \
+	   fi
+	   $(INSTALL) -m 444 -t $(HTMLDIR)/html html/*
+@
+
+
+4.6.1.4
+log
+@WCSLIBV -> WCSLIBPKG.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6.1.5 2011/01/14 06:31:33 cal103 Exp cal103 $
+d143 16
+a158 16
+	-@@ echo $(WCSLIBPKG)/C/RCS        >  wcslib.X
+	-@@ echo $(WCSLIBPKG)/C/flexed/RCS >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/C/test/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/doxygen/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/Fortran/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/Fortran/test/RCS >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/makedefs     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/other        >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/pgsbox/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/RCS          >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/TODO         >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/utils/RCS    >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.T     >> wcslib.X
+	-@@ echo $(WCSLIBPKG)/wcslib.X     >> wcslib.X
+	   rm -f $(WCSLIBPKG).tar.bz2
+	   tar cf - -C .. -X wcslib.X $(WCSLIBPKG) | \
+d163 1
+a163 1
+	   tar cvf $(WCSLIBPKG).tar -C .. -T wcslib.T
+d165 2
+a166 2
+	   bzip2 $(WCSLIBPKG).tar
+	   chmod 444 $(WCSLIBPKG).tar.bz2
+d169 2
+a170 2
+	   cp -fp $(WCSLIBPKG).tar.bz2 /nfs/ftp/software/wcslib/
+	   mv -f  $(WCSLIBPKG).tar.bz2 ../wcslib-releases/
+d173 1
+a173 1
+	     ln -s $(WCSLIBPKG).tar.bz2 wcslib.tar.bz2)
+@
+
+
+4.6.1.5
+log
+@'install' doesn't have the '-t' option in MacOSX.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.6.1.4 2011/01/18 03:59:08 cal103 Exp cal103 $
+d72 1
+a72 1
+	   $(INSTALL) -m 444 CHANGES COPYING* README $(DOCDIR)
+d76 1
+a76 1
+	   $(INSTALL) -m 444 wcslib.pdf $(PDFDIR)
+d80 1
+a80 1
+	   $(INSTALL) -m 444 html/* $(HTMLDIR)/html
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.5.
+d23 1
+a23 1
+#   show_all:  Print the values of important variables used in this and the
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.4.1.10 2010/07/16 00:19:15 cal103 Exp cal103 $
+d41 1
+a41 1
+         realclean show_all tests writable
+d50 1
+a50 1
+check tests : show_all
+d78 3
+a80 3
+	for DIR in $(SUBDIRS) doxygen ; do \
+	   $(MAKE) -C $$DIR $@@ ; \
+	done
+d83 10
+a92 9
+	for DIR in $(SUBDIRS) doxygen ; do \
+	   $(MAKE) -C $$DIR $@@ ; \
+	done
+	$(RM) -r autom4te.cache autoscan.log
+	$(RM) confdefs.h conftest.*
+	$(RM) config.log config.status configure.lineno
+	$(RM) makedefs wcslib.pc
+	$(RM) wcsconfig.h wcsconfig_*.h
+	$(RM) wcslib-*.tar.gz
+d94 1
+a94 1
+show_all ::
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Renamed 'show_all' to 'show'.
+@
+text
+@d23 1
+a23 1
+#   show:      Print the values of important variables used in this and the
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d41 1
+a41 1
+         realclean show tests writable
+d50 1
+a50 1
+check tests : show
+d93 1
+a93 1
+show ::
+@
+
+
+4.5.1.3
+log
+@Delete *.log in distclean; ignore return status from rm.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.5.1.2 2010/10/13 23:59:33 cal103 Exp cal103 $
+d78 3
+a80 3
+	   for DIR in $(SUBDIRS) doxygen ; do \
+	     $(MAKE) -C $$DIR $@@ ; \
+	   done
+d83 9
+a91 10
+	   for DIR in $(SUBDIRS) doxygen ; do \
+	     $(MAKE) -C $$DIR $@@ ; \
+	   done
+	-  $(RM) *.log
+	-  $(RM) -r autom4te.cache autoscan.log
+	-  $(RM) confdefs.h conftest.*
+	-  $(RM) config.log config.status configure.lineno
+	-  $(RM) makedefs wcslib.pc
+	-  $(RM) wcsconfig.h wcsconfig_*.h
+	-  $(RM) wcslib-*.tar.gz
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.4.
+d6 4
+a9 3
+#   all:       Do 'make all' in each subdirectory.
+#   check:     Do 'make check' in each subdirectory.
+#   tests:     Do 'make tests' in each subdirectory.
+d11 14
+a24 2
+#   realclean (or cleanest): Do 'make realclean' in each subdirectory.
+#   show_all:  Print the values of all variables used in this GNUmakefile.
+d30 1
+a30 1
+#   2) Refer also to the GNUmakefiles in subdirectories, particularly
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.3.1.8 2009/08/10 01:10:47 cal103 Exp $
+d40 2
+a41 27
+SUBDIRS := C Fortran pgsbox utils
+TSTDIRS := C Fortran pgsbox
+
+# Top of the 'make install' hierarchy: pgsbox -> Fortran -> C.
+INSTDIR := pgsbox
+
+# Is a Fortran compiler available?
+ifeq "$(FC)" ""
+  # No, skip pgsbox.
+  SUBDIRS := C Fortran utils
+  TSTDIRS := C
+  INSTDIR := Fortran
+endif
+
+# Is PGPLOT available?
+ifeq "$(PGPLOTINC)" ""
+  # No, skip pgsbox.
+  SUBDIRS := $(filter-out pgsbox, $(SUBDIRS))
+  INSTDIR := Fortran
+endif
+
+ifeq "$(PGPLOTLIB)" ""
+  TSTDIRS := $(filter-out pgsbox, $(TSTDIRS))
+endif
+
+
+.PHONY : build check chmod cleanest install realclean show_all tests writable
+d65 16
+a80 9
+	$(MAKE) -k -C $(INSTDIR) $@@
+	$(MAKE) -k -C utils $@@
+	$(INSTALL) -m 444 wcsconfig.h wcsconfig_f77.h $(INCDIR)
+	$(INSTALL) -m 444 COPYING $(INCDIR)/COPYING
+	$(INSTALL) -m 444 README  $(INCDIR)/README
+	if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	  $(INSTALL) -d -m 2775 $(LIBDIR)/pkgconfig ; \
+	fi
+	$(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+d82 1
+a82 1
+realclean cleanest :
+d84 1
+a84 1
+	   $(MAKE) -C $$DIR realclean ; \
+d132 1
+a132 1
+	   $(MAKE) realclean
+a141 1
+	-@@ echo $(WCSLIBV)/releases     >> wcslib.X
+d145 1
+d147 5
+a151 4
+	   rm -f releases/$(WCSLIBV).tar.bz2
+	   tar cvfX releases/$(WCSLIBV).tar wcslib.X -C .. $(WCSLIBV)
+	   bzip2 releases/$(WCSLIBV).tar
+	   chmod 444 releases/$(WCSLIBV).tar.bz2
+d153 13
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4 2009/08/10 01:12:09 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Install the CHANGES file.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.1 2009/08/10 08:41:17 cal103 Exp cal103 $
+a79 1
+	$(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES
+@
+
+
+4.4.1.3
+log
+@Don't deposit the distribution tar file in ./releases, generating a
+patch release might overwrite the main release.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.2 2009/08/10 23:58:29 cal103 Exp cal103 $
+d153 4
+a156 4
+	   rm -f $(WCSLIBV).tar.bz2
+	   tar cvfX $(WCSLIBV).tar wcslib.X -C .. $(WCSLIBV)
+	   bzip2 $(WCSLIBV).tar
+	   chmod 444 $(WCSLIBV).tar.bz2
+@
+
+
+4.4.1.4
+log
+@When making a distribution, engineer things so that the tar file is in
+alphabetical order.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.3 2009/08/11 00:05:17 cal103 Exp cal103 $
+a151 1
+	-@@ echo $(WCSLIBV)/wcslib.T     >> wcslib.X
+d154 1
+a154 7
+	   tar cf - -C .. -X wcslib.X $(WCSLIBV) | \
+	     tar t | \
+	     grep -v '/$$' | \
+	     sort > wcslib.T
+	   rm -f wcslib.X
+	   tar cvf $(WCSLIBV).tar -C .. -T wcslib.T
+	   rm -f wcslib.T
+d157 1
+@
+
+
+4.4.1.5
+log
+@Added a new rule, install_dist, for installing a distribution.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.4 2009/09/03 06:01:49 cal103 Exp cal103 $
+a164 9
+install_dist :
+	   mv -f $(WCSLIBV).tar.bz2 ./releases/
+	   cp -fp ./releases/$(WCSLIBV).tar.bz2 /nfs/ftp/software/wcslib/
+	   (cd /nfs/ftp/software/wcslib/ && \
+	     rm -f wcslib.tar.bz2 && \
+	     ln -s $(WCSLIBV).tar.bz2 wcslib.tar.bz2)
+	   cp -fp CHANGES wcslib.pdf ~/public_html/WCS/
+	   rsync --archive --delete html/ ~/public_html/WCS/wcslib/
+
+@
+
+
+4.4.1.6
+log
+@SUBDIRS, TSTDIRS, and INSTDIR are now set in makedefs via configure.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.5 2009/09/03 06:24:02 cal103 Exp cal103 $
+d27 26
+d77 10
+a86 11
+	 @@ for DIR in $(INSTDIR) ; do \
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done
+	   $(INSTALL) -m 444 wcsconfig.h wcsconfig_f77.h $(INCDIR)
+	   $(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES
+	   $(INSTALL) -m 444 COPYING $(INCDIR)/COPYING
+	   $(INSTALL) -m 444 README  $(INCDIR)/README
+	   if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	     $(INSTALL) -d -m 2775 $(LIBDIR)/pkgconfig ; \
+	   fi
+	   $(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+@
+
+
+4.4.1.7
+log
+@Added 'distclean' (GNU standard target name) as a synonym for 'cleanest'
+or 'realclean'.
+@
+text
+@d7 2
+a8 3
+#   check:     Do 'make check' in each subdirectory (compile and run tests).
+#   tests:     Do 'make tests' in each subdirectory (compile test programs but
+#              don't run them).
+d10 1
+a10 2
+#   distclean (realclean or cleanest): Do 'make distclean' in each
+#              subdirectory.
+d22 1
+a22 1
+# $Id: GNUmakefile,v 4.4.1.6 2009/09/14 06:49:26 cal103 Exp cal103 $
+d27 1
+a27 2
+.PHONY : build check chmod cleanest distclean install realclean show_all \
+         tests writable
+d63 1
+a63 1
+distclean realclean cleanest :
+d65 1
+a65 1
+	   $(MAKE) -C $$DIR distclean ; \
+d113 1
+a113 1
+	   $(MAKE) distclean
+@
+
+
+4.4.1.8
+log
+@WCSLIB releases now reside in ../wcslib-releases.
+@
+text
+@d24 1
+a24 1
+# $Id: GNUmakefile,v 4.4.1.7 2010/07/09 01:44:28 cal103 Exp cal103 $
+d126 1
+d144 2
+a145 2
+	   cp -fp $(WCSLIBV).tar.bz2 /nfs/ftp/software/wcslib/
+	   mv -f  $(WCSLIBV).tar.bz2 ../wcslib-releases/
+@
+
+
+4.4.1.9
+log
+@Reworked the various clean targets.
+@
+text
+@d6 1
+a6 1
+#   all:       Do 'make all' in each subdirectory (excluding ./doxygen).
+d11 3
+a13 13
+#   clean:     Recursively delete intermediate files produced as part of the
+#              build, e.g. object modules, core dumps, etc.
+#   cleaner:   Recursively clean, and also delete test executables, test
+#              input and output, and intermediates produced in compiling the
+#              programmers' manual.
+#   distclean (or realclean): Recursively delete all platform-dependent files
+#              generated during the build, preserving only the programmers'
+#              manual (which is normally provided pre-built).  It is the one
+#              to use between builds for multiple platforms.
+#   cleanest:  Like distclean, but deletes everything that can be regenerated
+#              from the source files, including the programmers' manual.
+#   show_all:  Print the values of important variables used in this and the
+#              other makefiles.
+d19 1
+a19 1
+#   2) Refer also to the makefiles in subdirectories, particularly
+d24 1
+a24 1
+# $Id: GNUmakefile,v 4.4.1.8 2010/07/15 01:45:43 cal103 Exp cal103 $
+d29 2
+a30 2
+.PHONY : build check chmod clean cleaner cleanest distclean install \
+         realclean show_all tests writable
+d66 1
+a66 1
+clean cleaner :
+d68 1
+a68 6
+	   $(MAKE) -C $$DIR $@@ ; \
+	done
+
+cleanest distclean realclean :
+	for DIR in $(SUBDIRS) doxygen ; do \
+	   $(MAKE) -C $$DIR $@@ ; \
+@
+
+
+4.4.1.10
+log
+@Note in the prologue that 'cleanest' doesn't delete 'configure'.
+@
+text
+@d21 1
+a21 2
+#              from the source files, including the programmers' manual, but
+#              excluding 'configure'.
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4.1.9 2010/07/15 04:37:22 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building WCSLIB 4.3.
+d4 9
+a12 9
+#   Summary of the main targets
+#   ---------------------------
+#      all:       Do 'make all' in each subdirectory.
+#      check:     Do 'make check' in each subdirectory.
+#      tests:     Do 'make tests' in each subdirectory.
+#      install:   Do 'make install' in each subdirectory.
+#      realclean (or cleanest): Do 'make realclean' in each subdirectory.
+#      show_all:  Print the values of all variables used in this GNUmakefile.
+#      writable:  Run chmod recursively to make all sources writable.
+d14 2
+a15 3
+#   Notes:
+#      1) If you need to make changes then preferably modify makedefs.in
+#         instead.
+d17 2
+a18 2
+#      2) Refer also to the GNUmakefiles in subdirectories, particularly
+#         C/GNUmakefile.
+d20 3
+a22 3
+#   Author: Mark Calabretta, Australia Telescope National Facility
+#   http://www.atnf.csiro.au/~mcalabre/index.html
+#   $Id: GNUmakefile,v 4.2.1.9 2007/08/08 04:36:08 cal103 Exp cal103 $
+d30 3
+d35 1
+d38 1
+d43 1
+d45 1
+d74 1
+a74 1
+	   done 
+d77 1
+a77 1
+	$(MAKE) -k -C pgsbox $@@
+d79 1
+d82 4
+d88 1
+a88 1
+	for DIR in $(SUBDIRS) ; do \
+d94 2
+a95 1
+	$(RM) wcsconfig.h wcsconfig_*.h makedefs
+d135 3
+a137 1
+dist : realclean
+d141 1
+d147 1
+d149 1
+d152 5
+a156 5
+	   tar cvfX ../$(WCSLIBV).tar wcslib.X -C .. $(WCSLIBV)
+	   mv ../$(WCSLIBV).tar ./$(WCSLIBV).tar
+	   rm -f wcslib.X $(WCSLIBV).tar.gz
+	   gzip --best $(WCSLIBV).tar
+	   chmod 444 $(WCSLIBV).tar.gz
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building WCSLIB 4.4.
+d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.3 2007/12/27 05:57:06 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Need to install wcsconfig.h and wcsconfig_f77.h in $(INCDIR).
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.3.1.1 2007/12/27 13:22:58 cal103 Exp cal103 $
+a72 1
+	$(INSTALL) -m 444 wcsconfig.h wcsconfig_f77.h $(INCDIR)
+@
+
+
+4.3.1.3
+log
+@Don't try to install (and consequently build) PGSBOX if no Fortran compiler
+is available.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.3.1.2 2008/02/20 00:09:55 cal103 Exp cal103 $
+a30 3
+# Top of the 'make install' hierarchy: psgbox -> Fortran -> C.
+INSTDIR := pgsbox
+
+a34 1
+  INSTDIR := Fortran
+a39 1
+  INSTDIR := Fortran
+d71 1
+a71 1
+	$(MAKE) -k -C $(INSTDIR) $@@
+@
+
+
+4.3.1.4
+log
+@Support pkgconfig with wcslib.pc.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.3.1.3 2008/02/20 01:00:07 cal103 Exp cal103 $
+d31 1
+a31 1
+# Top of the 'make install' hierarchy: pgsbox -> Fortran -> C.
+a35 1
+  # No, skip pgsbox.
+a42 1
+  # No, skip pgsbox.
+d73 1
+a73 1
+	   done
+a80 4
+	if [ ! -d "$(LIBDIR)/pkgconfig" ] ; then \
+	  $(INSTALL) -d -m 2775 $(LIBDIR)/pkgconfig ; \
+	fi
+	$(INSTALL) -m 444 wcslib.pc $(LIBDIR)/pkgconfig/wcslib.pc
+d89 1
+a89 2
+	$(RM) makedefs wcslib.pc
+	$(RM) wcsconfig.h wcsconfig_*.h
+@
+
+
+4.3.1.5
+log
+@Added the doxygen subdirectory to realclean.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.3.1.4 2009/07/21 06:30:24 cal103 Exp cal103 $
+d89 1
+a89 1
+	for DIR in $(SUBDIRS) doxygen ; do \
+@
+
+
+4.3.1.6
+log
+@Whitespace changes.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB 4.4.
+d4 9
+a12 9
+# Summary of the main targets
+# ---------------------------
+#   all:       Do 'make all' in each subdirectory.
+#   check:     Do 'make check' in each subdirectory.
+#   tests:     Do 'make tests' in each subdirectory.
+#   install:   Do 'make install' in each subdirectory.
+#   realclean (or cleanest): Do 'make realclean' in each subdirectory.
+#   show_all:  Print the values of all variables used in this GNUmakefile.
+#   writable:  Run chmod recursively to make all sources writable.
+d14 3
+a16 2
+# Notes:
+#   1) If you need to make changes then preferably modify makedefs.in instead.
+d18 2
+a19 2
+#   2) Refer also to the GNUmakefiles in subdirectories, particularly
+#      C/GNUmakefile.
+d21 3
+a23 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.3.1.5 2009/07/21 07:14:49 cal103 Exp cal103 $
+@
+
+
+4.3.1.7
+log
+@Exclude doxygen/RCS and TODO from the distribution kit.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.3.1.6 2009/07/21 07:22:33 cal103 Exp cal103 $
+a138 1
+	-@@ echo $(WCSLIBV)/doxygen/RCS  >> wcslib.X
+a144 1
+	-@@ echo $(WCSLIBV)/TODO         >> wcslib.X
+@
+
+
+4.3.1.8
+log
+@Modified the release procedure to recompile the manual, use bzip2 for
+compression, and store the release in ./releases.
+@
+text
+@d22 1
+a22 1
+# $Id: GNUmakefile,v 4.3.1.7 2009/08/05 08:45:04 cal103 Exp cal103 $
+d135 1
+a135 3
+dist :
+	   $(MAKE) -C doxygen cleanest build
+	   $(MAKE) realclean
+a144 1
+	-@@ echo $(WCSLIBV)/releases     >> wcslib.X
+d149 5
+a153 5
+	   rm -f releases/$(WCSLIBV).tar.bz2
+	   tar cvfX releases/$(WCSLIBV).tar wcslib.X -C .. $(WCSLIBV)
+	   bzip2 releases/$(WCSLIBV).tar
+	   chmod 444 releases/$(WCSLIBV).tar.bz2
+	   rm -f wcslib.X
+@
+
+
+4.2
+log
+@WCSLIB 4.2: initial revision.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building WCSLIB 4.2.
+d8 1
+d23 1
+a23 1
+#   $Id$
+d28 2
+a29 2
+SUBDIRS := C FORTRAN pgsbox
+TSTDIRS := C FORTRAN pgsbox
+d33 1
+a33 1
+  SUBDIRS := C FORTRAN
+d47 1
+a47 1
+.PHONY : all check chmod cleanest install realclean show_all tests
+d49 1
+a49 1
+all : show_all
+d53 1
+a53 1
+	     $(MAKE) -k -C $$DIR lib ; \
+d61 1
+a61 1
+	     $(MAKE) -i -C $$DIR FLAVOUR=$$FLAVOUR cleaner ; \
+d63 2
+a64 7
+	 @@ for FLAVOUR in $(FLAVOURS) ; do \
+	     echo '' ; \
+	     for DIR in $(TSTDIRS) ; do \
+	       echo '' ; \
+	       $(TIMER) ; \
+	       $(MAKE) -k -C $$DIR FLAVOUR=$$FLAVOUR $@@ ; \
+	     done ; \
+d67 2
+a68 5
+	     for DIR in $(SUBDIRS) ; do \
+	       echo '' ; \
+	       $(MAKE) -i -C $$DIR FLAVOUR=$$FLAVOUR cleaner ; \
+	     done ; \
+	   done
+d72 1
+d81 4
+a84 2
+	$(RM) config.log config.status configure.lineno makedefs C/config.h
+	$(RM) *.log wcslib-*.tar.gz
+a89 1
+	-@@ echo '  FLAVOURS    := $(FLAVOURS)'
+d100 1
+a100 1
+	   config.status
+d105 12
+a116 1
+	   configure --no-create
+d121 1
+a121 1
+.PHONY : autoconf dist
+d123 12
+a134 10
+dist : autoconf realclean
+	-@@ echo $(WCSLIBV)/C/RCS       >  wcslib.X
+	-@@ echo $(WCSLIBV)/C/test/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBV)/FORTRAN/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/FORTRAN/test/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/makedefs    >> wcslib.X
+	-@@ echo $(WCSLIBV)/RCS         >> wcslib.X
+	-@@ echo $(WCSLIBV)/other       >> wcslib.X
+	-@@ echo $(WCSLIBV)/pgsbox/RCS  >> wcslib.X
+	-@@ echo $(WCSLIBV)/wcslib.X    >> wcslib.X
+a140 2
+autoconf : configure C/config.h.in
+
+d146 3
+a148 4
+C/config.h.in : configure.ac
+	-@@ echo ''
+	-@@ $(TIMER)
+	   autoheader
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building WCSLIB 4.3.
+d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2 2005/09/23 04:55:25 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Don't rely on "." being in the PATH when running configure or config.status.
+@
+text
+@d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.1 2005/12/05 03:12:44 cal103 Exp cal103 $
+d105 1
+a105 1
+	   ./config.status
+d110 1
+a110 1
+	   ./configure --no-create
+@
+
+
+4.2.1.3
+log
+@Renamed the FORTRAN subdirectory to Fortran; mention the 'tests' target in
+the prologue.
+@
+text
+@a7 1
+#      tests:     Do 'make tests' in each subdirectory.
+d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.2 2005/12/05 03:14:52 cal103 Exp cal103 $
+d27 2
+a28 2
+SUBDIRS := C Fortran pgsbox
+TSTDIRS := C Fortran pgsbox
+d32 1
+a32 1
+  SUBDIRS := C Fortran
+d120 2
+a121 2
+	-@@ echo $(WCSLIBV)/Fortran/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/Fortran/test/RCS >> wcslib.X
+@
+
+
+4.2.1.4
+log
+@Renamed the 'all' target to 'build' and removed 'show_all' from it; 'all'
+is now defined in makedefs with 'show_all' and 'build' as its dependencies.
+
+Removed references to FLAVOURS from the 'check' and 'tests' rules.  Include
+"flavours" without error if absent; previously when FLAVOURs were handled
+by makedefs there was no way to set environment variables such as CC for
+'configure' because makedefs did not exist until after configure had run.
+Report environment variables that affect configure as a prelude to running it.
+
+Process the utils subdirectory.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.3 2007/06/29 06:57:26 cal103 Exp cal103 $
+d28 1
+a28 1
+SUBDIRS := C Fortran pgsbox utils
+d33 1
+a33 1
+  SUBDIRS := C Fortran utils
+d47 1
+a47 1
+.PHONY : build check chmod cleanest install realclean show_all tests writable
+d49 1
+a49 1
+build :
+d53 1
+a53 1
+	     $(MAKE) -k -C $$DIR build ; \
+d61 1
+a61 1
+	     $(MAKE) -i -C $$DIR cleaner ; \
+d63 7
+a69 2
+	-@@ echo ''
+	   for DIR in $(TSTDIRS) ; do \
+d72 5
+a76 8
+	     $(MAKE) -k -C $$DIR $@@ ; \
+	   done 
+	-@@ echo ''
+	   $(TIMER) ; \
+	   for DIR in $(SUBDIRS) ; do \
+	     echo '' ; \
+	     $(MAKE) -i -C $$DIR cleaner ; \
+	   done 
+a79 1
+	$(MAKE) -k -C utils $@@
+d95 1
+a110 10
+	-@@ echo ''
+	-@@ echo 'Influential environment variables:'
+	-@@ echo "  CC       = $${CC-(undefined)}"
+	-@@ echo "  CFLAGS   = $${CFLAGS-(undefined)}"
+	-@@ echo "  CPP      = $${CPP-(undefined)}"
+	-@@ echo "  CPPFLAGS = $${CPPFLAGS-(undefined)}"
+	-@@ echo "  F77      = $${F77-(undefined)}"
+	-@@ echo "  FFLAGS   = $${FFLAGS-(undefined)}"
+	-@@ echo "  LDFLAGS  = $${LDFLAGS-(undefined)}"
+	-@@ echo ''
+a112 1
+
+a126 1
+	-@@ echo $(WCSLIBV)/utils/RCS   >> wcslib.X
+a144 4
+
+# Code development overrides must be included specifically before 'configure'
+# generates makedefs.
+-include flavours
+@
+
+
+4.2.1.5
+log
+@Added confdefs.h and conftest.* for deletion by 'cleanest'.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.4 2007/07/04 06:34:40 cal103 Exp cal103 $
+a86 1
+	$(RM) confdefs.h conftest.*
+@
+
+
+4.2.1.6
+log
+@Don't delete all of the executables at the end of 'check' or 'tests'.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.5 2007/07/05 04:35:43 cal103 Exp cal103 $
+d69 6
+@
+
+
+4.2.1.7
+log
+@Removed the rule for C/config.h.in, it's now maintained by hand, not by
+autoheader.  This made the 'autoconf' target redundant so removed it also.
+Added C/flexed/RCS to the tar exclude list.  Other minor changes.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.6 2007/07/05 07:14:10 cal103 Exp cal103 $
+d64 1
+a64 1
+	 @@ for DIR in $(TSTDIRS) ; do \
+d105 1
+a105 1
+	-@@ echo "Environment variables that affect 'configure':"
+d120 1
+a120 1
+.PHONY : dist
+d122 4
+a125 5
+dist : realclean
+	-@@ echo $(WCSLIBV)/C/RCS        >  wcslib.X
+	-@@ echo $(WCSLIBV)/C/flexed/RCS >> wcslib.X
+	-@@ echo $(WCSLIBV)/C/test/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBV)/Fortran/RCS  >> wcslib.X
+d127 6
+a132 6
+	-@@ echo $(WCSLIBV)/makedefs     >> wcslib.X
+	-@@ echo $(WCSLIBV)/other        >> wcslib.X
+	-@@ echo $(WCSLIBV)/pgsbox/RCS   >> wcslib.X
+	-@@ echo $(WCSLIBV)/RCS          >> wcslib.X
+	-@@ echo $(WCSLIBV)/utils/RCS    >> wcslib.X
+	-@@ echo $(WCSLIBV)/wcslib.X     >> wcslib.X
+d139 2
+d146 5
+@
+
+
+4.2.1.8
+log
+@Changed 'cleanest' to delete config.h and config_*.h which now live in the
+top-level directory.  Also, don't delete *.log, other than config.log,
+specifically to preserve the tee'd output of gmake.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.7 2007/07/11 02:11:19 cal103 Exp cal103 $
+d82 2
+a83 3
+	$(RM) config.log config.status configure.lineno
+	$(RM) config.h config_*.h makedefs
+	$(RM) wcslib-*.tar.gz
+@
+
+
+4.2.1.9
+log
+@Renamed config*.h -> wcsconfig*.h.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.8 2007/07/12 00:39:25 cal103 Exp cal103 $
+d83 1
+a83 1
+	$(RM) wcsconfig.h wcsconfig_*.h makedefs
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 143
+@

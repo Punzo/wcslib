@@ -1,0 +1,332 @@
+head	2.5;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+2.5
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	2001.11.15.04.00.35;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	99.06.16.00.20.07;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.11.03.40.00;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Double precision implementation of FORTRAN trigonometric functions which
+handle angles measured in degrees (COSD, SIND, TAND, ACOSD, ASIND, ATAND,
+ATAN2D).  These are based directly on the standard FORTRAN trigonometric
+functions (COS, SIN, TAN, ACOS, ASIN, ATAN, ATAN2) and are only required
+for use by compilers which do not supply them as intrinsic functions.
+@
+
+
+2.5
+log
+@Updated date in copyright notice.
+@
+text
+@*=======================================================================
+*
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*   The functions defined herein are trigonometric or inverse
+*   trigonometric functions which take or return angular arguments in
+*   decimal degrees.  Many FORTRAN compilers supply these as intrinsic
+*   functions in which case this module need not be used.
+*
+*   $Id: wcstrig.f,v 2.4 2001/11/15 04:00:35 mcalabre Exp mcalabre $
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION COSD(ANGLE)
+      DOUBLE PRECISION ANGLE, RESID
+
+      DOUBLE PRECISION D2R, PI
+      PARAMETER (PI = 3.141592653589793238462643D0, D2R = PI/180D0)
+
+      RESID = ABS(MOD(ANGLE,360D0))
+      IF (RESID.EQ.0D0) THEN
+         COSD = 1D0
+      ELSE IF (RESID.EQ.90D0) THEN
+         COSD = 0D0
+      ELSE IF (RESID.EQ.180D0) THEN
+         COSD = -1D0
+      ELSE IF (RESID.EQ.270D0) THEN
+         COSD = 0D0
+      ELSE
+         COSD = DCOS(ANGLE*D2R)
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION SIND(ANGLE)
+      DOUBLE PRECISION ANGLE, RESID
+
+      DOUBLE PRECISION D2R, PI
+      PARAMETER (PI = 3.141592653589793238462643D0, D2R = PI/180D0)
+
+      RESID = MOD(ANGLE-90D0,360D0)
+      IF (RESID.EQ.0D0) THEN
+         SIND = 1D0
+      ELSE IF (RESID.EQ.90D0) THEN
+         SIND = 0D0
+      ELSE IF (RESID.EQ.180D0) THEN
+         SIND = -1D0
+      ELSE IF (RESID.EQ.270D0) THEN
+         SIND = 0D0
+      ELSE
+         SIND = DSIN(ANGLE*D2R)
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION TAND(ANGLE)
+      DOUBLE PRECISION ANGLE, RESID
+
+      DOUBLE PRECISION D2R, PI
+      PARAMETER (PI = 3.141592653589793238462643D0, D2R = PI/180D0)
+
+      RESID = MOD(ANGLE,360D0)
+      IF (RESID.EQ.0D0 .OR. ABS(RESID).EQ.180D0) THEN
+         TAND = 0D0
+      ELSE IF (RESID.EQ.45D0 .OR. RESID.EQ.225D0) THEN
+         TAND = 1D0
+      ELSE IF (RESID.EQ.-135D0.OR. RESID.EQ.-315D0) THEN
+         TAND = -1D0
+      ELSE
+         TAND = DTAN(ANGLE*D2R)
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION ACOSD(V)
+      DOUBLE PRECISION V
+
+      DOUBLE PRECISION PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0, R2D = 180D0/PI)
+
+      IF (V.EQ.1D0) THEN
+         ACOSD = 0D0
+      ELSE IF (V.EQ.0D0) THEN
+         ACOSD = 90D0
+      ELSE IF (V.EQ.-1D0) THEN
+         ACOSD = 180D0
+      ELSE
+         ACOSD = DACOS(V)*R2D
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION ASIND(V)
+      DOUBLE PRECISION V
+
+      DOUBLE PRECISION PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0, R2D = 180D0/PI)
+
+      IF (V.EQ.-1D0) THEN
+         ASIND = -90D0
+      ELSE IF (V.EQ.0D0) THEN
+         ASIND = 0D0
+      ELSE IF (V.EQ.1D0) THEN
+         ASIND = 90D0
+      ELSE
+         ASIND = DASIN(V)*R2D
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION ATAND(V)
+      DOUBLE PRECISION V
+
+      DOUBLE PRECISION PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0, R2D = 180D0/PI)
+
+      IF (V.EQ.-1D0) THEN
+         ATAND = -45D0
+      ELSE IF (V.EQ.0D0) THEN
+         ATAND = 0D0
+      ELSE IF (V.EQ.1D0) THEN
+         ATAND = 45D0
+      ELSE
+         ATAND = DATAN(V)*R2D
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+
+      DOUBLE PRECISION FUNCTION ATAN2D(Y, X)
+      DOUBLE PRECISION X, Y
+
+      DOUBLE PRECISION PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0, R2D = 180D0/PI)
+
+      IF (Y.EQ.0D0) THEN
+         IF (X.GE.0D0) THEN
+            ATAN2D = 0D0
+         ELSE IF (X.LT.0D0) THEN
+            ATAN2D = 180D0
+         END IF
+      ELSE IF (X.EQ.0D0) THEN
+         IF (Y.GT.0D0) THEN
+            ATAN2D = 90D0
+         ELSE IF (Y.LT.0D0) THEN
+            ATAN2D = -90D0
+         END IF
+      ELSE
+         ATAN2D = DATAN2(Y,X)*R2D
+      END IF
+
+      RETURN
+      END
+@
+
+
+2.4
+log
+@Changed date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d34 1
+a34 1
+*   $Id: wcstrig.f,v 2.3 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d34 1
+a34 1
+*   $Id: wcstrig.f,v 2.2 1999/06/16 00:20:07 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d34 1
+a34 1
+*   $Id: wcstrig.f,v 2.1 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d34 1
+a34 1
+*   $Id: wcstrig.f,v 2.0 1995/09/11 03:40:00 mcalabre Exp mcalabre $
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d34 1
+a34 1
+*   $Id: wcstrig.f,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d34 1
+a34 1
+*   $Id$
+@

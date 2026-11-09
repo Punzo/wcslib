@@ -1,0 +1,6128 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	0.0;
+
+0.0
+date	2015.04.05.09.13.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.08.36.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.07.23.44.31;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.3;
+
+5.1.1.3
+date	2015.04.10.09.52.01;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.4;
+
+5.1.1.4
+date	2015.04.13.08.29.53;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.5;
+
+5.1.1.5
+date	2015.04.13.09.37.42;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.6;
+
+5.1.1.6
+date	2015.04.13.11.47.26;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.7;
+
+5.1.1.7
+date	2015.04.15.01.39.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.2;
+
+5.2.1.2
+date	2015.04.18.07.40.21;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.3;
+
+5.2.1.3
+date	2015.04.21.01.40.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	5.3.1.2;
+
+5.3.1.2
+date	2015.04.21.13.31.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.16.07.48.35;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.3;
+
+5.6.1.3
+date	2015.06.18.08.05.20;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.4;
+
+5.6.1.4
+date	2015.06.28.15.03.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.2;
+
+5.7.1.2
+date	2015.07.03.13.20.56;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.3;
+
+5.7.1.3
+date	2015.07.05.08.08.07;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.4;
+
+5.7.1.4
+date	2015.07.08.07.14.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	5.8.1.2;
+
+5.8.1.2
+date	2015.07.08.13.10.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.02.13.41;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.3;
+
+5.15.1.3
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.23.56;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2017.12.05.23.32.31;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.4;
+
+5.17.1.4
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.05.04.47.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.07.09.05.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.01.03.47.33;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.12.10.44;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2020.08.17.12.54.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2020.09.21.08.27.16;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.5;
+
+7.3.1.5
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.6;
+
+7.3.1.6
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.19.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.12.1.2;
+
+7.12.1.2
+date	2022.10.06.04.17.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.08.59.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.08.15.24.41;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.13.10.26.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.09.06.37.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.26.13.55.35;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.3;
+
+8.4.1.3
+date	2025.12.06.13.37.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	8.8.1.2;
+
+8.8.1.2
+date	2026.06.17.14.30.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	8.9.1.2;
+
+8.9.1.2
+date	2026.09.18.15.26.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for the routines that implement the WCSLIB
+distortion functions; contains the definition of the "disprm" struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: dis.h,v 8.9.1.2 2026/09/18 15:26:11 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the dis routines
+* ---------------------------
+* Routines in this suite implement extensions to the FITS World Coordinate
+* System (WCS) standard proposed by
+*
+=   "Representations of distortions in FITS world coordinate systems",
+=   Calabretta, M.R. et al. (WCS Paper IV, draft dated 2004/04/22),
+=   available from http://www.atnf.csiro.au/computing/software/wcs
+*
+* In brief, a distortion function may occupy one of two positions in the WCS
+* algorithm chain.  Prior distortions precede the linear transformation
+* matrix, whether it be PCi_ja or CDi_ja, and sequent distortions follow it.
+* WCS Paper IV defines FITS keywords used to specify parameters for predefined
+* distortion functions.  The following are used for prior distortions:
+*
+=   CPDISja   ...(string-valued, identifies the distortion function)
+=   DPja      ...(record-valued, parameters)
+=   CPERRja   ...(floating-valued, maximum value)
+*
+* Their counterparts for sequent distortions are CQDISia, DQia, and CQERRia.
+* An additional floating-valued keyword, DVERRa, records the maximum value of
+* the combined distortions.
+*
+* DPja and DQia are "record-valued".  Syntactically, the keyvalues are
+* standard FITS strings, but they are to be interpreted in a special way.
+* The general form is
+*
+=   DPja = '<field-specifier>: <float>'
+*
+* where the field-specifier consists of a sequence of fields separated by
+* periods, and the ': ' between the field-specifier and the floating-point
+* value is part of the record syntax.  For example:
+*
+=   DP1 = 'AXIS.1: 1'
+*
+* Certain field-specifiers are defined for all distortion functions, while
+* others are defined only for particular distortions.  Refer to WCS Paper IV
+* for further details.  wcspih() parses all distortion keywords and loads them
+* into a disprm struct for analysis by disset() which knows (or possibly does
+* not know) how to interpret them.  Of the Paper IV distortion functions, only
+* the general Polynomial distortion is currently implemented here.
+*
+* TPV - the TPV "projection":
+* ---------------------------
+* The distortion function component of the TPV celestial "projection" is also
+* supported.  The TPV projection, originally proposed in a draft of WCS Paper
+* II, consists of a TAN projection with sequent polynomial distortion, the
+* coefficients of which are encoded in PVi_ma keyrecords.  Full details may be
+* found at
+*
+=   http://fits.gsfc.nasa.gov/registry/tpvwcs/tpv.html
+*
+* Internally, wcsset() changes TPV to a TAN projection, translates the PVi_ma
+* keywords to DQia and loads them into a disprm struct.  These DQia keyrecords
+* have the form
+*
+=   DQia = 'TPV.m: <value>'
+*
+* where i, a, m, and the value for each DQia match each PVi_ma.  Consequently,
+* WCSLIB would handle a FITS header containing these keywords, along with
+* CQDISia = 'TPV' and the required DQia.NAXES and DQia.AXIS.ihat keywords.
+*
+* Note that, as defined, TPV assumes that CDi_ja is used to define the linear
+* transformation.  The section on historical idiosyncrasies (below) cautions
+* about translating CDi_ja to PCi_ja plus CDELTia in this case.
+*
+* SIP - Simple Imaging Polynomial:
+* --------------------------------
+* These routines also support the Simple Imaging Polynomial (SIP), whose
+* design was influenced by early drafts of WCS Paper IV.  It is described in
+* detail in
+*
+=   http://fits.gsfc.nasa.gov/registry/sip.html
+*
+* SIP, which is defined only as a prior distortion for 2-D celestial images,
+* has the interesting feature that it records an approximation to the inverse
+* polynomial distortion function.  This is used by disx2p() to provide an
+* initial estimate for its more precise iterative inversion.  The
+* special-purpose keywords used by SIP are parsed and translated by wcspih()
+* as follows:
+*
+=    A_p_q = <value>   ->   DP1 = 'SIP.FWD.p_q: <value>'
+=   AP_p_q = <value>   ->   DP1 = 'SIP.REV.p_q: <value>'
+=    B_p_q = <value>   ->   DP2 = 'SIP.FWD.p_q: <value>'
+=   BP_p_q = <value>   ->   DP2 = 'SIP.REV.p_q: <value>'
+=   A_DMAX = <value>   ->   DPERR1 = <value>
+=   B_DMAX = <value>   ->   DPERR2 = <value>
+*
+* SIP's A_ORDER and B_ORDER keywords are not used.  WCSLIB would recognise a
+* FITS header containing the above keywords, along with CPDISja = 'SIP' and
+* the required DPja.NAXES keywords.
+*
+* DSS - Digitized Sky Survey:
+* ---------------------------
+* The Digitized Sky Survey resulted from the production of the Guide Star
+* Catalogue for the Hubble Space Telescope.  Plate solutions based on a
+* polynomial distortion function were encoded in FITS using non-standard
+* keywords.  Sect. 5.2 of WCS Paper IV describes how DSS coordinates may be
+* translated to a sequent Polynomial distortion using two auxiliary variables.
+* That translation is based on optimising the non-distortion component of the
+* plate solution.
+*
+* Following Paper IV, wcspih() translates the non-distortion component of DSS
+* coordinates to standard WCS keywords (CRPIXja, PCi_ja, CRVALia, etc), and
+* fills a wcsprm struct with their values.  It encodes the DSS polynomial
+* coefficients as
+*
+=    AMDXm = <value>   ->   DQ1 = 'AMD.m: <value>'
+=    AMDYm = <value>   ->   DQ2 = 'AMD.m: <value>'
+*
+* WCSLIB would recognise a FITS header containing the above keywords, along
+* with CQDISia = 'DSS' and the required DQia.NAXES keywords.
+*
+* WAT - the TNX and ZPX "projections":
+* ------------------------------------
+* The TNX and ZPX "projections" add a polynomial distortion function to the
+* standard TAN and ZPN projections respectively.  Unusually, the polynomial
+* may be expressed as the sum of Chebyshev or Legendre polynomials, or as a
+* simple sum of monomials, as described in
+*
+=   http://fits.gsfc.nasa.gov/registry/tnx/tnx-doc.html
+=   http://fits.gsfc.nasa.gov/registry/zpxwcs/zpx.html
+*
+* The polynomial coefficients are encoded in special-purpose WATi_n keywords
+* as a set of continued strings, thus providing the name for this distortion
+* type.  WATi_n are parsed and translated by wcspih() into the following set:
+*
+=    DQi = 'WAT.POLY: <value>'
+=    DQi = 'WAT.XMIN: <value>'
+=    DQi = 'WAT.XMAX: <value>'
+=    DQi = 'WAT.YMIN: <value>'
+=    DQi = 'WAT.YMAX: <value>'
+=    DQi = 'WAT.CHBY.m_n: <value>'  or
+=    DQi = 'WAT.LEGR.m_n: <value>'  or
+=    DQi = 'WAT.MONO.m_n: <value>'
+*
+* along with CQDISia = 'WAT' and the required DPja.NAXES keywords.  For ZPX,
+* the ZPN projection parameters are also encoded in WATi_n, and wcspih()
+* translates these to standard PVi_ma.
+*
+* Note that, as defined, TNX and ZPX assume that CDi_ja is used to define the
+* linear transformation.  The section on historical idiosyncrasies (below)
+* cautions about translating CDi_ja to PCi_ja plus CDELTia in this case.
+*
+* TPD - Template Polynomial Distortion:
+* -------------------------------------
+* The "Template Polynomial Distortion" (TPD) is a superset of the TPV, SIP,
+* DSS, and WAT (TNX & ZPX) polynomial distortions that also supports 1-D usage
+* and inversions.  Like TPV, SIP, and DSS, the form of the polynomial is fixed
+* (the "template") and only the coefficients for the required terms are set
+* non-zero.  TPD generalizes TPV in going to 9th degree, SIP by accomodating
+* TPV's linear and radial terms, and DSS in both respects.  While in theory
+* the degree of the WAT polynomial distortion in unconstrained, in practice it
+* is limited to values that can be handled by TPD.
+*
+* Within WCSLIB, TPV, SIP, DSS, and WAT are all implemented as special cases
+* of TPD.  Indeed, TPD was developed precisely for that purpose.  WAT
+* distortions expressed as the sum of Chebyshev or Legendre polynomials are
+* expanded for TPD as a simple sum of monomials.  Moreover, the general
+* Polynomial distortion is translated and implemented internally as TPD
+* whenever possible.
+*
+* However, WCSLIB also recognizes 'TPD' as a distortion function in its own
+* right (i.e. a recognized value of CPDISja or CQDISia), for use as both prior
+* and sequent distortions.  Its DPja and DQia keyrecords have the form
+*
+=   DPja = 'TPD.FWD.m: <value>'
+=   DPja = 'TPD.REV.m: <value>'
+*
+* for the forward and reverse distortion functions.  Moreover, like the
+* general Polynomial distortion, TPD supports auxiliary variables, though only
+* as a linear transformation of pixel coordinates (p1,p2):
+*
+=   x = a0 + a1*p1 + a2*p2
+=   y = b0 + b1*p1 + b2*p2
+*
+* where the coefficients of the auxiliary variables (x,y) are recorded as
+*
+=   DPja = 'AUX.1.COEFF.0: a0'      ...default 0.0
+=   DPja = 'AUX.1.COEFF.1: a1'      ...default 1.0
+=   DPja = 'AUX.1.COEFF.2: a2'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.0: b0'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.1: b1'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.2: b2'      ...default 1.0
+*
+* Though nowhere near as powerful, in typical applications TPD is considerably
+* faster than the general Polynomial distortion.  As TPD has a finite and not
+* too large number of possible terms (60), the coefficients for each can be
+* stored (by disset()) in a fixed location in the disprm::dparm[] array.  A
+* large part of the speedup then arises from evaluating the polynomial using
+* Horner's scheme.
+*
+* Separate implementations for polynomials of each degree, and conditionals
+* for 1-D polynomials and 2-D polynomials with and without the radial
+* variable, ensure that unused terms mostly do not impose a significant
+* computational overhead.
+*
+* The TPD terms are as follows
+*
+=   0: 1     4: xx      12: xxxx      24: xxxxxx      40: xxxxxxxx
+=            5: xy      13: xxxy      25: xxxxxy      41: xxxxxxxy
+=   1: x     6: yy      14: xxyy      26: xxxxyy      42: xxxxxxyy
+=   2: y                15: xyyy      27: xxxyyy      43: xxxxxyyy
+=   3: r     7: xxx     16: yyyy      28: xxyyyy      44: xxxxyyyy
+=            8: xxy                   29: xyyyyy      45: xxxyyyyy
+=            9: xyy     17: xxxxx     30: yyyyyy      46: xxyyyyyy
+=           10: yyy     18: xxxxy                     47: xyyyyyyy
+=           11: rrr     19: xxxyy     31: xxxxxxx     48: yyyyyyyy
+=                       20: xxyyy     32: xxxxxxy
+=                       21: xyyyy     33: xxxxxyy     49: xxxxxxxxx
+=                       22: yyyyy     34: xxxxyyy     50: xxxxxxxxy
+=                       23: rrrrr     35: xxxyyyy     51: xxxxxxxyy
+=                                     36: xxyyyyy     52: xxxxxxyyy
+=                                     37: xyyyyyy     53: xxxxxyyyy
+=                                     38: yyyyyyy     54: xxxxyyyyy
+=                                     39: rrrrrrr     55: xxxyyyyyy
+=                                                     56: xxyyyyyyy
+=                                                     57: xyyyyyyyy
+=                                                     58: yyyyyyyyy
+=                                                     59: rrrrrrrrr
+*
+* where r = sqrt(xx + yy).  Note that even powers of r are excluded since they
+* can be accomodated by powers of (xx + yy).
+*
+* Note here that "x" refers to the axis to which the distortion function is
+* attached, with "y" being the complementary axis.  So, for example, with
+* longitude on axis 1 and latitude on axis 2, for TPD attached to axis 1, "x"
+* refers to axis 1 and "y" to axis 2.  For TPD attached to axis 2, "x" refers
+* to axis 2, and "y" to axis 1.
+*
+* TPV uses all terms up to 39.  The m in its PVi_ma keywords translates
+* directly to the TPD coefficient number.
+*
+* SIP uses all terms except for 0, 3, 11, 23, 39, and 59, with terms 1 and 2
+* only used for the inverse.  Its A_p_q, etc. keywords must be translated
+* using a map.
+*
+* DSS uses terms 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 17, 19, and 21.  The presence
+* of a non-zero constant term arises through the use of auxiliary variables
+* with origin offset from the reference point of the TAN projection.  However,
+* in the translation given by WCS Paper IV, the distortion polynomial is zero,
+* or very close to zero, at the reference pixel itself.  The mapping between
+* DSS's AMDXm (or AMDYm) keyvalues and TPD coefficients, while still simple,
+* is not quite as straightforward as for TPV and SIP.
+*
+* WAT uses all but the radial terms, namely 3, 11, 23, 39, and 59.  While the
+* mapping between WAT's monomial coefficients and TPD is fairly simple, for
+* its expression in terms of a sum of Chebyshev or Legendre polynomials it is
+* much less so.
+*
+* Historical idiosyncrasies:
+* --------------------------
+* In addition to the above, some historical distortion functions have further
+* idiosyncrasies that must be taken into account when translating them to TPD.
+*
+* WCS Paper IV specifies that a distortion function returns a correction to be
+* added to pixel coordinates (prior distortion) or intermediate pixel
+* coordinates (sequent distortion).  The correction is meant to be small so
+* that ignoring the distortion function, i.e. setting the correction to zero,
+* produces a commensurately small error.
+*
+* However, rather than an additive correction, some historical distortion
+* functions (TPV, DSS) define a polynomial that returns the corrected
+* coordinates directly.
+*
+* The difference between the two approaches is readily accounted for simply by
+* adding or subtracting 1 from the coefficient of the first degree term of the
+* polynomial.  However, it opens the way for considerable confusion.
+*
+* Additional to the formalism of WCS Paper IV, both the Polynomial and TPD
+* distortion functions recognise a keyword
+*
+=   DPja = 'DOCORR: 0'
+*
+* which is meant to apply generally to indicate that the distortion function
+* returns the corrected coordinates directly.  Any other value for DOCORR (or
+* its absence) indicates that the distortion function returns an additive
+* correction.
+*
+* WCS Paper IV also specifies that the independent variables of a distortion
+* function are pixel coordinates (prior distortion) or intermediate pixel
+* coordinates (sequent distortion).
+*
+* On the contrary, the independent variables of the SIP polynomial are pixel
+* coordinate offsets from the reference pixel.  This is readily handled via
+* the renormalisation parameters
+*
+=   DPja = 'OFFSET.jhat: <value>'
+*
+* where the value corresponds to CRPIXja.
+*
+* Likewise, because TPV, TNX, and ZPX are defined in terms of CDi_ja, the
+* independent variables of the polynomial are intermediate world coordinates
+* rather than intermediate pixel coordinates.  Because sequent distortions
+* are always applied before CDELTia, if CDi_ja is translated to PCi_ja plus
+* CDELTia, then either CDELTia must be unity, or the distortion polynomial
+* coefficients must be adjusted to account for the change of scale.
+*
+* Summary of the dis routines:
+* ----------------------------
+* These routines apply the distortion functions defined by the extension to
+* the FITS WCS standard proposed in Paper IV.  They are based on the disprm
+* struct which contains all information needed for the computations.  The
+* struct contains some members that must be set by the user, and others that
+* are maintained by these routines, somewhat like a C++ class but with no
+* encapsulation.
+*
+* dpfill(), dpkeyi(), and dpkeyd() are provided to manage the dpkey struct.
+*
+* disndp(), disini(), disinit(), discpy(), and disfree() are provided to
+* manage the disprm struct, dissize() computes its total size including
+* allocated memory, disenq() returns information about the state of the
+* struct, and disprt() prints its contents.
+*
+* disperr() prints the error message(s) (if any) stored in a disprm struct.
+*
+* wcshdo() normally writes SIP and TPV headers in their native form if at all
+* possible.  However, dishdo() may be used to set a flag that tells it to
+* write the header in the form of the TPD translation used internally.
+*
+* A setup routine, disset(), computes intermediate values in the disprm struct
+* from parameters in it that were supplied by the user.  The struct always
+* needs to be set up by disset(), though disset() need not be called
+* explicitly - refer to the explanation of disprm::flag.
+*
+* disp2x() and disx2p() implement the WCS distortion functions, disp2x() using
+* separate functions, such as dispoly() and tpd7(), to do the computation.
+*
+* An auxiliary routine, diswarp(), computes various measures of the distortion
+* over a specified range of coordinates.
+*
+* PLEASE NOTE: Distortions are not yet handled by wcsbth(), or wcscompare().
+*
+*
+* disndp() - Memory allocation for DPja and DQia
+* ----------------------------------------------
+* disndp() sets or gets the value of NDPMAX (default 256).  This global
+* variable controls the maximum number of dpkey structs, for holding DPja or
+* DQia keyvalues, that disini() should allocate space for.  It is also used by
+* disinit() as the default value of ndpmax.
+*
+* PLEASE NOTE: This function is not thread-safe.
+*
+* Given:
+*   n         int       Value of NDPMAX; ignored if < 0.  Use a value less
+*                       than zero to get the current value.
+*
+* Function return value:
+*             int       Current value of NDPMAX.
+*
+*
+* dpfill() - Fill the contents of a dpkey struct
+* ----------------------------------------------
+* dpfill() is a utility routine to aid in filling the contents of the dpkey
+* struct.  No checks are done on the validity of the inputs.
+*
+* WCS Paper IV specifies the syntax of a record-valued keyword as
+*
+=   keyword = '<field-specifier>: <float>'
+*
+* However, some DPja and DQia record values, such as those of DPja.NAXES and
+* DPja.AXIS.j, are intrinsically integer-valued.  While FITS header parsers
+* are not expected to know in advance which of DPja and DQia are integral and
+* which are floating point, if the record's value parses as an integer (i.e.
+* without decimal point or exponent), then preferably enter it into the dpkey
+* struct as an integer.  Either way, it doesn't matter as disset() accepts
+* either data type for all record values.
+*
+* Given and returned:
+*   dp        struct dpkey*
+*                       Store for DPja and DQia keyvalues.
+*
+* Given:
+*   keyword   const char *
+*   field     const char *
+*                       These arguments are concatenated with an intervening
+*                       "." to construct the full record field name, i.e.
+*                       including the keyword name, DPja or DQia (but
+*                       excluding the colon delimiter which is NOT part of the
+*                       name).  Either may be given as a NULL pointer.  Set
+*                       both NULL to omit setting this component of the
+*                       struct.
+*
+*   j         int       Axis number (1-relative), i.e. the j in DPja or
+*                       i in DQia.  Can be given as 0, in which case the axis
+*                       number will be obtained from the keyword component of
+*                       the field name which must either have been given or
+*                       preset.
+*
+*                       If j is non-zero, and keyword was given, then the
+*                       value of j will be used to fill in the axis number.
+*
+*   type      int       Data type of the record's value
+*                         0: Integer,
+*                         1: Floating point.
+*
+*   i         int       For type == 0, the integer value of the record.
+*
+*   f         double    For type == 1, the floating point value of the record.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* dpkeyi() - Get the data value in a dpkey struct as int
+* ------------------------------------------------------
+* dpkeyi() returns the data value in a dpkey struct as an integer value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             int       The record's value as int.
+*
+*
+* dpkeyd() - Get the data value in a dpkey struct as double
+* ---------------------------------------------------------
+* dpkeyd() returns the data value in a dpkey struct as a floating point
+* value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             double    The record's value as double.
+*
+*
+* disini() - Default constructor for the disprm struct
+* ----------------------------------------------------
+* disini() is a thin wrapper on disinit().  It invokes it with ndpmax set
+* to -1 which causes it to use the value of the global variable NDPMAX.  It
+* is thereby potentially thread-unsafe if NDPMAX is altered dynamically via
+* disndp().  Use disinit() for a thread-safe alternative in this case.
+*
+*
+* disinit() - Default constructor for the disprm struct
+* ----------------------------------------------------
+* disinit() allocates memory for arrays in a disprm struct and sets all
+* members of the struct to default values.
+*
+* PLEASE NOTE: every disprm struct must be initialized by disinit(), possibly
+* repeatedly.  On the first invokation, and only the first invokation,
+* disprm::flag must be set to -1 to initialize memory management, regardless
+* of whether disinit() will actually be used to allocate memory.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the disprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   naxis     int       The number of world coordinate axes, used to determine
+*                       array sizes.
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.  Note that, in order
+*                       to initialize memory management disprm::flag must be
+*                       set to -1 when dis is initialized for the first time
+*                       (memory leaks may result if it had already been
+*                       initialized).
+*
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+* discpy() - Copy routine for the disprm struct
+* ---------------------------------------------
+* discpy() does a deep copy of one disprm struct to another, using disinit()
+* to allocate memory unconditionally for its arrays if required.  Only the
+* "information to be provided" part of the struct is copied; a call to
+* disset() is required to initialize the remainder.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the destination.  Otherwise, it is assumed that
+*                       pointers to these arrays have been set by the user
+*                       except if they are null pointers in which case memory
+*                       will be allocated for them regardless.
+*
+*   dissrc    const struct disprm*
+*                       Struct to copy from.
+*
+* Given and returned:
+*   disdst    struct disprm*
+*                       Struct to copy to.  disprm::flag should be set to -1
+*                       if disdst was not previously initialized (memory leaks
+*                       may result if it was previously initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+* disfree() - Destructor for the disprm struct
+* --------------------------------------------
+* disfree() frees memory allocated for the disprm arrays by disinit().
+* disinit() keeps a record of the memory it allocates and disfree() will only
+* attempt to free this.
+*
+* PLEASE NOTE: disfree() must not be invoked on a disprm struct that was not
+* initialized by disinit().
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*
+*
+* dissize() - Compute the size of a disprm struct
+* -----------------------------------------------
+* dissize() computes the full size of a disprm struct, including allocated
+* memory.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct disprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by disini().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, such as disprm::dp.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via tabset(), which normally results in additional
+*                       memory allocation.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* disenq() - Enquire about the state of a disprm struct
+* -----------------------------------------------------
+* disenq() may be used to obtain information about the state of a disprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         DISENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see disinit()).
+*                         DISENQ_SET: the struct has been set up by disset().
+*                         DISENQ_BYP: the struct is in bypass mode (see
+*                                     disset()).
+*                       These may be combined by logical OR, e.g.
+*                       DISENQ_MEM | DISENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+* disprt() - Print routine for the disprm struct
+* ----------------------------------------------
+* disprt() prints the contents of a disprm struct using wcsprintf().  Mainly
+* intended for diagnostic purposes.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*
+*
+* disperr() - Print error messages from a disprm struct
+* -----------------------------------------------------
+* disperr() prints the error message(s) (if any) stored in a disprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*
+*
+* dishdo() - Write FITS headers using TPD
+* ---------------------------------------
+* dishdo() sets a flag that tells wcshdo() to write FITS headers in the form
+* of the TPD translation used internally.  Normally SIP and TPV would be
+* written in their native form if at all possible.
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         3: No TPD translation.
+*
+*
+* disset() - Setup routine for the disprm struct
+* ----------------------------------------------
+* disset(), sets up the disprm struct according to information supplied within
+* it - refer to the explanation of disprm::flag.
+*
+* Note that this routine need not be called directly; it will be invoked by
+* disp2x() and disx2p() if the disprm::flag is anything other than a
+* predefined magic value.
+*
+* disset() normally operates regardless of the value of disprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a disprm struct may be put into "bypass" mode by invoking disset()
+* initially with disprm::flag == 1 (rather than 0).  disset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset disprm::flag to zero.  See also disenq().
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+* disp2x() - Apply distortion function
+* ------------------------------------
+* disp2x() applies the distortion functions.  By definition, the distortion
+* is in the pixel-to-world direction.
+*
+* Depending on the point in the algorithm chain at which it is invoked,
+* disp2x() may transform pixel coordinates to corrected pixel coordinates, or
+* intermediate pixel coordinates to corrected intermediate pixel coordinates,
+* or image coordinates to corrected image coordinates.
+*
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Given:
+*   rawcrd    const double[naxis]
+*                       Array of coordinates.
+*
+* Returned:
+*   discrd    double[naxis]
+*                       Array of coordinates to which the distortion functions
+*                       have been applied.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         4: Distort error.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+* disx2p() - Apply de-distortion function
+* ---------------------------------------
+* disx2p() applies the inverse of the distortion functions.  By definition,
+* the de-distortion is in the world-to-pixel direction.
+*
+* Depending on the point in the algorithm chain at which it is invoked,
+* disx2p() may transform corrected pixel coordinates to pixel coordinates, or
+* corrected intermediate pixel coordinates to intermediate pixel coordinates,
+* or corrected image coordinates to image coordinates.
+*
+* disx2p() iteratively solves for the inverse using disp2x().  It assumes
+* that the distortion is small and the functions are well-behaved, being
+* continuous and with continuous derivatives.  Also that, to first order
+* in the neighbourhood of the solution, discrd[j] ~= a + b*rawcrd[j], i.e.
+* independent of rawcrd[i], where i != j.  This is effectively equivalent to
+* assuming that the distortion functions are separable to first order.
+* Furthermore, a is assumed to be small, and b close to unity.
+*
+* If disprm::disx2p() is defined, then disx2p() uses it to provide an initial
+* estimate for its more precise iterative inversion.
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Given:
+*   discrd    const double[naxis]
+*                       Array of coordinates.
+*
+* Returned:
+*   rawcrd    double[naxis]
+*                       Array of coordinates to which the inverse distortion
+*                       functions have been applied.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         5: De-distort error.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+* diswarp() - Compute measures of distortion
+* ------------------------------------------
+* diswarp() computes various measures of the distortion over a specified range
+* of coordinates.
+*
+* For prior distortions, the measures may be interpreted simply as an offset
+* in pixel coordinates.  For sequent distortions, the interpretation depends
+* on the nature of the linear transformation matrix (PCi_ja or CDi_ja).  If
+* the latter introduces a scaling, then the measures will also be scaled.
+* Note also that the image domain, which is rectangular in pixel coordinates,
+* may be rotated, skewed, and/or stretched in intermediate pixel coordinates,
+* and in general cannot be defined using pixblc[] and pixtrc[].
+*
+* PLEASE NOTE: the measures of total distortion may be essentially meaningless
+* if there are multiple sequent distortions with different scaling.
+*
+* See also linwarp().
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Given:
+*   pixblc    const double[naxis]
+*                       Start of the range of pixel coordinates (for prior
+*                       distortions), or intermediate pixel coordinates (for
+*                       sequent distortions).  May be specified as a NULL
+*                       pointer which is interpreted as (1,1,...).
+*
+*   pixtrc    const double[naxis]
+*                       End of the range of pixel coordinates (prior) or
+*                       intermediate pixel coordinates (sequent).
+*
+*   pixsamp   const double[naxis]
+*                       If positive or zero, the increment on the particular
+*                       axis, starting at pixblc[].  Zero is interpreted as a
+*                       unit increment.  pixsamp may also be specified as a
+*                       NULL pointer which is interpreted as all zeroes, i.e.
+*                       unit increments on all axes.
+*
+*                       If negative, the grid size on the particular axis (the
+*                       absolute value being rounded to the nearest integer).
+*                       For example, if pixsamp is (-128.0,-128.0,...) then
+*                       each axis will be sampled at 128 points between
+*                       pixblc[] and pixtrc[] inclusive.  Use caution when
+*                       using this option on non-square images.
+*
+* Returned:
+*   nsamp     int*      The number of pixel coordinates sampled.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxdis    double[naxis]
+*                       For each individual distortion function, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxtot    double*   For the combination of all distortion functions, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgdis    double[naxis]
+*                       For each individual distortion function, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgtot    double*   For the combination of all distortion functions, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmsdis    double[naxis]
+*                       For each individual distortion function, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmstot    double*   For the combination of all distortion functions, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         4: Distort error.
+*
+*
+* disprm struct - Distortion parameters
+* -------------------------------------
+* The disprm struct contains all of the information required to apply a set of
+* distortion functions.  It consists of certain members that must be set by
+* the user ("given") and others that are set by the WCSLIB routines
+* ("returned").  While the addresses of the arrays themselves may be set by
+* disinit() if it (optionally) allocates memory, their contents must be set by
+* the user.
+*
+*   int flag
+*     (Given and returned) This flag must be set to zero (or 1, see disset())
+*     whenever any of the following disprm members are set or changed:
+*
+*       - disprm::naxis,
+*       - disprm::dtype,
+*       - disprm::ndp,
+*       - disprm::dp.
+*
+*     This signals the initialization routine, disset(), to recompute the
+*     returned members of the disprm struct.  disset() will reset flag to
+*     indicate that this has been done.
+*
+*     PLEASE NOTE: flag must be set to -1 when disinit() is called for the
+*     first time for a particular disprm struct in order to initialize memory
+*     management.  It must ONLY be used on the first initialization otherwise
+*     memory leaks may result.
+*
+*   int naxis
+*     (Given or returned) Number of pixel and world coordinate elements.
+*
+*     If disinit() is used to initialize the disprm struct (as would normally
+*     be the case) then it will set naxis from the value passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   char (*dtype)[72]
+*     (Given) Pointer to the first element of an array of char[72] containing
+*     the name of the distortion function for each axis.
+*
+*   int ndp
+*     (Given) The number of entries in the disprm::dp[] array.
+*
+*   int ndpmax
+*     (Given) The length of the disprm::dp[] array.
+*
+*     ndpmax will be set by disinit() if it allocates memory for disprm::dp[],
+*     otherwise it must be set by the user.  See also disndp().
+*
+*   struct dpkey dp
+*     (Given) Address of the first element of an array of length ndpmax of
+*     dpkey structs.
+*
+*     As a FITS header parser encounters each DPja or DQia keyword it should
+*     load it into a dpkey struct in the array and increment ndp.  However,
+*     note that a single disprm struct must hold only DPja or DQia keyvalues,
+*     not both.  disset() interprets them as required by the particular
+*     distortion function.
+*
+*   double *maxdis
+*     (Given) Pointer to the first element of an array of double specifying
+*     the maximum absolute value of the distortion for each axis computed over
+*     the whole image.
+*
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::maxdis is changed.
+*
+*   double totdis
+*     (Given) The maximum absolute value of the combination of all distortion
+*     functions specified as an offset in pixel coordinates computed over the
+*     whole image.
+*
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::totdis is changed.
+*
+*   int *docorr
+*     (Returned) Pointer to the first element of an array of int containing
+*     flags that indicate the mode of correction for each axis.
+*
+*     If docorr is zero, the distortion function returns the corrected
+*     coordinates directly.  Any other value indicates that the distortion
+*     function computes a correction to be added to pixel coordinates (prior
+*     distortion) or intermediate pixel coordinates (sequent distortion).
+*
+*   int *Nhat
+*     (Returned) Pointer to the first element of an array of int containing
+*     the number of coordinate axes that form the independent variables of the
+*     distortion function for each axis.
+*
+*   int **axmap
+*     (Returned) Pointer to the first element of an array of int* containing
+*     pointers to the first elements of the axis mapping arrays for each axis.
+*
+*     An axis mapping associates the independent variables of a distortion
+*     function with the 0-relative image axis number.  For example, consider
+*     an image with a spectrum on the first axis (axis 0), followed by RA
+*     (axis 1), Dec (axis2), and time (axis 3) axes.  For a distortion in
+*     (RA,Dec) and no distortion on the spectral or time axes, the axis
+*     mapping arrays, axmap[j][], would be
+*
+=       j=0: [-1, -1, -1, -1]   ...no  distortion on spectral axis,
+=         1: [ 1,  2, -1, -1]   ...RA  distortion depends on RA and Dec,
+=         2: [ 2,  1, -1, -1]   ...Dec distortion depends on Dec and RA,
+=         3: [-1, -1, -1, -1]   ...no  distortion on time axis,
+*
+*     where -1 indicates that there is no corresponding independent
+*     variable.
+*
+*   double **offset
+*     (Returned) Pointer to the first element of an array of double*
+*     containing pointers to the first elements of arrays of offsets used to
+*     renormalize the independent variables of the distortion function for
+*     each axis.
+*
+*     The offsets are subtracted from the independent variables before
+*     scaling.
+*
+*   double **scale
+*     (Returned) Pointer to the first element of an array of double*
+*     containing pointers to the first elements of arrays of scales used to
+*     renormalize the independent variables of the distortion function for
+*     each axis.
+*
+*     The scale is applied to the independent variables after the offsets are
+*     subtracted.
+*
+*   int **iparm
+*     (Returned) Pointer to the first element of an array of int*
+*     containing pointers to the first elements of the arrays of integer
+*     distortion parameters for each axis.
+*
+*   double **dparm
+*     (Returned) Pointer to the first element of an array of double*
+*     containing pointers to the first elements of the arrays of floating
+*     point distortion parameters for each axis.
+*
+*   int i_naxis
+*     (Returned) Dimension of the internal arrays (normally equal to naxis).
+*
+*   int ndis
+*     (Returned) The number of distortion functions.
+*
+*   struct wcserr *err
+*     (Returned) If enabled, when an error status is returned, this struct
+*     contains detailed information about the error, see wcserr_enable().
+*
+*   int (**disp2x)(DISP2X_ARGS)
+*     (For internal use only.)
+*   int (**disx2p)(DISX2P_ARGS)
+*     (For internal use only.)
+*   int m_flag
+*     (For internal use only.)
+*   int m_naxis
+*     (For internal use only.)
+*   char (*m_dtype)[72]
+*     (For internal use only.)
+*   double **m_dp
+*     (For internal use only.)
+*   double *m_maxdis
+*     (For internal use only.)
+*
+*
+* dpkey struct - Store for DPja and DQia keyvalues
+* ------------------------------------------------
+* The dpkey struct is used to pass the parsed contents of DPja or DQia
+* keyrecords to disset() via the disprm struct.  A disprm struct must hold
+* only DPja or DQia keyvalues, not both.
+*
+* All members of this struct are to be set by the user.
+*
+*   char field[72]
+*     (Given) The full field name of the record, including the keyword name.
+*     Note that the colon delimiter separating the field name and the value in
+*     record-valued keyvalues is not part of the field name.  For example, in
+*     the following:
+*
+=       DP3A = 'AXIS.1: 2'
+*
+*     the full record field name is "DP3A.AXIS.1", and the record's value
+*     is 2.
+*
+*   int j
+*     (Given) Axis number (1-relative), i.e. the j in DPja or i in DQia.
+*
+*   int type
+*     (Given) The data type of the record's value
+*       - 0: Integer (stored as an int),
+*       - 1: Floating point (stored as a double).
+*
+*   union value
+*     (Given) A union comprised of
+*       - dpkey::i,
+*       - dpkey::f,
+*
+*     the record's value.
+*
+*
+* Global variable: const char *dis_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_DIS
+#define WCSLIB_DIS
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+enum disenq_enum {
+  DISENQ_MEM = 1,		// disprm struct memory is managed by WCSLIB.
+  DISENQ_SET = 2,		// disprm struct has been set up.
+  DISENQ_BYP = 4,		// disprm struct is in bypass mode.
+};
+
+extern const char *dis_errmsg[];
+
+enum dis_errmsg_enum {
+  DISERR_SUCCESS      = 0,	// Success.
+  DISERR_NULL_POINTER = 1,	// Null disprm pointer passed.
+  DISERR_MEMORY       = 2,	// Memory allocation failed.
+  DISERR_BAD_PARAM    = 3,	// Invalid parameter value.
+  DISERR_DISTORT      = 4,	// Distortion error.
+  DISERR_DEDISTORT    = 5	// De-distortion error.
+};
+
+// For use in declaring distortion function prototypes (= DISX2P_ARGS).
+#define DISP2X_ARGS int inverse, const int iparm[], const double dparm[], \
+int ncrd, const double rawcrd[], double *discrd
+
+// For use in declaring de-distortion function prototypes (= DISP2X_ARGS).
+#define DISX2P_ARGS int inverse, const int iparm[], const double dparm[], \
+int ncrd, const double discrd[], double *rawcrd
+
+
+// Struct used for storing DPja and DQia keyvalues.
+struct dpkey {
+  char field[72];		// Full record field name (no colon).
+  int j;			// Axis number, as in DPja (1-relative).
+  int type;			// Data type of value.
+  union {
+    int    i;			// Integer record value.
+    double f;			// Floating point record value.
+  } value;			// Record value.
+};
+
+// Size of the dpkey struct in int units, used by the Fortran wrappers.
+#define DPLEN (sizeof(struct dpkey)/sizeof(int))
+
+
+struct disprm {
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int naxis;			// The number of pixel coordinate elements,
+				// given by NAXIS.
+  char   (*dtype)[72];		// For each axis, the distortion type.
+  int    ndp;			// Number of DPja or DQia keywords, and the
+  int    ndpmax;		// number for which space was allocated.
+  struct dpkey *dp;		// DPja or DQia keyvalues (not both).
+  double totdis;		// The maximum combined distortion.
+  double *maxdis;		// For each axis, the maximum distortion.
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  int    *docorr;		// For each axis, the mode of correction.
+  int    *Nhat;			// For each axis, the number of coordinate
+				// axes that form the independent variables
+				// of the distortion function.
+  int    **axmap;		// For each axis, the axis mapping array.
+  double **offset;		// For each axis, renormalization offsets.
+  double **scale;		// For each axis, renormalization scales.
+  int    **iparm;		// For each axis, the array of integer
+				// distortion parameters.
+  double **dparm;		// For each axis, the array of floating
+				// point distortion parameters.
+  int    i_naxis;		// Dimension of the internal arrays.
+  int    ndis;			// The number of distortion functions.
+
+  // Error messaging, if enabled.
+  //--------------------------------------------------------------------------
+  struct wcserr *err;
+
+  //--------------------------------------------------------------------------
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+  int (**disp2x)(DISP2X_ARGS);	// For each axis, pointers to the
+  int (**disx2p)(DISX2P_ARGS);	// distortion function and its inverse.
+
+  int    m_flag, m_naxis;	// The remainder are for memory management.
+  char   (*m_dtype)[72];
+  struct dpkey *m_dp;
+  double *m_maxdis;
+};
+
+// Size of the disprm struct in int units, used by the Fortran wrappers.
+#define DISLEN (sizeof(struct disprm)/sizeof(int))
+
+
+int disndp(int n);
+
+int dpfill(struct dpkey *dp, const char *keyword, const char *field, int j,
+           int type, int i, double f);
+
+int    dpkeyi(const struct dpkey *dp);
+
+double dpkeyd(const struct dpkey *dp);
+
+int disini(int alloc, int naxis, struct disprm *dis);
+
+int disinit(int alloc, int naxis, struct disprm *dis, int ndpmax);
+
+int discpy(int alloc, const struct disprm *dissrc, struct disprm *disdst);
+
+int disfree(struct disprm *dis);
+
+int dissize(const struct disprm *dis, int sizes[2]);
+
+int disenq(const struct disprm *dis, int enquiry);
+
+int disprt(const struct disprm *dis);
+
+int disperr(const struct disprm *dis, const char *prefix);
+
+int dishdo(struct disprm *dis);
+
+int disset(struct disprm *dis);
+
+int disp2x(struct disprm *dis, const double rawcrd[], double discrd[]);
+
+int disx2p(struct disprm *dis, const double discrd[], double rawcrd[]);
+
+int diswarp(struct disprm *dis, const double pixblc[], const double pixtrc[],
+            const double pixsamp[], int *nsamp,
+            double maxdis[], double *maxtot,
+            double avgdis[], double *avgtot,
+            double rmsdis[], double *rmstot);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_DIS
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.8.1.2 2026/06/17 14:30:29 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+d597 1
+a597 1
+* disenq() - enquire about the state of a disprm struct
+d656 1
+a656 1
+* dishdo() - write FITS headers using TPD
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.9.1.2
+log
+@Trivial prologue tweaks.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+d597 1
+a597 1
+* disenq() - Enquire about the state of a disprm struct
+d656 1
+a656 1
+* dishdo() - Write FITS headers using TPD
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+d78 2
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.8.1.2
+log
+@Fixed a typo in the prologue.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+a77 2
+* found at
+*
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: dis.h,v 8.4.1.3 2025/12/06 13:37:15 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+d37 1
+a37 1
+=   available from http://www.atnf.csiro.au/people/Mark.Calabretta
+a77 2
+* found at the registry of FITS conventions:
+*
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: dis.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+d37 1
+a37 1
+=   available from http://www.atnf.csiro.au/computing/software/wcs
+d78 2
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 8.3.1.2 2024/07/09 06:37:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+d558 1
+a558 1
+* Given:
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@In disfree(), dis is given and returned.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+d558 1
+a558 1
+* Given and returned:
+@
+
+
+8.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 8.4.1.2 2025/11/26 13:55:35 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.2.1.4 2024/05/13 10:26:23 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+d590 1
+a590 1
+*                       memory allocation. 
+a1027 2
+*   double *dummy
+*     (For internal use only.)
+d1161 1
+a1161 1
+  // Error handling, if enabled.
+d1165 1
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Tweaked comments in the prologue and within the struct definition.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d590 1
+a590 1
+*                       memory allocation.
+d1028 2
+d1163 1
+a1163 1
+  // Error messaging, if enabled.
+a1166 1
+  //--------------------------------------------------------------------------
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+d341 2
+a342 1
+* allocated memory, and disprt() prints its contents.
+d597 25
+d682 7
+d890 2
+a891 2
+*     (Given and returned) This flag must be set to zero whenever any of the
+*     following members of the disprm struct are set or modified:
+d1090 5
+d1200 2
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Documented bypass mode in disset() and added disenq().
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d341 1
+a341 2
+* allocated memory, disenq() returns information about the state of the
+* struct, and disprt() prints its contents.
+a595 26
+* disenq() - enquire about the state of a disprm struct
+* -----------------------------------------------------
+* disenq() may be used to obtain information about the state of a disprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         DISENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see disinit()).
+*                         DISENQ_SET: the struct has been set up by disset().
+*                         DISENQ_BYP: the struct is in bypass mode, which
+*                                     implies that it has been set up (see
+*                                     disset()).
+*                       These may be combined by logical OR, e.g.
+*                       DISENQ_MEM | DISENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+a655 7
+* disset() normally operates regardless of the value of disprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a disprm struct may be put into "bypass" mode by invoking disset()
+* initially with disprm::flag == 1 (rather than 0).  disset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset disprm::flag to zero.  See also disenq().
+*
+d857 2
+a858 2
+*     (Given and returned) This flag must be set to zero (or 1, see disset())
+*     whenever any of the following disprm members are set or changed:
+a1056 5
+enum disenq_enum {
+  DISENQ_MEM = 1,		// disprm struct memory is managed by WCSLIB.
+  DISENQ_SET = 2,		// disprm struct has been set up.
+  DISENQ_BYP = 4,		// disprm struct is in bypass mode.
+};
+a1161 2
+
+int disenq(const struct disprm *dis, int enquiry);
+@
+
+
+8.2.1.4
+log
+@Amended the prologue comment for disenq().
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.2.1.3 2024/05/08 15:24:41 mcalabre Exp mcalabre $
+d610 2
+a611 1
+*                         DISENQ_BYP: the struct is in bypass mode (see
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 8.0.1.2 2023/07/04 08:59:35 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+d1106 1
+a1107 1
+  double totdis;		// The maximum combined distortion.
+a1132 2
+
+  double *dummy;		// Reserved for future use.
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@Changed the order of maxdis and totdis in disprm to ensure correct
+alignment of doubles on 32-bit machines.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d1106 1
+a1107 1
+  double *maxdis;		// For each axis, the maximum distortion.
+d1133 2
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 7.12.1.2 2022/10/06 04:17:53 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+d995 1
+a995 1
+*   double *tmpmem
+d1134 1
+a1134 1
+  double *tmpmem;
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.12.1.2
+log
+@Using disprm::tmpmem as temporary storage space for calculations runs foul
+of thread safety.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d995 1
+a995 1
+*   double *dummy
+d1134 1
+a1134 1
+  double *dummy;		// Reserved for future use.
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.7.1.2 2022/03/25 06:05:58 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.5.1.2 2021/04/13 09:19:46 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d340 2
+a341 1
+* manage the disprm struct, and another, disprt(), prints its contents.
+d567 29
+d1162 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function dissize().
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d340 1
+a340 2
+* manage the disprm struct, dissize() computes its total size including
+* allocated memory, and disprt() prints its contents.
+a565 29
+* dissize() - Compute the size of a disprm struct
+* -----------------------------------------------
+* dissize() computes the full size of a disprm struct, including allocated
+* memory.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct disprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by disini().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, such as disprm::dp.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via tabset(), which normally results in additional
+*                       memory allocation. 
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+a1131 2
+
+int dissize(const struct disprm *dis, int sizes[2]);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis.h,v 7.3.1.6 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: dis.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d92 4
+d170 4
+d254 6
+d321 7
+d1031 6
+a1036 6
+  DISERR_SUCCESS      = 0,	/* Success. */
+  DISERR_NULL_POINTER = 1,	/* Null disprm pointer passed. */
+  DISERR_MEMORY       = 2,	/* Memory allocation failed. */
+  DISERR_BAD_PARAM    = 3,	/* Invalid parameter value. */
+  DISERR_DISTORT      = 4,	/* Distortion error. */
+  DISERR_DEDISTORT    = 5	/* De-distortion error. */
+d1039 1
+a1039 1
+/* For use in declaring distortion function prototypes (= DISX2P_ARGS). */
+d1043 1
+a1043 1
+/* For use in declaring de-distortion function prototypes (= DISP2X_ARGS). */
+d1048 1
+a1048 1
+/* Struct used for storing DPja and DQia keyvalues. */
+d1050 3
+a1052 3
+  char field[72];		/* Full record field name (no colon).       */
+  int j;			/* Axis number, as in DPja (1-relative).    */
+  int type;			/* Data type of value.                      */
+d1054 3
+a1056 3
+    int    i;			/* Integer record value.                    */
+    double f;			/* Floating point record value.             */
+  } value;			/* Record value.                            */
+d1059 1
+a1059 1
+/* Size of the dpkey struct in int units, used by the Fortran wrappers. */
+d1064 30
+a1093 30
+  /* Initialization flag (see the prologue above).                          */
+  /*------------------------------------------------------------------------*/
+  int flag;			/* Set to zero to force initialization.     */
+
+  /* Parameters to be provided (see the prologue above).                    */
+  /*------------------------------------------------------------------------*/
+  int naxis;			/* The number of pixel coordinate elements, */
+				/* given by NAXIS.                          */
+  char   (*dtype)[72];		/* For each axis, the distortion type.      */
+  int    ndp;			/* Number of DPja or DQia keywords, and the */
+  int    ndpmax;		/* number for which space was allocated.    */
+  struct dpkey *dp;		/* DPja or DQia keyvalues (not both).       */
+  double *maxdis;		/* For each axis, the maximum distortion.   */
+  double totdis;		/* The maximum combined distortion.         */
+
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  int    *docorr;		/* For each axis, the mode of correction.   */
+  int    *Nhat;			/* For each axis, the number of coordinate  */
+				/* axes that form the independent variables */
+				/* of the distortion function.              */
+  int    **axmap;		/* For each axis, the axis mapping array.   */
+  double **offset;		/* For each axis, renormalization offsets.  */
+  double **scale;		/* For each axis, renormalization scales.   */
+  int    **iparm;		/* For each axis, the array of integer      */
+				/* distortion parameters.                   */
+  double **dparm;		/* For each axis, the array of floating     */
+				/* point distortion parameters.             */
+  int    i_naxis;		/* Dimension of the internal arrays.        */
+  int    ndis;			/* The number of distortion functions.      */
+d1095 2
+a1096 2
+  /* Error handling, if enabled.                                            */
+  /*------------------------------------------------------------------------*/
+d1099 4
+a1102 4
+  /* Private - the remainder are for internal use.                          */
+  /*------------------------------------------------------------------------*/
+  int (**disp2x)(DISP2X_ARGS);	/* For each axis, pointers to the           */
+  int (**disx2p)(DISX2P_ARGS);	/* distortion function and its inverse.     */
+d1106 1
+a1106 1
+  int    m_flag, m_naxis;	/* The remainder are for memory management. */
+d1112 1
+a1112 1
+/* Size of the disprm struct in int units, used by the Fortran wrappers. */
+d1155 1
+a1155 1
+#endif /* WCSLIB_DIS */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: dis.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d1013 6
+a1018 6
+  DISERR_SUCCESS      = 0,	// Success.
+  DISERR_NULL_POINTER = 1,	// Null disprm pointer passed.
+  DISERR_MEMORY       = 2,	// Memory allocation failed.
+  DISERR_BAD_PARAM    = 3,	// Invalid parameter value.
+  DISERR_DISTORT      = 4,	// Distortion error.
+  DISERR_DEDISTORT    = 5	// De-distortion error.
+d1021 1
+a1021 1
+// For use in declaring distortion function prototypes (= DISX2P_ARGS).
+d1025 1
+a1025 1
+// For use in declaring de-distortion function prototypes (= DISP2X_ARGS).
+d1030 1
+a1030 1
+// Struct used for storing DPja and DQia keyvalues.
+d1032 3
+a1034 3
+  char field[72];		// Full record field name (no colon).
+  int j;			// Axis number, as in DPja (1-relative).
+  int type;			// Data type of value.
+d1036 3
+a1038 3
+    int    i;			// Integer record value.
+    double f;			// Floating point record value.
+  } value;			// Record value.
+d1041 1
+a1041 1
+// Size of the dpkey struct in int units, used by the Fortran wrappers.
+d1046 30
+a1075 30
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int naxis;			// The number of pixel coordinate elements,
+				// given by NAXIS.
+  char   (*dtype)[72];		// For each axis, the distortion type.
+  int    ndp;			// Number of DPja or DQia keywords, and the
+  int    ndpmax;		// number for which space was allocated.
+  struct dpkey *dp;		// DPja or DQia keyvalues (not both).
+  double *maxdis;		// For each axis, the maximum distortion.
+  double totdis;		// The maximum combined distortion.
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  int    *docorr;		// For each axis, the mode of correction.
+  int    *Nhat;			// For each axis, the number of coordinate
+				// axes that form the independent variables
+				// of the distortion function.
+  int    **axmap;		// For each axis, the axis mapping array.
+  double **offset;		// For each axis, renormalization offsets.
+  double **scale;		// For each axis, renormalization scales.
+  int    **iparm;		// For each axis, the array of integer
+				// distortion parameters.
+  double **dparm;		// For each axis, the array of floating
+				// point distortion parameters.
+  int    i_naxis;		// Dimension of the internal arrays.
+  int    ndis;			// The number of distortion functions.
+d1077 2
+a1078 2
+  // Error handling, if enabled.
+  //--------------------------------------------------------------------------
+d1081 4
+a1084 4
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+  int (**disp2x)(DISP2X_ARGS);	// For each axis, pointers to the
+  int (**disx2p)(DISX2P_ARGS);	// distortion function and its inverse.
+d1088 1
+a1088 1
+  int    m_flag, m_naxis;	// The remainder are for memory management.
+d1094 1
+a1094 1
+// Size of the disprm struct in int units, used by the Fortran wrappers.
+d1137 1
+a1137 1
+#endif // WCSLIB_DIS
+@
+
+
+7.3.1.3
+log
+@Added some clarifying comments on TPV in the prologue.
+@
+text
+@d24 1
+a24 1
+  $Id: dis.h,v 7.3.1.2 2020/08/17 12:10:44 mcalabre Exp mcalabre $
+a83 6
+* Note that, as defined, TPV assumes that CDi_ja is used to define the linear
+* transformation.  Consequently, the independent variables of the TPV
+* polynomial are intermediate world coordinates rather than intermediate pixel
+* coordinates.  Thus, unlike other sequent distortions, if PCi_ja is used
+* instead of CDi_ja, then CDELTja must be applied before the TPV polynomial.
+*
+a246 6
+*
+* Note here that "x" refers to the axis to which the distortion function is
+* attached, with "y" being the complementary axis.  So, for example, with
+* longitude on axis 1 and latitude on axis 2, for TPD attached to axis 1, "x"
+* refers to axis 1 and "y" to axis 2.  For TPD attached to axis 2, "x" refers
+* to axis 2, and "y" to axis 1.
+@
+
+
+7.3.1.4
+log
+@Augmented commenting for those distortion functions (TPV, TNX, ZPX) that
+expect to operate on intermediate world coordinates, and cautions about
+translating CDi_ja to PCi_ja plus CDELTia.
+@
+text
+@d24 1
+a24 1
+  $Id: dis.h,v 7.3.1.3 2020/08/17 12:54:09 mcalabre Exp mcalabre $
+d84 6
+a99 4
+* Note that, as defined, TPV assumes that CDi_ja is used to define the linear
+* transformation.  The section on historical idiosyncrasies (below) cautions
+* about translating CDi_ja to PCi_ja plus CDELTia in this case.
+*
+a173 4
+* Note that, as defined, TNX and ZPX assume that CDi_ja is used to define the
+* linear transformation.  The section on historical idiosyncrasies (below)
+* cautions about translating CDi_ja to PCi_ja plus CDELTia in this case.
+*
+a319 7
+*
+* Likewise, because TPV, TNX, and ZPX are defined in terms of CDi_ja, the
+* independent variables of the polynomial are intermediate world coordinates
+* rather than intermediate pixel coordinates.  Because sequent distortions
+* are always applied before CDELTia, if CDi_ja is translated to PCi_ja plus
+* CDELTia, then either CDELTia must be unity, or the distortion polynomial
+* coefficients must be adjusted to account for the change of scale.
+@
+
+
+7.3.1.5
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: dis.h,v 7.3.1.4 2020/09/21 08:27:16 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.6
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: dis.h,v 7.3.1.5 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 6.4.1.3 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+d872 14
+a904 5
+*   int *Nhat
+*     (Returned) Pointer to the first element of an array of int* containing
+*     the number of coordinate axes that form the independent variables of the
+*     distortion function.
+*
+d907 3
+a909 2
+*     containing an offset used to renormalize the independent variables of
+*     the distortion function for each axis.
+d916 3
+a918 2
+*     containing a scale used to renormalize the independent variables of the
+*     distortion function for each axis.
+d1063 1
+a1063 1
+  int    **axmap;		/* For each axis, the axis mapping array.   */
+d1067 1
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Added disprm::docorr to support the DOCORR record field name properly, and
+swapped disprm::axmap and disprm::Nhat to make the order more logical.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+a871 14
+*   int *docorr
+*     (Returned) Pointer to the first element of an array of int containing
+*     flags that indicate the mode of correction for each axis.
+*
+*     If docorr is zero, the distortion function returns the corrected
+*     coordinates directly.  Any other value indicates that the distortion
+*     function computes a correction to be added to pixel coordinates (prior
+*     distortion) or intermediate pixel coordinates (sequent distortion).
+*
+*   int *Nhat
+*     (Returned) Pointer to the first element of an array of int containing
+*     the number of coordinate axes that form the independent variables of the
+*     distortion function for each axis.
+*
+d891 5
+d898 2
+a899 3
+*     containing pointers to the first elements of arrays of offsets used to
+*     renormalize the independent variables of the distortion function for
+*     each axis.
+d906 2
+a907 3
+*     containing pointers to the first elements of arrays of scales used to
+*     renormalize the independent variables of the distortion function for
+*     each axis.
+d1052 1
+a1052 1
+  int    *docorr;		/* For each axis, the mode of correction.   */
+a1055 1
+  int    **axmap;		/* For each axis, the axis mapping array.   */
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 6.4.1.2 2019/12/01 03:47:33 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 6.2.1.3 2019/07/07 09:05:51 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+d264 41
+a304 4
+* WAT uses all but the radial terms: 3, 11, 23, 39, and 59.  While the mapping
+* between WAT's monomial coefficients and TPD is fairly simple, for its
+* expression in terms of a sum of Chebyshev or Legendre polynomials it is much
+* less so.
+d306 6
+a311 2
+* Summary of the dis routines
+* ---------------------------
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Added a new subsection to the prologue entitled 'Historical idiosyncrasies',
+which, in particular, discusses the dichotomy between distortion functions
+that return an additive correction to be applied to coordinates, and those
+that return the corrected coordinates directly.  Also fixed a couple of
+problems relating to generation of the WCSLIB manual by doxextr/doxygen.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d264 4
+a267 41
+* WAT uses all but the radial terms, namely 3, 11, 23, 39, and 59.  While the
+* mapping between WAT's monomial coefficients and TPD is fairly simple, for
+* its expression in terms of a sum of Chebyshev or Legendre polynomials it is
+* much less so.
+*
+* Historical idiosyncrasies:
+* --------------------------
+* In addition to the above, some historical distortion functions have further
+* idiosyncrasies that must be taken into account when translating them to TPD.
+*
+* WCS Paper IV specifies that a distortion function returns a correction to be
+* added to pixel coordinates (prior distortion) or intermediate pixel
+* coordinates (sequent distortion).  The correction is meant to be small so
+* that ignoring the distortion function, i.e. setting the correction to zero,
+* produces a commensurately small error.
+*
+* However, rather than an additive correction, some historical distortion
+* functions (TPV, DSS) define a polynomial that returns the corrected
+* coordinates directly.
+*
+* The difference between the two approaches is readily accounted for simply by
+* adding or subtracting 1 from the coefficient of the first degree term of the
+* polynomial.  However, it opens the way for considerable confusion.
+*
+* Additional to the formalism of WCS Paper IV, both the Polynomial and TPD
+* distortion functions recognise a keyword
+*
+=   DPja = 'DOCORR: 0'
+*
+* which is meant to apply generally to indicate that the distortion function
+* returns the corrected coordinates directly.  Any other value for DOCORR (or
+* its absence) indicates that the distortion function returns an additive
+* correction.
+*
+* WCS Paper IV also specifies that the independent variables of a distortion
+* function are pixel coordinates (prior distortion) or intermediate pixel
+* coordinates (sequent distortion).
+*
+* On the contrary, the independent variables of the SIP polynomial are pixel
+* coordinate offsets from the reference pixel.  This is readily handled via
+* the renormalisation parameters
+d269 2
+a270 6
+=   DPja = 'OFFSET.jhat: <value>'
+*
+* where the value corresponds to CRPIXja.
+*
+* Summary of the dis routines:
+* ----------------------------
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.19.1.2 2018/10/05 04:47:52 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+d278 4
+a281 3
+* disndp(), dpfill(), disini(), disinit(), discpy(), and disfree() are
+* provided to manage the disprm struct, and another, disprt(), prints its
+* contents.
+d374 25
+d1049 4
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Added dpkeyi() and dpkeyd(), previously in wcsutil.{h,c} as
+wcsutil_dpkey_int() and wcsutil_dpkey_double().
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d278 3
+a280 4
+* dpfill(), dpkeyi(), and dpkeyd() are provided to manage the dpkey struct.
+*
+* disndp(), disini(), disinit(), discpy(), and disfree() are provided to
+* manage the disprm struct, and another, disprt(), prints its contents.
+a372 25
+* dpkeyi() - Get the data value in a dpkey struct as int
+* ------------------------------------------------------
+* dpkeyi() returns the data value in a dpkey struct as an integer value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             int       The record's value as int.
+*
+*
+* dpkeyd() - Get the data value in a dpkey struct as double
+* ---------------------------------------------------------
+* dpkeyd() returns the data value in a dpkey struct as a floating point
+* value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             double    The record's value as double.
+*
+*
+a1022 4
+
+int    dpkeyi(const struct dpkey *dp);
+
+double dpkeyd(const struct dpkey *dp);
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.17.1.4 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+d278 3
+a280 2
+* disndp(), dpfill(), disini(), discpy(), and disfree() are provided to manage
+* the disprm struct, and another, disprt(), prints its contents.
+d304 4
+a307 3
+* disndp() changes the value of NDPMAX (default 256).  This global variable
+* controls the number of dpkey structs, for holding DPja or DQia keyvalues,
+* that disini() should allocate space for.
+d312 2
+a313 1
+*   n         int       Value of NDPMAX; ignored if < 0.
+d375 4
+a378 4
+* disini() allocates memory for arrays in a disprm struct and sets all members
+* of the struct to default values.  Memory is allocated for up to NDPMAX DPja
+* or DQia keywords per WCS representation.  This may be changed via disndp()
+* before disini() is called.
+d380 7
+a386 1
+* PLEASE NOTE: every disprm struct must be initialized by disini(), possibly
+d389 1
+a389 1
+* of whether disini() will actually be used to allocate memory.
+d412 7
+d431 2
+a432 2
+* discpy() does a deep copy of one disprm struct to another, using disini() to
+* allocate memory unconditionally for its arrays if required.  Only the
+d464 2
+a465 2
+* disfree() frees memory allocated for the disprm arrays by disini().
+* disini() keeps a record of the memory it allocates and disfree() will only
+d469 1
+a469 1
+* initialized by disini().
+d738 1
+a738 1
+* disini() if it (optionally) allocates memory, their contents must be set by
+d754 1
+a754 1
+*     PLEASE NOTE: flag must be set to -1 when disini() is called for the
+d762 1
+a762 1
+*     If disini() is used to initialize the disprm struct (as would normally
+d776 1
+a776 1
+*     ndpmax will be set by disini() if it allocates memory for disprm::dp[],
+d1025 2
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Added new function disinit(), with disini() now a thin wrapper over it.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+d278 2
+a279 3
+* disndp(), dpfill(), disini(), disinit(), discpy(), and disfree() are
+* provided to manage the disprm struct, and another, disprt(), prints its
+* contents.
+d304 2
+a305 3
+* controls the maximum number of dpkey structs, for holding DPja or DQia
+* keyvalues, that disini() should allocate space for.  It is also used by
+* disinit() as the default value of ndpmax.
+d372 4
+a375 4
+* disini() is a thin wrapper on disinit().  It invokes it with ndpmax set
+* to -1 which causes it to use the value of the global variable NDPMAX.  It
+* is thereby potentially thread-unsafe if NDPMAX is altered dynamically via
+* disndp().  Use disinit() for a thread-safe alternative in this case.
+d377 1
+a377 7
+*
+* disinit() - Default constructor for the disprm struct
+* ----------------------------------------------------
+* disinit() allocates memory for arrays in a disprm struct and sets all
+* members of the struct to default values.
+*
+* PLEASE NOTE: every disprm struct must be initialized by disinit(), possibly
+d380 1
+a380 1
+* of whether disinit() will actually be used to allocate memory.
+a402 7
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+d415 2
+a416 2
+* discpy() does a deep copy of one disprm struct to another, using disinit()
+* to allocate memory unconditionally for its arrays if required.  Only the
+d448 2
+a449 2
+* disfree() frees memory allocated for the disprm arrays by disinit().
+* disinit() keeps a record of the memory it allocates and disfree() will only
+d453 1
+a453 1
+* initialized by disinit().
+d722 1
+a722 1
+* disinit() if it (optionally) allocates memory, their contents must be set by
+d738 1
+a738 1
+*     PLEASE NOTE: flag must be set to -1 when disinit() is called for the
+d746 1
+a746 1
+*     If disinit() is used to initialize the disprm struct (as would normally
+d760 1
+a760 1
+*     ndpmax will be set by disinit() if it allocates memory for disprm::dp[],
+a1008 2
+
+int disinit(int alloc, int naxis, struct disprm *dis, int ndpmax);
+@
+
+
+5.17.1.3
+log
+@Minor changes to the prologue comments for disndp().
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.17.1.2 2017/12/05 07:23:56 mcalabre Exp mcalabre $
+d304 3
+a306 3
+* disndp() sets or gets the value of NDPMAX (default 256).  This global
+* variable controls the maximum number of dpkey structs, for holding DPja or
+* DQia keyvalues, that disini() should allocate space for.  It is also used by
+d312 1
+a312 2
+*   n         int       Value of NDPMAX; ignored if < 0.  Use a value less
+*                       than zero to get the current value.
+@
+
+
+5.17.1.4
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.17.1.3 2017/12/05 23:32:31 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.15.1.3 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+d267 1
+a267 1
+* less so. 
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Removed a trailing blank.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+d267 1
+a267 1
+* less so.
+@
+
+
+5.15.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.15.1.2 2017/01/15 02:13:41 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.8.1.2 2015/07/08 13:10:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.7.1.4 2015/07/08 07:14:01 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+d75 2
+a76 2
+* TPV: The TPV "projection"
+* -------------------------
+d95 2
+a96 2
+* SIP: Simple Imaging Polynomial
+* ------------------------------
+d103 1
+a103 1
+* SIP, which is defined only as a prior distortion for 2D celestial images,
+d121 2
+a122 2
+* DSS: Digitized Sky Survey
+* -------------------------
+d142 2
+a143 2
+* WAT: The TNX and ZPX "projections"
+* ----------------------------------
+d169 2
+a170 2
+* TPD: Template Polynomial Distortion
+* -----------------------------------
+d172 1
+a172 1
+* DSS, and WAT (TNX & ZPX) polynomial distortions that also supports 1D usage
+d218 3
+a220 3
+* for 1D polynomials and 2D polynomials with and without the radial variable,
+* ensure that unused terms mostly do not impose a significant computational
+* overhead.
+d269 2
+a270 2
+* Summary of the dis routines:
+* ----------------------------
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.8.1.2
+log
+@Fixed problems with section titles for doxextr.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d75 2
+a76 2
+* TPV - the TPV "projection":
+* ---------------------------
+d95 2
+a96 2
+* SIP - Simple Imaging Polynomial:
+* --------------------------------
+d103 1
+a103 1
+* SIP, which is defined only as a prior distortion for 2-D celestial images,
+d121 2
+a122 2
+* DSS - Digitized Sky Survey:
+* ---------------------------
+d142 2
+a143 2
+* WAT - the TNX and ZPX "projections":
+* ------------------------------------
+d169 2
+a170 2
+* TPD - Template Polynomial Distortion:
+* -------------------------------------
+d172 1
+a172 1
+* DSS, and WAT (TNX & ZPX) polynomial distortions that also supports 1-D usage
+d218 3
+a220 3
+* for 1-D polynomials and 2-D polynomials with and without the radial
+* variable, ensure that unused terms mostly do not impose a significant
+* computational overhead.
+d269 2
+a270 2
+* Summary of the dis routines
+* ---------------------------
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.6.1.4 2015/06/28 15:03:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+d45 1
+a45 1
+* Paper IV defines FITS keywords used to specify parameters for predefined
+d69 2
+a70 2
+* others are defined only for particular distortions.  Refer to Paper IV for
+* further details.  wcspih() parses all distortion keywords and loads them
+d75 2
+a76 2
+* The TPV "projection":
+* ---------------------
+d93 1
+a93 1
+* CQDISja = 'TPV' and a few other required keywords.
+d95 5
+a99 5
+* Simple Imaging Polynomial (SIP):
+* --------------------------------
+* These routines also support the Simple Imaging Polynomial (SIP), which arose
+* as an application of an early draft of Paper IV.  It is described in detail
+* in
+d118 2
+a119 2
+* FITS header containing the above keywords, along with CPDISja = 'SIP' and a
+* few other required keywords.
+d121 65
+a185 11
+* Template Polynomial Distortion (TPD):
+* -------------------------------------
+* The "Template Polynomial Distortion" (TPD) is a superset of the TPV and SIP
+* polynomial distortions that also supports 1D usage and inversions.  Like TPV
+* and SIP, the form of the polynomial is fixed (the "template") and only the
+* coefficients for the required terms are set non-zero.  TPD generalizes TPV
+* in going to 9th degree, and SIP by accomodating TPV's linear and radial
+* terms.  Within WCSLIB, both TPV and SIP are implemented as special cases of
+* TPD.  Indeed, TPD was developed precisely for that purpose.  Moreover, the
+* general Polynomial distortion is translated and implemented internally as
+* TPD whenever possible.
+d194 22
+a215 8
+* for the forward and reverse distortion functions.
+*
+* In typical applications, TPD is considerably faster than the general
+* Polynomial distortion, though nowhere near as powerful.  As TPD has a finite
+* and not too large number of possible terms (60), the coefficients for each
+* can be stored (by disset()) in a fixed location in the disprm::dparm[]
+* array.  A large part of the speedup then arises from evaluating the
+* polynomial using Horner's scheme.
+d256 13
+d283 4
+d354 3
+d499 17
+d1018 2
+a1030 20
+
+
+/* Specialist distortion functions (internal use only). */
+int polyset(int j, struct disprm *dis);
+int pol2tpd(int j, struct disprm *dis);
+int dispoly(DISP2X_ARGS);
+
+int tpvset(int j, struct disprm *dis);
+int sipset(int j, struct disprm *dis);
+
+int tpdset(int j, struct disprm *dis);
+int tpd1(DISP2X_ARGS);
+int tpd2(DISP2X_ARGS);
+int tpd3(DISP2X_ARGS);
+int tpd4(DISP2X_ARGS);
+int tpd5(DISP2X_ARGS);
+int tpd6(DISP2X_ARGS);
+int tpd7(DISP2X_ARGS);
+int tpd8(DISP2X_ARGS);
+int tpd9(DISP2X_ARGS);
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.7.1.2
+log
+@Added support for DSS coordinates, including adding auxiliary variables
+to TPD.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d45 1
+a45 1
+* WCS Paper IV defines FITS keywords used to specify parameters for predefined
+d69 2
+a70 2
+* others are defined only for particular distortions.  Refer to WCS Paper IV
+* for further details.  wcspih() parses all distortion keywords and loads them
+d93 1
+a93 1
+* CQDISia = 'TPV' and the required DQia.NAXES and DQia.AXIS.ihat keywords.
+d97 3
+a99 3
+* These routines also support the Simple Imaging Polynomial (SIP), whose
+* design was influenced by early drafts of WCS Paper IV.  It is described in
+* detail in
+d118 2
+a119 23
+* FITS header containing the above keywords, along with CPDISja = 'SIP' and
+* the required DPja.NAXES keywords.
+*
+* Digitized Sky Survey (DSS):
+* ---------------------------
+* The Digitized Sky Survey resulted from the production of the Guide Star
+* Catalogue for the Hubble Space Telescope.  Plate solutions based on a
+* polynomial distortion function were encoded in FITS using non-standard
+* keywords.  Sect. 5.2 of WCS Paper IV describes how DSS coordinates may be
+* translated to a sequent Polynomial distortion using two auxiliary variables.
+* That translation is based on optimising the non-distortion component of the
+* plate solution.
+*
+* Following Paper IV, wcspih() translates the non-distortion component of DSS
+* coordinates to standard WCS keywords (CRPIXja, PCi_ja, CRVALia, etc), and
+* fills a wcsprm struct with their values.  It encodes the DSS polynomial
+* coefficients as
+*
+=    AMDXm = <value>   ->   DQ1 = 'AMD.m: <value>'
+=    AMDYm = <value>   ->   DQ2 = 'AMD.m: <value>'
+*
+* WCSLIB would recognise a FITS header containing the above keywords, along
+* with CQDISia = 'DSS' and the required DQia.NAXES keywords.
+d123 9
+a131 9
+* The "Template Polynomial Distortion" (TPD) is a superset of the TPV, SIP,
+* and DSS polynomial distortions that also supports 1D usage and inversions.
+* Like TPV, SIP, and DSS, the form of the polynomial is fixed (the "template")
+* and only the coefficients for the required terms are set non-zero.  TPD
+* generalizes TPV in going to 9th degree, and SIP by accomodating TPV's linear
+* and radial terms.  Within WCSLIB, TPV, SIP, and DSS are implemented as
+* special cases of TPD.  Indeed, TPD was developed precisely for that purpose.
+* Moreover, the general Polynomial distortion is translated and implemented
+* internally as TPD whenever possible.
+d140 8
+a147 22
+* for the forward and reverse distortion functions.  Moreover, like the
+* general Polynomial distortion, TPD supports auxiliary variables, though only
+* as a linear transformation of pixel coordinates (p1,p2):
+*
+=   x = a0 + a1*p1 + a2*p2
+=   y = b0 + b1*p1 + b2*p2
+*
+* where the coefficients of the auxiliary variables (x,y) are recorded as
+*
+=   DPja = 'AUX.1.COEFF.0: a0'      ...default 0.0
+=   DPja = 'AUX.1.COEFF.1: a1'      ...default 1.0
+=   DPja = 'AUX.1.COEFF.2: a2'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.0: b0'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.1: b1'      ...default 0.0
+=   DPja = 'AUX.2.COEFF.2: b2'      ...default 1.0
+*
+* Though nowhere near as powerful, in typical applications TPD is considerably
+* faster than the general Polynomial distortion.  As TPD has a finite and not
+* too large number of possible terms (60), the coefficients for each can be
+* stored (by disset()) in a fixed location in the disprm::dparm[] array.  A
+* large part of the speedup then arises from evaluating the polynomial using
+* Horner's scheme.
+a187 8
+* DSS uses terms 0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 17, 19, and 21.  The presence
+* of a non-zero constant term arises through the use of auxiliary variables
+* with origin offset from the reference point of the TAN projection.  However,
+* in the translation given by WCS Paper IV, the distortion polynomial is zero,
+* or very close to zero, at the reference pixel itself.  The mapping between
+* DSS's AMDXm (or AMDYm) keyvalues and TPD coefficients, while still simple,
+* is not quite as straightforward as for TPV and SIP.
+*
+a932 1
+int dssset(int j, struct disprm *dis);
+@
+
+
+5.7.1.3
+log
+@New function dishdo().
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.7.1.2 2015/07/03 13:20:56 mcalabre Exp mcalabre $
+d149 1
+a149 1
+* and radial terms.  Within WCSLIB, TPV, SIP, and DSS are all implemented as
+a244 4
+* wcshdo() normally writes SIP and TPV headers in their native form if at all
+* possible.  However, dishdo() may be used to set a flag that tells it to
+* write the header in the form of the TPD translation used internally.
+*
+a453 17
+* dishdo() - write FITS headers using TPD
+* ---------------------------------------
+* dishdo() sets a flag that tells wcshdo() to write FITS headers in the form
+* of the TPD translation used internally.  Normally SIP and TPV would be
+* written in their native form if at all possible.
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         3: No TPD translation.
+*
+*
+a954 2
+
+int dishdo(struct disprm *dis);
+@
+
+
+5.7.1.4
+log
+@Added explanatory notes for WAT distortions (TNX and ZPX).  Enhanced
+functionality for the j parameter of dpfill().  Removed prototypes for
+functions used internally within dis.c.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.7.1.3 2015/07/05 08:08:07 mcalabre Exp mcalabre $
+d75 2
+a76 2
+* TPV: The TPV "projection"
+* -------------------------
+d95 2
+a96 2
+* SIP: Simple Imaging Polynomial
+* ------------------------------
+d121 2
+a122 2
+* DSS: Digitized Sky Survey
+* -------------------------
+d142 2
+a143 29
+* WAT: The TNX and ZPX "projections"
+* ----------------------------------
+* The TNX and ZPX "projections" add a polynomial distortion function to the
+* standard TAN and ZPN projections respectively.  Unusually, the polynomial
+* may be expressed as the sum of Chebyshev or Legendre polynomials, or as a
+* simple sum of monomials, as described in
+*
+=   http://fits.gsfc.nasa.gov/registry/tnx/tnx-doc.html
+=   http://fits.gsfc.nasa.gov/registry/zpxwcs/zpx.html
+*
+* The polynomial coefficients are encoded in special-purpose WATi_n keywords
+* as a set of continued strings, thus providing the name for this distortion
+* type.  WATi_n are parsed and translated by wcspih() into the following set:
+*
+=    DQi = 'WAT.POLY: <value>'
+=    DQi = 'WAT.XMIN: <value>'
+=    DQi = 'WAT.XMAX: <value>'
+=    DQi = 'WAT.YMIN: <value>'
+=    DQi = 'WAT.YMAX: <value>'
+=    DQi = 'WAT.CHBY.m_n: <value>'  or
+=    DQi = 'WAT.LEGR.m_n: <value>'  or
+=    DQi = 'WAT.MONO.m_n: <value>'
+*
+* along with CQDISia = 'WAT' and the required DPja.NAXES keywords.  For ZPX,
+* the ZPN projection parameters are also encoded in WATi_n, and wcspih()
+* translates these to standard PVi_ma.
+*
+* TPD: Template Polynomial Distortion
+* -----------------------------------
+d145 8
+a152 14
+* DSS, and WAT (TNX & ZPX) polynomial distortions that also supports 1D usage
+* and inversions.  Like TPV, SIP, and DSS, the form of the polynomial is fixed
+* (the "template") and only the coefficients for the required terms are set
+* non-zero.  TPD generalizes TPV in going to 9th degree, SIP by accomodating
+* TPV's linear and radial terms, and DSS in both respects.  While in theory
+* the degree of the WAT polynomial distortion in unconstrained, in practice it
+* is limited to values that can be handled by TPD.
+*
+* Within WCSLIB, TPV, SIP, DSS, and WAT are all implemented as special cases
+* of TPD.  Indeed, TPD was developed precisely for that purpose.  WAT
+* distortions expressed as the sum of Chebyshev or Legendre polynomials are
+* expanded for TPD as a simple sum of monomials.  Moreover, the general
+* Polynomial distortion is translated and implemented internally as TPD
+* whenever possible.
+a230 5
+* WAT uses all but the radial terms: 3, 11, 23, 39, and 59.  While the mapping
+* between WAT's monomial coefficients and TPD is fairly simple, for its
+* expression in terms of a sum of Chebyshev or Legendre polynomials it is much
+* less so. 
+*
+a315 3
+*                       If j is non-zero, and keyword was given, then the
+*                       value of j will be used to fill in the axis number.
+*
+d990 21
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+d200 2
+d213 1
+a213 3
+* PLEASE NOTE:
+* Distortions are not currently handled by wcsbth(), wcssub(), wcscompare(),
+* or wcshdo().
+d273 1
+a273 1
+*   ival      int       For type == 0, the integer value of the record.
+d275 1
+a275 1
+*   fval      double    For type == 1, the floating point value of the record.
+d392 19
+d689 10
+a698 9
+*     function with the 1-relative image axis number.  For example, consider
+*     an image with a spectrum on the first axis, followed by RA, Dec, and
+*     time axes.  For a distortion in (RA,Dec) and no distortion on the
+*     spectral or time axes, the axis mapping arrays, axmap[j][], would be
+*
+=       j=0: [0, 0, 0, 0]   ...no  distortion on spectral axis,
+=         1: [2, 3, 0, 0]   ...RA  distortion depends on RA and Dec,
+=         2: [3, 2, 0, 0]   ...Dec distortion depends on Dec and RA,
+=         3: [0, 0, 0, 0]   ...no  distortion on time axis,
+d700 1
+a700 1
+*     where zero indicates that there is no corresponding independent
+d791 2
+a792 2
+*       - dpkey::ival,
+*       - dpkey::fval,
+d901 1
+a901 1
+           int type, int ival, double fval);
+d910 2
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Corrected the prologue notes for disprm::axmap - the axis numbers are
+0-relative, not 1-relative.  Also corrected the notes for dpkey::i (not
+dpkey::ival), and likewise dpkey::f.  Removed wcssub() from the list of
+functions that don't support distortions.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d212 2
+a213 2
+* Distortions are not currently handled by wcsbth(), wcscompare(), or
+* wcshdo().
+d273 1
+a273 1
+*   i         int       For type == 0, the integer value of the record.
+d275 1
+a275 1
+*   f         double    For type == 1, the floating point value of the record.
+d670 9
+a678 10
+*     function with the 0-relative image axis number.  For example, consider
+*     an image with a spectrum on the first axis (axis 0), followed by RA
+*     (axis 1), Dec (axis2), and time (axis 3) axes.  For a distortion in
+*     (RA,Dec) and no distortion on the spectral or time axes, the axis
+*     mapping arrays, axmap[j][], would be
+*
+=       j=0: [-1, -1, -1, -1]   ...no  distortion on spectral axis,
+=         1: [ 1,  2, -1, -1]   ...RA  distortion depends on RA and Dec,
+=         2: [ 2,  1, -1, -1]   ...Dec distortion depends on Dec and RA,
+=         3: [-1, -1, -1, -1]   ...no  distortion on time axis,
+d680 1
+a680 1
+*     where -1 indicates that there is no corresponding independent
+d771 2
+a772 2
+*       - dpkey::i,
+*       - dpkey::f,
+d881 1
+a881 1
+           int type, int i, double f);
+@
+
+
+5.6.1.3
+log
+@Added disperr() for convenience in reporting errors.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.6.1.2 2015/06/16 07:48:35 mcalabre Exp mcalabre $
+a199 2
+* disperr() prints the error message(s) (if any) stored in a disprm struct.
+*
+a391 19
+* disperr() - Print error messages from a disprm struct
+* -----------------------------------------------------
+* disperr() prints the error message(s) (if any) stored in a disprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   dis       const struct disprm*
+*                       Distortion function parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*
+*
+a890 2
+
+int disperr(const struct disprm *dis, const char *prefix);
+@
+
+
+5.6.1.4
+log
+@Removed wcshdo() from the list of functions that don't support distortions.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.6.1.3 2015/06/18 08:05:20 mcalabre Exp mcalabre $
+d213 3
+a215 1
+* PLEASE NOTE: Distortions are not yet handled by wcsbth(), or wcscompare().
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.3.1.2 2015/04/21 13:31:54 mcalabre Exp mcalabre $
+d28 3
+a30 2
+* WCSLIB 5.4 - experimental C routines that implement proposed extensions to
+* the FITS World Coordinate System (WCS) standard.  Refer to
+a31 9
+*   "Representations of distortions in FITS world coordinate systems",
+*   Calabretta, M.R. et al. (Paper IV), draft dated 2004/04/22 available from
+*   http://www.atnf.csiro.au/people/Mark.Calabretta
+*
+* The distortion function component of the TPV "projection" is also supported.
+* The TPV projection, originally proposed in a draft of WCS Paper II, consists
+* of a TAN projection with sequent polynomial distortion, the coefficients of
+* which are encoded in PVi_ma keyrecords.  Full details may be found at the
+* registry of FITS conventions:
+d33 4
+a36 1
+*   http://fits.gsfc.nasa.gov/registry/tpvwcs/tpv.html
+d38 82
+a119 2
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d121 66
+d188 2
+a189 2
+* Summary of the dis routines
+* ---------------------------
+d211 3
+a213 2
+* PLEASE NOTE: Distortions are not currently handled by wcsbth(), wcssub(),
+*              wcscompare(), or wcshdo().
+d239 1
+a239 1
+* 
+d470 3
+a908 1
+int tpdset(int j, struct disprm *dis);
+d912 1
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Added a fairly lengthy section to the prologue describing the Paper IV
+keywords and the distortion functions currently implemented.  Also,
+boilerplate change to the prologue to ensure that references to the WCS
+Papers appear in the doxygen manual.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+d28 2
+a29 3
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+d31 9
+d41 1
+a41 4
+* Summary of the dis routines
+* ---------------------------
+* Routines in this suite implement extensions to the FITS World Coordinate
+* System (WCS) standard proposed by
+d43 2
+a44 82
+=   "Representations of distortions in FITS world coordinate systems",
+=   Calabretta, M.R. et al. (WCS Paper IV, draft dated 2004/04/22),
+=   available from http://www.atnf.csiro.au/people/Mark.Calabretta
+*
+* In brief, a distortion function may occupy one of two positions in the WCS
+* algorithm chain.  Prior distortions precede the linear transformation
+* matrix, whether it be PCi_ja or CDi_ja, and sequent distortions follow it.
+* Paper IV defines FITS keywords used to specify parameters for predefined
+* distortion functions.  The following are used for prior distortions:
+*
+=   CPDISja   ...(string-valued, identifies the distortion function)
+=   DPja      ...(record-valued, parameters)
+=   CPERRja   ...(floating-valued, maximum value)
+*
+* Their counterparts for sequent distortions are CQDISia, DQia, and CQERRia.
+* An additional floating-valued keyword, DVERRa, records the maximum value of
+* the combined distortions.
+*
+* DPja and DQia are "record-valued".  Syntactically, the keyvalues are
+* standard FITS strings, but they are to be interpreted in a special way.
+* The general form is
+*
+=   DPja = '<field-specifier>: <float>'
+*
+* where the field-specifier consists of a sequence of fields separated by
+* periods, and the ': ' between the field-specifier and the floating-point
+* value is part of the record syntax.  For example:
+*
+=   DP1 = 'AXIS.1: 1'
+*
+* Certain field-specifiers are defined for all distortion functions, while
+* others are defined only for particular distortions.  Refer to Paper IV for
+* further details.  wcspih() parses all distortion keywords and loads them
+* into a disprm struct for analysis by disset() which knows (or possibly does
+* not know) how to interpret them.  Of the Paper IV distortion functions, only
+* the general Polynomial distortion is currently implemented here.
+*
+* The TPV "projection":
+* ---------------------
+* The distortion function component of the TPV celestial "projection" is also
+* supported.  The TPV projection, originally proposed in a draft of WCS Paper
+* II, consists of a TAN projection with sequent polynomial distortion, the
+* coefficients of which are encoded in PVi_ma keyrecords.  Full details may be
+* found at the registry of FITS conventions:
+*
+=   http://fits.gsfc.nasa.gov/registry/tpvwcs/tpv.html
+*
+* Internally, wcsset() changes TPV to a TAN projection, translates the PVi_ma
+* keywords to DQia and loads them into a disprm struct.  These DQia keyrecords
+* have the form
+*
+=   DQia = 'TPV.m: <value>'
+*
+* where i, a, m, and the value for each DQia match each PVi_ma.  Consequently,
+* WCSLIB would handle a FITS header containing these keywords, along with
+* CQDISja = 'TPV' and a few other required keywords.
+*
+* Simple Imaging Polynomial (SIP):
+* --------------------------------
+* These routines also support the Simple Imaging Polynomial (SIP), which arose
+* as an application of an early draft of Paper IV.  It is described in detail
+* in
+*
+=   http://fits.gsfc.nasa.gov/registry/sip.html
+*
+* SIP, which is defined only as a prior distortion for 2D celestial images,
+* has the interesting feature that it records an approximation to the inverse
+* polynomial distortion function.  This is used by disx2p() to provide an
+* initial estimate for its more precise iterative inversion.  The
+* special-purpose keywords used by SIP are parsed and translated by wcspih()
+* as follows:
+*
+=    A_p_q = <value>   ->   DP1 = 'SIP.FWD.p_q: <value>'
+=   AP_p_q = <value>   ->   DP1 = 'SIP.REV.p_q: <value>'
+=    B_p_q = <value>   ->   DP2 = 'SIP.FWD.p_q: <value>'
+=   BP_p_q = <value>   ->   DP2 = 'SIP.REV.p_q: <value>'
+=   A_DMAX = <value>   ->   DPERR1 = <value>
+=   B_DMAX = <value>   ->   DPERR2 = <value>
+*
+* SIP's A_ORDER and B_ORDER keywords are not used.  WCSLIB would recognise a
+* FITS header containing the above keywords, along with CPDISja = 'SIP' and a
+* few other required keywords.
+a45 66
+* Template Polynomial Distortion (TPD):
+* -------------------------------------
+* The "Template Polynomial Distortion" (TPD) is a superset of the TPV and SIP
+* polynomial distortions that also supports 1D usage and inversions.  Like TPV
+* and SIP, the form of the polynomial is fixed (the "template") and only the
+* coefficients for the required terms are set non-zero.  TPD generalizes TPV
+* in going to 9th degree, and SIP by accomodating TPV's linear and radial
+* terms.  Within WCSLIB, both TPV and SIP are implemented as special cases of
+* TPD.  Indeed, TPD was developed precisely for that purpose.  Moreover, the
+* general Polynomial distortion is translated and implemented internally as
+* TPD whenever possible.
+*
+* However, WCSLIB also recognizes 'TPD' as a distortion function in its own
+* right (i.e. a recognized value of CPDISja or CQDISia), for use as both prior
+* and sequent distortions.  Its DPja and DQia keyrecords have the form
+*
+=   DPja = 'TPD.FWD.m: <value>'
+=   DPja = 'TPD.REV.m: <value>'
+*
+* for the forward and reverse distortion functions.
+*
+* In typical applications, TPD is considerably faster than the general
+* Polynomial distortion, though nowhere near as powerful.  As TPD has a finite
+* and not too large number of possible terms (60), the coefficients for each
+* can be stored (by disset()) in a fixed location in the disprm::dparm[]
+* array.  A large part of the speedup then arises from evaluating the
+* polynomial using Horner's scheme.
+*
+* Separate implementations for polynomials of each degree, and conditionals
+* for 1D polynomials and 2D polynomials with and without the radial variable,
+* ensure that unused terms mostly do not impose a significant computational
+* overhead.
+*
+* The TPD terms are as follows
+*
+=   0: 1     4: xx      12: xxxx      24: xxxxxx      40: xxxxxxxx
+=            5: xy      13: xxxy      25: xxxxxy      41: xxxxxxxy
+=   1: x     6: yy      14: xxyy      26: xxxxyy      42: xxxxxxyy
+=   2: y                15: xyyy      27: xxxyyy      43: xxxxxyyy
+=   3: r     7: xxx     16: yyyy      28: xxyyyy      44: xxxxyyyy
+=            8: xxy                   29: xyyyyy      45: xxxyyyyy
+=            9: xyy     17: xxxxx     30: yyyyyy      46: xxyyyyyy
+=           10: yyy     18: xxxxy                     47: xyyyyyyy
+=           11: rrr     19: xxxyy     31: xxxxxxx     48: yyyyyyyy
+=                       20: xxyyy     32: xxxxxxy
+=                       21: xyyyy     33: xxxxxyy     49: xxxxxxxxx
+=                       22: yyyyy     34: xxxxyyy     50: xxxxxxxxy
+=                       23: rrrrr     35: xxxyyyy     51: xxxxxxxyy
+=                                     36: xxyyyyy     52: xxxxxxyyy
+=                                     37: xyyyyyy     53: xxxxxyyyy
+=                                     38: yyyyyyy     54: xxxxyyyyy
+=                                     39: rrrrrrr     55: xxxyyyyyy
+=                                                     56: xxyyyyyyy
+=                                                     57: xyyyyyyyy
+=                                                     58: yyyyyyyyy
+=                                                     59: rrrrrrrrr
+*
+* where r = sqrt(xx + yy).  Note that even powers of r are excluded since they
+* can be accomodated by powers of (xx + yy).
+*
+* TPV uses all terms up to 39.  The m in its PVi_ma keywords translates
+* directly to the TPD coefficient number.
+*
+* SIP uses all terms except for 0, 3, 11, 23, 39, and 59, with terms 1 and 2
+* only used for the inverse.  Its A_p_q, etc. keywords must be translated
+* using a map.
+d47 2
+a48 2
+* Summary of the dis routines:
+* ----------------------------
+d70 2
+a71 3
+* PLEASE NOTE:
+* Distortions are not currently handled by wcsbth(), wcssub(), wcscompare(),
+* or wcshdo().
+d97 1
+a97 1
+*
+a327 3
+* If disprm::disx2p() is defined, then disx2p() uses it to provide an initial
+* estimate for its more precise iterative inversion.
+*
+d764 1
+a767 1
+int tpdset(int j, struct disprm *dis);
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.2.1.3 2015/04/21 01:40:28 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.3 - experimental C routines that implement proposed extensions to
+d65 1
+a65 1
+* separate functions, such as dispoly() and tpv7(), to do the computation.
+d70 2
+a71 2
+* PLEASE NOTE: Distortions are not currently handled by wcspih(), wcsbth(),
+*              wcssub(), wcscompare(), or wcshdo().
+d658 1
+a658 1
+#define DISP2X_ARGS const int iparm[], const double dparm[], \
+d662 1
+a662 1
+#define DISX2P_ARGS const int iparm[], const double dparm[], \
+d761 1
+d764 1
+d766 1
+d768 9
+a776 7
+int tpv1(DISP2X_ARGS);
+int tpv2(DISP2X_ARGS);
+int tpv3(DISP2X_ARGS);
+int tpv4(DISP2X_ARGS);
+int tpv5(DISP2X_ARGS);
+int tpv6(DISP2X_ARGS);
+int tpv7(DISP2X_ARGS);
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.3.1.2
+log
+@Added an extra argument, inverse, to DISP2X_ARGS and DISX2P_ARGS.  Function
+prototypes for pol2tpd(), tpdset(), and sipset().  Changed tpv1() to tpd1(),
+etc. and added tpd8() and tpd9().
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d65 1
+a65 1
+* separate functions, such as dispoly() and tpd7(), to do the computation.
+d70 2
+a71 2
+* PLEASE NOTE: Distortions are not currently handled by wcsbth(), wcssub(),
+*              wcscompare(), or wcshdo().
+d658 1
+a658 1
+#define DISP2X_ARGS int inverse, const int iparm[], const double dparm[], \
+d662 1
+a662 1
+#define DISX2P_ARGS int inverse, const int iparm[], const double dparm[], \
+a760 1
+int pol2tpd(int j, struct disprm *dis);
+a762 1
+int tpdset(int j, struct disprm *dis);
+a763 1
+int sipset(int j, struct disprm *dis);
+d765 7
+a771 9
+int tpd1(DISP2X_ARGS);
+int tpd2(DISP2X_ARGS);
+int tpd3(DISP2X_ARGS);
+int tpd4(DISP2X_ARGS);
+int tpd5(DISP2X_ARGS);
+int tpd6(DISP2X_ARGS);
+int tpd7(DISP2X_ARGS);
+int tpd8(DISP2X_ARGS);
+int tpd9(DISP2X_ARGS);
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.7 2015/04/15 01:39:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.2 - experimental C routines that implement proposed extensions to
+d94 12
+d108 1
+a108 1
+*                       Store for DPja and DQia keyrecords.
+d128 2
+a129 2
+*                         1: Integer,
+*                         2: Floating point.
+d131 1
+a131 1
+*   ival      int       For type == 1, the integer value of the record.
+d481 2
+a482 2
+*   char (*dtype)[16]
+*     (Given) Pointer to the first element of an array of char[16] containing
+d499 4
+a502 2
+*     load it into a dpkey struct in the array and increment ndp.  disset()
+*     interprets these as required.
+d589 1
+a589 1
+*   char (*m_dtype)[16]
+d597 5
+a601 4
+* dpkey struct - Store for DPja and DQia keyrecords
+* -------------------------------------------------
+* The dpkey struct is used to pass the parsed contents of DPja and DQia
+* keyrecords to disset() via the disprm struct.
+d657 7
+a663 7
+/* For use in declaring distortion function prototypes. */
+#define DISP2X_ARGS const int iparm[], const double dparm[], int ncrd, \
+const double rawcrd[], double *discrd
+
+/* For use in declaring de-distortion function prototypes. */
+#define DISX2P_ARGS const int iparm[], const double dparm[], int ncrd, \
+const double discrd[], double rawcrd[]
+d690 1
+a690 1
+  char   (*dtype)[16];		/* For each axis, the distortion type.      */
+d693 1
+a693 1
+  struct dpkey *dp;		/* DPja and DQia keyvalues.                 */
+d724 1
+a724 1
+  char   (*m_dtype)[16];
+d764 1
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.2.1.2
+log
+@Changed disprm::dtype from char[16] to char[72] for reasons relating to
+to header parsing.  Augmented the usage comments for dpfill() to explain
+how numeric values in a dpkey struct are handled.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+a93 12
+* WCS Paper IV specifies the syntax of a record-valued keyword as
+*
+=   keyword = '<field-specifier>: <float>'
+* 
+* However, some DPja and DQia record values, such as those of DPja.NAXES and
+* DPja.AXIS.j, are intrinsically integer-valued.  While FITS header parsers
+* are not expected to know in advance which of DPja and DQia are integral and
+* which are floating point, if the record's value parses as an integer (i.e.
+* without decimal point or exponent), then preferably enter it into the dpkey
+* struct as an integer.  Either way, it doesn't matter as disset() accepts
+* either data type for all record values.
+*
+d96 1
+a96 1
+*                       Store for DPja and DQia keyvalues.
+d116 2
+a117 2
+*                         0: Integer,
+*                         1: Floating point.
+d119 1
+a119 1
+*   ival      int       For type == 0, the integer value of the record.
+d469 2
+a470 2
+*   char (*dtype)[72]
+*     (Given) Pointer to the first element of an array of char[72] containing
+d487 2
+a488 4
+*     load it into a dpkey struct in the array and increment ndp.  However,
+*     note that a single disprm struct must hold only DPja or DQia keyvalues,
+*     not both.  disset() interprets them as required by the particular
+*     distortion function.
+d575 1
+a575 1
+*   char (*m_dtype)[72]
+d583 4
+a586 5
+* dpkey struct - Store for DPja and DQia keyvalues
+* ------------------------------------------------
+* The dpkey struct is used to pass the parsed contents of DPja or DQia
+* keyrecords to disset() via the disprm struct.  A disprm struct must hold
+* only DPja or DQia keyvalues, not both.
+d675 1
+a675 1
+  char   (*dtype)[72];		/* For each axis, the distortion type.      */
+d678 1
+a678 1
+  struct dpkey *dp;		/* DPja or DQia keyvalues (not both).       */
+d709 1
+a709 1
+  char   (*m_dtype)[72];
+@
+
+
+5.2.1.3
+log
+@Changed DISX2P_ARGS to match DISP2X_ARGS so that specialist distortion
+functions can serve as their own inverses (with different parameters).
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.2.1.2 2015/04/18 07:40:21 mcalabre Exp mcalabre $
+d657 7
+a663 7
+/* For use in declaring distortion function prototypes (= DISX2P_ARGS). */
+#define DISP2X_ARGS const int iparm[], const double dparm[], \
+int ncrd, const double rawcrd[], double *discrd
+
+/* For use in declaring de-distortion function prototypes (= DISP2X_ARGS). */
+#define DISX2P_ARGS const int iparm[], const double dparm[], \
+int ncrd, const double discrd[], double *rawcrd
+a763 1
+
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis.h,v 5.0.1.2 2015/04/07 08:36:45 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.1 - experimental C routines that implement proposed extensions to
+d35 8
+d56 2
+a57 2
+* Four routines, disini(), disparms(), discpy(), and disfree() are provided to
+* manage the disprm struct, and another, disprt(), prints its contents.
+d65 1
+a65 1
+* separate functions, such as tpv1(), to do the computation.
+d68 58
+a125 1
+* over a specified range of pixels.
+d131 3
+a133 12
+* of the struct to default values.
+*
+* In general, different distortion functions may be associated with each axis,
+* and at the point where disini() is invoked, it is usually not known how many
+* distortion parameters may be required for each.  Hence a separate routine,
+* disparms(), is provided to allocate memory for the parameter arrays if
+* desired.  One way or the other, after invoking disini(), it is the caller's
+* responsibility to allocate memory (if necessary) for the distortion
+* parameters.  If disparms() is used for this purpose, then disfree() will
+* free it and subsequent calls to disini() will manage it, e.g. if naxis
+* changes.  Of course, if there is no distortion function on an axis then
+* there is no need to allocate memory for any parameters.
+a170 24
+* disparms() - Allocate memory for parameters in a disprm struct
+* --------------------------------------------------------------
+* disparms() allocates memory for the arrays of distortion function parameters
+* in a disprm struct.  It relies on disprm::nparm[] having been set to
+* determine the number of parameters for each distortion function.  The
+* allocated memory will be freed by disfree().
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       disprm::nparm[] is used to determine the number of
+*                       parameters in each distortion function.  Memory is
+*                       allocated for the distortion function parameters,
+*                       disprm::parms[][], and it is initialized to zero.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       disprm::err if enabled, see wcserr_enable().
+*
+*
+d180 1
+a180 2
+*                       the destination, including the parameter array via a
+*                       call to disparms().  Otherwise, it is assumed that
+d206 3
+a208 3
+* disfree() frees memory allocated for the disprm arrays by disini() and/or
+* disparms().  disini() and disparms() keep a record of the memory they
+* allocate and disfree() will only attempt to free this.
+d343 2
+a344 2
+* diswarp() computes various measures of the distortion over the specified
+* range of coordinates.
+d440 3
+a442 1
+* ("returned").
+d450 2
+a451 3
+*       - disprm::axmap,
+*       - disprm::nparm,
+*       - disprm::parms.
+d473 33
+d507 1
+a507 1
+*     (Given) Pointer to the first element of an array of int* containing
+d524 5
+d530 3
+a532 3
+*     (Given) Pointer to the first element of an array of double* containing
+*     an offset used to renormalize the independent variables of the
+*     distortion function for each axis.
+a536 3
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::offset is changed.
+*
+d538 3
+a540 3
+*     (Given) Pointer to the first element of an array of double* containing
+*     a scale used to renormalize the independent variables of the distortion
+*     function for each axis.
+d545 9
+a553 39
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::scale is changed.
+*
+*   int *nparm
+*     (Given) Pointer to the first element of an array of int containing the
+*     number of distortion parameters for each axis.
+*
+*     The number of parameters specified must satisfy the requirements of the
+*     particular distortion function.  For example, the polynomial distortion
+*     associated with the TPV "projection" must have a number that corresponds
+*     to the degree of the polynomial:
+*
+=       Degree 1:   4
+=              2:   7
+=              3:  12
+=              4:  17
+=              5:  24
+=              6:  31
+=              7:  40
+*
+*   double **parms
+*     (Given) Pointer to the first element of an array of double* containing
+*     pointers to the first elements of the arrays of distortion parameters
+*     for each axis.
+*
+*     disparms() may be used to allocate memory for these arrays.
+*
+*   double *maxdis
+*     (Given) Pointer to the first element of an array of double specifying
+*     the maximum absolute value of the distortion for each axis computed over
+*     the whole image.
+*
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::maxdis is changed.
+*
+*   double totdis
+*     (Given) The maximum absolute value of the combination of all distortion
+*     functions specified as an offset in pixel coordinates computed over the
+*     whole image.
+d555 2
+a556 2
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::totdis is changed.
+a560 3
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+a570 4
+*   int **iwrk
+*     (For internal use only.)
+*   double **dwrk
+*     (For internal use only.)
+d577 1
+a577 9
+*   int **m_axmap
+*     (For internal use only.)
+*   double **m_offset
+*     (For internal use only.)
+*   double **m_scale
+*     (For internal use only.)
+*   int *m_nparm
+*     (For internal use only.)
+*   double **m_parms
+d581 34
+a614 4
+*   int m_alloc
+*     (For internal use only.)
+*   int m_padding
+*     (For internal use only.)
+d643 1
+a643 1
+#define DISP2X_ARGS int nparm, const double parms[], int ncrd, \
+d647 1
+a647 1
+#define DISX2P_ARGS int nparm, const double parms[], int ncrd, \
+d651 15
+d676 3
+a678 7
+  int    **axmap;		/* For each axis, the axis mapping array.   */
+  double **offset;		/* For each axis, renormalization offset.   */
+  double **scale;		/* For each axis, renormalization scale.    */
+  int    *nparm;		/* For each axis, the number of distortion  */
+				/* parameters.                              */
+  double **parms;		/* For each axis, the array of distortion   */
+				/* parameters.                              */
+d684 11
+a695 1
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+a706 2
+  double **iwrk;
+  double **dwrk;
+d710 1
+a710 4
+  int    **m_axmap;
+  double **m_offset, **m_scale;
+  int    *m_nparm;
+  double **m_parms;
+a711 1
+  int    m_alloc, m_padding;
+d718 5
+a724 2
+int disparms(struct disprm *dis);
+
+d745 3
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Prologue wording tweaks.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d60 1
+a60 1
+* over a specified range of coordinates.
+d312 2
+a313 2
+* diswarp() computes various measures of the distortion over a specified range
+* of coordinates.
+@
+
+
+5.1.1.3
+log
+@Added some information about the TPV projection at the start of the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.2 2015/04/07 23:44:31 mcalabre Exp mcalabre $
+a34 8
+* The distortion function component of the TPV "projection" is also supported.
+* The TPV projection, originally proposed in a draft of WCS Paper II, consists
+* of a TAN projection with sequent polynomial distortion, the coefficients of
+* which are encoded in PVi_ja keyrecords.  Full details may be found at the
+* registry of FITS conventions:
+*
+*   http://fits.gsfc.nasa.gov/registry/tpvwcs/tpv.html
+*
+d57 1
+a57 1
+* separate functions, such as tpv7(), to do the computation.
+a496 2
+*
+*     Refer to http://fits.gsfc.nasa.gov/registry/tpvwcs/tpv.html for details.
+@
+
+
+5.1.1.4
+log
+@ Significant development to support Paper IV, including changes to the disprm
+struct, removal of disparms(), addition of the dpkey struct and dpfill(),
+and the implementation of the Polynomial distortion function.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.3 2015/04/10 09:52:01 mcalabre Exp mcalabre $
+d56 2
+a57 2
+* Three routines, disini(), discpy(), and disfree() are provided to manage the
+* disprm struct, and another, disprt(), prints its contents.
+d62 1
+a62 2
+* explicitly - refer to the explanation of disprm::flag.  A little utility
+* routine, dpfill(), aids in filling the contents of the dpkey struct.
+a70 15
+* disndp() - Memory allocation for DPja and DQia
+* ----------------------------------------------
+* disndp() changes the value of NDPMAX (default 256).  This global variable
+* controls the number of dpkey structs, for holding DPja or DQia keyvalues,
+* that disini() should allocate space for.
+*
+* PLEASE NOTE: This function is not thread-safe.
+*
+* Given:
+*   n         int       Value of NDPMAX; ignored if < 0.
+*
+* Function return value:
+*             int       Current value of NDPMAX.
+*
+*
+d74 12
+a85 3
+* of the struct to default values.  Memory is allocated for up to NDPMAX DPja
+* or DQia keywords per WCS representation.  This may be changed via disndp()
+* before disini() is called.
+d123 6
+a128 4
+* dpfill() - Fill the contents of a dpkey struct
+* ----------------------------------------------
+* dpfill() is a little utility routine to aid in filling the contents of the
+* dpkey struct.  No checks are done on the validity of the inputs.
+d131 5
+a135 27
+*   dp        struct dpkey*
+*                       Store for DPja and DQia keyrecords.
+*
+* Given:
+*   keyword   const char *
+*   field     const char *
+*                       These arguments are concatenated with an intervening
+*                       "." to construct the full record field name, i.e.
+*                       including the keyword name, DPja or DQia (but
+*                       excluding the colon delimiter which is NOT part of the
+*                       name).  Either may be given as a NULL pointer.  Set
+*                       both NULL to omit setting this component of the
+*                       struct.
+*
+*   j         int       Axis number (1-relative), i.e. the j in DPja or
+*                       i in DQia.  Can be given as 0, in which case the axis
+*                       number will be obtained from the keyword component of
+*                       the field name which must either have been given or
+*                       preset.
+*
+*   type      int       Data type of the record's value
+*                         1: Integer,
+*                         2: Floating point.
+*
+*   ival      int       For type == 1, the integer value of the record.
+*
+*   fval      double    For type == 1, the floating point value of the record.
+d140 5
+d156 2
+a157 1
+*                       the destination.  Otherwise, it is assumed that
+d183 3
+a185 3
+* disfree() frees memory allocated for the disprm arrays by disini().
+* disini() keeps a record of the memory it allocates and disfree() will only
+* attempt to free this.
+d417 1
+a417 3
+* ("returned").  While the addresses of the arrays themselves may be set by
+* disini() if it (optionally) allocates memory, their contents must be set by
+* the user.
+d425 3
+a427 2
+*       - disprm::ndp,
+*       - disprm::dp.
+a448 33
+*   int ndp
+*     (Given) The number of entries in the disprm::dp[] array.
+*
+*   int ndpmax
+*     (Given) The length of the disprm::dp[] array.
+*
+*     ndpmax will be set by disini() if it allocates memory for disprm::dp[],
+*     otherwise it must be set by the user.  See also disndp().
+*
+*   struct dpkey dp
+*     (Given) Address of the first element of an array of length ndpmax of
+*     dpkey structs.
+*
+*     As a FITS header parser encounters each DPja or DQia keyword it should
+*     load it into a dpkey struct in the array and increment ndp.  disset()
+*     interprets these as required.
+*
+*   double *maxdis
+*     (Given) Pointer to the first element of an array of double specifying
+*     the maximum absolute value of the distortion for each axis computed over
+*     the whole image.
+*
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::maxdis is changed.
+*
+*   double totdis
+*     (Given) The maximum absolute value of the combination of all distortion
+*     functions specified as an offset in pixel coordinates computed over the
+*     whole image.
+*
+*     It is not necessary to reset the disprm struct (via disset()) when
+*     disprm::totdis is changed.
+*
+d450 1
+a450 1
+*     (Returned) Pointer to the first element of an array of int* containing
+a466 5
+*   int *Nhat
+*     (Returned) Pointer to the first element of an array of int* containing
+*     the number of coordinate axes that form the independent variables of the
+*     distortion function.
+*
+d468 3
+a470 3
+*     (Returned) Pointer to the first element of an array of double*
+*     containing an offset used to renormalize the independent variables of
+*     the distortion function for each axis.
+d475 3
+d479 3
+a481 3
+*     (Returned) Pointer to the first element of an array of double*
+*     containing a scale used to renormalize the independent variables of the
+*     distortion function for each axis.
+d486 26
+a511 9
+*   int **iparm
+*     (Returned) Pointer to the first element of an array of int*
+*     containing pointers to the first elements of the arrays of integer
+*     distortion parameters for each axis.
+*
+*   double **dparm
+*     (Returned) Pointer to the first element of an array of double*
+*     containing pointers to the first elements of the arrays of floating
+*     point distortion parameters for each axis.
+d513 17
+a529 2
+*   int i_naxis
+*     (Returned) Dimension of the internal arrays (normally equal to naxis).
+d534 3
+d547 4
+d557 9
+a565 1
+*   double **m_dp
+d569 4
+a572 34
+*
+*
+* dpkey struct - Store for DPja and DQia keyrecords
+* -------------------------------------------------
+* The dpkey struct is used to pass the parsed contents of DPja and DQia
+* keyrecords to disset() via the disprm struct.
+*
+* All members of this struct are to be set by the user.
+*
+*   char field[72]
+*     (Given) The full field name of the record, including the keyword name.
+*     Note that the colon delimiter separating the field name and the value in
+*     record-valued keyvalues is not part of the field name.  For example, in
+*     the following:
+*
+=       DP3A = 'AXIS.1: 2'
+*
+*     the full record field name is "DP3A.AXIS.1", and the record's value
+*     is 2.
+*
+*   int j
+*     (Given) Axis number (1-relative), i.e. the j in DPja or i in DQia.
+*
+*   int type
+*     (Given) The data type of the record's value
+*       - 0: Integer (stored as an int),
+*       - 1: Floating point (stored as a double).
+*
+*   union value
+*     (Given) A union comprised of
+*       - dpkey::ival,
+*       - dpkey::fval,
+*
+*     the record's value.
+d601 1
+a601 1
+#define DISP2X_ARGS const int iparm[], const double dparm[], int ncrd, \
+d605 1
+a605 1
+#define DISX2P_ARGS const int iparm[], const double dparm[], int ncrd, \
+a608 12
+/* Struct used for storing DPja and DQia keyvalues. */
+struct dpkey {
+  char field[72];		/* Full record field name (no colon).       */
+  int j;			/* Axis number, as in DPja (1-relative).    */
+  int type;			/* Data type of value.                      */
+  union {
+    int    i;			/* Integer record value.                    */
+    double f;			/* Floating point record value.             */
+  } value;			/* Record value.                            */
+};
+
+
+d619 7
+a625 3
+  int    ndp;			/* Number of DPja or DQia keywords, and the */
+  int    ndpmax;		/* number for which space was allocated.    */
+  struct dpkey *dp;		/* DPja and DQia keyvalues.                 */
+a630 11
+  int    **axmap;		/* For each axis, the axis mapping array.   */
+  int    *Nhat;			/* For each axis, the number of coordinate  */
+				/* axes that form the independent variables */
+				/* of the distortion function.              */
+  double **offset;		/* For each axis, renormalization offsets.  */
+  double **scale;		/* For each axis, renormalization scales.   */
+  int    **iparm;		/* For each axis, the array of integer      */
+				/* distortion parameters.                   */
+  double **dparm;		/* For each axis, the array of floating     */
+				/* point distortion parameters.             */
+  int    i_naxis;		/* Dimension of the internal arrays.        */
+d632 1
+d644 2
+d649 4
+a652 1
+  struct dpkey *m_dp;
+d654 1
+a660 2
+int disndp(int n);
+
+d663 1
+a663 2
+int dpfill(struct dpkey *dp, const char *keyword, const char *field, int j,
+           int type, int ival, double fval);
+a684 3
+int polyset(int j, struct disprm *dis);
+int dispoly(DISP2X_ARGS);
+
+@
+
+
+5.1.1.5
+log
+@Changed the order of the functions.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.4 2015/04/13 08:29:53 mcalabre Exp mcalabre $
+d56 2
+a57 2
+* disndp(), dpfill(), disini(), discpy(), and disfree() are provided to manage
+* the disprm struct, and another, disprt(), prints its contents.
+d62 2
+a63 1
+* explicitly - refer to the explanation of disprm::flag.
+a86 39
+* dpfill() - Fill the contents of a dpkey struct
+* ----------------------------------------------
+* dpfill() is a utility routine to aid in filling the contents of the dpkey
+* struct.  No checks are done on the validity of the inputs.
+*
+* Given and returned:
+*   dp        struct dpkey*
+*                       Store for DPja and DQia keyrecords.
+*
+* Given:
+*   keyword   const char *
+*   field     const char *
+*                       These arguments are concatenated with an intervening
+*                       "." to construct the full record field name, i.e.
+*                       including the keyword name, DPja or DQia (but
+*                       excluding the colon delimiter which is NOT part of the
+*                       name).  Either may be given as a NULL pointer.  Set
+*                       both NULL to omit setting this component of the
+*                       struct.
+*
+*   j         int       Axis number (1-relative), i.e. the j in DPja or
+*                       i in DQia.  Can be given as 0, in which case the axis
+*                       number will be obtained from the keyword component of
+*                       the field name which must either have been given or
+*                       preset.
+*
+*   type      int       Data type of the record's value
+*                         1: Integer,
+*                         2: Floating point.
+*
+*   ival      int       For type == 1, the integer value of the record.
+*
+*   fval      double    For type == 1, the floating point value of the record.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+d130 39
+d715 2
+a718 2
+
+int disini(int alloc, int naxis, struct disprm *dis);
+@
+
+
+5.1.1.6
+log
+@Added DPLEN for the Fortran wrappers.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.5 2015/04/13 09:37:42 mcalabre Exp mcalabre $
+a657 3
+
+/* Size of the dpkey struct in int units, used by the Fortran wrappers. */
+#define DPLEN (sizeof(struct dpkey)/sizeof(int))
+@
+
+
+5.1.1.7
+log
+@Added a note about the routines that do not currently handle distortions.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.1.1.6 2015/04/13 11:47:26 mcalabre Exp mcalabre $
+d38 1
+a38 1
+* which are encoded in PVi_ma keyrecords.  Full details may be found at the
+d65 1
+a65 1
+* separate functions, such as dispoly() and tpv7(), to do the computation.
+a68 3
+*
+* PLEASE NOTE: Distortions are not currently handled by wcspih(), wcsbth(),
+*              wcssub(), wcscompare(), or wcshdo().
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id$
+d28 1
+a28 1
+* WCSLIB 5.0 - experimental C routines that implement proposed extensions to
+d59 3
+d247 1
+a247 1
+*   rawcrd    const double[]
+d251 2
+a252 1
+*   discrd    double[]  Array of coordinates to which the distortion functions
+d290 1
+a290 1
+*   discrd    const double[]
+d294 2
+a295 1
+*   rawcrd    double[]  Array of coordinates to which the inverse distortion
+d310 94
+d521 6
+d619 5
+d666 6
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@New function diswarp() computes various measures of the distortion over the
+specified range of coordinates.  Added disprm::ndis (and padding).
+@
+text
+@d25 1
+a25 1
+  $Id: dis.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+a58 3
+* An auxiliary routine, diswarp(), computes various measures of the distortion
+* over a specified range of pixels.
+*
+d244 1
+a244 1
+*   rawcrd    const double[naxis]
+d248 1
+a248 2
+*   discrd    double[naxis]
+*                       Array of coordinates to which the distortion functions
+d286 1
+a286 1
+*   discrd    const double[naxis]
+d290 1
+a290 2
+*   rawcrd    double[naxis]
+*                       Array of coordinates to which the inverse distortion
+a304 94
+* diswarp() - Compute measures of distortion
+* ------------------------------------------
+* diswarp() computes various measures of the distortion over the specified
+* range of coordinates.
+*
+* For prior distortions, the measures may be interpreted simply as an offset
+* in pixel coordinates.  For sequent distortions, the interpretation depends
+* on the nature of the linear transformation matrix (PCi_ja or CDi_ja).  If
+* the latter introduces a scaling, then the measures will also be scaled.
+* Note also that the image domain, which is rectangular in pixel coordinates,
+* may be rotated, skewed, and/or stretched in intermediate pixel coordinates,
+* and in general cannot be defined using pixblc[] and pixtrc[].
+*
+* PLEASE NOTE: the measures of total distortion may be essentially meaningless
+* if there are multiple sequent distortions with different scaling.
+*
+* See also linwarp().
+*
+* Given and returned:
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Given:
+*   pixblc    const double[naxis]
+*                       Start of the range of pixel coordinates (for prior
+*                       distortions), or intermediate pixel coordinates (for
+*                       sequent distortions).  May be specified as a NULL
+*                       pointer which is interpreted as (1,1,...).
+*
+*   pixtrc    const double[naxis]
+*                       End of the range of pixel coordinates (prior) or
+*                       intermediate pixel coordinates (sequent).
+*
+*   pixsamp   const double[naxis]
+*                       If positive or zero, the increment on the particular
+*                       axis, starting at pixblc[].  Zero is interpreted as a
+*                       unit increment.  pixsamp may also be specified as a
+*                       NULL pointer which is interpreted as all zeroes, i.e.
+*                       unit increments on all axes.
+*
+*                       If negative, the grid size on the particular axis (the
+*                       absolute value being rounded to the nearest integer).
+*                       For example, if pixsamp is (-128.0,-128.0,...) then
+*                       each axis will be sampled at 128 points between
+*                       pixblc[] and pixtrc[] inclusive.  Use caution when
+*                       using this option on non-square images.
+*
+* Returned:
+*   nsamp     int*      The number of pixel coordinates sampled.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxdis    double[naxis]
+*                       For each individual distortion function, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxtot    double*   For the combination of all distortion functions, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgdis    double[naxis]
+*                       For each individual distortion function, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgtot    double*   For the combination of all distortion functions, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmsdis    double[naxis]
+*                       For each individual distortion function, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmstot    double*   For the combination of all distortion functions, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null disprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         4: Distort error.
+*
+*
+a421 6
+*   int ndis
+*     (Returned) The number of distortion functions.
+*
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+a513 5
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  int    ndis;			/* The number of distortion functions.      */
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+
+a555 6
+
+int diswarp(struct disprm *dis, const double pixblc[], const double pixtrc[],
+            const double pixsamp[], int *nsamp,
+            double maxdis[], double *maxtot,
+            double avgdis[], double *avgtot,
+            double rmsdis[], double *rmstot);
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 572
+@

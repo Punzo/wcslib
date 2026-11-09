@@ -1,0 +1,3553 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.03.20.04.20.45;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.13.04.03.29;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	;
+
+4.4.1.1
+date	2009.08.13.04.10.46;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.53.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.01.41.48;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.12.13.06.02.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.09.16.04.48.44;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.26.28;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	4.9.1.2;
+
+4.9.1.2
+date	2012.01.31.23.53.19;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	4.14.1.2;
+
+4.14.1.2
+date	2012.09.26.08.22.27;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.13.06.03.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	4.18.1.2;
+
+4.18.1.2
+date	2013.09.29.10.33.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.2;
+
+4.22.1.2
+date	2014.05.04.08.55.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.03.06.12.03.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.09.58.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	5.3.1.2;
+
+5.3.1.2
+date	2015.04.21.14.09.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	5.9.1.2;
+
+5.9.1.2
+date	2015.10.09.07.04.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	5.11.1.2;
+
+5.11.1.2
+date	2015.11.15.01.54.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.26.08.27.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	5.13.1.2;
+
+5.13.1.2
+date	2016.02.07.08.31.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.17.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.01.19.02.29.48;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.3;
+
+5.16.1.3
+date	2017.09.12.04.40.24;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.4;
+
+5.16.1.4
+date	2017.09.13.01.06.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.01.48.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.08.59.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.03.13.10.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	6.1.1.2;
+
+6.1.1.2
+date	2018.10.20.09.56.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.07.11.05.02.20;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.11.08.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.19.13.41.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.09.21.08.34.33;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.17.17;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.31.01.24.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.03.20.04.22.33;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.20.04.23.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.12.06.11.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.22.05.34.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.02.15.30.35;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.3;
+
+7.11.1.3
+date	2022.09.09.02.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	8.1.1.2;
+
+8.1.1.2
+date	2023.11.14.12.11.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.05.08.15.56.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.26.14.07.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	8.8.1.2;
+
+8.8.1.2
+date	2026.06.18.12.55.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@List of contributors to WCSLIB.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@I would like to acknowledge the following people who have contributed
+to WCSLIB and/or PGSBOX in some way since 1995 - via bug reports,
+patches, suggestions for improvements, positive feedback, etc.
+
+Mohammad Akhlaghi (CEFCA & GNUastro)
+James Allen (U. Sydney)
+James M. Anderson (MPIfR)
+Robbie Auld (Cardiff U.)
+Klaus Banse (ESO)
+David Barnes (ATNF/CSIRO)
+Zaak Beekman (Homebrew maintainer for MacOSX)
+David Berry (STARLINK & JAC)
+Emmanuel Bertin (IAP)
+David Binderman
+Erik M. Bray (STScI)
+Jeremy Brewer (U. Pittsburgh)
+Wim Brouw (ATNF/CSIRO)
+Stefan Brüns
+Peter Bunclark (IoA, U. Cambridge)
+Mihai Cara (STScI/Astropy)
+Rodrigo Tobar Carrizo (ICRAR/UWA)
+Pan Chai (GSFC/NASA)
+Charles Copley
+Simon Conseil (CRAL)
+Neil Crighton
+Cesar Enrique Garcia Dabo (ESO)
+Sepideh Eskandarlou (CEFCA & GNUastro)
+Marc Espie
+Lindsey Davis (NOAO)
+Nadezhda (Nadia) Dencheva (STScI/Astropy)
+Ger van Diepen (ASTRON)
+Patrick Dowler (CADC/NRC)
+Michael Droettboom (STScI)
+Rick Ebert (IPAC/NASA)
+Ken Ebisawa (GSFC/NASA)
+Sébastien Fabbro (Gentoo linux maintainer)
+Octavi Fors (U. North Carolina)
+Bob Garwood (NRAO)
+Mosè Giordano (Julia wrappers)
+Brian Glendenning (NRAO)
+Eric Greisen (NRAO)
+Michael Halle (AM/Harvard)
+Booth Hartley (IPAC/NASA)
+Phil Hodge (STScI)
+Derek Homeier (Astropy)
+Bryan Irby (GSFC/NASA)
+Justin Jonas (Rhodes U.)
+Yves Jung (ESO)
+David Kaplan (KITP/UCSB)
+Vishal Kasliwal (U. Pennsylvania, LSST)
+Daniel S. Katz (JPL/NASA)
+Neil Killeen (ATNF/CSIRO)
+David King (NRAO)
+Martin Kuemmel (U.-Sternwarte Muenchen)
+Paul F. Kunz (SLAC/Stanford U.)
+Aleksander Kurek (Jagiellonian U.)
+Jonas Møller Larsen (ESO)
+Dustin Lang (Perimeter Inst.)
+Paddy Leahy (U. Manchester)
+Jim Lewis (IoA, U. Cambridge)
+Pey-Lian Lim (STScI)
+Marco Lombardi (ESO)
+Lars Kristian Lundin (ESO)
+Robert Lupton (Princeton U.)
+Craig Markwardt (GSFC/NASA)
+Chiara Marmo (U. Paris-Sud)
+Malte Marquarding (ATNF/CSIRO)
+Jean-Baptiste Marquette (IAP)
+Tom Marsh (U. Warwick)
+Sean Mattingly (IPAC/NASA)
+Dave McConnell (ATNF/CSIRO)
+Thomas A. McGlynn (GSFC/NASA)
+Bruce Merry (SARAO)
+Michelle Miller (NOAO)
+Jessica Mink (CfA)
+David Motl (var.astro.cz)
+August Muench (CfA)
+Fergal Mullally (Princeton U.)
+Stuart Mumford (SunPy)
+Shu Niu (Purple Mountain Obs.)
+Clive Page (U. Leicester)
+Ralf Palsa (ESO)
+Sergio Pascual (U. Complutense de Madrid, Fedora maintainer)
+Bill Pence (GSFC/NASA)
+Olivier Perdereau (LAL/IN2P3)
+Dirk Petry (ESO)
+Ray Plante (NCSA/UIUC)
+Paul Price (Princeton U.)
+Niruj Mohan Ramanujam (Leiden Obs)
+Harold Ravlin (U. Illinois)
+Cyril Richard (CNRS)
+Thomas Robitaille (MPIA, STScI, Aperio Software)
+Boud Roukema (TCfA)
+Keith A. Scollick (GSFC/NASA)
+Arno Schoenmakers (ASTRON)
+Pim Schellart (Princeton U.)
+Corentin Schreiber (Oxford U.)
+Eli Schwartz (Gentoo Linux maintainer)
+Rob Seaman (Catalina Sky Survey)
+Michael Seifert (Astropy)
+Manodeep Sinha (Astropy)
+Colin Slater (LSST)
+Hanno Spreeuw (ASTRON)
+Ole Streicher (Debian maintainer)
+Julian Taylor (ESO)
+Hans Terlouw (Kapteyn, Groningen)
+Peter Teuben (U. Maryland)
+Bill Thompson (GSFC/NASA)
+Harro Verkouter (JIVE)
+John C. Vernaleo (GSFC/NASA)
+Martin Vogelaar (Kapteyn, Groningen)
+Stephen Walton (CSUN)
+Boyd Waters (NRAO)
+Randall Wayth (Curtin U.)
+Benjamin Alan Weaver (LBL)
+Peter Weilbacher (AIP)
+Matthew Whiting (ATNF/CSIRO)
+Peter Williams (UCB, CfA)
+Daren Scot Wilson (NRAO)
+Tony Wong (ATNF/CSIRO)
+
+
+$Id: THANKS,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d123 1
+a123 1
+$Id: THANKS,v 8.8.1.2 2026/06/18 12:55:14 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d123 1
+a123 1
+$Id: THANKS,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d92 1
+a92 1
+Thomas Robitaille (MPIA, STScI)
+d123 1
+a123 1
+$Id: THANKS,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d123 1
+a123 1
+$Id: THANKS,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.8.1.2
+log
+@Thomas Robitaille is now with Aperio Software.
+@
+text
+@d92 1
+a92 1
+Thomas Robitaille (MPIA, STScI, Aperio Software)
+d123 1
+a123 1
+$Id: THANKS,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d123 1
+a123 1
+$Id: THANKS,v 8.6.1.2 2026/04/26 14:07:33 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d123 1
+a123 1
+$Id: THANKS,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d99 1
+d123 1
+a123 1
+$Id: THANKS,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added Rob Seaman.
+@
+text
+@a98 1
+Rob Seaman (Catalina Sky Survey)
+d122 1
+a122 1
+$Id: THANKS,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.2.1.2 2024/05/08 15:56:09 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d122 1
+a122 1
+$Id: THANKS,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d98 1
+d100 1
+d122 1
+a122 1
+$Id: THANKS,v 8.1.1.2 2023/11/14 12:11:05 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d120 1
+a120 1
+$Id: THANKS,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Added Eli Schwartz and Manodeep Sinha.
+@
+text
+@a97 1
+Eli Schwartz (Gentoo Linux maintainer)
+a98 1
+Manodeep Sinha (Astropy)
+d120 1
+a120 1
+$Id: THANKS,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d80 1
+d120 1
+a120 1
+$Id: THANKS,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.1.1.2
+log
+@Added Shu Niu.
+@
+text
+@a79 1
+Shu Niu (Purple Mountain Obs.)
+d119 1
+a119 1
+$Id: THANKS,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 7.11.1.3 2022/09/09 02:46:57 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d119 1
+a119 1
+$Id: THANKS,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d5 1
+a5 1
+Mohammad Akhlaghi (IAC & GNUastro)
+d27 2
+d119 1
+a119 1
+$Id: THANKS,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@Added Marc Espie.
+@
+text
+@a26 1
+Marc Espie
+d117 1
+a117 1
+$Id: THANKS,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.3
+log
+@Added Sepideh Eskandarlou.  Changed Mohammad Akhlaghi's affiliation from
+IAC to CEFCA.
+@
+text
+@d5 1
+a5 1
+Mohammad Akhlaghi (CEFCA & GNUastro)
+a26 1
+Sepideh Eskandarlou (CEFCA & GNUastro)
+d118 1
+a118 1
+$Id: THANKS,v 7.11.1.2 2022/09/02 15:30:35 mcalabre Exp mcalabre $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.7.1.2 2022/03/22 05:34:15 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d117 1
+a117 1
+$Id: THANKS,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d18 1
+d54 1
+d117 1
+a117 1
+$Id: THANKS,v 7.6.1.2 2021/07/12 06:11:35 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d115 1
+a115 1
+$Id: THANKS,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Added Stefan BrÃ¼ns and Aleksander Kurek.
+@
+text
+@a17 1
+Stefan Brüns
+a52 1
+Aleksander Kurek (Jagiellonian U.)
+d115 1
+a115 1
+$Id: THANKS,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d77 1
+d115 1
+a115 1
+$Id: THANKS,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d114 1
+a114 1
+$Id: THANKS,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Added Ralf Palsa.
+@
+text
+@a76 1
+Ralf Palsa (ESO)
+d114 1
+a114 1
+$Id: THANKS,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d114 1
+a114 1
+$Id: THANKS,v 7.4.1.2 2021/03/20 04:23:27 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d114 1
+a114 1
+$Id: THANKS,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d85 1
+d114 1
+a114 1
+$Id: THANKS,v 7.3.1.4 2021/01/31 01:24:38 mcalabre Exp $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d113 1
+a113 1
+$Id: THANKS,v 7.4 2021/03/20 04:20:45 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added Cyril Richard.
+@
+text
+@a84 1
+Cyril Richard (CNRS)
+d113 1
+a113 1
+$Id: THANKS,v 7.4.1.1 2021/03/20 04:22:33 mcalabre Exp mcalabre $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d5 1
+a5 1
+Mohammad Aghlaghi (IAC & GNUastro)
+d19 1
+a19 1
+Mihai Cara (STScI)
+d27 1
+a27 1
+Nadezhda (Nadia) Dencheva (STScI)
+d42 1
+d69 1
+d91 1
+a91 1
+Michael Seifert (astropy)
+d113 1
+a113 1
+$Id: THANKS,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d111 1
+a111 1
+$Id: THANKS,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Corrected spelling of Mohammad Akhlaghi.
+@
+text
+@d5 1
+a5 1
+Mohammad Akhlaghi (IAC & GNUastro)
+d111 1
+a111 1
+$Id: THANKS,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Added Bruce Merry.
+@
+text
+@a67 1
+Bruce Merry (SARAO)
+d111 1
+a111 1
+$Id: THANKS,v 7.3.1.2 2020/09/21 08:34:33 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Added Derek Homeier.
+@
+text
+@d19 1
+a19 1
+Mihai Cara (STScI/Astropy)
+d27 1
+a27 1
+Nadezhda (Nadia) Dencheva (STScI/Astropy)
+a41 1
+Derek Homeier (Astropy)
+d90 1
+a90 1
+Michael Seifert (Astropy)
+d112 1
+a112 1
+$Id: THANKS,v 7.3.1.3 2021/01/19 14:17:17 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d111 1
+a111 1
+$Id: THANKS,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d111 1
+a111 1
+$Id: THANKS,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d111 1
+a111 1
+$Id: THANKS,v 6.4.1.2 2019/12/19 13:41:30 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d111 1
+a111 1
+$Id: THANKS,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d73 1
+d76 1
+a76 1
+Bill Pence (NASA/GSFC)
+d89 1
+d96 1
+d111 1
+a111 1
+$Id: THANKS,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d108 1
+a108 1
+$Id: THANKS,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Added Stuart Mumford, Michael Seifert, and Bill Thompson.
+@
+text
+@a72 1
+Stuart Mumford (SunPy)
+d75 1
+a75 1
+Bill Pence (GSFC/NASA)
+a87 1
+Michael Seifert (astropy)
+a93 1
+Bill Thompson (GSFC/NASA)
+d108 1
+a108 1
+$Id: THANKS,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d108 1
+a108 1
+$Id: THANKS,v 6.2.1.3 2019/07/11 08:39:18 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d108 1
+a108 1
+$Id: THANKS,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d5 1
+d70 1
+d108 1
+a108 1
+$Id: THANKS,v 6.1.1.2 2018/10/20 09:56:08 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d106 1
+a106 1
+$Id: THANKS,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Added David Motl.
+@
+text
+@a68 1
+David Motl (var.astro.cz)
+d106 1
+a106 1
+$Id: THANKS,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Added Mohammad Aghlaghi.
+@
+text
+@a4 1
+Mohammad Aghlaghi (IAC & GNUastro)
+d107 1
+a107 1
+$Id: THANKS,v 6.2.1.2 2019/07/11 05:02:20 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d85 1
+d106 1
+a106 1
+$Id: THANKS,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d105 1
+a105 1
+$Id: THANKS,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+6.1.1.2
+log
+@Added Corentin Schreiber.
+@
+text
+@a84 1
+Corentin Schreiber (Oxford U.)
+d105 1
+a105 1
+$Id: THANKS,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d105 1
+a105 1
+$Id: THANKS,v 5.19.1.2 2018/10/03 13:10:27 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d105 1
+a105 1
+$Id: THANKS,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d10 1
+d52 1
+d105 1
+a105 1
+$Id: THANKS,v 5.18.1.2 2018/07/25 08:59:22 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d103 1
+a103 1
+$Id: THANKS,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Added Zaak Beekman and Dustin Lang.
+@
+text
+@a9 1
+Zaak Beekman (Homebrew maintainer for MacOSX)
+a50 1
+Dustin Lang (Perimeter Inst.)
+d103 1
+a103 1
+$Id: THANKS,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d21 1
+d34 1
+d58 1
+d95 1
+d103 1
+a103 1
+$Id: THANKS,v 5.17.1.2 2017/12/05 01:48:51 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d99 1
+a99 1
+$Id: THANKS,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Added Simon Conseil, MosÃ¨ Giordano, Chiara Marmo, and Benjamin Alan Weaver.
+@
+text
+@a20 1
+Simon Conseil (CRAL)
+a32 1
+Mosè Giordano (Julia wrappers)
+a55 1
+Chiara Marmo (U. Paris-Sud)
+a91 1
+Benjamin Alan Weaver (LBL)
+d99 1
+a99 1
+$Id: THANKS,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d18 1
+d99 1
+a99 1
+$Id: THANKS,v 5.16.1.4 2017/09/13 01:06:40 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d98 1
+a98 1
+$Id: THANKS,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Added Rodrigo Tobar Carrizo.
+@
+text
+@a17 1
+Rodrigo Tobar Carrizo (ICRAR/UWA)
+d98 1
+a98 1
+$Id: THANKS,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d23 1
+d50 1
+d66 1
+a66 1
+Sergio Pascual (U. Complutense de Madrid)
+d74 1
+a74 1
+Thomas Robitaille (MPIA)
+d78 1
+d82 1
+d89 1
+a89 1
+Boyd Waters NRAO)
+d98 1
+a98 1
+$Id: THANKS,v 5.15.1.2 2017/01/15 04:17:24 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d94 1
+a94 1
+$Id: THANKS,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Added Julian Taylor.
+@
+text
+@a78 1
+Julian Taylor (ESO)
+d94 1
+a94 1
+$Id: THANKS,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.3
+log
+@Added Pim Schellart.
+@
+text
+@a75 1
+Pim Schellart (Princeton U.)
+d95 1
+a95 1
+$Id: THANKS,v 5.16.1.2 2017/01/19 02:29:48 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.4
+log
+@Added Nadezhda Dencheva and Pey-Lian Lim.
+@
+text
+@a22 1
+Nadezhda (Nadia) Dencheva (STScI)
+a48 1
+Pey-Lian Lim (STScI)
+d64 1
+a64 1
+Sergio Pascual (U. Complutense de Madrid, Fedora maintainer)
+d72 1
+a72 1
+Thomas Robitaille (MPIA, STScI)
+d87 1
+a87 1
+Boyd Waters (NRAO)
+d96 1
+a96 1
+$Id: THANKS,v 5.16.1.3 2017/09/12 04:40:24 mcalabre Exp mcalabre $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d89 1
+a89 1
+Peter Williams (UCB)
+d94 1
+a94 1
+$Id: THANKS,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d94 1
+a94 1
+$Id: THANKS,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Peter Williams -> CfA.
+@
+text
+@d89 1
+a89 1
+Peter Williams (UCB, CfA)
+d94 1
+a94 1
+$Id: THANKS,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d94 1
+a94 1
+$Id: THANKS,v 5.13.1.2 2016/02/07 08:31:49 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d94 1
+a94 1
+$Id: THANKS,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d13 1
+d94 1
+a94 1
+$Id: THANKS,v 5.12.1.2 2016/01/26 08:27:11 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d93 1
+a93 1
+$Id: THANKS,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.13.1.2
+log
+@Added Erik M. Bray.
+@
+text
+@a12 1
+Erik M. Bray (STScI)
+d93 1
+a93 1
+$Id: THANKS,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d5 1
+d39 1
+d93 1
+a93 1
+$Id: THANKS,v 5.11.1.2 2015/11/15 01:54:23 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d91 1
+a91 1
+$Id: THANKS,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Added James Allen and Vishal Kasliwal.
+@
+text
+@a4 1
+James Allen (U. Sydney)
+a37 1
+Vishal Kasliwal (U. Pennsylvania, LSST)
+d91 1
+a91 1
+$Id: THANKS,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d15 1
+d91 1
+a91 1
+$Id: THANKS,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d90 1
+a90 1
+$Id: THANKS,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.11.1.2
+log
+@Added Mihai Cara (STScI).
+@
+text
+@a14 1
+Mihai Cara (STScI)
+d90 1
+a90 1
+$Id: THANKS,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d90 1
+a90 1
+$Id: THANKS,v 5.9.1.2 2015/10/09 07:04:53 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d90 1
+a90 1
+$Id: THANKS,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d72 1
+d90 1
+a90 1
+$Id: THANKS,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.9.1.2
+log
+@Added Colin Slater.
+@
+text
+@a71 1
+Colin Slater (LSST)
+d89 1
+a89 1
+$Id: THANKS,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.3.1.2 2015/04/21 14:09:31 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d89 1
+a89 1
+$Id: THANKS,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d40 1
+d89 1
+a89 1
+$Id: THANKS,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d88 1
+a88 1
+$Id: THANKS,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.3.1.2
+log
+@Added Martin Kuemmel.
+@
+text
+@a39 1
+Martin Kuemmel (U.-Sternwarte Muenchen)
+d88 1
+a88 1
+$Id: THANKS,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d88 1
+a88 1
+$Id: THANKS,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d88 1
+a88 1
+$Id: THANKS,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d88 1
+a88 1
+$Id: THANKS,v 5.0.1.2 2015/04/07 09:58:30 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d88 1
+a88 1
+$Id: THANKS,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d26 1
+d88 1
+a88 1
+$Id: THANKS,v 4.25.1.2 2015/03/06 12:03:49 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d87 1
+a87 1
+$Id: THANKS,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@Added Octavi Fors.
+@
+text
+@a25 1
+Octavi Fors (U. North Carolina)
+d87 1
+a87 1
+$Id: THANKS,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d48 1
+d87 1
+a87 1
+$Id: THANKS,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d86 1
+a86 1
+$Id: THANKS,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Added Jean-Baptiste Marquette.
+@
+text
+@a47 1
+Jean-Baptiste Marquette (IAP)
+d86 1
+a86 1
+$Id: THANKS,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d86 1
+a86 1
+$Id: THANKS,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d86 1
+a86 1
+$Id: THANKS,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d86 1
+a86 1
+$Id: THANKS,v 4.22.1.2 2014/05/04 08:55:09 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d86 1
+a86 1
+$Id: THANKS,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d79 1
+d86 1
+a86 1
+$Id: THANKS,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.22.1.2
+log
+@Added Peter Weilbacher.
+@
+text
+@a78 1
+Peter Weilbacher (AIP)
+d85 1
+a85 1
+$Id: THANKS,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.18.1.2 2013/09/29 10:33:17 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d85 1
+a85 1
+$Id: THANKS,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d11 1
+d62 1
+d85 1
+a85 1
+$Id: THANKS,v 4.17.1.2 2013/07/13 06:03:05 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d83 1
+a83 1
+$Id: THANKS,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.18.1.2
+log
+@Added David Binderman, and Paul Price.
+@
+text
+@a10 1
+David Binderman
+a60 1
+Paul Price (Princeton U.)
+d83 1
+a83 1
+$Id: THANKS,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d40 1
+d83 1
+a83 1
+$Id: THANKS,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d82 1
+a82 1
+$Id: THANKS,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Added Paddy Leahy.
+@
+text
+@a39 1
+Paddy Leahy (U. Manchester)
+d82 1
+a82 1
+$Id: THANKS,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d82 1
+a82 1
+$Id: THANKS,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d82 1
+a82 1
+$Id: THANKS,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d82 1
+a82 1
+$Id: THANKS,v 4.14.1.2 2012/09/26 08:22:27 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d82 1
+a82 1
+$Id: THANKS,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d51 1
+a51 1
+Doug Mink (CfA)
+d62 1
+d82 1
+a82 1
+$Id: THANKS,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+@
+
+
+4.14.1.2
+log
+@Added Thomas Robitaille.  Changed Doug Mink to Jessica Mink.
+@
+text
+@d51 1
+a51 1
+Jessica Mink (CfA)
+a61 1
+Thomas Robitaille (MPIA)
+d81 1
+a81 1
+$Id: THANKS,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.9.1.2 2012/01/31 23:53:19 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d5 10
+a14 10
+James M. Anderson
+Robbie Auld
+Klaus Banse
+David Barnes
+David Berry
+Emmanuel Bertin
+Jeremy Brewer
+Wim Brouw
+Peter Bunclark
+Pan Chai
+d17 49
+a65 49
+Cesar Enrique Garcia Dabo
+Lindsey Davis
+Ger van Diepen
+Patrick Dowler
+Michael Droettboom
+Rick Ebert
+Ken Ebisawa
+Sébastien Fabbro
+Bob Garwood
+Brian Glendenning
+Eric Greisen
+Michael Halle
+Booth Hartley
+Phil Hodge
+Bryan Irby
+Justin Jonas
+Yves Jung
+David Kaplan
+Daniel S. Katz
+Neil Killeen
+David King
+Paul F. Kunz
+Jonas Møller Larsen
+Jim Lewis
+Marco Lombardi
+Lars Kristian Lundin
+Robert Lupton
+Craig Markwardt
+Malte Marquarding
+Tom Marsh
+Sean Mattingly
+Dave McConnell
+Thomas A. McGlynn
+Michelle Miller
+Doug Mink
+August Muench
+Fergal Mullally
+Clive Page
+Sergio Pascual
+Bill Pence
+Olivier Perdereau
+Dirk Petry
+Ray Plante
+Niruj Mohan Ramanujam
+Harold Ravlin
+Boud Roukema
+Keith A. Scollick
+Arno Schoenmakers
+Hanno Spreeuw
+d67 12
+a78 12
+Hans Terlouw
+Peter Teuben
+Harro Verkouter
+John C. Vernaleo
+Martin Vogelaar
+Stephen Walton
+Boyd Waters
+Randall Wayth
+Matthew Whiting
+Peter Williams
+Daren Scot Wilson
+Tony Wong
+d81 1
+a81 1
+$Id: THANKS,v 4.8.1.3 2012/01/24 05:26:28 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d81 1
+a81 1
+$Id: THANKS,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.9.1.2
+log
+@Added affiliations to each name.
+@
+text
+@d5 10
+a14 10
+James M. Anderson (MPIfR)
+Robbie Auld (Cardiff U.)
+Klaus Banse (ESO)
+David Barnes (ATNF/CSIRO)
+David Berry (STARLINK & JAC)
+Emmanuel Bertin (IAP)
+Jeremy Brewer (U. Pittsburgh)
+Wim Brouw (ATNF/CSIRO)
+Peter Bunclark (IoA, U. Cambridge)
+Pan Chai (GSFC/NASA)
+d17 49
+a65 49
+Cesar Enrique Garcia Dabo (ESO)
+Lindsey Davis (NOAO)
+Ger van Diepen (ASTRON)
+Patrick Dowler (CADC/NRC)
+Michael Droettboom (STScI)
+Rick Ebert (IPAC/NASA)
+Ken Ebisawa (GSFC/NASA)
+Sébastien Fabbro (Gentoo linux maintainer)
+Bob Garwood (NRAO)
+Brian Glendenning (NRAO)
+Eric Greisen (NRAO)
+Michael Halle (AM/Harvard)
+Booth Hartley (IPAC/NASA)
+Phil Hodge (STScI)
+Bryan Irby (GSFC/NASA)
+Justin Jonas (Rhodes U.)
+Yves Jung (ESO)
+David Kaplan (KITP/UCSB)
+Daniel S. Katz (JPL/NASA)
+Neil Killeen (ATNF/CSIRO)
+David King (NRAO)
+Paul F. Kunz (SLAC/Stanford U.)
+Jonas Møller Larsen (ESO)
+Jim Lewis (IoA, U. Cambridge)
+Marco Lombardi (ESO)
+Lars Kristian Lundin (ESO)
+Robert Lupton (Princeton U.)
+Craig Markwardt (GSFC/NASA)
+Malte Marquarding (ATNF/CSIRO)
+Tom Marsh (U. Warwick)
+Sean Mattingly (IPAC/NASA)
+Dave McConnell (ATNF/CSIRO)
+Thomas A. McGlynn (GSFC/NASA)
+Michelle Miller (NOAO)
+Doug Mink (CfA)
+August Muench (CfA)
+Fergal Mullally (Princeton U.)
+Clive Page (U. Leicester)
+Sergio Pascual (U. Complutense de Madrid)
+Bill Pence (NASA/GSFC)
+Olivier Perdereau (LAL/IN2P3)
+Dirk Petry (ESO)
+Ray Plante (NCSA/UIUC)
+Niruj Mohan Ramanujam (Leiden Obs)
+Harold Ravlin (U. Illinois)
+Boud Roukema (TCfA)
+Keith A. Scollick (GSFC/NASA)
+Arno Schoenmakers (ASTRON)
+Hanno Spreeuw (ASTRON)
+d67 12
+a78 12
+Hans Terlouw (Kapteyn, Groningen)
+Peter Teuben (U. Maryland)
+Harro Verkouter (JIVE)
+John C. Vernaleo (GSFC/NASA)
+Martin Vogelaar (Kapteyn, Groningen)
+Stephen Walton (CSUN)
+Boyd Waters NRAO)
+Randall Wayth (Curtin U.)
+Matthew Whiting (ATNF/CSIRO)
+Peter Williams (UCB)
+Daren Scot Wilson (NRAO)
+Tony Wong (ATNF/CSIRO)
+d81 1
+a81 1
+$Id: THANKS,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 2
+a3 2
+to WCSLIB and/or PGSBOX in some way over the past 15 years - via bug
+reports, patches, suggestions for improvements, positive feedback, etc.
+d66 1
+d81 1
+a81 1
+$Id: THANKS,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d80 1
+a80 1
+$Id: THANKS,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added Ole Streicher.
+@
+text
+@a65 1
+Ole Streicher
+d80 1
+a80 1
+$Id: THANKS,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.8.1.3
+log
+@"over the past 15 years" -> "since 1995".
+@
+text
+@d2 2
+a3 2
+to WCSLIB and/or PGSBOX in some way since 1995 - via bug reports,
+patches, suggestions for improvements, positive feedback, etc.
+d66 1
+a66 1
+Ole Streicher (Debian maintainer)
+d81 1
+a81 1
+$Id: THANKS,v 4.8.1.2 2011/09/16 04:48:44 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d80 1
+a80 1
+$Id: THANKS,v 4.6.1.2 2010/12/13 06:02:23 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d80 1
+a80 1
+$Id: THANKS,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d24 1
+d80 1
+a80 1
+$Id: THANKS,v 4.5.1.2 2010/11/15 01:41:48 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d79 1
+a79 1
+$Id: THANKS,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Added Sébastien Fabbro.
+@
+text
+@a23 1
+Sébastien Fabbro
+d79 1
+a79 1
+$Id: THANKS,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 2
+a3 2
+to WCSLIB in some way over the past 15 years - via bug reports,
+patches, suggestions for improvements, positive feedback, etc.
+d74 3
+d79 1
+a79 1
+$Id: THANKS,v 4.4.1.2 2010/01/19 03:53:50 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d76 1
+a76 1
+$Id: THANKS,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Added Peter Williams, Daren Scot Wilson, and Tony Wong.
+@
+text
+@d2 2
+a3 2
+to WCSLIB and/or PGSBOX in some way over the past 15 years - via bug
+reports, patches, suggestions for improvements, positive feedback, etc.
+a73 3
+Peter Williams
+Daren Scot Wilson
+Tony Wong
+d76 1
+a76 1
+$Id: THANKS,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.4
+log
+@Empty revision.
+@
+text
+@d1 76
+@
+
+
+4.4.1.1
+log
+@Initial revision.
+@
+text
+@a0 74
+I would like to acknowledge the following people who have contributed
+to WCSLIB in some way over the past 15 years - via bug reports,
+patches, suggestions for improvements, positive feedback, etc.
+
+James M. Anderson
+Robbie Auld
+Klaus Banse
+David Barnes
+David Berry
+Emmanuel Bertin
+Jeremy Brewer
+Wim Brouw
+Peter Bunclark
+Pan Chai
+Charles Copley
+Neil Crighton
+Lindsey Davis
+Ger van Diepen
+Patrick Dowler
+Michael Droettboom
+Rick Ebert
+Ken Ebisawa
+Bob Garwood
+Brian Glendenning
+Eric Greisen
+Michael Halle
+Booth Hartley
+Phil Hodge
+Bryan Irby
+Justin Jonas
+Yves Jung
+David Kaplan
+Daniel S. Katz
+Neil Killeen
+David King
+Paul F. Kunz
+Jonas Møller Larsen
+Jim Lewis
+Marco Lombardi
+Lars Kristian Lundin
+Robert Lupton
+Craig Markwardt
+Malte Marquarding
+Tom Marsh
+Sean Mattingly
+Dave McConnell
+Thomas A. McGlynn
+Michelle Miller
+Doug Mink
+August Muench
+Fergal Mullally
+Clive Page
+Sergio Pascual
+Bill Pence
+Olivier Perdereau
+Dirk Petry
+Ray Plante
+Niruj Mohan Ramanujam
+Harold Ravlin
+Boud Roukema
+Keith A. Scollick
+Arno Schoenmakers
+Hanno Spreeuw
+Hans Terlouw
+Peter Teuben
+Harro Verkouter
+John C. Vernaleo
+Stephen Walton
+Boyd Waters
+Randall Wayth
+Matthew Whiting
+
+
+$Id$
+@
+
+
+4.4.1.2
+log
+@Added Cesar Enrique Garcia Dabo and Martin Vogelaar.
+@
+text
+@a16 1
+Cesar Enrique Garcia Dabo
+a67 1
+Martin Vogelaar
+d74 1
+a74 1
+$Id: THANKS,v 4.4.1.1 2009/08/13 04:10:46 cal103 Exp cal103 $
+@

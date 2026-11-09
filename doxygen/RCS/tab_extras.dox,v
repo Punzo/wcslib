@@ -1,0 +1,1975 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.45;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.58.37;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	0.0;
+
+0.0
+date	2008.04.04.06.34.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.27;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Extra doxygen markup for tab.h, not derived from the header prologues.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/** @@def TABLEN
+* @@brief Size of the tabprm struct in @@a int units.
+*
+* Size of the tabprm struct in @@a int units, used by the Fortran wrappers.
+*/
+
+/** @@def tabini_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabcpy_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabfree_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabprt_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabset_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabx2s_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+
+/** @@def tabs2x_errmsg
+* @@brief Deprecated.
+* @@deprecated Added for backwards compatibility, use #tab_errmsg directly now
+* instead.
+*/
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 47
+@

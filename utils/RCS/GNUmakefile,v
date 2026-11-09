@@ -1,0 +1,4054 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.35;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.20;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.06;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.04;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.13;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.08;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.18;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.05;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.03;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.19;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.27;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.54;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.10;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.03;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.54;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.51;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.48;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.10.08.47.17;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.50.31;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	0.0;
+
+0.0
+date	2007.07.11.02.15.10;	author cal103;	state Exp;
+branches
+	0.0.1.1;
+next	;
+
+0.0.1.1
+date	2007.07.11.02.16.07;	author cal103;	state Exp;
+branches;
+next	0.0.1.2;
+
+0.0.1.2
+date	2007.07.12.01.43.59;	author cal103;	state Exp;
+branches;
+next	0.0.1.3;
+
+0.0.1.3
+date	2007.08.08.04.42.25;	author cal103;	state Exp;
+branches;
+next	0.0.1.4;
+
+0.0.1.4
+date	2007.12.24.04.36.10;	author cal103;	state Exp;
+branches;
+next	0.0.1.5;
+
+0.0.1.5
+date	2007.12.24.05.21.28;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.26.14;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.02.18.07.07.35;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.03.11.04.53.36;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.07.28.08.22.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.56.01;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.07.09.01.49.51;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.15.04.37.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.06.52.24;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.18.03.18.47;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.18.03.57.36;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.06.03.00.25.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.10.04.07.54.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	4.11.1.2;
+
+4.11.1.2
+date	2012.02.29.07.56.19;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.03.21.02.58.52;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.44.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.48;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.03.16.05.56.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.04;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.12.04.13.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.03.51.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.02.13.27.49;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.3;
+
+7.4.1.3
+date	2021.03.10.13.36.58;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.4;
+
+7.4.1.4
+date	2021.03.20.05.53.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.05.13.04.10.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.02.25.13.26.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.43;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.10.26.11.23.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.47.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.24.13.49.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@GNU makefile for WCSLIB utilities.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# GNU makefile for WCSLIB 8.10 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+#
+# Summary of the main targets
+# ---------------------------
+#   build:     Build all utilities.
+#   clean (or cleaner): Delete intermediate object files.
+#   distclean (or realclean): cleaner, and also delete the executables.
+#   cleanest: distclean, and also delete the man pages.
+#
+# Notes:
+#   1: If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+#
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.10
+#      sources reside in ../{pgsbox,C} (as in the distribution kit).
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+# Get configure settings.
+SUBDIR := utils
+include ../makedefs
+
+CFILES := $(wildcard *.c)
+
+UTILS := tofits fitshdr sundazel
+
+ifneq "$(CFITSIOINC)" ""
+ifneq "$(CFITSIOLIB)" ""
+  UTILS += HPXcvt wcsware
+  DPINC += $(CFITSIOINC)
+
+  ifneq "$(PGPLOTINC)" ""
+  ifneq "$(PGPLOTLIB)" ""
+    UTILS += wcsgrid
+    DPINC += -I../pgsbox $(PGPLOTINC)
+  endif
+  endif
+endif
+endif
+
+MAN := $(addsuffix .1,$(UTILS))
+
+WCSLIB    := ../C/$(WCSLIB)
+PGSBOXLIB := ../pgsbox/libpgsbox-$(LIBVER).a
+
+ifneq "$(GETWCSTAB)" ""
+  GETWCSTAB := ../C/$(GETWCSTAB)
+endif
+
+CPPFLAGS += -I.. -I../C
+
+OBSFLAGS := -DOBSLNG=$(OBSLNG) -DOBSLAT=$(OBSLAT) -DOBSTZ=$(OBSTZ)
+
+vpath %.h  ..:../C:../pgsbox
+vpath %.in ..
+
+# Pattern rules-
+#---------------
+
+# Print out include file dependencies.
+%.d : %.c
+	-@@ echo ''
+	-@@ $(CPP) $(CPPFLAGS) $(DPINC) $(CFLAGS) $< | \
+	   sed -n -e 's|^# 1 "\([^/].*\.h\)".*|\1|p' | \
+	   sed -e 's|.*/||' | \
+	   sort -u
+
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+
+# Static and static pattern rules.
+#---------------------------------
+
+.PHONY : analyse build clean cleaner cleanest distclean install man \
+         realclean uninstall
+
+build : $(UTILS)
+
+tofits : tofits.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@@ $<
+
+fitshdr : fitshdr.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+sundazel : sundazel.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(OBSFLAGS) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+HPXcvt : HPXcvt.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIOINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(CFITSIOLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+wcsware : wcsware.c $(GETWCSTAB) $(WCSLIB)
+	-@@ echo ''
+	   $(CC) -DDO_CFITSIO $(CPPFLAGS) -I../pgsbox -I../C $(CFITSIOINC) \
+	     $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(GETWCSTAB) $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) \
+	     $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+wcsgrid : wcsgrid.c $(GETWCSTAB) $(PGSBOXLIB) $(WCSLIB)
+	-@@ echo ''
+	   $(CC) -DDO_CFITSIO $(CPPFLAGS) -I../pgsbox -I../C $(PGPLOTINC) \
+	     $(CFITSIOINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(GETWCSTAB) $(LDFLAGS) $(PGSBOXLIB) \
+	     $(PGPLOTLIB) $(CFITSIOLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+WCSlogo : WCSlogo.c
+	   $(CC) $(CPPFLAGS) -I../C $(PGPLOTINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(PGPLOTLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+../C/getwcstab.o :
+	   $(MAKE) -C ../C $(@@F)
+
+clean cleaner :
+	-  $(RM) -r *.o *.i a.out core *.dSYM *.sca $(EXTRA_CLEAN)
+
+distclean realclean : cleaner
+	-  $(RM) $(UTILS) WCSlogo
+
+cleanest : distclean
+	-  $(RM) $(MAN)
+
+$(PGSBOXLIB) :
+	-@@ echo ''
+	   $(MAKE) -C ../pgsbox lib
+
+$(WCSLIB) :
+	-@@ echo ''
+	   $(MAKE) -C ../C lib
+
+analyse : $(CFILES:%.c=%.sca)
+
+install : build
+	-  if [ ! -d "$(BINDIR)" ] ; then \
+	     $(INSTALL) -d -m 775 $(BINDIR) ; \
+	   fi
+	   $(INSTALL) -m 755 $(UTILS) $(BINDIR)
+	-  if [ ! -d "$(MANDIR)/man1" ] ; then \
+	     $(INSTALL) -d -m 775 $(MANDIR)/man1 ; \
+	   fi
+	   $(INSTALL) -m 644 $(MAN) $(MANDIR)/man1
+
+uninstall :
+	-  cd $(BINDIR) && $(RM) $(UTILS)
+	-  cd $(MANDIR) && $(RM) $(MAN)
+
+GNUmakefile : ../makedefs ;
+
+../makedefs ../wcsconfig.h ../wcsconfig_utils.h : makedefs.in wcsconfig.h.in \
+    wcsconfig_utils.h.in ../config.status
+	-@@ $(RM) ../wcsconfig.h ../wcsconfig_utils.h
+	   cd .. && ./config.status
+
+man : $(MAN)
+
+tofits.1 : tofits
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Turn a list of keyrecords to a valid FITS file" -N ./$< > $@@
+
+fitshdr.1 : fitshdr
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "List headers from a FITS file" -N ./$< > $@@
+
+sundazel.1 : sundazel
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Compute the time of Solar passage" -N ./$< > $@@
+
+wcsware.1 : wcsware
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Extract FITS WCS keywords for an image" -N ./$< > $@@
+
+wcsgrid.1 : wcsgrid
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Extract FITS WCS keywords and plot graticule" -N ./$< > $@@
+
+HPXcvt.1 : HPXcvt
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Reorganise HEALPix data into a 2-D FITS image" -N ./$< > $@@
+
+show ::
+	-@@ echo '  CFILES      := $(CFILES)'
+	-@@ echo '  UTILS       := $(UTILS)'
+
+# Dependencies (use the %.d pattern rule to list them).
+#------------------------------------------------------
+
+fitshdr : wcsconfig.h wcsconfig_utils.h
+wcslogo : cel.h prj.h
+wcsgrid : cel.h cpgsbox.h getwcstab.h lin.h prj.h spc.h spx.h wcs.h wcserr.h \
+          wcsfix.h wcshdr.h wcsprintf.h wcsutil.h
+wcsware : cel.h getwcstab.h lin.h prj.h spc.h spx.h tab.h wcs.h wcserr.h \
+          wcsfix.h wcshdr.h wcsprintf.h
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.9 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.9
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.8 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.8
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.7.1.1 2026/05/11 12:18:46 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.7 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.7
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.6.1.2 2026/04/24 13:49:18 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.6 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.6
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.5.1.2 2026/03/29 13:47:07 mcalabre Exp mcalabre $
+d26 2
+d33 1
+d38 1
+d60 15
+d76 2
+a77 2
+# Static and static pattern rules
+#--------------------------------
+d79 2
+a80 2
+.PHONY : build clean cleaner cleanest distclean install man realclean \
+         uninstall
+d131 1
+a131 1
+	-  $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d147 2
+d196 7
+a202 1
+# Dependency lists.
+d204 5
+a208 2
+wcsware : getwcstab.h wcs.h wcsfix.h wcshdr.h
+wcsgrid : cpgsbox.h getwcstab.h wcs.h wcsfix.h wcshdr.h
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added rules for static code analysis (clang-tidy).  Also added a %.d pattern
+rule to list included header files and updated the dependency lists.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+a25 2
+CFILES := $(wildcard *.c)
+
+a30 1
+  DPINC += $(CFITSIOINC)
+a34 1
+    DPINC += -I../pgsbox $(PGPLOTINC)
+a55 15
+# Pattern rules-
+#---------------
+
+# Print out include file dependencies.
+%.d : %.c
+	-@@ echo ''
+	-@@ $(CPP) $(CPPFLAGS) $(DPINC) $(CFLAGS) $< | \
+	   sed -n -e 's|^# 1 "\([^/].*\.h\)".*|\1|p' | \
+	   sed -e 's|.*/||' | \
+	   sort -u
+
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+d57 2
+a58 2
+# Static and static pattern rules.
+#---------------------------------
+d60 2
+a61 2
+.PHONY : analyse build clean cleaner cleanest distclean install man \
+         realclean uninstall
+d112 1
+a112 1
+	-  $(RM) -r *.o *.i a.out core *.dSYM *.sca $(EXTRA_CLEAN)
+a127 2
+analyse : $(CFILES:%.c=%.sca)
+
+d175 1
+a175 7
+show ::
+	-@@ echo '  CFILES      := $(CFILES)'
+	-@@ echo '  UTILS       := $(UTILS)'
+
+# Dependencies (use the %.d pattern rule to list them).
+#------------------------------------------------------
+
+d177 2
+a178 5
+wcslogo : cel.h prj.h
+wcsgrid : cel.h cpgsbox.h getwcstab.h lin.h prj.h spc.h spx.h wcs.h wcserr.h \
+          wcsfix.h wcshdr.h wcsprintf.h wcsutil.h
+wcsware : cel.h getwcstab.h lin.h prj.h spc.h spx.h tab.h wcs.h wcserr.h \
+          wcsfix.h wcshdr.h wcsprintf.h
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.5 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.5
+d19 2
+a20 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 8.4.1.2 2025/10/26 11:23:09 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated the URL for WCSLIB on ATNF's website.
+@
+text
+@d19 2
+a20 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.4
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.3.1.1 2024/05/13 16:35:41 mcalabre Exp mcalabre $
+d103 5
+d115 1
+a115 1
+	-  $(RM) $(UTILS)
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Compile WCSlogo (on demand).
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.4.1.1 2024/10/28 13:58:43 mcalabre Exp mcalabre $
+a102 5
+WCSlogo : WCSlogo.c
+	   $(CC) $(CPPFLAGS) -I../C $(PGPLOTINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(PGPLOTLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+d110 1
+a110 1
+	-  $(RM) $(UTILS) WCSlogo
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.3 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.3
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.2 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.2
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.1 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.1
+d20 1
+a20 1
+# $Id: GNUmakefile,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 8.0 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 8.0
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.13 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.13
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.12 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.12
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.11 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.11
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.10 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.10
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.9.1.1 2022/03/25 15:16:41 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.9 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.9
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.8 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.8
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.7.1.2 2022/02/25 13:26:51 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.7 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.7
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.6.1.2 2021/05/13 04:10:55 mcalabre Exp mcalabre $
+d128 1
+a128 1
+	-  if [ ! -d "$(MANDIR)" ] ; then \
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Fixed the creation of $(MANDIR)/man1.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+d128 1
+a128 1
+	-  if [ ! -d "$(MANDIR)/man1" ] ; then \
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.6 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.6
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.5.1.1 2021/03/20 05:56:43 mcalabre Exp mcalabre $
+d26 1
+a26 1
+UTILS := fitshdr sundazel
+d65 4
+d145 4
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Added rules for tofits (moved from ../C/test/).
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+d26 1
+a26 1
+UTILS := tofits fitshdr sundazel
+a64 4
+tofits : tofits.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@@ $<
+
+a140 4
+
+tofits.1 : tofits
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Turn a list of keyrecords to a valid FITS file" -N ./$< > $@@
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.5 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.5
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.4.1.4 2021/03/20 05:53:18 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.4
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+d26 1
+a26 1
+UTILS := fitshdr
+d51 2
+d60 2
+a61 1
+.PHONY : build clean cleaner cleanest distclean install man realclean
+d71 6
+d129 4
+d145 4
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added an uninstall rule.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d58 1
+a58 2
+.PHONY : build clean cleaner cleanest distclean install man realclean \
+         uninstall
+a118 4
+
+uninstall :
+	-  cd $(BINDIR) && $(RM) $(UTILS)
+	-  cd $(MANDIR) && $(RM) $(MAN)
+@
+
+
+7.4.1.3
+log
+@Added rules for sundazel.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.4.1.2 2021/03/02 13:27:49 mcalabre Exp mcalabre $
+d26 1
+a26 1
+UTILS := fitshdr sundazel
+a68 6
+sundazel : sundazel.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+a136 4
+
+sundazel.1 : sundazel
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Compute the time of Solar passage" -N ./$< > $@@
+@
+
+
+7.4.1.4
+log
+@Set OBSLNG, OBSLAT, and OBSTZ for sundazel.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.4.1.3 2021/03/10 13:36:58 mcalabre Exp mcalabre $
+a50 2
+OBSFLAGS := -DOBSLNG=$(OBSLNG) -DOBSLAT=$(OBSLAT) -DOBSTZ=$(OBSTZ)
+
+d71 1
+a71 1
+	   $(CC) $(CPPFLAGS) $(OBSFLAGS) $(CFLAGS) -c -o $@@.o $<
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.3 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.3
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.2 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.2
+d20 1
+a20 1
+# $Id: GNUmakefile,v 7.1.1.1 2019/12/31 13:28:20 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 7.1 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 7.1
+d20 1
+a20 1
+# $Id: GNUmakefile,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 6.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 6.4
+d20 1
+a20 1
+# $Id: GNUmakefile,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 6.3 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 6.3
+d20 1
+a20 1
+# $Id: GNUmakefile,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 6.2 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 6.2
+d20 1
+a20 1
+# $Id: GNUmakefile,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 6.1 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 6.1
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.20.1.2 2018/10/19 03:51:51 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.20 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.20
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d23 1
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Set SUBDIR.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a22 1
+SUBDIR := utils
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.19 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.19
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.19 2018/07/26 15:37:06 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.18 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.18
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.17.1.1 2017/09/18 08:46:01 mcalabre Exp $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.17 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.17
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.16.1.2 2017/09/12 04:13:54 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.16 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.16
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.15.1.1 2016/04/05 12:58:39 mcalabre Exp mcalabre $
+d111 1
+a111 1
+	     $(INSTALL) -d -m 2775 $(BINDIR) ; \
+d115 1
+a115 1
+	     $(INSTALL) -d -m 2775 $(MANDIR)/man1 ; \
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.16 2017/01/15 04:25:04 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Removed setgid permission on installation directories (Sergio Pascual
+email 2017-09-11).
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.16.1.1 2017/01/15 04:29:04 mcalabre Exp mcalabre $
+d111 1
+a111 1
+	     $(INSTALL) -d -m 775 $(BINDIR) ; \
+d115 1
+a115 1
+	     $(INSTALL) -d -m 775 $(MANDIR)/man1 ; \
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.15 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.15
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.14.1.1 2016/02/07 10:52:49 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.14 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.14
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.13.1.1 2016/01/26 08:54:36 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.13 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.13
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.12 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.12
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.11.1.1 2015/10/18 09:16:31 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.12 2015/11/15 02:13:03 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.11 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.11
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.10.1.1 2015/10/09 08:22:40 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.11 2015/10/18 09:13:08 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.10 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.10
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.9.1.1 2015/07/21 09:28:12 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.10 2015/10/09 08:19:18 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.9 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.9
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.8.1.1 2015/07/08 11:07:23 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.9 2015/07/21 09:20:05 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.8 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.8
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.7.1.1 2015/06/29 02:47:28 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.8 2015/07/08 11:04:03 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.7 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.7
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.6.1.1 2015/06/14 07:14:49 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.7 2015/06/29 02:44:19 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.6 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.6
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.5.1.1 2015/05/05 13:21:05 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.6 2015/06/14 07:11:27 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.5 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.5
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.4.1.1 2015/04/21 14:44:32 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.5 2015/05/05 13:16:34 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.4
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.3.1.1 2015/04/21 02:54:06 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.4 2015/04/21 14:41:08 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.3 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.3
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.2.1.1 2015/04/15 12:39:19 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.3 2015/04/21 02:50:54 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.2 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.2
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.2 2015/04/15 12:35:10 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.1 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.1
+d20 1
+a20 1
+# $Id: GNUmakefile,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 5.0 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 5.0
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.25.1.2 2015/03/16 05:56:27 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 5.0 2015/04/05 12:25:03 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.25 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.25
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d134 1
+a134 1
+	  -n "Extract WCS keywords for an image" -N ./$< > $@@
+d138 1
+a138 1
+	  -n "Extract WCS keywords for an image" -N ./$< > $@@
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Tweaks for two help2man titles.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.25.1.1 2014/12/14 14:32:48 mcalabre Exp mcalabre $
+d134 1
+a134 1
+	  -n "Extract FITS WCS keywords for an image" -N ./$< > $@@
+d138 1
+a138 1
+	  -n "Extract FITS WCS keywords and plot graticule" -N ./$< > $@@
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.24 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.24
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.23 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.23
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.23 2014/05/13 05:50:54 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.22 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.22
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.21.1.1 2014/03/24 05:15:31 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.21 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.21
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.20 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.20
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.20 2013/12/18 05:42:51 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.19 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.19
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.18.1.1 2013/07/13 10:02:40 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.18 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.18
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.17 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.17
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.16.1.1 2012/11/07 04:45:58 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.16 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.16
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.15.1.1 2012/09/26 14:27:53 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.15 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.15
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.14.1.1 2012/07/13 10:05:06 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.14 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.14
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.13.1.3 2012/07/13 03:44:50 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.14 2012/07/13 10:02:48 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.13 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.13
+d18 3
+a20 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.12.1.1 2012/02/29 07:59:12 cal103 Exp cal103 $
+d77 1
+a77 1
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(GETWCSTAB) $(CFITSIOLIB) $(WCSLIB) \
+d81 1
+a81 1
+wcsgrid : wcsgrid.c $(PGSBOXLIB) $(GETWCSTAB) $(WCSLIB)
+d85 2
+a86 2
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(PGSBOXLIB) $(PGPLOTLIB) \
+	     $(GETWCSTAB) $(CFITSIOLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Reordered the compile commands so that $(LDFLAGS) follows the list of
+object modules.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.13.1.1 2012/03/14 07:40:39 cal103 Exp cal103 $
+d77 1
+a77 1
+	   $(LD) -o $@@ $@@.o $(GETWCSTAB) $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) \
+d81 1
+a81 1
+wcsgrid : wcsgrid.c $(GETWCSTAB) $(PGSBOXLIB) $(WCSLIB)
+d85 2
+a86 2
+	   $(LD) -o $@@ $@@.o $(GETWCSTAB) $(LDFLAGS) $(PGSBOXLIB) \
+	     $(PGPLOTLIB) $(CFITSIOLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d18 3
+a20 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 4.13.1.2 2012/03/21 02:58:52 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.12 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.12
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.11.1.2 2012/02/29 07:56:19 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.11 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.11
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+d117 1
+a117 1
+	   $(INSTALL) -m 755 $(MAN) $(MANDIR)/man1
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.11.1.2
+log
+@Install man pages without execute permission!
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+d117 1
+a117 1
+	   $(INSTALL) -m 644 $(MAN) $(MANDIR)/man1
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.10 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.10
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.9 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.9
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.8.1.2 2011/10/04 07:54:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.8 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d8 2
+a9 2
+#   cleanest (distclean, or realclean): cleaner, and also delete the
+#              executables.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.8
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.7.1.2 2011/06/03 00:25:23 cal103 Exp cal103 $
+d39 2
+d57 1
+a57 1
+.PHONY : build clean cleaner cleanest distclean install realclean
+d95 1
+a95 1
+cleanest distclean realclean : cleaner
+d98 3
+d114 4
+d126 19
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added rules for generating the man pages using 'help2man' and for
+installing them.
+@
+text
+@d8 2
+a9 2
+#   distclean (or realclean): cleaner, and also delete the executables.
+#   cleanest: distclean, and also delete the man pages.
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a38 2
+MAN := $(addsuffix .1,$(UTILS))
+
+d55 1
+a55 1
+.PHONY : build clean cleaner cleanest distclean install man realclean
+d93 1
+a93 1
+distclean realclean : cleaner
+a95 3
+cleanest : distclean
+	-  $(RM) $(MAN)
+
+a108 4
+	-  if [ ! -d "$(MANDIR)" ] ; then \
+	     $(INSTALL) -d -m 2775 $(MANDIR)/man1 ; \
+	   fi
+	   $(INSTALL) -m 755 $(MAN) $(MANDIR)/man1
+a116 19
+man : $(MAN)
+
+fitshdr.1 : fitshdr
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "List headers from a FITS file" -N ./$< > $@@
+
+wcsware.1 : wcsware
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Extract WCS keywords for an image" -N ./$< > $@@
+
+wcsgrid.1 : wcsgrid
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Extract WCS keywords for an image" -N ./$< > $@@
+
+HPXcvt.1 : HPXcvt
+	help2man --no-discard-stderr --version-string=$(LIBVER) \
+	  -n "Reorganise HEALPix data into a 2-D FITS image" -N ./$< > $@@
+
+# Dependency lists.
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.7 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.7
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.6.1.3 2011/01/18 03:57:36 cal103 Exp cal103 $
+d115 1
+a115 1
+	   cd .. && config.status
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Don't assume "." is in the PATH if config.status needs to be run.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d115 1
+a115 1
+	   cd .. && ./config.status
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.6 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.6
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.5.1.2 2010/11/15 06:52:24 cal103 Exp cal103 $
+d39 2
+a40 2
+LIBWCS    := ../C/$(LIBWCS)
+PGSBOXLIB := ../pgsbox/libpgsbox-$V.a
+d71 1
+a71 1
+wcsware : wcsware.c $(GETWCSTAB) $(LIBWCS)
+d75 1
+a75 1
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(GETWCSTAB) $(CFITSIOLIB) $(LIBWCS) \
+d79 1
+a79 1
+wcsgrid : wcsgrid.c $(PGSBOXLIB) $(GETWCSTAB) $(LIBWCS)
+d84 1
+a84 1
+	     $(GETWCSTAB) $(CFITSIOLIB) $(LIBWCS) $(FLIBS) $(LIBS)
+d100 1
+a100 1
+$(LIBWCS) :
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@LIBWCS -> WCSLIB.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp $
+d39 1
+a39 1
+WCSLIB    := ../C/$(WCSLIB)
+d71 1
+a71 1
+wcsware : wcsware.c $(GETWCSTAB) $(WCSLIB)
+d75 1
+a75 1
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(GETWCSTAB) $(CFITSIOLIB) $(WCSLIB) \
+d79 1
+a79 1
+wcsgrid : wcsgrid.c $(PGSBOXLIB) $(GETWCSTAB) $(WCSLIB)
+d84 1
+a84 1
+	     $(GETWCSTAB) $(CFITSIOLIB) $(WCSLIB) $(FLIBS) $(LIBS)
+d100 1
+a100 1
+$(WCSLIB) :
+@
+
+
+4.6.1.3
+log
+@Abbreviated version number used for PGSBOXLIB.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.6.1.2 2011/01/18 03:18:47 cal103 Exp cal103 $
+d40 1
+a40 1
+PGSBOXLIB := ../pgsbox/libpgsbox-$(LIBVER).a
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.5 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.5
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.4.1.3 2010/07/15 04:37:52 cal103 Exp cal103 $
+d91 1
+a91 1
+	- $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d94 1
+a94 1
+	- $(RM) $(UTILS)
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.5 2010/07/16 07:01:27 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Inconsequential tweaks.
+@
+text
+@d20 1
+a20 1
+# $Id: GNUmakefile,v 4.5.1.1 2010/07/16 07:05:33 cal103 Exp cal103 $
+d91 1
+a91 1
+	-  $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d94 1
+a94 1
+	-  $(RM) $(UTILS)
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d8 2
+a9 1
+#   realclean (or cleanest): cleaner, and also delete the executables.
+d15 1
+a15 1
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.4
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.3.1.4 2009/07/28 08:22:12 cal103 Exp cal103 $
+d55 1
+a55 1
+.PHONY : build clean cleaner cleanest install realclean
+d91 1
+a91 1
+	- $(RM) *.o *.i a.out core $(EXTRA_CLEAN)
+d93 1
+a93 1
+cleanest realclean : cleaner
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d19 1
+a19 1
+# $Id: GNUmakefile,v 4.4 2009/08/10 08:47:17 cal103 Exp cal103 $
+@
+
+
+4.4.1.2
+log
+@Added 'distclean' (GNU standard target name) as a synonym for 'cleanest'
+or 'realclean'.  'clean' recursively deletes *.dSYM (MacOSX 10.6).
+@
+text
+@d8 1
+a8 2
+#   distclean (realclean or cleanest): cleaner, and also delete the
+#              executables.
+d19 1
+a19 1
+# $Id: GNUmakefile,v 4.4.1.1 2009/08/10 08:56:01 cal103 Exp cal103 $
+d54 1
+a54 1
+.PHONY : build clean cleaner cleanest distclean install realclean
+d90 1
+a90 1
+	- $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d92 1
+a92 1
+distclean realclean cleanest : cleaner
+@
+
+
+4.4.1.3
+log
+@Reworked the various clean targets.
+@
+text
+@d8 1
+a8 1
+#   cleanest (distclean, or realclean): cleaner, and also delete the
+d20 1
+a20 1
+# $Id: GNUmakefile,v 4.4.1.2 2010/07/09 01:49:51 cal103 Exp cal103 $
+d93 1
+a93 1
+cleanest distclean realclean : cleaner
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for WCSLIB 4.3 utilities: fitshdr, HPXcvt and wcsgrid.
+d4 5
+a8 5
+#   Summary of the main targets
+#   ---------------------------
+#      build:     Build all utilities.
+#      clean (or cleaner): Delete intermediate object files.
+#      realclean (or cleanest): cleaner, and also delete the executables.
+d10 3
+a12 3
+#   Notes:
+#      1) If you need to make changes then preferably modify ../makedefs.in
+#         instead and re-run configure.
+d14 2
+a15 3
+#      2) In compiling these utilities, this makefile assumes that the
+#         WCSLIB 4.3 sources reside in ../{pgsbox,C} (as in the distribution
+#         kit).
+d17 3
+a19 3
+#   Author: Mark Calabretta, Australia Telescope National Facility
+#   http://www.atnf.csiro.au/~mcalabre/index.html
+#   $Id: GNUmakefile,v 0.0.1.5 2007/12/24 05:21:28 cal103 Exp cal103 $
+d28 1
+a28 1
+  UTILS += HPXcvt
+d70 8
+d104 4
+a107 1
+	$(INSTALL) -m 755 $(UTILS) $(BINDIR)
+d117 1
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for WCSLIB 4.4 utilities: fitshdr, HPXcvt and wcsgrid.
+d15 1
+a15 1
+#         WCSLIB 4.4 sources reside in ../{pgsbox,C} (as in the distribution
+d20 1
+a20 1
+#   $Id: GNUmakefile,v 4.3 2007/12/27 05:50:31 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Create the installation bin directory if necessary.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 4.3.1.1 2007/12/27 13:26:14 cal103 Exp cal103 $
+d97 1
+a97 4
+	-  if [ ! -d "$(BINDIR)" ] ; then \
+	     $(INSTALL) -d -m 2775 $(BINDIR) ; \
+	   fi
+	   $(INSTALL) -m 755 $(UTILS) $(BINDIR)
+@
+
+
+4.3.1.3
+log
+@Added a target for wcsware.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 4.3.1.2 2008/02/18 07:07:35 cal103 Exp cal103 $
+d29 1
+a29 1
+  UTILS += HPXcvt wcsware
+a70 8
+wcsware : wcsware.c $(GETWCSTAB) $(LIBWCS)
+	-@@ echo ''
+	   $(CC) -DDO_CFITSIO $(CPPFLAGS) -I../pgsbox -I../C $(CFITSIOINC) \
+	     $(CFLAGS) -c -o $@@.o $<
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(GETWCSTAB) $(CFITSIOLIB) $(LIBWCS) \
+	     $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+a109 1
+wcsware : getwcstab.h wcs.h wcsfix.h wcshdr.h
+@
+
+
+4.3.1.4
+log
+@Changed indentation.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for WCSLIB 4.4 utilities: fitshdr, HPXcvt, wcsgrid and wcsware.
+d4 5
+a8 5
+# Summary of the main targets
+# ---------------------------
+#   build:     Build all utilities.
+#   clean (or cleaner): Delete intermediate object files.
+#   realclean (or cleanest): cleaner, and also delete the executables.
+d10 3
+a12 3
+# Notes:
+#   1: If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+d14 3
+a16 2
+#   2: In compiling these utilities, this makefile assumes that the WCSLIB 4.4
+#      sources reside in ../{pgsbox,C} (as in the distribution kit).
+d18 3
+a20 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.3.1.3 2009/03/11 04:53:36 cal103 Exp cal103 $
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 107
+@
+
+
+0.0.1.1
+log
+@Initial revision.
+@
+text
+@a0 90
+#-----------------------------------------------------------------------------
+#   GNU makefile for WCSLIB 4.3 utilities: fitshdr, HPXcvt and wcsgrid.
+#
+#   Summary of the main targets
+#   ---------------------------
+#      build:     Build all utilities.
+#      clean (or cleaner): Delete intermediate object files.
+#      realclean (or cleanest): cleaner, and also delete the executables.
+#
+#   Notes:
+#      1) If you need to make changes then preferably modify ../makedefs.in
+#         instead and re-run configure.
+#
+#      2) In compiling these utilities, this makefile assumes that the
+#         WCSLIB 4.3 sources reside in ../{pgsbox,C} (as in the distribution
+#         kit).
+#
+#   Author: Mark Calabretta, Australia Telescope National Facility
+#   http://www.atnf.csiro.au/~mcalabre/index.html
+#   $Id$
+#-----------------------------------------------------------------------------
+# Get configure settings.
+include ../makedefs
+
+UTILS := fitshdr HPXcvt wcsgrid
+
+LIBWCS    := ../C/$(LIBWCS)
+PGSBOXLIB := ../pgsbox/libpgsbox-$V.a
+
+ifneq "$(GETWCSTAB)" ""
+  GETWCSTAB := ../C/$(GETWCSTAB)
+endif
+
+vpath %.h ../C ../pgsbox
+
+# Static and static pattern rules
+#--------------------------------
+
+.PHONY : build clean cleaner cleanest install realclean
+
+build : $(UTILS)
+
+fitshdr : fitshdr.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) -I../C $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+HPXcvt : HPXcvt.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIOINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) -o $@@ $@@.o $(LDFLAGS) $(CFITSIOLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+wcsgrid : wcsgrid.c $(PGSBOXLIB) $(GETWCSTAB) $(LIBWCS)
+	-@@ echo ''
+	   $(CC) -DDO_CFITSIO $(CPPFLAGS) -I../pgsbox -I../C $(PGPLOTINC) \
+	     $(CFITSIOINC) $(CFLAGS) -c -o $@@.o $<
+	   $(LD) $(LDFLAGS) -o $@@ $@@.o $(PGSBOXLIB) $(PGPLOTLIB) \
+	     $(GETWCSTAB) $(CFITSIOLIB) $(LIBWCS) $(FLIBS) $(LIBS)
+	-@@ $(RM) $@@.o
+
+../C/getwcstab.o :
+	   $(MAKE) -C ../C $(@@F)
+
+clean cleaner :
+	- $(RM) *.o *.i a.out core $(EXTRA_CLEAN)
+
+cleanest realclean : cleaner
+	- $(RM) $(UTILS)
+
+$(PGSBOXLIB) :
+	-@@ echo ''
+	   $(MAKE) -C ../pgsbox lib
+
+$(LIBWCS) :
+	-@@ echo ''
+	   $(MAKE) -C ../C lib
+
+install : build
+	$(INSTALL) -m 755 $(UTILS) $(BINDIR)
+
+GNUmakefile : ../makedefs ;
+
+../makedefs ../C/config.h : ../makedefs.in ../C/config.h.in ../config.status
+	-@@ $(RM) ../C/config.h
+	   cd .. && config.status
+
+fitshdr : config.h
+wcsgrid : cpgsbox.h getwcstab.h wcs.h wcsfix.h wcshdr.h
+@
+
+
+0.0.1.2
+log
+@Incorporated -I flags into CPPFLAGS.   Added a vpath directive for %.in and
+used it in the rule for invoking config.status.  config.h has now been split
+into config.h and config_utils.h (and others), updated rules and dependency
+lists.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 0.0.1.1 2007/07/11 02:16:07 cal103 Exp cal103 $
+d34 1
+a34 5
+CPPFLAGS += -I.. -I../C
+
+vpath %.h  ..:../C:../pgsbox
+vpath %.in ..
+
+d45 1
+a45 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c -o $@@.o $<
+d85 2
+a86 3
+../makedefs ../config.h ../config_utils.h : makedefs.in config.h.in \
+    config_utils.h.in ../config.status
+	-@@ $(RM) ../config.h ../config_utils.h
+d89 1
+a89 1
+fitshdr : config.h config_utils.h
+@
+
+
+0.0.1.3
+log
+@Renamed config{,_utils}.h -> wcsconfig{,_utils}.h.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 0.0.1.2 2007/07/12 01:43:59 cal103 Exp cal103 $
+d89 3
+a91 3
+../makedefs ../wcsconfig.h ../wcsconfig_utils.h : makedefs.in wcsconfig.h.in \
+    wcsconfig_utils.h.in ../config.status
+	-@@ $(RM) ../wcsconfig.h ../wcsconfig_utils.h
+d94 1
+a94 1
+fitshdr : wcsconfig.h wcsconfig_utils.h
+@
+
+
+0.0.1.4
+log
+@Made compilation of 'wcsgrid' conditional on the availability of PGPLOT.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 0.0.1.3 2007/08/08 04:42:25 cal103 Exp cal103 $
+d25 1
+a25 7
+UTILS := fitshdr HPXcvt
+
+ifneq "$(PGPLOTINC)" ""
+ifneq "$(PGPLOTLIB)" ""
+  UTILS += wcsgrid
+endif
+endif
+@
+
+
+0.0.1.5
+log
+@Made compilation of 'HPXcvt' and 'wcsgrid' conditional on the availability
+of CFITSIO.
+@
+text
+@d20 1
+a20 1
+#   $Id: GNUmakefile,v 0.0.1.4 2007/12/24 04:36:10 cal103 Exp cal103 $
+d25 1
+a25 1
+UTILS := fitshdr
+d27 3
+a29 9
+ifneq "$(CFITSIOINC)" ""
+ifneq "$(CFITSIOLIB)" ""
+  UTILS += HPXcvt
+
+  ifneq "$(PGPLOTINC)" ""
+  ifneq "$(PGPLOTLIB)" ""
+    UTILS += wcsgrid
+  endif
+  endif
+@

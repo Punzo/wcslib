@@ -1,0 +1,240 @@
+/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  Module author: Michael Droettboom
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcserr.c,v 8.10 2026/09/27 05:44:33 mcalabre Exp $
+*===========================================================================*/
+
+#include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "wcserr.h"
+#include "wcsprintf.h"
+
+// Serialise access in threaded execution via a single process-wide spinlock
+// using stdatomic's mandatory atomic_flag, native to C11.
+#if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 201112L && \
+    !defined(__STDC_NO_ATOMICS__)
+#  include <stdatomic.h>
+   static atomic_flag wcserr_spinlock = ATOMIC_FLAG_INIT;
+#  define WCSERR_LOCK() \
+     while (atomic_flag_test_and_set_explicit(&wcserr_spinlock, \
+                                              memory_order_acquire)) {}
+#  define WCSERR_UNLOCK() \
+     atomic_flag_clear_explicit(&wcserr_spinlock, memory_order_release)
+#else
+// Default to no-op for pre-C11 compilers, thread conflicts remain unhandled.
+#  define WCSERR_LOCK()   ((void)0)
+#  define WCSERR_UNLOCK() ((void)0)
+#endif
+
+static int wcserr_enabled = 0;
+
+//----------------------------------------------------------------------------
+
+int wcserr_enable(int enable)
+
+{
+  return wcserr_enabled = (enable ? 1 : 0);
+}
+
+//----------------------------------------------------------------------------
+
+int wcserr_size(const struct wcserr *err, int sizes[2])
+
+{
+  if (err == 0x0) {
+    sizes[0] = sizes[1] = 0;
+    return 0;
+  }
+
+  // Base size, in bytes.
+  sizes[0] = (int)sizeof(struct wcserr);
+
+  // Total size of allocated memory, in bytes.
+  sizes[1] = 0;
+
+  if (err->msg) {
+    sizes[1] += (int)(strlen(err->msg) + 1);
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int wcserr_prt(const struct wcserr *err, const char *prefix)
+
+{
+  if (!wcserr_enabled) {
+    wcsprintf("Error messaging is not enabled, use wcserr_enable().\n");
+    return 2;
+  }
+
+  if (err == 0x0) {
+    return 0;
+  }
+
+  if (err->status) {
+    if (prefix == 0x0) prefix = "";
+
+    if (err->status > 0) {
+      wcsprintf("%sERROR %d in %s() at line %d of file %s:\n%s%s.\n",
+        prefix, err->status, err->function, err->line_no, err->file, prefix,
+        err->msg);
+    } else {
+      // An informative message only.
+      wcsprintf("%sINFORMATIVE message from %s() at line %d of file "
+        "%s:\n%s%s.\n", prefix, err->function, err->line_no, err->file,
+        prefix, err->msg);
+    }
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int wcserr_clear(struct wcserr **errp)
+
+{
+  WCSERR_LOCK();
+  if (errp && *errp) {
+    if ((*errp)->msg) {
+      free((*errp)->msg);
+    }
+    free(*errp);
+    *errp = 0x0;
+  }
+  WCSERR_UNLOCK();
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int wcserr_set(
+  struct wcserr **errp,
+  int status,
+  const char *function,
+  const char *file,
+  int line_no,
+  const char *format,
+  ...)
+
+{
+  if (!wcserr_enabled) return status;
+
+  if (errp == 0x0) {
+    return status;
+  }
+
+  WCSERR_LOCK();
+  struct wcserr *err = *errp;
+
+  if (status) {
+    if (err == 0x0) {
+      *errp = err = calloc(1, sizeof(struct wcserr));
+    }
+
+    if (err == 0x0) {
+      WCSERR_UNLOCK();
+      return status;
+    }
+
+    // Free any previous message buffer to avoid leaking it.
+    if (err->msg) {
+      free(err->msg);
+    }
+
+    err->status   = status;
+    err->function = function;
+    err->file     = file;
+    err->line_no  = line_no;
+    err->msg      = 0x0;
+
+    // Determine the required message buffer size.
+    va_list argp;
+    va_start(argp, format);
+    int msglen = vsnprintf(0x0, 0, format, argp) + 1;
+    va_end(argp);
+
+    if (msglen <= 0 || (err->msg = malloc(msglen)) == 0x0) {
+      // Inline wcserr_clear to avoid reacquiring the lock.
+      if (err->msg) {
+        free(err->msg);
+      }
+      free(err);
+      *errp = 0x0;
+      WCSERR_UNLOCK();
+      return status;
+    }
+
+    // Write the message.
+    va_start(argp, format);
+    msglen = vsnprintf(err->msg, msglen, format, argp);
+    va_end(argp);
+
+    if (msglen < 0) {
+      // Inline wcserr_clear to avoid reacquiring the lock.
+      if (err->msg) {
+        free(err->msg);
+      }
+      free(err);
+      *errp = 0x0;
+    }
+  }
+
+  WCSERR_UNLOCK();
+  return status;
+}
+
+//----------------------------------------------------------------------------
+
+int wcserr_copy(const struct wcserr *src, struct wcserr *dst)
+
+{
+  if (src == 0x0) {
+    if (dst) {
+      memset(dst, 0, sizeof(struct wcserr));
+    }
+    return 0;
+  }
+
+  WCSERR_LOCK();
+  int status = src->status;
+
+  if (dst) {
+    memcpy(dst, src, sizeof(struct wcserr));
+
+    if (src->msg) {
+      size_t msglen = strlen(src->msg) + 1;
+      if ((dst->msg = malloc(msglen))) {
+        strncpy(dst->msg, src->msg, msglen);
+      }
+    }
+  }
+  WCSERR_UNLOCK();
+
+  return status;
+}

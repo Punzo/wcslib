@@ -1,0 +1,466 @@
+head	2.7;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+2.7
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2001.11.15.03.47.50;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.11.19.01.20.27;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	99.06.16.00.16.35;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.16.21;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.11.08.39.21;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.11.08.39.03;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@WCS spherical coordinate transformation routines.
+@
+
+
+2.7
+log
+@Updated date in copyright notice.
+@
+text
+@*=======================================================================
+*
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*
+*   FORTRAN routines for the spherical coordinate transformations used
+*   by the FITS "World Coordinate System" (WCS) convention.
+*
+*   Summary of routines
+*   -------------------
+*   The spherical coordinate transformations are implemented via
+*   separate subroutines for the transformation in each direction.
+*
+*   Forward transformation; SPHFWD
+*   ------------------------------
+*   Transform celestial coordinates to the native coordinates of a
+*   projection.
+*
+*   Given:
+*      LNG,LAT  D        Celestial longitude and latitude, in degrees.
+*      EUL      D(5)     Euler angles for the transformation:
+*                          1: Celestial longitude of the native pole, in
+*                             degrees.
+*                          2: Celestial colatitude of the native pole,
+*                             or native colatitude of the celestial
+*                             pole, in degrees.
+*                          3: Native longitude of the celestial pole, in
+*                             degrees.
+*                          4: cos(EUL(2))
+*                          5: sin(EUL(2))
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*      IERR     I        Error status; 0 means success.
+*
+*   Reverse transformation; SPHREV
+*   ------------------------------
+*   Transform native coordinates of a projection to celestial
+*   coordinates.
+*
+*   Given:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*      EUL      D(5)     Euler angles for the transformation:
+*                          1: Celestial longitude of the native pole, in
+*                             degrees.
+*                          2: Celestial colatitude of the native pole,
+*                             or native colatitude of the celestial
+*                             pole, in degrees.
+*                          3: Native longitude of the celestial pole, in
+*                             degrees.
+*                          4: cos(EUL(2))
+*                          5: sin(EUL(2))
+*
+*   Returned:
+*      LNG,LAT  D        Celestial longitude and latitude, in degrees.
+*      IERR     I        Error status; 0 means success.
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: sph.f,v 2.6 2001/11/15 03:47:50 mcalabre Exp mcalabre $
+*=======================================================================
+      SUBROUTINE SPHFWD (LNG, LAT, EUL, PHI, THETA, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR
+      DOUBLE PRECISION COSLAT, COSLNG, DLNG, DPHI, EUL(5), LAT, LNG,
+     *          PHI, SINLAT, SINLNG, THETA, TOL, X, Y, Z
+
+      DOUBLE PRECISION D2R, PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0)
+      PARAMETER (D2R = PI/180D0, R2D = 180D0/PI)
+
+      PARAMETER (TOL = 1D-5)
+
+      DOUBLE PRECISION ACOSD, ASIND, ATAN2D, COSD, SIND
+*-----------------------------------------------------------------------
+      COSLAT = COSD(LAT)
+      SINLAT = SIND(LAT)
+
+      DLNG = LNG - EUL(1)
+      COSLNG = COSD(DLNG)
+      SINLNG = SIND(DLNG)
+
+*     Compute the native longitude.
+      X = SINLAT*EUL(5) - COSLAT*EUL(4)*COSLNG
+      IF (ABS(X).LT.TOL) THEN
+*        Rearrange formula to reduce roundoff errors.
+         X = -COSD(LAT+EUL(2)) + COSLAT*EUL(4)*(1D0 - COSLNG)
+      END IF
+      Y = -COSLAT*SINLNG
+      IF (X.NE.0D0 .OR. Y.NE.0D0) THEN
+         DPHI = ATAN2D(Y, X)
+      ELSE
+*        Change of origin of longitude.
+         DPHI = DLNG - 180D0
+      END IF
+      PHI = EUL(3) + DPHI
+
+*     Normalize the native longitude.
+      IF (PHI.GT.180D0) THEN
+         PHI = PHI - 360D0
+      ELSE IF (PHI.LT.-180D0) THEN
+         PHI = PHI + 360D0
+      END IF
+
+*     Compute the native latitude.
+      IF (MOD(DLNG,180D0).EQ.0D0) THEN
+         THETA = LAT + COSLNG*EUL(2)
+         IF (THETA.GT.90D0)  THETA =  180D0 - THETA
+         IF (THETA.LT.-90D0) THETA = -180D0 - THETA
+      ELSE
+         Z = SINLAT*EUL(4) + COSLAT*EUL(5)*COSLNG
+         IF (ABS(Z).GT.0.99D0) THEN
+*           Use an alternative formula for greater numerical accuracy.
+            THETA = SIGN(ACOSD(SQRT(X*X+Y*Y)), Z)
+         ELSE
+            THETA = ASIND(Z)
+         END IF
+      END IF
+
+      IERR = 0
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE SPHREV (PHI, THETA, EUL, LNG, LAT, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR
+      DOUBLE PRECISION COSPHI, COSTHE, DLNG, DPHI, EUL(5), LAT, LNG,
+     *          PHI, SINPHI, SINTHE, THETA, TOL, X, Y, Z
+
+      DOUBLE PRECISION D2R, PI, R2D
+      PARAMETER (PI = 3.141592653589793238462643D0)
+      PARAMETER (D2R = PI/180D0, R2D = 180D0/PI)
+
+      PARAMETER (TOL = 1D-5)
+
+      DOUBLE PRECISION ACOSD, ASIND, ATAN2D, COSD, SIND
+*-----------------------------------------------------------------------
+      COSTHE = COSD(THETA)
+      SINTHE = SIND(THETA)
+
+      DPHI = PHI - EUL(3)
+      COSPHI = COSD(DPHI)
+      SINPHI = SIND(DPHI)
+
+*     Compute the celestial longitude.
+      X = SINTHE*EUL(5) - COSTHE*EUL(4)*COSPHI
+      IF (ABS(X).LT.TOL) THEN
+*        Rearrange formula to reduce roundoff errors.
+         X = -COSD(THETA+EUL(2)) + COSTHE*EUL(4)*(1D0 - COSPHI)
+      END IF
+      Y = -COSTHE*SINPHI
+      IF (X.NE.0D0 .OR. Y.NE.0D0) THEN
+         DLNG = ATAN2D(Y, X)
+      ELSE
+*        Change of origin of longitude.
+         DLNG = DPHI + 180D0
+      END IF
+      LNG = EUL(1) + DLNG
+
+*     Normalize the celestial longitude.
+      IF (EUL(1).GE.0D0) THEN
+         IF (LNG.LT.0D0) LNG = LNG + 360D0
+      ELSE
+         IF (LNG.GT.0D0) LNG = LNG - 360D0
+      END IF
+
+      IF (LNG.GT.360D0) THEN
+         LNG = LNG - 360D0
+      ELSE IF (LNG.LT.-360D0) THEN
+         LNG = LNG + 360D0
+      END IF
+
+*     Compute the celestial latitude.
+      IF (MOD(DPHI,180D0).EQ.0D0) THEN
+         LAT = THETA + COSPHI*EUL(2)
+         IF (LAT.GT.90D0)  LAT =  180D0 - LAT
+         IF (LAT.LT.-90D0) LAT = -180D0 - LAT
+      ELSE
+         Z = SINTHE*EUL(4) + COSTHE*EUL(5)*COSPHI
+         IF (ABS(Z).GT.0.99D0) THEN
+*           Use an alternative formula for greater numerical accuracy.
+            LAT = SIGN(ACOSD(SQRT(X*X+Y*Y)), Z)
+         ELSE
+            LAT = ASIND(Z)
+         END IF
+      END IF
+
+
+      IERR = 0
+      RETURN
+      END
+@
+
+
+2.6
+log
+@Changed date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d85 1
+a85 1
+*   $Id: sph.f,v 2.5 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d85 1
+a85 1
+*   $Id: sph.f,v 2.4 1999/11/19 01:20:27 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Declare ACOSD in SPHFWD and SPHREV.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d85 1
+a85 1
+*   $Id: sph.f,v 2.3 1999/06/16 00:16:35 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d85 1
+a85 1
+*   $Id: sph.f,v 2.2 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+d99 1
+a99 1
+      DOUBLE PRECISION ASIND, ATAN2D, COSD, SIND
+d162 1
+a162 1
+      DOUBLE PRECISION ASIND, ATAN2D, COSD, SIND
+@
+
+
+2.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d85 1
+a85 1
+*   $Id: sph.f,v 2.1 1995/11/09 03:16:21 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@In SPHREV, normalize the celestial longitude so that it has the same sign
+as EUL(1).
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d85 1
+a85 1
+*   $Id: sph.f,v 2.0 1995/09/11 08:39:21 mcalabre Exp mcalabre $
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d85 1
+a85 1
+*   $Id: sph.f,v 1.2 1995/09/11 08:39:03 mcalabre Exp mcalabre $
+d108 1
+a108 1
+*     Compute native coordinates.
+d123 1
+a123 1
+*     Normalize.
+d130 1
+d171 1
+a171 1
+*     Compute celestial coordinates.
+d186 7
+d199 1
+@
+
+
+1.2
+log
+@Improve numerical precision by using small angle formulae or alternative
+formulae as required.
+@
+text
+@d85 1
+a85 1
+*   $Id: sph.f,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d45 1
+a45 1
+*      EUL      D(6)     Euler angles for the transformation:
+a54 1
+*                          6: EUL(1) - EUL(3)
+d69 1
+a69 1
+*      EUL      D(6)     Euler angles for the transformation:
+a78 1
+*                          6: EUL(3) - EUL(1)
+d85 1
+a85 1
+*   $Id$
+d90 2
+a91 2
+      DOUBLE PRECISION COSLAT, COSLNG, DLNG, EUL(6), LAT, LNG, PHI,
+     *          SINLAT, SINLNG, THETA, X, Y
+d93 6
+d109 5
+a113 1
+      X =  SINLAT*EUL(5) - COSLAT*EUL(4)*COSLNG
+d116 1
+a116 1
+         PHI = EUL(3) + ATAN2D(Y, X)
+d119 1
+a119 1
+         PHI = EUL(6) + LNG
+d121 1
+d130 13
+a142 1
+      THETA = ASIND(SINLAT*EUL(4) + COSLAT*EUL(5)*COSLNG)
+d152 6
+a157 2
+      DOUBLE PRECISION COSPHI, COSTHE, DPHI, EUL(6), LAT, LNG, PHI,
+     *          SINPHI, SINTHE, THETA, X, Y
+d159 2
+d171 5
+a175 1
+      X =  SINTHE*EUL(5) - COSTHE*EUL(4)*COSPHI
+d178 1
+a178 1
+         LNG = EUL(1) + ATAN2D(Y, X)
+d181 1
+a181 1
+         LNG = PHI - EUL(6)
+d183 1
+d191 14
+a204 1
+      LAT = ASIND(SINTHE*EUL(4) + COSTHE*EUL(5)*COSPHI)
+@

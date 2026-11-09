@@ -1,0 +1,3616 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.35;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	0.9;
+
+0.9
+date	2021.03.10.13.38.12;	author mcalabre;	state Exp;
+branches;
+next	0.8;
+
+0.8
+date	2021.03.10.12.51.01;	author mcalabre;	state Exp;
+branches;
+next	0.7;
+
+0.7
+date	2021.03.10.12.10.41;	author mcalabre;	state Exp;
+branches;
+next	0.6;
+
+0.6
+date	2021.03.08.11.40.33;	author mcalabre;	state Exp;
+branches;
+next	0.5;
+
+0.5
+date	2020.01.28.08.36.45;	author mcalabre;	state Exp;
+branches;
+next	0.4;
+
+0.4
+date	2020.01.07.03.16.01;	author mcalabre;	state Exp;
+branches;
+next	0.3;
+
+0.3
+date	2019.10.06.07.35.51;	author mcalabre;	state Exp;
+branches;
+next	0.2;
+
+0.2
+date	2019.10.06.06.35.54;	author mcalabre;	state Exp;
+branches;
+next	0.1;
+
+0.1
+date	2019.09.18.09.24.06;	author mcalabre;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2019.09.18.09.23.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.43;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.06.13.09.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.05.10.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.02.15.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.41;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.09.30.14.38.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.43;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.07.34.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@sundazel computes the local time of the Sun's passage through the
+specified apparent longitude or latitude in a user-defined coordinate
+system, for the specified location on the specified date (default today).
+
+The Sun's apparent hour angle, azimuth, elevation, and the longitude and
+latitude in user coordinates are also printed, in degrees.  Refraction is
+accounted for.
+
+sundazel may also be used to compute the time of sunrise and set, the
+Sun's right ascension and declination, and the Equation of Time.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: sundazel.c,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+*=============================================================================
+* Usage: sundazel [<option>] [<yyyymmdd>]
+*-----------------------------------------------------------------------------
+* sundazel computes the local time of the Sun's passage through the specified
+* apparent longitude or latitude in a user-defined coordinate system.  It can
+* also perform several other Solar related calculations.  Refer to the usage
+* notes below.
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: sundazel [<option>] [<yyyymmdd>]\n"
+"\n"
+"sundazel computes the local time of the Sun's passage through the\n"
+"specified apparent longitude or latitude in a user-defined coordinate\n"
+"system, for the specified location on the specified date (default today).\n"
+"\n"
+"The Sun's apparent hour angle, azimuth, elevation, and the longitude and\n"
+"latitude in user coordinates are also printed, in degrees.  Refraction is\n"
+"accounted for.\n"
+"\n"
+"sundazel may also be used to compute the time of sunrise and set, the\n"
+"Sun's right ascension and declination, and the Equation of Time.\n"
+"\n"
+"Options:\n"
+"  -p <option>\n"
+"       The Solar passage required and, if relevant, the coordinate value\n"
+"       in degrees:\n"
+"         sunrise           Sunrise.\n"
+"         sunset            Sunset.\n"
+"         lng=<lng>         Longitude of the Sun in the user-defined\n"
+"                           coordinate system.\n"
+"         lat=<lat>         Latitude of the Sun in the user-defined\n"
+"                           coordinate system.\n"
+"  -l <lng>,<lat>\n"
+"       Longitude and latitude of the observer.\n"
+"  -t <tz>\n"
+"       The observer's time zone, positive east of Greenwich (hr).\n"
+"  -u <az>,<el>,<zlng>\n"
+"       Azimuth and elevation of the pole of the user-defined coordinate\n"
+"       system, and the longitude of the zenith (deg).  See below.\n"
+"  -n   Set the user-defined coordinate system as one with pole due north\n"
+"       on the horizon, with zero of longitude at the zenith.\n"
+"  -w   Set the user-defined coordinate system as one with pole due west\n"
+"       on the horizon, with zero of longitude at the zenith.\n"
+"  -v   Also print the Sun's right ascension, declination (deg), and the\n"
+"       Equation of Time (min).\n"
+"\n"
+"The user-defined coordinate system is a right-handed spherical coordinate\n"
+"system with its pole at the specified azimuth and elevation, and with\n"
+"zenith having the specified longitude.  If omitted, the default is a\n"
+"right-handed system with its pole at the zenith and prime meridian due\n"
+"north, i.e. similar to azimuth and elevation except that longitude\n"
+"increases in the reverse sense to azimuth, i.e. from north through west\n"
+"rather than north through east.\n"
+"\n"
+"Setting a range of azimuth or elevation often provides a poor criterion\n"
+"for timing the passage of the Sun, for example in determining when it\n"
+"shines directly through a skylight, or when an awning casts a shadow on a\n"
+"particular point on the ground.  In such cases the projection of the\n"
+"skylight or awning from the ground onto the sky should be considered.\n"
+"Some other coordinate system may provide a better fit to the region of the\n"
+"sky thereby defined.  For example, the passage of the Sun across a\n"
+"skylight oriented at azimuth alpha might be handled via a coordinate\n"
+"system with pole on the horizon at that azimuth and considering the Sun's\n"
+"passage through a range of longitude in this system.  Perhaps better might\n"
+"be to use a coordinate system with pole at alpha-90 and considering a\n"
+"range of latitude.\n"
+"\n"
+"Sunrise and sunset correspond to first/last contact of the Sun's limb on\n"
+"the horizon, corresponding to apparent elevation -0.27 deg (true elevation\n"
+"-0.79 deg).  If no options are specified, the default is to calculate the\n"
+"time of sunset.  If more than one p option is specified, only the last is\n"
+"effective.\n";
+
+// To get the declaration of localtime_r() from time.h.
+#define _POSIX_C_SOURCE 199506L
+
+#include <math.h>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Default values of the observer's geographic longitude (east +ve), latitude,
+// and time zone offset (hr).
+#ifndef OBSLNG
+#define OBSLNG 0.0
+#endif
+#ifndef OBSLAT
+#define OBSLAT 0.0
+#endif
+#ifndef OBSTZ
+#define OBSTZ  0.0
+#endif
+
+int sundazel(char *mode, double obslng, double obslat, double obstz,
+  double pole_az, double pole_el, double zlng, int year, int month, int day,
+  double coord, double *ra, double *dec, double *eot, double *utc, double *ha,
+  double *az, double *el, double *lng, double *lat);
+
+int refract(double el, double *corr);
+
+int eulrot(double euler[5], int mode, double lng1, double lat1,
+  double *lng2, double *lat2, double *rotn);
+
+int xeuler(double euler1[5], int mode1, double euler2[5], int mode2,
+  double euler3[5]);
+
+int eulerhy(double euler[5], int mode, double chi, double psi, int *nvalid,
+  double alpha[2]);
+
+int xyzalpha(double x, double y, double z, double alpha[2]);
+
+double normang (int mode, double angle);
+
+#define PI  3.141592653589793238462643
+#define D2R (PI/180.0)
+#define R2D (180.0/PI)
+
+#define cosd(X) cos((X)*D2R)
+#define sind(X) sin((X)*D2R)
+#define tand(X) tan((X)*D2R)
+#define acosd(X) acos(X)*R2D
+#define asind(X) asin(X)*R2D
+#define atand(X) atan(X)*R2D
+#define atan2d(Y,X) atan2(Y,X)*R2D
+
+
+int main(int argc, char **argv)
+
+{
+  // Parse options.
+  char   *ident = 0x0, mode[16];
+  int    date = 0, verbose = 0;
+  double obslng = OBSLNG, obslat = OBSLAT, obstz = OBSTZ;
+  double coord = 0.0, pole_az = 0.0, pole_el = 90.0, zlng = 180.0;
+
+  strncpy(mode, "sunset", 16);
+
+  int i;
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    switch (argv[i][1]) {
+    case 'p':
+      if (++i < argc) {
+        int j;
+        for (j = 0; j < 16; j++) {
+          if (argv[i][j] == '=' || argv[i][j] == '\0') break;
+        }
+
+        if (j == 16) goto usage;
+
+        strncpy(mode, argv[i], j);
+        mode[j] = '\0';
+
+        if (strcmp(mode, "sunrise") == 0 ||
+            strcmp(mode, "sunset")  == 0) {
+          // No coordinate value.
+          ident = "elevation";
+          break;
+        }
+
+        if (strcmp(mode, "lng") == 0) {
+          ident = "longitude";
+        } else if (strcmp(mode, "lat") == 0) {
+          ident = "latitude";
+        } else {
+          goto usage;
+        }
+
+        // Set the coordinate value.
+        if (argv[i][j] == '=') {
+          j++;
+          coord = atof(argv[i]+j);
+        } else {
+          goto usage;
+        }
+
+      } else {
+        goto usage;
+      }
+
+      break;
+
+    case 'l':
+      if (++i < argc) {
+        sscanf(argv[i], "%lf,%lf", &obslng, &obslat);
+
+      } else {
+        goto usage;
+      }
+
+      break;
+
+    case 't':
+      if (++i < argc) {
+        sscanf(argv[i], "%lf", &obstz);
+
+      } else {
+        goto usage;
+      }
+
+      break;
+
+    case 'u':
+      if (++i < argc) {
+        sscanf(argv[i], "%lf,%lf,%lf", &pole_az, &pole_el, &zlng);
+
+      } else {
+        goto usage;
+      }
+
+      break;
+
+    case 'n':
+      pole_az = 0.0;
+      pole_el = 0.0;
+      zlng    = 0.0;
+
+      break;
+
+    case 'w':
+      pole_az = -90.0;
+      pole_el =   0.0;
+      zlng    =   0.0;
+
+      break;
+
+    case 'v':
+      verbose = 1;
+      break;
+
+    default:
+      goto usage;
+    }
+  }
+
+  if (i < argc) {
+    date = atoi(argv[i]);
+
+    if (++i < argc) goto usage;
+  }
+
+  // Get the year, month, and day.
+  int iy, im, id;
+  if (date) {
+    iy = date/10000;
+    im = (date/100)%100;
+    id = date%100;
+  } else {
+    // No date given, use today's date.
+    time_t tloc = time(NULL);
+    tzset();
+
+    struct tm tmval;
+    localtime_r(&tloc, &tmval);
+    iy = tmval.tm_year + 1900;
+    im = tmval.tm_mon + 1;
+    id = tmval.tm_mday;
+  }
+
+  double ra, dec, eot, utc, ha, az, el, lng, lat;
+  if (sundazel(mode, obslng, obslat, obstz, pole_az, pole_el, zlng, iy, im,
+               id, coord, &ra, &dec, &eot, &utc, &ha, &az, &el, &lng, &lat)) {
+    printf("The Sun does not attain the requested %s on %d-%02d-%02d.\n",
+           ident, iy, im, id);
+
+  } else {
+    double aest = fmod((utc + obstz) + 0.5/60.0, 24.0);
+    printf("  %02d:%02d%8.2f%8.2f%8.2f%8.2f%8.2f",
+      (int)aest, (int)(60*fmod(aest,1.0)), ha, az, el, lng, lat);
+    if (verbose) {
+      printf("%8.2f%8.2f%8.2f", ra, dec, eot);
+    }
+    printf("\n");
+  }
+
+  return 0;
+
+usage:
+  fprintf(stderr, "%s", usage);
+  return 1;
+}
+
+//============================================================================
+// sundazel() - Compute UTC of Solar passage
+// -----------------------------------------
+// sundazel() computes the UTC for the given Solar longitude or latitude.
+//
+// Corresponding to the computed UTC, also returned are the Solar right
+// ascension, declination, the Equation of Time, the apparent Solar hour
+// angle, longitude and latitude.
+//
+// Given:
+//   mode      *char     String indicating the Solar passage for which UTC is
+//                       to be computed:
+//                           sunrise: Sunrise,
+//                            sunset: Sunset.
+//                               lng: Apparent longitude (deg),
+//                               lat: Apparent latitude  (deg),
+//   obslng    double    The observer's longitude (deg).
+//   obslat    double    The observer's latitude (deg).
+//   obstz     double    The observer's time zone (hr).
+//   pole_az   double    Azimuth of the pole of the user-defined coordinate
+//                       system (deg).
+//   pole_el   double    Elevation of the pole of the user-defined coordinate
+//                       system (deg).
+//   zlng      double    Longitude of the zenith in the user-defined
+//                       coordinate system (deg).
+//   year      int       Year.
+//   month     int       Month.
+//   day       int       Day of month.
+//   coord     double    The coordinate value corresponding to mode (deg).
+//
+// Returned:
+//   ra        double*   Solar right ascension (deg).
+//   dec       double*   Solar declination (deg).
+//   eot       double*   Equation of Time (min).
+//   utc       double*   UTC (hr), normalized in the range [-obstz, 24-obstz).
+//   ha        double*   Apparent Solar hour angle (deg).
+//   az        double*   Apparent Solar azimuth   (deg).
+//   el        double*   Apparent Solar elevation (deg).
+//   lng       double*   Apparent Solar longitude (deg).
+//   lat       double*   Apparent Solar latitude  (deg).
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//                         1: The Sun does not attain the requested longitude
+//                            or latitude on the date specified.
+//
+// Notes:
+//   1: Null pointers may be provided for any of the returned values that are
+//      not required.
+//
+//   2: Atmospheric refraction is accounted for using a simple model.
+//      Specify apparent elevation = 0 for the centre of the Sun observed to
+//      be on the horizon.
+//
+//   3: Sunrise/set is taken as the time of first/last contact of the Sun's
+//      limb with the horizon, whereas its apparent elevation refers to the
+//      centre of its disk.  Thus its 16 arcmin mean radius must be taken into
+//      account.  Set apparent elevation to -0°.2667 for sunrise/set on the
+//      horizon for an observer at sea level.
+//
+//   4. An adjustment to the rise/set elevation may be needed to account for
+//      the observer's altitude.
+//
+//   5: Twilight is defined to start and end when the Sun's elevation is
+//         -6 deg: Civil twilight,
+//        -12 deg: Nautical twilight,
+//        -18 deg: Astronomical twilight.
+//
+//   6: Euler angles for transformations between systems:
+//        (-ha,dec) -> (-az,el):
+//           Phi_0 = 90, Theta = 90 - obslat, Phi = -90.
+//
+//        (-az,el) -> (lng,lat):
+//           Phi_0 = 90 - pole_az, Theta = 90 - pole_el, Phi = zlng - 90.
+//
+//   7: Formulae from aa.usno.navy.mil/faq/docs/SunApprox.php
+//                    aa.usno.navy.mil/faq/docs/GAST.php
+//
+//   8: Validated against ssd.jpl.nasa.gov/horizons.cgi
+//                    and www.esrl.noaa.gov/gmd/grad/solcalc
+//
+//============================================================================
+
+int sundazel(
+  char   *mode,
+  double obslng,
+  double obslat,
+  double obstz,
+  double pole_az,
+  double pole_el,
+  double zlng,
+  int    year,
+  int    month,
+  int    day,
+  double coord,
+  double *ra_,
+  double *dec_,
+  double *eot_,
+  double *utc_,
+  double *ha_,
+  double *az_,
+  double *el_,
+  double *lng_,
+  double *lat_)
+
+{
+  if (ra_  == 0x0 &&
+      dec_ == 0x0 &&
+      eot_ == 0x0 &&
+      utc_ == 0x0 &&
+      ha_  == 0x0 &&
+      az_  == 0x0 &&
+      el_  == 0x0 &&
+      lng_ == 0x0 &&
+      lat_ == 0x0) {
+    // Nothing to do!
+    return 0;
+  }
+
+  const double COSLAT = cosd(obslat);
+  const double SINLAT = sind(obslat);
+
+  // Euler angles for (-ha,dec) -> (-az,el).
+  double euler1[5];
+  euler1[0] =  90.0;
+  euler1[1] =  90.0 - obslat;
+  euler1[2] = -90.0;
+  euler1[3] = cosd(euler1[1]);
+  euler1[4] = sind(euler1[1]);
+
+  // Euler angles for (-az,el) -> (lng,lat).
+  double euler2[5];
+  euler2[0] = 90.0 - pole_az;
+  euler2[1] = 90.0 - pole_el;
+  euler2[2] = zlng - 90.0;
+  euler2[3] = cosd(euler2[1]);
+  euler2[4] = sind(euler2[1]);
+
+  // Euler angles for (-ha,dec) -> (lng,lat).
+  double euler3[5];
+  xeuler(euler1, 1, euler2, 1, euler3);
+
+  // Compute the Julian Date at 0h UTC on the specified UTC date.
+  // Adapted from SoFA routine iauCal2jd().
+  int jm, jy;
+  if (month < 1) {
+    jy = year - 1 + month/12;
+    jm = 12 + month%12;
+  } else {
+    jy = year + (month-1)/12;
+    jm = (month-1)%12 + 1;
+  }
+
+  long km = (jm - 14)/12;
+  long kj = ((1461L*(4800L + jy + km))/4L
+           + (367L*(jm - 2 - 12*km))/12L
+           - (3L*((4900L + jy + km)/100L))/4L
+           + day - 32075L);
+
+  // Number of days since epoch J2000.0.
+  double jd0 = (double)kj - 0.5;
+  double D0 = jd0 - 2451545.0;
+
+  // Convert observer's longitude to hour.
+  double lnghr = obslng / 15.0;
+
+  // Set first approximation of UTC rise/set time to local noon (hr).
+  double utc =  12.0 - lnghr;
+
+  double L, alpha, delta, ha;
+  for (int i = 0; i < 2; i++) {
+    double D = D0 + utc/24.0;
+
+    // Mean longitude of the Sun, corrected for aberration (deg).
+    L = fmod(280.459 + 0.98564736*D, 360.0);
+    if (L < 0.0) L += 360.0;
+
+    // Mean anomaly of the Sun (deg).
+    double g = fmod(357.529 + 0.98560028*D, 360.0);
+
+    // Ecliptic longitude of the Sun (deg), accurate to 1 arcmin.
+    double lambda = normang(360, L + 1.915*sind(g) + 0.020*sind(2.0*g));
+
+    // Obliquity of the ecliptic (deg).
+    double epsilon = 23.439 - 0.00000036*D;
+
+    // Sun-Earth distance (AU).
+    double R = 1.00014 - 0.01671*cosd(g) - 0.00014*cosd(2.0*g);
+
+    // Solar radius (deg).
+    double SD = 0.2666 / R;
+
+    // True Solar right ascension and declination (deg).
+    alpha = atan2d(cosd(epsilon)*sind(lambda), cosd(lambda));
+    delta = asind(sind(epsilon)*sind(lambda));
+
+    // Normalize the RA.
+    alpha = normang(360, alpha);
+
+    // Compute true hour angle at the specified coordinate (deg).
+    if (strcmp(mode, "sunrise") == 0 || strcmp(mode, "sunset") == 0) {
+      // Sunrise/set.
+      double el = -SD;
+
+      // Correct for refraction.
+      double corr;
+      refract(el, &corr);
+      el -= corr;
+
+      double sinel = sind(el);
+      double cosha = (sinel - sind(delta)*SINLAT) / (cosd(delta)*COSLAT);
+
+      // Does the Sun attain the specified apparent elevation?
+      if (1.0 < fabs(cosha)) {
+        // No solution.
+        return 1;
+      }
+
+      ha = acosd(cosha);
+      if (mode[3] == 'r') {
+        // Sunrise.
+        ha = -ha;
+      }
+
+    } else if (strcmp(mode, "lng") == 0) {
+      // Sun at the specified apparent longitude.
+      double lng = normang(180, coord);
+
+      // Find Solar hour angle for given declination and apparent longitude.
+      // The Euler angles are for (-ha,dec) -> (lng,lat).
+      int nvalid;
+      double alpha[2];
+      if (eulerhy(euler3, 1, delta, lng, &nvalid, alpha)) {
+        // No solution.
+        return 1;
+      }
+
+      // Select the appropriate root.
+      ha = -alpha[0];
+      if (nvalid == 2) {
+        // Two valid solutions, choose the one closer to zero.
+        if (fabs(alpha[1]) < fabs(alpha[0])) {
+          ha = -alpha[1];
+        }
+      }
+
+    } else if (strcmp(mode, "lat") == 0) {
+      // Sun at the specified apparent latitude.
+      double lat = coord;
+
+      // Find Solar hour angle for given declination and apparent latitude.
+      // The Euler angles are for (-ha,dec) -> (lng,lat).
+      int nvalid;
+      double alpha[2];
+      if (eulerhy(euler3, 2, delta, lat, &nvalid, alpha)) {
+        // No solution.
+        return 1;
+      }
+
+      // Select the appropriate root.
+      ha = -alpha[0];
+      if (nvalid == 2) {
+        // Two valid solutions, choose the one closer to zero.
+        if (fabs(alpha[1]) < fabs(alpha[0])) {
+          ha = -alpha[1];
+        }
+      }
+
+    } else {
+      // Unrecognized mode.
+      return 1;
+    }
+
+    // Normalize the hour angle.
+    ha = normang(180, ha);
+
+    // Local apparent sidereal time of specified coordinate.
+    double last0 = fmod((alpha+ha)/15.0, 24.0);
+
+    // Greenwich mean sidereal time corresponding to UTC (hr).
+    double gmst = fmod(6.697374558 + 0.06570982441908*D0 + 1.00273790935*utc,
+                       24.0);
+
+    // Longitude of the ascending node of the Moon (deg).
+    double omega = 125.04 - 0.052954*D;
+
+    // Approximate nutation in longitude (hr).
+    double dpsi = -0.000319*sind(omega) - 0.000024*sind(2.0*L);
+
+    // Equation of the Equinoxes (hr).
+    double eqeq = dpsi*cosd(epsilon);
+
+    // Greenwich apparent sidereal time corresponding to UTC (hr).
+    double gast = gmst + eqeq;
+
+    // Local apparent sidereal time corresponding to UTC (hr).
+    double last = fmod(gast + lnghr, 24.0);
+
+    // UTC of specified coordinate.
+    utc = fmod((utc + obstz) + (last0 - last)*1.00273790935, 24.0);
+    if (utc < 0.0) utc += 24.0;
+    utc -= obstz;
+  }
+
+
+  // Copy or compute values to be returned.
+  // True Solar right ascension and declination (deg).
+  if (ra_)  *ra_ = alpha;
+  if (dec_) *dec_ = delta;
+
+  // Equation of time (min).
+  if (eot_) {
+    *eot_ = (L - alpha) * 4.0;
+    if (*eot_ < -720.0) {
+      *eot_ += 1440.0;
+    } else if (720.0 < *eot_) {
+      *eot_ -= 1440.0;
+    }
+  }
+
+  // UTC of required passage (hr).
+  if (utc_) *utc_ = utc;
+
+  // Compute apparent Solar coordinates.
+  double az, el;
+  eulrot(euler1, 1, -ha, delta, &az, &el, 0x0);
+  az = -az;
+
+  double corr;
+  refract(el, &corr);
+  el += corr;
+
+  double dec;
+  eulrot(euler1, -1, -az, el, &ha, &dec, 0x0);
+  ha = -ha;
+
+  double lng, lat;
+  eulrot(euler3, 1, -ha, dec, &lng, &lat, 0x0);
+
+  // Apparent hour angle.
+  if (ha_) *ha_ = ha;
+
+  // Apparent azimuth and elevation.
+  if (az_) *az_ = az;
+  if (el_) *el_ = el;
+
+  // Apparent longitude and latitude.
+  if (lng_) *lng_ = lng;
+  if (lat_) *lat_ = lat;
+
+
+  return 0;
+}
+
+
+//============================================================================
+// refract() - Compute a correction for atmospheric refraction
+// -----------------------------------------------------------
+// refract() computes an approximate correction for atmospheric refraction.
+//
+// Given:
+//   el        double    True (geometric) Solar elevation (deg).
+//
+// Returned:
+//   corr      double*   Correction to be added to the true Solar elevation to
+//                       give the apparent elevation (deg).
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//
+// Notes:
+//   1: Formulae from www.esrl.noaa.gov/gmd/grad/solcalc/calcdetails.html
+//
+//============================================================================
+
+int refract(
+  double el,
+  double *corr)
+
+{
+  // Compute the correction in arcsec.
+  if (el < -0.575) {
+    *corr = -20.744 / tand(el);
+
+  } else if (el < 5.0) {
+    *corr = 1735.0 - (518.2 - (103.4 - (12.79 - 0.711*el)*el)*el)*el;
+
+  } else if (el < 85.0) {
+    double cotel = 1.0 / tand(el);
+    double cot2el = cotel*cotel;
+    *corr = (58.1 - (0.07 - 0.000086*cot2el)*cot2el)*cotel;
+
+  } else {
+    *corr = 0.0;
+  }
+
+  // Arcsec to degrees.
+  *corr /= 3600.0;
+
+  return 0;
+}
+
+
+//============================================================================
+// eulrot() - Apply Euler angle based spherical coordinate transformation
+// ----------------------------------------------------------------------
+// eulrot() applies the Euler angle based transformation of spherical
+// coordinates.
+//
+// Given:
+//   euler     double[5] Euler angles for the transformation:
+//                         0: (PHI0) Longitude of the ascending node in the
+//                            old system (deg).  The ascending node is the
+//                            point of intersection of the equators of the
+//                            two systems such that the equator of the new
+//                            system crosses from south to north as viewed in
+//                            the old system.
+//                         1: (THETA) Angle between the poles of the two
+//                            systems (deg).  THETA is positive for a positive
+//                            rotation about the ascending node.
+//                         2: (PHI) Longitude of the ascending node in the new
+//                            system (deg).
+//                         3: cos(THETA).
+//                         4: sin(THETA).
+//   mode      int       If -1, apply the transformation in the reverse
+//                       direction.
+//   lng1      double    Longitude in the old coordinate system (deg).
+//   lat1      double    Latitude  in the old coordinate system (deg).
+//
+// Returned:
+//   lng2      double*   Longitude in the new coordinate system (deg),
+//                       normalized to the range (-180, 180] degrees.
+//   lat2      double*   Latitude in the new coordinate system (deg),
+//   rotn      double*   Position angle of the old pole at the specified
+//                       point (deg).  May be given as a null pointer if the
+//                       value is not required.
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//
+// Notes:
+//   1: Longitude at the poles in the new system is consistent with that
+//      specified in the old system.  This may be important when dealing with
+//      map projections in which the poles are represented by finite line
+//      segments.  Such is the case for cylindrical projections for example.
+//----------------------------------------------------------------------------
+
+int eulrot(
+  double euler[5],
+  int    mode,
+  double lng1,
+  double lat1,
+  double *lng2,
+  double *lat2,
+  double *rotn)
+
+{
+  double phi0, phi, ctheta, stheta;
+  if (mode != -1) {
+    // Forward transformation.
+    phi0   = euler[0];
+    phi    = euler[2];
+    ctheta = euler[3];
+    stheta = euler[4];
+  } else {
+    // Reverse transformation.
+    phi0   =  euler[2];
+    phi    =  euler[0];
+    ctheta =  euler[3];
+    stheta = -euler[4];
+  }
+
+  // Compute trigonometric functions of the old coordinates.
+  double lng1p  = lng1 - phi0;
+  double clng1p = cosd(lng1p);
+  double slng1p = sind(lng1p);
+  double clat1  = cosd(lat1);
+  double slat1  = sind(lat1);
+
+  // Compute the longitude in the new system.
+  double x = clat1*clng1p;
+  double y = clat1*slng1p*ctheta + slat1*stheta;
+  if (fabs(x) < 1e-12 && fabs(y) < 1e-12) {
+    // Longitude at the poles in the new system is consistent with that
+    // specified in the old system.
+    *lng2 = phi + lng1p;
+  } else {
+    *lng2 = phi + atan2(y,x)*R2D;
+  }
+
+  *lng2 = normang(180, *lng2);
+
+  // Latitude in the new system - circumvent rounding errors.
+  double slat2 = slat1*ctheta - clat1*stheta*slng1p;
+  if (1e-12 < 1.0-fabs(slat2)) {
+    *lat2 = asind(slat2);
+  } else {
+    if (slat2 < 0.0) {
+      *lat2 = -90.0;
+    } else {
+      *lat2 = +90.0;
+    }
+  }
+
+  if (rotn) {
+    // Compute the position angle of the old pole at this point.
+    x = slng1p*stheta*slat1 + ctheta*clat1;
+    y = clng1p*stheta;
+    *rotn = atan2(y,x)*R2D;
+  }
+
+  return 0;
+}
+
+
+//============================================================================
+// xeuler() - Combine the Euler angles for two consecutive rotations into one
+// --------------------------------------------------------------------------
+// xeuler() combines the Euler angles for two consecutive rotations into one.
+//
+// Given:
+//   euler1    double[5] Euler angles for the first rotation:
+//                         0: (PHI0) Longitude of the ascending node in the
+//                            old system (deg).  The ascending node is the
+//                            point of intersection of the equators of the
+//                            two systems such that the equator of the new
+//                            system crosses from south to north as viewed in
+//                            the old system.
+//                         1: (THETA) Angle between the poles of the two
+//                            systems (deg).  THETA is positive for a positive
+//                            rotation about the ascending node.
+//                         2: (PHI) Longitude of the ascending node in the new
+//                            system (deg).
+//                         3: cos(THETA).
+//                         4: sin(THETA).
+//   mode1     int       If -1, apply the first rotation in the reverse
+//                       direction.
+//   euler2    double[5] Euler angles for the second rotation (as for euler1).
+//   mode2     int       If -1, apply the second rotation in the reverse
+//                       direction.
+//
+// Returned:
+//   euler3    double[5] Euler angles for the combined rotation (as for
+//                       euler1).  euler3 may be the same array as euler1 or
+//                       euler2.
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//
+// Notes:
+//   1: The two rotations are applied successively to special points in the
+//      original coordinate system.  In any rotation the north pole will be
+//      transformed to polar angle 90 - THETA, and thus THETA, and likewise
+//      PHI, for the combined rotation can be found easily.  Determination of
+//      PHI0 is a little trickier, and requires the coordinates in the
+//      original system of the north pole of the new system.  However, it is
+//      straightforward to express the inverse of the combined rotation in
+//      terms of the inverse of the two constituent rotations.
+//
+//   2: Note that rotations are not commutative.  Therefore, the order of the
+//      two rotations is important.
+//
+//   3: If the Euler angles for a rotation are (PHI0, THETA, PHI) then for the
+//      inverse rotation they are (PHI, -THETA, PHI0).
+//
+//   4: If R1, R2, and R are the rotations, and r1, r2, and r are their
+//      inverses then R(x) = R2(R1(x)) and r(x) = r1(r2(x)).
+//----------------------------------------------------------------------------
+
+int xeuler(
+  double euler1[5],
+  int    mode1,
+  double euler2[5],
+  int    mode2,
+  double euler3[5])
+
+{
+  // Apply the rotations in succession to the north pole of the first system.
+  double lat1, lat2, lng1, lng2, rotn;
+  eulrot(euler1, mode1,  0.0, 90.0, &lng1, &lat1, &rotn);
+  eulrot(euler2, mode2, lng1, lat1, &lng2, &lat2, &rotn);
+
+
+  // THETA can be obtained simply from the coordinates of the old north
+  // pole in the new system.
+  double theta = 90.0 - lat2;
+
+  // Now determine PHI and PHI0.
+  double phi0, phi;
+  if (fabs(sind(theta)) < 1e-12) {
+    // THETA equals zero is a special case.
+    eulrot(euler1, mode1,  0.0,  0.0, &lng1, &lat1, &rotn);
+    eulrot(euler2, mode2, lng1, lat1, &lng2, &lat2, &rotn);
+    phi0 = 0.0;
+    phi  = lng2;
+
+  } else {
+    // Otherwise, PHI is readily obtained in the same way as THETA.
+    phi = normang(180, lng2 - 90.0);
+
+    // The easiest way to find PHI0 is to apply the inverse transformation to
+    // the north pole of the new coordinate system.
+    double lng0, lat0;
+    eulrot(euler2, -mode2,  0.0, 90.0, &lng1, &lat1, &rotn);
+    eulrot(euler1, -mode1, lng1, lat1, &lng0, &lat0, &rotn);
+    phi0 = normang(180, lng0 + 90.0);
+  }
+
+  // Setting euler3 could affect euler1 or euler2.
+  euler3[0] = phi0;
+  euler3[1] = theta;
+  euler3[2] = phi;
+  euler3[3] = cosd(theta);
+  euler3[4] = sind(theta);
+
+  return 0;
+}
+
+//============================================================================
+// eulerhy() - hybrid coordinate calculations based on Euler angles
+// ----------------------------------------------------------------
+// eulerhy() inverts the Euler angle transformation formulae to perform hybrid
+// coordinate calculations.  Specifically, given the Euler angles for the
+// spherical rotation from (lng1,lat1) to (lng2,lat2), then
+//   1. compute lng1 given lat1 and lng2,
+//   2. compute lng1 given lat1 and lat2,
+//   3. compute lat1 given lng1 and lng2,
+//   4. compute lat1 given lng1 and lat2.
+//
+// The missing pairs, namely
+//      compute lng1 given lng2 and lat2,
+//      compute lat1 given lng2 and lat2,
+// are, of course, handled by the normal Euler angle transformation formulae.
+//
+// Likewise, computing lng2 given lng1 and lat2, etc., are handled simply by
+// using the Euler angles for the inverse spherical rotation, i.e. from
+// (lng2,lat2) to (lng1,lat1).  See note 1 below.
+//
+// Given:
+//   euler     double[5] Euler angles for the transformation:
+//                         0: (PHI0) Longitude of the ascending node in the
+//                            old system (deg).  The ascending node is the
+//                            point of intersection of the equators of the
+//                            two systems such that the equator of the new
+//                            system crosses from south to north as viewed in
+//                            the old system.
+//                         1: (THETA) Angle between the poles of the two
+//                            systems (deg).  THETA is positive for a positive
+//                            rotation about the ascending node.
+//                         2: (PHI) Longitude of the ascending node in the new
+//                            system (deg).
+//                         3: cos(THETA).
+//                         4: sin(THETA).
+//   mode      int       Mode of operation: if the spherical rotation is from
+//                       (lng1,lat1) to (lng2,lat2):
+//                         1: compute lng1 given lat1 and lng2,
+//                         2: compute lng1 given lat1 and lat2,
+//                         3: compute lat1 given lng1 and lng2,
+//                         4: compute lat1 given lng1 and lat2.
+//   chi,psi   double    The two given coordinates (deg), depending on the
+//                       mode, in the order specified above.  E.g. for
+//                       mode == 2, these are lat1 and lat2, for mode == 4,
+//                       they are lng1 and lat2.
+//
+// Returned:
+//   nvalid    int*      Number of valid solutions: 0, 1, or 2.
+//   alpha[2]  double    The required coordinate (deg), normalized in the
+//                       range (-180,+180].  E.g. for mode == 1, it is lng1.
+//                       There may be 0, 1, or 2 valid solutions.  If there
+//                       is only one valid solution it will be in alpha[0].
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//                         1: No solution.
+//                         2: Invalid parameter.
+//
+// Notes:
+//   1: If the Euler angles for a rotation are (PHI0, THETA, PHI) then for the
+//      inverse rotation they are (PHI, -THETA, PHI0).
+//----------------------------------------------------------------------------
+
+int eulerhy(
+  double euler[5],
+  int    mode,
+  double chi,
+  double psi,
+  int    *nvalid,
+  double alpha[2])
+
+{
+  const double TOL = 0.0001;
+
+  const double phi0   = euler[0];
+  const double phi    = euler[2];
+  const double ctheta = euler[3];
+  const double stheta = euler[4];
+
+  int status = 1;
+  *nvalid = 0;
+
+  double x, y, z;
+  if (mode == 1) {
+    // Compute lng1 given lat1 and lng2,
+    double lat1 = chi;
+    double lng2 = psi;
+
+    double lng2p  = lng2 - phi;
+    double clat1  = cosd(lat1);
+    double slat1  = sind(lat1);
+    double clng2p = cosd(lng2p);
+    double slng2p = sind(lng2p);
+
+    x =  clat1*slng2p;
+    y = -clat1*clng2p*ctheta;
+    z =  slat1*clng2p*stheta;
+
+    if (xyzalpha(x, y, z, alpha)) {
+      // No solution.
+      return 1;
+    }
+
+    // Check the solutions.
+    lng2 = normang(180, lng2);
+    for (int i = 0; i < 2; i++) {
+      alpha[i] = normang(180, alpha[i] + phi0);
+      double lng1 = alpha[i], lng, lat;
+      eulrot(euler, 1, lng1, lat1, &lng, &lat, 0x0);
+
+      lng = normang(180, lng);
+      if (fabs(lng2-lng) < TOL) {
+        // A valid root.
+        (*nvalid)++;
+        status = 0;
+        if (i == 1 && *nvalid == 1) {
+          alpha[0] = alpha[1];
+        }
+      }
+    }
+
+  } else if (mode == 2) {
+    // Compute lng1 given lat1 and lat2,
+    double lat1 = chi;
+    double lat2 = psi;
+
+    double clat1 = cosd(lat1);
+    double slat1 = sind(lat1);
+    double slat2 = sind(lat2);
+
+    x = 0.0;
+    y = clat1*stheta;
+    z = slat1*ctheta - slat2;
+
+    if (xyzalpha(x, y, z, alpha)) {
+      // No solution.
+      return 1;
+    }
+
+    // Check the solutions.
+    for (int i = 0; i < 2; i++) {
+      alpha[i] = normang(180, alpha[i] + phi0);
+      double lng1 = alpha[i], lng, lat;
+      eulrot(euler, 1, lng1, lat1, &lng, &lat, 0x0);
+
+      if (fabs(lat2-lat) < TOL) {
+        // A valid root.
+        (*nvalid)++;
+        status = 0;
+        if (i == 1 && *nvalid == 1) {
+          alpha[0] = alpha[1];
+        }
+      }
+    }
+
+  } else if (mode == 3) {
+    // Compute lat1 given lng1 and lng2,
+    double lng1 = chi;
+    double lng2 = psi;
+
+    double lng1p  = lng1 - phi0;
+    double lng2p  = lng2 - phi;
+    double clng1p = cosd(lng1p);
+    double slng1p = sind(lng1p);
+    double clng2p = cosd(lng2p);
+    double slng2p = sind(lng2p);
+
+    x = slng1p*clng2p*ctheta - clng1p*slng2p;
+    y =        clng2p*stheta;
+    z = 0.0;
+
+    if (xyzalpha(x, y, z, alpha)) {
+      // No solution.
+      return 1;
+    }
+
+    // Check the solutions.
+    lng2 = normang(180, lng2);
+    for (int i = 0; i < 2; i++) {
+      double lat1 = alpha[i], lng, lat;
+      eulrot(euler, 1, lng1, lat1, &lng, &lat, 0x0);
+
+      lng = normang(180, lng);
+      if (fabs(lng2-lng) < TOL) {
+        // A valid root.
+        (*nvalid)++;
+        status = 0;
+        if (i == 1 && *nvalid == 1) {
+          alpha[0] = alpha[1];
+        }
+      }
+    }
+
+  } else if (mode == 4) {
+    // Compute lat1 given lng1 and lat2.
+    double lng1 = chi;
+    double lat2 = psi;
+
+    double lng1p  = lng1 - phi0;
+    double slng1p = sind(lng1p);
+    double slat2  = sind(lat2);
+
+    x = slng1p*stheta;
+    y = -ctheta;
+    z = -slat2;
+
+    if (xyzalpha(x, y, z, alpha)) {
+      // No solution.
+      return 1;
+    }
+
+    // Check the solutions.
+    for (int i = 0; i < 2; i++) {
+      double lat1 = alpha[i], lng, lat;
+      eulrot(euler, 1, lng1, lat1, &lng, &lat, 0x0);
+
+      if (fabs(lat2-lat) < TOL) {
+        // A valid root.
+        (*nvalid)++;
+        status = 0;
+        if (i == 1 && *nvalid == 1) {
+          alpha[0] = alpha[1];
+        }
+      }
+    }
+
+  } else {
+    return 2;
+  }
+
+  return status;
+}
+
+
+//============================================================================
+// xyzalpha() - Solve the equation x*cos(alpha) + y*sin(alpha) = z for alpha
+// -------------------------------------------------------------------------
+// xyzalpha() solves the equation x*cos(alpha) + y*sin(alpha) = z for alpha.
+// Used in inverting the Euler angle transformation formulae.
+//
+// Given:
+//   x,y,z     double    The values of x, y, and z.
+//
+// Returned:
+//   alpha     double[2] The two solutions for alpha (deg), normalized in
+//                       the range (-180,+180].  The smaller solution is
+//                       returned in alpha[0].
+//
+// Function return value:
+//             int       Status return value:
+//                         0: Success.
+//                         1: No solution.
+//
+// Notes:
+//   1: The solution is indeterminate, i.e. alpha may have any value, if
+//      (x,y,z) == (0,0,0).  In this case both values of alpha are returned
+//      as zero.
+//
+//   2: There are no solutions if x² + y² < z².
+//----------------------------------------------------------------------------
+
+int xyzalpha(
+  double x,
+  double y,
+  double z,
+  double alpha[2])
+
+{
+  double u;
+  if (x == 0.0 && y == 0.0) {
+    if (z == 0.0) {
+      // Indeterminate.
+      alpha[0] = 0.0;
+      alpha[1] = 0.0;
+      return 0;
+    } else {
+      // No solution.
+      return 1;
+    }
+  } else if (y == 0.0 && x > 0.0) {
+    u =   0.0;
+  } else if (x == 0.0 && y > 0.0) {
+    u =  90.0;
+  } else if (y == 0.0 && x < 0.0) {
+    u = 180.0;
+  } else if (x == 0.0 && y < 0.0) {
+    u = -90.0;
+  } else {
+    u = atan2d(y, x);
+  }
+
+  double r = sqrt(x*x + y*y), v;
+  if (r < fabs(z)) {
+    // No solution.
+    return 1;
+  } else if (z == r) {
+    v =   0.0;
+  } else if (z == 0.0) {
+    v =  90.0;
+  } else if (z == -r) {
+    v = 180.0;
+  } else {
+    v = acosd(z/r);
+  }
+
+  // Compute the two solutions in range (-180,+180].
+  alpha[0] = normang(180, u - v);
+  alpha[1] = normang(180, u + v);
+
+  // Ensure the smaller solution is returned in alpha[0].
+  if (alpha[1] < alpha[0]) {
+    double tmp = alpha[0];
+    alpha[0] = alpha[1];
+    alpha[1] = tmp;
+  }
+
+  return 0;
+}
+
+
+//============================================================================
+// normang() - Normalize an angle in the required range
+// -------------------------------------------------------------------------
+// normang() normalizes an angle in the range (-180,+180], or [0,+360).
+//
+// Given:
+//   mode      int       Required normalization range:
+//                         180: (-180,+180],
+//                         360: [0,+360).
+//   angle     double    The angle (deg).
+//
+// Function return value:
+//             double    The normalized angle (deg).
+//----------------------------------------------------------------------------
+
+double normang (int mode, double angle)
+
+{
+  angle = fmod(angle, 360.0);
+
+  if (mode == 180) {
+    if (angle <= -180.0) {
+      angle += 360.0;
+    } else if (180.0 < angle) {
+      angle -= 360.0;
+    }
+  } else {
+    if (angle < 0.0) angle += 360.0;
+  }
+
+  return angle;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.7.1.1 2026/05/11 12:18:46 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.6.1.2 2026/04/25 07:34:33 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+d160 1
+a160 1
+  strcpy(mode, "sunset");
+d461 4
+a464 4
+  double jd0 = (double)((1461L*(4800L + jy + km))/4L
+                      + (367L*(jm - 2 - 12*km))/12L
+                      - (3L*((4900L + jy + km)/100L))/4L
+                      + day - 32075L) - 0.5;
+d467 1
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Inconsequential change prompted by clang-tidy:
+ - Quelled a mistaken warning concerning integer division used to calculate JD
+   (bugprone-integer-division).
+ - Replaced use of strcpy() with strncpy()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d160 1
+a160 1
+  strncpy(mode, "sunset", 16);
+d461 4
+a464 4
+  long kj = ((1461L*(4800L + jy + km))/4L
+           + (367L*(jm - 2 - 12*km))/12L
+           - (3L*((4900L + jy + km)/100L))/4L
+           + day - 32075L);
+a466 1
+  double jd0 = (double)kj - 0.5;
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: sundazel.c,v 8.4.1.2 2025/12/06 13:37:20 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: sundazel.c,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.3.1.2 2024/09/30 14:38:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.4.1.1 2024/10/28 13:58:43 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+d155 1
+a155 1
+  char   *ident, mode[16];
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Quell a nuisance compiler warning.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.3.1.1 2024/05/13 16:35:41 mcalabre Exp mcalabre $
+d155 1
+a155 1
+  char   *ident = 0x0, mode[16];
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.11.1.2 2022/09/02 15:22:45 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+d98 1
+a98 1
+#define _POSIX_C_SOURCE 1
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@Portability fix - need to set _POSIX_C_SOURCE to 199506L in order to get
+the declaration of localtime_r().
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+d98 1
+a98 1
+#define _POSIX_C_SOURCE 199506L
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.9.1.1 2022/03/25 15:16:41 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.6.1.2 2021/07/01 05:10:43 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 7.5.1.2 2021/04/06 13:09:23 mcalabre Exp mcalabre $
+d154 1
+d156 1
+a156 1
+  int    date = 0, i, iy, im, id, verbose = 0;
+d162 1
+a162 1
+  // Parse options.
+d266 1
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@In main(), minor tweak to variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+a153 1
+  // Parse options.
+d155 1
+a155 1
+  int    date = 0, verbose = 0;
+d161 1
+a161 1
+  int i;
+a264 1
+  int iy, im, id;
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 0.9 2021/03/10 13:38:12 mcalabre Exp mcalabre $
+d97 3
+a157 2
+  time_t tloc;
+  struct tm tmval;
+d271 4
+a274 1
+    time(&tloc);
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Define _POSIX_C_SOURCE to get the declaration of localtime_r() from time.h.
+Call time() with NULL argument as recommended in the man page.
+@
+text
+@d22 1
+a22 1
+  $Id: sundazel.c,v 7.5.1.1 2021/03/20 05:56:43 mcalabre Exp mcalabre $
+a96 3
+// To get the declaration of localtime_r() from time.h.
+#define _POSIX_C_SOURCE 1
+
+d155 2
+d270 1
+a270 4
+    time_t tloc = time(NULL);
+    tzset();
+
+    struct tm tmval;
+@
+
+
+0.9
+log
+@Added a WCSLIB-style prologue.
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: sundazel.c,v 0.8 2021/03/10 12:51:01 mcalabre Exp mcalabre $
+@
+
+
+0.8
+log
+@Encode the default observer coordinates as preprocessor definitions.
+@
+text
+@d1 30
+a30 49
+// $Id: sundazel.c,v 1.7 2021/03/10 12:10:41 mcalabre Exp mcalabre $
+
+#include <math.h>
+#include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#ifndef OBSLNG
+#define OBSLNG +151.18130
+#endif
+#ifndef OBSLAT
+#define OBSLAT  -33.85865
+#endif
+#ifndef OBSTZ
+#define OBSTZ +10.0
+#endif
+
+int sundazel(char *mode, double obslng, double obslat, double obstz,
+  double pole_az, double pole_el, double zlng, int year, int month, int day,
+  double coord, double *ra, double *dec, double *eot, double *utc, double *ha,
+  double *az, double *el, double *lng, double *lat);
+
+int refract(double el, double *corr);
+
+int eulrot(double euler[5], int mode, double lng1, double lat1,
+  double *lng2, double *lat2, double *rotn);
+
+int xeuler(double euler1[5], int mode1, double euler2[5], int mode2,
+  double euler3[5]);
+
+int eulerhy(double euler[5], int mode, double chi, double psi, int *nvalid,
+  double alpha[2]);
+
+int xyzalpha(double x, double y, double z, double alpha[2]);
+
+double normang (int mode, double angle);
+
+#define PI  3.141592653589793238462643
+#define D2R (PI/180.0)
+#define R2D (180.0/PI)
+
+#define cosd(X) cos((X)*D2R)
+#define sind(X) sin((X)*D2R)
+#define tand(X) tan((X)*D2R)
+#define acosd(X) acos(X)*R2D
+#define asind(X) asin(X)*R2D
+#define atand(X) atan(X)*R2D
+#define atan2d(Y,X) atan2(Y,X)*R2D
+d33 1
+a33 1
+"Usage: sundazel [option] [yyyymmdd]\n"
+d96 50
+@
+
+
+0.7
+log
+@Refactored code into new functions eulerhy() and normang().
+@
+text
+@d1 1
+a1 1
+// $Id: sundazel.c,v 0.6 2021/03/08 11:40:33 mcalabre Exp mcalabre $
+d9 9
+a17 3
+const double LNG = +151.18130;
+const double LAT =  -33.85865;
+const double TZ  =  +10.0;
+d57 7
+a63 2
+"The apparent hour angle, and complementary longitude or latitude are also\n"
+"printed, in degrees.\n"
+d122 1
+a122 1
+  double obslng = LNG, obslat = LAT, obstz = TZ;
+@
+
+
+0.6
+log
+@Added function xyzalpha() to modularize some of the calculations.
+@
+text
+@d1 1
+a1 1
+// $Id: sundazel.c,v 0.5 2020/01/28 08:36:45 mcalabre Exp mcalabre $
+d26 3
+d31 2
+a377 2
+  const double TOL = 0.0001;
+
+d427 1
+a427 1
+  double L, alpha, delta, cosdec, sindec, ha;
+d439 1
+a439 3
+    g *= D2R;
+    double lambda = fmod(L + 1.915*sin(g) + 0.020*sin(2.0*g), 360.0);
+    if (lambda < 0.0) lambda += 360.0;
+d445 1
+a445 1
+    double R = 1.00014 - 0.01671*cos(g) - 0.00014*cos(2.0*g);
+d450 6
+a455 13
+    // True Solar right ascension and declination (rad).
+    lambda  *= D2R;
+    epsilon *= D2R;
+    alpha = atan2(cos(epsilon)*sin(lambda), cos(lambda));
+    delta = asin(sin(epsilon)*sin(lambda));
+
+    cosdec = cos(delta);
+    sindec = sin(delta);
+
+    // Convert to degrees and normalise the RA.
+    alpha *= R2D;
+    delta *= R2D;
+    if (alpha < 0.0) alpha += 360.0;
+d468 1
+a468 1
+      double cosha = (sinel - sindec*SINLAT) / (cosdec*COSLAT);
+d484 1
+a484 2
+      double lng = fmod(coord, 360.0);
+      if (lng < 0.0) lng += 360.0;
+d486 3
+a488 12
+      // Euler angles for (-ha,dec) -> (lng,lat).
+      double phi0   = euler3[0];
+      double phi    = euler3[2];
+      double costhe = euler3[3];
+      double sinthe = euler3[4];
+
+      // Inversion of Euler angle transformation formula.
+      double coslng = cosd(lng-phi);
+      double sinlng = sind(lng-phi);
+      double x =        cosdec*sinlng;
+      double y = costhe*cosdec*coslng;
+      double z = sinthe*sindec*coslng;
+d490 1
+a490 1
+      if (xyzalpha(x, y, z, alpha)) {
+d496 5
+a500 29
+      int gotone = 0;
+      for (int j = 0; j < 2; j++) {
+        // hap = ha + phi0.
+        double hap = alpha[j];
+        double coshap = cosd(hap);
+        double sinhap = sind(hap);
+        double lngj = phi + atan2d(-costhe*cosdec*sinhap + sinthe*sindec,
+                                           cosdec*coshap);
+
+        lngj = fmod(lngj, 360.0);
+        if (lngj < 0.0) lngj += 360.0;
+
+        if (fabs(lngj-lng) < TOL) {
+          // A valid root.
+          hap -= phi0;
+
+          if (j == 0) {
+            ha = hap;
+            gotone = 1;
+          } else {
+            if (gotone) {
+              // Two valid solutions, choose the one closer to zero.
+              if (fabs(hap) < fabs(ha)) {
+                ha = hap;
+              }
+            } else {
+              ha = hap;
+            }
+          }
+d508 3
+a510 10
+      // Euler angles for (-ha,dec) -> (lng,lat).
+      double phi0   = euler3[0];
+      double costhe = euler3[3];
+      double sinthe = euler3[4];
+
+      double sinlat = sind(lat);
+
+      double x =  0.0;
+      double y = -sinthe*cosdec;
+      double z =  costhe*sindec - sinlat;
+d512 1
+a512 1
+      if (xyzalpha(x, y, z, alpha)) {
+d518 5
+a522 24
+      int gotone = 0;
+      for (int j = 0; j < 2; j++) {
+        // hap = ha + phi0.
+        double hap = alpha[j];
+        double sinhap = sind(hap);
+        double latj  = asind(costhe*sindec + sinthe*cosdec*sinhap);
+
+        if (fabs(latj-lat) < TOL) {
+          // A valid root.
+          hap -= phi0;
+
+          if (j == 0) {
+            ha = hap;
+            gotone = 1;
+          } else {
+            if (gotone) {
+              // Two valid solutions, choose the one closer to zero.
+              if (fabs(hap) < fabs(ha)) {
+                ha = hap;
+              }
+            } else {
+              ha = hap;
+            }
+          }
+d527 1
+a527 1
+      // Unrecognised mode.
+d531 2
+a532 6
+    // Normalise the hour angle.
+    if (ha < -180.0) {
+      ha += 360.0;
+    } else if (180.0 < ha) {
+      ha -= 360.0;
+    }
+d548 1
+a548 1
+    double eqeq = dpsi*cos(epsilon);
+d690 1
+a690 1
+//                       normalised to the range (-180, 180] degrees.
+d693 2
+a694 1
+//                       point (deg).
+d750 1
+a750 6
+  *lng2 = fmod(*lng2, 360.0);
+  if (*lng2 <= -180.0) {
+    *lng2 += 360.0;
+  } else if (180.0 < *lng2) {
+    *lng2 -= 360.0;
+  }
+d755 1
+a755 1
+    *lat2 = asin(slat2)*R2D;
+d859 1
+a859 6
+    phi = lng2 - 90.0;
+    if (phi <= -180.0) {
+      phi += 360.0;
+    } else if (180.0 < phi) {
+      phi -= 360.0;
+    }
+d866 1
+a866 2
+    phi0 = lng0 + 90.0;
+    if (180.0 < phi0) phi0 -= 360.0;
+d879 234
+d1185 3
+a1187 9
+  // Compute the two solutions in range [-360,+360].
+  alpha[0] = u - v;
+  alpha[1] = u + v;
+
+  // Normalize in range (-180,+180].
+  for (int i = 0; i < 2; i++) {
+    if (alpha[i] <= -180.0) alpha[i] += 360.0;
+    if (+180.0 <  alpha[i]) alpha[i] -= 360.0;
+  }
+d1197 34
+@
+
+
+0.5
+log
+@Further development to allow for a user-defined coordinate system.
+@
+text
+@d1 1
+a1 1
+// $Id: sundazel.c,v 0.5 2020/01/28 07:54:56 mcalabre Exp mcalabre $
+d26 2
+d505 2
+a506 2
+      double r = sqrt(x*x + y*y);
+      if (r < fabs(z)) {
+a510 3
+      double u = atan2(y, x);
+      double v = acos(z/r);
+
+d512 6
+a517 6
+      double hap;
+      for (int j = -1; j <= 1; j += 2) {
+        // hap = ha + phi0 (rad).
+        hap = u + j*v;
+        double coshap = cos(hap);
+        double sinhap = sin(hap);
+d526 1
+a526 1
+          hap = hap*R2D - phi0;
+d528 1
+a528 1
+          if (j == -1) {
+d530 1
+d532 6
+a537 2
+            // Two valid solutions, choose the one closer to zero.
+            if (fabs(hap) < fabs(ha)) {
+d558 2
+a559 2
+      double r = sqrt(x*x + y*y);
+      if (r < fabs(z)) {
+a563 3
+      double u = atan2(y, x);
+      double v = acos(z/r);
+
+d565 5
+a569 5
+      double hap;
+      for (int j = -1; j <= 1; j += 2) {
+        // hap = ha + phi0 (rad).
+        hap = u + j*v;
+        double sinhap = sin(hap);
+d574 1
+a574 1
+          hap = hap*R2D - phi0;
+d576 1
+a576 1
+          if (j == -1) {
+d578 1
+d580 6
+a585 2
+            // Two valid solutions, choose the one closer to zero.
+            if (fabs(hap) < fabs(ha)) {
+d765 4
+d880 4
+d955 92
+@
+
+
+0.4
+log
+@Further extensive development to add boreal and occidental coordinates.
+@
+text
+@d1 1
+a1 1
+// $Id: sundazel.c,v 0.3 2019/10/06 07:35:51 mcalabre Exp mcalabre $
+d9 3
+d13 4
+a16 4
+int sundazel(char *mode, double coord, double longitude, double latitude,
+  int year, int month, int day,
+  double *ra, double *dec, double *eot, double *utc, double *ha, double *az,
+  double *el, double *blng, double *blat, double *olng, double *olat);
+d20 17
+a36 3
+const double LNG = +151.18130;
+const double LAT =  -33.85865;
+const double TZ  =  +10.0;
+d41 5
+a45 7
+"sundazel computes the time (AEST, without DST correction) of the Sun's\n"
+"passage through the specified azimuth, apparent elevation, boreal\n"
+"longitude, boreal latitude, occidental longitude, or occidental latitude,\n"
+"rising or setting where relevant, for 7 Sorrie St, Balmain on the specified\n"
+"date (default today).\n"
+"The apparent hour angle, azimuth, elevation, boreal longitude and\n"
+"latitude, occidental longitude and latitude are also printed, in degrees.\n"
+d48 2
+a49 1
+"  -m   The Solar passage required and, if relevant, the coordinate value\n"
+d53 15
+a67 9
+"         az=<az>           Solar azimuth.\n"
+"         el_rise=<el>      Apparent Solar elevation, rising.\n"
+"         el_set=<el>       Apparent Solar elevation, setting.\n"
+"         blng=<blng>       Apparent Solar boreal longitude.\n"
+"         blat_rise=<blat>  Apparent Solar boreal latitude, rising.\n"
+"         blat_set=<blat>   Apparent Solar boreal latitude, setting.\n"
+"         olng_rise=<olng>  Apparent Solar occidental longitude, rising.\n"
+"         olng_set=<olng>   Apparent Solar occidental longitude, setting.\n"
+"         olat=<olat>       Apparent Solar occidental latitude.\n"
+d71 20
+a90 4
+"Boreal longitude and latitude form a right-handed spherical coordinate\n"
+"system with its pole at the north-point on the horizon and origin of\n"
+"longitude at the zenith.  Occidental longitude and latitude are similar\n"
+"except with the pole at the west-point.\n"
+d93 4
+a96 3
+"the horizon, corresponding to apparent elevation -0.267 deg.  If no\n"
+"options are specified, the default is to calculate the time of sunset\n"
+"If more than one m option is specified, only the last is effective.\n";
+d104 2
+a105 1
+  double coord = 0.0;
+d114 1
+a114 1
+    case 'm':
+d133 4
+a136 15
+        if (strcmp(mode, "az") == 0) {
+          ident = "azimuth";
+        } else if (strcmp(mode, "el_rise") == 0 ||
+                   strcmp(mode, "el_set")  == 0) {
+          ident = "elevation";
+        } else if (strcmp(mode, "blng") == 0) {
+          ident = "boreal longitude";
+        } else if (strcmp(mode, "blat_rise") == 0 ||
+                   strcmp(mode, "blat_set")  == 0) {
+          ident = "boreal latitude";
+        } else if (strcmp(mode, "olng_rise") == 0 ||
+                   strcmp(mode, "olng_set")  == 0) {
+          ident = "occidental longitude";
+        } else if (strcmp(mode, "olat") == 0) {
+          ident = "occidental latitude";
+d155 44
+d228 3
+a230 3
+  double ra, dec, eot, utc, ha, az, el, blng, blat, olng, olat;
+  if (sundazel(mode, coord, LNG, LAT, iy, im, id, &ra, &dec, &eot, &utc,
+               &ha, &az, &el, &blng, &blat, &olng, &olat)) {
+d235 3
+a237 3
+    double aest = fmod(utc + TZ + 0.5/60.0, 24.0);
+    printf("  %02d:%02d%8.2f%8.2f%8.2f%8.2f%8.2f%8.2f%8.2f", (int)aest,
+      (int)(60*fmod(aest,1.0)), ha, az, el, blng, blat, olng, olat);
+d254 1
+a254 3
+// sundazel() computes the UTC for the given Solar azimuth, elevation, boreal
+// longitude, boreal latitude, // occidental longitude, or occidental
+// latitude.
+d258 1
+a258 2
+// angle, azimuth, elevation, boreal longitude and latitude, occidental
+// longitude and latitude.
+d265 11
+a275 12
+//                                az: Azimuth,
+//                           el_rise: Apparent elevation (rising),
+//                            el_set: Apparent elevation (setting),
+//                              blng: Apparent boreal longitude,
+//                         blat_rise: Apparent boreal latitude (rising),
+//                          blat_set: Apparent boreal latitude (setting),
+//                         olng_rise: Apparent occidental longitude (rising),
+//                          olng_set: Apparent occidental longitude (setting),
+//                              olat: Apparent occidental latitude.
+//   coord     double    The coordinate value corresponding to mode (deg).
+//   longitude double    The observer's longitude (deg).
+//   latitude  double    The observer's latitude (deg).
+d279 1
+d285 1
+a285 1
+//   utc       double*   UTC (hr).
+d287 1
+a287 1
+//   az        double*   Solar azimuth (deg).
+d289 2
+a290 4
+//   blng      double*   Apparent Solar boreal longitude (deg).
+//   blat      double*   Apparent Solar boreal latitude (deg).
+//   olng      double*   Apparent Solar occidental longitude (deg).
+//   olat      double*   Apparent Solar occidental latitude (deg).
+d295 2
+a296 4
+//                         1: The Sun does not attain the requested azimuth,
+//                            apparent elevation, boreal longitude, boreal
+//                            latitude, occidental longitude, or occidental
+//                            latitude on the date specified.
+d322 1
+a322 4
+//           Phi_0 = 90, Theta = 90 - latitude, Phi = -90.
+//
+//        (-ha,dec) -> (blng,blat):
+//           Phi_0 = 90, Theta = -latitude, Phi = 90.
+d324 2
+a325 8
+//        (-ha,dec) -> (olng,olat):
+//           Phi_0 = 0, Theta = 90, Phi = -latitude.
+//
+//        (-az,el) -> (blng,blat):
+//           Phi_0 = 90, Theta = 90, Phi = -90.
+//
+//        (-az,el) -> (olng,olat):
+//           Phi_0 = 0, Theta = -90, Phi = 90.
+d337 6
+a342 3
+  double coord,
+  double longitude,
+  double latitude,
+d346 1
+d354 2
+a355 4
+  double *blng_,
+  double *blat_,
+  double *olng_,
+  double *olat_)
+d358 9
+a366 16
+  const double PI  = 3.141592653589793238462643;
+  const double D2R = PI / 180.0;
+  const double R2D = 180.0 / PI;
+  const double TOL = 0.0001;
+
+  if (ra_   == 0x0 &&
+      dec_  == 0x0 &&
+      eot_  == 0x0 &&
+      utc_  == 0x0 &&
+      ha_   == 0x0 &&
+      az_   == 0x0 &&
+      el_   == 0x0 &&
+      blng_ == 0x0 &&
+      blat_ == 0x0 &&
+      olng_ == 0x0 &&
+      olat_ == 0x0) {
+d371 25
+a415 3
+  double coslat = cos(latitude*D2R);
+  double sinlat = sin(latitude*D2R);
+
+d417 1
+a417 1
+  double lnghr = longitude / 15.0;
+d433 1
+a433 1
+    // Ecliptic longitude and latitude of the Sun (deg), accurate to 1 arcmin.
+d461 4
+a464 51
+    // Compute true hour angle at the specified azimuth or elevation (deg).
+    if (strcmp(mode, "az") == 0) {
+      // Sun at the specified azimuth (unaffected by refraction).
+      double az = fmod(coord, 360.0);
+      if (az < 0.0) az += 360.0;
+
+      if (az == 0.0 || az == 180.0) {
+        ha = 0.0;
+
+      } else {
+        double cosaz = cos(az*D2R);
+        double sinaz = sin(az*D2R);
+        double x = sinlat*cosdec*sinaz;
+        double y =       -cosdec*cosaz;
+        double z = coslat*sindec*sinaz;
+        double r = sqrt(x*x + y*y);
+        if (r < fabs(z)) {
+          // No solution.
+          return 1;
+        }
+
+        double u = atan2(y, x);
+        double v = acos(z/r);
+
+        // Select the appropriate root.
+        for (int j = -1; j <= 1; j += 2) {
+          ha = u + j*v;
+          double cosha = cos(ha);
+          double sinha = sin(ha);
+          double azj = 90.0 - atan2(-sinlat*cosdec*cosha + coslat*sindec,
+                                           -cosdec*sinha)*R2D;
+          azj = fmod(azj, 360.0);
+          if (azj < 0.0) azj += 360.0;
+          if (fabs(azj-az) < TOL) break;
+        }
+      }
+
+      ha *= R2D;
+
+    } else if (strcmp(mode, "sunrise") == 0 ||
+               strcmp(mode, "sunset")  == 0 ||
+               strcmp(mode, "el_rise") == 0 ||
+               strcmp(mode, "el_set")  == 0) {
+      // Sun at the specified apparent elevation, rising or setting.
+      double el;
+      if (mode[0] == 's') {
+        // Sunrise/set.
+        el = -SD;
+      } else {
+        el = coord;
+      }
+d471 2
+a472 2
+      double sinel = sin(el*D2R);
+      double cosha = (sinel - sindec*sinlat) / (cosdec*coslat);
+d480 1
+d482 2
+a483 5
+        // Sun rising above the specified apparent elevation.
+        ha = -acos(cosha);
+      } else {
+        // Sun setting below the specified apparent elevation.
+        ha =  acos(cosha);
+d486 17
+a502 14
+      ha *= R2D;
+
+    } else if (strncmp(mode, "blng", 4) == 0) {
+      // Sun at the specified apparent boreal longitude.
+      double blng = fmod(coord, 360.0);
+      if (blng < 0.0) {
+        blng += 360.0;
+      }
+
+      double cosblng = cos(blng*D2R);
+      double sinblng = sin(blng*D2R);
+      double x =  coslat*cosdec*sinblng;
+      double y =         cosdec*cosblng;
+      double z = -sinlat*sindec*sinblng;
+d513 1
+d515 22
+a536 45
+        ha = u + j*v;
+        double cosha = cos(ha);
+        double sinha = sin(ha);
+        double blngj = 90.0 + atan2(-coslat*cosdec*cosha - sinlat*sindec,
+                                           -cosdec*sinha)*R2D;
+
+        blngj = fmod(blngj, 360.0);
+        if (blngj < 0.0) blngj += 360.0;
+        if (fabs(blngj-blng) < TOL) break;
+      }
+
+      ha *= R2D;
+
+    } else if (strncmp(mode, "blat", 4) == 0) {
+      // Sun at the specified apparent boreal latitude, rising or setting.
+      double blat = coord;
+
+      double x = sinlat*cosdec;
+      double y = 0.0;
+      double z = coslat*sindec - sin(blat*D2R);
+      double r = sqrt(x*x + y*y);
+      if (x == 0.0 || r < fabs(z)) {
+        // No solution.
+        return 1;
+      }
+
+      double u = atan2(y, x);
+      double v = acos(z/r);
+
+      // Select the appropriate root.
+      for (int j = -1; j <= 1; j += 2) {
+        ha = (u + j*v)*R2D;
+
+        if (ha < -180.0) {
+          ha += 360.0;
+        } else if (180.0 < ha) {
+          ha -= 360.0;
+        }
+
+        if (mode[5] == 'r') {
+          // Sun rising above the specified boreal latitude.
+          if (ha <= 0.0) break;
+        } else {
+          // Sun setting below the specified boreal latitude.
+          if (0.0 <= ha) break;
+d540 14
+a553 13
+    } else if (strncmp(mode, "olng", 4) == 0) {
+      // Sun at the specified apparent occidental longitude, rising or setting.
+      double olng = fmod(coord, 360.0);
+      if (olng < -180.0) {
+        olng += 360.0;
+      } else if (180.0 < olng) {
+        olng -= 360.0;
+      }
+
+      double t = (olng + latitude)*D2R;
+      double x = cosdec*sin(t);
+      double y = 0.0;
+      double z = sindec*cos(t);
+d555 1
+a555 29
+      if (x == 0.0 || r < fabs(z)) {
+        // No solution.
+        return 1;
+      }
+
+      double u = atan2(y, x);
+      double v = acos(z/r);
+
+      ha = (u + v)*R2D;
+      if (ha < -180.0) {
+        ha += 360.0;
+      } else if (180.0 < ha) {
+        ha -= 360.0;
+      }
+
+      ha = fabs(ha);
+      if (mode[5] == 'r') {
+        ha = -ha;
+      }
+
+    } else if (strcmp(mode, "olat") == 0) {
+      // Sun at the specified apparent occidental latitude.
+      double olat = coord;
+
+      double x = 0.0;
+      double y = -cosdec;
+      double z = -sin(olat*D2R);
+      double r = sqrt(x*x + y*y);
+      if (y == 0.0 || r < fabs(z)) {
+d564 1
+d566 17
+a582 5
+        ha = (u + j*v)*R2D;
+        if (ha < -180.0) {
+          ha += 360.0;
+        } else if (180.0 < ha) {
+          ha -= 360.0;
+a583 1
+        if (-90.0 <= ha && ha < 90.0) break;
+d609 1
+a609 1
+    double dpsi = -0.000319*sin(omega*D2R) - 0.000024*sin(2.0*L*D2R);
+d621 1
+a621 1
+    utc = fmod(utc + (last0 - last)*1.00273790935, 24.0);
+d623 1
+d628 3
+a630 9
+  // True Solar right ascension (deg).
+  if (ra_) {
+    *ra_ = alpha;
+  }
+
+  // True Solar declination (deg).
+  if (dec_) {
+    *dec_ = delta;
+  }
+d643 1
+a643 3
+  if (utc_) {
+    *utc_ = utc;
+  }
+d646 3
+a648 10
+  double cosha = cos(ha*D2R);
+  double sinha = sin(ha*D2R);
+  double az = 90.0 - atan2(-sinlat*cosdec*cosha + coslat*sindec,
+                                  -cosdec*sinha)*R2D;
+
+  // Normalise.
+  az = fmod(az, 360.0);
+  if (az < 0.0) az += 360.0;
+
+  double el = asin(coslat*cosdec*cosha + sinlat*sindec)*R2D;
+a649 1
+  // Correct for refraction.
+d654 6
+a659 4
+  double cosaz = cos(az*D2R);
+  double sinaz = sin(az*D2R);
+  double cosel = cos(el*D2R);
+  double sinel = sin(el*D2R);
+d662 1
+a662 3
+  if (ha_) {
+    *ha_ = -90.0 - atan2(sinlat*cosel*cosaz - coslat*sinel, cosel*sinaz)*R2D;
+  }
+d664 7
+a670 29
+  // Azimuth.
+  if (az_) {
+    *az_ = az;
+  }
+
+  // Apparent elevation.
+  if (el_) {
+    *el_ = el;
+  }
+
+  // Apparent boreal longitude.
+  if (blng_) {
+    *blng_ = -90.0 + atan2(sinel, -cosel*sinaz)*R2D;
+  }
+
+  // Apparent boreal latitude.
+  if (blat_) {
+    *blat_ = asin(cosel*cosaz)*R2D;
+  }
+
+  // Apparent occidental longitude.
+  if (olng_) {
+    *olng_ = 90.0 + atan2(-sinel, cosel*cosaz)*R2D;
+  }
+
+  // Apparent occidental latitude.
+  if (olat_) {
+    *olat_ = asin(-cosel*sinaz)*R2D;
+  }
+a702 3
+  const double PI  = 3.141592653589793238462643;
+  const double D2R = PI / 180.0;
+
+d705 1
+a705 1
+    *corr = -20.744 / tan(el*D2R);
+d711 1
+a711 1
+    double cotel = 1.0 / tan(el*D2R);
+d721 220
+@
+
+
+0.3
+log
+@Added options to compute the time of sunrise and sunset, corrected for
+variations in the Sun - Earth distance.
+@
+text
+@d1 1
+a1 1
+// $Id: sundazel.c,v 0.2 2019/10/06 06:35:54 mcalabre Exp mcalabre $
+d7 1
+d10 1
+a10 1
+int sundazel(char mode, double azel, double longitude, double latitude,
+d12 2
+a13 1
+  double *ra, double *dec, double *eot, double *utc, double *elaz);
+d17 3
+a19 3
+const double lng = +151.18130;
+const double lat =  -33.85865;
+const double tz  =  +10.0;
+d25 6
+a30 4
+"passage through the specified azimuth or apparent elevation (i.e. corrected\n"
+"for refraction), rising or setting, for 7 Sorrie St, Balmain on the\n"
+"specified date (default today).\n"
+"Also printed is the complementary apparent elevation or azimuth, in deg.\n"
+d33 20
+a52 7
+"  -a <az>      Solar azimuth (deg).\n"
+"  -r <el>      Apparent Solar elevation, rising  (deg).\n"
+"  -s <el>      Apparent Solar elevation, setting (deg).\n"
+"  -R           Sunrise.\n"
+"  -S           Sunset.\n"
+"  -v           Also print the Sun's elevation (or azimuth), right ascension\n"
+"               and declination (deg), and the Equation of Time (min).\n"
+d57 1
+a57 1
+"If more than one option is specified, only the last is effective.\n";
+d63 1
+a63 1
+  char   mode = 'S';
+d65 1
+a65 1
+  double azel = 0.0;
+d69 2
+d73 9
+a81 1
+    if (!argv[i][1]) break;
+d83 28
+a110 5
+    switch (argv[i][1]) {
+    case 'a':
+    case 'r':
+    case 's':
+      mode = argv[i][1];
+d112 7
+a118 3
+      if (++i < argc) {
+        // Set the solar azimuth or elevation.
+        azel = atof(argv[i]);
+d121 1
+a121 2
+        fprintf(stderr, "%s", usage);
+        return 1;
+a122 1
+      break;
+a123 4
+    case 'R':
+    case 'S':
+      // No arguments.
+      mode = argv[i][1];
+d131 1
+a131 2
+      fprintf(stderr, "%s", usage);
+      return 1;
+d138 1
+a138 4
+    if (++i < argc) {
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+d155 3
+a157 3
+  double ra, dec, eot, utc, elaz;
+  if (sundazel(mode, azel, lng, lat, iy, im, id, &ra, &dec, &eot, &utc,
+               &elaz)) {
+d159 1
+a159 1
+           (mode=='a')?"azimuth":"elevation", iy, im, id);
+d162 3
+a164 2
+    double aest = fmod(utc + tz + 0.5/60.0, 24.0);
+    printf("  %02d:%02d%8.2f", (int)aest, (int)(60*fmod(aest,1.0)), elaz);
+d172 4
+d179 5
+a183 4
+// sundazel() - Compute UTC for the given Solar azimuth or elevation
+// -----------------------------------------------------------------
+// sundazel() computes the UTC for the given Solar azimuth or apparent
+// elevation.
+d186 3
+a188 2
+// ascension, declination, the Equation of Time, and either the Solar
+// elevation or azimuth.
+d191 16
+a206 14
+//   mode      char      A single-character code indicating what UTC is
+//                       to be computed for:
+//                         a: the Sun's azimuth specified in azel (deg),
+//                         r: the Sun rising  above the apparent elevation
+//                            specified in azel (deg), or
+//                         s: the Sun setting below the apparent elevation
+//                            specified in azel (deg),
+//                         R: sunrise,
+//                         S: sunset.
+//   azel      double    For mode == 'a', the Solar azimuth required; for
+//                       mode == 'r' or mode == 's', the apparent elevation
+//                       [deg].
+//   longitude double    The observer's longitude [deg].
+//   latitude  double    The observer's latitude [deg].
+d212 11
+a222 7
+//   ra        double*   Solar right ascension [deg].
+//   dec       double*   Solar declination [deg]
+//   eot       double*   Equation of Time [min].
+//   utc       double*   UTC [hr].
+//   elaz      double*   For mode == 'a', the apparent Solar elevation at the
+//                       given azimuth, else the Solar azimuth at the given
+//                       apparent elevation, or at sunrise/set [deg].
+d227 4
+a230 2
+//                         1: The Sun does not attain the requested azimuth or
+//                            apparent elevation on the date specified.
+d254 17
+a270 1
+//   6: Formulae from aa.usno.navy.mil/faq/docs/SunApprox.php
+d273 1
+a273 1
+//   7: Validated against ssd.jpl.nasa.gov/horizons.cgi
+d279 2
+a280 2
+  char   mode,
+  double azel,
+d286 11
+a296 5
+  double *ra,
+  double *dec,
+  double *eot,
+  double *utc,
+  double *elaz)
+d304 11
+a314 5
+  if (ra   == 0x0 &&
+      dec  == 0x0 &&
+      eot  == 0x0 &&
+      utc  == 0x0 &&
+      elaz == 0x0) {
+d339 2
+a340 3
+  latitude *= D2R;
+  double coslat = cos(latitude);
+  double sinlat = sin(latitude);
+d346 1
+a346 1
+  double ut =  12.0 - lnghr;
+d348 1
+d350 1
+a350 1
+    double D = D0 + ut/24.0;
+d353 1
+a353 1
+    double L = fmod(280.459 + 0.98564736*D, 360.0);
+d373 1
+a373 1
+    // Solar right ascension and declination (rad).
+d376 2
+a377 2
+    double alpha = atan2(cos(epsilon)*sin(lambda), cos(lambda));
+    double delta = asin(sin(epsilon)*sin(lambda));
+d379 2
+a380 2
+    double cosdec = cos(delta);
+    double sindec = sin(delta);
+d387 7
+a393 6
+    // Compute the hour angle at the specified azimuth or elevation (deg).
+    double ha, cosha, sinha;
+    if (mode == 'a') {
+      // Sun at the specified azimuth.
+      double tanaz = tan(azel*D2R);
+      if (tanaz == 0.0) {
+a394 2
+        cosha = 1.0;
+        sinha = 0.0;
+d397 6
+a402 4
+        double cotaz = 1.0 / tanaz;
+        double tandec = sindec / cosdec;
+        double z = tandec*coslat;
+        double r = sqrt(sinlat*sinlat + cotaz*cotaz);
+d404 1
+a404 1
+          // The Sun does not pass through the specified azimuth.
+d408 1
+a408 5
+        // Normalise the azimuth.
+        azel = fmod(azel, 360.0);
+        if (azel < 0.0) azel += 360.0;
+
+        double u = atan2(-cotaz, sinlat);
+d414 7
+a420 6
+          cosha = cos(ha);
+          sinha = sin(ha);
+          double az = 90.0 - atan2(tandec*coslat - cosha*sinlat, -sinha)*R2D;
+          az = fmod(az, 360.0);
+          if (az < 0.0) az += 360.0;
+          if (fabs(az-azel) < TOL) break;
+d422 1
+d424 1
+a424 8
+        // Normalise the hour angle.
+        ha *= R2D;
+        if (ha < -180.0) {
+          ha += 360.0;
+        } else if (180.0 < ha) {
+          ha -= 360.0;
+        }
+      }
+d426 4
+a429 1
+    } else {
+d432 1
+a432 1
+      if (mode == 'R' || mode == 'S') {
+d436 1
+a436 1
+        el = azel;
+d445 1
+a445 1
+      cosha = (sinel - sindec*sinlat) / (cosdec*coslat);
+d447 3
+a449 2
+      if (cosha < -1.0) {
+        // The Sun does not set.
+a450 3
+      } else if (1.0 < cosha) {
+        // The Sun does not rise.
+        return 2;
+d453 2
+a454 2
+      if (mode == 'r' || mode == 'R') {
+        // Sun rising above the specified elevation.
+d457 1
+a457 1
+        // Sun setting below the specified elevation.
+a460 1
+      sinha = sin(ha);
+d462 136
+d600 9
+a608 2
+    // Local apparent sidereal time of sunrise/set.
+    double last0 = (alpha + ha) / 15.0;
+d611 1
+a611 1
+    double gmst = fmod(6.697374558 + 0.06570982441908*D0 + 1.00273790935*ut,
+d629 4
+a632 2
+    // UTC of sunrise/set.
+    ut = fmod(ut + (last0 - last)*1.00273790935, 24.0);
+a633 21
+    // Copy or compute values to be returned.
+    if (i) {
+      // Solar right ascension (deg).
+      if (ra) {
+        *ra = alpha;
+      }
+
+      // Solar declination (deg).
+      if (dec) {
+        *dec = delta;
+      }
+
+      // Equation of time (min).
+      if (eot) {
+        *eot = (L - alpha) * 4.0;
+        if (*eot < -720.0) {
+          *eot += 1440.0;
+        } else if (720.0 < *eot) {
+          *eot -= 1440.0;
+        }
+      }
+d635 5
+a639 4
+      // UTC of specified azimuth or elevation (hr).
+      if (utc) {
+        *utc = ut;
+      }
+d641 4
+a644 10
+      // Elevation (or azimuth) at the specified azimuth (or elevation) (deg).
+      if (elaz) {
+        if (mode == 'a') {
+          // Compute the true elevation.
+          *elaz = asin(cosha*cosdec*coslat + sindec*sinlat)*R2D;
+
+          // Correct for refraction.
+	  double corr;
+	  refract(*elaz, &corr);
+	  *elaz += corr;
+d646 7
+a652 10
+        } else {
+          // Compute the azimuth.
+          double tandec = sindec / cosdec;
+          *elaz = 90.0 - atan2(tandec*coslat - cosha*sinlat, -sinha)*R2D;
+
+          // Normalise.
+          *elaz = fmod(*elaz, 360.0);
+          if (*elaz < 0.0) *elaz += 360.0;
+        }
+      }
+d656 63
+d726 1
+a726 1
+// sundazel() computes an approximate correction for atmospheric refraction.
+d729 1
+a729 1
+//   el        double    True (geometric) Solar elevation [deg].
+d733 1
+a733 1
+//                       give the apparent elevation [deg].
+@
+
+
+0.2
+log
+@Further development, including a correction for refraction.
+@
+text
+@d1 1
+a1 1
+// $Id$
+a17 1
+const double el0 = -0.2667;
+d23 3
+a25 2
+"passage through the specified azimuth or apparent elevation, rising or\n"
+"setting, for 7 Sorrie St, Balmain on the specified date (default today).\n"
+d32 2
+d37 3
+a39 3
+"If no options are specified, the default is to calculate sunset below\n"
+"apparent elevation -0.2667 deg, corresponding to last contact of the Sun's\n"
+"limb on the horizon\n"
+d46 1
+a46 1
+  char   mode = 's';
+d48 1
+a48 1
+  double azel = el0;
+d72 6
+d146 6
+a151 3
+//                            specified in azel (deg).
+//   azel      double    For mode == 'a', the Solar azimuth required, else the
+//                       apparent elevation [deg].
+d165 1
+a165 1
+//                       apparent elevation [deg].
+d280 6
+d349 7
+a355 1
+      double el = azel;
+d373 1
+a373 1
+      if (mode == 'r') {
+@
+
+
+0.1
+log
+@Initial revision.
+@
+text
+@d1 2
+d13 2
+d18 1
+a18 1
+const double el0 = -0.833;
+d24 3
+a26 3
+"passage through the specified azimuth or elevation, rising or setting,\n"
+"for 7 Sorrie St, Balmain on the specified date (default today).\n"
+"Also printed is the complementary elevation or azimuth, in degrees.\n"
+d30 4
+a33 4
+"  -r <el>      Solar elevation, rising  (deg).\n"
+"  -s <el>      Solar elevation, setting (deg).\n"
+"  -v           Also print the Sun's right ascension and declination (deg),\n"
+"               and the Equation of Time (min).\n"
+d36 2
+a37 1
+"elevation -0.833 deg, which accounts for atmospheric refraction.\n"
+d40 1
+d72 1
+d111 1
+d113 1
+a113 4
+      printf("%8.2f%8.2f%8.2f  %02d:%02d%8.2f\n", ra, dec, eot, (int)aest,
+             (int)(60*fmod(aest,1.0)), elaz);
+    } else {
+      printf("  %02d:%02d%8.2f\n", (int)aest, (int)(60*fmod(aest,1.0)), elaz);
+d115 1
+d121 70
+a190 1
+//----------------------------------------------------------------------------
+a206 23
+  // Returns the UTC corresponding to the Sun's azimuth or elevation according
+  // to mode:
+  //   a) the Sun's azimuth specified in azel (deg),
+  //   r) the Sun rising  above the elevation specified in azel (deg), or
+  //   s) the Sun setting below the elevation specified in azel (deg).
+  //
+  // The observer's longitude and latitude are specified in degrees, and
+  // year, month, and day refer to UTC (time zone 0h).
+  //
+  // Corresponding to the computed UTC, also returned are the Solar right
+  // ascension (deg), declination (deg), the Equation of Time (min), and
+  // solar elevation (deg, for mode == a), or azimuth (deg, otherwise).
+  // Null pointers may be provided for quantities that are not required.
+  //
+  // Neither refraction nor the observer's elevation are accounted for.
+  // Set elevation to -0°.833 for sunrise/set on the horizon for an observer
+  // at sea level.
+  //
+  // Formulae from https://aa.usno.navy.mil/faq/docs/SunApprox.php
+  //           and https://aa.usno.navy.mil/faq/docs/GAST.php
+  // Validated against https://ssd.jpl.nasa.gov/horizons.cgi
+  //               and https://www.esrl.noaa.gov/gmd/grad/solcalc
+
+d238 3
+d252 1
+a252 5
+    // Julian Date at rise/set time.
+    double jd = jd0 + ut/24.0;
+
+    // Number of days since epoch J2000.0.
+    double D = jd - 2451545.0;
+d331 9
+a339 2
+      // Sun at the specified elevation, rising or setting.
+      double sinel = sin(azel*D2R);
+d362 2
+a363 2
+    // Local sidereal time of sunrise/set.
+    double lmst0 = (alpha + ha) / 15.0;
+d366 8
+a373 1
+    double gmst = fmod(18.697374558 + 24.06570982441908*D, 24.0);
+d375 8
+a382 2
+    // Local mean sidereal time corresponding to UTC (hr).
+    double lmst = fmod(gmst + lnghr, 24.0);
+d385 1
+a385 1
+    ut = fmod(ut + (lmst0 - lmst)*1.00273790935, 24.0);
+d417 1
+a417 1
+          // Compute the elevation.
+d420 5
+d437 52
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 363
+@

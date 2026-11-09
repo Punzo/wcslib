@@ -1,0 +1,3855 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	1.0;
+
+1.0
+date	2015.04.04.02.56.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.08.31.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.13.08.45.11;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.3;
+
+5.1.1.3
+date	2015.04.13.11.44.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.17;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.2;
+
+5.2.1.2
+date	2015.04.21.02.37.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.2;
+
+5.7.1.2
+date	2015.07.05.08.05.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.02;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.13.00.26.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.18.56;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.26.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.01.07.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.05.04.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.04.27.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.05.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.12.02.50.54;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.21.34;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.41;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.38.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.08.40.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.09.02.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.11;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.15.17.33;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.10.14.58.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FORTRAN wrappers for the WCSLIB C routines in dis.c.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: dis_f.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* In these wrappers, if
+*
+*   deref == 0, then dis is the address of a Fortran INTEGER array of length
+*               DISLEN containing a disprm struct.
+*
+*   deref == 1, then dis is the address of a Fortran INTEGER(2) array holding
+*               the address of a disprm struct, such as is returned by
+*               disalloc_(), or linget() with LIN_DISPRE or LIN_DISSEQ.
+*
+*---------------------------------------------------------------------------*/
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <wcserr.h>
+#include <wcsutil.h>
+#include <dis.h>
+
+// Fortran name mangling.
+#include <wcsconfig_f77.h>
+#define disalloc_ F77_FUNC(disalloc, DISALLOC)
+#define disput_   F77_FUNC(disput,   DISPUT)
+#define disptc_   F77_FUNC(disptc,   DISPTC)
+#define disptd_   F77_FUNC(disptd,   DISPTD)
+#define dispti_   F77_FUNC(dispti,   DISPTI)
+#define disget_   F77_FUNC(disget,   DISGET)
+#define disgtc_   F77_FUNC(disgtc,   DISGTC)
+#define disgtd_   F77_FUNC(disgtd,   DISGTD)
+#define disgti_   F77_FUNC(disgti,   DISGTI)
+
+#define disndp_   F77_FUNC(disndp,   DISNDP)
+#define dpfill_   F77_FUNC(dpfill,   DPFILL)
+#define dpkeyi_   F77_FUNC(dpkeyi,   DPKEYI)
+#define dpkeyd_   F77_FUNC(dpkeyd,   DPKEYD)
+#define disini_   F77_FUNC(disini,   DISINI)
+#define disinit_  F77_FUNC(disinit,  DISINIT)
+#define discpy_   F77_FUNC(discpy,   DISCPY)
+#define disfree_  F77_FUNC(disfree,  DISFREE)
+#define dissize_  F77_FUNC(dissize,  DISSIZE)
+#define disenq_   F77_FUNC(disenq,   DISENQ)
+#define disprt_   F77_FUNC(disprt,   DISPRT)
+#define disperr_  F77_FUNC(disperr,  DISPERR)
+#define dishdo_   F77_FUNC(dishdo,   DISHDO)
+#define disset_   F77_FUNC(disset,   DISSET)
+#define disp2x_   F77_FUNC(disp2x,   DISP2X)
+#define disx2p_   F77_FUNC(disx2p,   DISX2P)
+#define diswarp_  F77_FUNC(diswarp,  DISWARP)
+
+#ifdef BINDC
+  #undef  disptc_
+  #define disptc_ disptc_c
+
+  #undef  disgtc_
+  #define disgtc_ disgtc_c
+
+  #undef  dpfill_
+  #define dpfill_ dpfill_c
+
+  #undef  disperr_
+  #define disperr_ disperr_c
+#endif
+
+// Must match the values set in dis.inc.
+#define DIS_FLAG   100
+#define DIS_NAXIS  101
+#define DIS_DTYPE  102
+#define DIS_NDP    103
+#define DIS_NDPMAX 104
+#define DIS_DP     105
+#define DIS_TOTDIS 106
+#define DIS_MAXDIS 107
+
+#define DIS_DOCORR 200
+#define DIS_NHAT   201
+#define DIS_AXMAP  202
+#define DIS_OFFSET 203
+#define DIS_SCALE  204
+#define DIS_IPARM  205
+#define DIS_DPARM  206
+#define DIS_INAXIS 207
+#define DIS_NDIS   208
+#define DIS_ERR    209
+
+//----------------------------------------------------------------------------
+
+// disp should be the address of an INTEGER(2) array.  On return it holds
+// the address of an allocated disprm struct.
+
+int disalloc_(int *disp)
+
+{
+  if ((*(struct disprm **)disp = calloc(1, sizeof(struct disprm))) == 0x0) {
+    return DISERR_MEMORY;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int disput_(
+  const int *deref,
+  int *dis,
+  const int *what,
+  const void *value,
+  const int *j,
+  const int *dummy)
+
+{
+  // Avert nuisance compiler warnings about unused parameters.
+  (void)dummy;
+
+  // Cast pointers.
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  const char   *cvalp = (const char *)value;
+  const int    *ivalp = (const int *)value;
+  const double *dvalp = (const double *)value;
+
+  // Convert 1-relative FITS (and Fortran) axis numbers and parameter
+  // indices to 0-relative C array indices.
+  int j0 = *j - 1;
+
+  // Preserve bypass mode.
+  int flag = 0;
+  if (disp->flag == 1 || disp->flag < 0) flag = 1;
+
+  switch (*what) {
+  case DIS_FLAG:
+    disp->flag = *ivalp;
+    break;
+  case DIS_NAXIS:
+    disp->naxis = *ivalp;
+    disp->flag = flag;
+    break;
+  case DIS_DTYPE:
+    wcsutil_strcvt(72, '\0', 0, cvalp, disp->dtype[j0]);
+    disp->flag = 0;
+    break;
+  case DIS_NDP:
+  case DIS_NDPMAX:
+    return 1;
+    break;
+  case DIS_DP:
+    // Use DPFILL to create the struct.
+    memcpy((char *)(disp->dp + disp->ndp), cvalp, DPLEN*sizeof(int));
+    (disp->ndp)++;
+    disp->flag = flag;
+    break;
+  case DIS_TOTDIS:
+    disp->totdis = *dvalp;
+    break;
+  case DIS_MAXDIS:
+    disp->maxdis[j0] = *dvalp;
+    break;
+  default:
+    return 1;
+  }
+
+  return 0;
+}
+
+int disptc_(const int *deref, int *dis, const int *what, const char *value,
+  const int *j, const int *k)
+{
+  return disput_(deref, dis, what, value, j, k);
+}
+
+int disptd_(const int *deref, int *dis, const int *what, const double *value,
+  const int *j, const int *k)
+{
+  return disput_(deref, dis, what, value, j, k);
+}
+
+int dispti_(const int *deref, int *dis, const int *what, const int *value,
+  const int *j, const int *k)
+{
+  return disput_(deref, dis, what, value, j, k);
+}
+
+//----------------------------------------------------------------------------
+
+int disget_(const int *deref, const int *dis, const int *what, void *value)
+
+{
+  // Cast pointers.
+  const struct disprm *disp;
+  if (*deref == 0) {
+    disp = (const struct disprm *)dis;
+  } else {
+    disp = *(const struct disprm **)dis;
+  }
+
+  char   *cvalp = (char *)value;
+  int    *ivalp = (int *)value;
+  double *dvalp = (double *)value;
+
+  int naxis = disp->naxis;
+
+  switch (*what) {
+  case DIS_FLAG:
+    *ivalp = disp->flag;
+    break;
+  case DIS_NAXIS:
+    *ivalp = naxis;
+    break;
+  case DIS_DTYPE:
+    for (int j = 0; j < naxis; j++) {
+      wcsutil_strcvt(72, ' ', 0, disp->dtype[j], cvalp);
+      cvalp += 72;
+    }
+    break;
+  case DIS_NDP:
+    *ivalp = disp->ndp;
+    break;
+  case DIS_NDPMAX:
+    *ivalp = disp->ndpmax;
+    break;
+  case DIS_DP:
+    memcpy(cvalp, (char *)disp->dp, disp->ndp*DPLEN*sizeof(int));
+    break;
+  case DIS_TOTDIS:
+    *dvalp = disp->totdis;
+    break;
+  case DIS_MAXDIS:
+    for (int j = 0; j < naxis; j++) {
+      *(dvalp++) = disp->maxdis[j];
+    }
+    break;
+  case DIS_DOCORR:
+    for (int j = 0; j < naxis; j++) {
+      *(ivalp++) = disp->docorr[j];
+    }
+    break;
+  case DIS_NHAT:
+    for (int j = 0; j < naxis; j++) {
+      *(ivalp++) = disp->Nhat[j];
+    }
+    break;
+  case DIS_AXMAP:
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+        *(ivalp++) = disp->axmap[j][k];
+      }
+    }
+    break;
+  case DIS_OFFSET:
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+        *(dvalp++) = disp->offset[j][k];
+      }
+    }
+    break;
+  case DIS_SCALE:
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+        *(dvalp++) = disp->scale[j][k];
+      }
+    }
+    break;
+  case DIS_IPARM:
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < disp->iparm[j][0]; k++) {
+        *(ivalp++) = disp->iparm[j][k];
+      }
+    }
+    break;
+  case DIS_DPARM:
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < disp->iparm[j][1]; k++) {
+        *(dvalp++) = disp->dparm[j][k];
+      }
+    }
+    break;
+  case DIS_INAXIS:
+    *ivalp = disp->i_naxis;
+    break;
+  case DIS_NDIS:
+    *ivalp = disp->ndis;
+    break;
+  case DIS_ERR:
+    // Copy the contents of the wcserr struct.
+    if (disp->err) {
+      const int *idisp = (int *)(disp->err);
+      for (size_t l = 0; l < ERRLEN; l++) {
+        *(ivalp++) = *(idisp++);
+      }
+    } else {
+      for (size_t l = 0; l < ERRLEN; l++) {
+        *(ivalp++) = 0;
+      }
+    }
+    break;
+  default:
+    return 1;
+  }
+
+  return 0;
+}
+
+int disgtc_(const int *deref, const int *dis, const int *what, char *value)
+{
+  return disget_(deref, dis, what, value);
+}
+
+int disgtd_(const int *deref, const int *dis, const int *what, double *value)
+{
+  return disget_(deref, dis, what, value);
+}
+
+int disgti_(const int *deref, const int *dis, const int *what, int *value)
+{
+  return disget_(deref, dis, what, value);
+}
+
+//----------------------------------------------------------------------------
+
+int disndp_(int *ndpmax) { return disndp(*ndpmax); }
+
+//----------------------------------------------------------------------------
+
+// keyword and field should be null-terminated, or else of length 72 in which
+// case trailing blanks are not significant.
+
+int dpfill_(
+  const int *dp,
+  const char *keyword,
+  const char *field,
+  int *j,
+  int *type,
+  int *ival,
+  double *fval)
+
+{
+  char keyword_[73], field_[73];
+  wcsutil_strcvt(72, '\0', 1, keyword, keyword_);
+  wcsutil_strcvt(72, '\0', 1, field, field_);
+
+  return dpfill((struct dpkey *)dp, keyword_, field_, *j, *type, *ival,
+                 *fval);
+}
+
+//----------------------------------------------------------------------------
+
+int dpkeyi_(
+  const int *dp)
+
+{
+  return dpkeyi((struct dpkey *)dp);
+}
+
+//----------------------------------------------------------------------------
+
+double dpkeyd_(
+  const int *dp)
+
+{
+  return dpkeyd((struct dpkey *)dp);
+}
+
+//----------------------------------------------------------------------------
+
+int disini_(const int *deref, const int *naxis, int *dis)
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disini(1, *naxis, disp);
+}
+
+//----------------------------------------------------------------------------
+
+int disinit_(const int *deref, const int *naxis, int *dis, int *ndpmax)
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disinit(1, *naxis, disp, *ndpmax);
+}
+
+//----------------------------------------------------------------------------
+
+int discpy_(const int *deref, const int *dissrc, int *disdst)
+
+{
+  const struct disprm *dissrcp;
+  if ((*deref&1) == 0) {
+    dissrcp = (const struct disprm *)dissrc;
+  } else {
+    dissrcp = *(const struct disprm **)dissrc;
+  }
+
+  struct disprm *disdstp;
+  if ((*deref&2) == 0) {
+    disdstp = (struct disprm *)disdst;
+  } else {
+    disdstp = *(struct disprm **)disdst;
+  }
+
+  return discpy(1, dissrcp, disdstp);
+}
+
+//----------------------------------------------------------------------------
+
+int disfree_(const int *deref, int *dis)
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disfree(disp);
+}
+
+//----------------------------------------------------------------------------
+
+int dissize_(const int *dis, int sizes[2])
+
+{
+  return dissize((const struct disprm *)dis, sizes);
+}
+
+//----------------------------------------------------------------------------
+
+int disenq_(const int *dis, int *enquiry)
+
+{
+  return disenq((const struct disprm *)dis, *enquiry);
+}
+
+//----------------------------------------------------------------------------
+
+int disprt_(const int *deref, const int *dis)
+
+{
+  const struct disprm *disp;
+  if (*deref == 0) {
+    disp = (const struct disprm *)dis;
+  } else {
+    disp = *(const struct disprm **)dis;
+  }
+
+  // This may or may not force the Fortran I/O buffers to be flushed.  If
+  // not, try CALL FLUSH(6) before calling DISPRT in the Fortran code.
+  fflush(NULL);
+
+  return disprt(disp);
+}
+
+//----------------------------------------------------------------------------
+
+// If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+// length less than but not exceeding 72 and trailing blanks are preserved.
+// Otherwise, it must be of length 72 and trailing blanks are stripped off.
+
+int disperr_(const int *deref, int *dis, const char prefix[72])
+
+{
+  const struct disprm *disp;
+  if (*deref == 0) {
+    disp = (const struct disprm *)dis;
+  } else {
+    disp = *(const struct disprm **)dis;
+  }
+
+  char prefix_[73];
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+
+  // This may or may not force the Fortran I/O buffers to be flushed.
+  // If not, try CALL FLUSH(6) before calling DISPERR in the Fortran code.
+  fflush(NULL);
+
+  return wcserr_prt(disp->err, prefix_);
+}
+
+//----------------------------------------------------------------------------
+
+int dishdo_(const int *deref, int *dis)
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return dishdo(disp);
+}
+
+//----------------------------------------------------------------------------
+
+int disset_(const int *deref, int *dis)
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disset(disp);
+}
+
+//----------------------------------------------------------------------------
+
+int disp2x_(
+  const int *deref,
+  int *dis,
+  const double rawcrd[],
+  double discrd[])
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disp2x(disp, rawcrd, discrd);
+}
+
+//----------------------------------------------------------------------------
+
+int disx2p_(
+  const int *deref,
+  int *dis,
+  const double discrd[],
+  double rawcrd[])
+
+{
+  struct disprm *disp;
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disx2p(disp, discrd, rawcrd);
+}
+
+//----------------------------------------------------------------------------
+
+int diswarp_(
+  int *dis,
+  const double pixblc[],
+  const double pixtrc[],
+  const double pixsamp[],
+  int    *nsamp,
+  double maxdis[],
+  double *maxtot,
+  double avgdis[],
+  double *avgtot,
+  double rmsdis[],
+  double *rmstot)
+
+{
+  return diswarp((struct disprm *)dis, pixblc, pixtrc, pixsamp, nsamp,
+                 maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot);
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.5.1.2 2026/03/29 13:36:18 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: dis_f.c,v 8.4.1.2 2025/12/06 13:37:18 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: dis_f.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.2.1.4 2024/05/10 14:58:53 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d65 1
+d74 14
+a134 6
+  int j0;
+  const char *cvalp;
+  const int  *ivalp;
+  const double *dvalp;
+  struct disprm *disp;
+
+d139 1
+d146 3
+a148 3
+  cvalp = (const char *)value;
+  ivalp = (const int *)value;
+  dvalp = (const double *)value;
+d152 5
+a156 1
+  j0 = *j - 1;
+d164 1
+a164 1
+    disp->flag = 0;
+d178 1
+a178 1
+    disp->flag = 0;
+d216 1
+a216 6
+  unsigned int l;
+  int j, k, naxis;
+  char   *cvalp;
+  int    *ivalp;
+  double *dvalp;
+  const int    *idisp;
+a217 2
+
+  // Cast pointers.
+d224 3
+a226 3
+  cvalp = (char *)value;
+  ivalp = (int *)value;
+  dvalp = (double *)value;
+d228 1
+a228 1
+  naxis = disp->naxis;
+d238 1
+a238 1
+    for (j = 0; j < naxis; j++) {
+d256 1
+a256 1
+    for (j = 0; j < naxis; j++) {
+d261 1
+a261 1
+    for (j = 0; j < naxis; j++) {
+d266 1
+a266 1
+    for (j = 0; j < naxis; j++) {
+d271 2
+a272 2
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < naxis; k++) {
+d278 2
+a279 2
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < naxis; k++) {
+d285 2
+a286 2
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < naxis; k++) {
+d292 2
+a293 2
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < disp->iparm[j][0]; k++) {
+d299 2
+a300 2
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < disp->iparm[j][1]; k++) {
+d314 2
+a315 2
+      idisp = (int *)(disp->err);
+      for (l = 0; l < ERRLEN; l++) {
+d319 1
+a319 1
+      for (l = 0; l < ERRLEN; l++) {
+a396 1
+
+a411 1
+
+a426 2
+  struct disprm *disdstp;
+
+d433 1
+a448 1
+
+d468 8
+a479 1
+
+a524 1
+
+a539 1
+
+a558 1
+
+a577 1
+
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Changes required to support the new Fortran 2003 BIND(C) wrappers.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.2.1.2 2024/04/02 14:06:11 mcalabre Exp mcalabre $
+a71 14
+
+#ifdef BINDC
+  #undef  disptc_
+  #define disptc_ disptc_c
+
+  #undef  disgtc_
+  #define disgtc_ disgtc_c
+
+  #undef  dpfill_
+  #define dpfill_ dpfill_c
+
+  #undef  disperr_
+  #define disperr_ disperr_c
+#endif
+@
+
+
+8.2.1.4
+log
+@Changes in disput_() to support bypass mode in disset().
+Added disenq_().
+Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.2.1.3 2024/05/06 15:17:33 mcalabre Exp mcalabre $
+a64 1
+#define disenq_   F77_FUNC(disenq,   DISENQ)
+d134 6
+a143 1
+  struct disprm *disp;
+d150 3
+a152 3
+  const char   *cvalp = (const char *)value;
+  const int    *ivalp = (const int *)value;
+  const double *dvalp = (const double *)value;
+d156 1
+a156 5
+  int j0 = *j - 1;
+
+  // Preserve bypass mode.
+  int flag = 0;
+  if (disp->flag == 1 || disp->flag < 0) flag = 1;
+d164 1
+a164 1
+    disp->flag = flag;
+d178 1
+a178 1
+    disp->flag = flag;
+d216 8
+a224 1
+  const struct disprm *disp;
+d231 3
+a233 3
+  char   *cvalp = (char *)value;
+  int    *ivalp = (int *)value;
+  double *dvalp = (double *)value;
+d235 1
+a235 1
+  int naxis = disp->naxis;
+d245 1
+a245 1
+    for (int j = 0; j < naxis; j++) {
+d263 1
+a263 1
+    for (int j = 0; j < naxis; j++) {
+d268 1
+a268 1
+    for (int j = 0; j < naxis; j++) {
+d273 1
+a273 1
+    for (int j = 0; j < naxis; j++) {
+d278 2
+a279 2
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+d285 2
+a286 2
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+d292 2
+a293 2
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < naxis; k++) {
+d299 2
+a300 2
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < disp->iparm[j][0]; k++) {
+d306 2
+a307 2
+    for (int j = 0; j < naxis; j++) {
+      for (int k = 0; k < disp->iparm[j][1]; k++) {
+d321 2
+a322 2
+      const int *idisp = (int *)(disp->err);
+      for (size_t l = 0; l < ERRLEN; l++) {
+d326 1
+a326 1
+      for (size_t l = 0; l < ERRLEN; l++) {
+d404 1
+d420 1
+d436 2
+a443 1
+  struct disprm *disdstp;
+d459 1
+a478 8
+int disenq_(const int *dis, int *enquiry)
+
+{
+  return disenq((const struct disprm *)dis, *enquiry);
+}
+
+//----------------------------------------------------------------------------
+
+d483 1
+d529 1
+d545 1
+d565 1
+d585 1
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 8.0.1.2 2023/07/04 09:02:03 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.13.1.2 2023/06/15 04:17:21 mcalabre Exp mcalabre $
+d80 2
+a81 2
+#define DIS_MAXDIS 106
+#define DIS_TOTDIS 107
+d166 3
+a171 3
+  case DIS_TOTDIS:
+    disp->totdis = *dvalp;
+    break;
+d245 3
+a251 3
+    break;
+  case DIS_TOTDIS:
+    *dvalp = disp->totdis;
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@Reflect changes made to disprm.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d80 2
+a81 2
+#define DIS_TOTDIS 106
+#define DIS_MAXDIS 107
+d166 3
+a171 3
+  case DIS_MAXDIS:
+    disp->maxdis[j0] = *dvalp;
+    break;
+a244 3
+  case DIS_TOTDIS:
+    *dvalp = disp->totdis;
+    break;
+d249 3
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.7.1.2 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.5.1.2 2021/04/13 08:40:12 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.4.1.2 2021/02/22 07:38:08 mcalabre Exp mcalabre $
+d64 1
+d453 8
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Wrapper for dissize().
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a63 1
+#define dissize_  F77_FUNC(dissize,  DISSIZE)
+a451 8
+}
+
+//----------------------------------------------------------------------------
+
+int dissize_(const int *dis, int sizes[2])
+
+{
+  return dissize((const struct disprm *)dis, sizes);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.3.1.4 2021/01/28 12:31:46 mcalabre Exp mcalabre $
+d152 1
+a152 1
+    wcsutil_strcvt(72, '\0', cvalp, disp->dtype[j0]);
+d231 1
+a231 1
+      wcsutil_strcvt(72, ' ', disp->dtype[j], cvalp);
+d357 3
+a359 7
+  char field_[73], keyword_[73];
+
+  wcsutil_strcvt(72, '\0', keyword, keyword_);
+  keyword_[72] = '\0';
+
+  wcsutil_strcvt(72, '\0', field, field_);
+  field_[72] = '\0';
+a482 1
+  char prefix_[73];
+a483 1
+
+d490 2
+a491 2
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Revised API to wcsutil_strcvt().
+@
+text
+@d22 1
+a22 1
+  $Id: dis_f.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d152 1
+a152 1
+    wcsutil_strcvt(72, '\0', 0, cvalp, disp->dtype[j0]);
+d231 1
+a231 1
+      wcsutil_strcvt(72, ' ', 0, disp->dtype[j], cvalp);
+d357 7
+a363 3
+  char keyword_[73], field_[73];
+  wcsutil_strcvt(72, '\0', 1, keyword, keyword_);
+  wcsutil_strcvt(72, '\0', 1, field, field_);
+d487 1
+d489 1
+d496 2
+a497 2
+  char prefix_[73];
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: dis_f.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d44 1
+a44 1
+/* Fortran name mangling. */
+d72 1
+a72 1
+/* Must match the values set in dis.inc. */
+d93 1
+a93 1
+/*--------------------------------------------------------------------------*/
+d95 2
+a96 2
+/* disp should be the address of an INTEGER(2) array.  On return it holds   */
+/* the address of an allocated disprm struct.                               */
+d108 1
+a108 1
+/*--------------------------------------------------------------------------*/
+d125 1
+a125 1
+  /* Avert nuisance compiler warnings about unused parameters. */
+d128 1
+a128 1
+  /* Cast pointers. */
+d139 2
+a140 2
+  /* Convert 1-relative FITS (and Fortran) axis numbers and parameter */
+  /* indices to 0-relative C array indices.                           */
+d160 1
+a160 1
+    /* Use DPFILL to create the struct. */
+d196 1
+a196 1
+/*--------------------------------------------------------------------------*/
+d209 1
+a209 1
+  /* Cast pointers. */
+d304 1
+a304 1
+    /* Copy the contents of the wcserr struct. */
+d338 1
+a338 1
+/*--------------------------------------------------------------------------*/
+d342 1
+a342 1
+/*--------------------------------------------------------------------------*/
+d344 2
+a345 2
+/* keyword and field should be null-terminated, or else of length 72 in which
+ * case trailing blanks are not significant. */
+d369 1
+a369 1
+/*--------------------------------------------------------------------------*/
+d378 1
+a378 1
+/*--------------------------------------------------------------------------*/
+d387 1
+a387 1
+/*--------------------------------------------------------------------------*/
+d403 1
+a403 1
+/*--------------------------------------------------------------------------*/
+d419 1
+a419 1
+/*--------------------------------------------------------------------------*/
+d442 1
+a442 1
+/*--------------------------------------------------------------------------*/
+d458 1
+a458 1
+/*--------------------------------------------------------------------------*/
+d471 2
+a472 2
+  /* This may or may not force the Fortran I/O buffers to be flushed.  If
+   * not, try CALL FLUSH(6) before calling DISPRT in the Fortran code. */
+d478 1
+a478 1
+/*--------------------------------------------------------------------------*/
+d480 3
+a482 3
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
+d499 2
+a500 2
+  /* This may or may not force the Fortran I/O buffers to be flushed. */
+  /* If not, try CALL FLUSH(6) before calling DISPERR in the Fortran code. */
+d506 1
+a506 1
+/*--------------------------------------------------------------------------*/
+d522 1
+a522 1
+/*--------------------------------------------------------------------------*/
+d538 1
+a538 1
+/*--------------------------------------------------------------------------*/
+d558 1
+a558 1
+/*--------------------------------------------------------------------------*/
+d578 1
+a578 1
+/*--------------------------------------------------------------------------*/
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: dis_f.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d47 1
+a47 1
+// Fortran name mangling.
+d75 1
+a75 1
+// Must match the values set in dis.inc.
+d96 1
+a96 1
+//----------------------------------------------------------------------------
+d98 2
+a99 2
+// disp should be the address of an INTEGER(2) array.  On return it holds
+// the address of an allocated disprm struct.
+d111 1
+a111 1
+//----------------------------------------------------------------------------
+d128 1
+a128 1
+  // Avert nuisance compiler warnings about unused parameters.
+d131 1
+a131 1
+  // Cast pointers.
+d142 2
+a143 2
+  // Convert 1-relative FITS (and Fortran) axis numbers and parameter
+  // indices to 0-relative C array indices.
+d163 1
+a163 1
+    // Use DPFILL to create the struct.
+d199 1
+a199 1
+//----------------------------------------------------------------------------
+d212 1
+a212 1
+  // Cast pointers.
+d307 1
+a307 1
+    // Copy the contents of the wcserr struct.
+d341 1
+a341 1
+//----------------------------------------------------------------------------
+d345 1
+a345 1
+//----------------------------------------------------------------------------
+d347 2
+a348 2
+// keyword and field should be null-terminated, or else of length 72 in which
+// case trailing blanks are not significant.
+d372 1
+a372 1
+//----------------------------------------------------------------------------
+d381 1
+a381 1
+//----------------------------------------------------------------------------
+d390 1
+a390 1
+//----------------------------------------------------------------------------
+d406 1
+a406 1
+//----------------------------------------------------------------------------
+d422 1
+a422 1
+//----------------------------------------------------------------------------
+d445 1
+a445 1
+//----------------------------------------------------------------------------
+d461 1
+a461 1
+//----------------------------------------------------------------------------
+d474 2
+a475 2
+  // This may or may not force the Fortran I/O buffers to be flushed.  If
+  // not, try CALL FLUSH(6) before calling DISPRT in the Fortran code.
+d481 1
+a481 1
+//----------------------------------------------------------------------------
+d483 3
+a485 3
+// If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+// length less than but not exceeding 72 and trailing blanks are preserved.
+// Otherwise, it must be of length 72 and trailing blanks are stripped off.
+d502 2
+a503 2
+  // This may or may not force the Fortran I/O buffers to be flushed.
+  // If not, try CALL FLUSH(6) before calling DISPERR in the Fortran code.
+d509 1
+a509 1
+//----------------------------------------------------------------------------
+d525 1
+a525 1
+//----------------------------------------------------------------------------
+d541 1
+a541 1
+//----------------------------------------------------------------------------
+d561 1
+a561 1
+//----------------------------------------------------------------------------
+d581 1
+a581 1
+//----------------------------------------------------------------------------
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: dis_f.c,v 7.3.1.2 2020/08/17 11:21:34 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: dis_f.c,v 7.3.1.3 2021/01/19 14:10:41 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.4.1.3 2019/12/31 03:28:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d85 1
+a85 1
+#define DIS_AXMAP  200
+d87 8
+a94 7
+#define DIS_OFFSET 202
+#define DIS_SCALE  203
+#define DIS_IPARM  204
+#define DIS_DPARM  205
+#define DIS_INAXIS 206
+#define DIS_NDIS   207
+#define DIS_ERR    208
+d155 1
+a155 2
+    strncpy(disp->dtype[j0], cvalp, 72);
+    wcsutil_null_fill(72, disp->dtype[j0]);
+d234 1
+a234 2
+      strncpy(cvalp, disp->dtype[j], 72);
+      wcsutil_blank_fill(72, cvalp);
+d255 1
+a255 1
+  case DIS_AXMAP:
+d257 1
+a257 3
+      for (k = 0; k < naxis; k++) {
+        *(ivalp++) = disp->axmap[j][k];
+      }
+d265 7
+d360 1
+a360 1
+  char field_[72], keyword_[72];
+d362 2
+a363 2
+  strncpy(keyword_, keyword, 72);
+  wcsutil_null_fill(72, keyword_);
+d365 2
+a366 2
+  strncpy(keyword_, field, 72);
+  wcsutil_null_fill(72, field_);
+d483 3
+a485 2
+/* prefix should be null-terminated, or else of length 72 in which case
+ * trailing blanks are not significant. */
+d490 1
+a490 1
+  char prefix_[72];
+d499 2
+a500 2
+  strncpy(prefix_, prefix, 72);
+  wcsutil_null_fill(72, prefix_);
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated disget_() to handle disprm::docorr.  Reworked Fortran <-> C string
+translation using wcsutil_strcvt().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 6.4.1.3 2019/12/03 05:10:37 mcalabre Exp mcalabre $
+d85 1
+a85 1
+#define DIS_DOCORR 200
+d87 7
+a93 8
+#define DIS_AXMAP  202
+#define DIS_OFFSET 203
+#define DIS_SCALE  204
+#define DIS_IPARM  205
+#define DIS_DPARM  206
+#define DIS_INAXIS 207
+#define DIS_NDIS   208
+#define DIS_ERR    209
+d154 2
+a155 1
+    wcsutil_strcvt(72, '\0', cvalp, disp->dtype[j0]);
+d234 2
+a235 1
+      wcsutil_strcvt(72, ' ', disp->dtype[j], cvalp);
+d256 1
+a256 1
+  case DIS_DOCORR:
+d258 3
+a260 1
+      *(ivalp++) = disp->docorr[j];
+a267 7
+  case DIS_AXMAP:
+    for (j = 0; j < naxis; j++) {
+      for (k = 0; k < naxis; k++) {
+        *(ivalp++) = disp->axmap[j][k];
+      }
+    }
+    break;
+d356 1
+a356 1
+  char field_[73], keyword_[73];
+d358 2
+a359 2
+  wcsutil_strcvt(72, '\0', keyword, keyword_);
+  keyword_[72] = '\0';
+d361 2
+a362 2
+  wcsutil_strcvt(72, '\0', field, field_);
+  field_[72] = '\0';
+d479 2
+a480 3
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
+d485 1
+a485 1
+  char prefix_[73];
+d494 2
+a495 2
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.4.1.2 2019/12/12 02:50:54 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.2.1.2 2019/05/10 02:05:36 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.20.1.2 2018/10/19 04:27:49 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.19.1.2 2018/10/05 04:28:03 mcalabre Exp mcalabre $
+d75 1
+a92 1
+
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Added a reminder that the the codes for accessing the data structure must
+match the parameters set in the Fortran include file.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a74 1
+/* Must match the values set in dis.inc. */
+d92 1
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.18.1.2 2018/07/25 01:07:56 mcalabre Exp mcalabre $
+d61 2
+d366 18
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Wrappers for dpkeyi() and dpkeyd().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+a60 2
+#define dpkeyi_   F77_FUNC(dpkeyi,   DPKEYI)
+#define dpkeyd_   F77_FUNC(dpkeyd,   DPKEYD)
+a363 18
+}
+
+/*--------------------------------------------------------------------------*/
+
+int dpkeyi_(
+  const int *dp)
+
+{
+  return dpkeyi((struct dpkey *)dp);
+}
+
+/*--------------------------------------------------------------------------*/
+
+double dpkeyd_(
+  const int *dp)
+
+{
+  return dpkeyd((struct dpkey *)dp);
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.17.1.3 2018/01/10 08:26:33 mcalabre Exp mcalabre $
+d124 3
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@In disput_(), avert nuisance compiler warnings about unused parameters
+(gcc -Wunused-parameter).
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+a123 3
+
+  /* Avert nuisance compiler warnings about unused parameters. */
+  (void)dummy;
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.16.1.2 2017/09/13 00:26:48 mcalabre Exp mcalabre $
+d62 1
+d377 16
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Wrapper for disinit().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+a61 1
+#define disinit_  F77_FUNC(disinit,  DISINIT)
+a375 16
+}
+
+/*--------------------------------------------------------------------------*/
+
+int disinit_(const int *deref, const int *naxis, int *dis, int *ndpmax)
+
+{
+  struct disprm *disp;
+
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return disinit(1, *naxis, disp, *ndpmax);
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.17.1.2 2017/12/05 07:18:56 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.15.1.2 2017/01/15 04:08:08 mcalabre Exp mcalabre $
+d115 1
+a115 1
+  const int *k)
+d198 1
+d300 1
+a300 1
+      for (k = 0; k < ERRLEN; k++) {
+d304 1
+a304 1
+      for (k = 0; k < ERRLEN; k++) {
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Fixed compiler warnings about comparison between signed and unsigned ints.
+In disput_(), renamed the "k" argument to "dummy" to make it clear that it
+is not used.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.16.1.1 2017/01/15 04:29:02 mcalabre Exp mcalabre $
+d115 1
+a115 1
+  const int *dummy)
+a197 1
+  unsigned int l;
+d299 1
+a299 1
+      for (l = 0; l < ERRLEN; l++) {
+d303 1
+a303 1
+      for (l = 0; l < ERRLEN; l++) {
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.14.1.1 2016/02/07 10:52:47 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.12.1.2 2016/01/25 05:21:06 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.10.1.1 2015/10/09 08:22:38 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.8.1.1 2015/07/08 11:07:21 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.7.1.2 2015/07/05 08:05:32 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+d66 1
+d461 16
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.7.1.2
+log
+@Wrapper for dishdo().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+a65 1
+#define dishdo_   F77_FUNC(dishdo,   DISHDO)
+a459 16
+}
+
+/*--------------------------------------------------------------------------*/
+
+int dishdo_(const int *deref, int *dis)
+
+{
+  struct disprm *disp;
+
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+
+  return dishdo(disp);
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.4.1.1 2015/04/21 14:44:30 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.3.1.1 2015/04/21 02:54:04 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.2.1.2 2015/04/21 02:37:12 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.1.1.3 2015/04/13 11:44:27 mcalabre Exp mcalabre $
+d147 2
+a148 2
+    strncpy(disp->dtype[j0], cvalp, 16);
+    wcsutil_null_fill(16, disp->dtype[j0]);
+d226 3
+a228 3
+      strncpy(cvalp, disp->dtype[j], 16);
+      wcsutil_blank_fill(16, cvalp);
+      cvalp += 16;
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.2.1.2
+log
+@Change in length of disprm::dtype.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.2.1.1 2015/04/15 12:39:17 mcalabre Exp mcalabre $
+d147 2
+a148 2
+    strncpy(disp->dtype[j0], cvalp, 72);
+    wcsutil_null_fill(72, disp->dtype[j0]);
+d226 3
+a228 3
+      strncpy(cvalp, disp->dtype[j], 72);
+      wcsutil_blank_fill(72, cvalp);
+      cvalp += 72;
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: dis_f.c,v 5.0.1.2 2015/04/07 08:31:10 mcalabre Exp mcalabre $
+d59 2
+a61 1
+#define disparms_ F77_FUNC(disparms, DISPARMS)
+d74 14
+a87 7
+#define DIS_AXMAP  103
+#define DIS_OFFSET 104
+#define DIS_SCALE  105
+#define DIS_NPARM  106
+#define DIS_PARMS  107
+#define DIS_MAXDIS 108
+#define DIS_TOTDIS 109
+d89 1
+a89 1
+#define DIS_ERR    201
+d117 1
+a117 1
+  int j0, k0;
+a136 1
+  k0 = *k - 1;
+d151 3
+a153 13
+  case DIS_AXMAP:
+    disp->axmap[j0][k0] = *ivalp;
+    disp->flag = 0;
+    break;
+  case DIS_OFFSET:
+    disp->offset[j0][k0] = *dvalp;
+    break;
+  case DIS_SCALE:
+    disp->scale[j0][k0] = *dvalp;
+    break;
+  case DIS_NPARM:
+    disp->nparm[j0] = *ivalp;
+    disp->flag = 0;
+d155 4
+a158 2
+  case DIS_PARMS:
+    disp->parms[j0][k0] = *dvalp;
+d231 17
+d255 5
+d274 1
+a274 1
+  case DIS_NPARM:
+d276 3
+a278 1
+      *(ivalp++) = disp->nparm[j];
+d281 1
+a281 1
+  case DIS_PARMS:
+d283 2
+a284 2
+      for (k = 0; k < disp->nparm[j]; k++) {
+        *(dvalp++) = disp->parms[j][k];
+d288 2
+a289 4
+  case DIS_MAXDIS:
+    for (j = 0; j < naxis; j++) {
+      *(dvalp++) = disp->maxdis[j];
+    }
+d291 2
+a292 2
+  case DIS_TOTDIS:
+    *dvalp = disp->totdis;
+d331 15
+a345 1
+int disini_(const int *deref, const int *naxis, int *dis)
+d348 4
+a351 1
+  struct disprm *disp;
+d353 2
+a354 5
+  if (*deref == 0) {
+    disp = (struct disprm *)dis;
+  } else {
+    disp = *(struct disprm **)dis;
+  }
+d356 2
+a357 1
+  return disini(1, *naxis, disp);
+d362 1
+a362 1
+int disparms_(const int *deref, int *dis)
+d373 1
+a373 1
+  return disparms(disp);
+a443 1
+  int  i;
+d453 1
+a453 8
+  if (prefix_[71] == ' ') {
+    for (i = 70; i >= 0; i--) {
+      if (prefix_[i] != ' ') break;
+      prefix_[i] = '\0';
+    }
+  } else {
+    prefix_[71] = '\0';
+  }
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Removed disparms_().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+d60 1
+d322 16
+@
+
+
+5.1.1.3
+log
+@Track recent changes to the disprm struct.  Added a wrapper for dpfill().
+In disperr_(), use wcsutuil_null_fill().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.1.1.2 2015/04/13 08:45:11 mcalabre Exp mcalabre $
+a58 2
+#define disndp_   F77_FUNC(disndp,   DISNDP)
+#define dpfill_   F77_FUNC(dpfill,   DPFILL)
+d72 7
+a78 14
+#define DIS_NDP    103
+#define DIS_NDPMAX 104
+#define DIS_DP     105
+#define DIS_MAXDIS 106
+#define DIS_TOTDIS 107
+
+#define DIS_AXMAP  200
+#define DIS_NHAT   201
+#define DIS_OFFSET 202
+#define DIS_SCALE  203
+#define DIS_IPARM  204
+#define DIS_DPARM  205
+#define DIS_INAXIS 206
+#define DIS_NDIS   207
+d80 1
+a80 1
+#define DIS_ERR    208
+d108 1
+a108 1
+  int j0;
+d128 1
+d143 13
+a155 3
+  case DIS_NDP:
+  case DIS_NDPMAX:
+    return 1;
+d157 2
+a158 4
+  case DIS_DP:
+    /* Use DPFILL to create the struct. */
+    memcpy((char *)(disp->dp + disp->ndp), cvalp, DPLEN*sizeof(int));
+    (disp->ndp)++;
+a230 17
+  case DIS_NDP:
+    *ivalp = disp->ndp;
+    break;
+  case DIS_NDPMAX:
+    *ivalp = disp->ndpmax;
+    break;
+  case DIS_DP:
+    memcpy(cvalp, (char *)disp->dp, disp->ndp*DPLEN*sizeof(int));
+    break;
+  case DIS_MAXDIS:
+    for (j = 0; j < naxis; j++) {
+      *(dvalp++) = disp->maxdis[j];
+    }
+    break;
+  case DIS_TOTDIS:
+    *dvalp = disp->totdis;
+    break;
+a237 5
+  case DIS_NHAT:
+    for (j = 0; j < naxis; j++) {
+      *(ivalp++) = disp->Nhat[j];
+    }
+    break;
+d252 1
+a252 1
+  case DIS_IPARM:
+d254 1
+a254 3
+      for (k = 0; k < disp->iparm[j][0]; k++) {
+        *(ivalp++) = disp->iparm[j][k];
+      }
+d257 1
+a257 1
+  case DIS_DPARM:
+d259 2
+a260 2
+      for (k = 0; k < disp->iparm[j][1]; k++) {
+        *(dvalp++) = disp->dparm[j][k];
+d264 4
+a267 2
+  case DIS_INAXIS:
+    *ivalp = disp->i_naxis;
+d269 2
+a270 2
+  case DIS_NDIS:
+    *ivalp = disp->ndis;
+a308 31
+int disndp_(int *ndpmax) { return disndp(*ndpmax); }
+
+/*--------------------------------------------------------------------------*/
+
+/* keyword and field should be null-terminated, or else of length 72 in which
+ * case trailing blanks are not significant. */
+
+int dpfill_(
+  const int *dp,
+  const char *keyword,
+  const char *field,
+  int *j,
+  int *type,
+  int *ival,
+  double *fval)
+
+{
+  char field_[72], keyword_[72];
+
+  strncpy(keyword_, keyword, 72);
+  wcsutil_null_fill(72, keyword_);
+
+  strncpy(keyword_, field, 72);
+  wcsutil_null_fill(72, field_);
+
+  return dpfill((struct dpkey *)dp, keyword_, field_, *j, *type, *ival,
+                 *fval);
+}
+
+/*--------------------------------------------------------------------------*/
+
+d391 1
+d401 8
+a408 1
+  wcsutil_null_fill(72, prefix_);
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id$
+d68 1
+d488 20
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@Wrapper for diswarp().
+@
+text
+@d25 1
+a25 1
+  $Id: dis_f.c,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+a67 1
+#define diswarp_  F77_FUNC(diswarp,  DISWARP)
+a486 20
+}
+
+/*--------------------------------------------------------------------------*/
+
+int diswarp_(
+  int *dis,
+  const double pixblc[],
+  const double pixtrc[],
+  const double pixsamp[],
+  int    *nsamp,
+  double maxdis[],
+  double *maxtot,
+  double avgdis[],
+  double *avgtot,
+  double rmsdis[],
+  double *rmstot)
+
+{
+  return diswarp((struct disprm *)dis, pixblc, pixtrc, pixsamp, nsamp,
+                 maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot);
+@
+
+
+1.0
+log
+@Empty revision.
+@
+text
+@d1 487
+@

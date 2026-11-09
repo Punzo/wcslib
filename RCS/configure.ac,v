@@ -1,0 +1,7679 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.27.24;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.57.06;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.23.04.55.25;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	0.0;
+
+0.0
+date	2005.09.23.04.29.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.03.12.44;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2005.12.15.03.08.18;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.04.02.04.45.49;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.07.03.08.43.56;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.07.04.06.46.05;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.07.05.04.39.05;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.07.05.07.18.08;	author cal103;	state Exp;
+branches;
+next	4.2.1.8;
+
+4.2.1.8
+date	2007.07.06.07.09.53;	author cal103;	state Exp;
+branches;
+next	4.2.1.9;
+
+4.2.1.9
+date	2007.07.09.06.50.35;	author cal103;	state Exp;
+branches;
+next	4.2.1.10;
+
+4.2.1.10
+date	2007.07.09.08.44.11;	author cal103;	state Exp;
+branches;
+next	4.2.1.11;
+
+4.2.1.11
+date	2007.07.11.02.25.24;	author cal103;	state Exp;
+branches;
+next	4.2.1.12;
+
+4.2.1.12
+date	2007.07.12.01.04.46;	author cal103;	state Exp;
+branches;
+next	4.2.1.13;
+
+4.2.1.13
+date	2007.07.12.07.24.28;	author cal103;	state Exp;
+branches;
+next	4.2.1.14;
+
+4.2.1.14
+date	2007.07.12.08.53.28;	author cal103;	state Exp;
+branches;
+next	4.2.1.15;
+
+4.2.1.15
+date	2007.08.08.04.18.02;	author cal103;	state Exp;
+branches;
+next	4.2.1.16;
+
+4.2.1.16
+date	2007.08.08.04.46.28;	author cal103;	state Exp;
+branches;
+next	4.2.1.17;
+
+4.2.1.17
+date	2007.12.24.06.06.28;	author cal103;	state Exp;
+branches;
+next	4.2.1.18;
+
+4.2.1.18
+date	2007.12.27.04.53.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.22.58;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.02.20.00.31.36;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.21.07.23.45;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.07.27.07.27.05;	author cal103;	state Exp;
+branches;
+next	4.3.1.5;
+
+4.3.1.5
+date	2009.07.27.08.49.56;	author cal103;	state Exp;
+branches;
+next	4.3.1.6;
+
+4.3.1.6
+date	2009.08.06.06.29.39;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.42.06;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.09.03.05.13.03;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2009.09.14.06.51.08;	author cal103;	state Exp;
+branches;
+next	4.4.1.4;
+
+4.4.1.4
+date	2010.01.19.03.53.50;	author cal103;	state Exp;
+branches;
+next	4.4.1.5;
+
+4.4.1.5
+date	2010.07.08.02.43.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.08.12.07.50.42;	author cal103;	state Exp;
+branches;
+next	4.5.1.3;
+
+4.5.1.3
+date	2010.09.23.01.47.00;	author cal103;	state Exp;
+branches;
+next	4.5.1.4;
+
+4.5.1.4
+date	2010.09.23.08.07.45;	author cal103;	state Exp;
+branches;
+next	4.5.1.5;
+
+4.5.1.5
+date	2010.09.28.01.49.54;	author cal103;	state Exp;
+branches;
+next	4.5.1.6;
+
+4.5.1.6
+date	2010.10.14.00.00.34;	author cal103;	state Exp;
+branches;
+next	4.5.1.7;
+
+4.5.1.7
+date	2010.10.15.05.32.17;	author cal103;	state Exp;
+branches;
+next	4.5.1.8;
+
+4.5.1.8
+date	2010.10.28.05.18.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.11.17.23.03.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2010.11.22.00.39.07;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2010.11.24.01.33.00;	author cal103;	state Exp;
+branches;
+next	4.6.1.5;
+
+4.6.1.5
+date	2010.12.14.04.45.39;	author cal103;	state Exp;
+branches;
+next	4.6.1.6;
+
+4.6.1.6
+date	2010.12.15.00.11.10;	author cal103;	state Exp;
+branches;
+next	4.6.1.7;
+
+4.6.1.7
+date	2011.01.18.02.25.57;	author cal103;	state Exp;
+branches;
+next	4.6.1.8;
+
+4.6.1.8
+date	2011.01.18.04.34.04;	author cal103;	state Exp;
+branches;
+next	4.6.1.9;
+
+4.6.1.9
+date	2011.01.25.03.28.05;	author cal103;	state Exp;
+branches;
+next	4.6.1.10;
+
+4.6.1.10
+date	2011.01.27.04.12.08;	author cal103;	state Exp;
+branches;
+next	4.6.1.11;
+
+4.6.1.11
+date	2011.02.07.06.31.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.02.09.02.01.01;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.13.08.04.56;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.15.06.13.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.09.16.04.37.16;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2011.09.19.01.55.19;	author cal103;	state Exp;
+branches;
+next	4.8.1.4;
+
+4.8.1.4
+date	2011.10.04.07.56.29;	author cal103;	state Exp;
+branches;
+next	4.8.1.5;
+
+4.8.1.5
+date	2011.10.04.08.01.03;	author cal103;	state Exp;
+branches;
+next	4.8.1.6;
+
+4.8.1.6
+date	2011.11.17.05.32.10;	author cal103;	state Exp;
+branches;
+next	4.8.1.7;
+
+4.8.1.7
+date	2011.11.23.04.46.43;	author cal103;	state Exp;
+branches;
+next	4.8.1.8;
+
+4.8.1.8
+date	2011.12.05.06.55.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.03.15.06.18.04;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.03.21.02.59.30;	author cal103;	state Exp;
+branches;
+next	4.13.1.4;
+
+4.13.1.4
+date	2012.03.21.03.08.32;	author cal103;	state Exp;
+branches;
+next	4.13.1.5;
+
+4.13.1.5
+date	2012.03.26.03.58.33;	author cal103;	state Exp;
+branches;
+next	4.13.1.6;
+
+4.13.1.6
+date	2012.04.02.03.27.25;	author cal103;	state Exp;
+branches;
+next	4.13.1.7;
+
+4.13.1.7
+date	2012.07.12.15.38.50;	author cal103;	state Exp;
+branches;
+next	4.13.1.8;
+
+4.13.1.8
+date	2012.07.13.03.28.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	4.23.1.2;
+
+4.23.1.2
+date	2014.05.22.11.18.32;	author mcalabre;	state Exp;
+branches;
+next	4.23.1.3;
+
+4.23.1.3
+date	2014.06.09.08.27.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	4.24.1.2;
+
+4.24.1.2
+date	2014.12.14.14.27.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.00.58.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	5.3.1.2;
+
+5.3.1.2
+date	2015.04.21.12.47.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.05.01.08.23.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	5.13.1.2;
+
+5.13.1.2
+date	2016.02.07.08.50.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.00.43.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.26.15.31.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.07.28.12.54.15;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.3;
+
+5.19.1.3
+date	2018.10.03.13.13.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.03.04.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.07.08.09.28.56;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.12.29.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	7.1.1.2;
+
+7.1.1.2
+date	2020.02.26.11.07.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.08.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.20.05.50.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.09.03.24.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.06.09.08.18.51;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.3;
+
+7.6.1.3
+date	2021.06.09.08.23.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.05.16.33.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2023.11.17.03.30.27;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2023.11.29.08.05.55;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.06.05.13.51;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.5;
+
+8.2.1.5
+date	2024.05.06.14.00.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.05.21.15.33.36;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.3;
+
+8.3.1.3
+date	2024.05.21.15.52.47;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.4;
+
+8.3.1.4
+date	2024.05.21.16.31.57;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.5;
+
+8.3.1.5
+date	2024.07.09.05.51.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.42.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.24.05.40.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	8.8.1.2;
+
+8.8.1.2
+date	2026.06.14.04.57.38;	author mcalabre;	state Exp;
+branches;
+next	8.8.1.3;
+
+8.8.1.3
+date	2026.06.14.12.42.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@GNU autoconf template for 'configure'.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# Process this file with autoconf-2.53 or later to produce a configure script.
+#-----------------------------------------------------------------------------
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: configure.ac,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+
+AC_INIT([WCSLIB],[8.10],[mark@@calabretta.id.au],[wcslib-8.10])
+AC_PREREQ([2.71])
+AC_REVISION([$Revision: 8.9.1.1 $])
+AC_SUBST([PACKAGE_VERSION])
+AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION], [Define wcslib version])
+
+# Library version number, same as package version.
+LIBVER="$PACKAGE_VERSION"
+AC_SUBST([LIBVER])
+
+AC_CONFIG_SRCDIR([C/wcs.h])
+AC_CONFIG_AUX_DIR([config])
+
+# Get the system type.
+AC_CANONICAL_HOST
+ARCH="${host_cpu}-$host_os"
+AC_SUBST([ARCH])
+
+
+# Look for Flex.
+AC_ARG_ENABLE([flex], [AS_HELP_STRING([--disable-flex],
+            [don't apply flex (use pre-generated sources)])], [])
+if test "x$enable_flex" = xno ; then
+  FLEX=
+  AC_MSG_WARN([Generation of flex sources disabled by request, using
+           pre-generated sources.])
+
+else
+  AC_CHECK_PROG([FLEX], [flex], [flex], [], [], [])
+  if test "x$FLEX" = xflex ; then
+    # Version 2.6.0 or later is required.
+    V=`flex --version | awk '{print $2}'`
+    W=`echo $V | awk -F. '{if ((($1*100 + $2)*100 + $3) < 20600) print "no"}'`
+    if test "x$W" != x ; then
+      AC_MSG_WARN([Flex version $V is too old, ignored.])
+      FLEX=
+    else
+      AC_MSG_NOTICE([Using Flex version $V.])
+    fi
+  fi
+
+  if test "x$FLEX" = x ; then
+    AC_MSG_WARN([Flex version 2.6.0 or later does not appear to be
+           available, will use pre-generated sources.])
+  fi
+fi
+
+
+# Look for an ANSI C compiler.
+AC_PROG_CPP
+AC_PROG_CC
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  # Get gcc version number.
+  GCC_VERSION=`$CC -dumpfullversion`
+  AC_MSG_NOTICE([Using gcc version $GCC_VERSION])
+else
+  GCC_VERSION=
+fi
+AC_SUBST([GCC_VERSION])
+
+AC_C_CONST
+AC_TYPE_SIZE_T
+if test "x$ac_cv_prog_cc_stdc" = xno -o \
+        "x$ac_cv_c_const"      = xno -o \
+        "x$ac_cv_type_size_t"  = xno; then
+  AC_MSG_ERROR([
+    -------------------------------------------------------
+    An ANSI standard C library is required to build WCSLIB.
+
+    ERROR: WCSLIB configuration failure.
+    -------------------------------------------------------], [1])
+fi
+
+# Data types used in wcs.c (results not currently used).
+AC_TYPE_UINT16_T
+AC_TYPE_UINT32_T
+
+# Check for standard C header files required to compile the library.
+headers=
+AC_CHECK_HEADERS([ctype.h inttypes.h limits.h locale.h math.h setjmp.h
+                  stdarg.h stddef.h stdint.h stdio.h stdlib.h string.h],
+                  [], [headers=no])
+if test "x$headers" = xno; then
+  AC_MSG_ERROR([
+    -------------------------------------------------------------------
+    An ANSI standard C library is required to build WCSLIB.  One of the
+    standard C header files it requires is missing or unusable.  Please
+    refer to the above log.
+
+    ERROR: WCSLIB configuration failure.
+    -------------------------------------------------------------------], [1])
+fi
+
+# Flex uses fileno() and other POSIX features whose prototypes are only
+# available from glibc's stdio.h with an appropriate preprocessor macro
+# definition.  This cannot be set within the flex description file itself
+# as stdio.h is included in the generated C code before any part of the
+# description.  See fileno(3) and feature_test_macros(7).
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  FLFLAGS="$FLFLAGS -D_POSIX_C_SOURCE=200112L"
+fi
+AC_SUBST([FLFLAGS])
+
+# Check for libm.
+AC_CHECK_LIB([m], [floor])
+
+# System libraries that may be required by WCSLIB itself.
+# SunOS, extra maths functions.
+AC_CHECK_LIB([sunmath], [cosd], [LIBS="-lsunmath $LIBS"], [], [])
+
+# See if we can find sincos().
+AC_CHECK_FUNCS([sincos])
+
+# Check the size and availability of integer data types.
+AC_CHECK_SIZEOF([int])
+AC_CHECK_SIZEOF([long int])
+AC_CHECK_SIZEOF([long long int])
+
+# 64-bit integer data type; use long long int preferentially since that
+# accords with "%lld" formatting used in fitshdr.l, e.g.
+#                int   size_t  long int  long long int
+#                ---   ------  --------  -------------
+#   gcc x86:      32     32       32          64
+#   gcc x86_64:   32     64       64          64
+if test "x$ac_cv_sizeof_long_long_int" = x8; then
+  AC_DEFINE([WCSLIB_INT64], [long long int], [64-bit integer data type.])
+elif test "x$ac_cv_sizeof_long_int" = x8; then
+  AC_DEFINE([WCSLIB_INT64], [long int], [64-bit integer data type.])
+elif test "x$ac_cv_sizeof_int" = x8; then
+  AC_DEFINE([WCSLIB_INT64], [int], [64-bit integer data type.])
+fi
+
+# Does printf() have the z modifier for size_t type?  Important for 64-bit.
+AC_MSG_CHECKING([for printf z format modifier for size_t type])
+AC_RUN_IFELSE(
+  [AC_LANG_PROGRAM([AC_INCLUDES_DEFAULT],
+                   [[char buf[64];
+                     if (sprintf(buf, "%zu", (size_t)1) != 1)
+                       return 1;
+                     else if (strcmp(buf, "1"))
+                       return 2;]])],
+  AC_DEFINE([MODZ], ["z"], [printf format modifier for size_t type.])
+    AC_MSG_RESULT(yes),
+  AC_DEFINE([MODZ], [""],  [printf format modifier for size_t type.])
+    AC_MSG_RESULT(no),
+  AC_DEFINE([MODZ], [""],  [printf format modifier for size_t type.])
+    AC_MSG_RESULT(assumed not)
+)
+
+# Check for an appropriate thread-local storage (TLS) specifier (for C99).
+# The order here is significant, e.g. GCC will accept _Thread_local but issue
+# "warning: ISO C99 does not support ‘_Thread_local’ [-Wpedantic]".
+AC_MSG_CHECKING([for thread-local storage (TLS) specifier])
+tls=
+if test "x$tls" = x; then
+  # Microsoft Visual Studio (_MSC_VER).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([__declspec(thread) int dummy = 0;])],
+      tls="__declspec(thread)")
+fi
+if test "x$tls" = x; then
+  # GCC (__GNUC__), Clang (__clang__), and Intel (__INTEL_COMPILER).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([__thread int dummy = 0;])],
+      tls="__thread")
+fi
+if test "x$tls" = x; then
+  # Provided by the C11 standard (__STDC_VERSION__ >= 201112L).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([_Thread_local int dummy = 0;])],
+      tls="_Thread_local")
+fi
+if test "x$tls" = x; then
+  # Provided natively by the C23 standard (__STDC_VERSION__ >= 202311), and
+  # also by C11 via threads.h as a macro that equates to _Thread_local.
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([thread_local int dummy = 0;])],
+      tls="thread_local")
+fi
+
+AC_MSG_RESULT($tls)
+CPPFLAGS="$CPPFLAGS -DWCSLIB_TLS=$tls"
+
+
+# Starting values, may be augmented later.
+SUBDIRS="C"
+TSTDIRS="C"
+INSTDIR="C"
+
+
+# Ways of specifying the Fortran compiler, in order of precedence:
+#   configure --enable-fortran=<compiler>
+#   F77=<compiler> configure    ...bash
+#
+# Ways of disabling Fortran:
+#   configure --disable-fortran
+#   configure --enable-fortran=no
+#   F77=no configure            ...bash
+AC_ARG_ENABLE([fortran], [AS_HELP_STRING([--enable-fortran=ARG],
+            [Fortran compiler to use])], [])
+AC_ARG_ENABLE([fortran], [AS_HELP_STRING([--disable-fortran],
+            [don't build the Fortran wrappers or PGSBOX])], [])
+if test "x$enable_fortran" != x -a "x$enable_fortran" != xyes ; then
+  F77="$enable_fortran"
+fi
+
+if test "x$F77" = xno ; then
+  F77=
+
+  AC_MSG_WARN([Compilation of Fortran wrappers and PGSBOX disabled.])
+
+else
+  if test "x$F77" = x ; then
+    # Look for a Fortran compiler.
+    AC_PROG_F77([gfortran g77 f77 ifort xlf frt pgf77 fl32 af77 fort77 f90 \
+                 xlf90 pgf90 epcf90 f95 fort xlf95 lf95 g95])
+  fi
+
+  if test "x$F77" = x; then
+    AC_MSG_WARN([
+      ------------------------------------------------------------------
+      Fortran compiler not found, will skip Fortran wrappers and PGSBOX.
+      ------------------------------------------------------------------])
+
+    # Best guess at Fortran name mangling for use if a compiler does ever
+    # become available.
+    AC_DEFINE([F77_FUNC(name,NAME)], [name ## _])
+
+  else
+    if test "x$ac_cv_f77_compiler_gnu" = xyes ; then
+      if test "x$F77" = xg77 -o "x$F77" = xf77 ; then
+        # Not recognized by gfortran.
+        FFLAGS="$FFLAGS -Wno-globals"
+      fi
+    fi
+
+    AC_MSG_CHECKING(whether $F77 accepts -I)
+    AC_LANG_PUSH(Fortran 77)
+    FFLAGS_save=$FFLAGS
+    FFLAGS=-I.
+    AC_COMPILE_IFELSE(AC_LANG_PROGRAM([], []),
+      [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+      [FFLAGS="$FFLAGS_save"; AC_MSG_RESULT(no)])
+    AC_LANG_POP()
+
+    # Libraries required by the Fortran compiler itself (sets FLIBS).
+    # Required by utilities and test programs written in C that link to
+    # Fortran object modules such as pgsbox.
+    AC_F77_LIBRARY_LDFLAGS
+
+    # Tidy up FLIBS.
+    dirs=
+    libs=
+    for flib in $FLIBS
+    do
+      case "$flib" in
+      -L*)
+        dir=`echo "$flib" | sed -e 's/-L//'`
+        dir=-L`cd "$dir" && pwd`
+        dirs="$dirs $dir"
+        ;;
+      *)
+        libs="$libs $flib"
+        ;;
+      esac
+    done
+
+    dirs=`for dir in $dirs ; do echo "$dir" ; done | sort -u | xargs`
+
+    FLIBS="$dirs$libs"
+
+    # F77 name mangling (defines the F77_FUNC preprocessor macro).
+    AC_F77_WRAPPERS
+
+    if test "x$BINDC" = x ; then
+      AC_ARG_WITH([bindc], [AS_HELP_STRING([--with-bindc],
+              [use Fortran 2003 BIND(C) wrappers - recommended for Link Time
+               Optimization (LTO)])], [])
+      if test "x$with_bindc" = xyes ; then
+        BINDC=yes
+      fi
+    fi
+
+    if test "x$BINDC" = xyes ; then
+      AC_MSG_NOTICE([using Fortran 2003 BIND(C) wrappers.])
+    else
+      BINDC=
+    fi
+    AC_SUBST([BINDC])
+
+    SUBDIRS="C Fortran"
+    TSTDIRS="C Fortran"
+    INSTDIR="Fortran"
+  fi
+fi
+
+
+# System-dependent system libraries (for building the sharable library).
+#-----------------------------------------------------------------------
+# Darwin (contains stubs for long double).
+AC_CHECK_LIB([SystemStubs], [printf\$LDBLStub], [LIBS="$LIBS -lSystemStubs"],
+             [], [])
+
+
+# Library and installation utilities.
+#------------------------------------
+# Static library generation.
+# Ensure "non-deterministic" archives are produced during the build process.
+ar rU conftest.a > /dev/null 2>&1 && ARFLAGS="U"
+rm -f conftest.a
+AC_SUBST([ARFLAGS])
+AC_PROG_RANLIB
+
+# Shared library generation - gcc only.
+# Ways of disabling shared libraries:
+#   configure --disable-shared
+#   configure --enable-shared=no
+AC_ARG_ENABLE([shared], [AS_HELP_STRING([--disable-shared],
+            [don't build the WCS shared libraries])], [])
+
+SHRLIB=
+SONAME=
+SHRFLAGS=
+SHRLD=
+SHRSFX=
+SHRLN=
+
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  if test "x$enable_shared" = xno ; then
+    AC_MSG_WARN([Generation of WCS shared libraries disabled.])
+
+  else
+    SHVER=`echo "$LIBVER" | sed -e 's/\..*$//'`
+
+    # Note that -fPIC is on by default for Macs, this just makes it obvious.
+    SHRFLAGS="-fPIC"
+    SHRLD="\$(CC) \$(SHRFLAGS)"
+
+    case "$host_os" in
+    darwin*)
+      SHRLIB="libwcs.$LIBVER.dylib"
+      SONAME="libwcs.$SHVER.dylib"
+      SHRLD="$SHRLD -dynamiclib -single_module"
+      SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER -install_name \$(SONAME)"
+      SHRLN="libwcs.dylib"
+
+      case "$host_cpu" in
+      powerpc*)
+        # Switch off -fPIC (not applicable for PowerPC Macs).
+        CFLAGS="$CFLAGS -mdynamic-no-pic"
+        ;;
+      esac
+      ;;
+    *mingw*)
+      SHRLIB="libwcs.dll.$LIBVER"
+      SONAME="libwcs.dll.$SHVER"
+      SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+      SHRLN="libwcs.dll"
+      ;;
+    *)
+      # Covers Linux and Solaris at least.
+      SHRLIB="libwcs.so.$LIBVER"
+      SONAME="libwcs.so.$SHVER"
+      SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+      SHRLN="libwcs.so"
+      ;;
+    esac
+  fi
+fi
+
+AC_SUBST([SHRLIB])
+AC_SUBST([SONAME])
+AC_SUBST([SHRFLAGS])
+AC_SUBST([SHRLD])
+AC_SUBST([SHRSFX])
+AC_SUBST([SHRLN])
+
+# Installation utilities.
+AC_PROG_LN_S
+AC_PROG_INSTALL
+
+# Older versions of GNU make do not have the -O option, which only facilitates
+# legibility of the output from parallel builds (make -j).
+make --help | grep '\-O' >/dev/null 2>&1 && MAKEFLAGS="-Otarget"
+AC_SUBST([MAKEFLAGS])
+
+AC_MSG_NOTICE([End of primary configuration.
+])
+
+
+# The following are required to build utilities and test programs.
+# ----------------------------------------------------------------
+AC_MSG_NOTICE([Looking for libraries etc. for utilities and test suite...])
+
+# Additional standard C header files required.
+headers=
+AC_CHECK_HEADERS([errno.h time.h], [], [headers=no])
+
+# Other header files required by *nix library functions.
+AC_CHECK_HEADERS([sys/stat.h sys/types.h unistd.h], [], [headers=no])
+if test "x$headers" = xno; then
+  AC_MSG_WARN([
+    --------------------------------------------------------------------
+    One or more of the header files required to compile the utilities
+    and/or test programs is missing.  Continuing on a best-effort basis.
+    --------------------------------------------------------------------])
+fi
+
+# Large file support (only required by fitshdr utility).
+AC_FUNC_FSEEKO
+AC_SYS_LARGEFILE
+AC_TYPE_OFF_T
+
+# Extra places to look for third-party libraries and header files.
+LIBDIRS=
+
+AC_ARG_WITH([cfitsio], [AS_HELP_STRING([--without-cfitsio],
+            [eschew CFITSIO])], [])
+if test "x$with_cfitsio" = xno ; then
+  AC_MSG_WARN([CFITSIO disabled.])
+else
+  AC_ARG_WITH([cfitsiolib], [AS_HELP_STRING([--with-cfitsiolib=DIR],
+              [directory containing cfitsio library])], [])
+  if test "x$with_cfitsiolib" != x ; then
+    LIBDIRS="$LIBDIRS $with_cfitsiolib"
+  fi
+
+  AC_ARG_WITH([cfitsioinc], [AS_HELP_STRING([--with-cfitsioinc=DIR],
+              [directory containing cfitsio header files])], [])
+  if test "x$with_cfitsioinc" != x ; then
+    CFITSIO_INCDIRS="$with_cfitsioinc"
+  fi
+
+  CFITSIO_INCDIRS="$CFITSIO_INCDIRS   \
+           /usr/local/cfitsio/include \
+           /local/cfitsio/include"
+
+  LIBDIRS="$LIBDIRS           \
+           /usr/local/cfitsio/lib \
+           /local/cfitsio/lib"
+fi
+
+AC_ARG_WITH([pgplot], [AS_HELP_STRING([--without-pgplot],
+            [eschew PGPLOT])], [])
+if test "x$with_pgplot" = xno ; then
+  AC_MSG_WARN([PGPLOT disabled.])
+else
+  AC_ARG_WITH([pgplotlib], [AS_HELP_STRING([--with-pgplotlib=DIR],
+              [directory containing pgplot library])], [])
+  if test "x$with_pgplotlib" != x ; then
+    LIBDIRS="$LIBDIRS $with_pgplotlib"
+  fi
+
+  AC_ARG_WITH([pgplotinc], [AS_HELP_STRING([--with-pgplotinc=DIR],
+              [directory containing pgplot header files])], [])
+  if test "x$with_pgplotinc" != x ; then
+    PGPLOT_INCDIRS="$with_pgplotinc"
+  fi
+
+  PGPLOT_INCDIRS="$PGPLOT_INCDIRS    \
+           /usr/local/pgplot/include \
+           /local/pgplot/include"
+
+  LIBDIRS="$LIBDIRS           \
+           /usr/local/pgplot/lib  \
+           /local/pgplot/lib"
+fi
+
+
+if test "x$with_cfitsio" != xno -o \
+        "x$with_pgplot"  != xno ; then
+  LIBDIRS="$LIBDIRS           \
+           /usr/local/lib     \
+           /local/lib         \
+           /opt/local/lib     \
+           /opt/SUNWspro/lib  \
+           /sw/lib"
+
+  for LIBDIR in $LIBDIRS ; do
+    AC_CHECK_FILE([$LIBDIR], [LDFLAGS="$LDFLAGS -L$LIBDIR"], [continue])
+  done
+
+  # Generic include directories.
+  INCDIRS="/usr/local/include \
+           /local/include     \
+           /opt/local/include \
+           /sw/include        \
+           /local             \
+           /usr/include"
+
+
+  # CFITSIO.
+  if test "x$with_cfitsio" != xno ; then
+    # Search for CFITSIO.
+    for INCDIR in $CFITSIO_INCDIRS $INCDIRS ; do
+      AC_CHECK_FILE([$INCDIR/cfitsio/fitsio.h],
+                    [CFITSIOINC="-I$INCDIR/cfitsio"; break])
+      AC_CHECK_FILE([$INCDIR/fitsio.h], [CFITSIOINC="-I$INCDIR"; break])
+    done
+
+    AC_CHECK_LIB([socket],  [recv],   [CFITSIOLIB="-lsocket"], [], [$LIBS])
+    AC_CHECK_LIB([cfitsio], [ffopen], [CFITSIOLIB="-lcfitsio $CFITSIOLIB"], [],
+                 [$CFITSIOLIB $LIBS])
+
+    if test "x$CFITSIOINC" = x -o "x$CFITSIOLIB" = x; then
+      AC_MSG_WARN([CFITSIO not found, skipping CFITSIO-dependent tests.])
+    else
+      AC_MSG_NOTICE([CFITSIO appears to be available.])
+      AC_DEFINE([HAVE_CFITSIO], [1], [Define to 1 if CFITSIO is available.])
+
+      # Check for fits_read_wcstab, present in CFITSIO 3.004beta and later.
+      AC_CHECK_LIB([cfitsio], [fits_read_wcstab], [GETWCSTAB=],
+                   [GETWCSTAB=getwcstab.o], [$CFITSIOLIB $LIBS])
+      if test "x$GETWCSTAB" != x ; then
+        AC_MSG_WARN([fits_read_wcstab not found in CFITSIO, will use
+                        getwcstab.c to compile test programs.])
+      fi
+    fi
+
+    AC_SUBST([CFITSIOINC])
+    AC_SUBST([CFITSIOLIB])
+    AC_SUBST([GETWCSTAB])
+  fi
+
+  # PGPLOT.
+  if test "x$F77" != x -a "x$with_pgplot" != xno ; then
+    # Search for PGPLOT.
+    for INCDIR in $PGPLOT_INCDIRS $INCDIRS ; do
+      AC_CHECK_FILE([$INCDIR/pgplot/cpgplot.h],
+                    [PGPLOTINC="-I$INCDIR/pgplot"; break])
+      AC_CHECK_FILE([$INCDIR/cpgplot.h], [PGPLOTINC="-I$INCDIR"; break])
+    done
+
+    # FLIBS (found above via AC_F77_LIBRARY_LDFLAGS) only helps if PGPLOT was
+    # built using the same Fortran compiler that we are using here.
+
+    # PGPLOT compiled by the SUN Fortran compiler but linked with something
+    # else.
+    AC_CHECK_LIB([M77],     [iand_],     [PGPLOTLIB="-lM77 $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([F77],     [f77_init],  [PGPLOTLIB="-lF77 $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+
+    if test "x$F77" != xg77; then
+      # For PGPLOT compiled with g77 but linked with something else.
+      AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+                   [], [$PGPLOTLIB $LIBS])
+      AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+                   [], [$PGPLOTLIB $LIBS])
+    fi
+
+    if test "x$F77" != xgfortran; then
+      # For PGPLOT compiled with gfortran but linked with something else.
+      # Note that if gfortran itself is driving the linker it can be harmful
+      # to add -lgfortran to the link list without also adding -lgfortranbegin.
+      # Doing so stops gfortran from adding -lgfortranbegin which is needed to
+      # resolve "main".
+      AC_CHECK_LIB([gfortran], [_gfortran_abort],
+                   [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [],
+                   [$PGPLOTLIB $LIBS])
+    fi
+
+    # Search for X11 includes and libraries.
+    AC_PATH_X
+    if test "x$no_x" = x; then
+      if test "x$ac_x_libraries" != x ; then
+        # Not needed for systems that keep the X11 libraries in /usr/lib.
+        LDFLAGS="$LDFLAGS -L$ac_x_libraries"
+      fi
+      PGPLOTLIB="-lX11 $PGPLOTLIB"
+    fi
+
+    # It is possible that other libraries may be required depending on what
+    # graphics drivers were installed with PGPLOT.
+    AC_CHECK_LIB([z],       [deflate],   [PGPLOTLIB="-lz $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([png],     [png_error], [PGPLOTLIB="-lpng $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([pgplot],  [pgbeg_],    [PGPLOTLIB="-lpgplot $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $FLIBS $LIBS])
+    AC_CHECK_LIB([cpgplot], [cpgbeg],    [PGPLOTLIB="-lcpgplot $PGPLOTLIB"],
+                 [PGPLOTLIB=], [$PGPLOTLIB $FLIBS $LIBS])
+
+    # Only need the PGPLOT include file to build PGSBOX.
+    if test "x$PGPLOTINC" != x; then
+      SUBDIRS="$SUBDIRS pgsbox"
+      INSTDIR="pgsbox"
+    fi
+
+    # Also need the PGPLOT library to build pgtest and cpgtest.
+    if test "x$PGPLOTLIB" = x; then
+      AC_MSG_WARN([PGPLOT not found, skipping PGPLOT-dependent tests.])
+    else
+      AC_MSG_NOTICE([PGPLOT appears to be available.])
+
+      TSTDIRS="$TSTDIRS pgsbox"
+    fi
+  fi
+
+  AC_SUBST([PGPLOTINC])
+  AC_SUBST([PGPLOTLIB])
+fi
+
+
+# Utilities are compiled last since they need the libraries.
+# Ways of disabling them:
+#   configure --disable-utils
+#   configure --enable-utils=no
+AC_ARG_ENABLE([utils], [AS_HELP_STRING([--disable-utils],
+            [don't build the WCS utilities])], [])
+if test "x$enable_utils" = xno ; then
+  AC_MSG_WARN([Compilation of WCS utilities disabled.])
+else
+  SUBDIRS="$SUBDIRS utils"
+  INSTDIR="$INSTDIR utils"
+fi
+
+AC_SUBST([SUBDIRS])
+AC_SUBST([TSTDIRS])
+AC_SUBST([INSTDIR])
+
+
+# Default observer coordinates for sundazel.
+if test -f "$HOME/.sundazelrc"; then
+  . "$HOME/.sundazelrc"
+fi
+
+if test "x$OBSLNG" = x; then
+  OBSLNG=0.0
+  OBSLAT=0.0
+  OBSTZ=0.0
+fi
+
+AC_SUBST([OBSLNG])
+AC_SUBST([OBSLAT])
+AC_SUBST([OBSTZ])
+
+
+# Tidy up incrementally defined variables.
+FLFLAGS=`echo $FLFLAGS`
+CPPFLAGS=`echo $CPPFLAGS`
+CFLAGS=`echo $CFLAGS`
+FFLAGS=`echo $FFLAGS`
+LDFLAGS=`echo $LDFLAGS`
+
+AC_MSG_NOTICE([End of auxiliary configuration.
+])
+
+# Set from the environment for code development.
+AC_SUBST([FLAVOUR])
+AC_SUBST([ANALYSE])
+AC_SUBST([MODE])
+AC_SUBST([VALGRIND])
+AC_SUBST([EXTRA_CLEAN])
+
+
+# Do it.
+AC_MSG_NOTICE([Configuring files...])
+AC_CONFIG_FILES([makedefs wcslib.pc])
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h wcsconfig_utils.h])
+AC_OUTPUT
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.8.1.3 2026/06/14 12:42:58 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.9],[mark@@calabretta.id.au],[wcslib-8.9])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.8.1.3 $])
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.9 $])
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.8],[mark@@calabretta.id.au],[wcslib-8.8])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.7.1.1 $])
+d108 1
+a108 1
+  FLFLAGS="$FLFLAGS -D_POSIX_C_SOURCE=1"
+d158 34
+d265 1
+a265 1
+      -L*)  
+d269 2
+a270 2
+        ;;  
+      *) 
+d272 1
+a272 1
+        ;;  
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.8 $])
+@
+
+
+8.8.1.2
+log
+@Bumped the value of _POSIX_C_SOURCE to 200112L.  The old value, 1, restricts
+stdio.h to POSIX.1-1990 interfaces, which does not include snprintf().
+WCSLIB was failing to compile on macOS with recent versions of clang (16 and
+later), which promote implicit function declarations from a warning to a
+hard error.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.8.1.1 $])
+d108 1
+a108 1
+  FLFLAGS="$FLFLAGS -D_POSIX_C_SOURCE=200112L"
+@
+
+
+8.8.1.3
+log
+@Added tests for an appropriate thread-local storage (TLS) qualifier, which
+is propagated by pre-processor macro WCSLIB_TLS set in CPPFLAGS, specifically
+to the static variables in wcsprintf.c.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.8.1.2 2026/06/14 04:57:38 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.8.1.2 $])
+a157 34
+# Check for an appropriate thread-local storage (TLS) specifier (for C99).
+# The order here is significant, e.g. GCC will accept _Thread_local but issue
+# "warning: ISO C99 does not support ‘_Thread_local’ [-Wpedantic]".
+AC_MSG_CHECKING([for thread-local storage (TLS) specifier])
+tls=
+if test "x$tls" = x; then
+  # Microsoft Visual Studio (_MSC_VER).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([__declspec(thread) int dummy = 0;])],
+      tls="__declspec(thread)")
+fi
+if test "x$tls" = x; then
+  # GCC (__GNUC__), Clang (__clang__), and Intel (__INTEL_COMPILER).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([__thread int dummy = 0;])],
+      tls="__thread")
+fi
+if test "x$tls" = x; then
+  # Provided by the C11 standard (__STDC_VERSION__ >= 201112L).
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([_Thread_local int dummy = 0;])],
+      tls="_Thread_local")
+fi
+if test "x$tls" = x; then
+  # Provided natively by the C23 standard (__STDC_VERSION__ >= 202311), and
+  # also by C11 via threads.h as a macro that equates to _Thread_local.
+  AC_COMPILE_IFELSE(
+    [AC_LANG_PROGRAM([thread_local int dummy = 0;])],
+      tls="thread_local")
+fi
+
+AC_MSG_RESULT($tls)
+CPPFLAGS="$CPPFLAGS -DWCSLIB_TLS=$tls"
+
+d231 1
+a231 1
+      -L*)
+d235 2
+a236 2
+        ;;
+      *)
+d238 1
+a238 1
+        ;;
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.6.1.2 2026/04/24 05:40:34 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.7],[mark@@calabretta.id.au],[wcslib-8.7])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.6.1.2 $])
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.7 $])
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.5.1.2 2026/03/29 13:42:06 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.6],[mark@@calabretta.id.au],[wcslib-8.6])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.5.1.2 $])
+d625 1
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.6 $])
+@
+
+
+8.6.1.2
+log
+@Substitute ANALYSE to propagate its definition from flavours to makedefs.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.6.1.1 $])
+a624 1
+AC_SUBST([ANALYSE])
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d5 2
+a6 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: configure.ac,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.5],[mark@@calabretta.id.au],[wcslib-8.5])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.4.1.1 $])
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.5 $])
+@
+
+
+8.5.1.2
+log
+@Updated the URL for WCSLIB on ATNF's website.
+@
+text
+@d5 2
+a6 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: configure.ac,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.5.1.1 $])
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3.1.5 2024/07/09 05:51:04 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.4],[mark@@calabretta.id.au],[wcslib-8.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3.1.5 $])
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.4 $])
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2.1.5 2024/05/06 14:00:10 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.3],[mark@@calabretta.id.au],[wcslib-8.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2.1.5 $])
+d82 1
+a82 7
+# Check for data types (suggested by autoscan - off_t is only required by
+# fitshdr).
+AC_TYPE_OFF_T
+AC_TYPE_INT8_T
+AC_TYPE_INT16_T
+AC_TYPE_INT32_T
+AC_TYPE_UINT8_T
+d86 6
+a91 3
+AC_CHECK_HEADERS([ctype.h errno.h limits.h locale.h math.h setjmp.h stdarg.h \
+                  stdio.h stdlib.h string.h])
+if test "x$ac_cv_header_stdc" = xno; then
+d95 2
+a96 1
+    ANSI C header files it requires is missing or unusable.
+d112 1
+a112 2
+# Checks for ANSI C library functions (suggested by autoscan - fseeko and
+# stat are only required by fitshdr).
+a113 6
+AC_FUNC_FSEEKO
+AC_FUNC_MALLOC
+AC_FUNC_REALLOC
+AC_FUNC_STAT
+AC_FUNC_VPRINTF
+AC_CHECK_FUNCS([floor memset pow setlocale sqrt strchr strstr])
+d369 13
+a381 2
+# Check for other quasi-standard header files.
+AC_CHECK_HEADERS([unistd.h])
+d383 1
+a383 1
+# Large file support.
+d386 1
+a386 1
+
+d493 4
+d573 3
+d592 5
+a607 12
+
+AC_SUBST([CFITSIOINC])
+AC_SUBST([CFITSIOLIB])
+AC_SUBST([GETWCSTAB])
+
+AC_SUBST([PGPLOTINC])
+AC_SUBST([PGPLOTLIB])
+
+AC_SUBST([SUBDIRS])
+AC_SUBST([TSTDIRS])
+AC_SUBST([INSTDIR])
+
+d612 8
+d623 1
+d625 3
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3 $])
+@
+
+
+8.3.1.2
+log
+@When AC_HEADER_STDC was removed at 8.0.1.2 the ac_cv_header_stdc variable
+went with it.  Reimplemented the AC_CHECK_HEADERS test using a local
+variable.  Also fine-tuned the list of headers.  The library does not need
+errno.h, but does now need inttypes.h, stddef.h, and stdint.h.  However,
+the utilities and/or test programs require errno.h, time.h, sys/stat.h,
+sys/types.h, and unistd.h.  Issue a warning if any of them are missing.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3.1.1 $])
+d92 3
+a94 6
+# Check for standard C header files required to compile the library.
+headers=
+AC_CHECK_HEADERS([ctype.h inttypes.h limits.h locale.h math.h setjmp.h
+                  stdarg.h stddef.h stdint.h stdio.h stdlib.h string.h],
+                  [], [headers=no])
+if test "x$headers" = xno; then
+d98 1
+a98 2
+    standard C header files it requires is missing or unusable.  Please
+    refer to the above log.
+d378 2
+a379 13
+# Additional standard C header files required.
+headers=
+AC_CHECK_HEADERS([errno.h time.h], [], [headers=no])
+
+# Other header files required by *nix library functions.
+AC_CHECK_HEADERS([sys/stat.h sys/types.h unistd.h], [], [headers=no])
+if test "x$headers" = xno; then
+  AC_MSG_WARN([
+    --------------------------------------------------------------------
+    One or more of the header files required to compile the utilities
+    and/or test programs is missing.  Continuing on a best-effort basis.
+    --------------------------------------------------------------------])
+fi
+@
+
+
+8.3.1.3
+log
+@Removed AC_FUNC_FSEEKO (first occurence), AC_FUNC_MALLOC, AC_FUNC_REALLOC,
+AC_FUNC_STAT, AC_FUNC_VPRINTF, and AC_CHECK_FUNCS([floor memset pow
+setlocale sqrt strchr strstr]).  The results of these tests were never used.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3.1.2 2024/05/21 15:33:36 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3.1.2 $])
+d118 2
+a119 1
+# Check for libm.
+d121 6
+d396 1
+a396 1
+# Large file support (only required by fitshdr utility).
+d399 1
+@
+
+
+8.3.1.4
+log
+@Removed AC_TYPE_INT8_T, AC_TYPE_INT16_T, AC_TYPE_INT32_T, and AC_TYPE_UINT8_T;
+the results of these tests were never used.  Left AC_TYPE_UINT16_T and
+AC_TYPE_UINT32_T, the results of which are not used, but variables of those
+types are now used in wcs_fletcher32().  Moved AC_TYPE_OFF_T down to the
+tests for utilities and test programs as it is only used by the fitshdr
+utility.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3.1.3 2024/05/21 15:52:47 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3.1.3 $])
+d82 7
+a88 1
+# Data types used in wcs.c (results not currently used).
+a391 1
+AC_TYPE_OFF_T
+@
+
+
+8.3.1.5
+log
+@Substitute MODE, VALGRIND, and EXTRA_CLEAN to propagate definitions from
+flavours to makedefs.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.3.1.4 2024/05/21 16:31:57 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.3.1.4 $])
+a492 4
+
+    AC_SUBST([CFITSIOINC])
+    AC_SUBST([CFITSIOLIB])
+    AC_SUBST([GETWCSTAB])
+a568 3
+
+  AC_SUBST([PGPLOTINC])
+  AC_SUBST([PGPLOTLIB])
+a584 5
+AC_SUBST([SUBDIRS])
+AC_SUBST([TSTDIRS])
+AC_SUBST([INSTDIR])
+
+
+d596 12
+a611 8
+
+# Tidy up incrementally defined variables.
+FLFLAGS=`echo $FLFLAGS`
+CPPFLAGS=`echo $CPPFLAGS`
+CFLAGS=`echo $CFLAGS`
+FFLAGS=`echo $FFLAGS`
+LDFLAGS=`echo $LDFLAGS`
+
+a614 1
+# Set from the environment for code development.
+a615 3
+AC_SUBST([MODE])
+AC_SUBST([VALGRIND])
+AC_SUBST([EXTRA_CLEAN])
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.2],[mark@@calabretta.id.au],[wcslib-8.2])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.1.1.1 $])
+d60 9
+d257 16
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2 $])
+@
+
+
+8.2.1.2
+log
+@WCSLIB 8.2.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.2.1],[mark@@calabretta.id.au],[wcslib-8.2.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2.1.1 $])
+@
+
+
+8.2.1.3
+log
+@WCSLIB 8.2.2
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2.1.2 2023/11/17 03:30:27 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.2.2],[mark@@calabretta.id.au],[wcslib-8.2.2])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2.1.2 $])
+@
+
+
+8.2.1.4
+log
+@Get the GCC version number, as GCC_VERSION, for reporting by the 'show' rule
+in makedefs.  New option, '--with-bindc', returned as BINDC, to use the new
+Fortran 2003 BIND(C) wrappers.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2.1.3 2023/11/29 08:05:55 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2.1.3 $])
+a59 9
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  # Get gcc version number.
+  GCC_VERSION=`$CC -dumpfullversion`
+  AC_MSG_NOTICE([Using gcc version $GCC_VERSION])
+else
+  GCC_VERSION=
+fi
+AC_SUBST([GCC_VERSION])
+
+a247 10
+
+    BINDC=
+    AC_ARG_WITH([bindc], [AS_HELP_STRING([--with-bindc],
+            [use Fortran 2003 BIND(C) wrappers - recommended for Link Time
+             Optimization (LTO)])], [])
+    if test "x$with_bindc" = xyes ; then
+      BINDC=yes
+      AC_MSG_NOTICE([using Fortran 2003 BIND(C) wrappers.])
+    fi
+    AC_SUBST([BINDC])
+@
+
+
+8.2.1.5
+log
+@Allow BINDC to be set from the environment, overriding the --with-bindc
+option.  BINDC=yes enables it.  Anything else disables it.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.2.1.4 2024/05/06 05:13:51 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.2.1.4 $])
+d258 6
+a263 10
+    if test "x$BINDC" = x ; then
+      AC_ARG_WITH([bindc], [AS_HELP_STRING([--with-bindc],
+              [use Fortran 2003 BIND(C) wrappers - recommended for Link Time
+               Optimization (LTO)])], [])
+      if test "x$with_bindc" = xyes ; then
+        BINDC=yes
+      fi
+    fi
+
+    if test "x$BINDC" = xyes ; then
+a264 2
+    else
+      BINDC=
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.0.1.2 2023/07/05 16:33:13 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB],[8.1],[mark@@calabretta.id.au],[wcslib-8.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.0.1.2 $])
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.1 $])
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d9 3
+a11 3
+AC_INIT([WCSLIB], [8.0], [mark@@calabretta.id.au], [wcslib-8.0])
+AC_PREREQ([2.53])
+AC_REVISION([$Revision: 7.13.1.1 $])
+a59 1
+AC_PROG_CC_STDC
+a82 2
+# Check for ANSI C headers.
+AC_HEADER_STDC
+a110 1
+AC_FUNC_SETVBUF_REVERSED
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 8.0 $])
+@
+
+
+8.0.1.2
+log
+@Ran autoupdate as suggested by autoconf, which resulted in removing the
+obsolete macros AC_PROG_CC_STDC, AC_HEADER_STDC, and AC_FUNC_SETVBUF_REVERSED.
+It also changed AC_PREREQ([2.53]) to AC_PREREQ([2.71]).
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d9 3
+a11 3
+AC_INIT([WCSLIB],[8.0],[mark@@calabretta.id.au],[wcslib-8.0])
+AC_PREREQ([2.71])
+AC_REVISION([$Revision: 8.0.1.1 $])
+d60 1
+d84 2
+d114 1
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.13], [mark@@calabretta.id.au], [wcslib-7.13])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.12.1.1 $])
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.13 $])
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.12], [mark@@calabretta.id.au], [wcslib-7.12])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.11.1.1 $])
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.12 $])
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.11], [mark@@calabretta.id.au], [wcslib-7.11])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.10.1.1 $])
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.11 $])
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.10], [mark@@calabretta.id.au], [wcslib-7.10])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.9.1.1 $])
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.10 $])
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.9], [mark@@calabretta.id.au], [wcslib-7.9])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.8.1.1 $])
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.9 $])
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.8], [mark@@calabretta.id.au], [wcslib-7.8])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.7.1.1 $])
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.8 $])
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.6.1.3 2021/06/09 08:23:42 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.7], [mark@@calabretta.id.au], [wcslib-7.7])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.6.1.3 $])
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.7 $])
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.5.1.2 2021/04/09 03:24:23 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.6], [mark@@calabretta.id.au], [wcslib-7.6])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.5.1.2 $])
+d306 1
+a306 1
+      SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER"
+d315 6
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.6 $])
+@
+
+
+7.6.1.2
+log
+@Patch for MacOSX installation provided by Mosè Giordano.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.6.1.1 $])
+d306 1
+a306 1
+      SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER -install_name \$(SONAME)"
+@
+
+
+7.6.1.3
+log
+@Patch provided by Mosè Giordano that makes it possible to build the
+Windows library using the MinGW cross-compiler.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.6.1.2 2021/06/09 08:18:51 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.6.1.2 $])
+a314 6
+      ;;
+    *mingw*)
+      SHRLIB="libwcs.dll.$LIBVER"
+      SONAME="libwcs.dll.$SHVER"
+      SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+      SHRLN="libwcs.dll"
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.4.1.2 2021/03/20 05:50:22 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.5], [mark@@calabretta.id.au], [wcslib-7.5])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.4.1.2 $])
+d29 19
+a47 10
+AC_CHECK_PROG([FLEX], [flex], [flex], [], [], [])
+if test "x$FLEX" = xflex ; then
+  # Version 2.5.9 or later is required.
+  V=`flex --version | awk '{print $2}'`
+  W=`echo $V | awk -F. '{if ((($1*100 + $2)*100 + $3) < 20509) print "no"}'`
+  if test "x$W" != x ; then
+    AC_MSG_NOTICE([Flex version $V is too old, ignored.])
+    FLEX=
+  else
+    AC_MSG_NOTICE([Using Flex version $V.])
+a48 1
+fi
+d50 2
+a51 2
+if test "x$FLEX" = x ; then
+  AC_MSG_WARN([Flex version 2.5.9 or later does not appear to be
+d53 1
+d188 1
+a188 1
+  AC_MSG_WARN([Compilation of Fortran wrappers and PGSBOX disabled])
+d292 1
+a292 1
+    AC_MSG_WARN([Generation of WCS shared libraries disabled])
+d365 1
+a365 1
+  AC_MSG_WARN([CFITSIO disabled])
+d391 1
+a391 1
+  AC_MSG_WARN([PGPLOT disabled])
+d550 1
+a550 1
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.5 $])
+@
+
+
+7.5.1.2
+log
+@Upped the required version of Flex to 2.6.0 (was 2.5.9).  Problems with
+with Flex 2.5.39 reported by Derek Homeier.  Also added '--disable-flex' as
+a new configure option to force the use of the pre-generated Flex sources.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.5.1.1 $])
+d29 10
+a38 19
+AC_ARG_ENABLE([flex], [AS_HELP_STRING([--disable-flex],
+            [don't apply flex (use pre-generated sources)])], [])
+if test "x$enable_flex" = xno ; then
+  FLEX=
+  AC_MSG_WARN([Generation of flex sources disabled by request, using
+           pre-generated sources.])
+
+else
+  AC_CHECK_PROG([FLEX], [flex], [flex], [], [], [])
+  if test "x$FLEX" = xflex ; then
+    # Version 2.6.0 or later is required.
+    V=`flex --version | awk '{print $2}'`
+    W=`echo $V | awk -F. '{if ((($1*100 + $2)*100 + $3) < 20600) print "no"}'`
+    if test "x$W" != x ; then
+      AC_MSG_WARN([Flex version $V is too old, ignored.])
+      FLEX=
+    else
+      AC_MSG_NOTICE([Using Flex version $V.])
+    fi
+d40 1
+d42 2
+a43 2
+  if test "x$FLEX" = x ; then
+    AC_MSG_WARN([Flex version 2.6.0 or later does not appear to be
+a44 1
+  fi
+d179 1
+a179 1
+  AC_MSG_WARN([Compilation of Fortran wrappers and PGSBOX disabled.])
+d283 1
+a283 1
+    AC_MSG_WARN([Generation of WCS shared libraries disabled.])
+d356 1
+a356 1
+  AC_MSG_WARN([CFITSIO disabled.])
+d382 1
+a382 1
+  AC_MSG_WARN([PGPLOT disabled.])
+d541 1
+a541 1
+  AC_MSG_WARN([Compilation of WCS utilities disabled.])
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.3.1.2 2020/08/17 11:08:01 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.4], [mark@@calabretta.id.au], [wcslib-7.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.3.1.2 $])
+d547 11
+d569 4
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.4 $])
+@
+
+
+7.4.1.2
+log
+@Set OBSLNG, OBSLAT, and OBSTZ for sundazel.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.4.1.1 $])
+a546 11
+# Default observer coordinates for sundazel.
+if test -f "$HOME/.sundazelrc"; then
+  . "$HOME/.sundazelrc"
+fi
+
+if test "x$OBSLNG" = x; then
+  OBSLNG=0.0
+  OBSLAT=0.0
+  OBSTZ=0.0
+fi
+
+a557 4
+
+AC_SUBST([OBSLNG])
+AC_SUBST([OBSLAT])
+AC_SUBST([OBSTZ])
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.3], [mark@@calabretta.id.au], [wcslib-7.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.2.1.1 $])
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.3 $])
+@
+
+
+7.3.1.2
+log
+@WCSLIB 7.3.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.3.1], [mark@@calabretta.id.au], [wcslib-7.3.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.3.1.1 $])
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.1.1.2 2020/02/26 11:07:21 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.2], [mark@@calabretta.id.au], [wcslib-7.2])
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.1.1.2 $])
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.2 $])
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [7.1], [mark@@calabretta.id.au], [wcslib-7.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.4.1.1 $])
+d267 14
+a280 1
+# Shared library generation.
+d282 5
+a286 1
+  SHVER=`echo "$LIBVER" | sed -e 's/\..*$//'`
+d288 25
+a312 16
+  # Note that -fPIC is on by default for Macs, this just makes it obvious.
+  SHRFLAGS="-fPIC"
+  SHRLD="\$(CC) \$(SHRFLAGS)"
+
+  case "$host_os" in
+  darwin*)
+    SHRLIB="libwcs.$LIBVER.dylib"
+    SONAME="libwcs.$SHVER.dylib"
+    SHRLD="$SHRLD -dynamiclib -single_module"
+    SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER"
+    SHRLN="libwcs.dylib"
+
+    case "$host_cpu" in
+    powerpc*)
+      # Switch off -fPIC (not applicable for PowerPC Macs).
+      CFLAGS="$CFLAGS -mdynamic-no-pic"
+d315 1
+a315 17
+    ;;
+  *)
+    # Covers Linux and Solaris at least.
+    SHRLIB="libwcs.so.$LIBVER"
+    SONAME="libwcs.so.$SHVER"
+    SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+    SHRLN="libwcs.so"
+    ;;
+  esac
+
+else
+  SHRLIB=
+  SONAME=
+  SHRFLAGS=
+  SHRLD=
+  SHRSFX=
+  SHRLN=
+d540 3
+a542 1
+if test "x$enable_utils" != xno ; then
+a544 2
+else
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.1 $])
+@
+
+
+7.1.1.2
+log
+@Added --disable-shared to prevent generation of the shared libraries.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 7.1.1.1 $])
+d267 1
+a267 14
+# Shared library generation - gcc only.
+# Ways of disabling shared libraries:
+#   configure --disable-shared
+#   configure --enable-shared=no
+AC_ARG_ENABLE([shared], [AS_HELP_STRING([--disable-shared],
+            [don't build the WCS shared libraries])], [])
+
+SHRLIB=
+SONAME=
+SHRFLAGS=
+SHRLD=
+SHRSFX=
+SHRLN=
+
+d269 1
+a269 5
+  if test "x$enable_shared" = xno ; then
+    AC_MSG_WARN([Generation of WCS shared libraries disabled])
+
+  else
+    SHVER=`echo "$LIBVER" | sed -e 's/\..*$//'`
+d271 16
+a286 25
+    # Note that -fPIC is on by default for Macs, this just makes it obvious.
+    SHRFLAGS="-fPIC"
+    SHRLD="\$(CC) \$(SHRFLAGS)"
+
+    case "$host_os" in
+    darwin*)
+      SHRLIB="libwcs.$LIBVER.dylib"
+      SONAME="libwcs.$SHVER.dylib"
+      SHRLD="$SHRLD -dynamiclib -single_module"
+      SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER"
+      SHRLN="libwcs.dylib"
+
+      case "$host_cpu" in
+      powerpc*)
+        # Switch off -fPIC (not applicable for PowerPC Macs).
+        CFLAGS="$CFLAGS -mdynamic-no-pic"
+        ;;
+      esac
+      ;;
+    *)
+      # Covers Linux and Solaris at least.
+      SHRLIB="libwcs.so.$LIBVER"
+      SONAME="libwcs.so.$SHVER"
+      SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+      SHRLN="libwcs.so"
+d289 17
+a305 1
+  fi
+d530 1
+a530 3
+if test "x$enable_utils" = xno ; then
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+else
+d533 2
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [6.4], [mark@@calabretta.id.au], [wcslib-6.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.3.1.1 $])
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.4 $])
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.2.1.3 2019/07/08 12:29:32 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [6.3], [mark@@calabretta.id.au], [wcslib-6.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.2.1.3 $])
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.3 $])
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [6.2], [mark@@calabretta.id.au], [wcslib-6.2])
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.1.1.1 $])
+d89 10
+d219 21
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.2 $])
+@
+
+
+6.2.1.2
+log
+@Set FLFLAGS to define _POSIX_C_SOURCE when gcc is used in order to get the
+required definitions from glibc header files.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.2.1.1 $])
+a87 10
+
+# Flex uses fileno() and other POSIX features whose prototypes are only
+# available from glibc's stdio.h with an appropriate preprocessor macro
+# definition.  This cannot be set within the flex description file itself
+# as stdio.h is included in the generated C code before any part of the
+# description.  See fileno(3) and feature_test_macros(7).
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  FLFLAGS="$FLFLAGS -D_POSIX_C_SOURCE=1"
+fi
+AC_SUBST([FLFLAGS])
+@
+
+
+6.2.1.3
+log
+@Tidy up the value of FLIBS set by 'configure', rationalising the directory
+specifications and squeezing out duplicates.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.2.1.2 2019/07/08 09:28:56 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.2.1.2 $])
+a218 21
+
+    # Tidy up FLIBS.
+    dirs=
+    libs=
+    for flib in $FLIBS
+    do
+      case "$flib" in
+      -L*)  
+        dir=`echo "$flib" | sed -e 's/-L//'`
+        dir=-L`cd "$dir" && pwd`
+        dirs="$dirs $dir"
+        ;;  
+      *) 
+        libs="$libs $flib"
+        ;;  
+      esac
+    done
+
+    dirs=`for dir in $dirs ; do echo "$dir" ; done | sort -u | xargs`
+
+    FLIBS="$dirs$libs"
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.20.1.2 2018/10/19 03:04:33 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [6.1], [mark@@calabretta.id.au], [wcslib-6.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.20.1.2 $])
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 6.1 $])
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.19.1.3 2018/10/03 13:13:48 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.20], [mark@@calabretta.id.au], [wcslib-5.20])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.19.1.3 $])
+d288 5
+d520 2
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.20 $])
+@
+
+
+5.20.1.2
+log
+@Add -Otarget to MAKEFLAGS if it is a recognized make option (older versions of
+GNU make don't recognise it).  Substitute FLAVOUR set in the environment, as in
+'make FLAVOUR=Linux configure'.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.20.1.1 $])
+a287 5
+# Older versions of GNU make do not have the -O option, which only facilitates
+# legibility of the output from parallel builds (make -j).
+make --help | grep '\-O' >/dev/null 2>&1 && MAKEFLAGS="-Otarget"
+AC_SUBST([MAKEFLAGS])
+
+a514 2
+
+AC_SUBST([FLAVOUR])
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.18.1.2 2018/07/26 15:31:58 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.19], [mark@@calabretta.id.au], [wcslib-5.19])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.18.1.2 $])
+d230 3
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.19 $])
+@
+
+
+5.19.1.2
+log
+@WCSLIB 5.19.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.19.1], [mark@@calabretta.id.au], [wcslib-5.19.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.19.1.1 $])
+@
+
+
+5.19.1.3
+log
+@Add the "U" flag to ARFLAGS if it is recognised to force "non-deterministic"
+archiving.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.19.1.2 2018/07/28 12:54:15 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.19.1.2 $])
+a229 3
+# Ensure "non-deterministic" archives are produced during the build process.
+ar rU conftest.a > /dev/null 2>&1 && ARFLAGS="U"
+rm -f conftest.a
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.17.1.2 2017/12/05 00:43:37 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.18], [mark@@calabretta.id.au], [wcslib-5.18])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.17.1.2 $])
+d23 2
+a24 2
+AC_CANONICAL_BUILD
+ARCH="${build_cpu}-$build_os"
+d241 1
+a241 1
+  case "$build_os" in
+d249 1
+a249 1
+    case "$build_cpu" in
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.18 $])
+@
+
+
+5.18.1.2
+log
+@Changes required for cross-compiling - patch supplied by Mosè Giordano.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.18.1.1 $])
+d23 2
+a24 2
+AC_CANONICAL_HOST
+ARCH="${host_cpu}-$host_os"
+d241 1
+a241 1
+  case "$host_os" in
+d249 1
+a249 1
+    case "$host_cpu" in
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.17], [mark@@calabretta.id.au], [wcslib-5.17])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.16.1.1 $])
+d230 1
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.17 $])
+@
+
+
+5.17.1.2
+log
+@Substitute the value of ARFLAGS obtained from the environment.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.17.1.1 $])
+a229 1
+AC_SUBST([ARFLAGS])
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.16], [mark@@calabretta.id.au], [wcslib-5.16])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.15.1.1 $])
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.16 $])
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.15], [mark@@calabretta.id.au], [wcslib-5.15])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.14.1.1 $])
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.15 $])
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.13.1.2 2016/02/07 08:50:41 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.14], [mark@@calabretta.id.au], [wcslib-5.14])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.13.1.2 $])
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.14 $])
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.13], [mark@@calabretta.id.au], [wcslib-5.13])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.12.1.1 $])
+d246 1
+a246 1
+    SHRLN=
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.13 $])
+@
+
+
+5.13.1.2
+log
+@For MacOSX (Darwin) installations, create symlink libwcs.dylib pointing to
+the dynamic library so that WCSLIB is linked dynamically by default.
+Requested by Paul Price.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.13.1.1 $])
+d246 1
+a246 1
+    SHRLN="libwcs.dylib"
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.12], [mark@@calabretta.id.au], [wcslib-5.12])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.11.1.1 $])
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.12 $])
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.11], [mark@@calabretta.id.au], [wcslib-5.11])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.10.1.1 $])
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.11 $])
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.10], [mark@@calabretta.id.au], [wcslib-5.10])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.9.1.1 $])
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.10 $])
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.9], [mark@@calabretta.id.au], [wcslib-5.9])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.8.1.1 $])
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.9 $])
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.8], [mark@@calabretta.id.au], [wcslib-5.8])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.7.1.1 $])
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.8 $])
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.7], [mark@@calabretta.id.au], [wcslib-5.7])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.6.1.1 $])
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.7 $])
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.6], [mark@@calabretta.id.au], [wcslib-5.6])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.5.1.1 $])
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.6 $])
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.4.1.2 2015/05/01 08:23:03 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.5], [mark@@calabretta.id.au], [wcslib-5.5])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.4.1.2 $])
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.5 $])
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.3.1.2 2015/04/21 12:47:42 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.4], [mark@@calabretta.id.au], [wcslib-5.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.3.1.2 $])
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.4 $])
+@
+
+
+5.4.1.2
+log
+@WCSLIB 5.4.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.4.1], [mark@@calabretta.id.au], [wcslib-5.4.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.4.1.1 $])
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.3], [mark@@calabretta.id.au], [wcslib-5.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.2.1.1 $])
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.3 $])
+@
+
+
+5.3.1.2
+log
+@WCSLIB 5.3.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.3.1], [mark@@calabretta.id.au], [wcslib-5.3.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.3.1.1 $])
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.2], [mark@@calabretta.id.au], [wcslib-5.2])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.1.1.1 $])
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.2 $])
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.1], [mark@@calabretta.id.au], [wcslib-5.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.0.1.1 $])
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.1 $])
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.25.1.2 2015/01/06 00:58:14 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [5.0], [mark@@calabretta.id.au], [wcslib-5.0])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.25.1.2 $])
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 5.0 $])
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.24.1.2 2014/12/14 14:27:34 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.25], [mark@@calabretta.id.au], [wcslib-4.25])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.24.1.2 $])
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.25 $])
+@
+
+
+4.25.1.2
+log
+@WCSLIB 4.25.1
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.25.1], [mark@@calabretta.id.au], [wcslib-4.25.1])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.25.1.1 $])
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@a3 5
+# N.B. it is necessary to run autoconf on a Mac in order for configure to
+# locate the X11 dylibs for PGPLOT.  Use autoconf-2.61 in MacOSX 10.6.2 or
+# later to avoid spurious messages about deleting conftest.dSYM when
+# configuring in MacOSX 10.6.
+#
+d6 1
+a6 1
+# $Id: configure.ac,v 4.23.1.3 2014/06/09 08:27:20 mcalabre Exp mcalabre $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.24], [mark@@calabretta.id.au], [wcslib-4.24])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.23.1.3 $])
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.24 $])
+@
+
+
+4.24.1.2
+log
+@Removed prologue comment relating to running autoconf on a Mac host (pixie)
+as it is now the same as in Linux distros.  Unclear whether the Mac-specific
+version is needed anymore.
+@
+text
+@d4 5
+d11 1
+a11 1
+# $Id: configure.ac,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.24.1.1 $])
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.23], [mark@@calabretta.id.au], [wcslib-4.23])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.22.1.1 $])
+d37 1
+a37 1
+  V=`flex --version | awk '{print $NF}'`
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.23 $])
+@
+
+
+4.23.1.2
+log
+@WCSLIB 4.23.1
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.23.1], [mark@@calabretta.id.au], [wcslib-4.23.1])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.23.1.1 $])
+@
+
+
+4.23.1.3
+log
+@'flex --version' in MacOSX 10.9.3 reports "flex 2.5.35 Apple(flex-31)".
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.23.1.2 2014/05/22 11:18:32 mcalabre Exp mcalabre $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.23.1.2 $])
+d37 1
+a37 1
+  V=`flex --version | awk '{print $2}'`
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.22], [mark@@calabretta.id.au], [wcslib-4.22])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.21.1.1 $])
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.22 $])
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.21], [mark@@calabretta.id.au], [wcslib-4.21])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.20.1.1 $])
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.21 $])
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.20], [mark@@calabretta.id.au], [wcslib-4.20])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.19.1.1 $])
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.20 $])
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.19], [mark@@calabretta.id.au], [wcslib-4.19])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.18.1.1 $])
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.19 $])
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.18], [mark@@calabretta.id.au], [wcslib-4.18])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.17.1.1 $])
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.18 $])
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.17], [mark@@calabretta.id.au], [wcslib-4.17])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.16.1.1 $])
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.17 $])
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.16], [mark@@calabretta.id.au], [wcslib-4.16])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.15.1.1 $])
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.16 $])
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.15], [mark@@calabretta.id.au], [wcslib-4.15])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.14.1.1 $])
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.15 $])
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.8 2012/07/13 03:28:30 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.14], [mark@@calabretta.id.au], [wcslib-4.14])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.8 $])
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.14 $])
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d9 3
+a11 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: configure.ac,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13], [mcalabre@@atnf.csiro.au], [wcslib-4.13])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.12.1.1 $])
+d82 2
+a83 2
+AC_CHECK_HEADERS([ctype.h errno.h limits.h math.h setjmp.h stdarg.h stdio.h \
+                  stdlib.h string.h])
+d103 1
+a103 1
+AC_CHECK_FUNCS([floor memset pow sqrt strchr strstr])
+d264 1
+a264 1
+    SHRLD="$SHRLD -shared -Wl,-h\$(SONAME) -lm"
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13 $])
+@
+
+
+4.13.1.2
+log
+@WCSLIB 4.13.1
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13.1], [mcalabre@@atnf.csiro.au], [wcslib-4.13.1])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.1 $])
+@
+
+
+4.13.1.3
+log
+@Removed '-lm' from SHRLD, the command for producing the sharable library
+now has $(LIBS) added so that '-lm' appears in the correct sequence.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.2 2012/03/15 06:18:04 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.2 $])
+d264 1
+a264 1
+    SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+@
+
+
+4.13.1.4
+log
+@WCSLIB 4.13.2
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.3 2012/03/21 02:59:30 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13.2], [mcalabre@@atnf.csiro.au], [wcslib-4.13.2])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.3 $])
+@
+
+
+4.13.1.5
+log
+@WCSLIB 4.13.3
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.4 2012/03/21 03:08:32 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13.3], [mcalabre@@atnf.csiro.au], [wcslib-4.13.3])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.4 $])
+@
+
+
+4.13.1.6
+log
+@WCSLIB 4.13.4
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.5 2012/03/26 03:58:33 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13.4], [mcalabre@@atnf.csiro.au], [wcslib-4.13.4])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.5 $])
+@
+
+
+4.13.1.7
+log
+@Added locale.h to AC_CHECK_HEADERS, and setlocale to AC_CHECK_FUNCS.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.13.1.6 2012/04/02 03:27:25 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.6 $])
+d82 2
+a83 2
+AC_CHECK_HEADERS([ctype.h errno.h limits.h locale.h math.h setjmp.h stdarg.h \
+                  stdio.h stdlib.h string.h])
+d103 1
+a103 1
+AC_CHECK_FUNCS([floor memset pow setlocale sqrt strchr strstr])
+@
+
+
+4.13.1.8
+log
+@Changed contact details.
+@
+text
+@d9 3
+a11 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: configure.ac,v 4.13.1.7 2012/07/12 15:38:50 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.13.4], [mark@@calabretta.id.au], [wcslib-4.13.4])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.13.1.7 $])
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.12], [mcalabre@@atnf.csiro.au], [wcslib-4.12])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.11.1.1 $])
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.12 $])
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.11], [mcalabre@@atnf.csiro.au], [wcslib-4.11])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.10.1.1 $])
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.11 $])
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.10], [mcalabre@@atnf.csiro.au], [wcslib-4.10])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.9.1.1 $])
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.10 $])
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.8 2011/12/05 06:55:00 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.9], [mcalabre@@atnf.csiro.au], [wcslib-4.9])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.8 $])
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.9 $])
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d5 3
+a7 3
+# locate the X11 dylibs for PGPLOT.  Use autoconf-2.61 in MacOSX 10.6.2 to
+# avoid spurious messages about deleting conftest.dSYM when configuring in
+# MacOSX 10.6.
+d11 1
+a11 1
+# $Id: configure.ac,v 4.7.1.4 2011/08/15 06:13:10 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.8], [mcalabre@@atnf.csiro.au], [wcslib-4.8])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.7.1.4 $])
+d20 2
+a21 2
+# Remove the patch number from the library version.
+LIBVER=`echo "$PACKAGE_VERSION" | sed -e '{s/\./-/;s/\.[[0-9]]*$//;s/-/./;}'`
+d239 2
+d248 1
+d250 1
+a250 1
+    SHRLD="$SHRLD -compatibility_version $LIBVER -current_version $LIBVER"
+d255 1
+a255 1
+      # Switch off -fPIC (not applicable for Intel Macs).
+d263 2
+a264 1
+    SHRLD="$SHRLD -shared -Wl,-h\$(SHRLIB)"
+d271 1
+d279 1
+d467 1
+a467 1
+                 [], [$PGPLOTLIB $LIBS])
+d469 1
+a469 1
+                 [PGPLOTLIB=], [$PGPLOTLIB $LIBS])
+d521 1
+a521 2
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h
+                   wcsconfig_utils.h])
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8 $])
+@
+
+
+4.8.1.2
+log
+@Set SONAME for the sharable library so that it uses only the major
+version number (Ole Streicher, Debian package maintainer).
+@
+text
+@d5 3
+a7 3
+# locate the X11 dylibs for PGPLOT.  Use autoconf-2.61 in MacOSX 10.6.2 or
+# later to avoid spurious messages about deleting conftest.dSYM when
+# configuring in MacOSX 10.6.
+d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.8.1], [mcalabre@@atnf.csiro.au], [wcslib-4.8.1])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.1 $])
+d20 2
+a21 2
+# Library version number, same as package version.
+LIBVER="$PACKAGE_VERSION"
+a238 2
+  SHVER=`echo "$LIBVER" | sed -e 's/\.[[0-9]]*$//'`
+
+a245 1
+    SONAME="libwcs.$SHVER.dylib"
+d247 1
+a247 1
+    SHRLD="$SHRLD -compatibility_version $SHVER -current_version $LIBVER"
+d260 1
+a260 2
+    SONAME="libwcs.so.$SHVER"
+    SHRLD="$SHRLD -shared -Wl,-h\$(SONAME)"
+a266 1
+  SONAME=
+a273 1
+AC_SUBST([SONAME])
+@
+
+
+4.8.1.3
+log
+@Fix for previous change.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.2 2011/09/16 04:37:16 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.2 $])
+d239 1
+a239 1
+  SHVER=`echo "$LIBVER" | sed -e 's/\..*$//'`
+@
+
+
+4.8.1.4
+log
+@Minor corrections discovered by lintian and reported by Ole Streicher.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.3 2011/09/19 01:55:19 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.3 $])
+d255 1
+a255 1
+      # Switch off -fPIC (not applicable for PowerPC Macs).
+d264 1
+a264 1
+    SHRLD="$SHRLD -shared -Wl,-h\$(SONAME) -lm"
+d521 2
+a522 1
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h wcsconfig_utils.h])
+@
+
+
+4.8.1.5
+log
+@WCSLIB 4.8.2
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.4 2011/10/04 07:56:29 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.8.2], [mcalabre@@atnf.csiro.au], [wcslib-4.8.2])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.4 $])
+@
+
+
+4.8.1.6
+log
+@WCSLIB 4.8.3
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.5 2011/10/04 08:01:03 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.8.3], [mcalabre@@atnf.csiro.au], [wcslib-4.8.3])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.5 $])
+@
+
+
+4.8.1.7
+log
+@$FLIBS must be added to the link list when checking for the PGPLOT
+libraries since gcc is driving the linker.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.6 2011/11/17 05:32:10 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.6 $])
+d467 1
+a467 1
+                 [], [$PGPLOTLIB $FLIBS $LIBS])
+d469 1
+a469 1
+                 [PGPLOTLIB=], [$PGPLOTLIB $FLIBS $LIBS])
+@
+
+
+4.8.1.8
+log
+@WCSLIB 4.8.4
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.8.1.7 2011/11/23 04:46:43 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.8.4], [mcalabre@@atnf.csiro.au], [wcslib-4.8.4])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.8.1.7 $])
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.11 2011/02/07 06:31:06 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.7], [mcalabre@@atnf.csiro.au], [wcslib-4.7])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.11 $])
+d142 1
+a142 1
+  AC_DEFINE([MODZ], ["l"], [printf format modifier for size_t type.])
+d144 1
+a144 1
+  AC_DEFINE([MODZ], ["l"], [printf format modifier for size_t type.])
+d179 1
+a179 1
+    AC_PROG_F77([g77 f77 gfortran ifort xlf frt pgf77 fl32 af77 fort77 f90 \
+a194 1
+      # Beware of gfortran!
+d196 1
+d425 7
+a431 5
+    # PGPLOT compiled with g77 but linked with something else.
+    AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+d433 10
+a442 3
+    # PGPLOT compiled with gfortran but linked with something else.
+    AC_CHECK_LIB([gfortran], [_gfortran_abort],
+                 [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [], [$PGPLOTLIB $LIBS])
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.7 $])
+@
+
+
+4.7.1.2
+log
+@As version 4.x of gcc is becoming prevalent, gfortran is a safer choice
+of Fortran compiler than g77.  This is especially so in MacOSX 10.6 with
+its i386/x86_64 dichotomy.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.7.1.1 $])
+d179 1
+a179 1
+    AC_PROG_F77([gfortran g77 f77 ifort xlf frt pgf77 fl32 af77 fort77 f90 \
+d195 1
+a196 1
+        # Not recognized by gfortran.
+@
+
+
+4.7.1.3
+log
+@Don't add -lgfortran to PGPLOTLIBS if gfortran itself is used for compiling
+Fortran.  Doing so prevents it from adding -lgfortranbegin to the link list
+thereby leading to complaints from the linker about "main" being undefined.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.7.1.2 2011/02/09 02:01:01 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.7.1.2 $])
+d425 5
+a429 7
+    if test "x$F77" != xg77; then
+      # For PGPLOT compiled with g77 but linked with something else.
+      AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+                   [], [$PGPLOTLIB $LIBS])
+      AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+                   [], [$PGPLOTLIB $LIBS])
+    fi
+d431 3
+a433 10
+    if test "x$F77" != xgfortran; then
+      # For PGPLOT compiled with gfortran but linked with something else.
+      # Note that if gfortran itself is driving the linker it can be harmful
+      # to add -lgfortran to the link list without also adding -lgfortranbegin.
+      # Doing so stops gfortran from adding -lgfortranbegin which is needed to
+      # resolve "main".
+      AC_CHECK_LIB([gfortran], [_gfortran_abort],
+                   [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [],
+                   [$PGPLOTLIB $LIBS])
+    fi
+@
+
+
+4.7.1.4
+log
+@When defining MODZ, leave it blank if the "z" modifier is unrecogized.
+Setting it to "l" produces complaints from gcc 4.5.1 in SunOS where
+size_t is only 4 bytes.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.7.1.3 2011/08/13 08:04:56 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.7.1.3 $])
+d142 1
+a142 1
+  AC_DEFINE([MODZ], [""],  [printf format modifier for size_t type.])
+d144 1
+a144 1
+  AC_DEFINE([MODZ], [""],  [printf format modifier for size_t type.])
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d4 4
+a7 2
+# Use autoconf-2.61 in MacOSX 10.6.2 to avoid spurious messages about deleting
+# conftest.dSYM when configuring in MacOSX 10.6.
+d11 1
+a11 1
+# $Id: configure.ac,v 4.5.1.8 2010/10/28 05:18:21 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.6], [mcalabre@@atnf.csiro.au], [wcslib-4.6])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.5.1.8 $])
+d18 5
+a22 1
+AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION])
+d82 2
+a83 2
+AC_CHECK_HEADERS([ctype.h errno.h limits.h math.h setjmp.h stdio.h stdlib.h \
+                  string.h])
+d102 1
+d149 10
+d163 2
+d167 1
+a167 1
+if test "x$enable_fortran" != x ; then
+a173 4
+  SUBDIRS="C"
+  TSTDIRS="C"
+  INSTDIR="C"
+
+d185 3
+a187 3
+      ---------------------------------------------------------------------
+      Fortran compiler not found, will skip PGSBOX and Fortran test suite.
+      ---------------------------------------------------------------------])
+a192 4
+    SUBDIRS="C Fortran"
+    TSTDIRS="C"
+    INSTDIR="Fortran"
+
+d205 2
+a206 1
+    AC_TRY_COMPILE([], [], [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+d211 2
+a212 3
+    # Required by utilities and test programs written in C that link to the
+    # pgsbox object library - this contains the only Fortran modules in the
+    # WCSLIB suite.
+d220 1
+a220 1
+    INSTDIR="pgsbox"
+a242 1
+  V="$PACKAGE_VERSION"
+d245 1
+a245 1
+    SHRLIB="libwcs.$V.dylib"
+d247 1
+a247 1
+    SHRLD="$SHRLD -compatibility_version $V -current_version $V"
+d259 1
+a259 1
+    SHRLIB="libwcs.so.$V"
+a290 13
+# Utilities, ways of disabling them:
+#   configure --disable-utils
+#   configure --enable-utils=no
+AC_ARG_ENABLE([utils], [AS_HELP_STRING([--disable-utils],
+            [don't build the WCS utilities])], [])
+if test "x$enable_utils" != xno ; then
+  SUBDIRS="$SUBDIRS utils"
+  INSTDIR="$INSTDIR utils"
+else
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+fi
+
+
+d359 1
+a359 1
+	   /local/lib         \
+d418 2
+a419 1
+    # PGPLOT compiled by the SUN Fortran compiler but linked with something else.
+d459 1
+d473 15
+d506 1
+a506 1
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h \
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.6 $])
+@
+
+
+4.6.1.2
+log
+@WCSLIB 4.6.1
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.6.1], [mcalabre@@atnf.csiro.au], [wcslib-4.6.1])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.6.1.1 $])
+@
+
+
+4.6.1.3
+log
+@WCSLIB 4.6.2
+@
+text
+@d4 2
+a5 4
+# N.B. it is necessary to run autoconf on a Mac in order for configure to
+# locate the X11 dylibs for PGPLOT.  Use autoconf-2.61 in MacOSX 10.6.2 to
+# avoid spurious messages about deleting conftest.dSYM when configuring in
+# MacOSX 10.6.
+d9 1
+a9 1
+# $Id: configure.ac,v 4.6.1.2 2010/11/17 23:03:16 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.6.2], [mcalabre@@atnf.csiro.au], [wcslib-4.6.2])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.6.1.2 $])
+@
+
+
+4.6.1.4
+log
+@WCSLIB 4.6.3
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.3 2010/11/22 00:39:07 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_INIT([WCSLIB], [4.6.3], [mcalabre@@atnf.csiro.au], [wcslib-4.6.3])
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.3 $])
+@
+
+
+4.6.1.5
+log
+@Prompted by S�bastien Fabbro's patch file: a Fortran compiler is now
+needed to compile the Fortran wrappers because of the BLOCK DATA
+initializations.  Don't attempt to build PGSBOX if PGPLOT is not
+available - it seems to cause problems for some users.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.4 2010/11/24 01:33:00 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.4 $])
+d18 1
+a18 1
+AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION], [Define wcslib version])
+a143 10
+# Starting values, may be augmented later.
+SUBDIRS="C"
+TSTDIRS="C"
+INSTDIR="C"
+
+
+# Ways of specifying the Fortran compiler, in order of precedence:
+#   configure --enable-fortran=<compiler>
+#   F77=<compiler> configure    ...bash
+#
+a147 2
+AC_ARG_ENABLE([fortran], [AS_HELP_STRING([--enable-fortran=ARG],
+            [Fortran compiler to use])], [])
+d157 4
+d172 3
+a174 3
+      ------------------------------------------------------------------
+      Fortran compiler not found, will skip Fortran wrappers and PGSBOX.
+      ------------------------------------------------------------------])
+d180 4
+d201 3
+a203 2
+    # Required by utilities and test programs written in C that link to
+    # Fortran object modules such as pgsbox.
+d211 1
+a211 1
+    INSTDIR="Fortran"
+d283 13
+a462 1
+      INSTDIR="pgsbox"
+a475 15
+
+# Utilities are compiled last since they need the libraries.
+# Ways of disabling them:
+#   configure --disable-utils
+#   configure --enable-utils=no
+AC_ARG_ENABLE([utils], [AS_HELP_STRING([--disable-utils],
+            [don't build the WCS utilities])], [])
+if test "x$enable_utils" != xno ; then
+  SUBDIRS="$SUBDIRS utils"
+  INSTDIR="$INSTDIR utils"
+else
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+fi
+
+
+d494 1
+a494 1
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h
+@
+
+
+4.6.1.6
+log
+@Allow for the possibility that --enable-fortran may be specified without
+an argument in which case configure sets $enable_fortran to "yes".
+Replaced AC_TRY_COMPILE (defunct) with AC_COMPILE_IFELSE.
+Both changes from S�bastien Fabbro, Gentoo Linux maintainer.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.5 2010/12/14 04:45:39 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.5 $])
+d162 1
+a162 2
+AC_MSG_WARN([enable_fortran = $enable_fortran])
+if test "x$enable_fortran" != x -a "x$enable_fortran" != xyes ; then
+d200 1
+a200 1
+    AC_COMPILE_IFELSE([], [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+d354 1
+a354 1
+           /local/lib         \
+d413 1
+a413 2
+    # PGPLOT compiled by the SUN Fortran compiler but linked with something
+    # else.
+@
+
+
+4.6.1.7
+log
+@Added stdarg.h to AC_CHECK_HEADERS and added AC_FUNC_VPRINTF for
+wcsprintf().
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.6 2010/12/15 00:11:10 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.6 $])
+d78 2
+a79 2
+AC_CHECK_HEADERS([ctype.h errno.h limits.h math.h setjmp.h stdarg.h stdio.h \
+                  stdlib.h string.h])
+a97 1
+AC_FUNC_VPRINTF
+@
+
+
+4.6.1.8
+log
+@Define LIBVER as the abbreviated version number used for installing
+libraries and headers.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.7 2011/01/18 02:25:57 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.7 $])
+a19 4
+# Remove the patch number from the library version.
+LIBVER=`echo "$PACKAGE_VERSION" | sed -e 's/\.[[0-9]]*$//'`
+AC_SUBST([LIBVER])
+
+d239 1
+d242 1
+a242 1
+    SHRLIB="libwcs.$LIBVER.dylib"
+d244 1
+a244 1
+    SHRLD="$SHRLD -compatibility_version $LIBVER -current_version $LIBVER"
+d256 1
+a256 1
+    SHRLIB="libwcs.so.$LIBVER"
+@
+
+
+4.6.1.9
+log
+@Fixed the invokation of AC_COMPILE_IFELSE for testing whether the
+Fortran compiler accepts '-I'.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.8 2011/01/18 04:34:04 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.8 $])
+d206 1
+a206 2
+    AC_COMPILE_IFELSE(AC_LANG_PROGRAM([], []),
+      [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+@
+
+
+4.6.1.10
+log
+@Removed debugging statement.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.9 2011/01/25 03:28:05 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.9 $])
+d167 1
+@
+
+
+4.6.1.11
+log
+@Ensure that only the patch version number is stripped from LIBVER.
+@
+text
+@d11 1
+a11 1
+# $Id: configure.ac,v 4.6.1.10 2011/01/27 04:12:08 cal103 Exp cal103 $
+d16 1
+a16 1
+AC_REVISION([$Revision: 4.6.1.10 $])
+d21 1
+a21 1
+LIBVER=`echo "$PACKAGE_VERSION" | sed -e '{s/\./-/;s/\.[[0-9]]*$//;s/-/./;}'`
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.4.1.5 2010/07/08 02:43:47 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5], [mcalabre@@atnf.csiro.au], [wcslib-4.5])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.4.1.5 $])
+d229 1
+a229 1
+  SHRFLAGS="$CFLAGS -fPIC"
+a303 1
+INCDIRS=
+d319 1
+a319 1
+    INCDIRS="$INCDIRS $with_cfitsioinc"
+d322 4
+d327 2
+a328 2
+           /local/cfitsio     \
+           /usr/local/cfitsio"
+d345 1
+a345 1
+    INCDIRS="$INCDIRS $with_pgplotinc"
+d348 4
+d353 2
+a354 2
+           /local/pgplot      \
+           /usr/local/pgplot"
+a360 1
+           /local/lib         \
+d362 1
+d371 2
+a372 1
+  INCDIRS="$INCDIRS           \
+a373 1
+           /usr/local/include \
+d383 1
+a383 1
+    for INCDIR in $INCDIRS ; do
+d412 1
+a412 1
+    for INCDIR in $INCDIRS ; do
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5 $])
+@
+
+
+4.5.1.2
+log
+@WCSLIB 4.5.1
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.1], [mcalabre@@atnf.csiro.au], [wcslib-4.5.1])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.1 $])
+@
+
+
+4.5.1.3
+log
+@WCSLIB 4.5.2
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.2 2010/08/12 07:50:42 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.2], [mcalabre@@atnf.csiro.au], [wcslib-4.5.2])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.2 $])
+@
+
+
+4.5.1.4
+log
+@WCSLIB 4.5.3
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.3 2010/09/23 01:47:00 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.3], [mcalabre@@atnf.csiro.au], [wcslib-4.5.3])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.3 $])
+@
+
+
+4.5.1.5
+log
+@WCSLIB 4.5.4
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.4 2010/09/23 08:07:45 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.4], [mcalabre@@atnf.csiro.au], [wcslib-4.5.4])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.4 $])
+@
+
+
+4.5.1.6
+log
+@WCSLIB 4.5.5
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.5 2010/09/28 01:49:54 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.5], [mcalabre@@atnf.csiro.au], [wcslib-4.5.5])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.5 $])
+@
+
+
+4.5.1.7
+log
+@SHRFLAGS now additional to CFLAGS and FFLAGS.
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.6 2010/10/14 00:00:34 cal103 Exp cal103 $
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.6 $])
+d229 1
+a229 1
+  SHRFLAGS="-fPIC"
+@
+
+
+4.5.1.8
+log
+@Fixed the search for CFITSIO and PGPLOT library and include directories.
+@
+text
+@d9 1
+a9 1
+# $Id: configure.ac,v 4.5.1.7 2010/10/15 05:32:17 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.5.6], [mcalabre@@atnf.csiro.au], [wcslib-4.5.6])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.5.1.7 $])
+d304 1
+d320 1
+a320 1
+    CFITSIO_INCDIRS="$with_cfitsioinc"
+a322 4
+  CFITSIO_INCDIRS="$CFITSIO_INCDIRS   \
+           /usr/local/cfitsio/include \
+           /local/cfitsio/include"
+
+d324 2
+a325 2
+           /usr/local/cfitsio/lib \
+           /local/cfitsio/lib"
+d342 1
+a342 1
+    PGPLOT_INCDIRS="$with_pgplotinc"
+a344 4
+  PGPLOT_INCDIRS="$PGPLOT_INCDIRS    \
+           /usr/local/pgplot/include \
+           /local/pgplot/include"
+
+d346 2
+a347 2
+           /usr/local/pgplot/lib  \
+           /local/pgplot/lib"
+d354 1
+a355 1
+	   /local/lib         \
+d364 1
+a364 2
+  # Generic include directories.
+  INCDIRS="/usr/local/include \
+d366 1
+d376 1
+a376 1
+    for INCDIR in $CFITSIO_INCDIRS $INCDIRS ; do
+d405 1
+a405 1
+    for INCDIR in $PGPLOT_INCDIRS $INCDIRS ; do
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d4 3
+d9 1
+a9 1
+# $Id: configure.ac,v 4.3.1.6 2009/08/06 06:29:39 cal103 Exp cal103 $
+d12 1
+a12 1
+AC_INIT([WCSLIB], [4.4], [mcalabre@@atnf.csiro.au], [wcslib-4.4])
+d14 1
+a14 1
+AC_REVISION([$Revision: 4.3.1.6 $])
+d23 1
+a23 1
+ARCH=${build_cpu}-$build_os
+d142 18
+a159 13
+# Look for a Fortran compiler.
+AC_PROG_F77([g77 f77 gfortran ifort xlf frt pgf77 fl32 af77 fort77 f90 xlf90 \
+             pgf90 epcf90 f95 fort xlf95 lf95 g95])
+
+if test "x$F77" = x; then
+  AC_MSG_WARN([
+    ---------------------------------------------------------------------
+    Fortran compiler not found, will skip PGSBOX and Fortran test suite.
+    ---------------------------------------------------------------------])
+
+  # Best guess at Fortran name mangling for use if a compiler does ever become
+  # available.
+  AC_DEFINE([F77_FUNC(name,NAME)], [name ## _])
+d162 4
+a165 5
+  if test "x$ac_cv_f77_compiler_gnu" = xyes ; then
+    # Beware of gfortran!
+    if test "x$F77" = xg77 -o "x$F77" = xf77 ; then
+      FFLAGS="$FFLAGS -Wno-globals"
+    fi
+d168 21
+a188 12
+  AC_MSG_CHECKING(whether $F77 accepts -I)
+  AC_LANG_PUSH(Fortran 77)
+  FFLAGS_save=$FFLAGS
+  FFLAGS=-I.
+  AC_TRY_COMPILE([], [], [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+    [FFLAGS="$FFLAGS_save"; AC_MSG_RESULT(no)])
+  AC_LANG_POP()
+
+  # Libraries required by the Fortran compiler itself (sets FLIBS).  Required
+  # by utilities and test programs written in C that link to the pgsbox object
+  # library - this contains the only Fortran modules in the WCSLIB suite.
+  AC_F77_LIBRARY_LDFLAGS
+d190 21
+a210 2
+  # F77 name mangling (defines the F77_FUNC preprocessor macro).
+  AC_F77_WRAPPERS
+d232 1
+a232 1
+  V=$PACKAGE_VERSION
+d235 1
+a235 1
+    SHRLIB=libwcs.$V.dylib
+d249 1
+a249 1
+    SHRLIB=libwcs.so.$V
+d251 1
+a251 1
+    SHRLN=libwcs.so
+d273 3
+d279 13
+a291 1
+AC_MSG_NOTICE([
+a292 1
+Looking for libraries etc. required to build utilities and test suite...])
+d306 15
+a320 79
+AC_ARG_WITH([pgplotlib], [AS_HELP_STRING([--with-pgplotlib=DIR],
+            [directory containing pgplot library])], [])
+if test "x$with_pgplotlib" != x ; then
+  LIBDIRS="$LIBDIRS $with_pgplotlib"
+fi
+
+AC_ARG_WITH([pgplotinc], [AS_HELP_STRING([--with-pgplotinc=DIR],
+            [directory containing pgplot header files])], [])
+if test "x$with_pgplotinc" != x ; then
+  INCDIRS="$INCDIRS $with_pgplotinc"
+fi
+
+AC_ARG_WITH([cfitsiolib], [AS_HELP_STRING([--with-cfitsiolib=DIR],
+            [directory containing cfitsio library])], [])
+if test "x$with_cfitsiolib" != x ; then
+  LIBDIRS="$LIBDIRS $with_cfitsiolib"
+fi
+
+AC_ARG_WITH([cfitsioinc], [AS_HELP_STRING([--with-cfitsioinc=DIR],
+            [directory containing cfitsio header files])], [])
+if test "x$with_cfitsioinc" != x ; then
+  INCDIRS="$INCDIRS $with_cfitsioinc"
+fi
+
+LIBDIRS="$LIBDIRS           \
+         /local/pgplot      \
+         /local/cfitsio     \
+         /local/lib         \
+         /usr/local/pgplot  \
+         /usr/local/cfitsio \
+         /usr/local/lib     \
+         /opt/local/lib     \
+         /opt/SUNWspro/lib  \
+         /sw/lib"
+
+for LIBDIR in $LIBDIRS ; do
+  AC_CHECK_FILE([$LIBDIR], [LDFLAGS="$LDFLAGS -L$LIBDIR"], [continue])
+done
+
+INCDIRS="$INCDIRS           \
+         /local/include     \
+         /usr/local/include \
+         /opt/local/include \
+         /sw/include        \
+         /local             \
+         /usr/include"
+
+# Search for PGPLOT.
+for INCDIR in $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/pgplot/cpgplot.h],
+                [PGPLOTINC=-I$INCDIR/pgplot; break])
+  AC_CHECK_FILE([$INCDIR/cpgplot.h], [PGPLOTINC=-I$INCDIR; break])
+done
+
+# FLIBS (found above via AC_F77_LIBRARY_LDFLAGS) only helps if PGPLOT was
+# built using the same Fortran compiler that we are using here.
+
+# PGPLOT compiled by the SUN Fortran compiler but linked with something else.
+AC_CHECK_LIB([M77],     [iand_],     [PGPLOTLIB="-lM77 $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([F77],     [f77_init],  [PGPLOTLIB="-lF77 $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+
+# PGPLOT compiled with g77 but linked with something else.
+AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+
+# PGPLOT compiled with gfortran but linked with something else.
+AC_CHECK_LIB([gfortran], [_gfortran_abort],
+             [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [], [$PGPLOTLIB $LIBS])
+
+# Search for X11 includes and libraries.
+AC_PATH_X
+if test "x$no_x" = x; then
+  if test "x$ac_x_libraries" != x ; then
+    # Not needed for systems that keep the X11 libraries in /usr/lib.
+    LDFLAGS="$LDFLAGS -L$ac_x_libraries"
+d322 4
+a325 1
+  PGPLOTLIB="-lX11 $PGPLOTLIB"
+d328 10
+a337 10
+# It is possible that other libraries may be required depending on what
+# graphics drivers were installed with PGPLOT.
+AC_CHECK_LIB([z],       [deflate],   [PGPLOTLIB="-lz $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([png],     [png_error], [PGPLOTLIB="-lpng $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([pgplot],  [pgbeg_],    [PGPLOTLIB="-lpgplot $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([cpgplot], [cpgbeg],    [PGPLOTLIB="-lcpgplot $PGPLOTLIB"],
+             [PGPLOTLIB=], [$PGPLOTLIB $LIBS])
+d339 9
+a347 4
+if test "x$PGPLOTLIB" = x; then
+  AC_MSG_WARN([PGPLOT not found, skipping PGPLOT-dependent tests.])
+else
+  AC_MSG_NOTICE([PGPLOT appears to be available.])
+a349 2
+AC_SUBST([PGPLOTINC])
+AC_SUBST([PGPLOTLIB])
+d351 88
+d440 15
+a454 10
+# Search for CFITSIO.
+for INCDIR in $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/cfitsio/fitsio.h],
+                [CFITSIOINC=-I$INCDIR/cfitsio; break])
+  AC_CHECK_FILE([$INCDIR/fitsio.h], [CFITSIOINC=-I$INCDIR; break])
+done
+
+AC_CHECK_LIB([socket],  [recv],   [CFITSIOLIB="-lsocket"], [], [$LIBS])
+AC_CHECK_LIB([cfitsio], [ffopen], [CFITSIOLIB="-lcfitsio $CFITSIOLIB"], [],
+             [$CFITSIOLIB $LIBS])
+d456 5
+a460 5
+if test "x$CFITSIOINC" = x -o "x$CFITSIOLIB" = x; then
+  AC_MSG_WARN([CFITSIO not found, skipping CFITSIO-dependent tests.])
+else
+  AC_MSG_NOTICE([CFITSIO appears to be available.])
+  AC_DEFINE([HAVE_CFITSIO], [1], [Define to 1 if CFITSIO is available.])
+d462 2
+a463 6
+  # Check for fits_read_wcstab, present in CFITSIO 3.004beta and later.
+  AC_CHECK_LIB([cfitsio], [fits_read_wcstab], [GETWCSTAB=],
+               [GETWCSTAB=getwcstab.o], [$CFITSIOLIB $LIBS])
+  if test "x$GETWCSTAB" != x ; then
+    AC_MSG_WARN([fits_read_wcstab not found in CFITSIO, will use
+                    getwcstab.c to compile test programs.])
+d471 10
+d482 2
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.4 2009/08/06 07:27:24 cal103 Exp $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4 $])
+@
+
+
+4.4.1.2
+log
+@WCSLIB 4.4.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.4.1.1 2009/08/10 08:42:06 cal103 Exp cal103 $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.4.3], [mcalabre@@atnf.csiro.au], [wcslib-4.4.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4.1.1 $])
+@
+
+
+4.4.1.3
+log
+@Added more configure options for controlling the build: --disable-fortran,
+--disable-utils, --without-cfitsio, and --without-pgplot.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.4.1.2 2009/09/03 05:13:03 cal103 Exp cal103 $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.4.4], [mcalabre@@atnf.csiro.au], [wcslib-4.4.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4.1.2 $])
+d20 1
+a20 1
+ARCH="${build_cpu}-$build_os"
+d139 13
+a151 18
+# Ways of disabling Fortran:
+#   configure --disable-fortran
+#   configure --enable-fortran=no
+#   F77=no configure            ...bash
+AC_ARG_ENABLE([fortran], [AS_HELP_STRING([--disable-fortran],
+            [don't build the Fortran wrappers or PGSBOX])], [])
+if test "x$enable_fortran" != x ; then
+  F77="$enable_fortran"
+fi
+
+if test "x$F77" = xno ; then
+  F77=
+
+  SUBDIRS="C"
+  TSTDIRS="C"
+  INSTDIR="C"
+
+  AC_MSG_WARN([Compilation of Fortran wrappers and PGSBOX disabled])
+d154 5
+a158 4
+  if test "x$F77" = x ; then
+    # Look for a Fortran compiler.
+    AC_PROG_F77([g77 f77 gfortran ifort xlf frt pgf77 fl32 af77 fort77 f90 \
+                 xlf90 pgf90 epcf90 f95 fort xlf95 lf95 g95])
+d161 12
+a172 21
+  if test "x$F77" = x; then
+    AC_MSG_WARN([
+      ---------------------------------------------------------------------
+      Fortran compiler not found, will skip PGSBOX and Fortran test suite.
+      ---------------------------------------------------------------------])
+
+    # Best guess at Fortran name mangling for use if a compiler does ever
+    # become available.
+    AC_DEFINE([F77_FUNC(name,NAME)], [name ## _])
+
+    SUBDIRS="C Fortran"
+    TSTDIRS="C"
+    INSTDIR="Fortran"
+
+  else
+    if test "x$ac_cv_f77_compiler_gnu" = xyes ; then
+      # Beware of gfortran!
+      if test "x$F77" = xg77 -o "x$F77" = xf77 ; then
+        FFLAGS="$FFLAGS -Wno-globals"
+      fi
+    fi
+d174 2
+a175 21
+    AC_MSG_CHECKING(whether $F77 accepts -I)
+    AC_LANG_PUSH(Fortran 77)
+    FFLAGS_save=$FFLAGS
+    FFLAGS=-I.
+    AC_TRY_COMPILE([], [], [FFLAGS="$FFLAGS_save -I."; AC_MSG_RESULT(yes)],
+      [FFLAGS="$FFLAGS_save"; AC_MSG_RESULT(no)])
+    AC_LANG_POP()
+
+    # Libraries required by the Fortran compiler itself (sets FLIBS).
+    # Required by utilities and test programs written in C that link to the
+    # pgsbox object library - this contains the only Fortran modules in the
+    # WCSLIB suite.
+    AC_F77_LIBRARY_LDFLAGS
+
+    # F77 name mangling (defines the F77_FUNC preprocessor macro).
+    AC_F77_WRAPPERS
+
+    SUBDIRS="C Fortran"
+    TSTDIRS="C Fortran"
+    INSTDIR="pgsbox"
+  fi
+d197 1
+a197 1
+  V="$PACKAGE_VERSION"
+d200 1
+a200 1
+    SHRLIB="libwcs.$V.dylib"
+d214 1
+a214 1
+    SHRLIB="libwcs.so.$V"
+d216 1
+a216 1
+    SHRLN="libwcs.so"
+a237 3
+AC_MSG_NOTICE([End of primary configuration.
+])
+
+d241 1
+a241 13
+AC_MSG_NOTICE([Looking for libraries etc. for utilities and test suite...])
+
+# Utilities, ways of disabling them:
+#   configure --disable-utils
+#   configure --enable-utils=no
+AC_ARG_ENABLE([utils], [AS_HELP_STRING([--disable-utils],
+            [don't build the WCS utilities])], [])
+if test "x$enable_utils" != xno ; then
+  SUBDIRS="$SUBDIRS utils"
+  INSTDIR="$INSTDIR utils"
+else
+  AC_MSG_WARN([Compilation of WCS utilities disabled])
+fi
+d243 1
+d257 79
+a335 9
+AC_ARG_WITH([cfitsio], [AS_HELP_STRING([--without-cfitsio],
+            [eschew CFITSIO])], [])
+if test "x$with_cfitsio" = xno ; then
+  AC_MSG_WARN([CFITSIO disabled])
+else
+  AC_ARG_WITH([cfitsiolib], [AS_HELP_STRING([--with-cfitsiolib=DIR],
+              [directory containing cfitsio library])], [])
+  if test "x$with_cfitsiolib" != x ; then
+    LIBDIRS="$LIBDIRS $with_cfitsiolib"
+d337 2
+d340 10
+a349 10
+  AC_ARG_WITH([cfitsioinc], [AS_HELP_STRING([--with-cfitsioinc=DIR],
+              [directory containing cfitsio header files])], [])
+  if test "x$with_cfitsioinc" != x ; then
+    INCDIRS="$INCDIRS $with_cfitsioinc"
+  fi
+
+  LIBDIRS="$LIBDIRS           \
+           /local/cfitsio     \
+           /usr/local/cfitsio"
+fi
+d351 2
+a352 4
+AC_ARG_WITH([pgplot], [AS_HELP_STRING([--without-pgplot],
+            [eschew PGPLOT])], [])
+if test "x$with_pgplot" = xno ; then
+  AC_MSG_WARN([PGPLOT disabled])
+d354 1
+a354 15
+  AC_ARG_WITH([pgplotlib], [AS_HELP_STRING([--with-pgplotlib=DIR],
+              [directory containing pgplot library])], [])
+  if test "x$with_pgplotlib" != x ; then
+    LIBDIRS="$LIBDIRS $with_pgplotlib"
+  fi
+
+  AC_ARG_WITH([pgplotinc], [AS_HELP_STRING([--with-pgplotinc=DIR],
+              [directory containing pgplot header files])], [])
+  if test "x$with_pgplotinc" != x ; then
+    INCDIRS="$INCDIRS $with_pgplotinc"
+  fi
+
+  LIBDIRS="$LIBDIRS           \
+           /local/pgplot      \
+           /usr/local/pgplot"
+d357 2
+a359 50
+if test "x$with_cfitsio" != xno -o \
+        "x$with_pgplot"  != xno ; then
+  LIBDIRS="$LIBDIRS           \
+           /local/lib         \
+           /usr/local/lib     \
+           /opt/local/lib     \
+           /opt/SUNWspro/lib  \
+           /sw/lib"
+
+  for LIBDIR in $LIBDIRS ; do
+    AC_CHECK_FILE([$LIBDIR], [LDFLAGS="$LDFLAGS -L$LIBDIR"], [continue])
+  done
+
+  INCDIRS="$INCDIRS           \
+           /local/include     \
+           /usr/local/include \
+           /opt/local/include \
+           /sw/include        \
+           /local             \
+           /usr/include"
+
+
+  # CFITSIO.
+  if test "x$with_cfitsio" != xno ; then
+    # Search for CFITSIO.
+    for INCDIR in $INCDIRS ; do
+      AC_CHECK_FILE([$INCDIR/cfitsio/fitsio.h],
+                    [CFITSIOINC="-I$INCDIR/cfitsio"; break])
+      AC_CHECK_FILE([$INCDIR/fitsio.h], [CFITSIOINC="-I$INCDIR"; break])
+    done
+
+    AC_CHECK_LIB([socket],  [recv],   [CFITSIOLIB="-lsocket"], [], [$LIBS])
+    AC_CHECK_LIB([cfitsio], [ffopen], [CFITSIOLIB="-lcfitsio $CFITSIOLIB"], [],
+                 [$CFITSIOLIB $LIBS])
+
+    if test "x$CFITSIOINC" = x -o "x$CFITSIOLIB" = x; then
+      AC_MSG_WARN([CFITSIO not found, skipping CFITSIO-dependent tests.])
+    else
+      AC_MSG_NOTICE([CFITSIO appears to be available.])
+      AC_DEFINE([HAVE_CFITSIO], [1], [Define to 1 if CFITSIO is available.])
+
+      # Check for fits_read_wcstab, present in CFITSIO 3.004beta and later.
+      AC_CHECK_LIB([cfitsio], [fits_read_wcstab], [GETWCSTAB=],
+                   [GETWCSTAB=getwcstab.o], [$CFITSIOLIB $LIBS])
+      if test "x$GETWCSTAB" != x ; then
+        AC_MSG_WARN([fits_read_wcstab not found in CFITSIO, will use
+                        getwcstab.c to compile test programs.])
+      fi
+    fi
+  fi
+d361 10
+a370 37
+  # PGPLOT.
+  if test "x$F77" != x -a "x$with_pgplot" != xno ; then
+    # Search for PGPLOT.
+    for INCDIR in $INCDIRS ; do
+      AC_CHECK_FILE([$INCDIR/pgplot/cpgplot.h],
+                    [PGPLOTINC="-I$INCDIR/pgplot"; break])
+      AC_CHECK_FILE([$INCDIR/cpgplot.h], [PGPLOTINC="-I$INCDIR"; break])
+    done
+
+    # FLIBS (found above via AC_F77_LIBRARY_LDFLAGS) only helps if PGPLOT was
+    # built using the same Fortran compiler that we are using here.
+
+    # PGPLOT compiled by the SUN Fortran compiler but linked with something else.
+    AC_CHECK_LIB([M77],     [iand_],     [PGPLOTLIB="-lM77 $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([F77],     [f77_init],  [PGPLOTLIB="-lF77 $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+
+    # PGPLOT compiled with g77 but linked with something else.
+    AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+
+    # PGPLOT compiled with gfortran but linked with something else.
+    AC_CHECK_LIB([gfortran], [_gfortran_abort],
+                 [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [], [$PGPLOTLIB $LIBS])
+
+    # Search for X11 includes and libraries.
+    AC_PATH_X
+    if test "x$no_x" = x; then
+      if test "x$ac_x_libraries" != x ; then
+        # Not needed for systems that keep the X11 libraries in /usr/lib.
+        LDFLAGS="$LDFLAGS -L$ac_x_libraries"
+      fi
+      PGPLOTLIB="-lX11 $PGPLOTLIB"
+    fi
+d372 5
+a376 15
+    # It is possible that other libraries may be required depending on what
+    # graphics drivers were installed with PGPLOT.
+    AC_CHECK_LIB([z],       [deflate],   [PGPLOTLIB="-lz $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([png],     [png_error], [PGPLOTLIB="-lpng $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([pgplot],  [pgbeg_],    [PGPLOTLIB="-lpgplot $PGPLOTLIB"],
+                 [], [$PGPLOTLIB $LIBS])
+    AC_CHECK_LIB([cpgplot], [cpgbeg],    [PGPLOTLIB="-lcpgplot $PGPLOTLIB"],
+                 [PGPLOTLIB=], [$PGPLOTLIB $LIBS])
+
+    # Only need the PGPLOT include file to build PGSBOX.
+    if test "x$PGPLOTINC" != x; then
+      SUBDIRS="$SUBDIRS pgsbox"
+    fi
+d378 6
+a383 8
+    # Also need the PGPLOT library to build pgtest and cpgtest.
+    if test "x$PGPLOTLIB" = x; then
+      AC_MSG_WARN([PGPLOT not found, skipping PGPLOT-dependent tests.])
+    else
+      AC_MSG_NOTICE([PGPLOT appears to be available.])
+  
+      TSTDIRS="$TSTDIRS pgsbox"
+    fi
+a390 10
+AC_SUBST([PGPLOTINC])
+AC_SUBST([PGPLOTLIB])
+
+AC_SUBST([SUBDIRS])
+AC_SUBST([TSTDIRS])
+AC_SUBST([INSTDIR])
+
+AC_MSG_NOTICE([End of auxiliary configuration.
+])
+
+a391 2
+# Do it.
+AC_MSG_NOTICE([Configuring files...])
+@
+
+
+4.4.1.4
+log
+@Removed trailing blanks.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.4.1.3 2009/09/14 06:51:08 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4.1.3 $])
+d458 1
+a458 1
+
+@
+
+
+4.4.1.5
+log
+@Added message about using autoconf-2.61 in MacOSX 10.6.2 to avoid spurious
+messages about deleting conftest.dSYM when configuring in MacOSX 10.6.  In
+other respects the configure file generated by Macs does not differ
+significantly from autoconf-2.61 in Debian.
+@
+text
+@a3 3
+# Use autoconf-2.61 in MacOSX 10.6.2 to avoid spurious messages about deleting
+# conftest.dSYM when configuring in MacOSX 10.6.
+#
+d6 1
+a6 1
+# $Id: configure.ac,v 4.4.1.4 2010/01/19 03:53:50 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4.1.4 $])
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.18 2007/12/27 04:53:12 cal103 Exp cal103 $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.3], [mcalabre@@atnf.csiro.au], [wcslib-4.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.18 $])
+d59 1
+d61 9
+a69 1
+fi
+d73 2
+a74 1
+AC_CHECK_HEADERS([errno.h limits.h math.h stdio.h stdlib.h string.h])
+d85 2
+a86 1
+# Checks for ANSI C library functions (suggested by autoscan).
+d88 1
+d90 3
+d95 7
+d121 18
+d253 21
+a273 3
+# System libraries that may be required by WCSLIB itself.
+# SunOS, extra maths functions.
+AC_CHECK_LIB([sunmath], [cosd], [LIBS="-lsunmath $LIBS"], [], [])
+d275 5
+d281 2
+a282 2
+# Extra places to look for third-party libraries.
+LIBDIRS="/local/pgplot      \
+d296 2
+a297 2
+# Extra places to look for third-party include files.
+INCDIRS="/local/include \
+d392 1
+a392 1
+AC_CONFIG_FILES([makedefs])
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3 2007/12/27 05:57:06 cal103 Exp cal103 $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.4], [mcalabre@@atnf.csiro.au], [wcslib-4.4])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.4 $])
+@
+
+
+4.3.1.2
+log
+@Added ctype.h to the list of ANSI C headers to check.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3.1.1 2007/12/27 13:22:58 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.3.1.1 $])
+d64 1
+a64 1
+AC_CHECK_HEADERS([ctype.h errno.h limits.h math.h stdio.h stdlib.h string.h])
+@
+
+
+4.3.1.3
+log
+@New tests required by fitshdr; setjmp.h is now required by the flex
+scanners; generate wcslib.pc.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3.1.2 2008/02/20 00:31:36 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.3.1.2 $])
+d59 1
+a61 10
+# Check for data types (suggested by autoscan - off_t is only required by
+# fitshdr).
+AC_TYPE_OFF_T
+AC_TYPE_INT8_T
+AC_TYPE_INT16_T
+AC_TYPE_INT32_T
+AC_TYPE_UINT8_T
+AC_TYPE_UINT16_T
+AC_TYPE_UINT32_T
+
+d64 1
+a64 2
+AC_CHECK_HEADERS([ctype.h errno.h limits.h math.h setjmp.h stdio.h stdlib.h \
+                  string.h])
+d75 1
+a75 2
+# Checks for ANSI C library functions (suggested by autoscan - fseeko and
+# stat are only required by fitshdr).
+a76 1
+AC_FUNC_FSEEKO
+a77 3
+AC_FUNC_REALLOC
+AC_FUNC_SETVBUF_REVERSED
+AC_FUNC_STAT
+d329 1
+a329 1
+AC_CONFIG_FILES([makedefs wcslib.pc])
+@
+
+
+4.3.1.4
+log
+@Check availability of sincos().
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3.1.3 2009/07/21 07:23:45 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.3.1.3 $])
+a94 7
+# System libraries that may be required by WCSLIB itself.
+# SunOS, extra maths functions.
+AC_CHECK_LIB([sunmath], [cosd], [LIBS="-lsunmath $LIBS"], [], [])
+
+# See if we can find sincos().
+AC_CHECK_FUNCS([sincos])
+
+d228 5
+@
+
+
+4.3.1.5
+log
+@Recognize configure options --with-pgplotinc, --with-pgplotlib,
+--with-cfitsioinc and --with-cfitsiolib to allow additional directories
+to be added to the library and include file search path.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3.1.4 2009/07/27 07:27:05 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.3.1.4 $])
+d235 2
+a236 30
+# Extra places to look for third-party libraries and header files.
+LIBDIRS=
+INCDIRS=
+
+AC_ARG_WITH([pgplotlib], [AS_HELP_STRING([--with-pgplotlib=DIR],
+            [directory containing pgplot library])], [])
+if test "x$with_pgplotlib" != x ; then
+  LIBDIRS="$LIBDIRS $with_pgplotlib"
+fi
+
+AC_ARG_WITH([pgplotinc], [AS_HELP_STRING([--with-pgplotinc=DIR],
+            [directory containing pgplot header files])], [])
+if test "x$with_pgplotinc" != x ; then
+  INCDIRS="$INCDIRS $with_pgplotinc"
+fi
+
+AC_ARG_WITH([cfitsiolib], [AS_HELP_STRING([--with-cfitsiolib=DIR],
+            [directory containing cfitsio library])], [])
+if test "x$with_cfitsiolib" != x ; then
+  LIBDIRS="$LIBDIRS $with_cfitsiolib"
+fi
+
+AC_ARG_WITH([cfitsioinc], [AS_HELP_STRING([--with-cfitsioinc=DIR],
+            [directory containing cfitsio header files])], [])
+if test "x$with_cfitsioinc" != x ; then
+  INCDIRS="$INCDIRS $with_cfitsioinc"
+fi
+
+LIBDIRS="$LIBDIRS           \
+         /local/pgplot      \
+d250 2
+a251 2
+INCDIRS="$INCDIRS           \
+         /local/include     \
+@
+
+
+4.3.1.6
+log
+@Check whether printf() has the z modifier for the size_t data type.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.3.1.5 2009/07/27 08:49:56 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.3.1.5 $])
+a120 18
+# Does printf() have the z modifier for size_t type?  Important for 64-bit.
+AC_MSG_CHECKING([for printf z format modifier for size_t type])
+AC_RUN_IFELSE(
+  [AC_LANG_PROGRAM([AC_INCLUDES_DEFAULT],
+                   [[char buf[64];
+                     if (sprintf(buf, "%zu", (size_t)1) != 1)
+                       return 1;
+                     else if (strcmp(buf, "1"))
+                       return 2;]])],
+  AC_DEFINE([MODZ], ["z"], [printf format modifier for size_t type.])
+    AC_MSG_RESULT(yes),
+  AC_DEFINE([MODZ], ["l"], [printf format modifier for size_t type.])
+    AC_MSG_RESULT(no),
+  AC_DEFINE([MODZ], ["l"], [printf format modifier for size_t type.])
+    AC_MSG_RESULT(assumed not)
+)
+
+
+@
+
+
+4.2
+log
+@WCSLIB 4.2: initial revision.
+@
+text
+@d6 1
+a6 1
+# $Id$
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.2], [mcalabre@@atnf.csiro.au], [wcslib-4.2])
+d11 3
+a13 1
+AC_REVISION([$Revision$])
+d18 26
+d45 1
+a81 1
+AC_CHECK_SIZEOF([int *])
+d85 8
+a92 11
+# If sizeof(int) != sizeof(int *) we are in serious trouble.
+if test "x$ac_cv_sizeof_int" != "x$ac_cv_sizeof_int"; then
+  AC_MSG_WARN([
+    ---------------------------------------------------------------------
+    WARNING: WCSLIB data structures require sizeof(int) == sizeof(int *);
+             structs may be misaligned.
+    ---------------------------------------------------------------------])
+fi
+
+if test "x$ac_cv_sizeof_int" = x8; then
+AC_DEFINE([WCS_INT64], [int], [64-bit integer data type.])
+d94 3
+a96 3
+AC_DEFINE([WCS_INT64], [long int], [64-bit integer data type.])
+elif test "x$ac_cv_sizeof_long_long_int" = x8; then
+AC_DEFINE([WCS_INT64], [long long int], [64-bit integer data type.])
+d99 3
+a101 4
+# Utilities.
+AC_PROG_RANLIB
+AC_PROG_LN_S
+AC_PROG_INSTALL
+a102 2
+# Look for a Fortran compiler.
+AC_PROG_F77
+d108 5
+d115 4
+a118 1
+    FFLAGS="$FFLAGS -Wno-globals"
+d127 59
+a185 1
+  AC_LANG_POP(Fortran 77)
+d188 9
+d198 3
+a200 2
+# The following are required for building the test suite.
+# -------------------------------------------------------
+d203 1
+a203 1
+Looking for libraries etc. required to build the test suite...])
+d205 1
+a205 1
+# Check for other standard header files.
+d208 8
+d217 5
+a221 2
+# Extra places to look for third-party include files and libraries.
+INCDIRS="/usr/local/include \
+d224 4
+a227 9
+         /local/pgplot      \
+         /local/cfitsio"
+LIBDIRS="/usr/local/lib     \
+         /usr/local/pgplot  \
+         /usr/local/cfitsio \
+         /local/lib         \
+         /local/pgplot      \
+         /local/cfitsio     \
+         /opt/SUNWspro/lib"
+d233 7
+d242 3
+a244 3
+for INCDIR in /usr/include $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/cpgplot.h], [PGPLOTINC=-I$INCDIR; break])
+  INCDIR=$INCDIR/pgplot
+d248 2
+a249 2
+# Only helps if the libraries were built using the same compiler(s).
+#AC_F77_LIBRARY_LDFLAGS
+d251 1
+a251 3
+# PGPLOT compiled with a SUN compiler but linked with something else.
+AC_CHECK_LIB([sunmath], [cosd],      [PGPLOTLIB="-lsunmath $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+d257 2
+a258 2
+# PGPLOT compiled with a GNU compiler but linked with something else.
+AC_CHECK_LIB([g2c],     [gerror_],   [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+d260 6
+d269 5
+a273 2
+if test "x$ac_x_libraries" != x; then
+  LDFLAGS="$LDFLAGS -L$ac_x_libraries"
+a291 1
+  AC_DEFINE([HAVE_PGPLOT], [1], [Define to 1 if PGPLOT is available.])
+d299 3
+a301 3
+for INCDIR in /usr/include $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/fitsio.h], [CFITSIOINC=-I$INCDIR; break])
+  INCDIR=$INCDIR/cfitsio
+d305 2
+a306 3
+AC_CHECK_LIB([socket],  [recv], [CFITSIOLIB="-lsocket"], [], [$LIBS])
+AC_CHECK_LIB([cfitsio], [ffopen],
+             [CFITSIOLIB="-lcfitsio $CFITSIOLIB"; break], [],
+d314 8
+d326 1
+d330 2
+a331 1
+AC_CONFIG_HEADER([C/config.h])
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2 2005/09/23 04:55:25 cal103 Exp cal103 $
+d9 1
+a9 1
+AC_INIT([WCSLIB], [4.3], [mcalabre@@atnf.csiro.au], [wcslib-4.3])
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2 $])
+@
+
+
+4.2.1.2
+log
+@Removed an extraneous 'break' from action-if-found in AC_CHECK_LIB for
+cfitsio.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.1 2005/12/05 03:12:44 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.1 $])
+d188 3
+a190 2
+AC_CHECK_LIB([socket],  [recv],   [CFITSIOLIB="-lsocket"], [], [$LIBS])
+AC_CHECK_LIB([cfitsio], [ffopen], [CFITSIOLIB="-lcfitsio $CFITSIOLIB"], [],
+@
+
+
+4.2.1.3
+log
+@Ensure that '-Wno-globals' is not set for gfortran.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.2 2005/12/15 03:08:18 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.2 $])
+d57 2
+a58 2
+# If sizeof(int) != sizeof(int *) we may be in some trouble.
+if test "x$ac_cv_sizeof_int" != "x$ac_cv_sizeof_int_p"; then
+d80 1
+a80 3
+AC_PROG_F77([g77 f77 gfortran ifort xlf frt pgf77 fl32 af77 fort77 f90 xlf90 \
+             pgf90 epcf90 f95 fort xlf95 lf95 g95])
+
+d88 1
+a88 4
+    # Beware of gfortran!
+    if test "x$F77" = xg77 -o "x$F77" = xf77 ; then
+      FFLAGS="$FFLAGS -Wno-globals"
+    fi
+@
+
+
+4.2.1.4
+log
+@Set ARCH from the result of AC_CANONICAL_BUILD; add -lSystemStubs to LIBS
+on Macs if necessary; for some inexplicable reason -lfrtbegin may now be
+needed with -lg2c when linking test programs with PGPLOT on Linux systems
+(grus, Debian sarge, gcc/g77 3.3.5).
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.3 2007/04/02 04:45:49 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.3 $])
+a15 6
+# Get the system type.
+AC_CANONICAL_BUILD
+ARCH=${build_cpu}-$build_os
+AC_SUBST([ARCH])
+
+
+d102 1
+a102 1
+  AC_LANG_POP()
+d106 2
+a107 9
+# System-dependent system libraries.
+#-----------------------------------
+# Darwin (stubs for long double).
+AC_CHECK_LIB([SystemStubs], [printf\$LDBLStub], [LIBS="$LIBS -lSystemStubs"],
+             [], [])
+
+
+# The following are required to build utilities and test programs.
+# ----------------------------------------------------------------
+d110 1
+a110 1
+Looking for libraries etc. required to build utilities and test suite...])
+d154 1
+a154 3
+AC_CHECK_LIB([frtbegin], [main],     [PGPLOTLIB="-lfrtbegin $PGPLOTLIB"],
+             [], [$PGPLOTLIB $LIBS])
+AC_CHECK_LIB([g2c],      [gerror_],  [PGPLOTLIB="-lg2c $PGPLOTLIB"],
+@
+
+
+4.2.1.5
+log
+@Reworked the machinery for searching for the PGPLOT and CFITSIO header files,
+in particular to look first in /usr/local/... rather than /usr/include on the
+basis that the former are likely to be special-purpose installations intended
+to take precedence over an installed package.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.4 2007/07/03 08:43:56 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.4 $])
+d129 4
+a132 2
+# Extra places to look for third-party libraries.
+LIBDIRS="/usr/local/pgplot  \
+d134 3
+d138 2
+d141 1
+a141 5
+         /usr/local/lib     \
+         /local/lib         \
+         /opt/SUNWspro/lib  \
+         /opt/local/lib     \
+         /sw/lib"
+a146 7
+# Extra places to look for third-party include files.
+INCDIRS="/usr/local/include \
+         /local/include     \
+         /opt/local/include \
+         /sw/include        \
+         /local             \
+         /usr/include"
+d149 3
+a151 3
+for INCDIR in $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/pgplot/cpgplot.h],
+                [PGPLOTINC=-I$INCDIR/pgplot; break])
+d202 3
+a204 3
+for INCDIR in $INCDIRS ; do
+  AC_CHECK_FILE([$INCDIR/cfitsio/fitsio.h],
+                [CFITSIOINC=-I$INCDIR/cfitsio; break])
+@
+
+
+4.2.1.6
+log
+@Added definitions for building shared libraries if the GNU C compiler is
+being used.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.5 2007/07/04 06:46:05 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.5 $])
+d80 5
+d114 1
+a114 1
+# Darwin (contains stubs for long double).
+a118 53
+# Library and installation utilities.
+#------------------------------------
+# Static library generation.
+AC_PROG_RANLIB
+
+# Shared library generation.
+if test "x$ac_cv_c_compiler_gnu" = xyes ; then
+  # Note that -fPIC is on by default for Macs, this just makes it obvious.
+  SHRFLAGS="$CFLAGS -fPIC"
+  SHRLD="\$(CC) \$(SHRFLAGS)"
+
+  V=$PACKAGE_VERSION
+  case "$build_os" in
+  darwin*)
+    SHRLIB=libwcs.$V.dylib
+    SHRLD="$SHRLD -dynamiclib -single_module"
+    SHRLD="$SHRLD -compatibility_version $V -current_version $V"
+    SHRLN=
+
+    case "$build_cpu" in
+    powerpc*)
+      # Switch off -fPIC (not applicable for Intel Macs).
+      CFLAGS="$CFLAGS -mdynamic-no-pic"
+      ;;
+    esac
+    ;;
+  *)
+    # Covers Linux and Solaris at least.
+    SHRLIB=libwcs.so.$V
+    SHRLD="$SHRLD -shared -Wl,-h\$(SHRLIB)"
+    SHRLN=libwcs.so
+    ;;
+  esac
+
+else
+  SHRLIB=
+  SHRFLAGS=
+  SHRLD=
+  SHRSFX=
+  SHRLN=
+fi
+
+AC_SUBST([SHRLIB])
+AC_SUBST([SHRFLAGS])
+AC_SUBST([SHRLD])
+AC_SUBST([SHRSFX])
+AC_SUBST([SHRLN])
+
+# Installation utilities.
+AC_PROG_LN_S
+AC_PROG_INSTALL
+
+
+@
+
+
+4.2.1.7
+log
+@Run AC_F77_LIBRARY_LDFLAGS to get FLIBS; allow for the possibility that
+PGPLOT was compiled with gfortran and therefore needs -lgfortran.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.6 2007/07/05 04:39:05 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.6 $])
+a103 5
+
+  # Libraries required by the Fortran compiler itself (sets FLIBS).  Required
+  # by utilities and test programs written in C that link to the pgsbox object
+  # library - this contains the only Fortran modules in the WCSLIB suite.
+  AC_F77_LIBRARY_LDFLAGS
+d207 2
+a208 2
+# FLIBS (found above via AC_F77_LIBRARY_LDFLAGS) only helps if PGPLOT was
+# built using the same Fortran compiler that we are using here.
+d210 1
+a210 1
+# PGPLOT compiled by the SUN Fortran compiler but linked with something else.
+d218 1
+a218 1
+# PGPLOT compiled with g77 but linked with something else.
+a223 4
+# PGPLOT compiled with gfortran but linked with something else.
+AC_CHECK_LIB([gfortran], [_gfortran_abort],
+             [PGPLOTLIB="-lgfortran $PGPLOTLIB"], [], [$PGPLOTLIB $LIBS])
+
+@
+
+
+4.2.1.8
+log
+@Changed the X11 test to account for systems that keep the libraries in
+/usr/lib.  Check for the presence of fits_read_wcstab() in CFITSIO.
+Changed the order of directories in LIBDIRS and INCDIRS so that I can use
+/local for testing different versions of CFITSIO and PGPLOT.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.7 2007/07/05 07:18:08 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.7 $])
+d183 3
+a185 1
+LIBDIRS="/local/pgplot      \
+d187 1
+d189 1
+a189 3
+         /usr/local/pgplot  \
+         /usr/local/cfitsio \
+         /usr/local/lib     \
+a190 1
+         /opt/SUNWspro/lib  \
+d198 2
+a199 2
+INCDIRS="/local/include \
+         /usr/local/include \
+d235 2
+a236 5
+if test "x$no_x" = x; then
+  if test "x$ac_x_libraries" != x ; then
+    # Not needed for systems that keep the X11 libraries in /usr/lib.
+    LDFLAGS="$LDFLAGS -L$ac_x_libraries"
+  fi
+a277 8
+
+  # Check for fits_read_wcstab, present in CFITSIO 3.004beta and later.
+  AC_CHECK_LIB([cfitsio], [fits_read_wcstab], [], [GETWCSTAB=getwcstab.o],
+             [$CFITSIOLIB $LIBS])
+  if test "x$GETWCSTAB" != x ; then
+    AC_MSG_WARN([fits_read_wcstab not found in CFITSIO, will use
+                    getwcstab.c to compile test programs.])
+  fi
+a281 1
+AC_SUBST([GETWCSTAB])
+@
+
+
+4.2.1.9
+log
+@Added a test for Flex and its version to set variable FLEX.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.8 2007/07/06 07:09:53 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.8 $])
+a21 20
+# Look for Flex.
+AC_CHECK_PROG([FLEX], [flex], [flex], [], [], [])
+if test "x$FLEX" = xflex ; then
+  # Version 2.5.4 or later is required.
+  V=`flex --version | awk '{print $2}'`
+  W=`echo $V | awk -F. '{if ((($1*100 + $2)*100 + $3) < 20504) print "no"}'`
+  if test "x$W" != x ; then
+    AC_MSG_NOTICE([Flex version $V is too old, ignored.])
+    FLEX=
+  else
+    AC_MSG_NOTICE([Using Flex version $V.])
+  fi
+fi
+
+if test "x$FLEX" = x ; then
+  AC_MSG_WARN([Flex version 2.5.4 or later does not appear to be
+           available, will use pre-generated sources.])
+fi
+
+
+@
+
+
+4.2.1.10
+log
+@Run AC_F77_WRAPPERS to define the F77_FUNC preprocessor macro.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.9 2007/07/09 06:50:35 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.9 $])
+a128 5
+
+  # F77 name mangling; typically a Fortran subroutine name like "CELINI"
+  # (case-insensitive) will become something like "celini_" (case-sensitive).
+  # Therefore the Fortran wrappers must have names that match the latter.
+  AC_F77_WRAPPERS
+@
+
+
+4.2.1.11
+log
+@Fix for Flex version parsing - different versions have a slightly different
+format.  Set the F77_FUNC preprocessor macro to something reasonable even if
+a Fortran compiler is not found.  Added LFS tests.  Removed the definition
+of HAVE_PGPLOT from config.h - it's not used.  Renamed AC_CONFIG_HEADER to
+AC_CONFIG_HEADERS which seems to be more correct.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.10 2007/07/09 08:44:11 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.10 $])
+d26 1
+a26 1
+  V=`flex --version | awk '{print $NF}'`
+d93 1
+a93 1
+  AC_DEFINE([WCS_INT64], [int], [64-bit integer data type.])
+d95 1
+a95 1
+  AC_DEFINE([WCS_INT64], [long int], [64-bit integer data type.])
+d97 1
+a97 1
+  AC_DEFINE([WCS_INT64], [long long int], [64-bit integer data type.])
+a108 5
+
+  # Best guess at Fortran name mangling for use if a compiler does ever become
+  # available.
+  AC_DEFINE([F77_FUNC(name,NAME)], [name ## _])
+
+d130 3
+a132 1
+  # F77 name mangling (defines the F77_FUNC preprocessor macro).
+a205 4
+# Large file support.
+AC_FUNC_FSEEKO
+AC_SYS_LARGEFILE
+
+d283 1
+d322 1
+a322 1
+AC_CONFIG_HEADERS([C/config.h])
+@
+
+
+4.2.1.12
+log
+@Added AC_PROG_CPP to set the CPP variable in makedefs.  Made it clear that
+system-dependent libraries may be required in two separate contexts: those
+required to build sharable libraries (e.g. in Darwin), and those that may be
+required by WCSLIB itself in linking test programs (e.g. -lsunmath in SunOS).
+Added a test to add '-lsunmath' to LIBS for linking test programs in SunOS
+and removed it from PGPLOTLIBS.  AC_CHECK_LIB adds the library to LIBS by
+default if action-if-found is not defined, consequently the GETWCSTAB test
+caused trouble by adding '-lcfitsio' to LIBS.  Modified AC_CONFIG_HEADERS to
+generate all of the config_*.h in addition to config.h.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.11 2007/07/11 02:25:24 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.11 $])
+a42 1
+AC_PROG_CPP
+d140 2
+a141 2
+# System-dependent system libraries (for building the sharable library).
+#-----------------------------------------------------------------------
+a213 5
+# System libraries that may be required by WCSLIB itself.
+# SunOS, extra maths functions.
+AC_CHECK_LIB([sunmath], [cosd], [LIBS="-lsunmath $LIBS"], [], [])
+
+
+d248 2
+d314 2
+a315 2
+  AC_CHECK_LIB([cfitsio], [fits_read_wcstab], [GETWCSTAB=],
+               [GETWCSTAB=getwcstab.o], [$CFITSIOLIB $LIBS])
+d328 1
+a328 1
+AC_CONFIG_HEADERS([config.h config_f77.h config_tests.h config_utils.h])
+@
+
+
+4.2.1.13
+log
+@WCS_INT64 should preferentially be long long int for the reasons given.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.12 2007/07/12 01:04:46 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.12 $])
+d93 2
+a94 8
+# 64-bit integer data type; use long long int preferentially since that
+# accords with "%lld" formatting used in fitshdr.l, e.g.
+#                int   size_t  long int  long long int
+#                ---   ------  --------  -------------
+#   gcc x86:      32     32       32          64
+#   gcc x86_64:   32     64       64          64
+if test "x$ac_cv_sizeof_long_long_int" = x8; then
+  AC_DEFINE([WCS_INT64], [long long int], [64-bit integer data type.])
+d97 2
+a98 2
+elif test "x$ac_cv_sizeof_int" = x8; then
+  AC_DEFINE([WCS_INT64], [int], [64-bit integer data type.])
+d207 1
+a207 1
+# Check for other quasi-standard header files.
+@
+
+
+4.2.1.14
+log
+@The WCSLIB data structures no longer require sizeof(int) == sizeof(int *)
+for alignment.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.13 2007/07/12 07:24:28 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.13 $])
+d80 1
+d84 9
+@
+
+
+4.2.1.15
+log
+@Set WCSLIB_VERSION from PACKAGE_VERSION.  Renamed WCS_INT64 -> WCSLIB_INT64.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.14 2007/07/12 08:53:28 cal103 Exp cal103 $
+d11 1
+a11 3
+AC_REVISION([$Revision: 4.2.1.14 $])
+WCSLIB_VERSION=PACKAGE_VERSION
+AC_SUBST([WCSLIB_VERSION])
+d90 1
+a90 1
+  AC_DEFINE([WCSLIB_INT64], [long long int], [64-bit integer data type.])
+d92 1
+a92 1
+  AC_DEFINE([WCSLIB_INT64], [long int], [64-bit integer data type.])
+d94 1
+a94 1
+  AC_DEFINE([WCSLIB_INT64], [int], [64-bit integer data type.])
+@
+
+
+4.2.1.16
+log
+@Renamed config*.h -> wcsconfig*.h.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.15 2007/08/08 04:18:02 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.15 $])
+d330 1
+a330 2
+AC_CONFIG_HEADERS([wcsconfig.h wcsconfig_f77.h wcsconfig_tests.h \
+                   wcsconfig_utils.h])
+@
+
+
+4.2.1.17
+log
+@Need to invoke AC_DEFINE for WCSLIB_VERSION to get it into wcsconfig.h.
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.16 2007/08/08 04:46:28 cal103 Exp cal103 $
+d11 3
+a13 3
+AC_REVISION([$Revision: 4.2.1.16 $])
+AC_SUBST([PACKAGE_VERSION])
+AC_DEFINE_UNQUOTED([WCSLIB_VERSION], [$PACKAGE_VERSION])
+@
+
+
+4.2.1.18
+log
+@Flex 2.5.9 or later is now required to get yylex_destroy().
+@
+text
+@d6 1
+a6 1
+# $Id: configure.ac,v 4.2.1.17 2007/12/24 06:06:28 cal103 Exp cal103 $
+d11 1
+a11 1
+AC_REVISION([$Revision: 4.2.1.17 $])
+d27 1
+a27 1
+  # Version 2.5.9 or later is required.
+d29 1
+a29 1
+  W=`echo $V | awk -F. '{if ((($1*100 + $2)*100 + $3) < 20509) print "no"}'`
+d39 1
+a39 1
+  AC_MSG_WARN([Flex version 2.5.9 or later does not appear to be
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 206
+@

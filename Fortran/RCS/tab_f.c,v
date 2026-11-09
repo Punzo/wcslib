@@ -1,0 +1,4822 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.35;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.51.45;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.48.07;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.25.32;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.27.01.22.43;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.27.01.12.35;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.43.47;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.07.09.08.48.47;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.12.01.41.04;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.08.04.41.08;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.03.05.36.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.03;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.07.18.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.51;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.35;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.07.19.41;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.34.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.03.00.46;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.12.08.38.32;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.13.03.14.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.40.02;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.39.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.17;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.05.06.52.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.13.11.42.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.02;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.13.00.26.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.04.27.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.05.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.12.03.14.48;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.21.34;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.41;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.38.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.08.46.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.11;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.15.17.33;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.10.15.05.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FORTRAN wrappers for the WCSLIB C routines in tab.c.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tab_f.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*===========================================================================*/
+
+#include <stdio.h>
+#include <string.h>
+
+#include <wcserr.h>
+#include <wcsutil.h>
+#include <tab.h>
+
+// Fortran name mangling.
+#include <wcsconfig_f77.h>
+#define tabput_  F77_FUNC(tabput,  TABPUT)
+#define tabptd_  F77_FUNC(tabptd,  TABPTD)
+#define tabpti_  F77_FUNC(tabpti,  TABPTI)
+#define tabget_  F77_FUNC(tabget,  TABGET)
+#define tabgtd_  F77_FUNC(tabgtd,  TABGTD)
+#define tabgti_  F77_FUNC(tabgti,  TABGTI)
+
+#define tabini_  F77_FUNC(tabini,  TABINI)
+#define tabmem_  F77_FUNC(tabmem,  TABMEM)
+#define tabcpy_  F77_FUNC(tabcpy,  TABCPY)
+#define tabcmp_  F77_FUNC(tabcmp,  TABCMP)
+#define tabfree_ F77_FUNC(tabfree, TABFREE)
+#define tabsize_ F77_FUNC(tabsize, TABSIZE)
+#define tabenq_  F77_FUNC(tabenq,  TABENQ)
+#define tabprt_  F77_FUNC(tabprt,  TABPRT)
+#define tabperr_ F77_FUNC(tabperr, TABPERR)
+#define tabset_  F77_FUNC(tabset,  TABSET)
+#define tabx2s_  F77_FUNC(tabx2s,  TABX2S)
+#define tabs2x_  F77_FUNC(tabs2x,  TABS2X)
+
+#ifdef BINDC
+  #undef  tabperr_
+  #define tabperr_ tabperr_c
+#endif
+
+// Must match the value set in tab.inc.
+#define TAB_FLAG     100
+#define TAB_M        101
+#define TAB_K        102
+#define TAB_MAP      103
+#define TAB_CRVAL    104
+#define TAB_INDEX    105
+#define TAB_COORD    106
+
+#define TAB_NC       200
+#define TAB_SENSE    201
+#define TAB_P0       202
+#define TAB_DELTA    203
+#define TAB_EXTREMA  204
+#define TAB_ERR      205
+
+//----------------------------------------------------------------------------
+
+int tabput_(
+  int *tab,
+  const int *what,
+  const void *value,
+  const int *m,
+  const int *k)
+
+{
+  // Cast pointers.
+  struct tabprm *tabp = (struct tabprm *)tab;
+  const int    *ivalp = (const int *)value;
+  const double *dvalp = (const double *)value;
+
+  // Convert 1-relative FITS axis numbers to 0-relative C array indices.
+  int m0 = *m - 1;
+  int k0 = *k - 1;
+
+  if (tabp->flag == 1 || tabp->flag < 0) {
+    // Preserve bypass mode.
+    tabp->flag = 1;
+  } else {
+    tabp->flag = 0;
+  }
+
+  switch (*what) {
+  case TAB_FLAG:
+    tabp->flag = *ivalp;
+    break;
+  case TAB_M:
+    tabp->M = *ivalp;
+    break;
+  case TAB_K:
+    tabp->K[m0] = *ivalp;
+    break;
+  case TAB_MAP:
+    tabp->map[m0] = *ivalp;
+    break;
+  case TAB_CRVAL:
+    tabp->crval[m0] = *dvalp;
+    break;
+  case TAB_INDEX:
+    tabp->index[m0][k0] = *dvalp;
+    break;
+  case TAB_COORD:
+    tabp->coord[m0] = *dvalp;
+    break;
+  default:
+    return 1;
+  }
+
+  return 0;
+}
+
+int tabptd_(int *tab, const int *what, const double *value, const int *m,
+  const int *k)
+{
+  return tabput_(tab, what, value, m, k);
+}
+
+int tabpti_(int *tab, const int *what, const int *value, const int *m,
+  const int *k)
+{
+  return tabput_(tab, what, value, m, k);
+}
+
+//----------------------------------------------------------------------------
+
+int tabget_(const int *tab, const int *what, void *value)
+
+{
+  // Cast pointers.
+  const struct tabprm *tabp = (const struct tabprm *)tab;
+  int    *ivalp = (int *)value;
+  double *dvalp = (double *)value;
+
+  int n;
+  switch (*what) {
+  case TAB_FLAG:
+    *ivalp = tabp->flag;
+    break;
+  case TAB_M:
+    *ivalp = tabp->M;
+    break;
+  case TAB_K:
+    for (int m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->K[m];
+    }
+    break;
+  case TAB_MAP:
+    for (int m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->map[m];
+    }
+    break;
+  case TAB_CRVAL:
+    for (int m = 0; m < tabp->M; m++) {
+      *(dvalp++) = tabp->crval[m];
+    }
+    break;
+  case TAB_INDEX:
+    for (int m = 0; m < tabp->M; m++) {
+      for (int k = 0; k < tabp->K[m]; k++) {
+        *(dvalp++) = tabp->index[m][k];
+      }
+    }
+    break;
+  case TAB_COORD:
+    // Don't rely on tabprm.nc being set.
+    n = tabp->M;
+    for (int m = 0; m < tabp->M; m++) {
+      n *= tabp->K[m];
+    }
+
+    for (int i = 0; i < n; i++) {
+      *(dvalp++) = tabp->coord[i];
+    }
+    break;
+  case TAB_NC:
+    *ivalp = tabp->nc;
+    break;
+  case TAB_SENSE:
+    for (int m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->sense[m];
+    }
+    break;
+  case TAB_P0:
+    for (int m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->p0[m];
+    }
+    break;
+  case TAB_DELTA:
+    for (int m = 0; m < tabp->M; m++) {
+      *(dvalp++) = tabp->delta[m];
+    }
+    break;
+  case TAB_EXTREMA:
+    n = 2 * tabp->M;
+    for (int m = 1; m < tabp->M; m++) {
+      n *= tabp->K[m];
+    }
+
+    for (int i = 0; i < n; i++) {
+      *(dvalp++) = tabp->extrema[i];
+    }
+    break;
+  case TAB_ERR:
+    // Copy the contents of the wcserr struct.
+    if (tabp->err) {
+      const int *itabp = (int *)(tabp->err);
+      for (size_t l = 0; l < ERRLEN; l++) {
+        *(ivalp++) = *(itabp++);
+      }
+    } else {
+      for (size_t l = 0; l < ERRLEN; l++) {
+        *(ivalp++) = 0;
+      }
+    }
+    break;
+  default:
+    return 1;
+  }
+
+  return 0;
+}
+
+int tabgtd_(const int *tab, const int *what, double *value)
+{
+  return tabget_(tab, what, value);
+}
+
+int tabgti_(const int *tab, const int *what, int *value)
+{
+  return tabget_(tab, what, value);
+}
+
+//----------------------------------------------------------------------------
+
+int tabini_(const int *M, const int *K, int *tab)
+
+{
+  return tabini(1, *M, K, (struct tabprm *)tab);
+}
+
+//----------------------------------------------------------------------------
+
+int tabmem_(int *tab)
+
+{
+  return tabmem((struct tabprm *)tab);
+}
+
+//----------------------------------------------------------------------------
+
+int tabcpy_(const int *tabsrc, int *tabdst)
+
+{
+  return tabcpy(1, (const struct tabprm *)tabsrc, (struct tabprm *)tabdst);
+}
+
+//----------------------------------------------------------------------------
+
+int tabcmp_(
+  const int *cmp,
+  const double *tol,
+  const int *tab1,
+  const int *tab2,
+  int *equal)
+
+{
+  return tabcmp(*cmp, *tol, (const struct tabprm *)tab1,
+                (const struct tabprm *)tab2, equal);
+}
+
+//----------------------------------------------------------------------------
+
+int tabfree_(int *tab)
+
+{
+  return tabfree((struct tabprm *)tab);
+}
+
+//----------------------------------------------------------------------------
+
+int tabsize_(const int *tab, int sizes[2])
+
+{
+  return tabsize((const struct tabprm *)tab, sizes);
+}
+
+//----------------------------------------------------------------------------
+
+int tabenq_(const int *tab, int *enquiry)
+
+{
+  return tabenq((const struct tabprm *)tab, *enquiry);
+}
+
+//----------------------------------------------------------------------------
+
+int tabprt_(const int *tab)
+
+{
+  // This may or may not force the Fortran I/O buffers to be flushed.  If
+  // not, try CALL FLUSH(6) before calling TABPRT in the Fortran code.
+  fflush(NULL);
+
+  return tabprt((const struct tabprm *)tab);
+}
+
+//----------------------------------------------------------------------------
+
+// If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+// length less than but not exceeding 72 and trailing blanks are preserved.
+// Otherwise, it must be of length 72 and trailing blanks are stripped off.
+
+int tabperr_(int *tab, const char prefix[72])
+
+{
+  // This may or may not force the Fortran I/O buffers to be flushed.
+  // If not, try CALL FLUSH(6) before calling TABPERR in the Fortran code.
+  fflush(NULL);
+
+  char prefix_[73];
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+  return wcserr_prt(((struct tabprm *)tab)->err, prefix_);
+}
+
+//----------------------------------------------------------------------------
+
+int tabset_(int *tab)
+
+{
+  return tabset((struct tabprm *)tab);
+}
+
+//----------------------------------------------------------------------------
+
+int tabx2s_(
+  int *tab,
+  const int *ncoord,
+  const int *nelem,
+  const double x[],
+  double world[],
+  int stat[])
+
+{
+  return tabx2s((struct tabprm *)tab, *ncoord, *nelem, x, world, stat);
+}
+
+//----------------------------------------------------------------------------
+
+int tabs2x_(
+  struct tabprm* tab,
+  const int *ncoord,
+  const int *nelem,
+  const double world[],
+  double x[],
+  int stat[])
+
+{
+  return tabs2x((struct tabprm *)tab, *ncoord, *nelem, world, x, stat);
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.5.1.2 2026/03/29 13:36:19 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tab_f.c,v 8.4.1.2 2025/12/06 13:37:18 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tab_f.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.2.1.4 2024/05/10 15:05:23 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d47 1
+d54 5
+a84 5
+  int k0, m0;
+  const int  *ivalp;
+  const double *dvalp;
+  struct tabprm *tabp;
+
+d86 3
+a88 3
+  tabp  = (struct tabprm *)tab;
+  ivalp = (const int *)value;
+  dvalp = (const double *)value;
+d91 2
+a92 2
+  m0 = *m - 1;
+  k0 = *k - 1;
+d94 6
+a99 1
+  tabp->flag = 0;
+a146 7
+  unsigned int l;
+  int i, k, m, n;
+  int    *ivalp;
+  double *dvalp;
+  const int *itabp;
+  const struct tabprm *tabp;
+
+d148 3
+a150 3
+  tabp  = (const struct tabprm *)tab;
+  ivalp = (int *)value;
+  dvalp = (double *)value;
+d152 1
+d161 1
+a161 1
+    for (m = 0; m < tabp->M; m++) {
+d166 1
+a166 1
+    for (m = 0; m < tabp->M; m++) {
+d171 1
+a171 1
+    for (m = 0; m < tabp->M; m++) {
+d176 2
+a177 2
+    for (m = 0; m < tabp->M; m++) {
+      for (k = 0; k < tabp->K[m]; k++) {
+d185 1
+a185 1
+    for (m = 0; m < tabp->M; m++) {
+d189 1
+a189 1
+    for (i = 0; i < n; i++) {
+d197 1
+a197 1
+    for (m = 0; m < tabp->M; m++) {
+d202 1
+a202 1
+    for (m = 0; m < tabp->M; m++) {
+d207 1
+a207 1
+    for (m = 0; m < tabp->M; m++) {
+d213 1
+a213 1
+    for (m = 1; m < tabp->M; m++) {
+d217 1
+a217 1
+    for (i = 0; i < n; i++) {
+d224 2
+a225 2
+      itabp = (int *)(tabp->err);
+      for (l = 0; l < ERRLEN; l++) {
+d229 1
+a229 1
+      for (l = 0; l < ERRLEN; l++) {
+d307 8
+a333 3
+  char prefix_[73];
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+
+d338 2
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Changes required to support the new Fortran 2003 BIND(C) wrappers.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.2.1.2 2024/04/02 14:06:11 mcalabre Exp mcalabre $
+a51 5
+
+#ifdef BINDC
+  #undef  tabperr_
+  #define tabperr_ tabperr_c
+#endif
+@
+
+
+8.2.1.4
+log
+@Changes in tabput_() to support bypass mode in tabset().
+Added tabenq_().
+Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.2.1.3 2024/05/06 15:17:33 mcalabre Exp mcalabre $
+a46 1
+#define tabenq_  F77_FUNC(tabenq,  TABENQ)
+d84 5
+d90 3
+a92 3
+  struct tabprm *tabp = (struct tabprm *)tab;
+  const int    *ivalp = (const int *)value;
+  const double *dvalp = (const double *)value;
+d95 2
+a96 2
+  int m0 = *m - 1;
+  int k0 = *k - 1;
+d98 1
+a98 6
+  if (tabp->flag == 1 || tabp->flag < 0) {
+    // Preserve bypass mode.
+    tabp->flag = 1;
+  } else {
+    tabp->flag = 0;
+  }
+d146 7
+d154 3
+a156 3
+  const struct tabprm *tabp = (const struct tabprm *)tab;
+  int    *ivalp = (int *)value;
+  double *dvalp = (double *)value;
+a157 1
+  int n;
+d166 1
+a166 1
+    for (int m = 0; m < tabp->M; m++) {
+d171 1
+a171 1
+    for (int m = 0; m < tabp->M; m++) {
+d176 1
+a176 1
+    for (int m = 0; m < tabp->M; m++) {
+d181 2
+a182 2
+    for (int m = 0; m < tabp->M; m++) {
+      for (int k = 0; k < tabp->K[m]; k++) {
+d190 1
+a190 1
+    for (int m = 0; m < tabp->M; m++) {
+d194 1
+a194 1
+    for (int i = 0; i < n; i++) {
+d202 1
+a202 1
+    for (int m = 0; m < tabp->M; m++) {
+d207 1
+a207 1
+    for (int m = 0; m < tabp->M; m++) {
+d212 1
+a212 1
+    for (int m = 0; m < tabp->M; m++) {
+d218 1
+a218 1
+    for (int m = 1; m < tabp->M; m++) {
+d222 1
+a222 1
+    for (int i = 0; i < n; i++) {
+d229 2
+a230 2
+      const int *itabp = (int *)(tabp->err);
+      for (size_t l = 0; l < ERRLEN; l++) {
+d234 1
+a234 1
+      for (size_t l = 0; l < ERRLEN; l++) {
+a311 8
+int tabenq_(const int *tab, int *enquiry)
+
+{
+  return tabenq((const struct tabprm *)tab, *enquiry);
+}
+
+//----------------------------------------------------------------------------
+
+d331 3
+a337 2
+  char prefix_[73];
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.13.1.2 2023/06/15 04:17:21 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.7.1.2 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.5.1.2 2021/04/13 08:46:48 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.4.1.2 2021/02/22 07:38:08 mcalabre Exp mcalabre $
+d46 1
+d295 8
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Wrapper for tabsize().
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a45 1
+#define tabsize_ F77_FUNC(tabsize, TABSIZE)
+a293 8
+}
+
+//----------------------------------------------------------------------------
+
+int tabsize_(const int *tab, int sizes[2])
+
+{
+  return tabsize((const struct tabprm *)tab, sizes);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.3.1.4 2021/01/28 12:31:46 mcalabre Exp mcalabre $
+d318 1
+a318 3
+
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Revised API to wcsutil_strcvt().
+@
+text
+@d22 1
+a22 1
+  $Id: tab_f.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d318 3
+a320 1
+  wcsutil_strcvt(72, '\0', 1, prefix, prefix_);
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tab_f.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d32 1
+a32 1
+/* Fortran name mangling. */
+d52 1
+a52 1
+/* Must match the value set in tab.inc. */
+d68 1
+a68 1
+/*--------------------------------------------------------------------------*/
+d83 1
+a83 1
+  /* Cast pointers. */
+d88 1
+a88 1
+  /* Convert 1-relative FITS axis numbers to 0-relative C array indices. */
+d135 1
+a135 1
+/*--------------------------------------------------------------------------*/
+d147 1
+a147 1
+  /* Cast pointers. */
+d182 1
+a182 1
+    /* Don't rely on tabprm.nc being set. */
+d221 1
+a221 1
+    /* Copy the contents of the wcserr struct. */
+d250 1
+a250 1
+/*--------------------------------------------------------------------------*/
+d258 1
+a258 1
+/*--------------------------------------------------------------------------*/
+d266 1
+a266 1
+/*--------------------------------------------------------------------------*/
+d274 1
+a274 1
+/*--------------------------------------------------------------------------*/
+d288 1
+a288 1
+/*--------------------------------------------------------------------------*/
+d296 1
+a296 1
+/*--------------------------------------------------------------------------*/
+d301 2
+a302 2
+  /* This may or may not force the Fortran I/O buffers to be flushed.  If
+   * not, try CALL FLUSH(6) before calling TABPRT in the Fortran code. */
+d308 1
+a308 1
+/*--------------------------------------------------------------------------*/
+d310 3
+a312 3
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
+d322 2
+a323 2
+  /* This may or may not force the Fortran I/O buffers to be flushed. */
+  /* If not, try CALL FLUSH(6) before calling TABPERR in the Fortran code. */
+d329 1
+a329 1
+/*--------------------------------------------------------------------------*/
+d337 1
+a337 1
+/*--------------------------------------------------------------------------*/
+d351 1
+a351 1
+/*--------------------------------------------------------------------------*/
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tab_f.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d35 1
+a35 1
+// Fortran name mangling.
+d55 1
+a55 1
+// Must match the value set in tab.inc.
+d71 1
+a71 1
+//----------------------------------------------------------------------------
+d86 1
+a86 1
+  // Cast pointers.
+d91 1
+a91 1
+  // Convert 1-relative FITS axis numbers to 0-relative C array indices.
+d138 1
+a138 1
+//----------------------------------------------------------------------------
+d150 1
+a150 1
+  // Cast pointers.
+d185 1
+a185 1
+    // Don't rely on tabprm.nc being set.
+d224 1
+a224 1
+    // Copy the contents of the wcserr struct.
+d253 1
+a253 1
+//----------------------------------------------------------------------------
+d261 1
+a261 1
+//----------------------------------------------------------------------------
+d269 1
+a269 1
+//----------------------------------------------------------------------------
+d277 1
+a277 1
+//----------------------------------------------------------------------------
+d291 1
+a291 1
+//----------------------------------------------------------------------------
+d299 1
+a299 1
+//----------------------------------------------------------------------------
+d304 2
+a305 2
+  // This may or may not force the Fortran I/O buffers to be flushed.  If
+  // not, try CALL FLUSH(6) before calling TABPRT in the Fortran code.
+d311 1
+a311 1
+//----------------------------------------------------------------------------
+d313 3
+a315 3
+// If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+// length less than but not exceeding 72 and trailing blanks are preserved.
+// Otherwise, it must be of length 72 and trailing blanks are stripped off.
+d325 2
+a326 2
+  // This may or may not force the Fortran I/O buffers to be flushed.
+  // If not, try CALL FLUSH(6) before calling TABPERR in the Fortran code.
+d332 1
+a332 1
+//----------------------------------------------------------------------------
+d340 1
+a340 1
+//----------------------------------------------------------------------------
+d354 1
+a354 1
+//----------------------------------------------------------------------------
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tab_f.c,v 7.3.1.2 2020/08/17 11:21:34 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tab_f.c,v 7.3.1.3 2021/01/19 14:10:41 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.4.1.3 2019/12/31 03:28:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d313 3
+a315 2
+/* prefix should be null-terminated, or else of length 72 in which case
+ * trailing blanks are not significant. */
+d320 1
+a320 1
+  char prefix_[72];
+d322 2
+a323 2
+  strncpy(prefix_, prefix, 72);
+  wcsutil_null_fill(72, prefix_);
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Reworked Fortran <-> C string translation using wcsutil_strcvt().
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 6.4.1.3 2019/12/03 05:11:41 mcalabre Exp mcalabre $
+d313 2
+a314 3
+/* If null-terminated (using the Fortran CHAR(0) intrinsic), prefix may be of
+ * length less than but not exceeding 72 and trailing blanks are preserved.
+ * Otherwise, it must be of length 72 and trailing blanks are stripped off. */
+d319 1
+a319 1
+  char prefix_[73];
+d321 2
+a322 2
+  wcsutil_strcvt(72, '\0', prefix, prefix_);
+  prefix_[72] = '\0';
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.4.1.2 2019/12/12 03:14:48 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.2.1.2 2019/05/10 02:05:36 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.20.1.2 2018/10/19 04:27:49 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d55 1
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Added a reminder that the the codes for accessing the data structure must
+match the parameters set in the Fortran include file.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a54 1
+/* Must match the value set in tab.inc. */
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.17.1.2 2018/01/10 08:26:33 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.16.1.2 2017/09/13 00:26:00 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.15.1.2 2017/01/15 04:08:22 mcalabre Exp mcalabre $
+d142 1
+d226 1
+a226 1
+      for (k = 0; k < ERRLEN; k++) {
+d230 1
+a230 1
+      for (k = 0; k < ERRLEN; k++) {
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Fixed compiler warnings about comparison between signed and unsigned ints.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.16.1.1 2017/01/15 04:29:02 mcalabre Exp mcalabre $
+a141 1
+  unsigned int l;
+d225 1
+a225 1
+      for (l = 0; l < ERRLEN; l++) {
+d229 1
+a229 1
+      for (l = 0; l < ERRLEN; l++) {
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.14.1.1 2016/02/07 10:52:47 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.12.1.2 2016/01/25 05:21:06 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.10.1.1 2015/10/09 08:22:38 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.8.1.1 2015/07/08 11:07:21 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.4.1.1 2015/04/21 14:44:30 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.3.1.1 2015/04/21 02:54:04 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.2.1.1 2015/04/15 12:39:17 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.1.1.2 2015/04/13 11:42:51 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+d32 1
+a317 1
+  int  i;
+d320 1
+a320 8
+  if (prefix_[71] == ' ') {
+    for (i = 70; i >= 0; i--) {
+      if (prefix_[i] != ' ') break;
+      prefix_[i] = '\0';
+    }
+  } else {
+    prefix_[71] = '\0';
+  }
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@In tabperr_(), use wcsutuil_null_fill().
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+a31 1
+#include <wcsutil.h>
+d317 1
+d320 8
+a327 1
+  wcsutil_null_fill(72, prefix_);
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.25.1.3 2015/04/05 06:52:25 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+d29 1
+d31 1
+d36 7
+d46 1
+a46 2
+#define tabput_  F77_FUNC(tabput,  TABPUT)
+#define tabget_  F77_FUNC(tabget,  TABGET)
+d49 1
+a53 5
+#define tabptd_ F77_FUNC(tabptd, TABPTD)
+#define tabpti_ F77_FUNC(tabpti, TABPTI)
+#define tabgtd_ F77_FUNC(tabgtd, TABGTD)
+#define tabgti_ F77_FUNC(tabgti, TABGTI)
+
+a70 24
+int tabini_(const int *M, const int *K, int *tab)
+
+{
+  return tabini(1, *M, K, (struct tabprm *)tab);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int tabmem_(int *tab)
+
+{
+  return tabmem((struct tabprm *)tab);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int tabcpy_(const int *tabsrc, int *tabdst)
+
+{
+  return tabcpy(1, (const struct tabprm *)tabsrc, (struct tabprm *)tabdst);
+}
+
+/*--------------------------------------------------------------------------*/
+
+d252 38
+d306 28
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Added tabperr_() as a wrapper on wcserr_prt().  Changed the order of
+function definitions to put tabprm manipulation routines first.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.25.1.2 2015/01/06 01:02:17 mcalabre Exp mcalabre $
+a28 1
+#include <string.h>
+a29 1
+#include <wcserr.h>
+a33 7
+#define tabput_  F77_FUNC(tabput,  TABPUT)
+#define tabptd_  F77_FUNC(tabptd,  TABPTD)
+#define tabpti_  F77_FUNC(tabpti,  TABPTI)
+#define tabget_  F77_FUNC(tabget,  TABGET)
+#define tabgtd_  F77_FUNC(tabgtd,  TABGTD)
+#define tabgti_  F77_FUNC(tabgti,  TABGTI)
+
+d37 2
+a38 1
+#define tabcmp_  F77_FUNC(tabcmp,  TABCMP)
+a40 1
+#define tabperr_ F77_FUNC(tabperr, TABPERR)
+d45 5
+d67 24
+a271 38
+int tabini_(const int *M, const int *K, int *tab)
+
+{
+  return tabini(1, *M, K, (struct tabprm *)tab);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int tabmem_(int *tab)
+
+{
+  return tabmem((struct tabprm *)tab);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int tabcpy_(const int *tabsrc, int *tabdst)
+
+{
+  return tabcpy(1, (const struct tabprm *)tabsrc, (struct tabprm *)tabdst);
+}
+
+/*--------------------------------------------------------------------------*/
+
+int tabcmp_(
+  const int *cmp,
+  const double *tol,
+  const int *tab1,
+  const int *tab2,
+  int *equal)
+
+{
+  return tabcmp(*cmp, *tol, (const struct tabprm *)tab1,
+                (const struct tabprm *)tab2, equal);
+}
+
+/*--------------------------------------------------------------------------*/
+
+a287 28
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* prefix should be null-terminated, or else of length 72 in which case
+ * trailing blanks are not significant. */
+
+int tabperr_(int *tab, const char prefix[72])
+
+{
+  char prefix_[72];
+  int  i;
+
+  strncpy(prefix_, prefix, 72);
+  if (prefix_[71] == ' ') {
+    for (i = 70; i >= 0; i--) {
+      if (prefix_[i] != ' ') break;
+      prefix_[i] = '\0';
+    }
+  } else {
+    prefix_[71] = '\0';
+  }
+
+  /* This may or may not force the Fortran I/O buffers to be flushed. */
+  /* If not, try CALL FLUSH(6) before calling TABPERR in the Fortran code. */
+  fflush(NULL);
+
+  return wcserr_prt(((struct tabprm *)tab)->err, prefix_);
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.20.1.2 2014/03/21 06:39:02 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.16.1.2 2013/01/29 05:10:59 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.14.1.1 2012/07/13 10:04:54 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab_f.c,v 4.13.1.2 2012/07/13 03:40:02 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab_f.c,v 4.14 2012/07/13 10:02:35 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tab_f.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tab_f.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.8.1.2 2012/01/24 05:23:50 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.7.1.4 2011/08/13 03:14:59 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.6.1.2 2011/01/14 06:34:01 cal103 Exp cal103 $
+d34 2
+d69 1
+d170 1
+d246 13
+d289 4
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added support for the new error messaging system based on wcserr.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+a66 1
+#define TAB_ERR      205
+a241 3
+  case TAB_ERR:
+    *(void **)value = tabp->err;
+    break;
+@
+
+
+4.7.1.3
+log
+@In tabprt_(), try calling fflush() to flush the Fortran I/O buffers
+before calling tabprt().
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.7.1.2 2011/08/09 03:00:46 cal103 Exp cal103 $
+a33 2
+#include <stdio.h>
+
+a275 4
+  /* This may or may not force the Fortran I/O buffers to be flushed.  If
+   * not, try CALL FLUSH(6) before calling TABPRT in the Fortran code. */
+  fflush(NULL);
+
+@
+
+
+4.7.1.4
+log
+@In tabget_(): for TAB_ERR, copy the contents of the wcserr struct rather
+than just returning the address.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.7.1.3 2011/08/12 08:38:32 cal103 Exp cal103 $
+a169 1
+  const int *itabp;
+d246 1
+a246 11
+    /* Copy the contents of the wcserr struct. */
+    if (tabp->err) {
+      itabp = (int *)(tabp->err);
+      for (k = 0; k < ERRLEN; k++) {
+        *(ivalp++) = *(itabp++);
+      }
+    } else {
+      for (k = 0; k < ERRLEN; k++) {
+        *(ivalp++) = 0;
+      }
+    }
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.5.1.2 2010/11/15 07:19:41 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.4.1.2 2010/01/19 03:44:35 cal103 Exp cal103 $
+d49 5
+d147 12
+d249 10
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Added new type-specific variants of TABPUT and TABGET.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+a48 5
+#define tabptd_ F77_FUNC(tabptd, TABPTD)
+#define tabpti_ F77_FUNC(tabpti, TABPTI)
+#define tabgtd_ F77_FUNC(tabgtd, TABGTD)
+#define tabgti_ F77_FUNC(tabgti, TABGTI)
+
+a141 12
+int tabptd_(int *tab, const int *what, const double *value, const int *m,
+  const int *k)
+{
+  return tabput_(tab, what, value, m, k);
+}
+
+int tabpti_(int *tab, const int *what, const int *value, const int *m,
+  const int *k)
+{
+  return tabput_(tab, what, value, m, k);
+}
+
+a231 10
+int tabgtd_(const int *tab, const int *what, double *value)
+{
+  return tabget_(tab, what, value);
+}
+
+int tabgti_(const int *tab, const int *what, int *value)
+{
+  return tabget_(tab, what, value);
+}
+
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.3.1.2 2009/07/22 07:18:23 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab_f.c,v 4.4 2009/08/06 07:51:45 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab_f.c,v 4.4.1.1 2009/08/10 08:54:51 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tab_f.c,v 4.2.1.5 2007/12/03 05:36:01 cal103 Exp cal103 $
+d68 1
+a68 1
+   return tabini(1, *M, K, (struct tabprm *)tab);
+d76 1
+a76 1
+   return tabmem((struct tabprm *)tab);
+d84 1
+a84 1
+   return tabcpy(1, (const struct tabprm *)tabsrc, (struct tabprm *)tabdst);
+d90 5
+a94 5
+   int *tab,
+   const int *what,
+   const void *value,
+   const int *m,
+   const int *k)
+d97 41
+a137 41
+   int k0, m0;
+   const int  *ivalp;
+   const double *dvalp;
+   struct tabprm *tabp;
+
+   /* Cast pointers. */
+   tabp  = (struct tabprm *)tab;
+   ivalp = (const int *)value;
+   dvalp = (const double *)value;
+
+   /* Convert 1-relative FITS axis numbers to 0-relative C array indices. */
+   m0 = *m - 1;
+   k0 = *k - 1;
+
+   tabp->flag = 0;
+
+   switch (*what) {
+   case TAB_FLAG:
+      tabp->flag = *ivalp;
+      break;
+   case TAB_M:
+      tabp->M = *ivalp;
+      break;
+   case TAB_K:
+      tabp->K[m0] = *ivalp;
+      break;
+   case TAB_MAP:
+      tabp->map[m0] = *ivalp;
+      break;
+   case TAB_CRVAL:
+      tabp->crval[m0] = *dvalp;
+      break;
+   case TAB_INDEX:
+      tabp->index[m0][k0] = *dvalp;
+      break;
+   case TAB_COORD:
+      tabp->coord[m0] = *dvalp;
+      break;
+   default:
+      return 1;
+   }
+d139 1
+a139 1
+   return 0;
+d147 81
+a227 81
+   int i, k, m, n;
+   int    *ivalp;
+   double *dvalp;
+   const struct tabprm *tabp;
+
+   /* Cast pointers. */
+   tabp  = (const struct tabprm *)tab;
+   ivalp = (int *)value;
+   dvalp = (double *)value;
+
+   switch (*what) {
+   case TAB_FLAG:
+      *ivalp = tabp->flag;
+      break;
+   case TAB_M:
+      *ivalp = tabp->M;
+      break;
+   case TAB_K:
+      for (m = 0; m < tabp->M; m++) {
+         *(ivalp++) = tabp->K[m];
+      }
+      break;
+   case TAB_MAP:
+      for (m = 0; m < tabp->M; m++) {
+         *(ivalp++) = tabp->map[m];
+      }
+      break;
+   case TAB_CRVAL:
+      for (m = 0; m < tabp->M; m++) {
+         *(dvalp++) = tabp->crval[m];
+      }
+      break;
+   case TAB_INDEX:
+      for (m = 0; m < tabp->M; m++) {
+         for (k = 0; k < tabp->K[m]; k++) {
+            *(dvalp++) = tabp->index[m][k];
+         }
+      }
+      break;
+   case TAB_COORD:
+      /* Don't rely on tabprm.nc being set. */
+      n = tabp->M;
+      for (m = 0; m < tabp->M; m++) {
+         n *= tabp->K[m];
+      }
+
+      for (i = 0; i < n; i++) {
+         *(dvalp++) = tabp->coord[i];
+      }
+      break;
+   case TAB_NC:
+      *ivalp = tabp->nc;
+      break;
+   case TAB_SENSE:
+      for (m = 0; m < tabp->M; m++) {
+         *(ivalp++) = tabp->sense[m];
+      }
+      break;
+   case TAB_P0:
+      for (m = 0; m < tabp->M; m++) {
+         *(ivalp++) = tabp->p0[m];
+      }
+      break;
+   case TAB_DELTA:
+      for (m = 0; m < tabp->M; m++) {
+         *(dvalp++) = tabp->delta[m];
+      }
+      break;
+   case TAB_EXTREMA:
+      n = 2 * tabp->M;
+      for (m = 1; m < tabp->M; m++) {
+         n *= tabp->K[m];
+      }
+
+      for (i = 0; i < n; i++) {
+         *(dvalp++) = tabp->extrema[i];
+      }
+      break;
+   default:
+      return 1;
+   }
+d229 1
+a229 1
+   return 0;
+d237 1
+a237 1
+   return tabfree((struct tabprm *)tab);
+d245 1
+a245 1
+   return tabprt((const struct tabprm *)tab);
+d253 1
+a253 1
+   return tabset((struct tabprm *)tab);
+d259 6
+a264 6
+   int *tab,
+   const int *ncoord,
+   const int *nelem,
+   const double x[],
+   double world[],
+   int stat[])
+d267 1
+a267 1
+   return tabx2s((struct tabprm *)tab, *ncoord, *nelem, x, world, stat);
+d273 6
+a278 6
+   struct tabprm* tab,
+   const int *ncoord,
+   const int *nelem,
+   const double world[],
+   double x[],
+   int stat[])
+d281 1
+a281 1
+   return tabs2x((struct tabprm *)tab, *ncoord, *nelem, world, x, stat);
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tab_f.c,v 4.3 2007/12/27 05:48:07 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tab_f.c,v 4.3.1.1 2007/12/27 13:25:03 cal103 Exp cal103 $
+d68 1
+a68 1
+  return tabini(1, *M, K, (struct tabprm *)tab);
+d76 1
+a76 1
+  return tabmem((struct tabprm *)tab);
+d84 1
+a84 1
+  return tabcpy(1, (const struct tabprm *)tabsrc, (struct tabprm *)tabdst);
+d90 5
+a94 5
+  int *tab,
+  const int *what,
+  const void *value,
+  const int *m,
+  const int *k)
+d97 41
+a137 41
+  int k0, m0;
+  const int  *ivalp;
+  const double *dvalp;
+  struct tabprm *tabp;
+
+  /* Cast pointers. */
+  tabp  = (struct tabprm *)tab;
+  ivalp = (const int *)value;
+  dvalp = (const double *)value;
+
+  /* Convert 1-relative FITS axis numbers to 0-relative C array indices. */
+  m0 = *m - 1;
+  k0 = *k - 1;
+
+  tabp->flag = 0;
+
+  switch (*what) {
+  case TAB_FLAG:
+    tabp->flag = *ivalp;
+    break;
+  case TAB_M:
+    tabp->M = *ivalp;
+    break;
+  case TAB_K:
+    tabp->K[m0] = *ivalp;
+    break;
+  case TAB_MAP:
+    tabp->map[m0] = *ivalp;
+    break;
+  case TAB_CRVAL:
+    tabp->crval[m0] = *dvalp;
+    break;
+  case TAB_INDEX:
+    tabp->index[m0][k0] = *dvalp;
+    break;
+  case TAB_COORD:
+    tabp->coord[m0] = *dvalp;
+    break;
+  default:
+    return 1;
+  }
+d139 1
+a139 1
+  return 0;
+d147 81
+a227 81
+  int i, k, m, n;
+  int    *ivalp;
+  double *dvalp;
+  const struct tabprm *tabp;
+
+  /* Cast pointers. */
+  tabp  = (const struct tabprm *)tab;
+  ivalp = (int *)value;
+  dvalp = (double *)value;
+
+  switch (*what) {
+  case TAB_FLAG:
+    *ivalp = tabp->flag;
+    break;
+  case TAB_M:
+    *ivalp = tabp->M;
+    break;
+  case TAB_K:
+    for (m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->K[m];
+    }
+    break;
+  case TAB_MAP:
+    for (m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->map[m];
+    }
+    break;
+  case TAB_CRVAL:
+    for (m = 0; m < tabp->M; m++) {
+      *(dvalp++) = tabp->crval[m];
+    }
+    break;
+  case TAB_INDEX:
+    for (m = 0; m < tabp->M; m++) {
+      for (k = 0; k < tabp->K[m]; k++) {
+        *(dvalp++) = tabp->index[m][k];
+      }
+    }
+    break;
+  case TAB_COORD:
+    /* Don't rely on tabprm.nc being set. */
+    n = tabp->M;
+    for (m = 0; m < tabp->M; m++) {
+      n *= tabp->K[m];
+    }
+
+    for (i = 0; i < n; i++) {
+      *(dvalp++) = tabp->coord[i];
+    }
+    break;
+  case TAB_NC:
+    *ivalp = tabp->nc;
+    break;
+  case TAB_SENSE:
+    for (m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->sense[m];
+    }
+    break;
+  case TAB_P0:
+    for (m = 0; m < tabp->M; m++) {
+      *(ivalp++) = tabp->p0[m];
+    }
+    break;
+  case TAB_DELTA:
+    for (m = 0; m < tabp->M; m++) {
+      *(dvalp++) = tabp->delta[m];
+    }
+    break;
+  case TAB_EXTREMA:
+    n = 2 * tabp->M;
+    for (m = 1; m < tabp->M; m++) {
+      n *= tabp->K[m];
+    }
+
+    for (i = 0; i < n; i++) {
+      *(dvalp++) = tabp->extrema[i];
+    }
+    break;
+  default:
+    return 1;
+  }
+d229 1
+a229 1
+  return 0;
+d237 1
+a237 1
+  return tabfree((struct tabprm *)tab);
+d245 1
+a245 1
+  return tabprt((const struct tabprm *)tab);
+d253 1
+a253 1
+  return tabset((struct tabprm *)tab);
+d259 6
+a264 6
+  int *tab,
+  const int *ncoord,
+  const int *nelem,
+  const double x[],
+  double world[],
+  int stat[])
+d267 1
+a267 1
+  return tabx2s((struct tabprm *)tab, *ncoord, *nelem, x, world, stat);
+d273 6
+a278 6
+  struct tabprm* tab,
+  const int *ncoord,
+  const int *nelem,
+  const double world[],
+  double x[],
+  int stat[])
+d281 1
+a281 1
+  return tabs2x((struct tabprm *)tab, *ncoord, *nelem, world, x, stat);
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tab_f.c,v 4.1 2005/08/27 01:22:43 cal103 Exp cal103 $
+d36 13
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tab_f.c,v 4.2 2005/09/21 13:25:32 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Do Fortran name mangling using the F77_FUNC(name, NAME) macro defined in
+config.h by 'configure'.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: tab_f.c,v 4.2.1.1 2005/12/05 01:43:47 cal103 Exp cal103 $
+a34 13
+/* Fortran name mangling. */
+#include <config.h>
+#define tabini_  F77_FUNC(tabini,  TABINI)
+#define tabmem_  F77_FUNC(tabmem,  TABMEM)
+#define tabcpy_  F77_FUNC(tabcpy,  TABCPY)
+#define tabput_  F77_FUNC(tabput,  TABPUT)
+#define tabget_  F77_FUNC(tabget,  TABGET)
+#define tabfree_ F77_FUNC(tabfree, TABFREE)
+#define tabprt_  F77_FUNC(tabprt,  TABPRT)
+#define tabset_  F77_FUNC(tabset,  TABSET)
+#define tabx2s_  F77_FUNC(tabx2s,  TABX2S)
+#define tabs2x_  F77_FUNC(tabs2x,  TABS2X)
+
+@
+
+
+4.2.1.3
+log
+@Include config_f77.h (which itself includes config.h) rather than config.h.
+@
+text
+@d30 1
+a30 1
+*   $Id: tab_f.c,v 4.2.1.2 2007/07/09 08:48:47 cal103 Exp cal103 $
+d36 1
+a36 1
+#include <config_f77.h>
+@
+
+
+4.2.1.4
+log
+@Renamed config_f77.h -> wcsconfig_f77.h.
+@
+text
+@d30 1
+a30 1
+*   $Id: tab_f.c,v 4.2.1.3 2007/07/12 01:41:04 cal103 Exp cal103 $
+d36 1
+a36 1
+#include <wcsconfig_f77.h>
+@
+
+
+4.2.1.5
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tab_f.c,v 4.2.1.4 2007/08/08 04:41:08 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcs_f.c,v 4.0 2005/02/04 12:39:04 cal103 Exp cal103 $
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 268
+@

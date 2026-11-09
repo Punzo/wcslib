@@ -1,0 +1,7724 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.21.57;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.07.38.32;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.05.02.35;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.04.07.22;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.30.48;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.15.03;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.22.07.22.52;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.03.50.41;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.10.53;	author mcalabre;	state Exp;
+branches;
+next	2.14;
+
+2.14
+date	2002.04.03.01.25.29;	author mcalabre;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	2001.11.15.03.40.59;	author mcalabre;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	2001.10.18.04.51.35;	author mcalabre;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	2000.12.17.23.23.16;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2000.12.05.03.44.42;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2000.05.10.04.44.05;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2000.04.04.03.41.08;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	99.12.13.07.26.09;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.06.16.00.02.41;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	98.02.25.07.05.50;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	96.09.10.06.31.35;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	96.05.24.07.25.36;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.20.22.59;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.09.49;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.09.37.15;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.12.09.36.36;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.09.11.04.38.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.00.41.51;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.03.04.40.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.02.17.31;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.27.06.05.48;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.07.30.04.37.22;	author cal103;	state Exp;
+branches;
+next	4.3.1.5;
+
+4.3.1.5
+date	2009.08.05.01.04.09;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.12.14.06.49.56;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2011.01.25.00.35.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.43.08;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.12.05.42.29;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.11.17.03.06.46;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	4.12.1.2;
+
+4.12.1.2
+date	2012.03.14.06.37.56;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.33.19;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.01.48.54;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.4;
+
+4.25.1.4
+date	2015.04.03.04.07.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.13.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.03.19.36;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.4;
+
+6.2.1.4
+date	2019.07.08.04.30.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.01.04.19.24;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.18.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.05.40.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.3;
+
+7.7.1.3
+date	2022.03.25.06.03.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2023.11.29.07.35.56;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.07.06.03.03;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.5;
+
+8.2.1.5
+date	2024.05.08.08.54.23;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.6;
+
+8.2.1.6
+date	2024.05.08.15.13.23;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.7;
+
+8.2.1.7
+date	2024.05.08.15.39.34;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.8;
+
+8.2.1.8
+date	2024.05.10.14.30.01;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.9;
+
+8.2.1.9
+date	2024.05.13.04.57.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.09.30.14.17.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Driver routines for WCS transformations between celestial and image plane
+coordinates.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: cel.c,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*===========================================================================*/
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "wcserr.h"
+#include "wcsmath.h"
+#include "wcsprintf.h"
+#include "wcstrig.h"
+#include "sph.h"
+#include "cel.h"
+
+// Map status return value to message.
+const char *cel_errmsg[] = {
+  "Success",
+  "Null celprm pointer passed",
+  "Invalid projection parameters",
+  "Invalid coordinate transformation parameters",
+  "Ill-conditioned coordinate transformation parameters",
+  "One or more of the (x,y) coordinates were invalid",
+  "One or more of the (lng,lat) coordinates were invalid"};
+
+// Map error returns for lower-level routines.
+const int cel_prjerr[] = {
+  CELERR_SUCCESS,		//  0: PRJERR_SUCCESS
+  CELERR_NULL_POINTER,		//  1: PRJERR_NULL_POINTER
+  CELERR_BAD_PARAM,		//  2: PRJERR_BAD_PARAM
+  CELERR_BAD_PIX,		//  3: PRJERR_BAD_PIX
+  CELERR_BAD_WORLD		//  4: PRJERR_BAD_WORLD
+};
+
+static const int CELSET = 137;
+
+// Convenience macro for invoking wcserr_set().
+#define CEL_ERRMSG(status) WCSERR_SET(status), cel_errmsg[status]
+
+//----------------------------------------------------------------------------
+
+int celini(struct celprm *cel)
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  cel->offset = 0;
+  cel->phi0   = UNDEFINED;
+  cel->theta0 = UNDEFINED;
+  cel->ref[0] =   0.0;
+  cel->ref[1] =   0.0;
+  cel->ref[2] = UNDEFINED;
+  cel->ref[3] = +90.0;
+
+  for (int k = 0; k < 5; cel->euler[k++] = 0.0);
+  cel->latpreq = -1;
+  cel->isolat  =  0;
+
+  cel->err = 0x0;
+
+  cel->flag = 0;
+
+  return cel_prjerr[prjini(&(cel->prj))];
+}
+
+//----------------------------------------------------------------------------
+
+int celfree(struct celprm *cel)
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  wcserr_clear(&(cel->err));
+
+  return cel_prjerr[prjfree(&(cel->prj))];
+}
+
+//----------------------------------------------------------------------------
+
+int celsize(const struct celprm *cel, int sizes[2])
+
+{
+  if (cel == 0x0) {
+    sizes[0] = sizes[1] = 0;
+    return 0;
+  }
+
+  // Base size, in bytes.
+  sizes[0] = sizeof(struct celprm);
+
+  // Total size of allocated memory, in bytes.
+  sizes[1] = 0;
+
+  // celprm::prj.
+  int exsizes[2];
+  prjsize(&(cel->prj), exsizes);
+  sizes[1] += exsizes[1];
+
+  // celprm::err.
+  wcserr_size(cel->err, exsizes);
+  sizes[1] += exsizes[0] + exsizes[1];
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int celenq(const struct celprm *cel, int enquiry)
+
+{
+  // Initialize.
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  int answer = 0;
+
+  if (enquiry & CELENQ_SET) {
+    if (abs(cel->flag) != CELSET) return 0;
+    answer = 1;
+  }
+
+  if (enquiry & CELENQ_BYP) {
+    if (cel->flag != 1 && cel->flag != -CELSET) return 0;
+    answer = 1;
+  }
+
+  return answer;
+}
+
+//----------------------------------------------------------------------------
+
+int celprt(const struct celprm *cel)
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  // Parameters supplied.
+  wcsprintf("       flag: %d\n", cel->flag);
+  wcsprintf("     offset: %d\n", cel->offset);
+  if (undefined(cel->phi0)) {
+    wcsprintf("       phi0: UNDEFINED\n");
+  } else {
+    wcsprintf("       phi0: %9f\n", cel->phi0);
+  }
+  if (undefined(cel->theta0)) {
+    wcsprintf("     theta0: UNDEFINED\n");
+  } else {
+    wcsprintf("     theta0: %9f\n", cel->theta0);
+  }
+  wcsprintf("        ref:");
+  for (int i = 0; i < 4; i++) {
+    wcsprintf("  %#- 11.5g", cel->ref[i]);
+  }
+  wcsprintf("\n");
+  wcsprintf("        prj: (see below)\n");
+
+  // Derived values.
+  wcsprintf("      euler:");
+  for (int i = 0; i < 5; i++) {
+    wcsprintf("  %#- 11.5g", cel->euler[i]);
+  }
+  wcsprintf("\n");
+  wcsprintf("    latpreq: %d", cel->latpreq);
+  if (cel->latpreq == 0) {
+    wcsprintf(" (not required)\n");
+  } else if (cel->latpreq == 1) {
+    wcsprintf(" (disambiguation)\n");
+  } else if (cel->latpreq == 2) {
+    wcsprintf(" (specification)\n");
+  } else {
+    wcsprintf(" (UNDEFINED)\n");
+  }
+  wcsprintf("     isolat: %d\n", cel->isolat);
+
+  // Error handling.
+  WCSPRINTF_PTR("        err: ", cel->err, "\n");
+  if (cel->err) {
+    wcserr_prt(cel->err, "             ");
+  }
+
+  // Projection parameters (from above).
+  wcsprintf("\n");
+  wcsprintf("   prj.*\n");
+  prjprt(&(cel->prj));
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int celperr(const struct celprm *cel, const char *prefix)
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  if (cel->err && wcserr_prt(cel->err, prefix) == 0) {
+    wcserr_prt(cel->prj.err, prefix);
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int celset(struct celprm *cel)
+
+{
+  static const char *function = "celset";
+
+  const double tol = 1.0e-10;
+
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+  if (cel->flag == -CELSET) return 0;
+  struct wcserr **err = &(cel->err);
+
+  // Initialize the projection driver routines.
+  struct prjprm *celprj = &(cel->prj);
+  if (cel->offset) {
+    celprj->phi0   = cel->phi0;
+    celprj->theta0 = cel->theta0;
+  } else {
+    // Ensure that these are undefined - no fiducial offset.
+    celprj->phi0   = UNDEFINED;
+    celprj->theta0 = UNDEFINED;
+  }
+
+  celprj->flag = 0;
+  int status;
+  if ((status = prjset(celprj))) {
+    return wcserr_set(CEL_ERRMSG(cel_prjerr[status]));
+  }
+
+  // Defaults set by the projection routines.
+  if (undefined(cel->phi0)) {
+    cel->phi0 = celprj->phi0;
+  }
+
+  if (undefined(cel->theta0)) {
+    cel->theta0 = celprj->theta0;
+
+  } else if (fabs(cel->theta0) > 90.0) {
+    if (fabs(cel->theta0) > 90.0 + tol) {
+      return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+        "Invalid coordinate transformation parameters: theta0 > 90");
+    }
+
+    if (cel->theta0 > 90.0) {
+      cel->theta0 =  90.0;
+    } else {
+      cel->theta0 = -90.0;
+    }
+  }
+
+
+  double lng0 = cel->ref[0];
+  double lat0 = cel->ref[1];
+  double phip = cel->ref[2];
+  double lngp;
+  double latp = cel->ref[3];
+
+  // Set default for native longitude of the celestial pole?
+  if (undefined(phip) || phip == 999.0) {
+    phip = (lat0 < cel->theta0) ? 180.0 : 0.0;
+    phip += cel->phi0;
+
+    if (phip < -180.0) {
+      phip += 360.0;
+    } else if (phip > 180.0) {
+      phip -= 360.0;
+    }
+
+    cel->ref[2] = phip;
+  }
+
+
+  // Compute celestial coordinates of the native pole.
+  cel->latpreq = 0;
+  if (cel->theta0 == 90.0) {
+    // Fiducial point at the native pole.
+    lngp = lng0;
+    latp = lat0;
+
+  } else {
+    // Fiducial point away from the native pole.
+    double slat0, clat0, sthe0, cthe0;
+    sincosd(lat0, &slat0, &clat0);
+    sincosd(cel->theta0, &sthe0, &cthe0);
+
+    double cphip, sphip, u, v;
+    if (phip == cel->phi0) {
+      sphip = 0.0;
+      cphip = 1.0;
+
+      u = cel->theta0;
+      v = 90.0 - lat0;
+
+    } else {
+      sincosd(phip - cel->phi0, &sphip, &cphip);
+
+      double x = cthe0*cphip;
+      double y = sthe0;
+      double z = sqrt(x*x + y*y);
+      if (z == 0.0) {
+        if (slat0 != 0.0) {
+          return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+            "Invalid coordinate description:\n"
+            "lat0 == 0 is required for |phip - phi0| = 90 and theta0 == 0");
+        }
+
+        // latp determined solely by LATPOLEa in this case.
+        cel->latpreq = 2;
+        if (latp > 90.0) {
+          latp = 90.0;
+        } else if (latp < -90.0) {
+          latp = -90.0;
+        }
+
+        // Avert a spurious compiler warning.
+        u = v = 0.0;
+
+      } else {
+        double slz = slat0/z;
+        if (fabs(slz) > 1.0) {
+          if ((fabs(slz) - 1.0) < tol) {
+            if (slz > 0.0) {
+              slz = 1.0;
+            } else {
+              slz = -1.0;
+            }
+          } else {
+            return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+              "Invalid coordinate description:\n|lat0| <= %.3f is required "
+              "for these values of phip, phi0, and theta0", asind(z));
+          }
+        }
+
+        u = atan2d(y,x);
+        v = acosd(slz);
+      }
+    }
+
+    if (cel->latpreq == 0) {
+      double latp1 = u + v;
+      if (latp1 > 180.0) {
+        latp1 -= 360.0;
+      } else if (latp1 < -180.0) {
+        latp1 += 360.0;
+      }
+
+      double latp2 = u - v;
+      if (latp2 > 180.0) {
+        latp2 -= 360.0;
+      } else if (latp2 < -180.0) {
+        latp2 += 360.0;
+      }
+
+      if (fabs(latp1) < 90.0+tol &&
+          fabs(latp2) < 90.0+tol) {
+        // There are two valid solutions for latp.
+        cel->latpreq = 1;
+      }
+
+      if (fabs(latp-latp1) < fabs(latp-latp2)) {
+        if (fabs(latp1) < 90.0+tol) {
+          latp = latp1;
+        } else {
+          latp = latp2;
+        }
+      } else {
+        if (fabs(latp2) < 90.0+tol) {
+          latp = latp2;
+        } else {
+          latp = latp1;
+        }
+      }
+
+      // Account for rounding error.
+      if (fabs(latp) < 90.0+tol) {
+        if (latp > 90.0) {
+          latp =  90.0;
+        } else if (latp < -90.0) {
+          latp = -90.0;
+        }
+      }
+    }
+
+    double z = cosd(latp)*clat0;
+    if (fabs(z) < tol) {
+      if (fabs(clat0) < tol) {
+        // Celestial pole at the fiducial point.
+        lngp = lng0;
+
+      } else if (latp > 0.0) {
+        // Celestial north pole at the native pole.
+        lngp = lng0 + phip - cel->phi0 - 180.0;
+
+      } else {
+        // Celestial south pole at the native pole.
+        lngp = lng0 - phip + cel->phi0;
+      }
+
+    } else {
+      double x = (sthe0 - sind(latp)*slat0)/z;
+      double y =  sphip*cthe0/clat0;
+      if (x == 0.0 && y == 0.0) {
+        // Sanity check (shouldn't be possible).
+        return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+          "Invalid coordinate transformation parameters, internal error");
+      }
+      lngp = lng0 - atan2d(y,x);
+    }
+
+    // Make celestial longitude of the native pole the same sign as at the
+    // fiducial point.
+    if (lng0 >= 0.0) {
+      if (lngp < 0.0) {
+        lngp += 360.0;
+      } else if (lngp > 360.0) {
+        lngp -= 360.0;
+      }
+    } else {
+      if (lngp > 0.0) {
+        lngp -= 360.0;
+      } else if (lngp < -360.0) {
+        lngp += 360.0;
+      }
+    }
+  }
+
+  // Reset LATPOLEa.
+  cel->ref[3] = latp;
+
+  // Set the Euler angles.
+  cel->euler[0] = lngp;
+  cel->euler[1] = 90.0 - latp;
+  cel->euler[2] = phip;
+  sincosd(cel->euler[1], &cel->euler[4], &cel->euler[3]);
+  cel->isolat = (cel->euler[4] == 0.0);
+
+  // Check for ill-conditioned parameters.
+  if (fabs(latp) > 90.0+tol) {
+    return wcserr_set(WCSERR_SET(CELERR_ILL_COORD_TRANS),
+      "Ill-conditioned coordinate transformation parameters\nNo valid "
+      "solution for latp for these values of phip, phi0, and theta0");
+  }
+
+  cel->flag = (cel->flag == 1) ? -CELSET : CELSET;
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int celx2s(
+  struct celprm *cel,
+  int nx,
+  int ny,
+  int sxy,
+  int sll,
+  const double x[],
+  const double y[],
+  double phi[],
+  double theta[],
+  double lng[],
+  double lat[],
+  int    stat[])
+
+{
+  static const char *function = "celx2s";
+
+  // Initialize.
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+  struct wcserr **err = &(cel->err);
+
+  int status = 0;
+  if (abs(cel->flag) != CELSET) {
+    if ((status = celset(cel))) return status;
+  }
+
+  // Apply spherical deprojection.
+  int istat;
+  struct prjprm *celprj = &(cel->prj);
+  if ((istat = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+                               stat))) {
+    if (istat) {
+      status = wcserr_set(CEL_ERRMSG(cel_prjerr[istat]));
+      if (status != CELERR_BAD_PIX) {
+        return status;
+      }
+    }
+  }
+
+  int nphi = (ny > 0) ? (nx*ny) : nx;
+
+  // Compute celestial coordinates.
+  sphx2s(cel->euler, nphi, 0, 1, sll, phi, theta, lng, lat);
+
+  return status;
+}
+
+//----------------------------------------------------------------------------
+
+int cels2x(
+  struct celprm *cel,
+  int nlng,
+  int nlat,
+  int sll,
+  int sxy,
+  const double lng[],
+  const double lat[],
+  double phi[],
+  double theta[],
+  double x[],
+  double y[],
+  int    stat[])
+
+{
+  static const char *function = "cels2x";
+
+  // Initialize.
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+  struct wcserr **err = &(cel->err);
+
+  int status = 0;
+  if (abs(cel->flag) != CELSET) {
+    if ((status = celset(cel))) return status;
+  }
+
+  // Compute native coordinates.
+  sphs2x(cel->euler, nlng, nlat, sll, 1, lng, lat, phi, theta);
+
+  int nphi, ntheta;
+  if (cel->isolat) {
+    // Constant celestial latitude -> constant native latitude.
+    nphi   = nlng;
+    ntheta = nlat;
+  } else {
+    nphi   = (nlat > 0) ? (nlng*nlat) : nlng;
+    ntheta = 0;
+  }
+
+  // Apply the spherical projection.
+  int istat;
+  struct prjprm *celprj = &(cel->prj);
+  if ((istat = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+                               stat))) {
+    if (istat) {
+      status = wcserr_set(CEL_ERRMSG(cel_prjerr[istat]));
+      if (status != CELERR_BAD_WORLD) {
+        return status;
+      }
+    }
+  }
+
+  return status;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.5.1.2 2026/03/29 13:36:09 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: cel.c,v 8.4.1.2 2025/12/06 13:37:10 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: cel.c,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 8.3.1.2 2024/09/30 14:17:54 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.9 2024/05/13 04:57:56 mcalabre Exp mcalabre $
+a228 1
+  int status;
+d247 1
+d338 1
+a338 1
+	u = v = 0.0;
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Trivia.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d229 1
+a247 1
+  int status;
+d338 1
+a338 1
+        u = v = 0.0;
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+a35 2
+const int CELSET = 137;
+
+d55 2
+a64 2
+  register int k;
+
+a66 2
+  cel->flag = 0;
+
+d75 1
+a75 1
+  for (k = 0; k < 5; cel->euler[k++] = 0.0);
+d81 2
+d105 1
+a105 1
+    return CELERR_SUCCESS;
+d114 1
+a115 2
+
+  // celprm::prj.
+d123 24
+a146 1
+  return CELERR_SUCCESS;
+a153 2
+  int i;
+
+d156 3
+a158 2
+  wcsprintf("      flag: %d\n",  cel->flag);
+  wcsprintf("     offset: %d\n",  cel->offset);
+d170 1
+a170 1
+  for (i = 0; i < 4; i++) {
+d176 1
+d178 1
+a178 1
+  for (i = 0; i < 5; i++) {
+d194 1
+d200 1
+a221 1
+
+a230 5
+  double clat0, cphip, cthe0, lat0, lng0, phip, slat0, slz, sphip, sthe0;
+  double latp, latp1, latp2, lngp;
+  double u, v, x, y, z;
+  struct prjprm *celprj;
+  struct wcserr **err;
+d233 2
+a234 1
+  err = &(cel->err);
+d237 1
+a237 1
+  celprj = &(cel->prj);
+d247 1
+d274 5
+a278 4
+  lng0 = cel->ref[0];
+  lat0 = cel->ref[1];
+  phip = cel->ref[2];
+  latp = cel->ref[3];
+d304 1
+d308 1
+d319 3
+a321 3
+      x = cthe0*cphip;
+      y = sthe0;
+      z = sqrt(x*x + y*y);
+d341 1
+a341 1
+        slz = slat0/z;
+d362 1
+a362 1
+      latp1 = u + v;
+d369 1
+a369 1
+      latp2 = u - v;
+d406 1
+a406 1
+    z = cosd(latp)*clat0;
+d422 2
+a423 2
+      x = (sthe0 - sind(latp)*slat0)/z;
+      y =  sphip*cthe0/clat0;
+a457 1
+  cel->flag = CELSET;
+d466 2
+a489 4
+  int    istat, nphi, status = 0;
+  struct prjprm *celprj;
+  struct wcserr **err;
+
+d492 1
+a492 1
+  err = &(cel->err);
+d494 2
+a495 1
+  if (cel->flag != CELSET) {
+d500 2
+a501 1
+  celprj = &(cel->prj);
+d512 1
+a512 1
+  nphi = (ny > 0) ? (nx*ny) : nx;
+a538 4
+  int    istat, nphi, ntheta, status = 0;
+  struct prjprm *celprj;
+  struct wcserr **err;
+
+d541 1
+a541 1
+  err = &(cel->err);
+d543 2
+a544 1
+  if (cel->flag != CELSET) {
+d551 1
+d562 2
+a563 1
+  celprj = &(cel->prj);
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Declared CELSET to be static.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+d36 2
+a55 2
+
+static const int CELSET = 137;
+@
+
+
+8.2.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.2 2023/11/29 07:35:56 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.4
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.3 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d65 2
+d79 1
+a79 1
+  for (int k = 0; k < 5; cel->euler[k++] = 0.0);
+d116 2
+a118 1
+  int exsizes[2];
+d134 2
+d151 1
+a151 1
+  for (int i = 0; i < 4; i++) {
+d158 1
+a158 1
+  for (int i = 0; i < 5; i++) {
+d210 5
+d217 1
+a217 1
+  struct wcserr **err = &(cel->err);
+d220 1
+a220 1
+  struct prjprm *celprj = &(cel->prj);
+d256 4
+a259 5
+  double lng0 = cel->ref[0];
+  double lat0 = cel->ref[1];
+  double phip = cel->ref[2];
+  double lngp;
+  double latp = cel->ref[3];
+a284 1
+    double slat0, clat0, sthe0, cthe0;
+a287 1
+    double cphip, sphip, u, v;
+d298 3
+a300 3
+      double x = cthe0*cphip;
+      double y = sthe0;
+      double z = sqrt(x*x + y*y);
+d320 1
+a320 1
+        double slz = slat0/z;
+d341 1
+a341 1
+      double latp1 = u + v;
+d348 1
+a348 1
+      double latp2 = u - v;
+d385 1
+a385 1
+    double z = cosd(latp)*clat0;
+d401 2
+a402 2
+      double x = (sthe0 - sind(latp)*slat0)/z;
+      double y =  sphip*cthe0/clat0;
+d468 4
+d474 1
+a474 1
+  struct wcserr **err = &(cel->err);
+a475 1
+  int status = 0;
+d481 1
+a481 2
+  int istat;
+  struct prjprm *celprj = &(cel->prj);
+d492 1
+a492 1
+  int nphi = (ny > 0) ? (nx*ny) : nx;
+d519 4
+d525 1
+a525 1
+  struct wcserr **err = &(cel->err);
+a526 1
+  int status = 0;
+a533 1
+  int nphi, ntheta;
+d544 1
+a544 2
+  int istat;
+  struct prjprm *celprj = &(cel->prj);
+@
+
+
+8.2.1.5
+log
+@Changes required to support bypass mode in celset().
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.4 2024/05/07 06:03:03 mcalabre Exp mcalabre $
+d67 2
+a82 2
+  cel->flag = 0;
+
+d105 1
+a105 1
+    return 0;
+d123 1
+a123 1
+  return 0;
+d133 2
+a134 3
+  // Parameters supplied.
+  wcsprintf("       flag: %d\n", cel->flag);
+  wcsprintf("     offset: %d\n", cel->offset);
+a151 1
+  // Derived values.
+a168 1
+  // Error handling.
+a173 1
+  // Projection parameters (from above).
+a206 1
+  if (cel->flag == -CELSET) return 0;
+d430 1
+a438 2
+  cel->flag = (cel->flag == 1) ? -CELSET : CELSET;
+
+d466 1
+a466 1
+  if (abs(cel->flag) != CELSET) {
+d515 1
+a515 1
+  if (abs(cel->flag) != CELSET) {
+@
+
+
+8.2.1.6
+log
+@Added celenq().
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.5 2024/05/08 08:54:23 mcalabre Exp mcalabre $
+a127 25
+int celenq(const struct celprm *cel, int enquiry)
+
+{
+  static const char *function = "celenq";
+
+  // Initialize.
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  int answer = 0;
+
+  if (enquiry & CELENQ_SET) {
+    if (abs(cel->flag) != CELSET) return 0;
+    answer = 1;
+  }
+
+  if (enquiry & CELENQ_BYP) {
+    if (cel->flag != -CELSET) return 0;
+    answer = 1;
+  }
+
+  return answer;
+}
+
+//----------------------------------------------------------------------------
+
+d198 1
+@
+
+
+8.2.1.7
+log
+@Attended to compiler warnings about unused variables.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.6 2024/05/08 15:13:23 mcalabre Exp mcalabre $
+d131 2
+@
+
+
+8.2.1.8
+log
+@In celenq(), the celprm struct is also in bypass mode, though unset, if
+celprm::flag == 1.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.7 2024/05/08 15:39:34 mcalabre Exp mcalabre $
+d142 1
+a142 1
+    if (cel->flag != 1 && cel->flag != -CELSET) return 0;
+@
+
+
+8.2.1.9
+log
+@In celset(), set celprj->flag = 0 explicitly before calling prjset() - a
+safety measure to protect against prjprm in bypass mode, which shouldn't
+happen.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.2.1.8 2024/05/10 14:30:01 mcalabre Exp mcalabre $
+a246 1
+  celprj->flag = 0;
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.13.1.2 2023/06/15 04:17:09 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.7.1.3 2022/03/25 06:03:51 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d81 1
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@In celini(), provide a default value for celprm::isolat.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+a80 1
+  cel->isolat  =  0;
+@
+
+
+7.7.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: cel.c,v 7.7.1.2 2022/03/25 05:40:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.5.1.2 2021/04/13 09:18:51 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d97 29
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function celsize().
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a96 29
+}
+
+//----------------------------------------------------------------------------
+
+int celsize(const struct celprm *cel, int sizes[2])
+
+{
+  if (cel == 0x0) {
+    sizes[0] = sizes[1] = 0;
+    return CELERR_SUCCESS;
+  }
+
+  // Base size, in bytes.
+  sizes[0] = sizeof(struct celprm);
+
+  // Total size of allocated memory, in bytes.
+  sizes[1] = 0;
+
+  int exsizes[2];
+
+  // celprm::prj.
+  prjsize(&(cel->prj), exsizes);
+  sizes[1] += exsizes[1];
+
+  // celprm::err.
+  wcserr_size(cel->err, exsizes);
+  sizes[1] += exsizes[0] + exsizes[1];
+
+  return CELERR_SUCCESS;
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: cel.c,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: cel.c,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: cel.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d38 1
+a38 1
+/* Map status return value to message. */
+d48 1
+a48 1
+/* Map error returns for lower-level routines. */
+d50 5
+a54 5
+  CELERR_SUCCESS,		/*  0: PRJERR_SUCCESS         */
+  CELERR_NULL_POINTER,		/*  1: PRJERR_NULL_POINTER    */
+  CELERR_BAD_PARAM,		/*  2: PRJERR_BAD_PARAM       */
+  CELERR_BAD_PIX,		/*  3: PRJERR_BAD_PIX         */
+  CELERR_BAD_WORLD		/*  4: PRJERR_BAD_WORLD       */
+d57 1
+a57 1
+/* Convenience macro for invoking wcserr_set(). */
+d60 1
+a60 1
+/*--------------------------------------------------------------------------*/
+d87 1
+a87 1
+/*--------------------------------------------------------------------------*/
+d99 1
+a99 1
+/*--------------------------------------------------------------------------*/
+d156 1
+a156 1
+/*--------------------------------------------------------------------------*/
+d171 1
+a171 1
+/*--------------------------------------------------------------------------*/
+d189 1
+a189 1
+  /* Initialize the projection driver routines. */
+d195 1
+a195 1
+    /* Ensure that these are undefined - no fiducial offset. */
+d204 1
+a204 1
+  /* Defaults set by the projection routines. */
+d231 1
+a231 1
+  /* Set default for native longitude of the celestial pole? */
+d246 1
+a246 1
+  /* Compute celestial coordinates of the native pole. */
+d249 1
+a249 1
+    /* Fiducial point at the native pole. */
+d254 1
+a254 1
+    /* Fiducial point away from the native pole. */
+d278 1
+a278 1
+        /* latp determined solely by LATPOLEa in this case. */
+d286 1
+a286 1
+        /* Avert a spurious compiler warning. */
+d327 1
+a327 1
+        /* There are two valid solutions for latp. */
+d345 1
+a345 1
+      /* Account for rounding error. */
+d358 1
+a358 1
+        /* Celestial pole at the fiducial point. */
+d362 1
+a362 1
+        /* Celestial north pole at the native pole.*/
+d366 1
+a366 1
+        /* Celestial south pole at the native pole. */
+d374 1
+a374 1
+        /* Sanity check (shouldn't be possible). */
+d381 2
+a382 2
+    /* Make celestial longitude of the native pole the same sign as at the
+       fiducial point. */
+d398 1
+a398 1
+  /* Reset LATPOLEa. */
+d401 1
+a401 1
+  /* Set the Euler angles. */
+d409 1
+a409 1
+  /* Check for ill-conditioned parameters. */
+d419 1
+a419 1
+/*--------------------------------------------------------------------------*/
+d442 1
+a442 1
+  /* Initialize. */
+d450 1
+a450 1
+  /* Apply spherical deprojection. */
+d464 1
+a464 1
+  /* Compute celestial coordinates. */
+d470 1
+a470 1
+/*--------------------------------------------------------------------------*/
+d493 1
+a493 1
+  /* Initialize. */
+d501 1
+a501 1
+  /* Compute native coordinates. */
+d505 1
+a505 1
+    /* Constant celestial latitude -> constant native latitude. */
+d513 1
+a513 1
+  /* Apply the spherical projection. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: cel.c,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d41 1
+a41 1
+// Map status return value to message.
+d51 1
+a51 1
+// Map error returns for lower-level routines.
+d53 5
+a57 5
+  CELERR_SUCCESS,		//  0: PRJERR_SUCCESS
+  CELERR_NULL_POINTER,		//  1: PRJERR_NULL_POINTER
+  CELERR_BAD_PARAM,		//  2: PRJERR_BAD_PARAM
+  CELERR_BAD_PIX,		//  3: PRJERR_BAD_PIX
+  CELERR_BAD_WORLD		//  4: PRJERR_BAD_WORLD
+d60 1
+a60 1
+// Convenience macro for invoking wcserr_set().
+d63 1
+a63 1
+//----------------------------------------------------------------------------
+d90 1
+a90 1
+//----------------------------------------------------------------------------
+d102 1
+a102 1
+//----------------------------------------------------------------------------
+d159 1
+a159 1
+//----------------------------------------------------------------------------
+d174 1
+a174 1
+//----------------------------------------------------------------------------
+d192 1
+a192 1
+  // Initialize the projection driver routines.
+d198 1
+a198 1
+    // Ensure that these are undefined - no fiducial offset.
+d207 1
+a207 1
+  // Defaults set by the projection routines.
+d234 1
+a234 1
+  // Set default for native longitude of the celestial pole?
+d249 1
+a249 1
+  // Compute celestial coordinates of the native pole.
+d252 1
+a252 1
+    // Fiducial point at the native pole.
+d257 1
+a257 1
+    // Fiducial point away from the native pole.
+d281 1
+a281 1
+        // latp determined solely by LATPOLEa in this case.
+d289 1
+a289 1
+        // Avert a spurious compiler warning.
+d330 1
+a330 1
+        // There are two valid solutions for latp.
+d348 1
+a348 1
+      // Account for rounding error.
+d361 1
+a361 1
+        // Celestial pole at the fiducial point.
+d365 1
+a365 1
+        // Celestial north pole at the native pole.
+d369 1
+a369 1
+        // Celestial south pole at the native pole.
+d377 1
+a377 1
+        // Sanity check (shouldn't be possible).
+d384 2
+a385 2
+    // Make celestial longitude of the native pole the same sign as at the
+    // fiducial point.
+d401 1
+a401 1
+  // Reset LATPOLEa.
+d404 1
+a404 1
+  // Set the Euler angles.
+d412 1
+a412 1
+  // Check for ill-conditioned parameters.
+d422 1
+a422 1
+//----------------------------------------------------------------------------
+d445 1
+a445 1
+  // Initialize.
+d453 1
+a453 1
+  // Apply spherical deprojection.
+d467 1
+a467 1
+  // Compute celestial coordinates.
+d473 1
+a473 1
+//----------------------------------------------------------------------------
+d496 1
+a496 1
+  // Initialize.
+d504 1
+a504 1
+  // Compute native coordinates.
+d508 1
+a508 1
+    // Constant celestial latitude -> constant native latitude.
+d516 1
+a516 1
+  // Apply the spherical projection.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: cel.c,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: cel.c,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 6.4.1.3 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d288 3
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@In celset(), avert a spurious compiler warning from gcc 9.2.0 with
+-Wmaybe-uninitialized (via -Wall).
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+a287 3
+
+        /* Avert a spurious compiler warning. */
+	u = v = 0.0;
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 6.4.1.2 2019/12/01 04:19:24 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 6.2.1.4 2019/07/08 04:30:00 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d65 1
+a65 3
+int celini(cel)
+
+struct celprm *cel;
+d92 1
+a92 3
+int celfree(cel)
+
+struct celprm *cel;
+d97 1
+a97 4
+  if (cel->err) {
+    free(cel->err);
+    cel->err = 0x0;
+  }
+d104 1
+a104 3
+int celprt(cel)
+
+const struct celprm *cel;
+d176 1
+a176 3
+int celset(cel)
+
+struct celprm *cel;
+d421 13
+a433 8
+int celx2s(cel, nx, ny, sxy, sll, x, y, phi, theta, lng, lat, stat)
+
+struct celprm *cel;
+int nx, ny, sxy, sll;
+const double x[], y[];
+double phi[], theta[];
+double lng[], lat[];
+int stat[];
+d472 13
+a484 8
+int cels2x(cel, nlng, nlat, sll, sxy, lng, lat, phi, theta, x, y, stat)
+
+struct celprm *cel;
+int nlng, nlat, sll, sxy;
+const double lng[], lat[];
+double phi[], theta[];
+double x[], y[];
+int stat[];
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@In celfree(), use wcserr_clear() to free the wcserr struct, including any
+memory that may have been allocated to store a message.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d101 4
+a104 1
+  wcserr_clear(&(cel->err));
+@
+
+
+6.2.1.4
+log
+@Switched to ANSI style argument lists in function definitions.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.2.1.3 2019/07/08 03:19:36 mcalabre Exp mcalabre $
+d65 3
+a67 1
+int celini(struct celprm *cel)
+d94 3
+a96 1
+int celfree(struct celprm *cel)
+d108 3
+a110 1
+int celprt(const struct celprm *cel)
+d182 3
+a184 1
+int celset(struct celprm *cel)
+d429 8
+a436 13
+int celx2s(
+  struct celprm *cel,
+  int nx,
+  int ny,
+  int sxy,
+  int sll,
+  const double x[],
+  const double y[],
+  double phi[],
+  double theta[],
+  double lng[],
+  double lat[],
+  int    stat[])
+d475 8
+a482 13
+int cels2x(
+  struct celprm *cel,
+  int nlng,
+  int nlat,
+  int sll,
+  int sxy,
+  const double lng[],
+  const double lat[],
+  double phi[],
+  double theta[],
+  double x[],
+  double y[],
+  int    stat[])
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.15.1.2 2017/01/15 04:13:33 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.25.1.4 2015/04/03 04:07:45 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+d51 9
+d89 1
+a89 1
+  return prjini(&(cel->prj));
+d106 1
+a106 3
+  prjfree(&(cel->prj));
+
+  return 0;
+d132 1
+a132 1
+  wcsprintf("       ref:");
+d134 1
+a134 1
+    wcsprintf("  %- 11.5g", cel->ref[i]);
+d137 1
+a137 1
+  wcsprintf("       prj: (see below)\n");
+d139 1
+a139 1
+  wcsprintf("     euler:");
+d141 1
+a141 1
+    wcsprintf("  %- 11.5g", cel->euler[i]);
+d170 15
+d192 1
+d214 2
+a215 2
+  if (prjset(celprj)) {
+    return wcserr_set(CEL_ERRMSG(CELERR_BAD_PARAM));
+d444 1
+a444 1
+  int    nphi, status;
+d458 1
+a458 1
+  if ((status = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+d460 5
+a464 2
+    if (status == PRJERR_BAD_PIX) {
+      status = CELERR_BAD_PIX;
+a465 4
+
+    wcserr_set(CEL_ERRMSG(status));
+
+    if (status != CELERR_BAD_PIX) return status;
+d490 1
+a490 1
+  int    nphi, ntheta, status;
+d516 1
+a516 1
+  if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+d518 5
+a522 2
+    if (status != PRJERR_BAD_PARAM) {
+      status = CELERR_BAD_WORLD;
+a523 2
+
+    return wcserr_set(CEL_ERRMSG(status));
+d526 1
+a526 1
+  return 0;
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@New function celperr() to print error messages from celprm::err and
+celprm::prjprm::err.  Created cel_prjerr[] to map status returns from the
+prj routines.  In celx2s(), don't return immediately if prjx2s() returns
+PRJERR_BAD_PIX, and likewise in cels2x().  Tweaked output formatting in
+celprt().
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+a50 9
+/* Map error returns for lower-level routines. */
+const int cel_prjerr[] = {
+  CELERR_SUCCESS,		/*  0: PRJERR_SUCCESS         */
+  CELERR_NULL_POINTER,		/*  1: PRJERR_NULL_POINTER    */
+  CELERR_BAD_PARAM,		/*  2: PRJERR_BAD_PARAM       */
+  CELERR_BAD_PIX,		/*  3: PRJERR_BAD_PIX         */
+  CELERR_BAD_WORLD		/*  4: PRJERR_BAD_WORLD       */
+};
+
+d80 1
+a80 1
+  return cel_prjerr[prjini(&(cel->prj))];
+d97 3
+a99 1
+  return cel_prjerr[prjfree(&(cel->prj))];
+d125 1
+a125 1
+  wcsprintf("        ref:");
+d127 1
+a127 1
+    wcsprintf("  %#- 11.5g", cel->ref[i]);
+d130 1
+a130 1
+  wcsprintf("        prj: (see below)\n");
+d132 1
+a132 1
+  wcsprintf("      euler:");
+d134 1
+a134 1
+    wcsprintf("  %#- 11.5g", cel->euler[i]);
+a162 15
+int celperr(const struct celprm *cel, const char *prefix)
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  if (!wcserr_prt(cel->err, prefix)) {
+    wcserr_prt(cel->prj.err, prefix);
+  }
+
+  return 0;
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+a169 1
+  int status;
+d191 2
+a192 2
+  if ((status = prjset(celprj))) {
+    return wcserr_set(CEL_ERRMSG(cel_prjerr[status]));
+d421 1
+a421 1
+  int    istat, nphi, status = 0;
+d435 1
+a435 1
+  if ((istat = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+d437 2
+a438 5
+    if (istat) {
+      status = wcserr_set(CEL_ERRMSG(cel_prjerr[istat]));
+      if (status != CELERR_BAD_PIX) {
+        return status;
+      }
+d440 4
+d468 1
+a468 1
+  int    istat, nphi, ntheta, status = 0;
+d494 1
+a494 1
+  if ((istat = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+d496 2
+a497 5
+    if (istat) {
+      status = wcserr_set(CEL_ERRMSG(cel_prjerr[istat]));
+      if (status != CELERR_BAD_WORLD) {
+        return status;
+      }
+d499 2
+d503 1
+a503 1
+  return status;
+@
+
+
+4.25.1.4
+log
+@celperr() mustn't attempt to report errors from cel->prj unless cel->err
+itself has been set.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.25.1.3 2015/04/03 01:48:54 mcalabre Exp mcalabre $
+d175 1
+a175 1
+  if (cel->err && wcserr_prt(cel->err, prefix) == 0) {
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: cel.c,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: cel.c,v 4.13.1.2 2012/07/13 03:33:19 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: cel.c,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: cel.c,v 4.12.1.2 2012/03/14 06:37:56 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: cel.c,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+d98 4
+a101 2
+  if (cel->err) free(cel->err);
+  cel->err = 0x0;
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.12.1.2
+log
+@Minor tweak to celfree().
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d98 2
+a99 4
+  if (cel->err) {
+    free(cel->err);
+    cel->err = 0x0;
+  }
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.8.1.3 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.7.1.4 2011/08/12 05:42:29 cal103 Exp cal103 $
+d155 1
+a155 1
+    wcserr_prt(cel->err, "");
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Minor refinement in celprt() for printing celprm::err.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+d155 1
+a155 1
+    wcserr_prt(cel->err, "             ");
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.8.1.2 2011/11/17 03:06:46 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.6.1.4 2011/01/25 00:35:11 cal103 Exp cal103 $
+d36 1
+d38 1
+d57 3
+d69 1
+a69 1
+  if (cel == 0x0) return 1;
+d84 2
+d91 17
+d115 1
+a115 1
+  if (cel == 0x0) return 1;
+d153 5
+d172 2
+a173 1
+  int status;
+d179 1
+d181 2
+a182 1
+  if (cel == 0x0) return 1;
+d195 2
+a196 2
+  if ((status = prjset(celprj))) {
+    return status;
+d209 2
+a210 1
+      return 3;
+d268 3
+a270 1
+          return 3;
+d291 3
+a293 1
+            return 3;
+d366 3
+a368 1
+        return 3;
+d403 3
+a405 1
+    return 4;
+d423 2
+d427 1
+d429 3
+a432 2
+  /* Initialize. */
+  if (cel == 0x0) return 1;
+d441 2
+a442 4
+    if (status == 3) {
+      status = 5;
+    } else {
+      return status;
+d444 4
+d470 2
+d474 1
+d476 3
+a479 2
+  /* Initialize. */
+  if (cel == 0x0) return 1;
+d498 5
+a502 4
+  if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x,
+                               y, stat))) {
+    return status == 2 ? 2 : 6;
+   }
+d504 4
+a507 1
+   return 0;
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@d64 1
+a64 1
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+a65 2
+  wcserr_ini(&cel->err);
+  
+d91 1
+a91 1
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+d150 1
+a150 1
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+d164 1
+a164 1
+    return wcserr_copy(&cel->err, &celprj->err);
+d177 1
+a177 3
+      return WCSERR_SET(
+        &cel->err, CELERR_BAD_COORD_TRANS,
+        "Invalid coordinate transformation parameters: theta0 > 90");
+d235 1
+a235 4
+          /* ERRTODO: Better error message */
+          return WCSERR_SET(
+            &cel->err, CELERR_BAD_COORD_TRANS,
+            "Invalid coordinate transformation parameters");
+d256 1
+a256 4
+            /* ERRTODO: Better message */
+            return WCSERR_SET(
+              &cel->err, CELERR_BAD_COORD_TRANS,
+              "Invalid coordinate transformation parameters");
+d329 1
+a329 4
+        /* ERRTODO: Better message */
+        return WCSERR_SET(
+          &cel->err, CELERR_BAD_COORD_TRANS,
+          "Invalid coordinate transformation parameters");
+d364 1
+a364 4
+    /* ERRTODO: Better message */
+    return WCSERR_SET(
+      &cel->err, CELERR_ILL_COORD_TRANS,
+      "Ill-conditioned coordinate transformation parameters");
+d387 1
+a387 1
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+d396 2
+a397 3
+    wcserr_copy(&cel->err, &cel->prj.err);
+    if (status == PRJERR_BAD_PIX) {
+      status = cel->err.status = CELERR_BAD_PIX;
+d428 1
+a428 1
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+d449 2
+a450 6
+    wcserr_copy(&cel->err, &cel->prj.err);
+    if (status != PRJERR_BAD_PARAM) {
+      status = cel->err.status = CELERR_BAD_WORLD;
+    }
+    return status;
+  }
+d452 1
+a452 1
+  return 0;
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+a35 1
+#include <stdlib.h>
+a36 1
+#include "wcserr.h"
+a54 3
+/* Convenience macro for invoking wcserr_set(). */
+#define CEL_ERRMSG(status) WCSERR_SET(status), cel_errmsg[status]
+
+d66 2
+a80 2
+  cel->err = 0x0;
+
+a85 17
+int celfree(cel)
+
+struct celprm *cel;
+
+{
+  if (cel == 0x0) return CELERR_NULL_POINTER;
+
+  if (cel->err) free(cel->err);
+  cel->err = 0x0;
+
+  prjfree(&(cel->prj));
+
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+a130 5
+  wcsprintf("        err: %p\n", (void *)cel->err);
+  if (cel->err) {
+    wcserr_prt(cel->err, "");
+  }
+
+d145 1
+a145 2
+  static const char *function = "celset";
+
+a150 1
+  struct wcserr **err;
+a152 1
+  err = &(cel->err);
+d165 2
+a166 2
+  if (prjset(celprj)) {
+    return wcserr_set(CEL_ERRMSG(CELERR_BAD_PARAM));
+d179 2
+a180 1
+      return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+d239 4
+a242 3
+          return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+            "Invalid coordinate description:\n"
+            "lat0 == 0 is required for |phip - phi0| = 90 and theta0 == 0");
+d263 4
+a266 3
+            return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+              "Invalid coordinate description:\n|lat0| <= %.3f is required "
+              "for these values of phip, phi0, and theta0", asind(z));
+d339 4
+a342 3
+        /* Sanity check (shouldn't be possible). */
+        return wcserr_set(WCSERR_SET(CELERR_BAD_COORD_TRANS),
+          "Invalid coordinate transformation parameters, internal error");
+d377 4
+a380 3
+    return wcserr_set(WCSERR_SET(CELERR_ILL_COORD_TRANS),
+      "Ill-conditioned coordinate transformation parameters\nNo valid "
+      "solution for latp for these values of phip, phi0, and theta0");
+a397 2
+  static const char *function = "celx2s";
+
+d400 1
+a400 1
+  struct wcserr **err;
+a403 2
+  err = &(cel->err);
+
+d412 1
+d414 3
+a416 1
+      status = CELERR_BAD_PIX;
+a417 4
+
+    wcserr_set(CEL_ERRMSG(status));
+
+    if (status != CELERR_BAD_PIX) return status;
+a439 2
+  static const char *function = "cels2x";
+
+d442 1
+a442 1
+  struct wcserr **err;
+a445 2
+  err = &(cel->err);
+
+d464 3
+a466 2
+  if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+                               stat))) {
+d468 1
+a468 1
+      status = CELERR_BAD_WORLD;
+d470 1
+a470 2
+
+    return wcserr_set(CEL_ERRMSG(status));
+@
+
+
+4.7.1.4
+log
+@Use the WCSPRINTF_PTR() macro for printing addresses.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+d153 1
+a153 1
+  WCSPRINTF_PTR("        err: ", cel->err, "\n");
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+d38 1
+d93 2
+a94 2
+  printf("      flag: %d\n",  cel->flag);
+  printf("     offset: %d\n",  cel->offset);
+d96 1
+a96 1
+    printf("       phi0: UNDEFINED\n");
+d98 1
+a98 1
+    printf("       phi0: %9f\n", cel->phi0);
+d101 1
+a101 1
+    printf("     theta0: UNDEFINED\n");
+d103 1
+a103 1
+    printf("     theta0: %9f\n", cel->theta0);
+d105 1
+a105 1
+  printf("       ref:");
+d107 1
+a107 1
+    printf("  %- 11.5g", cel->ref[i]);
+d109 2
+a110 2
+  printf("\n");
+  printf("       prj: (see below)\n");
+d112 1
+a112 1
+  printf("     euler:");
+d114 1
+a114 1
+    printf("  %- 11.5g", cel->euler[i]);
+d116 2
+a117 2
+  printf("\n");
+  printf("    latpreq: %d", cel->latpreq);
+d119 1
+a119 1
+    printf(" (not required)\n");
+d121 1
+a121 1
+    printf(" (disambiguation)\n");
+d123 1
+a123 1
+    printf(" (specification)\n");
+d125 1
+a125 1
+    printf(" (UNDEFINED)\n");
+d127 1
+a127 1
+  printf("     isolat: %d\n", cel->isolat);
+d129 2
+a130 2
+  printf("\n");
+  printf("   prj.*\n");
+d265 7
+a271 6
+    latp1 = u + v;
+    if (latp1 > 180.0) {
+      latp1 -= 360.0;
+    } else if (latp1 < -180.0) {
+      latp1 += 360.0;
+    }
+d273 6
+a278 6
+    latp2 = u - v;
+    if (latp2 > 180.0) {
+      latp2 -= 360.0;
+    } else if (latp2 < -180.0) {
+      latp2 += 360.0;
+    }
+d280 5
+a284 5
+    if (fabs(latp1) < 90.0+tol &&
+        fabs(latp2) < 90.0+tol) {
+      /* There are two valid solutions for latp. */
+      cel->latpreq = 1;
+    }
+d286 6
+a291 3
+    if (fabs(latp-latp1) < fabs(latp-latp2)) {
+      if (fabs(latp1) < 90.0+tol) {
+        latp = latp1;
+d293 5
+a297 1
+        latp = latp2;
+a298 7
+    } else {
+      if (fabs(latp2) < 90.0+tol) {
+        latp = latp2;
+      } else {
+        latp = latp1;
+      }
+    }
+d300 7
+a306 6
+    /* Account for rounding error. */
+    if (fabs(latp) < 90.0+tol) {
+      if (latp > 90.0) {
+        latp =  90.0;
+      } else if (latp < -90.0) {
+        latp = -90.0;
+d334 1
+a334 1
+    /* Make celestial longitude at the pole the same sign as at the
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Fixed an appalling bug in interpreting LATPOLEa that crept in at revision
+4.3.1.4 (WCSLIB 4.4).
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+d264 13
+a276 7
+    if (cel->latpreq == 0) {
+      latp1 = u + v;
+      if (latp1 > 180.0) {
+        latp1 -= 360.0;
+      } else if (latp1 < -180.0) {
+        latp1 += 360.0;
+      }
+d278 5
+a282 6
+      latp2 = u - v;
+      if (latp2 > 180.0) {
+        latp2 -= 360.0;
+      } else if (latp2 < -180.0) {
+        latp2 += 360.0;
+      }
+d284 5
+a288 4
+      if (fabs(latp1) < 90.0+tol &&
+          fabs(latp2) < 90.0+tol) {
+        /* There are two valid solutions for latp. */
+        cel->latpreq = 1;
+d290 3
+a292 7
+
+      if (fabs(latp-latp1) < fabs(latp-latp2)) {
+        if (fabs(latp1) < 90.0+tol) {
+          latp = latp1;
+        } else {
+          latp = latp2;
+        }
+d294 1
+a294 5
+        if (fabs(latp2) < 90.0+tol) {
+          latp = latp2;
+        } else {
+          latp = latp1;
+        }
+d296 1
+d298 6
+a303 7
+      /* Account for rounding error. */
+      if (fabs(latp) < 90.0+tol) {
+        if (latp > 90.0) {
+          latp =  90.0;
+        } else if (latp < -90.0) {
+          latp = -90.0;
+        }
+d331 1
+a331 1
+    /* Make celestial longitude of the native pole the same sign as at the
+@
+
+
+4.6.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.6.1.2 2010/12/14 06:49:56 cal103 Exp cal103 $
+@
+
+
+4.6.1.4
+log
+@Replaced calls to printf() with wcsprintf().
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.6.1.3 2011/01/14 06:33:16 cal103 Exp cal103 $
+a37 1
+#include "wcsprintf.h"
+d92 2
+a93 2
+  wcsprintf("      flag: %d\n",  cel->flag);
+  wcsprintf("     offset: %d\n",  cel->offset);
+d95 1
+a95 1
+    wcsprintf("       phi0: UNDEFINED\n");
+d97 1
+a97 1
+    wcsprintf("       phi0: %9f\n", cel->phi0);
+d100 1
+a100 1
+    wcsprintf("     theta0: UNDEFINED\n");
+d102 1
+a102 1
+    wcsprintf("     theta0: %9f\n", cel->theta0);
+d104 1
+a104 1
+  wcsprintf("       ref:");
+d106 1
+a106 1
+    wcsprintf("  %- 11.5g", cel->ref[i]);
+d108 2
+a109 2
+  wcsprintf("\n");
+  wcsprintf("       prj: (see below)\n");
+d111 1
+a111 1
+  wcsprintf("     euler:");
+d113 1
+a113 1
+    wcsprintf("  %- 11.5g", cel->euler[i]);
+d115 2
+a116 2
+  wcsprintf("\n");
+  wcsprintf("    latpreq: %d", cel->latpreq);
+d118 1
+a118 1
+    wcsprintf(" (not required)\n");
+d120 1
+a120 1
+    wcsprintf(" (disambiguation)\n");
+d122 1
+a122 1
+    wcsprintf(" (specification)\n");
+d124 1
+a124 1
+    wcsprintf(" (UNDEFINED)\n");
+d126 1
+a126 1
+  wcsprintf("     isolat: %d\n", cel->isolat);
+d128 2
+a129 2
+  wcsprintf("\n");
+  wcsprintf("   prj.*\n");
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: cel.c,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.3.1.5 2009/08/05 01:04:09 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: cel.c,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: cel.c,v 4.2.1.4 2007/12/03 05:02:17 cal103 Exp cal103 $
+d46 7
+a52 7
+   "Success",
+   "Null celprm pointer passed",
+   "Invalid projection parameters",
+   "Invalid coordinate transformation parameters",
+   "Ill-conditioned coordinate transformation parameters",
+   "One or more of the (x,y) coordinates were invalid",
+   "One or more of the (lng,lat) coordinates were invalid"};
+d61 1
+a61 1
+   register int k;
+d63 1
+a63 1
+   if (cel == 0x0) return 1;
+d65 1
+a65 1
+   cel->flag = 0;
+d67 7
+a73 7
+   cel->offset = 0;
+   cel->phi0   = UNDEFINED;
+   cel->theta0 = UNDEFINED;
+   cel->ref[0] =   0.0;
+   cel->ref[1] =   0.0;
+   cel->ref[2] = UNDEFINED;
+   cel->ref[3] = +90.0;
+d75 2
+a76 2
+   for (k = 0; k < 5; cel->euler[k++] = 0.0);
+   cel->latpreq = -1;
+d78 1
+a78 1
+   return prjini(&(cel->prj));
+d88 1
+a88 1
+   int i;
+d90 1
+a90 1
+   if (cel == 0x0) return 1;
+d92 39
+a130 35
+   printf("       flag: %d\n",  cel->flag);
+   printf("     offset: %d\n",  cel->offset);
+   if (undefined(cel->phi0)) {
+      printf("       phi0: UNDEFINED\n");
+   } else {
+      printf("       phi0: %9f\n", cel->phi0);
+   }
+   if (undefined(cel->theta0)) {
+      printf("     theta0: UNDEFINED\n");
+   } else {
+      printf("     theta0: %9f\n", cel->theta0);
+   }
+   printf("        ref:");
+   for (i = 0; i < 4; i++) {
+      printf("  %- 11.5g", cel->ref[i]);
+   }
+   printf("\n");
+   printf("        prj: (see below)\n");
+
+   printf("      euler:");
+   for (i = 0; i < 5; i++) {
+      printf("  %- 11.5g", cel->euler[i]);
+   }
+   printf("\n");
+   printf("    latpreq: %d", cel->latpreq);
+   if (cel->latpreq == 0) {
+      printf(" (not required)\n");
+   } else if (cel->latpreq == 1) {
+      printf(" (disambiguation)\n");
+   } else if (cel->latpreq == 2) {
+      printf(" (specification)\n");
+   } else {
+      printf(" (UNDEFINED)\n");
+   }
+   printf("     isolat: %d\n", cel->isolat);
+d132 1
+a132 5
+   printf("\n");
+   printf("   prj.*\n");
+   prjprt(&(cel->prj));
+
+   return 0;
+d142 80
+a221 19
+   int status;
+   const double tol = 1.0e-10;
+   double clat0, cphip, cthe0, lat0, lng0, phip, slat0, slz, sphip, sthe0;
+   double latp, latp1, latp2, lngp;
+   double u, v, x, y, z;
+   struct prjprm *celprj;
+
+   if (cel == 0x0) return 1;
+
+   /* Initialize the projection driver routines. */
+   celprj = &(cel->prj);
+   if (cel->offset) {
+      celprj->phi0   = cel->phi0;
+      celprj->theta0 = cel->theta0;
+   } else {
+      /* Ensure that these are undefined - no fiducial offset. */
+      celprj->phi0   = UNDEFINED;
+      celprj->theta0 = UNDEFINED;
+   }
+d223 2
+a224 3
+   if ((status = prjset(celprj))) {
+      return status;
+   }
+d226 2
+a227 56
+   /* Defaults set by the projection routines. */
+   if (undefined(cel->phi0)) {
+      cel->phi0 = celprj->phi0;
+   }
+
+   if (undefined(cel->theta0)) {
+      cel->theta0 = celprj->theta0;
+
+   } else if (fabs(cel->theta0) > 90.0) {
+     if (fabs(cel->theta0) > 90.0 + tol) {
+        return 3;
+     }
+
+     if (cel->theta0 > 90.0) {
+        cel->theta0 =  90.0;
+     } else {
+        cel->theta0 = -90.0;
+     }
+   }
+
+
+   lng0 = cel->ref[0];
+   lat0 = cel->ref[1];
+   phip = cel->ref[2];
+   latp = cel->ref[3];
+
+   /* Set default for native longitude of the celestial pole? */
+   if (undefined(phip) || phip == 999.0) {
+      phip = (lat0 < cel->theta0) ? 180.0 : 0.0;
+      phip += cel->phi0;
+
+      if (phip < -180.0) {
+         phip += 360.0;
+      } else if (phip > 180.0) {
+         phip -= 360.0;
+      }
+
+      cel->ref[2] = phip;
+   }
+
+
+   /* Compute celestial coordinates of the native pole. */
+   cel->latpreq = 0;
+   if (cel->theta0 == 90.0) {
+      /* Fiducial point at the native pole. */
+      lngp = lng0;
+      latp = lat0;
+
+   } else {
+      /* Fiducial point away from the native pole. */
+      clat0 = cosd(lat0);
+      slat0 = sind(lat0);
+      cphip = cosd(phip - cel->phi0);
+      sphip = sind(phip - cel->phi0);
+      cthe0 = cosd(cel->theta0);
+      sthe0 = sind(cel->theta0);
+d233 11
+a243 11
+         if (slat0 != 0.0) {
+            return 3;
+         }
+
+         /* latp determined solely by LATPOLEa in this case. */
+         cel->latpreq = 2;
+         if (latp > 90.0) {
+            latp = 90.0;
+         } else if (latp < -90.0) {
+            latp = -90.0;
+         }
+d246 5
+a250 8
+         slz = slat0/z;
+         if (fabs(slz) > 1.0) {
+            if ((fabs(slz) - 1.0) < tol) {
+              if (slz > 0.0) {
+                 slz = 1.0;
+              } else {
+                 slz = -1.0;
+              }
+d252 1
+a252 1
+              return 3;
+d254 4
+a257 1
+         }
+d259 4
+a262 2
+         u = atan2d(y,x);
+         v = acosd(slz);
+d264 33
+a296 33
+         latp1 = u + v;
+         if (latp1 > 180.0) {
+            latp1 -= 360.0;
+         } else if (latp1 < -180.0) {
+            latp1 += 360.0;
+         }
+
+         latp2 = u - v;
+         if (latp2 > 180.0) {
+            latp2 -= 360.0;
+         } else if (latp2 < -180.0) {
+            latp2 += 360.0;
+         }
+
+         if (fabs(latp1) < 90.0+tol &&
+             fabs(latp2) < 90.0+tol) {
+            /* There are two valid solutions for latp. */
+            cel->latpreq = 1;
+         }
+
+         if (fabs(latp-latp1) < fabs(latp-latp2)) {
+            if (fabs(latp1) < 90.0+tol) {
+               latp = latp1;
+            } else {
+               latp = latp2;
+            }
+         } else {
+            if (fabs(latp2) < 90.0+tol) {
+               latp = latp2;
+            } else {
+               latp = latp1;
+            }
+         }
+d298 6
+a303 8
+         /* Account for rounding error. */
+         if (fabs(latp) < 90.0+tol) {
+            if (latp > 90.0) {
+               latp =  90.0;
+            } else if (latp < -90.0) {
+               latp = -90.0;
+            }
+         }
+d305 1
+d307 9
+a315 14
+      z = cosd(latp)*clat0;
+      if (fabs(z) < tol) {
+         if (fabs(clat0) < tol) {
+            /* Celestial pole at the fiducial point. */
+            lngp = lng0;
+
+         } else if (latp > 0.0) {
+            /* Celestial north pole at the native pole.*/
+            lngp = lng0 + phip - cel->phi0 - 180.0;
+
+         } else {
+            /* Celestial south pole at the native pole. */
+            lngp = lng0 - phip + cel->phi0;
+         }
+d318 9
+a326 6
+         x = (sthe0 - sind(latp)*slat0)/z;
+         y =  sphip*cthe0/clat0;
+         if (x == 0.0 && y == 0.0) {
+            return 3;
+         }
+         lngp = lng0 - atan2d(y,x);
+d328 2
+d331 13
+a343 14
+      /* Make celestial longitude at the pole the same sign as at the
+         fiducial point. */
+      if (lng0 >= 0.0) {
+         if (lngp < 0.0) {
+            lngp += 360.0;
+         } else if (lngp > 360.0) {
+            lngp -= 360.0;
+         }
+      } else {
+         if (lngp > 0.0) {
+            lngp -= 360.0;
+         } else if (lngp < -360.0) {
+            lngp += 360.0;
+         }
+d345 2
+a346 1
+   }
+d348 2
+a349 2
+   /* Reset LATPOLEa. */
+   cel->ref[3] = latp;
+d351 12
+a362 13
+   /* Set the Euler angles. */
+   cel->euler[0] = lngp;
+   cel->euler[1] = 90.0 - latp;
+   cel->euler[2] = phip;
+   cel->euler[3] = cosd(cel->euler[1]);
+   cel->euler[4] = sind(cel->euler[1]);
+   cel->isolat = (cel->euler[4] == 0.0);
+   cel->flag = CELSET;
+
+   /* Check for ill-conditioned parameters. */
+   if (fabs(latp) > 90.0+tol) {
+      return 4;
+   }
+d364 1
+a364 1
+   return 0;
+d379 2
+a380 2
+   int    nphi, status;
+   struct prjprm *celprj;
+d383 16
+a398 16
+   /* Initialize. */
+   if (cel == 0x0) return 1;
+   if (cel->flag != CELSET) {
+      if ((status = celset(cel))) return status;
+   }
+
+   /* Apply spherical deprojection. */
+   celprj = &(cel->prj);
+   if ((status = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+                                stat))) {
+      if (status == 3) {
+         status = 5;
+      } else {
+         return status;
+      }
+   }
+d400 1
+a400 1
+   nphi = (ny > 0) ? (nx*ny) : nx;
+d402 2
+a403 2
+   /* Compute celestial coordinates. */
+   sphx2s(cel->euler, nphi, 0, 1, sll, phi, theta, lng, lat);
+d405 1
+a405 1
+   return status;
+d420 2
+a421 2
+   int    nphi, ntheta, status;
+   struct prjprm *celprj;
+d424 23
+a446 23
+   /* Initialize. */
+   if (cel == 0x0) return 1;
+   if (cel->flag != CELSET) {
+      if ((status = celset(cel))) return status;
+   }
+
+   /* Compute native coordinates. */
+   sphs2x(cel->euler, nlng, nlat, sll, 1, lng, lat, phi, theta);
+
+   if (cel->isolat) {
+      /* Constant celestial latitude -> constant native latitude. */
+      nphi   = nlng;
+      ntheta = nlat;
+   } else {
+      nphi   = (nlat > 0) ? (nlng*nlat) : nlng;
+      ntheta = 0;
+   }
+
+   /* Apply the spherical projection. */
+   celprj = &(cel->prj);
+   if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x,
+                                y, stat))) {
+      return status == 2 ? 2 : 6;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: cel.c,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: cel.c,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d46 7
+a52 7
+  "Success",
+  "Null celprm pointer passed",
+  "Invalid projection parameters",
+  "Invalid coordinate transformation parameters",
+  "Ill-conditioned coordinate transformation parameters",
+  "One or more of the (x,y) coordinates were invalid",
+  "One or more of the (lng,lat) coordinates were invalid"};
+d61 1
+a61 1
+  register int k;
+d63 1
+a63 1
+  if (cel == 0x0) return 1;
+d65 1
+a65 1
+  cel->flag = 0;
+d67 7
+a73 7
+  cel->offset = 0;
+  cel->phi0   = UNDEFINED;
+  cel->theta0 = UNDEFINED;
+  cel->ref[0] =   0.0;
+  cel->ref[1] =   0.0;
+  cel->ref[2] = UNDEFINED;
+  cel->ref[3] = +90.0;
+d75 2
+a76 2
+  for (k = 0; k < 5; cel->euler[k++] = 0.0);
+  cel->latpreq = -1;
+d78 1
+a78 1
+  return prjini(&(cel->prj));
+d88 1
+a88 1
+  int i;
+d90 1
+a90 1
+  if (cel == 0x0) return 1;
+d92 35
+a126 39
+  printf("      flag: %d\n",  cel->flag);
+  printf("     offset: %d\n",  cel->offset);
+  if (undefined(cel->phi0)) {
+    printf("       phi0: UNDEFINED\n");
+  } else {
+    printf("       phi0: %9f\n", cel->phi0);
+  }
+  if (undefined(cel->theta0)) {
+    printf("     theta0: UNDEFINED\n");
+  } else {
+    printf("     theta0: %9f\n", cel->theta0);
+  }
+  printf("       ref:");
+  for (i = 0; i < 4; i++) {
+    printf("  %- 11.5g", cel->ref[i]);
+  }
+  printf("\n");
+  printf("       prj: (see below)\n");
+
+  printf("     euler:");
+  for (i = 0; i < 5; i++) {
+    printf("  %- 11.5g", cel->euler[i]);
+  }
+  printf("\n");
+  printf("    latpreq: %d", cel->latpreq);
+  if (cel->latpreq == 0) {
+    printf(" (not required)\n");
+  } else if (cel->latpreq == 1) {
+    printf(" (disambiguation)\n");
+  } else if (cel->latpreq == 2) {
+    printf(" (specification)\n");
+  } else {
+    printf(" (UNDEFINED)\n");
+  }
+  printf("     isolat: %d\n", cel->isolat);
+
+  printf("\n");
+  printf("   prj.*\n");
+  prjprt(&(cel->prj));
+d128 5
+a132 1
+  return 0;
+d142 23
+a164 88
+  int status;
+  const double tol = 1.0e-10;
+  double clat0, cphip, cthe0, lat0, lng0, phip, slat0, slz, sphip, sthe0;
+  double latp, latp1, latp2, lngp;
+  double u, v, x, y, z;
+  struct prjprm *celprj;
+
+  if (cel == 0x0) return 1;
+
+  /* Initialize the projection driver routines. */
+  celprj = &(cel->prj);
+  if (cel->offset) {
+    celprj->phi0   = cel->phi0;
+    celprj->theta0 = cel->theta0;
+  } else {
+    /* Ensure that these are undefined - no fiducial offset. */
+    celprj->phi0   = UNDEFINED;
+    celprj->theta0 = UNDEFINED;
+  }
+
+  if ((status = prjset(celprj))) {
+    return status;
+  }
+
+  /* Defaults set by the projection routines. */
+  if (undefined(cel->phi0)) {
+    cel->phi0 = celprj->phi0;
+  }
+
+  if (undefined(cel->theta0)) {
+    cel->theta0 = celprj->theta0;
+
+  } else if (fabs(cel->theta0) > 90.0) {
+    if (fabs(cel->theta0) > 90.0 + tol) {
+      return 3;
+    }
+
+    if (cel->theta0 > 90.0) {
+      cel->theta0 =  90.0;
+    } else {
+      cel->theta0 = -90.0;
+    }
+  }
+
+
+  lng0 = cel->ref[0];
+  lat0 = cel->ref[1];
+  phip = cel->ref[2];
+  latp = cel->ref[3];
+
+  /* Set default for native longitude of the celestial pole? */
+  if (undefined(phip) || phip == 999.0) {
+    phip = (lat0 < cel->theta0) ? 180.0 : 0.0;
+    phip += cel->phi0;
+
+    if (phip < -180.0) {
+      phip += 360.0;
+    } else if (phip > 180.0) {
+      phip -= 360.0;
+    }
+
+    cel->ref[2] = phip;
+  }
+
+
+  /* Compute celestial coordinates of the native pole. */
+  cel->latpreq = 0;
+  if (cel->theta0 == 90.0) {
+    /* Fiducial point at the native pole. */
+    lngp = lng0;
+    latp = lat0;
+
+  } else {
+    /* Fiducial point away from the native pole. */
+    clat0 = cosd(lat0);
+    slat0 = sind(lat0);
+    cphip = cosd(phip - cel->phi0);
+    sphip = sind(phip - cel->phi0);
+    cthe0 = cosd(cel->theta0);
+    sthe0 = sind(cel->theta0);
+
+    x = cthe0*cphip;
+    y = sthe0;
+    z = sqrt(x*x + y*y);
+    if (z == 0.0) {
+      if (slat0 != 0.0) {
+        return 3;
+      }
+d166 4
+a169 7
+      /* latp determined solely by LATPOLEa in this case. */
+      cel->latpreq = 2;
+      if (latp > 90.0) {
+        latp = 90.0;
+      } else if (latp < -90.0) {
+        latp = -90.0;
+      }
+d171 2
+a172 13
+    } else {
+      slz = slat0/z;
+      if (fabs(slz) > 1.0) {
+        if ((fabs(slz) - 1.0) < tol) {
+          if (slz > 0.0) {
+            slz = 1.0;
+          } else {
+            slz = -1.0;
+          }
+        } else {
+          return 3;
+        }
+      }
+d174 4
+a177 2
+      u = atan2d(y,x);
+      v = acosd(slz);
+d179 6
+a184 6
+      latp1 = u + v;
+      if (latp1 > 180.0) {
+        latp1 -= 360.0;
+      } else if (latp1 < -180.0) {
+        latp1 += 360.0;
+      }
+a185 6
+      latp2 = u - v;
+      if (latp2 > 180.0) {
+        latp2 -= 360.0;
+      } else if (latp2 < -180.0) {
+        latp2 += 360.0;
+      }
+d187 14
+a200 4
+      if (fabs(latp1) < 90.0+tol &&
+          fabs(latp2) < 90.0+tol) {
+        /* There are two valid solutions for latp. */
+        cel->latpreq = 1;
+d203 2
+a204 13
+      if (fabs(latp-latp1) < fabs(latp-latp2)) {
+        if (fabs(latp1) < 90.0+tol) {
+          latp = latp1;
+        } else {
+          latp = latp2;
+        }
+      } else {
+        if (fabs(latp2) < 90.0+tol) {
+          latp = latp2;
+        } else {
+          latp = latp1;
+        }
+      }
+a205 9
+      /* Account for rounding error. */
+      if (fabs(latp) < 90.0+tol) {
+        if (latp > 90.0) {
+          latp =  90.0;
+        } else if (latp < -90.0) {
+          latp = -90.0;
+        }
+      }
+    }
+d207 31
+a237 9
+    z = cosd(latp)*clat0;
+    if (fabs(z) < tol) {
+      if (fabs(clat0) < tol) {
+        /* Celestial pole at the fiducial point. */
+        lngp = lng0;
+
+      } else if (latp > 0.0) {
+        /* Celestial north pole at the native pole.*/
+        lngp = lng0 + phip - cel->phi0 - 180.0;
+d240 74
+a313 3
+        /* Celestial south pole at the native pole. */
+        lngp = lng0 - phip + cel->phi0;
+      }
+d315 23
+a337 5
+    } else {
+      x = (sthe0 - sind(latp)*slat0)/z;
+      y =  sphip*cthe0/clat0;
+      if (x == 0.0 && y == 0.0) {
+        return 3;
+d339 1
+a339 19
+      lngp = lng0 - atan2d(y,x);
+    }
+
+    /* Make celestial longitude at the pole the same sign as at the
+       fiducial point. */
+    if (lng0 >= 0.0) {
+      if (lngp < 0.0) {
+        lngp += 360.0;
+      } else if (lngp > 360.0) {
+        lngp -= 360.0;
+      }
+    } else {
+      if (lngp > 0.0) {
+        lngp -= 360.0;
+      } else if (lngp < -360.0) {
+        lngp += 360.0;
+      }
+    }
+  }
+d341 2
+a342 2
+  /* Reset LATPOLEa. */
+  cel->ref[3] = latp;
+d344 13
+a356 13
+  /* Set the Euler angles. */
+  cel->euler[0] = lngp;
+  cel->euler[1] = 90.0 - latp;
+  cel->euler[2] = phip;
+  cel->euler[3] = cosd(cel->euler[1]);
+  cel->euler[4] = sind(cel->euler[1]);
+  cel->isolat = (cel->euler[4] == 0.0);
+  cel->flag = CELSET;
+
+  /* Check for ill-conditioned parameters. */
+  if (fabs(latp) > 90.0+tol) {
+    return 4;
+  }
+d358 1
+a358 1
+  return 0;
+d373 2
+a374 2
+  int    nphi, status;
+  struct prjprm *celprj;
+d377 16
+a392 16
+  /* Initialize. */
+  if (cel == 0x0) return 1;
+  if (cel->flag != CELSET) {
+    if ((status = celset(cel))) return status;
+  }
+
+  /* Apply spherical deprojection. */
+  celprj = &(cel->prj);
+  if ((status = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+                               stat))) {
+    if (status == 3) {
+      status = 5;
+    } else {
+      return status;
+    }
+  }
+d394 1
+a394 1
+  nphi = (ny > 0) ? (nx*ny) : nx;
+d396 2
+a397 2
+  /* Compute celestial coordinates. */
+  sphx2s(cel->euler, nphi, 0, 1, sll, phi, theta, lng, lat);
+d399 1
+a399 1
+  return status;
+d414 2
+a415 2
+  int    nphi, ntheta, status;
+  struct prjprm *celprj;
+d418 23
+a440 23
+  /* Initialize. */
+  if (cel == 0x0) return 1;
+  if (cel->flag != CELSET) {
+    if ((status = celset(cel))) return status;
+  }
+
+  /* Compute native coordinates. */
+  sphs2x(cel->euler, nlng, nlat, sll, 1, lng, lat, phi, theta);
+
+  if (cel->isolat) {
+    /* Constant celestial latitude -> constant native latitude. */
+    nphi   = nlng;
+    ntheta = nlat;
+  } else {
+    nphi   = (nlat > 0) ? (nlng*nlat) : nlng;
+    ntheta = 0;
+  }
+
+  /* Apply the spherical projection. */
+  celprj = &(cel->prj);
+  if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x,
+                               y, stat))) {
+    return status == 2 ? 2 : 6;
+@
+
+
+4.3.1.3
+log
+@Use sincosd() whereever possible for a 15% speedup - patches from
+Michael Droettboom <mdroe@@stsci.edu>, 2009/06/09.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.3.1.2 2009/07/22 02:17:31 cal103 Exp cal103 $
+d216 6
+a221 3
+    sincosd(lat0, &slat0, &clat0);
+    sincosd(phip - cel->phi0, &sphip, &cphip);
+    sincosd(cel->theta0, &sthe0, &cthe0);
+d348 2
+a349 1
+  sincosd(cel->euler[1], &cel->euler[4], &cel->euler[3]);
+@
+
+
+4.3.1.4
+log
+@In celset(), check whether phip == phi0 when computing latp and if so use
+a short-cut that ensures latp == 90.0 (exactly) if lat0 == theta0.  The
+resulting spherical coordinate rotation then becomes a simple change in
+origin of longitude which is handled as a special case by sphx2s() and
+sphs2x() to provide a faster and more accurate calculation.  In particular,
+this may be important for PGSBOX in drawing grid lines of +/-180 longitude.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.3.1.3 2009/07/27 06:05:48 cal103 Exp cal103 $
+d217 1
+d220 7
+a226 3
+    if (phip == cel->phi0) {
+      sphip = 0.0;
+      cphip = 1.0;
+d228 7
+a234 2
+      u = cel->theta0;
+      v = 90.0 - lat0;
+d237 5
+a241 27
+      sincosd(phip - cel->phi0, &sphip, &cphip);
+
+      x = cthe0*cphip;
+      y = sthe0;
+      z = sqrt(x*x + y*y);
+      if (z == 0.0) {
+        if (slat0 != 0.0) {
+          return 3;
+        }
+
+        /* latp determined solely by LATPOLEa in this case. */
+        cel->latpreq = 2;
+        if (latp > 90.0) {
+          latp = 90.0;
+        } else if (latp < -90.0) {
+          latp = -90.0;
+        }
+
+      } else {
+        slz = slat0/z;
+        if (fabs(slz) > 1.0) {
+          if ((fabs(slz) - 1.0) < tol) {
+            if (slz > 0.0) {
+              slz = 1.0;
+            } else {
+              slz = -1.0;
+            }
+d243 1
+a243 1
+            return 3;
+d245 2
+d248 1
+d250 2
+a251 3
+        u = atan2d(y,x);
+        v = acosd(slz);
+      }
+@
+
+
+4.3.1.5
+log
+@Fixed bug introduced in the last change, triggered when phip == phi0.
+@
+text
+@d31 1
+a31 1
+  $Id: cel.c,v 4.3.1.4 2009/07/30 04:37:22 cal103 Exp cal103 $
+a261 1
+    }
+d263 6
+a268 6
+    latp1 = u + v;
+    if (latp1 > 180.0) {
+      latp1 -= 360.0;
+    } else if (latp1 < -180.0) {
+      latp1 += 360.0;
+    }
+d270 6
+a275 6
+    latp2 = u - v;
+    if (latp2 > 180.0) {
+      latp2 -= 360.0;
+    } else if (latp2 < -180.0) {
+      latp2 += 360.0;
+    }
+d277 5
+a281 5
+    if (fabs(latp1) < 90.0+tol &&
+        fabs(latp2) < 90.0+tol) {
+      /* There are two valid solutions for latp. */
+      cel->latpreq = 1;
+    }
+d283 6
+a288 3
+    if (fabs(latp-latp1) < fabs(latp-latp2)) {
+      if (fabs(latp1) < 90.0+tol) {
+        latp = latp1;
+d290 5
+a294 1
+        latp = latp2;
+a295 7
+    } else {
+      if (fabs(latp2) < 90.0+tol) {
+        latp = latp2;
+      } else {
+        latp = latp1;
+      }
+    }
+d297 7
+a303 6
+    /* Account for rounding error. */
+    if (fabs(latp) < 90.0+tol) {
+      if (latp > 90.0) {
+        latp =  90.0;
+      } else if (latp < -90.0) {
+        latp = -90.0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: cel.c,v 4.1 2005/08/25 07:38:32 cal103 Exp cal103 $
+d144 1
+a144 1
+   double clat0, cphip, cthe0, lat0, lng0, phip, slat0, sphip, sthe0;
+d162 1
+a162 1
+   if (status = prjset(celprj)) {
+d240 11
+a250 2
+         if (fabs(slat0/z) > 1.0) {
+            return 3;
+d254 1
+a254 1
+         v = acosd(slat0/z);
+d380 1
+a380 1
+      if (status = celset(cel)) return status;
+d385 2
+a386 2
+   if (status = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+                               stat)) {
+d421 1
+a421 1
+      if (status = celset(cel)) return status;
+d438 2
+a439 2
+   if (status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+                               stat)) {
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: cel.c,v 4.2 2005/09/21 13:21:57 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Parenthesised assignments used as truth values.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: cel.c,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d161 1
+a161 1
+   if ((status = prjset(celprj))) {
+d370 1
+a370 1
+      if ((status = celset(cel))) return status;
+d375 2
+a376 2
+   if ((status = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta,
+                                stat))) {
+d411 1
+a411 1
+      if ((status = celset(cel))) return status;
+d428 2
+a429 2
+   if ((status = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x,
+                                y, stat))) {
+@
+
+
+4.2.1.3
+log
+@Fixed a floating point rounding error that only appeared with -O2
+optimization in Linux gcc (v3.3.5).  gdb appeared to indicate that fabs()
+was inlined (contrary to the gcc man page) which may have made the
+difference.
+@
+text
+@d30 1
+a30 1
+*   $Id: cel.c,v 4.2.1.2 2007/06/29 00:41:51 cal103 Exp cal103 $
+d143 1
+a143 1
+   double clat0, cphip, cthe0, lat0, lng0, phip, slat0, slz, sphip, sthe0;
+d239 2
+a240 11
+         slz = slat0/z;
+         if (fabs(slz) > 1.0) {
+            if ((fabs(slz) - 1.0) < tol) {
+              if (slz > 0.0) {
+                 slz = 1.0;
+              } else {
+                 slz = -1.0;
+              }
+            } else {
+              return 3;
+            }
+d244 1
+a244 1
+         v = acosd(slz);
+@
+
+
+4.2.1.4
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: cel.c,v 4.2.1.3 2007/07/03 04:40:43 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: set cel_errmsg[0] to "success"; initialize cel->ref[2] to
+UNDEFINED rather than 999.0 in celini(); set celprm.latpreq in celset();
+report reference and euler angles to an extra decimal place in celprt().
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: cel.c,v 4.0 2005/02/04 05:02:35 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; macros for UNDEFINED values moved to
+wcsmath.h.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: cel.c,v 3.6 2004/08/25 04:07:22 cal103 Exp cal103 $
+d45 1
+a45 1
+   0,
+d62 1
+a62 1
+   if (cel == 0) return 1;
+d71 2
+a72 2
+   cel->ref[2] = 999.0;
+   cel->ref[3] = 999.0;
+d75 1
+d89 1
+a89 1
+   if (cel == 0) return 1;
+d105 1
+a105 1
+      printf("  %- 11.4g", cel->ref[i]);
+d109 1
+d112 1
+a112 1
+      printf("  %- 11.4g", cel->euler[i]);
+d115 10
+d148 1
+a148 1
+   if (cel == 0) return 1;
+d192 1
+a192 1
+   if (phip == 999.0) {
+d207 1
+d230 2
+a231 1
+         /* latp determined by LATPOLEa in this case. */
+d260 6
+d368 1
+a368 1
+   if (cel == 0) return 1;
+d409 1
+a409 1
+   if (cel == 0) return 1;
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value".
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+d11 4
+a14 4
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: cel.c,v 3.5 2004/06/28 01:30:48 mcalabre Exp mcalabre $
+d36 1
+a51 3
+
+#define UNDEFINED 987654321.0e99
+#define undefined(value) (value == UNDEFINED)
+@
+
+
+3.5
+log
+@WCSLIB 3.5: added the alternate version code to FITS WCS keywords mentioned
+in comments.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: cel.c,v 3.4 2004/02/11 00:15:03 mcalabre Exp mcalabre $
+d42 1
+a42 1
+/* Map error number to error message for each function. */
+@
+
+
+3.4
+log
+@WCSLIB 3.4: Fixed several special-case bugs in celset():
+
+  1) For theta_0 = 90, in substituting the default value for phi_p (LONPOLE),
+
+     a) for the special case when delta_0 = 90, celset() provided the wrong
+        value (180 instead of 0),
+
+     b) celset() neglected to add phi_0 (normally 0).
+
+  2) For theta_0 != 90,
+
+     a) for the special case when delta_0 = -90, celset() incorrectly computed
+        delta_p (as theta_0 instead of -theta_0),
+
+     b) for the special case when delta_p = +90 (or -90), celset() neglected
+        to subtract (or add) phi_0 (normally 0).
+
+  3) For |delta_0| = 90, celset() incorrectly allowed the particular, invalid,
+     value of phi_p (LONPOLE) that put the other pole at the fiducial point.
+
+  4) For theta_0 = 0, delta_0 = 0 LATPOLE determines delta_p completely.  For
+     LATPOLE > 90 celset() now sets delta_p to 90, and for LATPOLE < -90 it
+     sets it to -90.
+
+Additional refinements in celset():
+
+  1) cel->ref[2] is normalized in the range [-180,180].
+
+  2) Account for rounding error in the computation of delta_p.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d29 2
+a30 1
+*   $Id: cel.c,v 3.3 2003/10/22 07:22:52 mcalabre Exp mcalabre $
+d219 1
+a219 1
+         /* latp determined by LATPOLE in this case. */
+d313 1
+a313 1
+   /* Reset LATPOLE. */
+@
+
+
+3.3
+log
+@WCSLIB 3.3: in celset(), the default value for cel->ref[2] (LONPOLE) is
+cel->phi0 + (cel->ref[1] < cel->theta0) ? 180.0 : 0.0.  Previously cel->phi0
+(which is normally zero) was not added.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d29 1
+a29 1
+*   $Id: cel.c,v 3.2 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+d130 1
+a130 1
+   int dophip, status;
+d132 2
+a133 2
+   double clat0, cphip, cthe0, slat0, sphip, sthe0;
+   double latp, latp1, latp2;
+d161 11
+d175 5
+d181 13
+a193 1
+   dophip = (cel->ref[2] == 999.0);
+d197 3
+a199 1
+      /* Fiducial point is at the native pole. */
+a200 10
+      if (dophip) {
+         /* Set default for longitude of the celestial pole. */
+         cel->ref[2] = 180.0;
+      }
+
+      latp = cel->ref[1];
+      cel->ref[3] = latp;
+
+      cel->euler[0] = cel->ref[0];
+      cel->euler[1] = 90.0 - latp;
+d203 4
+a206 11
+
+      /* Set default for longitude of the celestial pole. */
+      if (dophip) {
+         cel->ref[2] = (cel->ref[1] < cel->theta0) ? 180.0 : 0.0;
+         cel->ref[2] += cel->phi0;
+      }
+
+      clat0 = cosd(cel->ref[1]);
+      slat0 = sind(cel->ref[1]);
+      cphip = cosd(cel->ref[2] - cel->phi0);
+      sphip = sind(cel->ref[2] - cel->phi0);
+d219 6
+a224 1
+         latp = cel->ref[3];
+d247 1
+a247 1
+         if (fabs(cel->ref[3]-latp1) < fabs(cel->ref[3]-latp2)) {
+d261 8
+a268 1
+         cel->ref[3] = latp;
+a270 2
+      cel->euler[1] = 90.0 - latp;
+
+d275 2
+a276 2
+            cel->euler[0] = cel->ref[0];
+            cel->euler[1] = 90.0 - cel->theta0;
+d278 6
+a283 7
+            /* Celestial pole at the native north pole.*/
+            cel->euler[0] = cel->ref[0] + cel->ref[2] - 180.0;
+            cel->euler[1] = 0.0;
+         } else if (latp < 0.0) {
+            /* Celestial pole at the native south pole. */
+            cel->euler[0] = cel->ref[0] - cel->ref[2];
+            cel->euler[1] = 180.0;
+d285 1
+d292 1
+a292 1
+         cel->euler[0] = cel->ref[0] - atan2d(y,x);
+d295 8
+a302 3
+      /* Make euler[0] the same sign as ref[0]. */
+      if (cel->ref[0] >= 0.0) {
+         if (cel->euler[0] < 0.0) cel->euler[0] += 360.0;
+d304 5
+a308 1
+         if (cel->euler[0] > 0.0) cel->euler[0] -= 360.0;
+d312 7
+a318 1
+   cel->euler[2] = cel->ref[2];
+d367 1
+a367 1
+   /* Compute native coordinates. */
+@
+
+
+3.2
+log
+@WCSLIB 3.2: celx2s() and cels2x() no longer return prematurely if some of the
+input coordinate values are invalid; rationalized function return codes and
+messages; test for null celprm pointer given as function argument.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: cel.c,v 3.1 2003/04/28 03:50:41 mcalabre Exp mcalabre $
+d187 1
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+In celprt(), print undefined members as "UNDEFINED".
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: cel.c,v 3.0 2003/04/01 04:10:53 mcalabre Exp mcalabre $
+d42 1
+a42 1
+const char *celset_errmsg[] = {
+d44 1
+a46 13
+   "Ill-conditioned coordinate transformation parameters"};
+
+const char *celx2s_errmsg[] = {
+   0,
+   "Invalid projection parameters",
+   "Invalid coordinate transformation parameters",
+   "Ill-conditioned coordinate transformation parameters",
+   "Invalid value(s) of (x,y)"};
+
+const char *cels2x_errmsg[] = {
+   0,
+   "Invalid projection parameters",
+   "Invalid coordinate transformation parameters",
+d48 2
+a49 1
+   "Invalid value(s) of (lng,lat)"};
+d63 2
+d130 1
+a130 1
+   int dophip;
+d137 2
+d150 2
+a151 2
+   if (prjset(celprj)) {
+      return 1;
+d201 1
+a201 1
+            return 2;
+d208 1
+a208 1
+            return 2;
+d266 1
+a266 1
+            return 2;
+d287 1
+a287 1
+      return 3;
+d305 1
+a305 1
+   int    err, nphi;
+d308 3
+d312 1
+a312 1
+      if (err = celset(cel)) return err;
+d317 7
+a323 2
+   if (err = celprj->prjx2s(celprj, nx, ny, sxy, 1, x, y, phi, theta, stat)) {
+      return err == 1 ? 1 : 4;
+d331 1
+a331 1
+   return 0;
+d346 1
+a346 1
+   int    err, nphi, ntheta;
+d349 3
+d353 1
+a353 1
+      if (err = celset(cel)) return err;
+d370 3
+a372 3
+   if (err = celprj->prjs2x(celprj, nphi, ntheta, 1, sxy, phi, theta, x, y,
+                            stat)) {
+      return err == 1 ? 1 : 4;
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: cel.c,v 2.13 2001/11/15 03:40:59 mcalabre Exp $
+d102 10
+a111 2
+   printf("       phi0: %9f\n", cel->phi0);
+   printf("     theta0: %9f\n", cel->theta0);
+@
+
+
+2.14
+log
+@Updated date in copyright notice.
+@
+text
+@d1 1
+a1 1
+/*=============================================================================
+d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+a27 203
+*=============================================================================
+*
+*   C routines which implement the FITS World Coordinate System (WCS)
+*   convention.
+*
+*   Summary of routines
+*   -------------------
+*   These routines are provided as drivers for the lower level spherical
+*   coordinate transformation and projection routines.  There are separate
+*   driver routines for the forward, celfwd(), and reverse, celrev(),
+*   transformations.
+*
+*   An initialization routine, celset(), computes intermediate values from
+*   the transformation parameters but need not be called explicitly - see the
+*   explanation of cel.flag below.
+*
+*
+*   Initialization routine; celset()
+*   --------------------------------
+*   Initializes members of a celprm data structure which hold intermediate
+*   values.  Note that this routine need not be called directly; it will be
+*   invoked by celfwd() and celrev() if the "flag" structure member is
+*   anything other than a predefined magic value.
+*
+*   Given:
+*      pcode[4] const char
+*                        WCS projection code (see below).
+*
+*   Given and returned:
+*      cel      celprm*  Spherical coordinate transformation parameters
+*                        (see below).
+*      prj      prjprm*  Projection parameters (usage is described in the
+*                        prologue to "proj.c").
+*
+*   Function return value:
+*               int      Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation parameters.
+*                           2: Ill-conditioned coordinate transformation
+*                              parameters.
+*
+*   Forward transformation; celfwd()
+*   --------------------------------
+*   Compute (x,y) coordinates in the plane of projection from celestial
+*   coordinates (lng,lat).
+*
+*   Given:
+*      pcode[4] const char
+*                        WCS projection code (see below).
+*      lng,lat  const double
+*                        Celestial longitude and latitude of the projected
+*                        point, in degrees.
+*
+*   Given and returned:
+*      cel      celprm*  Spherical coordinate transformation parameters
+*                        (see below).
+*
+*   Returned:
+*      phi,     double*  Longitude and latitude in the native coordinate
+*      theta             system of the projection, in degrees.
+*
+*   Given and returned:
+*      prj      prjprm*  Projection parameters (usage is described in the
+*                        prologue to "proj.c").
+*
+*   Returned:
+*      x,y      double*  Projected coordinates, "degrees".
+*
+*   Function return value:
+*               int      Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid value of (lng,lat).
+*
+*   Reverse transformation; celrev()
+*   --------------------------------
+*   Compute the celestial coordinates (lng,lat) of the point with projected
+*   coordinates (x,y).
+*
+*   Given:
+*      pcode[4] const char
+*                        WCS projection code (see below).
+*      x,y      const double
+*                        Projected coordinates, "degrees".
+*
+*   Given and returned:
+*      prj      prjprm*  Projection parameters (usage is described in the
+*                        prologue to "proj.c").
+*
+*   Returned:
+*      phi,     double*  Longitude and latitude in the native coordinate
+*      theta             system of the projection, in degrees.
+*
+*   Given and returned:
+*      cel      celprm*  Spherical coordinate transformation parameters
+*                        (see below).
+*
+*   Returned:
+*      lng,lat  double*  Celestial longitude and latitude of the projected
+*                        point, in degrees.
+*
+*   Function return value:
+*               int      Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid value of (x,y).
+*
+*   Coordinate transformation parameters
+*   ------------------------------------
+*   The celprm struct consists of the following:
+*
+*      int flag
+*         The celprm struct contains pointers to the forward and reverse
+*         projection routines as well as intermediaries computed from the
+*         reference coordinates (see below).  Whenever the projection code
+*         (pcode) or any of ref[4] are set or changed then this flag must be
+*         set to zero to signal the initialization routine, celset(), to
+*         redetermine the function pointers and recompute intermediaries.
+*         Once this has been done pcode itself is ignored.
+*
+*      double ref[4]
+*         The first pair of values should be set to the celestial longitude
+*         and latitude (usually right ascension and declination) of the
+*         reference point of the projection.  These are given by the CRVALn
+*         keywords in FITS.
+*
+*         The second pair of values are the native longitude of the celestial
+*         pole and the celestial latitude of the native pole and correspond to
+*         the FITS keywords LONPOLE and LATPOLE.
+*
+*         LONPOLE defaults to 0 degrees if the celestial latitude of the
+*         reference point of the projection is greater than the native
+*         latitude, otherwise 180 degrees.  (This is the condition for the
+*         celestial latitude to increase in the same direction as the native
+*         latitude at the reference point.)  ref[2] may be set to 999.0 to
+*         indicate that the correct default should be substituted.
+*
+*         In some circumstances the celestial latitude of the native pole may
+*         be determined by the first three values only to within a sign and
+*         LATPOLE is used to choose between the two solutions.  LATPOLE is
+*         set in ref[3] and the solution closest to this value is used to
+*         reset ref[3].  It is therefore legitimate, for example, to set
+*         ref[3] to 999.0 to choose the more northerly solution - the default
+*         if the LATPOLE card is omitted from the FITS header.  For the
+*         special case where the reference point of the projection is at
+*         native latitude zero, its celestial latitude is zero, and
+*         LONPOLE = +/- 90 then the celestial latitude of the native pole is
+*         not determined by the first three reference values and LATPOLE
+*         specifies it completely.
+*
+*   The remaining members of the celprm struct are maintained by the
+*   initialization routines and should not be modified.  This is done for the
+*   sake of efficiency and to allow an arbitrary number of contexts to be
+*   maintained simultaneously.
+*
+*      double euler[5]
+*         Euler angles and associated intermediaries derived from the
+*         coordinate reference values.
+*
+*
+*   WCS projection codes
+*   --------------------
+*   Zenithals/azimuthals:
+*      AZP: zenithal/azimuthal perspective
+*      TAN: gnomonic
+*      STG: stereographic
+*      SIN: synthesis (generalized orthographic)
+*      ARC: zenithal/azimuthal equidistant
+*      ZPN: zenithal/azimuthal polynomial
+*      ZEA: zenithal/azimuthal equal area
+*      AIR: Airy
+*
+*   Cylindricals:
+*      CYP: cylindrical perspective
+*      CEA: cylindrical equal area
+*      CAR: Cartesian
+*      MER: Mercator
+*
+*   Pseudo-cylindricals:
+*      SFL: Sanson-Flamsteed
+*      PAR: parabolic
+*      MOL: Mollweide
+*
+*   Conventional:
+*      AIT: Hammer-Aitoff
+*
+*   Conics:
+*      COP: conic perspective
+*      COD: conic equidistant
+*      COE: conic equal area
+*      COO: conic orthomorphic
+*
+*   Polyconics:
+*      BON: Bonne
+*      PCO: polyconic
+*
+*   Quad-cubes:
+*      TSC: tangential spherical cube
+*      CSC: COBE quadrilateralized spherical cube
+*      QSC: quadrilateralized spherical cube
+*
+d29 1
+a29 1
+*   $Id: cel.c,v 2.13 2001/11/15 03:40:59 mcalabre Exp mcalabre $
+d33 2
+d39 2
+d44 1
+d48 1
+a48 1
+const char *celfwd_errmsg[] = {
+d50 1
+d52 2
+a53 2
+   "Invalid projection parameters",
+   "Invalid value of (lng,lat)"};
+d55 1
+a55 1
+const char *celrev_errmsg[] = {
+d57 1
+d59 64
+a122 2
+   "Invalid projection parameters",
+   "Invalid value of (x,y)"};
+d124 1
+d126 1
+a126 1
+int celset(pcode, cel, prj)
+a127 1
+const char pcode[4];
+a128 1
+struct prjprm *prj;
+d136 1
+d139 11
+a149 1
+   if (prjset(pcode, prj)) {
+d153 10
+d167 2
+a168 2
+   if (prj->theta0 == 90.0) {
+      /* Reference point is at the native pole. */
+d181 1
+a181 1
+      /* Reference point away from the native pole. */
+d185 1
+a185 1
+         cel->ref[2] = (cel->ref[1] < prj->theta0) ? 180.0 : 0.0;
+d190 4
+a193 4
+      cphip = cosd(cel->ref[2]);
+      sphip = sind(cel->ref[2]);
+      cthe0 = cosd(prj->theta0);
+      sthe0 = sind(prj->theta0);
+d200 1
+a200 1
+            return 1;
+d207 1
+a207 1
+            return 1;
+d249 1
+a249 1
+            /* Celestial pole at the reference point. */
+d251 1
+a251 1
+            cel->euler[1] = 90.0 - prj->theta0;
+d265 1
+a265 1
+            return 1;
+d281 1
+d286 1
+a286 1
+      return 2;
+d294 1
+a294 1
+int celfwd(pcode, lng, lat, cel, phi, theta, prj, x, y)
+a295 2
+const char pcode[4];
+const double lng, lat;
+d297 5
+a301 3
+double *phi, *theta;
+struct prjprm *prj;
+double *x, *y;
+d304 2
+a305 1
+   int    err;
+d308 7
+a314 1
+      if (celset(pcode, cel, prj)) return 1;
+d317 2
+d320 1
+a320 6
+   sphfwd(lng, lat, cel->euler, phi, theta);
+
+   /* Apply forward projection. */
+   if (err = prj->prjfwd(*phi, *theta, prj, x, y)) {
+      return err == 1 ? 2 : 3;
+   }
+d327 1
+a327 1
+int celrev(pcode, x, y, prj, phi, theta, cel, lng, lat)
+a328 4
+const char pcode[4];
+const double x, y;
+struct prjprm *prj;
+double *phi, *theta;
+d330 5
+a334 1
+double *lng, *lat;
+d337 2
+a338 1
+   int    err;
+d341 1
+a341 1
+      if (celset(pcode, cel, prj)) return 1;
+d344 10
+a353 3
+   /* Apply reverse projection. */
+   if (err = prj->prjrev(x, y, prj, phi, theta)) {
+      return err == 1 ? 2 : 3;
+d356 6
+a361 2
+   /* Compute native coordinates. */
+   sphrev(*phi, *theta, cel->euler, lng, lat);
+@
+
+
+2.13
+log
+@LONGPOLE -> LONPOLE.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d232 1
+a232 1
+*   $Id: cel.c,v 2.12 2001/10/18 04:51:35 mcalabre Exp mcalabre $
+@
+
+
+2.12
+log
+@Fixed comments relating to LATPOLE.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d158 1
+a158 1
+*         the FITS keywords LONGPOLE and LATPOLE.
+d160 1
+a160 1
+*         LONGPOLE defaults to 0 degrees if the celestial latitude of the
+d176 1
+a176 1
+*         LONGPOLE = +/- 90 then the celestial latitude of the native pole is
+d232 1
+a232 1
+*   $Id: cel.c,v 2.11 2000/12/17 23:23:16 mcalabre Exp mcalabre $
+@
+
+
+2.11
+log
+@Augmented prologue to mention CRVALn.
+@
+text
+@d156 3
+a158 3
+*         The second pair of values are the native longitude and latitude of
+*         the pole of the celestial coordinate system and correspond to the
+*         FITS keywords LONGPOLE and LATPOLE.
+d167 2
+a168 2
+*         In some circumstances the latitude of the native pole may be
+*         determined by the first three values only to within a sign and
+d176 2
+a177 2
+*         LONGPOLE = +/- 90 then the native latitude of the pole is not
+*         determined by the first three reference values and LATPOLE
+d232 1
+a232 1
+*   $Id: cel.c,v 2.10 2000/12/05 03:44:42 mcalabre Exp mcalabre $
+a256 1
+ 
+d258 1
+d449 1
+a449 1
+      if(celset(pcode, cel, prj)) return 1;
+@
+
+
+2.10
+log
+@Removed definitions of the npcode and pcodes externs (now in proj.c);
+celset() now uses prjset() and celfwd() & celrev() use the pointer to
+function elements of prjprm.
+@
+text
+@d153 2
+a154 1
+*         reference point of the projection.
+d232 1
+a232 1
+*   $Id: cel.c,v 2.10 2000/12/04 08:39:51 mcalabre Exp mcalabre $
+@
+
+
+2.9
+log
+@Updated date in copyright notice.
+@
+text
+@a186 3
+*      int (*prjfwd)()
+*      int (*prjrev)()
+*         Pointers to the forward and reverse projection routines.
+d194 1
+a195 1
+*      STG: stereographic
+d203 1
+d206 8
+a213 1
+*      CEA: cylindrical equal area
+a224 8
+*   Pseudo-cylindricals:
+*      GLS: Sanson-Flamsteed (global sinusoidal)
+*      PAR: parabolic
+*      MOL: Mollweide
+*
+*   Conventional:
+*      AIT: Hammer-Aitoff
+*
+d226 1
+a228 1
+*      TSC: tangential spherical cube
+d231 1
+a231 1
+*   $Id: cel.c,v 2.8 2000/04/04 03:41:08 mcalabre Exp mcalabre $
+a238 6
+int  npcode = 25;
+char pcodes[25][4] =
+      {"AZP", "TAN", "SIN", "STG", "ARC", "ZPN", "ZEA", "AIR", "CYP", "CAR",
+       "MER", "CEA", "COP", "COD", "COE", "COO", "BON", "PCO", "GLS", "PAR",
+       "AIT", "MOL", "CSC", "QSC", "TSC"};
+
+d267 1
+a267 1
+   double clat0, cphip, cthe0, theta0, slat0, sphip, sthe0;
+d271 2
+a272 103
+   /* Set pointers to the forward and reverse projection routines. */
+   if (strcmp(pcode, "AZP") == 0) {
+      cel->prjfwd = azpfwd;
+      cel->prjrev = azprev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "TAN") == 0) {
+      cel->prjfwd = tanfwd;
+      cel->prjrev = tanrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "SIN") == 0) {
+      cel->prjfwd = sinfwd;
+      cel->prjrev = sinrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "STG") == 0) {
+      cel->prjfwd = stgfwd;
+      cel->prjrev = stgrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "ARC") == 0) {
+      cel->prjfwd = arcfwd;
+      cel->prjrev = arcrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "ZPN") == 0) {
+      cel->prjfwd = zpnfwd;
+      cel->prjrev = zpnrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "ZEA") == 0) {
+      cel->prjfwd = zeafwd;
+      cel->prjrev = zearev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "AIR") == 0) {
+      cel->prjfwd = airfwd;
+      cel->prjrev = airrev;
+      theta0 = 90.0;
+   } else if (strcmp(pcode, "CYP") == 0) {
+      cel->prjfwd = cypfwd;
+      cel->prjrev = cyprev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "CAR") == 0) {
+      cel->prjfwd = carfwd;
+      cel->prjrev = carrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "MER") == 0) {
+      cel->prjfwd = merfwd;
+      cel->prjrev = merrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "CEA") == 0) {
+      cel->prjfwd = ceafwd;
+      cel->prjrev = cearev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "COP") == 0) {
+      cel->prjfwd = copfwd;
+      cel->prjrev = coprev;
+      theta0 = prj->p[1];
+   } else if (strcmp(pcode, "COD") == 0) {
+      cel->prjfwd = codfwd;
+      cel->prjrev = codrev;
+      theta0 = prj->p[1];
+   } else if (strcmp(pcode, "COE") == 0) {
+      cel->prjfwd = coefwd;
+      cel->prjrev = coerev;
+      theta0 = prj->p[1];
+   } else if (strcmp(pcode, "COO") == 0) {
+      cel->prjfwd = coofwd;
+      cel->prjrev = coorev;
+      theta0 = prj->p[1];
+   } else if (strcmp(pcode, "BON") == 0) {
+      cel->prjfwd = bonfwd;
+      cel->prjrev = bonrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "PCO") == 0) {
+      cel->prjfwd = pcofwd;
+      cel->prjrev = pcorev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "GLS") == 0) {
+      cel->prjfwd = glsfwd;
+      cel->prjrev = glsrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "PAR") == 0) {
+      cel->prjfwd = parfwd;
+      cel->prjrev = parrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "AIT") == 0) {
+      cel->prjfwd = aitfwd;
+      cel->prjrev = aitrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "MOL") == 0) {
+      cel->prjfwd = molfwd;
+      cel->prjrev = molrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "CSC") == 0) {
+      cel->prjfwd = cscfwd;
+      cel->prjrev = cscrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "QSC") == 0) {
+      cel->prjfwd = qscfwd;
+      cel->prjrev = qscrev;
+      theta0 = 0.0;
+   } else if (strcmp(pcode, "TSC") == 0) {
+      cel->prjfwd = tscfwd;
+      cel->prjrev = tscrev;
+      theta0 = 0.0;
+   } else {
+      /* Unrecognized projection code. */
+d280 1
+a280 1
+   if (theta0 == 90.0) {
+d298 1
+a298 1
+         cel->ref[2] = (cel->ref[1] < theta0) ? 180.0 : 0.0;
+d305 2
+a306 2
+      cthe0 = cosd(theta0);
+      sthe0 = sind(theta0);
+d364 1
+a364 1
+            cel->euler[1] = 90.0 - theta0;
+d426 1
+a426 1
+   if (err = cel->prjfwd(*phi, *theta, prj, x, y)) {
+d452 1
+a452 1
+   if (err = cel->prjrev(x, y, prj, phi, theta)) {
+@
+
+
+2.8
+log
+@Need to include sph.h.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d234 1
+a234 1
+*   $Id: cel.c,v 2.7 1999/12/13 07:26:09 mcalabre Exp mcalabre $
+@
+
+
+2.7
+log
+@Revised include file handling.
+@
+text
+@d234 1
+a234 1
+*   $Id: cel.c,v 2.6 1999/06/16 00:02:41 mcalabre Exp mcalabre $
+d239 1
+@
+
+
+2.6
+log
+@Updated date in copyright notice.
+@
+text
+@d234 1
+a234 1
+*   $Id: cel.c,v 2.5 1998/02/25 07:05:50 mcalabre Exp mcalabre $
+d237 2
+@
+
+
+2.5
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d234 1
+a234 1
+*   $Id: cel.c,v 2.4 1996/09/10 06:31:35 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Removed the "signbit()" macro definition since it wasn't used.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d234 1
+a234 1
+*   $Id: cel.c,v 2.3 1996/05/24 07:25:36 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@Include cel.h earlier to handle const definition for K&R compiler.
+@
+text
+@d234 1
+a234 1
+*   $Id: cel.c,v 2.2 1996/05/07 20:22:59 mcalabre Exp mcalabre $
+a262 4
+
+#ifdef SIGNBIT
+#define signbit(X) ((X) < 0.0 ? 0 : 1)
+#endif
+@
+
+
+2.2
+log
+@Added definition of static variable pcodes.
+Added const-correctness to function arguments.
+Added external arrays of error messages indexed by function return value.
+@
+text
+@d234 1
+a234 1
+*   $Id: cel.c,v 2.1 1995/11/09 03:09:49 mcalabre Exp mcalabre $
+d237 2
+a244 1
+ 
+a262 2
+
+#include "cel.h"
+@
+
+
+2.1
+log
+@Make euler[0] the same sign as ref[0].  Also, ensure that latp is defined
+when the reference point is at the pole for the test for ill-conditioned
+parameters.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d53 2
+a54 1
+*      pcode[4] char     WCS projection code (see below).
+d75 4
+a78 2
+*      pcode[4] char     WCS projection code (see below).
+*      lng,lat  double   Celestial longitude and latitude of the projected
+d109 4
+a112 2
+*      pcode[4] char     WCS projection code (see below).
+*      x,y      double   Projected coordinates, "degrees".
+d234 1
+a234 1
+*   $Id: cel.c,v 2.0 1995/09/12 09:37:15 mcalabre Exp mcalabre $
+d237 26
+a264 6
+#ifndef __STDC__
+#ifndef const
+#define const
+#endif
+#endif
+
+d271 1
+a271 1
+char pcode[4];
+d520 2
+a521 2
+char   pcode[4];
+double lng, lat;
+d549 2
+a550 2
+char   pcode[4];
+double x, y;
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d229 1
+a229 1
+*   $Id: cel.c,v 1.2 1995/09/12 09:36:36 mcalabre Exp mcalabre $
+a373 1
+      cel->ref[3] = cel->ref[1];
+d375 3
+d379 1
+a379 1
+      cel->euler[1] = 90.0 - cel->ref[1];
+d468 7
+@
+
+
+1.2
+log
+@Revised the description of LATPOLE in the prologue.
+@
+text
+@d229 1
+a229 1
+*   $Id: cel.c,v 1.1 1995/09/11 04:38:08 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision - cloned from revision 1.1 of wcs.c with the following
+changes:
+1) Renamed from wcs* -> cel*.
+2) Reference latitude for conics now at the midpoint of the standard
+   parallels.
+3) celprm.ref[3] now contains LATPOLE.
+4) celset() now correctly interprets LONGPOLE and LATPOLE as per the new
+   draft specification.
+@
+text
+@d151 1
+a151 1
+*         the pole of the celestial coordinate system which correspond to the
+d156 3
+a158 1
+*         latitude, otherwise 180 degrees.  cel.ref[2] may be set to 999.0 to
+d161 9
+a169 6
+*         The latitude of the native pole is usually determined by the first
+*         three values to within a sign and the sign of LATPOLE is used to
+*         disambiguate such cases - the more northerly solution is chosen if
+*         LATPOLE is non-negative).  The computed value is set in cel.ref[3].
+*         For the special case where the reference point of the projection is
+*         at native latitude zero, its celestial latitude is zero, and
+d171 2
+a172 2
+*         determined by the first three reference values and LATPOLE specifies
+*         it completely.
+d229 1
+a229 1
+*   $Id: cel.c,v 1.1 1995/01/31 03:20:27 mcalabre Exp mcalabre $
+@

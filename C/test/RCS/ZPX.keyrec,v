@@ -1,0 +1,1787 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	1.0;
+
+1.0
+date	2015.07.05.15.34.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.06.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FITS header keyrecords used for testing the "ZPX" projection.  This file
+must be processed by utility 'tofits' to produce a valid FITS file.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# WCSLIB 8.10 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2026, Mark Calabretta
+#
+# This file is part of WCSLIB.
+#
+# WCSLIB is free software: you can redistribute it and/or modify it under the
+# terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option)
+# any later version.
+#
+# WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+# more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: ZPX.keyrec,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+#
+# FITS header keyrecords used for testing the "ZPX" projection.
+#
+# This header was adapted from the sample provided at
+# http://fits.gsfc.nasa.gov/registry/zpxwcs/zpx-hdr.txt
+#
+# Use 'tofits' (supplied) to convert this file to proper FITS format via
+#
+#     tofits < ZPX.keyrec > ZPX.fits
+#
+# Lines in this file beginning with '#' are ignored by tofits.
+#
+#-----------------------------------------------------------------------------
+SIMPLE  =                    T / Conforms to FITS standard
+BITPIX  =                  -32 / IEEE single precision floating point
+NAXIS   =                    2 / 2 image axes
+NAXIS1  =                  512 / Length of image axis 1
+NAXIS2  =                  512 / Length of image axis 2
+
+CRPIX1  =     4167.56175625891 / Pixel coordinate of reference point
+CRPIX2  =     4120.25894749731 / Pixel coordinate of reference point
+CD1_1   =  -5.2588308681025E-8 / [deg] CD matrix element
+CD2_1   =  -7.2772379161132E-5 / [deg] CD matrix element
+CD1_2   =  -7.2753930850119E-5 / [deg] CD matrix element
+CD2_2   =  -1.8637632244742E-8 / [deg] CD matrix element
+CTYPE1  = 'RA---ZPX'           / RA  in ZPN projection with distortions
+CTYPE2  = 'DEC--ZPX'           / Dec in ZPN projection with distortions
+CRVAL1  =     320.687374999995 / [deg] Right ascension at the reference point
+CRVAL2  =      36.908555555556 / [deg] Declination at the reference point
+
+WAT0_001= 'system=image'       / ZPN parameters and distortion coefficients
+WAT1_001= 'wtype=zpx axtype=ra projp0=0. projp1=1. projp2=0. projp3=337.74 proj'
+WAT1_002= 'p4=0. projp5=632052. lngcor = "3. 3. 3. 2. 0.001876397956622823 0.29'
+WAT1_003= '99113930557312 0.1542460039112511 0.3032873851581314 1.9247409545894'
+WAT1_004= '95E-5 -1.348328290485618E-5 1.414186703253352E-4 -1.792784764381400E'
+WAT1_005= '-4 -1.276226238774833E-4 4.339217671825231E-4 "'
+WAT2_001= 'wtype=zpx axtype=dec projp0=0. projp1=1. projp2=0. projp3=337.74 pro'
+WAT2_002= 'jp4=0. projp5=632052. latcor = "3. 3. 3. 2. 0.001876397956622823 0.2'
+WAT2_003= '999113930557312 0.1542460039112511 0.3032873851581314 9.963957331149'
+WAT2_004= '402E-5 -1.378185066830135E-4 1.559892401479664E-4 -8.280442729203771'
+WAT2_005= 'E-4 3.966701903249366E-4 0.001678960379199465 "'
+
+END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.5 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: ZPX.keyrec,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: ZPX.keyrec,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.2 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.13 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.7 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.3.1.3 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.3 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+# Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+#
+d22 1
+a22 1
+# $Id: ZPX.keyrec,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.3.1.2 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 2
+a3 2
+# WCSLIB 6.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2019, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2020, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 2
+a3 2
+# WCSLIB 6.2 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2018, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2019, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.17 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2017, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2018, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.15.1.2 2017/01/15 04:06:46 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.15 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2016, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2017, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.12 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2015, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2016, Mark Calabretta
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: SIP.keyrec,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: ZPX.keyrec,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+1.0
+log
+@Empty revision.
+@
+text
+@d1 68
+@

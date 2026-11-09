@@ -1,0 +1,5759 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.08.59.02;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.07.26.29;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.25.07.06.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.02.23.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.02.39.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.12.15.25.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2012.11.29.04.42.34;	author cal103;	state Exp;
+branches;
+next	4.16.1.3;
+
+4.16.1.3
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.2;
+
+4.22.1.2
+date	2014.05.04.08.46.10;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.3;
+
+4.22.1.3
+date	2014.05.11.04.04.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	4.23.1.2;
+
+4.23.1.2
+date	2014.05.22.10.56.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.2;
+
+5.2.1.2
+date	2015.04.18.07.39.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.27.08.31.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.13.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.12.13.26.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.00.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.05.04.42.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.07.07.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	6.1.1.2;
+
+6.1.1.2
+date	2018.10.20.09.40.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.11.06.34.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.01.05.41.12;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.12.02.22.00;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.4;
+
+6.4.1.4
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.45.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.05.13.01.59.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.13.14.32.49;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.13.16.03.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.13.05.10.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Implementation of simple utility functions used internally by WCSLIB.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutil.c,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*===========================================================================*/
+
+#include <ctype.h>
+#include <locale.h>
+#include <math.h>
+#include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "wcsutil.h"
+#include "wcsmath.h"
+
+//----------------------------------------------------------------------------
+
+void wcsdealloc(void *ptr)
+
+{
+  free(ptr);
+
+  return;
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_strcvt(int n, char c, int nt, const char src[], char dst[])
+
+{
+  if (n <= 0 || dst == 0x0) return;
+
+  if (c != '\0') c = ' ';
+
+  if (src == 0x0) {
+    memset(dst, c, n);
+
+  } else {
+    // Copy to the first NULL character.
+    int j;
+    for (j = 0; j < n; j++) {
+      if ((dst[j] = src[j]) == '\0') {
+        break;
+      }
+    }
+
+    if (j < n) {
+      // The given string is null-terminated.
+      memset(dst+j, c, n-j);
+
+    } else {
+      // The given string is not null-terminated.
+      if (c == '\0') {
+        // Work backwards, looking for the first non-blank.
+        for (j = n - 1; j >= 0; j--) {
+          if (dst[j] != ' ') {
+            break;
+          }
+        }
+
+        j++;
+	if (j == n && !nt) {
+	  dst[n-1] = '\0';
+	} else {
+          memset(dst+j, '\0', n-j);
+	}
+      }
+    }
+  }
+
+  if (nt) dst[n] = '\0';
+
+  return;
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_blank_fill(int n, char c[])
+
+{
+  if (n <= 0) return;
+
+  if (c == 0x0) {
+    return;
+  }
+
+  // Replace the terminating null and all successive characters.
+  for (int j = 0; j < n; j++) {
+    if (c[j] == '\0') {
+      memset(c+j, ' ', n-j);
+      break;
+    }
+  }
+
+  return;
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_null_fill(int n, char c[])
+
+{
+  if (n <= 0) return;
+
+  if (c == 0x0) {
+    return;
+  }
+
+  // Find the first NULL character.
+  int j;
+  for (j = 0; j < n; j++) {
+    if (c[j] == '\0') {
+      break;
+    }
+  }
+
+  // Ensure null-termination.
+  if (j == n) {
+    j = n - 1;
+    c[j] = '\0';
+  }
+
+  // Work backwards, looking for the first non-blank.
+  j--;
+  for (; j > 0; j--) {
+    if (c[j] != ' ') {
+      break;
+    }
+  }
+
+  if (++j < n) {
+    memset(c+j, '\0', n-j);
+  }
+
+  return;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_all_ival(int nelem, int ival, const int iarr[])
+
+{
+  for (int i = 0; i < nelem; i++) {
+    if (iarr[i] != ival) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_all_dval(int nelem, double dval, const double darr[])
+
+{
+  for (int i = 0; i < nelem; i++) {
+    if (darr[i] != dval) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_all_sval(int nelem, const char *sval, const char (*sarr)[72])
+
+{
+  for (int i = 0; i < nelem; i++) {
+    if (strncmp(sarr[i], sval, 72) != 0) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_allEq(int nvec, int nelem, const double *first)
+
+{
+  if (nvec <= 0 || nelem <= 0) return 0;
+
+  double v0 = *first;
+  const double *last = first + (ptrdiff_t)(nvec*nelem);
+  for (const double *vp = first+nelem; vp < last; vp += nelem) {
+    if (*vp != v0) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_dblEq(
+  int nelem,
+  double tol,
+  const double *darr1,
+  const double *darr2)
+
+{
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+  if (darr1 == 0x0 && darr2 == 0x0) return 1;
+
+  if (tol == 0.0) {
+    // Handled separately for speed of execution.
+    for (int i = 0; i < nelem; i++) {
+      double dval1 = (darr1 ? darr1[i] : UNDEFINED);
+      double dval2 = (darr2 ? darr2[i] : UNDEFINED);
+
+      // Undefined values must match exactly.
+      if (dval1 == UNDEFINED && dval2 != UNDEFINED) return 0;
+      if (dval1 != UNDEFINED && dval2 == UNDEFINED) return 0;
+
+      if (dval1 != dval2) return 0;
+    }
+
+  } else {
+    for (int i = 0; i < nelem; i++) {
+      double dval1 = (darr1 ? darr1[i] : UNDEFINED);
+      double dval2 = (darr2 ? darr2[i] : UNDEFINED);
+
+      // Undefined values must match exactly.
+      if (dval1 == UNDEFINED && dval2 != UNDEFINED) return 0;
+      if (dval1 != UNDEFINED && dval2 == UNDEFINED) return 0;
+
+      // Otherwise, compare within the specified tolerance.
+      if (fabs(dval1 - dval2) > 0.5*tol) return 0;
+    }
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_intEq(int nelem, const int *iarr1, const int *iarr2)
+
+{
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+  if (iarr1 == 0x0 && iarr2 == 0x0) return 1;
+
+  for (int i = 0; i < nelem; i++) {
+    int ival1 = (iarr1 ?  iarr1[i] : 0);
+    int ival2 = (iarr2 ?  iarr2[i] : 0);
+
+    if (ival1 != ival2) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_strEq(int nelem, char (*sarr1)[72], char (*sarr2)[72])
+
+{
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+  if (sarr1 == 0x0 && sarr2 == 0x0) return 1;
+
+  for (int i = 0; i < nelem; i++) {
+    char *sval1 = (sarr1 ?  sarr1[i] : "");
+    char *sval2 = (sarr2 ?  sarr2[i] : "");
+
+    if (strncmp(sval1, sval2, 72) != 0) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_setAll(int nvec, int nelem, double *first)
+
+{
+  if (nvec <= 0 || nelem <= 0) return;
+
+  double v0 = *first;
+  double *last = first + (ptrdiff_t)(nvec*nelem);
+  for (double *vp = first+nelem; vp < last; vp += nelem) {
+    *vp = v0;
+  }
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_setAli(int nvec, int nelem, int *first)
+
+{
+  if (nvec <= 0 || nelem <= 0) return;
+
+  int v0 = *first;
+  int *last = first + (ptrdiff_t)(nvec*nelem);
+  for (int *vp = first+nelem; vp < last; vp += nelem) {
+    *vp = v0;
+  }
+}
+
+//----------------------------------------------------------------------------
+
+void wcsutil_setBit(int nelem, const int *sel, int bits, int *array)
+
+{
+  if (bits == 0 || nelem <= 0) return;
+
+  if (sel == 0x0) {
+    // All elements selected.
+    for (int *arrp = array; arrp < array + nelem; arrp++) {
+      *arrp |= bits;
+    }
+
+  } else {
+    // Some elements selected.
+    for (int *arrp = array; arrp < array + nelem; arrp++) {
+      if (*(sel++)) *arrp |= bits;
+    }
+  }
+}
+
+//----------------------------------------------------------------------------
+
+char *wcsutil_fptr2str(void (*fptr)(void), char hext[19])
+
+{
+  // Test for little-endian addresses.
+  int *(ip[2]), j[2], le = 1;
+  ip[0] = j;
+  ip[1] = j + 1;
+  unsigned char *p = (unsigned char *)(&fptr);
+  if ((unsigned char *)ip[0] < (unsigned char *)ip[1]) {
+    // Little-endian, reverse it.
+    p += sizeof(fptr) - 1;
+    le = -1;
+  }
+
+  strncpy(hext, "0x0", 4);
+
+  int gotone = 0;
+  size_t tsize = 17;
+  char *tp = hext + 2;
+  for (size_t i = 0; i < sizeof(fptr); i++) {
+    // Skip leading zeroes.
+    if (*p) gotone = 1;
+
+    if (gotone) {
+      snprintf(tp, tsize, "%02x", *p);
+      tp += 2;
+      tsize -= 2;
+    }
+
+    p += le;
+  }
+
+  return hext;
+}
+
+//----------------------------------------------------------------------------
+
+static void wcsutil_locale_to_dot(char *buf)
+
+{
+  struct lconv *locale_data = localeconv();
+  const char *decimal_point = locale_data->decimal_point;
+
+  if (decimal_point[0] != '.' || decimal_point[1] != 0) {
+    size_t decimal_point_len = strlen(decimal_point);
+    char *inbuf = buf;
+    char *outbuf = buf;
+
+    for ( ; *inbuf; inbuf++) {
+      if (strncmp(inbuf, decimal_point, decimal_point_len) == 0) {
+        *outbuf++ = '.';
+        inbuf += decimal_point_len - 1;
+      } else {
+        *outbuf++ = *inbuf;
+      }
+    }
+
+    *outbuf = '\0';
+  }
+}
+
+
+void wcsutil_double2str(
+  char *buf,
+  size_t bsize,
+  const char *format,
+  double value)
+
+{
+  snprintf(buf, bsize, format, value);
+  wcsutil_locale_to_dot(buf);
+
+  // Look for a decimal point or exponent.
+  char *bp = buf;
+  while (*bp) {
+    if (*bp != ' ') {
+      if (*bp == '.') return;
+      if (*bp == 'e') return;
+      if (*bp == 'E') return;
+    }
+    bp++;
+  }
+
+  // Not found, add a fractional part.
+  bp = buf;
+  if (*bp == ' ') {
+    char *cp = buf + 1;
+    if (*cp == ' ') cp++;
+
+    while (*cp) {
+      *bp = *cp;
+      bp++;
+      cp++;
+    }
+
+    *bp = '.';
+    bp++;
+    if (bp < cp) *bp = '0';
+  }
+}
+
+//----------------------------------------------------------------------------
+
+static const char *wcsutil_dot_to_locale(const char *inbuf, char *outbuf)
+
+{
+  struct lconv *locale_data = localeconv();
+  const char *decimal_point = locale_data->decimal_point;
+
+  if (decimal_point[0] != '.' || decimal_point[1] != 0) {
+    char *out = outbuf;
+    size_t decimal_point_len = strlen(decimal_point);
+
+    for ( ; *inbuf; inbuf++) {
+      if (*inbuf == '.') {
+        memcpy(out, decimal_point, decimal_point_len);
+        out += decimal_point_len;
+      } else {
+        *out++ = *inbuf;
+      }
+    }
+
+    *out = '\0';
+
+    return outbuf;
+  } else {
+    return inbuf;
+  }
+}
+
+
+int wcsutil_str2double(const char *buf, double *value)
+
+{
+  char ctmp[72];
+  return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value) < 1;
+}
+
+
+int wcsutil_str2double2(const char *buf, double *value)
+
+{
+  value[0] = 0.0;
+  value[1] = 0.0;
+
+  // Get the integer part.
+  char ltmp[72];
+  if (sscanf(wcsutil_dot_to_locale(buf, ltmp), "%lf", value) < 1) {
+    return 1;
+  }
+  value[0] = floor(value[0]);
+
+  char ctmp[72];
+  strncpy(ctmp, buf, 72);
+
+  // Look for a decimal point.
+  char *dptr = strchr(ctmp, '.');
+
+  // Look for an exponent.
+  char *eptr;
+  if ((eptr = strchr(ctmp, 'E')) == NULL) {
+    if ((eptr = strchr(ctmp, 'D')) == NULL) {
+      if ((eptr = strchr(ctmp, 'e')) == NULL) {
+        eptr = strchr(ctmp, 'd');
+      }
+    }
+  }
+
+  int exp = 0;
+  if (eptr) {
+    // Get the exponent.
+    if (sscanf(eptr+1, "%d", &exp) < 1) {
+      return 1;
+    }
+
+    if (!dptr) {
+      dptr = eptr;
+      eptr++;
+    }
+
+    if (dptr+exp <= ctmp) {
+      // There is only a fractional part.
+      return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value+1) < 1;
+    } else if (eptr <= dptr+exp+1) {
+      // There is no fractional part.
+      return 0;
+    }
+  }
+
+  // Get the fractional part.
+  if (dptr) {
+    char *cptr = ctmp;
+    while (cptr <= dptr+exp) {
+      if ('0' < *cptr && *cptr <= '9') *cptr = '0';
+      cptr++;
+    }
+
+    if (sscanf(wcsutil_dot_to_locale(ctmp, ltmp), "%lf", value+1) < 1) {
+      return 1;
+    }
+  }
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.6.1.2 2026/04/13 05:10:12 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d29 1
+d51 1
+a51 1
+  if (n <= 0) return;
+d56 1
+a56 3
+    if (dst) {
+      memset(dst, c, n);
+    }
+d188 1
+a188 1
+    if (strncmp(sarr[i], sval, 72)) return 0;
+d202 2
+a203 1
+  for (const double *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d288 1
+a288 1
+    if (strncmp(sval1, sval2, 72)) return 0;
+d302 2
+a303 1
+  for (double *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d316 2
+a317 1
+  for (int *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d359 1
+a359 3
+  char *t = hext;
+  sprintf(t, "0x0");
+  t += 2;
+d362 2
+d369 3
+a371 2
+      sprintf(t, "%02x", *p);
+      t += 2;
+d407 5
+a411 1
+void wcsutil_double2str(char *buf, const char *format, double value)
+d414 1
+a414 1
+  sprintf(buf, format, value);
+d498 1
+a498 1
+  strcpy(ctmp, buf);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Argument list to wcsutil_double2str() changed to pass the buffer size.
+Found by clang-tidy:
+ - In wcsutil_strcvt(), guard against dst == 0x0
+   (clang-analyzer-core.NullDereference).
+Inconsequential changes prompted by clang-tidy:
+ - Explicitly cast result of int multiplication to ptrdiff_t when doing
+   pointer arithmetic (bugprone-implicit-widening-of-multiplication-result).
+ - Explicitly test the return value of strncmp() in if-statements
+   (bugprone-suspicious-string-compare).
+ - Replaced use of strcpy() with strncpy(), and sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.6.1.2 2026/04/10 09:22:27 mcalabre Exp mcalabre $
+a28 1
+#include <stddef.h>
+d50 1
+a50 1
+  if (n <= 0 || dst == 0x0) return;
+d55 3
+a57 1
+    memset(dst, c, n);
+d189 1
+a189 1
+    if (strncmp(sarr[i], sval, 72) != 0) return 0;
+d203 1
+a203 2
+  const double *last = first + (ptrdiff_t)(nvec*nelem);
+  for (const double *vp = first+nelem; vp < last; vp += nelem) {
+d288 1
+a288 1
+    if (strncmp(sval1, sval2, 72) != 0) return 0;
+d302 1
+a302 2
+  double *last = first + (ptrdiff_t)(nvec*nelem);
+  for (double *vp = first+nelem; vp < last; vp += nelem) {
+d315 1
+a315 2
+  int *last = first + (ptrdiff_t)(nvec*nelem);
+  for (int *vp = first+nelem; vp < last; vp += nelem) {
+d357 3
+a359 1
+  strncpy(hext, "0x0", 4);
+a361 2
+  size_t tsize = 17;
+  char *tp = hext + 2;
+d367 2
+a368 3
+      snprintf(tp, tsize, "%02x", *p);
+      tp += 2;
+      tsize -= 2;
+d404 1
+a404 5
+void wcsutil_double2str(
+  char *buf,
+  size_t bsize,
+  const char *format,
+  double value)
+d407 1
+a407 1
+  snprintf(buf, bsize, format, value);
+d491 1
+a491 1
+  strncpy(ctmp, buf, 72);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutil.c,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutil.c,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.2.1.4 2024/05/13 16:03:54 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Added wcsutil_fletcher32().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+a27 1
+#include <stdint.h>
+a540 17
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_fletcher32(const uint16_t *data, size_t len)
+
+{
+  uint32_t c0, c1;
+  for (c0 = c1 = 0; 0 < len; len--) {
+    c0 += *data++;
+    c1 += c0;
+  }
+
+  c0 %= 65535;
+  c1 %= 65535;
+
+  return (int)(c1 << 16 | c0);
+@
+
+
+8.2.1.4
+log
+@Moved wcsutil_fletcher32() to wcs.c as a static function, wcs_fletcher32().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.2.1.3 2024/05/13 14:32:49 mcalabre Exp mcalabre $
+d28 1
+d542 17
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.6.1.2 2021/05/13 01:59:05 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.5.1.2 2021/04/13 09:45:16 mcalabre Exp mcalabre $
+d361 1
+a363 1
+    int gotone = 0;
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Bug fix in wcsutil_fptr2str(), it was stripping all zeroes from the address!
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+a360 1
+  int gotone = 0;
+d363 1
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.4.1.2 2021/02/22 07:19:27 mcalabre Exp mcalabre $
+a101 2
+  int j;
+
+d109 1
+a109 1
+  for (j = 0; j < n; j++) {
+a123 2
+  int j;
+
+d131 1
+d161 36
+a199 3
+  double v0;
+  const double *vp;
+
+d202 2
+a203 2
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d212 5
+a216 1
+int wcsutil_Eq(int nelem, double tol, const double *arr1, const double *arr2)
+a218 2
+  int i;
+
+d222 1
+a222 2
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+d226 9
+a234 2
+    for (i = 0; i < nelem; i++, arr1++, arr2++) {
+      if (*arr1 != *arr2) return 0;
+d238 4
+a241 1
+    for (i = 0; i < nelem; i++, arr1++, arr2++) {
+d243 2
+a244 2
+      if (*arr1 == UNDEFINED && *arr2 != UNDEFINED) return 0;
+      if (*arr1 != UNDEFINED && *arr2 == UNDEFINED) return 0;
+d247 1
+a247 1
+      if (fabs(*arr1 - *arr2) > 0.5*tol) return 0;
+d256 1
+a256 1
+int wcsutil_intEq(int nelem, const int *arr1, const int *arr2)
+a258 2
+  int i;
+
+d262 5
+a266 2
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+d268 1
+a268 2
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+    if (*arr1 != *arr2) return 0;
+d276 1
+a276 1
+int wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72])
+a278 2
+  int i;
+
+d282 1
+a282 2
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+d284 5
+a288 2
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+    if (strncmp(*arr1, *arr2, 72)) return 0;
+a298 2
+  double v0, *vp;
+
+d301 2
+a302 2
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+a311 2
+  int v0, *vp;
+
+d314 2
+a315 2
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+a324 2
+  int *arrp;
+
+d329 1
+a329 1
+    for (arrp = array; arrp < array + nelem; arrp++) {
+d335 1
+a335 1
+    for (arrp = array; arrp < array + nelem; arrp++) {
+a345 5
+  unsigned char *p = (unsigned char *)(&fptr);
+  char *t = hext;
+  unsigned int i;
+  int *(ip[2]), j[2], le = 1, gotone = 0;
+
+d347 1
+d350 1
+d357 1
+d361 1
+a361 1
+  for (i = 0; i < sizeof(fptr); i++) {
+d363 1
+a406 2
+  char *bp, *cp;
+
+d411 1
+a411 1
+  bp = buf;
+d424 1
+a424 1
+    cp = buf + 1;
+a479 3
+  char   *cptr, ctmp[72], *dptr, *eptr, ltmp[72];
+  int    exp = 0;
+
+d484 1
+d490 1
+d494 1
+a494 1
+  dptr = strchr(ctmp, '.');
+d497 1
+d506 1
+d529 1
+a529 1
+    cptr = ctmp;
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added wcsutil_all_ival(), wcsutil_all_dval(), and wcsutil_all_sval().
+Renamed wcsutil_Eq() -> wcsutil_dblEq().  In wcsutil_dblEq(), if one array
+is NULL, treat it as an array containing all UNDEFINED elements.  In
+wcsutil_intEq(), if one array is NULL, treat it as an array containing all
+zero elements.  In wcsutil_strEq(), if one array is NULL, treat it as an
+array of empty strings.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d102 2
+d111 1
+a111 1
+  for (int j = 0; j < n; j++) {
+d126 2
+a134 1
+  int j;
+d164 1
+a164 25
+int wcsutil_all_ival(int nelem, int ival, const int iarr[])
+
+{
+  for (int i = 0; i < nelem; i++) {
+    if (iarr[i] != ival) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_all_dval(int nelem, double dval, const double darr[])
+
+{
+  for (int i = 0; i < nelem; i++) {
+    if (darr[i] != dval) return 0;
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_all_sval(int nelem, const char *sval, const char (*sarr)[72])
+d167 2
+a168 3
+  for (int i = 0; i < nelem; i++) {
+    if (strncmp(sarr[i], sval, 72)) return 0;
+  }
+a169 8
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsutil_allEq(int nvec, int nelem, const double *first)
+
+{
+d172 2
+a173 2
+  double v0 = *first;
+  for (const double *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d182 1
+a182 5
+int wcsutil_dblEq(
+  int nelem,
+  double tol,
+  const double *darr1,
+  const double *darr2)
+d185 2
+d190 2
+a191 1
+  if (darr1 == 0x0 && darr2 == 0x0) return 1;
+d195 2
+a196 9
+    for (int i = 0; i < nelem; i++) {
+      double dval1 = (darr1 ? darr1[i] : UNDEFINED);
+      double dval2 = (darr2 ? darr2[i] : UNDEFINED);
+
+      // Undefined values must match exactly.
+      if (dval1 == UNDEFINED && dval2 != UNDEFINED) return 0;
+      if (dval1 != UNDEFINED && dval2 == UNDEFINED) return 0;
+
+      if (dval1 != dval2) return 0;
+d200 1
+a200 4
+    for (int i = 0; i < nelem; i++) {
+      double dval1 = (darr1 ? darr1[i] : UNDEFINED);
+      double dval2 = (darr2 ? darr2[i] : UNDEFINED);
+
+d202 2
+a203 2
+      if (dval1 == UNDEFINED && dval2 != UNDEFINED) return 0;
+      if (dval1 != UNDEFINED && dval2 == UNDEFINED) return 0;
+d206 1
+a206 1
+      if (fabs(dval1 - dval2) > 0.5*tol) return 0;
+d215 1
+a215 1
+int wcsutil_intEq(int nelem, const int *iarr1, const int *iarr2)
+d218 2
+d223 2
+a224 5
+  if (iarr1 == 0x0 && iarr2 == 0x0) return 1;
+
+  for (int i = 0; i < nelem; i++) {
+    int ival1 = (iarr1 ?  iarr1[i] : 0);
+    int ival2 = (iarr2 ?  iarr2[i] : 0);
+d226 2
+a227 1
+    if (ival1 != ival2) return 0;
+d235 1
+a235 1
+int wcsutil_strEq(int nelem, char (*sarr1)[72], char (*sarr2)[72])
+d238 2
+d243 2
+a244 1
+  if (sarr1 == 0x0 && sarr2 == 0x0) return 1;
+d246 2
+a247 5
+  for (int i = 0; i < nelem; i++) {
+    char *sval1 = (sarr1 ?  sarr1[i] : "");
+    char *sval2 = (sarr2 ?  sarr2[i] : "");
+
+    if (strncmp(sval1, sval2, 72)) return 0;
+d258 2
+d262 2
+a263 2
+  double v0 = *first;
+  for (double *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d273 2
+d277 2
+a278 2
+  int v0 = *first;
+  for (int *vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+d288 2
+d294 1
+a294 1
+    for (int *arrp = array; arrp < array + nelem; arrp++) {
+d300 1
+a300 1
+    for (int *arrp = array; arrp < array + nelem; arrp++) {
+d311 5
+a316 1
+  int *(ip[2]), j[2], le = 1;
+a318 1
+  unsigned char *p = (unsigned char *)(&fptr);
+a324 1
+  char *t = hext;
+d328 1
+a328 1
+  for (size_t i = 0; i < sizeof(fptr); i++) {
+a329 1
+    int gotone = 0;
+d373 2
+d379 1
+a379 1
+  char *bp = buf;
+d392 1
+a392 1
+    char *cp = buf + 1;
+d448 3
+a454 1
+  char ltmp[72];
+a459 1
+  char ctmp[72];
+d463 1
+a463 1
+  char *dptr = strchr(ctmp, '.');
+a465 1
+  char *eptr;
+a473 1
+  int exp = 0;
+d496 1
+a496 1
+    char *cptr = ctmp;
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp mcalabre $
+d47 1
+a47 1
+void wcsutil_strcvt(int n, char c, const char src[], char dst[])
+a49 2
+  int j;
+
+d56 1
+a56 1
+       memset(dst, c, n);
+d59 7
+a65 7
+    return;
+  }
+
+  // Copy to the first NULL character.
+  for (j = 0; j < n; j++) {
+    if ((dst[j] = src[j]) == '\0') {
+      break;
+a66 1
+  }
+d68 13
+a80 3
+  if (j < n) {
+    // The given string is null-terminated.
+    memset(dst+j, c, n-j);
+d82 6
+a87 13
+  } else {
+    // The given string is not null-terminated.
+    if (c == '\0') {
+      j = n - 1;
+      dst[j] = '\0';
+
+      j--;
+
+      // Work backwards, looking for the first non-blank.
+      for (; j >= 0; j--) {
+        if (dst[j] != ' ') {
+          break;
+        }
+a88 3
+
+      j++;
+      memset(dst+j, '\0', n-j);
+d91 2
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added a new argument, nt, to the wcsutil_strcvt() function prototype.  This
+allows the function to handle an operation that otherwise frequently needed
+to be done by the caller.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d47 1
+a47 1
+void wcsutil_strcvt(int n, char c, int nt, const char src[], char dst[])
+d50 2
+d58 1
+a58 1
+      memset(dst, c, n);
+d61 7
+a67 7
+  } else {
+    // Copy to the first NULL character.
+    int j;
+    for (j = 0; j < n; j++) {
+      if ((dst[j] = src[j]) == '\0') {
+        break;
+      }
+d69 1
+d71 16
+a86 12
+    if (j < n) {
+      // The given string is null-terminated.
+      memset(dst+j, c, n-j);
+
+    } else {
+      // The given string is not null-terminated.
+      if (c == '\0') {
+        // Work backwards, looking for the first non-blank.
+        for (j = n - 1; j >= 0; j--) {
+          if (dst[j] != ' ') {
+            break;
+          }
+d88 1
+d90 2
+a91 7
+        j++;
+	if (j == n && !nt) {
+	  dst[n-1] = '\0';
+	} else {
+          memset(dst+j, '\0', n-j);
+	}
+      }
+a93 2
+
+  if (nt) dst[n] = '\0';
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsutil.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d35 1
+a35 1
+/*--------------------------------------------------------------------------*/
+d45 1
+a45 1
+/*--------------------------------------------------------------------------*/
+d64 1
+a64 1
+  /* Copy to the first NULL character. */
+d72 1
+a72 1
+    /* The given string is null-terminated. */
+d76 1
+a76 1
+    /* The given string is not null-terminated. */
+d83 1
+a83 1
+      /* Work backwards, looking for the first non-blank. */
+d98 1
+a98 1
+/*--------------------------------------------------------------------------*/
+d111 1
+a111 1
+  /* Replace the terminating null and all successive characters. */
+d122 1
+a122 1
+/*--------------------------------------------------------------------------*/
+d135 1
+a135 1
+  /* Find the first NULL character. */
+d142 1
+a142 1
+  /* Ensure null-termination. */
+d148 1
+a148 1
+  /* Work backwards, looking for the first non-blank. */
+d163 1
+a163 1
+/*--------------------------------------------------------------------------*/
+d181 1
+a181 1
+/*--------------------------------------------------------------------------*/
+d195 1
+a195 1
+    /* Handled separately for speed of execution. */
+d202 1
+a202 1
+      /* Undefined values must match exactly. */
+d206 1
+a206 1
+      /* Otherwise, compare within the specified tolerance. */
+d214 1
+a214 1
+/*--------------------------------------------------------------------------*/
+d234 1
+a234 1
+/*--------------------------------------------------------------------------*/
+d254 1
+a254 1
+/*--------------------------------------------------------------------------*/
+d269 1
+a269 1
+/*--------------------------------------------------------------------------*/
+d284 1
+a284 1
+/*--------------------------------------------------------------------------*/
+d294 1
+a294 1
+    /* All elements selected. */
+d300 1
+a300 1
+    /* Some elements selected. */
+d307 1
+a307 1
+/*--------------------------------------------------------------------------*/
+d317 1
+a317 1
+  /* Test for little-endian addresses. */
+d321 1
+a321 1
+    /* Little-endian, reverse it. */
+d330 1
+a330 1
+    /* Skip leading zeroes. */
+d344 1
+a344 1
+/*--------------------------------------------------------------------------*/
+d379 1
+a379 1
+  /* Look for a decimal point or exponent. */
+d390 1
+a390 1
+  /* Not found, add a fractional part. */
+d408 1
+a408 1
+/*--------------------------------------------------------------------------*/
+d455 1
+a455 1
+  /* Get the integer part. */
+d463 1
+a463 1
+  /* Look for a decimal point. */
+d466 1
+a466 1
+  /* Look for an exponent. */
+d476 1
+a476 1
+    /* Get the exponent. */
+d487 1
+a487 1
+      /* There is only a fractional part. */
+d490 1
+a490 1
+      /* There is no fractional part. */
+d495 1
+a495 1
+  /* Get the fractional part. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsutil.c,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d38 1
+a38 1
+//----------------------------------------------------------------------------
+d48 1
+a48 1
+//----------------------------------------------------------------------------
+d67 1
+a67 1
+  // Copy to the first NULL character.
+d75 1
+a75 1
+    // The given string is null-terminated.
+d79 1
+a79 1
+    // The given string is not null-terminated.
+d86 1
+a86 1
+      // Work backwards, looking for the first non-blank.
+d101 1
+a101 1
+//----------------------------------------------------------------------------
+d114 1
+a114 1
+  // Replace the terminating null and all successive characters.
+d125 1
+a125 1
+//----------------------------------------------------------------------------
+d138 1
+a138 1
+  // Find the first NULL character.
+d145 1
+a145 1
+  // Ensure null-termination.
+d151 1
+a151 1
+  // Work backwards, looking for the first non-blank.
+d166 1
+a166 1
+//----------------------------------------------------------------------------
+d184 1
+a184 1
+//----------------------------------------------------------------------------
+d198 1
+a198 1
+    // Handled separately for speed of execution.
+d205 1
+a205 1
+      // Undefined values must match exactly.
+d209 1
+a209 1
+      // Otherwise, compare within the specified tolerance.
+d217 1
+a217 1
+//----------------------------------------------------------------------------
+d237 1
+a237 1
+//----------------------------------------------------------------------------
+d257 1
+a257 1
+//----------------------------------------------------------------------------
+d272 1
+a272 1
+//----------------------------------------------------------------------------
+d287 1
+a287 1
+//----------------------------------------------------------------------------
+d297 1
+a297 1
+    // All elements selected.
+d303 1
+a303 1
+    // Some elements selected.
+d310 1
+a310 1
+//----------------------------------------------------------------------------
+d320 1
+a320 1
+  // Test for little-endian addresses.
+d324 1
+a324 1
+    // Little-endian, reverse it.
+d333 1
+a333 1
+    // Skip leading zeroes.
+d347 1
+a347 1
+//----------------------------------------------------------------------------
+d382 1
+a382 1
+  // Look for a decimal point or exponent.
+d393 1
+a393 1
+  // Not found, add a fractional part.
+d411 1
+a411 1
+//----------------------------------------------------------------------------
+d458 1
+a458 1
+  // Get the integer part.
+d466 1
+a466 1
+  // Look for a decimal point.
+d469 1
+a469 1
+  // Look for an exponent.
+d479 1
+a479 1
+    // Get the exponent.
+d490 1
+a490 1
+      // There is only a fractional part.
+d493 1
+a493 1
+      // There is no fractional part.
+d498 1
+a498 1
+  // Get the fractional part.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsutil.c,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsutil.c,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.4.1.4 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d50 53
+d106 3
+a108 1
+  int k;
+d110 10
+a119 2
+  for (k = strlen(c); k < n; k++) {
+    c[k] = ' ';
+d130 1
+a130 1
+  int j, k;
+d134 5
+a138 2
+  /* Null-fill the string. */
+  *(c+n-1) = '\0';
+a140 3
+      for (k = j+1; k < n; k++) {
+        c[k] = '\0';
+      }
+d145 16
+a160 3
+  for (k = j-1; k > 0; k--) {
+    if (c[k] != ' ') break;
+    c[k] = '\0';
+d163 1
+a163 1
+   return;
+d425 1
+a425 1
+        strncpy(out, decimal_point, decimal_point_len);
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@In wcsutil_dot_to_locale(), as recommended in the GCC 9.2.0 man page,
+substituted memcpy() for one instance of strncpy() that generated a
+nuisance warning with -Wstringop-truncation (via -Wall).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d349 1
+a349 1
+        memcpy(out, decimal_point, decimal_point_len);
+@
+
+
+6.4.1.3
+log
+@Added wcsutil_strcvt().  In wcsutil_blank_fill(), guard against strings that
+are not null-terminated and use memset() to do the character replacement.
+Similarly in wcsutil_null_fill().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.4.1.3 2019/12/03 05:05:19 mcalabre Exp mcalabre $
+a49 53
+void wcsutil_strcvt(int n, char c, const char src[], char dst[])
+
+{
+  int j;
+
+  if (n <= 0) return;
+
+  if (c != '\0') c = ' ';
+
+  if (src == 0x0) {
+    if (dst) {
+       memset(dst, c, n);
+    }
+
+    return;
+  }
+
+  /* Copy to the first NULL character. */
+  for (j = 0; j < n; j++) {
+    if ((dst[j] = src[j]) == '\0') {
+      break;
+    }
+  }
+
+  if (j < n) {
+    /* The given string is null-terminated. */
+    memset(dst+j, c, n-j);
+
+  } else {
+    /* The given string is not null-terminated. */
+    if (c == '\0') {
+      j = n - 1;
+      dst[j] = '\0';
+
+      j--;
+
+      /* Work backwards, looking for the first non-blank. */
+      for (; j >= 0; j--) {
+        if (dst[j] != ' ') {
+          break;
+        }
+      }
+
+      j++;
+      memset(dst+j, '\0', n-j);
+    }
+  }
+
+  return;
+}
+
+/*--------------------------------------------------------------------------*/
+
+d53 1
+a53 1
+  int j;
+d55 2
+a56 12
+  if (n <= 0) return;
+
+  if (c == 0x0) {
+    return;
+  }
+
+  /* Replace the terminating null and all successive characters. */
+  for (j = 0; j < n; j++) {
+    if (c[j] == '\0') {
+      memset(c+j, ' ', n-j);
+      break;
+    }
+d67 1
+a67 1
+  int j;
+d71 2
+a72 5
+  if (c == 0x0) {
+    return;
+  }
+
+  /* Find the first NULL character. */
+d75 3
+d82 3
+a84 16
+  /* Ensure null-termination. */
+  if (j == n) {
+    j = n - 1;
+    c[j] = '\0';
+  }
+
+  /* Work backwards, looking for the first non-blank. */
+  j--;
+  for (; j > 0; j--) {
+    if (c[j] != ' ') {
+      break;
+    }
+  }
+
+  if (++j < n) {
+    memset(c+j, '\0', n-j);
+d87 1
+a87 1
+  return;
+@
+
+
+6.4.1.4
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.4.1.3 2019/12/12 02:22:00 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.2.1.3 2019/07/11 06:34:14 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.1.1.2 2018/10/20 09:40:51 mcalabre Exp mcalabre $
+d32 1
+d37 10
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Added wcsdealloc().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+a31 1
+#include <stdlib.h>
+a35 10
+
+/*--------------------------------------------------------------------------*/
+
+void wcsdealloc(void *ptr)
+
+{
+  free(ptr);
+
+  return;
+}
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.20.1.2 2018/10/19 07:07:17 mcalabre Exp mcalabre $
+d225 1
+a225 1
+char *wcsutil_fptr2str(void (*func)(void), char hext[19])
+d228 1
+a228 1
+  unsigned char *p = (unsigned char *)(&func);
+d238 1
+a238 1
+    p += sizeof(func) - 1;
+d245 1
+a245 1
+  for (i = 0; i < sizeof(func); i++) {
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+6.1.1.2
+log
+@Fix for doxygen manual generation - changed the argument names in
+wcsutil_fptr2str() to match those documented in the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d225 1
+a225 1
+char *wcsutil_fptr2str(void (*fptr)(void), char hext[19])
+d228 1
+a228 1
+  unsigned char *p = (unsigned char *)(&fptr);
+d238 1
+a238 1
+    p += sizeof(fptr) - 1;
+d245 1
+a245 1
+  for (i = 0; i < sizeof(fptr); i++) {
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.19.1.2 2018/10/05 04:42:12 mcalabre Exp mcalabre $
+d359 66
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Added wcsutil_str2double2() (for wcspih() and wcsbth()).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a358 66
+}
+
+
+int wcsutil_str2double2(const char *buf, double *value)
+
+{
+  char   *cptr, ctmp[72], *dptr, *eptr, ltmp[72];
+  int    exp = 0;
+
+  value[0] = 0.0;
+  value[1] = 0.0;
+
+  /* Get the integer part. */
+  if (sscanf(wcsutil_dot_to_locale(buf, ltmp), "%lf", value) < 1) {
+    return 1;
+  }
+  value[0] = floor(value[0]);
+
+  strcpy(ctmp, buf);
+
+  /* Look for a decimal point. */
+  dptr = strchr(ctmp, '.');
+
+  /* Look for an exponent. */
+  if ((eptr = strchr(ctmp, 'E')) == NULL) {
+    if ((eptr = strchr(ctmp, 'D')) == NULL) {
+      if ((eptr = strchr(ctmp, 'e')) == NULL) {
+        eptr = strchr(ctmp, 'd');
+      }
+    }
+  }
+
+  if (eptr) {
+    /* Get the exponent. */
+    if (sscanf(eptr+1, "%d", &exp) < 1) {
+      return 1;
+    }
+
+    if (!dptr) {
+      dptr = eptr;
+      eptr++;
+    }
+
+    if (dptr+exp <= ctmp) {
+      /* There is only a fractional part. */
+      return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value+1) < 1;
+    } else if (eptr <= dptr+exp+1) {
+      /* There is no fractional part. */
+      return 0;
+    }
+  }
+
+  /* Get the fractional part. */
+  if (dptr) {
+    cptr = ctmp;
+    while (cptr <= dptr+exp) {
+      if ('0' < *cptr && *cptr <= '9') *cptr = '0';
+      cptr++;
+    }
+
+    if (sscanf(wcsutil_dot_to_locale(ctmp, ltmp), "%lf", value+1) < 1) {
+      return 1;
+    }
+  }
+
+  return 0;
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.18.1.2 2018/07/25 00:22:45 mcalabre Exp mcalabre $
+a35 1
+#include "dis.h"
+a358 24
+}
+
+/*--------------------------------------------------------------------------*/
+
+int wcsutil_dpkey_int(const struct dpkey *dp)
+
+{
+  if (dp->type != 0) {
+    return (int)dp->value.f;
+  }
+
+  return dp->value.i;
+}
+
+/*--------------------------------------------------------------------------*/
+
+double wcsutil_dpkey_double(const struct dpkey *dp)
+
+{
+  if (dp->type == 0) {
+    return (double)dp->value.i;
+  }
+
+  return dp->value.f;
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Removed wcsutil_dpkey_int() and wcsutil_dpkey_double().  Now moved to
+dis.{h,c} as dpkeyi() and dpkeyd().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d36 1
+d360 24
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d226 1
+a226 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[19])
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Changed function prototype of wcsutil_fptr2str() to avert
+-Wcast-function-type warnings from gcc 8.1.0.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d226 1
+a226 1
+char *wcsutil_fptr2str(void (*func)(void), char hext[19])
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.16.1.2 2017/09/12 13:26:29 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.15.1.2 2017/01/15 04:13:33 mcalabre Exp mcalabre $
+d231 2
+a232 1
+  int i, *(ip[2]), j[2], le = 1, gotone = 0;
+d355 1
+a355 1
+int wcsutil_str2double(const char *buf, const char *format, double *value)
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Removed the unused "format" argument from wcsutil_str2double().  Also fixed
+a comparison between signed and unsigned integer in wcsutil_fptr2str().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d231 1
+a231 2
+  unsigned int i;
+  int *(ip[2]), j[2], le = 1, gotone = 0;
+d354 1
+a354 1
+int wcsutil_str2double(const char *buf, double *value)
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.6.1.2 2015/06/27 08:31:07 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d363 1
+a363 1
+int wcsutil_dpkey_int(struct dpkey *dp)
+d367 1
+a367 2
+    dp->value.i = (int)dp->value.f;
+    dp->type = 0;
+d375 1
+a375 1
+double wcsutil_dpkey_double(struct dpkey *dp)
+d379 1
+a379 2
+    dp->value.f = (double)dp->value.f;
+    dp->type = 1;
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Fixed a bug in wcsutil_dpkey_double(), and changed it and wcsutil_dpkey_int()
+so that they don't modify the contents of the struct.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d363 1
+a363 1
+int wcsutil_dpkey_int(const struct dpkey *dp)
+d367 2
+a368 1
+    return (int)dp->value.f;
+d376 1
+a376 1
+double wcsutil_dpkey_double(const struct dpkey *dp)
+d380 2
+a381 1
+    return (double)dp->value.i;
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.2.1.2 2015/04/18 07:39:09 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d36 1
+d359 26
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.2.1.2
+log
+@Added wcsutil_dpkey_int() and wcsutil_dpkey_double().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+a35 1
+#include "dis.h"
+a357 26
+}
+
+/*--------------------------------------------------------------------------*/
+
+int wcsutil_dpkey_int(struct dpkey *dp)
+
+{
+  if (dp->type != 0) {
+    dp->value.i = (int)dp->value.f;
+    dp->type = 0;
+  }
+
+  return dp->value.i;
+}
+
+/*--------------------------------------------------------------------------*/
+
+double wcsutil_dpkey_double(struct dpkey *dp)
+
+{
+  if (dp->type == 0) {
+    dp->value.f = (double)dp->value.f;
+    dp->type = 1;
+  }
+
+  return dp->value.f;
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.23.1.2 2014/05/22 10:56:16 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.22.1.3 2014/05/11 04:04:18 mcalabre Exp mcalabre $
+d30 1
+d35 1
+d99 1
+a99 1
+int wcsutil_Eq(int nelem, const double *arr1, const double *arr2)
+d110 15
+a124 2
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+    if (*arr1 != *arr2) return 0;
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.23.1.2
+log
+@Changed API to wcsutil_Eq() to allow a tolerance to be specified for
+floating-point comparisons.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+a29 1
+#include <math.h>
+a33 1
+#include "wcsmath.h"
+d97 1
+a97 1
+int wcsutil_Eq(int nelem, double tol, const double *arr1, const double *arr2)
+d108 2
+a109 15
+  if (tol == 0.0) {
+    /* Handled separately for speed of execution. */
+    for (i = 0; i < nelem; i++, arr1++, arr2++) {
+      if (*arr1 != *arr2) return 0;
+    }
+
+  } else {
+    for (i = 0; i < nelem; i++, arr1++, arr2++) {
+      /* Undefined values must match exactly. */
+      if (*arr1 == UNDEFINED && *arr2 != UNDEFINED) return 0;
+      if (*arr1 != UNDEFINED && *arr2 == UNDEFINED) return 0;
+
+      /* Otherwise, compare within the specified tolerance. */
+      if (fabs(*arr1 - *arr2) > 0.5*tol) return 0;
+    }
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d97 60
+d246 1
+a246 1
+static const char *wcsutil_dot_to_locale(const char *inbuf, char *outbuf)
+a252 1
+    char *out = outbuf;
+d254 2
+d257 4
+a260 4
+    for ( ; *inbuf; ++inbuf) {
+      if (*inbuf == '.') {
+        strncpy(out, decimal_point, decimal_point_len);
+        out += decimal_point_len;
+d262 1
+a262 1
+        *out++ = *inbuf;
+d266 1
+a266 5
+    *out = '\0';
+
+    return outbuf;
+  } else {
+    return inbuf;
+d271 1
+a271 1
+int wcsutil_str2double(const char *buf, const char *format, double *value)
+d274 32
+a305 2
+  char ctmp[72];
+  return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value) < 1;
+d310 1
+a310 1
+static void wcsutil_locale_to_dot(char *buf)
+d317 1
+a318 2
+    char *inbuf = buf;
+    char *outbuf = buf;
+d320 4
+a323 4
+    for ( ; *inbuf; ++inbuf) {
+      if (strncmp(inbuf, decimal_point, decimal_point_len) == 0) {
+        *outbuf++ = '.';
+        inbuf += decimal_point_len - 1;
+d325 1
+a325 1
+        *outbuf++ = *inbuf;
+d329 5
+a333 1
+    *outbuf = '\0';
+d338 1
+a338 1
+void wcsutil_double2str(char *buf, const char *format, double value)
+d341 2
+a342 2
+  sprintf(buf, format, value);
+  wcsutil_locale_to_dot(buf);
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.22.1.2
+log
+@Added wcsutil_Eq(), wcsutil_intEq(), and wcsutil_strEq() from Michael
+Droettboom.  Modified wcsutil_double2str() to add a fractional part (".0")
+if necessary so that the string is always identifiable as a floating-point
+value.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+a96 54
+int wcsutil_Eq(int nelem, const double *arr1, const double *arr2)
+
+{
+  int i;
+
+  if (nelem <= 0) return 0;
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+
+  for (i = 0; i < nelem; ++i, ++arr1, ++arr2) {
+    if (*arr1 != *arr2) return 0;
+  }
+
+  return 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int wcsutil_intEq(int nelem, const int *arr1, const int *arr2)
+
+{
+  int i;
+
+  if (nelem <= 0) return 0;
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+
+  for (i = 0; i < nelem; ++i, ++arr1, ++arr2) {
+    if (*arr1 != *arr2) return 0;
+  }
+
+  return 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72])
+
+{
+  int i;
+
+  if (nelem <= 0) return 0;
+  if (arr1 == 0x0 && arr2 == 0x0) return 1;
+  if (arr1 == 0x0 || arr2 == 0x0) return 0;
+
+  for (i = 0; i < nelem; ++i, ++arr1, ++arr2) {
+    if (strncmp(*arr1, *arr2, 72)) return 0;
+  }
+
+  return 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+a250 2
+  char *bp, *cp;
+
+a252 28
+
+  /* Look for a decimal point or exponent. */
+  bp = buf;
+  while (*bp) {
+    if (*bp != ' ') {
+      if (*bp == '.') return;
+      if (*bp == 'e') return;
+      if (*bp == 'E') return;
+    }
+    bp++;
+  }
+
+  /* Not found, add a fractional part. */
+  bp = buf;
+  if (*bp == ' ') {
+    cp = buf + 1;
+    if (*cp == ' ') cp++;
+
+    while (*cp) {
+      *bp = *cp;
+      bp++;
+      cp++;
+    }
+
+    *bp = '.';
+    bp++;
+    if (bp < cp) *bp = '0';
+  }
+@
+
+
+4.22.1.3
+log
+@wcsutil_Eq(), wcsutil_intEq(), and wcsutil_strEq() should return 1 (equal)
+if nelem == 0.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.22.1.2 2014/05/04 08:46:10 mcalabre Exp mcalabre $
+d102 1
+a102 3
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+d106 1
+a106 1
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+d120 1
+a120 3
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+d124 1
+a124 1
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+d138 1
+a138 3
+  if (nelem == 0) return 1;
+  if (nelem  < 0) return 0;
+
+d142 1
+a142 1
+  for (i = 0; i < nelem; i++, arr1++, arr2++) {
+d240 37
+d288 1
+a288 1
+    for ( ; *inbuf; inbuf++) {
+a336 37
+}
+
+/*--------------------------------------------------------------------------*/
+
+static const char *wcsutil_dot_to_locale(const char *inbuf, char *outbuf)
+
+{
+  struct lconv *locale_data = localeconv();
+  const char *decimal_point = locale_data->decimal_point;
+
+  if (decimal_point[0] != '.' || decimal_point[1] != 0) {
+    char *out = outbuf;
+    size_t decimal_point_len = strlen(decimal_point);
+
+    for ( ; *inbuf; inbuf++) {
+      if (*inbuf == '.') {
+        strncpy(out, decimal_point, decimal_point_len);
+        out += decimal_point_len;
+      } else {
+        *out++ = *inbuf;
+      }
+    }
+
+    *out = '\0';
+
+    return outbuf;
+  } else {
+    return inbuf;
+  }
+}
+
+
+int wcsutil_str2double(const char *buf, const char *format, double *value)
+
+{
+  char ctmp[72];
+  return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value) < 1;
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.16.1.3 2013/01/29 05:09:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d150 1
+a150 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[])
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Indicate the expected size of the array, hext[19], in the
+function prototype for wcsutil_fptr2str().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+d150 1
+a150 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[19])
+@
+
+
+4.16.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.16.1.2 2012/11/29 04:42:34 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.c,v 4.13.1.3 2012/07/13 03:34:20 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.c,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutil.c,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d28 2
+d150 1
+a150 1
+char *wcsutil_fptr2str(int (*func)(), char hext[])
+d183 71
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Handle locales such as fr_FR where a comma is used to delimit the decimal
+part of a floating point number - functions wcsutil_str2double() and
+wcsutil_double2str() substitute for sscanf() and sprintf() when dealing
+with floating point numbers.  Patch provided by Michael Droettboom.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+a33 2
+#include <ctype.h>
+#include <locale.h>
+d154 1
+a154 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[])
+a186 71
+
+/*--------------------------------------------------------------------------*/
+
+static const char *wcsutil_dot_to_locale(const char *inbuf, char *outbuf)
+
+{
+  struct lconv *locale_data = localeconv();
+  const char *decimal_point = locale_data->decimal_point;
+
+  if (decimal_point[0] != '.' || decimal_point[1] != 0) {
+    char *out = outbuf;
+    size_t decimal_point_len = strlen(decimal_point);
+
+    for ( ; *inbuf; ++inbuf) {
+      if (*inbuf == '.') {
+        strncpy(out, decimal_point, decimal_point_len);
+        out += decimal_point_len;
+      } else {
+        *out++ = *inbuf;
+      }
+    }
+
+    *out = '\0';
+
+    return outbuf;
+  } else {
+    return inbuf;
+  }
+}
+
+
+int wcsutil_str2double(const char *buf, const char *format, double *value)
+
+{
+  char ctmp[72];
+  return sscanf(wcsutil_dot_to_locale(buf, ctmp), "%lf", value) < 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+static void wcsutil_locale_to_dot(char *buf)
+
+{
+  struct lconv *locale_data = localeconv();
+  const char *decimal_point = locale_data->decimal_point;
+
+  if (decimal_point[0] != '.' || decimal_point[1] != 0) {
+    size_t decimal_point_len = strlen(decimal_point);
+    char *inbuf = buf;
+    char *outbuf = buf;
+
+    for ( ; *inbuf; ++inbuf) {
+      if (strncmp(inbuf, decimal_point, decimal_point_len) == 0) {
+        *outbuf++ = '.';
+        inbuf += decimal_point_len - 1;
+      } else {
+        *outbuf++ = *inbuf;
+      }
+    }
+
+    *outbuf = '\0';
+  }
+}
+
+
+void wcsutil_double2str(char *buf, const char *format, double value)
+
+{
+  sprintf(buf, format, value);
+  wcsutil_locale_to_dot(buf);
+}
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutil.c,v 4.13.1.2 2012/07/12 15:25:39 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.7.1.2 2011/08/09 02:39:46 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d34 1
+d151 36
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added function wcsutil_fptr2str() which translates a pointer-to-function
+to hexadecimal string representation for output.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp $
+a33 1
+#include <stdio.h>
+a149 36
+
+/*--------------------------------------------------------------------------*/
+
+char *wcsutil_fptr2str(int (*func)(), char hext[])
+
+{
+  unsigned char *p = (unsigned char *)(&func);
+  char *t = hext;
+  int i, *(ip[2]), j[2], le = 1, gotone = 0;
+
+  /* Test for little-endian addresses. */
+  ip[0] = j;
+  ip[1] = j + 1;
+  if ((unsigned char *)ip[0] < (unsigned char *)ip[1]) {
+    /* Little-endian, reverse it. */
+    p += sizeof(func) - 1;
+    le = -1;
+  }
+
+  sprintf(t, "0x0");
+  t += 2;
+
+  for (i = 0; i < sizeof(func); i++) {
+    /* Skip leading zeroes. */
+    if (*p) gotone = 1;
+
+    if (gotone) {
+      sprintf(t, "%02x", *p);
+      t += 2;
+    }
+
+    p += le;
+  }
+
+  return hext;
+}
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.3.1.2 2009/07/22 02:23:54 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.c,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.c,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutil.c,v 4.2.1.2 2007/12/03 05:02:17 cal103 Exp cal103 $
+d43 1
+a43 1
+   int k;
+d45 3
+a47 3
+   for (k = strlen(c); k < n; k++) {
+      c[k] = ' ';
+   }
+d49 1
+a49 1
+   return;
+d59 2
+d82 1
+a82 1
+int wcsutil_allEq(int ncoord, int nelem, const double *first)
+d85 2
+a86 2
+   double v0;
+   const double *vp;
+d88 1
+a88 4
+   v0 = *first;
+   for (vp = first+nelem; vp < first + ncoord*nelem; vp += nelem) {
+     if (*vp != v0) return 0;
+   }
+d90 6
+a95 1
+   return 1;
+d100 1
+a100 1
+void wcsutil_setAll(int ncoord, int nelem, double *first)
+d103 3
+a105 1
+   double v0, *vp;
+d107 4
+a110 4
+   v0 = *first;
+   for (vp = first+nelem; vp < first + ncoord*nelem; vp += nelem) {
+     *vp = v0;
+   }
+d115 1
+a115 1
+void wcsutil_setAli(int ncoord, int nelem, int *first)
+d118 1
+a118 1
+   int v0, *vp;
+d120 6
+a125 4
+   v0 = *first;
+   for (vp = first+nelem; vp < first + ncoord*nelem; vp += nelem) {
+     *vp = v0;
+   }
+d130 1
+a130 1
+void wcsutil_setBit(int ncoord, int *sel, int bits, int *stat)
+d133 1
+a133 1
+   int *selp, *statp;
+d135 14
+a148 3
+   for (selp = sel, statp = stat; selp < sel + ncoord; selp++, statp++) {
+     if (*selp) *statp |= bits;
+   }
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: wcsutil.c,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed names of function arguments to be more generic; changed
+indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutil.c,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d43 1
+a43 1
+  int k;
+d45 3
+a47 3
+  for (k = strlen(c); k < n; k++) {
+    c[k] = ' ';
+  }
+d49 1
+a49 1
+  return;
+a58 2
+  if (n <= 0) return;
+
+d80 1
+a80 1
+int wcsutil_allEq(int nvec, int nelem, const double *first)
+d83 2
+a84 2
+  double v0;
+  const double *vp;
+d86 4
+a89 1
+  if (nvec <= 0 || nelem <= 0) return 0;
+d91 1
+a91 6
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+    if (*vp != v0) return 0;
+  }
+
+  return 1;
+d96 1
+a96 1
+void wcsutil_setAll(int nvec, int nelem, double *first)
+d99 1
+a99 3
+  double v0, *vp;
+
+  if (nvec <= 0 || nelem <= 0) return;
+d101 4
+a104 4
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+    *vp = v0;
+  }
+d109 1
+a109 1
+void wcsutil_setAli(int nvec, int nelem, int *first)
+d112 1
+a112 1
+  int v0, *vp;
+d114 4
+a117 6
+  if (nvec <= 0 || nelem <= 0) return;
+
+  v0 = *first;
+  for (vp = first+nelem; vp < first + nvec*nelem; vp += nelem) {
+    *vp = v0;
+  }
+d122 1
+a122 1
+void wcsutil_setBit(int nelem, const int *sel, int bits, int *array)
+d125 1
+a125 1
+  int *arrp;
+d127 3
+a129 14
+  if (bits == 0 || nelem <= 0) return;
+
+  if (sel == 0x0) {
+    /* All elements selected. */
+    for (arrp = array; arrp < array + nelem; arrp++) {
+      *arrp |= bits;
+    }
+
+  } else {
+    /* Some elements selected. */
+    for (arrp = array; arrp < array + nelem; arrp++) {
+      if (*(sel++)) *arrp |= bits;
+    }
+  }
+@
+
+
+4.2
+log
+@WCSLIB 4.2: added wcsutil_allEq(), wcsutil_setAll(), wcsutil_setAli(), and
+wcsutil_setBit(), the first three originally in wcs.c.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: wcsutil.c,v 4.1 2005/08/25 07:26:29 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcsutil.c,v 4.2 2005/09/22 08:59:02 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutil.c,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id$
+d75 54
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 75
+@

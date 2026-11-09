@@ -1,0 +1,6084 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.35;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.20;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.06;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.04;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.13;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.08;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.18;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.05;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.03;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.19;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.27;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.54;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.10;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.03;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.54;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.51;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.48;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.07.23.04.29.29;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	0.0;
+
+0.0
+date	2009.07.23.04.28.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.56.01;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.46.41;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.04.09.05.30.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.35.32;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.25.00.54.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.28.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.44.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	4.15.1.2;
+
+4.15.1.2
+date	2012.11.07.04.31.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.47.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.48;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.03.31;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.16.07.47.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.19;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.2;
+
+5.2.1.2
+date	2015.04.18.07.31.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.05.02.15.43.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.49;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.20.07.30.14;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.3;
+
+5.6.1.3
+date	2015.06.20.08.11.20;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.4;
+
+5.6.1.4
+date	2015.06.28.15.09.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.22.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.01;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.00.39.49;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.27.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.04.09.26.25;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.3;
+
+5.18.1.3
+date	2018.07.25.08.54.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.14.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.29.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.25.21;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.12.36;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.33.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.10.13.39.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.43;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.07.08.32.41;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.3;
+
+7.5.1.3
+date	2021.04.13.09.47.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.05.13.03.28.25;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.3;
+
+7.6.1.3
+date	2021.07.01.05.33.20;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.4;
+
+7.6.1.4
+date	2021.07.07.03.28.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.41;	author mcalabre;	state Exp;
+branches;
+next	7.9.1.2;
+
+7.9.1.2
+date	2022.04.23.14.24.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.02.15.03.23;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.3;
+
+7.11.1.3
+date	2022.09.08.04.35.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.43;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.07.37.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Extract the WCS keywords for an image from the specified FITS file,
+construct wcsprm structs for each coordinate representation found and
+perform a variety of operations using them.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsware.c,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+*=============================================================================
+* Usage: wcsware [<option>]... [<fitsfile>]
+*-----------------------------------------------------------------------------
+* wcsware extracts the WCS keywords for an image from the specified FITS file,
+* constructs wcsprm structs for each coordinate representation found and
+* performs a variety of operations using them.  Refer to the usage notes
+* below.
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: wcsware [<option>]... [<fitsfile>]\n"
+"\n"
+"wcsware extracts the WCS keywords for an image from the specified FITS\n"
+"file, constructs wcsprm structs for each coordinate representation found\n"
+"and performs a variety of operations using them.  It features a \"lint\"\n"
+"capability as one of its more useful operations.\n\n"
+"By default, all known extensions to the FITS WCS standard are allowed,\n"
+"including deprecated usage.  However, in \"lint\" mode, strict conformance\n"
+"to the standard is enforced.\n\n"
+"The FITS file may be specified according to the syntax understood by\n"
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension (the\n"
+"second HDU) of a gzip'd FITS file.  Use \"-\" or omit the file name for\n"
+"input from stdin.\n"
+"\n"
+"Options:\n"
+"  -a<alt>      Specify an alternate coordinate representation (ignored if\n"
+"               there is only one).  Can also be specified as a 0-relative\n"
+"               index in the range 0 to 26, where alternates are sequenced\n"
+"               alphabetically following the primary representation.\n"
+"  -b           Use wcsbth() for primary image headers, normally wcspih()\n"
+"               is used.  (Implies -i.)\n"
+"  -c           Apply wcspcx() to the wcsprm struct to decompose CDi_ja\n"
+"               into PCi_ja and CDELTia.\n"
+"  -cp          As for -c, and also unscramble axes.\n"
+"  -C           As for -c, decompose CDi_ja if present, otherwise recompose\n"
+"               PCi_ja and CDELTia.\n"
+"  -Cp          As for -C, and also unscramble axes.\n"
+"  -f           Apply wcsfix() to the header.\n"
+"  -h<hdu>      Move to HDU number (1-relative) which is expected to\n"
+"               contain an image array.  Overrides cfitsio extended\n"
+"               filename syntax.  Also useful for input from stdin.\n"
+"  -i           Allow image header WCS keywords in binary table headers.\n"
+"  -l           Validate (lint) the WCS keyrecords in the specified FITS\n"
+"               header for conformance to the WCS standard.  (Implies -s.)\n"
+"  -m           Apply wcstrim() to the wcsprm struct.\n"
+"  -o           Use wcshdo() to translate the wcsprm struct into a FITS\n"
+"               header and print it.\n"
+"  -p           Print the struct(s) using wcsprt() (default operation).\n"
+"  -P           Same as -p but don't print a default struct.\n"
+"  -r           Require strict adherence to the FITS WCS standard, though\n"
+"               allowing the deprecated AIPS-convention keywords, CROTAn,\n"
+"               EPOCH, and VELREF, and also some other deprecated usage.\n"
+"               (Must follow -l if relaxed linting is required.)\n"
+"  -s           Require strict adherence to the FITS WCS standard,\n"
+"               disallowing all deprecated features.\n"
+"  -t           Terse (with -l), report rejected WCS keyrecords only.\n"
+"  -v           Verbose (with -l), report recognised WCS keyrecords as well.\n"
+"  -w           Convert world coordinates, obtained from stdin, to pixel\n"
+"               coordinates using wcss2p().\n"
+"  -x           Convert pixel coordinates, obtained from stdin, to world\n"
+"               coordinates using wcsp2s().\n"
+"  -z           Print the size of the wcsprm struct, including allocated\n"
+"               memory.\n";
+
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include <fitsio.h>
+
+#include <tab.h>
+#include <wcs.h>
+#include <wcshdr.h>
+#include <wcsfix.h>
+#include <wcsprintf.h>
+#include <getwcstab.h>
+
+int main(int argc, char **argv)
+
+{
+  // Parse options.
+  int allimg =  0;
+  int ctrl   = -3;
+  int dobth  =  0;
+  int dofix  =  0;
+  int dohdr  =  0;
+  int dolint =  0;
+  int dopcx  =  0;
+  int doperm =  0;
+  int dopix  =  0;
+  int doprt  =  0;
+  int dosize =  0;
+  int dotrim =  0;
+  int dowrld =  0;
+  int hdunum =  0;
+  int relax  = WCSHDR_all;
+  int strict =  0;
+
+  char *alt = 0x0;
+
+  int iopt;
+  for (iopt = 1; iopt < argc && argv[iopt][0] == '-'; iopt++) {
+    if (!argv[iopt][1]) break;
+
+    switch (argv[iopt][1]) {
+    case 'a':
+      // Select an alternate WCS.
+      alt = argv[iopt]+2;
+      break;
+
+    case 'b':
+      // Use wcsbth() for image headers.
+      dobth  = 1;
+      allimg = 1;
+      break;
+
+    case 'c':
+      // Apply wcspcx().
+      dopcx  = 1;
+      doperm = (argv[iopt][2] == 'p');
+      break;
+
+    case 'C':
+      // Apply wcspcx() with dopc == 1.
+      dopcx  = 2;
+      doperm = (argv[iopt][2] == 'p');
+      break;
+
+    case 'f':
+      // Apply wcsfix().
+      dofix  = 1;
+      break;
+
+    case 'h':
+      // Move to HDU number.
+      hdunum = atoi(argv[iopt]+2);
+      if (hdunum < 0) {
+        hdunum = 0;
+        wcsfprintf(stderr, "wcsware: Invalid HDU number ignored.\n");
+      }
+      break;
+
+    case 'i':
+      // Allow image header keywords in bintables.
+      allimg = 1;
+      break;
+
+    case 'l':
+      // WCS lint.
+      strict = 1;
+      relax  = WCSHDR_strict;
+      ctrl   = 3;
+      dolint = 1;
+      break;
+
+    case 'm':
+      // Apply wcstrim().
+      dotrim = 1;
+      break;
+
+    case 'o':
+      // Print header using wcshdo().
+      dohdr = 1;
+      break;
+
+    case 'p':
+      // Print structs.
+      doprt  = 1;
+      break;
+
+    case 'P':
+      // Print non-default structs.
+      doprt  = -1;
+      break;
+
+    case 'r':
+      // Strict, but allow some deprecated usage.
+      strict = 0;
+      relax  = WCSHDR_reject;
+      break;
+
+    case 's':
+      // Strict, really strict.
+      strict = 1;
+      relax  = WCSHDR_strict;
+      break;
+
+    case 't':
+      // Terse.
+      ctrl   = 2;
+      break;
+
+    case 'v':
+      // Verbose.
+      ctrl   = 4;
+      break;
+
+    case 'w':
+      // Convert world coordinates to pixel coordinates.
+      dowrld = 1;
+      break;
+
+    case 'x':
+      // Convert pixel coordinates to world coordinates.
+      dopix  = 1;
+      break;
+
+    case 'z':
+      // Print the full size of the wcsprm struct.
+      dosize = 1;
+      break;
+
+    default:
+      wcsfprintf(stderr, "%s", usage);
+      return 1;
+    }
+  }
+
+  if (allimg) {
+    relax |= WCSHDR_ALLIMG;
+  }
+
+  char *infile;
+  if (iopt < argc) {
+    infile = argv[iopt++];
+
+    if (iopt < argc) {
+      wcsfprintf(stderr, "%s", usage);
+      return 1;
+    }
+  } else {
+    infile = "-";
+  }
+
+  if (!(dolint || dohdr || doprt || dopix || dowrld)) {
+    doprt  = 1;
+    dotrim = 1;
+  }
+
+
+  // Open the FITS file and move to the required HDU.
+  int fitstat = 0;
+  fitsfile *fptr;
+  if (fits_open_file(&fptr, infile, READONLY, &fitstat)) goto cleanup;
+
+  int hdutype;
+  if (hdunum) {
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &fitstat)) goto cleanup;
+  } else {
+    if (fits_get_hdu_type(fptr, &hdutype, &fitstat)) goto cleanup;
+  }
+
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+  char *header;
+  int nkeyrec;
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &fitstat)) {
+    goto cleanup;
+  }
+
+
+  // Interpret the WCS keywords.
+  int keysel, nreject, nwcs, status;
+  struct wcsprm *wcs = 0x0;
+  if ((hdutype == BINARY_TBL) ||
+     ((hdutype == IMAGE_HDU) && dobth)) {
+    keysel = (hdutype == BINARY_TBL) ? 0 : WCSHDR_IMGHEAD;
+    if ((status = wcsbth(header, nkeyrec, relax, ctrl, keysel, 0x0, &nreject,
+                    &nwcs, &wcs))) {
+      wcsfprintf(stderr, "wcsbth ERROR %d: %s.\n", status,
+                 wcshdr_errmsg[status]);
+      goto cleanup;
+    }
+  } else if (hdutype == IMAGE_HDU) {
+    if ((status = wcspih(header, nkeyrec, relax, ctrl, &nreject,
+                    &nwcs, &wcs))) {
+      wcsfprintf(stderr, "wcspih ERROR %d: %s.\n", status,
+                 wcshdr_errmsg[status]);
+      goto cleanup;
+    }
+  } else {
+    wcsfprintf(stderr, "wcsware: Invalid FITS extension type.\n");
+    goto cleanup;
+  }
+
+  free(header);
+
+  if (nreject) {
+    if (ctrl <= 3) {
+      wcsprintf("\n%d WCS keyrecords were rejected.\n", nreject);
+    }
+    wcsprintf("\nThe rejected keyrecords do not conform%s to the FITS WCS "
+              "standard.\n", strict?" strictly":"");
+  } else if (nwcs == 0) {
+    if (2 < ctrl) wcsprintf("\n");
+    wcsprintf("No world coordinate systems found.\n");
+    fits_close_file(fptr, &fitstat);
+    return 0;
+
+  } else if (2 < ctrl) {
+    wcsprintf("\nNo invalid WCS keyrecords were found.\n");
+  }
+
+
+  // Sort out alternates.
+  int  alts[27];
+  struct wcsprm *wcsi = 0x0;
+  if (alt) {
+    int i = 0;
+
+    if ('0' <= *alt && *alt <= '9') {
+      if ((i = atoi(alt)) > nwcs-1) {
+        wcsfprintf(stderr, "WARNING, no alternate coordinate "
+          "representation \"%s\".\n", alt);
+        goto cleanup;
+      }
+
+    } else {
+      wcsidx(nwcs, &wcs, alts);
+
+      int ialt = toupper(*alt);
+      if (strlen(alt) > 1) {
+        wcsfprintf(stderr, "WARNING, alternate specifier \"%s\" is "
+          "invalid.\n", alt);
+        goto cleanup;
+      }
+
+      if (*alt == ' ') {
+        if (alts[0] == -1) {
+          wcsfprintf(stderr, "WARNING, no primary coordinate "
+            "representation.\n");
+          goto cleanup;
+        }
+
+      } else if (ialt < 'A' || ialt > 'Z') {
+        wcsfprintf(stderr, "WARNING, alternate specifier \"%s\" is "
+          "invalid.\n", alt);
+        goto cleanup;
+
+      } else {
+        if ((i = alts[ialt - 'A' + 1]) == -1) {
+          wcsfprintf(stderr, "WARNING, no alternate coordinate "
+            "representation \"%s\".\n", alt);
+          goto cleanup;
+        }
+      }
+    }
+
+    wcsi = wcs + i;
+  }
+
+  if (wcs == 0x0) {
+    // Balm for clang-tidy.  wcs should have been set by wcspih() or wcsbth().
+    goto cleanup;
+  }
+
+
+  // Initialize and possibly print the structs.
+  wcserr_enable(1);
+  wcsprintf_set(stdout);
+
+  for (int i = 0; i < nwcs; i++) {
+    if (wcsi) {
+      if ((wcs+i) != wcsi) continue;
+    } else if (i) {
+      wcsprintf("\nType <CR> for next: ");
+      fgetc(stdin);
+      wcsprintf("\n");
+    }
+
+    // Read -TAB arrays from the binary table extension (if necessary).
+    if (fits_read_wcstab(fptr, wcs[i].nwtb, (wtbarr *)wcs[i].wtb,
+                         &fitstat)) {
+      goto cleanup;
+    }
+
+    // Translate non-standard WCS keyvalues?
+    if (dofix) {
+      int *stat = malloc(NWCSFIX * sizeof(int));
+      if ((status = wcsfix(7, 0, wcs+i, stat))) {
+        for (int j = 0; j < NWCSFIX; j++) {
+          if (stat[j] > 0) {
+             wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                        wcsfix_errmsg[stat[j]]);
+          }
+        }
+
+        goto cleanup;
+      }
+
+      free(stat);
+    }
+
+    if (wcsset(wcs+i)) {
+      wcsperr(wcs+i, "");
+      continue;
+    }
+
+    // Decompose CDi_ja, or recompose PCi_ja and CDELTia?
+    if (dopcx) {
+      if (dopcx == 1 || !((wcs+i)->altlin & 1)) {
+        wcsprintf("Decomposing CDi_ja into PCi_ja and CDELTia");
+      } else {
+        wcsprintf("Recomposing PCi_ja and CDELTia");
+      }
+
+      if (doperm) {
+        wcsprintf(" with axis permutation");
+      }
+      wcsprintf(".\n");
+
+      double rotn[2];
+      if (wcspcx(wcs+i, dopcx-1, doperm, rotn)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+
+      wcsprintf("Rotation of celestial axis basis vectors (deg): "
+        "%10.5f, %10.5f\n", rotn[0], rotn[1]);
+    }
+
+    // Apply wcstrim()?
+    if (dotrim) {
+      if (wcstrim(wcs+i)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+    }
+
+    // Extract WCSNAME from the wcsprm struct.
+    char wcsname[72];
+    strncpy(wcsname, wcs[i].wcsname, 72);
+
+    // Print the struct as a FITS header?
+    if (dohdr) {
+      if (wcshdo(WCSHDO_all, wcs+i, &nkeyrec, &header)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+
+      char *hptr = header;
+      wcsprintf("\n");
+      for (int k = 0; k < nkeyrec; k++, hptr += 80) {
+        wcsprintf("%.80s\n", hptr);
+      }
+
+      free(header);
+    }
+
+    // Print the struct?
+    if (doprt) {
+      if (doprt == 1 || strcmp(wcsname, "DEFAULTS") != 0) {
+        if (strlen(wcsname)) {
+          wcsprintf("\n%s\n", wcsname);
+        }
+
+        wcsprintf("\n");
+        wcsprt(wcs+i);
+      }
+    }
+
+    // Print full size of the struct.
+    if (dosize) {
+      int sizes[2];
+      wcssize(wcs+i, sizes);
+      wcsprintf("\nSize of wcsprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1], sizes[0] + sizes[1]);
+      wcsprintf("Constituent structs (prjprm is included in celprm):\n");
+
+      auxsize((wcs+i)->aux, sizes);
+      wcsprintf("        auxprm struct: %4d\n", sizes[0]);
+
+      for (int itab = 0; itab < (wcs+i)->ntab; itab++) {
+        tabsize((wcs+i)->tab + itab, sizes);
+        wcsprintf("        tabprm struct: %4d (base), plus allocated memory: "
+          "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+          sizes[0] + sizes[1]);
+      }
+
+      linsize(&((wcs+i)->lin), sizes);
+      wcsprintf("        linprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      celsize(&((wcs+i)->cel), sizes);
+      wcsprintf("        celprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      prjsize(&((wcs+i)->cel.prj), sizes);
+      wcsprintf("        prjprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      spcsize(&((wcs+i)->spc), sizes);
+      wcsprintf("        spcprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+    }
+
+
+    // Transform coordinates?
+    if (dopix || dowrld) {
+      if (strlen(wcsname)) {
+        wcsprintf("\n%s\n", wcsname);
+      }
+
+      int nelem = wcs[i].naxis;
+      double *world  = calloc(nelem, sizeof(double));
+      double *imgcrd = calloc(nelem, sizeof(double));
+      double *pixcrd = calloc(nelem, sizeof(double));
+      int    *stat   = calloc(nelem, sizeof(int));
+
+      if (dopix) {
+        // Transform pixel coordinates.
+        while (1) {
+          wcsprintf("\nEnter %d pixel coordinate element%s: ", nelem,
+            (nelem==1)?"":"s");
+          int c = fgetc(stdin);
+          if (c == EOF || c == '\n') {
+            if (c == EOF) wcsprintf("\n");
+            break;
+          }
+          ungetc(c, stdin);
+
+          int ok;
+          if ((ok = (scanf("%lf", pixcrd) == 1))) {
+            for (int j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", pixcrd+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
+          }
+
+          while (fgetc(stdin) != '\n');
+
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
+
+          wcsprintf("Pixel: ");
+          for (int j = 0; j < nelem; j++) {
+            wcsprintf("%s%14.9g", j?", ":"", pixcrd[j]);
+          }
+          wcsprintf("\n");
+
+          double phi, theta;
+          if (wcsp2s(wcs+i, 1, nelem, pixcrd, imgcrd, &phi, &theta, world,
+                     stat)) {
+            wcsperr(wcs+i, "");
+
+          } else {
+            wcsprintf("Image: ");
+            for (int j = 0; j < nelem; j++) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+                // Print angles in fixed format.
+                wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
+              } else {
+                wcsprintf("%s%14.9g", j?", ":"", imgcrd[j]);
+              }
+            }
+
+            wcsprintf("\nWorld: ");
+            for (int j = 0; j < nelem; j++) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+                // Print angles in fixed format.
+                wcsprintf("%s%14.6f", j?", ":"", world[j]);
+              } else {
+                wcsprintf("%s%14.9g", j?", ":"", world[j]);
+              }
+            }
+            wcsprintf("\n");
+          }
+        }
+      }
+
+
+      if (dowrld) {
+        // Transform world coordinates.
+        while (1) {
+          wcsprintf("\nEnter %d world coordinate element%s: ", nelem,
+            (nelem==1)?"":"s");
+          int c = fgetc(stdin);
+          if (c == EOF || c == '\n') {
+            if (c == EOF) wcsprintf("\n");
+            break;
+          }
+          ungetc(c, stdin);
+
+          int ok;
+          if ((ok = (scanf("%lf", world) == 1))) {
+            for (int j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", world+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
+          }
+
+          while (fgetc(stdin) != '\n');
+
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
+
+          wcsprintf("World: ");
+          for (int j = 0; j < nelem; j++) {
+            if (j == wcs[i].lng || j == wcs[i].lat) {
+              // Print angles in fixed format.
+              wcsprintf("%s%14.6f", j?", ":"", world[j]);
+            } else {
+              wcsprintf("%s%14.9g", j?", ":"", world[j]);
+            }
+          }
+          wcsprintf("\n");
+
+          double phi, theta;
+          if (wcss2p(wcs+i, 1, nelem, world, &phi, &theta, imgcrd, pixcrd,
+                     stat)) {
+            wcsperr(wcs+i, "");
+
+          } else {
+            wcsprintf("Image: ");
+            for (int j = 0; j < nelem; j++) {
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+                // Print angles in fixed format.
+                wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
+              } else {
+                wcsprintf("%s%14.9g", j?", ":"", imgcrd[j]);
+              }
+            }
+
+            wcsprintf("\nPixel: ");
+            for (int j = 0; j < nelem; j++) {
+              wcsprintf("%s%14.9g", j?", ":"", pixcrd[j]);
+            }
+            wcsprintf("\n");
+          }
+        }
+      }
+
+      if (world)  free(world);
+      if (imgcrd) free(imgcrd);
+      if (pixcrd) free(pixcrd);
+      if (stat)   free(stat);
+    }
+  }
+
+  fits_close_file(fptr, &fitstat);
+
+  // Defeat spurious reporting of memory leaks.
+  wcsvfree(&nwcs, &wcs);
+
+  return 0;
+
+cleanup:
+  if (fitstat) fits_report_error(stderr, fitstat);
+  fits_close_file(fptr, &fitstat);
+  return 1;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.7.1.1 2026/05/11 12:18:46 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.6.1.2 2026/04/25 07:37:51 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+d287 1
+a287 1
+  struct wcsprm *wcs;
+d349 1
+d351 1
+a351 1
+      } else if (*alt == ' ') {
+d375 5
+d417 1
+a417 1
+    if ((status = wcsset(wcs+i))) {
+d455 1
+a455 1
+    strcpy(wcsname, wcs[i].wcsname);
+d475 1
+a475 1
+      if (doprt == 1 || strcmp(wcsname, "DEFAULTS")) {
+a530 5
+      double *world  = 0x0;
+      double *imgcrd = 0x0;
+      double *pixcrd = 0x0;
+      int    *stat   = 0x0;
+
+d532 4
+a535 4
+      world  = realloc(world,  nelem * sizeof(double));
+      imgcrd = realloc(imgcrd, nelem * sizeof(double));
+      pixcrd = realloc(pixcrd, nelem * sizeof(double));
+      stat   = realloc(stat,   nelem * sizeof(int));
+d573 2
+a574 2
+          if ((status = wcsp2s(wcs+i, 1, nelem, pixcrd, imgcrd, &phi, &theta,
+                               world, stat))) {
+d644 2
+a645 2
+          if ((status = wcss2p(wcs+i, 1, nelem, world, &phi, &theta, imgcrd,
+                               pixcrd, stat))) {
+d668 4
+a671 4
+      free(world);
+      free(imgcrd);
+      free(pixcrd);
+      free(stat);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Inconsequential changes prompted by clang-tidy:
+ - Restructured an if-block to avoid apparent duplication
+   (bugprone-branch-clone).
+ - Replaced unnecessary use of realloc() with calloc()
+   (bugprone-suspicious-realloc-usage).
+ - Explicitly test the return value of strncmp() in an if-statement
+   (bugprone-suspicious-string-compare).
+ - Added balm to thwart a spurious warning about null pointer dereference
+   (clang-analyzer-core.NullDereference).
+ - Removed unused status variable assignments
+   (clang-analyzer-deadcode.DeadStores).
+ - Replaced use of strcpy() with strncpy()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d287 1
+a287 1
+  struct wcsprm *wcs = 0x0;
+a348 1
+      }
+d350 1
+a350 1
+      if (*alt == ' ') {
+a373 5
+  if (wcs == 0x0) {
+    // Balm for clang-tidy.  wcs should have been set by wcspih() or wcsbth().
+    goto cleanup;
+  }
+
+d411 1
+a411 1
+    if (wcsset(wcs+i)) {
+d449 1
+a449 1
+    strncpy(wcsname, wcs[i].wcsname, 72);
+d469 1
+a469 1
+      if (doprt == 1 || strcmp(wcsname, "DEFAULTS") != 0) {
+d525 5
+d531 4
+a534 4
+      double *world  = calloc(nelem, sizeof(double));
+      double *imgcrd = calloc(nelem, sizeof(double));
+      double *pixcrd = calloc(nelem, sizeof(double));
+      int    *stat   = calloc(nelem, sizeof(int));
+d572 2
+a573 2
+          if (wcsp2s(wcs+i, 1, nelem, pixcrd, imgcrd, &phi, &theta, world,
+                     stat)) {
+d643 2
+a644 2
+          if (wcss2p(wcs+i, 1, nelem, world, &phi, &theta, imgcrd, pixcrd,
+                     stat)) {
+d667 4
+a670 4
+      if (world)  free(world);
+      if (imgcrd) free(imgcrd);
+      if (pixcrd) free(pixcrd);
+      if (stat)   free(stat);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsware.c,v 8.4.1.2 2025/12/06 13:37:20 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsware.c,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.3.1.1 2024/05/13 16:35:41 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.4.1.1 2024/10/28 13:58:43 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.11.1.3 2022/09/08 04:35:23 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+d43 3
+a45 2
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension of\n"
+"a gzip'd FITS file.  Use \"-\" or omit the file name for input from stdin.\n"
+d161 4
+a164 1
+      if (hdunum < 0) hdunum = 0;
+d173 1
+a173 1
+      // Lint.
+d223 1
+d228 1
+d233 1
+d266 4
+a269 1
+  int status = 0;
+a270 2
+  fitsfile *fptr;
+  if (fits_open_file(&fptr, infile, READONLY, &status)) goto fitserr;
+d272 1
+a272 1
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+d274 1
+a274 1
+    if (fits_get_hdu_type(fptr, &hdutype, &status)) goto fitserr;
+d280 2
+a281 2
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &status)) {
+    goto fitserr;
+d286 1
+a286 1
+  int keysel, nreject, nwcs;
+d295 1
+a295 1
+      return 1;
+d302 1
+a302 1
+      return 1;
+d306 1
+a306 1
+    return 1;
+d320 1
+a320 1
+    fits_close_file(fptr, &status);
+d338 1
+a338 1
+        return 1;
+d348 1
+a348 1
+        return 1;
+d354 1
+a354 1
+          return 1;
+d360 1
+a360 1
+        return 1;
+d366 1
+a366 1
+          return 1;
+d390 2
+a391 2
+                         &status)) {
+      goto fitserr;
+d405 1
+a405 1
+        return 1;
+d674 1
+a674 1
+  fits_close_file(fptr, &status);
+d681 3
+a683 3
+fitserr:
+  fits_report_error(stderr, status);
+  fits_close_file(fptr, &status);
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@Trivial changes.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+d43 2
+a44 3
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension (the\n"
+"second HDU) of a gzip'd FITS file.  Use \"-\" or omit the file name for\n"
+"input from stdin.\n"
+d160 1
+a160 4
+      if (hdunum < 0) {
+        hdunum = 0;
+        wcsfprintf(stderr, "wcsware: Invalid HDU number ignored.\n");
+      }
+d169 1
+a169 1
+      // WCS lint.
+a218 1
+      // Convert world coordinates to pixel coordinates.
+a222 1
+      // Convert pixel coordinates to world coordinates.
+a226 1
+      // Print the full size of the wcsprm struct.
+d260 1
+a262 2
+
+  int hdutype;
+@
+
+
+7.11.1.3
+log
+@In order to avoid spurious reports of memory leaks, ensure that the input
+FITS file is closed before exiting when any error is encountered.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.11.1.2 2022/09/02 15:03:23 mcalabre Exp mcalabre $
+d266 1
+a266 1
+  int fitstat = 0;
+d268 1
+a268 1
+  if (fits_open_file(&fptr, infile, READONLY, &fitstat)) goto cleanup;
+d272 1
+a272 1
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &fitstat)) goto cleanup;
+d274 1
+a274 1
+    if (fits_get_hdu_type(fptr, &hdutype, &fitstat)) goto cleanup;
+d280 2
+a281 2
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &fitstat)) {
+    goto cleanup;
+d286 1
+a286 1
+  int keysel, nreject, nwcs, status;
+d295 1
+a295 1
+      goto cleanup;
+d302 1
+a302 1
+      goto cleanup;
+d306 1
+a306 1
+    goto cleanup;
+d320 1
+a320 1
+    fits_close_file(fptr, &fitstat);
+d338 1
+a338 1
+        goto cleanup;
+d348 1
+a348 1
+        goto cleanup;
+d354 1
+a354 1
+          goto cleanup;
+d360 1
+a360 1
+        goto cleanup;
+d366 1
+a366 1
+          goto cleanup;
+d390 2
+a391 2
+                         &fitstat)) {
+      goto cleanup;
+d405 1
+a405 1
+        goto cleanup;
+d674 1
+a674 1
+  fits_close_file(fptr, &fitstat);
+d681 3
+a683 3
+cleanup:
+  if (fitstat) fits_report_error(stderr, fitstat);
+  fits_close_file(fptr, &fitstat);
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.9.1.2 2022/04/23 14:24:01 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+d252 4
+a255 1
+  if (!(dolint || dohdr || doprt || dopix || dowrld)) doprt = 1;
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.9.1.2
+log
+@The default option now trims the wcsprm struct before printing it.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.9.1.1 2022/03/25 15:16:41 mcalabre Exp mcalabre $
+d252 1
+a252 4
+  if (!(dolint || dohdr || doprt || dopix || dowrld)) {
+    doprt  = 1;
+    dotrim = 1;
+  }
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.6.1.4 2021/07/07 03:28:42 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.5.1.3 2021/04/13 09:47:14 mcalabre Exp mcalabre $
+d84 1
+a84 1
+"               memory.";
+d104 1
+a104 1
+  // Initialize control variables.
+a122 1
+  char *infile;
+d124 3
+a126 4
+  // Parse options.
+  int i;
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    if (!argv[i][1]) break;
+d128 1
+a128 1
+    switch (argv[i][1]) {
+d131 1
+a131 1
+      alt = argv[i]+2;
+d143 1
+a143 1
+      doperm = (argv[i][2] == 'p');
+d149 1
+a149 1
+      doperm = (argv[i][2] == 'p');
+d159 1
+a159 1
+      hdunum = atoi(argv[i]+2);
+d240 3
+a242 2
+  if (i < argc) {
+    infile = argv[i++];
+d244 1
+a244 1
+    if (i < argc) {
+d321 1
+a321 1
+    i = 0;
+d368 1
+a368 1
+  for (i = 0; i < nwcs; i++) {
+d558 1
+d566 1
+a566 1
+            wcsprintf("\nImage: ");
+d629 1
+d637 1
+a637 1
+            wcsprintf("\nImage: ");
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Added missing newline at end of usage text.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+d84 1
+a84 1
+"               memory.\n";
+@
+
+
+7.6.1.3
+log
+@Minor tweaking of variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.6.1.2 2021/05/13 03:28:25 mcalabre Exp mcalabre $
+d104 1
+a104 1
+  // Parse options.
+d123 1
+d125 4
+a128 3
+  int iopt;
+  for (iopt = 1; iopt < argc && argv[iopt][0] == '-'; iopt++) {
+    if (!argv[iopt][1]) break;
+d130 1
+a130 1
+    switch (argv[iopt][1]) {
+d133 1
+a133 1
+      alt = argv[iopt]+2;
+d145 1
+a145 1
+      doperm = (argv[iopt][2] == 'p');
+d151 1
+a151 1
+      doperm = (argv[iopt][2] == 'p');
+d161 1
+a161 1
+      hdunum = atoi(argv[iopt]+2);
+d242 2
+a243 3
+  char *infile;
+  if (iopt < argc) {
+    infile = argv[iopt++];
+d245 1
+a245 1
+    if (iopt < argc) {
+d322 1
+a322 1
+    int i = 0;
+d369 1
+a369 1
+  for (int i = 0; i < nwcs; i++) {
+@
+
+
+7.6.1.4
+log
+@Fixed output formatting when wcsp2s() or wcss2p() report an error.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.6.1.3 2021/07/01 05:33:20 mcalabre Exp mcalabre $
+a557 1
+          wcsprintf("\n");
+d565 1
+a565 1
+            wcsprintf("Image: ");
+a627 1
+          wcsprintf("\n");
+d635 1
+a635 1
+            wcsprintf("Image: ");
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.4.1.2 2021/03/10 13:39:03 mcalabre Exp mcalabre $
+d53 6
+d66 1
+d82 3
+a84 1
+"               coordinates using wcsp2s().\n";
+d94 1
+d104 17
+a120 7
+  char *alt = 0x0, *header, *hptr, *infile, wcsname[72];
+  int  allimg, alts[27], c, ctrl, dobth, dofix, dohdr, dolint, doprt, dopix,
+       dowrld, hdunum, hdutype, i, ialt, j, k, keysel, nelem, nkeyrec,
+       nreject, nwcs, ok, relax, *stat = 0x0, status, strict;
+  double *imgcrd = 0x0, phi, *pixcrd = 0x0, theta, *world = 0x0;
+  struct wcsprm *wcs, *wcsi = 0x0;
+  fitsfile *fptr;
+d122 2
+a123 13
+  // Initialise control variables.
+  allimg =  0;
+  ctrl   = -3;
+  dobth  =  0;
+  dofix  =  0;
+  dohdr  =  0;
+  dolint =  0;
+  dopix  =  0;
+  doprt  =  0;
+  dowrld =  0;
+  hdunum =  0;
+  relax  = WCSHDR_all;
+  strict =  0;
+d126 1
+d142 12
+d178 5
+d228 4
+d257 3
+a259 1
+  status = 0;
+d268 2
+d276 2
+d319 2
+d334 1
+a334 1
+      ialt = toupper(*alt);
+d386 1
+a386 1
+      stat = malloc(NWCSFIX * sizeof(int));
+d388 1
+a388 1
+        for (j = 0; j < NWCSFIX; j++) {
+d397 2
+d406 33
+a438 1
+    // Get WCSNAME out of the wcsprm struct.
+d441 1
+a441 1
+    // Print the struct as a FITS header.
+d448 1
+a448 1
+      hptr = header;
+d450 1
+a450 1
+      for (k = 0; k < nkeyrec; k++, hptr += 80) {
+d457 1
+a457 1
+    // Print the struct.
+d469 40
+d515 6
+a520 1
+      nelem = wcs[i].naxis;
+d531 1
+a531 1
+          c = fgetc(stdin);
+d538 1
+d540 1
+a540 1
+            for (j = 1; j < nelem; j++) {
+d556 1
+a556 1
+          for (j = 0; j < nelem; j++) {
+d560 1
+d567 1
+a567 1
+            for (j = 0; j < nelem; j++) {
+d577 1
+a577 1
+            for (j = 0; j < nelem; j++) {
+d596 1
+a596 1
+          c = fgetc(stdin);
+d603 1
+d605 1
+a605 1
+            for (j = 1; j < nelem; j++) {
+d621 1
+a621 1
+          for (j = 0; j < nelem; j++) {
+d630 1
+d637 1
+a637 1
+            for (j = 0; j < nelem; j++) {
+d647 1
+a647 1
+            for (j = 0; j < nelem; j++) {
+d654 5
+a665 4
+  free(world);
+  free(imgcrd);
+  free(pixcrd);
+  free(stat);
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.5.1.1 2021/03/20 05:56:43 mcalabre Exp mcalabre $
+d94 7
+a100 13
+  // Initialize control variables.
+  int allimg =  0;
+  int ctrl   = -3;
+  int dobth  =  0;
+  int dofix  =  0;
+  int dohdr  =  0;
+  int dolint =  0;
+  int dopix  =  0;
+  int doprt  =  0;
+  int dowrld =  0;
+  int hdunum =  0;
+  int relax  = WCSHDR_all;
+  int strict =  0;
+d102 13
+a114 2
+  char *alt = 0x0;
+  char *infile;
+a116 1
+  int i;
+d226 1
+a226 3
+  int status = 0;
+  int hdutype;
+  fitsfile *fptr;
+a234 2
+  char *header;
+  int nkeyrec;
+a240 2
+  int keysel, nreject, nwcs;
+  struct wcsprm *wcs;
+a281 2
+  int  alts[27];
+  struct wcsprm *wcsi = 0x0;
+d295 1
+a295 1
+      int ialt = toupper(*alt);
+d347 1
+a347 1
+      int *stat = malloc(NWCSFIX * sizeof(int));
+d349 1
+a349 1
+        for (int j = 0; j < NWCSFIX; j++) {
+a357 2
+
+      free(stat);
+a365 1
+    char wcsname[72];
+d375 1
+a375 1
+      char *hptr = header;
+d377 1
+a377 1
+      for (int k = 0; k < nkeyrec; k++, hptr += 80) {
+d402 1
+a402 6
+      double *world  = 0x0;
+      double *imgcrd = 0x0;
+      double *pixcrd = 0x0;
+      int    *stat   = 0x0;
+
+      int nelem = wcs[i].naxis;
+d413 1
+a413 1
+          int c = fgetc(stdin);
+a419 1
+          int ok;
+d421 1
+a421 1
+            for (int j = 1; j < nelem; j++) {
+d430 1
+a430 1
+ 
+d437 1
+a437 1
+          for (int j = 0; j < nelem; j++) {
+a440 1
+          double phi, theta;
+d447 1
+a447 1
+            for (int j = 0; j < nelem; j++) {
+d457 1
+a457 1
+            for (int j = 0; j < nelem; j++) {
+d476 1
+a476 1
+          int c = fgetc(stdin);
+a482 1
+          int ok;
+d484 1
+a484 1
+            for (int j = 1; j < nelem; j++) {
+d500 1
+a500 1
+          for (int j = 0; j < nelem; j++) {
+a508 1
+          double phi, theta;
+d515 1
+a515 1
+            for (int j = 0; j < nelem; j++) {
+d525 1
+a525 1
+            for (int j = 0; j < nelem; j++) {
+a531 5
+
+      free(world);
+      free(imgcrd);
+      free(pixcrd);
+      free(stat);
+d539 4
+@
+
+
+7.5.1.3
+log
+@Added -c, -cp, -C, -Cp, -m, and -z options.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.5.1.2 2021/04/07 08:32:41 mcalabre Exp mcalabre $
+a52 6
+"  -c           Apply wcspcx() to the wcsprm struct to decompose CDi_ja\n"
+"               into PCi_ja and CDELTia.\n"
+"  -cp          As for -c, and also unscramble axes.\n"
+"  -C           As for -c, decompose CDi_ja if present, otherwise recompose\n"
+"               PCi_ja and CDELTia.\n"
+"  -Cp          As for -C, and also unscramble axes.\n"
+a59 1
+"  -m           Apply wcstrim() to the wcsprm struct.\n"
+d75 1
+a75 3
+"               coordinates using wcsp2s().\n"
+"  -z           Print the size of the wcsprm struct, including allocated\n"
+"               memory.";
+a84 1
+#include <tab.h>
+a100 2
+  int dopcx  =  0;
+  int doperm =  0;
+a102 2
+  int dosize =  0;
+  int dotrim =  0;
+a127 12
+    case 'c':
+      // Apply wcspcx().
+      dopcx  = 1;
+      doperm = (argv[i][2] == 'p');
+      break;
+
+    case 'C':
+      // Apply wcspcx() with dopc == 1.
+      dopcx  = 2;
+      doperm = (argv[i][2] == 'p');
+      break;
+
+a151 5
+    case 'm':
+      // Apply wcstrim().
+      dotrim = 1;
+      break;
+
+a196 4
+    case 'z':
+      dosize = 1;
+      break;
+
+d371 1
+a371 32
+    // Decompose CDi_ja, or recompose PCi_ja and CDELTia?
+    if (dopcx) {
+      if (dopcx == 1 || !((wcs+i)->altlin & 1)) {
+        wcsprintf("Decomposing CDi_ja into PCi_ja and CDELTia");
+      } else {
+        wcsprintf("Recomposing PCi_ja and CDELTia");
+      }
+
+      if (doperm) {
+        wcsprintf(" with axis permutation");
+      }
+      wcsprintf(".\n");
+
+      double rotn[2];
+      if (wcspcx(wcs+i, dopcx-1, doperm, rotn)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+
+      wcsprintf("Rotation of celestial axis basis vectors (deg): "
+        "%10.5f, %10.5f\n", rotn[0], rotn[1]);
+    }
+
+    // Apply wcstrim()?
+    if (dotrim) {
+      if (wcstrim(wcs+i)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+    }
+
+    // Extract WCSNAME from the wcsprm struct.
+d375 1
+a375 1
+    // Print the struct as a FITS header?
+d391 1
+a391 1
+    // Print the struct?
+a402 40
+    // Print full size of the struct.
+    if (dosize) {
+      int sizes[2];
+      wcssize(wcs+i, sizes);
+      wcsprintf("\nSize of wcsprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1], sizes[0] + sizes[1]);
+      wcsprintf("Constituent structs (prjprm is included in celprm):\n");
+
+      auxsize((wcs+i)->aux, sizes);
+      wcsprintf("        auxprm struct: %4d\n", sizes[0]);
+
+      for (int itab = 0; itab < (wcs+i)->ntab; itab++) {
+        tabsize((wcs+i)->tab + itab, sizes);
+        wcsprintf("        tabprm struct: %4d (base), plus allocated memory: "
+          "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+          sizes[0] + sizes[1]);
+      }
+
+      linsize(&((wcs+i)->lin), sizes);
+      wcsprintf("        linprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      celsize(&((wcs+i)->cel), sizes);
+      wcsprintf("        celprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      prjsize(&((wcs+i)->cel.prj), sizes);
+      wcsprintf("        prjprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+
+      spcsize(&((wcs+i)->spc), sizes);
+      wcsprintf("        spcprm struct: %4d (base), plus allocated memory: "
+        "%4d, total: %4d (bytes).\n", sizes[0], sizes[1],
+        sizes[0] + sizes[1]);
+    }
+
+
+d443 1
+a443 1
+
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.3.1.4 2021/01/28 12:33:07 mcalabre Exp mcalabre $
+d24 2
+d28 2
+a29 1
+* performs a variety of operations using them.
+d33 1
+a33 1
+"Usage: wcsware [OPTION]... [FITSFILE]\n"
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Minor changes to the prologue to make all utilities consistent in style.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsware.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+a23 2
+* Usage: wcsware [<option>]... [<fitsfile>]
+*-----------------------------------------------------------------------------
+d26 1
+a26 2
+* performs a variety of operations using them.  Refer to the usage notes
+* below.
+d30 1
+a30 1
+"Usage: wcsware [<option>]... [<fitsfile>]\n"
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsware.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d99 1
+a99 1
+  /* Initialise control variables. */
+d113 1
+a113 1
+  /* Parse options. */
+d119 1
+a119 1
+      /* Select an alternate WCS. */
+d124 1
+a124 1
+      /* Use wcsbth() for image headers. */
+d130 1
+a130 1
+      /* Apply wcsfix(). */
+d135 1
+a135 1
+      /* Move to HDU number. */
+d141 1
+a141 1
+      /* Allow image header keywords in bintables. */
+d146 1
+a146 1
+      /* Lint. */
+d154 1
+a154 1
+      /* Print header using wcshdo(). */
+d159 1
+a159 1
+      /* Print structs. */
+d164 1
+a164 1
+      /* Print non-default structs. */
+d169 1
+a169 1
+      /* Strict, but allow some deprecated usage. */
+d175 1
+a175 1
+      /* Strict, really strict. */
+d181 1
+a181 1
+      /* Terse. */
+d186 1
+a186 1
+      /* Verbose. */
+d222 1
+a222 1
+  /* Open the FITS file and move to the required HDU. */
+d231 1
+a231 1
+  /* Read in the FITS header, excluding COMMENT and HISTORY keyrecords. */
+d237 1
+a237 1
+  /* Interpret the WCS keywords. */
+d278 1
+a278 1
+  /* Sort out alternates. */
+d323 1
+a323 1
+  /* Initialize and possibly print the structs. */
+d336 1
+a336 1
+    /* Read -TAB arrays from the binary table extension (if necessary). */
+d342 1
+a342 1
+    /* Translate non-standard WCS keyvalues? */
+d362 1
+a362 1
+    /* Get WCSNAME out of the wcsprm struct. */
+d365 1
+a365 1
+    /* Print the struct as a FITS header. */
+d381 1
+a381 1
+    /* Print the struct. */
+d393 1
+a393 1
+    /* Transform coordinates? */
+d406 1
+a406 1
+        /* Transform pixel coordinates. */
+d446 1
+a446 1
+                /* Print angles in fixed format. */
+d456 1
+a456 1
+                /* Print angles in fixed format. */
+d469 1
+a469 1
+        /* Transform world coordinates. */
+d499 1
+a499 1
+              /* Print angles in fixed format. */
+d514 1
+a514 1
+                /* Print angles in fixed format. */
+d534 1
+a534 1
+  /* Defeat spurious reporting of memory leaks. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsware.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d102 1
+a102 1
+  // Initialise control variables.
+d116 1
+a116 1
+  // Parse options.
+d122 1
+a122 1
+      // Select an alternate WCS.
+d127 1
+a127 1
+      // Use wcsbth() for image headers.
+d133 1
+a133 1
+      // Apply wcsfix().
+d138 1
+a138 1
+      // Move to HDU number.
+d144 1
+a144 1
+      // Allow image header keywords in bintables.
+d149 1
+a149 1
+      // Lint.
+d157 1
+a157 1
+      // Print header using wcshdo().
+d162 1
+a162 1
+      // Print structs.
+d167 1
+a167 1
+      // Print non-default structs.
+d172 1
+a172 1
+      // Strict, but allow some deprecated usage.
+d178 1
+a178 1
+      // Strict, really strict.
+d184 1
+a184 1
+      // Terse.
+d189 1
+a189 1
+      // Verbose.
+d225 1
+a225 1
+  // Open the FITS file and move to the required HDU.
+d234 1
+a234 1
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+d240 1
+a240 1
+  // Interpret the WCS keywords.
+d281 1
+a281 1
+  // Sort out alternates.
+d326 1
+a326 1
+  // Initialize and possibly print the structs.
+d339 1
+a339 1
+    // Read -TAB arrays from the binary table extension (if necessary).
+d345 1
+a345 1
+    // Translate non-standard WCS keyvalues?
+d365 1
+a365 1
+    // Get WCSNAME out of the wcsprm struct.
+d368 1
+a368 1
+    // Print the struct as a FITS header.
+d384 1
+a384 1
+    // Print the struct.
+d396 1
+a396 1
+    // Transform coordinates?
+d409 1
+a409 1
+        // Transform pixel coordinates.
+d449 1
+a449 1
+                // Print angles in fixed format.
+d459 1
+a459 1
+                // Print angles in fixed format.
+d472 1
+a472 1
+        // Transform world coordinates.
+d502 1
+a502 1
+              // Print angles in fixed format.
+d517 1
+a517 1
+                // Print angles in fixed format.
+d537 1
+a537 1
+  // Defeat spurious reporting of memory leaks.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsware.c,v 7.3.1.2 2020/08/17 11:25:21 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsware.c,v 7.3.1.3 2021/01/19 14:12:36 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 7.1.1.1 2019/12/31 13:28:20 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.4.1.2 2019/12/31 03:29:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.2.1.2 2019/05/10 02:14:31 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.18.1.3 2018/07/25 08:54:39 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.19 2018/07/26 15:37:06 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.17.1.3 2018/01/10 08:27:45 mcalabre Exp mcalabre $
+d97 1
+a97 1
+       nreject, nwcs, relax, *stat = 0x0, status, strict;
+a280 23
+  /* Read -TAB arrays from the binary table extension (if necessary). */
+  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &status)) {
+    goto fitserr;
+  }
+
+  fits_close_file(fptr, &status);
+
+
+  /* Translate non-standard WCS keyvalues? */
+  if (dofix) {
+    stat = malloc(NWCSFIX * sizeof(int));
+    if ((status = wcsfix(7, 0, wcs, stat))) {
+      for (i = 0; i < NWCSFIX; i++) {
+        if (stat[i] > 0) {
+           wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                      wcsfix_errmsg[stat[i]]);
+        }
+      }
+
+      return 1;
+    }
+  }
+
+d339 21
+d366 1
+a366 1
+    strcpy(wcsname, (wcs+i)->wcsname);
+d402 1
+a402 1
+      nelem = (wcs+i)->naxis;
+d420 7
+a426 3
+          scanf("%lf", pixcrd);
+          for (j = 1; j < nelem; j++) {
+            scanf("%*[ ,]%lf", pixcrd+j);
+d428 1
+d431 5
+d448 1
+a448 1
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+d458 1
+a458 1
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+d483 7
+a489 3
+          scanf("%lf", world);
+          for (j = 1; j < nelem; j++) {
+            scanf("%*[ ,]%lf", world+j);
+d491 1
+d494 5
+d501 1
+a501 1
+            if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+d516 1
+a516 1
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+d534 2
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@The -TAB table was not being read for alternate descriptions, nor was
+wcsfix() invoked for them (on request).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d281 23
+a361 21
+    /* Read -TAB arrays from the binary table extension (if necessary). */
+    if (fits_read_wcstab(fptr, wcs[i].nwtb, (wtbarr *)wcs[i].wtb,
+                         &status)) {
+      goto fitserr;
+    }
+
+    /* Translate non-standard WCS keyvalues? */
+    if (dofix) {
+      stat = malloc(NWCSFIX * sizeof(int));
+      if ((status = wcsfix(7, 0, wcs+i, stat))) {
+        for (j = 0; j < NWCSFIX; j++) {
+          if (stat[j] > 0) {
+             wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                        wcsfix_errmsg[stat[j]]);
+          }
+        }
+
+        return 1;
+      }
+    }
+
+d368 1
+a368 1
+    strcpy(wcsname, wcs[i].wcsname);
+d404 1
+a404 1
+      nelem = wcs[i].naxis;
+d440 1
+a440 1
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+d450 1
+a450 1
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+d483 1
+a483 1
+            if (j == wcs[i].lng || j == wcs[i].lat) {
+d498 1
+a498 1
+              if (j == wcs[i].lng || j == wcs[i].lat) {
+a515 2
+
+  fits_close_file(fptr, &status);
+@
+
+
+5.18.1.3
+log
+@Check that the correct number of coordinate elements are input for the -w
+and -x options.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.18.1.2 2018/07/04 09:26:25 mcalabre Exp mcalabre $
+d97 1
+a97 1
+       nreject, nwcs, ok, relax, *stat = 0x0, status, strict;
+d420 3
+a422 7
+          if ((ok = (scanf("%lf", pixcrd) == 1))) {
+            for (j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", pixcrd+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
+a423 1
+
+a425 5
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
+
+d473 3
+a475 7
+          if ((ok = (scanf("%lf", world) == 1))) {
+            for (j = 1; j < nelem; j++) {
+              if (scanf("%*[ ,]%lf", world+j) != 1) {
+                ok = 0;
+                break;
+              }
+            }
+a476 1
+
+a477 5
+
+          if (!ok) {
+            wcsprintf("Input error, please try again.\n");
+            continue;
+          }
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.16.1.1 2017/01/15 04:29:04 mcalabre Exp mcalabre $
+d517 6
+a522 1
+  status = wcsvfree(&nwcs, &wcs);
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Free allocated arrays before exit to defeat spurious reporting of memory
+leaks by valgrind.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.17.1.1 2017/09/18 08:46:01 mcalabre Exp mcalabre $
+d517 1
+a517 6
+  /* Defeat spurious reporting of memory leaks. */
+  wcsvfree(&nwcs, &wcs);
+  free(world);
+  free(imgcrd);
+  free(pixcrd);
+  free(stat);
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.17.1.2 2017/12/05 00:39:49 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.15.1.2 2017/01/15 04:08:24 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.16 2017/01/15 04:25:04 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.14.1.1 2016/02/07 10:52:49 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.15.1.1 2016/04/05 12:58:39 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.13.1.1 2016/01/26 08:54:36 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.12.1.2 2016/01/25 05:22:53 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.11.1.1 2015/10/18 09:16:31 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.12 2015/11/15 02:13:03 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.10.1.1 2015/10/09 08:22:40 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.11 2015/10/18 09:13:08 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.9.1.1 2015/07/21 09:28:12 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.10 2015/10/09 08:19:18 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.8.1.1 2015/07/08 11:07:23 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.9 2015/07/21 09:20:05 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.7.1.1 2015/06/29 02:47:28 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.8 2015/07/08 11:04:03 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.6.1.4 2015/06/28 15:09:15 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.7 2015/06/29 02:44:19 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.5.1.1 2015/05/05 13:21:05 mcalabre Exp mcalabre $
+d47 4
+a50 2
+"  -a<alt>      Specify an alternate coordinate representation to be used\n"
+"               (ignored if there is only one).\n"
+d60 2
+d94 4
+a97 4
+  char alt = '\0', *header, *infile, wcsname[72];
+  int  allimg, alts[27], c, ctrl, dobth, dofix, dolint, doprt, dopix, dowrld,
+       hdunum, hdutype, i, j, keysel, nelem, nkeyrec, nreject, nwcs, relax,
+       *stat = 0x0, status, strict;
+d99 1
+a99 1
+  struct wcsprm *wcs;
+d107 1
+d123 1
+a123 1
+      alt = toupper(argv[i][2]);
+d156 5
+d222 1
+a222 1
+  if (!(dolint || doprt || dopix || dowrld)) doprt = 1;
+d306 1
+a306 1
+    wcsidx(nwcs, &wcs, alts);
+d308 5
+a312 4
+    if (alt == ' ') {
+      if (alts[0] == -1) {
+        wcsfprintf(stderr, "WARNING, no primary coordinate representation.\n");
+        alt = '\0';
+d315 15
+a329 4
+    } else if (alt < 'A' || alt > 'Z') {
+      wcsfprintf(stderr, "WARNING, alternate specifier \"%c\" is invalid.\n",
+        alt);
+      alt = '\0';
+d331 11
+a341 5
+    } else {
+      if (alts[alt - 'A' + 1] == -1) {
+        wcsfprintf(stderr, "WARNING, no alternate coordinate representation "
+                        "\"%c\".\n", alt);
+        alt = '\0';
+d344 2
+d352 1
+d354 2
+a355 2
+    if (alt) {
+      if ((wcs+i)->alt[0] != alt) continue;
+d359 1
+d370 16
+d393 1
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.6 2015/06/14 07:11:27 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Allow numerical selection of an alternate WCS.  Fail if the selection is
+invalid.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.6.1.1 2015/06/14 07:14:49 mcalabre Exp mcalabre $
+d47 2
+a48 4
+"  -a<alt>      Specify an alternate coordinate representation (ignored if\n"
+"               there is only one).  Can also be specified as a 0-relative\n"
+"               index in the range 0 to 26, where alternates are sequenced\n"
+"               alphabetically following the primary representation.\n"
+d90 1
+a90 1
+  char *alt = 0x0, *header, *infile, wcsname[72];
+d92 2
+a93 2
+       hdunum, hdutype, i, ialt, j, keysel, nelem, nkeyrec, nreject, nwcs,
+       relax, *stat = 0x0, status, strict;
+d95 1
+a95 1
+  struct wcsprm *wcs, *wcsi = 0x0;
+d118 1
+a118 1
+      alt = argv[i]+2;
+d296 1
+a296 1
+    i = 0;
+d298 4
+a301 5
+    if ('0' <= *alt && *alt <= '9') {
+      if ((i = atoi(alt)) > nwcs-1) {
+        wcsfprintf(stderr, "WARNING, no alternate coordinate "
+          "representation \"%s\".\n", alt);
+        return 1;
+d304 5
+d310 4
+a313 26
+      wcsidx(nwcs, &wcs, alts);
+
+      ialt = toupper(*alt);
+      if (strlen(alt) > 1) {
+        wcsfprintf(stderr, "WARNING, alternate specifier \"%s\" is "
+          "invalid.\n", alt);
+        return 1;
+
+      } else if (*alt == ' ') {
+        if (alts[0] == -1) {
+          wcsfprintf(stderr, "WARNING, no primary coordinate "
+            "representation.\n");
+          return 1;
+        }
+
+      } else if (ialt < 'A' || ialt > 'Z') {
+        wcsfprintf(stderr, "WARNING, alternate specifier \"%s\" is "
+          "invalid.\n", alt);
+        return 1;
+
+      } else {
+        if ((i = alts[ialt - 'A' + 1]) == -1) {
+          wcsfprintf(stderr, "WARNING, no alternate coordinate "
+            "representation \"%s\".\n", alt);
+          return 1;
+        }
+a315 2
+
+    wcsi = wcs + i;
+a321 2
+  wcsprintf("\n");
+
+d323 2
+a324 2
+    if (wcsi) {
+      if ((wcs+i) != wcsi) continue;
+@
+
+
+5.6.1.3
+log
+@Added option '-o' to print the wcsprm struct in the form of a FITS header
+using wcshdo().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.6.1.2 2015/06/20 07:30:14 mcalabre Exp mcalabre $
+a59 2
+"  -o           Use wcshdo() to translate the wcsprm struct into a FITS\n"
+"               header and print it.\n"
+d92 4
+a95 4
+  char *alt = 0x0, *header, *hptr, *infile, wcsname[72];
+  int  allimg, alts[27], c, ctrl, dobth, dofix, dohdr, dolint, doprt, dopix,
+       dowrld, hdunum, hdutype, i, ialt, j, k, keysel, nelem, nkeyrec,
+       nreject, nwcs, relax, *stat = 0x0, status, strict;
+a104 1
+  dohdr  =  0;
+a152 5
+    case 'o':
+      /* Print header using wcshdo(). */
+      dohdr = 1;
+      break;
+
+d214 1
+a214 1
+  if (!(dolint || dohdr || doprt || dopix || dowrld)) doprt = 1;
+a351 1
+      wcsprintf("\n");
+a361 15
+    /* Print the struct as a FITS header. */
+    if (dohdr) {
+      if (wcshdo(WCSHDO_all, wcs+i, &nkeyrec, &header)) {
+        wcsperr(wcs+i, "");
+        continue;
+      }
+
+      hptr = header;
+      for (k = 0; k < nkeyrec; k++, hptr += 80) {
+        wcsprintf("%.80s\n", hptr);
+      }
+
+      free(header);
+    }
+
+d366 1
+a366 1
+          wcsprintf("%s\n", wcsname);
+a367 1
+        wcsprintf("\n");
+@
+
+
+5.6.1.4
+log
+@Tweaking of output whitespace.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.6.1.3 2015/06/20 08:11:20 mcalabre Exp mcalabre $
+d352 1
+a378 1
+      wcsprintf("\n");
+d390 1
+a390 1
+          wcsprintf("\n%s\n", wcsname);
+d392 1
+a393 1
+        wcsprintf("\n");
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.4.1.2 2015/05/02 15:43:15 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.5 2015/05/05 13:16:34 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.3.1.1 2015/04/21 02:54:06 mcalabre Exp mcalabre $
+d53 2
+a54 1
+"               contain an image array.  (Useful for input from stdin.)\n"
+d99 1
+a99 1
+  allimg = 0;
+d101 7
+a107 7
+  dobth  = 0;
+  dofix  = 0;
+  dolint = 0;
+  dopix  = 0;
+  doprt  = 0;
+  dowrld = 0;
+  hdunum = 1;
+d109 1
+a109 1
+  strict = 0;
+d135 1
+a211 6
+  /* Check accessibility of the input file. */
+  if (strcmp(infile, "-") && access(infile, R_OK) == -1) {
+    wcsfprintf(stderr, "wcsware: Cannot access %s.\n", infile);
+    return 1;
+  }
+
+d218 5
+a222 1
+  if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+d248 1
+a248 1
+    wcsfprintf(stderr, "wcslint: Invalid FITS extension type.\n");
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.4 2015/04/21 14:41:08 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Couple of fixes required to enable cfitsio extended filename syntax.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.4.1.1 2015/04/21 14:44:32 mcalabre Exp mcalabre $
+d53 1
+a53 2
+"               contain an image array.  Overrides cfitsio extended\n"
+"               filename syntax.  Also useful for input from stdin.\n"
+d98 1
+a98 1
+  allimg =  0;
+d100 7
+a106 7
+  dobth  =  0;
+  dofix  =  0;
+  dolint =  0;
+  dopix  =  0;
+  doprt  =  0;
+  dowrld =  0;
+  hdunum =  0;
+d108 1
+a108 1
+  strict =  0;
+a133 1
+      if (hdunum < 0) hdunum = 0;
+d210 6
+d222 1
+a222 5
+  if (hdunum) {
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+  } else {
+    if (fits_get_hdu_type(fptr, &hdutype, &status)) goto fitserr;
+  }
+d248 1
+a248 1
+    wcsfprintf(stderr, "wcsware: Invalid FITS extension type.\n");
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.2.1.2 2015/04/18 07:31:54 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.3 2015/04/21 02:50:54 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+d89 1
+a89 1
+  char alt = ' ', *header, *infile, wcsname[72];
+d320 2
+d323 2
+a324 2
+    if (alt && (wcs+i)->alt[0] != alt) {
+      continue;
+d331 1
+a331 1
+      wcsfprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+d386 1
+a386 2
+            wcsfprintf(stderr, "wcsp2s ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+d444 1
+a444 2
+            wcsfprintf(stderr, "wcss2p ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.2 2015/04/15 12:35:10 mcalabre Exp $
+@
+
+
+5.2.1.2
+log
+@Now uses wcserr to provide a backtrace on errors.  Also fixed a couple of
+minor annoyances relating to alternate representations.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.2.1.1 2015/04/15 12:39:19 mcalabre Exp mcalabre $
+d89 1
+a89 1
+  char alt = '\0', *header, *infile, wcsname[72];
+a319 2
+  wcserr_enable(1);
+  wcsprintf_set(stdout);
+d321 2
+a322 2
+    if (alt) {
+      if ((wcs+i)->alt[0] != alt) continue;
+d329 1
+a329 1
+      wcsperr(wcs+i, "");
+d384 2
+a385 1
+            wcsperr(wcs+i, "");
+d443 2
+a444 1
+            wcsperr(wcs+i, "");
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.25.1.3 2015/03/16 07:47:12 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 5.0 2015/04/05 12:25:03 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d33 1
+a33 1
+"Usage: wcsware [-a<alt>] [-f] [-h<hdu>] [-p] [-x] [<fitsfile>]\n"
+d37 5
+a41 1
+"and performs a variety of operations using them.\n\n"
+d49 2
+d54 3
+d59 10
+d70 1
+a70 3
+"               coordinates using wcsp2s().\n"
+"  -w           Convert world coordinates, obtained from stdin, to pixel\n"
+"               coordinates using wcss2p().\n";
+d80 1
+d83 1
+a83 1
+#include <wcs.h>
+d90 3
+a92 2
+  int  alts[27], c, dofix = 0, doprt = 0, dopix = 0, doworld = 0, hdunum = 1,
+       hdutype, i, j, nelem, nkeyrec, nreject, nwcs, *stat = 0x0, status;
+d97 12
+d116 1
+d120 6
+d127 2
+a128 1
+      dofix = 1;
+d132 1
+d136 13
+d150 2
+a151 1
+      doprt = 1;
+d155 19
+a173 1
+      doprt = -1;
+d176 3
+a178 2
+    case 'x':
+      dopix = 1;
+d182 5
+a186 1
+      doworld = 1;
+d190 1
+a190 1
+      fprintf(stderr, "%s", usage);
+d195 4
+d203 1
+a203 1
+      fprintf(stderr, "%s", usage);
+d212 1
+a212 1
+    printf("wcsware: Cannot access %s.\n", infile);
+d216 1
+a216 1
+  if (!dopix && !doworld && !doprt) doprt = 1;
+a222 5
+  if (hdutype != IMAGE_HDU) {
+    fprintf(stderr, "ERROR, HDU number %d does not contain an image array.\n",
+      hdunum);
+    return 1;
+  }
+d231 18
+a248 3
+  if ((status = wcspih(header, nkeyrec, WCSHDR_all, -3, &nreject, &nwcs,
+                       &wcs))) {
+    fprintf(stderr, "wcspih ERROR %d: %s.\n", status, wcshdr_errmsg[status]);
+d251 1
+d254 14
+a267 3
+  if (wcs == 0x0) {
+    fprintf(stderr, "No world coordinate systems found.\n");
+    return 1;
+d270 1
+d285 2
+a286 2
+           fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                   wcsfix_errmsg[stat[i]]);
+d300 1
+a300 1
+        fprintf(stderr, "WARNING, no primary coordinate representation.\n");
+d305 1
+a305 1
+      fprintf(stderr, "WARNING, alternate specifier \"%c\" is invalid.\n",
+d311 1
+a311 1
+        fprintf(stderr, "WARNING, no alternate coordinate representation "
+d324 1
+a324 1
+      printf("\nType <CR> for next: ");
+d329 1
+a329 1
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+d340 1
+a340 1
+          printf("\n%s\n", wcsname);
+d348 1
+a348 1
+    if (dopix || doworld) {
+d350 1
+a350 1
+        printf("\n%s\n", wcsname);
+d362 1
+a362 1
+          printf("\nEnter %d pixel coordinate element%s: ", nelem,
+d366 1
+a366 1
+            if (c == EOF) printf("\n");
+d377 1
+a377 1
+          printf("Pixel: ");
+d379 1
+a379 1
+            printf("%s%14.9g", j?", ":"", pixcrd[j]);
+d384 1
+a384 1
+            fprintf(stderr, "wcsp2s ERROR %d: %s.\n", status,
+d388 1
+a388 1
+            printf("\nImage: ");
+d392 1
+a392 1
+                printf("%s%14.6f", j?", ":"", imgcrd[j]);
+d394 1
+a394 1
+                printf("%s%14.9g", j?", ":"", imgcrd[j]);
+d398 1
+a398 1
+            printf("\nWorld: ");
+d402 1
+a402 1
+                printf("%s%14.6f", j?", ":"", world[j]);
+d404 1
+a404 1
+                printf("%s%14.9g", j?", ":"", world[j]);
+d407 1
+a407 1
+            printf("\n");
+d413 1
+a413 1
+      if (doworld) {
+d416 1
+a416 1
+          printf("\nEnter %d world coordinate element%s: ", nelem,
+d420 1
+a420 1
+            if (c == EOF) printf("\n");
+d431 1
+a431 1
+          printf("World: ");
+d435 1
+a435 1
+              printf("%s%14.6f", j?", ":"", world[j]);
+d437 1
+a437 1
+              printf("%s%14.9g", j?", ":"", world[j]);
+d443 1
+a443 1
+            fprintf(stderr, "wcss2p ERROR %d: %s.\n", status,
+d447 1
+a447 1
+            printf("\nImage: ");
+d451 1
+a451 1
+                printf("%s%14.6f", j?", ":"", imgcrd[j]);
+d453 1
+a453 1
+                printf("%s%14.9g", j?", ":"", imgcrd[j]);
+d457 1
+a457 1
+            printf("\nPixel: ");
+d459 1
+a459 1
+              printf("%s%14.9g", j?", ":"", pixcrd[j]);
+d461 1
+a461 1
+            printf("\n");
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.25.1.1 2014/12/14 14:32:48 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Added a '-l' (lint) option, and various other options associated with it.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.25.1.2 2015/01/06 01:03:31 mcalabre Exp mcalabre $
+d33 1
+a33 1
+"Usage: wcsware [OPTION]... [FITSFILE]\n"
+d37 1
+a37 5
+"and performs a variety of operations using them.  It features a \"lint\"\n"
+"capability as one of its more useful operations.\n\n"
+"By default, all known extensions to the FITS WCS standard are allowed,\n"
+"including deprecated usage.  However, in \"lint\" mode, strict conformance\n"
+"to the standard is enforced.\n\n"
+a44 2
+"  -b           Use wcsbth() for primary image headers, normally wcspih()\n"
+"               is used.  (Implies -i.)\n"
+a47 3
+"  -i           Allow image header WCS keywords in binary table headers.\n"
+"  -l           Validate (lint) the WCS keyrecords in the specified FITS\n"
+"               header for conformance to the WCS standard.  (Implies -s.)\n"
+d50 2
+a51 8
+"  -r           Require strict adherence to the FITS WCS standard, though\n"
+"               allowing the deprecated AIPS-convention keywords, CROTAn,\n"
+"               EPOCH, and VELREF, and also some other deprecated usage.\n"
+"               (Must follow -l if relaxed linting is required.)\n"
+"  -s           Require strict adherence to the FITS WCS standard,\n"
+"               disallowing all deprecated features.\n"
+"  -t           Terse (with -l), report rejected WCS keyrecords only.\n"
+"  -v           Verbose (with -l), report recognised WCS keyrecords as well.\n"
+d53 1
+a53 3
+"               coordinates using wcss2p().\n"
+"  -x           Convert pixel coordinates, obtained from stdin, to world\n"
+"               coordinates using wcsp2s().\n";
+a62 1
+#include <wcs.h>
+d65 1
+a65 1
+#include <wcsprintf.h>
+d72 2
+a73 3
+  int  allimg, alts[27], c, ctrl, dobth, dofix, dolint, doprt, dopix, dowrld,
+       hdunum, hdutype, i, j, keysel, nelem, nkeyrec, nreject, nwcs, relax,
+       *stat = 0x0, status, strict;
+a77 12
+  /* Initialise control variables. */
+  allimg = 0;
+  ctrl   = -3;
+  dobth  = 0;
+  dofix  = 0;
+  dolint = 0;
+  dopix  = 0;
+  doprt  = 0;
+  dowrld = 0;
+  hdunum = 1;
+  relax  = WCSHDR_all;
+  strict = 0;
+a84 1
+      /* Select an alternate WCS. */
+a87 6
+    case 'b':
+      /* Use wcsbth() for image headers. */
+      dobth  = 1;
+      allimg = 1;
+      break;
+
+d89 1
+a89 2
+      /* Apply wcsfix(). */
+      dofix  = 1;
+a92 1
+      /* Move to HDU number. */
+a95 13
+    case 'i':
+      /* Allow image header keywords in bintables. */
+      allimg = 1;
+      break;
+
+    case 'l':
+      /* Lint. */
+      strict = 1;
+      relax  = WCSHDR_strict;
+      ctrl   = 3;
+      dolint = 1;
+      break;
+
+d97 1
+a97 2
+      /* Print structs. */
+      doprt  = 1;
+d101 1
+a101 2
+      /* Print non-default structs. */
+      doprt  = -1;
+d104 2
+a105 20
+    case 'r':
+      /* Strict, but allow some deprecated usage. */
+      strict = 0;
+      relax  = WCSHDR_reject;
+      break;
+
+    case 's':
+      /* Strict, really strict. */
+      strict = 1;
+      relax  = WCSHDR_strict;
+      break;
+
+    case 't':
+      /* Terse. */
+      ctrl   = 2;
+      break;
+
+    case 'v':
+      /* Verbose. */
+      ctrl   = 4;
+d109 1
+a109 5
+      dowrld = 1;
+      break;
+
+    case 'x':
+      dopix  = 1;
+d113 1
+a113 1
+      wcsfprintf(stderr, "%s", usage);
+a117 4
+  if (allimg) {
+    relax |= WCSHDR_ALLIMG;
+  }
+
+d122 1
+a122 1
+      wcsfprintf(stderr, "%s", usage);
+d131 1
+a131 1
+    wcsfprintf(stderr, "wcsware: Cannot access %s.\n", infile);
+d135 1
+a135 1
+  if (!(dolint || doprt || dopix || dowrld)) doprt = 1;
+d142 5
+d155 3
+a157 18
+  if ((hdutype == BINARY_TBL) ||
+     ((hdutype == IMAGE_HDU) && dobth)) {
+    keysel = (hdutype == BINARY_TBL) ? 0 : WCSHDR_IMGHEAD;
+    if ((status = wcsbth(header, nkeyrec, relax, ctrl, keysel, 0x0, &nreject,
+                    &nwcs, &wcs))) {
+      wcsfprintf(stderr, "wcsbth ERROR %d: %s.\n", status,
+                 wcshdr_errmsg[status]);
+      return 1;
+    }
+  } else if (hdutype == IMAGE_HDU) {
+    if ((status = wcspih(header, nkeyrec, relax, ctrl, &nreject,
+                    &nwcs, &wcs))) {
+      wcsfprintf(stderr, "wcspih ERROR %d: %s.\n", status,
+                 wcshdr_errmsg[status]);
+      return 1;
+    }
+  } else {
+    wcsfprintf(stderr, "wcslint: Invalid FITS extension type.\n");
+a159 1
+
+d162 3
+a164 14
+  if (nreject) {
+    if (ctrl <= 3) {
+      wcsprintf("\n%d WCS keyrecords were rejected.\n", nreject);
+    }
+    wcsprintf("\nThe rejected keyrecords do not conform%s to the FITS WCS "
+              "standard.\n", strict?" strictly":"");
+  } else if (nwcs == 0) {
+    if (2 < ctrl) wcsprintf("\n");
+    wcsprintf("No world coordinate systems found.\n");
+    fits_close_file(fptr, &status);
+    return 0;
+
+  } else if (2 < ctrl) {
+    wcsprintf("\nNo invalid WCS keyrecords were found.\n");
+a166 1
+
+d181 2
+a182 2
+           wcsfprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                      wcsfix_errmsg[stat[i]]);
+d196 1
+a196 1
+        wcsfprintf(stderr, "WARNING, no primary coordinate representation.\n");
+d201 1
+a201 1
+      wcsfprintf(stderr, "WARNING, alternate specifier \"%c\" is invalid.\n",
+d207 1
+a207 1
+        wcsfprintf(stderr, "WARNING, no alternate coordinate representation "
+d220 1
+a220 1
+      wcsprintf("\nType <CR> for next: ");
+d225 1
+a225 1
+      wcsfprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+d236 1
+a236 1
+          wcsprintf("\n%s\n", wcsname);
+d244 1
+a244 1
+    if (dopix || dowrld) {
+d246 1
+a246 1
+        wcsprintf("\n%s\n", wcsname);
+d258 1
+a258 1
+          wcsprintf("\nEnter %d pixel coordinate element%s: ", nelem,
+d262 1
+a262 1
+            if (c == EOF) wcsprintf("\n");
+d273 1
+a273 1
+          wcsprintf("Pixel: ");
+d275 1
+a275 1
+            wcsprintf("%s%14.9g", j?", ":"", pixcrd[j]);
+d280 1
+a280 1
+            wcsfprintf(stderr, "wcsp2s ERROR %d: %s.\n", status,
+d284 1
+a284 1
+            wcsprintf("\nImage: ");
+d288 1
+a288 1
+                wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
+d290 1
+a290 1
+                wcsprintf("%s%14.9g", j?", ":"", imgcrd[j]);
+d294 1
+a294 1
+            wcsprintf("\nWorld: ");
+d298 1
+a298 1
+                wcsprintf("%s%14.6f", j?", ":"", world[j]);
+d300 1
+a300 1
+                wcsprintf("%s%14.9g", j?", ":"", world[j]);
+d303 1
+a303 1
+            wcsprintf("\n");
+d309 1
+a309 1
+      if (dowrld) {
+d312 1
+a312 1
+          wcsprintf("\nEnter %d world coordinate element%s: ", nelem,
+d316 1
+a316 1
+            if (c == EOF) wcsprintf("\n");
+d327 1
+a327 1
+          wcsprintf("World: ");
+d331 1
+a331 1
+              wcsprintf("%s%14.6f", j?", ":"", world[j]);
+d333 1
+a333 1
+              wcsprintf("%s%14.9g", j?", ":"", world[j]);
+d339 1
+a339 1
+            wcsfprintf(stderr, "wcss2p ERROR %d: %s.\n", status,
+d343 1
+a343 1
+            wcsprintf("\nImage: ");
+d347 1
+a347 1
+                wcsprintf("%s%14.6f", j?", ":"", imgcrd[j]);
+d349 1
+a349 1
+                wcsprintf("%s%14.9g", j?", ":"", imgcrd[j]);
+d353 1
+a353 1
+            wcsprintf("\nPixel: ");
+d355 1
+a355 1
+              wcsprintf("%s%14.9g", j?", ":"", pixcrd[j]);
+d357 1
+a357 1
+            wcsprintf("\n");
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.23 2014/05/13 05:50:54 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.21.1.1 2014/03/24 05:15:31 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.20.1.2 2014/03/21 06:47:23 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.20 2013/12/18 05:42:51 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.18.1.1 2013/07/13 10:02:40 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.16.1.2 2013/01/29 05:11:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.15.1.2 2012/11/07 04:31:46 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.16.1.1 2012/11/07 04:45:58 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.14.1.1 2012/07/13 10:05:06 cal103 Exp cal103 $
+d49 1
+d71 1
+a71 1
+  char alt = ' ', *header, idents[3][80], *infile;
+d100 4
+d135 1
+a135 1
+  if (!dopix && !doworld) doprt = 1;
+d230 1
+a230 4
+    strcpy(idents[2], (wcs+i)->wcsname);
+    if (strlen(idents[2])) {
+      printf("\n%s\n", idents[2]);
+    }
+d234 7
+a240 1
+      wcsprt(wcs+i);
+d245 4
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.15.1.2
+log
+@Added a new option, -P, which does the same as -p except that it won't print
+a wcsprm struct with the name "DEFAULTS".  Change requested by Jasem Mutlaq
+for KStars.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.15.1.1 2012/09/26 14:27:53 cal103 Exp cal103 $
+a48 1
+"  -P           Same as -p but don't print a default struct.\n"
+d70 1
+a70 1
+  char alt = ' ', *header, *infile, wcsname[72];
+a98 4
+    case 'P':
+      doprt = -1;
+      break;
+
+d130 1
+a130 1
+  if (!dopix && !doworld && !doprt) doprt = 1;
+d225 4
+a228 1
+    strcpy(wcsname, (wcs+i)->wcsname);
+d232 1
+a232 7
+      if (doprt == 1 || strcmp(wcsname, "DEFAULTS")) {
+        if (strlen(wcsname)) {
+          printf("\n%s\n", wcsname);
+        }
+
+        wcsprt(wcs+i);
+      }
+a236 4
+      if (strlen(wcsname)) {
+        printf("\n%s\n", wcsname);
+      }
+
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsware.c,v 4.13.1.2 2012/07/13 03:44:50 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsware.c,v 4.14 2012/07/13 10:02:48 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsware.c,v 4.12.1.1 2012/02/29 07:59:12 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsware.c,v 4.13.1.1 2012/03/14 07:40:39 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.8.1.2 2012/01/24 05:28:46 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.6.1.3 2011/01/25 00:54:46 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.5.1.1 2010/07/16 07:05:33 cal103 Exp cal103 $
+d56 3
+a58 1
+"               coordinates using wcsp2s().\n";
+d77 2
+a78 2
+  int  alts[27], dofix = 0, doprt = 0, dopix = 0, hdunum = 1, hdutype, i, j,
+       nelem, nkeyrec, nreject, nwcs, *stat = 0x0, status;
+d109 4
+d136 1
+a136 1
+  if (!dopix) doprt = 1;
+d241 2
+a242 2
+    /* Transform pixel coordinates. */
+    if (dopix) {
+d244 2
+a246 2
+      imgcrd = realloc(imgcrd, nelem * sizeof(double));
+      world  = realloc(world,  nelem * sizeof(double));
+d249 51
+a299 4
+      printf("\nEnter %d pixel coordinate elements: ", nelem);
+      scanf("%lf", pixcrd);
+      for (j = 1; j < nelem; j++) {
+        scanf("%*[ ,]%lf", pixcrd+j);
+d302 51
+a352 12
+      wcsp2s(wcs+i, 1, nelem, pixcrd, imgcrd, &phi, &theta, world, stat);
+      printf("Pixel: ");
+      for (j = 0; j < nelem; j++) {
+        printf("%s%14.9g", j?", ":"", pixcrd[j]);
+      }
+      printf("\nWorld: ");
+      for (j = 0; j < nelem; j++) {
+        if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+          /* Print angles in fixed format. */
+          printf("%s%14.6f", j?", ":"", world[j]);
+        } else {
+          printf("%s%14.9g", j?", ":"", world[j]);
+a354 1
+      printf("\n");
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Added a '-w' option to convert world coordinates obtained from stdin
+to pixel coordinates using wcss2p().  Allow multiple sets of input
+coordinates with the '-x' and '-w' options and report the value of
+the intermediate world coordinates.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.6.1.2 2011/01/14 06:35:32 cal103 Exp cal103 $
+d56 1
+a56 3
+"               coordinates using wcsp2s().\n"
+"  -w           Convert world coordinates, obtained from stdin, to pixel\n"
+"               coordinates using wcss2p().\n";
+d75 2
+a76 2
+  int  alts[27], c, dofix = 0, doprt = 0, dopix = 0, doworld = 0, hdunum = 1,
+       hdutype, i, j, nelem, nkeyrec, nreject, nwcs, *stat = 0x0, status;
+a106 4
+    case 'w':
+      doworld = 1;
+      break;
+
+d130 1
+a130 1
+  if (!dopix && !doworld) doprt = 1;
+d235 2
+a236 2
+    /* Transform coordinates? */
+    if (dopix || doworld) {
+d238 2
+a240 2
+      imgcrd = realloc(imgcrd, nelem * sizeof(double));
+      pixcrd = realloc(pixcrd, nelem * sizeof(double));
+d243 4
+a246 51
+      if (dopix) {
+        /* Transform pixel coordinates. */
+        while (1) {
+          printf("\nEnter %d pixel coordinate element%s: ", nelem,
+            (nelem==1)?"":"s");
+          c = fgetc(stdin);
+          if (c == EOF || c == '\n') {
+            if (c == EOF) printf("\n");
+            break;
+          }
+          ungetc(c, stdin);
+
+          scanf("%lf", pixcrd);
+          for (j = 1; j < nelem; j++) {
+            scanf("%*[ ,]%lf", pixcrd+j);
+          }
+          while (fgetc(stdin) != '\n');
+
+          printf("Pixel: ");
+          for (j = 0; j < nelem; j++) {
+            printf("%s%14.9g", j?", ":"", pixcrd[j]);
+          }
+
+          if ((status = wcsp2s(wcs+i, 1, nelem, pixcrd, imgcrd, &phi, &theta,
+                               world, stat))) {
+            fprintf(stderr, "wcsp2s ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+
+          } else {
+            printf("\nImage: ");
+            for (j = 0; j < nelem; j++) {
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+                /* Print angles in fixed format. */
+                printf("%s%14.6f", j?", ":"", imgcrd[j]);
+              } else {
+                printf("%s%14.9g", j?", ":"", imgcrd[j]);
+              }
+            }
+
+            printf("\nWorld: ");
+            for (j = 0; j < nelem; j++) {
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+                /* Print angles in fixed format. */
+                printf("%s%14.6f", j?", ":"", world[j]);
+              } else {
+                printf("%s%14.9g", j?", ":"", world[j]);
+              }
+            }
+            printf("\n");
+          }
+        }
+d249 12
+a260 51
+
+      if (doworld) {
+        /* Transform world coordinates. */
+        while (1) {
+          printf("\nEnter %d world coordinate element%s: ", nelem,
+            (nelem==1)?"":"s");
+          c = fgetc(stdin);
+          if (c == EOF || c == '\n') {
+            if (c == EOF) printf("\n");
+            break;
+          }
+          ungetc(c, stdin);
+
+          scanf("%lf", world);
+          for (j = 1; j < nelem; j++) {
+            scanf("%*[ ,]%lf", world+j);
+          }
+          while (fgetc(stdin) != '\n');
+
+          printf("World: ");
+          for (j = 0; j < nelem; j++) {
+            if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+              /* Print angles in fixed format. */
+              printf("%s%14.6f", j?", ":"", world[j]);
+            } else {
+              printf("%s%14.9g", j?", ":"", world[j]);
+            }
+          }
+
+          if ((status = wcss2p(wcs+i, 1, nelem, world, &phi, &theta, imgcrd,
+                               pixcrd, stat))) {
+            fprintf(stderr, "wcss2p ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+
+          } else {
+            printf("\nImage: ");
+            for (j = 0; j < nelem; j++) {
+              if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+                /* Print angles in fixed format. */
+                printf("%s%14.6f", j?", ":"", imgcrd[j]);
+              } else {
+                printf("%s%14.9g", j?", ":"", imgcrd[j]);
+              }
+            }
+
+            printf("\nPixel: ");
+            for (j = 0; j < nelem; j++) {
+              printf("%s%14.9g", j?", ":"", pixcrd[j]);
+            }
+            printf("\n");
+          }
+d263 1
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.4.1.3 2010/04/09 05:30:16 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.5 2010/07/16 07:01:27 cal103 Exp $
+@
+
+
+4.4
+log
+@Initial revision.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id$
+d252 1
+a252 1
+        printf("%s%12.7g", j?", ":"", pixcrd[j]);
+d256 6
+a261 1
+        printf("%s%12.7g", j?", ":"", world[j]);
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.4 2009/07/23 04:29:29 cal103 Exp cal103 $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsware.c,v 4.4.1.1 2009/08/10 08:56:01 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Print angles in fixed format and to greater precision.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsware.c,v 4.4.1.2 2010/01/19 03:46:41 cal103 Exp cal103 $
+d252 1
+a252 1
+        printf("%s%14.9g", j?", ":"", pixcrd[j]);
+d256 1
+a256 6
+        if (j == (wcs+i)->lng || j == (wcs+i)->lat) {
+          /* Print angles in fixed format. */
+          printf("%s%14.6f", j?", ":"", world[j]);
+        } else {
+          printf("%s%14.9g", j?", ":"", world[j]);
+        }
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 270
+@

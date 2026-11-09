@@ -1,0 +1,6160 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.08.59.02;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.12.25.27;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.06.11.47.37;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.02.04.12.59.26;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2006.08.02.00.14.58;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.12.08.20.07;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.08.08.40.48;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.04.02.06.17.13;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.05.10.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.28.06.51.02;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.43.08;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.10.06.52.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.2;
+
+4.22.1.2
+date	2014.05.10.14.31.17;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.3;
+
+4.22.1.3
+date	2014.05.11.03.58.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	4.23.1.2;
+
+4.23.1.2
+date	2014.05.22.10.52.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.01.16.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.18.08.13.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.08.15.26.18;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.13.10.28.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.09.07.07.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.26.13.54.33;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.3;
+
+8.4.1.3
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for the routines that implement WCS tabular
+coordinates (-TAB); contains the definition of the "tabprm" struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tab.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the tab routines
+* ---------------------------
+* Routines in this suite implement the part of the FITS World Coordinate
+* System (WCS) standard that deals with tabular coordinates, i.e. coordinates
+* that are defined via a lookup table, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+*
+* These routines define methods to be used for computing tabular world
+* coordinates from intermediate world coordinates (a linear transformation
+* of image pixel coordinates), and vice versa.  They are based on the tabprm
+* struct which contains all information needed for the computations.  The
+* struct contains some members that must be set by the user, and others that
+* are maintained by these routines, somewhat like a C++ class but with no
+* encapsulation.
+*
+* tabini(), tabmem(), tabcpy(), and tabfree() are provided to manage the
+* tabprm struct, tabsize() computes its total size including allocated memory,
+* tabenq() returns information about the state of the struct, and tabprt()
+* prints its contents.
+*
+* tabperr() prints the error message(s) (if any) stored in a tabprm struct.
+*
+* A setup routine, tabset(), computes intermediate values in the tabprm struct
+* from parameters in it that were supplied by the user.  The struct always
+* needs to be set up by tabset() but it need not be called explicitly - refer
+* to the explanation of tabprm::flag.
+*
+* tabx2s() and tabs2x() implement the WCS tabular coordinate transformations.
+*
+* Accuracy:
+* ---------
+* No warranty is given for the accuracy of these routines (refer to the
+* copyright notice); intending users must satisfy for themselves their
+* adequacy for the intended purpose.  However, closure effectively to within
+* double precision rounding error was demonstrated by test routine ttab.c
+* which accompanies this software.
+*
+*
+* tabini() - Default constructor for the tabprm struct
+* ----------------------------------------------------
+* tabini() allocates memory for arrays in a tabprm struct and sets all members
+* of the struct to default values.
+*
+* PLEASE NOTE: every tabprm struct should be initialized by tabini(), possibly
+* repeatedly.  On the first invokation, and only the first invokation, the
+* flag member of the tabprm struct must be set to -1 to initialize memory
+* management, regardless of whether tabini() will actually be used to allocate
+* memory.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the tabprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   M         int       The number of tabular coordinate axes.
+*
+*   K         const int[]
+*                       Vector of length M whose elements (K_1, K_2,... K_M)
+*                       record the lengths of the axes of the coordinate array
+*                       and of each indexing vector.  M and K[] are used to
+*                       determine the length of the various tabprm arrays and
+*                       therefore the amount of memory to allocate for them.
+*                       Their values are copied into the tabprm struct.
+*
+*                       It is permissible to set K (i.e. the address of the
+*                       array) to zero which has the same effect as setting
+*                       each element of K[] to zero.  In this case no memory
+*                       will be allocated for the index vectors or coordinate
+*                       array in the tabprm struct.  These together with the
+*                       K vector must be set separately before calling
+*                       tabset().
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.  Note that, in
+*                       order to initialize memory management tabprm::flag
+*                       should be set to -1 when tab is initialized for the
+*                       first time (memory leaks may result if it had already
+*                       been initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid tabular parameters.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err if enabled, see wcserr_enable().
+*
+*
+* tabmem() - Acquire tabular memory
+* ---------------------------------
+* tabmem() takes control of memory allocated by the user for arrays in the
+* tabprm struct.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err if enabled, see wcserr_enable().
+*
+*
+* tabcpy() - Copy routine for the tabprm struct
+* ---------------------------------------------
+* tabcpy() does a deep copy of one tabprm struct to another, using tabini() to
+* allocate memory for its arrays if required.  Only the "information to be
+* provided" part of the struct is copied; a call to tabset() is required to
+* set up the remainder.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the tabprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   tabsrc    const struct tabprm*
+*                       Struct to copy from.
+*
+* Given and returned:
+*   tabdst    struct tabprm*
+*                       Struct to copy to.  tabprm::flag should be set to -1
+*                       if tabdst was not previously initialized (memory leaks
+*                       may result if it was previously initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err (associated with tabdst) if enabled, see
+*                       wcserr_enable().
+*
+*
+* tabcmp() - Compare two tabprm structs for equality
+* --------------------------------------------------
+* tabcmp() compares two tabprm structs for equality.
+*
+* Given:
+*   cmp       int       A bit field controlling the strictness of the
+*                       comparison.  At present, this value must always be 0,
+*                       indicating a strict comparison.  In the future, other
+*                       options may be added.
+*
+*   tol       double    Tolerance for comparison of floating-point values.
+*                       For example, for tol == 1e-6, all floating-point
+*                       values in the structs must be equal to the first 6
+*                       decimal places.  A value of 0 implies exact equality.
+*
+*   tab1      const struct tabprm*
+*                       The first tabprm struct to compare.
+*
+*   tab2      const struct tabprm*
+*                       The second tabprm struct to compare.
+*
+* Returned:
+*   equal     int*      Non-zero when the given structs are equal.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null pointer passed.
+*
+*
+* tabfree() - Destructor for the tabprm struct
+* --------------------------------------------
+* tabfree() frees memory allocated for the tabprm arrays by tabini().
+* tabini() records the memory it allocates and tabfree() will only attempt to
+* free this.
+*
+* PLEASE NOTE: tabfree() must not be invoked on a tabprm struct that was not
+* initialized by tabini().
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabsize() - Compute the size of a tabprm struct
+* -----------------------------------------------
+* tabsize() computes the full size of a tabprm struct, including allocated
+* memory.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct tabprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by tabini().  This figure
+*                       includes memory allocated for the constituent struct,
+*                       tabprm::err.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via tabset(), which normally results in additional
+*                       memory allocation. 
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* tabenq() - enquire about the state of a tabprm struct
+* -----------------------------------------------------
+* tabenq() may be used to obtain information about the state of a tabprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         TABENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see tabini()).
+*                         TABENQ_SET: the struct has been set up by tabset().
+*                         TABENQ_BYP: the struct is in bypass mode (see
+*                                     tabset()).
+*                       These may be combined by logical OR, e.g.
+*                       TABENQ_MEM | TABENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+* tabprt() - Print routine for the tabprm struct
+* ----------------------------------------------
+* tabprt() prints the contents of a tabprm struct using wcsprintf().  Mainly
+* intended for diagnostic purposes.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabperr() - Print error messages from a tabprm struct
+* -----------------------------------------------------
+* tabperr() prints the error message(s) (if any) stored in a tabprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabset() - Setup routine for the tabprm struct
+* -----------------------------------------------
+* tabset() allocates memory for work arrays in the tabprm struct and sets up
+* the struct according to information supplied within it.
+*
+* Note that this routine need not be called directly; it will be invoked by
+* tabx2s() and tabs2x() if tabprm::flag is anything other than a predefined
+* magic value.
+*
+* tabset() normally operates regardless of the value of tabprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a tabprm struct may be put into "bypass" mode by invoking tabset()
+* initially with tabprm::flag == 1 (rather than 0).  tabset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset tabprm::flag to zero.  See also tabenq().
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err if enabled, see wcserr_enable().
+*
+*
+* tabx2s() - Pixel-to-world transformation
+* ----------------------------------------
+* tabx2s() transforms intermediate world coordinates to world coordinates
+* using coordinate lookup.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length
+*                       nelem.
+*
+*   x         const double[ncoord][nelem]
+*                       Array of intermediate world coordinates, SI units.
+*
+* Returned:
+*   world     double[ncoord][nelem]
+*                       Array of world coordinates, in SI units.
+*
+*   stat      int[ncoord]
+*                       Status return value status for each coordinate:
+*                         0: Success.
+*                         1: Invalid intermediate world coordinate.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*                         4: One or more of the x coordinates were invalid,
+*                            as indicated by the stat vector.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err if enabled, see wcserr_enable().
+*
+*
+* tabs2x() - World-to-pixel transformation
+* ----------------------------------------
+* tabs2x() transforms world coordinates to intermediate world coordinates.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length
+*                       nelem.
+*   world     const double[ncoord][nelem]
+*                       Array of world coordinates, in SI units.
+*
+* Returned:
+*   x         double[ncoord][nelem]
+*                       Array of intermediate world coordinates, SI units.
+*   stat      int[ncoord]
+*                       Status return value status for each vector element:
+*                         0: Success.
+*                         1: Invalid world coordinate.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*                         5: One or more of the world coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err if enabled, see wcserr_enable().
+*
+*
+* tabprm struct - Tabular transformation parameters
+* -------------------------------------------------
+* The tabprm struct contains information required to transform tabular
+* coordinates.  It consists of certain members that must be set by the user
+* ("given") and others that are set by the WCSLIB routines ("returned").  Some
+* of the latter are supplied for informational purposes while others are for
+* internal use only.
+*
+*   int flag
+*     (Given and returned) This flag must be set to zero (or 1, see tabset())
+*     whenever any of the following tabprm members are set or changed:
+*
+*       - tabprm::M (q.v., not normally set by the user),
+*       - tabprm::K (q.v., not normally set by the user),
+*       - tabprm::map,
+*       - tabprm::crval,
+*       - tabprm::index,
+*       - tabprm::coord.
+*
+*     This signals the initialization routine, tabset(), to recompute the
+*     returned members of the tabprm struct.  tabset() will reset flag to
+*     indicate that this has been done.
+*
+*     PLEASE NOTE: flag should be set to -1 when tabini() is called for the
+*     first time for a particular tabprm struct in order to initialize memory
+*     management.  It must ONLY be used on the first initialization otherwise
+*     memory leaks may result.
+*
+*   int M
+*     (Given or returned) Number of tabular coordinate axes.
+*
+*     If tabini() is used to initialize the tabprm struct (as would normally
+*     be the case) then it will set M from the value passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   int *K
+*     (Given or returned) Pointer to the first element of a vector of length
+*     tabprm::M whose elements (K_1, K_2,... K_M) record the lengths of the
+*     axes of the coordinate array and of each indexing vector.
+*
+*     If tabini() is used to initialize the tabprm struct (as would normally
+*     be the case) then it will set K from the array passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   int *map
+*     (Given) Pointer to the first element of a vector of length tabprm::M
+*     that defines the association between axis m in the M-dimensional
+*     coordinate array (1 <= m <= M) and the indices of the intermediate world
+*     coordinate and world coordinate arrays, x[] and world[], in the argument
+*     lists for tabx2s() and tabs2x().
+*
+*     When x[] and world[] contain the full complement of coordinate elements
+*     in image-order, as will usually be the case, then map[m-1] == i-1 for
+*     axis i in the N-dimensional image (1 <= i <= N).  In terms of the FITS
+*     keywords
+*
+*       map[PVi_3a - 1] == i - 1.
+*
+*     However, a different association may result if x[], for example, only
+*     contains a (relevant) subset of intermediate world coordinate elements.
+*     For example, if M == 1 for an image with N > 1, it is possible to fill
+*     x[] with the relevant coordinate element with nelem set to 1.  In this
+*     case map[0] = 0 regardless of the value of i.
+*
+*   double *crval
+*     (Given) Pointer to the first element of a vector of length tabprm::M
+*     whose elements contain the index value for the reference pixel for each
+*     of the tabular coordinate axes.
+*
+*   double **index
+*     (Given) Pointer to the first element of a vector of length tabprm::M of
+*     pointers to vectors of lengths (K_1, K_2,... K_M) of 0-relative indexes
+*     (see tabprm::K).
+*
+*     The address of any or all of these index vectors may be set to zero,
+*     i.e.
+*
+=       index[m] == 0;
+*
+*     this is interpreted as default indexing, i.e.
+*
+=       index[m][k] = k;
+*
+*   double *coord
+*     (Given) Pointer to the first element of the tabular coordinate array,
+*     treated as though it were defined as
+*
+=       double coord[K_M]...[K_2][K_1][M];
+*
+*     (see tabprm::K) i.e. with the M dimension varying fastest so that the
+*     M elements of a coordinate vector are stored contiguously in memory.
+*
+*   int nc
+*     (Returned) Total number of coordinate vectors in the coordinate array
+*     being the product K_1 * K_2 * ... * K_M (see tabprm::K).
+*
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+*   int *sense
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     whose elements indicate whether the corresponding indexing vector is
+*     monotonic increasing (+1), or decreasing (-1).
+*
+*   int *p0
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     of interpolated indices into the coordinate array such that Upsilon_m,
+*     as defined in Paper III, is equal to (p0[m] + 1) + tabprm::delta[m].
+*
+*   double *delta
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     of interpolated indices into the coordinate array such that Upsilon_m,
+*     as defined in Paper III, is equal to (tabprm::p0[m] + 1) + delta[m].
+*
+*   double *extrema
+*     (Returned) Pointer to the first element of an array that records the
+*     minimum and maximum value of each element of the coordinate vector in
+*     each row of the coordinate array, treated as though it were defined as
+*
+=       double extrema[K_M]...[K_2][2][M]
+*
+*     (see tabprm::K).  The minimum is recorded in the first element of the
+*     compressed K_1 dimension, then the maximum.  This array is used by the
+*     inverse table lookup function, tabs2x(), to speed up table searches.
+*
+*   struct wcserr *err
+*     (Returned) If enabled, when an error status is returned, this struct
+*     contains detailed information about the error, see wcserr_enable().
+*
+*   int m_flag
+*     (For internal use only.)
+*   int m_M
+*     (For internal use only.)
+*   int m_N
+*     (For internal use only.)
+*   int set_M
+*     (For internal use only.)
+*   int m_K
+*     (For internal use only.)
+*   int m_map
+*     (For internal use only.)
+*   int m_crval
+*     (For internal use only.)
+*   int m_index
+*     (For internal use only.)
+*   int m_indxs
+*     (For internal use only.)
+*   int m_coord
+*     (For internal use only.)
+*
+*
+* Global variable: const char *tab_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_TAB
+#define WCSLIB_TAB
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+enum tabenq_enum {
+  TABENQ_MEM = 1,		// tabprm struct memory is managed by WCSLIB.
+  TABENQ_SET = 2,		// tabprm struct has been set up.
+  TABENQ_BYP = 4,		// tabprm struct is in bypass mode.
+};
+
+extern const char *tab_errmsg[];
+
+enum tab_errmsg_enum {
+  TABERR_SUCCESS      = 0,	// Success.
+  TABERR_NULL_POINTER = 1,	// Null tabprm pointer passed.
+  TABERR_MEMORY       = 2,	// Memory allocation failed.
+  TABERR_BAD_PARAMS   = 3,	// Invalid tabular parameters.
+  TABERR_BAD_X        = 4,	// One or more of the x coordinates were
+				// invalid.
+  TABERR_BAD_WORLD    = 5	// One or more of the world coordinates were
+				// invalid.
+};
+
+struct tabprm {
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int    flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int    M;			// Number of tabular coordinate axes.
+  int    *K;			// Vector of length M whose elements
+				// (K_1, K_2,... K_M) record the lengths of
+				// the axes of the coordinate array and of
+				// each indexing vector.
+  int    *map;			// Vector of length M usually such that
+				// map[m-1] == i-1 for coordinate array
+				// axis m and image axis i (see above).
+  double *crval;		// Vector of length M containing the index
+				// value for the reference pixel for each
+				// of the tabular coordinate axes.
+  double **index;		// Vector of pointers to M indexing vectors
+				// of lengths (K_1, K_2,... K_M).
+  double *coord;		// (1+M)-dimensional tabular coordinate
+				// array (see above).
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  int    nc;			// Number of coordinate vectors (of length
+				// M) in the coordinate array.
+  int    padding;		// (Dummy inserted for alignment purposes.)
+  int    *sense;		// Vector of M flags that indicate whether
+				// the Mth indexing vector is monotonic
+				// increasing, or else decreasing.
+  int    *p0;			// Vector of M indices.
+  double *delta;		// Vector of M increments.
+  double *extrema;		// (1+M)-dimensional array of coordinate
+				// extrema.
+
+  // Error messaging, if enabled.
+  //--------------------------------------------------------------------------
+  struct wcserr *err;
+
+  //--------------------------------------------------------------------------
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+                                // Memory management.
+  int    m_flag, m_M, m_N;
+  int    set_M;
+  int    *m_K, *m_map;
+  double *m_crval, **m_index, **m_indxs, *m_coord;
+};
+
+// Size of the tabprm struct in int units, used by the Fortran wrappers.
+#define TABLEN (sizeof(struct tabprm)/sizeof(int))
+
+
+int tabini(int alloc, int M, const int K[], struct tabprm *tab);
+
+int tabmem(struct tabprm *tab);
+
+int tabcpy(int alloc, const struct tabprm *tabsrc, struct tabprm *tabdst);
+
+int tabcmp(int cmp, double tol, const struct tabprm *tab1,
+           const struct tabprm *tab2, int *equal);
+
+int tabfree(struct tabprm *tab);
+
+int tabsize(const struct tabprm *tab, int size[2]);
+
+int tabenq(const struct tabprm *tab, int enquiry);
+
+int tabprt(const struct tabprm *tab);
+
+int tabperr(const struct tabprm *tab, const char *prefix);
+
+int tabset(struct tabprm *tab);
+
+int tabx2s(struct tabprm *tab, int ncoord, int nelem, const double x[],
+           double world[], int stat[]);
+
+int tabs2x(struct tabprm *tab, int ncoord, int nelem, const double world[],
+           double x[], int stat[]);
+
+
+// Deprecated.
+#define tabini_errmsg tab_errmsg
+#define tabcpy_errmsg tab_errmsg
+#define tabfree_errmsg tab_errmsg
+#define tabprt_errmsg tab_errmsg
+#define tabset_errmsg tab_errmsg
+#define tabx2s_errmsg tab_errmsg
+#define tabs2x_errmsg tab_errmsg
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_TAB
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tab.h,v 8.4.1.3 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tab.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 8.3.1.2 2024/07/09 07:07:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+d227 1
+a227 1
+* Returned:
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@In tabfree(), tab is given and returned.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+d227 1
+a227 1
+* Given and returned:
+@
+
+
+8.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 8.4.1.2 2025/11/26 13:54:33 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.2.1.4 2024/05/13 10:28:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+d647 1
+a647 1
+  // Error handling
+a650 1
+  // Private - the remainder are for memory management.
+d652 3
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Tweaked comments in the struct definition.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d647 1
+a647 1
+  // Error messaging, if enabled.
+d651 1
+a652 3
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+                                // Memory management.
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+d53 2
+a54 1
+* and tabprt() prints its contents.
+d266 25
+d334 7
+d437 2
+a438 2
+*     (Given and returned) This flag must be set to zero whenever any of the
+*     following tabprm structure members are set or changed:
+d592 5
+d675 2
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Documented bypass mode in tabset() and added tabenq().
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d53 1
+a53 2
+* tabenq() returns information about the state of the struct, and tabprt()
+* prints its contents.
+a264 26
+* tabenq() - enquire about the state of a tabprm struct
+* -----------------------------------------------------
+* tabenq() may be used to obtain information about the state of a tabprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         TABENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see tabini()).
+*                         TABENQ_SET: the struct has been set up by tabset().
+*                         TABENQ_BYP: the struct is in bypass mode, which
+*                                     implies that it has been set up (see
+*                                     tabset()).
+*                       These may be combined by logical OR, e.g.
+*                       TABENQ_MEM | TABENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+a307 7
+* tabset() normally operates regardless of the value of tabprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a tabprm struct may be put into "bypass" mode by invoking tabset()
+* initially with tabprm::flag == 1 (rather than 0).  tabset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset tabprm::flag to zero.  See also tabenq().
+*
+d404 2
+a405 2
+*     (Given and returned) This flag must be set to zero (or 1, see tabset())
+*     whenever any of the following tabprm members are set or changed:
+a558 5
+enum tabenq_enum {
+  TABENQ_MEM = 1,		// tabprm struct memory is managed by WCSLIB.
+  TABENQ_SET = 2,		// tabprm struct has been set up.
+  TABENQ_BYP = 4,		// tabprm struct is in bypass mode.
+};
+a636 2
+
+int tabenq(const struct tabprm *tab, int enquiry);
+@
+
+
+8.2.1.4
+log
+@Amended the prologue comment for tabenq().
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.2.1.3 2024/05/08 15:26:18 mcalabre Exp mcalabre $
+d279 2
+a280 1
+*                         TABENQ_BYP: the struct is in bypass mode (see
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tab.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.5.1.2 2021/04/13 09:22:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d52 2
+a53 1
+* tabprm struct, and another, tabprt(), to print its contents.
+d236 29
+d635 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function tabsize().
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d52 1
+a52 2
+* tabprm struct, tabsize() computes its total size including allocated memory,
+* and tabprt() prints its contents.
+a234 29
+* tabsize() - Compute the size of a tabprm struct
+* -----------------------------------------------
+* tabsize() computes the full size of a tabprm struct, including allocated
+* memory.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct tabprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by tabini().  This figure
+*                       includes memory allocated for the constituent struct,
+*                       tabprm::err.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via tabset(), which normally results in additional
+*                       memory allocation. 
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+a604 2
+
+int tabsize(const struct tabprm *tab, int size[2]);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tab.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tab.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tab.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d533 8
+a540 8
+  TABERR_SUCCESS      = 0,	/* Success. */
+  TABERR_NULL_POINTER = 1,	/* Null tabprm pointer passed. */
+  TABERR_MEMORY       = 2,	/* Memory allocation failed. */
+  TABERR_BAD_PARAMS   = 3,	/* Invalid tabular parameters. */
+  TABERR_BAD_X        = 4,	/* One or more of the x coordinates were
+				   invalid. */
+  TABERR_BAD_WORLD    = 5	/* One or more of the world coordinates were
+				   invalid. */
+d544 34
+a577 34
+  /* Initialization flag (see the prologue above).                          */
+  /*------------------------------------------------------------------------*/
+  int    flag;			/* Set to zero to force initialization.     */
+
+  /* Parameters to be provided (see the prologue above).                    */
+  /*------------------------------------------------------------------------*/
+  int    M;			/* Number of tabular coordinate axes.       */
+  int    *K;			/* Vector of length M whose elements        */
+				/* (K_1, K_2,... K_M) record the lengths of */
+				/* the axes of the coordinate array and of  */
+				/* each indexing vector.                    */
+  int    *map;			/* Vector of length M usually such that     */
+				/* map[m-1] == i-1 for coordinate array     */
+				/* axis m and image axis i (see above).     */
+  double *crval;		/* Vector of length M containing the index  */
+				/* value for the reference pixel for each   */
+				/* of the tabular coordinate axes.          */
+  double **index;		/* Vector of pointers to M indexing vectors */
+				/* of lengths (K_1, K_2,... K_M).           */
+  double *coord;		/* (1+M)-dimensional tabular coordinate     */
+				/* array (see above).                       */
+
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  int    nc;			/* Number of coordinate vectors (of length  */
+				/* M) in the coordinate array.              */
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+  int    *sense;		/* Vector of M flags that indicate whether  */
+				/* the Mth indexing vector is monotonic     */
+				/* increasing, or else decreasing.          */
+  int    *p0;			/* Vector of M indices.                     */
+  double *delta;		/* Vector of M increments.                  */
+  double *extrema;		/* (1+M)-dimensional array of coordinate    */
+				/* extrema.                                 */
+d579 2
+a580 2
+  /* Error handling                                                         */
+  /*------------------------------------------------------------------------*/
+d583 2
+a584 2
+  /* Private - the remainder are for memory management.                     */
+  /*------------------------------------------------------------------------*/
+d591 1
+a591 1
+/* Size of the tabprm struct in int units, used by the Fortran wrappers. */
+d619 1
+a619 1
+/* Deprecated. */
+d632 1
+a632 1
+#endif /* WCSLIB_TAB */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tab.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d536 8
+a543 8
+  TABERR_SUCCESS      = 0,	// Success.
+  TABERR_NULL_POINTER = 1,	// Null tabprm pointer passed.
+  TABERR_MEMORY       = 2,	// Memory allocation failed.
+  TABERR_BAD_PARAMS   = 3,	// Invalid tabular parameters.
+  TABERR_BAD_X        = 4,	// One or more of the x coordinates were
+				// invalid.
+  TABERR_BAD_WORLD    = 5	// One or more of the world coordinates were
+				// invalid.
+d547 34
+a580 34
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int    flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int    M;			// Number of tabular coordinate axes.
+  int    *K;			// Vector of length M whose elements
+				// (K_1, K_2,... K_M) record the lengths of
+				// the axes of the coordinate array and of
+				// each indexing vector.
+  int    *map;			// Vector of length M usually such that
+				// map[m-1] == i-1 for coordinate array
+				// axis m and image axis i (see above).
+  double *crval;		// Vector of length M containing the index
+				// value for the reference pixel for each
+				// of the tabular coordinate axes.
+  double **index;		// Vector of pointers to M indexing vectors
+				// of lengths (K_1, K_2,... K_M).
+  double *coord;		// (1+M)-dimensional tabular coordinate
+				// array (see above).
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  int    nc;			// Number of coordinate vectors (of length
+				// M) in the coordinate array.
+  int    padding;		// (Dummy inserted for alignment purposes.)
+  int    *sense;		// Vector of M flags that indicate whether
+				// the Mth indexing vector is monotonic
+				// increasing, or else decreasing.
+  int    *p0;			// Vector of M indices.
+  double *delta;		// Vector of M increments.
+  double *extrema;		// (1+M)-dimensional array of coordinate
+				// extrema.
+d582 2
+a583 2
+  // Error handling
+  //--------------------------------------------------------------------------
+d586 2
+a587 2
+  // Private - the remainder are for memory management.
+  //--------------------------------------------------------------------------
+d594 1
+a594 1
+// Size of the tabprm struct in int units, used by the Fortran wrappers.
+d622 1
+a622 1
+// Deprecated.
+d635 1
+a635 1
+#endif // WCSLIB_TAB
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tab.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tab.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.6.1.2 2015/06/18 08:13:22 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+d57 2
+d253 19
+d610 2
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Added tabperr() for convenience in reporting errors.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+a56 2
+* tabperr() prints the error message(s) (if any) stored in a tabprm struct.
+*
+a250 19
+* tabperr() - Print error messages from a tabprm struct
+* -----------------------------------------------------
+* tabperr() prints the error message(s) (if any) stored in a tabprm struct.
+* If there are no errors then nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+a588 2
+
+int tabperr(const struct tabprm *tab, const char *prefix);
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d28 3
+a30 12
+* WCSLIB 5.4 - C routines that implement tabular coordinate systems as
+* defined by the FITS World Coordinate System (WCS) standard.  Refer to
+*
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (paper I)
+*
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d35 18
+a52 8
+* These routines implement the part of the FITS WCS standard that deals with
+* tabular coordinates, i.e. coordinates that are defined via a lookup table.
+* They define methods to be used for computing tabular world coordinates from
+* intermediate world coordinates (a linear transformation of image pixel
+* coordinates), and vice versa.  They are based on the tabprm struct which
+* contains all information needed for the computations.  The struct contains
+* some members that must be set by the user, and others that are maintained
+* by these routines, somewhat like a C++ class but with no encapsulation.
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Boilerplate change to the prologue to ensure that references to the WCS
+Papers appear in the doxygen manual.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+d28 12
+a39 3
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+d44 8
+a51 18
+* Routines in this suite implement the part of the FITS World Coordinate
+* System (WCS) standard that deals with tabular coordinates, i.e. coordinates
+* that are defined via a lookup table, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+*
+* These routines define methods to be used for computing tabular world
+* coordinates from intermediate world coordinates (a linear transformation
+* of image pixel coordinates), and vice versa.  They are based on the tabprm
+* struct which contains all information needed for the computations.  The
+* struct contains some members that must be set by the user, and others that
+* are maintained by these routines, somewhat like a C++ class but with no
+* encapsulation.
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.3 - C routines that implement tabular coordinate systems as
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.2 - C routines that implement tabular coordinate systems as
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.1 - C routines that implement tabular coordinate systems as
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.25.1.3 2015/04/03 01:16:12 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.0 - C routines that implement tabular coordinate systems as
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.25 - C routines that implement tabular coordinate systems as
+d472 1
+a472 1
+*     (Returned) If enabled, when an error status is returned this struct
+a504 2
+
+#include "wcserr.h"
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@No need to include wcserr.h.  Prologue wording tweaks.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+d472 1
+a472 1
+*     (Returned) If enabled, when an error status is returned, this struct
+d505 2
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.23.1.2 2014/05/22 10:52:33 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.24 - C routines that implement tabular coordinate systems as
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.22.1.3 2014/05/11 03:58:02 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.23 - C routines that implement tabular coordinate systems as
+d196 5
+d584 2
+a585 2
+int tabcmp(int cmp, const struct tabprm *tab1, const struct tabprm *tab2,
+           int *equal);
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.23.1.2
+log
+@Changed API to tabcmp() to allow a tolerance to be specified for floating-
+point comparisons.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+a195 5
+*   tol       double    Tolerance for comparison of floating-point values.
+*                       For example, for tol == 1e-6, all floating-point
+*                       values in the structs must be equal to the first 6
+*                       decimal places.  A value of 0 implies exact equality.
+*
+d579 2
+a580 2
+int tabcmp(int cmp, double tol, const struct tabprm *tab1,
+           const struct tabprm *tab2, int *equal);
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.22 - C routines that implement tabular coordinate systems as
+d186 25
+d372 1
+a372 1
+*     If tabini() is used to initialize the linprm struct (as would normally
+d381 1
+a381 1
+*     If tabini() is used to initialize the linprm struct (as would normally
+d578 3
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.22.1.2
+log
+@New function tabcmp() contributed by Michael Droettboom.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+a185 25
+* tabcmp() - Compare two tabprm structs for equality
+* --------------------------------------------------
+* tabcmp() compares two tabprm structs for equality.
+*
+* Given:
+*   cmp       int       A bit field controlling the strictness of the
+*                       comparison.  At present, this value must always be 0,
+*                       indicating a strict comparison.  In the future, other
+*                       options may be added.
+*
+*   tab1      const struct tabprm*
+*                       The first tabprm struct to compare.
+*
+*   tab2      const struct tabprm*
+*                       The second tabprm struct to compare.
+*
+* Returned:
+*   equal     int*      Non-zero when the given structs are equal.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null pointer passed.
+*
+*
+a552 3
+
+int tabcmp(int cmp, const struct tabprm *tab1, const struct tabprm *tab2,
+           int *equal);
+@
+
+
+4.22.1.3
+log
+@Fixed prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.22.1.2 2014/05/10 14:31:17 mcalabre Exp mcalabre $
+d372 1
+a372 1
+*     If tabini() is used to initialize the tabprm struct (as would normally
+d381 1
+a381 1
+*     If tabini() is used to initialize the tabprm struct (as would normally
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.21 - C routines that implement tabular coordinate systems as
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.20 - C routines that implement tabular coordinate systems as
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.19 - C routines that implement tabular coordinate systems as
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.18 - C routines that implement tabular coordinate systems as
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.17 - C routines that implement tabular coordinate systems as
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.16 - C routines that implement tabular coordinate systems as
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tab.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.15 - C routines that implement tabular coordinate systems as
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tab.h,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.14 - C routines that implement tabular coordinate systems as
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tab.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tab.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.13 - C routines that implement tabular coordinate systems as
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tab.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.12 - C routines that implement tabular coordinate systems as
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.11 - C routines that implement tabular coordinate systems as
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.10 - C routines that implement tabular coordinate systems as
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.9 - C routines that implement tabular coordinate systems as
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.7.1.4 2011/08/10 06:52:12 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.8 - C routines that implement tabular coordinate systems as
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.6.1.3 2011/01/28 06:51:02 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.7 - C routines that implement tabular coordinate systems as
+d100 1
+d132 3
+d149 4
+d187 4
+d213 2
+a214 1
+* tabprt() prints the contents of a tabprm struct.
+d245 3
+d262 1
+d269 1
+d283 3
+d318 3
+d447 4
+d482 2
+d491 10
+d538 7
+a544 1
+  int    m_flag, m_M, m_N;	/* The remainder are for memory management. */
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@a130 3
+* If the return value >= 2, a detailed error message is set in the
+* tab->err struct.  See wcserr.h for error handling instructions.
+*                         
+a144 1
+*                         2: Memory allocation failed.
+a145 2
+* If the return value >= 2, a detailed error message is set in the
+* tab->err struct.  See wcserr.h for error handling instructions.
+a146 1
+* 
+a178 3
+* If the return value >= 2, a detailed error message is set in the
+* tabdst->err struct.  See wcserr.h for error handling instructions.
+*                       
+a231 3
+* If the return value >= 2, a detailed error message is set in the
+* tab->err struct.  See wcserr.h for error handling instructions.
+*                         
+a264 3
+* If the return value >= 2, a detailed error message is set in the
+* tab->err struct.  See wcserr.h for error handling instructions.
+*                            
+a296 3
+* If the return value >= 2, a detailed error message is set in the
+* tab->err struct.  See wcserr.h for error handling instructions.
+*                            
+a422 4
+*   struct wcserr err
+*     (Returned) When an error status is returned, this
+*     structure contains detailed information about the error.
+*     
+a453 2
+#include "wcserr.h"
+
+a460 8
+enum tab_errmsg_enum {
+  TABERR_SUCCESS      = 0, /* Success */
+  TABERR_NULL_POINTER = 1, /* Null tabprm pointer passed */
+  TABERR_MEMORY       = 2, /* Memory allocation failed */
+  TABERR_BAD_PARAMS   = 3, /* Invalid tabular parameters */
+  TABERR_BAD_X        = 4, /* One or more of the x coordinates were invalid */
+  TABERR_BAD_WORLD    = 5  /* One or more of the world coordinates were invalid */
+};
+a497 6
+  /* Error handling                                                         */
+  /*------------------------------------------------------------------------*/
+  struct wcserr err;
+
+  /* Private                                                                */
+  /*------------------------------------------------------------------------*/
+a501 1
+
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+a99 1
+*
+d131 3
+a133 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err.
+*
+d150 2
+a151 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err.
+*
+d153 1
+d186 3
+a188 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err (associated with tabdst).
+*
+d211 1
+a211 2
+* tabprt() prints the contents of a tabprm struct using wcsprintf().  Mainly
+* intended for diagnostic purposes.
+d242 3
+a244 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err.
+*
+a258 1
+*
+a264 1
+*
+d278 3
+a280 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err.
+*
+d313 3
+a315 3
+*                       For returns > 1, a detailed error message is set in
+*                       tabprm::err.
+*
+d442 4
+a445 4
+*   struct wcserr *err
+*     (Returned) When an error status is returned, this struct contains
+*     detailed information about the error.
+*
+d487 6
+a492 8
+  TABERR_SUCCESS      = 0,	/* Success. */
+  TABERR_NULL_POINTER = 1,	/* Null tabprm pointer passed. */
+  TABERR_MEMORY       = 2,	/* Memory allocation failed. */
+  TABERR_BAD_PARAMS   = 3,	/* Invalid tabular parameters. */
+  TABERR_BAD_X        = 4,	/* One or more of the x coordinates were
+				   invalid. */
+  TABERR_BAD_WORLD    = 5	/* One or more of the world coordinates were
+				   invalid. */
+d533 1
+a533 1
+  struct wcserr *err;
+d535 1
+a535 1
+  /* Private - the remainder are for memory management.                     */
+d537 1
+a537 1
+  int    m_flag, m_M, m_N;
+d541 1
+@
+
+
+4.7.1.4
+log
+@Clarify that detailed error messages are only returned in wcserr if enabled.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+d133 1
+a133 1
+*                       tabprm::err if enabled, see wcserr_enable().
+d152 1
+a152 1
+*                       tabprm::err if enabled, see wcserr_enable().
+d188 1
+a188 2
+*                       tabprm::err (associated with tabdst) if enabled, see
+*                       wcserr_enable().
+d245 1
+a245 1
+*                       tabprm::err if enabled, see wcserr_enable().
+d283 1
+a283 1
+*                       tabprm::err if enabled, see wcserr_enable().
+d318 1
+a318 1
+*                       tabprm::err if enabled, see wcserr_enable().
+d447 2
+a448 2
+*     (Returned) If enabled, when an error status is returned this struct
+*     contains detailed information about the error, see wcserr_enable().
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.6 - C routines that implement tabular coordinate systems as
+d402 1
+a402 1
+*   double *p0
+d405 1
+a405 1
+*     as defined in Paper III, is equal to p0[m] + tabprm::delta[m].
+d410 1
+a410 1
+*     as defined in Paper III, is equal to tabprm::p0[m] + delta[m].
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Corrected prologue comments related to tabprm::p0.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d402 1
+a402 1
+*   int *p0
+d405 1
+a405 1
+*     as defined in Paper III, is equal to (p0[m] + 1) + tabprm::delta[m].
+d410 1
+a410 1
+*     as defined in Paper III, is equal to (tabprm::p0[m] + 1) + delta[m].
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tab.h,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.5 - C routines that implement tabular coordinate systems as
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.3.1.3 2009/07/22 05:10:07 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.4 - C routines that implement tabular coordinate systems as
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tab.h,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tab.h,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tab.h,v 4.2.1.5 2007/12/03 05:02:17 cal103 Exp cal103 $
+d34 2
+a35 2
+*   WCSLIB 4.3 - C routines that implement tabular coordinate systems as
+*   defined by the FITS World Coordinate System (WCS) standard.  Refer to
+d37 2
+a38 2
+*      "Representations of world coordinates in FITS",
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (paper I)
+d40 408
+a447 407
+*      "Representations of spectral coordinates in FITS",
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+*
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+*
+*
+*   Summary of the tab* routines
+*   ----------------------------
+*   These routines implement the part of the FITS WCS standard that deals with
+*   tabular coordinates, i.e. coordinates that are defined via a lookup table.
+*   They define methods to be used for computing tabular world coordinates
+*   from intermediate world coordinates (a linear transformation of image
+*   pixel coordinates), and vice versa.  They are based on the tabprm struct,
+*   described in detail below, which contains all information needed for the
+*   computations.  The struct contains some members that must be set by the
+*   caller, and others that are maintained by these routines, somewhat like a
+*   C++ class but with no encapsulation.
+*
+*   tabini(), tabmem(), tabcpy(), and tabfree() are provided to manage the
+*   tabprm struct, and another, tabprt(), to print its contents.
+*
+*   A setup routine, tabset(), computes intermediate values in the tabprm
+*   struct from parameters in it that were supplied by the caller.  The
+*   struct always needs to be set up by tabset() but it need not be called
+*   explicitly - see the explanation of tab.flag below.
+*
+*   tabx2s() and tabs2x() implement the WCS tabular coordinate
+*   transformations.
+*
+*
+*   Default constructor for the tabprm struct; tabini()
+*   ---------------------------------------------------
+*   tabini() allocates memory for arrays in a tabprm struct and sets all
+*   members of the struct to default values.
+*
+*   N.B. every tabprm struct should be initialized by tabini(), possibly
+*   repeatedly.  On the first invokation, and only the first invokation, the
+*   flag member of the tabprm struct must be set to -1 to initialize memory
+*   management, regardless of whether tabini() will actually be used to
+*   allocate memory.
+*
+*   Given:
+*      alloc    int      If true, allocate memory unconditionally for arrays
+*                        in the tabprm struct (see "Memory allocation and
+*                        deallocation below").
+*
+*                        If false, it is assumed that pointers to these arrays
+*                        have been set by the caller except if they are null
+*                        pointers in which case memory will be allocated for
+*                        them regardless.  (In other words, setting alloc true
+*                        saves having to initalize these pointers to zero.)
+*
+*      M        int      The number of tabular coordinate axes.
+*      K        const int[]
+*                        Vector of length M whose elements (K_1, K_2,... K_M)
+*                        record the lengths of the axes of the coordinate
+*                        array and of each indexing vector.  M and K[] are
+*                        used to determine the length of the various tabprm
+*                        arrays and therefore the amount of memory to allocate
+*                        for them.  Their values are copied into the tabprm
+*                        struct.
+*
+*                        It is permissible to set K (i.e. the address of the
+*                        array) to zero which has the same effect as setting
+*                        each element of K[] to zero.  In this case no memory
+*                        will be allocated for the index vectors or coordinate
+*                        array in the tabprm struct.  These together with the
+*                        K vector must be set separately before calling
+*                        tabset().
+*
+*   Given and returned:
+*      tab      struct tabprm*
+*                        Tabular transformation parameters (see below).
+*                        Note that, in order to initialize memory management
+*                        tab->flag should be set to -1 when tab is initialized
+*                        for the first time (memory leaks may result if it had
+*                        already been initialized).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: Invalid tabular parameters.
+*
+*
+*   Acquire tabular memory; tabmem()
+*   --------------------------------
+*   tabmem() takes control of memory allocated by the user for arrays in the
+*   tabprm struct.
+*
+*   Given and returned:
+*      tab      struct tabprm*
+*                        Tabular transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*
+*
+*   Copy routine for the tabprm struct; tabcpy()
+*   --------------------------------------------
+*   tabcpy() does a deep copy of one tabprm struct to another, using tabini()
+*   to allocate memory for its arrays if required.  Only the "information to
+*   be provided" part of the struct is copied; a call to tabset() is required
+*   to set up the remainder.
+*
+*   Given:
+*      alloc    int      If true, allocate memory unconditionally for arrays
+*                        in the tabprm struct (see "Memory allocation and
+*                        deallocation below").
+*
+*                        If false, it is assumed that pointers to these arrays
+*                        have been set by the caller except if they are null
+*                        pointers in which case memory will be allocated for
+*                        them regardless.  (In other words, setting alloc true
+*                        saves having to initalize these pointers to zero.)
+*
+*      tabsrc   const struct tabprm*
+*                        Struct to copy from.
+*
+*   Given and returned:
+*      tabdst   struct tabprm*
+*                        Struct to copy to.  tabdst->flag should be set to -1
+*                        if tabdst was not previously initialized (memory
+*                        leaks may result if it was previously initialized).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*                           2: Memory allocation failed.
+*
+*
+*   Destructor for the tabprm struct; tabfree()
+*   -------------------------------------------
+*   tabfree() frees memory allocated for the tabprm arrays by tabini().
+*   tabini() records the memory it allocates and tabfree() will only attempt
+*   to free this.
+*
+*   N.B. tabfree() must not be invoked on a tabprm struct that was not
+*   initialized by tabini().
+*
+*   Returned:
+*      tab      struct tabprm*
+*                        Coordinate transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*
+*
+*   Print routine for the tabprm struct; tabprt()
+*   ---------------------------------------------
+*   tabprt() prints the contents of a tabprm struct.
+*
+*   Given:
+*      tab      const struct tabprm*
+*                        Tabular transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*
+*
+*   Set up routine; tabset()
+*   ------------------------
+*   tabset() allocates memory for work arrays in the tabprm struct and sets up
+*   the struct according to information supplied within it (see "Tabular
+*   transformation parameters" below).
+*
+*   Note that this routine need not be called directly; it will be invoked by
+*   tabx2s() and tabs2x() if the "flag" struct member is anything other than a
+*   predefined magic value.
+*
+*   Given and returned:
+*      tab      struct tabprm*
+*                        Tabular transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*                           3: Invalid tabular parameters.
+*
+*
+*   Pixel-to-world transformation; tabx2s()
+*   ---------------------------------------
+*   tabx2s() transforms intermediate world coordinates to world coordinates
+*   using coordinate lookup.
+*
+*   Given and returned:
+*      tab      struct tabprm*
+*                        Tabular transformation parameters (see below).
+*
+*   Given:
+*      ncoord   int      The number of coordinates, each of vector length
+*      nelem    int      nelem.
+*      x        const double[ncoord][nelem]
+*                        Array of intermediate world coordinates, SI units.
+*
+*   Returned:
+*      world    double[ncoord][nelem]
+*                        Array of world coordinates, in SI units.
+*      stat     int[ncoord]
+*                        Status return value status for each coordinate:
+*                           0: Success.
+*                           1: Invalid intermediate world coordinate.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*                           3: Invalid tabular parameters.
+*                           4: One or more of the x coordinates were invalid,
+*                              as indicated by the stat vector.
+*
+*
+*   World-to-pixel transformation; tabs2x()
+*   ---------------------------------------
+*   tabs2x() transforms world coordinates to intermediate world coordinates.
+*
+*   Given and returned:
+*      tab      struct tabprm*
+*                        Tabular transformation parameters (see below).
+*
+*   Given:
+*      ncoord   int      The number of coordinates, each of vector length
+*      nelem    int      nelem.
+*      world    const double[ncoord][nelem]
+*                        Array of world coordinates, in SI units.
+*
+*   Returned:
+*      x        double[ncoord][nelem]
+*                        Array of intermediate world coordinates, SI units.
+*      stat     int[ncoord]
+*                        Status return value status for each vector element:
+*                           0: Success.
+*                           1: Invalid world coordinate.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null tabprm pointer passed.
+*                           3: Invalid tabular parameters.
+*                           5: One or more of the world coordinates were
+*                              invalid, as indicated by the stat vector.
+*
+*
+*   Tabular transformation parameters
+*   ----------------------------------
+*   The tabprm struct consists of the following elements that must be
+*   supplied:
+*
+*      int flag
+*         This flag must be set to zero whenever any of the following tabprm
+*         structure members are set or changed.  This signals the
+*         initialization routine, tabset(), to recompute intermediaries.
+*
+*         flag should be set to -1 when tabini() is called for the first time
+*         for a tabprm struct in order to initialize memory management.  It
+*         must ONLY be used on the first initialization otherwise memory leaks
+*         may result.
+*
+*      int M
+*         Number of tabular coordinate axes.
+*
+*      int *K
+*         Pointer to the first element of a vector of length M whose elements
+*         (K_1, K_2,... K_M) record the lengths of the axes of the coordinate
+*         array and of each indexing vector.
+*
+*      int *map
+*         Pointer to the first element of a vector of length M that defines
+*         the association between axis m in the M-dimensional coordinate array
+*         (1 <= m <= M) and the indices of the intermediate world coordinate
+*         and world coordinate arrays, x[] and world[], in the argument lists
+*         for tabx2s() and tabs2x().
+*
+*         When x[] and world[] contain the full complement of coordinate
+*         elements in image-order, as will usually be the case, then
+*         map[m-1] == i-1 for axis i in the N-dimensional image (1 <= i <= N).
+*         In terms of the FITS keywords
+*
+*            map[PVi_3a - 1] == i - 1.
+*
+*         However, a different association may result if x[], for example,
+*         only contains a (relevant) subset of intermediate world coordinate
+*         elements.  For example, if M == 1 for an image with N > 1, it is
+*         possible to fill x[] with the relevant coordinate element with nelem
+*         set to 1.  In this case map[0] = 0 regardless of the value of i.
+*
+*      double *crval
+*         Pointer to the first element of a vector of length M whose elements
+*         contain the index value for the reference pixel for each of the
+*         tabular coordinate axes.
+*
+*      double **index
+*         Pointer to the first element of a vector of length M of pointers to
+*         vectors of lengths (K_1, K_2,... K_M) of 0-relative indexes.
+*
+*         The address of any or all of these index vectors may be set to zero,
+*         i.e. index[m] == 0; this is interpreted as default indexing -
+*         index[m][k] = k.
+*
+*      double *coord
+*         Pointer to the first element of the tabular coordinate array,
+*         treated as though it were defined as
+*
+*            double coord[K_M]...[K_2][K_1][M]
+*
+*         i.e. with the M dimension varying fastest so that the M elements of
+*         a coordinate vector are stored contiguously in memory.
+*
+*   The remaining members of the tabprm struct are maintained by tabset() and
+*   must not be modified elsewhere:
+*
+*      int nc
+*         Total number of coordinate vectors in the coordinate array being the
+*         product of K_1 * K_2 * ... * K_M.
+*
+*      int *sense
+*         Pointer to the first element of a vector of length M whose elements
+*         indicate whether the corresponding indexing vector is monotonic
+*         increasing (+1), or decreasing (-1).
+*
+*      double *p0, *delta
+*         Pointer to the first element of a vector of length M of interpolated
+*         indices into the coordinate array such that Upsilon[m], as defined
+*         in Paper III, is equal to p0[m] + delta[m].
+*
+*      double *extrema
+*         Pointer to the first element of an array that records the minimum
+*         and maximum value of each element of the coordinate vector in each
+*         row of the coordinate array, treated as though it were defined as
+*
+*            double extrema[K_M]...[K_2][2][M]
+*
+*         The minimum is recorded in the first element of the compressed K_1
+*         dimension, then the maximum.  This array is used by the inverse
+*         table lookup function, tabs2x(), to speed up table searches.
+*
+*      The remaining elements of the tabprm struct are used for memory
+*      management by tabini(), tabmem(), and tabfree().
+*
+*
+*   Vector arguments
+*   ----------------
+*   Arrays of intermediate world coordinates and world coordinates are two
+*   dimensional, i.e. x[ncoord][nelem].
+*
+*   Note that the function prototypes must declare two-dimensional arrays as
+*   one-dimensional to avoid compiler warnings about declaration of
+*   "incomplete types".  This was considered preferable to declaring them as
+*   simple pointers-to-double which gives no indication that storage is
+*   associated with them.
+*
+*
+*   Memory allocation and deallocation
+*   ----------------------------------
+*   tabini() optionally allocates memory for the K, map, crval, index, and
+*   coord arrays (including the arrays referenced by index[]) in the tabprm
+*   struct as described in the usage notes above.  tabmem() takes control of
+*   any of these arrays that may have been allocated by the user, specifically
+*   in that tabfree() will free it.
+*
+*   tabset() also allocates memory for the sense, p0, delta and extrema
+*   arrays.  The caller must not modify these.
+*
+*   tabini() maintains a record of memory it has allocated and this is used
+*   by tabfree() which tabini() uses to free any memory that it may have
+*   allocated on a previous invokation.  Thus it is not necessary for the
+*   caller to invoke tabfree() separately if tabini() is invoked repeatedly on
+*   the same tabprm struct.  Likewise, tabset() deallocates memory that it
+*   may have allocated in the same tabprm struct on a previous invokation.
+*
+*   A memory leak will result if a tabprm struct goes out of scope before the
+*   memory has been free'd, either by tabfree() or otherwise.  Likewise, if
+*   the tabprm struct itself has been malloc'd and the allocated memory is not
+*   free'd when the memory for the struct is free'd.  A leak may also arise if
+*   the caller interferes with the array pointers in the "private" part of the
+*   tabprm struct.
+*
+*   Beware of making a shallow copy of a tabprm struct by assignment; any
+*   changes made to allocated memory in one would be reflected in the other,
+*   and if the memory allocated for one was free'd the other would reference
+*   unallocated memory.  Use tabcpy() instead to make a deep copy.
+*
+*
+*   Status return values
+*   --------------------
+*   Error messages to match the status value returned from each function are
+*   are encoded in the tab_errmsg character array.
+*
+*
+*   Accuracy
+*   --------
+*   No warranty is given for the accuracy of these routines (refer to the
+*   copyright notice above); intending users must satisfy for themselves their
+*   adequacy for the intended purpose.  However, closure effectively to within
+*   double precision rounding error was demonstrated by test routine ttab.c
+*   which accompanies this software.
+d460 1
+a460 7
+#define tabini_errmsg tab_errmsg
+#define tabcpy_errmsg tab_errmsg
+#define tabfree_errmsg tab_errmsg
+#define tabprt_errmsg tab_errmsg
+#define tabset_errmsg tab_errmsg
+#define tabx2s_errmsg tab_errmsg
+#define tabs2x_errmsg tab_errmsg
+d463 8
+a470 8
+   /* Initialization flag (see the prologue above).                         */
+   /*-----------------------------------------------------------------------*/
+   int    flag;			/* Set to zero to force initialization.     */
+
+   /* Parameters to be provided (see the prologue above).                   */
+   /*-----------------------------------------------------------------------*/
+   int    M;			/* Number of tabular coordinate axes.       */
+   int    *K;			/* Vector of length M whose elements        */
+d474 1
+a474 1
+   int    *map;			/* Vector of length M usually such that     */
+d477 1
+a477 1
+   double *crval;		/* Vector of length M containing the index  */
+d480 1
+a480 1
+   double **index;		/* Vector of pointers to M indexing vectors */
+d482 1
+a482 1
+   double *coord;		/* (1+M)-dimensional tabular coordinate     */
+d485 3
+a487 3
+   /* Information derived from the parameters supplied.                     */
+   /*-----------------------------------------------------------------------*/
+   int    nc;			/* Number of coordinate vectors (of length  */
+d489 2
+a490 2
+   int    padding;		/* (Dummy inserted for alignment purposes.) */
+   int    *sense;		/* Vector of M flags that indicate whether  */
+d493 3
+a495 3
+   int    *p0;			/* Vector of M indices.                     */
+   double *delta;		/* Vector of M increments.                  */
+   double *extrema;		/* (1+M)-dimensional array of coordinate    */
+d498 4
+a501 4
+   int    m_flag, m_M, m_N;	/* The remainder are for memory management. */
+   int    set_M;
+   int    *m_K, *m_map;
+   double *m_crval, **m_index, **m_indxs, *m_coord;
+d504 1
+d508 9
+a516 8
+int tabini(int, int, const int[], struct tabprm *);
+int tabmem(struct tabprm *);
+int tabcpy(int, const struct tabprm *, struct tabprm *);
+int tabfree(struct tabprm *);
+int tabprt(const struct tabprm *);
+int tabset(struct tabprm *);
+int tabx2s(struct tabprm *, int, int, const double[], double[], int[]);
+int tabs2x(struct tabprm *, int, int, const double[], double[], int[]);
+d518 17
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tab.h,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.4 - C routines that implement tabular coordinate systems as
+@
+
+
+4.3.1.2
+log
+@Replaced references to text "above" or "below" with "(see ... above|below)"
+so that they can be parsed out of the doxygen markup.
+@
+text
+@d31 1
+a31 1
+    $Id: tab.h,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d48 2
+a49 2
+*   Summary of the tab routines
+*   ---------------------------
+d54 5
+a58 5
+*   pixel coordinates), and vice versa.  They are based on the tabprm struct
+*   (see below) which contains all information needed for the computations.
+*   The struct contains some members that must be set by the caller, and
+*   others that are maintained by these routines, somewhat like a C++ class
+*   but with no encapsulation.
+d66 1
+a66 1
+*   explicitly - refer to the explanation of tab.flag (see below).
+d85 2
+a86 2
+*                        in the tabprm struct as explained in "Memory
+*                        allocation and deallocation" (see below).
+d152 2
+a153 2
+*                        in the tabprm struct as explained in "Memory
+*                        allocation and deallocation" (see below).
+d407 3
+a409 3
+*   struct as described in the usage notes (see above).  tabmem() takes
+*   control of any of these arrays that may have been allocated by the user,
+*   specifically in that tabfree() will free it.
+d443 1
+a443 1
+*   copyright notice); intending users must satisfy for themselves their
+@
+
+
+4.3.1.3
+log
+@Changes required for generation of the manual using doxextr and doxygen,
+including naming of arguments in function prototypes.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tab.h,v 4.3.1.2 2008/04/02 06:17:13 cal103 Exp cal103 $
+d34 2
+a35 2
+* WCSLIB 4.4 - C routines that implement tabular coordinate systems as
+* defined by the FITS World Coordinate System (WCS) standard.  Refer to
+d37 2
+a38 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (paper I)
+d40 407
+a446 408
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+*
+*
+* Summary of the tab routines
+* ---------------------------
+* These routines implement the part of the FITS WCS standard that deals with
+* tabular coordinates, i.e. coordinates that are defined via a lookup table.
+* They define methods to be used for computing tabular world coordinates from
+* intermediate world coordinates (a linear transformation of image pixel
+* coordinates), and vice versa.  They are based on the tabprm struct which
+* contains all information needed for the computations.  The struct contains
+* some members that must be set by the user, and others that are maintained
+* by these routines, somewhat like a C++ class but with no encapsulation.
+*
+* tabini(), tabmem(), tabcpy(), and tabfree() are provided to manage the
+* tabprm struct, and another, tabprt(), to print its contents.
+*
+* A setup routine, tabset(), computes intermediate values in the tabprm struct
+* from parameters in it that were supplied by the user.  The struct always
+* needs to be set up by tabset() but it need not be called explicitly - refer
+* to the explanation of tabprm::flag.
+*
+* tabx2s() and tabs2x() implement the WCS tabular coordinate transformations.
+*
+* Accuracy:
+* ---------
+* No warranty is given for the accuracy of these routines (refer to the
+* copyright notice); intending users must satisfy for themselves their
+* adequacy for the intended purpose.  However, closure effectively to within
+* double precision rounding error was demonstrated by test routine ttab.c
+* which accompanies this software.
+*
+*
+* tabini() - Default constructor for the tabprm struct
+* ----------------------------------------------------
+* tabini() allocates memory for arrays in a tabprm struct and sets all members
+* of the struct to default values.
+*
+* PLEASE NOTE: every tabprm struct should be initialized by tabini(), possibly
+* repeatedly.  On the first invokation, and only the first invokation, the
+* flag member of the tabprm struct must be set to -1 to initialize memory
+* management, regardless of whether tabini() will actually be used to allocate
+* memory.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the tabprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   M         int       The number of tabular coordinate axes.
+*   K         const int[]
+*                       Vector of length M whose elements (K_1, K_2,... K_M)
+*                       record the lengths of the axes of the coordinate array
+*                       and of each indexing vector.  M and K[] are used to
+*                       determine the length of the various tabprm arrays and
+*                       therefore the amount of memory to allocate for them.
+*                       Their values are copied into the tabprm struct.
+*
+*                       It is permissible to set K (i.e. the address of the
+*                       array) to zero which has the same effect as setting
+*                       each element of K[] to zero.  In this case no memory
+*                       will be allocated for the index vectors or coordinate
+*                       array in the tabprm struct.  These together with the
+*                       K vector must be set separately before calling
+*                       tabset().
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.  Note that, in
+*                       order to initialize memory management tabprm::flag
+*                       should be set to -1 when tab is initialized for the
+*                       first time (memory leaks may result if it had already
+*                       been initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid tabular parameters.
+*
+*
+* tabmem() - Acquire tabular memory
+* ---------------------------------
+* tabmem() takes control of memory allocated by the user for arrays in the
+* tabprm struct.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabcpy() - Copy routine for the tabprm struct
+* ---------------------------------------------
+* tabcpy() does a deep copy of one tabprm struct to another, using tabini() to
+* allocate memory for its arrays if required.  Only the "information to be
+* provided" part of the struct is copied; a call to tabset() is required to
+* set up the remainder.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the tabprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   tabsrc    const struct tabprm*
+*                       Struct to copy from.
+*
+* Given and returned:
+*   tabdst    struct tabprm*
+*                       Struct to copy to.  tabprm::flag should be set to -1
+*                       if tabdst was not previously initialized (memory leaks
+*                       may result if it was previously initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*
+* tabfree() - Destructor for the tabprm struct
+* --------------------------------------------
+* tabfree() frees memory allocated for the tabprm arrays by tabini().
+* tabini() records the memory it allocates and tabfree() will only attempt to
+* free this.
+*
+* PLEASE NOTE: tabfree() must not be invoked on a tabprm struct that was not
+* initialized by tabini().
+*
+* Returned:
+*   tab       struct tabprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabprt() - Print routine for the tabprm struct
+* ----------------------------------------------
+* tabprt() prints the contents of a tabprm struct.
+*
+* Given:
+*   tab       const struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*
+*
+* tabset() - Setup routine for the tabprm struct
+* -----------------------------------------------
+* tabset() allocates memory for work arrays in the tabprm struct and sets up
+* the struct according to information supplied within it.
+*
+* Note that this routine need not be called directly; it will be invoked by
+* tabx2s() and tabs2x() if tabprm::flag is anything other than a predefined
+* magic value.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*
+*
+* tabx2s() - Pixel-to-world transformation
+* ----------------------------------------
+* tabx2s() transforms intermediate world coordinates to world coordinates
+* using coordinate lookup.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length
+*                       nelem.
+*   x         const double[ncoord][nelem]
+*                       Array of intermediate world coordinates, SI units.
+*
+* Returned:
+*   world     double[ncoord][nelem]
+*                       Array of world coordinates, in SI units.
+*   stat      int[ncoord]
+*                       Status return value status for each coordinate:
+*                         0: Success.
+*                         1: Invalid intermediate world coordinate.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*                         4: One or more of the x coordinates were invalid,
+*                            as indicated by the stat vector.
+*
+*
+* tabs2x() - World-to-pixel transformation
+* ----------------------------------------
+* tabs2x() transforms world coordinates to intermediate world coordinates.
+*
+* Given and returned:
+*   tab       struct tabprm*
+*                       Tabular transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length
+*                       nelem.
+*   world     const double[ncoord][nelem]
+*                       Array of world coordinates, in SI units.
+*
+* Returned:
+*   x         double[ncoord][nelem]
+*                       Array of intermediate world coordinates, SI units.
+*   stat      int[ncoord]
+*                       Status return value status for each vector element:
+*                         0: Success.
+*                         1: Invalid world coordinate.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null tabprm pointer passed.
+*                         3: Invalid tabular parameters.
+*                         5: One or more of the world coordinates were
+*                            invalid, as indicated by the stat vector.
+*
+*
+* tabprm struct - Tabular transformation parameters
+* -------------------------------------------------
+* The tabprm struct contains information required to transform tabular
+* coordinates.  It consists of certain members that must be set by the user
+* ("given") and others that are set by the WCSLIB routines ("returned").  Some
+* of the latter are supplied for informational purposes while others are for
+* internal use only.
+*
+*   int flag
+*     (Given and returned) This flag must be set to zero whenever any of the
+*     following tabprm structure members are set or changed:
+*
+*       - tabprm::M (q.v., not normally set by the user),
+*       - tabprm::K (q.v., not normally set by the user),
+*       - tabprm::map,
+*       - tabprm::crval,
+*       - tabprm::index,
+*       - tabprm::coord.
+*
+*     This signals the initialization routine, tabset(), to recompute the
+*     returned members of the tabprm struct.  tabset() will reset flag to
+*     indicate that this has been done.
+*
+*     PLEASE NOTE: flag should be set to -1 when tabini() is called for the
+*     first time for a particular tabprm struct in order to initialize memory
+*     management.  It must ONLY be used on the first initialization otherwise
+*     memory leaks may result.
+*
+*   int M
+*     (Given or returned) Number of tabular coordinate axes.
+*
+*     If tabini() is used to initialize the linprm struct (as would normally
+*     be the case) then it will set M from the value passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   int *K
+*     (Given or returned) Pointer to the first element of a vector of length
+*     tabprm::M whose elements (K_1, K_2,... K_M) record the lengths of the
+*     axes of the coordinate array and of each indexing vector.
+*
+*     If tabini() is used to initialize the linprm struct (as would normally
+*     be the case) then it will set K from the array passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   int *map
+*     (Given) Pointer to the first element of a vector of length tabprm::M
+*     that defines the association between axis m in the M-dimensional
+*     coordinate array (1 <= m <= M) and the indices of the intermediate world
+*     coordinate and world coordinate arrays, x[] and world[], in the argument
+*     lists for tabx2s() and tabs2x().
+*
+*     When x[] and world[] contain the full complement of coordinate elements
+*     in image-order, as will usually be the case, then map[m-1] == i-1 for
+*     axis i in the N-dimensional image (1 <= i <= N).  In terms of the FITS
+*     keywords
+*
+*       map[PVi_3a - 1] == i - 1.
+*
+*     However, a different association may result if x[], for example, only
+*     contains a (relevant) subset of intermediate world coordinate elements.
+*     For example, if M == 1 for an image with N > 1, it is possible to fill
+*     x[] with the relevant coordinate element with nelem set to 1.  In this
+*     case map[0] = 0 regardless of the value of i.
+*
+*   double *crval
+*     (Given) Pointer to the first element of a vector of length tabprm::M
+*     whose elements contain the index value for the reference pixel for each
+*     of the tabular coordinate axes.
+*
+*   double **index
+*     (Given) Pointer to the first element of a vector of length tabprm::M of
+*     pointers to vectors of lengths (K_1, K_2,... K_M) of 0-relative indexes
+*     (see tabprm::K).
+*
+*     The address of any or all of these index vectors may be set to zero,
+*     i.e.
+*
+=       index[m] == 0;
+*
+*     this is interpreted as default indexing, i.e.
+*
+=       index[m][k] = k;
+*
+*   double *coord
+*     (Given) Pointer to the first element of the tabular coordinate array,
+*     treated as though it were defined as
+*
+=       double coord[K_M]...[K_2][K_1][M];
+*
+*     (see tabprm::K) i.e. with the M dimension varying fastest so that the
+*     M elements of a coordinate vector are stored contiguously in memory.
+*
+*   int nc
+*     (Returned) Total number of coordinate vectors in the coordinate array
+*     being the product K_1 * K_2 * ... * K_M (see tabprm::K).
+*
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+*   int *sense
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     whose elements indicate whether the corresponding indexing vector is
+*     monotonic increasing (+1), or decreasing (-1).
+*
+*   double *p0
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     of interpolated indices into the coordinate array such that Upsilon_m,
+*     as defined in Paper III, is equal to p0[m] + tabprm::delta[m].
+*
+*   double *delta
+*     (Returned) Pointer to the first element of a vector of length tabprm::M
+*     of interpolated indices into the coordinate array such that Upsilon_m,
+*     as defined in Paper III, is equal to tabprm::p0[m] + delta[m].
+*
+*   double *extrema
+*     (Returned) Pointer to the first element of an array that records the
+*     minimum and maximum value of each element of the coordinate vector in
+*     each row of the coordinate array, treated as though it were defined as
+*
+=       double extrema[K_M]...[K_2][2][M]
+*
+*     (see tabprm::K).  The minimum is recorded in the first element of the
+*     compressed K_1 dimension, then the maximum.  This array is used by the
+*     inverse table lookup function, tabs2x(), to speed up table searches.
+*
+*   int m_flag
+*     (For internal use only.)
+*   int m_M
+*     (For internal use only.)
+*   int m_N
+*     (For internal use only.)
+*   int set_M
+*     (For internal use only.)
+*   int m_K
+*     (For internal use only.)
+*   int m_map
+*     (For internal use only.)
+*   int m_crval
+*     (For internal use only.)
+*   int m_index
+*     (For internal use only.)
+*   int m_indxs
+*     (For internal use only.)
+*   int m_coord
+*     (For internal use only.)
+*
+*
+* Global variable: const char *tab_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+d459 7
+a465 1
+
+d468 8
+a475 8
+  /* Initialization flag (see the prologue above).                          */
+  /*------------------------------------------------------------------------*/
+  int    flag;			/* Set to zero to force initialization.     */
+
+  /* Parameters to be provided (see the prologue above).                    */
+  /*------------------------------------------------------------------------*/
+  int    M;			/* Number of tabular coordinate axes.       */
+  int    *K;			/* Vector of length M whose elements        */
+d479 1
+a479 1
+  int    *map;			/* Vector of length M usually such that     */
+d482 1
+a482 1
+  double *crval;		/* Vector of length M containing the index  */
+d485 1
+a485 1
+  double **index;		/* Vector of pointers to M indexing vectors */
+d487 1
+a487 1
+  double *coord;		/* (1+M)-dimensional tabular coordinate     */
+d490 3
+a492 3
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  int    nc;			/* Number of coordinate vectors (of length  */
+d494 2
+a495 2
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+  int    *sense;		/* Vector of M flags that indicate whether  */
+d498 3
+a500 3
+  int    *p0;			/* Vector of M indices.                     */
+  double *delta;		/* Vector of M increments.                  */
+  double *extrema;		/* (1+M)-dimensional array of coordinate    */
+d503 4
+a506 4
+  int    m_flag, m_M, m_N;	/* The remainder are for memory management. */
+  int    set_M;
+  int    *m_K, *m_map;
+  double *m_crval, **m_index, **m_indxs, *m_coord;
+a508 1
+/* Size of the tabprm struct in int units, used by the Fortran wrappers. */
+d512 8
+a519 9
+int tabini(int alloc, int M, const int K[], struct tabprm *tab);
+
+int tabmem(struct tabprm *tab);
+
+int tabcpy(int alloc, const struct tabprm *tabsrc, struct tabprm *tabdst);
+
+int tabfree(struct tabprm *tab);
+
+int tabprt(const struct tabprm *tab);
+a520 17
+int tabset(struct tabprm *tab);
+
+int tabx2s(struct tabprm *tab, int ncoord, int nelem, const double x[],
+           double world[], int stat[]);
+
+int tabs2x(struct tabprm *tab, int ncoord, int nelem, const double world[],
+           double x[], int stat[]);
+
+
+/* Deprecated. */
+#define tabini_errmsg tab_errmsg
+#define tabcpy_errmsg tab_errmsg
+#define tabfree_errmsg tab_errmsg
+#define tabprt_errmsg tab_errmsg
+#define tabset_errmsg tab_errmsg
+#define tabx2s_errmsg tab_errmsg
+#define tabs2x_errmsg tab_errmsg
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tab.h,v 4.1 2005/08/25 12:25:27 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.2 - C routines that implement tabular coordinate systems as
+d41 2
+a42 2
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L. 2005, A&A,
+*      (paper III, in preparation)
+d44 2
+d47 3
+a49 2
+*   Summary of routines
+*   -------------------
+d494 1
+d504 1
+a506 1
+   int    set_M;
+d523 1
+a523 1
+};
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: tab.h,v 4.2 2005/09/22 08:59:02 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.3 - C routines that implement tabular coordinate systems as
+@
+
+
+4.2.1.2
+log
+@Removed an extraneous ';' following the closing '}' of the 'extern "C" {'
+block provided for use in C++.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2006, Mark Calabretta
+d30 1
+a30 1
+*   $Id: tab.h,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d40 2
+a41 2
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+d518 1
+a518 1
+}
+@
+
+
+4.2.1.3
+log
+@Inserted a padding variable and changed the order of another to get
+alignment on 64-bit machines.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: tab.h,v 4.2.1.2 2006/08/02 00:14:58 cal103 Exp cal103 $
+a489 1
+   int    padding;		/* (Dummy inserted for alignment purposes.) */
+a498 1
+   int    set_M;
+d501 1
+@
+
+
+4.2.1.4
+log
+@Referenced the README file for an overview of the library.
+@
+text
+@d30 1
+a30 1
+*   $Id: tab.h,v 4.2.1.3 2007/07/12 08:20:07 cal103 Exp cal103 $
+a42 2
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+d44 2
+a45 3
+*
+*   Summary of the tab* routines
+*   ----------------------------
+@
+
+
+4.2.1.5
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tab.h,v 4.2.1.4 2007/08/08 08:40:48 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: updated the prologue comments, in particular for tabini()
+regarding K == 0x0 and K[] == 0 and memory management issues; added m_indxs
+to the tabprm struct; added the prototype for tabmem().
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: tab.h,v 4.0 2005/02/06 11:47:37 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.1 - C routines that implement tabular coordinate systems as
+@
+
+
+4.0
+log
+@WCSLIB 4.0: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id$
+d33 1
+a33 1
+*   WCSLIB 4.0 - C routines that implement tabular coordinate systems as
+d56 2
+a57 2
+*   Three service routines, tabini(), tabcpy(), and tabfree() are provided to
+*   manage the tabprm struct, and another, tabprt(), to print its contents.
+d73 6
+d80 9
+a88 8
+*      alloc    int      If true, allocate memory for arrays in the tabprm
+*                        struct (see "Memory allocation and deallocation
+*                        below").  Otherwise, it is assumed that pointers to
+*                        these arrays have been set by the caller except if
+*                        they are null pointers in which case memory will be
+*                        allocated for them regardless.  (In other words,
+*                        setting alloc true saves having to initalize these
+*                        pointers to zero.)
+d97 10
+a106 1
+*                        for them.
+d124 15
+d147 10
+a156 5
+*      alloc    int      If true, allocate memory for the crpix, pc, and cdelt
+*                        arrays in the destination.  Otherwise, it is assumed
+*                        that pointers to these arrays have been set by the
+*                        caller except if they are null pointers in which case
+*                        memory will be allocated for them regardless.
+d179 3
+d300 5
+d342 4
+d379 1
+a379 1
+*         The minimum is recorded in the first element of the compressed K_1 
+d383 3
+d401 5
+a405 4
+*   tabini() allocates memory for the K, map, crval, index, and coord arrays
+*   (including the arrays referenced by index[]) in the tabprm struct.  It is
+*   provided as a service routine; usage is optional, and the caller is at
+*   liberty to set these pointers independently.
+d407 1
+a407 1
+*   tabset() also allocates memory for the minmax, sense, p0, and delta
+d417 6
+a422 6
+*   However, a memory leak will result if a tabprm struct goes out of scope
+*   before the memory has been free'd, either by tabfree() or otherwise.
+*   Likewise, if the tabprm struct itself has been malloc'd and the allocated
+*   memory is not free'd when the memory for the struct is free'd.  A leak may
+*   also arise if the caller interferes with the array pointers in the
+*   "private" part of the tabprm struct.
+d488 2
+a489 2
+   int    nc;			/* Number of coordinate vectors in the      */
+	   			/* coordinate array.                        */
+d493 1
+a493 1
+   int    *p0;		        /* Vector of M indices.                     */
+d500 1
+a500 1
+   double *m_crval, **m_index, *m_coord;
+d508 1
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 468
+@

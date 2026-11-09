@@ -1,0 +1,915 @@
+head	4.1;
+access;
+symbols;
+locks
+	cal103:4.1; strict;
+comment	@# @;
+
+
+4.1
+date	2005.08.27.07.48.21;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.33.53;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.19.01;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.05.03.15;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.01.47;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.43.33;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.08.17.55;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.34.59;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	2001.11.15.03.47.03;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.12.14.01.07.11;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	96.05.07.21.15.51;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	95.11.16.06.54.18;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.05.28;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.11.04.35.35;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.11.04.34.42;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Explanatory document for using and installing WCSLIB.
+@
+
+
+4.1
+log
+@WCSLIB 4.1: removed the manifest; added notes on calling the *PUT routines
+to set the flag member of a struct, and augmented the example code.
+@
+text
+@------------------------------------------------------------------------------
+                                  WCSLIB 4.1
+------------------------------------------------------------------------------
+    WCSLIB 4.1 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2005, Mark Calabretta
+
+    WCSLIB is free software; you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 2 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+------------------------------------------------------------------------------
+
+WCSLIB is a C library that implements the "World Coordinate System" (WCS)
+convention in FITS (Flexible Image Transport System).  Refer to ../C/README.
+
+This directory contains wrappers, written in C, that allow FORTRAN programs
+to use WCSLIB.
+
+
+USAGE
+-----
+A prerequisite for using these wrappers is an understanding of the usage of
+the associated C routines, in particular the data structures they are based
+on.  The principle difficulty in creating the wrappers was the need to manage
+these C structs from within FORTRAN, all the moreso as they contain pointers
+to allocated memory, pointers to C functions, and other structs that
+themselves contain similar entities.
+
+To this end, routines have been provided to set and retrieve values of the
+various structs, for example WCSPUT and WCSGET for the wcsprm struct.  These
+must be used in conjunction with wrappers on the routines provided to manage
+the structs in C, for example WCSINI, WCSSUB, WCSCOPY, WCSFREE, and WCSPRT
+which wrap wcsini(), wcssub(), wcscopy(), wcsfree(), and wcsprt().
+
+The various *PUT and *GET routines are based on codes defined in FORTRAN
+include files (*.inc) in this directory (if your FORTRAN compiler does not
+support the INCLUDE statement then you will need to include these manually
+wherever necessary).  Codes are defined as parameters with names like
+WCS_CRPIX which refers to the "crpix" member of the wcsprm struct (if your
+FORTRAN compiler does not support long symbolic names then you will need to
+rename these).
+
+The include files also contain parameters, such as WCSLEN, that define the
+length of an INTEGER array that must be declared to hold the struct.  This
+length may differ for different platforms depending on how the C compiler
+aligns data within the structs.  A test program for the C library, twcs,
+prints the size of the struct in sizeof(int) units and the values in the
+FORTRAN include files must equal or exceed these.
+
+The *PUT routines set only one element of an array at a time; the final one
+or two integer arguments of these routines specify 1-relative array indices
+(N.B. not 0-relative as in C).  The one exception is the pv array in prjprm.
+
+The *PUT routines also reset the flag element to signal that the struct needs
+to be reinitialized.  Therefore, if you wish to set the flag itself to -1
+prior to the first call to WCSINI, for example, then that WCSPUT must be the
+last one before the call.
+
+The *GET routines retrieve whole arrays at a time and expect array arguments
+of the appropriate length where necessary.  Note that they do not initialize
+the structs.
+
+A basic coding fragment is
+
+      INTEGER   LNGIDX, STATUS
+      CHARACTER CTYPE1*72
+
+      INCLUDE 'wcs.inc'
+
+*     WCSLEN is defined as a parameter in wcs.inc.
+      INTEGER   WCS(WCSLEN)
+
+*     Allocate memory and set default values for 2 axes.
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSINI (2, WCS)
+
+*     Set CRPIX1, and CRPIX2; WCS_CRPIX is defined in wcs.inc.
+      STATUS = WCSPUT (WCS, WCS_CRPIX, 512D0, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CRPIX, 512D0, 2, 0)
+
+*     Set PC1_2 to 5.0 (I = 1, J = 2).
+      STATUS = WCSPUT (WCS, WCS_PC, 5D0, 1, 2)
+
+*     Set CTYPE1 to 'RA---SIN'; N.B. must be given as CHARACTER*72.
+      CTYPE1 = 'RA---SIN'
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE1, 1, 0)
+
+*     Set PV1_3 to -1.0 (I = 1, M = 3).
+      STATUS = WCSPUT (WCS, WCS_PV, -1D0, 1, 3)
+
+      etc.
+
+*     Initialize.
+      STATUS = WCSSET (WCS)
+
+*     Find the "longitude" axis.
+      STATUS = WCSGET (WCS, WCS_LNG, LNGIDX)
+
+*     Free memory.
+      STATUS = WCSFREE (WCS)
+
+Refer to the various FORTRAN test programs for further programming examples.
+In particular, twcs and twcsmix show how to retrieve elements of the celprm
+and prjprm structs contained within the wcsprm struct.
+
+Note that the data type of the third argument to the *PUT and *GET routines
+may differ depending on the data type of the corresponding C struct member; be
+it int, double, or char[].  It is essential that the FORTRAN data type match
+that of the C struct for int and double types, and be a CHARACTER variable of
+the correct length for char[] types.  Compilers (e.g. g77) may warn of
+inconsistent usage of this argument but this can (usually) be safely ignored.
+
+A basic assumption made by the wrappers is that an INTEGER variable is no less
+than half the size of a DOUBLE PRECISION.
+
+
+Installation notes
+------------------
+A GNU makefile is provided; GNU make (referred to below as gmake) must be
+used.  A few variables are defined at the start of the makefile that you may
+need to tailor for your purposes.
+
+Being wrappers, the C routines here rely on the header files supplied with the
+C library and these are presumed to reside in ../C.  By default, the wrappers,
+whose names by common convention have an underscore ("_") suffix, are inserted
+in the C library, ../C/libwcs.a.  If your C/FORTRAN compiler combination does
+not use the underscore convention you may need to rename the wrapper
+functions.  This may be done conveniently with a C preprocessor macro.
+
+A suite of test programs is also provided to verify the wrappers.  You can
+compile the library and exercise these in one step via
+
+   gmake test
+
+Please inform me of any difficulties you may have with the installation.
+
+
+Author
+------
+Mark Calabretta, Australia Telescope National Facility
+mcalabre@@atnf.csiro.au
+
+$Id: README,v 4.0 2005/02/04 12:33:53 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: added a GPL copyright notice.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 4.0
+d4 1
+a4 1
+    WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d6 1
+a6 1
+ 
+d11 1
+a11 1
+ 
+d16 1
+a16 1
+ 
+d20 1
+a20 1
+ 
+d37 1
+a37 47
+Manifest
+--------
+FORTRAN/
+   Makefile     GNU makefile for installing the WCSLIB FORTRAN wrappers.
+   README       This file.
+
+   lin_f.c      FORTRAN wrappers for lin.c.
+   lin.inc      FORTRAN include file for manipulating the linprm struct.
+
+   prj_f.c      FORTRAN wrappers for prj.c.
+   prj.inc      FORTRAN include file for manipulating the prjprm struct.
+
+   sph_f.c      FORTRAN wrappers for sph.c.
+
+   cel_f.c      FORTRAN wrappers for cel.c.
+   cel.inc      FORTRAN include file for manipulating the celprm struct.
+
+   spx_f.c      FORTRAN wrappers for spx.c.
+   spx.inc      FORTRAN include file for manipulating the spxprm struct.
+
+   spc_f.c      FORTRAN wrappers for spc.c.
+   spc.inc      FORTRAN include file for manipulating the spcprm struct.
+
+   wcs_f.c      FORTRAN wrappers for wcs.c.
+   wcs.inc      FORTRAN include file for manipulating the wcsprm struct.
+
+   wcshdr_f.c   FORTRAN wrappers for wcshdr.c.
+   wcshdr.inc   Function declarations.
+
+   cylfix_f.c   FORTRAN wrappers for cylfix.c.
+
+test/
+   tcel1.f      FORTRAN analogue of tcel1.c.
+   tlin.f       FORTRAN analogue of tlin.c.
+   tpih1.f      FORTRAN analogue of tpih1.c.
+   tpih2.f      FORTRAN analogue of tpih2.c.
+   tprj1.f      FORTRAN analogue of tprj1.c.
+   tprj2.f      FORTRAN analogue of tprj2.c.
+   tspc.f       FORTRAN analogue of tspc.c.
+   tsph.f       FORTRAN analogue of tsph.c.
+   tspx.f       FORTRAN analogue of tspx.c.
+   twcs.f       FORTRAN analogue of twcs.c.
+   twcsmix.f    FORTRAN analogue of twcsmix.c.
+   twcssub.f    FORTRAN analogue of twcssub.c.
+
+
+Usage
+d72 3
+a74 1
+to be reinitialized.
+d91 1
+d116 3
+d123 5
+a127 5
+Note that the data type of third argument to the *PUT and *GET routines may
+differ depending on the data type of the corresponding C struct member; be it
+int, double, or char[].  It is essential that the FORTRAN data type match that
+of the C struct for int and double types, and be a CHARACTER variable of the
+correct length for char[] types.  Compilers (e.g. g77) may warn of
+d160 1
+a160 1
+$Id: README,v 3.6 2004/08/25 06:19:01 cal103 Exp cal103 $
+@
+
+
+3.6
+log
+@WCSLIB 3.6: updated the notes relating to twcs (formerly twcs1), twcsmix
+(formerly twcs2), and twcssub (new); mention wcssub() wrapper, WCSSUB.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.6
+d4 26
+d200 1
+a200 1
+$Id: README,v 3.5 2004/06/28 05:03:15 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5: new files relating to wrappers for the WCS header parser -
+wcshdr.inc, wcshdr_f.c, tpih[12].f; TWCSPRT has been withdrawn.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.5
+d18 1
+a18 1
+   lin.inc      FORTRAN include file for manipulating the "linprm" struct.
+d21 1
+a21 1
+   prj.inc      FORTRAN include file for manipulating the "prjprm" struct.
+d26 1
+a26 1
+   cel.inc      FORTRAN include file for manipulating the "celprm" struct.
+d29 1
+a29 1
+   spx.inc      FORTRAN include file for manipulating the "spxprm" struct.
+d32 1
+a32 1
+   spc.inc      FORTRAN include file for manipulating the "spcprm" struct.
+d35 1
+a35 1
+   wcs.inc      FORTRAN include file for manipulating the "wcsprm" struct.
+d52 3
+a54 2
+   twcs1.f      FORTRAN analogue of twcs1.c.
+   twcs2.f      FORTRAN analogue of twcs2.c.
+d69 2
+a70 2
+the structs in C, for example WCSINI, WCSCOPY, WCSFREE, and WCSPRT which wrap
+wcsini(), wcscopy(), wcsfree(), and wcsprt().
+d83 1
+a83 1
+aligns data within the structs.  A test program for the C library, twcs1,
+d134 2
+a135 2
+In particular, twcs1 and twcs2 show how to retrieve elements of the celprm and
+prjprm structs contained within the wcsprm struct.
+d174 1
+a174 1
+$Id: README,v 3.4 2004/02/11 00:01:47 mcalabre Exp mcalabre $
+@
+
+
+3.4
+log
+@WCSLIB 3.4: tcel renamed to tcel1.
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.4
+d4 1
+a4 1
+WCSLIB is a C library which implements the "World Coordinate System" (WCS)
+d7 1
+a7 1
+This directory contains wrappers, written in C, which allow FORTRAN programs
+d37 3
+d43 1
+d45 2
+d49 1
+a50 1
+   tcel1.f      FORTRAN analogue of tcel1.c.
+a51 1
+   tspc.f       FORTRAN analogue of tspc.c.
+a53 1
+   twcsprt.f    FORTRAN analogue of twcsprt.c.
+d62 1
+a62 1
+to allocated memory, pointers to C functions, and other structs which
+d79 2
+a80 2
+The include files also contain parameters, such as WCSLEN, which define the
+length of an INTEGER array which must be declared to hold the struct.  This
+d82 1
+a82 1
+aligns data within the structs.  A test program for the C library, twcsprt,
+d150 1
+a150 1
+used.  A few variables are defined at the start of the makefile which you may
+d158 1
+a158 1
+functions.  This may conveniently be done with a C preprocessor macro.
+d173 1
+a173 1
+$Id: README,v 3.3 2003/10/21 08:43:33 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.3
+d44 1
+a44 1
+   tcel.f       FORTRAN analogue of tcel.c.
+d169 1
+a169 1
+$Id: README,v 3.2 2003/09/09 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: renamed WCSCPY/wcscpy() to WCSCOPY/wcscopy().
+@
+text
+@d2 1
+a2 1
+                                  WCSLIB 3.2
+d169 1
+a169 1
+$Id: README,v 3.1 2003/04/28 08:17:55 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d2 1
+a2 1
+                                    WCSLIB
+d64 2
+a65 2
+the structs in C, for example WCSINI, WCSCPY, WCSFREE, and WCSPRT which wrap
+wcsini(), wcscpy(), wcsfree(), and wcsprt().
+d169 1
+a169 1
+$Id: README,v 3.1 2003/04/28 04:32:30 mcalabre Exp $
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d37 2
+d73 8
+a80 3
+rename these).  The include files also contain parameters, such as WCSLEN,
+which define the length of an INTEGER array which must be declared to hold
+the struct.
+d86 3
+d113 2
+a114 2
+*     Set CTYPE1 to "RA---SIN".
+      CTYPE1 = "RA---SIN"
+d169 1
+a169 1
+$Id$
+@
+
+
+2.5
+log
+@LONGPOLE -> LONPOLE.
+@
+text
+@d2 1
+a2 1
+                            WCSLIB (FORTRAN suite)
+d4 2
+a5 3
+WCSLIB consists of independent FORTRAN and C implementations of the spherical
+projections and coordinate transformations defined in the proposed "World
+Coordinate System" (WCS) convention in FITS (Flexible Image Transport System).
+d7 2
+a8 3
+The proposal is described in "Representations of Celestial Coordinates in
+FITS" by Mark R. Calabretta and Eric W. Greisen, a draft of which is available
+from
+a9 1
+   http://www.atnf.csiro.au/~mcalabre
+d11 5
+a15 3
+WCSLIB itself (i.e. this suite) can be obtained from
+
+   ftp://ftp.atnf.csiro.au/pub/software/wcslib
+d17 2
+a18 1
+mirrored at
+d20 2
+a21 1
+   ftp://fits.cv.nrao.edu/fits/src/wcs
+d23 1
+d25 103
+a127 5
+Manifest
+--------
+   Makefile     GNU makefile for installing WCSLIB
+   README       This file.
+   CHANGES      List of changes made since v1.0.
+d129 2
+a130 53
+   wcs.f        High level WCS driver routines.
+   cel.f        Spherical projection driver routines.
+   sph.f        WCS spherical coordinate transformation routines.
+   proj.f       Implementation of the WCS spherical projections.
+   lin.f        Implementation of the WCS linear transformation.
+   wcstrig.f    Impementation of FORTRAN trigonometric functions
+                which deal with degrees rather than radians (optional).
+
+   tlin.f       Test closure of the linear transformation routines.
+   tproj1.f     Test closure of the WCS projection routines.
+   tproj2.f     Plot test grids for each projection (requires PGPLOT and
+                X11).
+   tsph.f       Test closure of the WCS spherical coordinate
+                transformation routines.
+   tcel.f       Plot oblique test grids (requires PGPLOT and X11).
+   twcs1.f      Test closure of wcsfwd() and wcsrev().
+   twcs2.f      Test closure of wcsmix() (requires PGPLOT and X11).
+
+
+Usage caveats
+-------------
+Usage of the routines is described in the prologue comments in wcs.f, cel.f,
+sph.f, proj.f and lin.f.  The main interface is via the high level WCSFWD,
+WCSREV, and WCSMIX driver routines, although direct calls may sometimes be
+useful to CELFWD and CELREV described in cel.f, and LINFWD and LINREV
+described in lin.f.  The twcs1.f, tcel.f and tlin.f test programs may be taken
+as programming templates.
+
+The routines use a simple mechanism to store intermediate values and thereby
+save recomputing them on every call.  The arrays which contain coordinate
+transformation and projection parameters (WCS, LIN, CEL and PRJ) are also used
+to store intermediate values derived from the parameters.  Particular elements
+of these arrays serve as flags which must be set to zero when any of the
+parameters are set (or reset), thereby signalling that the intermediate values
+need to be computed.  This mechanism also allows an indefinite number of
+contexts to be maintained.
+
+Note that while the FITS "LONPOLE" and "LATPOLE" keywords assume sensible
+default values if omitted from the FITS header, this condition must be
+signalled explicitly as described in the prologue to cel.f.
+
+
+Nomenclature
+------------
+In WCSLIB the "forward" direction is from (lng,lat) celestial coordinates to
+(x,y) coordinates in the plane of projection.  This accords with the notion
+that spherical projections are a projection of the sphere onto a plane, the
+"reverse" direction is therefore that of deprojection from plane to sphere.
+
+Unfortunately, this is opposite to what is generally understood to be the
+forward direction for FITS, namely that of transforming pixel coordinates to
+world coordinates.  However, the ordering of subroutine argument lists should
+make it clear what is intended.
+d137 1
+a137 5
+need to tailor for your purposes.  In particular, if your FORTRAN compiler
+does not provide the non-standard intrinsic functions COSD, SIND, TAND, ACOSD,
+ASIND, ATAND, and ATAN2D then you will need to set the WCSTRIG variable as
+described in the makefile (see note below).  You should then be able to build
+'libwcs_f.a' via
+d139 6
+a144 1
+   gmake
+d146 2
+a147 2
+A suite of test programs is also provided to verify the library (see below).
+You can compile and exercise these in one step via
+d151 1
+a151 72
+
+Verification
+------------
+The TLIN, TPROJ1 and TSPH programs test closure of the linear transformation
+routines, projection routines and spherical coordinate transformations.
+"Closure" tests apply the forward and reverse transformations in sequence and
+compare the result with the original value.  Ideally, the result should agree
+exactly, but because of floating point rounding errors there is usually a
+small discrepancy so it is only required to agree within a "closure
+tolerance".
+
+TPROJ1 tests for closure separately for longitude and latitude except at the
+poles where it only tests for closure in latitude.  Note that closure in
+longitude does not deal with angular displacements on the sky.  This is
+appropriate for many projections such as the cylindricals where circumpolar
+parallels are projected at the same length as the equator.  On the other hand,
+TSPH does test for closure in angular displacement.
+
+The tolerance for reporting closure discrepancies is set at 1e-10 degree for
+most projections; this is slightly less than 3 microarcsec.  The worst case
+closure figure is reported for each projection and this is usually better than
+the reporting tolerance by several orders of magnitude.  TPROJ1 and TSPH test
+closure at all points on the 1 degree grid of native longitude and latitude
+and to within 5 degrees of any latitude of divergence for those projections
+which cannot represent the full sphere.  Closure is also tested at a sequence
+of points close to the reference point (TPROJ1) or pole (TSPH).
+
+Closure has been verified at all test points for SUN workstations.  However,
+non-closure may be observed for other machines near native latitude -90 for
+the zenithal, cylindrical and conic equal area projections (ZEA, CEA and COE),
+and near divergent latitudes of projections such as the azimuthal perspective
+and stereographic projections (AZP and STG).   Rounding errors may also carry
+points between faces of the quad-cube projections (CSC, QSC, and TSC).
+Although such excursions may produce long lists of non-closure points, this
+is not necessarily indicative of a fundamental problem.
+
+Note that the inverse of the COBE quad-qube projection (CSC)is a polynomial
+approximation and its closure tolerance is intrinsically poor.
+
+Although tests for closure help to verify the internal consistency of the
+routines they do not verify them in an absolute sense.  This is partly
+addressed by TPROJ2 and TCEL which plot test grids for visual inspection of
+scaling, orientation, and other macroscopic characteristics of the
+projections.
+
+TWCS1 tests closure of WCSFWD and WCSREV for a number of selected projections.
+TWCS2 verifies WCSMIX on the 1 degree grid of celestial longitude and latitude
+for a number of selected projections.  It plots a test grid for each
+projection and indicates the location of successful and failed solutions.
+
+
+Trigonometric functions
+-----------------------
+The WCSLIB routines use the following trigonometric functions which take or
+return angular arguments in degrees:
+
+   COSD SIND TAND ACOSD ASIND ATAND ATAN2D
+
+These routines explicitly handle angles which are a multiple of 90 degrees
+returning an exact result.
+
+Many FORTRAN compilers supply these as intrinsic functions and in such cases
+the compiler will use them automatically since none of the routines declares
+them EXTERNAL.  Otherwise, a separate file "wcstrig.f" contains
+DOUBLE PRECISION implementations based on the standard FORTRAN trigonometric
+functions.
+
+Note that the routines explicitly declare these functions as DOUBLE PRECISION
+in case the external implementations are used.  Where the implicit forms are
+supplied by the compiler then, according to the ANSI X3.9-1978 FORTRAN
+standard (p8-5), such declaration does not remove the generic properties of
+the intrinsic functions.
+d159 1
+a159 1
+$Id: README,v 2.4 1999/12/14 01:07:11 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Revised prologue, new web addresses for retrieval.
+@
+text
+@d9 1
+a9 1
+FITS" by Mark Calabretta and Eric W. Greisen, a draft of which is available
+a13 4
+or
+
+   http://www.cv.nrao.edu/~egreisen
+
+d66 1
+a66 1
+Note that while the FITS "LONGPOLE" and "LATPOLE" keywords assume sensible
+d96 1
+a96 1
+A suite of test programs is also provided to verify the library (see below).  
+d146 1
+a146 1
+TWCS1 tests closure of WCSFWD and WCSREV for a number of selected projections.  
+d180 1
+a180 1
+$Id: README,v 2.3 1996/05/07 21:15:51 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@TWCS was split into TWCS1 and TWCS2.
+@
+text
+@d1 5
+a5 1
+WCSLIB contains FORTRAN routines which implement the proposed "World
+a6 3
+This proposal is described in "Representations of Celestial Coordinates in
+FITS" by Eric W. Greisen and Mark Calabretta.  A draft of this document is
+available via anonymous ftp from fits.cv.nrao.edu:/fits/documents/wcs.
+d8 3
+d12 15
+d184 1
+a184 1
+$Id: README,v 2.2 1995/11/16 06:54:18 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Mention WCS array.
+@
+text
+@d29 2
+a30 1
+   twcs.f       Test WCS routines (requires PGPLOT and X11).
+d39 1
+a39 1
+described in lin.f.  The twcs.f, tcel.f and tlin.f test programs may be taken
+d131 4
+a134 4
+The TWCS test program verifies WCSMIX on the 1 degree grid of celestial
+longitude and latitude for a number of selected projections.  It plots a test
+grid for each projection and indicates the location of successful and failed
+solutions.
+d165 1
+a165 1
+$Id: README,v 2.1 1995/11/09 03:05:28 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Trivial refinements.
+@
+text
+@d12 1
+d43 3
+a45 3
+transformation and projection parameters (LIN, CEL and PRJ) are also used to
+store intermediate values derived from the parameters.  Particular elements of
+these arrays serve as flags which must be set to zero when any of the
+d164 1
+a164 1
+$Id: README,v 2.0 1995/09/11 04:35:35 mcalabre Exp mcalabre $
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d105 1
+a105 1
+the reporting tolerance by several orders of magnitude.  tproj1 and tsph test
+d109 1
+a109 1
+of points close to the reference point (tproj1) or pole (tsph).
+d163 1
+a163 1
+$Id: README,v 1.2 1995/09/11 04:34:42 mcalabre Exp mcalabre $
+@
+
+
+1.2
+log
+@Updated aspects of the notes relating to lin.f and cel.f, and also LATPOLE.
+Added a new section "Nomenclature" explaining why the forward and reverse
+directions are named as they are.  Revised the discussion of closure to say
+that the tolerance is for reporting discrepant points and the worst-case
+closure figure is reported for each projection.
+@
+text
+@d163 1
+a163 1
+$Id: README,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d13 3
+d17 1
+a17 2
+   sph.f        WCS spherical coordinate transformation routines.
+   wcs.f        WCS driver routines.
+d21 1
+d27 2
+a28 1
+   twcs.f       Plot an oblique test grid (requires PGPLOT and X11).
+d31 8
+a38 6
+Usage notes
+-----------
+Usage of the routines is described in the prologue comments in wcs.f and
+proj.f (and also sph.f but this will not usually need to be used directly).
+The main interface is via the driver routines, WCSFWD and WCSREV, described
+in wcs.f.  The twcs.f test program may be taken as a programming template.
+d41 12
+a52 8
+save recomputing them on every call.  This consists of extending the arrays
+(WCS and PRJ) which contain coordinate transformation and projection
+parameters so that they also store intermediate values.  Particular elements
+of these arrays (WCS(4) and PRJ(11)) serve as flags which must be set (or
+reset) to zero when the parameters are set (or reset), thereby signalling that
+the intermediate values need to be computed (or recomputed).  This mechanism
+also allows an indefinite number of contexts to be maintained, something which
+is not possible via FORTRAN COMMON blocks.
+d54 11
+a64 2
+You should also be aware that while the default value of the FITS "LONGPOLE"
+keyword is 180 degrees this must be explicitly set in WCS(3).
+d79 2
+a80 7
+A suite of test programs is also provided to verify the library.  Two of
+these, TPROJ1 and TSPH, test for closure of the forward and reverse projection
+and spherical coordinate transformation routines.  Another two use PGPLOT to
+draw test coordinate grids using an X-windows viewer.  If PGPLOT and/or X11 is
+not available then you can defeat the compilation of these latter two test
+programs by unsetting the PGPLOTLIB variable in the makefile.  You can compile
+and exercise the test programs in one step via
+d87 7
+a93 6
+The TPROJ1 and TSPH programs test closure of the projection routines and
+spherical coordinate transformations.  "Closure" tests apply the forward and
+reverse transformations in sequence and compare the result with the original
+value.  Ideally, the result should agree exactly, but because of floating
+point rounding errors there is usually a small discrepancy so it is only
+required to agree within a "closure tolerance".
+d102 8
+a109 5
+The closure tolerance specified for most projections is 1e-10 degree which is
+slightly less than 3 microarcsec.  Closure is tested at all points on the 1
+degree grid of native longitude and latitude and to within 5 degrees of any
+latitude of divergence for those projections which cannot represent the full
+sphere.
+d125 1
+a125 1
+addressed by TPROJ2 and TWCS which plot test grids for visual inspection of
+d129 5
+d163 1
+a163 1
+$Id$
+@

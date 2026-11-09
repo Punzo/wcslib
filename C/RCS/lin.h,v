@@ -1,0 +1,7245 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.21.57;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.07.44.52;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.05.09.00;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.04.17.46;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.47.37;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.15.03;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.22.07.19.13;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.03.50.41;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.04.10.53;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2002.04.03.01.25.29;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2001.11.15.03.14.40;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2000.05.10.04.44.05;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.05.26.01.32.18;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.05.26.01.24.48;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	96.05.24.07.25.36;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.20.17.02;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.09.11.08.00.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2006.08.02.00.14.58;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.12.08.03.29;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.02.04.26.39;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.08.08.07.20.03;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.08.08.08.40.48;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.04.02.06.17.13;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.05.10.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.43.08;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.10.06.52.12;	author cal103;	state Exp;
+branches;
+next	4.7.1.5;
+
+4.7.1.5
+date	2011.08.15.05.52.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.01.57.42;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.4;
+
+4.25.1.4
+date	2015.04.05.05.57.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.08.39.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.07.23.44.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.18.08.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.25.10;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.11.05.04.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.20.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.07.48.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.04.07.19.21;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.3;
+
+7.11.1.3
+date	2022.09.08.04.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.08.15.25.07;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.13.10.26.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.09.06.56.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.26.13.55.15;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.3;
+
+8.4.1.3
+date	2025.12.06.13.37.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.05.08.30.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for the routines that implement the WCS linear
+transformation equations; contains the definition of the "linprm" struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: lin.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the lin routines
+* ---------------------------
+* Routines in this suite apply the linear transformation defined by the FITS
+* World Coordinate System (WCS) standard, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+*
+* These routines are based on the linprm struct which contains all information
+* needed for the computations.  The struct contains some members that must be
+* set by the user, and others that are maintained by these routines, somewhat
+* like a C++ class but with no encapsulation.
+*
+* Six routines, linini(), lininit(), lindis(), lindist() lincpy(), and
+* linfree() are provided to manage the linprm struct, linsize() computes its
+* total size including allocated memory, linenq() returns information about
+* the state of the struct, and linprt() prints its contents.
+*
+* linperr() prints the error message(s) (if any) stored in a linprm struct,
+* and the disprm structs that it may contain.
+*
+* A setup routine, linset(), computes intermediate values in the linprm struct
+* from parameters in it that were supplied by the user.  The struct always
+* needs to be set up by linset() but need not be called explicitly - refer to
+* the explanation of linprm::flag.
+*
+* linp2x() and linx2p() implement the WCS linear transformations.
+*
+* An auxiliary routine, linwarp(), computes various measures of the distortion
+* over a specified range of pixel coordinates.
+*
+* An auxiliary matrix inversion routine, matinv(), is included.  It uses
+* LU-triangular factorization with scaled partial pivoting.
+*
+*
+* linini() - Default constructor for the linprm struct
+* ----------------------------------------------------
+* linini() is a thin wrapper on lininit().  It invokes it with ndpmax set
+* to -1 which causes it to use the value of the global variable NDPMAX.  It
+* is thereby potentially thread-unsafe if NDPMAX is altered dynamically via
+* disndp().  Use lininit() for a thread-safe alternative in this case.
+*
+*
+* lininit() - Default constructor for the linprm struct
+* -----------------------------------------------------
+* lininit() allocates memory for arrays in a linprm struct and sets all
+* members of the struct to default values.
+*
+* PLEASE NOTE: every linprm struct must be initialized by lininit(), possibly
+* repeatedly.  On the first invokation, and only the first invokation,
+* linprm::flag must be set to -1 to initialize memory management, regardless
+* of whether lininit() will actually be used to allocate memory.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the linprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   naxis     int       The number of world coordinate axes, used to determine
+*                       array sizes.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.  Note that, in order
+*                       to initialize memory management linprm::flag should be
+*                       set to -1 when lin is initialized for the first time
+*                       (memory leaks may result if it had already been
+*                       initialized).
+*
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err if enabled, see wcserr_enable().
+*
+*
+* lindis() - Assign a distortion to a linprm struct
+* -------------------------------------------------
+* lindis() is a thin wrapper on lindist().   It invokes it with ndpmax set
+* to -1 which causes the value of the global variable NDPMAX to be used (by
+* disinit()).  It is thereby potentially thread-unsafe if NDPMAX is altered
+* dynamically via disndp().  Use lindist() for a thread-safe alternative in
+* this case.
+*
+*
+* lindist() - Assign a distortion to a linprm struct
+* --------------------------------------------------
+* lindist() may be used to assign the address of a disprm struct to
+* linprm::dispre or linprm::disseq.  The linprm struct must already have been
+* initialized by lininit().
+*
+* The disprm struct must have been allocated from the heap (e.g. using
+* malloc(), calloc(), etc.).  lindist() will immediately initialize it via a
+* call to disini() using the value of linprm::naxis.  Subsequently, it will be
+* reinitialized by calls to lininit(), and freed by linfree(), neither of
+* which would happen if the disprm struct was assigned directly.
+*
+* If the disprm struct had previously been assigned via lindist(), it will be
+* freed before reassignment.  It is also permissable for a null disprm pointer
+* to be assigned to disable the distortion correction.
+*
+* Given:
+*   sequence  int       Is it a prior or sequent distortion?
+*                         1: Prior,   the assignment is to linprm::dispre.
+*                         2: Sequent, the assignment is to linprm::disseq.
+*
+*                       Anything else is an error.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         4: Invalid sequence.
+*
+*
+* lincpy() - Copy routine for the linprm struct
+* ---------------------------------------------
+* lincpy() does a deep copy of one linprm struct to another, using lininit()
+* to allocate memory for its arrays if required.  Only the "information to be
+* provided" part of the struct is copied; a call to linset() is required to
+* initialize the remainder.
+*
+* Given:
+*   alloc     int       If true, allocate memory for the crpix, pc, and cdelt
+*                       arrays in the destination.  Otherwise, it is assumed
+*                       that pointers to these arrays have been set by the
+*                       user except if they are null pointers in which case
+*                       memory will be allocated for them regardless.
+*
+*   linsrc    const struct linprm*
+*                       Struct to copy from.
+*
+* Given and returned:
+*   lindst    struct linprm*
+*                       Struct to copy to.  linprm::flag should be set to -1
+*                       if lindst was not previously initialized (memory leaks
+*                       may result if it was previously initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err if enabled, see wcserr_enable().
+*
+*
+* linfree() - Destructor for the linprm struct
+* --------------------------------------------
+* linfree() frees memory allocated for the linprm arrays by lininit() and/or
+* linset().  lininit() keeps a record of the memory it allocates and linfree()
+* will only attempt to free this.
+*
+* PLEASE NOTE: linfree() must not be invoked on a linprm struct that was not
+* initialized by lininit().
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+* linsize() - Compute the size of a linprm struct
+* -----------------------------------------------
+* linsize() computes the full size of a linprm struct, including allocated
+* memory.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct linprm).
+*
+*                       The second element is the total size of memory
+*                       allocated in the struct, in bytes, assuming that the
+*                       allocation was done by lininit().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, *                       such as linprm::dispre.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via linset(), which normally results in additional
+*                       memory allocation.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* linenq() - enquire about the state of a linprm struct
+* -----------------------------------------------------
+* linenq() may be used to obtain information about the state of a linprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         LINENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see lininit()).
+*                         LINENQ_SET: the struct has been set up by linset().
+*                         LINENQ_BYP: the struct is in bypass mode (see
+*                                     linset()).
+*                       These may be combined by logical OR, e.g.
+*                       LINENQ_MEM | LINENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+* linprt() - Print routine for the linprm struct
+* ----------------------------------------------
+* linprt() prints the contents of a linprm struct using wcsprintf().  Mainly
+* intended for diagnostic purposes.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+* linperr() - Print error messages from a linprm struct
+* -----------------------------------------------------
+* linperr() prints the error message(s) (if any) stored in a linprm struct,
+* and the disprm structs that it may contain.  If there are no errors then
+* nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Coordinate transformation parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+* linset() - Setup routine for the linprm struct
+* ----------------------------------------------
+* linset(), if necessary, allocates memory for the linprm::piximg and
+* linprm::imgpix arrays and sets up the linprm struct according to information
+* supplied within it - refer to the explanation of linprm::flag.
+*
+* Note that this routine need not be called directly; it will be invoked by
+* linp2x() and linx2p() if the linprm::flag is anything other than a
+* predefined magic value.
+*
+* linset() normally operates regardless of the value of linprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a linprm struct may be put into "bypass" mode by invoking linset()
+* initially with linprm::flag == 1 (rather than 0).  linset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset linprm::flag to zero.  See also linenq().
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*                         4: Failed to initialise distortions.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err if enabled, see wcserr_enable().
+*
+*
+* linp2x() - Pixel-to-world linear transformation
+* -----------------------------------------------
+* linp2x() transforms pixel coordinates to intermediate world coordinates.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length nelem
+*                       but containing lin.naxis coordinate elements.
+*
+*   pixcrd    const double[ncoord][nelem]
+*                       Array of pixel coordinates.
+*
+* Returned:
+*   imgcrd    double[ncoord][nelem]
+*                       Array of intermediate world coordinates.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*                         4: Failed to initialise distortions.
+*                         5: Distort error.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err if enabled, see wcserr_enable().
+*
+* Notes:
+*   1. Historically, the API to linp2x() did not have a stat[] vector because
+*      a valid linear transformation should always succeed.  However, now that
+*      it invokes disp2x() if distortions are present, it does have the
+*      potential to fail.  Consequently, when distortions are present and a
+*      status return (stat[]) is required for each coordinate, then linp2x()
+*      should be invoked separately for each of them.
+*
+*
+* linx2p() - World-to-pixel linear transformation
+* -----------------------------------------------
+* linx2p() transforms intermediate world coordinates to pixel coordinates.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length nelem
+*                       but containing lin.naxis coordinate elements.
+*
+*   imgcrd   const double[ncoord][nelem]
+*                       Array of intermediate world coordinates.
+*
+* Returned:
+*   pixcrd    double[ncoord][nelem]
+*                       Array of pixel coordinates.
+*
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*                         4: Failed to initialise distortions.
+*                         6: De-distort error.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err if enabled, see wcserr_enable().
+*
+* Notes:
+*   1. Historically, the API to linx2p() did not have a stat[] vector because
+*      a valid linear transformation should always succeed.  However, now that
+*      it invokes disx2p() if distortions are present, it does have the
+*      potential to fail.  Consequently, when distortions are present and a
+*      status return (stat[]) is required for each coordinate, then linx2p()
+*      should be invoked separately for each of them.
+*
+*
+* linwarp() - Compute measures of distortion
+* ------------------------------------------
+* linwarp() computes various measures of the distortion over a specified range
+* of pixel coordinates.
+*
+* All distortion measures are specified as an offset in pixel coordinates,
+* as given directly by prior distortions.  The offset in intermediate pixel
+* coordinates given by sequent distortions is translated back to pixel
+* coordinates by applying the inverse of the linear transformation matrix
+* (PCi_ja or CDi_ja).  The difference may be significant if the matrix
+* introduced a scaling.
+*
+* If all distortions are prior, then linwarp() uses diswarp(), q.v.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters plus distortions.
+*
+* Given:
+*   pixblc    const double[naxis]
+*                       Start of the range of pixel coordinates (i.e. "bottom
+*                       left-hand corner" in the conventional FITS image
+*                       display orientation).  May be specified as a NULL
+*                       pointer which is interpreted as (1,1,...).
+*
+*   pixtrc    const double[naxis]
+*                       End of the range of pixel coordinates (i.e. "top
+*                       right-hand corner" in the conventional FITS image
+*                       display orientation).
+*
+*   pixsamp   const double[naxis]
+*                       If positive or zero, the increment on the particular
+*                       axis, starting at pixblc[].  Zero is interpreted as a
+*                       unit increment.  pixsamp may also be specified as a
+*                       NULL pointer which is interpreted as all zeroes, i.e.
+*                       unit increments on all axes.
+*
+*                       If negative, the grid size on the particular axis (the
+*                       absolute value being rounded to the nearest integer).
+*                       For example, if pixsamp is (-128.0,-128.0,...) then
+*                       each axis will be sampled at 128 points between
+*                       pixblc[] and pixtrc[] inclusive.  Use caution when
+*                       using this option on non-square images.
+*
+* Returned:
+*   nsamp     int*      The number of pixel coordinates sampled.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxdis    double[naxis]
+*                       For each individual distortion function, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxtot    double*   For the combination of all distortion functions, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgdis    double[naxis]
+*                       For each individual distortion function, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgtot    double*   For the combination of all distortion functions, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmsdis    double[naxis]
+*                       For each individual distortion function, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmstot    double*   For the combination of all distortion functions, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         4: Distort error.
+*
+*
+* linprm struct - Linear transformation parameters
+* ------------------------------------------------
+* The linprm struct contains all of the information required to perform a
+* linear transformation.  It consists of certain members that must be set by
+* the user ("given") and others that are set by the WCSLIB routines
+* ("returned").
+*
+*   int flag
+*     (Given and returned) This flag must be set to zero (or 1, see linset())
+*     whenever any of the following linprm members are set or changed:
+*
+*       - linprm::naxis (q.v., not normally set by the user),
+*       - linprm::pc,
+*       - linprm::cdelt,
+*       - linprm::dispre.
+*       - linprm::disseq.
+*
+*     This signals the initialization routine, linset(), to recompute the
+*     returned members of the linprm struct.  linset() will reset flag to
+*     indicate that this has been done.
+*
+*     PLEASE NOTE: flag should be set to -1 when lininit() is called for the
+*     first time for a particular linprm struct in order to initialize memory
+*     management.  It must ONLY be used on the first initialization otherwise
+*     memory leaks may result.
+*
+*   int naxis
+*     (Given or returned) Number of pixel and world coordinate elements.
+*
+*     If lininit() is used to initialize the linprm struct (as would normally
+*     be the case) then it will set naxis from the value passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   double *crpix
+*     (Given) Pointer to the first element of an array of double containing
+*     the coordinate reference pixel, CRPIXja.
+*
+*     It is not necessary to reset the linprm struct (via linset()) when
+*     linprm::crpix is changed.
+*
+*   double *pc
+*     (Given) Pointer to the first element of the PCi_ja (pixel coordinate)
+*     transformation matrix.  The expected order is
+*
+=       struct linprm lin;
+=       lin.pc = {PC1_1, PC1_2, PC2_1, PC2_2};
+*
+*     This may be constructed conveniently from a 2-D array via
+*
+=       double m[2][2] = {{PC1_1, PC1_2},
+=                         {PC2_1, PC2_2}};
+*
+*     which is equivalent to
+*
+=       double m[2][2];
+=       m[0][0] = PC1_1;
+=       m[0][1] = PC1_2;
+=       m[1][0] = PC2_1;
+=       m[1][1] = PC2_2;
+*
+*     The storage order for this 2-D array is the same as for the 1-D array,
+*     whence
+*
+=       lin.pc = *m;
+*
+*     would be legitimate.
+*
+*   double *cdelt
+*     (Given) Pointer to the first element of an array of double containing
+*     the coordinate increments, CDELTia.
+*
+*   struct disprm *dispre
+*     (Given) Pointer to a disprm struct holding parameters for prior
+*     distortion functions, or a null (0x0) pointer if there are none.
+*
+*     Function lindist() may be used to assign a disprm pointer to a linprm
+*     struct, allowing it to take control of any memory allocated for it, as
+*     in the following example:
+*
+=       void add_distortion(struct linprm *lin)
+=       {
+=         struct disprm *dispre;
+=
+=         dispre = malloc(sizeof(struct disprm));
+=         dispre->flag = -1;
+=         lindist(1, lin, dispre, ndpmax);
+=           :
+=          (Set up dispre.)
+=           :
+=
+=         return;
+=       }
+*
+*     Here, after the distortion function parameters etc. are copied into
+*     dispre, dispre is assigned using lindist() which takes control of the
+*     allocated memory.  It will be freed later when linfree() is invoked on
+*     the linprm struct.
+*
+*     Consider also the following erroneous code:
+*
+=       void bad_code(struct linprm *lin)
+=       {
+=         struct disprm dispre;
+=
+=         dispre.flag = -1;
+=         lindist(1, lin, &dispre, ndpmax);   // WRONG.
+=           :
+=
+=         return;
+=       }
+*
+*     Here, dispre is declared as a struct, rather than a pointer.  When the
+*     function returns, dispre will go out of scope and its memory will most
+*     likely be reused, thereby trashing its contents.  Later, a segfault will
+*     occur when linfree() tries to free dispre's stale address.
+*
+*   struct disprm *disseq
+*     (Given) Pointer to a disprm struct holding parameters for sequent
+*     distortion functions, or a null (0x0) pointer if there are none.
+*
+*     Refer to the comments and examples given for disprm::dispre.
+*
+*   double *piximg
+*     (Returned) Pointer to the first element of the matrix containing the
+*     product of the CDELTia diagonal matrix and the PCi_ja matrix.
+*
+*   double *imgpix
+*     (Returned) Pointer to the first element of the inverse of the
+*     linprm::piximg matrix.
+*
+*   int i_naxis
+*     (Returned) The dimension of linprm::piximg and linprm::imgpix (normally
+*     equal to naxis).
+*
+*   int unity
+*     (Returned) True if the linear transformation matrix is unity.
+*
+*   int affine
+*     (Returned) True if there are no distortions.
+*
+*   int simple
+*     (Returned) True if unity and no distortions.
+*
+*   struct wcserr *err
+*     (Returned) If enabled, when an error status is returned, this struct
+*     contains detailed information about the error, see wcserr_enable().
+*
+*   double *dummy
+*     (For internal use only.)
+*   int m_flag
+*     (For internal use only.)
+*   int m_naxis
+*     (For internal use only.)
+*   double *m_crpix
+*     (For internal use only.)
+*   double *m_pc
+*     (For internal use only.)
+*   double *m_cdelt
+*     (For internal use only.)
+*   struct disprm *m_dispre
+*     (For internal use only.)
+*   struct disprm *m_disseq
+*     (For internal use only.)
+*
+*
+* Global variable: const char *lin_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_LIN
+#define WCSLIB_LIN
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+enum linenq_enum {
+  LINENQ_MEM = 1,		// linprm struct memory is managed by WCSLIB.
+  LINENQ_SET = 2,		// linprm struct has been set up.
+  LINENQ_BYP = 4,		// linprm struct is in bypass mode.
+};
+
+extern const char *lin_errmsg[];
+
+enum lin_errmsg_enum {
+  LINERR_SUCCESS      = 0,	// Success.
+  LINERR_NULL_POINTER = 1,	// Null linprm pointer passed.
+  LINERR_MEMORY       = 2,	// Memory allocation failed.
+  LINERR_BAD_PARAM    = 3,	// Invalid parameter value.
+  LINERR_SINGULAR_MTX = 4,	// PCi_ja matrix is singular.
+  LINERR_DISTORT_INIT = 5,	// Failed to initialise distortions.
+  LINERR_DISTORT      = 6,	// Distort error.
+  LINERR_DEDISTORT    = 7	// De-distort error.
+};
+
+struct linprm {
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int naxis;			// The number of axes, given by NAXIS.
+  double *crpix;		// CRPIXja keywords for each pixel axis.
+  double *pc;			// PCi_ja  linear transformation matrix.
+  double *cdelt;		// CDELTia keywords for each coord axis.
+  struct disprm *dispre;	// Prior   distortion parameters, if any.
+  struct disprm *disseq;	// Sequent distortion parameters, if any.
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  double *piximg;		// Product of CDELTia and PCi_ja matrices.
+  double *imgpix;		// Inverse of the piximg matrix.
+  int    i_naxis;		// Dimension of piximg and imgpix.
+  int    unity;			// True if the PCi_ja matrix is unity.
+  int    affine;		// True if there are no distortions.
+  int    simple;		// True if unity and no distortions.
+
+  // Error messaging, if enabled.
+  //--------------------------------------------------------------------------
+  struct wcserr *err;
+
+  //--------------------------------------------------------------------------
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+  double *dummy;
+
+				// The remainder are for memory management.
+  int    m_flag, m_naxis;
+  double *m_crpix, *m_pc, *m_cdelt;
+  struct disprm *m_dispre, *m_disseq;
+};
+
+// Size of the linprm struct in int units, used by the Fortran wrappers.
+#define LINLEN (sizeof(struct linprm)/sizeof(int))
+
+
+int linini(int alloc, int naxis, struct linprm *lin);
+
+int lininit(int alloc, int naxis, struct linprm *lin, int ndpmax);
+
+int lindis(int sequence, struct linprm *lin, struct disprm *dis);
+
+int lindist(int sequence, struct linprm *lin, struct disprm *dis, int ndpmax);
+
+int lincpy(int alloc, const struct linprm *linsrc, struct linprm *lindst);
+
+int linfree(struct linprm *lin);
+
+int linsize(const struct linprm *lin, int sizes[2]);
+
+int linenq(const struct linprm *lin, int enquiry);
+
+int linprt(const struct linprm *lin);
+
+int linperr(const struct linprm *lin, const char *prefix);
+
+int linset(struct linprm *lin);
+
+int linp2x(struct linprm *lin, int ncoord, int nelem, const double pixcrd[],
+           double imgcrd[]);
+
+int linx2p(struct linprm *lin, int ncoord, int nelem, const double imgcrd[],
+           double pixcrd[]);
+
+int linwarp(struct linprm *lin, const double pixblc[], const double pixtrc[],
+            const double pixsamp[], int *nsamp,
+            double maxdis[], double *maxtot,
+            double avgdis[], double *avgtot,
+            double rmsdis[], double *rmstot);
+
+int matinv(int n, const double mat[], double inv[]);
+
+
+// Deprecated.
+#define linini_errmsg lin_errmsg
+#define lincpy_errmsg lin_errmsg
+#define linfree_errmsg lin_errmsg
+#define linprt_errmsg lin_errmsg
+#define linset_errmsg lin_errmsg
+#define linp2x_errmsg lin_errmsg
+#define linx2p_errmsg lin_errmsg
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_LIN
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.6.1.2 2026/04/05 08:30:08 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+d712 5
+a716 4
+  LINERR_SINGULAR_MTX = 3,	// PCi_ja matrix is singular.
+  LINERR_DISTORT_INIT = 4,	// Failed to initialise distortions.
+  LINERR_DISTORT      = 5,	// Distort error.
+  LINERR_DEDISTORT    = 6	// De-distort error.
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added a new error code, LINERR_BAD_PARAM.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d712 4
+a715 5
+  LINERR_BAD_PARAM    = 3,	// Invalid parameter value.
+  LINERR_SINGULAR_MTX = 4,	// PCi_ja matrix is singular.
+  LINERR_DISTORT_INIT = 5,	// Failed to initialise distortions.
+  LINERR_DISTORT      = 6,	// Distort error.
+  LINERR_DEDISTORT    = 7	// De-distort error.
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: lin.h,v 8.4.1.3 2025/12/06 13:37:15 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: lin.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 8.3.1.2 2024/07/09 06:56:43 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+d216 1
+a216 1
+* Given:
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@In linfree(), lin is given and returned.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+d216 1
+a216 1
+* Given and returned:
+@
+
+
+8.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 8.4.1.2 2025/11/26 13:55:15 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.2.1.4 2024/05/13 10:26:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+d669 1
+a669 1
+*   double *tmpcrd
+d741 1
+a741 1
+  // Error handling, if enabled.
+d745 1
+d748 1
+a748 1
+  double *tmpcrd;
+d750 1
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@Tweaked comments in the prologue and within the struct definition.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d669 1
+a669 1
+*   double *dummy
+d741 1
+a741 1
+  // Error messaging, if enabled.
+a744 1
+  //--------------------------------------------------------------------------
+d747 1
+a747 1
+  double *dummy;
+a748 1
+				// The remainder are for memory management.
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+d45 2
+a46 1
+* total size including allocated memory, and linprt() prints its contents.
+d244 3
+a246 3
+*                       allocation was done by linini().  This figure includes
+*                       memory allocated for members of constituent structs,
+*                       such as linprm::dispre.
+d257 25
+d327 7
+d530 2
+a531 2
+*     (Given and returned) This flag must be set to zero whenever any of the
+*     following members of the linprm struct are set or modified:
+d700 5
+d771 2
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Documented bypass mode in linset() and added linenq().
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d45 1
+a45 2
+* total size including allocated memory, linenq() returns information about
+* the state of the struct, and linprt() prints its contents.
+d243 3
+a245 3
+*                       allocation was done by lininit().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, *                       such as linprm::dispre.
+a255 26
+* linenq() - enquire about the state of a linprm struct
+* -----------------------------------------------------
+* linenq() may be used to obtain information about the state of a linprm
+* struct.  The function returns a true/false answer for the enquiry asked.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+*   enquiry   int       Enquiry according to the following parameters:
+*                         LINENQ_MEM: memory in the struct is being managed by
+*                                     WCSLIB (see lininit()).
+*                         LINENQ_SET: the struct has been set up by linset().
+*                         LINENQ_BYP: the struct is in bypass mode, which
+*                                     implies that it has been set up (see
+*                                     linset()).
+*                       These may be combined by logical OR, e.g.
+*                       LINENQ_MEM | LINENQ_SET.  The enquiry result will be
+*                       the logical AND of the individual results.
+*
+* Function return value:
+*             int       Enquiry result:
+*                         0: No.
+*                         1: Yes.
+*
+*
+a300 7
+* linset() normally operates regardless of the value of linprm::flag; i.e.
+* even if a struct was previously set up it will be reset unconditionally.
+* However, a linprm struct may be put into "bypass" mode by invoking linset()
+* initially with linprm::flag == 1 (rather than 0).  linset() will return
+* immediately if invoked on a struct in that state.  To take a struct out of
+* bypass mode, simply reset linprm::flag to zero.  See also linenq().
+*
+d497 2
+a498 2
+*     (Given and returned) This flag must be set to zero (or 1, see linset())
+*     whenever any of the following linprm members are set or changed:
+a666 5
+enum linenq_enum {
+  LINENQ_MEM = 1,		// linprm struct memory is managed by WCSLIB.
+  LINENQ_SET = 2,		// linprm struct has been set up.
+  LINENQ_BYP = 4,		// linprm struct is in bypass mode.
+};
+a732 2
+
+int linenq(const struct linprm *lin, int enquiry);
+@
+
+
+8.2.1.4
+log
+@Amended the prologue comment for linenq().
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.2.1.3 2024/05/08 15:25:07 mcalabre Exp mcalabre $
+d270 2
+a271 1
+*                         LINENQ_BYP: the struct is in bypass mode (see
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.11.1.3 2022/09/08 04:01:06 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+d311 1
+d343 2
+d349 8
+d383 2
+d388 8
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@Added a note to each of linp2x() and linx2p() regarding handling of status
+returns with respect to the stat[] vector of higher-level functions.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+a345 8
+* Notes:
+*   1. Historically, the API to linp2x() did not have a stat[] vector because
+*      a valid linear transformation should always succeed.  However, now that
+*      it invokes disp2x() if distortions are present, it does have the
+*      potential to fail.  Consequently, when distortions are present and a
+*      status return (stat[]) is required for each coordinate, then linp2x()
+*      should be invoked separately for each of them.
+*
+a374 8
+*
+* Notes:
+*   1. Historically, the API to linx2p() did not have a stat[] vector because
+*      a valid linear transformation should always succeed.  However, now that
+*      it invokes disx2p() if distortions are present, it does have the
+*      potential to fail.  Consequently, when distortions are present and a
+*      status return (stat[]) is required for each coordinate, then linx2p()
+*      should be invoked separately for each of them.
+@
+
+
+7.11.1.3
+log
+@In the prologue for linset(), linp2x(), and linx2p(), added status returns
+relating to distortion functions.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.11.1.2 2022/09/04 07:19:21 mcalabre Exp mcalabre $
+a310 1
+*                         4: Failed to initialise distortions.
+a341 2
+*                         4: Failed to initialise distortions.
+*                         5: Distort error.
+a379 2
+*                         4: Failed to initialise distortions.
+*                         6: De-distort error.
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 7.6.1.2 2021/07/01 07:48:25 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: lin.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.5.1.2 2021/04/13 09:20:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+d239 7
+a245 5
+*                       returned by sizeof(struct linprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by linini().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, such as linprm::dispre.
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Clarification in prologue for linsize() API.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d239 5
+a243 7
+*                       returned by sizeof(struct linprm).
+*
+*                       The second element is the total size of memory
+*                       allocated in the struct, in bytes, assuming that the
+*                       allocation was done by linini().  This figure includes
+*                       memory allocated for members of constituent structs,
+*                       such as linprm::dispre.
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d44 2
+a45 2
+* linfree() are provided to manage the linprm struct, and another, linprt(),
+* prints its contents.
+d225 29
+d708 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function linsize().
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d44 2
+a45 2
+* linfree() are provided to manage the linprm struct, linsize() computes its
+* total size including allocated memory, and linprt() prints its contents.
+a224 29
+* linsize() - Compute the size of a linprm struct
+* -----------------------------------------------
+* linsize() computes the full size of a linprm struct, including allocated
+* memory.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct linprm).  The second element
+*                       is the total allocated size, in bytes, assuming that
+*                       the allocation was done by linini().  This figure
+*                       includes memory allocated for members of constituent
+*                       structs, such as linprm::dispre.
+*
+*                       It is not an error for the struct not to have been set
+*                       up via linset(), which normally results in additional
+*                       memory allocation.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+a678 2
+
+int linsize(const struct linprm *lin, int sizes[2]);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: lin.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: lin.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: lin.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d619 7
+a625 7
+  LINERR_SUCCESS      = 0,	/* Success. */
+  LINERR_NULL_POINTER = 1,	/* Null linprm pointer passed. */
+  LINERR_MEMORY       = 2,	/* Memory allocation failed. */
+  LINERR_SINGULAR_MTX = 3,	/* PCi_ja matrix is singular. */
+  LINERR_DISTORT_INIT = 4,	/* Failed to initialise distortions. */
+  LINERR_DISTORT      = 5,	/* Distort error. */
+  LINERR_DEDISTORT    = 6	/* De-distort error. */
+d629 21
+a649 21
+  /* Initialization flag (see the prologue above).                          */
+  /*------------------------------------------------------------------------*/
+  int flag;			/* Set to zero to force initialization.     */
+
+  /* Parameters to be provided (see the prologue above).                    */
+  /*------------------------------------------------------------------------*/
+  int naxis;			/* The number of axes, given by NAXIS.      */
+  double *crpix;		/* CRPIXja keywords for each pixel axis.    */
+  double *pc;			/* PCi_ja  linear transformation matrix.    */
+  double *cdelt;		/* CDELTia keywords for each coord axis.    */
+  struct disprm *dispre;	/* Prior   distortion parameters, if any.   */
+  struct disprm *disseq;	/* Sequent distortion parameters, if any.   */
+
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  double *piximg;		/* Product of CDELTia and PCi_ja matrices.  */
+  double *imgpix;		/* Inverse of the piximg matrix.            */
+  int    i_naxis;		/* Dimension of piximg and imgpix.          */
+  int    unity;			/* True if the PCi_ja matrix is unity.      */
+  int    affine;		/* True if there are no distortions.        */
+  int    simple;		/* True if unity and no distortions.        */
+d651 2
+a652 2
+  /* Error handling, if enabled.                                            */
+  /*------------------------------------------------------------------------*/
+d655 2
+a656 2
+  /* Private - the remainder are for internal use.                          */
+  /*------------------------------------------------------------------------*/
+d664 1
+a664 1
+/* Size of the linprm struct in int units, used by the Fortran wrappers. */
+d701 1
+a701 1
+/* Deprecated. */
+d714 1
+a714 1
+#endif /* WCSLIB_LIN */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: lin.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d622 7
+a628 7
+  LINERR_SUCCESS      = 0,	// Success.
+  LINERR_NULL_POINTER = 1,	// Null linprm pointer passed.
+  LINERR_MEMORY       = 2,	// Memory allocation failed.
+  LINERR_SINGULAR_MTX = 3,	// PCi_ja matrix is singular.
+  LINERR_DISTORT_INIT = 4,	// Failed to initialise distortions.
+  LINERR_DISTORT      = 5,	// Distort error.
+  LINERR_DEDISTORT    = 6	// De-distort error.
+d632 21
+a652 21
+  // Initialization flag (see the prologue above).
+  //--------------------------------------------------------------------------
+  int flag;			// Set to zero to force initialization.
+
+  // Parameters to be provided (see the prologue above).
+  //--------------------------------------------------------------------------
+  int naxis;			// The number of axes, given by NAXIS.
+  double *crpix;		// CRPIXja keywords for each pixel axis.
+  double *pc;			// PCi_ja  linear transformation matrix.
+  double *cdelt;		// CDELTia keywords for each coord axis.
+  struct disprm *dispre;	// Prior   distortion parameters, if any.
+  struct disprm *disseq;	// Sequent distortion parameters, if any.
+
+  // Information derived from the parameters supplied.
+  //--------------------------------------------------------------------------
+  double *piximg;		// Product of CDELTia and PCi_ja matrices.
+  double *imgpix;		// Inverse of the piximg matrix.
+  int    i_naxis;		// Dimension of piximg and imgpix.
+  int    unity;			// True if the PCi_ja matrix is unity.
+  int    affine;		// True if there are no distortions.
+  int    simple;		// True if unity and no distortions.
+d654 2
+a655 2
+  // Error handling, if enabled.
+  //--------------------------------------------------------------------------
+d658 2
+a659 2
+  // Private - the remainder are for internal use.
+  //--------------------------------------------------------------------------
+d667 1
+a667 1
+// Size of the linprm struct in int units, used by the Fortran wrappers.
+d704 1
+a704 1
+// Deprecated.
+d717 1
+a717 1
+#endif // WCSLIB_LIN
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: lin.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: lin.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 6.2.1.3 2019/07/11 05:04:25 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+d535 1
+a535 1
+*     allocated memory.  It will be free'd later when linfree() is invoked on
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@free'd -> freed.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d535 1
+a535 1
+*     allocated memory.  It will be freed later when linfree() is invoked on
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.17.1.3 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.16.1.2 2017/09/18 08:20:39 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+d46 3
+a48 2
+* Four routines, linini(), lindis(), lincpy(), and linfree() are provided to
+* manage the linprm struct, and another, linprt(), prints its contents.
+d69 4
+a72 2
+* linini() allocates memory for arrays in a linprm struct and sets all members
+* of the struct to default values.
+d74 7
+a80 1
+* PLEASE NOTE: every linprm struct must be initialized by linini(), possibly
+d83 1
+a83 1
+* of whether linini() will actually be used to allocate memory.
+d106 7
+d125 10
+a134 1
+* lindis() may be used to assign the address of a disprm struct to
+d136 1
+a136 1
+* initialized by linini().
+d139 1
+a139 1
+* malloc(), calloc(), etc.).  lindis() will immediately initialize it via a
+d141 2
+a142 2
+* reinitialized by calls to linini(), and freed by linfree(), neither of which
+* would happen if the disprm struct was assigned directly.
+d144 1
+a144 1
+* If the disprm struct had previously been assigned via lindis(), it will be
+d162 7
+d178 2
+a179 2
+* lincpy() does a deep copy of one linprm struct to another, using linini() to
+* allocate memory for its arrays if required.  Only the "information to be
+d211 2
+a212 2
+* linfree() frees memory allocated for the linprm arrays by linini() and/or
+* linset().  linini() keeps a record of the memory it allocates and linfree()
+d216 1
+a216 1
+* initialized by linini().
+d461 1
+a461 1
+*     PLEASE NOTE: flag should be set to -1 when linini() is called for the
+d469 1
+a469 1
+*     If linini() is used to initialize the linprm struct (as would normally
+d515 1
+a515 1
+*     Function lindis() may be used to assign a disprm pointer to a linprm
+d525 1
+a525 1
+=         lindis(1, lin, dispre);
+d534 1
+a534 1
+*     dispre, dispre is assigned using lindis() which takes control of the
+d545 1
+a545 1
+=         lindis(1, lin, &dispre);   // WRONG.
+d673 2
+d676 2
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Added new functions lininit() and lindist(), with linini() and lindis() now
+thin wrappers over them.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+d46 2
+a47 3
+* Six routines, linini(), lininit(), lindis(), lindist() lincpy(), and
+* linfree() are provided to manage the linprm struct, and another, linprt(),
+* prints its contents.
+d68 2
+a69 4
+* linini() is a thin wrapper on lininit().  It invokes it with ndpmax set
+* to -1 which causes it to use the value of the global variable NDPMAX.  It
+* is thereby potentially thread-unsafe if NDPMAX is altered dynamically via
+* disndp().  Use lininit() for a thread-safe alternative in this case.
+d71 1
+a71 7
+*
+* lininit() - Default constructor for the linprm struct
+* -----------------------------------------------------
+* lininit() allocates memory for arrays in a linprm struct and sets all
+* members of the struct to default values.
+*
+* PLEASE NOTE: every linprm struct must be initialized by lininit(), possibly
+d74 1
+a74 1
+* of whether lininit() will actually be used to allocate memory.
+a96 7
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+d109 1
+a109 10
+* lindis() is a thin wrapper on lindist().   It invokes it with ndpmax set
+* to -1 which causes the value of the global variable NDPMAX to be used (by
+* disinit()).  It is thereby potentially thread-unsafe if NDPMAX is altered
+* dynamically via disndp().  Use lindist() for a thread-safe alternative in
+* this case.
+*
+*
+* lindist() - Assign a distortion to a linprm struct
+* --------------------------------------------------
+* lindist() may be used to assign the address of a disprm struct to
+d111 1
+a111 1
+* initialized by lininit().
+d114 1
+a114 1
+* malloc(), calloc(), etc.).  lindist() will immediately initialize it via a
+d116 2
+a117 2
+* reinitialized by calls to lininit(), and freed by linfree(), neither of
+* which would happen if the disprm struct was assigned directly.
+d119 1
+a119 1
+* If the disprm struct had previously been assigned via lindist(), it will be
+a136 7
+* Given:
+*   ndpmax    int       The number of DPja or DQia keywords to allocate space
+*                       for.  If set to -1, the value of the global variable
+*                       NDPMAX will be used.  This is potentially
+*                       thread-unsafe if disndp() is being used dynamically to
+*                       alter its value.
+*
+d146 2
+a147 2
+* lincpy() does a deep copy of one linprm struct to another, using lininit()
+* to allocate memory for its arrays if required.  Only the "information to be
+d179 2
+a180 2
+* linfree() frees memory allocated for the linprm arrays by lininit() and/or
+* linset().  lininit() keeps a record of the memory it allocates and linfree()
+d184 1
+a184 1
+* initialized by lininit().
+d429 1
+a429 1
+*     PLEASE NOTE: flag should be set to -1 when lininit() is called for the
+d437 1
+a437 1
+*     If lininit() is used to initialize the linprm struct (as would normally
+d483 1
+a483 1
+*     Function lindist() may be used to assign a disprm pointer to a linprm
+d493 1
+a493 1
+=         lindist(1, lin, dispre, ndpmax);
+d502 1
+a502 1
+*     dispre, dispre is assigned using lindist() which takes control of the
+d513 1
+a513 1
+=         lindist(1, lin, &dispre, ndpmax);   // WRONG.
+a640 2
+int lininit(int alloc, int naxis, struct linprm *lin, int ndpmax);
+
+a641 2
+
+int lindist(int sequence, struct linprm *lin, struct disprm *dis, int ndpmax);
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.17.1.2 2017/12/05 07:25:10 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+d491 1
+a491 1
+=         dispre = malloc(sizeof(struct disprm);
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Fixed typo in prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d491 1
+a491 1
+=         dispre = malloc(sizeof(struct disprm));
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d28 3
+a30 2
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to
+a31 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d33 4
+a36 2
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d38 2
+d41 4
+a44 7
+* Summary of the lin routines
+* ---------------------------
+* These routines apply the linear transformation defined by the FITS WCS
+* standard.  They are based on the linprm struct which contains all
+* information needed for the computations.  The struct contains some members
+* that must be set by the user, and others that are maintained by these
+* routines, somewhat like a C++ class but with no encapsulation.
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Boilerplate change to the prologue to ensure that references to the WCS
+Papers appear in the doxygen manual.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+d29 7
+a35 2
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+d40 5
+a44 10
+* Routines in this suite apply the linear transformation defined by the FITS
+* World Coordinate System (WCS) standard, as described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+*
+* These routines are based on the linprm struct which contains all information
+* needed for the computations.  The struct contains some members that must be
+* set by the user, and others that are maintained by these routines, somewhat
+* like a C++ class but with no encapsulation.
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.1.1.2 2015/04/07 23:44:48 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 5.0.1.2 2015/04/07 08:39:08 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.1 - C routines that implement the FITS World Coordinate System
+d319 2
+a320 2
+* linwarp() computes various measures of the distortion over the specified
+* range of pixel coordinates.
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Prologue wording tweak.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d319 2
+a320 2
+* linwarp() computes various measures of the distortion over a specified range
+* of pixel coordinates.
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.25.1.4 2015/04/05 05:57:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.0 - C routines that implement the FITS World Coordinate System
+d59 3
+d317 91
+d658 6
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@New function linwarp() computes various measures of the distortion over the
+specified range of pixel coordinates.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+a58 3
+* An auxiliary routine, linwarp(), computes various measures of the distortion
+* over a specified range of pixel coordinates.
+*
+a313 91
+* linwarp() - Compute measures of distortion
+* ------------------------------------------
+* linwarp() computes various measures of the distortion over the specified
+* range of pixel coordinates.
+*
+* All distortion measures are specified as an offset in pixel coordinates,
+* as given directly by prior distortions.  The offset in intermediate pixel
+* coordinates given by sequent distortions is translated back to pixel
+* coordinates by applying the inverse of the linear transformation matrix
+* (PCi_ja or CDi_ja).  The difference may be significant if the matrix
+* introduced a scaling.
+*
+* If all distortions are prior, then linwarp() uses diswarp(), q.v.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters plus distortions.
+*
+* Given:
+*   pixblc    const double[naxis]
+*                       Start of the range of pixel coordinates (i.e. "bottom
+*                       left-hand corner" in the conventional FITS image
+*                       display orientation).  May be specified as a NULL
+*                       pointer which is interpreted as (1,1,...).
+*
+*   pixtrc    const double[naxis]
+*                       End of the range of pixel coordinates (i.e. "top
+*                       right-hand corner" in the conventional FITS image
+*                       display orientation).
+*
+*   pixsamp   const double[naxis]
+*                       If positive or zero, the increment on the particular
+*                       axis, starting at pixblc[].  Zero is interpreted as a
+*                       unit increment.  pixsamp may also be specified as a
+*                       NULL pointer which is interpreted as all zeroes, i.e.
+*                       unit increments on all axes.
+*
+*                       If negative, the grid size on the particular axis (the
+*                       absolute value being rounded to the nearest integer).
+*                       For example, if pixsamp is (-128.0,-128.0,...) then
+*                       each axis will be sampled at 128 points between
+*                       pixblc[] and pixtrc[] inclusive.  Use caution when
+*                       using this option on non-square images.
+*
+* Returned:
+*   nsamp     int*      The number of pixel coordinates sampled.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxdis    double[naxis]
+*                       For each individual distortion function, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   maxtot    double*   For the combination of all distortion functions, the
+*                       maximum absolute value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgdis    double[naxis]
+*                       For each individual distortion function, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   avgtot    double*   For the combination of all distortion functions, the
+*                       mean value of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmsdis    double[naxis]
+*                       For each individual distortion function, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+*   rmstot    double*   For the combination of all distortion functions, the
+*                       root mean square deviation of the distortion.
+*
+*                       Can be specified as a NULL pointer if not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Invalid parameter.
+*                         4: Distort error.
+*
+*
+a563 6
+
+int linwarp(struct linprm *lin, const double pixblc[], const double pixtrc[],
+            const double pixsamp[], int *nsamp,
+            double maxdis[], double *maxtot,
+            double avgdis[], double *avgtot,
+            double rmsdis[], double *rmstot);
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.25 - C routines that implement the FITS World Coordinate System
+d46 5
+a50 2
+* Three routines, linini(), lincpy(), and linfree() are provided to manage the
+* linprm struct, and another, linprt(), prints its contents.
+d68 1
+a68 1
+* PLEASE NOTE: every linprm struct should be initialized by linini(), possibly
+d104 37
+d208 20
+d327 3
+a329 1
+*       - linprm::cdelt.
+d351 3
+d385 48
+a432 2
+*   int unity
+*     (Returned) True if the linear transformation matrix is unity.
+d434 1
+a434 2
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+d444 13
+d458 1
+a458 1
+*     (Returned) If enabled, when an error status is returned this struct
+d461 1
+a461 1
+*   int i_naxis
+a466 2
+*   int m_padding
+*     (For internal use only.)
+d473 3
+a475 1
+*   void *padding2
+a487 2
+#include "wcserr.h"
+
+d499 4
+a502 1
+  LINERR_SINGULAR_MTX = 3 	/* PCi_ja matrix is singular. */
+d516 2
+d523 1
+d525 2
+d528 1
+a528 1
+  /* Error handling                                                         */
+a529 1
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+d532 1
+a532 1
+  /* Private - the remainder are for memory management.                     */
+d534 3
+a536 2
+  int    i_naxis;
+  int    m_flag, m_naxis, m_padding;
+d538 1
+a538 1
+  void   *padding2;
+d547 2
+d554 2
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Major development to include distortion functions in the algorithm chain
+transforming pixel coordinates to intermediate world coordinates.  ABI
+changed due to changes in the linprm struct.  New functions lindis() and
+linperr().  No need to include wcserr.h.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+d46 2
+a47 5
+* Four routines, linini(), lindis(), lincpy(), and linfree() are provided to
+* manage the linprm struct, and another, linprt(), prints its contents.
+*
+* linperr() prints the error message(s) (if any) stored in a linprm struct,
+* and the disprm structs that it may contain.
+d65 1
+a65 1
+* PLEASE NOTE: every linprm struct must be initialized by linini(), possibly
+a100 37
+* lindis() - Assign a distortion to a linprm struct
+* -------------------------------------------------
+* lindis() may be used to assign the address of a disprm struct to
+* linprm::dispre or linprm::disseq.  The linprm struct must already have been
+* initialized by linini().
+*
+* The disprm struct must have been allocated from the heap (e.g. using
+* malloc(), calloc(), etc.).  lindis() will immediately initialize it via a
+* call to disini() using the value of linprm::naxis.  Subsequently, it will be
+* reinitialized by calls to linini(), and freed by linfree(), neither of which
+* would happen if the disprm struct was assigned directly.
+*
+* If the disprm struct had previously been assigned via lindis(), it will be
+* freed before reassignment.  It is also permissable for a null disprm pointer
+* to be assigned to disable the distortion correction.
+*
+* Given:
+*   sequence  int       Is it a prior or sequent distortion?
+*                         1: Prior,   the assignment is to linprm::dispre.
+*                         2: Sequent, the assignment is to linprm::disseq.
+*
+*                       Anything else is an error.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+*   dis       struct disprm*
+*                       Distortion function parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         4: Invalid sequence.
+*
+*
+a167 20
+* linperr() - Print error messages from a linprm struct
+* -----------------------------------------------------
+* linperr() prints the error message(s) (if any) stored in a linprm struct,
+* and the disprm structs that it may contain.  If there are no errors then
+* nothing is printed.  It uses wcserr_prt(), q.v.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Coordinate transformation parameters.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+d267 1
+a267 3
+*       - linprm::cdelt,
+*       - linprm::dispre.
+*       - linprm::disseq.
+d320 2
+a321 48
+*   struct disprm *dispre
+*     (Given) Pointer to a disprm struct holding parameters for prior
+*     distortion functions, or a null (0x0) pointer if there are none.
+*
+*     Function lindis() may be used to assign a disprm pointer to a linprm
+*     struct, allowing it to take control of any memory allocated for it, as
+*     in the following example:
+*
+=       void add_distortion(struct linprm *lin)
+=       {
+=         struct disprm *dispre;
+=
+=         dispre = malloc(sizeof(struct disprm);
+=         dispre->flag = -1;
+=         lindis(1, lin, dispre);
+=           :
+=          (Set up dispre.)
+=           :
+=
+=         return;
+=       }
+*
+*     Here, after the distortion function parameters etc. are copied into
+*     dispre, dispre is assigned using lindis() which takes control of the
+*     allocated memory.  It will be free'd later when linfree() is invoked on
+*     the linprm struct.
+*
+*     Consider also the following erroneous code:
+*
+=       void bad_code(struct linprm *lin)
+=       {
+=         struct disprm dispre;
+=
+=         dispre.flag = -1;
+=         lindis(1, lin, &dispre);   // WRONG.
+=           :
+=
+=         return;
+=       }
+*
+*     Here, dispre is declared as a struct, rather than a pointer.  When the
+*     function returns, dispre will go out of scope and its memory will most
+*     likely be reused, thereby trashing its contents.  Later, a segfault will
+*     occur when linfree() tries to free dispre's stale address.
+*
+*   struct disprm *disseq
+*     (Given) Pointer to a disprm struct holding parameters for sequent
+*     distortion functions, or a null (0x0) pointer if there are none.
+d323 2
+a324 1
+*     Refer to the comments and examples given for disprm::dispre.
+a333 12
+*   int i_naxis
+*     (Returned) The dimension of piximg and imgpix (normally equal to naxis).
+*
+*   int unity
+*     (Returned) True if the linear transformation matrix is unity.
+*
+*   int affine
+*     (Returned) True if there are no distortions.
+*
+*   int simple
+*     (Returned) True if unity and no distortions.
+*
+d335 1
+a335 1
+*     (Returned) If enabled, when an error status is returned, this struct
+d338 1
+a338 1
+*   double *tmpcrd
+d344 2
+d352 1
+a352 3
+*   struct disprm *m_dispre
+*     (For internal use only.)
+*   struct disprm *m_disseq
+d365 2
+d378 1
+a378 4
+  LINERR_SINGULAR_MTX = 3,	/* PCi_ja matrix is singular. */
+  LINERR_DISTORT_INIT = 4,	/* Failed to initialise distortions. */
+  LINERR_DISTORT      = 5,	/* Distort error. */
+  LINERR_DEDISTORT    = 6	/* De-distort error. */
+a391 2
+  struct disprm *dispre;	/* Prior   distortion parameters, if any.   */
+  struct disprm *disseq;	/* Sequent distortion parameters, if any.   */
+a396 1
+  int    i_naxis;		/* Dimension of piximg and imgpix.          */
+a397 2
+  int    affine;		/* True if there are no distortions.        */
+  int    simple;		/* True if unity and no distortions.        */
+d399 1
+a399 1
+  /* Error handling, if enabled.                                            */
+d401 1
+d404 1
+a404 1
+  /* Private - the remainder are for internal use.                          */
+d406 2
+a407 3
+  double *tmpcrd;
+
+  int    m_flag, m_naxis;
+d409 1
+a409 1
+  struct disprm *m_dispre, *m_disseq;
+a417 2
+int lindis(int sequence, struct linprm *lin, struct disprm *dis);
+
+a422 2
+
+int linperr(const struct linprm *lin, const char *prefix);
+@
+
+
+4.25.1.4
+log
+@Tweaks to prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.25.1.3 2015/04/03 01:57:42 mcalabre Exp mcalabre $
+a350 3
+*     It is not necessary to reset the linprm struct (via linset()) when
+*     linprm::crpix is changed.
+*
+d442 1
+a442 2
+*     (Returned) The dimension of linprm::piximg and linprm::imgpix (normally
+*     equal to naxis).
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.24 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.23 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.22 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.21 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: lin.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: lin.h,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: lin.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: lin.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: lin.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.7.1.5 2011/08/15 05:52:57 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.7 - C routines that implement the FITS World Coordinate System
+d103 3
+d120 1
+d136 3
+d161 2
+a162 1
+* linprt() prints the contents of a linprm struct.
+d195 3
+d211 1
+d226 3
+d242 1
+d256 3
+d329 3
+d340 4
+d350 2
+d358 2
+d371 2
+d380 6
+d403 6
+a408 1
+  int unity;			/* True if the PCi_ja matrix is unity.      */
+d410 4
+a413 2
+  int i_naxis;			/* The remainder are for memory management. */
+  int m_flag, m_naxis;
+d415 1
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@a102 3
+* If the return value >= 2, a detailed error message is set in the
+* lin->err struct.  See wcserr.h for error handling instructions.
+*                         
+a131 3
+* If the return value >= 2, a detailed error message is set in the
+* lin->err struct.  See wcserr.h for error handling instructions.
+*                         
+a186 3
+* If the return value >= 2, a detailed error message is set in the
+* lin->err struct.  See wcserr.h for error handling instructions.
+*                         
+a213 3
+* If the return value >= 2, a detailed error message is set in the
+* lin->err struct.  See wcserr.h for error handling instructions.
+*                         
+a239 3
+* If the return value >= 2, a detailed error message is set in the
+* lin->err struct.  See wcserr.h for error handling instructions.
+*                         
+a317 4
+*   struct wcserr err
+*     (Returned) When an error status is returned, this
+*     structure contains detailed information about the error.
+*     
+d330 1
+a330 1
+*     
+a340 2
+#include "wcserr.h"
+
+d348 1
+a348 7
+enum lin_errmsg_enum {
+  LINERR_SUCCESS      = 0, /* Success */
+  LINERR_NULL_POINTER = 1, /* Null linprm pointer passed */
+  LINERR_MEMORY       = 2, /* Memory allocation failed */
+  LINERR_SINGULAR_MTX = 3  /* PCi_ja matrix is singular */
+};
+  
+d367 1
+a367 8
+  /* Error handling                                                         */
+  /*------------------------------------------------------------------------*/
+  struct wcserr err;
+
+  /* Private                                                                */
+  /*------------------------------------------------------------------------*/
+  /* The remainder are for memory management. */
+  int i_naxis;			
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+d103 3
+a105 3
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err.
+*
+a119 1
+*
+d135 3
+a137 3
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err.
+*
+d160 1
+a160 2
+* linprt() prints the contents of a linprm struct using wcsprintf().  Mainly
+* intended for diagnostic purposes.
+d193 3
+a195 3
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err.
+*
+a208 1
+*
+d223 3
+a225 3
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err.
+*
+a238 1
+*
+d252 3
+a254 3
+*                       For returns > 1, a detailed error message is set in
+*                       linprm::err.
+*
+a324 3
+*   int padding
+*     (An unused variable inserted for alignment purposes only.)
+*
+d333 4
+a336 4
+*   struct wcserr *err
+*     (Returned) When an error status is returned, this struct contains
+*     detailed information about the error.
+*
+a342 2
+*   int m_padding
+*     (For internal use only.)
+d349 1
+a349 1
+*
+d370 4
+a373 4
+  LINERR_SUCCESS      = 0,	/* Success. */
+  LINERR_NULL_POINTER = 1,	/* Null linprm pointer passed. */
+  LINERR_MEMORY       = 2,	/* Memory allocation failed. */
+  LINERR_SINGULAR_MTX = 3 	/* PCi_ja matrix is singular. */
+d375 1
+a375 1
+
+a392 1
+  int padding;			/* (Dummy inserted for alignment purposes.) */
+d396 1
+a396 1
+  struct wcserr *err;
+d398 1
+a398 1
+  /* Private - the remainder are for memory management.                     */
+d400 3
+a402 2
+  int i_naxis;
+  int m_flag, m_naxis, m_padding;
+@
+
+
+4.7.1.4
+log
+@Clarify that detailed error messages are only returned in wcserr if enabled.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+d104 1
+a104 1
+*                       linprm::err if enabled, see wcserr_enable().
+d137 1
+a137 1
+*                       linprm::err if enabled, see wcserr_enable().
+d196 1
+a196 1
+*                       linprm::err if enabled, see wcserr_enable().
+d227 1
+a227 1
+*                       linprm::err if enabled, see wcserr_enable().
+d257 1
+a257 1
+*                       linprm::err if enabled, see wcserr_enable().
+d341 2
+a342 2
+*     (Returned) If enabled, when an error status is returned this struct
+*     contains detailed information about the error, see wcserr_enable().
+@
+
+
+4.7.1.5
+log
+@Added padding to the linprm struct to cater for the Fortran wrappers in
+SunOS 5.9.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.7.1.4 2011/08/10 06:52:12 cal103 Exp cal103 $
+a357 2
+*   void *padding2
+*     (For internal use only.)
+d401 2
+a402 1
+  int    unity;			/* True if the PCi_ja matrix is unity.      */
+a405 1
+  int    padding;		/* (Dummy inserted for alignment purposes.) */
+d410 2
+a411 2
+  int    i_naxis;
+  int    m_flag, m_naxis, m_padding;
+a412 1
+  void   *padding2;
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: lin.h,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.3.1.3 2009/07/22 05:10:07 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: lin.h,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: lin.h,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: lin.h,v 4.2.1.7 2007/12/03 05:02:17 cal103 Exp cal103 $
+d34 2
+a35 2
+*   WCSLIB 4.3 - C routines that implement the FITS World Coordinate System
+*   (WCS) standard.  Refer to
+d37 2
+a38 2
+*      "Representations of world coordinates in FITS",
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 2
+a41 2
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+d44 291
+a334 313
+*   Summary of the lin* routines
+*   ----------------------------
+*   These routines apply the linear transformation defined by the FITS WCS
+*   standard.  They are based on the linprm struct, described in detail
+*   below, which contains all information needed for the computations.  The
+*   struct contains some members that must be set by the caller, and others
+*   that are maintained by these routines, somewhat like a C++ class but with
+*   no encapsulation.
+*
+*   Three routines, linini(), lincpy(), and linfree() are provided to manage
+*   the linprm struct, and another, linprt(), prints its contents.
+*
+*   A setup routine, linset(), computes intermediate values in the linprm
+*   struct from parameters in it that were supplied by the caller.  The struct
+*   always needs to be set up by linset() but need not be called explicitly -
+*   see the explanation of lin.flag below.
+*
+*   linp2s() and lins2p() implement the WCS linear transformations.
+*
+*   An auxiliary matrix inversion routine, matinv(), is included.  It uses
+*   LU-triangular factorization with scaled partial pivoting.
+*
+*
+*   Default constructor for the linprm struct; linini()
+*   ---------------------------------------------------
+*   linini() allocates memory for arrays in a linprm struct and sets all
+*   members of the struct to default values.
+*
+*   N.B. every linprm struct should be initialized by linini(), possibly
+*   repeatedly.  On the first invokation, and only the first invokation, the
+*   flag member of the linprm struct must be set to -1 to initialize memory
+*   management, regardless of whether linini() will actually be used to
+*   allocate memory.
+*
+*   Given:
+*      alloc    int      If true, allocate memory unconditionally for arrays
+*                        in the linprm struct (see "Memory allocation and
+*                        deallocation below").
+*
+*                        If false, it is assumed that pointers to these arrays
+*                        have been set by the caller except if they are null
+*                        pointers in which case memory will be allocated for
+*                        them regardless.  (In other words, setting alloc true
+*                        saves having to initalize these pointers to zero.)
+*
+*      naxis    int      The number of world coordinate axes, used to
+*                        determine array sizes.
+*
+*   Given and returned:
+*      lin      struct linprm*
+*                        Linear transformation parameters (see below).
+*                        Note that, in order to initialize memory management
+*                        lin->flag should be set to -1 when lin is initialized
+*                        for the first time (memory leaks may result if it had
+*                        already been initialized).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*                           2: Memory allocation failed.
+*
+*
+*   Copy routine for the linprm struct; lincpy()
+*   --------------------------------------------
+*   lincpy() does a deep copy of one linprm struct to another, using linini()
+*   to allocate memory for its arrays if required.  Only the "information to
+*   be provided" part of the struct is copied; a call to linset() is required
+*   to initialize the remainder.
+*
+*   Given:
+*      alloc    int      If true, allocate memory for the crpix, pc, and cdelt
+*                        arrays in the destination.  Otherwise, it is assumed
+*                        that pointers to these arrays have been set by the
+*                        caller except if they are null pointers in which case
+*                        memory will be allocated for them regardless.
+*      linsrc   const struct linprm*
+*                        Struct to copy from.
+*
+*   Given and returned:
+*      lindst   struct linprm*
+*                        Struct to copy to.  lindst->flag should be set to -1
+*                        if lindst was not previously initialized (memory
+*                        leaks may result if it was previously initialized).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*                           2: Memory allocation failed.
+*
+*
+*   Destructor for the linprm struct; linfree()
+*   -------------------------------------------
+*   linfree() frees memory allocated for the linprm arrays by linini() and/or
+*   linset().  linini() keeps a record of the memory it allocates and
+*   linfree() will only attempt to free this.
+*
+*   N.B. linfree() must not be invoked on a linprm struct that was not
+*   initialized by linini().
+*
+*   Given:
+*      lin      struct linprm*
+*                        Linear transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*
+*
+*   Print routine for the linprm struct; linprt()
+*   ---------------------------------------------
+*   linprt() prints the contents of a linprm struct.
+*
+*   Given:
+*      lin      const struct linprm*
+*                        Linear transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*
+*
+*   Setup routine; linset()
+*   -----------------------
+*   linset(), if necessary, allocates memory for the piximg and imgpix arrays
+*   in the linprm struct and sets up the struct according to information
+*   supplied within it (see "Linear transformation parameters" below).
+*
+*   Note that this routine need not be called directly; it will be invoked by
+*   linp2x() and linx2p() if the "flag" struct member is anything other than a
+*   predefined magic value.
+*
+*   Given and/or returned:
+*      lin      struct linprm*
+*                        Linear transformation parameters (see below).
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: PCi_ja matrix is singular.
+*
+*
+*   Pixel-to-world transformation; linp2x()
+*   ---------------------------------------
+*   linp2x() transforms pixel coordinates to intermediate world coordinates.
+*
+*   Given and/or returned:
+*      lin      struct linprm*
+*                        Linear transformation parameters (see below).
+*
+*   Given:
+*      ncoord   int      The number of coordinates, each of vector length
+*      nelem    int      nelem but containing lin.naxis coordinate elements.
+*      pixcrd   const double[ncoord][nelem]
+*                        Array of pixel coordinates.
+*
+*   Returned:
+*      imgcrd   double[ncoord][nelem]
+*                        Array of intermediate world coordinates.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: PCi_ja matrix is singular.
+*
+*
+*   World-to-pixel transformation; linx2p()
+*   ---------------------------------------
+*   linx2p() transforms intermediate world coordinates to pixel coordinates.
+*
+*   Given and returned:
+*      lin      struct linprm*
+*                        Linear transformation parameters (see below).
+*
+*   Given:
+*      ncoord   int      The number of coordinates, each of vector length
+*      nelem    int      nelem but containing lin.naxis coordinate elements.
+*      imgcrd   const double[ncoord][nelem]
+*                        Array of intermediate world coordinates.
+*
+*   Returned:
+*      pixcrd   double[ncoord][nelem]
+*                        Array of pixel coordinates.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: Null linprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: PCi_ja matrix is singular.
+*
+*
+*   Linear transformation parameters
+*   --------------------------------
+*   The linprm struct consists of the following elements that must be
+*   supplied:
+*
+*      int flag
+*         This flag must be set to zero whenever any of the following members
+*         of the linprm struct are set or modified.  This signals the
+*         initialization routine, linset(), to recompute intermediaries.
+*
+*         flag should be set to -1 when linini() is called for the first time
+*         for a linprm struct in order to initialize memory management.  It
+*         must ONLY be used on the first initialization otherwise memory leaks
+*         may result.
+*
+*      int naxis
+*         Number of pixel and world coordinate elements.
+*
+*      double *crpix
+*         Pointer to the first element of an array of double containing the
+*         coordinate reference pixel, CRPIXja.
+*
+*      double *pc
+*         Pointer to the first element of the PCi_ja (pixel coordinate)
+*         transformation matrix.  The expected order is
+*
+*            lin.pc = {PC1_1, PC1_2, PC2_1, PC2_2};
+*
+*         This may be constructed conveniently from a two-dimensional array
+*         via
+*
+*            double m[2][2] = {{PC1_1, PC1_2},
+*                              {PC2_1, PC2_2}};
+*
+*         which is equivalent to,
+*
+*            double m[2][2];
+*            m[0][0] = PC1_1;
+*            m[0][1] = PC1_2;
+*            m[1][0] = PC2_1;
+*            m[1][1] = PC2_2;
+*
+*         for which the storage order is
+*
+*            PC1_1, PC1_2, PC2_1, PC2_2
+*
+*         so it would be legitimate to set lin.pc = *m.
+*
+*      double *cdelt
+*         Pointer to the first element of an array of double containing the
+*         coordinate increments, CDELTia.
+*
+*   The remaining members of the linprm struct are maintained by linset() and
+*   must not be modified elsewhere:
+*
+*      int unity
+*         True if the linear transformation matrix is unity.
+*
+*      double *piximg
+*         Pointer to the first element of the matrix containing the product
+*         of the CDELTia diagonal matrix and the PCi_ja matrix.
+*
+*      double *imgpix
+*         Pointer to the first element of the inverse of the piximg matrix.
+*
+*      The remaining members of the linprm struct are used for memory
+*      management by linini() and linfree().
+*
+*
+*   Vector arguments
+*   ----------------
+*   Arrays of pixel and world coordinates are two dimensional, i.e.
+*   pixcrd[ncoord][nelem], where nelem must equal or exceed the number of
+*   coordinate elements, naxis, stored in the linprm struct.  Exception: when
+*   ncoord == 1, nelem is not used.
+*
+*   Note that the function prototypes must declare two-dimensional arrays as
+*   one-dimensional to avoid warnings about declaration of "incomplete types".
+*   This was considered preferable to declaring them as simple
+*   pointers-to-double which gives no indication that storage is associated
+*   with them.
+*
+*
+*   Memory allocation and deallocation
+*   ----------------------------------
+*   linini() optionally allocates memory for the crpix, pc, and cdelt arrays
+*   in the linprm struct as described in the usage notes above.
+*
+*   If the pc matrix is not unity, linset() also allocates memory for the
+*   piximg and imgpix arrays.  The caller must not modify these.
+*
+*   linini() maintains a record of memory it has allocated and this is used
+*   by linfree() which linini() uses to free any memory that it may have
+*   allocated on a previous invokation.  Thus it is not necessary for the
+*   caller to invoke linfree() separately.  Likewise, linset() deallocates
+*   memory that it may have allocated on a previous invokation.
+*
+*   A memory leak will result if a linprm struct goes out of scope before the
+*   memory has been free'd, either by linfree() or otherwise.  Likewise, if
+*   the linprm struct itself has been malloc'd and the allocated memory is not
+*   free'd when the memory for the struct is free'd.  A leak may also arise if
+*   the caller interferes with the array pointers in the "private" part of the
+*   linprm struct.
+*
+*   Beware of making a shallow copy of a linprm struct by assignment; any
+*   changes made to allocated memory in one would be reflected in the other,
+*   and if the memory allocated for one was free'd the other would reference
+*   unallocated memory.  Use lincpy() instead to make a deep copy.
+*
+*
+*   Status return values
+*   --------------------
+*   Error messages to match the status value returned from each function are
+*   encoded in the lin_errmsg character array.
+a346 7
+#define linini_errmsg lin_errmsg
+#define lincpy_errmsg lin_errmsg
+#define linfree_errmsg lin_errmsg
+#define linprt_errmsg lin_errmsg
+#define linset_errmsg lin_errmsg
+#define linp2x_errmsg lin_errmsg
+#define linx2p_errmsg lin_errmsg
+d350 20
+a369 20
+   /* Initialization flag (see the prologue above).                         */
+   /*-----------------------------------------------------------------------*/
+   int flag;			/* Set to zero to force initialization.     */
+
+   /* Parameters to be provided (see the prologue above).                   */
+   /*-----------------------------------------------------------------------*/
+   int naxis;			/* The number of axes, given by NAXIS.      */
+   double *crpix;		/* CRPIXja keywords for each pixel axis.    */
+   double *pc;			/* PCi_ja  linear transformation matrix.    */
+   double *cdelt;		/* CDELTia keywords for each coord axis.    */
+
+   /* Information derived from the parameters supplied.                     */
+   /*-----------------------------------------------------------------------*/
+   double *piximg;		/* Product of CDELTia and PCi_ja matrices.  */
+   double *imgpix;		/* Inverse of the piximg matrix.            */
+   int unity;			/* True if the PCi_ja matrix is unity.      */
+
+   int i_naxis;			/* The remainder are for memory management. */
+   int m_flag, m_naxis;
+   double *m_crpix, *m_pc, *m_cdelt;
+d372 1
+a374 1
+int linini(int, int, struct linprm *);
+d376 3
+a378 1
+int lincpy(int, const struct linprm *, struct linprm *);
+d380 1
+a380 1
+int linfree(struct linprm *);
+d382 1
+a382 1
+int linprt(const struct linprm *);
+d384 1
+a384 1
+int linset(struct linprm *);
+d386 2
+a387 1
+int linp2x(struct linprm *, int, int, const double[], double[]);
+d389 2
+a390 1
+int linx2p(struct linprm *, int, int, const double[], double[]);
+d392 1
+a392 1
+int matinv(int, const double [], double []);
+d395 9
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: lin.h,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.3.1.2
+log
+@Replaced references to text "above" or "below" with "(see ... above|below)"
+so that they can be parsed out of the doxygen markup.
+@
+text
+@d31 1
+a31 1
+    $Id: lin.h,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d44 2
+a45 2
+*   Summary of the lin routines
+*   ---------------------------
+d47 5
+a51 4
+*   standard.  They are based on the linprm struct (see below) which contains
+*   all information needed for the computations.  The struct contains some
+*   members that must be set by the caller, and others that are maintained by
+*   these routines, somewhat like a C++ class but with no encapsulation.
+d59 1
+a59 1
+*   refer to the explanation of lin.flag (see below).
+d80 2
+a81 2
+*                        in the linprm struct as discussed in "Memory
+*                        allocation and deallocation" (see below).
+d329 1
+a329 1
+*   in the linprm struct as described in the usage notes (see above).
+@
+
+
+4.3.1.3
+log
+@Changes required for generation of the manual using doxextr and doxygen,
+including naming of arguments in function prototypes.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: lin.h,v 4.3.1.2 2008/04/02 06:17:13 cal103 Exp cal103 $
+d34 2
+a35 2
+* WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to
+d37 2
+a38 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 2
+a41 2
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d44 312
+a355 291
+* Summary of the lin routines
+* ---------------------------
+* These routines apply the linear transformation defined by the FITS WCS
+* standard.  They are based on the linprm struct which contains all
+* information needed for the computations.  The struct contains some members
+* that must be set by the user, and others that are maintained by these
+* routines, somewhat like a C++ class but with no encapsulation.
+*
+* Three routines, linini(), lincpy(), and linfree() are provided to manage the
+* linprm struct, and another, linprt(), prints its contents.
+*
+* A setup routine, linset(), computes intermediate values in the linprm struct
+* from parameters in it that were supplied by the user.  The struct always
+* needs to be set up by linset() but need not be called explicitly - refer to
+* the explanation of linprm::flag.
+*
+* linp2x() and linx2p() implement the WCS linear transformations.
+*
+* An auxiliary matrix inversion routine, matinv(), is included.  It uses
+* LU-triangular factorization with scaled partial pivoting.
+*
+*
+* linini() - Default constructor for the linprm struct
+* ----------------------------------------------------
+* linini() allocates memory for arrays in a linprm struct and sets all members
+* of the struct to default values.
+*
+* PLEASE NOTE: every linprm struct should be initialized by linini(), possibly
+* repeatedly.  On the first invokation, and only the first invokation,
+* linprm::flag must be set to -1 to initialize memory management, regardless
+* of whether linini() will actually be used to allocate memory.
+*
+* Given:
+*   alloc     int       If true, allocate memory unconditionally for arrays in
+*                       the linprm struct.
+*
+*                       If false, it is assumed that pointers to these arrays
+*                       have been set by the user except if they are null
+*                       pointers in which case memory will be allocated for
+*                       them regardless.  (In other words, setting alloc true
+*                       saves having to initalize these pointers to zero.)
+*
+*   naxis     int       The number of world coordinate axes, used to determine
+*                       array sizes.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.  Note that, in order
+*                       to initialize memory management linprm::flag should be
+*                       set to -1 when lin is initialized for the first time
+*                       (memory leaks may result if it had already been
+*                       initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*
+* lincpy() - Copy routine for the linprm struct
+* ---------------------------------------------
+* lincpy() does a deep copy of one linprm struct to another, using linini() to
+* allocate memory for its arrays if required.  Only the "information to be
+* provided" part of the struct is copied; a call to linset() is required to
+* initialize the remainder.
+*
+* Given:
+*   alloc     int       If true, allocate memory for the crpix, pc, and cdelt
+*                       arrays in the destination.  Otherwise, it is assumed
+*                       that pointers to these arrays have been set by the
+*                       user except if they are null pointers in which case
+*                       memory will be allocated for them regardless.
+*   linsrc    const struct linprm*
+*                       Struct to copy from.
+*
+* Given and returned:
+*   lindst    struct linprm*
+*                       Struct to copy to.  linprm::flag should be set to -1
+*                       if lindst was not previously initialized (memory leaks
+*                       may result if it was previously initialized).
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*
+*
+* linfree() - Destructor for the linprm struct
+* --------------------------------------------
+* linfree() frees memory allocated for the linprm arrays by linini() and/or
+* linset().  linini() keeps a record of the memory it allocates and linfree()
+* will only attempt to free this.
+*
+* PLEASE NOTE: linfree() must not be invoked on a linprm struct that was not
+* initialized by linini().
+*
+* Given:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+* linprt() - Print routine for the linprm struct
+* ----------------------------------------------
+* linprt() prints the contents of a linprm struct.
+*
+* Given:
+*   lin       const struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*
+*
+* linset() - Setup routine for the linprm struct
+* ----------------------------------------------
+* linset(), if necessary, allocates memory for the linprm::piximg and
+* linprm::imgpix arrays and sets up the linprm struct according to information
+* supplied within it - refer to the explanation of linprm::flag.
+*
+* Note that this routine need not be called directly; it will be invoked by
+* linp2x() and linx2p() if the linprm::flag is anything other than a
+* predefined magic value.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*
+*
+* linp2x() - Pixel-to-world linear transformation
+* -----------------------------------------------
+* linp2x() transforms pixel coordinates to intermediate world coordinates.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length nelem
+*                       but containing lin.naxis coordinate elements.
+*   pixcrd    const double[ncoord][nelem]
+*                       Array of pixel coordinates.
+*
+* Returned:
+*   imgcrd    double[ncoord][nelem]
+*                       Array of intermediate world coordinates.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*
+*
+* linx2p() - World-to-pixel linear transformation
+* -----------------------------------------------
+* linx2p() transforms intermediate world coordinates to pixel coordinates.
+*
+* Given and returned:
+*   lin       struct linprm*
+*                       Linear transformation parameters.
+*
+* Given:
+*   ncoord,
+*   nelem     int       The number of coordinates, each of vector length nelem
+*                       but containing lin.naxis coordinate elements.
+*   imgcrd   const double[ncoord][nelem]
+*                       Array of intermediate world coordinates.
+*
+* Returned:
+*   pixcrd    double[ncoord][nelem]
+*                       Array of pixel coordinates.
+*
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null linprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: PCi_ja matrix is singular.
+*
+*
+* linprm struct - Linear transformation parameters
+* ------------------------------------------------
+* The linprm struct contains all of the information required to perform a
+* linear transformation.  It consists of certain members that must be set by
+* the user ("given") and others that are set by the WCSLIB routines
+* ("returned").
+*
+*   int flag
+*     (Given and returned) This flag must be set to zero whenever any of the
+*     following members of the linprm struct are set or modified:
+*
+*       - linprm::naxis (q.v., not normally set by the user),
+*       - linprm::pc,
+*       - linprm::cdelt.
+*
+*     This signals the initialization routine, linset(), to recompute the
+*     returned members of the linprm struct.  linset() will reset flag to
+*     indicate that this has been done.
+*
+*     PLEASE NOTE: flag should be set to -1 when linini() is called for the
+*     first time for a particular linprm struct in order to initialize memory
+*     management.  It must ONLY be used on the first initialization otherwise
+*     memory leaks may result.
+*
+*   int naxis
+*     (Given or returned) Number of pixel and world coordinate elements.
+*
+*     If linini() is used to initialize the linprm struct (as would normally
+*     be the case) then it will set naxis from the value passed to it as a
+*     function argument.  The user should not subsequently modify it.
+*
+*   double *crpix
+*     (Given) Pointer to the first element of an array of double containing
+*     the coordinate reference pixel, CRPIXja.
+*
+*   double *pc
+*     (Given) Pointer to the first element of the PCi_ja (pixel coordinate)
+*     transformation matrix.  The expected order is
+*
+=       struct linprm lin;
+=       lin.pc = {PC1_1, PC1_2, PC2_1, PC2_2};
+*
+*     This may be constructed conveniently from a 2-D array via
+*
+=       double m[2][2] = {{PC1_1, PC1_2},
+=                         {PC2_1, PC2_2}};
+*
+*     which is equivalent to
+*
+=       double m[2][2];
+=       m[0][0] = PC1_1;
+=       m[0][1] = PC1_2;
+=       m[1][0] = PC2_1;
+=       m[1][1] = PC2_2;
+*
+*     The storage order for this 2-D array is the same as for the 1-D array,
+*     whence
+*
+=       lin.pc = *m;
+*
+*     would be legitimate.
+*
+*   double *cdelt
+*     (Given) Pointer to the first element of an array of double containing
+*     the coordinate increments, CDELTia.
+*
+*   int unity
+*     (Returned) True if the linear transformation matrix is unity.
+*
+*   double *piximg
+*     (Returned) Pointer to the first element of the matrix containing the
+*     product of the CDELTia diagonal matrix and the PCi_ja matrix.
+*
+*   double *imgpix
+*     (Returned) Pointer to the first element of the inverse of the
+*     linprm::piximg matrix.
+*
+*   int i_naxis
+*     (For internal use only.)
+*   int m_flag
+*     (For internal use only.)
+*   int m_naxis
+*     (For internal use only.)
+*   double *m_crpix
+*     (For internal use only.)
+*   double *m_pc
+*     (For internal use only.)
+*   double *m_cdelt
+*     (For internal use only.)
+*
+*
+* Global variable: const char *lin_errmsg[] - Status return messages
+* ------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+d368 7
+d378 20
+a397 20
+  /* Initialization flag (see the prologue above).                          */
+  /*------------------------------------------------------------------------*/
+  int flag;			/* Set to zero to force initialization.     */
+
+  /* Parameters to be provided (see the prologue above).                    */
+  /*------------------------------------------------------------------------*/
+  int naxis;			/* The number of axes, given by NAXIS.      */
+  double *crpix;		/* CRPIXja keywords for each pixel axis.    */
+  double *pc;			/* PCi_ja  linear transformation matrix.    */
+  double *cdelt;		/* CDELTia keywords for each coord axis.    */
+
+  /* Information derived from the parameters supplied.                      */
+  /*------------------------------------------------------------------------*/
+  double *piximg;		/* Product of CDELTia and PCi_ja matrices.  */
+  double *imgpix;		/* Inverse of the piximg matrix.            */
+  int unity;			/* True if the PCi_ja matrix is unity.      */
+
+  int i_naxis;			/* The remainder are for memory management. */
+  int m_flag, m_naxis;
+  double *m_crpix, *m_pc, *m_cdelt;
+a399 1
+/* Size of the linprm struct in int units, used by the Fortran wrappers. */
+d402 1
+d404 1
+a404 3
+int linini(int alloc, int naxis, struct linprm *lin);
+
+int lincpy(int alloc, const struct linprm *linsrc, struct linprm *lindst);
+d406 1
+a406 1
+int linfree(struct linprm *lin);
+d408 1
+a408 1
+int linprt(const struct linprm *lin);
+d410 1
+a410 1
+int linset(struct linprm *lin);
+d412 1
+a412 2
+int linp2x(struct linprm *lin, int ncoord, int nelem, const double pixcrd[],
+           double imgcrd[]);
+d414 1
+a414 2
+int linx2p(struct linprm *lin, int ncoord, int nelem, const double imgcrd[],
+           double pixcrd[]);
+d416 1
+a416 1
+int matinv(int n, const double mat[], double inv[]);
+a418 9
+/* Deprecated. */
+#define linini_errmsg lin_errmsg
+#define lincpy_errmsg lin_errmsg
+#define linfree_errmsg lin_errmsg
+#define linprt_errmsg lin_errmsg
+#define linset_errmsg lin_errmsg
+#define linp2x_errmsg lin_errmsg
+#define linx2p_errmsg lin_errmsg
+
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: lin.h,v 4.1 2005/08/25 07:44:52 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.2 - C routines that implement the FITS World Coordinate System
+d38 4
+a41 1
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (paper I)
+d44 2
+a45 2
+*   Summary of routines
+*   -------------------
+d386 1
+a386 1
+   double *crpix;		/* CRPIXja cards for each pixel axis.       */
+d388 1
+a388 1
+   double *cdelt;		/* CDELTia cards for each coordinate axis.  */
+a391 1
+   int unity;			/* True if the PCi_ja matrix is unity.      */
+d394 1
+d396 2
+a397 1
+   int m_flag, m_naxis;		/* The remainder are for memory management. */
+a398 1
+   int i_naxis;
+a419 7
+/* Define macros for scalar invokation for compatibility with WCSLIB 2.x. */
+#define linrev_errmsg lin_errmsg
+#define linfwd_errmsg lin_errmsg
+#define linrev(pixcrd, lin, imgcrd) linp2x(lin, 1, 1, pixcrd, imgcrd)
+#define linfwd(imgcrd, lin, pixcrd) linx2p(lin, 1, 1, imgcrd, pixcrd)
+
+
+d421 1
+a421 1
+};
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: lin.h,v 4.2 2005/09/21 13:21:57 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.2.1.2
+log
+@Removed an extraneous ';' following the closing '}' of the 'extern "C" {'
+block provided for use in C++.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2006, Mark Calabretta
+d30 1
+a30 1
+*   $Id: lin.h,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d37 1
+a37 1
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d424 1
+a424 1
+}
+@
+
+
+4.2.1.3
+log
+@Changed the order of a number of members of the linprm struct to get
+alignment on 64-bit machines.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: lin.h,v 4.2.1.2 2006/08/02 00:14:58 cal103 Exp cal103 $
+d388 1
+a390 1
+   int unity;			/* True if the PCi_ja matrix is unity.      */
+d392 1
+a392 2
+   int i_naxis;			/* The remainder are for memory management. */
+   int m_flag, m_naxis;
+d394 1
+@
+
+
+4.2.1.4
+log
+@Replace use of the obsolete term "card".
+@
+text
+@d30 1
+a30 1
+*   $Id: lin.h,v 4.2.1.3 2007/07/12 08:03:29 cal103 Exp cal103 $
+d382 1
+a382 1
+   double *crpix;		/* CRPIXja keywords for each pixel axis.    */
+d384 1
+a384 1
+   double *cdelt;		/* CDELTia keywords for each coord axis.    */
+@
+
+
+4.2.1.5
+log
+@Removed WCSLIB 2.x backwards-compatibility measures.
+@
+text
+@d30 1
+a30 1
+*   $Id: lin.h,v 4.2.1.4 2007/08/02 04:26:39 cal103 Exp cal103 $
+d416 7
+@
+
+
+4.2.1.6
+log
+@Referenced the README file for an overview of the library.
+@
+text
+@d30 1
+a30 1
+*   $Id: lin.h,v 4.2.1.5 2007/08/08 07:20:03 cal103 Exp cal103 $
+a38 2
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+d40 2
+a41 3
+*
+*   Summary of the lin* routines
+*   ----------------------------
+@
+
+
+4.2.1.7
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: lin.h,v 4.2.1.6 2007/08/08 08:40:48 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: amended general comments in the prologue, particularly with
+regard to the use of linini() and memory management.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: lin.h,v 4.0 2005/02/04 05:09:00 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL; revised the prologue comments.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: lin.h,v 3.6 2004/08/25 04:17:46 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.0 - C routines that implement the FITS World Coordinate System
+d49 2
+a50 2
+*   Three service routines, linini(), lincpy(), and linfree() are provided to
+*   manage the linprm struct, and another, linprt(), prints its contents.
+d65 1
+a65 1
+*   linini() allocates memory for arrays in a tabprm struct and sets all
+d68 6
+d75 9
+a83 8
+*      alloc    int      If true, allocate memory for arrays in the tabprm
+*                        struct (see "Memory allocation and deallocation
+*                        below").  Otherwise, it is assumed that pointers to
+*                        these arrays have been set by the caller except if
+*                        they are null pointers in which case memory will be
+*                        allocated for them regardless.  (In other words,
+*                        setting alloc true saves having to initalize these
+*                        pointers to zero.)
+d138 3
+d304 2
+a305 3
+*      int m_flag, m_naxis
+*      double *m_crpix, *m_pc, *m_cdelt
+*         These are used for memory management by linini() and linfree().
+d324 2
+a325 3
+*   linini() allocates memory for the crpix, pc, and cdelt arrays in the
+*   linprm struct.  It is provided as a service routine; usage is optional,
+*   and the caller is at liberty to set these pointers independently.
+d336 6
+a341 6
+*   However, a memory leak will result if a linprm struct goes out of scope
+*   before the memory has been free'd, either by linfree() or otherwise.
+*   Likewise, if the linprm struct itself has been malloc'd and the allocated
+*   memory is not free'd when the memory for the struct is free'd.  A leak may
+*   also arise if the caller interferes with the array pointers in the
+*   "private" part of the linprm struct.
+a397 1
+
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value"; replaced "error" with "failed" in status messages;
+removed support for K&R C.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 13
+a18 13
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: lin.h,v 3.5 2004/06/28 01:47:37 mcalabre Exp mcalabre $
+d33 2
+a34 2
+*   WCSLIB 3.6 - C routines that implement the FITS World Coordinate System
+*   (WCS) convention.  Refer to
+d42 6
+a47 7
+*   These routines apply the linear transformation defined by the WCS FITS
+*   header cards.  There are separate routines for the pixel-to-image,
+*   linp2x(), and image-to-pixel, linx2p(), transformations.
+*
+*   An initialization routine, linset(), computes intermediate values from
+*   the transformation parameters but need not be called explicitly - see the
+*   explanation of lin.flag below.
+d50 8
+a57 1
+*   manage the linprm struct.  A third, linprt(), prints its contents.
+d63 4
+a66 7
+*   Service routines for the linprm struct; linini(), lincpy(), & linfree()
+*   -----------------------------------------------------------------------
+*   These service routines are provided to manage the linprm struct (see also
+*   "Memory allocation and deallocation" below).
+*
+*   linini() allocates memory for the crpix, pc, and cdelt arrays and sets the
+*   members of the linprm struct to default values.
+d69 3
+a71 2
+*      alloc    int      If true, allocate memory for the crpix, pc, and cdelt
+*                        arrays.  Otherwise, it is assumed that pointers to
+d77 1
+d96 2
+d125 2
+d143 1
+a143 1
+*   This service routine may be used to print the members of a linprm struct.
+d155 4
+a158 4
+*   Initialization routine; linset()
+*   --------------------------------
+*   If necessary, allocates memory for the piximg and imgpix arrays in the
+*   linprm struct and initializes the structure according to information
+d162 2
+a163 2
+*   linp2x() and linx2p() if the "flag" structure member is anything other
+*   than a predefined magic value.
+d179 1
+a179 3
+*   Compute image coordinates from pixel coordinates.  Note that where
+*   celestial coordinate systems are concerned the image coordinates
+*   correspond to (x,y) in the plane of projection, not celestial (lng,lat).
+d193 1
+a193 1
+*                        Array of image (world) coordinates.
+d205 1
+a205 3
+*   Compute pixel coordinates from image coordinates.  Note that where
+*   celestial coordinate systems are concerned the image coordinates
+*   correspond to (x,y) in the plane of projection, not celestial (lng,lat).
+d215 1
+a215 1
+*                        Array of image (world) coordinates.
+d231 2
+a232 1
+*   The linprm struct consists of the following:
+@
+
+
+3.5
+log
+@WCSLIB 3.5: added the alternate version code to FITS WCS keywords mentioned
+in comments.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: lin.h,v 3.4 2004/02/11 00:15:03 mcalabre Exp mcalabre $
+d33 1
+a33 1
+*   WCSLIB 3.5 - C routines that implement the FITS World Coordinate System
+d85 1
+a85 1
+*               int      Error status
+d88 1
+a88 1
+*                           2: Memory allocation error.
+d112 1
+a112 1
+*               int      Error status
+d115 1
+a115 1
+*                           2: Memory allocation error.
+d127 1
+a127 1
+*               int      Error status
+d141 1
+a141 1
+*               int      Error status
+d161 1
+a161 1
+*               int      Error status
+d164 1
+a164 1
+*                           2: Memory allocation error.
+d189 1
+a189 1
+*               int      Error status
+d192 1
+a192 1
+*                           2: Memory allocation error.
+d217 1
+a217 1
+*               int      Error status
+d220 1
+a220 1
+*                           2: Memory allocation error.
+d335 3
+a337 3
+*   Error codes
+*   -----------
+*   Error messages to match the error codes returned from each function are
+a348 5
+#if !defined(__STDC__) && !defined(__cplusplus)
+#ifndef const
+#define const
+#endif
+#endif
+a349 1
+
+d383 4
+a386 2
+#if __STDC__  || defined(__cplusplus)
+   int linini(int, int, struct linprm *);
+d388 1
+a388 1
+   int lincpy(int, const struct linprm *, struct linprm *);
+d390 1
+a390 1
+   int linfree(struct linprm *);
+d392 1
+a392 1
+   int linprt(const struct linprm *);
+d394 1
+a394 1
+   int linset(struct linprm *);
+d396 1
+a396 1
+   int linp2x(struct linprm *, int, int, const double[], double[]);
+d398 1
+a398 1
+   int linx2p(struct linprm *, int, int, const double[], double[]);
+d400 1
+a400 5
+   int matinv(int, const double [], double []);
+#else
+   int linini(), lincpy(), linfree(), linprt(), linset(), linp2x(), linx2p(),
+       matinv();
+#endif
+a408 1
+#define LINLEN (sizeof(struct linprm)/sizeof(int))
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+d33 1
+a33 1
+*   WCSLIB 3.4 - C routines that implement the FITS World Coordinate System
+d165 1
+a165 1
+*                           3: PC matrix is singular.
+d193 1
+a193 1
+*                           3: PC matrix is singular.
+d221 1
+a221 1
+*                           3: PC matrix is singular.
+d243 1
+a243 1
+*         coordinate reference pixel, CRPIXj.
+d246 1
+a246 1
+*         Pointer to the first element of the PC (pixel coordinate)
+d273 1
+a273 1
+*         coordinate increments, CDELTi.
+d283 1
+a283 1
+*         of the CDELTi diagonal matrix and the PC matrix.
+a339 3
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: lin.h,v 3.3 2003/10/22 07:19:13 mcalabre Exp mcalabre $
+d374 3
+a376 3
+   double *crpix;		/* CRPIXj cards for each pixel axis.        */
+   double *pc;			/* PCi_j  linear transformation matrix.     */
+   double *cdelt;		/* CDELTi cards for each coordinate axis.   */
+d380 2
+a381 2
+   int unity;			/* True if the PCi_j matrix is unity.       */
+   double *piximg;		/* Product of the CDELTi and PCij matrices. */
+@
+
+
+3.3
+log
+@WCSLIB 3.3: fixed syntax errors in the macro definitions of linrev_errmsg and
+linfwd_errmsg.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d30 1
+a30 1
+*   WCSLIB 3.3 - C routines that implement the FITS World Coordinate System
+d339 1
+a339 1
+*   $Id: lin.h,v 3.2 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: augmented the usage notes for linini() and lincpy() to document
+the option to initialize memory management by setting linprm.flag == -1;
+rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.2 - C routines that implement the FITS World Coordinate System
+d339 1
+a339 1
+*   $Id: lin.h,v 3.1 2003/04/28 03:50:41 mcalabre Exp mcalabre $
+d412 2
+a413 2
+#define linrev_errmsg lin_errmsg;
+#define linfwd_errmsg lin_errmsg;
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+Added macro definition of LINLEN.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.1 - C routines that implement the FITS World Coordinate System
+d67 3
+a69 1
+*                        allocated for them regardless.
+d73 1
+a73 1
+*   Returned:
+d76 4
+d84 2
+a85 1
+*                           1: Memory allocation error.
+d102 1
+a102 1
+*   Returned:
+d104 3
+a106 1
+*                        Struct to copy to.
+d111 2
+a112 1
+*                           1: Memory allocation error.
+d119 1
+a119 1
+*   Returned:
+d126 1
+d140 1
+d160 3
+a162 2
+*                           1: Memory allocation error.
+*                           2: PC matrix is singular.
+d188 3
+a190 2
+*                           1: Memory allocation error.
+*                           2: PC matrix is singular.
+d216 3
+a218 2
+*                           1: Memory allocation error.
+*                           2: PC matrix is singular.
+d227 7
+a233 2
+*         are set or modified.  This signals the initialization routine,
+*         linset(), to recompute intermediaries.
+d334 2
+a335 3
+*   Error messages to match the error codes for linini(), lincpy(), linset(),
+*   linp2x(), and linx2p() are encoded in the linini_errmsg, lincpy_errmsg,
+*   linset_errmsg, linp2x_errmsg, and linx2p_errmsg character arrays.
+d339 1
+a339 1
+*   $Id: lin.h,v 3.0 2003/04/01 04:10:53 mcalabre Exp mcalabre $
+d356 8
+a363 5
+extern const char *linini_errmsg[];
+extern const char *lincpy_errmsg[];
+extern const char *linset_errmsg[];
+extern const char *linp2x_errmsg[];
+extern const char *linx2p_errmsg[];
+d412 2
+a413 2
+extern const char *linfwd_errmsg[];
+extern const char *linrev_errmsg[];
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   WCSLIB 3.0 - C routines that implement the FITS World Coordinate System
+d320 1
+a320 1
+*   $Id: lin.h,v 2.6 2001/11/15 03:14:40 mcalabre Exp $
+d394 2
+@
+
+
+2.8
+log
+@Updated date in copyright notice.
+@
+text
+@d1 1
+a1 1
+/*=============================================================================
+d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d28 291
+d320 1
+a320 1
+*   $Id: lin.h,v 2.7 2001/11/15 03:14:40 mcalabre Exp mcalabre $
+d336 8
+d345 20
+a364 9
+   int flag;
+   int naxis;
+   double *crpix;
+   double *pc;
+   double *cdelt;
+
+   /* Intermediates. */
+   double *piximg;
+   double *imgpix;
+d368 8
+d377 6
+a382 3
+   int linfwd(const double[], struct linprm *, double[]);
+   int linrev(const double[], struct linprm *, double[]);
+   int matinv(const int, const double [], double []);
+d384 2
+a385 1
+   int linset(), linfwd(), linrev(), matinv();
+d388 2
+a389 1
+extern const char *linset_errmsg[];
+d392 2
+a393 2
+
+#define LINSET 137
+@
+
+
+2.7
+log
+@Changed date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d29 1
+a29 1
+*   $Id: lin.h,v 2.6 2000/05/10 04:44:05 mcalabre Exp mcalabre $
+@
+
+
+2.6
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d29 1
+a29 1
+*   $Id: lin.h,v 2.5 1999/05/26 01:32:18 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Added RCS id.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d29 1
+a29 1
+*   $Id$
+@
+
+
+2.4
+log
+@Added copyright notice; prefixed include guard names with "WCSLIB_".
+@
+text
+@d28 2
+@
+
+
+2.3
+log
+@Appease the K&R C compiler by nullifying "const".
+@
+text
+@d1 28
+a28 2
+#ifndef LIN
+#define LIN
+d30 3
+d74 1
+a74 1
+#endif /* LIN */
+@
+
+
+2.2
+log
+@Added const-correctness to function arguments.
+Added external arrays of error messages indexed by function return value.
+Adapted to C++ usage.
+@
+text
+@d8 6
+@
+
+
+2.1
+log
+@Initial revision
+@
+text
+@d4 4
+d20 1
+a20 1
+#if __STDC__
+d22 4
+a25 4
+   int linfwd(double[], struct linprm *, double[]);
+   int linrev(double[], struct linprm *, double[]);
+   int matinv(int, double [], double []);
+#else /* not __STDC__ */
+d27 5
+a31 1
+#endif /* __STDC__ */
+d34 4
+@

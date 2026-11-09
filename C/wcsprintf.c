@@ -1,0 +1,193 @@
+/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsprintf.c,v 8.10 2026/09/27 05:44:33 mcalabre Exp $
+*===========================================================================*/
+
+#include <stdarg.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "wcsprintf.h"
+
+// WCSLIB_TLS, the thread-local storage (TLS) specifier, defined by configure.
+static WCSLIB_TLS FILE  *wcsprintf_file = 0x0;
+static WCSLIB_TLS char  *wcsprintf_buff = 0x0;
+static WCSLIB_TLS char  *wcsprintf_bufp = 0x0;
+static WCSLIB_TLS size_t wcsprintf_size = 0;
+
+//----------------------------------------------------------------------------
+
+int wcsprintf_set(FILE *wcsout)
+
+{
+  if (wcsout != 0x0) {
+    // Output to file.
+    wcsprintf_file = wcsout;
+
+    if (wcsprintf_buff != 0x0) {
+      // Release the buffer.
+      free(wcsprintf_buff);
+      wcsprintf_buff = 0x0;
+    }
+
+  } else {
+    // Output to buffer.
+    wcsprintf_file = 0x0;
+
+    if (wcsprintf_buff == 0x0) {
+      // Allocate a buffer.
+      wcsprintf_buff = malloc(1024);
+      if (wcsprintf_buff == NULL) {
+        return 1;
+      }
+      wcsprintf_size = 1024;
+    }
+
+    // Reset pointer to the start of the buffer.
+    wcsprintf_bufp = wcsprintf_buff;
+    *wcsprintf_bufp = '\0';
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+const char *wcsprintf_buf(void)
+
+{
+  return wcsprintf_buff;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsprintf(const char *format, ...)
+
+{
+  if (wcsprintf_buff == 0x0 && wcsprintf_file == 0x0) {
+    // Send output to stdout if wcsprintf_set() hasn't been called.
+    wcsprintf_file = stdout;
+  }
+
+  va_list arg_list;
+  va_start(arg_list, format);
+
+  int nbytes;
+  if (wcsprintf_file) {
+    // Output to file.
+    nbytes = vfprintf(wcsprintf_file, format, arg_list);
+
+  } else {
+    // Output to buffer.
+    size_t used = wcsprintf_bufp - wcsprintf_buff;
+    size_t size = 0;
+    if (used < wcsprintf_size) size = wcsprintf_size - used;
+
+    // When vsnprintf() truncates the output, it returns the number of bytes
+    // that would otherwise have been written, excluding the terminating null.
+    // If so, grow the buffer and call vsnprintf() again using a copy of the
+    // original arg_list (which it destroys).
+    va_list arg_copy;
+    va_copy(arg_copy, arg_list);
+
+    nbytes = vsnprintf(wcsprintf_bufp, size, format, arg_list);
+    if (nbytes >= 0 && (size_t)nbytes >= size) {
+      // Grow the buffer size in multiples of 1kiB.
+      wcsprintf_size = ((used + nbytes)/1024 + 2) * 1024;
+      char *realloc_buff = realloc(wcsprintf_buff, wcsprintf_size);
+      if (realloc_buff == NULL) {
+        free(wcsprintf_buff);
+        wcsprintf_buff = 0x0;
+        va_end(arg_copy);
+        va_end(arg_list);
+        return 1;
+      }
+      wcsprintf_buff = realloc_buff;
+      wcsprintf_bufp = wcsprintf_buff + used;
+      nbytes = vsnprintf(wcsprintf_bufp, wcsprintf_size - used, format,
+                         arg_copy);
+    }
+    va_end(arg_copy);
+    wcsprintf_bufp += nbytes;
+  }
+
+  va_end(arg_list);
+
+  return nbytes;
+}
+
+//----------------------------------------------------------------------------
+
+int wcsfprintf(FILE *stream, const char *format, ...)
+
+{
+  if (wcsprintf_buff == 0x0 && wcsprintf_file == 0x0) {
+    // Send output to stream if wcsprintf_set() hasn't been called.
+    wcsprintf_file = stream;
+  }
+
+  va_list arg_list;
+  va_start(arg_list, format);
+
+  int nbytes;
+  if (wcsprintf_file) {
+    // Output to file.
+    nbytes = vfprintf(wcsprintf_file, format, arg_list);
+
+  } else {
+    // Output to buffer.
+    size_t used = wcsprintf_bufp - wcsprintf_buff;
+    size_t size = 0;
+    if (used < wcsprintf_size) size = wcsprintf_size - used;
+
+    // When vsnprintf() truncates the output, it returns the number of bytes
+    // that would otherwise have been written, excluding the terminating null.
+    // If so, grow the buffer and call vsnprintf() again using a copy of the
+    // original arg_list (which it destroys).
+    va_list arg_copy;
+    va_copy(arg_copy, arg_list);
+
+    nbytes = vsnprintf(wcsprintf_bufp, size, format, arg_list);
+    if (nbytes >= 0 && (size_t)nbytes >= size) {
+      // Grow the buffer size in multiples of 1kiB.
+      wcsprintf_size = ((used + nbytes)/1024 + 2) * 1024;
+      char *realloc_buff = realloc(wcsprintf_buff, wcsprintf_size);
+      if (realloc_buff == NULL) {
+        free(wcsprintf_buff);
+        wcsprintf_buff = 0x0;
+        va_end(arg_copy);
+        va_end(arg_list);
+        return 1;
+      }
+      wcsprintf_buff = realloc_buff;
+      wcsprintf_bufp = wcsprintf_buff + used;
+      nbytes = vsnprintf(wcsprintf_bufp, wcsprintf_size - used, format,
+                         arg_copy);
+    }
+    va_end(arg_copy);
+    wcsprintf_bufp += nbytes;
+  }
+
+  va_end(arg_list);
+
+  return nbytes;
+}

@@ -1,0 +1,4426 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.42;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.52.43;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.42.52;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.37.53;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.26.01.52.41;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.26.01.46.24;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.37.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.08.02.06.43.42;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.37.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.35;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.07.28.07;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.06.02.50.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.07;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.38.43;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.27.01.19.29;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.12.08.34.26;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.15.08.00.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.08.16.01.34.41;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2011.11.17.05.02.54;	author cal103;	state Exp;
+branches;
+next	4.8.1.4;
+
+4.8.1.4
+date	2012.01.24.05.24.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.41.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.41.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.37;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.05.14.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.08.08.30.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.05.32.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.08.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.29.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	7.2.1.2;
+
+7.2.1.2
+date	2020.05.07.03.53.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.11.08;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.32.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.58.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.02.06.43.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.15.37.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program that tests the translation routines for non-standard WCS keyvalues,
+the WCSFIX suite, and the spectral coordinate translation routine
+WCSSPTR.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@*=======================================================================
+*
+* WCSLIB 8.10 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2026, Mark Calabretta
+*
+* This file is part of WCSLIB.
+*
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcsfix.f,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=======================================================================
+
+      PROGRAM TWCSFIX
+*-----------------------------------------------------------------------
+*
+* TWCSFIX tests the translation routines for non-standard WCS keyvalues,
+* the WCSFIX suite.  It also tests the change of celestial coordinate
+* system routine, WCSCCS, and the spectral coordinate translation
+* routine, WCSSPTR.
+*
+*-----------------------------------------------------------------------
+      DOUBLE PRECISION TOL
+      PARAMETER (TOL = 1D-10)
+
+*     B1950.0 equatorial coordinates of the galactic pole.
+*     CUNITia is set to ARCSEC below as an additional test.
+      DOUBLE PRECISION DEC, RA
+      PARAMETER (RA  = 192.2500D0 * 3600D0)
+      PARAMETER (DEC = +27.4000D0 * 3600D0)
+
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 3)
+
+      INTEGER   I, J, NAXIS, VELREF
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), EQUINOX,
+     :          IMGCRD(N), LATPOLE, LONPOLE, MJDBEG, OBSGEO_B, OBSGEO_H,
+     :          OBSGEO_L, PC(N,N), PHI, PIXCRD(N), RESTFRQ, RESTWAV,
+     :          THETA, WORLD(N)
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, RADESYS*72, SPECSYS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, EQUINOX, NAXIS,
+     :          VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
+
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcsfix.inc'
+      INTEGER   STAT(WCSFIX_NWCS), STATUS
+      CHARACTER CTYPES*9
+      INTEGER   WCS0(WCSLEN), WCS1(WCSLEN)
+      DOUBLE PRECISION DUMMY0, DUMMY1
+      EQUIVALENCE (WCS0,DUMMY0)
+      EQUIVALENCE (WCS1,DUMMY1)
+
+      DATA NAXIS   /N/
+      DATA (CRPIX(J), J=1,N)
+     :             /90D0,   90D0,   1D0/
+      DATA ((PC(I,J),J=1,N),I=1,N)
+     :             /1D0, 0D0, 0D0,
+     :              0D0, 1D0, 0D0,
+     :              0D0, 0D0, 1D0/
+      DATA (CDELT(I), I=1,N)
+     :             /-1D0, 1D0, 19.68717093222D0/
+      DATA (CUNIT(I), I=1,N)
+     :             /'ARCSEC', 'ARCSEC', 'KM/SEC'/
+      DATA (CTYPE(I), I=1,N)
+     :             /'RA---NCP', 'DEC--NCP', 'FELO-HEL'/
+      DATA (CRVAL(I), I=1,N)
+     :             /RA, DEC, 5569.27104D0/
+      DATA RESTFRQ /1.42040575D9/
+      DATA RESTWAV /0D0/
+
+*     N.B. non-standard date-time format.
+      DATA DATEOBS /'1957/02/15 01:10:00'/
+      DATA DATEBEG /'1957/02/15 01:10:00'/
+      DATA DATEAVG /'1957/02/15 02:10:00'/
+      DATA DATEEND /'1957/02/15 03:10:00'/
+
+      DATA BEPOCH  / 1957.124382563D0/
+      DATA MJDBEG  / 35884.048611D0/
+
+      DATA OBSGEO_L /148.263510D0/
+      DATA OBSGEO_B /-32.998406D0/
+      DATA OBSGEO_H /   411.793D0/
+
+      DATA EQUINOX /1950.0D0/
+
+*     For testing SPCFIX.
+      DATA VELREF  /2/
+      DATA SPECSYS /'BARYCENT'/
+*-----------------------------------------------------------------------
+      WRITE (*, 10)
+ 10   FORMAT ('Testing WCSLIB translator for non-standard usage ',
+     :        '(twcsfix.f)',/,
+     :        '-------------------------------------------------',
+     :        '-----------',/)
+
+*     This routine simulates the actions of a FITS header parser.
+      STATUS = WCSPTI (WCS0, WCS_FLAG, -1, 0, 0)
+      CALL PARSER (WCS0)
+
+*     Fix non-standard WCS keyvalues.
+      STATUS = WCSFIX (7, 0, WCS0, STAT)
+      WRITE (*, 20) (STAT(I), I=1,WCSFIX_NWCS)
+ 20   FORMAT ('WCSFIX status returns: (',I2,6(',',I2),')',/)
+
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 30) STATUS
+ 30     FORMAT ('WCSFIX ERROR',I2,'.')
+        GO TO 999
+      END IF
+
+*     Extract information from the FITS header.
+      STATUS = WCSSET (WCS0)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR(WCS0, CHAR(0))
+        GO TO 999
+      END IF
+
+      CALL FLUSH(6)
+      STATUS = WCSPRT (WCS0)
+      WRITE (*, 40)
+ 40   FORMAT (/,'------------------------------------',
+     :          '------------------------------------')
+
+*     Make a copy of the wcsprm struct.
+      STATUS = WCSPTI (WCS1, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSSUB (WCS0, -1, -1, WCS1)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+*     Transform equatorial B1950 to galactic coordinates.  The WCS has
+*     been constructed with the galactic pole coincident with the native
+*     pole of the projection in order to test the resolution of an
+*     indeterminacy.
+      RADESYS = CHAR(0)
+      STATUS = WCSCCS (WCS1, 123.0D0, 27.4D0, 192.25D0, 'GLON', 'GLAT',
+     :                 RADESYS, 0D0, 'G')
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+*     Should now have a 'VOPT-F2W' axis, translate it to frequency.
+      CTYPES = 'FREQ-???'
+      I = -1
+      STATUS = WCSSPTR (WCS1, I, CTYPES)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR(WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+      STATUS = WCSSET (WCS1)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR(WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+      CALL FLUSH(6)
+      STATUS = WCSPRT (WCS1)
+
+*     Print before-and-afters.
+      WRITE (*, 50) (CRPIX(I), I=1,N)
+ 50   FORMAT (/,'Original and new coordinates of reference point ('
+     :        2(F4.1,', '),F3.1,'), lonpole, and latpole:')
+      STATUS = WCSGTD (WCS0, WCS_CRVAL,   CRVAL(1))
+      STATUS = WCSGTD (WCS0, WCS_LONPOLE, LONPOLE)
+      STATUS = WCSGTD (WCS0, WCS_LATPOLE, LATPOLE)
+      WRITE (*, 60) (CRVAL(I), I=1,N), LONPOLE, LATPOLE
+ 60   FORMAT (2(F14.6,', '),F14.2,', ',F14.6,', ',F14.6)
+
+      STATUS = WCSGTD (WCS1, WCS_CRVAL,   CRVAL(1))
+      STATUS = WCSGTD (WCS1, WCS_LONPOLE, LONPOLE)
+      STATUS = WCSGTD (WCS1, WCS_LATPOLE, LATPOLE)
+      WRITE (*, 60) (CRVAL(I), I=1,N), LONPOLE, LATPOLE
+
+*     Compute B1950 coordinates of a field point.
+      PIXCRD(1) = 1000D0
+      PIXCRD(2) = 1000D0
+      PIXCRD(3) =    1D0
+      WRITE (*, 70) (PIXCRD(I), I=1,N)
+ 70   FORMAT (/,'Original and new coordinates of field point (',
+     :        2(F6.1,', '),F3.1,'):')
+
+      STATUS = WCSP2S (WCS0, 1, N, PIXCRD, IMGCRD, PHI, THETA, WORLD,
+     :                 STAT)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS0, CHAR(0))
+        GO TO 999
+      END IF
+
+      WRITE (*, 80) (WORLD(I), I=1,N)
+ 80   FORMAT (2(F14.6,', '),F14.2)
+
+*     Compute galactic coordinates of the same field point.
+      STATUS = WCSP2S (WCS1, 1, N, PIXCRD, IMGCRD, PHI, THETA, WORLD,
+     :                 STAT)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+      WRITE (*, 80) (WORLD(I), I=1,N)
+
+      STATUS = WCSFREE (WCS0)
+      STATUS = WCSFREE (WCS1)
+
+
+ 999  CONTINUE
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE PARSER (WCS)
+*-----------------------------------------------------------------------
+* In practice a parser would read the FITS header until it encountered
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+*
+* In this simulation the header keyvalues are set in the main program in
+* variables passed in COMMON.
+*-----------------------------------------------------------------------
+*     Number of axes.
+      INTEGER   N
+      PARAMETER (N = 3)
+
+      INTEGER   I, J, NAXIS, STATUS, VELREF, WCS(*)
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), EQUINOX,
+     :          MJDBEG, OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ,
+     :          RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, EQUINOX, NAXIS,
+     :          VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
+
+      INCLUDE 'wcsunits.inc'
+      INCLUDE 'wcs.inc'
+*-----------------------------------------------------------------------
+      STATUS = WCSNPV (2)
+      STATUS = WCSINI (NAXIS, WCS)
+
+      DO 20 I = 1, NAXIS
+        STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+
+        DO 10 J = 1, NAXIS
+          STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+ 10     CONTINUE
+
+        STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CUNIT, CUNIT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+ 20   CONTINUE
+
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+
+      STATUS = WCSPTI (WCS, WCS_NPV, 1, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_PV, -1D0, -1, -1)
+
+      STATUS = WCSPTI (WCS, WCS_VELREF, VELREF, 0, 0)
+
+      STATUS = WCSPTC (WCS, WCS_DATEAVG, DATEAVG, 0, 0)
+      STATUS = WCSPTC (WCS, WCS_DATEEND, DATEEND, 0, 0)
+
+      STATUS = WCSPTD (WCS, WCS_BEPOCH,  BEPOCH,  0, 0)
+      STATUS = WCSPTD (WCS, WCS_MJDBEG,  MJDBEG,  0, 0)
+
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_L, 4, 0)
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_B, 5, 0)
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_H, 6, 0)
+
+      STATUS = WCSPTD (WCS, WCS_EQUINOX, EQUINOX, 6, 0)
+
+      STATUS = WCSPTC (WCS, WCS_SPECSYS, SPECSYS, 0, 0)
+
+      RETURN
+      END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.5.1.2 2026/03/29 13:36:19 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.5 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2025, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcsfix.f,v 8.4.1.2 2025/12/06 13:37:19 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2026, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: twcsfix.f,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2025, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.2.1.3 2024/05/06 15:37:43 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d54 1
+a54 1
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
+d157 1
+d159 1
+a159 1
+     :                 CHAR(0), 0D0, 'G')
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Fixed a call to WCSCCS.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+d54 1
+a54 1
+     :          DATEEND*72, DATEOBS*72, RADESYS*72, SPECSYS*72
+a156 1
+      RADESYS = CHAR(0)
+d158 1
+a158 1
+     :                 RADESYS, 0D0, 'G')
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.13 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.7 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.6.1.2 2021/07/02 06:43:24 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d186 1
+a186 1
+      STATUS = WCSGTD (WCS0, WCS_CRVAL,   CRVAL)
+d192 1
+a192 1
+      STATUS = WCSGTD (WCS1, WCS_CRVAL,   CRVAL)
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@gfortran 11.1.0 now compares the argument list in all calls to the same
+subroutine or function that occur anywhere in a source file.  A compilation
+error results if any arguments do not match in rank (scalar, vector, array,
+etc.).  The error can be downgraded to a warning with -std=legacy, but such
+warnings can only be suppressed by inhibiting ALL warnings.  This annoying
+behaviour makes it necessary for the subroutine or function calls to match,
+or at least appear so.  This affected two calls to WCSGTD in relation to the
+VALUE argument.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d186 1
+a186 1
+      STATUS = WCSGTD (WCS0, WCS_CRVAL,   CRVAL(1))
+d192 1
+a192 1
+      STATUS = WCSGTD (WCS1, WCS_CRVAL,   CRVAL(1))
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.4.1.2 2021/02/22 07:58:15 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.3.1.3 2021/01/28 12:32:09 mcalabre Exp mcalabre $
+d30 3
+a32 2
+* the WCSFIX suite, and the spectral coordinate translation routine
+* WCSPTR.
+d38 2
+a39 1
+*     CUNITia is set to arcsec below as an additional test.
+d41 2
+a42 2
+      PARAMETER (RA  = 265.62209470900D0 * 3600D0)
+      PARAMETER (DEC = -28.98849996030D0 * 3600D0)
+d49 4
+a52 2
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+d57 2
+a58 1
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+d69 4
+a72 3
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+d105 2
+d118 2
+a119 2
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+      CALL PARSER (WCS)
+d122 1
+a122 1
+      STATUS = WCSFIX (7, 0, WCS, STAT)
+d133 1
+a133 1
+      STATUS = WCSSET (WCS)
+d135 2
+a136 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+d140 1
+a140 1
+      STATUS = WCSPRT (WCS)
+d145 19
+d167 1
+a167 1
+      STATUS = WCSSPTR (WCS, I, CTYPES)
+d169 1
+a169 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+d173 1
+a173 1
+      STATUS = WCSSET (WCS)
+d175 1
+a175 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+d180 24
+a203 1
+      STATUS = WCSPRT (WCS)
+d205 22
+a226 1
+      STATUS = WCSFREE (WCS)
+d248 3
+a250 2
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+d255 2
+a256 1
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+d296 2
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Now also tests wcsccs_().
+@
+text
+@d23 1
+a23 1
+* $Id: twcsfix.f,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d30 2
+a31 3
+* the WCSFIX suite.  It also tests the change of celestial coordinate
+* system routine, WCSCCS, and the spectral coordinate translation
+* routine, WCSSPTR.
+d37 1
+a37 2
+*     B1950.0 equatorial coordinates of the galactic pole.
+*     CUNITia is set to ARCSEC below as an additional test.
+d39 2
+a40 2
+      PARAMETER (RA  = 192.2500D0 * 3600D0)
+      PARAMETER (DEC = +27.4000D0 * 3600D0)
+d47 2
+a48 4
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), EQUINOX,
+     :          IMGCRD(N), LATPOLE, LONPOLE, MJDBEG, OBSGEO_B, OBSGEO_H,
+     :          OBSGEO_L, PC(N,N), PHI, PIXCRD(N), RESTFRQ, RESTWAV,
+     :          THETA, WORLD(N)
+d53 1
+a53 2
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, EQUINOX, NAXIS,
+     :          VELREF
+d64 3
+a66 4
+      INTEGER   WCS0(WCSLEN), WCS1(WCSLEN)
+      DOUBLE PRECISION DUMMY0, DUMMY1
+      EQUIVALENCE (WCS0,DUMMY0)
+      EQUIVALENCE (WCS1,DUMMY1)
+a98 2
+      DATA EQUINOX /1950.0D0/
+
+d110 2
+a111 2
+      STATUS = WCSPTI (WCS0, WCS_FLAG, -1, 0, 0)
+      CALL PARSER (WCS0)
+d114 1
+a114 1
+      STATUS = WCSFIX (7, 0, WCS0, STAT)
+d125 1
+a125 1
+      STATUS = WCSSET (WCS0)
+d127 1
+a127 2
+        STATUS = WCSPERR(WCS0, CHAR(0))
+        GO TO 999
+d131 1
+a131 1
+      STATUS = WCSPRT (WCS0)
+a135 19
+*     Make a copy of the wcsprm struct.
+      STATUS = WCSPTI (WCS1, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSSUB (WCS0, -1, -1, WCS1)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+*     Transform equatorial B1950 to galactic coordinates.  The WCS has
+*     been constructed with the galactic pole coincident with the native
+*     pole of the projection in order to test the resolution of an
+*     indeterminacy.
+      STATUS = WCSCCS (WCS1, 123.0D0, 27.4D0, 192.25D0, 'GLON', 'GLAT',
+     :                 CHAR(0), 0D0, 'G')
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+d139 1
+a139 1
+      STATUS = WCSSPTR (WCS1, I, CTYPES)
+d141 1
+a141 1
+        STATUS = WCSPERR(WCS1, CHAR(0))
+d145 1
+a145 1
+      STATUS = WCSSET (WCS1)
+d147 1
+a147 1
+        STATUS = WCSPERR(WCS1, CHAR(0))
+d152 1
+a152 24
+      STATUS = WCSPRT (WCS1)
+
+*     Print before-and-afters.
+      WRITE (*, 50) (CRPIX(I), I=1,N)
+ 50   FORMAT (/,'Original and new coordinates of reference point ('
+     :        2(F4.1,', '),F3.1,'), lonpole, and latpole:')
+      STATUS = WCSGTD (WCS0, WCS_CRVAL,   CRVAL)
+      STATUS = WCSGTD (WCS0, WCS_LONPOLE, LONPOLE)
+      STATUS = WCSGTD (WCS0, WCS_LATPOLE, LATPOLE)
+      WRITE (*, 60) (CRVAL(I), I=1,N), LONPOLE, LATPOLE
+ 60   FORMAT (2(F14.6,', '),F14.2,', ',F14.6,', ',F14.6)
+
+      STATUS = WCSGTD (WCS1, WCS_CRVAL,   CRVAL)
+      STATUS = WCSGTD (WCS1, WCS_LONPOLE, LONPOLE)
+      STATUS = WCSGTD (WCS1, WCS_LATPOLE, LATPOLE)
+      WRITE (*, 60) (CRVAL(I), I=1,N), LONPOLE, LATPOLE
+
+*     Compute B1950 coordinates of a field point.
+      PIXCRD(1) = 1000D0
+      PIXCRD(2) = 1000D0
+      PIXCRD(3) =    1D0
+      WRITE (*, 70) (PIXCRD(I), I=1,N)
+ 70   FORMAT (/,'Original and new coordinates of field point (',
+     :        2(F6.1,', '),F3.1,'):')
+d154 1
+a154 22
+      STATUS = WCSP2S (WCS0, 1, N, PIXCRD, IMGCRD, PHI, THETA, WORLD,
+     :                 STAT)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS0, CHAR(0))
+        GO TO 999
+      END IF
+
+      WRITE (*, 80) (WORLD(I), I=1,N)
+ 80   FORMAT (2(F14.6,', '),F14.2)
+
+*     Compute galactic coordinates of the same field point.
+      STATUS = WCSP2S (WCS1, 1, N, PIXCRD, IMGCRD, PHI, THETA, WORLD,
+     :                 STAT)
+      IF (STATUS.NE.0) THEN
+        STATUS = WCSPERR (WCS1, CHAR(0))
+        GO TO 999
+      END IF
+
+      WRITE (*, 80) (WORLD(I), I=1,N)
+
+      STATUS = WCSFREE (WCS0)
+      STATUS = WCSFREE (WCS1)
+d176 2
+a177 3
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), EQUINOX,
+     :          MJDBEG, OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ,
+     :          RESTWAV
+d182 1
+a182 2
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, EQUINOX, NAXIS,
+     :          VELREF
+a221 2
+
+      STATUS = WCSPTD (WCS, WCS_EQUINOX, EQUINOX, 6, 0)
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.3 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
+a20 2
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+*
+d23 1
+a23 1
+* $Id: twcsfix.f,v 7.2.1.2 2020/05/07 03:53:58 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d21 2
+d25 1
+a25 1
+* $Id: twcsfix.f,v 7.3.1.2 2021/01/19 14:11:08 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d112 1
+a112 1
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+d195 1
+a195 1
+        STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d198 1
+a198 1
+          STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+d201 4
+a204 4
+        STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CUNIT, CUNIT(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d207 2
+a208 2
+      STATUS = WCSPUT (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d210 2
+a211 2
+      STATUS = WCSPUT (WCS, WCS_NPV, 1, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_PV, -1D0, -1, -1)
+d213 1
+a213 1
+      STATUS = WCSPUT (WCS, WCS_VELREF, VELREF, 0, 0)
+d215 2
+a216 2
+      STATUS = WCSPUT (WCS, WCS_DATEAVG, DATEAVG, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_DATEEND, DATEEND, 0, 0)
+d218 2
+a219 2
+      STATUS = WCSPUT (WCS, WCS_BEPOCH,  BEPOCH,  0, 0)
+      STATUS = WCSPUT (WCS, WCS_MJDBEG,  MJDBEG,  0, 0)
+d221 3
+a223 3
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_L, 4, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_B, 5, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_H, 6, 0)
+d225 1
+a225 1
+      STATUS = WCSPUT (WCS, WCS_SPECSYS, SPECSYS, 0, 0)
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.2.1.2
+log
+@Replaced calls to WCSPUT with their type-specific equivalents.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d112 1
+a112 1
+      STATUS = WCSPTI (WCS, WCS_FLAG, -1, 0, 0)
+d195 1
+a195 1
+        STATUS = WCSPTD (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d198 1
+a198 1
+          STATUS = WCSPTD (WCS, WCS_PC, PC(I,J), I, J)
+d201 4
+a204 4
+        STATUS = WCSPTD (WCS, WCS_CDELT, CDELT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CUNIT, CUNIT(I), I, 0)
+        STATUS = WCSPTC (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPTD (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d207 2
+a208 2
+      STATUS = WCSPTD (WCS, WCS_RESTFRQ, RESTFRQ, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_RESTWAV, RESTWAV, 0, 0)
+d210 2
+a211 2
+      STATUS = WCSPTI (WCS, WCS_NPV, 1, 0, 0)
+      STATUS = WCSPTD (WCS, WCS_PV, -1D0, -1, -1)
+d213 1
+a213 1
+      STATUS = WCSPTI (WCS, WCS_VELREF, VELREF, 0, 0)
+d215 2
+a216 2
+      STATUS = WCSPTC (WCS, WCS_DATEAVG, DATEAVG, 0, 0)
+      STATUS = WCSPTC (WCS, WCS_DATEEND, DATEEND, 0, 0)
+d218 2
+a219 2
+      STATUS = WCSPTD (WCS, WCS_BEPOCH,  BEPOCH,  0, 0)
+      STATUS = WCSPTD (WCS, WCS_MJDBEG,  MJDBEG,  0, 0)
+d221 3
+a223 3
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_L, 4, 0)
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_B, 5, 0)
+      STATUS = WCSPTD (WCS, WCS_OBSGEO, OBSGEO_H, 6, 0)
+d225 1
+a225 1
+      STATUS = WCSPTC (WCS, WCS_SPECSYS, SPECSYS, 0, 0)
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.4.1.2 2019/12/31 03:29:14 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.2.1.2 2019/05/10 02:08:35 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.20.1.2 2018/10/19 05:32:58 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d48 10
+a57 7
+      INTEGER   I, J, NAXIS
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N), PC(N,N), RESTFRQ,
+     :          RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEOBS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, NAXIS
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS
+d88 1
+a88 1
+*     N.B. non-standard, corresponding to MJD 35884.04861111
+d90 14
+d118 1
+a118 1
+ 20   FORMAT ('WCSFIX status returns: (',I2,5(',',I2),')',/)
+d177 10
+a186 7
+      INTEGER   I, J, NAXIS, STATUS, WCS(*)
+      DOUBLE PRECISION CDELT(N), CRPIX(N), CRVAL(N),
+     :          PC(N,N), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEOBS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, NAXIS
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS
+d213 13
+a225 1
+      STATUS = WCSPUT (WCS, WCS_DATEOBS, DATEOBS, 0, 0)
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Match changes to twcsfix.c in testing the newly added support for time-
+related keywords.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d48 7
+a54 10
+      INTEGER   I, J, NAXIS, VELREF
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
+d85 1
+a85 1
+*     N.B. non-standard date-time format.
+a86 14
+      DATA DATEBEG /'1957/02/15 01:10:00'/
+      DATA DATEAVG /'1957/02/15 02:10:00'/
+      DATA DATEEND /'1957/02/15 03:10:00'/
+
+      DATA BEPOCH  / 1957.124382563D0/
+      DATA MJDBEG  / 35884.048611D0/
+
+      DATA OBSGEO_L /148.263510D0/
+      DATA OBSGEO_B /-32.998406D0/
+      DATA OBSGEO_H /   411.793D0/
+
+*     For testing SPCFIX.
+      DATA VELREF  /2/
+      DATA SPECSYS /'BARYCENT'/
+d101 1
+a101 1
+ 20   FORMAT ('WCSFIX status returns: (',I2,6(',',I2),')',/)
+d160 7
+a166 10
+      INTEGER   I, J, NAXIS, STATUS, VELREF, WCS(*)
+      DOUBLE PRECISION BEPOCH, CDELT(N), CRPIX(N), CRVAL(N), MJDBEG,
+     :          OBSGEO_B, OBSGEO_H, OBSGEO_L, PC(N,N), RESTFRQ, RESTWAV
+      CHARACTER CTYPE(N)*72, CUNIT(N)*72, DATEAVG*72, DATEBEG*72,
+     :          DATEEND*72, DATEOBS*72, SPECSYS*72
+
+      COMMON /HEADER/ CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV, BEPOCH,
+     :          MJDBEG, OBSGEO_L, OBSGEO_B, OBSGEO_H, NAXIS, VELREF
+      COMMON /HEADCH/ CTYPE, CUNIT, DATEOBS, DATEBEG, DATEAVG, DATEEND,
+     :          SPECSYS
+d193 1
+a193 13
+      STATUS = WCSPUT (WCS, WCS_VELREF, VELREF, 0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_DATEAVG, DATEAVG, 0, 0)
+      STATUS = WCSPUT (WCS, WCS_DATEEND, DATEEND, 0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_BEPOCH,  BEPOCH,  0, 0)
+      STATUS = WCSPUT (WCS, WCS_MJDBEG,  MJDBEG,  0, 0)
+
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_L, 4, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_B, 5, 0)
+      STATUS = WCSPUT (WCS, WCS_OBSGEO, OBSGEO_H, 6, 0)
+
+      STATUS = WCSPUT (WCS, WCS_SPECSYS, SPECSYS, 0, 0)
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.17.1.2 2018/01/10 08:26:53 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.17 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.15.1.2 2017/01/15 04:08:23 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.15 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.12.1.2 2016/01/25 05:21:36 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.12 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.1.1.2 2015/04/08 08:30:53 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+d62 1
+a62 1
+      CHARACTER CTYPES*8
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Bug fix, patch provided by Ole Streicher.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+d62 1
+a62 1
+      CHARACTER CTYPES*9
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.25.1.3 2015/04/03 05:14:25 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.25 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d112 1
+a112 2
+        WRITE (*, 40) STATUS
+ 40     FORMAT (/,'WCSSET ERROR',I2,'.')
+d117 2
+a118 2
+      WRITE (*, 50)
+ 50   FORMAT (/,'------------------------------------',
+d126 1
+a126 2
+        WRITE (*, 60) STATUS
+ 60     FORMAT ('WCSPTR ERROR',I2,'.')
+d132 1
+a132 2
+        WRITE (*, 70) STATUS
+ 70     FORMAT ('WCSSET ERROR',I2,'.')
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Track changes made to the C test program.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.25.1.2 2015/01/06 01:02:37 mcalabre Exp mcalabre $
+d112 2
+a113 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+d118 2
+a119 2
+      WRITE (*, 40)
+ 40   FORMAT (/,'------------------------------------',
+d127 2
+a128 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+d134 2
+a135 1
+        STATUS = WCSPERR(WCS, CHAR(0))
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.20.1.2 2014/03/21 06:41:05 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.20 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.16.1.2 2013/01/29 05:11:18 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.16 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.14.1.1 2012/07/13 10:04:58 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: twcsfix.f,v 4.13.1.2 2012/07/13 03:41:54 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: twcsfix.f,v 4.14 2012/07/13 10:02:42 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d21 5
+a25 11
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+*
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcsfix.f,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d21 7
+a27 1
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: twcsfix.f,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.8.1.4 2012/01/24 05:24:12 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.8 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.7.1.3 2011/08/15 08:00:54 cal103 Exp cal103 $
+d62 11
+a92 8
+
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcsfix.inc'
+      INTEGER   STAT(WCSFIX_NWCS), STATUS
+      CHARACTER CTYPES*8
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+a103 7
+*     Print the unmodified struct.
+      CALL FLUSH(6)
+      STATUS = WCSPRT (WCS)
+      WRITE (*, 20)
+ 20   FORMAT (/,'------------------------------------',
+     :          '------------------------------------')
+
+d106 3
+d110 2
+a111 2
+        WRITE (*, 30) (STAT(I), I=1,WCSFIX_NWCS)
+ 30     FORMAT ('WCSFIX ERROR, status returns: (',(I2,:,','),')')
+d115 7
+d124 3
+a126 1
+      WRITE (*, 20)
+d133 2
+a134 2
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSPTR ERROR',I2,'.')
+d140 2
+a141 2
+        WRITE (*, 50) STATUS
+ 50     FORMAT ('WCSSET ERROR',I2,'.')
+a190 3
+
+*       Translate non-standard units specifications.
+        STATUS = WCSUTRN (7, CUNIT(I))
+a191 1
+
+a203 7
+*     Extract information from the FITS header.
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 30) STATUS
+ 30     FORMAT (/,'WCSSET ERROR',I3,'.')
+      END IF
+
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added a comment in the code reinforcing the necessity for INTEGER arrays
+holding structs to be aligned on a DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a61 11
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'wcs.inc'
+      INCLUDE 'wcsfix.inc'
+      INTEGER   STAT(WCSFIX_NWCS), STATUS
+      CHARACTER CTYPES*8
+      INTEGER   WCS(WCSLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+
+d82 8
+@
+
+
+4.8.1.3
+log
+@Track changes to twcsfix.c.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.8.1.2 2011/08/16 01:34:41 cal103 Exp cal103 $
+d104 7
+a112 3
+      WRITE (*, 20) (STAT(I), I=1,WCSFIX_NWCS)
+ 20   FORMAT ('WCSFIX status returns: (',I2,5(',',I2),')',/)
+
+d114 2
+a115 2
+        WRITE (*, 30) STATUS
+ 30     FORMAT ('WCSFIX ERROR',I2,'.')
+a118 7
+*     Extract information from the FITS header.
+      STATUS = WCSSET (WCS)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 40) STATUS
+ 40     FORMAT (/,'WCSSET ERROR',I2,'.')
+      END IF
+
+d121 1
+a121 3
+      WRITE (*, 50)
+ 50   FORMAT (/,'------------------------------------',
+     :          '------------------------------------')
+d128 2
+a129 2
+        WRITE (*, 60) STATUS
+ 60     FORMAT ('WCSPTR ERROR',I2,'.')
+d135 2
+a136 2
+        WRITE (*, 70) STATUS
+ 70     FORMAT ('WCSSET ERROR',I2,'.')
+d186 3
+d190 1
+d203 7
+@
+
+
+4.8.1.4
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.8.1.3 2011/11/17 05:02:54 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.6.1.3 2011/01/27 01:19:29 cal103 Exp cal103 $
+d45 1
+d47 2
+a48 2
+      PARAMETER (RA  = 265.62209470900*3600D0)
+      PARAMETER (DEC = -28.98849996030*3600D0)
+d102 1
+d116 1
+d137 1
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Call FLUSH so that Fortran output is synchronized with that from the C
+functions that use printf().
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+a100 1
+      CALL FLUSH(6)
+a113 1
+      CALL FLUSH(6)
+a133 1
+      CALL FLUSH(6)
+@
+
+
+4.7.1.3
+log
+@Ensure that precision is not lost when setting RA and DEC in the
+parameter statement.  In an expression like -28.98849996030 * 3600D0
+some compilers (e.g. Sun's f77) treat the first operand as a double-
+precision constant, while others (such as gfortran) treat it as single-
+precision as written.  This may lead to discrepancies in the test output.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.7.1.2 2011/08/12 08:34:26 cal103 Exp cal103 $
+a44 1
+*     CUNITia is set to arcsec below as an additional test.
+d46 2
+a47 2
+      PARAMETER (RA  = 265.62209470900D0 * 3600D0)
+      PARAMETER (DEC = -28.98849996030D0 * 3600D0)
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.6 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d87 2
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp $
+@
+
+
+4.6.1.3
+log
+@Use an EQUIVALENCE to ensure that the WCS array is aligned on a
+DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.6.1.2 2011/01/14 06:38:43 cal103 Exp cal103 $
+a86 2
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (WCS,DUMMY)
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.4.1.2 2010/01/19 03:44:57 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.3.1.3 2009/08/06 02:50:21 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.4 2009/08/06 07:52:43 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: twcsfix.f,v 4.4.1.1 2009/08/10 08:55:07 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+*   This file is part of WCSLIB.
+d8 24
+a31 24
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+*
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: twcsfix.f,v 4.2.1.3 2007/12/03 05:37:50 cal103 Exp cal103 $
+d37 3
+a39 3
+*   TWCSFIX tests the translation routines for non-standard WCS
+*   keyvalues, the WCSFIX suite, and the spectral coordinate translation
+*   routine WCSPTR.
+d107 3
+a109 3
+         WRITE (*, 30) (STAT(I), I=1,WCSFIX_NWCS)
+ 30      FORMAT ('WCSFIX ERROR, status returns: (',(I2,:,','),')')
+         GO TO 999
+d120 3
+a122 3
+         WRITE (*, 40) STATUS
+ 40      FORMAT ('WCSPTR ERROR',I2,'.')
+         GO TO 999
+d127 3
+a129 3
+         WRITE (*, 50) STATUS
+ 50      FORMAT ('WCSSET ERROR',I2,'.')
+         GO TO 999
+d170 1
+a170 1
+         STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d172 3
+a174 3
+         DO 10 J = 1, NAXIS
+            STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+ 10      CONTINUE
+d176 1
+a176 1
+         STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+d178 3
+a180 3
+*        Translate non-standard units specifications.
+         STATUS = WCSUTRN (7, CUNIT(I))
+         STATUS = WCSPUT (WCS, WCS_CUNIT, CUNIT(I), I, 0)
+d182 2
+a183 2
+         STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+         STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d197 2
+a198 2
+         WRITE (*, 30) STATUS
+ 30      FORMAT (/,'WCSSET ERROR',I3,'.')
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+*   $Id: twcsfix.f,v 4.3 2007/12/27 05:42:52 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+* This file is part of WCSLIB.
+d8 24
+a31 24
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+*
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: twcsfix.f,v 4.3.1.1 2007/12/27 13:25:35 cal103 Exp cal103 $
+d37 3
+a39 3
+* TWCSFIX tests the translation routines for non-standard WCS keyvalues,
+* the WCSFIX suite, and the spectral coordinate translation routine
+* WCSPTR.
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d31 1
+a31 1
+* $Id: twcsfix.f,v 4.3.1.2 2009/07/22 07:28:07 cal103 Exp cal103 $
+d107 3
+a109 3
+        WRITE (*, 30) (STAT(I), I=1,WCSFIX_NWCS)
+ 30     FORMAT ('WCSFIX ERROR, status returns: (',(I2,:,','),')')
+        GO TO 999
+d120 3
+a122 3
+        WRITE (*, 40) STATUS
+ 40     FORMAT ('WCSPTR ERROR',I2,'.')
+        GO TO 999
+d127 3
+a129 3
+        WRITE (*, 50) STATUS
+ 50     FORMAT ('WCSSET ERROR',I2,'.')
+        GO TO 999
+d170 1
+a170 1
+        STATUS = WCSPUT (WCS, WCS_CRPIX, CRPIX(I), I, 0)
+d172 3
+a174 3
+        DO 10 J = 1, NAXIS
+          STATUS = WCSPUT (WCS, WCS_PC, PC(I,J), I, J)
+ 10     CONTINUE
+d176 1
+a176 1
+        STATUS = WCSPUT (WCS, WCS_CDELT, CDELT(I), I, 0)
+d178 3
+a180 3
+*       Translate non-standard units specifications.
+        STATUS = WCSUTRN (7, CUNIT(I))
+        STATUS = WCSPUT (WCS, WCS_CUNIT, CUNIT(I), I, 0)
+d182 2
+a183 2
+        STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE(I), I, 0)
+        STATUS = WCSPUT (WCS, WCS_CRVAL, CRVAL(I), I, 0)
+d197 2
+a198 2
+        WRITE (*, 30) STATUS
+ 30     FORMAT (/,'WCSSET ERROR',I3,'.')
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; fixed syntax
+errors reported by the Sun Fortran compiler.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d6 14
+a19 13
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d31 1
+a31 1
+*   $Id: twcsfix.f,v 4.1 2005/08/26 01:52:41 cal103 Exp cal103 $
+d144 3
+a146 3
+* the NAXIS card which must occur near the start of the header, before
+* any of the WCS keywords.  It would then use WCSINI to allocate memory
+* for arrays in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcsfix.f,v 4.2 2005/09/21 13:37:53 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Fixed long lines in the GNU copyright notice.
+Replaced use of the obsolete term "card".
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 13
+a18 13
+*   WCSLIB is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+*
+*   You should have received a copy of the GNU General Public License
+*   along with WCSLIB; if not, write to the Free Software Foundation,
+*   Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d30 1
+a30 1
+*   $Id: twcsfix.f,v 4.2.1.1 2005/12/05 01:37:43 cal103 Exp cal103 $
+d143 3
+a145 3
+* the NAXIS keyword which must occur near the start, before any of the
+* WCS keywords.  It would then use WCSINI to allocate memory for arrays
+* in the WCSPRM "data structure" and set default values.
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d6 4
+a9 6
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 2
+a14 2
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d16 3
+a18 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d30 1
+a30 1
+*   $Id: twcsfix.f,v 4.2.1.2 2007/08/02 06:43:42 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id$
+d57 1
+a57 1
+      COMMON /HEADER/ NAXIS, CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV
+a86 1
+
+d88 4
+a91 3
+ 10   FORMAT (/,'Testing WCSLIB translator for non-standard usage',
+     :        /,'------------------------------------------------',/)
+
+d108 1
+a108 1
+         RETURN
+d121 1
+a121 1
+         RETURN
+d128 1
+a128 1
+         RETURN
+d136 1
+a136 1
+      RETURN
+d159 1
+a159 1
+      COMMON /HEADER/ NAXIS, CRPIX, PC, CDELT, CRVAL, RESTFRQ, RESTWAV
+d178 1
+a178 1
+         STATUS = WCSUTRN (7, CUNIT(I));
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 201
+@

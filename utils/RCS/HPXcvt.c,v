@@ -1,0 +1,7303 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.35;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.20;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.06;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.04;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.13;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.08;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.18;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.05;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.03;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.19;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.27;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.54;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.10;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.03;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.54;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.51;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.48;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.10.08.47.17;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.50.31;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	0.0;
+
+0.0
+date	2007.07.11.00.22.40;	author cal103;	state Exp;
+branches
+	0.0.1.1;
+next	;
+
+0.0.1.1
+date	2007.07.11.00.24.27;	author cal103;	state Exp;
+branches;
+next	0.0.1.2;
+
+0.0.1.2
+date	2007.07.11.01.13.43;	author cal103;	state Exp;
+branches;
+next	0.0.1.3;
+
+0.0.1.3
+date	2007.07.12.01.50.01;	author cal103;	state Exp;
+branches;
+next	0.0.1.4;
+
+0.0.1.4
+date	2007.07.12.08.50.35;	author cal103;	state Exp;
+branches;
+next	0.0.1.5;
+
+0.0.1.5
+date	2007.07.18.08.01.09;	author cal103;	state Exp;
+branches;
+next	0.0.1.6;
+
+0.0.1.6
+date	2007.07.18.08.06.03;	author cal103;	state Exp;
+branches;
+next	0.0.1.7;
+
+0.0.1.7
+date	2007.08.02.05.22.45;	author cal103;	state Exp;
+branches;
+next	0.0.1.8;
+
+0.0.1.8
+date	2007.11.21.06.27.56;	author cal103;	state Exp;
+branches;
+next	0.0.1.9;
+
+0.0.1.9
+date	2007.12.03.05.59.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.26.14;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.28.08.23.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.56.01;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.46.41;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.35.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.28.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.44.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.13.09.35.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.47.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.48;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.03.31;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.15.12.03.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.22.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.01;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.00.37.06;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.27.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.09.35.08;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.14.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.29.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.25.21;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.12.36;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.33.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.10.13.39.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.03.55.41;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.3;
+
+7.6.1.3
+date	2021.07.01.09.21.24;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.4;
+
+7.6.1.4
+date	2021.07.02.13.09.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.43;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.07.26.18;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.05.11.09.38.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Reorganise HEALPix data into a 2-D FITS image HPX coordinate description.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: HPXcvt.c,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+*=============================================================================
+* Usage: HPXcvt [-C<col>] [-c<sys>] [-n|-r] [-q<quad>] [-x<n|s>]
+*               [<infile> [<outfile>]]
+*-----------------------------------------------------------------------------
+* HPXcvt reorganises HEALPix data into a 2-D FITS image.  Refer to the usage
+* notes below.
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: HPXcvt [-C<col>] [-c<sys>] [-n|-r] [-q<quad>] [-x<n|s>]\n"
+"              [<infile> [<outfile>]]\n"
+"\n"
+"HPXcvt reorganises HEALPix data into a 2-D FITS image with HPX coordinate\n"
+"system.  The input data may be stored in a FITS file as a primary image\n"
+"or image extension, or as a binary table extension.  Both NESTED and RING\n"
+"pixel indices are supported.  The input and output files may be omitted or\n"
+"specified as \"-\" to indicate stdin and stdout respectively.\n"
+"\n"
+"Options:\n"
+"  -C<col>      Binary table column number from which to read data,\n"
+"               default 1 (n.b. WMAP exclusion masks are in column 2).\n"
+"\n"
+"  -c<sys>      Specify the coordinate system to be used to label the\n"
+"               output map if the COORDSYS keyword is absent from the input\n"
+"               FITS header.  Recognised values are g (galactic),\n"
+"               e (ecliptic) or q (equatorial).\n"
+"\n"
+"  -n|-r        Assume n(ested) or r(ing) organization if the ORDERING\n"
+"               keyword is absent from the input FITS header.\n"
+"\n"
+"  -q<quad>     Recentre longitude at quad(mod 4) x 90 degrees, where\n"
+"               quad(rant) is an integer.\n"
+"\n"
+"  -x<n|s>      Use a north-polar or south-polar layout (XPH).\n";
+
+#include <ctype.h>
+#include <errno.h>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include <fitsio.h>
+
+#define HEALPIX_NULLVAL (-1.6375e30)
+
+struct healpix {
+  char  *infile;		// Input file.
+  char  *outfile;		// Output file.
+  int   col;			// Input binary table column number.
+  unsigned char crdsys;		// G(alactic), E(cliptic), or (e)Q(uatorial).
+  unsigned char ordering;	// R(ing) or N(ested).
+  unsigned char layout;		// Required output layout,
+				//   0: equatorial (default),
+				//   1: north, or
+				//   2: south.
+  unsigned char quad;		// Recentre longitude on quadrant (modulo 4).
+  int   nside;			// Dimension of a base-resolution pixel.
+  int   padding;		// (Dummy inserted for alignment purposes.)
+  long  npix;			// Total number of pixels in the data array.
+  float *data;			// Pointer to memory allocated to hold data.
+};
+
+int HEALPixIn(struct healpix *hpxdat);
+int HPXout(struct healpix *hpxdat);
+int NESTidx(int nside, int facet, int rotn, int row, long *healidx);
+int RINGidx(int nside, int facet, int rotn, int row, long *healidx);
+int HPXhdr(fitsfile *fptr, struct healpix *hpxdat);
+
+
+int main(int argc, char **argv)
+
+{
+  struct healpix hpxdat;
+  hpxdat.col      = 1;
+  hpxdat.crdsys   = '?';
+  hpxdat.ordering = '?';
+  hpxdat.layout   = 0;
+  hpxdat.quad     = 0;
+
+  // Parse options.
+  int i;
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    int crdsys, layout, quad;
+    if (!argv[i][1]) break;
+
+    switch (argv[i][1]) {
+    case 'C':
+      hpxdat.col = atoi(argv[i]+2);
+      if (hpxdat.col < 1) hpxdat.col = 1;
+      break;
+    case 'c':
+      crdsys = toupper(argv[i][2]);
+      switch (crdsys) {
+      case 'G':
+      case 'E':
+      case 'Q':
+        hpxdat.crdsys = (char)crdsys;
+        break;
+      default:
+        fprintf(stderr, "%s", usage);
+        return 1;
+      };
+      break;
+    case 'n':
+      hpxdat.ordering = 'N';
+      break;
+    case 'q':
+      quad = atoi(argv[i]+2)%4;
+      if (quad < 0) quad += 4;
+      hpxdat.quad = (char)quad;
+      break;
+    case 'r':
+      hpxdat.ordering = 'R';
+      break;
+    case 'x':
+      layout = toupper(argv[i][2]);
+      switch (layout) {
+      case '\0':
+      case 'N':
+        hpxdat.layout = 1;
+        break;
+      case 'S':
+        hpxdat.layout = 2;
+        break;
+      default:
+        fprintf(stderr, "%s", usage);
+        return 1;
+      };
+      break;
+    default:
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  }
+
+  if (i < argc) {
+    hpxdat.infile = argv[i++];
+
+    if (i < argc) {
+      hpxdat.outfile = argv[i++];
+
+      if (i < argc) {
+        fprintf(stderr, "%s", usage);
+        return 1;
+      }
+    } else {
+      hpxdat.outfile = "-";
+    }
+  } else {
+    hpxdat.infile = "-";
+  }
+
+  // Check accessibility of the input file.
+  if (strcmp(hpxdat.infile, "-") != 0 && access(hpxdat.infile, R_OK) == -1) {
+    printf("HPXcvt: Cannot access %s.\n", hpxdat.infile);
+    return 1;
+  }
+
+
+  // Get the HEALPix data as a vector.
+  int status = HEALPixIn(&hpxdat);
+  if (status) {
+    status = 2;
+    goto cleanup;
+  }
+
+  if (hpxdat.ordering == '?') {
+    fprintf(stderr, "WARNING: ORDERING keyword absent, assuming RING.\n");
+    hpxdat.ordering = 'r';
+  }
+
+  printf("HPXcvt: Read 12 * %d^2  = %ld pixels with %s indexing.\n",
+    hpxdat.nside, hpxdat.npix, (hpxdat.ordering == 'N') ? "nested" : "ring");
+
+  // Map and write it out as a FITS image.
+  status = HPXout(&hpxdat);
+  if (status) {
+    status = 3;
+  }
+
+cleanup:
+  if (hpxdat.data) free(hpxdat.data);
+
+  return status;
+}
+
+//----------------------------------------------------------------------------
+
+int HEALPixIn(struct healpix *hpxdat)
+
+{
+  int status = 0;
+  hpxdat->data = 0x0;
+
+  // Open the FITS file and move to the first HDU with NAXIS != 0.
+  fitsfile *fptr = 0x0;
+  if (fits_open_data(&fptr, hpxdat->infile, READONLY, &status)) goto fitserr;
+
+  // Is this the primary HDU or an extension?
+  int hdutype;
+  if (fits_get_hdu_type(fptr, &hdutype, &status)) goto fitserr;
+  if (!(hdutype == IMAGE_HDU || hdutype == BINARY_TBL)) {
+    fprintf(stderr, "ERROR: %s does not contain HEALPix data.\n",
+            hpxdat->infile);
+    return 1;
+  }
+
+
+  // Get the image size.
+  long naxis;
+  if (fits_read_key_lng(fptr, "NAXIS", &naxis, 0x0, &status)) goto fitserr;
+
+  int  nfound;
+  long *naxes = 0x0;
+  naxes = malloc(naxis*sizeof(long));
+  if (fits_read_keys_lng(fptr, "NAXIS", 1, (int)naxis, naxes, &nfound,
+                         &status)) goto cleanup;
+
+  LONGLONG nelem = 0, npix = 0, nrow = 0;
+  if (hdutype == IMAGE_HDU) {
+    // Look for the first non-degenerate image axis.
+    for (int iaxis = 0; iaxis < nfound; iaxis++) {
+      if (naxes[iaxis] > 1) {
+        // Assume for now that it is the total number of pixels.
+        npix = naxes[iaxis];
+        break;
+      }
+    }
+
+  } else if (hdutype == BINARY_TBL) {
+    // Binary tables are simpler.
+    if (nfound > 1) nrow = naxes[1];
+
+    // (Note that fits_get_coltypell() is not available in cfitsio 2.x.)
+    long repeat;
+    if (fits_get_coltype(fptr, hpxdat->col, 0x0, &repeat, 0x0, &status)) {
+      goto cleanup;
+    }
+    nelem = (LONGLONG)repeat;
+  }
+
+  if (!npix && !nrow) {
+    fprintf(stderr, "ERROR: Could not determine image size.\n");
+    goto cleanup;
+  }
+
+
+  // Number of pixels per side of each base-resolution pixel.
+  long nside = 0;
+  if (fits_read_key_lng(fptr, "NSIDE", &nside, 0x0, &status)) {
+    // Some HEALPix files, e.g. SFD dust maps, don't record NSIDE.
+    if (status != KEY_NO_EXIST) goto cleanup;
+    status = 0;
+  }
+
+  // FIRSTPIX and LASTPIX, if present, record the 0-relative pixel numbers of
+  // the first and last pixels stored in the data.
+  long firstpix = -1;
+  if (fits_read_key_lng(fptr, "FIRSTPIX", &firstpix, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto cleanup;
+    status = 0;
+  }
+
+  long lastpix = -1;
+  if (fits_read_key_lng(fptr, "LASTPIX", &lastpix, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto cleanup;
+    status = 0;
+  }
+
+  if (!nside) {
+    // Deduce NSIDE.
+    LONGLONG ipix;
+    if (lastpix >= 0) {
+      // If LASTPIX is present without NSIDE we can only assume it's npix.
+      ipix = lastpix + 1;
+    } else if (hdutype == IMAGE_HDU) {
+      ipix = npix;
+    } else if (hdutype == BINARY_TBL) {
+      ipix = nrow * nelem;
+    } else {
+      // Can't deduce NSIDE.
+      status = 1;
+      goto cleanup;
+    }
+
+    ipix /= 12;
+    nside = lround(sqrt((double)ipix + 0.5));
+  }
+
+  hpxdat->nside = (int)nside;
+  hpxdat->npix  = 12*nside*nside;
+
+  // Ensure that FIRSTPIX and LASTPIX are set.
+  if (firstpix < 0) firstpix = 0;
+  if (lastpix  < 0) lastpix  = hpxdat->npix - 1;
+
+
+  // Any sign of a coordinate system identifier?
+  char crdsys[32];
+  if (fits_read_key_str(fptr, "COORDSYS", crdsys, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto cleanup;
+    status = 0;
+  } else if (crdsys[0] == 'G') {
+    hpxdat->crdsys = 'G';
+  } else if (crdsys[0] == 'E') {
+    hpxdat->crdsys = 'E';
+  } else if (crdsys[0] == 'C') {
+    // ("celestial")
+    hpxdat->crdsys = 'Q';
+  }
+
+  // Nested or ring ordering?
+  char ordering[32];
+  if (fits_read_key_str(fptr, "ORDERING", ordering, 0x0, &status)) {
+    // Some HEALPix files, e.g. SFD dust maps, don't record ORDERING.
+    if (status != KEY_NO_EXIST) goto cleanup;
+    status = 0;
+
+  } else if (strcmp(ordering, "NESTED") == 0) {
+    hpxdat->ordering = 'N';
+
+  } else if (strcmp(ordering, "RING") == 0) {
+    hpxdat->ordering = 'R';
+
+  } else {
+    fprintf(stderr, "WARNING: Invalid ORDERING keyword: %s.\n", ordering);
+  }
+
+
+  // Allocate memory and read the data.
+  if ((hpxdat->data = malloc((hpxdat->npix)*sizeof(float))) == 0x0) {
+    perror("HPXcvt");
+    goto cleanup;
+  }
+
+  float nulval = HEALPIX_NULLVAL;
+  float *datap = hpxdat->data;
+  for (long ipix = 0; ipix < firstpix; ipix++) {
+    *(datap++) = nulval;
+  }
+
+  LONGLONG firstelem = (LONGLONG)1;
+  if (hdutype == IMAGE_HDU) {
+    int anynul;
+    if (fits_read_img_flt(fptr, 0l, firstelem, npix, nulval, datap, &anynul,
+        &status)) goto cleanup;
+
+  } else if (hdutype == BINARY_TBL) {
+    for (LONGLONG irow = 0; irow < nrow; irow++) {
+      int anynul;
+      if (fits_read_col_flt(fptr, hpxdat->col, irow+1, firstelem, nelem,
+          nulval, datap, &anynul, &status)) goto cleanup;
+      datap += nelem;
+    }
+  }
+
+  datap = hpxdat->data + (lastpix + 1);
+  for (long ipix = (lastpix+1); ipix < hpxdat->npix; ipix++) {
+    *(datap++) = nulval;
+  }
+
+cleanup:
+  if (naxes) free(naxes);
+
+fitserr:
+  if (status) {
+    if (hpxdat->data) free(hpxdat->data);
+    hpxdat->data = 0x0;
+
+    fits_report_error(stderr, status);
+  }
+
+  if (fptr) {
+    int fstat = 0;
+    fits_close_file(fptr, &fstat);
+  }
+
+  return status?1:0;
+}
+
+//----------------------------------------------------------------------------
+
+int HPXout(struct healpix *hpxdat)
+
+{
+  // Number of facets on a side of each layout.
+  const int NFACET[] = {5, 4, 4};
+
+  // Arrays that define the facet location and rotation for each recognised
+  // layout.  Bear in mind that these appear to be upside-down, i.e. the top
+  // line contains facet numbers for the bottom row of the output image.
+  // Facets numbered -1 are blank.
+
+                              // Equatorial (diagonal) facet layout.
+  const int FACETS[][5][5] = {{{ 6,  9, -1, -1, -1},
+                               { 1,  5,  8, -1, -1},
+                               {-1,  0,  4, 11, -1},
+                               {-1, -1,  3,  7, 10},
+                               {-1, -1, -1,  2,  6}},
+                              // North polar (X) facet layout.
+                              {{ 8,  4,  4, 11, -1},
+                               { 5,  0,  3,  7, -1},
+                               { 5,  1,  2,  7, -1},
+                               { 9,  6,  6, 10, -1},
+                               {-1, -1, -1, -1, -1}},
+                              // South polar (X) facet layout.
+                              {{ 1,  6,  6,  2, -1},
+                               { 5,  9, 10,  7, -1},
+                               { 5,  8, 11,  7, -1},
+                               { 0,  4,  4,  3, -1},
+                               {-1, -1, -1, -1, -1}}};
+
+  // All facets of the equatorial layout are rotated by +45 degrees with
+  // respect to the normal orientation, i.e. that with the equator running
+  // horizontally.  The rotation recorded for the polar facets is the number
+  // of additional positive (anti-clockwise) 90 degree turns with respect to
+  // the equatorial layout.
+
+                              // Equatorial (diagonal), no facet rotation.
+  const int FROTAT[][5][5] = {{{ 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              // North polar (X) facet rotation.
+                              {{ 3,  3,  0,  0,  0},
+                               { 3,  3,  0,  0,  0},
+                               { 2,  2,  1,  1,  0},
+                               { 2,  2,  1,  1,  0},
+                               { 0,  0,  0,  0,  0}},
+                              // South polar (X) facet rotation.
+                              {{ 1,  1,  2,  2,  0},
+                               { 1,  1,  2,  2,  0},
+                               { 0,  0,  3,  3,  0},
+                               { 0,  0,  3,  3,  0},
+                               { 0,  0,  0,  0,  0}}};
+
+  // Facet halving codes.  0: the facet is whole (or wholly blank),
+  // 1: blanked bottom-right, 2: top-right, 3: top-left, 4: bottom-left.
+  // Positive values mean that the diagonal is included, otherwise not.
+
+                              // Equatorial (diagonal), no facet halving.
+  const int FHALVE[][5][5] = {{{ 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              // North polar (X) facet halving.
+                              {{ 0,  1, -4,  0,  0},
+                               {-3,  0,  0,  2,  0},
+                               { 4,  0,  0, -1,  0},
+                               { 0, -2,  3,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              // South polar (X) facet halving.
+                              {{ 0,  1, -4,  0,  0},
+                               {-3,  0,  0,  2,  0},
+                               { 4,  0,  0, -1,  0},
+                               { 0, -2,  3,  0,  0},
+                               { 0,  0,  0,  0,  0}}};
+
+  int nside  = hpxdat->nside;
+  int layout = hpxdat->layout;
+  int nfacet = NFACET[layout];
+
+  // Create the output FITS file.
+  int  status = 0;
+  long naxes[2];
+  naxes[0] = (long)nfacet * nside;
+  naxes[1] = naxes[0];
+  fitsfile *fptr;
+  if (fits_create_file(&fptr, hpxdat->outfile, &status)) goto fitserr;
+  if (fits_create_img(fptr, FLOAT_IMG, 2, naxes, &status)) goto fitserr;
+
+  // Write WCS keyrecords.
+  if ((status = HPXhdr(fptr, hpxdat))) goto fitserr;
+
+
+  // Allocate arrays.
+  long  *healidx = 0x0;
+  float *row = 0x0;
+  if ((healidx = malloc(nside * sizeof(long)))   == 0x0 ||
+      (row     = malloc(nside * sizeof(float)))  == 0x0) {
+    perror("HPXcvt");
+    goto cleanup;
+  }
+
+  // Loop vertically facet-by-facet.
+  LONGLONG fpixel = 1;
+  LONGLONG group  = 0;
+  LONGLONG nelem  = nside;
+  for (int jfacet = 0; jfacet < nfacet; jfacet++) {
+    // Loop row-by-row.
+    for (int j = 0; j < nside; j++) {
+      // Loop horizontally facet-by-facet.
+      for (int ifacet = 0; ifacet < nfacet; ifacet++) {
+        int facet = FACETS[layout][jfacet][ifacet];
+        int rotn  = FROTAT[layout][jfacet][ifacet];
+        int halve = FHALVE[layout][jfacet][ifacet];
+
+        // Recentre longitude?
+        if (hpxdat->quad && facet >= 0) {
+          if (facet <= 3) {
+            facet += hpxdat->quad;
+            if (facet > 3) facet -= 4;
+          } else if (facet <= 7) {
+            facet += hpxdat->quad;
+            if (facet > 7) facet -= 4;
+          } else {
+            facet += hpxdat->quad;
+            if (facet > 11) facet -= 4;
+          }
+        }
+
+        // Write out the data.
+        if (facet < 0) {
+          // A blank facet.
+          if (fits_write_img_null(fptr, group, fpixel, nelem, &status)) {
+            goto cleanup;
+          }
+
+        } else {
+          if (hpxdat->ordering == 'N') {
+            // Get nested indices.
+            status = NESTidx(nside, facet, rotn, j, healidx);
+          } else {
+            // Get ring indices.
+            status = RINGidx(nside, facet, rotn, j, healidx);
+          }
+
+          // Gather data into the output vector.
+          long *healp = healidx;
+          for (float *rowp = row; rowp < row + nside; rowp++) {
+            *rowp = hpxdat->data[*(healp++)];
+          }
+
+          // Apply blanking to halved facets.
+          float nulval = HEALPIX_NULLVAL;
+          if (halve) {
+            int i1, i2;
+            if (abs(halve) == 1) {
+              // Blank bottom-right.
+              i1 = j;
+              i2 = nside;
+              if (halve > 0) i1++;
+            } else if (abs(halve) == 2) {
+              // Blank top-right.
+              i1 = nside - j;
+              i2 = nside;
+              if (halve < 0) i1--;
+            } else if (abs(halve) == 3) {
+              // Blank top-left.
+              i1 = 0;
+              i2 = j;
+              if (halve < 0) i2++;
+            } else {
+              // Blank bottom-left.
+              i1 = 0;
+              i2 = nside - j;
+              if (halve > 0) i2--;
+            }
+
+            for (float *rowp = row + i1; rowp < row + i2; rowp++) {
+              *rowp = nulval;
+            }
+          }
+
+          // Write out this facet's contribution to this row of the map.
+          if (fits_write_imgnull_flt(fptr, group, fpixel, nelem, row, nulval,
+                                     &status)) {
+            goto cleanup;
+          }
+        }
+
+        fpixel += nelem;
+      }
+    }
+  }
+
+  // Write history.
+  char history[72], *hpe = history + 72;
+  snprintf(history, 72, "Original input file: %s", hpxdat->infile);
+  fits_write_history(fptr, history, &status);
+  snprintf(history, 72, "     Original NSIDE: %d", hpxdat->nside);
+  fits_write_history(fptr, history, &status);
+  snprintf(history, 72, "  Original ordering: %s",
+    (hpxdat->ordering == 'N') ? "NESTED" : "RING");
+  if (hpxdat->ordering == 'r') {
+    char *hp = history + strlen(history);
+    size_t hsize = hpe - hp;
+    strncpy(history, " (assumed)", hsize);
+  }
+  fits_write_history(fptr, history, &status);
+
+
+  // Clean up.
+  free(healidx);
+  free(row);
+  fits_close_file(fptr, &status);
+  status = 0;
+  return 0;
+
+cleanup:
+  if (healidx) free(healidx);
+  if (row)     free(row);
+fitserr:
+  fits_report_error(stderr, status);
+  if (fptr) {
+    status = 0;
+    fits_close_file(fptr, &status);
+  }
+
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+
+// (imap,jmap) are 0-relative pixel coordinates in the output map with origin
+// at the bottom-left corner of the specified facet which is rotated by
+// (45 + rotn * 90) degrees from its natural orientation; imap increases to
+// the right and jmap upwards.
+
+int NESTidx(int nside, int facet, int rotn, int jmap, long *healidx)
+
+{
+  // Nested index (0-relative) of the first pixel in this facet.
+  int h = facet * nside * nside;
+
+  int  nside1 = nside - 1;
+  long *hp = healidx;
+  for (int imap = 0; imap < nside; imap++, hp++) {
+    // (i,j) are 0-relative pixel coordinates with origin in the southern
+    // corner of the facet; i increases to the north-east and j to the
+    // north-west.
+    int i, j;
+    if (rotn == 0) {
+      i = nside1 - imap;
+      j = jmap;
+    } else if (rotn == 1) {
+      i = nside1 - jmap;
+      j = nside1 - imap;
+    } else if (rotn == 2) {
+      i = imap;
+      j = nside1 - jmap;
+    } else if (rotn == 3) {
+      i = jmap;
+      j = imap;
+    }
+
+    *hp = 0;
+    int bit = 1;
+    while (i || j) {
+      if (i & 1) *hp |= bit;
+      bit <<= 1;
+      if (j & 1) *hp |= bit;
+      bit <<= 1;
+      i >>= 1;
+      j >>= 1;
+    }
+
+    *hp += h;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+// (imap,jmap) pixel coordinates are as described above for NESTidx().  This
+// function computes the double-pixelisation index then converts it to the
+// regular ring index.
+
+int RINGidx(int nside, int facet, int rotn, int jmap, long *healidx)
+
+{
+  const int I0[] = { 1,  3, -3, -1,  0,  2,  4, -2,  1,  3, -3, -1};
+  const int J0[] = { 1,  1,  1,  1,  0,  0,  0,  0, -1, -1, -1, -1};
+
+  int n2side = 2 * nside;
+  int n8side = 8 * nside;
+
+  // Double-pixelisation index of the last pixel in the north polar cap.
+  int npole = (n2side - 1) * (n2side - 1) - 1;
+
+  // Double-pixelisation pixel coordinates of the centre of the facet.
+  int i0 = nside * I0[facet];
+  int j0 = nside * J0[facet];
+
+  int  nside1 = nside - 1;
+  long *hp = healidx;
+  for (int imap = 0; imap < nside; imap++, hp++) {
+    // (i,j) are 0-relative, double-pixelisation pixel coordinates.  The
+    // origin is at the intersection of the equator and prime meridian,
+    // i increases to the east (N.B.) and j to the north.
+    int i = 0, j = 0;
+    if (rotn == 0) {
+      i = i0 + nside1 - (jmap + imap);
+      j = j0 + jmap - imap;
+    } else if (rotn == 1) {
+      i = i0 + imap - jmap;
+      j = j0 + nside1 - (imap + jmap);
+    } else if (rotn == 2) {
+      i = i0 + (imap + jmap) - nside1;
+      j = j0 + imap - jmap;
+    } else if (rotn == 3) {
+      i = i0 + jmap - imap;
+      j = j0 + jmap + imap - nside1;
+    }
+
+    // Convert i for counting pixels.
+    if (i < 0) i += n8side;
+    i++;
+
+    if (j > nside) {
+      // North polar regime.
+      if (j == n2side) {
+        *hp = 0;
+      } else {
+        // Number of pixels in a polar facet with this value of j.
+        int npj = 2 * (n2side - j);
+
+        // Index of the last pixel in the row above this.
+        *hp = (long)((npj - 1) * (npj - 1) - 1);
+
+        // Number of pixels in this row in the polar facets before this.
+        *hp += (long)(npj * (i/n2side));
+
+        // Pixel number in this polar facet.
+        *hp += (long)(i%n2side - (j - nside) - 1);
+      }
+
+    } else if (j >= -nside) {
+      // Equatorial regime.
+      *hp = npole + n8side * (nside - j) + i;
+
+    } else {
+      // South polar regime.
+      *hp = 24 * nside * nside + 1;
+
+      if (j > -n2side) {
+        // Number of pixels in a polar facet with this value of j.
+        int npj = 2 * (j + n2side);
+
+        // Total number of pixels in this row or below it.
+        *hp -= (long)((npj + 1) * (npj + 1));
+
+        // Number of pixels in this row in the polar facets before this.
+        *hp += (long)(npj * (i/n2side));
+
+        // Pixel number in this polar facet.
+        *hp += (long)(i%n2side + (nside + j) - 1);
+      }
+    }
+
+    // Convert double-pixelisation index to regular.
+    *hp -= 1;
+    *hp /= 2;
+  }
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+int HPXhdr(fitsfile *fptr, struct healpix *hpxdat)
+
+{
+  int status = 0;
+
+  fits_update_key_log(fptr, "EXTEND", 0,
+    "No FITS extensions are present", &status);
+  fits_write_date(fptr, &status);
+
+  // Set pixel transformation parameters.
+  float crpix1, crpix2;
+  if (hpxdat->layout == 0) {
+    crpix1 = (float)(5 * hpxdat->nside + 1) / 2.0f;
+  } else {
+    crpix1 = (float)(4 * hpxdat->nside + 1) / 2.0f;
+  }
+  crpix2 = crpix1;
+
+  fits_write_key(fptr, TFLOAT, "CRPIX1", &crpix1,
+    "Coordinate reference pixel", &status);
+  fits_write_key(fptr, TFLOAT, "CRPIX2", &crpix2,
+    "Coordinate reference pixel", &status);
+
+  float cos45 = (float)sqrt(2.0) / 2.0f;
+  if (hpxdat->layout == 0) {
+    fits_write_key_flt(fptr, "PC1_1",  cos45, -8,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC1_2",  cos45, -8,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC2_1", -cos45, -8,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC2_2",  cos45, -8,
+      "Transformation matrix element", &status);
+  }
+
+  double cdelt1 = -90.0 / hpxdat->nside / sqrt(2.0);
+  double cdelt2 = -cdelt1;
+  fits_write_key_dbl(fptr, "CDELT1", cdelt1, -8,
+    "[deg] Coordinate increment", &status);
+  fits_write_key_dbl(fptr, "CDELT2", cdelt2, -8,
+    "[deg] Coordinate increment", &status);
+
+
+  // Celestial transformation parameters.
+  char *pcode;
+  if (hpxdat->layout == 0) {
+    pcode = "HPX";
+  } else {
+    pcode = "XPH";
+  }
+
+  char *ctype1, *ctype2, *descr1, *descr2;
+  if (hpxdat->crdsys == 'G') {
+    // Galactic.
+    ctype1 = "GLON";
+    ctype2 = "GLAT";
+    descr1 = "Galactic longitude";
+    descr2 = "Galactic  latitude";
+  } else if (hpxdat->crdsys == 'E') {
+    // Ecliptic, who-knows-what.
+    ctype1 = "ELON";
+    ctype2 = "ELAT";
+    descr1 = "Ecliptic longitude";
+    descr2 = "Ecliptic  latitude";
+  } else if (hpxdat->crdsys == 'Q') {
+    // Equatorial, who-knows-what.
+    ctype1 = "RA--";
+    ctype2 = "DEC-";
+    descr1 = "Right ascension";
+    descr2 = "Declination";
+  } else {
+    // Unknown.
+    ctype1 = "XLON";
+    ctype2 = "XLAT";
+    descr1 = "Longitude";
+    descr2 = " Latitude";
+  }
+
+  char cval[16];
+  snprintf(cval, 16, "%s-%s", ctype1, pcode);
+
+  char comment[64];
+  snprintf(comment, 64, "%s in an %s projection", descr1, pcode);
+  fits_write_key_str(fptr, "CTYPE1", cval, comment, &status);
+  snprintf(cval, 16, "%s-%s", ctype2, pcode);
+  snprintf(comment, 64, "%s in an %s projection", descr2, pcode);
+  fits_write_key_str(fptr, "CTYPE2", cval, comment, &status);
+
+
+  float crval1 = (float)(90 * hpxdat->quad), crval2;
+  if (hpxdat->layout == 0) {
+    crval2  =   0.0f;
+  } else if (hpxdat->layout == 1) {
+    crval1 += 180.0f;
+    crval2  =  90.0f;
+  } else {
+    crval1 += 180.0f;
+    crval2  = -90.0f;
+  }
+  if (360.0f < crval1) crval1 -= 360.0f;
+
+  snprintf(comment, 64, "[deg] %s at the reference point", descr1);
+  fits_write_key(fptr, TFLOAT, "CRVAL1", &crval1, comment, &status);
+  snprintf(comment, 64, "[deg] %s at the reference point", descr2);
+  fits_write_key(fptr, TFLOAT, "CRVAL2", &crval2, comment, &status);
+
+  if (hpxdat->layout) {
+    float lonpole = 180.0f;
+    snprintf(comment, 64, "[deg] Native longitude of the celestial pole");
+    fits_write_key(fptr, TFLOAT, "LONPOLE", &lonpole, comment, &status);
+  }
+
+  if (hpxdat->layout == 0) {
+    fits_write_key_lng(fptr, "PV2_1", (LONGLONG)4,
+      "HPX H parameter (longitude)", &status);
+    fits_write_key_lng(fptr, "PV2_2", (LONGLONG)3,
+      "HPX K parameter  (latitude)", &status);
+  }
+
+  // Commentary.
+  fits_write_record(fptr, " ", &status);
+  if (hpxdat->layout == 0) {
+    fits_write_comment(fptr,
+      "Celestial map with FITS-standard HPX coordinate system generated by",
+      &status);
+  } else {
+    fits_write_comment(fptr,
+      "Celestial map with XPH coordinate system (polar HPX) generated by",
+      &status);
+  }
+
+  fits_write_comment(fptr,
+    "'HPXcvt' which reorganises HEALPix data without interpolation as",
+    &status);
+  fits_write_comment(fptr,
+    "described in \"Mapping on the HEALPix grid\" by Mark Calabretta and",
+    &status);
+  fits_write_comment(fptr,
+    "Boud Roukema.  See http://www.atnf.csiro.au/computing/software/wcs",
+    &status);
+
+  return status;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.7.1.1 2026/05/11 12:18:46 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.6.1.3 2026/05/11 09:38:30 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+d71 14
+a84 14
+  char  *infile;	// Input file.
+  char  *outfile;	// Output file.
+  int   col;		// Input binary table column number.
+  char  crdsys;		// G(alactic), E(cliptic), or (e)Q(uatorial).
+  char  ordering;	// R(ing) or N(ested).
+  char  layout;		// Required output layout,
+                        //   0: equatorial (default),
+                        //   1: north, or
+                        //   2: south.
+  char  quad;		// Recentre longitude on quadrant (modulo 4).
+  int   nside;		// Dimension of a base-resolution pixel.
+  int   padding;	// (Dummy inserted for alignment purposes.)
+  long  npix;		// Total number of pixels in the data array.
+  float *data;		// Pointer to memory allocated to hold data.
+d122 4
+d149 3
+d178 1
+a178 1
+  if (strcmp(hpxdat.infile, "-") && access(hpxdat.infile, R_OK) == -1) {
+d296 1
+d299 1
+a299 1
+      nside = (int)(sqrt((double)((lastpix+1) / 12)) + 0.5);
+d301 1
+a301 1
+      nside = (int)(sqrt((double)(npix / 12)) + 0.5);
+d303 5
+a307 1
+      nside = (int)(sqrt((double)((nrow * nelem) / 12)) + 0.5);
+d309 3
+d492 1
+a492 1
+  naxes[0] = nfacet * nside;
+d604 2
+a605 2
+  char history[72];
+  sprintf(history, "Original input file: %s", hpxdat->infile);
+d607 1
+a607 1
+  sprintf(history, "     Original NSIDE: %d", hpxdat->nside);
+d609 1
+a609 1
+  sprintf(history, "  Original ordering: %s",
+d611 5
+a615 1
+  if (hpxdat->ordering == 'r') strcat(history, " (assumed)");
+d746 1
+a746 1
+        *hp = (npj - 1) * (npj - 1) - 1;
+d749 1
+a749 1
+        *hp += npj * (i/n2side);
+d752 1
+a752 1
+        *hp += i%n2side - (j - nside) - 1;
+d768 1
+a768 1
+        *hp -= (npj + 1) * (npj + 1);
+d771 1
+a771 1
+        *hp += npj * (i/n2side);
+d774 1
+a774 1
+        *hp += i%n2side + (nside + j) - 1;
+d800 1
+a800 1
+    crpix1 = (5 * hpxdat->nside + 1) / 2.0f;
+d802 1
+a802 1
+    crpix1 = (4 * hpxdat->nside + 1) / 2.0f;
+d867 1
+a867 1
+  sprintf(cval, "%s-%s", ctype1, pcode);
+d870 1
+a870 1
+  sprintf(comment, "%s in an %s projection", descr1, pcode);
+d872 2
+a873 2
+  sprintf(cval, "%s-%s", ctype2, pcode);
+  sprintf(comment, "%s in an %s projection", descr2, pcode);
+d877 1
+a877 1
+  float crval1 = 0.0f + 90.0f * hpxdat->quad, crval2;
+d879 1
+a879 1
+    crval2 =   0.0f;
+d889 1
+a889 1
+  sprintf(comment, "[deg] %s at the reference point", descr1);
+d891 1
+a891 1
+  sprintf(comment, "[deg] %s at the reference point", descr2);
+d896 1
+a896 1
+    sprintf(comment, "[deg] Native longitude of the celestial pole");
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Found by clang-tidy:
+ - Catch additional usage errors
+   (bugprone-switch-missing-default-case).
+Inconsequential changes prompted by clang-tidy:
+ - Cast explicitly to prevent implicit casts from int calculations to long
+   (bugprone-implicit-widening-of-multiplication-result).
+ - Use lround() to avoid casting double to integer
+   (bugprone-incorrect-roundings).
+ - Rearranged a calculation to quarantine integer division
+   (bugprone-integer-division).
+ - Cast explicitly to prevent implicit casts from int calculations to float
+   (bugprone-narrowing-conversions).
+ - Converted some char variables to unsigned char to quell a warning
+   (bugprone-signed-char-misuse).
+ - Explicitly test the return value of strcmp() in an if-statement
+   (bugprone-suspicious-string-compare).
+ - Replaced use of sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+ - Converted one instance of strcat() to strncpy()
+   (clang-analyzer-security.insecureAPI.strcpy).
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d71 14
+a84 14
+  char  *infile;		// Input file.
+  char  *outfile;		// Output file.
+  int   col;			// Input binary table column number.
+  unsigned char crdsys;		// G(alactic), E(cliptic), or (e)Q(uatorial).
+  unsigned char ordering;	// R(ing) or N(ested).
+  unsigned char layout;		// Required output layout,
+				//   0: equatorial (default),
+				//   1: north, or
+				//   2: south.
+  unsigned char quad;		// Recentre longitude on quadrant (modulo 4).
+  int   nside;			// Dimension of a base-resolution pixel.
+  int   padding;		// (Dummy inserted for alignment purposes.)
+  long  npix;			// Total number of pixels in the data array.
+  float *data;			// Pointer to memory allocated to hold data.
+a121 3
+      default:
+        fprintf(stderr, "%s", usage);
+        return 1;
+a144 3
+      default:
+        fprintf(stderr, "%s", usage);
+        return 1;
+d171 1
+a171 1
+  if (strcmp(hpxdat.infile, "-") != 0 && access(hpxdat.infile, R_OK) == -1) {
+a288 1
+    LONGLONG ipix;
+d291 1
+a291 1
+      ipix = lastpix + 1;
+d293 1
+a293 1
+      ipix = npix;
+d295 1
+a295 5
+      ipix = nrow * nelem;
+    } else {
+      // Can't deduce NSIDE.
+      status = 1;
+      goto cleanup;
+a296 3
+
+    ipix /= 12;
+    nside = lround(sqrt((double)ipix + 0.5));
+d477 1
+a477 1
+  naxes[0] = (long)nfacet * nside;
+d589 2
+a590 2
+  char history[72], *hpe = history + 72;
+  snprintf(history, 72, "Original input file: %s", hpxdat->infile);
+d592 1
+a592 1
+  snprintf(history, 72, "     Original NSIDE: %d", hpxdat->nside);
+d594 1
+a594 1
+  snprintf(history, 72, "  Original ordering: %s",
+d596 1
+a596 5
+  if (hpxdat->ordering == 'r') {
+    char *hp = history + strlen(history);
+    size_t hsize = hpe - hp;
+    strncpy(history, " (assumed)", hsize);
+  }
+d727 1
+a727 1
+        *hp = (long)((npj - 1) * (npj - 1) - 1);
+d730 1
+a730 1
+        *hp += (long)(npj * (i/n2side));
+d733 1
+a733 1
+        *hp += (long)(i%n2side - (j - nside) - 1);
+d749 1
+a749 1
+        *hp -= (long)((npj + 1) * (npj + 1));
+d752 1
+a752 1
+        *hp += (long)(npj * (i/n2side));
+d755 1
+a755 1
+        *hp += (long)(i%n2side + (nside + j) - 1);
+d781 1
+a781 1
+    crpix1 = (float)(5 * hpxdat->nside + 1) / 2.0f;
+d783 1
+a783 1
+    crpix1 = (float)(4 * hpxdat->nside + 1) / 2.0f;
+d848 1
+a848 1
+  snprintf(cval, 16, "%s-%s", ctype1, pcode);
+d851 1
+a851 1
+  snprintf(comment, 64, "%s in an %s projection", descr1, pcode);
+d853 2
+a854 2
+  snprintf(cval, 16, "%s-%s", ctype2, pcode);
+  snprintf(comment, 64, "%s in an %s projection", descr2, pcode);
+d858 1
+a858 1
+  float crval1 = (float)(90 * hpxdat->quad), crval2;
+d860 1
+a860 1
+    crval2  =   0.0f;
+d870 1
+a870 1
+  snprintf(comment, 64, "[deg] %s at the reference point", descr1);
+d872 1
+a872 1
+  snprintf(comment, 64, "[deg] %s at the reference point", descr2);
+d877 1
+a877 1
+    snprintf(comment, 64, "[deg] Native longitude of the celestial pole");
+@
+
+
+8.6.1.3
+log
+@Fixed a bug in parsing the -c option.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.6.1.2 2026/04/25 07:26:18 mcalabre Exp mcalabre $
+a121 1
+        break;
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: HPXcvt.c,v 8.4.1.2 2025/12/06 13:37:20 mcalabre Exp mcalabre $
+d907 1
+a907 1
+    "Boud Roukema.  See http://www.atnf.csiro.au/people/Mark.Calabretta",
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: HPXcvt.c,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+d907 1
+a907 1
+    "Boud Roukema.  See http://www.atnf.csiro.au/computing/software/wcs",
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.3.1.1 2024/05/13 16:35:41 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.4.1.1 2024/10/28 13:58:43 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.9.1.1 2022/03/25 15:16:41 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.6.1.4 2021/07/02 13:09:43 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.5.1.1 2021/03/20 05:56:43 mcalabre Exp mcalabre $
+a96 1
+  int crdsys, i, layout, quad, status;
+a97 1
+
+d105 1
+d107 1
+d178 4
+a181 2
+  if ((status = HEALPixIn(&hpxdat))) {
+    return 2;
+d193 4
+a196 1
+  if ((status = HPXout(&hpxdat))) return 3;
+d198 1
+d200 2
+a201 1
+  return 0;
+d209 1
+a209 8
+  char   crdsys[32], ordering[32];
+  int    anynul, hdutype, iaxis, nfound, status;
+  long   firstpix, ipix, lastpix, naxis, *naxes = 0x0, nside = 0, repeat;
+  float  *datap, nulval;
+  LONGLONG firstelem, irow, nelem = 0, npix = 0, nrow = 0;
+  fitsfile *fptr;
+
+  status = 0;
+d213 1
+d217 1
+d227 1
+d229 3
+d234 1
+a234 1
+                         &status)) goto fitserr;
+d236 1
+d239 1
+a239 1
+    for (iaxis = 0; iaxis < nfound; iaxis++) {
+d252 1
+d254 1
+a254 1
+      goto fitserr;
+d266 1
+d269 1
+a269 1
+    if (status != KEY_NO_EXIST) goto fitserr;
+d275 1
+a275 1
+  firstpix = -1;
+d277 1
+a277 1
+    if (status != KEY_NO_EXIST) goto fitserr;
+d281 1
+a281 1
+  lastpix = -1;
+d283 1
+a283 1
+    if (status != KEY_NO_EXIST) goto fitserr;
+d308 1
+d310 1
+a310 1
+    if (status != KEY_NO_EXIST) goto fitserr;
+d322 1
+d325 1
+a325 1
+    if (status != KEY_NO_EXIST) goto fitserr;
+d340 1
+a340 1
+  if ((hpxdat->data = malloc((hpxdat->npix)*sizeof(float))) == NULL) {
+d345 3
+a347 3
+  nulval = HEALPIX_NULLVAL;
+  datap = hpxdat->data;
+  for (ipix = 0; ipix < firstpix; ipix++) {
+d351 1
+a351 1
+  firstelem = (LONGLONG)1;
+d353 1
+d355 1
+a355 1
+        &status)) goto fitserr;
+d358 2
+a359 1
+    for (irow = 0; irow < nrow; irow++) {
+d361 1
+a361 1
+          nulval, datap, &anynul, &status)) goto fitserr;
+d367 1
+a367 1
+  for (ipix = (lastpix+1); ipix < hpxdat->npix; ipix++) {
+d371 2
+a372 4
+  // Clean up.
+  fits_close_file(fptr, &status);
+  status = 0;
+  return 0;
+d375 13
+a387 6
+  fits_report_error(stderr, status);
+cleanup:
+  if (naxes) free(naxes);
+  if (hpxdat->data) free(hpxdat->data);
+  hpxdat->data = 0x0;
+  return 1;
+d470 3
+a472 12
+  char  history[72];
+  int   facet, halve, i1, i2, ifacet, j, jfacet, layout, nfacet, nside, rotn,
+        status;
+  long  *healidx = 0x0, *healp, naxes[2];
+  float nulval = HEALPIX_NULLVAL, *row = 0x0, *rowp;
+  LONGLONG fpixel, group, nelem;
+  fitsfile *fptr;
+
+
+  nside  = hpxdat->nside;
+  layout = hpxdat->layout;
+  nfacet = NFACET[layout];
+d475 2
+a476 1
+  status = 0;
+d479 1
+d488 4
+a491 2
+  if ((healidx = malloc(nside * sizeof(long)))   == NULL ||
+      (row     = malloc(nside * sizeof(float)))  == NULL) {
+d497 4
+a500 4
+  fpixel = 1;
+  group  = 0;
+  nelem  = nside;
+  for (jfacet = 0; jfacet < nfacet; jfacet++) {
+d502 1
+a502 1
+    for (j = 0; j < nside; j++) {
+d504 4
+a507 4
+      for (ifacet = 0; ifacet < nfacet; ifacet++) {
+        facet = FACETS[layout][jfacet][ifacet];
+        rotn  = FROTAT[layout][jfacet][ifacet];
+        halve = FHALVE[layout][jfacet][ifacet];
+d527 1
+a527 1
+            goto fitserr;
+d540 2
+a541 2
+          healp = healidx;
+          for (rowp = row; rowp < row + nside; rowp++) {
+d546 1
+d548 1
+d571 1
+a571 1
+            for (rowp = row + i1; rowp < row + i2; rowp++) {
+d579 1
+a579 1
+            goto fitserr;
+d589 1
+d601 2
+a606 2
+fitserr:
+  fits_report_error(stderr, status);
+d610 7
+a629 3
+  int  h, i, imap, j, nside1, bit;
+  long *hp;
+
+d631 1
+a631 1
+  h = facet * nside * nside;
+d633 3
+a635 3
+  nside1 = nside - 1;
+  hp = healidx;
+  for (imap = 0; imap < nside; imap++, hp++) {
+d639 1
+d655 1
+a655 1
+    bit = 1;
+d683 2
+a684 5
+  int  i = 0, i0, imap, j = 0, j0, n2side, n8side, npj, npole, nside1;
+  long *hp;
+
+  n2side = 2 * nside;
+  n8side = 8 * nside;
+d687 1
+a687 1
+  npole = (n2side - 1) * (n2side - 1) - 1;
+d690 2
+a691 2
+  i0 = nside * I0[facet];
+  j0 = nside * J0[facet];
+d693 3
+a695 3
+  nside1 = nside - 1;
+  hp = healidx;
+  for (imap = 0; imap < nside; imap++, hp++) {
+d699 1
+d724 1
+a724 1
+        npj = 2 * (n2side - j);
+d746 1
+a746 1
+        npj = 2 * (j + n2side);
+d772 1
+a772 6
+  char   comment[64], cval[16], *ctype1, *ctype2, *descr1, *descr2, *pcode;
+  int    status;
+  float  cos45, crpix1, crpix2, crval1, crval2, lonpole;
+  double cdelt1, cdelt2;
+
+  status = 0;
+d779 1
+d792 1
+a792 1
+  cos45 = (float)sqrt(2.0) / 2.0f;
+d804 2
+a805 2
+  cdelt1 = -90.0 / hpxdat->nside / sqrt(2.0);
+  cdelt2 = -cdelt1;
+d813 1
+d820 1
+d847 1
+d849 2
+d858 1
+a858 1
+  crval1 = 0.0f + 90.0f * hpxdat->quad;
+d876 1
+a876 1
+    lonpole = 180.0f;
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+d97 1
+d99 1
+a106 1
+  int i;
+a107 1
+    int crdsys, layout, quad;
+d178 1
+a178 2
+  int status = HEALPixIn(&hpxdat);
+  if (status) {
+d191 1
+a191 4
+  status = HPXout(&hpxdat);
+  if (status) {
+    return 3;
+  }
+d202 8
+a209 1
+  int status = 0;
+a212 1
+  fitsfile *fptr;
+a215 1
+  int hdutype;
+a224 1
+  long naxis;
+d226 1
+a226 3
+
+  int  nfound;
+  long *naxes = malloc(naxis*sizeof(long));
+a229 1
+  LONGLONG nelem = 0, npix = 0, nrow = 0;
+d232 1
+a232 1
+    for (int iaxis = 0; iaxis < nfound; iaxis++) {
+a244 1
+    long repeat;
+a257 1
+  long nside = 0;
+d266 1
+a266 1
+  long firstpix = -1;
+d272 1
+a272 1
+  long lastpix = -1;
+a298 1
+  char crdsys[32];
+a311 1
+  char ordering[32];
+d334 3
+a336 3
+  float nulval = HEALPIX_NULLVAL;
+  float *datap = hpxdat->data;
+  for (long ipix = 0; ipix < firstpix; ipix++) {
+d340 1
+a340 1
+  LONGLONG firstelem = (LONGLONG)1;
+a341 1
+    int anynul;
+d346 1
+a346 2
+    for (LONGLONG irow = 0; irow < nrow; irow++) {
+      int anynul;
+d354 1
+a354 1
+  for (long ipix = (lastpix+1); ipix < hpxdat->npix; ipix++) {
+d452 12
+a463 3
+  int nside  = hpxdat->nside;
+  int layout = hpxdat->layout;
+  int nfacet = NFACET[layout];
+d466 1
+a466 2
+  int  status = 0;
+  long naxes[2];
+a468 1
+  fitsfile *fptr;
+a476 2
+  long  *healidx = 0x0;
+  float *row = 0x0;
+d484 4
+a487 4
+  LONGLONG fpixel = 1;
+  LONGLONG group  = 0;
+  LONGLONG nelem  = nside;
+  for (int jfacet = 0; jfacet < nfacet; jfacet++) {
+d489 1
+a489 1
+    for (int j = 0; j < nside; j++) {
+d491 4
+a494 4
+      for (int ifacet = 0; ifacet < nfacet; ifacet++) {
+        int facet = FACETS[layout][jfacet][ifacet];
+        int rotn  = FROTAT[layout][jfacet][ifacet];
+        int halve = FHALVE[layout][jfacet][ifacet];
+d527 2
+a528 2
+          long *healp = healidx;
+          for (float *rowp = row; rowp < row + nside; rowp++) {
+a532 1
+          float nulval = HEALPIX_NULLVAL;
+a533 1
+            int i1, i2;
+d556 1
+a556 1
+            for (float *rowp = row + i1; rowp < row + i2; rowp++) {
+a573 1
+  char history[72];
+d607 3
+d611 1
+a611 1
+  int h = facet * nside * nside;
+d613 3
+a615 3
+  int  nside1 = nside - 1;
+  long *hp = healidx;
+  for (int imap = 0; imap < nside; imap++, hp++) {
+a618 1
+    int i, j;
+d634 1
+a634 1
+    int bit = 1;
+d662 5
+a666 2
+  int n2side = 2 * nside;
+  int n8side = 8 * nside;
+d669 1
+a669 1
+  int npole = (n2side - 1) * (n2side - 1) - 1;
+d672 2
+a673 2
+  int i0 = nside * I0[facet];
+  int j0 = nside * J0[facet];
+d675 3
+a677 3
+  int  nside1 = nside - 1;
+  long *hp = healidx;
+  for (int imap = 0; imap < nside; imap++, hp++) {
+a680 1
+    int i = 0, j = 0;
+d705 1
+a705 1
+        int npj = 2 * (n2side - j);
+d727 1
+a727 1
+        int npj = 2 * (j + n2side);
+d753 6
+a758 1
+  int status = 0;
+a764 1
+  float crpix1, crpix2;
+d777 1
+a777 1
+  float cos45 = (float)sqrt(2.0) / 2.0f;
+d789 2
+a790 2
+  double cdelt1 = -90.0 / hpxdat->nside / sqrt(2.0);
+  double cdelt2 = -cdelt1;
+a797 1
+  char *pcode;
+a803 1
+  char *ctype1, *ctype2, *descr1, *descr2;
+a829 1
+  char cval[16];
+a830 2
+
+  char comment[64];
+d838 1
+a838 1
+  float crval1 = 0.0f + 90.0f * hpxdat->quad, crval2;
+d856 1
+a856 1
+    float lonpole = 180.0f;
+@
+
+
+7.6.1.3
+log
+@Cleanup operations in HEALPixIn() and HPXout() needed reworking following
+the altered placement of variable definitions at 7.6.1.2.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.6.1.2 2021/07/01 03:55:41 mcalabre Exp mcalabre $
+d228 1
+a228 2
+  long *naxes = 0x0;
+  naxes = malloc(naxis*sizeof(long));
+d230 1
+a230 1
+                         &status)) goto cleanup;
+d250 1
+a250 1
+      goto cleanup;
+d265 1
+a265 1
+    if (status != KEY_NO_EXIST) goto cleanup;
+d273 1
+a273 1
+    if (status != KEY_NO_EXIST) goto cleanup;
+d279 1
+a279 1
+    if (status != KEY_NO_EXIST) goto cleanup;
+d306 1
+a306 1
+    if (status != KEY_NO_EXIST) goto cleanup;
+d321 1
+a321 1
+    if (status != KEY_NO_EXIST) goto cleanup;
+d351 1
+a351 1
+        &status)) goto cleanup;
+d357 1
+a357 1
+          nulval, datap, &anynul, &status)) goto cleanup;
+d372 2
+a377 3
+fitserr:
+  fits_report_error(stderr, status);
+
+d518 1
+a518 1
+            goto cleanup;
+d570 1
+a570 1
+            goto cleanup;
+d596 2
+a600 3
+fitserr:
+  fits_report_error(stderr, status);
+
+@
+
+
+7.6.1.4
+log
+@Reworked exit handling in main(), HEALPixIn(), and HPXout().
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.6.1.3 2021/07/01 09:21:24 mcalabre Exp mcalabre $
+d180 1
+a180 2
+    status = 2;
+    goto cleanup;
+d194 1
+a194 1
+    status = 3;
+a196 1
+cleanup:
+d198 1
+a198 2
+
+  return status;
+d210 1
+a210 1
+  fitsfile *fptr = 0x0;
+d337 1
+a337 1
+  if ((hpxdat->data = malloc((hpxdat->npix)*sizeof(float))) == 0x0) {
+d368 5
+d375 2
+a376 1
+
+d378 1
+a378 11
+  if (status) {
+    if (hpxdat->data) free(hpxdat->data);
+    hpxdat->data = 0x0;
+
+    fits_report_error(stderr, status);
+  }
+
+  if (fptr) {
+    int fstat = 0;
+    fits_close_file(fptr, &fstat);
+  }
+d380 1
+a380 1
+  return status?1:0;
+d483 2
+a484 2
+  if ((healidx = malloc(nside * sizeof(long)))   == 0x0 ||
+      (row     = malloc(nside * sizeof(float)))  == 0x0) {
+a593 2
+  free(healidx);
+  free(row);
+a602 4
+  if (fptr) {
+    status = 0;
+    fits_close_file(fptr, &status);
+  }
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.4.1.2 2021/03/10 13:39:03 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.3.1.4 2021/01/28 12:33:07 mcalabre Exp mcalabre $
+d24 3
+a26 1
+*
+a28 1
+*
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Minor changes to the prologue to make all utilities consistent in style.
+@
+text
+@d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d24 1
+a24 3
+* Usage: HPXcvt [-C<col>] [-c<sys>] [-n|-r] [-q<quad>] [-x<n|s>]
+*               [<infile> [<outfile>]]
+*-----------------------------------------------------------------------------
+d27 1
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: HPXcvt.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d70 14
+a83 14
+  char  *infile;	/* Input file.                                */
+  char  *outfile;	/* Output file.                               */
+  int   col;		/* Input binary table column number.          */
+  char  crdsys;		/* G(alactic), E(cliptic), or (e)Q(uatorial). */
+  char  ordering;	/* R(ing) or N(ested).                        */
+  char  layout;		/* Required output layout,                    */
+                        /*   0: equatorial (default),                 */
+                        /*   1: north, or                             */
+                        /*   2: south.                                */
+  char  quad;		/* Recentre longitude on quadrant (modulo 4). */
+  int   nside;		/* Dimension of a base-resolution pixel.      */
+  int   padding;	/* (Dummy inserted for alignment purposes.)   */
+  long  npix;		/* Total number of pixels in the data array.  */
+  float *data;		/* Pointer to memory allocated to hold data.  */
+d105 1
+a105 1
+  /* Parse options. */
+d169 1
+a169 1
+  /* Check accessibility of the input file. */
+d176 1
+a176 1
+  /* Get the HEALPix data as a vector. */
+d189 1
+a189 1
+  /* Map and write it out as a FITS image. */
+d196 1
+a196 1
+/*--------------------------------------------------------------------------*/
+d211 1
+a211 1
+  /* Open the FITS file and move to the first HDU with NAXIS != 0. */
+d214 1
+a214 1
+  /* Is this the primary HDU or an extension? */
+d223 1
+a223 1
+  /* Get the image size. */
+d230 1
+a230 1
+    /* Look for the first non-degenerate image axis. */
+d233 1
+a233 1
+        /* Assume for now that it is the total number of pixels. */
+d240 1
+a240 1
+    /* Binary tables are simpler. */
+d243 1
+a243 1
+    /* (Note that fits_get_coltypell() is not available in cfitsio 2.x.) */
+d256 1
+a256 1
+  /* Number of pixels per side of each base-resolution pixel. */
+d258 1
+a258 1
+    /* Some HEALPix files, e.g. SFD dust maps, don't record NSIDE. */
+d263 2
+a264 2
+  /* FIRSTPIX and LASTPIX, if present, record the 0-relative pixel numbers of
+   * the first and last pixels stored in the data. */
+d278 1
+a278 1
+    /* Deduce NSIDE. */
+d280 1
+a280 1
+      /* If LASTPIX is present without NSIDE we can only assume it's npix. */
+d292 1
+a292 1
+  /* Ensure that FIRSTPIX and LASTPIX are set. */
+d297 1
+a297 1
+  /* Any sign of a coordinate system identifier? */
+d306 1
+a306 1
+    /* ("celestial") */
+d310 1
+a310 1
+  /* Nested or ring ordering? */
+d312 1
+a312 1
+    /* Some HEALPix files, e.g. SFD dust maps, don't record ORDERING. */
+d327 1
+a327 1
+  /* Allocate memory and read the data. */
+d357 1
+a357 1
+  /* Clean up. */
+d371 1
+a371 1
+/*--------------------------------------------------------------------------*/
+d376 1
+a376 1
+  /* Number of facets on a side of each layout. */
+d379 4
+a382 4
+  /* Arrays that define the facet location and rotation for each recognised
+   * layout.  Bear in mind that these appear to be upside-down, i.e. the top
+   * line contains facet numbers for the bottom row of the output image.
+   * Facets numbered -1 are blank. */
+d384 1
+a384 1
+                              /* Equatorial (diagonal) facet layout. */
+d390 1
+a390 1
+                              /* North polar (X) facet layout. */
+d396 1
+a396 1
+                              /* South polar (X) facet layout. */
+d403 5
+a407 5
+  /* All facets of the equatorial layout are rotated by +45 degrees with
+   * respect to the normal orientation, i.e. that with the equator running
+   * horizontally.  The rotation recorded for the polar facets is the number
+   * of additional positive (anti-clockwise) 90 degree turns with respect to
+   * the equatorial layout. */
+d409 1
+a409 1
+                              /* Equatorial (diagonal), no facet rotation. */
+d415 1
+a415 1
+                              /* North polar (X) facet rotation. */
+d421 1
+a421 1
+                              /* South polar (X) facet rotation. */
+d428 3
+a430 3
+  /* Facet halving codes.  0: the facet is whole (or wholly blank),
+   * 1: blanked bottom-right, 2: top-right, 3: top-left, 4: bottom-left.
+   * Positive values mean that the diagonal is included, otherwise not. */
+d432 1
+a432 1
+                              /* Equatorial (diagonal), no facet halving. */
+d438 1
+a438 1
+                              /* North polar (X) facet halving. */
+d444 1
+a444 1
+                              /* South polar (X) facet halving. */
+d464 1
+a464 1
+  /* Create the output FITS file. */
+d471 1
+a471 1
+  /* Write WCS keyrecords. */
+d475 1
+a475 1
+  /* Allocate arrays. */
+d482 1
+a482 1
+  /* Loop vertically facet-by-facet. */
+d487 1
+a487 1
+    /* Loop row-by-row. */
+d489 1
+a489 1
+      /* Loop horizontally facet-by-facet. */
+d495 1
+a495 1
+        /* Recentre longitude? */
+d509 1
+a509 1
+        /* Write out the data. */
+d511 1
+a511 1
+          /* A blank facet. */
+d518 1
+a518 1
+            /* Get nested indices. */
+d521 1
+a521 1
+            /* Get ring indices. */
+d525 1
+a525 1
+          /* Gather data into the output vector. */
+d531 1
+a531 1
+          /* Apply blanking to halved facets. */
+d534 1
+a534 1
+              /* Blank bottom-right. */
+d539 1
+a539 1
+              /* Blank top-right. */
+d544 1
+a544 1
+              /* Blank top-left. */
+d549 1
+a549 1
+              /* Blank bottom-left. */
+d560 1
+a560 1
+          /* Write out this facet's contribution to this row of the map. */
+d572 1
+a572 1
+  /* Write history. */
+d583 1
+a583 1
+  /* Clean up. */
+d596 1
+a596 1
+/*--------------------------------------------------------------------------*/
+d598 4
+a601 4
+/* (imap,jmap) are 0-relative pixel coordinates in the output map with origin
+ * at the bottom-left corner of the specified facet which is rotated by
+ * (45 + rotn * 90) degrees from its natural orientation; imap increases to
+ * the right and jmap upwards. */
+d609 1
+a609 1
+  /* Nested index (0-relative) of the first pixel in this facet. */
+d615 3
+a617 3
+    /* (i,j) are 0-relative pixel coordinates with origin in the southern
+     * corner of the facet; i increases to the north-east and j to the
+     * north-west. */
+d649 1
+a649 1
+/*--------------------------------------------------------------------------*/
+d651 3
+a653 3
+/* (imap,jmap) pixel coordinates are as described above for NESTidx().  This
+ * function computes the double-pixelisation index then converts it to the
+ * regular ring index. */
+d667 1
+a667 1
+  /* Double-pixelisation index of the last pixel in the north polar cap. */
+d670 1
+a670 1
+  /* Double-pixelisation pixel coordinates of the centre of the facet. */
+d677 3
+a679 3
+    /* (i,j) are 0-relative, double-pixelisation pixel coordinates.  The
+     * origin is at the intersection of the equator and prime meridian,
+     * i increases to the east (N.B.) and j to the north. */
+d694 1
+a694 1
+    /* Convert i for counting pixels. */
+d699 1
+a699 1
+      /* North polar regime. */
+d703 1
+a703 1
+        /* Number of pixels in a polar facet with this value of j. */
+d706 1
+a706 1
+        /* Index of the last pixel in the row above this. */
+d709 1
+a709 1
+        /* Number of pixels in this row in the polar facets before this. */
+d712 1
+a712 1
+        /* Pixel number in this polar facet. */
+d717 1
+a717 1
+      /* Equatorial regime. */
+d721 1
+a721 1
+      /* South polar regime. */
+d725 1
+a725 1
+        /* Number of pixels in a polar facet with this value of j. */
+d728 1
+a728 1
+        /* Total number of pixels in this row or below it. */
+d731 1
+a731 1
+        /* Number of pixels in this row in the polar facets before this. */
+d734 1
+a734 1
+        /* Pixel number in this polar facet. */
+d739 1
+a739 1
+    /* Convert double-pixelisation index to regular. */
+d747 1
+a747 1
+/*--------------------------------------------------------------------------*/
+d763 1
+a763 1
+  /* Set pixel transformation parameters. */
+d796 1
+a796 1
+  /* Celestial transformation parameters. */
+d804 1
+a804 1
+    /* Galactic. */
+d810 1
+a810 1
+    /* Ecliptic, who-knows-what. */
+d816 1
+a816 1
+    /* Equatorial, who-knows-what. */
+d822 1
+a822 1
+    /* Unknown. */
+d867 1
+a867 1
+  /* Commentary. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d73 14
+a86 14
+  char  *infile;	// Input file.
+  char  *outfile;	// Output file.
+  int   col;		// Input binary table column number.
+  char  crdsys;		// G(alactic), E(cliptic), or (e)Q(uatorial).
+  char  ordering;	// R(ing) or N(ested).
+  char  layout;		// Required output layout,
+                        //   0: equatorial (default),
+                        //   1: north, or
+                        //   2: south.
+  char  quad;		// Recentre longitude on quadrant (modulo 4).
+  int   nside;		// Dimension of a base-resolution pixel.
+  int   padding;	// (Dummy inserted for alignment purposes.)
+  long  npix;		// Total number of pixels in the data array.
+  float *data;		// Pointer to memory allocated to hold data.
+d108 1
+a108 1
+  // Parse options.
+d172 1
+a172 1
+  // Check accessibility of the input file.
+d179 1
+a179 1
+  // Get the HEALPix data as a vector.
+d192 1
+a192 1
+  // Map and write it out as a FITS image.
+d199 1
+a199 1
+//----------------------------------------------------------------------------
+d214 1
+a214 1
+  // Open the FITS file and move to the first HDU with NAXIS != 0.
+d217 1
+a217 1
+  // Is this the primary HDU or an extension?
+d226 1
+a226 1
+  // Get the image size.
+d233 1
+a233 1
+    // Look for the first non-degenerate image axis.
+d236 1
+a236 1
+        // Assume for now that it is the total number of pixels.
+d243 1
+a243 1
+    // Binary tables are simpler.
+d246 1
+a246 1
+    // (Note that fits_get_coltypell() is not available in cfitsio 2.x.)
+d259 1
+a259 1
+  // Number of pixels per side of each base-resolution pixel.
+d261 1
+a261 1
+    // Some HEALPix files, e.g. SFD dust maps, don't record NSIDE.
+d266 2
+a267 2
+  // FIRSTPIX and LASTPIX, if present, record the 0-relative pixel numbers of
+  // the first and last pixels stored in the data.
+d281 1
+a281 1
+    // Deduce NSIDE.
+d283 1
+a283 1
+      // If LASTPIX is present without NSIDE we can only assume it's npix.
+d295 1
+a295 1
+  // Ensure that FIRSTPIX and LASTPIX are set.
+d300 1
+a300 1
+  // Any sign of a coordinate system identifier?
+d309 1
+a309 1
+    // ("celestial")
+d313 1
+a313 1
+  // Nested or ring ordering?
+d315 1
+a315 1
+    // Some HEALPix files, e.g. SFD dust maps, don't record ORDERING.
+d330 1
+a330 1
+  // Allocate memory and read the data.
+d360 1
+a360 1
+  // Clean up.
+d374 1
+a374 1
+//----------------------------------------------------------------------------
+d379 1
+a379 1
+  // Number of facets on a side of each layout.
+d382 4
+a385 4
+  // Arrays that define the facet location and rotation for each recognised
+  // layout.  Bear in mind that these appear to be upside-down, i.e. the top
+  // line contains facet numbers for the bottom row of the output image.
+  // Facets numbered -1 are blank.
+d387 1
+a387 1
+                              // Equatorial (diagonal) facet layout.
+d393 1
+a393 1
+                              // North polar (X) facet layout.
+d399 1
+a399 1
+                              // South polar (X) facet layout.
+d406 5
+a410 5
+  // All facets of the equatorial layout are rotated by +45 degrees with
+  // respect to the normal orientation, i.e. that with the equator running
+  // horizontally.  The rotation recorded for the polar facets is the number
+  // of additional positive (anti-clockwise) 90 degree turns with respect to
+  // the equatorial layout.
+d412 1
+a412 1
+                              // Equatorial (diagonal), no facet rotation.
+d418 1
+a418 1
+                              // North polar (X) facet rotation.
+d424 1
+a424 1
+                              // South polar (X) facet rotation.
+d431 3
+a433 3
+  // Facet halving codes.  0: the facet is whole (or wholly blank),
+  // 1: blanked bottom-right, 2: top-right, 3: top-left, 4: bottom-left.
+  // Positive values mean that the diagonal is included, otherwise not.
+d435 1
+a435 1
+                              // Equatorial (diagonal), no facet halving.
+d441 1
+a441 1
+                              // North polar (X) facet halving.
+d447 1
+a447 1
+                              // South polar (X) facet halving.
+d467 1
+a467 1
+  // Create the output FITS file.
+d474 1
+a474 1
+  // Write WCS keyrecords.
+d478 1
+a478 1
+  // Allocate arrays.
+d485 1
+a485 1
+  // Loop vertically facet-by-facet.
+d490 1
+a490 1
+    // Loop row-by-row.
+d492 1
+a492 1
+      // Loop horizontally facet-by-facet.
+d498 1
+a498 1
+        // Recentre longitude?
+d512 1
+a512 1
+        // Write out the data.
+d514 1
+a514 1
+          // A blank facet.
+d521 1
+a521 1
+            // Get nested indices.
+d524 1
+a524 1
+            // Get ring indices.
+d528 1
+a528 1
+          // Gather data into the output vector.
+d534 1
+a534 1
+          // Apply blanking to halved facets.
+d537 1
+a537 1
+              // Blank bottom-right.
+d542 1
+a542 1
+              // Blank top-right.
+d547 1
+a547 1
+              // Blank top-left.
+d552 1
+a552 1
+              // Blank bottom-left.
+d563 1
+a563 1
+          // Write out this facet's contribution to this row of the map.
+d575 1
+a575 1
+  // Write history.
+d586 1
+a586 1
+  // Clean up.
+d599 1
+a599 1
+//----------------------------------------------------------------------------
+d601 4
+a604 4
+// (imap,jmap) are 0-relative pixel coordinates in the output map with origin
+// at the bottom-left corner of the specified facet which is rotated by
+// (45 + rotn * 90) degrees from its natural orientation; imap increases to
+// the right and jmap upwards.
+d612 1
+a612 1
+  // Nested index (0-relative) of the first pixel in this facet.
+d618 3
+a620 3
+    // (i,j) are 0-relative pixel coordinates with origin in the southern
+    // corner of the facet; i increases to the north-east and j to the
+    // north-west.
+d652 1
+a652 1
+//----------------------------------------------------------------------------
+d654 3
+a656 3
+// (imap,jmap) pixel coordinates are as described above for NESTidx().  This
+// function computes the double-pixelisation index then converts it to the
+// regular ring index.
+d670 1
+a670 1
+  // Double-pixelisation index of the last pixel in the north polar cap.
+d673 1
+a673 1
+  // Double-pixelisation pixel coordinates of the centre of the facet.
+d680 3
+a682 3
+    // (i,j) are 0-relative, double-pixelisation pixel coordinates.  The
+    // origin is at the intersection of the equator and prime meridian,
+    // i increases to the east (N.B.) and j to the north.
+d697 1
+a697 1
+    // Convert i for counting pixels.
+d702 1
+a702 1
+      // North polar regime.
+d706 1
+a706 1
+        // Number of pixels in a polar facet with this value of j.
+d709 1
+a709 1
+        // Index of the last pixel in the row above this.
+d712 1
+a712 1
+        // Number of pixels in this row in the polar facets before this.
+d715 1
+a715 1
+        // Pixel number in this polar facet.
+d720 1
+a720 1
+      // Equatorial regime.
+d724 1
+a724 1
+      // South polar regime.
+d728 1
+a728 1
+        // Number of pixels in a polar facet with this value of j.
+d731 1
+a731 1
+        // Total number of pixels in this row or below it.
+d734 1
+a734 1
+        // Number of pixels in this row in the polar facets before this.
+d737 1
+a737 1
+        // Pixel number in this polar facet.
+d742 1
+a742 1
+    // Convert double-pixelisation index to regular.
+d750 1
+a750 1
+//----------------------------------------------------------------------------
+d766 1
+a766 1
+  // Set pixel transformation parameters.
+d799 1
+a799 1
+  // Celestial transformation parameters.
+d807 1
+a807 1
+    // Galactic.
+d813 1
+a813 1
+    // Ecliptic, who-knows-what.
+d819 1
+a819 1
+    // Equatorial, who-knows-what.
+d825 1
+a825 1
+    // Unknown.
+d870 1
+a870 1
+  // Commentary.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: HPXcvt.c,v 7.3.1.2 2020/08/17 11:25:21 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: HPXcvt.c,v 7.3.1.3 2021/01/19 14:12:36 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 7.1.1.1 2019/12/31 13:28:20 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.4.1.2 2019/12/31 03:29:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.2.1.2 2019/05/10 02:14:31 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.18.1.2 2018/07/25 09:35:08 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.19 2018/07/26 15:37:06 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.17.1.3 2018/01/10 08:27:45 mcalabre Exp mcalabre $
+d58 1
+a58 1
+"  -x<n|s>      Use a north-polar or south-polar layout.\n";
+d208 1
+a208 1
+  LONGLONG firstelem, irow, nelem, npix = 0, nrow = 0;
+d285 1
+a285 1
+    } else if (npix) {
+d287 1
+a287 1
+    } else if (nrow) {
+d664 1
+a664 1
+  int  i, i0, imap, j, j0, n2side, n8side, npj, npole, nside1;
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@In HEALPixIn() and RINGidx(), avert nuisance compiler warnings about possible
+use of uninitialized variables (gcc -Wmaybe-uninitialized).
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d58 1
+a58 1
+"  -x<n|s>      Use a north-polar or south-polar layout (XPH).\n";
+d208 1
+a208 1
+  LONGLONG firstelem, irow, nelem = 0, npix = 0, nrow = 0;
+d285 1
+a285 1
+    } else if (hdutype == IMAGE_HDU) {
+d287 1
+a287 1
+    } else if (hdutype == BINARY_TBL) {
+d664 1
+a664 1
+  int  i = 0, i0, imap, j = 0, j0, n2side, n8side, npj, npole, nside1;
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.16.1.1 2017/01/15 04:29:04 mcalabre Exp mcalabre $
+d84 1
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Inserted padding explicitly in the healpix struct for alignment purposes.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.17.1.1 2017/09/18 08:46:01 mcalabre Exp mcalabre $
+a83 1
+  int   padding;	/* (Dummy inserted for alignment purposes.)   */
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.17.1.2 2017/12/05 00:37:06 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.15.1.2 2017/01/15 04:08:24 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.16 2017/01/15 04:25:04 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.14.1.1 2016/02/07 10:52:49 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.15.1.1 2016/04/05 12:58:39 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.13.1.1 2016/01/26 08:54:36 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.12.1.2 2016/01/25 05:22:53 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.11.1.1 2015/10/18 09:16:31 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.12 2015/11/15 02:13:03 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.10.1.1 2015/10/09 08:22:40 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.11 2015/10/18 09:13:08 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.9.1.1 2015/07/21 09:28:12 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.10 2015/10/09 08:19:18 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.8.1.1 2015/07/08 11:07:23 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.9 2015/07/21 09:20:05 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.7.1.1 2015/06/29 02:47:28 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.8 2015/07/08 11:04:03 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.6.1.1 2015/06/14 07:14:49 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.7 2015/06/29 02:44:19 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.5.1.1 2015/05/05 13:21:05 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.6 2015/06/14 07:11:27 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.4.1.1 2015/04/21 14:44:32 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.5 2015/05/05 13:16:34 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.3.1.1 2015/04/21 02:54:06 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.4 2015/04/21 14:41:08 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.2.1.1 2015/04/15 12:39:19 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.3 2015/04/21 02:50:54 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.2 2015/04/15 12:35:10 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.25.1.3 2015/03/15 12:03:42 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 5.0 2015/04/05 12:25:03 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+d858 1
+a858 1
+    sprintf(comment, "[deg] Native longitude of the celestial pole", descr1);
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.25.1.1 2014/12/14 14:32:48 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@In HPXhdr(), removed a redundant argument from the sprintf() for LONPOLE.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.25.1.2 2015/01/06 01:03:31 mcalabre Exp mcalabre $
+d858 1
+a858 1
+    sprintf(comment, "[deg] Native longitude of the celestial pole");
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.23 2014/05/13 05:50:54 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.21.1.1 2014/03/24 05:15:31 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.20.1.2 2014/03/21 06:47:23 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.20 2013/12/18 05:42:51 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.18.1.1 2013/07/13 10:02:40 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.17.1.2 2013/07/13 09:35:35 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.16.1.2 2013/01/29 05:11:44 cal103 Exp cal103 $
+d139 1
+d756 1
+a756 1
+  float  crpix1, crpix2, crval1, crval2;
+d778 1
+d780 1
+a780 1
+    fits_write_key_flt(fptr, "PC1_1",  0.5f, -1,
+d782 1
+a782 1
+    fits_write_key_flt(fptr, "PC1_2",  0.5f, -1,
+d784 1
+a784 1
+    fits_write_key_flt(fptr, "PC2_1", -0.5f, -1,
+d786 1
+a786 1
+    fits_write_key_flt(fptr, "PC2_2",  0.5f, -1,
+d790 1
+a790 1
+  cdelt1 = -90.0 / hpxdat->nside;
+d843 2
+a844 1
+    crval2 =  90.0f;
+d846 2
+a847 1
+    crval2 = -90.0f;
+d849 1
+d856 6
+d877 1
+a877 1
+      "Celestial map with experimental XPH coordinate system generated by",
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Fixed the axis scaling (CDELT1 and CDELT2) in the XPH header, and set the
+PCi_ja matrix in the HPX header to a pure 45 degree rotation with
+appropriate adjustment of CDELT1 and CDELT2 (matching XPH).  Also set
+LONPOLE to 180 deg in the XPH header with adjustment of CRVAL1 as
+recommended in the errata.  Modified the FITS header comment for XPH -
+it is no longer "experimental".  Also, accept the '-x' option as
+equivalent to '-xn'.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+a138 1
+      case '\0':
+d755 1
+a755 1
+  float  cos45, crpix1, crpix2, crval1, crval2, lonpole;
+a776 1
+  cos45 = (float)sqrt(2.0) / 2.0f;
+d778 1
+a778 1
+    fits_write_key_flt(fptr, "PC1_1",  cos45, -8,
+d780 1
+a780 1
+    fits_write_key_flt(fptr, "PC1_2",  cos45, -8,
+d782 1
+a782 1
+    fits_write_key_flt(fptr, "PC2_1", -cos45, -8,
+d784 1
+a784 1
+    fits_write_key_flt(fptr, "PC2_2",  cos45, -8,
+d788 1
+a788 1
+  cdelt1 = -90.0 / hpxdat->nside / sqrt(2.0);
+d841 1
+a841 2
+    crval1 += 180.0f;
+    crval2  =  90.0f;
+d843 1
+a843 2
+    crval1 += 180.0f;
+    crval2  = -90.0f;
+a844 1
+  if (360.0f < crval1) crval1 -= 360.0f;
+a850 6
+  if (hpxdat->layout) {
+    lonpole = 180.0f;
+    sprintf(comment, "[deg] Native longitude of the celestial pole", descr1);
+    fits_write_key(fptr, TFLOAT, "LONPOLE", &lonpole, comment, &status);
+  }
+
+d866 1
+a866 1
+      "Celestial map with XPH coordinate system (polar HPX) generated by",
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.15.1.1 2012/09/26 14:27:53 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.16.1.1 2012/11/07 04:45:58 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.14.1.1 2012/07/13 10:05:06 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.13.1.2 2012/07/13 03:44:50 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: HPXcvt.c,v 4.14 2012/07/13 10:02:48 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: HPXcvt.c,v 4.12.1.1 2012/02/29 07:59:12 cal103 Exp cal103 $
+d877 2
+a878 1
+    "Boud Roukema.  See http://www.atnf.csiro.au/people/mcalabre", &status);
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: HPXcvt.c,v 4.13.1.1 2012/03/14 07:40:39 cal103 Exp cal103 $
+d883 1
+a883 2
+    "Boud Roukema.  See http://www.atnf.csiro.au/people/Mark.Calabretta",
+    &status);
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.8.1.2 2012/01/24 05:28:46 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.6.1.2 2011/01/14 06:35:32 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.5.1.1 2010/07/16 07:05:33 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.4.1.2 2010/01/19 03:46:41 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.5 2010/07/16 07:01:27 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.3.1.2 2009/07/28 08:23:01 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.4 2009/08/10 08:47:17 cal103 Exp cal103 $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: HPXcvt.c,v 4.4.1.1 2009/08/10 08:56:01 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 25
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 3 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: HPXcvt.c,v 0.0.1.9 2007/12/03 05:59:18 cal103 Exp cal103 $
+d388 1
+a388 1
+   * line contains facets numbers for the bottom row of the output image.
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d32 1
+a32 1
+    $Id: HPXcvt.c,v 4.3 2007/12/27 05:50:31 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation in the copyright notice.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 25
+a32 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: HPXcvt.c,v 4.3.1.1 2007/12/27 13:26:14 cal103 Exp cal103 $
+d389 1
+a389 1
+   * line contains facet numbers for the bottom row of the output image.
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 887
+@
+
+
+0.0.1.1
+log
+@Initial revision.
+@
+text
+@a0 647
+/*============================================================================
+*
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2007, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id$
+*=============================================================================
+*
+* HPXcvt reorganises HEALPix data into a 2-D FITS image.  Refer to the usage
+* notes below.
+*
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: HPXcvt [-c<sys>] [-n|-r] [<infile> [<outfile>]]\n"
+"\n"
+"HPXcvt reorganises HEALPix data into a 2-D FITS image with HPX coordinate\n"
+"system.  The input data may be stored in a FITS file as a primary image\n"
+"or image extension, or as a binary table extension.  Both RING and NESTED\n"
+"pixel indices are supported.  The input and output files may be omitted or\n"
+"specified as \"-\" to indicate stdin and stdout respectively.\n"
+"\n"
+"Options:\n"
+"  -c<sys>      Specify the coordinate system to be used to label the\n"
+"               output map if the COORDSYS keyword is absent from the input\n"
+"               FITS header.  Recognised values are g (galactic),\n"
+"               e (ecliptic) or q (equatorial).\n"
+"\n"
+"  -n|-r        Assume n(ested) or r(ing) organization if the ORDERING\n"
+"               keyword is absent from the input FITS header.\n";
+
+#include <ctype.h>
+#include <errno.h>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include <fitsio.h>
+
+#define HEALPIX_NULLVAL (-1.6375e30)
+
+struct healpix {
+  char  *infile;	/* Input file.                                */
+  char  *outfile;	/* Output file.                               */
+  char  crdsys;		/* G(alactic), E(cliptic), or (e)Q(uatorial). */
+  char  ordering;	/* R(ing) or N(ested).                        */
+  int   nside;		/* Dimension of a base-resolution pixel.      */
+  long  npix;		/* Total number of pixels in the data array.  */
+  float *data;		/* Pointer to memory allocated to hold data.  */
+};
+
+int HEALPixIn(struct healpix *hpxdat);
+int HPXout(struct healpix *hpxdat);
+int HPXhdr(fitsfile *fptr, struct healpix *hpxdat);
+int RINGidx(int nside, long ncoord, int *pixcrd, long *healidx);
+int NESTidx(int nside, long ncoord, int *pixcrd, long *healidx);
+
+
+int main(int argc, char **argv)
+
+{
+  int crdsys, i, status;
+  struct healpix hpxdat;
+
+  hpxdat.crdsys   = '?';
+  hpxdat.ordering = '?';
+
+  /* Parse options. */
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    switch (argv[i][1]) {
+    case 'c':
+      crdsys = toupper(argv[i][2]);
+      switch (crdsys) {
+      case 'G':
+      case 'E':
+      case 'Q':
+        hpxdat.crdsys = (char)crdsys;
+      };
+      break;
+    case 'n':
+      hpxdat.ordering = 'N';
+      break;
+    case 'r':
+      hpxdat.ordering = 'R';
+      break;
+    default:
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  }
+
+  if (i < argc) {
+    hpxdat.infile = argv[i++];
+
+    if (i < argc) {
+      hpxdat.outfile = argv[i++];
+
+      if (i < argc) {
+        fprintf(stderr, "%s", usage);
+        return 1;
+      }
+    } else {
+      hpxdat.outfile = "-";
+    }
+  } else {
+    hpxdat.infile = "-";
+  }
+
+  /* Check accessibility of the input file. */
+  if (strcmp(hpxdat.infile, "-") && access(hpxdat.infile, R_OK) == -1) {
+    printf("HPXcvt: Cannot access %s.\n", hpxdat.infile);
+    return 1;
+  }
+
+
+  /* Get the HEALPix data as a vector. */
+  if ((status = HEALPixIn(&hpxdat))) {
+    return 2;
+  }
+
+  if (hpxdat.ordering == '?') {
+    fprintf(stderr, "WARNING: ORDERING keyword absent, assuming RING.\n");
+    hpxdat.ordering = 'r';
+  }
+
+  printf("HPXcvt: Read 12 * %d^2  = %ld pixels with %s indexing.\n",
+    hpxdat.nside, hpxdat.npix, (hpxdat.ordering == 'N') ? "nested" : "ring");
+
+  /* Map and write it out as a FITS image. */
+  if ((status = HPXout(&hpxdat))) return 3;
+
+  if (hpxdat.data) free(hpxdat.data);
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int HEALPixIn(struct healpix *hpxdat)
+
+{
+  char   crdsys[32], ordering[32];
+  int    anynul, hdutype, iaxis, irow, nfound, nelem, status;
+  long   naxis, *naxes, nrow, nside;
+  float    nulval;
+  fitsfile *fptr;
+
+  status = 0;
+  hpxdat->data = 0x0;
+
+  /* Open the FITS file and move to the first HDU with NAXIS != 0. */
+  if (fits_open_data(&fptr, hpxdat->infile, READONLY, &status)) goto fitserr;
+
+  /* Is this the primary HDU or an extension? */
+  if (fits_get_hdu_type(fptr, &hdutype, &status)) goto fitserr;
+  if (!(hdutype == IMAGE_HDU || hdutype == BINARY_TBL)) {
+    fprintf(stderr, "ERROR: %s does not contain HEALPix data.\n",
+            hpxdat->infile);
+    return 1;
+  }
+
+
+  /* Get the image size. */
+  if (fits_read_key_lng(fptr, "NAXIS", &naxis, 0x0, &status)) goto fitserr;
+  naxes = malloc(naxis*sizeof(long));
+  if (fits_read_keys_lng(fptr, "NAXIS", 1, (int)naxis, naxes, &nfound,
+                         &status)) goto fitserr;
+
+  nrow = 0;
+  if (hdutype == IMAGE_HDU) {
+    /* Look for the first non-degenerate axis. */
+    for (iaxis = 0; iaxis < nfound; iaxis++) {
+      if (naxes[iaxis] > 1) {
+        nrow = naxes[iaxis];
+      }
+    }
+    
+  } else if (hdutype == BINARY_TBL) {
+    /* Binary tables are simpler. */
+    if (nfound > 1) nrow = naxes[1];
+  }
+
+  if (!nrow) {
+    fprintf(stderr, "ERROR: Could not determine image size.\n");
+    goto cleanup;
+  }
+
+
+  /* Number of pixels per side of each base-resolution pixel. */
+  nside = 0;
+  if (fits_read_key_lng(fptr, "NSIDE", &nside, 0x0, &status)) {
+    /* Some HEALPix files, e.g. SFD dust maps, don't record NSIDE. */
+    if (status != KEY_NO_EXIST) goto fitserr;
+    status = 0;
+  }
+
+  if (!nside) {
+    /* Deduce NSIDE. */
+    nside = (int)(sqrt((double)(nrow / 12)) + 0.5);
+  }
+
+  /* Sanity check: total number of pixels must be a multiple of NAXIS2. */
+  if ((hpxdat->npix = 12*nside*nside)%nrow != 0) {
+    fprintf(stderr, "ERROR: 12*NSIDE*NSIDE is not a multiple of NAXIS2.\n");
+    goto cleanup;
+  }
+
+  hpxdat->nside = (int)nside;
+
+
+  /* Any sign of a coordinate system identifier? */
+  if (fits_read_key(fptr, TSTRING, "COORDSYS", crdsys, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto fitserr;
+    status = 0;
+  } else if (crdsys[0] == 'G') {
+    hpxdat->crdsys = 'G';
+  } else if (crdsys[0] == 'E') {
+    hpxdat->crdsys = 'E';
+  } else if (crdsys[0] == 'C') {
+    /* ("celestial") */
+    hpxdat->crdsys = 'Q';
+  }
+
+  /* Ring or nested ordering? */
+  if (fits_read_key(fptr, TSTRING, "ORDERING", ordering, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto fitserr;
+    status = 0;
+
+    /* Some HEALPix files, e.g. SFD dust maps, don't record ORDERING. */
+    hpxdat->ordering = '?';
+
+  } else if (strcmp(ordering, "RING") == 0) {
+    hpxdat->ordering = 'R';
+
+  } else if (strcmp(ordering, "NESTED") == 0) {
+    hpxdat->ordering = 'N';
+
+  } else {
+    hpxdat->ordering = '?';
+    fprintf(stderr, "WARNING: Invalid ORDERING keyword: %s.\n", ordering);
+  }
+
+
+  /* Allocate memory and read the data. */
+  if ((hpxdat->data = malloc((hpxdat->npix)*sizeof(float))) == NULL) {
+    perror("HPXcvt");
+    goto cleanup;
+  }
+
+  nulval = HEALPIX_NULLVAL;
+  if (hdutype == IMAGE_HDU) {
+    if (fits_read_img(fptr, TFLOAT, 1l, nrow, &nulval, hpxdat->data, &anynul,
+        &status)) goto fitserr;
+
+  } else if (hdutype == BINARY_TBL) {
+    nelem = (hpxdat->npix) / nrow;
+    for (irow = 0; irow < nrow; irow++) {
+      if (fits_read_col(fptr, TFLOAT, 1l, irow+1, 1l, nelem, &nulval,
+          hpxdat->data + irow*nelem, &anynul, &status)) goto fitserr;
+    }
+  }
+
+  /* Clean up. */
+  fits_close_file(fptr, &status);
+  status = 0;
+  return 0;
+
+fitserr:
+  fits_report_error(stderr, status);
+cleanup:
+  if (hpxdat->data) free(hpxdat->data);
+  hpxdat->data = 0x0;
+  return 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int HPXout(struct healpix *hpxdat)
+
+{
+  const int I1[] = {0, 0, 1, 2, 3};
+  const int J1[] = {0, 1, 2, 3, 4};
+  const int I2[] = {2, 3, 4, 5, 5};
+  const int J2[] = {1, 2, 3, 4, 5};
+
+  char  history[72];
+  int   iband, i, i1, i2, j, j0, j1, j2, nside, *pc, *pixcrd = 0x0, status;
+  long  fpixel, *healidx = 0x0, *healp, naxes[2], ncoord, nspan;
+  float nulval = HEALPIX_NULLVAL, *row = 0x0, *rowp;
+  fitsfile *fptr;
+
+  status = 0;
+
+  nside = hpxdat->nside;
+  nspan = 5 * nside;
+
+  /* Create the output FITS file. */
+  naxes[0] = nspan;
+  naxes[1] = nspan;
+  if (fits_create_file(&fptr, hpxdat->outfile, &status)) goto fitserr;
+  if (fits_create_img(fptr, FLOAT_IMG, 2, naxes, &status)) goto fitserr;
+
+  /* Write WCS cards. */
+  if ((status = HPXhdr(fptr, hpxdat))) goto fitserr;
+
+
+  /* Allocate arrays. */
+  if ((pixcrd  = malloc(3 * nside * sizeof(int[2]))) == NULL ||
+      (healidx = malloc(3 * nside * sizeof(long)))    == NULL ||
+      (row     = malloc(5 * nside * sizeof(float)))   == NULL) {
+    perror("HPXcvt");
+    goto cleanup;
+  }
+
+  /* Loop band-by-band. */
+  j0 = (2 * nside) + 1;
+  fpixel = 1;
+  for (iband = 0; iband < 5; iband++) {
+    /* Set row bounds for this band. */
+    i1 = nside * I1[iband];
+    i2 = nside * I2[iband];
+    j1 = nside * J1[iband];
+    j2 = nside * J2[iband];
+
+    /* Number of non-blank pixels in each row of this band. */
+    ncoord = i2 - i1;
+
+    /* Loop row-by-row. */
+    for (j = j1; j < j2; j++) {
+      /* Get HEALPix pixel indices from pixel coordinates. */
+      if (hpxdat->ordering == 'N') {
+        /* Set pixel coordinates for this row of the output map. */
+        pc = pixcrd;
+        for (i = i1; i < i2; i++) {
+          /* Output pixel coordinates for this row. */
+          *(pc++) = i;
+          *(pc++) = j;
+        }
+
+	/* Transform to nested indices. */
+        status = NESTidx(nside, ncoord, pixcrd, healidx);
+
+      } else {
+        /* Set pixel coordinates for this row of the output map. */
+        pc = pixcrd;
+        for (i = i1; i < i2; i++) {
+          /* Double-pixelisation pixel coordinates for this row. */
+          *(pc++) = nspan - j - i;
+          *(pc++) = j0 + j - i;
+        }
+
+	/* Transform to ring indices. */
+        status = RINGidx(nside, ncoord, pixcrd, healidx);
+      }
+
+      /* Gather data into the output vector. */
+      rowp = row;
+      for (i = 0; i < i1; i++) {
+        *(rowp++) = nulval;
+      }
+
+      healp = healidx;
+      for (i = i1; i < i2; i++) {
+        *(rowp++) = hpxdat->data[*(healp++)];
+#if 0
+*(rowp++) = *(healp++);
+#endif
+      }
+
+      for (i = i2; i < nspan; i++) {
+        *(rowp++) = nulval;
+      }
+
+      /* Write out this row. */
+      status = 0;
+      if (fits_write_imgnull(fptr, TFLOAT, fpixel, nspan, row, &nulval,
+                             &status)) {
+        goto fitserr;
+      }
+
+      fpixel += nspan;
+    }
+  }
+
+  /* Write history. */
+  sprintf(history, "Original input file: %s", hpxdat->infile);
+  fits_write_history(fptr, history, &status);
+  sprintf(history, "  Original ordering: %s",
+    (hpxdat->ordering == 'N') ? "NESTED" : "RING");
+  if (hpxdat->ordering == 'r') strcat(history, " (assumed)");
+  fits_write_history(fptr, history, &status);
+
+
+  /* Clean up. */
+  fits_close_file(fptr, &status);
+  status = 0;
+  return 0;
+
+fitserr:
+  fits_report_error(stderr, status);
+cleanup:
+  if (pixcrd)  free(pixcrd);
+  if (healidx) free(healidx);
+  if (row)     free(row);
+  return 1;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int HPXhdr(fitsfile *fptr, struct healpix *hpxdat)
+
+{
+  int    ival, status;
+  float  fval;
+  double dval;
+
+  status = 0;
+
+  ival = 0;
+  fits_update_key(fptr, TLOGICAL, "EXTEND", &ival,
+    "No FITS extensions are present", &status);
+  fits_write_date(fptr, &status);
+
+  fval = (5 * hpxdat->nside + 1) / 2.0f;
+  fits_write_key(fptr, TFLOAT, "CRPIX1", &fval,
+    "Coordinate reference pixel", &status);
+  fits_write_key(fptr, TFLOAT, "CRPIX2", &fval,
+    "Coordinate reference pixel", &status);
+
+  fval =  0.5f;
+  fits_write_key(fptr, TFLOAT, "PC1_1", &fval,
+    "Transformation matrix element", &status);
+  fval =  0.5f;
+  fits_write_key(fptr, TFLOAT, "PC1_2", &fval,
+    "Transformation matrix element", &status);
+  fval = -0.5f;
+  fits_write_key(fptr, TFLOAT, "PC2_1", &fval,
+    "Transformation matrix element", &status);
+  fval =  0.5f;
+  fits_write_key(fptr, TFLOAT, "PC2_2", &fval,
+    "Transformation matrix element", &status);
+
+  dval = -90.0 / hpxdat->nside;
+  fits_write_key(fptr, TDOUBLE, "CDELT1", &dval,
+    "[deg] Coordinate increment", &status);
+  dval = -dval;
+  fits_write_key(fptr, TDOUBLE, "CDELT2", &dval,
+    "[deg] Coordinate increment", &status);
+
+  if (hpxdat->crdsys == 'G') {
+    /* Galactic. */
+    fits_write_key(fptr, TSTRING, "CTYPE1", "GLON-HPX",
+      "Galactic coordinates in an HPX projection", &status);
+    fits_write_key(fptr, TSTRING, "CTYPE2", "GLAT-HPX",
+      "Galactic coordinates in an HPX projection", &status);
+  } else if (hpxdat->crdsys == 'E') {
+    /* Ecliptic, who-knows-what. */
+    fits_write_key(fptr, TSTRING, "CTYPE1", "ELON-HPX",
+      "Ecliptic coordinates in an HPX projection", &status);
+    fits_write_key(fptr, TSTRING, "CTYPE2", "ELAT-HPX",
+      "Ecliptic coordinates in an HPX projection", &status);
+  } else if (hpxdat->crdsys == 'Q') {
+    /* Equatorial, who-knows-what. */
+    fits_write_key(fptr, TSTRING, "CTYPE1", "RA---HPX",
+      "Equatorial coordinates in an HPX projection", &status);
+    fits_write_key(fptr, TSTRING, "CTYPE2", "DEC--HPX",
+      "Equatorial coordinates in an HPX projection", &status);
+  } else {
+    /* Unknown. */
+    fits_write_key(fptr, TSTRING, "CTYPE1", "XLON-HPX",
+      "Unknown coordinates in an HPX projection", &status);
+    fits_write_key(fptr, TSTRING, "CTYPE2", "XLAT-HPX",
+      "Unknown coordinates in an HPX projection", &status);
+  }
+
+  fval = 0.0;
+  fits_write_key(fptr, TFLOAT, "CRVAL1", &fval,
+    "[deg] Coordinate reference value", &status);
+  fits_write_key(fptr, TFLOAT, "CRVAL2", &fval,
+    "[deg] Coordinate reference value", &status);
+
+  ival = 4;
+  fits_write_key(fptr, TINT, "PV2_1", &ival, "HPX H parameter (longitude)",
+                 &status);
+  ival = 3;
+  fits_write_key(fptr, TINT, "PV2_2", &ival, "HPX K parameter  (latitude)",
+                 &status);
+
+  fits_write_record(fptr, " ", &status);
+  fits_write_comment(fptr,
+    "Celestial map with FITS-standard HPX coordinate system generated",
+    &status);
+  fits_write_comment(fptr,
+    "by 'HPXcvt' which reorganises HEALPix data without interpolation.",
+    &status);
+  fits_write_comment(fptr,
+    "See http://www.atnf.csiro.au/people/mcalabre", &status);
+
+  return status;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int RINGidx(int nside, long ncoord, int *pixcrd, long *healidx)
+
+{
+  int  i, icoord, j, jpole, jxn, jxs, n2side, n8side, npj, npole, *pc;
+  long *hp;
+
+  n2side = 2 * nside;
+  n8side = 8 * nside;
+
+  /* Index of the last pixel in the north polar cap. */
+  npole = (n2side - 1) * (n2side - 1) - 1;
+
+  /* j-coordinate of the pole. */
+  jpole = 4 * nside + 1;
+
+  /* j-coordinate at the transition latitudes. */
+  jxs = nside + 1;
+  jxn = jxs + n2side;
+
+  pc = pixcrd;
+  hp = healidx;
+  for (icoord = 0; icoord < ncoord; icoord++, hp++) {
+    /* Zero-relative pixel coordinates. */
+    i = *(pc++);
+    j = *(pc++);
+
+    if (i < 0) i += n8side;
+
+    if (j > jxn) {
+      /* North polar regime. */
+      if (j == jpole) {
+        *hp = 0;
+      } else {
+        /* Number of pixels in a polar facet with this value of j. */
+        npj = 2 * (jpole - j);
+
+        /* Index of the last pixel in the row above this. */
+        *hp = (npj - 1) * (npj - 1) - 1;
+
+        /* Number of pixels in this row in the polar facets before this. */
+        *hp += npj * (i/n2side);
+
+        /* Pixel number in this polar facet. */
+        *hp += i%n2side - (j - jxn) - 1;
+      }
+
+    } else if (j >= jxs) {
+      /* Equatorial regime. */
+      *hp = npole + n8side * (jxn - j) + i;
+
+    } else {
+      /* South polar regime. */
+      *hp = 24 * nside * nside + 1;
+
+      if (j > 1) {
+        /* Number of pixels in a polar facet with this value of j. */
+        npj = 2 * (j - 1);
+
+        /* Total number of pixels in this row or below it. */
+        *hp -= (npj + 1) * (npj + 1);
+
+        /* Number of pixels in this row in the polar facets before this. */
+        *hp += npj * (i/n2side);
+
+        /* Pixel number in this polar facet. */
+        *hp += i%n2side - (jxs - j) - 1;
+      }
+    }
+
+    /* Convert double-pixelisation index to regular. */
+    *hp -= 1;
+    *hp /= 2;
+  }
+
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+int NESTidx(int nside, long ncoord, int *pixcrd, long *healidx)
+
+{
+  const int FACETS[][5] = {{ 6,  9, -1, -1, -1},
+                           { 1,  5,  8, -1, -1},
+                           {-1,  0,  4, 11, -1},
+                           {-1, -1,  3,  7, 10},
+                           {-1, -1, -1,  2,  6}};
+  int  i, icoord, j, nside2, p2, *pc;
+  long *hp;
+
+  nside2 = nside * nside;
+
+  pc = pixcrd;
+  hp = healidx;
+  for (icoord = 0; icoord < ncoord; icoord++, hp++) {
+    /* Zero-relative pixel coordinates. */
+    i = *(pc++);
+    j = *(pc++);
+
+    /* Pixel index of the first pixel in this facet. */
+    *hp = nside2 * FACETS[j/nside][i/nside];
+
+    /* Pixel coordinates relative to the southern corner of this facet. */
+    i = nside - i%nside - 1;
+    j =         j%nside;
+
+    p2 = 1;
+    while (i || j) {
+      *hp += p2 * (i%2);
+      p2  *= 2;
+      *hp += p2 * (j%2);
+      p2  *= 2;
+      i /= 2;
+      j /= 2;
+    }
+  }
+
+  return 0;
+}
+@
+
+
+0.0.1.2
+log
+@Further development, including recognition of the FIRSTPIX and LASTPIX
+header cards.
+@
+text
+@a95 2
+    if (!argv[i][1]) break;
+
+d168 3
+a170 4
+  int    anynul, hdutype, iaxis, irow, nfound, status;
+  long   firstpix, ipix, lastpix, naxis, *naxes = 0x0, nelem, npix = 0,
+         nrow = 0, nside = 0;
+  float  *datap, nulval;
+d194 1
+d196 1
+a196 1
+    /* Look for the first non-degenerate image axis. */
+d199 1
+a199 3
+        /* Assume for now that it is the total number of pixels. */
+        npix = naxes[iaxis];
+	break;
+d202 1
+a202 1
+
+a205 3
+
+    /* The data is assumed to be in column 1. */
+    if (fits_get_coltype(fptr, 1, 0x0, &nelem, 0x0, &status)) goto fitserr;
+d208 1
+a208 1
+  if (!npix && !nrow) {
+d215 1
+d222 3
+a224 6
+  /* FIRSTPIX and LASTPIX, if present, record the 0-relative pixel numbers of
+   * the first and last pixels stored in the data. */
+  firstpix = -1;
+  if (fits_read_key_lng(fptr, "FIRSTPIX", &firstpix, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto fitserr;
+    status = 0;
+d227 4
+a230 16
+  lastpix = -1;
+  if (fits_read_key_lng(fptr, "LASTPIX", &lastpix, 0x0, &status)) {
+    if (status != KEY_NO_EXIST) goto fitserr;
+    status = 0;
+  }
+
+  if (!nside) {
+    /* Deduce NSIDE. */
+    if (lastpix >= 0) {
+      /* If LASTPIX is present without NSIDE we can only assume it's npix. */
+      nside = (int)(sqrt((double)((lastpix+1) / 12)) + 0.5);
+    } else if (npix) {
+      nside = (int)(sqrt((double)(npix / 12)) + 0.5);
+    } else if (nrow) {
+      nside = (int)(sqrt((double)((nrow * nelem) / 12)) + 0.5);
+    }
+a233 5
+  hpxdat->npix  = 12*nside*nside;
+
+  /* Ensure that FIRSTPIX and LASTPIX are set. */
+  if (firstpix < 0) firstpix = 0;
+  if (lastpix  < 0) lastpix  = hpxdat->npix - 1;
+a250 1
+    /* Some HEALPix files, e.g. SFD dust maps, don't record ORDERING. */
+d254 3
+d264 1
+a275 5
+  datap = hpxdat->data;
+  for (ipix = 0; ipix < firstpix; ipix++) {
+    *(datap++) = nulval;
+  }
+
+d277 1
+a277 1
+    if (fits_read_img(fptr, TFLOAT, 1l, npix, &nulval, datap, &anynul,
+d281 1
+d283 2
+a284 3
+      if (fits_read_col(fptr, TFLOAT, 1l, irow+1, 1l, nelem, &nulval, datap,
+          &anynul, &status)) goto fitserr;
+      datap += nelem;
+a287 5
+  datap = hpxdat->data + (lastpix + 1);
+  for (ipix = (lastpix+1); ipix < hpxdat->npix; ipix++) {
+    *(datap++) = nulval;
+  }
+
+a295 1
+  if (naxes) free(naxes);
+a412 2
+  sprintf(history, "     Original NSIDE: %d", hpxdat->nside);
+  fits_write_history(fptr, history, &status);
+d516 1
+a516 4
+    "Celestial map with FITS-standard HPX coordinate system generated by",
+    &status);
+  fits_write_comment(fptr,
+    "'HPXcvt' which reorganises HEALPix data without interpolation as",
+d519 1
+a519 1
+    "described in \"Mapping on the HEALPix grid\" by Mark Calabretta and",
+d522 1
+a522 1
+    "Boud Roukema.  See http://www.atnf.csiro.au/people/mcalabre", &status);
+@
+
+
+0.0.1.3
+log
+@Trivial - removed commented-out debugging statement.
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.2 2007/07/11 01:13:43 cal103 Exp cal103 $
+d368 2
+a369 2
+      (healidx = malloc(3 * nside * sizeof(long)))   == NULL ||
+      (row     = malloc(5 * nside * sizeof(float)))  == NULL) {
+d424 3
+@
+
+
+0.0.1.4
+log
+@Inserted padding in the the healpix struct for alignment purposes.
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.3 2007/07/12 01:50:01 cal103 Exp cal103 $
+a72 1
+  char  padding[2];     /* (Dummy inserted for alignment purposes.)   */
+@
+
+
+0.0.1.5
+log
+@Added the -x option which required serious reworking of the pixel indexing
+calculations leading to efficiencies in memory usage and a bug fix in
+RINGidx().  Also added the -q option as an immediate spin-off.
+
+Reworked CFITSIO usage, especially in HPXhdr(), preferring the specialized
+routines of chapter 9 as far as possible, since they allow more rigorous
+type-checking by the compiler.
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.4 2007/07/12 08:50:35 cal103 Exp cal103 $
+d39 1
+a39 2
+"Usage: HPXcvt [-c<sys>] [-n|-r] [-q<quad>] [-x<n|s>] [<infile> "
+"[<outfile>]]\n"
+d54 1
+a54 6
+"               keyword is absent from the input FITS header.\n"
+"\n"
+"  -q<quad>     Recentre longitude at quad(mod 4) x 90 degrees, where\n"
+"               quad(rant) is an integer.\n"
+"\n"
+"  -x<n|s>      Use a north-polar or south-polar layout.\n";
+d73 1
+a73 5
+  char  layout;		/* Required output layout,                    */
+                        /*   0: equatorial (default),                 */
+                        /*   1: north, or                             */
+                        /*   2: south.                                */
+  char  quad;		/* Recentre longitude on quadrant (modulo 4). */
+d82 2
+a83 2
+int NESTidx(int nside, int facet, int rotn, int row, long *healidx);
+int RINGidx(int nside, int facet, int rotn, int row, long *healidx);
+d89 1
+a89 1
+  int crdsys, i, layout, quad, status;
+a93 2
+  hpxdat.layout   = 0;
+  hpxdat.quad     = 0;
+a111 5
+    case 'q':
+      quad = atoi(argv[i]+2)%4;
+      if (quad < 0) quad += 4;
+      hpxdat.quad = (char)quad;
+      break;
+a114 11
+    case 'x':
+      layout = toupper(argv[i][2]);
+      switch (layout) {
+      case 'N':
+        hpxdat.layout = 1;
+        break;
+      case 'S':
+        hpxdat.layout = 2;
+        break;
+      };
+      break;
+d171 3
+a173 2
+  int    anynul, hdutype, iaxis, nfound, status;
+  long   firstpix, ipix, lastpix, naxis, *naxes = 0x0, nside = 0, repeat;
+a174 1
+  LONGLONG firstelem, irow, nelem, npix = 0, nrow = 0;
+d204 1
+a204 1
+        break;
+d212 2
+a213 4
+    /* The data is assumed to be in column 1.  (Note that fits_get_coltypell()
+     * is not available in cfitsio 2.x.) */
+    if (fits_get_coltype(fptr, 1, 0x0, &repeat, 0x0, &status)) goto fitserr;
+    nelem = (LONGLONG)repeat;
+d264 1
+a264 1
+  if (fits_read_key_str(fptr, "COORDSYS", crdsys, 0x0, &status)) {
+d277 1
+a277 1
+  if (fits_read_key_str(fptr, "ORDERING", ordering, 0x0, &status)) {
+a304 1
+  firstelem = (LONGLONG)1;
+d306 1
+a306 1
+    if (fits_read_img_flt(fptr, 0l, firstelem, npix, nulval, datap, &anynul,
+d311 1
+a311 1
+      if (fits_read_col_flt(fptr, 1, irow+1, firstelem, nelem, nulval, datap,
+d341 4
+a344 74
+  /* Number of facets on a side of each layout. */
+  const int NFACET[] = {5, 4, 4};
+
+  /* Arrays that define the facet location and rotation for each recognised
+   * layout.  Bear in mind that these appear to be upside-down, i.e. the top
+   * line contains facets numbers for the bottom row of the output image.
+   * Facets numbered -1 are blank. */
+
+                              /* Equatorial (diagonal) facet layout. */
+  const int FACETS[][5][5] = {{{ 6,  9, -1, -1, -1},
+                               { 1,  5,  8, -1, -1},
+                               {-1,  0,  4, 11, -1},
+                               {-1, -1,  3,  7, 10},
+                               {-1, -1, -1,  2,  6}},
+                              /* North polar (X) facet layout. */
+                              {{ 8,  4,  4, 11, -1},
+                               { 5,  0,  3,  7, -1},
+                               { 5,  1,  2,  7, -1},
+                               { 9,  6,  6, 10, -1},
+                               {-1, -1, -1, -1, -1}},
+                              /* South polar (X) facet layout. */
+                              {{ 1,  6,  6,  2, -1},
+                               { 5,  9, 10,  7, -1},
+                               { 5,  8, 11,  7, -1},
+                               { 0,  4,  4,  3, -1},
+                               {-1, -1, -1, -1, -1}}};
+
+  /* All facets of the equatorial layout are rotated by +45 degrees with
+   * respect to the normal orientation, i.e. that with the equator running
+   * horizontally.  The rotation recorded for the polar facets is the number
+   * of additional positive (anti-clockwise) 90 degree turns with respect to
+   * the equatorial layout. */
+
+                              /* Equatorial (diagonal), no facet rotation. */
+  const int FROTAT[][5][5] = {{{ 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              /* North polar (X) facet rotation. */
+                              {{ 3,  3,  0,  0,  0},
+                               { 3,  3,  0,  0,  0},
+                               { 2,  2,  1,  1,  0},
+                               { 2,  2,  1,  1,  0},
+                               { 0,  0,  0,  0,  0}},
+                              /* South polar (X) facet rotation. */
+                              {{ 1,  1,  2,  2,  0},
+                               { 1,  1,  2,  2,  0},
+                               { 0,  0,  3,  3,  0},
+                               { 0,  0,  3,  3,  0},
+                               { 0,  0,  0,  0,  0}}};
+
+  /* Facet halving codes.  0: the facet is whole (or wholly blank),
+   * 1: blanked bottom-right, 2: top-right, 3: top-left, 4: bottom-left.
+   * Positive values mean that the diagonal is included, otherwise not. */
+
+                              /* Equatorial (diagonal), no facet halving. */
+  const int FHALVE[][5][5] = {{{ 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              /* North polar (X) facet halving. */
+                              {{ 0,  1, -4,  0,  0},
+                               {-3,  0,  0,  2,  0},
+                               { 4,  0,  0, -1,  0},
+                               { 0, -2,  3,  0,  0},
+                               { 0,  0,  0,  0,  0}},
+                              /* South polar (X) facet halving. */
+                              {{ 0,  1, -4,  0,  0},
+                               {-3,  0,  0,  2,  0},
+                               { 4,  0,  0, -1,  0},
+                               { 0, -2,  3,  0,  0},
+                               { 0,  0,  0,  0,  0}}};
+d347 2
+a348 3
+  int   facet, halve, i, i1, i2, ifacet, j, jfacet, layout, nfacet, nside,
+        rotn, status;
+  long  *healidx = 0x0, *healp, naxes[2];
+a349 1
+  LONGLONG fpixel, group, nelem;
+d352 1
+d354 2
+a355 3
+  nside  = hpxdat->nside;
+  layout = hpxdat->layout;
+  nfacet = NFACET[layout];
+d358 2
+a359 3
+  status = 0;
+  naxes[0] = nfacet * nside;
+  naxes[1] = naxes[0];
+d368 3
+a370 2
+  if ((healidx = malloc(nside * sizeof(long)))   == NULL ||
+      (row     = malloc(nside * sizeof(float)))  == NULL) {
+d375 2
+a376 1
+  /* Loop vertically facet-by-facet. */
+d378 10
+a387 3
+  group  = 0;
+  nelem  = nside;
+  for (jfacet = 0; jfacet < nfacet; jfacet++) {
+d389 9
+a397 19
+    for (j = 0; j < nside; j++) {
+      /* Loop horizontally facet-by-facet. */
+      for (ifacet = 0; ifacet < nfacet; ifacet++) {
+        facet = FACETS[layout][jfacet][ifacet];
+        rotn  = FROTAT[layout][jfacet][ifacet];
+        halve = FHALVE[layout][jfacet][ifacet];
+
+        /* Recentre longitude? */
+        if (hpxdat->quad && facet >= 0) {
+          if (facet <= 3) {
+            facet += hpxdat->quad;
+            if (facet > 3) facet -= 4;
+          } else if (facet <= 7) {
+            facet += hpxdat->quad;
+            if (facet > 7) facet -= 4;
+          } else {
+            facet += hpxdat->quad;
+            if (facet > 11) facet -= 4;
+          }
+d400 10
+a409 56
+        /* Write out the data. */
+        if (facet < 0) {
+          /* A blank facet. */
+          if (fits_write_img_null(fptr, group, fpixel, nelem, &status)) {
+            goto fitserr;
+          }
+
+        } else {
+          if (hpxdat->ordering == 'N') {
+            /* Get nested indices. */
+            status = NESTidx(nside, facet, rotn, j, healidx);
+          } else {
+            /* Get ring indices. */
+            status = RINGidx(nside, facet, rotn, j, healidx);
+          }
+
+          /* Gather data into the output vector. */
+          healp = healidx;
+          for (rowp = row; rowp < row + nside; rowp++) {
+            *rowp = hpxdat->data[*(healp++)];
+          }
+
+          /* Apply blanking to halved facets. */
+          if (halve) {
+            if (abs(halve) == 1) {
+              /* Blank bottom-right. */
+              i1 = j;
+              i2 = nside;
+              if (halve > 0) i1++;
+            } else if (abs(halve) == 2) {
+              /* Blank top-right. */
+              i1 = nside - j;
+              i2 = nside;
+              if (halve < 0) i1--;
+            } else if (abs(halve) == 3) {
+              /* Blank top-left. */
+              i1 = 0;
+              i2 = j;
+              if (halve < 0) i2++;
+            } else {
+              /* Blank bottom-left. */
+              i1 = 0;
+              i2 = nside - j;
+              if (halve > 0) i2--;
+            }
+
+            for (rowp = row + i1; rowp < row + i2; rowp++) {
+              *rowp = nulval;
+            }
+          }
+
+          /* Write out this facet's contribution to this row of the map. */
+          if (fits_write_imgnull_flt(fptr, group, fpixel, nelem, row, nulval,
+                                     &status)) {
+            goto fitserr;
+          }
+d412 2
+a413 1
+        fpixel += nelem;
+d415 24
+d461 1
+d472 3
+a474 4
+  char   comment[64], cval[16], *ctype1, *ctype2, *descr1, *descr2, *pcode;
+  int    status;
+  float  crpix1, crpix2, crval1, crval2;
+  double cdelt1, cdelt2;
+d478 2
+a479 1
+  fits_update_key_log(fptr, "EXTEND", 0,
+d483 2
+a484 9
+  /* Set pixel transformation parameters. */
+  if (hpxdat->layout == 0) {
+    crpix1 = (5 * hpxdat->nside + 1) / 2.0f;
+  } else {
+    crpix1 = (4 * hpxdat->nside + 1) / 2.0f;
+  }
+  crpix2 = crpix1;
+
+  fits_write_key(fptr, TFLOAT, "CRPIX1", &crpix1,
+d486 1
+a486 1
+  fits_write_key(fptr, TFLOAT, "CRPIX2", &crpix2,
+d489 12
+a500 10
+  if (hpxdat->layout == 0) {
+    fits_write_key_flt(fptr, "PC1_1",  0.5f, -1,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC1_2",  0.5f, -1,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC2_1", -0.5f, -1,
+      "Transformation matrix element", &status);
+    fits_write_key_flt(fptr, "PC2_2",  0.5f, -1,
+      "Transformation matrix element", &status);
+  }
+d502 2
+a503 3
+  cdelt1 = -90.0 / hpxdat->nside;
+  cdelt2 = -cdelt1;
+  fits_write_key_dbl(fptr, "CDELT1", cdelt1, -8,
+d505 2
+a506 1
+  fits_write_key_dbl(fptr, "CDELT2", cdelt2, -8,
+a508 8
+
+  /* Celestial transformation parameters. */
+  if (hpxdat->layout == 0) {
+    pcode = "HPX";
+  } else {
+    pcode = "XPH";
+  }
+
+d511 4
+a514 4
+    ctype1 = "GLON";
+    ctype2 = "GLAT";
+    descr1 = "Galactic longitude";
+    descr2 = "Galactic  latitude";
+d517 4
+a520 4
+    ctype1 = "ELON";
+    ctype2 = "ELAT";
+    descr1 = "Ecliptic longitude";
+    descr2 = "Ecliptic  latitude";
+d523 4
+a526 4
+    ctype1 = "RA--";
+    ctype2 = "DEC-";
+    descr1 = "Right ascension";
+    descr2 = "Declination";
+d529 18
+a546 27
+    ctype1 = "XLON";
+    ctype2 = "XLAT";
+    descr1 = "Longitude";
+    descr2 = " Latitude";
+  }
+
+  sprintf(cval, "%s-%s", ctype1, pcode);
+  sprintf(comment, "%s in an %s projection", descr1, pcode);
+  fits_write_key_str(fptr, "CTYPE1", cval, comment, &status);
+  sprintf(cval, "%s-%s", ctype2, pcode);
+  sprintf(comment, "%s in an %s projection", descr2, pcode);
+  fits_write_key_str(fptr, "CTYPE2", cval, comment, &status);
+
+
+  crval1 = 0.0f + 90.0f * hpxdat->quad;
+  if (hpxdat->layout == 0) {
+    crval2 =   0.0f;
+  } else if (hpxdat->layout == 1) {
+    crval2 =  90.0f;
+  } else {
+    crval2 = -90.0f;
+  }
+
+  sprintf(comment, "[deg] %s at the reference point", descr1);
+  fits_write_key(fptr, TFLOAT, "CRVAL1", &crval1, comment, &status);
+  sprintf(comment, "[deg] %s at the reference point", descr2);
+  fits_write_key(fptr, TFLOAT, "CRVAL2", &crval2, comment, &status);
+a547 8
+  if (hpxdat->layout == 0) {
+    fits_write_key_lng(fptr, "PV2_1", (LONGLONG)4,
+      "HPX H parameter (longitude)", &status);
+    fits_write_key_lng(fptr, "PV2_2", (LONGLONG)3,
+      "HPX K parameter  (latitude)", &status);
+  }
+
+  /* Commentary. */
+d549 3
+a551 10
+  if (hpxdat->layout == 0) {
+    fits_write_comment(fptr,
+      "Celestial map with FITS-standard HPX coordinate system generated by",
+      &status);
+  } else {
+    fits_write_comment(fptr,
+      "Celestial map with experimental XPH coordinate system generated by",
+      &status);
+  }
+
+d566 1
+a566 5
+/* (imap,jmap) pixel coordinates are as described above for NESTidx().  This
+ * function computes the double-pixelisation index then converts it to the
+ * regular ring index. */
+
+int RINGidx(int nside, int facet, int rotn, int jmap, long *healidx)
+d569 1
+a569 4
+  const int I0[] = { 1,  3, -3, -1,  0,  2,  4, -2,  1,  3, -3, -1};
+  const int J0[] = { 1,  1,  1,  1,  0,  0,  0,  0, -1, -1, -1, -1};
+
+  int  i, i0, imap, j, j0, n2side, n8side, npj, npole, nside1;
+d575 1
+a575 1
+  /* Double-pixelisation index of the last pixel in the north polar cap. */
+d578 2
+a579 3
+  /* Double-pixelisation pixel coordinates of the centre of the facet. */
+  i0 = nside * I0[facet];
+  j0 = nside * J0[facet];
+d581 5
+a585 1
+  nside1 = nside - 1;
+d587 4
+a590 17
+  for (imap = 0; imap < nside; imap++, hp++) {
+    /* (i,j) are 0-relative, double-pixelisation pixel coordinates.  The
+     * origin is at the intersection of the equator and prime meridian,
+     * i increases to the east (N.B.) and j to the north. */
+    if (rotn == 0) {
+      i = i0 + nside1 - (jmap + imap);
+      j = j0 + jmap - imap;
+    } else if (rotn == 1) {
+      i = i0 + imap - jmap;
+      j = j0 + nside1 - (imap + jmap);
+    } else if (rotn == 2) {
+      i = i0 + (imap + jmap) - nside1;
+      j = j0 + imap - jmap;
+    } else if (rotn == 3) {
+      i = i0 + jmap - imap;
+      j = j0 + jmap + imap - nside1;
+    }
+a591 1
+    /* Convert i for counting pixels. */
+a592 1
+    i++;
+d594 1
+a594 1
+    if (j > nside) {
+d596 1
+a596 1
+      if (j == n2side) {
+d600 1
+a600 1
+        npj = 2 * (n2side - j);
+d609 1
+a609 1
+        *hp += i%n2side - (j - nside) - 1;
+d612 1
+a612 1
+    } else if (j >= -nside) {
+d614 1
+a614 1
+      *hp = npole + n8side * (nside - j) + i;
+d620 1
+a620 1
+      if (j > -n2side) {
+d622 1
+a622 1
+        npj = 2 * (j + n2side);
+d631 1
+a631 1
+        *hp += i%n2side + (nside + j) - 1;
+d645 1
+a645 6
+/* (imap,jmap) are 0-relative pixel coordinates in the output map with origin
+ * at the bottom-left corner of the specified facet which is rotated by
+ * (45 + rotn * 90) degrees from its natural orientation; imap increases to
+ * the right and jmap upwards. */
+
+int NESTidx(int nside, int facet, int rotn, int jmap, long *healidx)
+d648 6
+a653 1
+  int  h, i, imap, j, nside1, bit;
+d656 1
+a656 2
+  /* Nested index (0-relative) of the first pixel in this facet. */
+  h = facet * nside * nside;
+d658 1
+a658 1
+  nside1 = nside - 1;
+d660 11
+a670 17
+  for (imap = 0; imap < nside; imap++, hp++) {
+    /* (i,j) are 0-relative pixel coordinates with origin in the southern
+     * corner of the facet; i increases to the north-east and j to the
+     * north-west. */
+    if (rotn == 0) {
+      i = nside1 - imap;
+      j = jmap;
+    } else if (rotn == 1) {
+      i = nside1 - jmap;
+      j = nside1 - imap;
+    } else if (rotn == 2) {
+      i = imap;
+      j = nside1 - jmap;
+    } else if (rotn == 3) {
+      i = jmap;
+      j = imap;
+    }
+d672 1
+a672 2
+    *hp = 0;
+    bit = 1;
+d674 6
+a679 6
+      if (i & 1) *hp |= bit;
+      bit <<= 1;
+      if (j & 1) *hp |= bit;
+      bit <<= 1;
+      i >>= 1;
+      j >>= 1;
+a680 2
+
+    *hp += h;
+@
+
+
+0.0.1.6
+log
+@Changed function order and a few other trivialities.
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.5 2007/07/18 08:01:09 cal103 Exp cal103 $
+d44 1
+a44 1
+"or image extension, or as a binary table extension.  Both NESTED and RING\n"
+d91 1
+a93 1
+int HPXhdr(fitsfile *fptr, struct healpix *hpxdat);
+d306 1
+a306 1
+  /* Nested or ring ordering? */
+d312 3
+a317 3
+  } else if (strcmp(ordering, "RING") == 0) {
+    hpxdat->ordering = 'R';
+
+a593 151
+/* (imap,jmap) are 0-relative pixel coordinates in the output map with origin
+ * at the bottom-left corner of the specified facet which is rotated by
+ * (45 + rotn * 90) degrees from its natural orientation; imap increases to
+ * the right and jmap upwards. */
+
+int NESTidx(int nside, int facet, int rotn, int jmap, long *healidx)
+
+{
+  int  h, i, imap, j, nside1, bit;
+  long *hp;
+
+  /* Nested index (0-relative) of the first pixel in this facet. */
+  h = facet * nside * nside;
+
+  nside1 = nside - 1;
+  hp = healidx;
+  for (imap = 0; imap < nside; imap++, hp++) {
+    /* (i,j) are 0-relative pixel coordinates with origin in the southern
+     * corner of the facet; i increases to the north-east and j to the
+     * north-west. */
+    if (rotn == 0) {
+      i = nside1 - imap;
+      j = jmap;
+    } else if (rotn == 1) {
+      i = nside1 - jmap;
+      j = nside1 - imap;
+    } else if (rotn == 2) {
+      i = imap;
+      j = nside1 - jmap;
+    } else if (rotn == 3) {
+      i = jmap;
+      j = imap;
+    }
+
+    *hp = 0;
+    bit = 1;
+    while (i || j) {
+      if (i & 1) *hp |= bit;
+      bit <<= 1;
+      if (j & 1) *hp |= bit;
+      bit <<= 1;
+      i >>= 1;
+      j >>= 1;
+    }
+
+    *hp += h;
+  }
+
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+/* (imap,jmap) pixel coordinates are as described above for NESTidx().  This
+ * function computes the double-pixelisation index then converts it to the
+ * regular ring index. */
+
+int RINGidx(int nside, int facet, int rotn, int jmap, long *healidx)
+
+{
+  const int I0[] = { 1,  3, -3, -1,  0,  2,  4, -2,  1,  3, -3, -1};
+  const int J0[] = { 1,  1,  1,  1,  0,  0,  0,  0, -1, -1, -1, -1};
+
+  int  i, i0, imap, j, j0, n2side, n8side, npj, npole, nside1;
+  long *hp;
+
+  n2side = 2 * nside;
+  n8side = 8 * nside;
+
+  /* Double-pixelisation index of the last pixel in the north polar cap. */
+  npole = (n2side - 1) * (n2side - 1) - 1;
+
+  /* Double-pixelisation pixel coordinates of the centre of the facet. */
+  i0 = nside * I0[facet];
+  j0 = nside * J0[facet];
+
+  nside1 = nside - 1;
+  hp = healidx;
+  for (imap = 0; imap < nside; imap++, hp++) {
+    /* (i,j) are 0-relative, double-pixelisation pixel coordinates.  The
+     * origin is at the intersection of the equator and prime meridian,
+     * i increases to the east (N.B.) and j to the north. */
+    if (rotn == 0) {
+      i = i0 + nside1 - (jmap + imap);
+      j = j0 + jmap - imap;
+    } else if (rotn == 1) {
+      i = i0 + imap - jmap;
+      j = j0 + nside1 - (imap + jmap);
+    } else if (rotn == 2) {
+      i = i0 + (imap + jmap) - nside1;
+      j = j0 + imap - jmap;
+    } else if (rotn == 3) {
+      i = i0 + jmap - imap;
+      j = j0 + jmap + imap - nside1;
+    }
+
+    /* Convert i for counting pixels. */
+    if (i < 0) i += n8side;
+    i++;
+
+    if (j > nside) {
+      /* North polar regime. */
+      if (j == n2side) {
+        *hp = 0;
+      } else {
+        /* Number of pixels in a polar facet with this value of j. */
+        npj = 2 * (n2side - j);
+
+        /* Index of the last pixel in the row above this. */
+        *hp = (npj - 1) * (npj - 1) - 1;
+
+        /* Number of pixels in this row in the polar facets before this. */
+        *hp += npj * (i/n2side);
+
+        /* Pixel number in this polar facet. */
+        *hp += i%n2side - (j - nside) - 1;
+      }
+
+    } else if (j >= -nside) {
+      /* Equatorial regime. */
+      *hp = npole + n8side * (nside - j) + i;
+
+    } else {
+      /* South polar regime. */
+      *hp = 24 * nside * nside + 1;
+
+      if (j > -n2side) {
+        /* Number of pixels in a polar facet with this value of j. */
+        npj = 2 * (j + n2side);
+
+        /* Total number of pixels in this row or below it. */
+        *hp -= (npj + 1) * (npj + 1);
+
+        /* Number of pixels in this row in the polar facets before this. */
+        *hp += npj * (i/n2side);
+
+        /* Pixel number in this polar facet. */
+        *hp += i%n2side + (nside + j) - 1;
+      }
+    }
+
+    /* Convert double-pixelisation index to regular. */
+    *hp -= 1;
+    *hp /= 2;
+  }
+
+  return 0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+d725 151
+@
+
+
+0.0.1.7
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.6 2007/07/18 08:06:03 cal103 Exp cal103 $
+d467 1
+a467 1
+  /* Write WCS keyrecords. */
+@
+
+
+0.0.1.8
+log
+@Added the -C<col> option.
+@
+text
+@d30 1
+a30 1
+*   $Id: HPXcvt.c,v 0.0.1.7 2007/08/02 05:22:45 cal103 Exp cal103 $
+d39 2
+a40 2
+"Usage: HPXcvt [-C<col>] [-c<sys>] [-n|-r] [-q<quad>] [-x<n|s>]\n"
+"              [<infile> [<outfile>]]\n"
+a48 3
+"  -C<col>      Binary table column number from which to read data,\n"
+"               default 1 (n.b. WMAP exclusion masks are in column 2).\n"
+"\n"
+a76 1
+  int   col;		/* Input binary table column number.          */
+a101 1
+  hpxdat.col      = 1;
+a111 4
+    case 'C':
+      hpxdat.col = atoi(argv[i]+2);
+      if (hpxdat.col < 1) hpxdat.col = 1;
+      break;
+d240 3
+a242 4
+    /* (Note that fits_get_coltypell() is not available in cfitsio 2.x.) */
+    if (fits_get_coltype(fptr, hpxdat->col, 0x0, &repeat, 0x0, &status)) {
+      goto fitserr;
+    }
+d342 2
+a343 2
+      if (fits_read_col_flt(fptr, hpxdat->col, irow+1, firstelem, nelem,
+          nulval, datap, &anynul, &status)) goto fitserr;
+@
+
+
+0.0.1.9
+log
+@Switched to GPL 3.0.
+@
+text
+@d2 29
+a30 31
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 3 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: HPXcvt.c,v 0.0.1.8 2007/11/21 06:27:56 cal103 Exp cal103 $
+@

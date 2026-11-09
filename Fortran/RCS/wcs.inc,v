@@ -1,0 +1,4798 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.35;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.51.45;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.48.07;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.25.32;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.26.14.16.47;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.38.46;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.06.53;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.05.06.02;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.01.47;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.42.43;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.05.51.07;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.08.10.49;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.49.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.43.47;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.12.03.05.36.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.03;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.04.21.06.47.27;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.07.18.23;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.08.06.02.48.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.51;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.35;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.07.07.13.30;	author cal103;	state Exp;
+branches;
+next	4.4.1.4;
+
+4.4.1.4
+date	2010.07.07.13.13.43;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.07.03.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.34.01;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.25.06.21.29;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.03.00.46;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.15.06.08.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.40.02;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.39.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.2;
+
+4.22.1.2
+date	2014.05.10.14.42.27;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.3;
+
+4.22.1.3
+date	2014.05.10.14.46.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.17;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.05.08.23.34;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.4;
+
+4.25.1.4
+date	2015.04.05.06.28.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.20.52;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.26.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.04.42.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.05.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.02.39.45;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.10.41;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.31.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.56.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.08.47.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.03.06.00.50;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.3;
+
+7.13.1.3
+date	2023.06.03.08.26.19;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.4;
+
+7.13.1.4
+date	2023.06.15.04.00.08;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.5;
+
+7.13.1.5
+date	2023.06.15.04.17.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.11;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.06.15.29.11;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.10.14.51.44;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.5;
+
+8.2.1.5
+date	2024.05.13.12.36.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FORTRAN include file for manipulating the "wcsprm" struct.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@*=======================================================================
+* WCSLIB 8.10 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2026, Mark Calabretta
+*
+* This file is part of WCSLIB.
+*
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: wcs.inc,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=======================================================================
+
+*     Functions.
+      EXTERNAL  WCSPUT,  WCSPTC,  WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC,  WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSENQ, WCSPRT,
+     :          WCSPERR, WCSBCHK, WCSSET,  WCSP2S,  WCSS2P, WCSMIX,
+     :          WCSCCS,  WCSSPTR, WCSCOPY
+
+      INTEGER   WCSPUT,  WCSPTC,  WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC,  WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSENQ, WCSPRT,
+     :          WCSPERR, WCSBCHK, WCSSET,  WCSP2S,  WCSS2P, WCSMIX,
+     :          WCSCCS,  WCSSPTR, WCSCOPY
+
+*     Note that the Fortran API differs from that of the C function.
+      EXTERNAL  WCSLIB_VERSION
+
+*     Length of the WCSPRM data structure (INTEGER array) on 64-bit
+*     machines.  Only needs to be 624 on 32-bit machines.
+      INTEGER   WCSLEN
+      PARAMETER (WCSLEN = 690)
+
+*     Codes for WCS data structure elements used by WCSPUT and WCSGET.
+      INTEGER   WCS_FLAG, WCS_NAXIS, WCS_CRPIX, WCS_PC, WCS_CDELT,
+     :          WCS_CRVAL, WCS_CUNIT, WCS_CTYPE, WCS_LONPOLE,
+     :          WCS_LATPOLE, WCS_RESTFRQ, WCS_RESTWAV, WCS_NPV,
+     :          WCS_NPVMAX, WCS_PV, WCS_NPS, WCS_NPSMAX, WCS_PS, WCS_CD,
+     :          WCS_CROTA, WCS_ALTLIN, WCS_VELREF, WCS_ALT, WCS_COLNUM,
+     :          WCS_COLAX, WCS_CNAME,  WCS_CRDER, WCS_CSYER, WCS_CZPHS,
+     :          WCS_CPERI, WCS_WCSNAME, WCS_TIMESYS, WCS_TREFPOS,
+     :          WCS_TREFDIR, WCS_PLEPHEM, WCS_TIMEUNIT, WCS_DATEREF,
+     :          WCS_MJDREF, WCS_TIMEOFFS, WCS_DATEOBS, WCS_DATEBEG,
+     :          WCS_DATEAVG, WCS_DATEEND, WCS_MJDOBS, WCS_MJDBEG,
+     :          WCS_MJDAVG, WCS_MJDEND, WCS_JEPOCH, WCS_BEPOCH,
+     :          WCS_TSTART, WCS_TSTOP, WCS_XPOSURE, WCS_TELAPSE,
+     :          WCS_TIMSYER, WCS_TIMRDER, WCS_TIMEDEL, WCS_TIMEPIXR,
+     :          WCS_OBSGEO, WCS_OBSORBIT, WCS_RADESYS, WCS_EQUINOX,
+     :          WCS_SPECSYS, WCS_SSYSOBS, WCS_VELOSYS, WCS_ZSOURCE,
+     :          WCS_SSYSSRC, WCS_VELANGL, WCS_RSUN_REF, WCS_DSUN_OBS,
+     :          WCS_CRLN_OBS, WCS_HGLN_OBS, WCS_HGLT_OBS,
+     :          WCS_A_RADIUS, WCS_B_RADIUS, WCS_C_RADIUS,
+     :          WCS_BLON_OBS, WCS_BLAT_OBS, WCS_BDIS_OBS
+
+      PARAMETER (WCS_FLAG     = 100)
+      PARAMETER (WCS_NAXIS    = 101)
+      PARAMETER (WCS_CRPIX    = 102)
+      PARAMETER (WCS_PC       = 103)
+      PARAMETER (WCS_CDELT    = 104)
+      PARAMETER (WCS_CRVAL    = 105)
+      PARAMETER (WCS_CUNIT    = 106)
+      PARAMETER (WCS_CTYPE    = 107)
+      PARAMETER (WCS_LONPOLE  = 108)
+      PARAMETER (WCS_LATPOLE  = 109)
+      PARAMETER (WCS_RESTFRQ  = 110)
+      PARAMETER (WCS_RESTWAV  = 111)
+      PARAMETER (WCS_NPV      = 112)
+      PARAMETER (WCS_NPVMAX   = 113)
+      PARAMETER (WCS_PV       = 114)
+      PARAMETER (WCS_NPS      = 115)
+      PARAMETER (WCS_NPSMAX   = 116)
+      PARAMETER (WCS_PS       = 117)
+      PARAMETER (WCS_CD       = 118)
+      PARAMETER (WCS_CROTA    = 119)
+      PARAMETER (WCS_ALTLIN   = 120)
+      PARAMETER (WCS_VELREF   = 121)
+
+      PARAMETER (WCS_ALT      = 122)
+      PARAMETER (WCS_COLNUM   = 123)
+      PARAMETER (WCS_COLAX    = 124)
+
+      PARAMETER (WCS_CNAME    = 125)
+      PARAMETER (WCS_CRDER    = 126)
+      PARAMETER (WCS_CSYER    = 127)
+      PARAMETER (WCS_CZPHS    = 128)
+      PARAMETER (WCS_CPERI    = 129)
+
+      PARAMETER (WCS_WCSNAME  = 130)
+
+      PARAMETER (WCS_TIMESYS  = 131)
+      PARAMETER (WCS_TREFPOS  = 132)
+      PARAMETER (WCS_TREFDIR  = 133)
+      PARAMETER (WCS_PLEPHEM  = 134)
+      PARAMETER (WCS_TIMEUNIT = 135)
+      PARAMETER (WCS_DATEREF  = 136)
+      PARAMETER (WCS_MJDREF   = 137)
+      PARAMETER (WCS_TIMEOFFS = 138)
+
+      PARAMETER (WCS_DATEOBS  = 139)
+      PARAMETER (WCS_DATEBEG  = 140)
+      PARAMETER (WCS_DATEAVG  = 141)
+      PARAMETER (WCS_DATEEND  = 142)
+      PARAMETER (WCS_MJDOBS   = 143)
+      PARAMETER (WCS_MJDBEG   = 144)
+      PARAMETER (WCS_MJDAVG   = 145)
+      PARAMETER (WCS_MJDEND   = 146)
+      PARAMETER (WCS_JEPOCH   = 147)
+      PARAMETER (WCS_BEPOCH   = 148)
+      PARAMETER (WCS_TSTART   = 149)
+      PARAMETER (WCS_TSTOP    = 150)
+      PARAMETER (WCS_XPOSURE  = 151)
+      PARAMETER (WCS_TELAPSE  = 152)
+
+      PARAMETER (WCS_TIMSYER  = 153)
+      PARAMETER (WCS_TIMRDER  = 154)
+      PARAMETER (WCS_TIMEDEL  = 155)
+      PARAMETER (WCS_TIMEPIXR = 156)
+
+      PARAMETER (WCS_OBSGEO   = 157)
+      PARAMETER (WCS_OBSORBIT = 158)
+      PARAMETER (WCS_RADESYS  = 159)
+      PARAMETER (WCS_EQUINOX  = 160)
+      PARAMETER (WCS_SPECSYS  = 161)
+      PARAMETER (WCS_SSYSOBS  = 162)
+      PARAMETER (WCS_VELOSYS  = 163)
+      PARAMETER (WCS_ZSOURCE  = 164)
+      PARAMETER (WCS_SSYSSRC  = 165)
+      PARAMETER (WCS_VELANGL  = 166)
+
+      PARAMETER (WCS_RSUN_REF = 167)
+      PARAMETER (WCS_DSUN_OBS = 168)
+      PARAMETER (WCS_CRLN_OBS = 169)
+      PARAMETER (WCS_HGLN_OBS = 170)
+      PARAMETER (WCS_HGLT_OBS = 171)
+      PARAMETER (WCS_A_RADIUS = 172)
+      PARAMETER (WCS_B_RADIUS = 173)
+      PARAMETER (WCS_C_RADIUS = 174)
+      PARAMETER (WCS_BLON_OBS = 175)
+      PARAMETER (WCS_BLAT_OBS = 176)
+      PARAMETER (WCS_BDIS_OBS = 177)
+
+*     Codes for WCS data structure elements used by WCSGET (only).
+      INTEGER   WCS_NTAB, WCS_NWTB, WCS_TAB, WCS_WTB, WCS_LNGTYP,
+     :          WCS_LATTYP, WCS_LNG, WCS_LAT, WCS_SPEC, WCS_TIME,
+     :          WCS_CUBEFACE, WCS_TYPES, WCS_LIN, WCS_CEL, WCS_SPC,
+     :          WCS_ERR
+
+      PARAMETER (WCS_NTAB     = 200)
+      PARAMETER (WCS_NWTB     = 201)
+      PARAMETER (WCS_TAB      = 202)
+      PARAMETER (WCS_WTB      = 203)
+      PARAMETER (WCS_LNGTYP   = 204)
+      PARAMETER (WCS_LATTYP   = 205)
+      PARAMETER (WCS_LNG      = 206)
+      PARAMETER (WCS_LAT      = 207)
+      PARAMETER (WCS_SPEC     = 208)
+      PARAMETER (WCS_TIME     = 209)
+      PARAMETER (WCS_CUBEFACE = 210)
+      PARAMETER (WCS_TYPES    = 211)
+      PARAMETER (WCS_LIN      = 212)
+      PARAMETER (WCS_CEL      = 213)
+      PARAMETER (WCS_SPC      = 214)
+      PARAMETER (WCS_ERR      = 215)
+
+*     Flag bits for WCSSUB's AXES argument.
+      INTEGER   WCSSUB_LONGITUDE, WCSSUB_LATITUDE, WCSSUB_CUBEFACE,
+     :          WCSSUB_CELESTIAL, WCSSUB_SPECTRAL, WCSSUB_STOKES
+
+      PARAMETER (WCSSUB_LONGITUDE = 4096 +  1)
+      PARAMETER (WCSSUB_LATITUDE  = 4096 +  2)
+      PARAMETER (WCSSUB_CUBEFACE  = 4096 +  4)
+      PARAMETER (WCSSUB_CELESTIAL = 4096 +  7)
+      PARAMETER (WCSSUB_SPECTRAL  = 4096 +  8)
+      PARAMETER (WCSSUB_STOKES    = 4096 + 16)
+
+*     Flag bits for WCSCOMPARE's CMP argument.
+      INTEGER WCSCOMPARE_ANCILLARY, WCSCOMPARE_TILING, WCSCOMPARE_CRPIX
+
+      PARAMETER (WCSCOMPARE_ANCILLARY = 1)
+      PARAMETER (WCSCOMPARE_TILING    = 2)
+      PARAMETER (WCSCOMPARE_CRPIX     = 4)
+
+*     Codes used by WCSENQ.
+      INTEGER   WCSENQ_MEM, WCSENQ_SET, WCSENQ_BYP, WCSENQ_CHK
+
+      PARAMETER (WCSENQ_MEM = 1)
+      PARAMETER (WCSENQ_SET = 2)
+      PARAMETER (WCSENQ_BYP = 4)
+      PARAMETER (WCSENQ_CHK = 8)
+
+*     Error codes and messages.
+      INTEGER   WCSERR_SUCCESS, WCSERR_NULL_POINTER, WCSERR_MEMORY,
+     :          WCSERR_SINGULAR_MTX, WCSERR_BAD_CTYPE, WCSERR_BAD_PARAM,
+     :          WCSERR_BAD_COORD_TRANS, WCSERR_ILL_COORD_TRANS,
+     :          WCSERR_BAD_PIX, WCSERR_BAD_WORLD,
+     :          WCSERR_BAD_WORLD_COORD, WCSERR_NO_SOLUTION,
+     :          WCSERR_BAD_SUBIMAGE, WCSERR_NON_SEPARABLE
+
+      PARAMETER (WCSERR_SUCCESS         =  0)
+      PARAMETER (WCSERR_NULL_POINTER    =  1)
+      PARAMETER (WCSERR_MEMORY          =  2)
+      PARAMETER (WCSERR_SINGULAR_MTX    =  3)
+      PARAMETER (WCSERR_BAD_CTYPE       =  4)
+      PARAMETER (WCSERR_BAD_PARAM       =  5)
+      PARAMETER (WCSERR_BAD_COORD_TRANS =  6)
+      PARAMETER (WCSERR_ILL_COORD_TRANS =  7)
+      PARAMETER (WCSERR_BAD_PIX         =  8)
+      PARAMETER (WCSERR_BAD_WORLD       =  9)
+      PARAMETER (WCSERR_BAD_WORLD_COORD = 10)
+      PARAMETER (WCSERR_NO_SOLUTION     = 11)
+      PARAMETER (WCSERR_BAD_SUBIMAGE    = 12)
+      PARAMETER (WCSERR_NON_SEPARABLE   = 13)
+
+      CHARACTER WCS_ERRMSG(0:13)*80
+      COMMON /WCS_DATA/ WCS_ERRMSG
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+* WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+* WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+* WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+* WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.5.1.2 2026/03/29 13:36:19 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+* WCSLIB 8.5 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: wcs.inc,v 8.4.1.2 2025/12/06 13:37:18 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+* Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: wcs.inc,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+* WCSLIB 8.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+* Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+* WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.2.1.5 2024/05/13 12:36:44 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 3
+*
+* WCSLIB 8.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+* $Id: wcs.inc,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d29 2
+a30 2
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSPRT, WCSPERR,
+     :          WCSBCHK, WCSSET,  WCSP2S,  WCSS2P,  WCSMIX,
+d35 3
+a37 3
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB,  WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSPRT, WCSPERR,
+     :          WCSBCHK, WCSSET,  WCSP2S,  WCSS2P,  WCSMIX,
+a41 2
+      CHARACTER WCSLIB_VERSION*8
+
+d196 8
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: wcs.inc,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@wcslib_version_() does not return a value (is a subroutine).
+@
+text
+@d2 1
+d23 1
+a23 1
+* $Id: wcs.inc,v 8.2.1.2 2024/04/02 14:06:11 mcalabre Exp mcalabre $
+d43 2
+@
+
+
+8.2.1.4
+log
+@Added declarations for WCSENQ.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.2.1.3 2024/05/06 15:29:11 mcalabre Exp mcalabre $
+d29 2
+a30 2
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSENQ, WCSPRT,
+     :          WCSPERR, WCSBCHK, WCSSET,  WCSP2S,  WCSS2P, WCSMIX,
+d35 3
+a37 3
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSENQ, WCSPRT,
+     :          WCSPERR, WCSBCHK, WCSSET,  WCSP2S,  WCSS2P, WCSMIX,
+a195 7
+
+*     Codes used by WCSENQ.
+      INTEGER   WCSENQ_MEM, WCSENQ_SET, WCSENQ_BYP
+
+      PARAMETER (WCSENQ_MEM = 1)
+      PARAMETER (WCSENQ_SET = 2)
+      PARAMETER (WCSENQ_BYP = 4)
+@
+
+
+8.2.1.5
+log
+@Added WCSENQ_CHK.
+@
+text
+@d22 1
+a22 1
+* $Id: wcs.inc,v 8.2.1.4 2024/05/10 14:51:44 mcalabre Exp mcalabre $
+d198 1
+a198 1
+      INTEGER   WCSENQ_MEM, WCSENQ_SET, WCSENQ_BYP, WCSENQ_CHK
+a202 1
+      PARAMETER (WCSENQ_CHK = 8)
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.13.1.5 2023/06/15 04:17:21 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.13 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 622 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 688)
+d68 3
+a70 1
+     :          WCS_CRLN_OBS, WCS_HGLN_OBS, WCS_HGLT_OBS
+d152 6
+d160 4
+a163 3
+      INTEGER   WCS_NTAB,   WCS_NWTB, WCS_TAB,   WCS_WTB, WCS_LNGTYP,
+     :          WCS_LATTYP, WCS_LNG,   WCS_LAT, WCS_SPEC, WCS_CUBEFACE,
+     :          WCS_TYPES,   WCS_LIN, WCS_CEL,   WCS_SPC, WCS_ERR
+d174 7
+a180 6
+      PARAMETER (WCS_CUBEFACE = 209)
+      PARAMETER (WCS_TYPES    = 210)
+      PARAMETER (WCS_LIN      = 211)
+      PARAMETER (WCS_CEL      = 212)
+      PARAMETER (WCS_SPC      = 213)
+      PARAMETER (WCS_ERR      = 214)
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Track the addition of wcsprm::time to the wcsprm struct.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 624 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 690)
+d152 3
+a154 4
+      INTEGER   WCS_NTAB, WCS_NWTB, WCS_TAB, WCS_WTB, WCS_LNGTYP,
+     :          WCS_LATTYP, WCS_LNG, WCS_LAT, WCS_SPEC, WCS_TIME,
+     :          WCS_CUBEFACE, WCS_TYPES, WCS_LIN, WCS_CEL, WCS_SPC,
+     :          WCS_ERR
+d165 6
+a170 7
+      PARAMETER (WCS_TIME     = 209)
+      PARAMETER (WCS_CUBEFACE = 210)
+      PARAMETER (WCS_TYPES    = 211)
+      PARAMETER (WCS_LIN      = 212)
+      PARAMETER (WCS_CEL      = 213)
+      PARAMETER (WCS_SPC      = 214)
+      PARAMETER (WCS_ERR      = 215)
+@
+
+
+7.13.1.3
+log
+@Support planetary keywords A_RADIUS, B_RADIUS, C_RADIUS, PLON_OBS, PLAT_OBS,
+and PDIS_OBS in auxprm.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.13.1.2 2023/06/03 06:00:50 mcalabre Exp mcalabre $
+d68 1
+a68 3
+     :          WCS_CRLN_OBS, WCS_HGLN_OBS, WCS_HGLT_OBS,
+     :          WCS_A_RADIUS, WCS_B_RADIUS, WCS_C_RADIUS,
+     :          WCS_PLON_OBS, WCS_PLAT_OBS, WCS_PDIS_OBS
+a149 6
+      PARAMETER (WCS_A_RADIUS = 172)
+      PARAMETER (WCS_B_RADIUS = 173)
+      PARAMETER (WCS_C_RADIUS = 174)
+      PARAMETER (WCS_PLON_OBS = 175)
+      PARAMETER (WCS_PLAT_OBS = 176)
+      PARAMETER (WCS_PDIS_OBS = 177)
+@
+
+
+7.13.1.4
+log
+@(PLON_OBS, PLAT_OBS, PDIS_OBS) -> (BLON_OBS, BLAT_OBS, BDIS_OBS).
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.13.1.3 2023/06/03 08:26:19 mcalabre Exp mcalabre $
+d70 1
+a70 1
+     :          WCS_BLON_OBS, WCS_BLAT_OBS, WCS_BDIS_OBS
+d155 3
+a157 3
+      PARAMETER (WCS_BLON_OBS = 175)
+      PARAMETER (WCS_BLAT_OBS = 176)
+      PARAMETER (WCS_BDIS_OBS = 177)
+@
+
+
+7.13.1.5
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.13.1.4 2023/06/15 04:00:08 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.7.1.2 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.7 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.5.1.2 2021/04/13 08:47:53 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.4.1.2 2021/02/22 07:56:29 mcalabre Exp mcalabre $
+d27 6
+a32 6
+      EXTERNAL  WCSPUT,  WCSPTC, WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC, WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS, WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSPRT, WCSPERR, WCSBCHK,
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSCCS, WCSSPTR,
+     :          WCSCOPY
+d34 6
+a39 6
+      INTEGER   WCSPUT,  WCSPTC, WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC, WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS, WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSPRT, WCSPERR, WCSBCHK,
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSCCS, WCSSPTR,
+     :          WCSCOPY
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Wrappers for wcstrim(), wcssize(), and auxsize().
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d27 6
+a32 6
+      EXTERNAL  WCSPUT,  WCSPTC,  WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC,  WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSPRT, WCSPERR,
+     :          WCSBCHK, WCSSET,  WCSP2S,  WCSS2P,  WCSMIX,
+     :          WCSCCS,  WCSSPTR, WCSCOPY
+d34 6
+a39 6
+      INTEGER   WCSPUT,  WCSPTC,  WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC,  WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS,  WCSINI,  WCSINIT, WCSSUB,  WCSCOMPARE,
+     :          WCSFREE, WCSTRIM, WCSSIZE, AUXSIZE, WCSPRT, WCSPERR,
+     :          WCSBCHK, WCSSET,  WCSP2S,  WCSS2P,  WCSMIX,
+     :          WCSCCS,  WCSSPTR, WCSCOPY
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.3.1.3 2021/01/28 12:31:46 mcalabre Exp mcalabre $
+d31 2
+a32 1
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSSPTR, WCSCOPY
+d38 2
+a39 1
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSSPTR, WCSCOPY
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Wrapper for wcsccs().
+@
+text
+@d23 1
+a23 1
+* $Id: wcs.inc,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d31 1
+a31 2
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSCCS, WCSSPTR,
+     :          WCSCOPY
+d37 1
+a37 2
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSCCS, WCSSPTR,
+     :          WCSCOPY
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.3 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
+a20 2
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+*
+d23 1
+a23 1
+* $Id: wcs.inc,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d21 2
+d25 1
+a25 1
+* $Id: wcs.inc,v 7.3.1.2 2021/01/19 14:10:41 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.4.1.3 2019/12/31 03:28:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 620 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 684)
+d67 2
+a68 1
+     :          WCS_SSYSSRC, WCS_VELANGL
+d144 6
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated WCSLEN and added codes for the new Solar-related members of the
+auxprm struct.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 622 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 688)
+d67 1
+a67 2
+     :          WCS_SSYSSRC, WCS_VELANGL, WCS_RSUN_REF, WCS_DSUN_OBS,
+     :          WCS_CRLN_OBS, WCS_HGLN_OBS, WCS_HGLT_OBS
+a142 6
+
+      PARAMETER (WCS_RSUN_REF = 167)
+      PARAMETER (WCS_DSUN_OBS = 168)
+      PARAMETER (WCS_CRLN_OBS = 169)
+      PARAMETER (WCS_HGLN_OBS = 170)
+      PARAMETER (WCS_HGLT_OBS = 171)
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.4.1.2 2019/12/31 02:39:45 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.2.1.2 2019/05/10 02:05:36 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.20.1.2 2018/10/19 04:42:22 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 420 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 482)
+d52 1
+a52 1
+      INTEGER   WCS_FLAG,  WCS_NAXIS, WCS_CRPIX, WCS_PC, WCS_CDELT,
+d57 11
+a67 5
+     :          WCS_COLAX, WCS_CNAME, WCS_CRDER, WCS_CSYER, WCS_DATEAVG,
+     :          WCS_DATEOBS, WCS_EQUINOX, WCS_MJDAVG, WCS_MJDOBS,
+     :          WCS_OBSGEO, WCS_RADESYS, WCS_SPECSYS, WCS_SSYSOBS,
+     :          WCS_VELOSYS, WCS_ZSOURCE, WCS_SSYSSRC, WCS_VELANGL,
+     :          WCS_WCSNAME
+d99 44
+a142 14
+      PARAMETER (WCS_DATEAVG  = 128)
+      PARAMETER (WCS_DATEOBS  = 129)
+      PARAMETER (WCS_EQUINOX  = 130)
+      PARAMETER (WCS_MJDAVG   = 131)
+      PARAMETER (WCS_MJDOBS   = 132)
+      PARAMETER (WCS_OBSGEO   = 133)
+      PARAMETER (WCS_RADESYS  = 134)
+      PARAMETER (WCS_SPECSYS  = 135)
+      PARAMETER (WCS_SSYSOBS  = 136)
+      PARAMETER (WCS_VELOSYS  = 137)
+      PARAMETER (WCS_ZSOURCE  = 138)
+      PARAMETER (WCS_SSYSSRC  = 139)
+      PARAMETER (WCS_VELANGL  = 140)
+      PARAMETER (WCS_WCSNAME  = 141)
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Updated WCSLEN and added codes for the new time-related members of the
+wcsprm struct.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*     machines.  Only needs to be 620 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 684)
+d52 1
+a52 1
+      INTEGER   WCS_FLAG, WCS_NAXIS, WCS_CRPIX, WCS_PC, WCS_CDELT,
+d57 5
+a61 11
+     :          WCS_COLAX, WCS_CNAME,  WCS_CRDER, WCS_CSYER, WCS_CZPHS,
+     :          WCS_CPERI, WCS_WCSNAME, WCS_TIMESYS, WCS_TREFPOS,
+     :          WCS_TREFDIR, WCS_PLEPHEM, WCS_TIMEUNIT, WCS_DATEREF,
+     :          WCS_MJDREF, WCS_TIMEOFFS, WCS_DATEOBS, WCS_DATEBEG,
+     :          WCS_DATEAVG, WCS_DATEEND, WCS_MJDOBS, WCS_MJDBEG,
+     :          WCS_MJDAVG, WCS_MJDEND, WCS_JEPOCH, WCS_BEPOCH,
+     :          WCS_TSTART, WCS_TSTOP, WCS_XPOSURE, WCS_TELAPSE,
+     :          WCS_TIMSYER, WCS_TIMRDER, WCS_TIMEDEL, WCS_TIMEPIXR,
+     :          WCS_OBSGEO, WCS_OBSORBIT, WCS_RADESYS, WCS_EQUINOX,
+     :          WCS_SPECSYS, WCS_SSYSOBS, WCS_VELOSYS, WCS_ZSOURCE,
+     :          WCS_SSYSSRC, WCS_VELANGL
+d93 14
+a106 44
+      PARAMETER (WCS_CZPHS    = 128)
+      PARAMETER (WCS_CPERI    = 129)
+
+      PARAMETER (WCS_WCSNAME  = 130)
+
+      PARAMETER (WCS_TIMESYS  = 131)
+      PARAMETER (WCS_TREFPOS  = 132)
+      PARAMETER (WCS_TREFDIR  = 133)
+      PARAMETER (WCS_PLEPHEM  = 134)
+      PARAMETER (WCS_TIMEUNIT = 135)
+      PARAMETER (WCS_DATEREF  = 136)
+      PARAMETER (WCS_MJDREF   = 137)
+      PARAMETER (WCS_TIMEOFFS = 138)
+
+      PARAMETER (WCS_DATEOBS  = 139)
+      PARAMETER (WCS_DATEBEG  = 140)
+      PARAMETER (WCS_DATEAVG  = 141)
+      PARAMETER (WCS_DATEEND  = 142)
+      PARAMETER (WCS_MJDOBS   = 143)
+      PARAMETER (WCS_MJDBEG   = 144)
+      PARAMETER (WCS_MJDAVG   = 145)
+      PARAMETER (WCS_MJDEND   = 146)
+      PARAMETER (WCS_JEPOCH   = 147)
+      PARAMETER (WCS_BEPOCH   = 148)
+      PARAMETER (WCS_TSTART   = 149)
+      PARAMETER (WCS_TSTOP    = 150)
+      PARAMETER (WCS_XPOSURE  = 151)
+      PARAMETER (WCS_TELAPSE  = 152)
+
+      PARAMETER (WCS_TIMSYER  = 153)
+      PARAMETER (WCS_TIMRDER  = 154)
+      PARAMETER (WCS_TIMEDEL  = 155)
+      PARAMETER (WCS_TIMEPIXR = 156)
+
+      PARAMETER (WCS_OBSGEO   = 157)
+      PARAMETER (WCS_OBSORBIT = 158)
+      PARAMETER (WCS_RADESYS  = 159)
+      PARAMETER (WCS_EQUINOX  = 160)
+      PARAMETER (WCS_SPECSYS  = 161)
+      PARAMETER (WCS_SSYSOBS  = 162)
+      PARAMETER (WCS_VELOSYS  = 163)
+      PARAMETER (WCS_ZSOURCE  = 164)
+      PARAMETER (WCS_SSYSSRC  = 165)
+      PARAMETER (WCS_VELANGL  = 166)
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.17.1.3 2018/01/10 08:26:33 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.17 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.16.1.1 2017/01/15 04:29:02 mcalabre Exp mcalabre $
+d29 5
+a33 5
+      EXTERNAL  WCSPUT, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSNPV, WCSNPS, WCSINI, WCSSUB, WCSCOMPARE, WCSFREE,
+     :          WCSPRT, WCSPERR, WCSBCHK, WCSSET, WCSP2S, WCSS2P,
+     :          WCSMIX, WCSSPTR, WCSCOPY
+d35 5
+a39 5
+      INTEGER   WCSPUT, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSNPV, WCSNPS, WCSINI, WCSSUB, WCSCOMPARE, WCSFREE,
+     :          WCSPRT, WCSPERR, WCSBCHK, WCSSET, WCSP2S, WCSS2P,
+     :          WCSMIX, WCSSPTR, WCSCOPY
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Wrapper for wcsinit().
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+d29 5
+a33 5
+      EXTERNAL  WCSPUT,  WCSPTC, WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC, WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS, WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSPRT, WCSPERR, WCSBCHK,
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSSPTR, WCSCOPY
+d35 5
+a39 5
+      INTEGER   WCSPUT,  WCSPTC, WCSPTD,  WCSPTI,
+     :          WCSGET,  WCSGTC, WCSGTD,  WCSGTI,
+     :          WCSNPV,  WCSNPS, WCSINI,  WCSINIT, WCSSUB, WCSCOMPARE,
+     :          WCSFREE, WCSPRT, WCSPERR, WCSBCHK,
+     :          WCSSET,  WCSP2S, WCSS2P,  WCSMIX,  WCSSPTR, WCSCOPY
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.17.1.2 2017/12/05 07:20:52 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.15.1.2 2017/01/15 04:08:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.15 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.14.1.1 2016/02/07 10:52:47 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.12.1.2 2016/01/25 05:21:06 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.12 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.10.1.1 2015/10/09 08:22:38 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.8.1.1 2015/07/08 11:07:21 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.4.1.1 2015/04/21 14:44:30 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.3.1.1 2015/04/21 02:54:04 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.2.1.1 2015/04/15 12:39:17 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.25.1.4 2015/04/05 06:28:21 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.25 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+d29 16
+a44 8
+      EXTERNAL  WCSBCHK, WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC,
+     :          WCSGTD, WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S,
+     :          WCSPERR, WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSPUT, WCSS2P, WCSSET, WCSSUB
+      INTEGER   WCSBCHK, WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC,
+     :          WCSGTD, WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S,
+     :          WCSPERR, WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSPUT, WCSS2P, WCSSET, WCSSUB
+d47 1
+a47 1
+*     machines.  Only needs to be 416 on 32-bit machines.
+d49 1
+a49 1
+      PARAMETER (WCSLEN = 474)
+d52 10
+a61 9
+      INTEGER   WCS_ALT, WCS_ALTLIN, WCS_CD, WCS_CDELT, WCS_CNAME,
+     :          WCS_COLAX, WCS_COLNUM, WCS_CRDER, WCS_CROTA, WCS_CRPIX,
+     :          WCS_CRVAL, WCS_CSYER, WCS_CTYPE, WCS_CUNIT, WCS_DATEAVG,
+     :          WCS_DATEOBS, WCS_EQUINOX, WCS_FLAG, WCS_LATPOLE,
+     :          WCS_LONPOLE, WCS_MJDAVG, WCS_MJDOBS, WCS_NAXIS, WCS_NPS,
+     :          WCS_NPSMAX, WCS_NPV, WCS_NPVMAX, WCS_OBSGEO, WCS_PC,
+     :          WCS_PS, WCS_PV, WCS_RADESYS, WCS_RESTFRQ, WCS_RESTWAV,
+     :          WCS_SPECSYS, WCS_SSYSOBS, WCS_SSYSSRC, WCS_VELANGL,
+     :          WCS_VELOSYS, WCS_VELREF, WCS_WCSNAME, WCS_ZSOURCE
+d109 3
+a111 3
+      INTEGER   WCS_CEL, WCS_CUBEFACE, WCS_ERR, WCS_LAT, WCS_LATTYP,
+     :          WCS_LIN, WCS_LNG, WCS_LNGTYP, WCS_NTAB, WCS_NWTB,
+     :          WCS_SPC, WCS_SPEC, WCS_TAB, WCS_TYPES, WCS_WTB
+d130 2
+a131 2
+      INTEGER WCSSUB_CELESTIAL, WCSSUB_CUBEFACE, WCSSUB_LATITUDE,
+     :        WCSSUB_LONGITUDE, WCSSUB_SPECTRAL, WCSSUB_STOKES
+d148 6
+a153 6
+      INTEGER   WCSERR_BAD_COORD_TRANS, WCSERR_BAD_CTYPE,
+     :          WCSERR_BAD_PARAM, WCSERR_BAD_PIX, WCSERR_BAD_SUBIMAGE,
+     :          WCSERR_BAD_WORLD, WCSERR_BAD_WORLD_COORD,
+     :          WCSERR_ILL_COORD_TRANS, WCSERR_MEMORY,
+     :          WCSERR_NON_SEPARABLE, WCSERR_NO_SOLUTION,
+     :          WCSERR_NULL_POINTER, WCSERR_SINGULAR_MTX, WCSERR_SUCCESS
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Added a wrapper for wcslib_version().
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.25.1.2 2015/01/06 01:02:17 mcalabre Exp mcalabre $
+a36 5
+
+*     Note that the Fortran API differs from that of the C function.
+      EXTERNAL  WCSLIB_VERSION
+      CHARACTER WCSLIB_VERSION*8
+
+@
+
+
+4.25.1.4
+log
+@Updated WCSLEN.  Changed the order of the declarations to match the order in
+wcs.h (rather than alphabetical).
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.25.1.3 2015/03/05 08:23:34 mcalabre Exp mcalabre $
+d29 8
+a36 11
+      EXTERNAL  WCSPUT, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSNPV, WCSNPS, WCSINI, WCSSUB, WCSCOMPARE, WCSFREE,
+     :          WCSPRT, WCSPERR, WCSBCHK, WCSSET, WCSP2S, WCSS2P,
+     :          WCSMIX, WCSSPTR, WCSCOPY
+
+      INTEGER   WCSPUT, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSNPV, WCSNPS, WCSINI, WCSSUB, WCSCOMPARE, WCSFREE,
+     :          WCSPRT, WCSPERR, WCSBCHK, WCSSET, WCSP2S, WCSS2P,
+     :          WCSMIX, WCSSPTR, WCSCOPY
+d44 1
+a44 1
+*     machines.  Only needs to be 420 on 32-bit machines.
+d46 1
+a46 1
+      PARAMETER (WCSLEN = 482)
+d49 9
+a57 10
+      INTEGER   WCS_FLAG,  WCS_NAXIS, WCS_CRPIX, WCS_PC, WCS_CDELT,
+     :          WCS_CRVAL, WCS_CUNIT, WCS_CTYPE, WCS_LONPOLE,
+     :          WCS_LATPOLE, WCS_RESTFRQ, WCS_RESTWAV, WCS_NPV,
+     :          WCS_NPVMAX, WCS_PV, WCS_NPS, WCS_NPSMAX, WCS_PS, WCS_CD,
+     :          WCS_CROTA, WCS_ALTLIN, WCS_VELREF, WCS_ALT, WCS_COLNUM,
+     :          WCS_COLAX, WCS_CNAME, WCS_CRDER, WCS_CSYER, WCS_DATEAVG,
+     :          WCS_DATEOBS, WCS_EQUINOX, WCS_MJDAVG, WCS_MJDOBS,
+     :          WCS_OBSGEO, WCS_RADESYS, WCS_SPECSYS, WCS_SSYSOBS,
+     :          WCS_VELOSYS, WCS_ZSOURCE, WCS_SSYSSRC, WCS_VELANGL,
+     :          WCS_WCSNAME
+d105 3
+a107 3
+      INTEGER   WCS_NTAB,   WCS_NWTB, WCS_TAB,   WCS_WTB, WCS_LNGTYP,
+     :          WCS_LATTYP, WCS_LNG,   WCS_LAT, WCS_SPEC, WCS_CUBEFACE,
+     :          WCS_TYPES,   WCS_LIN, WCS_CEL,   WCS_SPC, WCS_ERR
+d126 2
+a127 2
+      INTEGER   WCSSUB_LONGITUDE, WCSSUB_LATITUDE, WCSSUB_CUBEFACE,
+     :          WCSSUB_CELESTIAL, WCSSUB_SPECTRAL, WCSSUB_STOKES
+d144 6
+a149 6
+      INTEGER   WCSERR_SUCCESS, WCSERR_NULL_POINTER, WCSERR_MEMORY,
+     :          WCSERR_SINGULAR_MTX, WCSERR_BAD_CTYPE, WCSERR_BAD_PARAM,
+     :          WCSERR_BAD_COORD_TRANS, WCSERR_ILL_COORD_TRANS,
+     :          WCSERR_BAD_PIX, WCSERR_BAD_WORLD,
+     :          WCSERR_BAD_WORLD_COORD, WCSERR_NO_SOLUTION,
+     :          WCSERR_BAD_SUBIMAGE, WCSERR_NON_SEPARABLE
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.22.1.3 2014/05/10 14:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+d29 8
+a36 8
+      EXTERNAL  WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR, WCSPRT,
+     :          WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+      INTEGER   WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR, WCSPRT,
+     :          WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+d120 1
+a120 1
+*     Flag bits for the AXES argument.
+d130 7
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.22.1.2
+log
+@Added WCSCOMPARE and related parameters.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+d29 8
+a36 8
+      EXTERNAL  WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD,
+     :          WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR,
+     :          WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P,
+     :          WCSSET, WCSSUB
+      INTEGER   WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD,
+     :          WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR,
+     :          WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P,
+     :          WCSSET, WCSSUB
+d120 1
+a120 1
+*     Flag bits for WCSSUB's AXES argument.
+a129 7
+
+*     Flag bits for WCSCOMPARE's CMP argument.
+      INTEGER WCSCOMPARE_ANCILLARY, WCSCOMPARE_TILING, WCSCOMPARE_CRPIX
+
+      PARAMETER (WCSCOMPARE_ANCILLARY = 1)
+      PARAMETER (WCSCOMPARE_TILING    = 2)
+      PARAMETER (WCSCOMPARE_CRPIX     = 4)
+@
+
+
+4.22.1.3
+log
+@Added WCSBCHK (overlooked at 4.20).
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.22.1.2 2014/05/10 14:42:27 mcalabre Exp mcalabre $
+d29 8
+a36 8
+      EXTERNAL  WCSBCHK, WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC,
+     :          WCSGTD, WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S,
+     :          WCSPERR, WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSPUT, WCSS2P, WCSSET, WCSSUB
+      INTEGER   WCSBCHK, WCSCOMPARE, WCSCOPY, WCSFREE, WCSGET, WCSGTC,
+     :          WCSGTD, WCSGTI, WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S,
+     :          WCSPERR, WCSPRT, WCSSPTR, WCSPTC, WCSPTD, WCSPTI,
+     :          WCSPUT, WCSS2P, WCSSET, WCSSUB
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.20.1.2 2014/03/21 06:39:02 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.20 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.16.1.2 2013/01/29 05:10:59 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.16 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.14.1.1 2012/07/13 10:04:54 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: wcs.inc,v 4.13.1.2 2012/07/13 03:40:02 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: wcs.inc,v 4.14 2012/07/13 10:02:35 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d21 5
+a25 11
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+*
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: wcs.inc,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d21 7
+a27 1
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: wcs.inc,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.8.1.2 2012/01/24 05:23:50 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.8 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.7.1.3 2011/08/15 06:08:20 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.6.1.3 2011/01/25 06:21:29 cal103 Exp cal103 $
+d36 3
+a38 2
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPRT, WCSSPTR,
+     :          WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET, WCSSUB
+d40 3
+a42 2
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPRT, WCSSPTR,
+     :          WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET, WCSSUB
+d45 1
+a45 1
+*     machines.  Only needs to be 404 on 32-bit machines.
+d47 1
+a47 1
+      PARAMETER (WCSLEN = 450)
+d106 3
+a108 3
+      INTEGER   WCS_CEL, WCS_CUBEFACE, WCS_LAT, WCS_LATTYP, WCS_LIN,
+     :          WCS_LNG, WCS_LNGTYP, WCS_NTAB, WCS_NWTB, WCS_SPC,
+     :          WCS_SPEC, WCS_TAB, WCS_TYPES, WCS_WTB
+d114 7
+a120 7
+      PARAMETER (WCS_TYPES    = 204)
+      PARAMETER (WCS_LNGTYP   = 205)
+      PARAMETER (WCS_LATTYP   = 206)
+      PARAMETER (WCS_LNG      = 207)
+      PARAMETER (WCS_LAT      = 208)
+      PARAMETER (WCS_SPEC     = 209)
+      PARAMETER (WCS_CUBEFACE = 210)
+d124 1
+d137 23
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added support for the new error messaging system based on wcserr.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d36 2
+a37 3
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR, WCSPRT,
+     :          WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+d39 2
+a40 3
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPERR, WCSPRT,
+     :          WCSSPTR, WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+d43 1
+a43 1
+*     machines.  Only needs to be 410 on 32-bit machines.
+d45 1
+a45 1
+      PARAMETER (WCSLEN = 462)
+d104 3
+a106 3
+      INTEGER   WCS_CEL, WCS_CUBEFACE, WCS_ERR, WCS_LAT, WCS_LATTYP,
+     :          WCS_LIN, WCS_LNG, WCS_LNGTYP, WCS_NTAB, WCS_NWTB,
+     :          WCS_SPC, WCS_SPEC, WCS_TAB, WCS_TYPES, WCS_WTB
+a121 1
+      PARAMETER (WCS_ERR      = 214)
+a133 23
+*     Error codes and messages.
+      INTEGER   WCSERR_BAD_COORD_TRANS, WCSERR_BAD_CTYPE,
+     :          WCSERR_BAD_PARAM, WCSERR_BAD_PIX, WCSERR_BAD_SUBIMAGE,
+     :          WCSERR_BAD_WORLD, WCSERR_BAD_WORLD_COORD,
+     :          WCSERR_ILL_COORD_TRANS, WCSERR_MEMORY,
+     :          WCSERR_NON_SEPARABLE, WCSERR_NO_SOLUTION,
+     :          WCSERR_NULL_POINTER, WCSERR_SINGULAR_MTX, WCSERR_SUCCESS
+
+      PARAMETER (WCSERR_SUCCESS         =  0)
+      PARAMETER (WCSERR_NULL_POINTER    =  1)
+      PARAMETER (WCSERR_MEMORY          =  2)
+      PARAMETER (WCSERR_SINGULAR_MTX    =  3)
+      PARAMETER (WCSERR_BAD_CTYPE       =  4)
+      PARAMETER (WCSERR_BAD_PARAM       =  5)
+      PARAMETER (WCSERR_BAD_COORD_TRANS =  6)
+      PARAMETER (WCSERR_ILL_COORD_TRANS =  7)
+      PARAMETER (WCSERR_BAD_PIX         =  8)
+      PARAMETER (WCSERR_BAD_WORLD       =  9)
+      PARAMETER (WCSERR_BAD_WORLD_COORD = 10)
+      PARAMETER (WCSERR_NO_SOLUTION     = 11)
+      PARAMETER (WCSERR_BAD_SUBIMAGE    = 12)
+      PARAMETER (WCSERR_NON_SEPARABLE   = 13)
+
+@
+
+
+4.7.1.3
+log
+@Changed WCSLEN to reflect extra padding of the wcsprm struct.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.7.1.2 2011/08/09 03:00:46 cal103 Exp cal103 $
+d45 1
+a45 1
+*     machines.  Only needs to be 416 on 32-bit machines.
+d47 1
+a47 1
+      PARAMETER (WCSLEN = 474)
+d114 7
+a120 7
+      PARAMETER (WCS_LNGTYP   = 204)
+      PARAMETER (WCS_LATTYP   = 205)
+      PARAMETER (WCS_LNG      = 206)
+      PARAMETER (WCS_LAT      = 207)
+      PARAMETER (WCS_SPEC     = 208)
+      PARAMETER (WCS_CUBEFACE = 209)
+      PARAMETER (WCS_TYPES    = 210)
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.6 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.5.1.2 2010/11/15 07:03:11 cal103 Exp cal103 $
+d43 1
+a43 1
+*     machines.  Only needs to be 403 on 32-bit machines.
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Fixed the comment relating to the size of the wcsprm struct on 32-bit
+machines.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.6.1.2 2011/01/14 06:34:01 cal103 Exp cal103 $
+d43 1
+a43 1
+*     machines.  Only needs to be 404 on 32-bit machines.
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.4.1.4 2010/07/07 13:13:43 cal103 Exp cal103 $
+d35 6
+a40 6
+      EXTERNAL  WCSCOPY, WCSFREE, WCSGET, WCSINI, WCSMIX, WCSNPS,
+     :          WCSNPV, WCSP2S, WCSPRT, WCSSPTR, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+      INTEGER   WCSCOPY, WCSFREE, WCSGET, WCSINI, WCSMIX, WCSNPS,
+     :          WCSNPV, WCSP2S, WCSPRT, WCSSPTR, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+d135 1
+a135 15
+      DATA WCS_ERRMSG /
+     :  'Success',
+     :  'Null wcsprm pointer passed',
+     :  'Memory allocation failed',
+     :  'Linear transformation matrix is singular',
+     :  'Inconsistent or unrecognized coordinate axis types',
+     :  'Invalid parameter value',
+     :  'Invalid coordinate transformation parameters',
+     :  'Ill-conditioned coordinate transformation parameters',
+     :  'One or more of the pixel coordinates were invalid',
+     :  'One or more of the world coordinates were invalid',
+     :  'Invalid world coordinate',
+     :  'No solution found in the specified interval',
+     :  'Invalid subimage specification',
+     :  'Non-separable subimage coordinate system'/
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Declare WCSGTC, WCSGTD, WCSGTI, WCSPTC, WCSPTD, and WCSPTI; put
+WCS_ERRMSG in the WCS_DATA COMMON and removed the DATA statements
+that initialized it.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d35 6
+a40 6
+      EXTERNAL  WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPRT, WCSSPTR,
+     :          WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET, WCSSUB
+      INTEGER   WCSCOPY, WCSFREE, WCSGET, WCSGTC, WCSGTD, WCSGTI,
+     :          WCSINI, WCSMIX, WCSNPS, WCSNPV, WCSP2S, WCSPRT, WCSSPTR,
+     :          WCSPTC, WCSPTD, WCSPTI, WCSPUT, WCSS2P, WCSSET, WCSSUB
+d135 15
+a149 1
+      COMMON /WCS_DATA/ WCS_ERRMSG
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.3.1.4 2009/08/06 02:48:14 cal103 Exp cal103 $
+d35 3
+d56 1
+a56 1
+     :          WCS_VELOSYS, WCS_WCSNAME, WCS_ZSOURCE
+d76 26
+a101 25
+      PARAMETER (WCS_ALTLIN   = 118)
+      PARAMETER (WCS_CD       = 119)
+      PARAMETER (WCS_CROTA    = 120)
+
+      PARAMETER (WCS_ALT      = 121)
+      PARAMETER (WCS_COLNUM   = 122)
+      PARAMETER (WCS_COLAX    = 123)
+
+      PARAMETER (WCS_CNAME    = 124)
+      PARAMETER (WCS_CRDER    = 125)
+      PARAMETER (WCS_CSYER    = 126)
+      PARAMETER (WCS_DATEAVG  = 127)
+      PARAMETER (WCS_DATEOBS  = 128)
+      PARAMETER (WCS_EQUINOX  = 129)
+      PARAMETER (WCS_MJDAVG   = 130)
+      PARAMETER (WCS_MJDOBS   = 131)
+      PARAMETER (WCS_OBSGEO   = 132)
+      PARAMETER (WCS_RADESYS  = 133)
+      PARAMETER (WCS_SPECSYS  = 134)
+      PARAMETER (WCS_SSYSOBS  = 135)
+      PARAMETER (WCS_SSYSSRC  = 136)
+      PARAMETER (WCS_VELANGL  = 137)
+      PARAMETER (WCS_VELOSYS  = 138)
+      PARAMETER (WCS_WCSNAME  = 139)
+      PARAMETER (WCS_ZSOURCE  = 140)
+d109 2
+a110 2
+      PARAMETER (WCS_TAB      = 201)
+      PARAMETER (WCS_NWTB     = 202)
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.4 2009/08/06 07:51:45 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: wcs.inc,v 4.4.1.1 2009/08/10 08:54:51 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Added WCS_VELREF and revised code numbering to match wcs.h.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.4.1.2 2010/01/19 03:44:35 cal103 Exp cal103 $
+d53 1
+a53 1
+     :          WCS_VELOSYS, WCS_VELREF, WCS_WCSNAME, WCS_ZSOURCE
+d73 25
+a97 26
+      PARAMETER (WCS_CD       = 118)
+      PARAMETER (WCS_CROTA    = 119)
+      PARAMETER (WCS_ALTLIN   = 120)
+      PARAMETER (WCS_VELREF   = 121)
+
+      PARAMETER (WCS_ALT      = 122)
+      PARAMETER (WCS_COLNUM   = 123)
+      PARAMETER (WCS_COLAX    = 124)
+
+      PARAMETER (WCS_CNAME    = 125)
+      PARAMETER (WCS_CRDER    = 126)
+      PARAMETER (WCS_CSYER    = 127)
+      PARAMETER (WCS_DATEAVG  = 128)
+      PARAMETER (WCS_DATEOBS  = 129)
+      PARAMETER (WCS_EQUINOX  = 130)
+      PARAMETER (WCS_MJDAVG   = 131)
+      PARAMETER (WCS_MJDOBS   = 132)
+      PARAMETER (WCS_OBSGEO   = 133)
+      PARAMETER (WCS_RADESYS  = 134)
+      PARAMETER (WCS_SPECSYS  = 135)
+      PARAMETER (WCS_SSYSOBS  = 136)
+      PARAMETER (WCS_VELOSYS  = 137)
+      PARAMETER (WCS_ZSOURCE  = 138)
+      PARAMETER (WCS_SSYSSRC  = 139)
+      PARAMETER (WCS_VELANGL  = 140)
+      PARAMETER (WCS_WCSNAME  = 141)
+d105 2
+a106 2
+      PARAMETER (WCS_NWTB     = 201)
+      PARAMETER (WCS_TAB      = 202)
+@
+
+
+4.4.1.4
+log
+@Declare functions EXTERNAL to stop compiler warnings re unused variables.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.4.1.3 2010/07/07 07:13:30 cal103 Exp cal103 $
+a34 3
+      EXTERNAL  WCSCOPY, WCSFREE, WCSGET, WCSINI, WCSMIX, WCSNPS,
+     :          WCSNPV, WCSP2S, WCSPRT, WCSSPTR, WCSPUT, WCSS2P, WCSSET,
+     :          WCSSUB
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+*   This file is part of WCSLIB.
+d8 24
+a31 24
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+*
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: wcs.inc,v 4.2.1.2 2007/12/03 05:36:01 cal103 Exp cal103 $
+d39 2
+a40 1
+*     Length of the WCSPRM data structure (INTEGER array).
+d42 1
+a42 1
+      PARAMETER (WCSLEN = 400)
+d46 2
+a47 2
+     :          WCS_COLNUM, WCS_CRDER, WCS_CROTA, WCS_CRPIX, WCS_CRVAL,
+     :          WCS_CSYER, WCS_CTYPE, WCS_CUNIT, WCS_DATEAVG,
+d52 2
+a53 2
+     :          WCS_SPECSYS, WCS_SSYSOBS, WCS_SSYSSRC, WCS_VELOSYS,
+     :          WCS_WCSNAME, WCS_ZSOURCE
+d76 1
+d79 2
+a80 1
+      PARAMETER (WCS_WCSNAME  = 123)
+d84 14
+a97 12
+      PARAMETER (WCS_RADESYS  = 127)
+      PARAMETER (WCS_EQUINOX  = 128)
+      PARAMETER (WCS_SPECSYS  = 129)
+      PARAMETER (WCS_SSYSOBS  = 130)
+      PARAMETER (WCS_VELOSYS  = 131)
+      PARAMETER (WCS_SSYSSRC  = 132)
+      PARAMETER (WCS_ZSOURCE  = 133)
+      PARAMETER (WCS_OBSGEO   = 134)
+      PARAMETER (WCS_DATEOBS  = 135)
+      PARAMETER (WCS_DATEAVG  = 136)
+      PARAMETER (WCS_MJDOBS   = 137)
+      PARAMETER (WCS_MJDAVG   = 138)
+d132 14
+a145 14
+     :   'Success',
+     :   'Null wcsprm pointer passed',
+     :   'Memory allocation failed',
+     :   'Linear transformation matrix is singular',
+     :   'Inconsistent or unrecognized coordinate axis types',
+     :   'Invalid parameter value',
+     :   'Invalid coordinate transformation parameters',
+     :   'Ill-conditioned coordinate transformation parameters',
+     :   'One or more of the pixel coordinates were invalid',
+     :   'One or more of the world coordinates were invalid',
+     :   'Invalid world coordinate',
+     :   'No solution found in the specified interval',
+     :   'Invalid subimage specification',
+     :   'Non-separable subimage coordinate system'/
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+*   $Id: wcs.inc,v 4.3 2007/12/27 05:48:07 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Updated for changes to wcsprm made in WCSLIB 4.3.
+@
+text
+@d31 1
+a31 1
+*   $Id: wcs.inc,v 4.3.1.1 2007/12/27 13:25:03 cal103 Exp cal103 $
+d41 1
+a41 1
+      PARAMETER (WCSLEN = 403)
+d45 2
+a46 2
+     :          WCS_COLAX, WCS_COLNUM, WCS_CRDER, WCS_CROTA, WCS_CRPIX,
+     :          WCS_CRVAL, WCS_CSYER, WCS_CTYPE, WCS_CUNIT, WCS_DATEAVG,
+d51 2
+a52 2
+     :          WCS_SPECSYS, WCS_SSYSOBS, WCS_SSYSSRC, WCS_VELANGL,
+     :          WCS_VELOSYS, WCS_WCSNAME, WCS_ZSOURCE
+a74 1
+
+d77 1
+a77 2
+      PARAMETER (WCS_COLAX    = 123)
+
+d81 12
+a92 14
+      PARAMETER (WCS_DATEAVG  = 127)
+      PARAMETER (WCS_DATEOBS  = 128)
+      PARAMETER (WCS_EQUINOX  = 129)
+      PARAMETER (WCS_MJDAVG   = 130)
+      PARAMETER (WCS_MJDOBS   = 131)
+      PARAMETER (WCS_OBSGEO   = 132)
+      PARAMETER (WCS_RADESYS  = 133)
+      PARAMETER (WCS_SPECSYS  = 134)
+      PARAMETER (WCS_SSYSOBS  = 135)
+      PARAMETER (WCS_SSYSSRC  = 136)
+      PARAMETER (WCS_VELANGL  = 137)
+      PARAMETER (WCS_VELOSYS  = 138)
+      PARAMETER (WCS_WCSNAME  = 139)
+      PARAMETER (WCS_ZSOURCE  = 140)
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+* This file is part of WCSLIB.
+d8 24
+a31 24
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+*
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: wcs.inc,v 4.3.1.2 2008/04/21 06:47:27 cal103 Exp cal103 $
+@
+
+
+4.3.1.4
+log
+@Increased struct lengths to accomodate 64-bit machines.
+@
+text
+@d31 1
+a31 1
+* $Id: wcs.inc,v 4.3.1.3 2009/07/22 07:18:23 cal103 Exp cal103 $
+d39 1
+a39 2
+*     Length of the WCSPRM data structure (INTEGER array) on 64-bit
+*     machines.  Only needs to be 403 on 32-bit machines.
+d41 1
+a41 1
+      PARAMETER (WCSLEN = 450)
+d131 14
+a144 14
+     :  'Success',
+     :  'Null wcsprm pointer passed',
+     :  'Memory allocation failed',
+     :  'Linear transformation matrix is singular',
+     :  'Inconsistent or unrecognized coordinate axis types',
+     :  'Invalid parameter value',
+     :  'Invalid coordinate transformation parameters',
+     :  'Ill-conditioned coordinate transformation parameters',
+     :  'One or more of the pixel coordinates were invalid',
+     :  'One or more of the world coordinates were invalid',
+     :  'Invalid world coordinate',
+     :  'No solution found in the specified interval',
+     :  'Invalid subimage specification',
+     :  'Non-separable subimage coordinate system'/
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d6 14
+a19 13
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d31 1
+a31 1
+*   $Id: wcs.inc,v 4.1 2005/08/26 14:16:47 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 4.2 2005/09/21 13:25:32 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Switched to LGPL 3.0.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 13
+a18 14
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+*
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 4.2.1.1 2005/12/05 01:43:47 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: added type declaration for WCSSPTR; added and revised the data
+structure codes to track additions and changes to wcsprm; added WCSHDR_ERRMSG
+array containing status messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 4.0 2005/02/04 12:38:46 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 3.6 2004/08/25 06:06:53 cal103 Exp cal103 $
+d35 2
+a36 1
+     :          WCSNPV, WCSP2S, WCSPRT, WCSPUT, WCSS2P, WCSSET, WCSSUB
+d40 1
+a40 1
+      PARAMETER (WCSLEN = 374)
+d45 7
+a51 7
+     :          WCS_CSYER, WCS_CTYPE, WCS_CUNIT, WCS_DATEOBS,
+     :          WCS_EQUINOX, WCS_FLAG, WCS_LATPOLE, WCS_LONPOLE,
+     :          WCS_MJDAVG, WCS_MJDOBS, WCS_NAXIS, WCS_NPS, WCS_NPSMAX,
+     :          WCS_NPV, WCS_NPVMAX, WCS_OBSGEO, WCS_PC, WCS_PS, WCS_PV,
+     :          WCS_RADESYS, WCS_RESTFRQ, WCS_RESTWAV, WCS_SPECSYS,
+     :          WCS_SSYSOBS, WCS_SSYSSRC, WCS_VELOSYS, WCS_WCSNAME,
+     :          WCS_ZSOURCE
+d58 3
+a60 3
+      PARAMETER (WCS_CUNIT    = 105)
+      PARAMETER (WCS_CTYPE    = 106)
+      PARAMETER (WCS_CRVAL    = 107)
+d89 3
+a91 2
+      PARAMETER (WCS_MJDOBS   = 136)
+      PARAMETER (WCS_MJDAVG   = 137)
+d95 2
+a96 1
+     :          WCS_LNG, WCS_LNGTYP, WCS_SPC, WCS_SPEC
+d98 14
+a111 9
+      PARAMETER (WCS_LNGTYP   = 200)
+      PARAMETER (WCS_LATTYP   = 201)
+      PARAMETER (WCS_LNG      = 202)
+      PARAMETER (WCS_LAT      = 203)
+      PARAMETER (WCS_SPEC     = 204)
+      PARAMETER (WCS_CUBEFACE = 205)
+      PARAMETER (WCS_LIN      = 206)
+      PARAMETER (WCS_CEL      = 207)
+      PARAMETER (WCS_SPC      = 208)
+d123 17
+@
+
+
+3.6
+log
+@WCSLIB 3.6: declare function WCSSUB; amended WCSLEN; removed WCS_VSOURCE and
+added WCS_SSYSSRC; added flag bits for WCSSUB's AXES argument.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or modify
+*   it under the terms of the GNU Library General Public License as
+*   published by the Free Software Foundation; either version 2 of the
+*   License, or (at your option) any later version.
+d11 4
+a14 4
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 3.5 2004/06/28 05:06:02 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5: revised WCSLEN; added additional codes for WCSPUT/GET to support
+auxiliary WCS cards in the WCSPRM "struct".
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: wcs.inc,v 3.4 2004/02/11 00:01:47 mcalabre Exp mcalabre $
+d35 1
+a35 1
+     :          WCSNPV, WCSP2S, WCSPRT, WCSPUT, WCSS2P, WCSSET
+d39 1
+a39 1
+      PARAMETER (WCSLEN = 358)
+d49 1
+a49 1
+     :          WCS_SSYSOBS, WCS_VELOSYS, WCS_VSOURCE, WCS_WCSNAME,
+d84 1
+a84 1
+      PARAMETER (WCS_VSOURCE  = 132)
+d104 11
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d11 1
+a11 1
+*   This library is distributed in the hope that it will be useful, 
+d29 2
+a30 1
+*   $Id: wcs.inc,v 3.3 2003/10/21 08:42:43 mcalabre Exp mcalabre $
+d34 2
+a35 2
+      INTEGER   WCSINI, WCSCOPY, WCSPUT, WCSGET, WCSFREE, WCSPRT,
+     :          WCSSET, WCSP2S, WCSS2P, WCSMIX
+d39 1
+a39 1
+      PARAMETER (WCSLEN = 280)
+d42 9
+a50 4
+      INTEGER   WCS_ALTLIN, WCS_CD, WCS_CDELT, WCS_CROTA, WCS_CRPIX,
+     :          WCS_CRVAL, WCS_CTYPE, WCS_CUNIT, WCS_FLAG, WCS_LATPOLE,
+     :          WCS_LONPOLE, WCS_NAXIS, WCS_NPV, WCS_PC, WCS_PV,
+     :          WCS_RESTFRQ, WCS_RESTWAV
+d57 2
+a58 2
+      PARAMETER (WCS_CTYPE    = 105)
+      PARAMETER (WCS_CUNIT    = 106)
+d65 25
+a89 4
+      PARAMETER (WCS_PV       = 113)
+      PARAMETER (WCS_ALTLIN   = 114)
+      PARAMETER (WCS_CD       = 115)
+      PARAMETER (WCS_CROTA    = 116)
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d29 1
+a29 1
+*   $Id: wcs.inc,v 3.2 2003/09/09 05:51:07 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2: renamed WCSCPY to WCSCOPY.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: wcs.inc,v 3.1 2003/04/28 08:10:49 mcalabre Exp mcalabre $
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+Revised WCSLEN; added additional codes for WCSPUT/GET.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id: wcs.inc,v 3.1 2003/04/28 04:33:29 mcalabre Exp $
+d33 2
+a34 2
+      INTEGER   WCSINI, WCSCPY, WCSPUT, WCSGET, WCSFREE, WCSPRT, WCSSET,
+     :          WCSP2S, WCSS2P, WCSMIX
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d29 1
+a29 1
+*   $Id$
+d38 1
+a38 1
+      PARAMETER (WCSLEN = 238)
+d42 1
+a42 1
+     :          WCS_CRVAL, WCS_CTYPE, WCS_FLAG, WCS_LATPOLE,
+d52 11
+a62 10
+      PARAMETER (WCS_CRVAL    = 106)
+      PARAMETER (WCS_LONPOLE  = 107)
+      PARAMETER (WCS_LATPOLE  = 108)
+      PARAMETER (WCS_RESTFRQ  = 109)
+      PARAMETER (WCS_RESTWAV  = 110)
+      PARAMETER (WCS_NPV      = 111)
+      PARAMETER (WCS_PV       = 112)
+      PARAMETER (WCS_ALTLIN   = 113)
+      PARAMETER (WCS_CD       = 114)
+      PARAMETER (WCS_CROTA    = 115)
+@

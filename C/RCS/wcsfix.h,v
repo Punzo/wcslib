@@ -1,0 +1,6523 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.09.14.18;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.28.06.17.40;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.05.07.25;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.04.13.58;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.46.33;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.15.03;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.26.23.04.20;	author mcalabre;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.21.08.51.00;	author mcalabre;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.09.04.04.04;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.04.28.03.50.41;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.11.06.00.40.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2006.05.23.01.32.52;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2006.08.02.00.14.58;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.02.04.27.54;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.08.08.08.40.48;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.04.02.06.17.13;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.05.10.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.07.08.25.22;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.48.09;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.10.06.52.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.11.17.03.23.16;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	4.9.1.2;
+
+4.9.1.2
+date	2012.01.31.23.58.31;	author cal103;	state Exp;
+branches;
+next	4.9.1.3;
+
+4.9.1.3
+date	2012.02.02.08.18.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.06.10.03.44.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.07.03.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	6.1.1.2;
+
+6.1.1.2
+date	2018.10.20.09.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.03.46.38;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.4;
+
+6.2.1.4
+date	2019.07.11.05.05.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.06.05.42.26;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.12.10.44;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2020.08.17.12.44.13;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.5;
+
+7.3.1.5
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.6;
+
+7.3.1.6
+date	2021.01.29.11.36.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.10.14.29.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.05.13.03.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for functions that identify and translate various
+forms of non-standard construct that are known to occur in FITS WCS headers.
+These range from the translation of non-standard values for standard WCS
+keywords, to the repair of malformed coordinate representations.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsfix.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the wcsfix routines
+* ------------------------------
+* Routines in this suite identify and translate various forms of construct
+* known to occur in FITS headers that violate the FITS World Coordinate System
+* (WCS) standard described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of celestial coordinates in FITS",
+=   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077 (WCS Paper II)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+=
+=   "Representations of time coordinates in FITS -
+=    Time and relative dimension in space",
+=   Rots, A.H., Bunclark, P.S., Calabretta, M.R., Allen, S.L.,
+=   Manchester, R.N., & Thompson, W.T. 2015, A&A, 574, A36 (WCS Paper VII)
+*
+* Repairs effected by these routines range from the translation of
+* non-standard values for standard WCS keywords, to the repair of malformed
+* coordinate representations.  Some routines are also provided to check the
+* consistency of pairs of keyvalues that define the same measure in two
+* different ways, for example, as a date and an MJD.
+*
+* A separate routine, wcspcx(), "regularizes" the linear transformation matrix
+* component (PCi_j) of the coordinate transformation to make it more human-
+* readable.  Where a coordinate description was constructed from CDi_j, it
+* decomposes it into PCi_j + CDELTi in a meaningful way.  Optionally, it can
+* also diagonalize the PCi_j matrix (as far as possible), i.e. undo a
+* transposition of axes in the intermediate pixel coordinate system.
+*
+* Non-standard keyvalues:
+* -----------------------
+*   AIPS-convention celestial projection types, NCP and GLS, and spectral
+*   types, 'FREQ-LSR', 'FELO-HEL', etc., set in CTYPEia are translated
+*   on-the-fly by wcsset() but without modifying the relevant ctype[], pv[] or
+*   specsys members of the wcsprm struct.  That is, only the information
+*   extracted from ctype[] is translated when wcsset() fills in wcsprm::cel
+*   (celprm struct) or wcsprm::spc (spcprm struct).
+*
+*   On the other hand, these routines do change the values of wcsprm::ctype[],
+*   wcsprm::pv[], wcsprm::specsys and other wcsprm struct members as
+*   appropriate to produce the same result as if the FITS header itself had
+*   been translated.
+*
+*   Auxiliary WCS header information not used directly by WCSLIB may also be
+*   translated.  For example, the older DATE-OBS date format (wcsprm::dateobs)
+*   is recast to year-2000 standard form, and MJD-OBS (wcsprm::mjdobs) will be
+*   deduced from it if not already set.
+*
+*   Certain combinations of keyvalues that result in malformed coordinate
+*   systems, as described in Sect. 7.3.4 of Paper I, may also be repaired.
+*   These are handled by cylfix().
+*
+* Non-standard keywords:
+* ----------------------
+*   The AIPS-convention CROTAn keywords are recognized as quasi-standard
+*   and as such are accomodated by wcsprm::crota[] and translated to
+*   wcsprm::pc[][] by wcsset().  These are not dealt with here, nor are any
+*   other non-standard keywords since these routines work only on the contents
+*   of a wcsprm struct and do not deal with FITS headers per se.  In
+*   particular, they do not identify or translate CD00i00j, PC00i00j, PROJPn,
+*   EPOCH, VELREF or VSOURCEa keywords; this may be done by the FITS WCS
+*   header parser supplied with WCSLIB, refer to wcshdr.h.
+*
+* wcsfix() and wcsfixi() apply all of the corrections handled by the following
+* specific functions, which may also be invoked separately:
+*
+*   - cdfix(): Sets the diagonal element of the CDi_ja matrix to 1.0 if all
+*     CDi_ja keywords associated with a particular axis are omitted.
+*
+*   - datfix(): recast an older DATE-OBS date format in dateobs to year-2000
+*     standard form.  Derive dateref from mjdref if not already set.
+*     Alternatively, if dateref is set and mjdref isn't, then derive mjdref
+*     from it.  If both are set, then check consistency.  Likewise for dateobs
+*     and mjdobs; datebeg and mjdbeg; dateavg and mjdavg; and dateend and
+*     mjdend.
+*
+*   - obsfix(): if only one half of obsgeo[] is set, then derive the other
+*     half from it.  If both halves are set, then check consistency.
+*
+*   - unitfix(): translate some commonly used but non-standard unit strings in
+*     the CUNITia keyvalues, e.g. 'DEG' -> 'deg'.
+*
+*   - spcfix(): translate AIPS-convention spectral types, 'FREQ-LSR',
+*     'FELO-HEL', etc., in ctype[] as set from CTYPEia.
+*
+*   - celfix(): translate AIPS-convention celestial projection types, NCP and
+*     GLS, in ctype[] as set from CTYPEia.
+*
+*   - cylfix(): fixes WCS keyvalues for malformed cylindrical projections that
+*     suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+*
+* wcsfix() - Translate a non-standard WCS struct
+* ----------------------------------------------
+* wcsfix() is identical to wcsfixi(), but lacks the info argument.
+*
+*
+* wcsfixi() - Translate a non-standard WCS struct
+* -----------------------------------------------
+* wcsfixi() applies all of the corrections handled separately by cdfix(),
+* datfix(), obsfix(), unitfix(), spcfix(), celfix(), and cylfix().
+*
+* Given:
+*   ctrl      int       Do potentially unsafe translations of non-standard
+*                       unit strings as described in the usage notes to
+*                       wcsutrn().
+*
+*   naxis     const int []
+*                       Image axis lengths.  If this array pointer is set to
+*                       zero then cylfix() will not be invoked.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Returned:
+*   stat      int [NWCSFIX]
+*                       Status returns from each of the functions.  Use the
+*                       preprocessor macros NWCSFIX to dimension this vector
+*                       and CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+*                       and CYLFIX to access its elements.  A status value
+*                       of -2 is set for functions that were not invoked.
+*
+*   info      struct wcserr [NWCSFIX]
+*                       Status messages from each of the functions.  Use the
+*                       preprocessor macros NWCSFIX to dimension this vector
+*                       and CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+*                       and CYLFIX to access its elements.
+*
+*                       Note that the memory allocated by wcsfixi() for the
+*                       message in each wcserr struct (wcserr::msg, if
+*                       non-zero) must be freed by the user.  See
+*                       wcsdealloc().
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: One or more of the translation functions
+*                            returned an error.
+*
+*
+* cdfix() - Fix erroneously omitted CDi_ja keywords
+* -------------------------------------------------
+* cdfix() sets the diagonal element of the CDi_ja matrix to unity if all
+* CDi_ja keywords associated with a given axis were omitted.  According to WCS
+* Paper I, if any CDi_ja keywords at all are given in a FITS header then those
+* not given default to zero.  This results in a singular matrix with an
+* intersecting row and column of zeros.
+*
+* cdfix() is expected to be invoked before wcsset(), which will fail if these
+* errors have not been corrected.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*
+*
+* datfix() - Translate DATE-OBS and derive MJD-OBS or vice versa
+* --------------------------------------------------------------
+* datfix() translates the old DATE-OBS date format set in wcsprm::dateobs to
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss).  It derives wcsprm::dateref
+* from wcsprm::mjdref if not already set.  Alternatively, if dateref is set
+* and mjdref isn't, then it derives mjdref from it.  If both are set but
+* disagree by more than 0.001 day (86.4 seconds) then an error status is
+* returned.  Likewise for wcsprm::dateobs and wcsprm::mjdobs; wcsprm::datebeg
+* and wcsprm::mjdbeg; wcsprm::dateavg and wcsprm::mjdavg; and wcsprm::dateend
+* and wcsprm::mjdend.
+*
+* If neither dateobs nor mjdobs are set, but wcsprm::jepoch (primarily) or
+* wcsprm::bepoch is, then both are derived from it.  If jepoch and/or bepoch
+* are set but disagree with dateobs or mjdobs by more than 0.000002 year
+* (63.2 seconds), an informative message is produced.
+*
+* The translations done by datfix() do not affect and are not affected by
+* wcsset().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*                       wcsprm::dateref and/or wcsprm::mjdref may be changed.
+*                       wcsprm::dateobs and/or wcsprm::mjdobs may be changed.
+*                       wcsprm::datebeg and/or wcsprm::mjdbeg may be changed.
+*                       wcsprm::dateavg and/or wcsprm::mjdavg may be changed.
+*                       wcsprm::dateend and/or wcsprm::mjdend may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         5: Invalid parameter value.
+*
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_DATE_FIX.
+*
+* Notes:
+*   1: The MJD algorithms used by datfix() are from D.A. Hatcher, 1984, QJRAS,
+*      25, 53-55, as modified by P.T. Wallace for use in SLALIB subroutines
+*      CLDJ and DJCL.
+*
+*
+* obsfix() - complete the OBSGEO-[XYZLBH] vector of observatory coordinates
+* -------------------------------------------------------------------------
+* obsfix() completes the wcsprm::obsgeo vector of observatory coordinates.
+* That is, if only the (x,y,z) Cartesian coordinate triplet or the (l,b,h)
+* geodetic coordinate triplet are set, then it derives the other triplet from
+* it.  If both triplets are set, then it checks for consistency at the level
+* of 1 metre.
+*
+* The operations done by obsfix() do not affect and are not affected by
+* wcsset().
+*
+* Given:
+*   ctrl      int       Flag that controls behaviour if one triplet is
+*                       defined and the other is only partially defined:
+*                         0: Reset only the undefined elements of an
+*                            incomplete coordinate triplet.
+*                         1: Reset all elements of an incomplete triplet.
+*                         2: Don't make any changes, check for consistency
+*                            only.  Returns an error if either of the two
+*                            triplets is incomplete.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*                       wcsprm::obsgeo may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         5: Invalid parameter value.
+*
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_OBS_FIX.
+*
+* Notes:
+*   1: While the International Terrestrial Reference System (ITRS) is based
+*      solely on Cartesian coordinates, it recommends the use of the GRS80
+*      ellipsoid in converting to geodetic coordinates.  However, while WCS
+*      Paper III recommends ITRS Cartesian coordinates, Paper VII prescribes
+*      the use of the IAU(1976) ellipsoid for geodetic coordinates, and
+*      consequently that is what is used here.
+*
+*   2: For reference, parameters of commonly used global reference ellipsoids:
+*
+=          a (m)          1/f                    Standard
+=        ---------  -------------  --------------------------------
+=        6378140    298.2577        IAU(1976)
+=        6378137    298.257222101   GRS80
+=        6378137    298.257223563   WGS84
+=        6378136    298.257         IERS(1989)
+=        6378136.6  298.25642       IERS(2003,2010), IAU(2009/2012)
+*
+*      where f = (a - b) / a is the flattening, and a and b are the semi-major
+*      and semi-minor radii in metres.
+*
+*   3: The transformation from geodetic (lng,lat,hgt) to Cartesian (x,y,z) is
+*
+=        x = (n + hgt)*coslng*coslat,
+=        y = (n + hgt)*sinlng*coslat,
+=        z = (n*(1.0 - e^2) + hgt)*sinlat,
+*
+*      where the "prime vertical radius", n, is a function of latitude
+*
+=        n = a / sqrt(1 - (e*sinlat)^2),
+*
+*      and a, the equatorial radius, and e^2 = (2 - f)*f, the (first)
+*      eccentricity of the ellipsoid, are constants.  obsfix() inverts these
+*      iteratively by writing
+*
+=           x = rho*coslng*coslat,
+=           y = rho*sinlng*coslat,
+=        zeta = rho*sinlat,
+*
+*      where
+*
+=         rho = n + hgt,
+=             = sqrt(x^2 + y^2 + zeta^2),
+=        zeta = z / (1 - n*e^2/rho),
+*
+*      and iterating over the value of zeta.  Since e is small, a good first
+*      approximation is given by zeta = z.
+*
+*
+* unitfix() - Correct aberrant CUNITia keyvalues
+* ----------------------------------------------
+* unitfix() applies wcsutrn() to translate non-standard CUNITia keyvalues,
+* e.g. 'DEG' -> 'deg', also stripping off unnecessary whitespace.
+*
+* unitfix() is expected to be invoked before wcsset(), which will fail if
+* non-standard CUNITia keyvalues have not been translated.
+*
+* Given:
+*   ctrl      int       Do potentially unsafe translations described in the
+*                       usage notes to wcsutrn().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success (an alias was applied).
+*                         1: Null wcsprm pointer passed.
+*
+*                       When units are translated (i.e. 0 is returned), an
+*                       informative message is set in wcsprm::err if enabled,
+*                       see wcserr_enable(), with wcsprm::err.status set to
+*                       FIXERR_UNITS_ALIAS.
+*
+*
+* spcfix() - Translate AIPS-convention spectral types
+* ---------------------------------------------------
+* spcfix() translates AIPS-convention spectral coordinate types,
+* '{FREQ,FELO,VELO}-{LSR,HEL,OBS}' (e.g. 'FREQ-OBS', 'FELO-HEL', 'VELO-LSR')
+* set in wcsprm::ctype[], subject to VELREF set in wcsprm::velref.
+*
+* Note that if wcs::specsys is already set then it will not be overridden.
+*
+* AIPS-convention spectral types set in CTYPEia are translated on-the-fly by
+* wcsset() but without modifying wcsprm::ctype[] or wcsprm::specsys.  That is,
+* only the information extracted from wcsprm::ctype[] is translated when
+* wcsset() fills in wcsprm::spc (spcprm struct).  spcfix() modifies
+* wcsprm::ctype[] so that if the header is subsequently written out, e.g. by
+* wcshdo(), then it will contain translated CTYPEia keyvalues.
+*
+* The operations done by spcfix() do not affect and are not affected by
+* wcsset().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.  wcsprm::ctype[]
+*                       and/or wcsprm::specsys may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+*
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_SPC_UPDTE.
+*
+*
+* celfix() - Translate AIPS-convention celestial projection types
+* ---------------------------------------------------------------
+* celfix() translates AIPS-convention celestial projection types, NCP and
+* GLS, set in the ctype[] member of the wcsprm struct.
+*
+* Two additional pv[] keyvalues are created when translating NCP, and three
+* are created when translating GLS with non-zero reference point.  If the pv[]
+* array was initially allocated by wcsini() then the array will be expanded if
+* necessary.  Otherwise, error 2 will be returned if sufficient empty slots
+* are not already available for use.
+*
+* AIPS-convention celestial projection types set in CTYPEia are translated
+* on-the-fly by wcsset() but without modifying wcsprm::ctype[], wcsprm::pv[],
+* or wcsprm::npv.  That is, only the information extracted from
+* wcsprm::ctype[] is translated when wcsset() fills in wcsprm::cel (celprm
+* struct).  celfix() modifies wcsprm::ctype[], wcsprm::pv[], and wcsprm::npv
+* so that if the header is subsequently written out, e.g. by wcshdo(), then it
+* will contain translated CTYPEia keyvalues and the relevant PVi_ma.
+*
+* The operations done by celfix() do not affect and are not affected by
+* wcsset().  However, it uses information in the wcsprm struct provided by
+* wcsset(), and will invoke it if necessary.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.  wcsprm::ctype[]
+*                       and/or wcsprm::pv[] may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+*
+*
+* cylfix() - Fix malformed cylindrical projections
+* ------------------------------------------------
+* cylfix() fixes WCS keyvalues for malformed cylindrical projections that
+* suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+* cylfix() requires the wcsprm struct to have been set up by wcsset(), and
+* will invoke it if necessary.  After modification, the struct is reset on
+* return with an explicit call to wcsset().
+*
+* Given:
+*   naxis     const int []
+*                       Image axis lengths.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+*                         8: All of the corner pixel coordinates are invalid.
+*                         9: Could not determine reference pixel coordinate.
+*                        10: Could not determine reference pixel value.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+*
+*
+* wcspcx() - regularize PCi_j
+* ---------------------------
+* wcspcx() "regularizes" the linear transformation matrix component of the
+* coordinate transformation (PCi_ja) to make it more human-readable.
+*
+* Normally, upon encountering a FITS header containing a CDi_ja matrix,
+* wcsset() simply treats it as PCi_ja and sets CDELTia to unity.  However,
+* wcspcx() decomposes CDi_ja into PCi_ja and CDELTia in such a way that
+* CDELTia form meaningful scaling parameters.  In practice, the residual
+* PCi_ja matrix will often then be orthogonal, i.e. unity, or describing a
+* pure rotation, axis permutation, or reflection, or a combination thereof.
+*
+* The decomposition is based on normalizing the length in the transformed
+* system (i.e. intermediate pixel coordinates) of the orthonormal basis
+* vectors of the pixel coordinate system.  This deviates slightly from the
+* prescription given by Eq. (4) of WCS Paper I, namely Sum(j=1,N)(PCi_ja)² = 1,
+* in replacing the sum over j with the sum over i.  Consequently, the columns
+* of PCi_ja will consist of unit vectors.  In practice, especially in cubes
+* and higher dimensional images, at least some pairs of these unit vectors, if
+* not all, will often be orthogonal or close to orthogonal.
+*
+* The sign of CDELTia is chosen to make the PCi_ja matrix as close to the,
+* possibly permuted, unit matrix as possible, except that where the coordinate
+* description contains a pair of celestial axes, the sign of CDELTia is set
+* negative for the longitude axis and positive for the latitude axis.
+*
+* Optionally, rows of the PCi_ja matrix may also be permuted to diagonalize
+* it as far as possible, thus undoing any transposition of axes in the
+* intermediate pixel coordinate system.
+*
+* If the coordinate description contains a celestial plane, then the angle of
+* rotation of each of the basis vectors associated with the celestial axes is
+* returned.  For a pure rotation the two angles should be identical.  Any
+* difference between them is a measure of axis skewness.
+*
+* The decomposition is not performed for axes involving a sequent distortion
+* function that is defined in terms of CDi_ja, such as TPV, TNX, or ZPX, which
+* always are.  The independent variables of the polynomial are therefore
+* intermediate world coordinates rather than intermediate pixel coordinates.
+* Because sequent distortions are always applied before CDELTia, if CDi_ja was
+* translated to PCi_ja plus CDELTia, then the distortion would be altered
+* unless the polynomial coefficients were also adjusted to account for the
+* change of scale.
+*
+* wcspcx() requires the wcsprm struct to have been set up by wcsset(), and
+* will invoke it if necessary.  The wcsprm struct is reset on return with an
+* explicit call to wcsset().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Given:
+*   dopc      int       If 1, then PCi_ja and CDELTia, as given, will be
+*                       recomposed according to the above prescription.  If 0,
+*                       the operation is restricted to decomposing CDi_ja.
+*
+*   permute   int       If 1, then after decomposition (or recomposition),
+*                       permute rows of PCi_ja to make the axes of the
+*                       intermediate pixel coordinate system match as closely
+*                       as possible those of the pixel coordinates.  That is,
+*                       make it as close to a diagonal matrix as possible.
+*                       However, celestial axes are special in always being
+*                       paired, with the longitude axis preceding the latitude
+*                       axis.
+*
+*                       All WCS entities indexed by i, such as CTYPEia,
+*                       CRVALia, CDELTia, etc., including coordinate lookup
+*                       tables, will also be permuted as necessary to account
+*                       for the change to PCi_ja.  This does not apply to
+*                       CRPIXja, nor prior distortion functions.  These
+*                       operate on pixel coordinates, which are not affected
+*                       by the permutation.
+*
+* Returned:
+*   rotn      double[2] Rotation angle [deg] of each basis vector associated
+*                       with the celestial axes.  For a pure rotation the two
+*                       angles should be identical.  Any difference between
+*                       them is a measure of axis skewness.
+*
+*                       May be set to the NULL pointer if this information is
+*                       not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         5: CDi_j matrix not used.
+*                         6: Sequent distortion function present.
+*
+*
+* Global variable: const char *wcsfix_errmsg[] - Status return messages
+* ---------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_WCSFIX
+#define WCSLIB_WCSFIX
+
+#include "wcs.h"
+#include "wcserr.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define CDFIX    0
+#define DATFIX   1
+#define OBSFIX   2
+#define UNITFIX  3
+#define SPCFIX   4
+#define CELFIX   5
+#define CYLFIX   6
+#define NWCSFIX  7
+
+extern const char *wcsfix_errmsg[];
+#define cylfix_errmsg wcsfix_errmsg
+
+enum wcsfix_errmsg_enum {
+  FIXERR_OBSGEO_FIX       = -5, // Observatory coordinates amended.
+  FIXERR_DATE_FIX         = -4, // Date string reformatted.
+  FIXERR_SPC_UPDATE       = -3, // Spectral axis type modified.
+  FIXERR_UNITS_ALIAS      = -2,	// Units alias translation.
+  FIXERR_NO_CHANGE        = -1,	// No change.
+  FIXERR_SUCCESS          =  0,	// Success.
+  FIXERR_NULL_POINTER     =  1,	// Null wcsprm pointer passed.
+  FIXERR_MEMORY           =  2,	// Memory allocation failed.
+  FIXERR_SINGULAR_MTX     =  3,	// Linear transformation matrix is singular.
+  FIXERR_BAD_CTYPE        =  4,	// Inconsistent or unrecognized coordinate
+				// axis types.
+  FIXERR_BAD_PARAM        =  5,	// Invalid parameter value.
+  FIXERR_BAD_COORD_TRANS  =  6,	// Invalid coordinate transformation
+				// parameters.
+  FIXERR_ILL_COORD_TRANS  =  7,	// Ill-conditioned coordinate transformation
+				// parameters.
+  FIXERR_BAD_CORNER_PIX   =  8,	// All of the corner pixel coordinates are
+				// invalid.
+  FIXERR_NO_REF_PIX_COORD =  9,	// Could not determine reference pixel
+				// coordinate.
+  FIXERR_NO_REF_PIX_VAL   = 10	// Could not determine reference pixel value.
+};
+
+int wcsfix(int ctrl, const int naxis[], struct wcsprm *wcs, int stat[]);
+
+int wcsfixi(int ctrl, const int naxis[], struct wcsprm *wcs, int stat[],
+            struct wcserr info[]);
+
+int cdfix(struct wcsprm *wcs);
+
+int datfix(struct wcsprm *wcs);
+
+int obsfix(int ctrl, struct wcsprm *wcs);
+
+int unitfix(int ctrl, struct wcsprm *wcs);
+
+int spcfix(struct wcsprm *wcs);
+
+int celfix(struct wcsprm *wcs);
+
+int cylfix(const int naxis[], struct wcsprm *wcs);
+
+int wcspcx(struct wcsprm *wcs, int dopc, int permute, double rotn[2]);
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_WCSFIX
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsfix.h,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsfix.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.6.1.2 2021/05/13 03:29:30 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.5.1.2 2021/04/10 14:29:06 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+d61 1
+a61 1
+* also diagonalize the PCi_j matrix (as far as possible), i.e. undo the
+d514 1
+a514 1
+* intermdiate pixel coordinate system.
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Trivial corrections to prologue.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d61 1
+a61 1
+* also diagonalize the PCi_j matrix (as far as possible), i.e. undo a
+d514 1
+a514 1
+* intermediate pixel coordinate system.
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d57 7
+d184 3
+d214 3
+d252 3
+d336 3
+d367 10
+d413 12
+d453 4
+d486 92
+d648 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function wcspcx().  Updated the prologues for the other functions
+to document how they interact with wcsset().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a56 7
+* A separate routine, wcspcx(), "regularizes" the linear transformation matrix
+* component (PCi_j) of the coordinate transformation to make it more human-
+* readable.  Where a coordinate description was constructed from CDi_j, it
+* decomposes it into PCi_j + CDELTi in a meaningful way.  Optionally, it can
+* also diagonalize the PCi_j matrix (as far as possible), i.e. undo the
+* transposition of axes in the intermediate pixel coordinate system.
+*
+a176 3
+* cdfix() is expected to be invoked before wcsset(), which will fail if these
+* errors have not been corrected.
+*
+a203 3
+* The translations done by datfix() do not affect and are not affected by
+* wcsset().
+*
+a238 3
+* The operations done by obsfix() do not affect and are not affected by
+* wcsset().
+*
+a319 3
+* unitfix() is expected to be invoked before wcsset(), which will fail if
+* non-standard CUNITia keyvalues have not been translated.
+*
+a347 10
+* AIPS-convention spectral types set in CTYPEia are translated on-the-fly by
+* wcsset() but without modifying wcsprm::ctype[] or wcsprm::specsys.  That is,
+* only the information extracted from wcsprm::ctype[] is translated when
+* wcsset() fills in wcsprm::spc (spcprm struct).  spcfix() modifies
+* wcsprm::ctype[] so that if the header is subsequently written out, e.g. by
+* wcshdo(), then it will contain translated CTYPEia keyvalues.
+*
+* The operations done by spcfix() do not affect and are not affected by
+* wcsset().
+*
+a383 12
+* AIPS-convention celestial projection types set in CTYPEia are translated
+* on-the-fly by wcsset() but without modifying wcsprm::ctype[], wcsprm::pv[],
+* or wcsprm::npv.  That is, only the information extracted from
+* wcsprm::ctype[] is translated when wcsset() fills in wcsprm::cel (celprm
+* struct).  celfix() modifies wcsprm::ctype[], wcsprm::pv[], and wcsprm::npv
+* so that if the header is subsequently written out, e.g. by wcshdo(), then it
+* will contain translated CTYPEia keyvalues and the relevant PVi_ma.
+*
+* The operations done by celfix() do not affect and are not affected by
+* wcsset().  However, it uses information in the wcsprm struct provided by
+* wcsset(), and will invoke it if necessary.
+*
+a411 4
+* cylfix() requires the wcsprm struct to have been set up by wcsset(), and
+* will invoke it if necessary.  After modification, the struct is reset on
+* return with an explicit call to wcsset().
+*
+a440 92
+* wcspcx() - regularize PCi_j
+* ---------------------------
+* wcspcx() "regularizes" the linear transformation matrix component of the
+* coordinate transformation (PCi_ja) to make it more human-readable.
+*
+* Normally, upon encountering a FITS header containing a CDi_ja matrix,
+* wcsset() simply treats it as PCi_ja and sets CDELTia to unity.  However,
+* wcspcx() decomposes CDi_ja into PCi_ja and CDELTia in such a way that
+* CDELTia form meaningful scaling parameters.  In practice, the residual
+* PCi_ja matrix will often then be orthogonal, i.e. unity, or describing a
+* pure rotation, axis permutation, or reflection, or a combination thereof.
+*
+* The decomposition is based on normalizing the length in the transformed
+* system (i.e. intermediate pixel coordinates) of the orthonormal basis
+* vectors of the pixel coordinate system.  This deviates slightly from the
+* prescription given by Eq. (4) of WCS Paper I, namely Sum(j=1,N)(PCi_ja)² = 1,
+* in replacing the sum over j with the sum over i.  Consequently, the columns
+* of PCi_ja will consist of unit vectors.  In practice, especially in cubes
+* and higher dimensional images, at least some pairs of these unit vectors, if
+* not all, will often be orthogonal or close to orthogonal.
+*
+* The sign of CDELTia is chosen to make the PCi_ja matrix as close to the,
+* possibly permuted, unit matrix as possible, except that where the coordinate
+* description contains a pair of celestial axes, the sign of CDELTia is set
+* negative for the longitude axis and positive for the latitude axis.
+*
+* Optionally, rows of the PCi_ja matrix may also be permuted to diagonalize
+* it as far as possible, thus undoing any transposition of axes in the
+* intermdiate pixel coordinate system.
+*
+* If the coordinate description contains a celestial plane, then the angle of
+* rotation of each of the basis vectors associated with the celestial axes is
+* returned.  For a pure rotation the two angles should be identical.  Any
+* difference between them is a measure of axis skewness.
+*
+* The decomposition is not performed for axes involving a sequent distortion
+* function that is defined in terms of CDi_ja, such as TPV, TNX, or ZPX, which
+* always are.  The independent variables of the polynomial are therefore
+* intermediate world coordinates rather than intermediate pixel coordinates.
+* Because sequent distortions are always applied before CDELTia, if CDi_ja was
+* translated to PCi_ja plus CDELTia, then the distortion would be altered
+* unless the polynomial coefficients were also adjusted to account for the
+* change of scale.
+*
+* wcspcx() requires the wcsprm struct to have been set up by wcsset(), and
+* will invoke it if necessary.  The wcsprm struct is reset on return with an
+* explicit call to wcsset().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Given:
+*   dopc      int       If 1, then PCi_ja and CDELTia, as given, will be
+*                       recomposed according to the above prescription.  If 0,
+*                       the operation is restricted to decomposing CDi_ja.
+*
+*   permute   int       If 1, then after decomposition (or recomposition),
+*                       permute rows of PCi_ja to make the axes of the
+*                       intermediate pixel coordinate system match as closely
+*                       as possible those of the pixel coordinates.  That is,
+*                       make it as close to a diagonal matrix as possible.
+*                       However, celestial axes are special in always being
+*                       paired, with the longitude axis preceding the latitude
+*                       axis.
+*
+*                       All WCS entities indexed by i, such as CTYPEia,
+*                       CRVALia, CDELTia, etc., including coordinate lookup
+*                       tables, will also be permuted as necessary to account
+*                       for the change to PCi_ja.  This does not apply to
+*                       CRPIXja, nor prior distortion functions.  These
+*                       operate on pixel coordinates, which are not affected
+*                       by the permutation.
+*
+* Returned:
+*   rotn      double[2] Rotation angle [deg] of each basis vector associated
+*                       with the celestial axes.  For a pure rotation the two
+*                       angles should be identical.  Any difference between
+*                       them is a measure of axis skewness.
+*
+*                       May be set to the NULL pointer if this information is
+*                       not required.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         5: CDi_j matrix not used.
+*                         6: Sequent distortion function present.
+*
+*
+a510 2
+
+int wcspcx(struct wcsprm *wcs, int dopc, int permute, double rotn[2]);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.3.1.6 2021/01/29 11:36:26 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsfix.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d92 1
+a92 1
+* specific functions which may also be invoked separately:
+d98 5
+a102 6
+*     standard form.
+*
+*     Derive dateref from mjdref if not already set.  Alternatively, if
+*     dateref is set and mjdref isn't, then derive mjdref from it.  If both
+*     are set, then check consistency.  Likewise for dateobs and mjdobs;
+*     datebeg and mjdbeg; dateavg and mjdavg; and dateend and mjdend.
+d172 1
+a172 1
+* CDi_ja keywords associated with a given axis were omitted.  According to
+d191 7
+a197 8
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss).
+*
+* datfix() derives wcsprm::dateref from wcsprm::mjdref if not already set.
+* Alternatively, if dateref is set and mjdref isn't, then it derives mjdref
+* from it.  If both are set but disagree by more than 0.001 day (86.4 seconds)
+* then status 5 is returned.  Likewise for wcsprm::dateobs and wcsprm::mjdobs;
+* wcsprm::datebeg and wcsprm::mjdbeg; wcsprm::dateavg and wcsprm::mjdavg; and
+* wcsprm::dateend and wcsprm::mjdend.
+d220 4
+a223 2
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+d226 3
+a228 3
+*   The MJD algorithms used by datfix() are from D.A. Hatcher, 1984, QJRAS,
+*   25, 53-55, as modified by P.T. Wallace for use in SLALIB subroutines CLDJ
+*   and DJCL.
+d261 4
+a264 2
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+d334 4
+a337 3
+*                       When units are translated (i.e. status 0), status -2
+*                       is set in the wcserr struct to allow an informative
+*                       message to be returned.
+d367 4
+a370 2
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+d470 21
+a490 23
+  FIXERR_OBSGEO_FIX       = -5, /* Observatory coordinates amended. */
+  FIXERR_DATE_FIX         = -4, /* Date string reformatted. */
+  FIXERR_SPC_UPDATE       = -3, /* Spectral axis type modified. */
+  FIXERR_UNITS_ALIAS      = -2,	/* Units alias translation. */
+  FIXERR_NO_CHANGE        = -1,	/* No change. */
+  FIXERR_SUCCESS          =  0,	/* Success. */
+  FIXERR_NULL_POINTER     =  1,	/* Null wcsprm pointer passed. */
+  FIXERR_MEMORY           =  2,	/* Memory allocation failed. */
+  FIXERR_SINGULAR_MTX     =  3,	/* Linear transformation matrix is
+				   singular. */
+  FIXERR_BAD_CTYPE        =  4,	/* Inconsistent or unrecognized coordinate
+				   axis types. */
+  FIXERR_BAD_PARAM        =  5,	/* Invalid parameter value. */
+  FIXERR_BAD_COORD_TRANS  =  6,	/* Invalid coordinate transformation
+				   parameters. */
+  FIXERR_ILL_COORD_TRANS  =  7,	/* Ill-conditioned coordinate transformation
+				   parameters. */
+  FIXERR_BAD_CORNER_PIX   =  8,	/* All of the corner pixel coordinates are
+				   invalid. */
+  FIXERR_NO_REF_PIX_COORD =  9,	/* Could not determine reference pixel
+				   coordinate. */
+  FIXERR_NO_REF_PIX_VAL   = 10	/* Could not determine reference pixel
+				   value. */
+d517 1
+a517 1
+#endif /* WCSLIB_WCSFIX */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsfix.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d468 23
+a490 21
+  FIXERR_OBSGEO_FIX       = -5, // Observatory coordinates amended.
+  FIXERR_DATE_FIX         = -4, // Date string reformatted.
+  FIXERR_SPC_UPDATE       = -3, // Spectral axis type modified.
+  FIXERR_UNITS_ALIAS      = -2,	// Units alias translation.
+  FIXERR_NO_CHANGE        = -1,	// No change.
+  FIXERR_SUCCESS          =  0,	// Success.
+  FIXERR_NULL_POINTER     =  1,	// Null wcsprm pointer passed.
+  FIXERR_MEMORY           =  2,	// Memory allocation failed.
+  FIXERR_SINGULAR_MTX     =  3,	// Linear transformation matrix is singular.
+  FIXERR_BAD_CTYPE        =  4,	// Inconsistent or unrecognized coordinate
+				// axis types.
+  FIXERR_BAD_PARAM        =  5,	// Invalid parameter value.
+  FIXERR_BAD_COORD_TRANS  =  6,	// Invalid coordinate transformation
+				// parameters.
+  FIXERR_ILL_COORD_TRANS  =  7,	// Ill-conditioned coordinate transformation
+				// parameters.
+  FIXERR_BAD_CORNER_PIX   =  8,	// All of the corner pixel coordinates are
+				// invalid.
+  FIXERR_NO_REF_PIX_COORD =  9,	// Could not determine reference pixel
+				// coordinate.
+  FIXERR_NO_REF_PIX_VAL   = 10	// Could not determine reference pixel value.
+d517 1
+a517 1
+#endif // WCSLIB_WCSFIX
+@
+
+
+7.3.1.3
+log
+@Clarified that informational messages may be set in wcsprm::err for status
+returns of 0 from datfix(), obsfix(), unitfix(), and spcfix().
+@
+text
+@d24 1
+a24 1
+  $Id: wcsfix.h,v 7.3.1.2 2020/08/17 12:10:44 mcalabre Exp mcalabre $
+d94 1
+a94 1
+* specific functions, which may also be invoked separately:
+d100 6
+a105 5
+*     standard form.  Derive dateref from mjdref if not already set.
+*     Alternatively, if dateref is set and mjdref isn't, then derive mjdref
+*     from it.  If both are set, then check consistency.  Likewise for dateobs
+*     and mjdobs; datebeg and mjdbeg; dateavg and mjdavg; and dateend and
+*     mjdend.
+d175 1
+a175 1
+* CDi_ja keywords associated with a given axis were omitted.  According to WCS
+d194 8
+a201 7
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss).  It derives wcsprm::dateref
+* from wcsprm::mjdref if not already set.  Alternatively, if dateref is set
+* and mjdref isn't, then it derives mjdref from it.  If both are set but
+* disagree by more than 0.001 day (86.4 seconds) then an error status is
+* returned.  Likewise for wcsprm::dateobs and wcsprm::mjdobs; wcsprm::datebeg
+* and wcsprm::mjdbeg; wcsprm::dateavg and wcsprm::mjdavg; and wcsprm::dateend
+* and wcsprm::mjdend.
+d224 2
+a225 4
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_DATE_FIX.
+d263 2
+a264 4
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_OBS_FIX.
+d334 3
+a336 4
+*                       When units are translated (i.e. 0 is returned), an
+*                       informative message is set in wcsprm::err if enabled,
+*                       see wcserr_enable(), with wcsprm::err.status set to
+*                       FIXERR_UNITS_ALIAS.
+d366 2
+a367 4
+*                       For returns >= 0, a detailed message, whether
+*                       informative or an error message, may be set in
+*                       wcsprm::err if enabled, see wcserr_enable(), with
+*                       wcsprm::err.status set to FIXERR_SPC_UPDTE.
+@
+
+
+7.3.1.4
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsfix.h,v 7.3.1.3 2020/08/17 12:44:13 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.5
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsfix.h,v 7.3.1.4 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.6
+log
+@Numbered entries in the Notes section in the prologue so that they will be
+indented properly in the manual.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsfix.h,v 7.3.1.5 2021/01/28 12:29:30 mcalabre Exp mcalabre $
+d226 3
+a228 3
+*   1: The MJD algorithms used by datfix() are from D.A. Hatcher, 1984, QJRAS,
+*      25, 53-55, as modified by P.T. Wallace for use in SLALIB subroutines
+*      CLDJ and DJCL.
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.4.1.3 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+d103 4
+a106 4
+*     Derive mjdobs from dateobs if not already set.  Alternatively, if mjdobs
+*     is set and dateobs isn't, then derive dateobs from it.  If both are set,
+*     then check consistency.  Likewise for datebeg and mjdbeg; dateavg and
+*     mjdavg; and dateend and mjdend.
+d197 2
+a198 2
+* datfix() derives wcsprm::mjdobs from wcsprm::datobs if not already set.
+* Alternatively, if mjdobs is set and dateobs isn't, then it derives dateobs
+d200 3
+a202 2
+* then status 5 is returned.  Likewise for wcsprm::datebeg and wcsprm::mjdbeg;
+* wcsprm::dateavg and wcsprm::mjdavg; and wcsprm::dateend and wcsprm::mjdend.
+d212 1
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Extended datfix() to handle MJDREF/DATEREF, overlooked in the changes at
+5.20.1.2.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d103 4
+a106 4
+*     Derive dateref from mjdref if not already set.  Alternatively, if
+*     dateref is set and mjdref isn't, then derive mjdref from it.  If both
+*     are set, then check consistency.  Likewise for dateobs and mjdobs;
+*     datebeg and mjdbeg; dateavg and mjdavg; and dateend and mjdend.
+d197 2
+a198 2
+* datfix() derives wcsprm::dateref from wcsprm::mjdref if not already set.
+* Alternatively, if dateref is set and mjdref isn't, then it derives mjdref
+d200 2
+a201 3
+* then status 5 is returned.  Likewise for wcsprm::dateobs and wcsprm::mjdobs;
+* wcsprm::datebeg and wcsprm::mjdbeg; wcsprm::dateavg and wcsprm::mjdavg; and
+* wcsprm::dateend and wcsprm::mjdend.
+a210 1
+*                       wcsprm::dateref and/or wcsprm::mjdref may be changed.
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.4.1.2 2019/12/06 05:42:26 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.2.1.4 2019/07/11 05:05:12 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.1.1.2 2018/10/20 09:35:40 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+d160 5
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@In the usage notes for wcsfixi(), noted that memory allocated for messages
+in the array of wcserr structs must now be freed by the caller.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+a159 4
+*
+*                       Note that the memory allocated by wcsfixi() for the
+*                       message in each wcserr struct (wcserr::msg, if
+*                       non-zero) must be freed by the caller.
+@
+
+
+6.2.1.4
+log
+@In the usage notes for wcsfixi(), suggest using wcsdealloc() to free the
+allocated memory returned to the user.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.2.1.3 2019/07/08 03:46:38 mcalabre Exp mcalabre $
+d163 1
+a163 2
+*                       non-zero) must be freed by the user.  See
+*                       wcsdealloc().
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.20.1.2 2018/10/19 07:03:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+d290 1
+a290 1
+*      
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+6.1.1.2
+log
+@Removed trailing blanks from one line in the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d290 1
+a290 1
+*
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+d48 5
+d56 3
+a58 1
+* coordinate representations.
+d85 2
+a86 2
+*   The AIPS-convention CROTAn keywords are recognized as quasi-standard and
+*   as such are accomodated by the wcsprm::crota[] and translated to
+d101 9
+a109 3
+*     standard form and derive mjdobs from it if not already set.
+*     Alternatively, if mjdobs is set and dateobs isn't, then derive dateobs
+*     from it.
+d131 2
+a132 2
+* wcsfix() applies all of the corrections handled separately by cdfix(),
+* datfix(), unitfix(), spcfix(), celfix(), and cylfix().
+d151 3
+a153 3
+*                       and CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, and CYLFIX
+*                       to access its elements.  A status value of -2 is set
+*                       for functions that were not invoked.
+d158 2
+a159 2
+*                       and CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, and CYLFIX
+*                       to access its elements.
+d190 12
+a201 4
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss) and derives MJD-OBS from it if
+* not already set.  Alternatively, if wcsprm::mjdobs is set and
+* wcsprm::dateobs isn't, then datfix() derives wcsprm::dateobs from it.  If
+* both are set but disagree by more than half a day then status 5 is returned.
+d205 5
+a209 2
+*                       Coordinate transformation parameters.  wcsprm::dateobs
+*                       and/or wcsprm::mjdobs may be changed.
+d227 82
+d450 6
+a455 5
+#define UNITFIX  2
+#define SPCFIX   3
+#define CELFIX   4
+#define CYLFIX   5
+#define NWCSFIX  6
+d461 2
+a462 1
+  FIXERR_DATE_FIX         = -4, /* The date formatting has been fixed up. */
+d494 2
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Extended datfix() to handle additional time-related WCS keywords (Paper VII).
+Added obsfix() to check the consistency of OBSGEO-[XYZLBH] keywords.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a47 5
+=
+=   "Representations of time coordinates in FITS -
+=    Time and relative dimension in space",
+=   Rots, A.H., Bunclark, P.S., Calabretta, M.R., Allen, S.L.,
+=   Manchester, R.N., & Thompson, W.T. 2015, A&A, 574, A36 (WCS Paper VII)
+d51 1
+a51 3
+* coordinate representations.  Some routines are also provided to check the
+* consistency of pairs of keyvalues that define the same measure in two
+* different ways, for example, as a date and an MJD.
+d78 2
+a79 2
+*   The AIPS-convention CROTAn keywords are recognized as quasi-standard
+*   and as such are accomodated by wcsprm::crota[] and translated to
+d94 3
+a96 9
+*     standard form.
+*
+*     Derive mjdobs from dateobs if not already set.  Alternatively, if mjdobs
+*     is set and dateobs isn't, then derive dateobs from it.  If both are set,
+*     then check consistency.  Likewise for datebeg and mjdbeg; dateavg and
+*     mjdavg; and dateend and mjdend.
+*
+*   - obsfix(): if only one half of obsgeo[] is set, then derive the other
+*     half from it.  If both halves are set, then check consistency.
+d118 2
+a119 2
+* wcsfixi() applies all of the corrections handled separately by cdfix(),
+* datfix(), obsfix(), unitfix(), spcfix(), celfix(), and cylfix().
+d138 3
+a140 3
+*                       and CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+*                       and CYLFIX to access its elements.  A status value
+*                       of -2 is set for functions that were not invoked.
+d145 2
+a146 2
+*                       and CDFIX, DATFIX, OBSFIX, UNITFIX, SPCFIX, CELFIX,
+*                       and CYLFIX to access its elements.
+d177 4
+a180 12
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss).
+*
+* datfix() derives wcsprm::mjdobs from wcsprm::datobs if not already set.
+* Alternatively, if mjdobs is set and dateobs isn't, then it derives dateobs
+* from it.  If both are set but disagree by more than 0.001 day (86.4 seconds)
+* then status 5 is returned.  Likewise for wcsprm::datebeg and wcsprm::mjdbeg;
+* wcsprm::dateavg and wcsprm::mjdavg; and wcsprm::dateend and wcsprm::mjdend.
+*
+* If neither dateobs nor mjdobs are set, but wcsprm::jepoch (primarily) or
+* wcsprm::bepoch is, then both are derived from it.  If jepoch and/or bepoch
+* are set but disagree with dateobs or mjdobs by more than 0.000002 year
+* (63.2 seconds), an informative message is produced.
+d184 2
+a185 5
+*                       Coordinate transformation parameters.
+*                       wcsprm::dateobs and/or wcsprm::mjdobs may be changed.
+*                       wcsprm::datebeg and/or wcsprm::mjdbeg may be changed.
+*                       wcsprm::dateavg and/or wcsprm::mjdavg may be changed.
+*                       wcsprm::dateend and/or wcsprm::mjdend may be changed.
+a202 82
+* obsfix() - complete the OBSGEO-[XYZLBH] vector of observatory coordinates
+* -------------------------------------------------------------------------
+* obsfix() completes the wcsprm::obsgeo vector of observatory coordinates.
+* That is, if only the (x,y,z) Cartesian coordinate triplet or the (l,b,h)
+* geodetic coordinate triplet are set, then it derives the other triplet from
+* it.  If both triplets are set, then it checks for consistency at the level
+* of 1 metre.
+*
+* Given:
+*   ctrl      int       Flag that controls behaviour if one triplet is
+*                       defined and the other is only partially defined:
+*                         0: Reset only the undefined elements of an
+*                            incomplete coordinate triplet.
+*                         1: Reset all elements of an incomplete triplet.
+*                         2: Don't make any changes, check for consistency
+*                            only.  Returns an error if either of the two
+*                            triplets is incomplete.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*                       wcsprm::obsgeo may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         5: Invalid parameter value.
+*
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err if enabled, see wcserr_enable().
+*
+* Notes:
+*   1: While the International Terrestrial Reference System (ITRS) is based
+*      solely on Cartesian coordinates, it recommends the use of the GRS80
+*      ellipsoid in converting to geodetic coordinates.  However, while WCS
+*      Paper III recommends ITRS Cartesian coordinates, Paper VII prescribes
+*      the use of the IAU(1976) ellipsoid for geodetic coordinates, and
+*      consequently that is what is used here.
+*
+*   2: For reference, parameters of commonly used global reference ellipsoids:
+*
+=          a (m)          1/f                    Standard
+=        ---------  -------------  --------------------------------
+=        6378140    298.2577        IAU(1976)
+=        6378137    298.257222101   GRS80
+=        6378137    298.257223563   WGS84
+=        6378136    298.257         IERS(1989)
+=        6378136.6  298.25642       IERS(2003,2010), IAU(2009/2012)
+*
+*      where f = (a - b) / a is the flattening, and a and b are the semi-major
+*      and semi-minor radii in metres.
+*
+*   3: The transformation from geodetic (lng,lat,hgt) to Cartesian (x,y,z) is
+*
+=        x = (n + hgt)*coslng*coslat,
+=        y = (n + hgt)*sinlng*coslat,
+=        z = (n*(1.0 - e^2) + hgt)*sinlat,
+*
+*      where the "prime vertical radius", n, is a function of latitude
+*
+=        n = a / sqrt(1 - (e*sinlat)^2),
+*      
+*      and a, the equatorial radius, and e^2 = (2 - f)*f, the (first)
+*      eccentricity of the ellipsoid, are constants.  obsfix() inverts these
+*      iteratively by writing
+*
+=           x = rho*coslng*coslat,
+=           y = rho*sinlng*coslat,
+=        zeta = rho*sinlat,
+*
+*      where
+*
+=         rho = n + hgt,
+=             = sqrt(x^2 + y^2 + zeta^2),
+=        zeta = z / (1 - n*e^2/rho),
+*
+*      and iterating over the value of zeta.  Since e is small, a good first
+*      approximation is given by zeta = z.
+*
+*
+d344 5
+a348 6
+#define OBSFIX   2
+#define UNITFIX  3
+#define SPCFIX   4
+#define CELFIX   5
+#define CYLFIX   6
+#define NWCSFIX  7
+d354 1
+a354 2
+  FIXERR_OBSGEO_FIX       = -5, /* Observatory coordinates amended. */
+  FIXERR_DATE_FIX         = -4, /* Date string reformatted. */
+a385 2
+
+int obsfix(int ctrl, struct wcsprm *wcs);
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d28 3
+a30 15
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to
+*
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+*
+*   "Representations of celestial coordinates in FITS",
+*   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077 (Paper II)
+*
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+d35 17
+a51 4
+* Routines in this suite identify and translate various forms of non-standard
+* construct that are known to occur in FITS WCS headers.  These range from the
+* translation of non-standard values for standard WCS keywords, to the repair
+* of malformed coordinate representations.
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Boilerplate change to the prologue to ensure that references to the WCS
+Papers appear in the doxygen manual.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+d29 14
+a42 2
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+d47 4
+a50 17
+* Routines in this suite identify and translate various forms of construct
+* known to occur in FITS headers that violate the FITS World Coordinate System
+* (WCS) standard described in
+*
+=   "Representations of world coordinates in FITS",
+=   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (WCS Paper I)
+=
+=   "Representations of celestial coordinates in FITS",
+=   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077 (WCS Paper II)
+=
+=   "Representations of spectral coordinates in FITS",
+=   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+=   2006, A&A, 446, 747 (WCS Paper III)
+*
+* Repairs effected by these routines range from the translation of
+* non-standard values for standard WCS keywords, to the repair of malformed
+* coordinate representations.
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.25 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.24 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.23 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.22 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.21 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.20 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.17.1.2 2013/06/10 03:44:05 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 4.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.16.1.2 2013/01/29 05:09:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.17 - C routines that implement the FITS World Coordinate System
+d262 5
+a266 4
+* Two additional pv[] keyvalues are created when translating NCP.  If the
+* pv[] array was initially allocated by wcsini() then the array will be
+* expanded if necessary.  Otherwise, error 2 will be returned if two empty
+* slots are not already available for use.
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Amended the prologue comment for celfix() to note that three pv parameters
+may be created when translating GLS to SFL.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+d262 4
+a265 5
+* Two additional pv[] keyvalues are created when translating NCP, and three
+* are created when translating GLS with non-zero reference point.  If the pv[]
+* array was initially allocated by wcsini() then the array will be expanded if
+* necessary.  Otherwise, error 2 will be returned if sufficient empty slots
+* are not already available for use.
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsfix.h,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsfix.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsfix.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d28 1
+a28 1
+* WCSLIB 4.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsfix.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.9.1.3 2012/02/02 08:18:53 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.8.1.3 2012/01/24 05:23:06 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.9 - C routines that implement the FITS World Coordinate System
+d106 3
+a111 3
+*   - spcfix(): translate AIPS-convention spectral types, 'FREQ-LSR',
+*     'FELO-HEL', etc., in ctype[] as set from CTYPEia.
+*
+d123 2
+a124 2
+* wcsfix() applies all of the corrections handled separately by datfix(),
+* unitfix(), celfix(), spcfix() and cylfix().
+d143 1
+a143 1
+*                       and CDFIX, DATFIX, UNITFIX, CELFIX, SPCFIX and CYLFIX
+d150 1
+a150 1
+*                       and CDFIX, DATFIX, UNITFIX, CELFIX, SPCFIX and CYLFIX
+d232 5
+a236 4
+* celfix() - Translate AIPS-convention celestial projection types
+* ---------------------------------------------------------------
+* celfix() translates AIPS-convention celestial projection types, NCP and
+* GLS, set in the ctype[] member of the wcsprm struct.
+d238 1
+a238 4
+* Two additional pv[] keyvalues are created when translating NCP.  If the
+* pv[] array was initially allocated by wcsini() then the array will be
+* expanded if necessary.  Otherwise, error 2 will be returned if two empty
+* slots are not already available for use.
+d243 1
+a243 1
+*                       and/or wcsprm::pv[] may be changed.
+d263 9
+a271 5
+* spcfix() - Translate AIPS-convention spectral types
+* ---------------------------------------------------
+* spcfix() translates AIPS-convention spectral coordinate types,
+* '{FREQ,FELO,VELO}-{LSR,HEL,OBS}' (e.g. 'FREQ-OBS', 'FELO-HEL', 'VELO-LSR')
+* set in wcsprm::ctype[], subject to VELREF set in wcsprm::velref.
+d276 1
+a276 1
+*                       and/or wcsprm::specsys may be changed.
+d349 2
+a350 2
+#define CELFIX   3
+#define SPCFIX   4
+d358 2
+d393 2
+a396 2
+int spcfix(struct wcsprm *wcs);
+
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.9.1.2
+log
+@Changed the order of execution of sub-fixers in wcsfix() and wcsfixi().
+spcfix() must precede celfix() and cylfix() which invoke wcsset(), and
+wcsset() itself translates AIPS-convention spectral axes for spctyp().
+Added FIXERR_DATE_FIX and FIXERR_SPC_UPDATE (from Michael Droetboom).
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+d106 3
+a111 3
+*   - celfix(): translate AIPS-convention celestial projection types, NCP and
+*     GLS, in ctype[] as set from CTYPEia.
+*
+d123 2
+a124 2
+* wcsfix() applies all of the corrections handled separately by cdfix(),
+* datfix(), unitfix(), spcfix(), celfix(), and cylfix().
+d143 1
+a143 1
+*                       and CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, and CYLFIX
+d150 1
+a150 1
+*                       and CDFIX, DATFIX, UNITFIX, SPCFIX, CELFIX, and CYLFIX
+d232 9
+a240 5
+* spcfix() - Translate AIPS-convention spectral types
+* ---------------------------------------------------
+* spcfix() translates AIPS-convention spectral coordinate types,
+* '{FREQ,FELO,VELO}-{LSR,HEL,OBS}' (e.g. 'FREQ-OBS', 'FELO-HEL', 'VELO-LSR')
+* set in wcsprm::ctype[], subject to VELREF set in wcsprm::velref.
+d245 1
+a245 1
+*                       and/or wcsprm::specsys may be changed.
+d265 5
+a269 9
+* celfix() - Translate AIPS-convention celestial projection types
+* ---------------------------------------------------------------
+* celfix() translates AIPS-convention celestial projection types, NCP and
+* GLS, set in the ctype[] member of the wcsprm struct.
+*
+* Two additional pv[] keyvalues are created when translating NCP.  If the
+* pv[] array was initially allocated by wcsini() then the array will be
+* expanded if necessary.  Otherwise, error 2 will be returned if two empty
+* slots are not already available for use.
+d274 1
+a274 1
+*                       and/or wcsprm::pv[] may be changed.
+d347 2
+a348 2
+#define SPCFIX   3
+#define CELFIX   4
+a355 2
+  FIXERR_DATE_FIX         = -4, /* The date formatting has been fixed up. */
+  FIXERR_SPC_UPDATE       = -3, /* Spectral axis type modified. */
+d389 2
+a392 2
+int celfix(struct wcsprm *wcs);
+
+@
+
+
+4.9.1.3
+log
+@Note in the prologue that spcfix() will not override wcs::specsys if
+it's already set.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.9.1.2 2012/01/31 23:58:31 cal103 Exp cal103 $
+a237 2
+* Note that if wcs::specsys is already set then it will not be overridden.
+*
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.7.1.4 2011/08/10 06:52:12 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.8 - C routines that implement the FITS World Coordinate System
+d224 1
+a224 1
+*                         0: Success.
+d227 4
+d356 1
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added FIXERR_UNITS_ALIAS with value -2 to wcsfix_errmsg_enum, and
+added a comment concerning the function return value from unitfix.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+d224 1
+a224 1
+*                         0: Success (an alias was applied).
+a226 4
+*                       When units are translated (i.e. status 0), status -2
+*                       is set in the wcserr struct to allow an informative
+*                       message to be returned.
+*
+a351 1
+  FIXERR_UNITS_ALIAS      = -2,	/* Units alias translation. */
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.8.1.2 2011/11/17 03:23:16 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.7 - C routines that implement the FITS World Coordinate System
+d92 2
+a93 2
+* wcsfix() applies all of the corrections handled by the following specific
+* functions which may also be invoked separately:
+d118 5
+d147 6
+d199 3
+d257 3
+d286 3
+d320 3
+d334 1
+d351 21
+d375 3
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@d92 2
+a93 2
+* wcsfix() and wcsfix2() applies all of the corrections handled by the
+* following specific functions which may also be invoked separately:
+a147 39
+*                            
+* wcsfix2() - Translate a non-standard WCS struct
+* -----------------------------------------------
+* wcsfix2() is identical to wcsfix(), but collects detailed textual
+* information about the corrections made.
+*
+* Given:
+*   ctrl      int       Do potentially unsafe translations of non-standard
+*                       unit strings as described in the usage notes to
+*                       wcsutrn().
+*
+*   naxis     const int []
+*                       Image axis lengths.  If this array pointer is set to
+*                       zero then cylfix() will not be invoked.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Returned:
+*   stat      int [NWCSFIX]
+*                       Status returns from each of the functions.  Use the
+*                       preprocessor macros NWCSFIX to dimension this vector
+*                       and CDFIX, DATFIX, UNITFIX, CELFIX, SPCFIX and CYLFIX
+*                       to access its elements.  A status value of -2 is set
+*                       for functions that were not invoked.
+*
+*   info      struct wcserr [NWCSFIX]
+*                       Status messages from each of the functions.  Use the
+*                       preprocessor macros NWCSFIX to dimension this vector
+*                       and CDFIX, DATFIX, UNITFIX, CELFIX, SPCFIX and CYLFIX
+*                       to access its elements.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: One or more of the translation functions
+*                            returned an error.
+*
+a166 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                         
+a187 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                         
+a212 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                         
+a242 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                            
+a268 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                            
+a299 3
+* If the return value >= 2, a error message is set in the
+* wcs->err struct.  See wcserr.h for error handling instructions.
+*                        
+a310 1
+#include "wcserr.h"
+a326 14
+enum wcsfix_errmsg_enum {
+  FIXERR_NO_CHANGE        = -1, /* No change */
+  FIXERR_SUCCESS          = 0,  /* Success */
+  FIXERR_NULL_POINTER     = 1,  /* Null wcsprm pointer passed */
+  FIXERR_MEMORY           = 2,  /* Memory allocation failed */
+  FIXERR_SINGULAR_MTX     = 3,  /* Linear transformation matrix is singular */
+  FIXERR_BAD_CTYPE        = 4,  /* Inconsistent or unrecognized coordinate axis types */
+  FIXERR_BAD_PARAM        = 5,  /* Invalid parameter value */
+  FIXERR_BAD_COORD_TRANS  = 6,  /* Invalid coordinate transformation parameters */
+  FIXERR_ILL_COORD_TRANS  = 7,  /* Ill-conditioned coordinate transformation parameters */
+  FIXERR_BAD_CORNER_PIX   = 8,  /* All of the corner pixel coordinates are invalid */
+  FIXERR_NO_REF_PIX_COORD = 9,  /* Could not determine reference pixel coordinate */
+  FIXERR_NO_REF_PIX_VAL   = 10  /* Could not determine reference pixel value */
+};
+a329 3
+int wcsfix2(int ctrl, const int naxis[], struct wcsprm *wcs,
+            int stat[], struct wcserr info[]);
+  
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+d92 2
+a93 2
+* wcsfix() and wcsfixi() apply all of the corrections handled by the following
+* specific functions which may also be invoked separately:
+d118 11
+a128 1
+* wcsfix() is identical to wcsfixi(), but lacks the info argument.
+d130 3
+d134 16
+a149 1
+* wcsfixi() - Translate a non-standard WCS struct
+d151 2
+a152 2
+* wcsfix() applies all of the corrections handled separately by datfix(),
+* unitfix(), celfix(), spcfix() and cylfix().
+d206 3
+d230 3
+a232 3
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err.
+*
+d258 3
+d291 3
+a293 3
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err.
+*
+d320 3
+a322 3
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err.
+*
+d354 3
+a356 3
+*                       For returns > 1, a detailed error message is set in
+*                       wcsprm::err.
+*
+d386 12
+a397 19
+  FIXERR_NO_CHANGE        = -1,	/* No change. */
+  FIXERR_SUCCESS          =  0,	/* Success. */
+  FIXERR_NULL_POINTER     =  1,	/* Null wcsprm pointer passed. */
+  FIXERR_MEMORY           =  2,	/* Memory allocation failed. */
+  FIXERR_SINGULAR_MTX     =  3,	/* Linear transformation matrix is
+				   singular. */
+  FIXERR_BAD_CTYPE        =  4,	/* Inconsistent or unrecognized coordinate
+				   axis types. */
+  FIXERR_BAD_PARAM        =  5,	/* Invalid parameter value. */
+  FIXERR_BAD_COORD_TRANS  =  6,	/* Invalid coordinate transformation
+				   parameters. */
+  FIXERR_ILL_COORD_TRANS  =  7,	/* Ill-conditioned coordinate transformation
+				   parameters. */
+  FIXERR_BAD_CORNER_PIX   =  8,	/* All of the corner pixel coordinates are
+				   invalid. */
+  FIXERR_NO_REF_PIX_COORD =  9,	/* Could not determine reference pixel
+				   coordinate. */
+  FIXERR_NO_REF_PIX_VAL   = 10	/* Could not determine reference pixel
+				   value. */
+d402 3
+a404 3
+int wcsfixi(int ctrl, const int naxis[], struct wcsprm *wcs, int stat[],
+            struct wcserr info[]);
+
+@
+
+
+4.7.1.4
+log
+@Clarify that detailed error messages are only returned in wcserr if enabled.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+d200 1
+a200 1
+*                       wcsprm::err if enabled, see wcserr_enable().
+d258 1
+a258 1
+*                       wcsprm::err if enabled, see wcserr_enable().
+d287 1
+a287 1
+*                       wcsprm::err if enabled, see wcserr_enable().
+d321 1
+a321 1
+*                       wcsprm::err if enabled, see wcserr_enable().
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.4.1.3 2010/07/07 08:25:22 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.3.1.3 2009/07/22 05:10:07 cal103 Exp cal103 $
+d34 1
+a34 1
+* WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+d145 2
+a146 2
+*                         1: One or more of the translation functions returned
+*                            an error.
+d163 3
+a165 3
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+d183 4
+a186 4
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          5: Invalid parameter value.
+d209 3
+a211 3
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+d231 11
+a241 11
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          2: Memory allocation failed.
+*                          3: Linear transformation matrix is singular.
+*                          4: Inconsistent or unrecognized coordinate axis
+*                             types.
+*                          5: Invalid parameter value.
+*                          6: Invalid coordinate transformation parameters.
+*                          7: Ill-conditioned coordinate transformation
+*                             parameters.
+d247 2
+a248 2
+* '{FREQ,FELO,VELO}-{OBS,HEL,LSR}' (e.g. 'FREQ-LSR', 'FELO-HEL', 'VELO-OBS')
+* set in wcsprm::ctype[].
+d256 12
+a267 12
+*             int      Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          2: Memory allocation failed.
+*                          3: Linear transformation matrix is singular.
+*                          4: Inconsistent or unrecognized coordinate axis
+*                             types.
+*                          5: Invalid parameter value.
+*                          6: Invalid coordinate transformation parameters.
+*                          7: Ill-conditioned coordinate transformation
+*                             parameters.
+d284 1
+a284 1
+*             int      Status return value:
+d296 1
+a296 2
+*                         8: All of the corner pixel coordinates are
+*                            invalid.
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsfix.h,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Minor tweaks to indentation for status return values following relaxation
+of requirements by doxextr.l.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsfix.h,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+d145 2
+a146 2
+*                         1: One or more of the translation functions
+*                            returned an error.
+d163 3
+a165 3
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+d183 4
+a186 4
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         5: Invalid parameter value.
+d209 3
+a211 3
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+d231 11
+a241 11
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+d247 2
+a248 2
+* '{FREQ,FELO,VELO}-{LSR,HEL,OBS}' (e.g. 'FREQ-OBS', 'FELO-HEL', 'VELO-LSR')
+* set in wcsprm::ctype[], subject to VELREF set in wcsprm::velref.
+d256 12
+a267 12
+*             int       Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+d284 1
+a284 1
+*             int       Status return value:
+d296 2
+a297 1
+*                         8: All of the corner pixel coordinates are invalid.
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsfix.h,v 4.2.1.6 2007/12/03 05:02:17 cal103 Exp cal103 $
+d34 2
+a35 2
+*   WCSLIB 4.3 - C routines that implement the FITS World Coordinate System
+*   (WCS) standard.  Refer to
+d37 2
+a38 2
+*      "Representations of world coordinates in FITS",
+*      Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 2
+a41 2
+*      "Representations of celestial coordinates in FITS",
+*      Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077 (Paper II)
+d43 262
+a304 271
+*      "Representations of spectral coordinates in FITS",
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+*
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+*
+*
+*   Summary of the wcsfix routines
+*   ------------------------------
+*   Routines in this suite identify and translate various forms of non-
+*   standard construct that are known to occur in FITS WCS headers.  These
+*   range from the translation of non-standard values for standard WCS
+*   keywords, to the repair of malformed coordinate representations.
+*
+*   Non-standard keyvalues:
+*      AIPS-convention celestial projection types, -NCP and -GLS, and spectral
+*      types, FREQ-LSR, FELO-HEL, etc., set in CTYPEia are translated on-the-
+*      fly by wcsset() but without modifying the relevant ctype[], pv[] or
+*      specsys members of the wcsprm struct.  That is, only the information
+*      extracted from ctype[] is translated when wcsset() fills in the prj
+*      (struct prjprm) or spc (struct spcprm) members of the wcsprm struct.
+*
+*      On the other hand, these routines do change the values of the ctype[],
+*      pv[], specsys and other wcsprm struct members as appropriate to produce
+*      the same result as if the FITS header itself had been translated.
+*
+*      Auxiliary WCS header information not used directly by WCSLIB may also
+*      be translated.  For example, the older DATE-OBS date format (dateobs
+*      wcsprm struct member) is recast to year-2000 standard form, and MJD-OBS
+*      (mjdobs) will be deduced from it if not already set.
+*
+*      Certain combinations of keyvalues that result in malformed coordinate
+*      systems, as described in Sect. 7.3.4 of Paper I, may also be repaired.
+*      These are handled by cylfix().
+*
+*   Non-standard keywords:
+*      The AIPS-convention CROTAn keywords are recognized as quasi-standard
+*      and as such are accomodated by the crota[] member of the wcsprm struct
+*      and translated to pc[][] by wcsset().  These are not dealt with here,
+*      nor are any other non-standard keywords since these routines work only
+*      on the contents of a wcsprm struct and do not deal with FITS headers
+*      per se.  In particular, they do not identify or translate CD00i00j,
+*      PC00i00j, PROJPn, EPOCH, VELREF or VSOURCEa keywords; this may be done
+*      by the FITS WCS header parser supplied with WCSLIB, refer to the
+*      prologue of wcshdr.h.
+*
+*   wcsfix() applies all of the corrections handled by the following specific
+*   functions which may also be invoked separately:
+*
+*      cdfix(): Sets the diagonal element of the CDi_ja matrix 1.0 if all
+*         CDi_ja keywords associated with a particular axis are omitted.
+*
+*      datfix(): recast an older DATE-OBS date format in dateobs to year-2000
+*         standard form and derive mjdobs from it if not already set.
+*         Alternatively, if mjdobs is set and dateobs isn't, then derive
+*         dateobs from it.
+*
+*      unitfix(): translate some commonly used but non-standard unit strings
+*         in the CUNITia keyvalues, e.g. 'DEG' -> 'deg'.
+*
+*      celfix(): translate AIPS-convention celestial projection types, -NCP
+*         and -GLS, in ctype[] as set from CTYPEia.
+*
+*      spcfix(): translate AIPS-convention spectral types, FREQ-LSR, FELO-HEL,
+*         etc., in ctype[] as set from CTYPEia.
+*
+*      cylfix(): fixes WCS keyvalues for malformed cylindrical projections
+*         that suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+*
+*   Translate a non-standard WCS struct
+*   -----------------------------------
+*   wcsfix() applies all of the corrections handled separately by datfix(),
+*   unitfix(), celfix(), spcfix() and cylfix().
+*
+*   Given:
+*      ctrl     int      Do potentially unsafe translations of non-standard
+*                        unit strings as described in the usage notes to
+*                        wcsutrn() (refer to the prologue of wcsunits.h).
+*
+*      naxis    const int []
+*                        Image axis lengths.  If this array pointer is set to
+*                        zero then cylfix() will not be invoked.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Returned:
+*      stat     int [NWCSFIX]
+*                        Status returns from each of the functions.  Use the
+*                        preprocessor macros defined below (NWCSFIX, DATFIX,
+*                        UNITFIX, CELFIX, SPCFIX and CYLFIX) to dimension this
+*                        vector and access its elements.  A status value of -2
+*                        is set for functions that were not invoked.
+*
+*   Function return value:
+*               int      Status return value:
+*                           0: Success.
+*                           1: One or more of the translation functions
+*                              returned an error.
+*
+*
+*   Fix erroneously omitted CDi_ja keywords
+*   ---------------------------------------
+*   cdfix() sets the diagonal element of the CDi_ja matrix to 1.0 if all
+*   CDi_ja keywords associated with a given axis were omitted.  According to
+*   Paper I, if any CDi_ja keywords are given then those not given default to
+*   0.0.  This results in a singular matrix with an intersecting row and
+*   column of zeros.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*
+*
+*   Translate DATE-OBS and derive MJD-OBS or vice versa
+*   ---------------------------------------------------
+*   datfix() translates the old DATE-OBS date format set in the dateobs member
+*   of the wcsprm struct to year-2000 standard form (yyyy-mm-ddThh:mm:ss) and
+*   derives MJD-OBS from it if not already set.  Alternatively, if mjdobs is
+*   set and dateobs isn't, then datfix() derives dateobs from it.  If both are
+*   set but disagree by more than half a day then status 5 is returned.  The
+*   dateobs and/or mjdobs members of the wcsprm struct may be changed.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*                           5: Invalid parameter value.
+*
+*
+*   Correct aberrant CUNITia keyvalues
+*   ----------------------------------
+*   unitfix() applies wcsutrn() to translate non-standard CUNITia keyvalues,
+*   e.g. 'DEG' -> 'deg', also stripping off unnecessary whitespace.
+*
+*   Given:
+*      ctrl     int      Do potentially unsafe translations described in the
+*                        usage notes to wcsutrn() (refer to the prologue of
+*                        wcsunits.h).
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*
+*
+*   Translate AIPS-convention celestial projection types
+*   ----------------------------------------------------
+*   celfix() translates AIPS-convention celestial projection types, -NCP
+*   and -GLS, set in the ctype[] member of the wcsprm struct.  The ctype[]
+*   and/or pv[] members of the wcsprm struct may be changed.
+*
+*   Two additional pv[] keyvalues are created when translating -NCP.  If the
+*   pv[] array was initially allocated by wcsini() then the array will be
+*   expanded if necessary.  Otherwise, error 2 will be returned if two empty
+*   slots are not already available for use.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: Linear transformation matrix is singular.
+*                           4: Inconsistent or unrecognized coordinate axis
+*                              types.
+*                           5: Invalid parameter value.
+*                           6: Invalid coordinate transformation parameters.
+*                           7: Ill-conditioned coordinate transformation
+*                              parameters.
+*
+*
+*   Translate AIPS-convention spectral types
+*   ----------------------------------------
+*   spcfix() translates AIPS-convention spectral coordinate types,
+*   {FREQ,VELO,FELO}-{OBS,HEL,LSR} (e.g. FREQ-LSR, VELO-OBS, FELO-HEL) set in
+*   the ctype[] member of the wcsprm struct.  The ctype[] and/or specsys
+*   members of the wcsprm struct may be changed.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: Linear transformation matrix is singular.
+*                           4: Inconsistent or unrecognized coordinate axis
+*                              types.
+*                           5: Invalid parameter value.
+*                           6: Invalid coordinate transformation parameters.
+*                           7: Ill-conditioned coordinate transformation
+*                              parameters.
+*
+*
+*   Fix malformed cylindrical projections
+*   -------------------------------------
+*   cylfix() fixes WCS keyvalues for malformed cylindrical projections that
+*   suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+*   Given:
+*      naxis    const int []
+*                        Image axis lengths.
+*
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*                           2: Memory allocation failed.
+*                           3: Linear transformation matrix is singular.
+*                           4: Inconsistent or unrecognized coordinate axis
+*                              types.
+*                           5: Invalid parameter value.
+*                           6: Invalid coordinate transformation parameters.
+*                           7: Ill-conditioned coordinate transformation
+*                              parameters.
+*                           8: All of the corner pixel coordinates are
+*                              invalid.
+*                           9: Could not determine reference pixel coordinate.
+*                          10: Could not determine reference pixel value.
+*
+*
+*   Notes
+*   -----
+*    1) The MJD algorithms used by datfix() are from D.A. Hatcher, 1984,
+*       QJRAS, 25, 53-55, as modified by P.T. Wallace for use in SLALIB
+*       subroutines CLDJ and DJCL.
+*
+*
+*   Status return values
+*   --------------------
+*   Error messages to match the status value returned from each function are
+*   encoded in the wcsfix_errmsg character array.
+d317 2
+a318 2
+#define DATFIX   0
+#define CDFIX    1
+d329 14
+a342 7
+int wcsfix(int, const int [], struct wcsprm *, int []);
+int cdfix(struct wcsprm *);
+int datfix(struct wcsprm *);
+int unitfix(int, struct wcsprm *);
+int celfix(struct wcsprm *);
+int spcfix(struct wcsprm *);
+int cylfix(const int [], struct wcsprm *);
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: wcsfix.h,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.3.1.2
+log
+@Replaced references to text "above" or "below" with "(see ... above|below)"
+so that they can be parsed out of the doxygen markup.
+@
+text
+@d31 1
+a31 1
+    $Id: wcsfix.h,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp cal103 $
+d136 2
+a137 2
+*                        preprocessor macros NWCSFIX, DATFIX, UNITFIX, CELFIX,
+*                        SPCFIX and CYLFIX (see below) to dimension this
+@
+
+
+4.3.1.3
+log
+@Changes required for generation of the manual using doxextr and doxygen,
+including naming of arguments in function prototypes.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsfix.h,v 4.3.1.2 2008/04/02 06:17:13 cal103 Exp cal103 $
+d34 2
+a35 2
+* WCSLIB 4.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to
+d37 2
+a38 2
+*   "Representations of world coordinates in FITS",
+*   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061 (Paper I)
+d40 2
+a41 2
+*   "Representations of celestial coordinates in FITS",
+*   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077 (Paper II)
+d43 271
+a313 262
+*   "Representations of spectral coordinates in FITS",
+*   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+*   2006, A&A, 446, 747 (Paper III)
+*
+* Refer to the README file provided with WCSLIB for an overview of the
+* library.
+*
+*
+* Summary of the wcsfix routines
+* ------------------------------
+* Routines in this suite identify and translate various forms of non-standard
+* construct that are known to occur in FITS WCS headers.  These range from the
+* translation of non-standard values for standard WCS keywords, to the repair
+* of malformed coordinate representations.
+*
+* Non-standard keyvalues:
+* -----------------------
+*   AIPS-convention celestial projection types, NCP and GLS, and spectral
+*   types, 'FREQ-LSR', 'FELO-HEL', etc., set in CTYPEia are translated
+*   on-the-fly by wcsset() but without modifying the relevant ctype[], pv[] or
+*   specsys members of the wcsprm struct.  That is, only the information
+*   extracted from ctype[] is translated when wcsset() fills in wcsprm::cel
+*   (celprm struct) or wcsprm::spc (spcprm struct).
+*
+*   On the other hand, these routines do change the values of wcsprm::ctype[],
+*   wcsprm::pv[], wcsprm::specsys and other wcsprm struct members as
+*   appropriate to produce the same result as if the FITS header itself had
+*   been translated.
+*
+*   Auxiliary WCS header information not used directly by WCSLIB may also be
+*   translated.  For example, the older DATE-OBS date format (wcsprm::dateobs)
+*   is recast to year-2000 standard form, and MJD-OBS (wcsprm::mjdobs) will be
+*   deduced from it if not already set.
+*
+*   Certain combinations of keyvalues that result in malformed coordinate
+*   systems, as described in Sect. 7.3.4 of Paper I, may also be repaired.
+*   These are handled by cylfix().
+*
+* Non-standard keywords:
+* ----------------------
+*   The AIPS-convention CROTAn keywords are recognized as quasi-standard and
+*   as such are accomodated by the wcsprm::crota[] and translated to
+*   wcsprm::pc[][] by wcsset().  These are not dealt with here, nor are any
+*   other non-standard keywords since these routines work only on the contents
+*   of a wcsprm struct and do not deal with FITS headers per se.  In
+*   particular, they do not identify or translate CD00i00j, PC00i00j, PROJPn,
+*   EPOCH, VELREF or VSOURCEa keywords; this may be done by the FITS WCS
+*   header parser supplied with WCSLIB, refer to wcshdr.h.
+*
+* wcsfix() applies all of the corrections handled by the following specific
+* functions which may also be invoked separately:
+*
+*   - cdfix(): Sets the diagonal element of the CDi_ja matrix to 1.0 if all
+*     CDi_ja keywords associated with a particular axis are omitted.
+*
+*   - datfix(): recast an older DATE-OBS date format in dateobs to year-2000
+*     standard form and derive mjdobs from it if not already set.
+*     Alternatively, if mjdobs is set and dateobs isn't, then derive dateobs
+*     from it.
+*
+*   - unitfix(): translate some commonly used but non-standard unit strings in
+*     the CUNITia keyvalues, e.g. 'DEG' -> 'deg'.
+*
+*   - celfix(): translate AIPS-convention celestial projection types, NCP and
+*     GLS, in ctype[] as set from CTYPEia.
+*
+*   - spcfix(): translate AIPS-convention spectral types, 'FREQ-LSR',
+*     'FELO-HEL', etc., in ctype[] as set from CTYPEia.
+*
+*   - cylfix(): fixes WCS keyvalues for malformed cylindrical projections that
+*     suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+*
+* wcsfix() - Translate a non-standard WCS struct
+* ----------------------------------------------
+* wcsfix() applies all of the corrections handled separately by datfix(),
+* unitfix(), celfix(), spcfix() and cylfix().
+*
+* Given:
+*   ctrl      int       Do potentially unsafe translations of non-standard
+*                       unit strings as described in the usage notes to
+*                       wcsutrn().
+*
+*   naxis     const int []
+*                       Image axis lengths.  If this array pointer is set to
+*                       zero then cylfix() will not be invoked.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Returned:
+*   stat      int [NWCSFIX]
+*                       Status returns from each of the functions.  Use the
+*                       preprocessor macros NWCSFIX to dimension this vector
+*                       and CDFIX, DATFIX, UNITFIX, CELFIX, SPCFIX and CYLFIX
+*                       to access its elements.  A status value of -2 is set
+*                       for functions that were not invoked.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         1: One or more of the translation functions returned
+*                            an error.
+*
+*
+* cdfix() - Fix erroneously omitted CDi_ja keywords
+* -------------------------------------------------
+* cdfix() sets the diagonal element of the CDi_ja matrix to unity if all
+* CDi_ja keywords associated with a given axis were omitted.  According to
+* Paper I, if any CDi_ja keywords at all are given in a FITS header then those
+* not given default to zero.  This results in a singular matrix with an
+* intersecting row and column of zeros.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*
+*
+* datfix() - Translate DATE-OBS and derive MJD-OBS or vice versa
+* --------------------------------------------------------------
+* datfix() translates the old DATE-OBS date format set in wcsprm::dateobs to
+* year-2000 standard form (yyyy-mm-ddThh:mm:ss) and derives MJD-OBS from it if
+* not already set.  Alternatively, if wcsprm::mjdobs is set and
+* wcsprm::dateobs isn't, then datfix() derives wcsprm::dateobs from it.  If
+* both are set but disagree by more than half a day then status 5 is returned.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.  wcsprm::dateobs
+*                       and/or wcsprm::mjdobs may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          5: Invalid parameter value.
+*
+* Notes:
+*   The MJD algorithms used by datfix() are from D.A. Hatcher, 1984, QJRAS,
+*   25, 53-55, as modified by P.T. Wallace for use in SLALIB subroutines CLDJ
+*   and DJCL.
+*
+*
+* unitfix() - Correct aberrant CUNITia keyvalues
+* ----------------------------------------------
+* unitfix() applies wcsutrn() to translate non-standard CUNITia keyvalues,
+* e.g. 'DEG' -> 'deg', also stripping off unnecessary whitespace.
+*
+* Given:
+*   ctrl      int       Do potentially unsafe translations described in the
+*                       usage notes to wcsutrn().
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int       Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*
+*
+* celfix() - Translate AIPS-convention celestial projection types
+* ---------------------------------------------------------------
+* celfix() translates AIPS-convention celestial projection types, NCP and
+* GLS, set in the ctype[] member of the wcsprm struct.
+*
+* Two additional pv[] keyvalues are created when translating NCP.  If the
+* pv[] array was initially allocated by wcsini() then the array will be
+* expanded if necessary.  Otherwise, error 2 will be returned if two empty
+* slots are not already available for use.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.  wcsprm::ctype[]
+*                       and/or wcsprm::pv[] may be changed.
+*
+* Function return value:
+*             int       Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          2: Memory allocation failed.
+*                          3: Linear transformation matrix is singular.
+*                          4: Inconsistent or unrecognized coordinate axis
+*                             types.
+*                          5: Invalid parameter value.
+*                          6: Invalid coordinate transformation parameters.
+*                          7: Ill-conditioned coordinate transformation
+*                             parameters.
+*
+*
+* spcfix() - Translate AIPS-convention spectral types
+* ---------------------------------------------------
+* spcfix() translates AIPS-convention spectral coordinate types,
+* '{FREQ,FELO,VELO}-{OBS,HEL,LSR}' (e.g. 'FREQ-LSR', 'FELO-HEL', 'VELO-OBS')
+* set in wcsprm::ctype[].
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.  wcsprm::ctype[]
+*                       and/or wcsprm::specsys may be changed.
+*
+* Function return value:
+*             int      Status return value:
+*                         -1: No change required (not an error).
+*                          0: Success.
+*                          1: Null wcsprm pointer passed.
+*                          2: Memory allocation failed.
+*                          3: Linear transformation matrix is singular.
+*                          4: Inconsistent or unrecognized coordinate axis
+*                             types.
+*                          5: Invalid parameter value.
+*                          6: Invalid coordinate transformation parameters.
+*                          7: Ill-conditioned coordinate transformation
+*                             parameters.
+*
+*
+* cylfix() - Fix malformed cylindrical projections
+* ------------------------------------------------
+* cylfix() fixes WCS keyvalues for malformed cylindrical projections that
+* suffer from the problem described in Sect. 7.3.4 of Paper I.
+*
+* Given:
+*   naxis     const int []
+*                       Image axis lengths.
+*
+* Given and returned:
+*   wcs       struct wcsprm*
+*                       Coordinate transformation parameters.
+*
+* Function return value:
+*             int      Status return value:
+*                        -1: No change required (not an error).
+*                         0: Success.
+*                         1: Null wcsprm pointer passed.
+*                         2: Memory allocation failed.
+*                         3: Linear transformation matrix is singular.
+*                         4: Inconsistent or unrecognized coordinate axis
+*                            types.
+*                         5: Invalid parameter value.
+*                         6: Invalid coordinate transformation parameters.
+*                         7: Ill-conditioned coordinate transformation
+*                            parameters.
+*                         8: All of the corner pixel coordinates are
+*                            invalid.
+*                         9: Could not determine reference pixel coordinate.
+*                        10: Could not determine reference pixel value.
+*
+*
+* Global variable: const char *wcsfix_errmsg[] - Status return messages
+* ---------------------------------------------------------------------
+* Error messages to match the status value returned from each function.
+d326 2
+a327 2
+#define CDFIX    0
+#define DATFIX   1
+d338 7
+a344 14
+int wcsfix(int ctrl, const int naxis[], struct wcsprm *wcs, int stat[]);
+
+int cdfix(struct wcsprm *wcs);
+
+int datfix(struct wcsprm *wcs);
+
+int unitfix(int ctrl, struct wcsprm *wcs);
+
+int celfix(struct wcsprm *wcs);
+
+int spcfix(struct wcsprm *wcs);
+
+int cylfix(const int naxis[], struct wcsprm *wcs);
+
+@
+
+
+4.2
+log
+@WCSLIB 4.2: added cdfix() to fix erroneously omitted CDi_ja cards; changed
+#include of WCSLIB headers from <...> form to "...".
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: wcsfix.h,v 4.1 2005/08/28 06:17:40 cal103 Exp cal103 $
+d34 1
+a34 1
+*   WCSLIB 4.2 - C routines that implement the FITS World Coordinate System
+d44 2
+a45 2
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L. 2005, A&A,
+*      (Paper III, in preparation)
+d47 2
+d50 3
+a52 2
+*   Summary of routines
+*   -------------------
+d86 2
+a87 2
+*      PC00i00j, PROJPn, EPOCH, VELREF or VSOURCEa header cards; this may be
+*      done by the FITS WCS header parser supplied with WCSLIB, refer to the
+d94 1
+a94 1
+*         CDi_ja cards associated with a particular axis are omitted.
+d110 2
+a111 3
+*      cylfix(): fixes WCS FITS header cards for malformed cylindrical
+*         projections that suffer from the problem described in Sect. 7.3.4 of
+*         Paper I.
+d148 2
+a149 2
+*   Fix erroneously omitted CDi_ja cards
+*   ------------------------------------
+d151 2
+a152 2
+*   CDi_ja cards associated with a given axis were omitted.  According to
+*   Paper I, if any CDi_ja cards are given then those not given default to
+d156 11
+d218 4
+a221 4
+*   Two additional pv[] cards are created when translating -NCP.  If the pv[]
+*   array was initially allocated by wcsini() then the array will be expanded
+*   if necessary.  Otherwise, error 2 will be returned if two empty slots are
+*   not already available for use.
+d272 2
+a273 2
+*   cylfix() fixes WCS FITS header cards for malformed cylindrical projections
+*   that suffer from the problem described in Sect. 7.3.4 of Paper I.
+d305 3
+a307 3
+*    1) The MJD algorithms used by datfix() are from D.A. Hatcher, QJRAS 25,
+*       53-55, as modified by P.T. Wallace for use in SLALIB subroutines CLDJ
+*       and DJCL.
+d347 1
+a347 1
+};
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.2 2005/09/22 09:14:18 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+4.2.1.2
+log
+@Updated the prologue comments, particularly to describe the interface to
+cdfix().
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2006, Mark Calabretta
+d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d43 2
+a44 2
+*      Greisen, E.W., Valdes, F.G., Calabretta, M.R., & Allen, S.L.
+*      2006, A&A, 446, 747 (Paper III)
+a152 11
+*   Given and returned:
+*      wcs      struct wcsprm*
+*                        Coordinate transformation parameters (refer to the
+*                        prologue of wcs.h).
+*
+*   Function return value:
+*               int      Status return value:
+*                          -1: No change required (not an error).
+*                           0: Success.
+*                           1: Null wcsprm pointer passed.
+*
+d291 3
+a293 3
+*    1) The MJD algorithms used by datfix() are from D.A. Hatcher, 1984,
+*       QJRAS, 25, 53-55, as modified by P.T. Wallace for use in SLALIB
+*       subroutines CLDJ and DJCL.
+@
+
+
+4.2.1.3
+log
+@Removed an extraneous ';' following the closing '}' of the 'extern "C" {'
+block provided for use in C++.
+@
+text
+@d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.2.1.2 2006/05/23 01:32:52 cal103 Exp cal103 $
+d43 1
+a43 1
+*      Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+d344 1
+a344 1
+}
+@
+
+
+4.2.1.4
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.2.1.3 2006/08/02 00:14:58 cal103 Exp cal103 $
+d82 2
+a83 2
+*      PC00i00j, PROJPn, EPOCH, VELREF or VSOURCEa keywords; this may be done
+*      by the FITS WCS header parser supplied with WCSLIB, refer to the
+d90 1
+a90 1
+*         CDi_ja keywords associated with a particular axis are omitted.
+d106 3
+a108 2
+*      cylfix(): fixes WCS keyvalues for malformed cylindrical projections
+*         that suffer from the problem described in Sect. 7.3.4 of Paper I.
+d145 2
+a146 2
+*   Fix erroneously omitted CDi_ja keywords
+*   ---------------------------------------
+d148 2
+a149 2
+*   CDi_ja keywords associated with a given axis were omitted.  According to
+*   Paper I, if any CDi_ja keywords are given then those not given default to
+d215 4
+a218 4
+*   Two additional pv[] keyvalues are created when translating -NCP.  If the
+*   pv[] array was initially allocated by wcsini() then the array will be
+*   expanded if necessary.  Otherwise, error 2 will be returned if two empty
+*   slots are not already available for use.
+d269 2
+a270 2
+*   cylfix() fixes WCS keyvalues for malformed cylindrical projections that
+*   suffer from the problem described in Sect. 7.3.4 of Paper I.
+@
+
+
+4.2.1.5
+log
+@Referenced the README file for an overview of the library.
+@
+text
+@d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.2.1.4 2007/08/02 04:27:54 cal103 Exp cal103 $
+a45 2
+*   Refer to the README file provided with WCSLIB for an overview of the
+*   library.
+d47 2
+a48 3
+*
+*   Summary of the wcsfix routines
+*   ------------------------------
+@
+
+
+4.2.1.6
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsfix.h,v 4.2.1.5 2007/08/08 08:40:48 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: generalization of cylfix.h containing description and usage
+of new functions wcsfix(), datfix(), unitfix(), celfix() and spcfix();
+changed #include of WCSLIB headers from "" to <> form as required for
+installed header files.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: wcsfix.h,v 4.0 2005/02/04 05:07:25 cal103 Exp cal103 $
+d33 1
+a33 1
+*   WCSLIB 4.1 - C routines that implement the FITS World Coordinate System
+d89 3
+d145 9
+d306 1
+a306 1
+#include <wcs.h>
+d313 6
+a318 5
+#define UNITFIX  1
+#define CELFIX   2
+#define SPCFIX   3
+#define CYLFIX   4
+#define NWCSFIX  5
+d325 1
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: cylfix.h,v 3.6 2004/08/25 04:13:58 cal103 Exp cal103 $
+d33 5
+a37 2
+*   cylfix() fixes WCS FITS header cards for malformed cylindrical projections
+*   that suffer from the problem described in Sect. 7.3.4 of
+d40 183
+a222 1
+*      Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077
+d225 25
+d252 2
+d276 13
+d291 2
+a292 2
+#ifndef WCSLIB_CYLFIX
+#define WCSLIB_CYLFIX
+d294 1
+a294 1
+#include "wcs.h"
+d300 10
+a309 1
+extern const char *cylfix_errmsg[];
+d311 6
+a316 1
+int cylfix (const int [], struct wcsprm *);
+d322 1
+a322 1
+#endif /* WCSLIB_CYLFIX */
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value"; replaced "error" with "failed" in status messages;
+removed support for K&R C.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+d11 4
+a14 4
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: cylfix.h,v 3.5 2004/06/28 01:46:33 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: cylfix.h,v 3.4 2004/02/11 00:15:03 mcalabre Exp mcalabre $
+d47 1
+a47 1
+*               int      Error status
+d51 1
+a51 1
+*                           2: Memory allocation error.
+d77 1
+a77 6
+
+#if __STDC__ || defined(__cplusplus)
+   int cylfix (const int [], struct wcsprm *);
+#else
+   int cylfix();
+#endif
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+a63 2
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: cylfix.h,v 3.3 2003/10/26 23:04:20 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@Change RCS revision to 3.3.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d62 1
+a62 1
+*   $Id: cylfix.h,v 1.4 2003/10/21 08:51:00 mcalabre Exp mcalabre $
+@
+
+
+1.4
+log
+@WCSLIB 3.3
+@
+text
+@d62 1
+a62 1
+*   $Id: cylfix.h,v 1.3 2003/09/09 04:04:04 mcalabre Exp mcalabre $
+@
+
+
+1.3
+log
+@WCSLIB 3.2: rationalized function return codes and messages.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d62 1
+a62 1
+*   $Id: cylfix.h,v 1.2 2003/04/28 03:50:41 mcalabre Exp mcalabre $
+@
+
+
+1.2
+log
+@WCSLIB 3.1
+Moved from the pgsbox directory; prologue comments moved from cylfix.c; new
+function prototype; removed prototype for FORTRAN wrapper.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d47 4
+a50 3
+*                           1: Memory allocation error.
+*                           2: Singular linear transformation matrix.
+*                           3: Inconsistent or unrecognized coordinate axis
+d52 3
+a54 3
+*                           4: Invalid parameter value.
+*                           5: Invalid coordinate transformation parameters.
+*                           6: Ill-conditioned coordinate transformation
+d56 4
+a59 3
+*                           7: Invalid pixel coordinate.
+*                           8: Could not determine reference pixel coordinate.
+*                           9: Could not determine reference pixel value.
+d62 1
+a62 1
+*   $Id: cylfix.h,v 1.1 2002/11/06 00:40:33 mcalabre Exp mcalabre $
+d73 3
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d28 31
+d60 1
+a60 1
+*   $Id: cylfix.h,v 18.1 2002/10/27 23:12:29 mcalabre Exp $
+d66 2
+d73 1
+a73 20
+   int cylfix (const int naxis[2],
+               double crpix[2],
+               const double pc[2][2],
+               const double cdelt[2],
+               const char ctype[][9],
+               const double projp[10],
+               double crval[2],
+               double *lonpol,
+               const double latpol);
+
+   int cylfix_(const int naxis[2],
+               double crpix[2],
+               const double pc[2][2],
+               const double cdelt[2],
+               const char ctype[][8],
+               const double projp[10],
+               double crval[2],
+               double *lonpol,
+               const double *latpol);
+
+d75 1
+a75 1
+   int cylfix(), cylfix_();
+@

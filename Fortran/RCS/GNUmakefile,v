@@ -1,0 +1,7199 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.35;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.51.45;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.48.07;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.23.04.25.55;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.30.08.24.29;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.32.15;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.24.52;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.05.20.01;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.01.47;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.48.00;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.06.15.24;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.08.22.34;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.32.40;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2000.12.06.00.51.23;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.12.13.03.36.42;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.11.19.01.16.22;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	96.09.10.06.45.10;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.21.19.25;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.04.26;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.11.03.49.17;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.11.03.48.58;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.42.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.43.47;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2005.12.05.01.46.36;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.06.29.06.48.46;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.07.03.08.37.26;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.07.05.04.42.53;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.07.12.01.38.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.08.02.07.05.51;	author cal103;	state Exp;
+branches;
+next	4.2.1.8;
+
+4.2.1.8
+date	2007.08.08.04.38.13;	author cal103;	state Exp;
+branches;
+next	4.2.1.9;
+
+4.2.1.9
+date	2007.12.27.04.58.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.03;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.13.06.29.43;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.07.22.07.17.09;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.08.05.02.03.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.51;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.08.10.23.56.20;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.09.01.46.15;	author cal103;	state Exp;
+branches;
+next	4.4.1.4;
+
+4.4.1.4
+date	2010.07.15.04.37.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.06.59.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.12.13.06.01.28;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.18.03.19.57;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2011.01.18.03.56.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.08.38.15;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.11.04.26.21;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.12.08.50.56;	author cal103;	state Exp;
+branches;
+next	4.7.1.5;
+
+4.7.1.5
+date	2011.08.13.06.40.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.12.05.06.46.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.03.21.02.57.40;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.40.02;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.12.03.59.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.04.03.06.53.26;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.04.03.07.44.59;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.4;
+
+4.25.1.4
+date	2015.04.05.06.54.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.09.48.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.15.09.21.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.17.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.05.04.29.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.07.06.29.20;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.3;
+
+5.20.1.3
+date	2018.10.19.04.09.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.07.11.07.56.51;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.12.06.59.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	6.3.1.2;
+
+6.3.1.2
+date	2019.08.10.09.35.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	7.1.1.2;
+
+7.1.1.2
+date	2020.02.26.10.59.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.02.13.25.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.11.08.13.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2021.11.11.03.17.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.15.12.41;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.3;
+
+8.0.1.3
+date	2023.07.04.15.36.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.05.06.15.12.02;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.13.14.15.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.11.26.14.47.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.40.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.24.07.44.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@GNU makefile for WCSLIB.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# GNU makefile for building the WCSLIB 8.10 FORTRAN wrappers.
+#
+# Summary of the main targets
+# ---------------------------
+#   build:     Build the library
+#
+#   clean:     Delete intermediate object files.
+#
+#   cleaner:   clean, and also delete the test executables.
+#
+#   cleanest (distclean, or realclean): cleaner, and also delete the
+#              object library.
+#
+#   check (or test): Compile and run the test programs.  By default they are
+#              executed in batch mode, and non-graphical tests only report
+#              "PASS" on success.  Use
+#
+#                make MODE=interactive check
+#
+#              to run them interactively with full diagnostic output.  To skip
+#              graphical tests even if PGPLOT is available, use
+#
+#                make CHECK=nopgplot check
+#
+#   tests:     Compile the test programs (but don't run them).
+#
+# Notes:
+#   1) If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+#
+#   2) This makefile assumes that the WCSLIB 8.10 sources reside in ../C
+#      (as in the distribution kit).
+#
+#   3) twcstab assumes that ../C/wcstab.fits has already been generated by
+#      the corresponding C test program.
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+# Get configure settings.
+SUBDIR := Fortran
+include ../makedefs
+
+CFILES  := $(sort $(wildcard *.c))
+MODULES := $(sort $(patsubst %.c,%.o,$(CFILES)))
+MODULES += $(sort $(patsubst %.f,%.o,$(wildcard *.f)))
+
+ifdef BINDC
+  # Using Fortran 2003 BIND(C) interoperability mechanism.
+  MODULES  += $(sort $(patsubst %.f90,%.o,$(wildcard *.f90)))
+  CPPFLAGS += -DBINDC
+endif
+
+# Including getwcstab_f.c causes the sharable library to depend on CFITSIO.
+MODULES := $(filter-out getwcstab_f.o,$(MODULES))
+
+ifdef GETWCSTAB
+  FGETWCSTAB := ../C/getwcstab.o
+endif
+
+WCSLIB  := ../C/$(WCSLIB)
+LIBLOCK := ../C/lib.lock
+
+# Build the sharable library?
+ifneq "$(SHRLIB)" ""
+  PICLIB := ../C/libwcs-PIC.a
+  SHRLIB := ../C/$(SHRLIB)
+endif
+
+CPPFLAGS += -I.. -I../C
+
+# Required by some test programs that use PGPLOT.
+WCSLEEP  := wcsleep_f.o
+
+vpath %.h  ..:../C
+vpath %.in ..
+
+
+# For building and exercising the test suite
+# ------------------------------------------
+# Test programs that don't require CFITSIO or PGPLOT.
+TEST_N := tlin tdis1 tdis2 tlog tprj1 tsph tspx ttab1 twcs twcssub tpih1 \
+          tfitshdr tunits twcsfix
+
+# Test programs that require CFITSIO (they don't need PGPLOT).
+TEST_C := twcstab
+
+# Test programs that require PGPLOT but not PGSBOX.
+TEST_P := tspc tprj2 tcel1 ttab2 ttab3 twcsmix
+
+# Test programs that require PGPLOT and PGSBOX.
+TEST_B := tpih2
+
+TESTS  := $(TEST_N)
+
+# Do we have CFITSIO?
+DO_CFITSIO := 1
+ifeq "$(CFITSIOLIB)" ""
+  DO_CFITSIO := 0
+endif
+
+ifeq "$(DO_CFITSIO)" "1"
+  # Yes, add test programs that use it.
+  TESTS += $(TEST_C)
+  CFITSIO_CFLAGS := $(filter-out -Wpadded,$(CFLAGS))
+endif
+
+# Do we have PGPLOT?
+DO_PGPLOT := 0
+ifneq "$(CHECK)" "nopgplot"
+  DO_PGPLOT := 1
+  ifeq "$(PGPLOTLIB)" ""
+    DO_PGPLOT := 0
+  endif
+
+  ifeq "$(DO_PGPLOT)" "1"
+    # Yes, add test programs that use it.
+    TESTS += $(TEST_P) $(TEST_B)
+  endif
+endif
+
+PGSBOXLIB := ../pgsbox/libpgsbox-$(LIBVER).a
+PGPLOTLIB := $(PGPLOTLIB)
+
+ADDRE := 0x[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]*
+
+# Pattern rules
+#--------------
+
+$(WCSLIB)(%.o) : %.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(WCSLIB)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(WCSLIB)(%.o) : %.f90
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PICLIB)(%_f.o) : $(WCSLIB)(%_f.o)
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PICLIB)(%_data.o) : $(WCSLIB)(%_data.o)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PICLIB)(%_bindc.o) : $(WCSLIB)(%_bindc.o)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+%.i : %.c
+	-@@ echo ''
+	-@@ $(RM) $@@
+	   $(CPP) $(CPPFLAGS) $(CFLAGS) $< > $@@
+
+# Print out include file dependencies.
+%.d : %.c
+	-@@ echo ''
+	-@@ $(CPP) $(CPPFLAGS) $(CFLAGS) $< | \
+	   sed -n -e 's|^# 1 "\([^/].*\.h\)".*|\1|p' | \
+	   sed -e 's|.*/||' | \
+	   sort -u
+
+%.o : %.f
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+
+%.o : %.f90
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+
+%.fits : ../C/test/%.keyrec ../utils/tofits
+	   ../utils/tofits < $< > $@@
+
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+
+run_% : %
+	-@@ echo ''
+	-@@ $(TIMER)
+	 @@ if [ '$(MODE)' = interactive -o '$(VALGRIND)' ] ; then \
+	     printf 'Press <CR> to run $<: ' ; \
+	     read DUMMY ; \
+	   fi ; \
+	   if [ '$(VALGRIND)' ] ; then \
+	     if [ '$<' = tunits ] ; then \
+	       $(VALGRIND) ./$< < test/units_test ; \
+	     else \
+	       $(VALGRIND) ./$< ; \
+	     fi ; \
+	   else \
+	     if [ '$(filter $<, $(TEST_N) $(TEST_C))' ] ; then \
+	       if [ '$<' = tunits ] ; then \
+	         if [ '$(MODE)' = interactive ] ; then \
+	           ./$< < ../C/test/units_test 2>&1 | tee $<.out ; \
+	         else \
+	           ./$< < ../C/test/units_test > $<.out 2>&1 ; \
+	         fi ; \
+	       else \
+	         if [ '$(MODE)' = interactive ] ; then \
+	           ./$< < /dev/null 2>&1 | tee $<.out ; \
+	         else \
+	           ./$< < /dev/null > $<.out 2>&1 ; \
+	         fi ; \
+	       fi ; \
+	       if grep 'FAIL:' $<.out > /dev/null ; then \
+	         if [ '$(MODE)' != interactive ] ; then \
+	           head -2 $<.out ; \
+	           grep 'FAIL:' $<.out ; \
+	         fi ; \
+	         echo 'FAIL: Fortran/$<' >> test_results ; \
+	       elif grep 'PASS:' $<.out > /dev/null ; then \
+	         if [ '$(MODE)' != interactive ] ; then \
+	           head -2 $<.out ; \
+	           grep 'PASS:' $<.out ; \
+	         fi ; \
+	         echo 'PASS: Fortran/$<' >> test_results ; \
+	       elif [ -f 'test/$<.out' ] ; then \
+	         trap 'rm -f run_$<.tmp' 0 1 2 3 15 ; \
+	         sed -e 's/$(ADDRE)/0x<address>/g' \
+	             -e 's/chksum:.*/chksum: <CHECKSUM>/' $<.out > \
+	           run_$<.tmp ; \
+	         mv -f run_$<.tmp $<.out ; \
+	         if cmp -s $<.out test/$<.out ; then \
+	           if [ '$(MODE)' != interactive ] ; then \
+	             head -2 $<.out ; \
+	             echo 'PASS: Output agrees with Fortran/test/$<.out' ; \
+	           fi ; \
+	           echo 'PASS: Fortran/$<' >> test_results ; \
+	         else \
+	           if [ '$(MODE)' != interactive ] ; then \
+	             cat $<.out ; \
+	           fi ; \
+	           echo '' ; \
+	           echo 'FAIL: Output disagrees with Fortran/test/$<.out' ; \
+	           echo 'FAIL: Fortran/$<' >> test_results ; \
+	         fi ; \
+	       elif [ '$(MODE)' != interactive ] ; then \
+	         cat $<.out ; \
+	         echo 'FAIL: Fortran/$<' >> test_results ; \
+	       fi ; \
+	     elif [ '$(MODE)' = interactive ] ; then \
+	       ./$< ; \
+	     else \
+	       if [ '$<' = tcel2 ] ; then \
+	         echo N | ./$< ; \
+	       else \
+	         yes 2>/dev/null | ./$< 2>&1 ; \
+	       fi ; \
+	     fi ; \
+	   fi
+	-@@ echo ''
+
+# Static and static pattern rules
+#--------------------------------
+
+.PHONY : analyse build check clean cleaner cleanest distclean install lib \
+         realclean test tests uninstall
+
+build : lib
+
+lib :
+	 @@ $(MAKE) -C ../C lib
+	-@@ echo ''
+	-@@ echo 'Building WCSLIB Fortran wrappers...'
+	 @@ $(MAKE) --no-print-directory $(WCSLIB)
+
+$(WCSLIB) : $(LIBLOCK) $(MODULES:%=$(WCSLIB)(%))
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       echo $(RANLIB) $@@ ; \
+	       $(RANLIB) $@@ ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+	 @@ if [ "$(SHRLIB)" != "" ] ; then \
+	     $(MAKE) --no-print-directory $(SHRLIB) ; \
+	   fi
+
+$(SHRLIB) : $(PICLIB)
+	-@@ echo ''
+	-@@ $(RM) -r tmp
+	   mkdir tmp && \
+	     cd tmp && \
+	     trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+	     $(AR) x ../$(PICLIB) && \
+	     $(SHRLD) -o $(@@F) *.o $(LDFLAGS) $(LIBS) && \
+	     mv $(@@F) ../../C
+
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o))
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+
+$(LIBLOCK) : FORCE
+	 @@ $(RM) *.o
+	 @@ touch $@@
+
+analyse : $(CFILES:%.c=%.sca)
+
+install : build
+	$(MAKE) -C ../C install
+	$(INSTALL) -m 444 *.inc $(INCDIR)
+
+uninstall :
+	$(MAKE) -C ../C uninstall
+
+clean :
+	-  $(RM) *.o $(LIBLOCK) *.i a.out t*.out core fort.* *.dSYM *.sca
+	-  $(RM) -r $(EXTRA_CLEAN)
+
+cleaner : clean
+	-  $(RM) .gdb_history
+	-  $(RM) $(TEST_N)
+	-  $(RM) $(TEST_P) tpih2 twcstab
+	-  $(RM) fitshdr.fits pih.fits TPV7.fits test_results
+
+cleanest distclean realclean : cleaner
+	-  $(RM) $(WCSLIB) $(PICLIB) $(SHRLIB)
+
+check test : tests $(TESTS:%=run_%)
+
+tests : $(TESTS)
+
+$(TEST_N) : % : test/%.f $(WCSLIB)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+$(TEST_P) : % : test/%.f $(WCSLIB) $(WCSLEEP)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(WCSLEEP) $(PGPLOTLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+tpih2 : % : test/%.f $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(PGSBOXLIB) $(WCSLIB) \
+	     $(WCSLEEP) $(PGPLOTLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+twcstab : test/twcstab.f getwcstab_f.o getwcstab.inc $(FGETWCSTAB) \
+    $(WCSLIB)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -o $@@ $< getwcstab_f.o $(FGETWCSTAB) \
+	     $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+	-@@ $(RM) $@@.o $(FGETWCSTAB)
+
+getwcstab_f.o : getwcstab_f.c getwcstab.h
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+
+../C/getwcstab.o ::
+	-@@ echo ''
+	   $(MAKE) -C ../C getwcstab.o
+
+$(WCSLEEP) : test/wcsleep_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+
+$(PGSBOXLIB) :
+	-@@ echo ''
+	   $(MAKE) -C ../pgsbox lib
+
+../utils/tofits : ../utils/tofits.c
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@@ $<
+
+../C/wcstab.fits : ;
+
+GNUmakefile : ../makedefs ;
+
+../makedefs ../wcsconfig.h ../wcsconfig_f77.h : makedefs.in wcsconfig.h.in \
+    wcsconfig_f77.h.in ../config.status
+	-@@ $(RM) ../wcsconfig.h ../wcsconfig_f77.h
+	   cd .. && ./config.status
+
+show ::
+	-@@ echo '  BINDC       := $(BINDC)'
+	-@@ echo '  CFILES      := $(CFILES)'
+	-@@ echo '  MODULES     := $(MODULES)'
+	-@@ echo '  DO_CFITSIO  := $(DO_CFITSIO)'
+	-@@ echo '  DO_PGPLOT   := $(DO_PGPLOT)'
+	-@@ echo '  TESTS       := $(TESTS)'
+
+# Dependencies (use the %.d pattern rule to list them)
+#-----------------------------------------------------
+
+$(WCSLIB)(cel_f.o)      : cel.h prj.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(dis_f.o)      : dis.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h
+$(WCSLIB)(getwcstab_f.o): getwcstab.h wcsconfig_f77.h
+$(WCSLIB)(lin_f.o)      : dis.h lin.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(log_f.o)      : log.h wcsconfig_f77.h
+$(WCSLIB)(prj_f.o)      : prj.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(spc_f.o)      : spc.h spx.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(sph_f.o)      : sph.h wcsconfig_f77.h
+$(WCSLIB)(spx_f.o)      : spx.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(tab_f.o)      : tab.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcsfix.h
+$(WCSLIB)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h wcs.h \
+                          wcsconfig_f77.h wcshdr.h
+$(WCSLIB)(wcsunits_f.o) : wcsconfig_f77.h wcserr.h wcsunits.h wcsutil.h
+
+tcel1   : cel.inc prj.inc
+tdis1   : lin.inc wcs.inc wcserr.inc wcshdr.inc
+tdis2   : dis.inc lin.inc wcs.inc wcserr.inc wcshdr.inc
+tfitshdr: fitshdr.inc wcshdr.inc
+tlin    : lin.inc
+tlog    : log.inc
+tpih1   : wcs.inc wcsfix.inc wcshdr.inc
+tpih2   : wcs.inc wcshdr.inc
+tprj1   : prj.inc
+tprj2   : prj.inc
+tspc    : spc.inc spx.inc
+tspx    : spx.inc
+ttab1   : tab.inc
+ttab2   : tab.inc
+ttab3   : prj.inc tab.inc
+tunits  : wcsunits.inc
+twcs    : cel.inc prj.inc wcs.inc wcserr.inc wcsmath.inc
+twcsfix : wcs.inc wcsfix.inc wcsunits.inc
+twcsmix : cel.inc lin.inc prj.inc wcs.inc
+twcssub : wcs.inc wcserr.inc
+twcstab : getwcstab.inc wcs.inc wcsfix.inc wcshdr.inc
+
+run_tdis1 run_tdis2 : TPV7.fits
+run_tfitshdr : fitshdr.fits
+run_tpih1 run_tpih2: pih.fits
+run_twcstab: ../C/wcstab.fits
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.9 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.9 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.8 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.8 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.7 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.7 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.6.1.2 2026/04/24 07:44:18 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.6 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.6 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.5.1.2 2026/03/29 13:40:41 mcalabre Exp mcalabre $
+d46 2
+a47 1
+MODULES := $(sort $(patsubst %.c,%.o,$(wildcard *.c)))
+d210 5
+d294 2
+a295 2
+.PHONY : build check clean cleaner cleanest distclean install lib realclean \
+         test tests uninstall
+d344 2
+d354 1
+a354 1
+	-  $(RM) *.o $(LIBLOCK) *.i a.out t*.out core fort.* *.dSYM
+d423 1
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added rules for static code analysis (clang-tidy).
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d46 1
+a46 2
+CFILES  := $(sort $(wildcard *.c))
+MODULES := $(sort $(patsubst %.c,%.o,$(CFILES)))
+a208 5
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+
+d288 2
+a289 2
+.PHONY : analyse build check clean cleaner cleanest distclean install lib \
+         realclean test tests uninstall
+a337 2
+analyse : $(CFILES:%.c=%.sca)
+
+d346 1
+a346 1
+	-  $(RM) *.o $(LIBLOCK) *.i a.out t*.out core fort.* *.dSYM *.sca
+a414 1
+	-@@ echo '  CFILES      := $(CFILES)'
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.5 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.5 sources reside in ../C
+d39 2
+a40 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 8.4.1.2 2025/11/26 14:47:38 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated the URL for WCSLIB on ATNF's website.
+@
+text
+@d39 2
+a40 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.4 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.4 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+d279 1
+a279 1
+	         yes | ./$< 2>&1 ; \
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@When running graphical tests, discard the "broken pipe" error message from
+'yes' produced when the test program terminates.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+d279 1
+a279 1
+	         yes 2>/dev/null | ./$< 2>&1 ; \
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.3 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.3 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.2.1.3 2024/05/13 14:15:24 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.2 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.2 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d49 6
+d126 1
+d149 9
+d176 9
+d202 4
+d251 2
+a252 1
+	         sed -e 's/0x[0-9a-f][0-9a-f][0-9a-f]*/0x<address>/g' $<.out > \
+d414 1
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Changes required to support the new Fortran 2003 BIND(C) wrappers.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+a48 6
+ifdef BINDC
+  # Using Fortran 2003 BIND(C) interoperability mechanism.
+  MODULES  += $(sort $(patsubst %.f90,%.o,$(wildcard *.f90)))
+  CPPFLAGS += -DBINDC
+endif
+
+a141 9
+$(WCSLIB)(%.o) : %.f90
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+a159 9
+$(PICLIB)(%_bindc.o) : $(WCSLIB)(%_bindc.o)
+	-@@ echo ''
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+a176 4
+%.o : %.f90
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+
+a383 1
+	-@@ echo '  BINDC       := $(BINDC)'
+@
+
+
+8.2.1.3
+log
+@In the run_% pattern rule, replace the wcsprm::chksum value with '<CHECKSUM>'.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.2.1.2 2024/05/06 15:12:02 mcalabre Exp mcalabre $
+a125 1
+ADDRE := 0x[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]*
+d250 1
+a250 2
+	         sed -e 's/$(ADDRE)/0x<address>/g' \
+	             -e 's/chksum:.*/chksum: <CHECKSUM>/' $<.out > \
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.1 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.1 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 8.0.1.3 2023/07/04 15:36:47 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 8.0 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 8.0 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d67 3
+d337 1
+a337 1
+$(TEST_P) : % : test/%.f $(WCSLIB)
+d339 1
+a339 1
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d342 1
+a342 1
+tpih2 : % : test/%.f $(PGSBOXLIB) $(WCSLIB)
+d345 1
+a345 1
+	     $(PGPLOTLIB) $(LIBS)
+d357 1
+a357 1
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+d362 4
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@tprj2 and tspc now need to link to wcsleep_f.o.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+a66 3
+# Required by some test programs that use PGPLOT.
+WCSLEEP  := wcsleep_f.o
+
+d334 1
+a334 1
+$(TEST_P) : % : test/%.f $(WCSLIB) $(WCSLEEP)
+d336 1
+a336 1
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(WCSLEEP) $(PGPLOTLIB) $(LIBS)
+d354 1
+a354 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+a358 4
+
+$(WCSLEEP) : test/wcsleep_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+@
+
+
+8.0.1.3
+log
+@tpih2 now also needs to link to wcsleep_f.o.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 8.0.1.2 2023/07/04 15:12:41 mcalabre Exp mcalabre $
+d342 1
+a342 1
+tpih2 : % : test/%.f $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+d345 1
+a345 1
+	     $(WCSLEEP) $(PGPLOTLIB) $(LIBS)
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.13 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.13 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.12 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.12 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.11 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.11 sources reside in ../C
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.10 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.10 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.9 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.9 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.8 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.8 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.7.1.2 2021/11/11 03:17:06 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.7 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.7 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d174 2
+a175 2
+%.fits : ../C/test/%.keyrec tofits
+	   ./tofits < $< > $@@
+d320 1
+a320 1
+	-  $(RM) tofits fitshdr.fits pih.fits TPV7.fits test_results
+d364 1
+a364 1
+tofits : ../C/test/tofits.c
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@../C/test/tofits.c moved to ../utils/.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+d174 2
+a175 2
+%.fits : ../C/test/%.keyrec ../utils/tofits
+	   ../utils/tofits < $< > $@@
+d320 1
+a320 1
+	-  $(RM) fitshdr.fits pih.fits TPV7.fits test_results
+d364 1
+a364 1
+../utils/tofits : ../utils/tofits.c
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.6 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.6 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.5.1.2 2021/04/11 08:13:58 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.5 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.5 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.4.1.2 2021/03/02 13:25:40 mcalabre Exp mcalabre $
+d89 6
+a94 1
+ifneq "$(CFITSIOINC)$(CFITSIOLIB)" ""
+d96 1
+a96 1
+  TESTS   += $(TEST_C)
+d101 1
+d103 9
+a111 4
+ifneq "$(PGPLOTINC)$(PGPLOTLIB)" ""
+  # Yes, add test programs that use it.
+  TESTS   += $(TEST_P) $(TEST_B)
+endif
+d378 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@The Fortran test programs don't need cfitsio nor pgplot include files.
+Reworked the tests to match changes made to the C makefile.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d89 1
+a89 6
+DO_CFITSIO := 1
+ifeq "$(CFITSIOLIB)" ""
+  DO_CFITSIO := 0
+endif
+
+ifeq "$(DO_CFITSIO)" "1"
+d91 1
+a91 1
+  TESTS += $(TEST_C)
+a95 1
+DO_PGPLOT := 0
+d97 4
+a100 9
+  DO_PGPLOT := 1
+  ifeq "$(PGPLOTLIB)" ""
+    DO_PGPLOT := 0
+  endif
+
+  ifeq "$(DO_PGPLOT)" "1"
+    # Yes, add test programs that use it.
+    TESTS += $(TEST_P) $(TEST_B)
+  endif
+a366 2
+	-@@ echo '  DO_CFITSIO  := $(DO_CFITSIO)'
+	-@@ echo '  DO_PGPLOT   := $(DO_PGPLOT)'
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.4 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.4 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+d245 1
+a245 1
+         test tests
+d298 3
+d374 1
+a374 1
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h 
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added an uninstall rule.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d245 1
+a245 1
+         test tests uninstall
+a297 3
+uninstall :
+	$(MAKE) -C ../C uninstall
+
+d371 1
+a371 1
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.3 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.3 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.2 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.2 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 7.1.1.2 2020/02/26 10:59:13 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 7.1 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 7.1 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d266 3
+a268 1
+	 @@ $(MAKE) --no-print-directory $(SHRLIB)
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+7.1.1.2
+log
+@In the $(WCSLIB) rule, don't recursively make $(SHRLIB) if it's not defined.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d266 1
+a266 3
+	 @@ if [ "$(SHRLIB)" != "" ] ; then \
+	     $(MAKE) --no-print-directory $(SHRLIB) ; \
+	   fi
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 6.4 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 6.4 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 6.3.1.2 2019/08/10 09:35:31 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 6.3 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 6.3 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 6.2.1.3 2019/07/12 06:59:54 mcalabre Exp mcalabre $
+d49 3
+d89 1
+a89 4
+ifeq "$(CFITSIOINC)$(CFITSIOLIB)" ""
+  # No, remove getwcstab_f.c, which requires CFITSIO headers.
+  MODULES := $(filter-out getwcstab_f.o,$(MODULES))
+else
+a267 9
+$(WCSLIB)(getwcstab_f.o) : getwcstab_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(RM) $% ; \
+	   fi
+
+a287 9
+$(PICLIB)(getwcstab_f.o) : getwcstab_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(SHRFLAGS) $(CFITSIOINC) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(RM) $% ; \
+	   fi
+
+d329 2
+a330 1
+twcstab : test/twcstab.f $(FGETWCSTAB) $(WCSLIB)
+d332 2
+a333 2
+	   $(FC) $(FFLAGS) -o $@@ $< $(FGETWCSTAB) $(LDFLAGS) $(CFITSIOLIB) \
+	     $(WCSLIB) $(LIBS)
+d335 4
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.3.1.2
+log
+@Unfortunately, adding getwcstab_f.o to the sharable library (v6.2.1.3)
+causes it to depend on CFITSIO to resolve fits_get_wcstab().  Hence backed
+out of that change.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+a48 3
+# Including getwcstab_f.c causes the sharable library to depend on CFITSIO.
+MODULES := $(filter-out getwcstab_f.o,$(MODULES))
+
+d86 4
+a89 1
+ifneq "$(CFITSIOINC)$(CFITSIOLIB)" ""
+d268 9
+d297 9
+d347 1
+a347 2
+twcstab : test/twcstab.f getwcstab_f.o getwcstab.inc $(FGETWCSTAB) \
+    $(WCSLIB)
+d349 2
+a350 2
+	   $(FC) $(FFLAGS) -o $@@ $< getwcstab_f.o $(FGETWCSTAB) \
+	     $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+a351 4
+
+getwcstab_f.o : getwcstab_f.c getwcstab.h
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 6.2 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 6.2 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d46 2
+a47 2
+MODULES := $(patsubst %.c,%.o,$(filter-out getwcstab_f.c,$(wildcard *.c)))
+MODULES += $(patsubst %.f,%.o,$(wildcard *.f))
+d85 7
+a91 4
+# Add test programs that require CFITSIO if we have it.
+ifneq "$(CFITSIOINC)" ""
+ifneq "$(CFITSIOLIB)" ""
+  TESTS  += $(TEST_C)
+a93 1
+endif
+d95 1
+a95 1
+# Add test programs that require PGPLOT if we have it.
+d97 2
+a98 2
+ifneq "$(PGPLOTINC)" ""
+ifneq "$(PGPLOTLIB)" ""
+a101 1
+endif
+d207 1
+a207 1
+	         trap 'rm -f run_test.tmp' 0 1 2 3 15 ; \
+d209 2
+a210 2
+	           run_test.tmp ; \
+	         mv -f run_test.tmp $<.out ; \
+d268 9
+d287 1
+a287 1
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o)) ;
+d297 9
+d347 1
+a347 2
+twcstab : test/twcstab.f getwcstab_f.o getwcstab.inc $(FGETWCSTAB) \
+    $(WCSLIB)
+d349 3
+a351 7
+	   $(FC) $(FFLAGS) -o $@@ $< getwcstab_f.o $(FGETWCSTAB) \
+	     $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+	-@@ $(RM) $@@.o
+
+getwcstab_f.o : getwcstab_f.c getwcstab.h
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+d375 1
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@In the run_% pattern rule, removed a source of contention when running the
+non-graphical tests in parallel, which now seems to work reliably.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+d206 1
+a206 1
+	         trap 'rm -f run_$<.tmp' 0 1 2 3 15 ; \
+d208 2
+a209 2
+	           run_$<.tmp ; \
+	         mv -f run_$<.tmp $<.out ; \
+@
+
+
+6.2.1.3
+log
+@Since CFITSIO doesn't provide a Fortran wrapper for fits_read_wcstab(), it
+would seem apposite to include getwcstab_f.o in the object library and
+sharable library.  Ensure that ../C/getwcstab.o is not left lying around
+after building twcstab.  The 'show' rule now reports the values of TESTS.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.2.1.2 2019/07/11 07:56:51 mcalabre Exp mcalabre $
+d46 2
+a47 2
+MODULES := $(sort $(patsubst %.c,%.o,$(wildcard *.c)))
+MODULES += $(sort $(patsubst %.f,%.o,$(wildcard *.f)))
+d85 4
+a88 7
+# Do we have CFITSIO?
+ifeq "$(CFITSIOINC)$(CFITSIOLIB)" ""
+  # No, remove getwcstab_f.c, which requires CFITSIO headers.
+  MODULES := $(filter-out getwcstab_f.o,$(MODULES))
+else
+  # Yes, add test programs that use it.
+  TESTS   += $(TEST_C)
+d91 1
+d93 1
+a93 1
+# Do we have PGPLOT?
+d95 2
+a96 2
+ifneq "$(PGPLOTINC)$(PGPLOTLIB)" ""
+  # Yes, add test programs that use it.
+d100 1
+a266 9
+$(WCSLIB)(getwcstab_f.o) : getwcstab_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(RM) $% ; \
+	   fi
+
+d277 1
+a277 1
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o))
+a286 9
+$(PICLIB)(getwcstab_f.o) : getwcstab_f.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(SHRFLAGS) $(CFITSIOINC) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(AR) r$(ARFLAGS) $@@ $% ; \
+	     $(RM) $% ; \
+	   fi
+
+d328 2
+a329 1
+twcstab : test/twcstab.f $(FGETWCSTAB) $(WCSLIB)
+d331 7
+a337 3
+	   $(FC) $(FFLAGS) -o $@@ $< $(FGETWCSTAB) $(LDFLAGS) $(CFITSIOLIB) \
+	     $(WCSLIB) $(LIBS)
+	-@@ $(RM) $@@.o $(FGETWCSTAB)
+a360 1
+	-@@ echo '  TESTS       := $(TESTS)'
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 6.1 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 6.1 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.20.1.3 2018/10/19 04:09:13 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.20 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.20 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.19.1.2 2018/10/05 04:29:14 mcalabre Exp mcalabre $
+d43 1
+d89 1
+d252 1
+a252 1
+	 @@ $(MAKE) --no-print-directory -Otarget $(WCSLIB)
+d265 1
+a265 1
+	 @@ $(MAKE) --no-print-directory -Otarget $(SHRLIB)
+d337 1
+a337 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIOINC) -c $<
+d376 1
+a376 1
+$(WCSLIB)(wcs_f.o)      : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+d378 1
+a378 1
+$(WCSLIB)(wcsfix_f.o)   : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+d380 1
+a380 1
+$(WCSLIB)(wcshdr_f.o)   : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Updated the dependency lists.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d374 1
+a374 1
+$(WCSLIB)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h wcs.h \
+d376 1
+a376 1
+$(WCSLIB)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h wcs.h \
+d378 1
+a378 1
+$(WCSLIB)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h wcs.h \
+@
+
+
+5.20.1.3
+log
+@Set SUBDIR.  configure now sets '-Otarget' in MAKEFLAGS if it is a recognised
+option.  Filter out -Wpadded from CFLAGS when compiling getwcstab_f.c.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.20.1.2 2018/10/07 06:29:20 mcalabre Exp mcalabre $
+a42 1
+SUBDIR := Fortran
+a87 1
+  CFITSIO_CFLAGS := $(filter-out -Wpadded,$(CFLAGS))
+d250 1
+a250 1
+	 @@ $(MAKE) --no-print-directory $(WCSLIB)
+d263 1
+a263 1
+	 @@ $(MAKE) --no-print-directory $(SHRLIB)
+d335 1
+a335 1
+	   $(CC) $(CPPFLAGS) $(CFITSIO_CFLAGS) $(CFITSIOINC) -c $<
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.19 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.19 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d52 2
+a53 1
+WCSLIB := ../C/$(WCSLIB)
+d110 5
+a114 2
+	   $(AR) r$(ARFLAGS) $(WCSLIB) $%
+	-@@ $(RM) $%
+d119 5
+a123 2
+	   $(AR) r$(ARFLAGS) $(WCSLIB) $%
+	-@@ $(RM) $%
+d125 1
+a125 1
+$(PICLIB)(%.o) : %.c
+d127 6
+a132 3
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+	-@@ $(RM) $%
+d134 1
+a134 1
+$(PICLIB)(%.o) : %.f
+d136 6
+a141 3
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+	-@@ $(RM) $%
+d148 1
+d153 1
+d246 2
+a247 3
+lib : $(WCSLIB) $(SHRLIB)
+
+$(WCSLIB) ::
+d249 2
+a250 1
+	   $(MAKE) -C ../C lib
+d252 1
+a252 1
+$(WCSLIB) :: $(MODULES:%=$(WCSLIB)(%))
+d254 10
+a263 1
+	   $(RANLIB) $(WCSLIB)
+d275 13
+a287 1
+$(PICLIB) : $(MODULES:%.o=$(PICLIB)(%.o)) ;
+d294 2
+a295 1
+	-  $(RM) -r *.o *.i a.out t*.out core fort.* *.dSYM $(EXTRA_CLEAN)
+d363 3
+a365 2
+$(WCSLIB)(cel_f.o)      : cel.h prj.h wcserr.h wcsconfig_f77.h
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h
+d367 1
+a367 1
+$(WCSLIB)(lin_f.o)      : lin.h wcsconfig_f77.h wcserr.h
+d369 1
+a369 1
+$(WCSLIB)(prj_f.o)      : prj.h wcsconfig_f77.h wcserr.h
+d373 2
+a374 2
+$(WCSLIB)(tab_f.o)      : tab.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+d376 1
+a376 1
+$(WCSLIB)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+d378 2
+a379 2
+$(WCSLIB)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcshdr.h
+d383 2
+a386 2
+tdis1   : wcserr.inc wcshdr.inc lin.inc
+tdis2   : wcserr.inc wcshdr.inc lin.inc dis.inc
+d401 1
+a401 1
+twcssub : wcs.inc
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Support parallel builds, mainly requiring archiving in batch.  Fixed
+dependency analysis for PICLIB modules by making them depend on the
+corresponding WCSLIB module.  Updated the dependency lists.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d52 1
+a52 2
+WCSLIB  := ../C/$(WCSLIB)
+LIBLOCK := ../C/lib.lock
+d109 2
+a110 5
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+d115 2
+a116 5
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(WCSLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+d118 1
+a118 1
+$(PICLIB)(%_f.o) : $(WCSLIB)(%_f.o)
+d120 3
+a122 6
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+d124 1
+a124 1
+$(PICLIB)(%_data.o) : $(WCSLIB)(%_data.o)
+d126 3
+a128 6
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f)
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+a134 1
+# Print out include file dependencies.
+a138 1
+	   sed -e 's|.*/||' | \
+d231 3
+a233 2
+lib :
+	 @@ $(MAKE) -C ../C lib
+d235 1
+a235 2
+	-@@ echo 'Building WCSLIB Fortran wrappers...'
+	 @@ $(MAKE) --no-print-directory -Otarget $(WCSLIB)
+d237 1
+a237 1
+$(WCSLIB) : $(LIBLOCK) $(MODULES:%=$(WCSLIB)(%))
+d239 1
+a239 10
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       echo $(RANLIB) $@@ ; \
+	       $(RANLIB) $@@ ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+	 @@ $(MAKE) --no-print-directory -Otarget $(SHRLIB)
+d251 1
+a251 13
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o)) ;
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+
+$(LIBLOCK) : FORCE
+	 @@ $(RM) *.o
+	 @@ touch $@@
+d258 1
+a258 2
+	-  $(RM) *.o $(LIBLOCK) *.i a.out t*.out core fort.* *.dSYM
+	-  $(RM) -r $(EXTRA_CLEAN)
+d326 2
+a327 3
+$(WCSLIB)(cel_f.o)      : cel.h prj.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(dis_f.o)      : dis.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h 
+d329 1
+a329 1
+$(WCSLIB)(lin_f.o)      : dis.h lin.h wcsconfig_f77.h wcserr.h wcsutil.h
+d331 1
+a331 1
+$(WCSLIB)(prj_f.o)      : prj.h wcsconfig_f77.h wcserr.h wcsutil.h
+d335 2
+a336 2
+$(WCSLIB)(tab_f.o)      : tab.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(wcs_f.o)      : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+d338 1
+a338 1
+$(WCSLIB)(wcsfix_f.o)   : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+d340 2
+a341 2
+$(WCSLIB)(wcshdr_f.o)   : cel.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+                          wcsconfig_f77.h wcshdr.h
+a344 2
+tdis1   : lin.inc wcs.inc wcserr.inc wcshdr.inc
+tdis2   : dis.inc lin.inc wcs.inc wcserr.inc wcshdr.inc
+d347 2
+d363 1
+a363 1
+twcssub : wcs.inc wcserr.inc
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.18 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.18 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.17.1.2 2017/12/05 07:17:38 mcalabre Exp $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.17 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.17 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.16.1.1 2017/01/15 04:29:02 mcalabre Exp mcalabre $
+d109 1
+a109 1
+	   $(AR) r $(WCSLIB) $%
+d115 1
+a115 1
+	   $(AR) r $(WCSLIB) $%
+d121 1
+a121 1
+	   $(AR) r $(PICLIB) $%
+d127 1
+a127 1
+	   $(AR) r $(PICLIB) $%
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Use ARFLAGS when inserting object modules in the static libraries.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+d109 1
+a109 1
+	   $(AR) r$(ARFLAGS) $(WCSLIB) $%
+d115 1
+a115 1
+	   $(AR) r$(ARFLAGS) $(WCSLIB) $%
+d121 1
+a121 1
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+d127 1
+a127 1
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.16 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.16 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.15 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.15 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.14.1.1 2016/02/07 10:52:47 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.14 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.14 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.13 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.13 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.12 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.12 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.11 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.11 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.10.1.1 2015/10/09 08:22:38 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.10 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.10 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.9 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.9 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.8.1.1 2015/07/08 11:07:21 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.8 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.8 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.7 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.7 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.6 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.6 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.5 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.5 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.4.1.1 2015/04/21 14:44:30 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.4 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.4 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.3.1.1 2015/04/21 02:54:04 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.3 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.3 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.2.1.1 2015/04/15 12:39:17 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.2 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.2 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.1.1.2 2015/04/15 09:21:16 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.1 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.1 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 5.0.1.2 2015/04/07 09:48:23 mcalabre Exp mcalabre $
+d176 7
+a182 1
+	       if grep 'PASS:' $<.out > /dev/null ; then \
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@When processing test results, look for FAIL before PASS, as some tests have
+multiple results.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+d176 1
+a176 7
+	       if grep 'FAIL:' $<.out > /dev/null ; then \
+	         if [ '$(MODE)' != interactive ] ; then \
+	           head -2 $<.out ; \
+	           grep 'FAIL:' $<.out ; \
+	         fi ; \
+	         echo 'FAIL: Fortran/$<' >> test_results ; \
+	       elif grep 'PASS:' $<.out > /dev/null ; then \
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 5.0 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 5.0 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.25.1.4 2015/04/05 06:54:51 mcalabre Exp mcalabre $
+d120 1
+a120 1
+	   $(CC) $(CPPFLAGS) $(SHRFLAGS) -c $<
+d303 1
+a303 1
+	   $(CC) $(CFLAGS) -o $@@ $<
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@Patch provided by Ole Streicher to propagate user-defined CPPFLAGS, CFLAGS,
+and LDFLAGS.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+d120 1
+a120 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $<
+d303 1
+a303 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) -o $@@ $<
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.25 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.25 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+d69 2
+a70 2
+TEST_N := tlin tlog tprj1 tsph tspx ttab1 twcs twcssub tpih1 tfitshdr tunits \
+          twcsfix
+d145 3
+d258 1
+a258 1
+	-  $(RM) tofits pih.fits test_results
+d305 1
+a305 2
+pih.fits : ../C/test/pih.keyrec tofits
+	   sed '/^BADKEYREC/q' $< | ./tofits > $@@
+d341 2
+d360 3
+a362 1
+run_tfitshdr run_tpih1 run_tpih2: pih.fits
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Added a pattern rule for %.fits and removed the previous static rule for
+pih.fits.  tfitshdr now takes its input from fitshdr.fits.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+a144 3
+%.fits : ../C/test/%.keyrec tofits
+	   sed '/^BADKEYREC/q' $< | ./tofits > $@@
+
+d255 1
+a255 1
+	-  $(RM) tofits fitshdr.fits pih.fits test_results
+d302 3
+d356 1
+a356 2
+run_tfitshdr : fitshdr.fits
+run_tpih1 run_tpih2: pih.fits
+@
+
+
+4.25.1.3
+log
+@Added a static rule for ../C/wcstab.fits to stop the pattern rule from
+trying to make it.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.25.1.2 2015/04/03 06:53:26 mcalabre Exp mcalabre $
+a303 2
+
+../C/wcstab.fits : ;
+@
+
+
+4.25.1.4
+log
+@Added support for tdis1 and tdis2.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.25.1.3 2015/04/03 07:44:59 mcalabre Exp mcalabre $
+d69 2
+a70 2
+TEST_N := tlin tdis1 tdis2 tlog tprj1 tsph tspx ttab1 twcs twcssub tpih1 \
+          tfitshdr tunits twcsfix
+d146 1
+a146 1
+	   ./tofits < $< > $@@
+d258 1
+a258 1
+	-  $(RM) tofits fitshdr.fits pih.fits TPV7.fits test_results
+a340 2
+tdis1   : wcserr.inc wcshdr.inc lin.inc
+tdis2   : wcserr.inc wcshdr.inc lin.inc dis.inc
+a357 1
+run_tdis1 run_tdis2 : TPV7.fits
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.24 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.24 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.23 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.23 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.22 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.22 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.21 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.21 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.20 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.20 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.19 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.19 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.18 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.18 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.17.1.2 2013/07/12 03:59:32 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.17 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.17 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+d208 1
+a208 1
+	         ./$< < /dev/null 2>&1 ; \
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@With gfortran 4.7.2, for some reason tcel1 and tspc no longer work if stdin
+is redirected from /dev/null.  The error message is
+
+  Fortran runtime error: Sequential READ or WRITE not allowed after EOF
+  marker, possibly use REWIND or BACKSPACE
+
+So instead pipe the output from 'yes' into them.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d208 1
+a208 1
+	         yes | ./$< 2>&1 ; \
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.16 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.16 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.15 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.15 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.14.1.1 2012/07/13 10:04:54 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.14 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.14 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.13.1.3 2012/07/13 03:40:02 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.14 2012/07/13 10:02:35 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.13 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.13 sources reside in ../C
+d38 3
+a40 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+d239 1
+a239 1
+	     $(SHRLD) $(LDFLAGS) -o $(@@F) *.o && \
+d266 1
+a266 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(LIBS)
+d271 1
+a271 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d276 1
+a276 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGSBOXLIB) $(WCSLIB) \
+d283 2
+a284 2
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< getwcstab_f.o \
+	     $(FGETWCSTAB) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Added $(LIBS) to the link list for the sharable library, -lm having been
+removed from SHRLD.  Reordered the compile commands so that $(LDFLAGS)
+follows the list of object modules.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+d239 1
+a239 1
+	     $(SHRLD) -o $(@@F) *.o $(LDFLAGS) $(LIBS) && \
+d266 1
+a266 1
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(LIBS)
+d271 1
+a271 1
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d276 1
+a276 1
+	   $(FC) $(FFLAGS) -o $@@ $< $(LDFLAGS) $(PGSBOXLIB) $(WCSLIB) \
+d283 2
+a284 2
+	   $(FC) $(FFLAGS) -o $@@ $< getwcstab_f.o $(FGETWCSTAB) \
+	     $(LDFLAGS) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d38 3
+a40 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 4.13.1.2 2012/03/21 02:57:40 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.12 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.12 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.11 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.11 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.10 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.10 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.9 FORTRAN wrappers.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.9 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.8.1.2 2011/12/05 06:46:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d40 1
+a40 1
+# $Id: GNUmakefile,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.8 FORTRAN wrappers.
+d19 1
+a19 1
+#                gmake MODE=interactive check
+d21 4
+a24 1
+#              to run them interactively with full diagnostic output.
+d32 1
+a32 1
+#   2) This makefile assumes that the WCSLIB 4.8 sources reside in ../C
+d40 1
+a40 1
+# $Id: GNUmakefile,v 4.7.1.5 2011/08/13 06:40:18 cal103 Exp cal103 $
+d68 1
+a68 1
+# Test programs that don't require PGPLOT.
+d91 1
+d97 1
+d151 2
+d161 5
+a165 1
+	         ./$< < ../C/test/units_test > $<.out 2>&1 ; \
+d167 5
+a171 1
+	         ./$< < /dev/null > $<.out 2>&1 ; \
+d174 5
+a178 2
+	         head -2 $<.out ; \
+	         grep 'PASS:' $<.out ; \
+d185 5
+a189 2
+	           head -2 $<.out ; \
+	           echo 'PASS: Output agrees with Fortran/test/$<.out' ; \
+d191 3
+a193 1
+	           cat $<.out ; \
+d196 1
+d198 1
+a198 1
+	       else \
+d200 1
+d202 2
+d205 5
+a209 1
+	       ./$< < /dev/null 2>&1 ; \
+d255 1
+a255 1
+	-  $(RM) tofits pih.fits
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Summarize the non-graphical test results.
+@
+text
+@d19 1
+a19 1
+#                make MODE=interactive check
+d21 1
+a21 4
+#              to run them interactively with full diagnostic output.  To skip
+#              graphical tests even if PGPLOT is available, use
+#
+#                make CHECK=nopgplot check
+d37 1
+a37 1
+# $Id: GNUmakefile,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+d65 1
+a65 1
+# Test programs that don't require CFITSIO or PGPLOT.
+a87 1
+ifneq "$(CHECK)" "nopgplot"
+a92 1
+endif
+a145 2
+	   fi ; \
+	   if [ '$(VALGRIND)' ] ; then \
+d154 1
+a154 5
+	         if [ '$(MODE)' = interactive ] ; then \
+	           ./$< < ../C/test/units_test 2>&1 | tee $<.out ; \
+	         else \
+	           ./$< < ../C/test/units_test > $<.out 2>&1 ; \
+	         fi ; \
+d156 1
+a156 5
+	         if [ '$(MODE)' = interactive ] ; then \
+	           ./$< < /dev/null 2>&1 | tee $<.out ; \
+	         else \
+	           ./$< < /dev/null > $<.out 2>&1 ; \
+	         fi ; \
+d159 2
+a160 5
+	         if [ '$(MODE)' != interactive ] ; then \
+	           head -2 $<.out ; \
+	           grep 'PASS:' $<.out ; \
+	         fi ; \
+	         echo 'PASS: Fortran/$<' >> test_results ; \
+d167 2
+a168 5
+	           if [ '$(MODE)' != interactive ] ; then \
+	             head -2 $<.out ; \
+	             echo 'PASS: Output agrees with Fortran/test/$<.out' ; \
+	           fi ; \
+	           echo 'PASS: Fortran/$<' >> test_results ; \
+d170 1
+a170 3
+	           if [ '$(MODE)' != interactive ] ; then \
+	             cat $<.out ; \
+	           fi ; \
+a172 1
+	           echo 'FAIL: Fortran/$<' >> test_results ; \
+d174 1
+a174 1
+	       elif [ '$(MODE)' != interactive ] ; then \
+a175 1
+	         echo 'FAIL: Fortran/$<' >> test_results ; \
+a176 2
+	     elif [ '$(MODE)' = interactive ] ; then \
+	       ./$< ; \
+d178 1
+a178 5
+	       if [ '$<' = tcel2 ] ; then \
+	         echo N | ./$< ; \
+	       else \
+	         ./$< < /dev/null 2>&1 ; \
+	       fi ; \
+d224 1
+a224 1
+	-  $(RM) tofits pih.fits test_results
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.7 FORTRAN wrappers.
+d16 2
+a17 1
+#              executed in batch mode; use
+d21 1
+a21 1
+#              to run them interactively.
+d29 1
+a29 1
+#   2) This makefile assumes that the WCSLIB 4.7 sources reside in ../C
+d37 1
+a37 1
+# $Id: GNUmakefile,v 4.6.1.4 2011/01/18 03:56:50 cal103 Exp cal103 $
+d69 4
+a72 1
+# Test programs that do require PGPLOT.
+d75 3
+d79 5
+a83 3
+ifneq "$(PGPLOTINC)" ""
+ifneq "$(PGPLOTLIB)" ""
+  TESTS   += $(TEST_P) tpih2
+d87 4
+a90 4
+# Test programs that require CFITSIO.
+ifneq "$(CFITSIOINC)" ""
+ifneq "$(CFITSIOLIB)" ""
+TESTS  += twcstab
+d143 1
+a143 1
+	 @@ if [ '$(MODE)' = interactive ] ; then \
+d147 1
+a147 1
+	       ./$< < ../C/test/units_test ; \
+d149 1
+a149 1
+	       ./$< ; \
+d152 26
+a177 3
+	     if [ '$<' = tunits ] ; then \
+	       ./$< < ../C/test/units_test ; \
+	     elif [ '$<' != twcshdr ] ; then \
+d218 1
+a218 1
+	-  $(RM) -r *.o *.i a.out core fort.* *.dSYM $(EXTRA_CLEAN)
+d221 1
+d284 2
+a285 2
+# Dependencies
+#-------------
+d287 17
+a303 17
+$(WCSLIB)(cel_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h prj.h
+$(WCSLIB)(fitshdr_f.o)  : wcsconfig.h wcsconfig_f77.h fitshdr.h wcsutil.h
+$(WCSLIB)(getwcstab_f.o): wcsconfig.h wcsconfig_f77.h getwcstab.h
+$(WCSLIB)(lin_f.o)      : wcsconfig.h wcsconfig_f77.h lin.h
+$(WCSLIB)(log_f.o)      : wcsconfig.h wcsconfig_f77.h log.h
+$(WCSLIB)(prj_f.o)      : wcsconfig.h wcsconfig_f77.h prj.h
+$(WCSLIB)(spc_f.o)      : wcsconfig.h wcsconfig_f77.h spc.h spx.h wcsutil.h
+$(WCSLIB)(sph_f.o)      : wcsconfig.h wcsconfig_f77.h sph.h
+$(WCSLIB)(spx_f.o)      : wcsconfig.h wcsconfig_f77.h spx.h
+$(WCSLIB)(tab_f.o)      : wcsconfig.h wcsconfig_f77.h tab.h
+$(WCSLIB)(wcs_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcsutil.h
+$(WCSLIB)(wcsfix_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcsfix.h
+$(WCSLIB)(wcshdr_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcshdr.h
+$(WCSLIB)(wcsunits_f.o) : wcsconfig.h wcsconfig_f77.h wcsunits.h wcsutil.h
+d306 1
+a306 1
+tfitshdr: fitshdr.inc pih.fits
+d309 2
+a310 2
+tpih1   : wcs.inc wcshdr.inc pih.fits
+tpih2   : wcs.inc wcshdr.inc pih.fits
+d319 2
+a320 2
+twcs    : cel.inc prj.inc wcs.inc
+twcsfix : wcs.inc
+d322 2
+a323 2
+twcssub : cel.inc prj.inc wcs.inc
+twcstab : wcs.inc wcshdr.inc
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Updated the dependency lists.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp $
+d251 2
+a252 2
+# Dependencies (use the %.d pattern rule to list them)
+#-----------------------------------------------------
+d254 17
+a270 17
+$(WCSLIB)(cel_f.o)      : cel.h prj.h wcserr.h wcsconfig_f77.h
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsconfig.h wcsconfig_f77.h wcsutil.h
+$(WCSLIB)(getwcstab_f.o): getwcstab.h wcsconfig_f77.h
+$(WCSLIB)(lin_f.o)      : lin.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(log_f.o)      : log.h wcsconfig_f77.h
+$(WCSLIB)(prj_f.o)      : prj.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(spc_f.o)      : spc.h spx.h wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(sph_f.o)      : sph.h wcsconfig_f77.h
+$(WCSLIB)(spx_f.o)      : spx.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(tab_f.o)      : tab.h wcsconfig_f77.h wcserr.h
+$(WCSLIB)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcsutil.h
+$(WCSLIB)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcsfix.h
+$(WCSLIB)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h \
+                          wcsconfig_f77.h wcserr.h wcshdr.h
+$(WCSLIB)(wcsunits_f.o) : wcsconfig_f77.h wcserr.h wcsunits.h wcsutil.h
+d273 1
+a273 1
+tfitshdr: fitshdr.inc wcshdr.inc
+d276 2
+a277 2
+tpih1   : wcs.inc wcsfix.inc wcshdr.inc
+tpih2   : wcs.inc wcshdr.inc
+d286 2
+a287 2
+twcs    : cel.inc prj.inc wcs.inc wcserr.inc wcsmath.inc
+twcsfix : wcs.inc wcsfix.inc wcsunits.inc
+d289 2
+a290 2
+twcssub : wcs.inc
+twcstab : getwcstab.inc wcs.inc wcsfix.inc wcshdr.inc
+@
+
+
+4.7.1.3
+log
+@cleaner removes .gdb_history.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.7.1.2 2011/08/09 08:38:15 cal103 Exp cal103 $
+a188 1
+	-  $(RM) .gdb_history
+@
+
+
+4.7.1.4
+log
+@Modified the run_% pattern rule so that non-graphics test simply report
+"PASS" if they succeed when run in non-interactive mode.
+@
+text
+@d16 1
+a16 2
+#              executed in batch mode, and non-graphical tests only report
+#              "PASS" on success.  Use
+d20 1
+a20 1
+#              to run them interactively with full diagnostic output.
+d36 1
+a36 1
+# $Id: GNUmakefile,v 4.7.1.3 2011/08/11 04:26:21 cal103 Exp cal103 $
+d68 1
+a68 4
+# Test programs that require CFITSIO (they don't need PGPLOT).
+TEST_C := twcstab
+
+# Test programs that require PGPLOT but not PGSBOX.
+a70 3
+# Test programs that require PGPLOT and PGSBOX.
+TEST_B := tpih2
+
+d72 5
+d78 1
+a78 1
+# Add test programs that require CFITSIO if we have it.
+d81 1
+a81 8
+  TESTS  += $(TEST_C)
+endif
+endif
+
+# Add test programs that require PGPLOT if we have it.
+ifneq "$(PGPLOTINC)" ""
+ifneq "$(PGPLOTLIB)" ""
+  TESTS   += $(TEST_P) $(TEST_B)
+d134 1
+a134 1
+	 @@ if [ '$(MODE)' = interactive -o '$(VALGRIND)' ] ; then \
+d138 1
+a138 1
+	       $(VALGRIND) ./$< < test/units_test ; \
+d140 1
+a140 1
+	       $(VALGRIND) ./$< ; \
+d143 3
+a145 26
+	     if [ '$(filter $<, $(TEST_N) $(TEST_C))' ] ; then \
+	       if [ '$<' = tunits ] ; then \
+	         ./$< < ../C/test/units_test > $<.out 2>&1 ; \
+	       else \
+	         ./$< < /dev/null > $<.out 2>&1 ; \
+	       fi ; \
+	       if grep 'PASS:' $<.out > /dev/null ; then \
+	         head -2 $<.out ; \
+	         grep 'PASS:' $<.out ; \
+	       elif [ -f 'test/$<.out' ] ; then \
+	         trap 'rm -f run_test.tmp' 0 1 2 3 15 ; \
+	         sed -e 's/0x[0-9a-f][0-9a-f][0-9a-f]*/0x<address>/g' $<.out > \
+	           run_test.tmp ; \
+	         mv -f run_test.tmp $<.out ; \
+	         if cmp -s $<.out test/$<.out ; then \
+	           head -2 $<.out ; \
+	           echo 'PASS: Output agrees with ./test/$<.out' ; \
+	         else \
+	           cat $<.out ; \
+	           echo '' ; \
+	           echo 'FAIL: Output disagrees with ./test/$<.out' ; \
+	         fi ; \
+	       else \
+	         cat $<.out ; \
+	       fi ; \
+	     else \
+d186 1
+a186 1
+	-  $(RM) -r *.o *.i a.out t*.out core fort.* *.dSYM $(EXTRA_CLEAN)
+@
+
+
+4.7.1.5
+log
+@Make it clearer what the particular file is that the test output is
+compared with.
+@
+text
+@d37 1
+a37 1
+# $Id: GNUmakefile,v 4.7.1.4 2011/08/12 08:50:56 cal103 Exp cal103 $
+d168 1
+a168 1
+	           echo 'PASS: Output agrees with Fortran/test/$<.out' ; \
+d172 1
+a172 1
+	           echo 'FAIL: Output disagrees with Fortran/test/$<.out' ; \
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.6 FORTRAN wrappers.
+d28 1
+a28 1
+#   2) This makefile assumes that the WCSLIB 4.6 sources reside in ../C
+d36 1
+a36 1
+# $Id: GNUmakefile,v 4.5.1.2 2010/11/15 06:59:40 cal103 Exp cal103 $
+d48 1
+a48 1
+LIBWCS := ../C/$(LIBWCS)
+d85 1
+a85 1
+PGSBOXLIB := ../pgsbox/libpgsbox-$V.a
+d92 1
+a92 1
+$(LIBWCS)(%.o) : %.c
+d95 1
+a95 1
+	   $(AR) r $(LIBWCS) $%
+d98 1
+a98 1
+$(LIBWCS)(%.o) : %.f
+d101 1
+a101 1
+	   $(AR) r $(LIBWCS) $%
+d159 1
+a159 1
+lib : $(LIBWCS) $(SHRLIB)
+d161 1
+a161 1
+$(LIBWCS) ::
+d165 1
+a165 1
+$(LIBWCS) :: $(MODULES:%=$(LIBWCS)(%))
+d167 1
+a167 1
+	   $(RANLIB) $(LIBWCS)
+d176 1
+a176 1
+	     $(SHRLD) -o $(@@F) *.o && \
+d194 1
+a194 1
+	-  $(RM) $(LIBWCS) $(PICLIB) $(SHRLIB)
+d200 1
+a200 1
+$(TEST_N) : % : test/%.f $(LIBWCS)
+d202 1
+a202 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(LIBWCS) $(LIBS)
+d205 1
+a205 1
+$(TEST_P) : % : test/%.f $(LIBWCS)
+d207 1
+a207 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(LIBWCS) $(PGPLOTLIB) $(LIBS)
+d210 1
+a210 1
+tpih2 : % : test/%.f $(PGSBOXLIB) $(LIBWCS)
+d212 1
+a212 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGSBOXLIB) $(LIBWCS) \
+d217 1
+a217 1
+    $(LIBWCS)
+d220 1
+a220 1
+	     $(FGETWCSTAB) $(CFITSIOLIB) $(LIBWCS) $(LIBS)
+d254 11
+a264 11
+$(LIBWCS)(cel_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h prj.h
+$(LIBWCS)(fitshdr_f.o)  : wcsconfig.h wcsconfig_f77.h fitshdr.h wcsutil.h
+$(LIBWCS)(getwcstab_f.o): wcsconfig.h wcsconfig_f77.h getwcstab.h
+$(LIBWCS)(lin_f.o)      : wcsconfig.h wcsconfig_f77.h lin.h
+$(LIBWCS)(log_f.o)      : wcsconfig.h wcsconfig_f77.h log.h
+$(LIBWCS)(prj_f.o)      : wcsconfig.h wcsconfig_f77.h prj.h
+$(LIBWCS)(spc_f.o)      : wcsconfig.h wcsconfig_f77.h spc.h spx.h wcsutil.h
+$(LIBWCS)(sph_f.o)      : wcsconfig.h wcsconfig_f77.h sph.h
+$(LIBWCS)(spx_f.o)      : wcsconfig.h wcsconfig_f77.h spx.h
+$(LIBWCS)(tab_f.o)      : wcsconfig.h wcsconfig_f77.h tab.h
+$(LIBWCS)(wcs_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d266 1
+a266 1
+$(LIBWCS)(wcsfix_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d268 1
+a268 1
+$(LIBWCS)(wcshdr_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d270 1
+a270 1
+$(LIBWCS)(wcsunits_f.o) : wcsconfig.h wcsconfig_f77.h wcsunits.h wcsutil.h
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Respect LDFLAGS when building the shared library (patch supplied by
+Sébastien Fabbro for Gentoo Linux).
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+d176 1
+a176 1
+	     $(SHRLD) $(LDFLAGS) -o $(@@F) *.o && \
+@
+
+
+4.6.1.3
+log
+@LIBWCS -> WCSLIB.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.6.1.2 2010/12/13 06:01:28 cal103 Exp $
+d48 1
+a48 1
+WCSLIB := ../C/$(WCSLIB)
+d92 1
+a92 1
+$(WCSLIB)(%.o) : %.c
+d95 1
+a95 1
+	   $(AR) r $(WCSLIB) $%
+d98 1
+a98 1
+$(WCSLIB)(%.o) : %.f
+d101 1
+a101 1
+	   $(AR) r $(WCSLIB) $%
+d159 1
+a159 1
+lib : $(WCSLIB) $(SHRLIB)
+d161 1
+a161 1
+$(WCSLIB) ::
+d165 1
+a165 1
+$(WCSLIB) :: $(MODULES:%=$(WCSLIB)(%))
+d167 1
+a167 1
+	   $(RANLIB) $(WCSLIB)
+d194 1
+a194 1
+	-  $(RM) $(WCSLIB) $(PICLIB) $(SHRLIB)
+d200 1
+a200 1
+$(TEST_N) : % : test/%.f $(WCSLIB)
+d202 1
+a202 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(LIBS)
+d205 1
+a205 1
+$(TEST_P) : % : test/%.f $(WCSLIB)
+d207 1
+a207 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d210 1
+a210 1
+tpih2 : % : test/%.f $(PGSBOXLIB) $(WCSLIB)
+d212 1
+a212 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGSBOXLIB) $(WCSLIB) \
+d217 1
+a217 1
+    $(WCSLIB)
+d220 1
+a220 1
+	     $(FGETWCSTAB) $(CFITSIOLIB) $(WCSLIB) $(LIBS)
+d254 11
+a264 11
+$(WCSLIB)(cel_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h prj.h
+$(WCSLIB)(fitshdr_f.o)  : wcsconfig.h wcsconfig_f77.h fitshdr.h wcsutil.h
+$(WCSLIB)(getwcstab_f.o): wcsconfig.h wcsconfig_f77.h getwcstab.h
+$(WCSLIB)(lin_f.o)      : wcsconfig.h wcsconfig_f77.h lin.h
+$(WCSLIB)(log_f.o)      : wcsconfig.h wcsconfig_f77.h log.h
+$(WCSLIB)(prj_f.o)      : wcsconfig.h wcsconfig_f77.h prj.h
+$(WCSLIB)(spc_f.o)      : wcsconfig.h wcsconfig_f77.h spc.h spx.h wcsutil.h
+$(WCSLIB)(sph_f.o)      : wcsconfig.h wcsconfig_f77.h sph.h
+$(WCSLIB)(spx_f.o)      : wcsconfig.h wcsconfig_f77.h spx.h
+$(WCSLIB)(tab_f.o)      : wcsconfig.h wcsconfig_f77.h tab.h
+$(WCSLIB)(wcs_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d266 1
+a266 1
+$(WCSLIB)(wcsfix_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d268 1
+a268 1
+$(WCSLIB)(wcshdr_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+d270 1
+a270 1
+$(WCSLIB)(wcsunits_f.o) : wcsconfig.h wcsconfig_f77.h wcsunits.h wcsutil.h
+@
+
+
+4.6.1.4
+log
+@Abbreviated version number used for PGSBOXLIB.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.6.1.3 2011/01/18 03:19:57 cal103 Exp cal103 $
+d85 1
+a85 1
+PGSBOXLIB := ../pgsbox/libpgsbox-$(LIBVER).a
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.5 FORTRAN wrappers.
+d28 1
+a28 1
+#   2) This makefile assumes that the WCSLIB 4.5 sources reside in ../C
+d36 1
+a36 1
+# $Id: GNUmakefile,v 4.4.1.4 2010/07/15 04:37:52 cal103 Exp cal103 $
+d41 3
+a47 14
+MODULES := cel_f.o \
+           fitshdr_f.o \
+           lin_f.o \
+           log_f.o \
+           prj_f.o \
+           spc_f.o \
+           sph_f.o \
+           spx_f.o \
+           tab_f.o \
+           wcs_f.o \
+           wcsfix_f.o \
+           wcshdr_f.o \
+           wcsunits_f.o
+
+d98 6
+d110 6
+d172 3
+a174 2
+	   mkdir tmp
+	   cd tmp && \
+a177 1
+	-  $(RM) -r tmp
+d186 1
+a186 1
+	- $(RM) -r *.o *.i a.out core fort.* *.dSYM $(EXTRA_CLEAN)
+d189 3
+a191 3
+	- $(RM) $(TEST_N)
+	- $(RM) $(TEST_P) tpih2 twcstab
+	- $(RM) tofits pih.fits
+d194 1
+a194 1
+	- $(RM) $(LIBWCS) $(PICLIB) $(SHRLIB)
+d248 3
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Use $(wildcard ...) to construct MODULES; added pattern rules for the
+new *_data.f Fortran source files; use 'trap' to handle deletion of
+the tmp directory used in creating the sharable library; print the
+value of MODULES in 'show'.
+@
+text
+@d36 1
+a36 1
+# $Id: GNUmakefile,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+a40 3
+MODULES := $(patsubst %.c,%.o,$(filter-out getwcstab_f.c,$(wildcard *.c)))
+MODULES += $(patsubst %.f,%.o,$(wildcard *.f))
+
+d45 14
+a108 6
+$(LIBWCS)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -c $<
+	   $(AR) r $(LIBWCS) $%
+	-@@ $(RM) $%
+
+a114 6
+$(PICLIB)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) $(FFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r $(PICLIB) $%
+	-@@ $(RM) $%
+
+d171 2
+a172 3
+	   mkdir tmp && \
+	     cd tmp && \
+	     trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+d176 1
+d185 1
+a185 1
+	-  $(RM) -r *.o *.i a.out core fort.* *.dSYM $(EXTRA_CLEAN)
+d188 3
+a190 3
+	-  $(RM) $(TEST_N)
+	-  $(RM) $(TEST_P) tpih2 twcstab
+	-  $(RM) tofits pih.fits
+d193 1
+a193 1
+	-  $(RM) $(LIBWCS) $(PICLIB) $(SHRLIB)
+a246 3
+show ::
+	-@@ echo '  MODULES     := $(MODULES)'
+
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.4 FORTRAN wrappers.
+d12 2
+a13 1
+#   realclean (or cleanest): cleaner, and also delete the object library.
+d28 1
+a28 1
+#   2) This makefile assumes that the WCSLIB 4.4 sources reside in ../C
+d36 1
+a36 1
+# $Id: GNUmakefile,v 4.3.1.4 2009/08/05 02:03:14 cal103 Exp cal103 $
+d153 2
+a154 1
+.PHONY : build check clean cleaner cleanest install lib realclean test tests
+a181 1
+	$(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES_FORTRAN
+d185 1
+a185 1
+	- $(RM) *.o *.i a.out core fort.* $(EXTRA_CLEAN)
+d192 1
+a192 1
+cleanest realclean : cleaner
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.4 2009/08/06 07:51:45 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@CHANGES file moved to top-level directory.
+@
+text
+@d35 1
+a35 1
+# $Id: GNUmakefile,v 4.4.1.1 2009/08/10 08:54:51 cal103 Exp cal103 $
+d180 1
+@
+
+
+4.4.1.3
+log
+@Added 'distclean' (GNU standard target name) as a synonym for 'cleanest'
+or 'realclean'.  'clean' recursively deletes *.dSYM (MacOSX 10.6).
+@
+text
+@d12 1
+a12 2
+#   distclean (realclean, or cleanest): cleaner, and also delete the
+#              object library.
+d35 1
+a35 1
+# $Id: GNUmakefile,v 4.4.1.2 2009/08/10 23:56:20 cal103 Exp cal103 $
+d152 1
+a152 2
+.PHONY : build check clean cleaner cleanest distclean install lib realclean \
+         test tests
+d183 1
+a183 1
+	- $(RM) -r *.o *.i a.out core fort.* *.dSYM $(EXTRA_CLEAN)
+d190 1
+a190 1
+distclean realclean cleanest : cleaner
+@
+
+
+4.4.1.4
+log
+@Reworked the various clean targets.
+@
+text
+@d12 1
+a12 1
+#   cleanest (distclean, or realclean): cleaner, and also delete the
+d36 1
+a36 1
+# $Id: GNUmakefile,v 4.4.1.3 2010/07/09 01:46:15 cal103 Exp cal103 $
+d192 1
+a192 1
+cleanest distclean realclean : cleaner
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.3 FORTRAN wrappers.
+d4 32
+a35 22
+#   Summary of the main targets
+#   ---------------------------
+#      build:     Build the library
+#      clean:     Delete intermediate object files.
+#      cleaner:   clean, and also delete the test executables.
+#      realclean (or cleanest): cleaner, and also delete the object library.
+#      check (or test): Compile and run the test programs.
+#      tests:     Compile the test programs (but don't run them).
+#
+#   Notes:
+#      1) If you need to make changes then preferably modify ../makedefs.in
+#         instead and re-run configure.
+#
+#      2) This makefile assumes that the WCSLIB 4.3 sources reside in ../C
+#         (as in the distribution kit).
+#
+#      3) twcstab assumes that ../C/wcstab.fits has already been generated by
+#         the corresponding C test program.
+#
+#   Author: Mark Calabretta, Australia Telescope National Facility
+#   http://www.atnf.csiro.au/~mcalabre/index.html
+#   $Id: GNUmakefile,v 4.2.1.9 2007/12/27 04:58:51 cal103 Exp $
+d40 4
+d132 8
+a139 2
+	 @@ if [ "$<" = tunits ] ; then \
+	     ./$< < ../C/test/units_test ; \
+d141 5
+a145 1
+	     ./$< < /dev/null 2>&1 ; \
+a177 8
+getwcstab_f.o : getwcstab_f.c getwcstab.h
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIOINC) -c $<
+
+../C/getwcstab.o ::
+	-@@ echo ''
+	   $(MAKE) -C ../C getwcstab.o
+
+d214 2
+a215 2
+twcstab : test/twcstab.f ../C/wcstab.fits getwcstab_f.o getwcstab.inc \
+          ../C/getwcstab.o $(LIBWCS)
+d218 1
+a218 1
+	     ../C/getwcstab.o $(LIBWCS) $(CFITSIOLIB) $(LIBS)
+d221 8
+d244 1
+a244 1
+	   cd .. && config.status
+d286 3
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.4 FORTRAN wrappers.
+d17 1
+a17 1
+#      2) This makefile assumes that the WCSLIB 4.4 sources reside in ../C
+d25 1
+a25 1
+#   $Id: GNUmakefile,v 4.3 2007/12/27 05:48:07 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Reworked the rules for generating the various FITS test files; made usage
+of ../C/getwcstab.o conditional on it not being available in cfitsio.
+@
+text
+@d25 1
+a25 1
+#   $Id: GNUmakefile,v 4.3.1.1 2007/12/27 13:25:03 cal103 Exp cal103 $
+a29 4
+ifdef GETWCSTAB
+  FGETWCSTAB := ../C/getwcstab.o
+endif
+
+d154 8
+d198 2
+a199 2
+twcstab : test/twcstab.f getwcstab_f.o getwcstab.inc $(FGETWCSTAB) \
+    $(LIBWCS)
+d202 1
+a202 1
+	     $(FGETWCSTAB) $(CFITSIOLIB) $(LIBWCS) $(LIBS)
+a204 8
+getwcstab_f.o : getwcstab_f.c getwcstab.h
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIOINC) -c $<
+
+../C/getwcstab.o ::
+	-@@ echo ''
+	   $(MAKE) -C ../C getwcstab.o
+
+a261 3
+
+run_tfitshdr run_tpih1 run_tpih2: pih.fits
+run_twcstab: ../C/wcstab.fits
+@
+
+
+4.3.1.3
+log
+@Don't rely on "." being in the PATH when running config.status.
+@
+text
+@d25 1
+a25 1
+#   $Id: GNUmakefile,v 4.3.1.2 2009/07/13 06:29:43 cal103 Exp cal103 $
+d224 1
+a224 1
+	   cd .. && ./config.status
+@
+
+
+4.3.1.4
+log
+@Added 'gmake MODE=interactive check'.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 4.4 FORTRAN wrappers.
+d4 22
+a25 32
+# Summary of the main targets
+# ---------------------------
+#   build:     Build the library
+#
+#   clean:     Delete intermediate object files.
+#
+#   cleaner:   clean, and also delete the test executables.
+#
+#   realclean (or cleanest): cleaner, and also delete the object library.
+#
+#   check (or test): Compile and run the test programs.  By default they are
+#              executed in batch mode; use
+#
+#                gmake MODE=interactive check
+#
+#              to run them interactively.
+#
+#   tests:     Compile the test programs (but don't run them).
+#
+# Notes:
+#   1) If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+#
+#   2) This makefile assumes that the WCSLIB 4.4 sources reside in ../C
+#      (as in the distribution kit).
+#
+#   3) twcstab assumes that ../C/wcstab.fits has already been generated by
+#      the corresponding C test program.
+#
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.3.1.3 2009/07/22 07:17:09 cal103 Exp $
+d122 2
+a123 8
+	 @@ if [ '$(MODE)' = interactive ] ; then \
+	     printf 'Press <CR> to run $<: ' ; \
+	     read DUMMY ; \
+	     if [ '$<' = tunits ] ; then \
+	       ./$< < ../C/test/units_test ; \
+	     else \
+	       ./$< ; \
+	     fi ; \
+d125 1
+a125 5
+	     if [ '$<' = tunits ] ; then \
+	       ./$< < ../C/test/units_test ; \
+	     elif [ '$<' != twcshdr ] ; then \
+	       ./$< < /dev/null 2>&1 ; \
+	     fi ; \
+@
+
+
+4.2
+log
+@WCSLIB 4.2: extensive modifications for GNU autoconf; name changed from
+Makefile to GNUmakefile.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.2 FORTRAN wrappers.
+d6 1
+a6 1
+#      all:       Build the library
+d9 1
+a9 2
+#      realclean (or cleanest): cleaner, and also delete the object library
+#                 and configure-generated files, config.h and GNUmakefile.
+d17 1
+a17 1
+#      2) This makefile assumes that the WCSLIB 4.2 sources reside in ../C
+d20 3
+d25 1
+a25 1
+#   $Id: Makefile,v 4.1 2005/08/30 08:24:29 cal103 Exp cal103 $
+a29 1
+LIBWCS  := ../C/$(LIBWCS)
+d44 16
+a83 1
+vpath %.h ../C
+d88 7
+a94 1
+%.o : %.c
+d96 3
+a98 1
+	   $(CC) $(CFLAGS) -I../C -c $<
+d102 2
+a103 1
+	   $(CC) $(CFLAGS) -E -I../C -o $@@ $<
+d107 1
+a107 1
+	-@@ $(CC) $(CFLAGS) -E -I../C $< | \
+d119 1
+a119 1
+	     $< < ../C/test/units_test ; \
+d121 1
+a121 1
+	     $< < /dev/null 2>&1 ; \
+d128 1
+a128 1
+.PHONY : all check clean cleaner cleanest install lib realclean test tests
+d130 1
+a130 1
+all : show_all lib
+d132 1
+a132 1
+lib : $(LIBWCS)
+d142 12
+d156 1
+a156 1
+	   $(CC) $(CFLAGS) -I../C $(CFITSIOINC) -c $<
+d162 1
+a162 1
+install : lib
+d173 1
+a173 1
+	- $(RM) tofits test.fits
+d176 1
+a176 1
+	- $(RM) $(LIBWCS)
+d185 1
+a185 1
+	   $(RM) $@@.o
+d190 1
+a190 1
+	   $(RM) $@@.o
+d196 1
+a196 1
+	   $(RM) $@@.o
+d203 1
+a203 1
+	   $(RM) $@@.o
+d210 1
+a210 1
+	$(CC) $(CFLAGS) -o $@@ $<
+d212 2
+a213 2
+test.fits : ../C/test/wcs.cards tofits
+	sed '/^BADCARD/q' $< | tofits > $@@
+d217 4
+a220 2
+../makedefs : ../makedefs.in ../config.status
+	cd .. && config.status
+d225 17
+a241 13
+$(LIBWCS)(cel_f.o)      : cel.h prj.h
+$(LIBWCS)(fitshdr_f.o)  : fitshdr.h wcsutil.h
+$(LIBWCS)(lin_f.o)      : lin.h
+$(LIBWCS)(log_f.o)      : log.h
+$(LIBWCS)(prj_f.o)      : prj.h
+$(LIBWCS)(spc_f.o)      : spc.h spx.h wcsutil.h
+$(LIBWCS)(sph_f.o)      : sph.h
+$(LIBWCS)(spx_f.o)      : spx.h
+$(LIBWCS)(tab_f.o)      : tab.h
+$(LIBWCS)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsutil.h
+$(LIBWCS)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsfix.h
+$(LIBWCS)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcshdr.h
+$(LIBWCS)(wcsunits_f.o) : wcsunits.h wcsutil.h
+d244 1
+a244 1
+tfitshdr: fitshdr.inc test.fits
+d247 2
+a248 2
+tpih1   : wcs.inc wcshdr.inc test.fits
+tpih2   : wcs.inc wcshdr.inc test.fits
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.3 FORTRAN wrappers.
+d18 1
+a18 1
+#      2) This makefile assumes that the WCSLIB 4.3 sources reside in ../C
+d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2 2005/09/23 04:25:55 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Don't rely on "." being in the PATH when running tests.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.1 2005/12/05 01:43:47 cal103 Exp cal103 $
+d94 1
+a94 1
+	     ./$< < ../C/test/units_test ; \
+d96 1
+a96 1
+	     ./$< < /dev/null 2>&1 ; \
+d176 1
+a176 1
+	sed '/^BADCARD/q' $< | ./tofits > $@@
+@
+
+
+4.2.1.3
+log
+@wcs.cards and test.fits now renamed to pih.cards and pih.fits respectively;
+the object modules associated with test programs are now deleted silently.
+@
+text
+@d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.2 2005/12/05 01:46:36 cal103 Exp cal103 $
+d136 1
+a136 1
+	- $(RM) tofits pih.fits
+d148 1
+a148 1
+	-@@ $(RM) $@@.o
+d153 1
+a153 1
+	-@@ $(RM) $@@.o
+d159 1
+a159 1
+	-@@ $(RM) $@@.o
+d166 1
+a166 1
+	-@@ $(RM) $@@.o
+d175 1
+a175 1
+pih.fits : ../C/test/pih.cards tofits
+d201 1
+a201 1
+tfitshdr: fitshdr.inc pih.fits
+d204 2
+a205 2
+tpih1   : wcs.inc wcshdr.inc pih.fits
+tpih2   : wcs.inc wcshdr.inc pih.fits
+@
+
+
+4.2.1.4
+log
+@Renamed the 'all' target to 'build' and removed 'show_all' from it, 'all'
+is now defined in makedefs with 'show_all' and 'build' as its dependencies.
+@
+text
+@d6 1
+a6 1
+#      build:     Build the library
+d9 2
+a10 1
+#      realclean (or cleanest): cleaner, and also delete the object library.
+d23 1
+a23 1
+#   $Id: GNUmakefile,v 4.2.1.3 2007/06/29 06:48:46 cal103 Exp cal103 $
+d103 1
+a103 1
+.PHONY : build check clean cleaner cleanest install lib realclean test tests
+d105 1
+a105 1
+build : lib
+d125 1
+a125 1
+install : build
+@
+
+
+4.2.1.5
+log
+@Added rules for building the shared library.
+@
+text
+@d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.4 2007/07/03 08:37:26 cal103 Exp cal103 $
+d27 1
+a27 2
+vpath %.h ../C
+
+a41 11
+LIBWCS := ../C/$(LIBWCS)
+
+# Build the sharable library?
+ifneq "$(SHRLIB)" ""
+  PICLIB := ../C/libwcs-PIC.a
+  SHRLIB := ../C/$(SHRLIB)
+endif
+
+
+# For building and exercising the test suite
+# ------------------------------------------
+d66 1
+d73 1
+a73 7
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -I../C -c $<
+
+$(PICLIB)(%.o) : %.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(SHRFLAGS) -I../C -c $<
+	   $(AR) r $(PICLIB) $%
+	-@@ $(RM) $%
+d77 1
+a77 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -E -I../C -o $@@ $<
+d81 1
+a81 1
+	-@@ $(CC) $(CPPFLAGS) $(CFLAGS) -E -I../C $< | \
+d106 1
+a106 1
+lib : $(LIBWCS) $(SHRLIB)
+a115 12
+$(SHRLIB) : $(PICLIB)
+	-@@ echo ''
+	-@@ $(RM) -r tmp
+	   mkdir tmp
+	   cd tmp && \
+	     $(AR) x ../$(PICLIB) && \
+	     $(SHRLD) -o $(@@F) *.o && \
+	     mv $(@@F) ../../C
+	-  $(RM) -r tmp
+
+$(PICLIB) : $(MODULES:%.o=$(PICLIB)(%.o)) ;
+
+d138 1
+a138 1
+	- $(RM) $(LIBWCS) $(PICLIB) $(SHRLIB)
+d172 1
+a172 1
+	   $(CC) $(CFLAGS) -o $@@ $<
+d175 1
+a175 1
+	   sed '/^BADCARD/q' $< | ./tofits > $@@
+d180 1
+a180 1
+	   cd .. && config.status
+@
+
+
+4.2.1.6
+log
+@Replaced instances of $(CC) -E with $(CPP) and incorporated -I flags into
+CPPFLAGS.  For some obscure reason, gmake in SunOS couldn't insert object
+modules into LIBWCS and required a pattern rule.  Added a vpath directive
+for %.in and used it in the rule for invoking config.status.  config.h has
+now been split into config.h and config_f77.h (and others), updated rules
+and dependency lists.
+@
+text
+@d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.5 2007/07/05 04:42:53 cal103 Exp cal103 $
+d27 2
+a50 5
+CPPFLAGS += -I.. -I../C
+
+vpath %.h  ..:../C
+vpath %.in ..
+
+d82 1
+a82 1
+$(LIBWCS)(%.o) : %.c
+d84 1
+a84 3
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+	   $(AR) r $(LIBWCS) $%
+	-@@ $(RM) $%
+d88 1
+a88 1
+	   $(CC) $(CPPFLAGS) $(SHRFLAGS) -c $<
+d94 1
+a94 2
+	-@@ $(RM) $@@
+	   $(CPP) $(CPPFLAGS) $(CFLAGS) $< > $@@
+d98 1
+a98 1
+	-@@ $(CPP) $(CPPFLAGS) $(CFLAGS) $< | \
+d147 1
+a147 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(CFITSIOINC) -c $<
+d208 1
+a208 3
+../makedefs ../config.h ../config_f77.h : makedefs.in config.h.in \
+    config_f77.h.in ../config.status
+	-@@ $(RM) ../config.h ../config_f77.h
+d214 13
+a226 17
+$(LIBWCS)(cel_f.o)      : cel.h config.h config_f77.h prj.h
+$(LIBWCS)(fitshdr_f.o)  : config.h config_f77.h fitshdr.h wcsutil.h
+$(LIBWCS)(getwcstab_f.o): config.h config_f77.h getwcstab.h
+$(LIBWCS)(lin_f.o)      : config.h config_f77.h lin.h
+$(LIBWCS)(log_f.o)      : config.h config_f77.h log.h
+$(LIBWCS)(prj_f.o)      : config.h config_f77.h prj.h
+$(LIBWCS)(spc_f.o)      : config.h config_f77.h spc.h spx.h wcsutil.h
+$(LIBWCS)(sph_f.o)      : config.h config_f77.h sph.h
+$(LIBWCS)(spx_f.o)      : config.h config_f77.h spx.h
+$(LIBWCS)(tab_f.o)      : config.h config_f77.h tab.h
+$(LIBWCS)(wcs_f.o)      : cel.h config.h config_f77.h lin.h prj.h spc.h \
+                          spx.h tab.h wcs.h wcsutil.h
+$(LIBWCS)(wcsfix_f.o)   : cel.h config.h config_f77.h lin.h prj.h spc.h \
+                          spx.h tab.h wcs.h wcsfix.h
+$(LIBWCS)(wcshdr_f.o)   : cel.h config.h config_f77.h lin.h prj.h spc.h \
+                          spx.h tab.h wcs.h wcshdr.h
+$(LIBWCS)(wcsunits_f.o) : config.h config_f77.h wcsunits.h wcsutil.h
+@
+
+
+4.2.1.7
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.6 2007/07/12 01:38:43 cal103 Exp cal103 $
+d209 2
+a210 2
+pih.fits : ../C/test/pih.keyrec tofits
+	   sed '/^BADKEYREC/q' $< | ./tofits > $@@
+@
+
+
+4.2.1.8
+log
+@Renamed config{,_f77}.h -> wcsconfig{,_f77}.h.
+@
+text
+@d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.7 2007/08/02 07:05:51 cal103 Exp cal103 $
+d214 3
+a216 3
+../makedefs ../wcsconfig.h ../wcsconfig_f77.h : makedefs.in wcsconfig.h.in \
+    wcsconfig_f77.h.in ../config.status
+	-@@ $(RM) ../wcsconfig.h ../wcsconfig_f77.h
+d222 17
+a238 17
+$(LIBWCS)(cel_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h prj.h
+$(LIBWCS)(fitshdr_f.o)  : wcsconfig.h wcsconfig_f77.h fitshdr.h wcsutil.h
+$(LIBWCS)(getwcstab_f.o): wcsconfig.h wcsconfig_f77.h getwcstab.h
+$(LIBWCS)(lin_f.o)      : wcsconfig.h wcsconfig_f77.h lin.h
+$(LIBWCS)(log_f.o)      : wcsconfig.h wcsconfig_f77.h log.h
+$(LIBWCS)(prj_f.o)      : wcsconfig.h wcsconfig_f77.h prj.h
+$(LIBWCS)(spc_f.o)      : wcsconfig.h wcsconfig_f77.h spc.h spx.h wcsutil.h
+$(LIBWCS)(sph_f.o)      : wcsconfig.h wcsconfig_f77.h sph.h
+$(LIBWCS)(spx_f.o)      : wcsconfig.h wcsconfig_f77.h spx.h
+$(LIBWCS)(tab_f.o)      : wcsconfig.h wcsconfig_f77.h tab.h
+$(LIBWCS)(wcs_f.o)      : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcsutil.h
+$(LIBWCS)(wcsfix_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcsfix.h
+$(LIBWCS)(wcshdr_f.o)   : cel.h wcsconfig.h wcsconfig_f77.h lin.h prj.h \
+                          spc.h spx.h tab.h wcs.h wcshdr.h
+$(LIBWCS)(wcsunits_f.o) : wcsconfig.h wcsconfig_f77.h wcsunits.h wcsutil.h
+@
+
+
+4.2.1.9
+log
+@Added a note about twcstab assuming that ../C/wcstab.fits has already been
+generated.
+@
+text
+@a19 3
+#      3) twcstab assumes that ../C/wcstab.fits has already been generated by
+#         the corresponding C test program.
+#
+d22 1
+a22 1
+#   $Id: GNUmakefile,v 4.2.1.8 2007/08/08 04:38:13 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: extensive changes.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.1 FORTRAN wrappers.
+d9 4
+a12 3
+#      cleanest:  cleaner, and also delete the object library.
+#      test:      Compile and run the test programs.
+#      show_all:  Print the values of all variables used.
+d15 2
+a16 3
+#      1) The makefile sets certain variables to default values and may then
+#         change some of them depending on the value of the FLAVOUR variable.
+#         The following FLAVOURs are available:
+d18 2
+a19 18
+#            SUN/GNU    GNU C compiler running under some version of SunOS.
+#            SUN/GNUp   As above with profiling options.
+#            SUN/Pure   SUN/GNU with "Purify" and "PureCoverage".
+#            SUN/Quant  SUN/GNU with "Quantify".
+#            SUN/ANSI   ANSI C compiler running under some version of SunOS.
+#            Linux      Some version of Linux.
+#            Linuxp     Some version of Linux, with profiling options.
+#
+#         Note that K&R C is no longer supported.
+#
+#         The FLAVOUR may conveniently be set as an environment variable or on
+#         the GNU make command line, e.g.
+#
+#            gmake FLAVOUR=SUN/GNU
+#
+#         If your requirements don't match any predefined FLAVOUR then you
+#         might be able to modify an existing one, add a new one, or simply
+#         modify the defaults.
+d23 1
+a23 117
+#   $Id: Makefile,v 4.0 2005/02/04 12:32:15 cal103 Exp cal103 $
+#-----------------------------------------------------------------------------
+# C compiler and options.
+  CC := gcc -ansi
+  CFLAGS := -O
+
+# FORTRAN compiler and options.
+  FC := g77
+  FFLAGS := -O
+
+# Reset this to ":" if ranlib is not needed.
+  RANLIB := ranlib
+
+# Linker options.
+  LDFLAGS := -s
+
+# Extra required libraries.
+  LIBS := -lm
+
+# PGPLOT is only required for the test programs that plot test grids (tprj2,
+# tcel1, tspc, twcsmix, and tpih2).  You can circumvent this by setting
+# DO_PLOTS to blank.  PGPLOT is Tim Pearson's FORTRAN plotting library with
+# separate C interface available from astro.caltech.edu.
+  DO_PLOTS  := 1
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11
+
+# CFITSIO definitions required for getwcstab_f.c and twcstab.
+  CFITSIOINC := /usr/local/include/cfitsio
+  CFITSIOLIB := -L/usr/local/lib -lcfitsio
+
+# Installation utilities.
+  INSTALL := install
+
+# Extra files to clean up.
+  override EXTRA_CLEAN :=
+
+# Overrides for various combinations of
+# architecture, operating system and compiler.
+#---------------------------------------------
+
+ifeq "$(FLAVOUR)" "SUN/GNU"
+  CFLAGS  += -Wall -Wno-parentheses
+  FFLAGS  += -Wimplicit -Wuninitialized -Wno-globals -I.
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11 -L/opt/SUNWspro/lib -lF77 -lM77
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNU3"
+  CC      := gcc-3.1.1 -ansi
+  CFLAGS  += -Wall -Wno-parentheses
+  FC      := g77-3.1.1
+  FFLAGS  += -Wimplicit -Wuninitialized -Wno-globals -I.
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11 -L/opt/SUNWspro/lib -lF77 -lM77
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNUp"
+  CFLAGS  := -pg -a -g -O -Wall -Wno-parentheses
+  FFLAGS  := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  LDFLAGS := -pg -a -g
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11 -L/opt/SUNWspro/lib -lF77 -lM77
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+ifeq "$(FLAVOUR)" "SUN/ANSI"
+  CC      := cc
+  CFLAGS  += -I/usr/local/include
+  FC      := f77 -erroff=WDECL_LOCAL_NOTUSED
+  PGPLOTLIB := -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Pure"
+  CC      := purify gcc
+  CFLAGS  := -g
+  FC      := purify gcc
+  FFLAGS  := -g -Wimplicit -Wno-globals -I.
+  WCSTRIG := NATIVE
+  LDFLAGS :=
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11 -L/opt/SUNWspro/lib -lF77 -lM77
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm -lg2c
+  override EXTRA_CLEAN := *_pure_p*.[ao] *.pcv .pure ../C/*_pure_p*.[ao]
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Quant"
+  CC      := quantify gcc
+  CFLAGS  := -g
+  FC      := quantify gcc
+  FFLAGS  := -g -Wimplicit -Wno-globals -I.
+  WCSTRIG := NATIVE
+  LDFLAGS :=
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11 -L/opt/SUNWspro/lib -lF77 -lM77
+  CFITSIOLIB += -lsocket
+  LIBS    := -lsunmath -lm -lg2c
+  override EXTRA_CLEAN := *_pure_q*.[ao] .pure
+endif
+
+ifeq "$(FLAVOUR)" "Linux"
+  CFLAGS  += -Wall -Wno-parentheses
+  FFLAGS  += -Wimplicit -Wuninitialized -Wno-globals -I.
+  PGPLOTLIB := -lpgplot -lpng -lz -L/usr/X11R6/lib -lX11
+endif
+
+ifeq "$(FLAVOUR)" "Linuxp"
+  CFLAGS  := -pg -a -g -O -Wall -Wno-parentheses
+  FFLAGS  := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  LDFLAGS := -pg -a -g
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -L/usr/X11R6/lib -lX11
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+d25 2
+a26 1
+# You shouldn't need to change anything below here.
+d28 1
+a28 4
+# Version.
+V := 4.1
+
+WCSLIB  := ../C/libwcs-$V.a
+a30 1
+           getwcstab_f.o \
+d51 2
+a52 1
+ifneq "$(DO_PLOTS)" ""
+d55 1
+d57 3
+d61 2
+d64 1
+a64 1
+PGSBOX := ../pgsbox/pgsbox.o
+d73 1
+a73 1
+	-@@ echo ""
+d77 1
+a77 1
+	-@@ echo ""
+d81 1
+a81 1
+	-@@ echo ""
+d87 1
+a87 1
+	-@@ echo ""
+d91 2
+a92 1
+	-@@ echo ""
+d96 1
+a96 1
+	     $< < /dev/null ; \
+d98 1
+a98 1
+	-@@ echo ""
+d103 1
+a103 1
+.PHONY : all clean cleaner cleanest install lib realclean test
+d107 1
+a107 1
+lib : $(WCSLIB)
+d109 2
+a110 2
+$(WCSLIB) ::
+	-@@ echo ""
+d113 11
+a123 8
+$(WCSLIB) :: $(MODULES:%=$(WCSLIB)(%))
+	$(RANLIB) $(WCSLIB)
+
+$(WCSLIB)(getwcstab_f.o) : getwcstab_f.c
+	-@@ echo ""
+	   $(CC) $(CFLAGS) -I../C -I$(CFITSIOINC) -c $<
+	   $(AR) r $(WCSLIB) getwcstab_f.o
+	-@@ $(RM) getwcstab_f.o
+d127 2
+a128 3
+	$(INSTALL) -m 444 CHANGES /usr/local/include/wcslib/CHANGES_FORTRAN
+	$(INSTALL) -m 444 README  /usr/local/include/wcslib/README_FORTRAN
+	$(INSTALL) -m 444 *.inc /usr/local/include/wcslib
+d139 3
+a141 1
+	- $(RM) $(WCSLIB)
+d143 1
+a143 1
+test : show_all $(TESTS) $(TESTS:%=run_%)
+d145 3
+a147 3
+$(TEST_N) : % : test/%.f $(WCSLIB)
+	-@@ echo ""
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(LIBS)
+d150 3
+a152 3
+$(TEST_P) : % : test/%.f $(WCSLIB)
+	-@@ echo ""
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d155 4
+a158 3
+tpih2 : % : test/%.f $(WCSLIB) $(PGSBOX) $(WCSLIB)(pgwcsl.o)
+	-@@ echo ""
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGSBOX) $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d161 5
+a165 3
+twcstab : test/twcstab.f ../C/wcstab.fits $(WCSLIB)
+	-@@ echo ""
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(WCSLIB) $(CFITSIOLIB) $(LIBS)
+d168 3
+a170 3
+$(PGSBOX) $(WCSLIB)(pgwcsl.o) :
+	-@@ echo ""
+	   $(MAKE) -C ../pgsbox show_all pgsbox.o wcslib
+d178 4
+a181 15
+show_all :
+	-@@ echo ""
+	-@@ echo "FLAVOUR   := $(FLAVOUR)"
+	-@@ echo "CC        := $(CC)"
+	-@@ echo "CFLAGS    := $(CFLAGS)"
+	-@@ echo "FC        := $(FC)"
+	-@@ echo "FFLAGS    := $(FFLAGS)"
+	-@@ echo "RANLIB    := $(RANLIB)"
+	-@@ echo "LDFLAGS   := $(LDFLAGS)"
+	-@@ echo "DO_PLOTS  := $(DO_PLOTS)"
+	-@@ echo "PGPLOTLIB := $(PGPLOTLIB)"
+	-@@ echo "LIBS      := $(LIBS)"
+	-@@ echo "INSTALL   := $(INSTALL)"
+	-@@ echo "EXTRA_CLEAN := $(EXTRA_CLEAN)"
+	-@@ echo ""
+d186 13
+a198 14
+$(WCSLIB)(cel_f.o)      : cel.h prj.h
+$(WCSLIB)(fitshdr_f.o)  : fitshdr.h wcsutil.h
+$(WCSLIB)(getwcstab_f.o): getwcstab.h
+$(WCSLIB)(lin_f.o)      : lin.h
+$(WCSLIB)(log_f.o)      : log.h
+$(WCSLIB)(prj_f.o)      : prj.h
+$(WCSLIB)(spc_f.o)      : spc.h spx.h wcsutil.h
+$(WCSLIB)(sph_f.o)      : sph.h
+$(WCSLIB)(spx_f.o)      : spx.h
+$(WCSLIB)(tab_f.o)      : tab.h
+$(WCSLIB)(wcs_f.o)      : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsutil.h
+$(WCSLIB)(wcsfix_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsfix.h
+$(WCSLIB)(wcshdr_f.o)   : cel.h lin.h prj.h spc.h spx.h tab.h wcs.h wcshdr.h
+$(WCSLIB)(wcsunits_f.o) : wcsunits.h wcsutil.h
+d218 1
+a218 1
+twcstab : getwcstab.inc wcs.inc wcshdr.inc
+@
+
+
+4.0
+log
+@WCSLIB 4.0: added variable DO_PLOTS to control plotting separately from
+PGPLOTLIB; added a version number to the library; added an install target.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 4.0 FORTRAN wrappers.
+d39 1
+a39 1
+#   $Id: Makefile,v 3.6 2004/08/25 06:24:52 cal103 Exp cal103 $
+d65 4
+d82 3
+a84 2
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d92 3
+a94 2
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d101 3
+a103 2
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d112 1
+d117 1
+a117 1
+  CC      := purify purecov gcc
+d119 2
+d123 4
+a126 3
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+  override EXTRA_CLEAN := *_pure_p*.[ao] *.pcv .pure
+d132 2
+d136 3
+a138 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d160 1
+a160 1
+V := 4.0
+d163 6
+a168 3
+MODULES := cylfix_f.o \
+           wcshdr_f.o \
+           wcs_f.o \
+d170 1
+d172 12
+a183 4
+           cel_f.o \
+           sph_f.o \
+           prj_f.o \
+           lin_f.o
+d185 1
+d187 1
+a187 5
+  TPRJ2   := tprj2
+  TCEL    := tcel1
+  TSPC    := tspc
+  TWCSMIX := twcsmix
+  TPIH2   := tpih2
+d190 2
+d202 1
+a202 1
+	   $(CC) $(CFLAGS) -c -I../C $<
+d218 9
+d243 6
+d259 3
+a261 3
+	- $(RM) tlin tprj1 tprj2 tsph tcel1 tspx tspc
+	- $(RM) twcs twcssub twcsmix
+	- $(RM) tofits wcs.fits tpih1 tpih2
+d266 1
+a266 39
+test : show_all tlin tprj1 $(TPRJ2) tsph $(TCEL) tspx $(TSPC) \
+       twcs twcssub $(TWCSMIX) wcs.fits tpih1 $(TPIH2)
+	-@@ echo ""
+	-@@ echo "Running WCSLIB FORTRAN test programs:"
+	-@@ echo ""
+	-@@ tlin
+	-@@ echo ""
+	-@@ tprj1
+        ifdef TPRJ2
+	   -@@ echo ""
+	   -@@ tprj2 < /dev/null
+        endif
+	-@@ echo ""
+	-@@ tsph
+        ifdef TCEL
+	   -@@ echo ""
+	   -@@ tcel1
+        endif
+	-@@ echo ""
+	-@@ tspx
+        ifdef TSPC
+	   -@@ echo ""
+	   -@@ tspc < /dev/null
+        endif
+	-@@ echo ""
+	-@@ twcs
+	-@@ echo ""
+	-@@ twcssub
+        ifdef TWCSMIX
+	   -@@ echo ""
+	   -@@ twcsmix < /dev/null
+        endif
+	-@@ echo ""
+	-@@ tpih1
+        ifdef TPIH2
+	   -@@ echo ""
+	   -@@ tpih2 < /dev/null
+	   -@@ echo ""
+        endif
+d268 1
+a268 1
+tlin tprj1 tsph tspx twcs twcssub tpih1 : % : test/%.f $(WCSLIB)
+d273 1
+a273 1
+tprj2 tcel1 tspc twcsmix : % : test/%.f $(WCSLIB)
+d283 5
+d295 2
+a296 2
+wcs.fits : ../C/test/wcs.cards tofits
+	tofits < $< > $@@
+d317 14
+a330 9
+$(WCSLIB)(cel_f.o)    : cel.h prj.h
+$(WCSLIB)(cylfix_f.o) : cel.h cylfix.h lin.h prj.h spc.h spx.h wcs.h
+$(WCSLIB)(lin_f.o)    : lin.h
+$(WCSLIB)(prj_f.o)    : prj.h
+$(WCSLIB)(spc_f.o)    : spc.h spx.h
+$(WCSLIB)(sph_f.o)    : sph.h
+$(WCSLIB)(spx_f.o)    : spx.h
+$(WCSLIB)(wcs_f.o)    : cel.h lin.h prj.h spc.h spx.h wcs.h
+$(WCSLIB)(wcshdr_f.o) : cel.h lin.h prj.h spc.h spx.h wcs.h wcshdr.h
+d333 1
+d335 3
+a337 2
+tpih1   : wcs.inc wcshdr.inc
+tpih2   : wcs.inc wcshdr.inc
+d342 4
+d347 2
+d350 1
+a350 1
+twcsmix : cel.inc lin.inc prj.inc wcs.inc
+@
+
+
+3.6
+log
+@WCSLIB 3.6: removed DEC/Alpha FLAVOUR and added others to match the C makefile;
+twcs1 renamed to twcs, twcs2 renamed to twcsmix, twcssub (new); revised the
+options for many of the FLAVOURs.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 3.6 FORTRAN wrappers.
+d8 1
+a8 1
+#        cleaner:   clean, and also delete the test executables.
+d18 1
+a18 1
+#            SUN/GNU    GNU  C compiler running under some version of SunOS.
+d39 1
+a39 1
+#   $Id: Makefile,v 3.5 2004/06/28 05:20:01 mcalabre Exp mcalabre $
+d58 6
+a63 4
+# The PGPLOTLIB option is only required for compiling test programs (tprj2,
+# tcel1, tspc, and twcsmix) that use PGPLOT to plot test grids.  You can
+# circumvent this by setting PGPLOTLIB to blank.  PGPLOT is a FORTRAN plotting
+# library with separate C interface available from astro.caltech.edu.
+d65 2
+a66 3
+# PGPLOT link list; unset this to defeat compilation of test programs that
+# plot test grids.
+  PGPLOTLIB := -lpgplot -lpng -lz -lX11
+d145 4
+a148 1
+WCSLIB  := ../C/libwcs.a
+d159 1
+a159 1
+ifneq "$(PGPLOTLIB)" ""
+d196 1
+a196 1
+.PHONY : all clean cleaner cleanest lib realclean test
+d209 6
+d268 1
+a268 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< -L../C -lwcs $(LIBS)
+d273 1
+a273 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< -L../C -lwcs $(PGPLOTLIB) $(LIBS)
+d278 1
+a278 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGSBOX) -L../C -lwcs $(PGPLOTLIB) $(LIBS)
+d300 1
+d303 1
+@
+
+
+3.5
+log
+@WCSLIB 3.5: updated to support the WCS header parser and its test programs;
+TWCSPRT has been withdrawn.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building the WCSLIB 3.5 FORTRAN wrappers.
+d20 2
+d24 1
+a24 1
+#            DEC/Alpha  DEC/Alpha running Digital Unix (OSF/1).
+d39 1
+a39 1
+#   $Id: Makefile,v 3.4 2004/02/11 00:01:47 mcalabre Exp mcalabre $
+d42 1
+a42 1
+  CC := gcc
+d59 1
+a59 1
+# tcel1, tspc, and twcs2) which use PGPLOT to plot test grids.  You can
+d63 1
+a63 1
+# PGPLOT link list; unset this to defeat compilation of test programs which
+a74 1
+  CC      := gcc
+d77 2
+a78 1
+  PGPLOTLIB := -lpgplot_g77 -lpng -lz -lX11
+d82 1
+a82 1
+  CC      := gcc-3.1.1
+d86 2
+a87 1
+  PGPLOTLIB := -lpgplot_g77 -lpng -lz -lX11
+d91 6
+a96 6
+  CC      := gcc
+  CFLAGS  := -pg -O -Wall -Wno-parentheses
+  FFLAGS  := -pg -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  LDFLAGS := -pg
+  PGPLOTLIB := -lpgplot_g77 -lpng -lz -lX11
+  override EXTRA_CLEAN := gmon.out
+d101 1
+d103 1
+d105 20
+a124 1
+  CFLAGS  += -I/usr/local/include
+a127 1
+  CC      := gcc
+d133 6
+a138 4
+ifeq "$(FLAVOUR)" "DEC/Alpha"
+  CC      := cc
+  CFLAGS  += -D"atan2d=atand2"
+  FC      := f77 -I.
+d156 5
+a160 5
+  TPRJ2 := tprj2
+  TCEL  := tcel1
+  TSPC  := tspc
+  TWCS2 := twcs2
+  TPIH2 := tpih2
+d173 1
+a173 1
+	$(CC) $(CFLAGS) -I../C -c $<
+d177 1
+a177 1
+	$(CC) $(CFLAGS) -E -I../C -o $@@ $<
+d180 1
+d187 1
+a187 1
+	$(FC) $(FFLAGS) -c $<
+d199 2
+a200 1
+	$(MAKE) -C ../C lib
+d206 1
+a206 1
+	- $(RM) *.o *.i a.out core $(EXTRA_CLEAN)
+d210 1
+a210 1
+	- $(RM) twcs1 twcs2
+d217 1
+a217 1
+       twcs1 $(TWCS2) wcs.fits tpih1 $(TPIH2)
+d241 4
+a244 2
+	-@@ twcs1
+        ifdef TWCS2
+d246 1
+a246 1
+	   -@@ twcs2 < /dev/null
+d256 1
+a256 1
+tlin tprj1 tsph tspx twcs1 tpih1 : % : test/%.f $(WCSLIB)
+d261 1
+a261 1
+tprj2 tcel1 tspc twcs2 : % : test/%.f $(WCSLIB)
+d272 2
+a273 1
+	$(MAKE) -C ../pgsbox show_all pgsbox.o wcslib
+d290 1
+a291 1
+	-@@ echo "PGPLOTLIB := $(PGPLOTLIB)"
+d316 3
+a318 2
+twcs1   : cel.inc prj.inc wcs.inc
+twcs2   : cel.inc lin.inc prj.inc wcs.inc
+@
+
+
+3.4
+log
+@WCSLIB 3.4: TCEL renamed to TCEL1.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 3.4 FORTRAN wrappers.
+d4 8
+a11 29
+# Summary of the main targets
+# ---------------------------
+#    all:       Build the library
+#    clean:     Delete intermediate object files.
+#    realclean: clean, and also delete executables and the object library.
+#    test:      Compile and run the test programs.
+#    show_all:  Print the values of all variables used.
+#
+# Notes:
+#    1) The makefile sets certain variables to default values and may then
+#       change some of them depending on the value of the FLAVOUR variable.
+#       The following FLAVOURs are available:
+#
+#          SUN/GNU    GNU  C compiler running under some version of SunOS.
+#          SUN/GNUp   As above with profiling options.
+#          SUN/ANSI   ANSI C compiler running under some version of SunOS.
+#          Linux      Some version of Linux.
+#          DEC/Alpha  DEC/Alpha running Digital Unix (OSF/1).
+#
+#       Note that K&R C is no longer supported.
+#
+#       The FLAVOUR may conveniently be set as an environment variable or on
+#       the GNU make command line, e.g.
+#
+#          gmake FLAVOUR=SUN/GNU
+#
+#       If your requirements don't match any predefined FLAVOUR then you might
+#       be able to modify an existing one, add a new one, or simply modify the
+#       defaults.
+d13 25
+a37 1
+# $Id: Makefile,v 3.3 2003/10/21 08:48:00 mcalabre Exp mcalabre $
+d120 9
+a128 8
+MODULES := lin_f.o  \
+           prj_f.o  \
+           sph_f.o  \
+           cel_f.o  \
+           spx_f.o  \
+           spc_f.o  \
+           wcs_f.o  \
+           cylfix_f.o
+d135 1
+d138 3
+d143 3
+d163 3
+d181 4
+a184 3
+realclean cleaner cleanest : clean
+	- $(RM) tlin tprj1 tprj2 tsph tcel1 tspx tspc twcsprt twcs1 twcs2 \
+                $(WCSLIB)
+d186 5
+a190 2
+test : show_all tlin tprj1 $(TPRJ2) tsph $(TCEL) tspx $(TSPC) twcsprt twcs1 \
+       $(TWCS2)
+d192 1
+a192 1
+	-@@ echo "Running WCSLIB test programs:"
+a213 2
+	-@@ twcsprt
+	-@@ echo ""
+d219 7
+d227 1
+a227 1
+tlin tprj1 tsph tspx twcsprt twcs1 : % : test/%.f $(WCSLIB)
+d237 14
+d263 4
+d268 1
+a268 1
+$(WCSLIB)(cel_f.o) : cel.h prj.h
+d270 7
+a276 6
+$(WCSLIB)(lin_f.o) : lin.h
+$(WCSLIB)(prj_f.o) : prj.h
+$(WCSLIB)(spc_f.o) : spc.h spx.h
+$(WCSLIB)(sph_f.o) : sph.h
+$(WCSLIB)(spx_f.o) : spx.h
+$(WCSLIB)(wcs_f.o) : cel.h lin.h prj.h spc.h spx.h wcs.h
+d280 2
+a287 1
+twcsprt : wcs.inc
+@
+
+
+3.3
+log
+@WCSLIB 3.3: changed PGPLOTLIB for Linux.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 3.3 FORTRAN wrappers.
+d34 1
+a34 1
+# $Id: Makefile,v 3.2 2003/09/09 06:15:24 mcalabre Exp mcalabre $
+d54 1
+a54 1
+# tcel, tspc, and twcs2) which use PGPLOT to plot test grids.  You can
+d128 1
+a128 1
+  TCEL  := tcel
+d168 1
+a168 1
+	- $(RM) tlin tprj1 tprj2 tsph tcel tspx tspc twcsprt twcs1 twcs2 \
+d187 1
+a187 1
+	   -@@ tcel
+d209 1
+a209 1
+tprj2 tcel tspc twcs2 : % : test/%.f $(WCSLIB)
+d236 1
+a236 1
+tcel    : cel.inc prj.inc
+@
+
+
+3.2
+log
+@WCSLIB 3.2: added %.d pattern rule; added -lz to PGPLOTLIB; changed the order
+of TWCSPRT in the test suite; amended the dependency lists.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB 3.2 FORTRAN wrappers.
+d34 1
+a34 1
+# $Id: Makefile,v 3.1 2003/04/28 08:22:34 mcalabre Exp mcalabre $
+d104 1
+a104 1
+  PGPLOTLIB := -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building the WCSLIB FORTRAN wrappers.
+d34 1
+a34 1
+# $Id: Makefile,v 3.1 2003/04/28 04:31:55 mcalabre Exp $
+d60 1
+a60 1
+  PGPLOTLIB := -lpgplot -lpng -lX11
+d73 1
+a73 1
+  PGPLOTLIB := -lpgplot_g77 -lpng -lX11
+d81 1
+a81 1
+  PGPLOTLIB := -lpgplot_g77 -lpng -lX11
+d89 1
+a89 1
+  PGPLOTLIB := -lpgplot_g77 -lpng -lX11
+d104 1
+a104 1
+  PGPLOTLIB := -lpgplot -lpng -L/usr/local/X11/lib -lX11
+d141 1
+a141 1
+	$(CC) -E $(CFLAGS) -I../C -c $< > $@@
+d143 5
+d168 1
+a168 1
+	- $(RM) tlin tprj1 tprj2 tsph tcel tspx tspc twcs1 twcs2 twcsprt \
+d171 2
+a172 2
+test : show_all tlin tprj1 $(TPRJ2) tsph $(TCEL) tspx $(TSPC) twcs1 $(TWCS2) \
+       twcsprt
+d196 2
+a202 2
+	-@@ echo ""
+	-@@ twcsprt
+d204 1
+a204 1
+tlin tprj1 tsph tspx twcs1 twcsprt : % : test/%.f $(WCSLIB)
+d227 2
+d231 1
+a232 1
+$(WCSLIB)(cel_f.o) : cel.h prj.h
+d234 1
+a234 3
+$(WCSLIB)(spc_f.o) : spc.h spx.h
+$(WCSLIB)(wcs_f.o) : wcs.h lin.h cel.h prj.h spc.h spx.h
+$(WCSLIB)(cylfix_f.o) : cylfix.h wcs.h lin.h cel.h prj.h spc.h spx.h
+d236 1
+d240 1
+a240 1
+tcel    : cel.inc
+d242 3
+a244 3
+tspc    : spc.inc spx.inc
+twcs1   : wcs.inc lin.inc cel.inc prj.inc spc.inc spx.inc
+twcsprt : wcs.inc lin.inc cel.inc prj.inc spc.inc spx.inc
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d34 1
+a34 1
+# $Id: Makefile,v 2.7 2003/04/01 05:07:50 mcalabre Exp mcalabre $
+a73 1
+  LIBS    := -L/opt/SUNWspro/lib -lsunmath
+a81 1
+  LIBS    := -L/opt/SUNWspro/lib -lsunmath
+a89 1
+  LIBS    := -L/opt/SUNWspro/lib -lsunmath
+d104 1
+a104 1
+  PGPLOTLIB := -lpgplot -lg2c -L/usr/local/X11/lib -lpng -lX11
+d108 1
+d110 1
+d123 2
+a124 1
+           wcs_f.o
+d206 1
+a206 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(PGPLOTLIB) -L../C -lwcs $(LIBS)
+d229 1
+@
+
+
+2.6
+log
+@Removed all references to Ultrix, Convex and SGI.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building WCSLIB.
+d17 3
+a19 1
+#          SUN        Some version of SunOS.
+d23 2
+d28 1
+a28 1
+#          gmake FLAVOUR='SUN'
+d34 1
+a34 1
+# $Id: Makefile,v 2.5 1999/12/13 03:36:42 mcalabre Exp mcalabre $
+d36 4
+d41 2
+a42 5
+  FFLAGS  := -O
+
+# Uncomment this if your FORTRAN compiler doesn't have COSD, SIND, TAND,
+# ACOSD, ASIND, ATAND, and ATAN2D as intrinsic functions.
+# WCSTRIG := wcstrig.o
+d45 1
+a45 1
+  RANLIB  := ranlib
+d47 1
+a47 1
+# Set or reset linker options here if needed.
+d50 2
+a51 4
+# PGPLOT object library; used by tproj2, tcel, and twcs2 to plot test grids.
+# If you don't have PGPLOT then set PGPLOTLIB to blank.  PGPLOT is a FORTRAN
+# plotting library available from astro.caltech.edu.
+  PGPLOTLIB := -lpgplot -lX11
+d53 12
+d69 32
+a100 2
+ifeq "$(FLAVOUR)" "SUN"
+   FFLAGS += -u
+d104 4
+a107 3
+   FFLAGS  += -w
+   WCSTRIG := wcstrig.o
+   PGPLOTLIB := -L/usr/local/X11/lib -lpgplot -lX11
+d111 1
+a111 1
+   # Nothing.
+d117 8
+a124 7
+LIBRARY := libwcs_f.a
+MODULES := $(WCSTRIG) \
+           lin.o  \
+           proj.o \
+           sph.o  \
+           cel.o  \
+           wcs.o
+d127 4
+a130 3
+   TPROJ2 := tproj2
+   TCEL   := tcel
+   TWCS2  := twcs2
+d133 10
+d147 1
+a147 1
+.PHONY : all clean lib realclean test
+d151 4
+a154 1
+lib : $(LIBRARY)
+d156 2
+a157 2
+$(LIBRARY) : $(MODULES:%=$(LIBRARY)(%))
+	$(RANLIB) $(LIBRARY)
+d160 1
+a160 1
+	- $(RM) *.o *.i a.out core
+d162 3
+a164 2
+realclean : clean
+	- $(RM) tlin tproj1 tproj2 tsph tcel twcs1 twcs2 $(LIBRARY)
+d166 2
+a167 1
+test : show_all tlin tproj1 $(TPROJ2) tsph $(TCEL) twcs1 $(TWCS2)
+d173 2
+a174 2
+	-@@ tproj1
+        ifdef TPROJ2
+d176 1
+a176 1
+	   -@@ tproj2 < /dev/null
+d182 1
+a182 1
+	   -@@ tcel < /dev/null
+d185 6
+d196 2
+d199 1
+a199 1
+tlin tproj1 tsph twcs1 : % : %.f $(LIBRARY)
+d201 1
+a201 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(LIBRARY)
+d204 1
+a204 1
+tproj2 tcel twcs2 : % : %.f $(LIBRARY)
+d206 1
+a206 1
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $< $(LIBRARY) $(PGPLOTLIB)
+d212 2
+a215 1
+	-@@ echo "WCSTRIG   := $(WCSTRIG)"
+d218 1
+d220 18
+@
+
+
+2.5
+log
+@SGI compiler flag updates.
+@
+text
+@a19 6
+#          DEC/Ultrix DEC/Ultrix.
+#          Convex     Convex/ConvexOS.
+#          SGI/32     SGI/IRIX using the 32-bit FORTRAN compiler.
+#          SGI/64     SGI/IRIX using the 64-bit FORTRAN compiler.
+#          SGI/P32    SGI/IRIX using the 32-bit Power FORTRAN compiler.
+#          SGI/P64    SGI/IRIX using the 64-bit Power FORTRAN compiler.
+d24 1
+a24 1
+#          gmake FLAVOUR='SGI/32'
+d30 1
+a30 1
+# $Id: Makefile,v 2.4 1999/11/19 01:16:22 mcalabre Exp mcalabre $
+a49 3
+# Extra files to clean up.
+  override EXTRA_CLEAN :=
+
+d55 1
+a55 1
+   FFLAGS  += -u
+a67 33
+ifeq "$(FLAVOUR)" "DEC/Ultrix"
+   # Nothing.
+endif
+
+ifeq "$(FLAVOUR)" "Convex"
+   FFLAGS := -O3
+endif
+
+ifeq "$(FLAVOUR)" "SGI/32"
+   FFLAGS  += -32
+   RANLIB  := @@ :
+   PGPLOTLIB := -L/usr/local/lib -lpgplot -lX11
+endif
+
+ifeq "$(FLAVOUR)" "SGI/64"
+   RANLIB  := @@ :
+   PGPLOTLIB := -L/usr/local/lib64 -lpgplot -lX11
+endif
+
+ifeq "$(FLAVOUR)" "SGI/P32"
+   FFLAGS  += -32 -pca keep
+   RANLIB  := @@ :
+   PGPLOTLIB := -L/usr/local/lib -lpgplot -lX11
+endif
+
+ifeq "$(FLAVOUR)" "SGI/P64"
+   FFLAGS  += -pca keep
+   RANLIB  := @@ :
+   PGPLOTLIB := -L/usr/local/lib64 -lpgplot -lX11
+   RM      += -r
+   override EXTRA_CLEAN := *.anl *.l *.m rii_files
+endif
+
+d99 1
+a99 1
+	- $(RM) *.o *.i a.out core $(EXTRA_CLEAN)
+a146 1
+	-@@ echo "EXTRA_CLEAN := $(EXTRA_CLEAN)"
+@
+
+
+2.4
+log
+@Added Linux flavour.
+@
+text
+@d36 1
+a36 1
+# $Id: Makefile,v 2.3 1996/09/10 06:45:10 mcalabre Exp mcalabre $
+d88 1
+a88 1
+   PGPLOTLIB := -L/usr/local/lib -lpgplot -lgl_s -lX11
+a91 1
+   FFLAGS  += -OPT:fold_arith_limit=2000
+d99 1
+a99 1
+   PGPLOTLIB := -L/usr/local/lib -lpgplot -lgl_s -lX11
+d103 1
+a103 1
+   FFLAGS  += -OPT:fold_arith_limit=2000 -pca keep
+d106 2
+a107 1
+   override EXTRA_CLEAN := *.anl *.L *.m
+@
+
+
+2.3
+log
+@Added "DEC/Alpha" FLAVOUR.
+@
+text
+@d18 1
+d36 1
+a36 1
+# $Id: Makefile,v 2.2 1996/05/07 21:19:25 mcalabre Exp mcalabre $
+d65 6
+@
+
+
+2.2
+log
+@Split TWCS into TWCS1 and TWCS2.
+@
+text
+@d18 1
+d35 1
+a35 1
+# $Id: Makefile,v 2.1 1995/11/09 03:04:26 mcalabre Exp mcalabre $
+d64 4
+@
+
+
+2.1
+log
+@Added SGI/P32 and SGI/P64 flavours.
+@
+text
+@d34 1
+a34 1
+# $Id: Makefile,v 2.0 1995/09/11 03:49:17 mcalabre Exp mcalabre $
+d49 1
+a49 1
+# PGPLOT object library; used by tproj2, tcel, and twcs to plot test grids.
+d112 1
+a112 1
+   TWCS   := twcs
+d132 1
+a132 1
+	- $(RM) tlin tproj1 tproj2 tsph tcel twcs $(LIBRARY)
+d134 1
+a134 1
+test : show_all tlin tproj1 $(TPROJ2) tsph $(TCEL) $(TWCS)
+d151 3
+a153 1
+        ifdef TWCS
+d155 1
+a155 1
+	   -@@ twcs < /dev/null
+d158 1
+a158 1
+tlin tproj1 tsph : % : %.f $(LIBRARY)
+d163 1
+a163 1
+tproj2 tcel twcs : % : %.f $(LIBRARY)
+d177 1
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d22 2
+d34 1
+a34 1
+# $Id: Makefile,v 1.2 1995/09/11 03:48:58 mcalabre Exp mcalabre $
+d54 3
+d85 13
+d129 1
+a129 1
+	- $(RM) *.o *.i a.out core
+@
+
+
+1.2
+log
+@Select variable definitions tailored for particular platforms via the
+FLAVOUR variable.  Compile new modules (lin.f and cel.f) and their
+corresponding test programs.
+@
+text
+@d32 1
+a32 1
+# $Id: Makefile,v 1.1 1995/01/31 03:42:48 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d12 21
+a32 1
+# $Id: Makefile,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+d34 2
+a35 5
+# Set FORTRAN compiler and options.
+# Sun and DEC
+  FFLAGS  := -u -O
+# Convex
+# FFLAGS  := -O3
+d41 3
+d47 3
+a49 1
+# PGPLOT object library; used by tproj2 and twcs to plot test grids.
+d52 28
+d84 3
+a86 2
+MODULES := proj.o \
+           wcs.o  \
+d88 2
+a89 1
+           $(WCSTRIG)
+d92 3
+a94 2
+   TPROJ2 = tproj2
+   TWCS   = twcs
+d103 1
+a103 1
+all : lib
+d108 1
+a108 1
+	ranlib $(LIBRARY)
+d114 1
+a114 1
+	- $(RM) tproj1 tproj2 tsph twcs $(LIBRARY)
+d116 1
+a116 1
+test : tproj1 $(TPROJ2) tsph $(TWCS)
+d119 3
+d129 4
+d135 1
+a135 1
+	   -@@ twcs
+d138 1
+a138 1
+tproj1 tsph : % : %.f $(LIBRARY)
+d143 1
+a143 1
+tproj2 twcs : % : %.f $(LIBRARY)
+d149 2
+d154 1
+a156 4
+	-@@ echo "LIBRARY   := $(LIBRARY)"
+	-@@ echo "MODULES   := $(MODULES)"
+	-@@ echo "TPROJ2    := $(TPROJ2)"
+	-@@ echo "TWCS      := $(TWCS)"
+@

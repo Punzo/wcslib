@@ -1,0 +1,986 @@
+head	1.16;
+access;
+symbols;
+locks
+	cal103:1.16; strict;
+comment	@c @;
+
+
+1.16
+date	2002.11.20.00.31.33;	author mcalabre;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2002.11.06.06.51.49;	author mcalabre;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2001.11.20.11.40.22;	author mcalabre;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2001.03.23.03.32.59;	author mcalabre;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2001.02.19.02.18.18;	author mcalabre;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2000.11.16.01.04.30;	author mcalabre;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.09.07.23.09.40;	author mcalabre;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.05.10.04.54.48;	author mcalabre;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	99.12.01.04.18.09;	author mcalabre;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	99.07.22.02.04.32;	author mcalabre;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	97.04.03.04.14.08;	author mcalabre;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	97.03.19.00.29.05;	author mcalabre;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	97.03.10.22.31.50;	author mcalabre;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	97.02.18.03.40.11;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.02.07.05.48.22;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.02.07.03.57.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Interface between PGCRVL and WCSLIB.
+@
+
+
+1.16
+log
+@Tightened the test for swapped celestial axes so as not to catch simple
+linear axes.
+@
+text
+@*=======================================================================
+*
+*   PGSBOX - a non-linear coordinate axis plotter for PGPLOT.
+*   Copyright (C) 1997-2001, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning PGSBOX may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*
+*   PGWCSL defines curvilinear celestial coordinate systems for PGSBOX
+*   using WCSLIB.
+*
+*   Given:
+*      OPCODE   I        Transformation code:
+*                           +2: Compute a set of pixel coordinates which
+*                               describe a path between this and the
+*                               previous pair of world coordinates
+*                               remembered from the last call with
+*                               OPCODE = +1 or +2.
+*                           +1: Compute pixel coordinates from world
+*                               coordinates.
+*                            0: Initialize.
+*                           -1: Compute world coordinates from pixel
+*                               coordinates.
+*
+*      NLC      I        Number of elements in CTYPE (=16).
+*
+*      NLI      I        Number of elements in WCS (=4).
+*
+*      NLD      I        Number of elements in NLDPRM (=50).
+*
+*      CTYPE    C(NLC)*1 Character array (contains the CTYPE array,
+*                        see below).
+*
+*   Given and/or returned:
+*      WCS      I(NLI)   Integer coefficients (contains the WCS
+*                        array, see below).
+*
+*      NLDPRM   D(NLD)   Double precision coefficients (contains the
+*                        LIN, PRJ and CEL arrays, see below).
+*
+*      WORLD    D(2)     World coordinates.  WORLD(1) and WORLD(2)
+*                        are the longitude and latitude, in degrees.
+*                        Given if OPCODE > 0, returned if OPCODE < 0.
+*
+*      PIXEL    D(2)     Pixel coordinates.
+*                        Given if OPCODE < 0, returned if OPCODE > 0.
+*
+*      CONTRL   I        Control flag for OPCODE = +2:
+*                           0: Normal state
+*                           1: A discontinuity has been encountered;
+*                              force PGSBOX to flush its plotting buffer
+*                              and call PGWCSL again with the same world
+*                              coordinates.
+*                           2: Call PGWCSL again with the same world
+*                              coordinates.
+*
+*      CONTXT   D(20)    Context elements for OPCODE = +2.
+*
+*   Returned:
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid parameters.
+*                           2: Invalid world coordinate.
+*                           3: Invalid pixel coordinate.
+*
+*   Notes
+*   -----
+*    1) PGWCSL assumes a simple 2-D image.  The CTYPE array must be
+*       constructed by the caller as follows:
+*
+*                FITS
+*       CTYPE   keyword
+*
+*        (1:8)   CTYPE1
+*        (9:16)  CTYPE2
+*
+*       The WCS array is maintained by PGWCSL and WCSLIB and must not
+*       be disturbed by the caller after initialization with OPCODE=0.
+*
+*                WCS      FITS
+*         WCS   array    keyword
+*
+*         (1)   WCS(0)     -
+*         (2)   WCS(1)     -
+*         (3)   WCS(2)     -
+*         (4)   WCS(3)     -
+*
+*       The NLDPRM array is constructed as follows:
+*
+*                WCS      FITS
+*       NLDPRM  array    keyword
+*
+*         (1)   LIN(1)     -
+*         (2)   LIN(2)     -
+*         (3)   LIN(3)     -
+*         (4)   LIN(4)   CRPIX1
+*         (5)   LIN(5)   CRPIX2
+*         (6)   LIN(6)   PC1_1   or  CD1_1
+*         (7)   LIN(7)   PC2_1   or  CD2_1
+*         (8)   LIN(8)   PC1_2   or  CD1_2
+*         (9)   LIN(9)   PC2_2   or  CD2_2
+*        (10)   LIN(10)  CDELT1  or   1.0
+*        (11)   LIN(11)  CDELT2  or   1.0
+*        (12)   LIN(12)    -
+*        (13)   LIN(13)    -
+*        (14)   LIN(14)    -
+*        (15)   LIN(15)    -
+*        (16)   LIN(16)    -
+*        (17)   LIN(17)    -
+*        (18)   LIN(18)    -
+*        (19)   LIN(19)    -
+*        (20)   CEL(1)   CRVAL1    ...may be swapped to make CEL(1)
+*        (21)   CEL(2)   CRVAL2    ...the longitude coordinate.
+*        (22)   CEL(3)   LONPOLE
+*        (23)   CEL(4)   LATPOLE
+*        (24)   CEL(5)     -
+*        (25)   CEL(6)     -
+*        (26)   CEL(7)     -
+*        (27)   CEL(8)     -
+*        (28)   CEL(9)     -
+*        (29)   CEL(10)    -
+*        (30)   PRJ(0)   PROJP0
+*        (31)   PRJ(1)   PROJP1
+*        (32)   PRJ(2)   PROJP2
+*        (33)   PRJ(3)   PROJP3
+*        (34)   PRJ(4)   PROJP4
+*        (35)   PRJ(5)   PROJP5
+*        (36)   PRJ(6)   PROJP6
+*        (37)   PRJ(7)   PROJP7
+*        (38)   PRJ(8)   PROJP8
+*        (39)   PRJ(9)   PROJP9
+*        (40)   PRJ(10)    -
+*        (41)   PRJ(11)    -
+*        (42)   PRJ(12)    -
+*        (43)   PRJ(13)    -
+*        (44)   PRJ(14)    -
+*        (45)   PRJ(15)    -
+*        (46)   PRJ(16)    -
+*        (47)   PRJ(17)    -
+*        (48)   PRJ(18)    -
+*        (49)   PRJ(19)    -
+*        (50)   PRJ(20)    -
+*
+*       Elements of the array which correspond to FITS header cards must
+*       be given by the caller.  The other elements are maintained by
+*       PGWCSL and WCSLIB as described in the notes provided with
+*       WCSLIB.  NLDPRM must not be disturbed by the caller after
+*       initialization with OPCODE=0.
+*
+*    2) PGWCSL doesn't properly handle discontinuities between the faces
+*       of the quadcube projections.
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: pgwcsl.f,v 1.15 2002/11/06 06:51:49 mcalabre Exp mcalabre $
+*=======================================================================
+      SUBROUTINE PGWCSL (OPCODE, NLC, NLI, NLD, CTYPE, WCS, NLDPRM,
+     :   WORLD, PIXEL, CONTRL, CONTXT, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   CONTRL, IERR, NLC, NLD, NLI, OPCODE, WCS(NLI)
+      DOUBLE PRECISION CONTXT(20), DP, DUMMY(2), IMGCRD(2), LAT, LNG,
+     :          NLDPRM(NLD), PH, PHI, PIXEL(2), SDUMMY, TEMP, TH, THETA,
+     :          WORLD(2), WRLD(2)
+      CHARACTER CTYPE(NLC)*1
+*-----------------------------------------------------------------------
+      IERR = 0
+
+      IF (OPCODE.EQ.2) THEN
+*        Compute pixel coordinates from world coordinates.
+         IF (WCS(1).EQ.999) THEN
+*           Simple linear coordinates.
+            CALL WCSFWD (CTYPE, WCS, WORLD, NLDPRM(20), NLDPRM(20), PHI,
+     :         THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+            IF (IERR.NE.0) IERR = 1
+            RETURN
+         END IF
+
+         WRLD(WCS(2)) = WORLD(1)
+         IF (WORLD(2).GT.90D0) THEN
+            WRLD(WCS(3)) = 90D0
+         ELSE IF (WORLD(2).LT.-90D0) THEN
+            WRLD(WCS(3)) = -90D0
+         ELSE
+            WRLD(WCS(3)) = WORLD(2)
+         END IF
+
+         IF (CONTRL.EQ.0) THEN
+            CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(20), PHI,
+     :         THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+            IF (IERR.NE.0) THEN
+*              Translate error codes.
+               IF (IERR.EQ.2) THEN
+                  IERR = 1
+               ELSE IF (IERR.EQ.3) THEN
+                  IERR = 2
+               ELSE IF (IERR.EQ.4) THEN
+                  IERR = 1
+               END IF
+               RETURN
+            END IF
+
+            IF (ABS(PHI-CONTXT(3)).GT.180D0) THEN
+*              Hit a discontinuity at PHI = +/- 180.
+               CONTXT(5) = PIXEL(1)
+               CONTXT(6) = PIXEL(2)
+
+               IF (CONTXT(3).GT.PHI) THEN
+                  PH = 179.9999D0
+                  DP = (PHI - CONTXT(3)) + 360D0
+               ELSE
+                  PH = -179.9999D0
+                  DP = (PHI - CONTXT(3)) - 360D0
+               END IF
+
+*              First approximation for theta.
+               IF (DP.EQ.0D0) THEN
+                  TH = CONTXT(4)
+               ELSE
+                  TH = CONTXT(4) + (PH-CONTXT(3))*(THETA-CONTXT(4))/DP
+               END IF
+
+*              Iterate once to refine the value of theta.
+               CALL SPHREV (PH, TH, NLDPRM(25), LNG, LAT, IERR)
+               IF (WRLD(WCS(2)).EQ.CONTXT(1)) THEN
+*                 We are following a meridian of longitude.
+                  LNG = WRLD(WCS(2))
+               ELSE
+*                 We are following a parallel of latitude.
+                  LAT = WRLD(WCS(3))
+               END IF
+               CALL SPHFWD (LNG, LAT, NLDPRM(25), SDUMMY, TH, IERR)
+
+               CONTXT(1) = WRLD(WCS(2))
+               CONTXT(2) = WRLD(WCS(3))
+               CONTXT(3) = PHI
+               CONTXT(4) = THETA
+
+*              Pixel coordinates crossing into the discontinuity.
+               CALL SPHREV (PH, TH, NLDPRM(25), WRLD(WCS(2)),
+     :                      WRLD(WCS(3)), IERR)
+               CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(20), PHI,
+     :            THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+               IF (IERR.NE.0) THEN
+*                 Translate error codes.
+                  IF (IERR.EQ.2) THEN
+                     IERR = 1
+                  ELSE IF (IERR.EQ.3) THEN
+                     IERR = 2
+                  ELSE IF (IERR.EQ.4) THEN
+                     IERR = 1
+                  END IF
+                  RETURN
+               END IF
+
+*              Pixel coordinates crossing out of the discontinuity.
+               CALL SPHREV (-PH, TH, NLDPRM(25), WRLD(WCS(2)),
+     :                      WRLD(WCS(3)), IERR)
+               CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(20), PHI,
+     :            THETA, NLDPRM(30), IMGCRD, NLDPRM(1), CONTXT(7), IERR)
+               IF (IERR.NE.0) THEN
+*                 Translate error codes.
+                  IF (IERR.EQ.2) THEN
+                     IERR = 1
+                  ELSE IF (IERR.EQ.3) THEN
+                     IERR = 2
+                  ELSE IF (IERR.EQ.4) THEN
+                     IERR = 1
+                  END IF
+                  RETURN
+               END IF
+
+               CONTRL = 1
+            ELSE
+*              Normal mode, no discontinuity.
+               CONTXT(1) = WRLD(WCS(2))
+               CONTXT(2) = WRLD(WCS(3))
+               CONTXT(3) = PHI
+               CONTXT(4) = THETA
+            END IF
+         ELSE
+            IF (CONTRL.EQ.1) THEN
+*              Move to the other side of the discontinuity.
+               PIXEL(1) = CONTXT(7)
+               PIXEL(2) = CONTXT(8)
+               CONTRL = 2
+            ELSE
+*              Complete the traversal.
+               PIXEL(1) = CONTXT(5)
+               PIXEL(2) = CONTXT(6)
+               CONTRL = 0
+            END IF
+         END IF
+
+      ELSE IF (OPCODE.EQ.1) THEN
+*        Compute pixel coordinates from world coordinates.
+         IF (WCS(1).EQ.999) THEN
+*           Simple linear coordinates.
+            CALL WCSFWD (CTYPE, WCS, WORLD, NLDPRM(20), NLDPRM(20), PHI,
+     :         THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+            IF (IERR.NE.0) IERR = 1
+            RETURN
+         END IF
+
+         WRLD(WCS(2)) = WORLD(1)
+         IF (WORLD(2).GT.90D0) THEN
+            WRLD(WCS(3)) = 90D0
+         ELSE IF (WORLD(2).LT.-90D0) THEN
+            WRLD(WCS(3)) = -90D0
+         ELSE
+            WRLD(WCS(3)) = WORLD(2)
+         END IF
+
+         CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(20), PHI, THETA,
+     :      NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+         IF (IERR.NE.0) THEN
+*           Translate error codes.
+            IF (IERR.EQ.2 .OR. IERR.EQ.4) THEN
+               IERR = 1
+            ELSE IF (IERR.EQ.3) THEN
+               IERR = 2
+            END IF
+            RETURN
+         END IF
+
+         CONTXT(1) = WRLD(WCS(2))
+         CONTXT(2) = WRLD(WCS(3))
+         CONTXT(3) = PHI
+         CONTXT(4) = THETA
+
+      ELSE IF (OPCODE.EQ.0) THEN
+*        Initialize.
+         IF (NLC.LT.16 .OR. NLI.LT.4 .OR. NLD.LT.50) THEN
+            IERR = 1
+            RETURN
+         END IF
+
+         WCS(1) = 0
+         NLDPRM(1)  = 0D0
+         NLDPRM(2)  = 2D0
+         NLDPRM(3)  = 2D0
+         NLDPRM(24) = 0D0
+         NLDPRM(40) = 0D0
+         NLDPRM(41) = 0D0
+         CALL WCSSET (2, CTYPE, WCS, IERR)
+
+         IF (WCS(2).EQ.2 .AND. WCS(3).EQ.1) THEN
+*           Swap CRVAL1 and CRVAL2 so that CEL(1) is longitude.
+            TEMP = NLDPRM(20)
+            NLDPRM(20) = NLDPRM(21)
+            NLDPRM(21) = TEMP
+         END IF
+
+         CONTRL = 0
+
+      ELSE IF (OPCODE.EQ.-1) THEN
+*        Compute world coordinates from pixel coordinates.
+         CALL WCSREV (CTYPE, WCS, PIXEL, NLDPRM(1), IMGCRD, NLDPRM(30),
+     :      PHI, THETA, NLDPRM(20), NLDPRM(20), WRLD, IERR)
+         IF (IERR.NE.0) THEN
+*           Translate error codes.
+            IF (IERR.EQ.2 .OR. IERR.EQ.4) IERR = 1
+            RETURN
+         END IF
+
+         IF (WCS(1).EQ.999) THEN
+*           Simple linear coordinates.
+            WORLD(1) = WRLD(1)
+            WORLD(2) = WRLD(2)
+         ELSE
+            WORLD(1) = WRLD(WCS(2))
+            WORLD(2) = WRLD(WCS(3))
+
+            IF (PHI.LT.-180D0 .OR. PHI.GT.180D0) THEN
+*              Pixel is outside the principle range of native longitude.
+               IERR = 3
+               RETURN
+            END IF
+         END IF
+
+      ELSE
+         IERR = 1
+      END IF
+
+
+      RETURN
+      END
+@
+
+
+1.15
+log
+@Account properly for swapped celestial axes, in particular, CEL(1) always
+refers to the reference longitude so NLDPRM(20) and NLDPRM(21) may need to
+be swapped.
+@
+text
+@d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.14 2001/11/20 11:40:22 mcalabre Exp mcalabre $
+d366 1
+a366 1
+         IF (WCS(2).NE.1) THEN
+@
+
+
+1.14
+log
+@NLDPRM(40) = PROJP(10) must also be zeroed on initialization.
+@
+text
+@d133 2
+a134 2
+*        (20)   CEL(1)   CRVAL1
+*        (21)   CEL(2)   CRVAL2
+d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.13 2001/03/23 03:32:59 mcalabre Exp mcalabre $
+d182 1
+a182 1
+     :          NLDPRM(NLD), PH, PHI, PIXEL(2), SDUMMY, TH, THETA,
+a207 1
+*-----------------------------------------------------------------------
+d244 1
+a244 1
+               IF (WRLD(1).EQ.CONTXT(1)) THEN
+d246 1
+a246 1
+                  LNG = WRLD(1)
+d249 1
+a249 1
+                  LAT = WRLD(2)
+d253 2
+a254 2
+               CONTXT(1) = WRLD(1)
+               CONTXT(2) = WRLD(2)
+d259 2
+a260 1
+               CALL SPHREV (PH, TH, NLDPRM(25), WRLD(1), WRLD(2), IERR)
+d276 2
+a277 1
+               CALL SPHREV (-PH, TH, NLDPRM(25), WRLD(1), WRLD(2), IERR)
+d295 2
+a296 2
+               CONTXT(1) = WRLD(1)
+               CONTXT(2) = WRLD(2)
+d345 2
+a346 2
+         CONTXT(1) = WRLD(1)
+         CONTXT(2) = WRLD(2)
+d357 1
+a357 1
+         WCS(1)  = 0
+d365 7
+@
+
+
+1.13
+log
+@Extended it to handle simple linear coordinate axes as well.
+@
+text
+@d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.12 2001/02/19 02:18:18 mcalabre Exp mcalabre $
+d361 1
+@
+
+
+1.12
+log
+@PGCRVL -> PGSBOX.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1997-2000, Mark Calabretta
+d119 6
+a124 6
+*         (6)   LIN(6)   PC001001
+*         (7)   LIN(7)   PC002001
+*         (8)   LIN(8)   PC001002
+*         (9)   LIN(9)   PC002002
+*        (10)   LIN(10)  CDELT1
+*        (11)   LIN(11)  CDELT2
+d135 1
+a135 1
+*        (22)   CEL(3)   LONGPOLE
+d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.11 2000/11/16 01:04:30 mcalabre Exp mcalabre $
+d190 8
+d208 1
+d315 8
+d332 2
+a333 2
+         CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(20),
+     :      PHI, THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d368 2
+a369 2
+         CALL WCSREV (CTYPE, WCS, PIXEL, NLDPRM(1), IMGCRD,
+     :      NLDPRM(30), PHI, THETA, DUMMY, NLDPRM(20), WRLD, IERR)
+d376 7
+a382 2
+         WORLD(1) = WRLD(WCS(2))
+         WORLD(2) = WRLD(WCS(3))
+d384 5
+a388 4
+         IF (PHI.LT.-180D0 .OR. PHI.GT.180D0) THEN
+*           Pixel lies outside the principle range of native longitude.
+            IERR = 3
+            RETURN
+@
+
+
+1.11
+log
+@Check for pixels lying outside the principle range of native longitude.
+@
+text
+@d3 1
+a3 1
+*   PGCRVL - a non-linear coordinate axis plotter for PGPLOT.
+d20 1
+a20 1
+*   Correspondence concerning PGCRVL may be directed to:
+d30 1
+a30 1
+*   PGWCSL defines curvilinear celestial coordinate systems for PGCRVL
+d72 1
+a72 1
+*                              force PGCRVL to flush its plotting buffer
+d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.10 2000/09/07 23:09:40 mcalabre Exp mcalabre $
+@
+
+
+1.10
+log
+@Fixed a call to SPHFWD where an array, DUMMY, was passed instead of a
+scalar, SDUMMY.  Caused problems for the NAG f95 compiler as reported by
+Clive Page, University of Leicester.
+@
+text
+@d171 3
+d175 1
+a175 1
+*   $Id: pgwcsl.f,v 1.9 2000/05/10 04:54:48 mcalabre Exp mcalabre $
+d361 6
+@
+
+
+1.9
+log
+@Updated date in copyright notice.
+@
+text
+@d172 1
+a172 1
+*   $Id: pgwcsl.f,v 1.8 1999/12/01 04:18:09 mcalabre Exp mcalabre $
+d179 2
+a180 2
+     :          NLDPRM(NLD), PH, PHI, PIXEL(2), TH, THETA, WORLD(2),
+     :          WRLD(2)
+d240 1
+a240 1
+               CALL SPHFWD (LNG, LAT, NLDPRM(25), DUMMY, TH, IERR)
+@
+
+
+1.8
+log
+@Amended copyright notice; converted continuation character from "*" to ":".
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1997-1999, Mark Calabretta
+d172 1
+a172 1
+*   $Id: pgwcsl.f,v 1.7 1999/07/22 02:04:32 mcalabre Exp mcalabre $
+@
+
+
+1.7
+log
+@Added copyright notice.
+@
+text
+@d20 1
+a20 1
+*   Correspondence concerning WCSLIB may be directed to:
+d172 1
+a172 1
+*   $Id: pgwcsl.f,v 1.6 1997/04/03 04:14:08 mcalabre Exp $
+d175 1
+a175 1
+     *   WORLD, PIXEL, CONTRL, CONTXT, IERR)
+d179 2
+a180 2
+     *          NLDPRM(NLD), PH, PHI, PIXEL(2), TH, THETA, WORLD(2),
+     *          WRLD(2)
+d198 1
+a198 1
+     *         THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d250 1
+a250 1
+     *            THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d266 1
+a266 1
+     *            THETA, NLDPRM(30), IMGCRD, NLDPRM(1), CONTXT(7), IERR)
+d313 1
+a313 1
+     *      PHI, THETA, NLDPRM(30), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d349 1
+a349 1
+     *      NLDPRM(30), PHI, THETA, DUMMY, NLDPRM(20), WRLD, IERR)
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d3 27
+d172 1
+a172 1
+*   $Id: pgwcsl.f,v 1.5 1997/03/19 00:29:05 mcalabre Exp mcalabre $
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d145 1
+a145 1
+*   $Id: pgwcsl.f,v 1.4 1997/03/10 22:31:50 mcalabre Exp $
+d151 3
+a153 2
+      DOUBLE PRECISION CONTXT(20), DP, DUMMY(2), IMGCRD(2), NLDPRM(NLD),
+     *          PH, PHI, PIXEL(2), TH, THETA, WORLD(2), WRLD(2)
+d184 1
+a184 1
+            IF (ABS(PHI-CONTXT(1)).GT.180D0) THEN
+d186 2
+a187 2
+               CONTXT(3) = PIXEL(1)
+               CONTXT(4) = PIXEL(2)
+d189 1
+a189 1
+               IF (CONTXT(1).GT.PHI) THEN
+d191 1
+a191 1
+                  DP = (PHI - CONTXT(1)) + 360D0
+d194 1
+a194 1
+                  DP = (PHI - CONTXT(1)) - 360D0
+d197 1
+d199 1
+a199 1
+                  TH = CONTXT(2)
+d201 1
+a201 1
+                  TH = CONTXT(2) + (PH-CONTXT(1))*(THETA-CONTXT(2))/DP
+d204 10
+a213 2
+               CONTXT(1) = PHI
+               CONTXT(2) = THETA
+d215 5
+d239 1
+a239 1
+     *            THETA, NLDPRM(30), IMGCRD, NLDPRM(1), CONTXT(5), IERR)
+d255 4
+a258 2
+               CONTXT(1) = PHI
+               CONTXT(2) = THETA
+d263 2
+a264 2
+               PIXEL(1) = CONTXT(5)
+               PIXEL(2) = CONTXT(6)
+d268 2
+a269 2
+               PIXEL(1) = CONTXT(3)
+               PIXEL(2) = CONTXT(4)
+d297 4
+a300 2
+         CONTXT(1) = PHI
+         CONTXT(2) = THETA
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d106 31
+a136 31
+*        (20)   PRJ(0)   PROJP0
+*        (21)   PRJ(1)   PROJP1
+*        (22)   PRJ(2)   PROJP2
+*        (23)   PRJ(3)   PROJP3
+*        (24)   PRJ(4)   PROJP4
+*        (25)   PRJ(5)   PROJP5
+*        (26)   PRJ(6)   PROJP6
+*        (27)   PRJ(7)   PROJP7
+*        (28)   PRJ(8)   PROJP8
+*        (29)   PRJ(9)   PROJP9
+*        (30)   PRJ(10)    -
+*        (31)   PRJ(11)    -
+*        (32)   PRJ(12)    -
+*        (33)   PRJ(13)    -
+*        (34)   PRJ(14)    -
+*        (35)   PRJ(15)    -
+*        (36)   PRJ(16)    -
+*        (37)   PRJ(17)    -
+*        (38)   PRJ(18)    -
+*        (39)   PRJ(19)    -
+*        (40)   PRJ(20)    -
+*        (41)   CEL(1)   CRVAL1
+*        (42)   CEL(2)   CRVAL2
+*        (43)   CEL(3)   LONGPOLE
+*        (44)   CEL(4)   LATPOLE
+*        (45)   CEL(5)     -
+*        (46)   CEL(6)     -
+*        (47)   CEL(7)     -
+*        (48)   CEL(8)     -
+*        (49)   CEL(9)     -
+*        (50)   CEL(10)    -
+d145 1
+a145 1
+*   $Id: pgwcsl.f,v 1.3 1997/02/18 03:40:11 mcalabre Exp $
+d169 2
+a170 2
+            CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(41), PHI,
+     *         THETA, NLDPRM(20), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d206 3
+a208 3
+               CALL SPHREV (PH, TH, NLDPRM(46), WRLD(1), WRLD(2), IERR)
+               CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(41), PHI,
+     *            THETA, NLDPRM(20), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d221 4
+a224 4
+*              Pixel coordinates crossing out of the discontiniuty.
+               CALL SPHREV (-PH, TH, NLDPRM(46), WRLD(1), WRLD(2), IERR)
+               CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(41), PHI,
+     *            THETA, NLDPRM(20), IMGCRD, NLDPRM(1), CONTXT(5), IERR)
+d268 2
+a269 2
+         CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(41),
+     *      PHI, THETA, NLDPRM(20), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d294 2
+a295 2
+         NLDPRM(31) = 0D0
+         NLDPRM(45) = 0D0
+d303 1
+a303 1
+     *      NLDPRM(20), PHI, THETA, DUMMY, NLDPRM(41), WRLD, IERR)
+@
+
+
+1.3
+log
+@Translate error codes.
+@
+text
+@d145 1
+a145 1
+*   $Id: pgwcsl.f,v 1.2 1997/02/07 05:48:22 mcalabre Exp mcalabre $
+d151 2
+a152 2
+      DOUBLE PRECISION CONTXT(20), DUMMY(2), IMGCRD(2), NLDPRM(NLD),
+     *          PHI, PIXEL(2), THETA, WORLD(2), WRLD(2)
+d169 2
+a170 2
+            CALL WCSFWD (CTYPE, WCS, WRLD, DUMMY, NLDPRM(41),
+     *         PHI, THETA, NLDPRM(20), IMGCRD, NLDPRM(1), PIXEL, IERR)
+d183 54
+a236 8
+            IF (ABS(PHI-CONTXT(3)).GT.30D0) THEN
+*              Hit a discontinuity; rough truncation for now.
+               CONTXT(7) = PIXEL(1)
+               CONTXT(8) = PIXEL(2)
+               PIXEL(1)  = CONTXT(5)
+               PIXEL(2)  = CONTXT(6)
+               CONTXT(5) = CONTXT(7)
+               CONTXT(6) = CONTXT(8)
+d239 15
+a253 2
+               CONTXT(5) = PIXEL(1)
+               CONTXT(6) = PIXEL(2)
+a254 9
+
+            CONTXT(1) = WRLD(1)
+            CONTXT(2) = WRLD(2)
+            CONTXT(3) = PHI
+            CONTXT(4) = THETA
+         ELSE IF (CONTRL.EQ.1) THEN
+            PIXEL(1) = CONTXT(5)
+            PIXEL(2) = CONTXT(6)
+            CONTRL = 0
+d280 2
+a281 6
+         CONTXT(1) = WRLD(1)
+         CONTXT(2) = WRLD(2)
+         CONTXT(3) = PHI
+         CONTXT(4) = THETA
+         CONTXT(5) = PIXEL(1)
+         CONTXT(6) = PIXEL(2)
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d56 3
+a58 5
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid world coordinate.
+*                           4: Invalid linear transformation parameters.
+d145 1
+a145 1
+*   $Id: pgwcsl.f,v 1.1 1997/02/07 03:57:14 mcalabre Exp mcalabre $
+d155 2
+d171 11
+d220 9
+d258 6
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 2
+a4 1
+*   PGWCSL 
+d42 1
+a42 2
+*      CONTRL   I        Control flag for OPCODE = +2 (do not disturb
+*                        after initialization with OPCODE=0):
+d51 1
+a51 2
+*      CONTXT   D(20)    Context elements for OPCODE = +2.  Do not
+*                        disturb after initialization with OPCODE=0.
+d64 1
+a64 7
+*    1) PGCRVL first calls PGWCSL with OPCODE = 0 in order to initialize
+*       the work arrays.  It then uses OPCODE = -1 to determine the
+*       range of world coordinate values.  It anchors the start of each
+*       coordinate grid line with a call with OPCODE = +1, and then
+*       tracks it with OPCODE = +2.
+*
+*    2) PGWCSL assumes a simple 2-D image.  The CTYPE array must be
+d147 1
+a147 1
+*   $Id$
+@

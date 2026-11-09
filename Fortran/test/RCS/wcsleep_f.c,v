@@ -1,0 +1,359 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	1.0;
+
+1.0
+date	2023.07.04.15.02.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Utility routine for test programs that draw plots, to pause them for the
+specified number of milliseconds.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@//----------------------------------------------------------------------------
+// Utility routine for the WCSLIB Fortran test programs that draw plots, to
+// pause for the specified number of milliseconds between plots.  Whihout a
+// pause they just become a blur.  Required because the Fortran SLEEP()
+// function takes a whole number of seconds, which slows the test suite too
+// much.
+//
+// $Id: wcsleep_f.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+//----------------------------------------------------------------------------
+
+// Needed to get nanosleep() from time.h.
+#define _POSIX_C_SOURCE 199309L
+
+#include <time.h>
+
+
+int wcsleep_ (const int *millisec)
+
+{
+  // Scale milliseconds to nanoseconds.
+  struct timespec nano = {(time_t)0, (*millisec)*1000000L};
+  return nanosleep(&nano, 0x0);
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d8 1
+a8 1
+// $Id$
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d8 1
+a8 1
+// $Id: wcsleep_f.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+1.0
+log
+@Empty revision.
+@
+text
+@d1 23
+@

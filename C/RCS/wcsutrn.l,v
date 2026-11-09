@@ -1,0 +1,4829 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.08.59.02;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.07.26.29;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.25.07.06.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.07.12.00.30.38;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.22.07.28.05;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.27.05.10.37;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.04.53.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.09.03.02.42.20;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.01.10.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.25.00.26.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.07.21.03.48.09;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	4.14.1.2;
+
+4.14.1.2
+date	2012.09.26.07.53.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.03.43.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	5.13.1.2;
+
+5.13.1.2
+date	2016.02.07.08.35.55;	author mcalabre;	state Exp;
+branches;
+next	5.13.1.3;
+
+5.13.1.3
+date	2016.02.07.10.33.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.01.38.46;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.3;
+
+5.17.1.3
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.23.13.05.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.08.08.02.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.16.03.35.22;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.10.42;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.5;
+
+7.3.1.5
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.25.13.46.40;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.3;
+
+7.4.1.3
+date	2021.02.25.14.00.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.08.59.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.03.59.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Flex description file containing the definition of a lexical scanner that
+translates non-standard FITS units specifications.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutrn.l,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* wcsutrn.l is a Flex description file containing the definition of a lexical
+* scanner that translates non-standard FITS units specifications.
+*
+* It requires Flex v2.5.4 or later.
+*
+* Refer to wcsunits.h for a description of the user interface and operating
+* notes.
+*
+*===========================================================================*/
+
+/* Options. */
+%option full
+%option never-interactive
+%option noinput
+%option noyywrap
+%option outfile="wcsutrn.c"
+%option prefix="wcsutrn"
+%option reentrant
+%option extra-type="struct wcsutrn_extra *"
+
+/* Exclusive start states. */
+%x NEXT FLUSH
+
+%{
+#include <setjmp.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "wcserr.h"
+#include "wcsunits.h"
+
+// User data associated with yyscanner.
+struct wcsutrn_extra {
+  // Used in preempting the call to exit() by yy_fatal_error().
+  jmp_buf abort_jmp_env;
+};
+
+#define YY_DECL int wcsutrne_scanner(int ctrl, char unitstr[], \
+ struct wcserr **err, yyscan_t yyscanner)
+
+// Dummy definition to circumvent compiler warnings.
+#define YY_INPUT(inbuff, count, bufsize) { count = YY_NULL; }
+
+// Preempt the call to exit() by yy_fatal_error().
+#define exit(status) longjmp(yyextra->abort_jmp_env, status);
+
+// Internal helper functions.
+static YY_DECL;
+
+%}
+
+%%
+	static const char *function = "wcsutrne_scanner";
+	
+	if (err) *err = 0x0;
+	
+	char orig[80], subs[80];
+	*orig = '\0';
+	*subs = '\0';
+	
+	int bracket = 0;
+	int unsafe  = 0;
+	int status  = -1;
+	
+	yy_delete_buffer(YY_CURRENT_BUFFER, yyscanner);
+	yy_scan_string(unitstr, yyscanner);
+	*unitstr = '\0';
+	
+	// Return here via longjmp() invoked by yy_fatal_error().
+	if (setjmp(yyextra->abort_jmp_env)) {
+	  return wcserr_set(WCSERR_SET(UNITSERR_PARSER_ERROR),
+	    "Internal units translator error");
+	}
+	
+	BEGIN(INITIAL);
+	
+	#ifdef DEBUG
+	fprintf(stderr, "\n%s ->\n", unitstr);
+	#endif
+
+^" "*"[" {
+	  // Looks like a keycomment.
+	  strcat(unitstr, "[");
+	  bracket = 1;
+	}
+
+" "+	  // Discard leading whitespace.
+
+[^A-Za-z] {
+	  // Non-alphabetic character.
+	  strcat(unitstr, yytext);
+	  if (bracket && *yytext == ']') {
+	    BEGIN(FLUSH);
+	  }
+	}
+
+Angstroms|angstroms? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Angstrom", 80);
+	  BEGIN(NEXT);
+	}
+
+arcmins|ARCMINS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "arcmin", 80);
+	  BEGIN(NEXT);
+	}
+
+arcsecs|ARCSECS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "arcsec", 80);
+	  BEGIN(NEXT);
+	}
+
+BEAM	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "beam", 80);
+	  BEGIN(NEXT);
+	}
+
+Byte	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "byte", 80);
+	  BEGIN(NEXT);
+	}
+
+days?|DAYS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "d", 80);
+	  BEGIN(NEXT);
+	}
+
+D	{
+	  unsafe = 1;
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 4) ? "d" : "D", 80);
+	  BEGIN(NEXT);
+	}
+
+degrees?|Deg|Degrees?|DEG|DEGREES? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "deg", 80);
+	  BEGIN(NEXT);
+	}
+
+GHZ	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "GHz", 80);
+	  BEGIN(NEXT);
+	}
+
+hr|HR	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "h", 80);
+	  BEGIN(NEXT);
+	}
+
+H	{
+	  unsafe = 1;
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 2) ? "h" : "H", 80);
+	  BEGIN(NEXT);
+	}
+
+hz|HZ	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Hz", 80);
+	  BEGIN(NEXT);
+	}
+
+KHZ	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "kHz", 80);
+	  BEGIN(NEXT);
+	}
+
+JY	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Jy", 80);
+	  BEGIN(NEXT);
+	}
+
+[kK]elvins?|KELVINS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "K", 80);
+	  BEGIN(NEXT);
+	}
+
+KM	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "km", 80);
+	  BEGIN(NEXT);
+	}
+
+metres?|meters?|M|METRES?|METERS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "m", 80);
+	  BEGIN(NEXT);
+	}
+
+MIN	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "min", 80);
+	  BEGIN(NEXT);
+	}
+
+MHZ	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "MHz", 80);
+	  BEGIN(NEXT);
+	}
+
+Ohm	{
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "ohm", 80);
+	  BEGIN(NEXT);
+	}
+
+[pP]ascals?|PASCALS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Pa", 80);
+	  BEGIN(NEXT);
+	}
+
+pixels|PIXELS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "pixel", 80);
+	  BEGIN(NEXT);
+	}
+
+radians?|RAD|RADIANS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "rad", 80);
+	  BEGIN(NEXT);
+	}
+
+sec|seconds?|SEC|SECONDS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "s", 80);
+	  BEGIN(NEXT);
+	}
+
+S	{
+	  unsafe = 1;
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 1) ? "s" : "S", 80);
+	  BEGIN(NEXT);
+	}
+
+[vV]olts?|VOLTS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "V", 80);
+	  BEGIN(NEXT);
+	}
+
+years?|YR|YEARS? {
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "yr", 80);
+	  BEGIN(NEXT);
+	}
+
+[A-Za-z]+ {
+	  // Not a recognized alias.
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, orig, 80);
+	  BEGIN(NEXT);
+	}
+
+<NEXT>[A-Za-z]+ {
+	  // Reject the alias match.
+	  strcat(orig, yytext);
+	  strncpy(subs, orig, 80);
+	}
+
+<NEXT>" "+[^A-Za-z] {
+	  // Discard separating whitespace.
+	  unput(yytext[yyleng-1]);
+	}
+
+<NEXT>" "+[A-Za-z] {
+	  // Compress separating whitespace.
+	  strcat(unitstr, subs);
+	  strcat(unitstr, " ");
+	  if (strcmp(orig, subs)) status = 0;
+	  unput(yytext[yyleng-1]);
+	  *subs = '\0';
+	  BEGIN(INITIAL);
+	}
+
+<NEXT>.	{
+	  // Copy anything else unchanged.
+	  strcat(unitstr, subs);
+	  if (strcmp(orig, subs)) status = 0;
+	  unput(*yytext);
+	  *subs = '\0';
+	  BEGIN(INITIAL);
+	}
+
+<FLUSH>.* {
+	  // Copy out remaining input.
+	  strcat(unitstr, yytext);
+	}
+
+<<EOF>>	{
+	  // End-of-string.
+	  if (*subs) {
+	    strcat(unitstr, subs);
+	    if (strcmp(orig, subs)) status = 0;
+	  }
+	
+	  if (unsafe) {
+	    return wcserr_set(WCSERR_SET(UNITSERR_UNSAFE_TRANS),
+	      "Unsafe unit translation in '%s'", unitstr);
+	  }
+	  return status;
+	}
+
+%%
+
+/*----------------------------------------------------------------------------
+* External interface to the scanner.
+*---------------------------------------------------------------------------*/
+
+int wcsutrne(
+  int ctrl,
+  char unitstr[],
+  struct wcserr **err)
+
+{
+  // Function prototypes.
+  int yylex_init_extra(YY_EXTRA_TYPE extra, yyscan_t *yyscanner);
+  int yylex_destroy(yyscan_t yyscanner);
+
+  struct wcsutrn_extra extra;
+  yyscan_t yyscanner;
+  yylex_init_extra(&extra, &yyscanner);
+  int status = wcsutrne_scanner(ctrl, unitstr, err, yyscanner);
+  yylex_destroy(yyscanner);
+
+  return status;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.6.1.2 2026/04/10 03:59:44 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d123 2
+a124 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "Angstrom");
+d129 2
+a130 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "arcmin");
+d135 2
+a136 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "arcsec");
+d141 2
+a142 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "beam");
+d147 2
+a148 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "byte");
+d153 2
+a154 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "d");
+d160 2
+a161 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, (ctrl & 4) ? "d" : "D");
+d166 2
+a167 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "deg");
+d172 2
+a173 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "GHz");
+d178 2
+a179 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "h");
+d185 2
+a186 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, (ctrl & 2) ? "h" : "H");
+d191 2
+a192 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "Hz");
+d197 2
+a198 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "kHz");
+d203 2
+a204 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "Jy");
+d209 2
+a210 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "K");
+d215 2
+a216 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "km");
+d221 2
+a222 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "m");
+d227 2
+a228 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "min");
+d233 2
+a234 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "MHz");
+d239 2
+a240 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "ohm");
+d245 2
+a246 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "Pa");
+d251 2
+a252 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "pixel");
+d257 2
+a258 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "rad");
+d263 2
+a264 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "s");
+d270 2
+a271 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, (ctrl & 1) ? "s" : "S");
+d276 2
+a277 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "V");
+d282 2
+a283 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, "yr");
+d289 2
+a290 2
+	  strcpy(orig, yytext);
+	  strcpy(subs, orig);
+d297 1
+a297 1
+	  strcpy(subs, orig);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Replaced use of strcpy() with strncpy().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d123 2
+a124 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Angstrom", 80);
+d129 2
+a130 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "arcmin", 80);
+d135 2
+a136 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "arcsec", 80);
+d141 2
+a142 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "beam", 80);
+d147 2
+a148 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "byte", 80);
+d153 2
+a154 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "d", 80);
+d160 2
+a161 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 4) ? "d" : "D", 80);
+d166 2
+a167 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "deg", 80);
+d172 2
+a173 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "GHz", 80);
+d178 2
+a179 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "h", 80);
+d185 2
+a186 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 2) ? "h" : "H", 80);
+d191 2
+a192 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Hz", 80);
+d197 2
+a198 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "kHz", 80);
+d203 2
+a204 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Jy", 80);
+d209 2
+a210 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "K", 80);
+d215 2
+a216 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "km", 80);
+d221 2
+a222 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "m", 80);
+d227 2
+a228 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "min", 80);
+d233 2
+a234 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "MHz", 80);
+d239 2
+a240 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "ohm", 80);
+d245 2
+a246 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "Pa", 80);
+d251 2
+a252 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "pixel", 80);
+d257 2
+a258 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "rad", 80);
+d263 2
+a264 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "s", 80);
+d270 2
+a271 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, (ctrl & 1) ? "s" : "S", 80);
+d276 2
+a277 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "V", 80);
+d282 2
+a283 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, "yr", 80);
+d289 2
+a290 2
+	  strncpy(orig, yytext, 80);
+	  strncpy(subs, orig, 80);
+d297 1
+a297 1
+	  strncpy(subs, orig, 80);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutrn.l,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutrn.l,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.6.1.2 2021/07/01 08:59:28 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a354 2
+  static const char *function = "wcsutrne";
+
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@In wcsutrne(), quelled a warning from gcc 11.1.0: "unused variable
+‘function’ [-Wunused-variable]".
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d355 2
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.4.1.3 2021/02/25 14:00:57 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.3.1.5 2021/01/28 12:29:30 mcalabre Exp mcalabre $
+d43 1
+d57 5
+a61 24
+static int wcsutrne_scanner(int ctrl, char unitstr[], struct wcserr **err,
+                            yyscan_t yyscanner);
+
+//----------------------------------------------------------------------------
+
+int wcsutrne(
+  int ctrl,
+  char unitstr[],
+  struct wcserr **err)
+
+{
+  int status;
+  yyscan_t yyscanner;
+  int yylex_init(yyscan_t *yyscanner);
+  int yylex_destroy(yyscan_t yyscanner);
+
+  yylex_init(&yyscanner);
+  status = wcsutrne_scanner(ctrl, unitstr, err, yyscanner);
+  yylex_destroy(yyscanner);
+
+  return status;
+}
+
+//----------------------------------------------------------------------------
+d69 5
+a73 3
+// Used in preempting the call to exit() by yy_fatal_error().
+jmp_buf wcsutrn_abort_jmp_env;
+#define exit(status) longjmp(wcsutrn_abort_jmp_env, status)
+d78 3
+a80 1
+	static const char *function = "wcsutrne";
+d83 3
+a89 5
+	if (err) *err = 0x0;
+	
+	*orig = '\0';
+	*subs = '\0';
+	
+d95 1
+a95 1
+	if (setjmp(wcsutrn_abort_jmp_env)) {
+d97 1
+a97 1
+	    "Internal units translator error parsing '%s'", unitstr);
+d344 25
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Use of global variable wcsutrn_abort_jmp_env potentially made the code
+thread-unsafe.  Modified to use the yyextra mechanism instead.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+a42 1
+%option extra-type="struct wcsutrn_extra *"
+d56 24
+a79 5
+// User data associated with yyscanner.
+struct wcsutrn_extra {
+  // Used in preempting the call to exit() by yy_fatal_error().
+  jmp_buf abort_jmp_env;
+};
+d87 3
+a89 5
+// Preempt the call to exit() by yy_fatal_error().
+#define exit(status) longjmp(yyextra->abort_jmp_env, status);
+
+// Internal helper functions.
+static YY_DECL;
+d94 1
+a94 1
+	static const char *function = "wcsutrne_scanner";
+d111 1
+a111 1
+	if (setjmp(yyextra->abort_jmp_env)) {
+d113 1
+a113 1
+	    "Internal units translator error");
+a359 25
+
+/*----------------------------------------------------------------------------
+* External interface to the scanner.
+*---------------------------------------------------------------------------*/
+
+int wcsutrne(
+  int ctrl,
+  char unitstr[],
+  struct wcserr **err)
+
+{
+  static const char *function = "wcsutrne";
+
+  // Function prototypes.
+  int yylex_init_extra(YY_EXTRA_TYPE extra, yyscan_t *yyscanner);
+  int yylex_destroy(yyscan_t yyscanner);
+
+  struct wcsutrn_extra extra;
+  yyscan_t yyscanner;
+  yylex_init_extra(&extra, &yyscanner);
+  int status = wcsutrne_scanner(ctrl, unitstr, err, yyscanner);
+  yylex_destroy(yyscanner);
+
+  return status;
+}
+@
+
+
+7.4.1.3
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.4.1.2 2021/02/25 13:46:40 mcalabre Exp mcalabre $
+d80 5
+a86 1
+	char orig[80], subs[80];
+a88 4
+	
+	int bracket = 0;
+	int unsafe  = 0;
+	int status  = -1;
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsutrn.l,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d59 1
+a59 1
+/*--------------------------------------------------------------------------*/
+d79 1
+a79 1
+/*--------------------------------------------------------------------------*/
+d84 1
+a84 1
+/* Dummy definition to circumvent compiler warnings. */
+d87 1
+a87 1
+/* Used in preempting the call to exit() by yy_fatal_error(). */
+d110 1
+a110 1
+	/* Return here via longjmp() invoked by yy_fatal_error(). */
+d123 1
+a123 1
+	  /* Looks like a keycomment. */
+d128 1
+a128 1
+" "+	  /* Discard leading whitespace. */
+d131 1
+a131 1
+	  /* Non-alphabetic character. */
+d138 1
+a138 1
+angstrom {
+d304 1
+a304 1
+	  /* Not a recognized alias. */
+d311 1
+a311 1
+	  /* Reject the alias match. */
+d317 1
+a317 1
+	  /* Discard separating whitespace. */
+d322 1
+a322 1
+	  /* Compress separating whitespace. */
+d332 1
+a332 1
+	  /* Copy anything else unchanged. */
+d341 1
+a341 1
+	  /* Copy out remaining input. */
+d346 1
+a346 1
+	  /* End-of-string. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d62 1
+a62 1
+//----------------------------------------------------------------------------
+d82 1
+a82 1
+//----------------------------------------------------------------------------
+d87 1
+a87 1
+// Dummy definition to circumvent compiler warnings.
+d90 1
+a90 1
+// Used in preempting the call to exit() by yy_fatal_error().
+d113 1
+a113 1
+	// Return here via longjmp() invoked by yy_fatal_error().
+d126 1
+a126 1
+	  // Looks like a keycomment.
+d131 1
+a131 1
+" "+	  // Discard leading whitespace.
+d134 1
+a134 1
+	  // Non-alphabetic character.
+d307 1
+a307 1
+	  // Not a recognized alias.
+d314 1
+a314 1
+	  // Reject the alias match.
+d320 1
+a320 1
+	  // Discard separating whitespace.
+d325 1
+a325 1
+	  // Compress separating whitespace.
+d335 1
+a335 1
+	  // Copy anything else unchanged.
+d344 1
+a344 1
+	  // Copy out remaining input.
+d349 1
+a349 1
+	  // End-of-string.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsutrn.l,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Allow 'Angstroms' and 'angstroms' as additional synonyms for 'Angstrom'.
+@
+text
+@d24 1
+a24 1
+  $Id: wcsutrn.l,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+d140 1
+a140 1
+Angstroms|angstroms? {
+@
+
+
+7.3.1.5
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsutrn.l,v 7.3.1.4 2021/01/28 12:10:42 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.4.1.3 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+a50 4
+/* To get the prototype for fileno() from stdio.h when gcc is invoked with
+ * -std=c89 (same as -ansi) or -std=c99 since we do not define YY_INPUT. */
+#define _POSIX_SOURCE 1
+
+d86 3
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Provide a dummy definition of YY_INPUT to quell compiler warnings,
+particularly from Microsoft Visual C++ (MSVC).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d51 4
+a89 3
+
+/* Dummy definition to circumvent compiler warnings. */
+#define YY_INPUT(inbuff, count, bufsize) { count = YY_NULL; }
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.4.1.2 2019/12/16 03:35:22 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.2.1.3 2019/07/08 08:02:29 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d41 1
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Set '%option noinput' to quench -Wunused-function compiler warnings that
+arise from not using flex's input() function.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.2.1.3 2019/07/08 06:55:39 mcalabre Exp mcalabre $
+a40 1
+%option noinput
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.18.1.2 2018/07/23 13:05:10 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.17.1.3 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d184 1
+a184 1
+degrees?|DEG|DEGREES? {
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Recognise 'Deg', 'Degree', and 'Degrees' as aliases for 'deg'.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d184 1
+a184 1
+degrees?|Deg|Degrees?|DEG|DEGREES? {
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d44 1
+d62 27
+a88 1
+#define YY_DECL int wcsutrne(int ctrl, char unitstr[], struct wcserr **err)
+a102 1
+	int yylex_destroy(void);
+d109 2
+a110 2
+	yy_delete_buffer(YY_CURRENT_BUFFER);
+	yy_scan_string(unitstr);
+a354 1
+	  yylex_destroy();
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Implemented as a reentrant scanner (with the same API) by means of a thin
+wrapper over the original Flex scanner modified as required (with changed
+API) to use the "reentrant" option.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+a43 1
+%option reentrant
+d61 1
+a61 27
+static int wcsutrne_scanner(int ctrl, char unitstr[], struct wcserr **err,
+                            yyscan_t yyscanner);
+
+/*--------------------------------------------------------------------------*/
+
+int wcsutrne(
+  int ctrl,
+  char unitstr[],
+  struct wcserr **err)
+
+{
+  int status;
+  yyscan_t yyscanner;
+  int yylex_init(yyscan_t *yyscanner);
+  int yylex_destroy(yyscan_t yyscanner);
+
+  yylex_init(&yyscanner);
+  status = wcsutrne_scanner(ctrl, unitstr, err, yyscanner);
+  yylex_destroy(yyscanner);
+
+  return status;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#define YY_DECL int wcsutrne_scanner(int ctrl, char unitstr[], \
+ struct wcserr **err, yyscan_t yyscanner)
+d76 1
+d83 2
+a84 2
+	yy_delete_buffer(YY_CURRENT_BUFFER, yyscanner);
+	yy_scan_string(unitstr, yyscanner);
+d329 1
+@
+
+
+5.17.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.17.1.2 2017/12/05 01:38:46 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.13.1.3 2016/02/07 10:33:50 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+a75 1
+	YY_BUFFER_STATE inbuff;
+d83 2
+a84 1
+	inbuff = yy_scan_string(unitstr);
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.13.1.2
+log
+@Added yy_delete_buffer(YY_CURRENT_BUFFER) before yy_scan_string(unitstr) as
+a workaround for a memory leak introduced by a change (bug) in flex in
+Aug/2012.  Reported, and fix supplied by Thomas Robitaille and Erik Bray.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+a83 1
+	yy_delete_buffer(YY_CURRENT_BUFFER);
+@
+
+
+5.13.1.3
+log
+@Removed unused variable inbuff.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.13.1.2 2016/02/07 08:35:55 mcalabre Exp mcalabre $
+d76 1
+d85 1
+a85 1
+	yy_scan_string(unitstr);
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.16.1.2 2013/01/29 03:43:47 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.14.1.2 2012/09/26 07:53:12 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+d71 1
+a71 1
+
+d79 2
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.14.1.2
+log
+@Bug fix for error reporting, initialize the wcserr pointer.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutrn.l,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+d71 1
+a71 1
+	
+a78 2
+	if (err) *err = 0x0;
+	
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutrn.l,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutrn.l,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.7.1.3 2011/08/09 02:43:50 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.6.1.3 2011/01/25 00:26:16 cal103 Exp cal103 $
+d64 1
+d67 1
+a67 1
+#define YY_DECL int wcsutrn(int ctrl, char unitstr[])
+d76 2
+d93 2
+a94 1
+	  return 9;
+d334 5
+a338 1
+	  return unsafe ? 12 : status;
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added error messaging based on wcserr.  Changes supplied by Michael
+Droettboom (STScI) with respect to the released WCSLIB 4.7 sources.
+@
+text
+@a63 1
+#include "wcserr.h"
+d66 1
+a66 1
+#define YY_DECL int wcsutrn_err(int ctrl, char unitstr[], struct wcserr *err)
+d90 1
+a90 3
+          return WCSERR_SET(
+            err, UNITSERR_PARSER_ERROR,
+            "Internal units translator error parsing '%s'", unitstr);
+d330 1
+a330 6
+          if (unsafe) {
+            return WCSERR_SET(
+              err, UNITSERR_UNSAFE_TRANS,
+              "Unsafe unit translation in '%s'", unitstr);
+          }
+          return status;
+@
+
+
+4.7.1.3
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp cal103 $
+d67 1
+a67 1
+#define YY_DECL int wcsutrne(int ctrl, char unitstr[], struct wcserr **err)
+a75 2
+	static const char *function = "wcsutrne";
+
+d91 3
+a93 2
+	  return wcserr_set(WCSERR_SET(UNITSERR_PARSER_ERROR),
+	    "Internal units translator error parsing '%s'", unitstr);
+d333 6
+a338 5
+	  if (unsafe) {
+	    return wcserr_set(WCSERR_SET(UNITSERR_UNSAFE_TRANS),
+	      "Unsafe unit translation in '%s'", unitstr);
+	  }
+	  return status;
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.5.1.2 2010/11/15 01:10:45 cal103 Exp cal103 $
+d96 1
+a96 1
+	printf("\n%s ->\n", unitstr);
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Replaced calls to printf() with fprintf(stderr,...) in the debug
+statements.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d96 1
+a96 1
+	fprintf(stderr, "\n%s ->\n", unitstr);
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.4.1.3 2010/01/19 03:42:50 cal103 Exp cal103 $
+d61 1
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@stdlib.h must be included before the redefinition of exit(), reported
+by Peter Williams.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+a60 1
+#include <stdlib.h>
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.3.1.2 2009/07/22 04:53:58 cal103 Exp cal103 $
+a66 5
+#ifdef DEBUG
+  /* Print text as it is matched. */
+  #define YY_USER_ACTION printf("Rule %03d: \"%s\"\n", yy_act, yytext);
+#endif
+
+d99 1
+a99 1
+	  /* Rule 001: Looks like a keycomment. */
+d104 1
+a104 1
+" "+	  /* Rule 002: Discard leading whitespace. */
+d107 1
+a107 1
+	  /* Rule 003: Non-alphabetic character. */
+a114 1
+	  /* Rule 004. */
+a120 1
+	  /* Rule 005. */
+a126 1
+	  /* Rule 006. */
+a132 1
+	  /* Rule 007. */
+a138 1
+	  /* Rule 008. */
+a144 1
+	  /* Rule 009. */
+a150 1
+	  /* Rule 010. */
+a157 1
+	  /* Rule 011. */
+a163 1
+	  /* Rule 012. */
+a169 1
+	  /* Rule 013. */
+a175 1
+	  /* Rule 014. */
+a182 1
+	  /* Rule 015. */
+a188 1
+	  /* Rule 016. */
+a194 1
+	  /* Rule 017. */
+a200 1
+	  /* Rule 018. */
+a206 1
+	  /* Rule 019. */
+a212 1
+	  /* Rule 020. */
+a218 1
+	  /* Rule 021. */
+a224 1
+	  /* Rule 022. */
+a230 1
+	  /* Rule 023. */
+a236 1
+	  /* Rule 024. */
+a242 1
+	  /* Rule 025. */
+a248 1
+	  /* Rule 026. */
+a254 1
+	  /* Rule 027. */
+a260 1
+	  /* Rule 028. */
+a267 1
+	  /* Rule 029. */
+a273 1
+	  /* Rule 030. */
+d280 1
+a280 1
+	  /* Rule 031: Not a recognized alias. */
+d287 1
+a287 1
+	  /* Rule 032: Reject the alias match. */
+d293 1
+a293 1
+	  /* Rule 033: Discard separating whitespace. */
+d298 1
+a298 1
+	  /* Rule 034: Compress separating whitespace. */
+d308 1
+a308 1
+	  /* Rule 035: Copy anything else unchanged. */
+d317 1
+a317 1
+	  /* Rule 036: Copy out remaining input. */
+d322 1
+a322 1
+	  /* Rule unnumbered: End-of-string. */
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Removed the high-maintenance rule numbering and the debug output
+implemented via YY_USER_ACTION since flex's '--debug' option provides
+what's needed.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+d67 5
+d104 1
+a104 1
+	  /* Looks like a keycomment. */
+d109 1
+a109 1
+" "+	  /* Discard leading whitespace. */
+d112 1
+a112 1
+	  /* Non-alphabetic character. */
+d120 1
+d127 1
+d134 1
+d141 1
+d148 1
+d155 1
+d162 1
+d170 1
+d177 1
+d184 1
+d191 1
+d199 1
+d206 1
+d213 1
+d220 1
+d227 1
+d234 1
+d241 1
+d248 1
+d255 1
+d262 1
+d269 1
+d276 1
+d283 1
+d290 1
+d298 1
+d305 1
+d312 1
+a312 1
+	  /* Not a recognized alias. */
+d319 1
+a319 1
+	  /* Reject the alias match. */
+d325 1
+a325 1
+	  /* Discard separating whitespace. */
+d330 1
+a330 1
+	  /* Compress separating whitespace. */
+d340 1
+a340 1
+	  /* Copy anything else unchanged. */
+d349 1
+a349 1
+	  /* Copy out remaining input. */
+d354 1
+a354 1
+	  /* End-of-string. */
+@
+
+
+4.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutrn.l,v 4.4.1.2 2009/09/03 02:42:20 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutrn.l,v 4.2.1.5 2007/12/27 05:10:37 cal103 Exp cal103 $
+d34 2
+a35 2
+*   wcsutrn.l is a Flex description file containing the definition of a
+*   lexical scanner that translates non-standard FITS units specifications.
+d37 1
+a37 1
+*   It requires Flex v2.5.4 or later.
+d39 2
+a40 2
+*   Refer to wcsunits.h for a description of the user interface and operating
+*   notes.
+d59 1
+d72 4
+d84 1
+a84 1
+        int yylex_destroy(void);
+d91 6
+d140 1
+a140 1
+BEAM {
+d147 1
+a147 1
+Byte {
+d161 1
+a161 1
+D {
+d176 1
+a176 1
+GHZ {
+d183 1
+a183 1
+hr|HR {
+d190 1
+a190 1
+H {
+d198 1
+a198 1
+hz|HZ {
+d205 1
+a205 1
+KHZ {
+d212 1
+a212 1
+JY {
+d226 1
+a226 1
+KM {
+d240 1
+a240 1
+MIN {
+d247 1
+a247 1
+MHZ {
+d254 1
+a254 1
+Ohm {
+d289 1
+a289 1
+S {
+d339 1
+a339 1
+<NEXT>. {
+d353 1
+a353 1
+<<EOF>> {
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: wcsutrn.l,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Use setjmp/longjmp to preempt the call to exit() by yy_fatal_error();
+changed indentation in the prologue.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutrn.l,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp $
+d34 2
+a35 2
+* wcsutrn.l is a Flex description file containing the definition of a lexical
+* scanner that translates non-standard FITS units specifications.
+d37 1
+a37 1
+* It requires Flex v2.5.4 or later.
+d39 2
+a40 2
+* Refer to wcsunits.h for a description of the user interface and operating
+* notes.
+a58 1
+#include <setjmp.h>
+a70 4
+/* Used in preempting the call to exit() by yy_fatal_error(). */
+jmp_buf wcsutrn_abort_jmp_env;
+#define exit(status) longjmp(wcsutrn_abort_jmp_env, status)
+
+d79 1
+a79 1
+	int yylex_destroy(void);
+a85 6
+	
+	/* Return here via longjmp() invoked by yy_fatal_error(). */
+	if (setjmp(wcsutrn_abort_jmp_env)) {
+	  return 9;
+	}
+	
+d129 1
+a129 1
+BEAM	{
+d136 1
+a136 1
+Byte	{
+d150 1
+a150 1
+D	{
+d165 1
+a165 1
+GHZ	{
+d172 1
+a172 1
+hr|HR	{
+d179 1
+a179 1
+H	{
+d187 1
+a187 1
+hz|HZ	{
+d194 1
+a194 1
+KHZ	{
+d201 1
+a201 1
+JY	{
+d215 1
+a215 1
+KM	{
+d229 1
+a229 1
+MIN	{
+d236 1
+a236 1
+MHZ	{
+d243 1
+a243 1
+Ohm	{
+d278 1
+a278 1
+S	{
+d328 1
+a328 1
+<NEXT>.	{
+d342 1
+a342 1
+<<EOF>>	{
+@
+
+
+4.2
+log
+@WCSLIB 4.2: removed #include <unistd.h> - shouldn't be needed; minor
+simplification of the pattern for degrees.
+@
+text
+@d2 30
+a31 28
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: wcsutrn.l,v 4.1 2005/08/25 07:26:29 cal103 Exp cal103 $
+d48 2
+d55 4
+d79 1
+d93 1
+a93 1
+	  /* Rule 001: Looks like an inline comment. */
+d348 2
+a349 3
+
+	  yy_delete_buffer(inbuff);
+
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d29 1
+a29 1
+*   $Id: wcsutrn.l,v 4.2 2005/09/22 08:59:02 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Invoke yy_delete_buffer() with argument YY_CURRENT_BUFFER rather than inbuff
+for consistency with other flex code.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d29 1
+a29 1
+*   $Id: wcsutrn.l,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d339 3
+a341 2
+	
+	  yy_delete_buffer(YY_CURRENT_BUFFER);
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 28
+a29 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutrn.l,v 4.2.1.2 2007/07/12 00:30:38 cal103 Exp cal103 $
+@
+
+
+4.2.1.4
+log
+@"Inline comment" -> "keycomment".
+@
+text
+@d31 1
+a31 1
+    $Id: wcsutrn.l,v 4.2.1.3 2007/12/03 05:02:17 cal103 Exp cal103 $
+d86 1
+a86 1
+	  /* Rule 001: Looks like a keycomment. */
+@
+
+
+4.2.1.5
+log
+@Call yylex_destroy() to free buffer memory rather than yy_delete_buffer()
+as the former reinitializes global variables for subsequent calls.  Set
+%option for outfile and prefix to save doing it on the flex command line.
+Define _POSIX_SOURCE to get the prototype for fileno() from stdio.h when
+gcc is invoked with -std=c89 (same as -ansi).
+@
+text
+@d31 1
+a31 1
+    $Id: wcsutrn.l,v 4.2.1.4 2007/12/22 07:28:05 cal103 Exp cal103 $
+a47 2
+%option outfile="wcsutrn.c"
+%option prefix="wcsutrn"
+a52 4
+/* To get the prototype for fileno() from stdio.h when gcc is invoked with
+ * -std=c89 (same as -ansi) or -std=c99 since we do not define YY_INPUT. */
+#define _POSIX_SOURCE 1
+
+a72 1
+        int yylex_destroy(void);
+d342 1
+a342 1
+	  yylex_destroy();
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d29 1
+a29 1
+*   $Id$
+a52 1
+#include <unistd.h>
+d149 1
+a149 1
+degree|degrees|DEG|DEGREE|DEGREES {
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 346
+@

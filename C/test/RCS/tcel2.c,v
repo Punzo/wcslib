@@ -1,0 +1,5984 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.02.15.15;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.31.04.08.59;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.24.35;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.31.25;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.01.04.13;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.43.43;	author mcalabre;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2004.02.11.00.42.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.06.32.41;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.12.02.45.59;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.12.03.05.12.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.37.43;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.14.02.11.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.11.01.48.27;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.06.12.01.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	8.3.1.2;
+
+8.3.1.2
+date	2024.07.09.09.32.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.13.10.44;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.10.13.33.56;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.4;
+
+8.6.1.4
+date	2026.04.25.08.00.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program that thoroughly tests the WCSLIB celestial coordinate transformation
+routines, particularly celset(), by plotting oblique test grids for a wide
+variety of transformation parameters.  A simple user interface provides
+limited control of the path taken through this parameter space.  (Requires
+PGPLOT and X11.)
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tcel2.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tcel2 thoroughly tests the WCSLIB celestial coordinate transformation
+* routines, particularly celset(), by plotting oblique test grids for a wide
+* variety of transformation parameters.  A simple user interface provides
+* limited control of the path taken through this parameter space.
+*
+*---------------------------------------------------------------------------*/
+
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+#include <math.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
+
+#include <cpgplot.h>
+
+#include <cel.h>
+
+#define nint(x) ((int)(x + (((x) > 0.0) ? 0.5 : -0.5)))
+
+int main()
+
+{
+  printf(
+  "Testing WCSLIB celestial coordinate transformation routines (tcel2.c)\n"
+  "---------------------------------------------------------------------\n");
+
+  // List status return messages.
+  printf("\nList of cel status return values:\n");
+  for (int status = 1; status <= 6; status++) {
+    printf("%4d: %s.\n", status, cel_errmsg[status]);
+  }
+
+  printf("\n\nLegend (in the order drawn)\n---------------------------\n");
+
+  printf("Native graticule in dark green with the meridian containing the "
+         "celestial\n   pole (LONPOLE) thicker and in green.  Also tagged "
+         "beyond the perimeter.\n");
+
+  printf("Celestial graticule colour-coded, the direction of increasing "
+         "celestial\n   longitude and latitude is white -> blue -> red, "
+         "with the equator and\n   prime meridian in yellow.\n");
+
+  printf("Celestial meridian (CRVAL1) and parallel (CRVAL2) through the "
+         "reference point\n   is thicker and dashed.\n");
+
+  printf("Reference point of the projection (phi0,theta0) is marked with "
+         "a green circle\n   with red centre.  It should coincide with the "
+         "dashed celestial meridian and\n   parallel.\n");
+
+  printf("Celestial pole (LONPOLE,LATPOLE) marked with a green circle with "
+         "black centre.\n");
+
+  printf("Celestial prime meridian expected for \"change of origin\" case "
+         "marked with\n   an open yellow circle (where applicable).  Should "
+         "coincide with the prime\n   meridian.\n");
+
+  printf("\n\n");
+
+  printf("Loop control; LONPOLE changes fastest, then CRVAL1, then CRVAL2\n"
+         "---------------------------------------------------------------\n"
+         "       next: do next plot\n"
+         "       skip: skip past invalid values of LONPOLE\n"
+         "      break: break out of  inner loop on LONPOLE\n"
+         "   continue: cycle through inner loop on LONPOLE\n");
+  printf("       proj: skip to next projection\n"
+         "        inc: LONPOLE++, preserving CRVAL1 & CRVAL2\n"
+         "       jump: CRVAL2++,  preserving CRVAL1 & LONPOLE\n"
+         "       exit: terminate execution\n"
+         "       quit: terminate execution\n"
+         "Capital letter kills query.\n");
+
+  printf("\n\n");
+
+
+  // PGPLOT initialization.
+  char text[128];
+  strncpy(text, "/xwindow", 128);
+  cpgbeg(0, text, 1, 1);
+
+  // Define pen colours.
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);		// Black
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);		// Yellow
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);		// White
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);		// Mauve
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);		// Pink
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);		// Grey
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);		// Mauve
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);		// Pink
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);		// Dark green
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);		// Green
+  cpgscr(10, 1.0f, 0.0f, 0.0f);		// Red
+
+  // Define PGPLOT viewport.
+  cpgenv(-195.0f, 195.0f, -195.0f, 195.0f, 1, -2);
+  cpgsch(0.8f);
+
+
+  char ctrl = 'n';
+  for (int iprj = 0; iprj < 4; iprj++) {
+    // Initialize.
+    struct celprm native, celestial;
+    celini(&native);
+    celini(&celestial);
+
+    // Reference coordinates for the native graticule.
+    if (iprj == 0) {
+      // Set up a zenithal equidistant projection.
+      strncpy(native.prj.code, "ARC", 4);
+
+      native.ref[0] =   0.0;
+      native.ref[1] =  90.0;
+      native.ref[2] = 180.0;
+
+      celestial.phi0   =  0.0;
+      celestial.theta0 = 90.0;
+
+    } else if (iprj == 1) {
+      // Set up a conic equidistant projection.
+      strncpy(native.prj.code, "COD", 4);
+      native.prj.pv[1] = 45.0;
+      native.prj.pv[2] = 25.0;
+
+      native.ref[0] =   0.0;
+      native.ref[1] =  45.0;
+      native.ref[2] = 180.0;
+
+      celestial.phi0   = 60.0;
+      celestial.theta0 = 45.0;
+
+    } else if (iprj == 2) {
+      // Set up a Sanson-Flamsteed projection as Bonne's equatorial.
+      strncpy(native.prj.code, "BON", 4);
+      native.prj.pv[1] = 0.0;
+
+      native.ref[0] = 0.0;
+      native.ref[1] = 0.0;
+      native.ref[2] = 0.0;
+
+      celestial.phi0   = -30.0;
+      celestial.theta0 =   0.0;
+
+    } else if (iprj == 3) {
+      // Set up a polyconic projection.
+      strncpy(native.prj.code, "PCO", 4);
+
+      native.ref[0] = 0.0;
+      native.ref[1] = 0.0;
+      native.ref[2] = 0.0;
+
+      celestial.phi0   = -60.0;
+      celestial.theta0 = -90.0;
+    }
+
+    // Copy projection parameters.
+    strncpy(celestial.prj.code, native.prj.code, 4);
+    celestial.prj.pv[1] = native.prj.pv[1];
+    celestial.prj.pv[2] = native.prj.pv[2];
+
+    // Loop over CRVAL2, CRVAL1 and LONPOLE.
+    int crval1_j  = -180;
+    int crval2_i  =   45;
+    int lonpole_i =   15;
+    int lonpole_j = -180;
+    int crval1, crval2, lonpole;
+    for (crval2 = -90; crval2 <=  90; crval2 += crval2_i) {
+      for (crval1 = -180; crval1 <= 180; crval1 += 90) {
+        int first = 1;
+        for (lonpole = -180; lonpole <= 180; lonpole += lonpole_i) {
+          // lonpole = 999;
+          int latpole = 999;
+
+          // if (crval2 < 0) latpole = -999;
+          // if (crval2 > 0) latpole =  999;
+
+          if (ctrl == 'j' || ctrl == 'J') {
+            // Restore CRVAL1 and LONPOLE from last time.
+            crval1  = crval1_j;
+            lonpole = lonpole_j;
+          }
+
+          celestial.ref[0] = (double)crval1;
+          celestial.ref[1] = (double)crval2;
+          celestial.ref[2] = (double)lonpole;
+          celestial.ref[3] = (double)latpole;
+
+          // Buffer PGPLOT output.
+          cpgbbuf();
+          cpgeras();
+          cpgsci(2);
+
+          // Write parameter summary.
+          snprintf(text, 128, "(CRVAL1, CRVAL2, LONPOLE): (%+3.3d, %+2.2d, "
+            "%+3.3d)", crval1, crval2, lonpole);
+          cpgtext(-180.0f, 200.0f, text);
+
+          // Skip invalid values of LONPOLE.
+          if (celset(&celestial)) {
+            snprintf(text, 128, "INVALID VALUE OF LONPOLE (= %+3.3d)",
+              lonpole);
+            cpgtext(-90.0f, 0.0f, text);
+
+            snprintf(text, 128, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+              "(%+3.3d, %+2.2d)", native.prj.code, nint(celestial.phi0),
+              nint(celestial.theta0));
+            cpgtext(-180.0f, -200.0f, text);
+
+            if (ctrl == 's' || ctrl == 'S') {
+              cpgebuf();
+              continue;
+            }
+
+            goto skip;
+          }
+
+          // Write parameters.
+          snprintf(text, 128, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+            "(%+3.3d, %+2.2d) - green circle with red centre",
+            native.prj.code, nint(celestial.phi0),
+            nint(celestial.theta0));
+          cpgtext(-180.0f, -200.0f, text);
+
+          snprintf(text, 128, "(CRVAL1, CRVAL2): (%+3.3d, %+2.2d) - dashed "
+            "grid lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+          cpgtext(-180.0f, -213.0f, text);
+
+          snprintf(text, 128, "(LONPOLE, LATPOLE): (%+3.3d, %+3.3d) -> "
+            "(%+3.3d, %+2.2d) - open green circle", lonpole, latpole,
+            nint(celestial.ref[2]), nint(celestial.ref[3]));
+          cpgtext(-180.0f, -226.0f, text);
+
+          snprintf(text, 128, "(\\ga\\dp\\u, \\gd\\dp\\u): (%+3.3d, %+2.2d)",
+            nint(celestial.euler[0]), nint(90.0-celestial.euler[1]));
+          cpgtext(-180.0f, -239.0f, text);
+
+          if (celestial.latpreq == 0) {
+            snprintf(text, 128, "(LATPOLE not required.)");
+          } else if (celestial.latpreq == 1) {
+            snprintf(text, 128, "(LATPOLE disambiguates.)");
+          } else if (celestial.latpreq == 2) {
+            snprintf(text, 128, "(LATPOLE IS DEFINITIVE.)");
+          }
+          cpgtext(-40.0f, -239.0f, text);
+
+          // Draw the native graticule in the background (dark green).
+          cpgsci(8);
+
+          int    stat[361];
+          float  xr[512], yr[512];
+          double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+
+          // Draw native meridians of longitude.
+          for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+            lat[j] = (double)ilat;
+          }
+
+          int phi_p = nint(celestial.ref[2]);
+          for (int ilng = -180; ilng <= 180; ilng += 15) {
+            lng[0] = (double)ilng;
+            if (ilng == -180) lng[0] = -179.99;
+            if (ilng ==  180) lng[0] =  179.99;
+
+            // Meridian containing the celestial pole (thick green).
+            if (ilng == phi_p) {
+              cpgslw(5);
+              cpgsci(9);
+            }
+
+            cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+            int k = 0;
+            for (int j = 0; j < 181; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+            cpgslw(1);
+            cpgsci(8);
+          }
+
+          // Draw native parallels of latitude.
+          lng[0]   = -179.99;
+          lng[360] =  179.99;
+          for (int j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+            lng[j] = (double)ilng;
+          }
+
+          for (int ilat = -90; ilat <= 90; ilat += 15) {
+            lat[0] = (double)ilat;
+
+            cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+            int k = 0;
+            for (int j = 0; j < 361; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+          }
+
+          // Tag the longitude of the celestial pole.
+          cpgslw(5);
+          cpgsci(9);
+          phi[0]   = celestial.ref[2];
+          theta[0] = -90.0;
+          theta[1] = -80.0;
+          prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          xr[1] = -x[0] + (x[1] - x[0]);
+          yr[1] =  y[0] - (y[1] - y[0]);
+          cpgline(2, xr, yr);
+
+
+          // Draw a colour-coded celestial coordinate graticule.
+          int ci = 1;
+
+          // Draw celestial meridians of longitude.
+          for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+            lat[j] = (double)ilat;
+          }
+
+          for (int ilng = -180; ilng <= 180; ilng += 15) {
+            lng[0] = (double)ilng;
+
+            // Cycle through colours with the prime meridian in yellow.
+            if (++ci > 7) ci = 2;
+            cpgsci(ilng?ci:1);
+
+            // Dash the reference longitude and make it thicker.
+            if ((ilng-crval1)%360 == 0) {
+              cpgsls(2);
+              cpgslw(5);
+            }
+
+            cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                   stat);
+
+            int k = 0;
+            for (int j = 0; j < 181; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              // Test for discontinuities.
+              if (j > 0) {
+                if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                  if (k > 1) cpgline(k, xr, yr);
+                  k = 0;
+                }
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+            cpgsls(1);
+            cpgslw(1);
+          }
+
+          // Draw celestial parallels of latitude.
+          for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+            lng[j] = (double)ilng;
+          }
+
+          ci = 1;
+          for (int ilat = -90; ilat <= 90; ilat += 15) {
+            lat[0] = (double)ilat;
+
+            // Cycle through colours with the prime meridian in yellow.
+            if (++ci > 7) ci = 2;
+            cpgsci(ilat?ci:1);
+
+            // Dash the reference latitude and make it thicker.
+            if (ilat == crval2) {
+              cpgsls(2);
+              cpgslw(5);
+            }
+
+            cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                   stat);
+
+            int k = 0;
+            for (int j = 0; j < 361; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              // Test for discontinuities.
+              if (j > 0) {
+                if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                  if (k > 1) cpgline(k, xr, yr);
+                  k = 0;
+                }
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+            cpgsls(1);
+            cpgslw(1);
+          }
+
+          // Mark the fiducial point (green with red centre).
+          phi[0]   = celestial.phi0;
+          theta[0] = celestial.theta0;
+          prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+
+          cpgslw(5);
+          cpgsci(9);
+          cpgpt1(xr[0], yr[0], 24);
+          cpgpt1(xr[0], yr[0], 23);
+          cpgsci(10);
+          cpgpt1(xr[0], yr[0], 17);
+
+          // Mark the celestial pole.
+          phi[0]   = celestial.ref[2];
+          theta[0] = celestial.ref[3];
+          prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+
+          cpgslw(5);
+          cpgsci(9);
+          cpgpt1(xr[0], yr[0], 24);
+          cpgpt1(xr[0], yr[0], 23);
+          cpgsci(0);
+          cpgpt1(xr[0], yr[0], 17);
+
+          // Mark zero celestial longitude expected for "change of origin"
+          // case with a thick yellow circle.
+          if (celestial.euler[1] == 0.0 || celestial.euler[1] == 180.0) {
+            double alpha_p;
+            if (celestial.theta0 == 90.0) {
+              alpha_p = celestial.ref[0];
+            } else if (fabs(celestial.ref[1]) == 90.0) {
+              alpha_p = celestial.ref[0];
+            } else if (celestial.euler[1] == 0.0) {
+              alpha_p = celestial.ref[0] + celestial.ref[2] -
+                        celestial.phi0 - 180.0;
+            } else {
+              alpha_p = celestial.ref[0] - celestial.ref[2] +
+                        celestial.phi0;
+            }
+
+            if (celestial.euler[1] == 0.0) {
+              phi[0] = celestial.euler[2] - alpha_p + 180.0;
+            } else {
+              phi[0] = celestial.euler[2] + alpha_p;
+            }
+
+            phi[0] = fmod(phi[0], 360.0);
+            if (phi[0] < -180.0) {
+              phi[0] += 360.0;
+            } else if (phi[0] > 180.0) {
+              phi[0] -= 360.0;
+            }
+
+            theta[0] = -45.0;
+            prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+            xr[0] = -x[0];
+            yr[0] =  y[0];
+
+            cpgslw(5);
+            cpgsci(1);
+            cpgpt1(xr[0], yr[0], 24);
+          }
+
+          cpgslw(1);
+
+          // Flush PGPLOT buffer.
+        skip:
+          cpgebuf();
+
+          // Allow 50ms to view the plot on fast machines.
+          struct timespec nano = {(time_t)0, 50000000L};
+          nanosleep(&nano, 0x0);
+
+          if ((ctrl >= 'A' && ctrl <= 'Z') ||
+             ((ctrl == 'c' || ctrl == 'b' || ctrl == 'j') && !first)) {
+            // Keep going.
+
+          } else {
+            printf("Next, skip, break, continue, exit [%c]: ", ctrl);
+            char answer[16];
+            if (fgets(answer, 16, stdin) == 0) answer[0] = 0;
+
+            if (strchr("bBcCeEiIjJnNpPqQsS", (int)answer[0]) != 0) {
+              ctrl = answer[0];
+            }
+          }
+
+          if (ctrl == 'i' || ctrl == 'I') {
+            lonpole_i = 1;
+          } else {
+            lonpole_i = 15;
+          }
+
+          if (ctrl == 'P') {
+            // There's no point in skipping all projections.
+            ctrl = 'p';
+            break;
+          }
+
+          if (ctrl == 'p') break;
+          if (ctrl == 'b' || ctrl == 'B') break;
+          if (ctrl == 'j' || ctrl == 'J') break;
+          if (ctrl == 'e' || ctrl == 'E') goto end;
+          if (ctrl == 'q' || ctrl == 'Q') goto end;
+
+          first = 0;
+        }
+
+        if (ctrl == 'p') break;
+        if (ctrl == 'j' || ctrl == 'J') break;
+      }
+
+      if (ctrl == 'p') break;
+      if (ctrl == 'j' || ctrl == 'J') {
+        // Save CRVAL1 and LONPOLE for next time.
+        crval1_j  = crval1;
+        lonpole_j = lonpole;
+
+        // Slow down CRVAL2.
+        crval2_i  = 1;
+      } else {
+        crval2_i  = 45;
+      }
+    }
+
+    celfree(&native);
+    celfree(&celestial);
+  }
+
+end:
+  cpgask(0);
+  cpgend();
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.6.1.4 2026/04/25 08:00:11 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d32 3
+a34 1
+#include <cpgplot.h>
+d39 3
+a49 8
+  char   answer[16], ctrl, text[128];
+  int    ci, crval1, crval1_j, crval2, crval2_i, first, ilat, ilng, iprj, j,
+         k, latpole, lonpole, lonpole_i, lonpole_j, phi_p, stat[361], status;
+  float  xr[512], yr[512];
+  double alpha_p, lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+  struct celprm native, celestial;
+
+
+d56 1
+a56 1
+  for (status = 1; status <= 6; status++) {
+d103 2
+a104 1
+  strcpy(text, "/xwindow");
+d125 2
+a126 2
+  ctrl = 'n';
+  for (iprj = 0; iprj < 4; iprj++) {
+d128 1
+d135 1
+a135 1
+      strcpy(native.prj.code, "ARC");
+d146 1
+a146 1
+      strcpy(native.prj.code, "COD");
+d159 1
+a159 1
+      strcpy(native.prj.code, "BON");
+d171 1
+a171 1
+      strcpy(native.prj.code, "PCO");
+d182 1
+a182 1
+    strcpy(celestial.prj.code, native.prj.code);
+d187 5
+a191 4
+    crval1_j  = -180;
+    crval2_i  =   45;
+    lonpole_i =   15;
+    lonpole_j = -180;
+d194 1
+a194 1
+        first = 1;
+d197 1
+a197 1
+          latpole = 999;
+d219 2
+a220 2
+          sprintf(text, "(CRVAL1, CRVAL2, LONPOLE): (%+3.3d, %+2.2d, %+3.3d)",
+            crval1, crval2, lonpole);
+d225 2
+a226 1
+            sprintf(text, "INVALID VALUE OF LONPOLE (= %+3.3d)", lonpole);
+d229 3
+a231 3
+            sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+               "(%+3.3d, %+2.2d)", native.prj.code, nint(celestial.phi0),
+               nint(celestial.theta0));
+d243 1
+a243 1
+          sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+d249 2
+a250 2
+          sprintf(text, "(CRVAL1, CRVAL2): (%+3.3d, %+2.2d) - dashed grid"
+            " lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+d253 1
+a253 1
+          sprintf(text, "(LONPOLE, LATPOLE): (%+3.3d, %+3.3d) -> "
+d258 1
+a258 1
+          sprintf(text, "(\\ga\\dp\\u, \\gd\\dp\\u): (%+3.3d, %+2.2d)",
+d263 1
+a263 1
+            sprintf(text, "(LATPOLE not required.)");
+d265 1
+a265 1
+            sprintf(text, "(LATPOLE disambiguates.)");
+d267 1
+a267 1
+            sprintf(text, "(LATPOLE IS DEFINITIVE.)");
+a270 1
+
+d274 4
+d279 1
+a279 1
+          for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d283 2
+a284 2
+          phi_p = nint(celestial.ref[2]);
+          for (ilng = -180; ilng <= 180; ilng += 15) {
+d297 2
+a298 2
+            k = 0;
+            for (j = 0; j < 181; j++) {
+d318 1
+a318 1
+          for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+d322 1
+a322 1
+          for (ilat = -90; ilat <= 90; ilat += 15) {
+d327 2
+a328 2
+            k = 0;
+            for (j = 0; j < 361; j++) {
+d358 1
+a358 1
+          ci = 1;
+d361 1
+a361 1
+          for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d365 1
+a365 1
+          for (ilng = -180; ilng <= 180; ilng += 15) {
+d381 2
+a382 2
+            k = 0;
+            for (j = 0; j < 181; j++) {
+d408 1
+a408 1
+          for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d413 1
+a413 1
+          for (ilat = -90; ilat <= 90; ilat += 15) {
+d429 2
+a430 2
+            k = 0;
+            for (j = 0; j < 361; j++) {
+d486 1
+d527 5
+d538 1
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d45 8
+d59 1
+a59 1
+  for (int status = 1; status <= 6; status++) {
+a105 1
+  char text[128];
+d127 2
+a128 2
+  char ctrl = 'n';
+  for (int iprj = 0; iprj < 4; iprj++) {
+a129 1
+    struct celprm native, celestial;
+d188 4
+a191 5
+    int crval1_j  = -180;
+    int crval2_i  =   45;
+    int lonpole_i =   15;
+    int lonpole_j = -180;
+    int crval1, crval2, lonpole;
+d194 1
+a194 1
+        int first = 1;
+d197 1
+a197 1
+          int latpole = 999;
+d270 1
+a273 4
+          int    stat[361];
+          float  xr[512], yr[512];
+          double lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+
+d275 1
+a275 1
+          for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d279 2
+a280 2
+          int phi_p = nint(celestial.ref[2]);
+          for (int ilng = -180; ilng <= 180; ilng += 15) {
+d293 2
+a294 2
+            int k = 0;
+            for (int j = 0; j < 181; j++) {
+d314 1
+a314 1
+          for (int j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+d318 1
+a318 1
+          for (int ilat = -90; ilat <= 90; ilat += 15) {
+d323 2
+a324 2
+            int k = 0;
+            for (int j = 0; j < 361; j++) {
+d354 1
+a354 1
+          int ci = 1;
+d357 1
+a357 1
+          for (int j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+d361 1
+a361 1
+          for (int ilng = -180; ilng <= 180; ilng += 15) {
+d377 2
+a378 2
+            int k = 0;
+            for (int j = 0; j < 181; j++) {
+d404 1
+a404 1
+          for (int j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+d409 1
+a409 1
+          for (int ilat = -90; ilat <= 90; ilat += 15) {
+d425 2
+a426 2
+            int k = 0;
+            for (int j = 0; j < 361; j++) {
+a481 1
+            double alpha_p;
+a527 1
+            char answer[16];
+@
+
+
+8.6.1.3
+log
+@Replaced use of strcpy() with strncpy(), and sprintf() with snprintf().
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.6.1.2 2026/04/10 13:10:44 mcalabre Exp mcalabre $
+d99 1
+a99 1
+  strncpy(text, "/xwindow", 128);
+d130 1
+a130 1
+      strncpy(native.prj.code, "ARC", 4);
+d141 1
+a141 1
+      strncpy(native.prj.code, "COD", 4);
+d154 1
+a154 1
+      strncpy(native.prj.code, "BON", 4);
+d166 1
+a166 1
+      strncpy(native.prj.code, "PCO", 4);
+d177 1
+a177 1
+    strncpy(celestial.prj.code, native.prj.code, 4);
+d214 2
+a215 2
+          snprintf(text, 128, "(CRVAL1, CRVAL2, LONPOLE): (%+3.3d, %+2.2d, "
+            "%+3.3d)", crval1, crval2, lonpole);
+d220 1
+a220 2
+            snprintf(text, 128, "INVALID VALUE OF LONPOLE (= %+3.3d)",
+              lonpole);
+d223 3
+a225 3
+            snprintf(text, 128, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+              "(%+3.3d, %+2.2d)", native.prj.code, nint(celestial.phi0),
+              nint(celestial.theta0));
+d237 1
+a237 1
+          snprintf(text, 128, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+d243 2
+a244 2
+          snprintf(text, 128, "(CRVAL1, CRVAL2): (%+3.3d, %+2.2d) - dashed "
+            "grid lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+d247 1
+a247 1
+          snprintf(text, 128, "(LONPOLE, LATPOLE): (%+3.3d, %+3.3d) -> "
+d252 1
+a252 1
+          snprintf(text, 128, "(\\ga\\dp\\u, \\gd\\dp\\u): (%+3.3d, %+2.2d)",
+d257 1
+a257 1
+            snprintf(text, 128, "(LATPOLE not required.)");
+d259 1
+a259 1
+            snprintf(text, 128, "(LATPOLE disambiguates.)");
+d261 1
+a261 1
+            snprintf(text, 128, "(LATPOLE IS DEFINITIVE.)");
+@
+
+
+8.6.1.4
+log
+@Inserted a 50ms pause to slow things down during 'make check', otherwise
+the graphics had just become a blur.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.6.1.3 2026/04/10 13:33:56 mcalabre Exp mcalabre $
+d32 1
+a32 3
+// Must be included before anything else.
+#include <wcsconfig_tests.h>
+
+a36 3
+#include <time.h>
+
+#include <cpgplot.h>
+a521 5
+
+          // Allow 50ms to view the plot on fast machines.
+          struct timespec nano = {(time_t)0, 50000000L};
+          nanosleep(&nano, 0x0);
+
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tcel2.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tcel2.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.3.1.2 2024/07/09 09:32:02 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+d182 4
+a185 1
+    celestial.prj = native.prj;
+d572 3
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.3.1.2
+log
+@It is no longer a good idea to do a shallow copy of one prjprm struct to
+another as the struct now contains allocated memory.  For the same reason
+it is necessary to call celfree() at the end of the loop over projections.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+d182 1
+a182 4
+    // Copy projection parameters.
+    strcpy(celestial.prj.code, native.prj.code);
+    celestial.prj.pv[1] = native.prj.pv[1];
+    celestial.prj.pv[2] = native.prj.pv[2];
+a568 3
+
+    celfree(&native);
+    celfree(&celestial);
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tcel2.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tcel2.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d57 1
+a57 1
+  /* List status return messages. */
+d105 1
+a105 1
+  /* PGPLOT initialization. */
+d109 12
+a120 12
+  /* Define pen colours. */
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);		/* Black      */
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);		/* Yellow     */
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);		/* White      */
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);		/* Mauve      */
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);		/* Pink       */
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);		/* Grey       */
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);		/* Mauve      */
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);		/* Pink       */
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);		/* Dark green */
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);		/* Green      */
+  cpgscr(10, 1.0f, 0.0f, 0.0f);		/* Red        */
+d122 1
+a122 1
+  /* Define PGPLOT viewport. */
+d129 1
+a129 1
+    /* Initialize. */
+d133 1
+a133 1
+    /* Reference coordinates for the native graticule. */
+d135 1
+a135 1
+      /* Set up a zenithal equidistant projection. */
+d146 1
+a146 1
+      /* Set up a conic equidistant projection. */
+d159 1
+a159 1
+      /* Set up a Sanson-Flamsteed projection as Bonne's equatorial. */
+d171 1
+a171 1
+      /* Set up a polyconic projection. */
+d184 1
+a184 1
+    /* Loop over CRVAL2, CRVAL1 and LONPOLE. */
+d193 1
+a193 1
+          /* lonpole = 999; */
+d196 2
+a197 2
+          /* if (crval2 < 0) latpole = -999; */
+          /* if (crval2 > 0) latpole =  999; */
+d200 1
+a200 1
+            /* Restore CRVAL1 and LONPOLE from last time. */
+d210 1
+a210 1
+          /* Buffer PGPLOT output. */
+d215 1
+a215 1
+          /* Write parameter summary. */
+d220 1
+a220 1
+          /* Skip invalid values of LONPOLE. */
+d238 1
+a238 1
+          /* Write parameters. */
+d268 1
+a268 1
+          /* Draw the native graticule in the background (dark green). */
+d271 1
+a271 1
+          /* Draw native meridians of longitude. */
+d282 1
+a282 1
+            /* Meridian containing the celestial pole (thick green). */
+d308 1
+a308 1
+          /* Draw native parallels of latitude. */
+d336 1
+a336 1
+          /* Tag the longitude of the celestial pole. */
+d350 1
+a350 1
+          /* Draw a colour-coded celestial coordinate graticule. */
+d353 1
+a353 1
+          /* Draw celestial meridians of longitude. */
+d361 1
+a361 1
+            /* Cycle through colours with the prime meridian in yellow. */
+d365 1
+a365 1
+            /* Dash the reference longitude and make it thicker. */
+d382 1
+a382 1
+              /* Test for discontinuities. */
+d400 1
+a400 1
+          /* Draw celestial parallels of latitude. */
+d409 1
+a409 1
+            /* Cycle through colours with the prime meridian in yellow. */
+d413 1
+a413 1
+            /* Dash the reference latitude and make it thicker. */
+d430 1
+a430 1
+              /* Test for discontinuities. */
+d448 1
+a448 1
+          /* Mark the fiducial point (green with red centre). */
+d462 1
+a462 1
+          /* Mark the celestial pole. */
+d476 2
+a477 2
+          /* Mark zero celestial longitude expected for "change of origin"
+           * case with a thick yellow circle. */
+d516 1
+a516 1
+          /* Flush PGPLOT buffer. */
+d521 1
+a521 1
+            /* Keep going. */
+d539 1
+a539 1
+            /* There's no point in skipping all projections. */
+d559 1
+a559 1
+        /* Save CRVAL1 and LONPOLE for next time. */
+d563 1
+a563 1
+        /* Slow down CRVAL2. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tcel2.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d60 1
+a60 1
+  // List status return messages.
+d108 1
+a108 1
+  // PGPLOT initialization.
+d112 12
+a123 12
+  // Define pen colours.
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);		// Black
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);		// Yellow
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);		// White
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);		// Mauve
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);		// Pink
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);		// Grey
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);		// Mauve
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);		// Pink
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);		// Dark green
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);		// Green
+  cpgscr(10, 1.0f, 0.0f, 0.0f);		// Red
+d125 1
+a125 1
+  // Define PGPLOT viewport.
+d132 1
+a132 1
+    // Initialize.
+d136 1
+a136 1
+    // Reference coordinates for the native graticule.
+d138 1
+a138 1
+      // Set up a zenithal equidistant projection.
+d149 1
+a149 1
+      // Set up a conic equidistant projection.
+d162 1
+a162 1
+      // Set up a Sanson-Flamsteed projection as Bonne's equatorial.
+d174 1
+a174 1
+      // Set up a polyconic projection.
+d187 1
+a187 1
+    // Loop over CRVAL2, CRVAL1 and LONPOLE.
+d196 1
+a196 1
+          // lonpole = 999;
+d199 2
+a200 2
+          // if (crval2 < 0) latpole = -999;
+          // if (crval2 > 0) latpole =  999;
+d203 1
+a203 1
+            // Restore CRVAL1 and LONPOLE from last time.
+d213 1
+a213 1
+          // Buffer PGPLOT output.
+d218 1
+a218 1
+          // Write parameter summary.
+d223 1
+a223 1
+          // Skip invalid values of LONPOLE.
+d241 1
+a241 1
+          // Write parameters.
+d271 1
+a271 1
+          // Draw the native graticule in the background (dark green).
+d274 1
+a274 1
+          // Draw native meridians of longitude.
+d285 1
+a285 1
+            // Meridian containing the celestial pole (thick green).
+d311 1
+a311 1
+          // Draw native parallels of latitude.
+d339 1
+a339 1
+          // Tag the longitude of the celestial pole.
+d353 1
+a353 1
+          // Draw a colour-coded celestial coordinate graticule.
+d356 1
+a356 1
+          // Draw celestial meridians of longitude.
+d364 1
+a364 1
+            // Cycle through colours with the prime meridian in yellow.
+d368 1
+a368 1
+            // Dash the reference longitude and make it thicker.
+d385 1
+a385 1
+              // Test for discontinuities.
+d403 1
+a403 1
+          // Draw celestial parallels of latitude.
+d412 1
+a412 1
+            // Cycle through colours with the prime meridian in yellow.
+d416 1
+a416 1
+            // Dash the reference latitude and make it thicker.
+d433 1
+a433 1
+              // Test for discontinuities.
+d451 1
+a451 1
+          // Mark the fiducial point (green with red centre).
+d465 1
+a465 1
+          // Mark the celestial pole.
+d479 2
+a480 2
+          // Mark zero celestial longitude expected for "change of origin"
+          // case with a thick yellow circle.
+d519 1
+a519 1
+          // Flush PGPLOT buffer.
+d524 1
+a524 1
+            // Keep going.
+d542 1
+a542 1
+            // There's no point in skipping all projections.
+d562 1
+a562 1
+        // Save CRVAL1 and LONPOLE for next time.
+d566 1
+a566 1
+        // Slow down CRVAL2.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tcel2.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tcel2.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.4.1.2 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.25.1.3 2015/03/06 12:01:22 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+d528 1
+a528 1
+            fgets(answer, 16, stdin);
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@In main(), apparently when fgets() reads an empty string the destination
+string remains uninitialised.  Fixed the use of such an uninitialised
+variable reported by valgrind.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+d528 1
+a528 1
+            if (fgets(answer, 16, stdin) == 0) answer[0] = 0;
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tcel2.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tcel2.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tcel2.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tcel2.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.7.1.2 2011/08/11 01:48:27 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+d72 1
+a72 1
+  printf("\n\nLegend\n------");
+d74 21
+a94 14
+  printf("\nReference point of the projection (phi0,theta0) marked with\n"
+         "   a green circle with red centre.\n");
+  printf("\nCelestial meridian (CRVAL1) and parallel (CRVAL2) through the "
+         "reference point\n   is dashed.\n");
+  printf("\nCelestial pole (LONPOLE,LATPOLE) marked with\n"
+         "   a green circle with black centre.\n");
+  printf("\nNative longitude of celestial pole (LONPOLE) marked with\n"
+         "   a green tag.\n");
+  printf("\nCelestial prime meridian expected for \"change of origin\" case "
+         "marked with\n   an open yellow circle (where applicable).\n");
+  printf("\nCelestial equator and prime meridian marked with\n"
+         "   yellow grid lines.\n");
+  printf("\nDirection of increasing celestial longitude and latitude:\n"
+         "   white -> blue -> red.\n");
+d119 11
+a129 11
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);
+  cpgscr(10, 1.0f, 0.0f, 0.0f);
+d259 2
+a260 2
+            "(%+3.3d, %+2.2d) - open green circle, green tag", lonpole,
+            latpole, nint(celestial.ref[2]), nint(celestial.ref[3]));
+d277 1
+a277 1
+          /* Draw the native graticule faintly in the background. */
+d291 2
+a292 2
+            /* Mark the longitude of the celestial pole. */
+            if ((ilng-phi_p)%360 == 0) {
+d345 13
+d370 1
+d374 1
+a374 1
+            /* Dash the reference longitude. */
+d418 1
+d422 1
+a422 1
+            /* Dash the reference latitude. */
+d457 1
+a457 4
+          cpgslw(5);
+          cpgsci(9);
+
+          /* Mark the fiducial point. */
+d463 3
+a469 12
+          cpgsci(9);
+
+          /* Tag the longitude of the celestial pole. */
+          phi[0]   = celestial.ref[2];
+          theta[0] = -90.0;
+          theta[1] = -80.0;
+          prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          xr[1] = -x[0] + (x[1] - x[0]);
+          yr[1] =  y[0] - (y[1] - y[0]);
+          cpgline(2, xr, yr);
+d477 3
+a483 1
+          cpgsci(9);
+d485 2
+a486 2
+          /* Mark zero celestial longitude expected for */
+          /* "change of origin" case.                   */
+d513 6
+a518 5
+            theta[0] = -90.0;
+            theta[1] = -87.0;
+            prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+            xr[0] = -x[0] + (x[1] - x[0]);
+            yr[0] =  y[0] - (y[1] - y[0]);
+d553 1
+d562 1
+d566 1
+d576 1
+a576 1
+       }
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Improved the documentation for user and programmer.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d72 1
+a72 1
+  printf("\n\nLegend (in the order drawn)\n---------------------------\n");
+d74 14
+a87 21
+  printf("Native graticule in dark green with the meridian containing the "
+         "celestial\n   pole (LONPOLE) thicker and in green.  Also tagged "
+         "beyond the perimeter.\n");
+
+  printf("Celestial graticule colour-coded, the direction of increasing "
+         "celestial\n   longitude and latitude is white -> blue -> red, "
+         "with the equator and\n   prime meridian in yellow.\n");
+
+  printf("Celestial meridian (CRVAL1) and parallel (CRVAL2) through the "
+         "reference point\n   is thicker and dashed.\n");
+
+  printf("Reference point of the projection (phi0,theta0) is marked with "
+         "a green circle\n   with red centre.  It should coincide with the "
+         "dashed celestial meridian and\n   parallel.\n");
+
+  printf("Celestial pole (LONPOLE,LATPOLE) marked with a green circle with "
+         "black centre.\n");
+
+  printf("Celestial prime meridian expected for \"change of origin\" case "
+         "marked with\n   an open yellow circle (where applicable).  Should "
+         "coincide with the prime\n   meridian.\n");
+d112 11
+a122 11
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);		/* Black      */
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);		/* Yellow     */
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);		/* White      */
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);		/* Mauve      */
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);		/* Pink       */
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);		/* Grey       */
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);		/* Mauve      */
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);		/* Pink       */
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);		/* Dark green */
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);		/* Green      */
+  cpgscr(10, 1.0f, 0.0f, 0.0f);		/* Red        */
+d252 2
+a253 2
+            "(%+3.3d, %+2.2d) - open green circle", lonpole, latpole,
+            nint(celestial.ref[2]), nint(celestial.ref[3]));
+d270 1
+a270 1
+          /* Draw the native graticule in the background (dark green). */
+d284 2
+a285 2
+            /* Meridian containing the celestial pole (thick green). */
+            if (ilng == phi_p) {
+a337 13
+          /* Tag the longitude of the celestial pole. */
+          cpgslw(5);
+          cpgsci(9);
+          phi[0]   = celestial.ref[2];
+          theta[0] = -90.0;
+          theta[1] = -80.0;
+          prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          xr[1] = -x[0] + (x[1] - x[0]);
+          yr[1] =  y[0] - (y[1] - y[0]);
+          cpgline(2, xr, yr);
+
+a349 1
+            /* Cycle through colours with the prime meridian in yellow. */
+d353 1
+a353 1
+            /* Dash the reference longitude and make it thicker. */
+a396 1
+            /* Cycle through colours with the prime meridian in yellow. */
+d400 1
+a400 1
+            /* Dash the reference latitude and make it thicker. */
+d435 4
+a438 1
+          /* Mark the fiducial point (green with red centre). */
+a443 3
+
+          cpgslw(5);
+          cpgsci(9);
+d448 12
+a466 3
+
+          cpgslw(5);
+          cpgsci(9);
+d471 1
+d473 2
+a474 2
+          /* Mark zero celestial longitude expected for "change of origin"
+           * case with a thick yellow circle. */
+d501 5
+a505 6
+            theta[0] = -45.0;
+            prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+            xr[0] = -x[0];
+            yr[0] =  y[0];
+
+            cpgslw(5);
+a539 1
+          if (ctrl == 'p') break;
+a547 1
+        if (ctrl == 'p') break;
+a550 1
+      if (ctrl == 'p') break;
+d560 1
+a560 1
+      }
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.4.1.3 2010/07/14 02:11:18 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.3.1.2 2009/07/22 06:37:43 cal103 Exp cal103 $
+d54 1
+a54 1
+  char   answer[16], ctrl, text[80];
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: tcel2.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Increased text buffer size to prevent overflow.
+@
+text
+@d31 1
+a31 1
+  $Id: tcel2.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+d54 1
+a54 1
+  char   answer[16], ctrl, text[128];
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tcel2.c,v 4.2.1.4 2007/12/03 05:12:59 cal103 Exp $
+d34 4
+a37 4
+*   tcel2 thoroughly tests the WCSLIB celestial coordinate transformation
+*   routines, particularly celset(), by plotting oblique test grids for a wide
+*   variety of transformation parameters.  A simple user interface provides
+*   limited control of the path taken through this parameter space.
+d54 287
+a340 125
+   char   answer[16], ctrl, text[80];
+   int    ci, crval1, crval1_j, crval2, crval2_i, first, ilat, ilng, iprj, j,
+          k, latpole, lonpole, lonpole_i, lonpole_j, phi_p, stat[361], status;
+   float  xr[512], yr[512];
+   double alpha_p, lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+   struct celprm native, celestial;
+
+
+   printf(
+   "Testing WCSLIB celestial coordinate transformation routines (tcel2.c)\n"
+   "---------------------------------------------------------------------\n");
+
+   /* List status return messages. */
+   printf("\nList of cel status return values:\n");
+   for (status = 1; status <= 6; status++) {
+      printf("%4d: %s.\n", status, cel_errmsg[status]);
+   }
+
+   printf("\n\nLegend\n------");
+
+   printf("\nReference point of the projection (phi0,theta0) marked with\n"
+          "   a green circle with red centre.\n");
+   printf("\nCelestial meridian (CRVAL1) and parallel (CRVAL2) through the "
+          "reference point\n   is dashed.\n");
+   printf("\nCelestial pole (LONPOLE,LATPOLE) marked with\n"
+          "   a green circle with black centre.\n");
+   printf("\nNative longitude of celestial pole (LONPOLE) marked with\n"
+          "   a green tag.\n");
+   printf("\nCelestial prime meridian expected for \"change of origin\" case "
+          "marked with\n   an open yellow circle (where applicable).\n");
+   printf("\nCelestial equator and prime meridian marked with\n"
+          "   yellow grid lines.\n");
+   printf("\nDirection of increasing celestial longitude and latitude:\n"
+          "   white -> blue -> red.\n");
+
+   printf("\n\n");
+
+   printf("Loop control; LONPOLE changes fastest, then CRVAL1, then CRVAL2\n"
+          "---------------------------------------------------------------\n"
+          "       next: do next plot\n"
+          "       skip: skip past invalid values of LONPOLE\n"
+          "      break: break out of  inner loop on LONPOLE\n"
+          "   continue: cycle through inner loop on LONPOLE\n");
+   printf("       proj: skip to next projection\n"
+          "        inc: LONPOLE++, preserving CRVAL1 & CRVAL2\n"
+          "       jump: CRVAL2++,  preserving CRVAL1 & LONPOLE\n"
+          "       exit: terminate execution\n"
+          "       quit: terminate execution\n"
+          "Capital letter kills query.\n");
+
+   printf("\n\n");
+
+
+   /* PGPLOT initialization. */
+   strcpy(text, "/xwindow");
+   cpgbeg(0, text, 1, 1);
+
+   /* Define pen colours. */
+   cpgscr( 0, 0.0f, 0.0f, 0.0f);
+   cpgscr( 1, 1.0f, 1.0f, 0.0f);
+   cpgscr( 2, 1.0f, 1.0f, 1.0f);
+   cpgscr( 3, 0.5f, 0.5f, 0.8f);
+   cpgscr( 4, 0.8f, 0.5f, 0.5f);
+   cpgscr( 5, 0.8f, 0.8f, 0.8f);
+   cpgscr( 6, 0.5f, 0.5f, 0.8f);
+   cpgscr( 7, 0.8f, 0.5f, 0.5f);
+   cpgscr( 8, 0.3f, 0.5f, 0.3f);
+   cpgscr( 9, 0.0f, 1.0f, 0.0f);
+   cpgscr(10, 1.0f, 0.0f, 0.0f);
+
+   /* Define PGPLOT viewport. */
+   cpgenv(-195.0f, 195.0f, -195.0f, 195.0f, 1, -2);
+   cpgsch(0.8f);
+
+
+   ctrl = 'n';
+   for (iprj = 0; iprj < 4; iprj++) {
+      /* Initialize. */
+      celini(&native);
+      celini(&celestial);
+
+      /* Reference coordinates for the native graticule. */
+      if (iprj == 0) {
+         /* Set up a zenithal equidistant projection. */
+         strcpy(native.prj.code, "ARC");
+
+         native.ref[0] =   0.0;
+         native.ref[1] =  90.0;
+         native.ref[2] = 180.0;
+
+         celestial.phi0   =  0.0;
+         celestial.theta0 = 90.0;
+
+      } else if (iprj == 1) {
+         /* Set up a conic equidistant projection. */
+         strcpy(native.prj.code, "COD");
+         native.prj.pv[1] = 45.0;
+         native.prj.pv[2] = 25.0;
+
+         native.ref[0] =   0.0;
+         native.ref[1] =  45.0;
+         native.ref[2] = 180.0;
+
+         celestial.phi0   = 60.0;
+         celestial.theta0 = 45.0;
+
+      } else if (iprj == 2) {
+         /* Set up a Sanson-Flamsteed projection as Bonne's equatorial. */
+         strcpy(native.prj.code, "BON");
+         native.prj.pv[1] = 0.0;
+
+         native.ref[0] = 0.0;
+         native.ref[1] = 0.0;
+         native.ref[2] = 0.0;
+
+         celestial.phi0   = -30.0;
+         celestial.theta0 =   0.0;
+
+      } else if (iprj == 3) {
+         /* Set up a polyconic projection. */
+         strcpy(native.prj.code, "PCO");
+
+         native.ref[0] = 0.0;
+         native.ref[1] = 0.0;
+         native.ref[2] = 0.0;
+d342 7
+a348 3
+         celestial.phi0   = -60.0;
+         celestial.theta0 = -90.0;
+      }
+d350 2
+a351 1
+      celestial.prj = native.prj;
+d353 5
+a357 104
+      /* Loop over CRVAL2, CRVAL1 and LONPOLE. */
+      crval1_j  = -180;
+      crval2_i  =   45;
+      lonpole_i =   15;
+      lonpole_j = -180;
+      for (crval2 = -90; crval2 <=  90; crval2 += crval2_i) {
+         for (crval1 = -180; crval1 <= 180; crval1 += 90) {
+            first = 1;
+            for (lonpole = -180; lonpole <= 180; lonpole += lonpole_i) {
+               /* lonpole = 999; */
+               latpole = 999;
+
+               /* if (crval2 < 0) latpole = -999; */
+               /* if (crval2 > 0) latpole =  999; */
+
+               if (ctrl == 'j' || ctrl == 'J') {
+                  /* Restore CRVAL1 and LONPOLE from last time. */
+                  crval1  = crval1_j;
+                  lonpole = lonpole_j;
+               }
+
+               celestial.ref[0] = (double)crval1;
+               celestial.ref[1] = (double)crval2;
+               celestial.ref[2] = (double)lonpole;
+               celestial.ref[3] = (double)latpole;
+
+               /* Buffer PGPLOT output. */
+               cpgbbuf();
+               cpgeras();
+               cpgsci(2);
+
+               /* Write parameter summary. */
+               sprintf(text, "(CRVAL1, CRVAL2, LONPOLE): (%+3.3d, %+2.2d, "
+                  "%+3.3d)", crval1, crval2, lonpole);
+               cpgtext(-180.0f, 200.0f, text);
+
+               /* Skip invalid values of LONPOLE. */
+               if (celset(&celestial)) {
+                  sprintf(text, "INVALID VALUE OF LONPOLE (= %+3.3d)",
+                     lonpole);
+                  cpgtext(-90.0f, 0.0f, text);
+
+                  sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+                     "(%+3.3d, %+2.2d)", native.prj.code, nint(celestial.phi0),
+                     nint(celestial.theta0));
+                  cpgtext(-180.0f, -200.0f, text);
+
+                  if (ctrl == 's' || ctrl == 'S') {
+                     cpgebuf();
+                     continue;
+                  }
+
+                  goto skip;
+               }
+
+               /* Write parameters. */
+               sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+                  "(%+3.3d, %+2.2d) - green circle with red centre",
+                  native.prj.code, nint(celestial.phi0),
+                  nint(celestial.theta0));
+               cpgtext(-180.0f, -200.0f, text);
+
+               sprintf(text, "(CRVAL1, CRVAL2): (%+3.3d, %+2.2d) - dashed grid"
+                  " lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+               cpgtext(-180.0f, -213.0f, text);
+
+               sprintf(text, "(LONPOLE, LATPOLE): (%+3.3d, %+3.3d) -> "
+                  "(%+3.3d, %+2.2d) - open green circle, green tag", lonpole,
+                  latpole, nint(celestial.ref[2]), nint(celestial.ref[3]));
+               cpgtext(-180.0f, -226.0f, text);
+
+               sprintf(text, "(\\ga\\dp\\u, \\gd\\dp\\u): (%+3.3d, %+2.2d)",
+                  nint(celestial.euler[0]), nint(90.0-celestial.euler[1]));
+               cpgtext(-180.0f, -239.0f, text);
+
+               if (celestial.latpreq == 0) {
+                  sprintf(text, "(LATPOLE not required.)");
+               } else if (celestial.latpreq == 1) {
+                  sprintf(text, "(LATPOLE disambiguates.)");
+               } else if (celestial.latpreq == 2) {
+                  sprintf(text, "(LATPOLE IS DEFINITIVE.)");
+               }
+               cpgtext(-40.0f, -239.0f, text);
+
+
+               /* Draw the native graticule faintly in the background. */
+               cpgsci(8);
+
+               /* Draw native meridians of longitude. */
+               for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+                  lat[j] = (double)ilat;
+               }
+
+               phi_p = nint(celestial.ref[2]);
+               for (ilng = -180; ilng <= 180; ilng += 15) {
+                  lng[0] = (double)ilng;
+                  if (ilng == -180) lng[0] = -179.99;
+                  if (ilng ==  180) lng[0] =  179.99;
+
+                  /* Mark the longitude of the celestial pole. */
+                  if ((ilng-phi_p)%360 == 0) {
+                     cpgslw(5);
+                     cpgsci(9);
+                  }
+d359 2
+a360 2
+                  cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                     stat);
+d362 12
+d375 2
+a376 23
+                  for (j = 0; j < 181; j++) {
+                     if (stat[j]) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                        continue;
+                     }
+
+                     xr[k] = -x[j];
+                     yr[k] =  y[j];
+                     k++;
+                  }
+
+                  cpgline(k, xr, yr);
+                  cpgslw(1);
+                  cpgsci(8);
+               }
+
+               /* Draw native parallels of latitude. */
+               lng[0]   = -179.99;
+               lng[360] =  179.99;
+               for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+                  lng[j] = (double)ilng;
+               }
+d378 4
+a381 2
+               for (ilat = -90; ilat <= 90; ilat += 15) {
+                  lat[0] = (double)ilat;
+d383 25
+a407 2
+                  cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                     stat);
+d409 12
+d422 7
+a428 35
+                  for (j = 0; j < 361; j++) {
+                     if (stat[j]) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                        continue;
+                     }
+
+                     xr[k] = -x[j];
+                     yr[k] =  y[j];
+                     k++;
+                  }
+
+                  cpgline(k, xr, yr);
+               }
+
+
+               /* Draw a colour-coded celestial coordinate graticule. */
+               ci = 1;
+
+               /* Draw celestial meridians of longitude. */
+               for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+                  lat[j] = (double)ilat;
+               }
+
+               for (ilng = -180; ilng <= 180; ilng += 15) {
+                  lng[0] = (double)ilng;
+
+                  if (++ci > 7) ci = 2;
+                  cpgsci(ilng?ci:1);
+
+                  /* Dash the reference longitude. */
+                  if ((ilng-crval1)%360 == 0) {
+                     cpgsls(2);
+                     cpgslw(5);
+                  }
+d430 63
+a492 2
+                  cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                         stat);
+d494 50
+a543 43
+                  k = 0;
+                  for (j = 0; j < 181; j++) {
+                     if (stat[j]) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                        continue;
+                     }
+
+                     /* Test for discontinuities. */
+                     if (j > 0) {
+                        if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                           if (k > 1) cpgline(k, xr, yr);
+                           k = 0;
+                        }
+                     }
+
+                     xr[k] = -x[j];
+                     yr[k] =  y[j];
+                     k++;
+                  }
+
+                  cpgline(k, xr, yr);
+                  cpgsls(1);
+                  cpgslw(1);
+               }
+
+               /* Draw celestial parallels of latitude. */
+               for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+                  lng[j] = (double)ilng;
+               }
+
+               ci = 1;
+               for (ilat = -90; ilat <= 90; ilat += 15) {
+                  lat[0] = (double)ilat;
+
+                  if (++ci > 7) ci = 2;
+                  cpgsci(ilat?ci:1);
+
+                  /* Dash the reference latitude. */
+                  if (ilat == crval2) {
+                     cpgsls(2);
+                     cpgslw(5);
+                  }
+d545 2
+a546 2
+                  cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                         stat);
+d548 1
+a548 152
+                  k = 0;
+                  for (j = 0; j < 361; j++) {
+                     if (stat[j]) {
+                        if (k > 1) cpgline(k, xr, yr);
+                        k = 0;
+                        continue;
+                     }
+
+                     /* Test for discontinuities. */
+                     if (j > 0) {
+                        if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                           if (k > 1) cpgline(k, xr, yr);
+                           k = 0;
+                        }
+                     }
+
+                     xr[k] = -x[j];
+                     yr[k] =  y[j];
+                     k++;
+                  }
+
+                  cpgline(k, xr, yr);
+                  cpgsls(1);
+                  cpgslw(1);
+               }
+
+               cpgslw(5);
+               cpgsci(9);
+
+               /* Mark the fiducial point. */
+               phi[0]   = celestial.phi0;
+               theta[0] = celestial.theta0;
+               prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+               xr[0] = -x[0];
+               yr[0] =  y[0];
+               cpgpt1(xr[0], yr[0], 24);
+               cpgpt1(xr[0], yr[0], 23);
+               cpgsci(10);
+               cpgpt1(xr[0], yr[0], 17);
+               cpgsci(9);
+
+               /* Tag the longitude of the celestial pole. */
+               phi[0]   = celestial.ref[2];
+               theta[0] = -90.0;
+               theta[1] = -80.0;
+               prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+               xr[0] = -x[0];
+               yr[0] =  y[0];
+               xr[1] = -x[0] + (x[1] - x[0]);
+               yr[1] =  y[0] - (y[1] - y[0]);
+               cpgline(2, xr, yr);
+
+               /* Mark the celestial pole. */
+               phi[0]   = celestial.ref[2];
+               theta[0] = celestial.ref[3];
+               prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+               xr[0] = -x[0];
+               yr[0] =  y[0];
+               cpgpt1(xr[0], yr[0], 24);
+               cpgpt1(xr[0], yr[0], 23);
+               cpgsci(0);
+               cpgpt1(xr[0], yr[0], 17);
+               cpgsci(9);
+
+               /* Mark zero celestial longitude expected for */
+               /* "change of origin" case.                   */
+               if (celestial.euler[1] == 0.0 || celestial.euler[1] == 180.0) {
+                  if (celestial.theta0 == 90.0) {
+                     alpha_p = celestial.ref[0];
+                  } else if (fabs(celestial.ref[1]) == 90.0) {
+                     alpha_p = celestial.ref[0];
+                  } else if (celestial.euler[1] == 0.0) {
+                     alpha_p = celestial.ref[0] + celestial.ref[2] -
+                               celestial.phi0 - 180.0;
+                  } else {
+                     alpha_p = celestial.ref[0] - celestial.ref[2] +
+                               celestial.phi0;
+                  }
+
+                  if (celestial.euler[1] == 0.0) {
+                     phi[0] = celestial.euler[2] - alpha_p + 180.0;
+                  } else {
+                     phi[0] = celestial.euler[2] + alpha_p;
+                  }
+
+                  phi[0] = fmod(phi[0], 360.0);
+                  if (phi[0] < -180.0) {
+                     phi[0] += 360.0;
+                  } else if (phi[0] > 180.0) {
+                     phi[0] -= 360.0;
+                  }
+
+                  theta[0] = -90.0;
+                  theta[1] = -87.0;
+                  prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+                  xr[0] = -x[0] + (x[1] - x[0]);
+                  yr[0] =  y[0] - (y[1] - y[0]);
+                  cpgsci(1);
+                  cpgpt1(xr[0], yr[0], 24);
+               }
+
+               cpgslw(1);
+
+               /* Flush PGPLOT buffer. */
+            skip:
+               cpgebuf();
+               if ((ctrl >= 'A' && ctrl <= 'Z') ||
+                  ((ctrl == 'c' || ctrl == 'b' || ctrl == 'j') && !first)) {
+                  /* Keep going. */
+
+               } else {
+                  printf("Next, skip, break, continue, exit [%c]: ", ctrl);
+                  fgets(answer, 16, stdin);
+
+                  if (strchr("bBcCeEiIjJnNpPqQsS", (int)answer[0]) != 0) {
+                     ctrl = answer[0];
+                  }
+               }
+
+               if (ctrl == 'i' || ctrl == 'I') {
+                  lonpole_i = 1;
+               } else {
+                  lonpole_i = 15;
+               }
+
+               if (ctrl == 'P') {
+                  /* There's no point in skipping all projections. */
+                  ctrl = 'p';
+                  break;
+               }
+
+               if (ctrl == 'b' || ctrl == 'B') break;
+               if (ctrl == 'j' || ctrl == 'J') break;
+               if (ctrl == 'e' || ctrl == 'E') goto end;
+               if (ctrl == 'q' || ctrl == 'Q') goto end;
+
+               first = 0;
+            }
+
+            if (ctrl == 'j' || ctrl == 'J') break;
+         }
+
+         if (ctrl == 'j' || ctrl == 'J') {
+            /* Save CRVAL1 and LONPOLE for next time. */
+            crval1_j  = crval1;
+            lonpole_j = lonpole;
+
+            /* Slow down CRVAL2. */
+            crval2_i  = 1;
+         } else {
+            crval2_i  = 45;
+         }
+d550 13
+a562 1
+   }
+d565 2
+a566 2
+   cpgask(0);
+   cpgend();
+d568 1
+a568 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: tcel2.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: tcel2.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 4
+a37 4
+* tcel2 thoroughly tests the WCSLIB celestial coordinate transformation
+* routines, particularly celset(), by plotting oblique test grids for a wide
+* variety of transformation parameters.  A simple user interface provides
+* limited control of the path taken through this parameter space.
+d54 125
+a178 182
+  char   answer[16], ctrl, text[80];
+  int    ci, crval1, crval1_j, crval2, crval2_i, first, ilat, ilng, iprj, j,
+         k, latpole, lonpole, lonpole_i, lonpole_j, phi_p, stat[361], status;
+  float  xr[512], yr[512];
+  double alpha_p, lat[181], lng[361], phi[361], theta[361], x[361], y[361];
+  struct celprm native, celestial;
+
+
+  printf(
+  "Testing WCSLIB celestial coordinate transformation routines (tcel2.c)\n"
+  "---------------------------------------------------------------------\n");
+
+  /* List status return messages. */
+  printf("\nList of cel status return values:\n");
+  for (status = 1; status <= 6; status++) {
+    printf("%4d: %s.\n", status, cel_errmsg[status]);
+  }
+
+  printf("\n\nLegend\n------");
+
+  printf("\nReference point of the projection (phi0,theta0) marked with\n"
+         "   a green circle with red centre.\n");
+  printf("\nCelestial meridian (CRVAL1) and parallel (CRVAL2) through the "
+         "reference point\n   is dashed.\n");
+  printf("\nCelestial pole (LONPOLE,LATPOLE) marked with\n"
+         "   a green circle with black centre.\n");
+  printf("\nNative longitude of celestial pole (LONPOLE) marked with\n"
+         "   a green tag.\n");
+  printf("\nCelestial prime meridian expected for \"change of origin\" case "
+         "marked with\n   an open yellow circle (where applicable).\n");
+  printf("\nCelestial equator and prime meridian marked with\n"
+         "   yellow grid lines.\n");
+  printf("\nDirection of increasing celestial longitude and latitude:\n"
+         "   white -> blue -> red.\n");
+
+  printf("\n\n");
+
+  printf("Loop control; LONPOLE changes fastest, then CRVAL1, then CRVAL2\n"
+         "---------------------------------------------------------------\n"
+         "       next: do next plot\n"
+         "       skip: skip past invalid values of LONPOLE\n"
+         "      break: break out of  inner loop on LONPOLE\n"
+         "   continue: cycle through inner loop on LONPOLE\n");
+  printf("       proj: skip to next projection\n"
+         "        inc: LONPOLE++, preserving CRVAL1 & CRVAL2\n"
+         "       jump: CRVAL2++,  preserving CRVAL1 & LONPOLE\n"
+         "       exit: terminate execution\n"
+         "       quit: terminate execution\n"
+         "Capital letter kills query.\n");
+
+  printf("\n\n");
+
+
+  /* PGPLOT initialization. */
+  strcpy(text, "/xwindow");
+  cpgbeg(0, text, 1, 1);
+
+  /* Define pen colours. */
+  cpgscr( 0, 0.0f, 0.0f, 0.0f);
+  cpgscr( 1, 1.0f, 1.0f, 0.0f);
+  cpgscr( 2, 1.0f, 1.0f, 1.0f);
+  cpgscr( 3, 0.5f, 0.5f, 0.8f);
+  cpgscr( 4, 0.8f, 0.5f, 0.5f);
+  cpgscr( 5, 0.8f, 0.8f, 0.8f);
+  cpgscr( 6, 0.5f, 0.5f, 0.8f);
+  cpgscr( 7, 0.8f, 0.5f, 0.5f);
+  cpgscr( 8, 0.3f, 0.5f, 0.3f);
+  cpgscr( 9, 0.0f, 1.0f, 0.0f);
+  cpgscr(10, 1.0f, 0.0f, 0.0f);
+
+  /* Define PGPLOT viewport. */
+  cpgenv(-195.0f, 195.0f, -195.0f, 195.0f, 1, -2);
+  cpgsch(0.8f);
+
+
+  ctrl = 'n';
+  for (iprj = 0; iprj < 4; iprj++) {
+    /* Initialize. */
+    celini(&native);
+    celini(&celestial);
+
+    /* Reference coordinates for the native graticule. */
+    if (iprj == 0) {
+      /* Set up a zenithal equidistant projection. */
+      strcpy(native.prj.code, "ARC");
+
+      native.ref[0] =   0.0;
+      native.ref[1] =  90.0;
+      native.ref[2] = 180.0;
+
+      celestial.phi0   =  0.0;
+      celestial.theta0 = 90.0;
+
+    } else if (iprj == 1) {
+      /* Set up a conic equidistant projection. */
+      strcpy(native.prj.code, "COD");
+      native.prj.pv[1] = 45.0;
+      native.prj.pv[2] = 25.0;
+
+      native.ref[0] =   0.0;
+      native.ref[1] =  45.0;
+      native.ref[2] = 180.0;
+
+      celestial.phi0   = 60.0;
+      celestial.theta0 = 45.0;
+
+    } else if (iprj == 2) {
+      /* Set up a Sanson-Flamsteed projection as Bonne's equatorial. */
+      strcpy(native.prj.code, "BON");
+      native.prj.pv[1] = 0.0;
+
+      native.ref[0] = 0.0;
+      native.ref[1] = 0.0;
+      native.ref[2] = 0.0;
+
+      celestial.phi0   = -30.0;
+      celestial.theta0 =   0.0;
+
+    } else if (iprj == 3) {
+      /* Set up a polyconic projection. */
+      strcpy(native.prj.code, "PCO");
+
+      native.ref[0] = 0.0;
+      native.ref[1] = 0.0;
+      native.ref[2] = 0.0;
+
+      celestial.phi0   = -60.0;
+      celestial.theta0 = -90.0;
+    }
+
+    celestial.prj = native.prj;
+
+    /* Loop over CRVAL2, CRVAL1 and LONPOLE. */
+    crval1_j  = -180;
+    crval2_i  =   45;
+    lonpole_i =   15;
+    lonpole_j = -180;
+    for (crval2 = -90; crval2 <=  90; crval2 += crval2_i) {
+      for (crval1 = -180; crval1 <= 180; crval1 += 90) {
+        first = 1;
+        for (lonpole = -180; lonpole <= 180; lonpole += lonpole_i) {
+          /* lonpole = 999; */
+          latpole = 999;
+
+          /* if (crval2 < 0) latpole = -999; */
+          /* if (crval2 > 0) latpole =  999; */
+
+          if (ctrl == 'j' || ctrl == 'J') {
+            /* Restore CRVAL1 and LONPOLE from last time. */
+            crval1  = crval1_j;
+            lonpole = lonpole_j;
+          }
+
+          celestial.ref[0] = (double)crval1;
+          celestial.ref[1] = (double)crval2;
+          celestial.ref[2] = (double)lonpole;
+          celestial.ref[3] = (double)latpole;
+
+          /* Buffer PGPLOT output. */
+          cpgbbuf();
+          cpgeras();
+          cpgsci(2);
+
+          /* Write parameter summary. */
+          sprintf(text, "(CRVAL1, CRVAL2, LONPOLE): (%+3.3d, %+2.2d, %+3.3d)",
+            crval1, crval2, lonpole);
+          cpgtext(-180.0f, 200.0f, text);
+
+          /* Skip invalid values of LONPOLE. */
+          if (celset(&celestial)) {
+            sprintf(text, "INVALID VALUE OF LONPOLE (= %+3.3d)", lonpole);
+            cpgtext(-90.0f, 0.0f, text);
+
+            sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+               "(%+3.3d, %+2.2d)", native.prj.code, nint(celestial.phi0),
+               nint(celestial.theta0));
+            cpgtext(-180.0f, -200.0f, text);
+
+            if (ctrl == 's' || ctrl == 'S') {
+              cpgebuf();
+              continue;
+            }
+d180 3
+a182 52
+            goto skip;
+          }
+
+          /* Write parameters. */
+          sprintf(text, "%s projection, (\\gf\\d0\\u,\\gh\\d0\\u) = "
+            "(%+3.3d, %+2.2d) - green circle with red centre",
+            native.prj.code, nint(celestial.phi0),
+            nint(celestial.theta0));
+          cpgtext(-180.0f, -200.0f, text);
+
+          sprintf(text, "(CRVAL1, CRVAL2): (%+3.3d, %+2.2d) - dashed grid"
+            " lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+          cpgtext(-180.0f, -213.0f, text);
+
+          sprintf(text, "(LONPOLE, LATPOLE): (%+3.3d, %+3.3d) -> "
+            "(%+3.3d, %+2.2d) - open green circle, green tag", lonpole,
+            latpole, nint(celestial.ref[2]), nint(celestial.ref[3]));
+          cpgtext(-180.0f, -226.0f, text);
+
+          sprintf(text, "(\\ga\\dp\\u, \\gd\\dp\\u): (%+3.3d, %+2.2d)",
+            nint(celestial.euler[0]), nint(90.0-celestial.euler[1]));
+          cpgtext(-180.0f, -239.0f, text);
+
+          if (celestial.latpreq == 0) {
+            sprintf(text, "(LATPOLE not required.)");
+          } else if (celestial.latpreq == 1) {
+            sprintf(text, "(LATPOLE disambiguates.)");
+          } else if (celestial.latpreq == 2) {
+            sprintf(text, "(LATPOLE IS DEFINITIVE.)");
+          }
+          cpgtext(-40.0f, -239.0f, text);
+
+
+          /* Draw the native graticule faintly in the background. */
+          cpgsci(8);
+
+          /* Draw native meridians of longitude. */
+          for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+            lat[j] = (double)ilat;
+          }
+
+          phi_p = nint(celestial.ref[2]);
+          for (ilng = -180; ilng <= 180; ilng += 15) {
+            lng[0] = (double)ilng;
+            if (ilng == -180) lng[0] = -179.99;
+            if (ilng ==  180) lng[0] =  179.99;
+
+            /* Mark the longitude of the celestial pole. */
+            if ((ilng-phi_p)%360 == 0) {
+              cpgslw(5);
+              cpgsci(9);
+            }
+d184 1
+a184 1
+            cels2x(&native, 1, 181, 1, 1, lng, lat, phi, theta, x, y, stat);
+d186 104
+a289 12
+            k = 0;
+            for (j = 0; j < 181; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+d291 2
+a292 29
+            cpgline(k, xr, yr);
+            cpgslw(1);
+            cpgsci(8);
+          }
+
+          /* Draw native parallels of latitude. */
+          lng[0]   = -179.99;
+          lng[360] =  179.99;
+          for (j = 1, ilng = -179; ilng < 180; ilng++, j++) {
+            lng[j] = (double)ilng;
+          }
+
+          for (ilat = -90; ilat <= 90; ilat += 15) {
+            lat[0] = (double)ilat;
+
+            cels2x(&native, 361, 1, 1, 1, lng, lat, phi, theta, x, y, stat);
+
+            k = 0;
+            for (j = 0; j < 361; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+d294 24
+a317 2
+            cpgline(k, xr, yr);
+          }
+d319 2
+d322 2
+a323 2
+          /* Draw a colour-coded celestial coordinate graticule. */
+          ci = 1;
+d325 36
+a360 4
+          /* Draw celestial meridians of longitude. */
+          for (j = 0, ilat = -90; ilat <= 90; ilat++, j++) {
+            lat[j] = (double)ilat;
+          }
+d362 2
+a363 2
+          for (ilng = -180; ilng <= 180; ilng += 15) {
+            lng[0] = (double)ilng;
+a364 24
+            if (++ci > 7) ci = 2;
+            cpgsci(ilng?ci:1);
+
+            /* Dash the reference longitude. */
+            if ((ilng-crval1)%360 == 0) {
+              cpgsls(2);
+              cpgslw(5);
+            }
+
+            cels2x(&celestial, 1, 181, 1, 1, lng, lat, phi, theta, x, y,
+                   stat);
+
+            k = 0;
+            for (j = 0; j < 181; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              /* Test for discontinuities. */
+              if (j > 0) {
+                if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                  if (k > 1) cpgline(k, xr, yr);
+d366 42
+a407 30
+                }
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+            cpgsls(1);
+            cpgslw(1);
+          }
+
+          /* Draw celestial parallels of latitude. */
+          for (j = 0, ilng = -180; ilng <= 180; ilng++, j++) {
+            lng[j] = (double)ilng;
+          }
+
+          ci = 1;
+          for (ilat = -90; ilat <= 90; ilat += 15) {
+            lat[0] = (double)ilat;
+
+            if (++ci > 7) ci = 2;
+            cpgsci(ilat?ci:1);
+
+            /* Dash the reference latitude. */
+            if (ilat == crval2) {
+              cpgsls(2);
+              cpgslw(5);
+            }
+d409 2
+a410 2
+            cels2x(&celestial, 361, 1, 1, 1, lng, lat, phi, theta, x, y,
+                   stat);
+a411 12
+            k = 0;
+            for (j = 0; j < 361; j++) {
+              if (stat[j]) {
+                if (k > 1) cpgline(k, xr, yr);
+                k = 0;
+                continue;
+              }
+
+              /* Test for discontinuities. */
+              if (j > 0) {
+                if (fabs(phi[j]-phi[j-1]) > 15.0) {
+                  if (k > 1) cpgline(k, xr, yr);
+d413 151
+a563 127
+                }
+              }
+
+              xr[k] = -x[j];
+              yr[k] =  y[j];
+              k++;
+            }
+
+            cpgline(k, xr, yr);
+            cpgsls(1);
+            cpgslw(1);
+          }
+
+          cpgslw(5);
+          cpgsci(9);
+
+          /* Mark the fiducial point. */
+          phi[0]   = celestial.phi0;
+          theta[0] = celestial.theta0;
+          prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          cpgpt1(xr[0], yr[0], 24);
+          cpgpt1(xr[0], yr[0], 23);
+          cpgsci(10);
+          cpgpt1(xr[0], yr[0], 17);
+          cpgsci(9);
+
+          /* Tag the longitude of the celestial pole. */
+          phi[0]   = celestial.ref[2];
+          theta[0] = -90.0;
+          theta[1] = -80.0;
+          prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          xr[1] = -x[0] + (x[1] - x[0]);
+          yr[1] =  y[0] - (y[1] - y[0]);
+          cpgline(2, xr, yr);
+
+          /* Mark the celestial pole. */
+          phi[0]   = celestial.ref[2];
+          theta[0] = celestial.ref[3];
+          prjs2x(&(native.prj), 1, 1, 1, 1, phi, theta, x, y, stat);
+          xr[0] = -x[0];
+          yr[0] =  y[0];
+          cpgpt1(xr[0], yr[0], 24);
+          cpgpt1(xr[0], yr[0], 23);
+          cpgsci(0);
+          cpgpt1(xr[0], yr[0], 17);
+          cpgsci(9);
+
+          /* Mark zero celestial longitude expected for */
+          /* "change of origin" case.                   */
+          if (celestial.euler[1] == 0.0 || celestial.euler[1] == 180.0) {
+            if (celestial.theta0 == 90.0) {
+              alpha_p = celestial.ref[0];
+            } else if (fabs(celestial.ref[1]) == 90.0) {
+              alpha_p = celestial.ref[0];
+            } else if (celestial.euler[1] == 0.0) {
+              alpha_p = celestial.ref[0] + celestial.ref[2] -
+                        celestial.phi0 - 180.0;
+            } else {
+              alpha_p = celestial.ref[0] - celestial.ref[2] +
+                        celestial.phi0;
+            }
+
+            if (celestial.euler[1] == 0.0) {
+              phi[0] = celestial.euler[2] - alpha_p + 180.0;
+            } else {
+              phi[0] = celestial.euler[2] + alpha_p;
+            }
+
+            phi[0] = fmod(phi[0], 360.0);
+            if (phi[0] < -180.0) {
+              phi[0] += 360.0;
+            } else if (phi[0] > 180.0) {
+              phi[0] -= 360.0;
+            }
+
+            theta[0] = -90.0;
+            theta[1] = -87.0;
+            prjs2x(&(native.prj), 1, 2, 1, 1, phi, theta, x, y, stat);
+            xr[0] = -x[0] + (x[1] - x[0]);
+            yr[0] =  y[0] - (y[1] - y[0]);
+            cpgsci(1);
+            cpgpt1(xr[0], yr[0], 24);
+          }
+
+          cpgslw(1);
+
+          /* Flush PGPLOT buffer. */
+        skip:
+          cpgebuf();
+          if ((ctrl >= 'A' && ctrl <= 'Z') ||
+             ((ctrl == 'c' || ctrl == 'b' || ctrl == 'j') && !first)) {
+            /* Keep going. */
+
+          } else {
+            printf("Next, skip, break, continue, exit [%c]: ", ctrl);
+            fgets(answer, 16, stdin);
+
+            if (strchr("bBcCeEiIjJnNpPqQsS", (int)answer[0]) != 0) {
+              ctrl = answer[0];
+            }
+          }
+
+          if (ctrl == 'i' || ctrl == 'I') {
+            lonpole_i = 1;
+          } else {
+            lonpole_i = 15;
+          }
+
+          if (ctrl == 'P') {
+            /* There's no point in skipping all projections. */
+            ctrl = 'p';
+            break;
+          }
+
+          if (ctrl == 'b' || ctrl == 'B') break;
+          if (ctrl == 'j' || ctrl == 'J') break;
+          if (ctrl == 'e' || ctrl == 'E') goto end;
+          if (ctrl == 'q' || ctrl == 'Q') goto end;
+
+          first = 0;
+        }
+
+        if (ctrl == 'j' || ctrl == 'J') break;
+d565 1
+a565 13
+
+      if (ctrl == 'j' || ctrl == 'J') {
+        /* Save CRVAL1 and LONPOLE for next time. */
+        crval1_j  = crval1;
+        lonpole_j = lonpole;
+
+        /* Slow down CRVAL2. */
+        crval2_i  = 1;
+      } else {
+        crval2_i  = 45;
+       }
+    }
+  }
+d568 2
+a569 2
+  cpgask(0);
+  cpgend();
+d571 1
+a571 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; changed #include
+of strings.h (non-ANSI) to string.h, and index() (non-ANSI) to strchr().
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tcel2.c,v 4.1 2005/08/31 04:08:59 cal103 Exp cal103 $
+d96 2
+a97 2
+          "   continue: cycle through inner loop on LONPOLE\n"
+          "       proj: skip to next projection\n"
+d519 1
+a519 1
+                   (ctrl == 'c' || ctrl == 'b' || ctrl == 'j') && !first) {
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel2.c,v 4.2 2005/09/22 02:15:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Parenthesised a complicated boolean expression.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: tcel2.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+d518 1
+a518 1
+                  ((ctrl == 'c' || ctrl == 'b' || ctrl == 'j') && !first)) {
+@
+
+
+4.2.1.3
+log
+@Broke a long string constant (>509 char) in a printf() format into two to
+avoid a compiler warning with 'gcc -std=c89'.
+@
+text
+@d30 1
+a30 1
+*   $Id: tcel2.c,v 4.2.1.2 2007/06/29 06:32:41 cal103 Exp cal103 $
+d95 2
+a96 2
+          "   continue: cycle through inner loop on LONPOLE\n");
+   printf("       proj: skip to next projection\n"
+@
+
+
+4.2.1.4
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: tcel2.c,v 4.2.1.3 2007/07/12 02:45:59 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: added "proj" command to skip to the next projection; use fixed
+formatting for text on the plot to stop jitter; state how LATPOLE is used.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel2.c,v 4.0 2005/02/04 06:24:35 cal103 Exp cal103 $
+d44 1
+a44 1
+#include <strings.h>
+d61 3
+a63 2
+   printf("\nTesting WCSLIB celestial coordinate transformation routines\n");
+   printf("-----------------------------------------------------------\n");
+d525 1
+a525 1
+                  if (index("bBcCeEiIjJnNpPqQsS", (int)answer[0]) != 0) {
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel2.c,v 3.6 2004/08/25 05:31:25 cal103 Exp cal103 $
+d55 1
+a55 1
+          k, latpole, lonpole, lonpole_i, lonpole_j, phi_p, stat[361];
+d66 2
+a67 2
+   for (k = 1; k <= 6 ; k++) {
+      printf("   %d: %s.\n", k, cel_errmsg[k]);
+d95 1
+d216 2
+a217 2
+               sprintf(text, "(CRVAL1, CRVAL2, LONPOLE): (%4d,%+4d,%4d)",
+                 crval1, crval2, lonpole);
+d222 2
+a223 1
+                  sprintf(text, "INVALID VALUE OF LONPOLE (= %d)", lonpole);
+d227 1
+a227 1
+                     "(%d,%+d)", native.prj.code, nint(celestial.phi0),
+d241 3
+a243 2
+                  "(%d,%+d) - green circle with red centre", native.prj.code,
+                  nint(celestial.phi0), nint(celestial.theta0));
+d246 2
+a247 2
+               sprintf(text, "(CRVAL1, CRVAL2): (%d,%+d) - dashed grid "
+                 "lines", nint(celestial.ref[0]), nint(celestial.ref[1]));
+d250 3
+a252 3
+               sprintf(text, "(LONPOLE, LATPOLE): (%d,%+d) -> (%d,%+d) - "
+                 "open green circle, green tag", lonpole, latpole,
+                 nint(celestial.ref[2]), nint(celestial.ref[3]));
+d255 2
+a256 2
+               sprintf(text, "(\\ga\\dp\\u, \\gd\\dp\\u): (%d,%+d)",
+                 nint(celestial.euler[0]), nint(90.0-celestial.euler[1]));
+d259 9
+d524 1
+a524 1
+                  if (index("bBcCeEiIjJnNqQsS", (int)answer[0]) != 0) {
+d533 6
+@
+
+
+3.6
+log
+@WCSLIB 3.6: "error status/code/number" is now referred to consistently as the
+"status return value".
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by the
+*   Free Software Foundation; either version 2 of the License, or (at your
+*   option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d17 2
+a18 2
+*   with this library; if not, write to the Free Software Foundation, Inc.,
+*   675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: tcel2.c,v 3.5 2004/06/28 01:04:13 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5: use a Sanson-Flamsteed projection implemented as Bonne's
+equatorial in place of Aitov's projection.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tcel2.c,v 3.4 2004/02/11 00:43:43 mcalabre Exp mcalabre $
+d64 2
+a65 2
+   /* List error messages. */
+   printf("\nList of cel error codes:\n");
+@
+
+
+3.4
+log
+@WCSLIB 3.4: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+a37 1
+*   $Id$
+d158 3
+a160 2
+         /* Set up Aitov's projection. */
+         strcpy(native.prj.code, "AIT");
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 549
+@

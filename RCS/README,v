@@ -1,0 +1,4249 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.44;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.27.24;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.57.06;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.23.04.55.25;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	0.0;
+
+0.0
+date	2005.09.23.04.29.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.03.12.44;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.07.00.23;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.08.02.07.04.35;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.08.08.08.06;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.03.04.51.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.22.58;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.21.07.03.00;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.05.08.35.00;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.08.06.02.46.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.42.06;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.49.04;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.31.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.26.08;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	4.9.1.2;
+
+4.9.1.2
+date	2012.01.31.23.54.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.28.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.12.34;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.24.05.09.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.00.58.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.16.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.17.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.15.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.27.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.13.31;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.13.54.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Programmer's guide to WCSLIB and PGSBOX.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@------------------------------------------------------------------------------
+                         WCSLIB 8.10 and PGSBOX 8.10
+------------------------------------------------------------------------------
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under
+  the terms of the GNU Lesser General Public License as published by the
+  Free Software Foundation, either version 3 of the License, or (at your
+  option) any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: README,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+------------------------------------------------------------------------------
+
+Please refer to
+
+  ./INSTALL		...Installation instructions.
+
+  ./html/index.html	...The WCSLIB programmer's manual in HTML format.
+  ./wcslib.pdf		...The WCSLIB programmer's manual in PDF format.
+
+  ./CHANGES		...Log of changes made to WCSLIB.
+
+  ./THANKS		...List of contributors to WCSLIB.
+
+  ./VALIDATION		...List of platforms on which the installation
+			   procedures and test suite were exercised.
+
+  ./COPYING		...A copy of the GNU General Public License, v3.0.
+  ./COPYING.LESSER	...A copy of the Lesser GNU General Public License.
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.9 and PGSBOX 8.9
+d4 1
+a4 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.8 and PGSBOX 8.8
+d4 1
+a4 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.7 and PGSBOX 8.7
+d4 1
+a4 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.6 and PGSBOX 8.6
+d4 1
+a4 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.5 and PGSBOX 8.5
+d4 2
+a5 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d23 2
+a24 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: README,v 8.4.1.2 2025/12/06 13:37:19 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d23 2
+a24 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: README,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.4 and PGSBOX 8.4
+d4 2
+a5 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.3 and PGSBOX 8.3
+d4 1
+a4 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.2.1.2 2024/04/02 13:54:04 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.2 and PGSBOX 8.2
+d4 2
+a5 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.1 and PGSBOX 8.1
+d4 1
+a4 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 8.0 and PGSBOX 8.0
+d4 1
+a4 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.13 and PGSBOX 7.13
+d4 2
+a5 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.12 and PGSBOX 7.12
+d4 1
+a4 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.11 and PGSBOX 7.11
+d4 1
+a4 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.10 and PGSBOX 7.10
+d4 1
+a4 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.9 and PGSBOX 7.9
+d4 1
+a4 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.8 and PGSBOX 7.8
+d4 1
+a4 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.7 and PGSBOX 7.7
+d4 2
+a5 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d24 1
+a24 1
+  $Id: README,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.6 and PGSBOX 7.6
+d4 1
+a4 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.5 and PGSBOX 7.5
+d4 1
+a4 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.4 and PGSBOX 7.4
+d4 1
+a4 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+  $Id: README,v 7.3.1.3 2021/01/28 12:36:14 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d24 1
+a24 1
+  $Id: README,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.3 and PGSBOX 7.3
+d4 2
+a5 2
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a21 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d24 1
+a24 1
+  $Id: README,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d22 2
+d26 1
+a26 1
+  $Id: README,v 7.3.1.2 2021/01/19 14:13:31 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.2 and PGSBOX 7.2
+d4 1
+a4 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 7.1 and PGSBOX 7.1
+d4 1
+a4 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 6.4.1.2 2019/12/31 03:27:30 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 6.4 and PGSBOX 6.4
+d4 2
+a5 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 6.3 and PGSBOX 6.3
+d4 1
+a4 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 6.2.1.2 2019/05/10 02:15:37 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 6.2 and PGSBOX 6.2
+d4 2
+a5 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 6.1 and PGSBOX 6.1
+d4 1
+a4 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.20 and PGSBOX 5.20
+d4 1
+a4 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.19 and PGSBOX 5.19
+d4 1
+a4 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.18 and PGSBOX 5.18
+d4 1
+a4 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.17.1.2 2018/01/10 08:25:19 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.17 and PGSBOX 5.17
+d4 2
+a5 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.16 and PGSBOX 5.16
+d4 1
+a4 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.15.1.2 2017/01/15 04:17:54 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.15 and PGSBOX 5.15
+d4 2
+a5 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.14 and PGSBOX 5.14
+d4 1
+a4 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.13 and PGSBOX 5.13
+d4 1
+a4 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.12.1.2 2016/01/25 05:16:41 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.12 and PGSBOX 5.12
+d4 2
+a5 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.11 and PGSBOX 5.11
+d4 1
+a4 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.10 and PGSBOX 5.10
+d4 1
+a4 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.9 and PGSBOX 5.9
+d4 1
+a4 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.8 and PGSBOX 5.8
+d4 1
+a4 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.7 and PGSBOX 5.7
+d4 1
+a4 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.6 and PGSBOX 5.6
+d4 1
+a4 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.5 and PGSBOX 5.5
+d4 1
+a4 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.4 and PGSBOX 5.4
+d4 1
+a4 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.3 and PGSBOX 5.3
+d4 1
+a4 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.2 and PGSBOX 5.2
+d4 1
+a4 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.1 and PGSBOX 5.1
+d4 1
+a4 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 5.0 and PGSBOX 5.0
+d4 1
+a4 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.25.1.2 2015/01/06 00:58:14 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.25 and PGSBOX 4.25
+d4 2
+a5 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.24 and PGSBOX 4.24
+d4 1
+a4 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.23 and PGSBOX 4.23
+d4 1
+a4 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.22 and PGSBOX 4.22
+d4 1
+a4 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.21 and PGSBOX 4.21
+d4 1
+a4 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.20.1.2 2014/03/24 05:09:52 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.20 and PGSBOX 4.20
+d4 2
+a5 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.19 and PGSBOX 4.19
+d4 1
+a4 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.18 and PGSBOX 4.18
+d4 1
+a4 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.17 and PGSBOX 4.17
+d4 1
+a4 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.16.1.2 2013/01/29 05:12:34 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.16 and PGSBOX 4.16
+d4 2
+a5 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d26 1
+a26 1
+  $Id: README,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.15 and PGSBOX 4.15
+d4 1
+a4 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.14.1.1 2012/07/13 10:04:59 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.14 and PGSBOX 4.14
+d4 1
+a4 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: README,v 4.13.1.2 2012/07/13 03:28:14 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: README,v 4.14 2012/07/13 10:02:44 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.13 and PGSBOX 4.13
+d4 2
+a5 2
+    WCSLIB 4.13 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2012, Mark Calabretta
+d7 1
+a7 1
+    This file is part of WCSLIB.
+d9 18
+a26 20
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+a44 5
+
+
+Author: Mark Calabretta, Australia Telescope National Facility
+http://www.atnf.csiro.au/~mcalabre/index.html
+$Id: README,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d51 1
+a51 1
+$Id: README,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d4 2
+a5 2
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d7 1
+a7 1
+  This file is part of WCSLIB.
+d9 20
+a28 18
+  WCSLIB is free software: you can redistribute it and/or modify it under
+  the terms of the GNU Lesser General Public License as published by the
+  Free Software Foundation, either version 3 of the License, or (at your
+  option) any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: README,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+d47 5
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.12 and PGSBOX 4.12
+d4 1
+a4 1
+    WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d51 1
+a51 1
+$Id: README,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d51 1
+a51 1
+$Id: README,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.11 and PGSBOX 4.11
+d4 1
+a4 1
+    WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d51 1
+a51 1
+$Id: README,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d51 1
+a51 1
+$Id: README,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.10 and PGSBOX 4.10
+d4 1
+a4 1
+    WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d51 1
+a51 1
+$Id: README,v 4.9.1.2 2012/01/31 23:54:16 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d51 1
+a51 1
+$Id: README,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.9 and PGSBOX 4.9
+d4 1
+a4 1
+    WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d40 2
+d51 1
+a51 1
+$Id: README,v 4.8.1.2 2012/01/24 05:26:08 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.9.1.2
+log
+@Added THANKS to the list of files.
+@
+text
+@a39 2
+  ./THANKS		...List of contributors to WCSLIB.
+
+d49 1
+a49 1
+$Id: README,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.8 and PGSBOX 4.8
+d4 2
+a5 2
+    WCSLIB 4.8 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2011, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+    Copyright (C) 1995-2012, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.7 and PGSBOX 4.7
+d4 1
+a4 1
+    WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d49 1
+a49 1
+$Id: README,v 4.6.1.2 2011/01/14 06:31:11 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.6 and PGSBOX 4.6
+d4 2
+a5 2
+    WCSLIB 4.6 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2010, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+    Copyright (C) 1995-2011, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.5 and PGSBOX 4.5
+d4 1
+a4 1
+    WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d49 1
+a49 1
+$Id: README,v 4.4.1.2 2010/01/19 03:49:04 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.4 and PGSBOX 4.4
+d4 2
+a5 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2009, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.3.1.4 2009/08/06 02:46:06 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d49 1
+a49 1
+$Id: README,v 4.4 2009/08/06 07:27:24 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d5 1
+a5 1
+    Copyright (C) 1995-2010, Mark Calabretta
+d49 1
+a49 1
+$Id: README,v 4.4.1.1 2009/08/10 08:42:06 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.3 and PGSBOX 4.3
+d4 2
+a5 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d31 1
+a31 2
+INTRODUCTION
+------------
+d33 1
+a33 5
+WCSLIB is a C library, supplied with a full set of Fortran wrappers, that
+implements the "World Coordinate System" (WCS) convention in FITS (Flexible
+Image Transport System).  It also includes a PGPLOT-based routine, PGSBOX,
+for drawing general curvilinear coordinate graticules and a number of utility
+programs.
+d35 2
+a36 3
+The FITS data format is widely used within the international astronomical
+community, from the radio to gamma-ray regimes, for data interchange and
+archive, and also increasingly as an online format.  It is described in
+d38 1
+a38 2
+  "Definition of The Flexible Image Transport System (FITS)",
+   Hanisch, R.J., Farris, A., Greisen, E.W., et al. 2001, A&A, 376, 359
+d40 2
+a41 2
+which formalizes NOST 100-2.0, a document produced by the NASA/Science
+Office of Standards and Technology, see http://fits.gsfc.nasa.gov.
+d43 2
+a44 528
+The WCS conventions, which have been adopted as formal FITS standards, are
+described in
+
+  "Representations of world coordinates in FITS" (Paper I),
+   Greisen, E.W., & Calabretta, M.R. 2002, A&A, 395, 1061-1075
+
+  "Representations of celestial coordinates in FITS" (Paper II),
+   Calabretta, M.R., & Greisen, E.W. 2002, A&A, 395, 1077-1122
+
+  "Representations of spectral coordinates in FITS" (Paper III),
+   Greisen, E.W., Calabretta, M.R., Valdes, F.G., & Allen, S.L.
+   2006, A&A, 446, 747 (Paper III)
+
+  "Mapping on the HEALPix Grid" (HPX),
+   Calabretta, M.R., & Roukema, B.F. 2007, MNRAS, (in press)
+
+Paper IV, "Representations of distortions in FITS world coordinate systems",
+is in preparation.
+
+Reprints of all published papers may be obtained from NASA's Astrophysics
+Data System (ADS):
+
+   http://adsabs.harvard.edu/
+
+Reprints of Papers I, II (+HPX) and III and a draft of Paper IV are available
+from
+
+   http://www.atnf.csiro.au/~mcalabre/
+
+and
+
+   http://www.aoc.nrao.edu/~egreisen/
+
+The first of these sites also includes errata and supplementary material for
+Papers I, II and III and is the primary site for Paper IV while it is in
+preparation.
+
+Additional information on all aspects of FITS and its various software
+implementations may be found at the FITS Support Office
+
+   http://fits.gsfc.nasa.gov
+
+
+
+FITS WCS SOFTWARE
+-----------------
+
+The WCSLIB software distribution (i.e. this library) may be obtained from
+
+   http://www.atnf.csiro.au/~mcalabre/WCS/
+
+The remainder of this document describes its use.
+
+Other implementations of the FITS WCS standards are also available:
+wcstools, developed by Doug Mink, may be obtained from
+
+   http://tdc-www.harvard.edu/software/wcstools/
+
+and AST, developed by David Berry within the U.K. Starlink project
+
+   http://www.starlink.ac.uk/ast/
+
+David Berry also provides a very useful facility for experimenting with FITS
+WCS descriptions; go to the above site and then look at the section entitled
+"FITS-WCS Plotting Demo".
+
+The general FITS IO library, CFITSIO, referred to elsewhere, is available from
+
+   http://heasarc.gsfc.nasa.gov/fitsio
+
+It is used optionally by some of the high-level WCSLIB test programs and is
+required by two of the utility programs.
+
+PGPLOT, a Fortran plotting package on which PGSBOX is based (see below) and
+also used by some of the WCSLIB self-test suite and a utility program, is
+available from
+
+   http://astro.caltech.edu/~tjp/pgplot/
+
+
+
+OVERVIEW OF WCSLIB
+------------------
+
+WCSLIB is documented in its header files which provide a detailed description
+of the purpose of each function and its interface.  This section explains how
+the library as a whole is structured.  We will normally refer to WCSLIB
+'routines', meaning C functions or Fortran 'subroutines', though the latter
+are actually wrappers implemented in C.
+
+WCSLIB is layered software, each layer depends only on those beneath;
+understanding WCSLIB first means understanding its stratigraphy.
+
+There are essentially three levels, though some intermediate levels exist
+within these:
+
+  1) The top layer consists of routines that provide the connection between
+     FITS files and the high-level WCSLIB data structures, the main function
+     being to parse a FITS header, extract WCS information, and copy it into
+     a wcsprm struct.  The lexical parsers among these are implemented as flex
+     descriptions (source files with .l suffix) and the C code generated from
+     these by flex is included in the source distribution.
+
+       wcshdr.{h,c}    ...Routines for constructing wcsprm data structures
+                          from information in a FITS header (uses wcspih()).
+       wcspih.l        ...Lexical parser for WCS "keyrecords" in an image
+                          header.  A keyrecord (formerly called "card image")
+                          consists of a keyword, its value - the "keyvalue" -
+                          and an optional comment.
+       getwcstab.{h,c} ...Implementation of a -TAB binary table reader in
+                          CFITSIO.
+
+     A generic FITS header parser is also provided to handle non-WCS
+     keyrecords which are ignored by wcspih():
+
+       fitshdr.{h,l}   ...Generic FITS header parser (not WCS-specific).
+
+     The philosophy adopted for dealing with non-standard WCS usage is to
+     translate it at this level so that the middle- and low-level routines
+     need only deal with standard constructs:
+
+       wcsfix.{h,c}    ...Translator for non-standard FITS WCS constructs
+                          (uses wcsutrn()).
+       wcsutrn.l       ...Lexical translator for non-standard units
+                          specifications.
+
+     As a concrete example, within this layer the CTYPEia keyvalues would be
+     extracted from a FITS header and copied into the ctype[] array within a
+     wcsprm struct.  None of the header keyrecords are interpreted.
+
+  2) The middle layer analyses the WCS information obtained from the FITS
+     header by the top-level routines, identifying the separate steps of the
+     WCS algorithm chain for each of the coordinate axes in the image.  It
+     constructs the various data structures on which the low-level routines
+     are based and invokes them in the correct sequence.  Thus the wcsprm
+     struct is essentially the glue that binds together the low-level routines
+     into a complete coordinate description.
+
+       wcs.{h,c}       ...Driver routines for the low-level routines.
+       wcsunits.{h,c}  ...Unit conversions (uses wcsulex()).
+       wcsulex.l       ...Lexical parser for units specifications.
+
+     To continue the above example, within this layer the ctype[] keyvalues in
+     a wcsprm struct are analysed to determine the nature of the coordinate
+     axes in the image.
+
+  3) Applications programmers who use the top- and middle-level routines
+     generally need know nothing about the low-level routines.  These are
+     essentially mathematical in nature and largely independent of FITS
+     itself.  The mathematical formulae and algorithms cited in the WCS
+     Papers, for example the spherical projection equations of Paper II and
+     the lookup-table methods of Paper III, are implemented by the routines
+     in this layer, some of which serve to aggregate others:
+
+       cel.{h,c}       ...Celestial coordinate transformations, combines
+                          prj.{h,c} and sph.{h,c}
+       spc.{h,c}       ...Spectral coordinate transformations, combines
+                          transformations from spx.{h,c}.
+
+     The remainder of the routines in this level are independent of everything
+     other than the grass-roots mathematical functions:
+
+       lin.{h,c}       ...Linear transformation matrix.
+       log.{h,c}       ...Logarithmic coordinates.
+       prj.{h,c}       ...Spherical projection equations.
+       sph.{h,c}       ...Spherical coordinate transformations.
+       spx.{h,c}       ...Basic spectral transformations.
+       tab.{h,c}       ...Coordinate lookup tables.
+
+     As the routines within this layer are quite generic, some, principally
+     the implementation of the spherical projection equations, have been used
+     in other packages (AST, wcstools) that provide their own implementations
+     of the functionality of the top and middle-level routines.
+
+  4) At the grass-roots level there are a number of mathematical and utility
+     routines.
+
+     When dealing with celestial coordinate systems it is often desirable to
+     use an angular measure that provides an exact representation of the
+     latitude of the north or south pole.  The WCSLIB routines use the
+     following trigonometric functions that take or return angles in degrees:
+
+       cosd() sind() tand() acosd() asind() atand() atan2d()
+
+     These "trigd" routines are expected to handle angles that are a multiple
+     of 90 degrees returning an exact result.  Some C implementations provide
+     these as part of a system library and in such cases it may (or may not!)
+     be preferable to use them.  wcstrig.c provides wrappers on the standard
+     trig functions based on radian measure, adding tests for multiples of
+     90 degrees.
+
+     However, wcstrig.h also provides the choice of using preprocessor macro
+     implementations of the trigd functions that don't test for multiples of
+     90 degrees (compile with -DWCSTRIG_MACRO).  These are typically 20%
+     faster but may lead to problems near the poles.
+
+       wcsmath.h       ...Defines mathematical and other constants.
+       wcstrig.{h,c}   ...Various implementations of trigd functions.
+       wcsutil.{h,c}   ...Simple utility functions for string manipulation,
+                          etc. used by WCSLIB.
+
+Complementary to the C library, a set of wrappers are provided that allow all
+WCSLIB C functions to be called by Fortran programs, see below.
+
+Plotting of coordinate graticules is one of the more important requirements of
+a world coordinate system.  WCSLIB provides a PGPLOT-based subroutine, PGSBOX
+(Fortran), which handles general curvilinear coordinates via a user-supplied
+function - PGWCSL provides the interface to WCSLIB.  A C wrapper, cpgsbox(),
+is also provided, see below.
+
+Several utility programs are also distributed with WCSLIB:
+
+  1) HPXcvt reorganises HEALPix data into a 2-D FITS image with HPX coordinate
+     system.  The input data may be stored in a FITS file as a primary image
+     or image extension, or as a binary table extension.  Both NESTED and RING
+     pixel indices are supported.  It uses CFITSIO.
+
+  2) fitshdr lists headers from a FITS file specified on the command line, or
+     else on stdin, printing them as 80-character keyrecords without trailing
+     blanks.  It is independent of WCSLIB.
+
+  3) wcsgrid extracts the WCS keywords for an image from the specified FITS
+     file and uses pgsbox() to plot a 2-D coordinate graticule for it.  It
+     requires WCSLIB, PGSBOX and CFITSIO.
+
+
+
+WCSLIB DATA STRUCTURES
+----------------------
+
+The WCSLIB routines are based on data structures specific to them: wcsprm for
+the wcs.{h,c} routines, celprm for cel.{h,c}, and likewise spcprm, linprm,
+prjprm and tabprm, with struct definitions contained in the corresponding
+header files: wcs.h, cel.h, etc.  The structs store the parameters that define
+a coordinate transformation and also intermediate values derived from those
+parameters.  As a high-level object, the wcsprm struct contains linprm,
+tabprm, spcprm, and celprm structs, and in turn the celprm struct contains a
+prjprm struct.  Hence the wcsprm struct contains everything needed for a
+complete coordinate description.
+
+Applications programmers who use the top- and middle-level routines generally
+only need to pass wcsprm structs from one routine that fills them to another
+that uses them.  However, since these structs are fundamental to WCSLIB it is
+worthwhile knowing something about the way they work.
+
+Three basic operations apply to all WCSLIB structs:
+
+  1) Initialize.  Each struct has a specific initialization routine, e.g.
+     wcsini(), celini(), spcini(), etc.  These allocate memory (if required)
+     and set all struct members to default values.
+
+  2) Fill in the required values.  Each struct has members whose values must
+     be provided.  For example, for wcsprm these values correspond to FITS WCS
+     header keyvalues as are provided by the top-level header parsing routine,
+     wcspih().
+
+  3) Compute intermediate values.  Specific setup routines, e.g. wcsset(),
+     celset(), spcset(), etc., compute intermediate values from the values
+     provided.  In particular, wcsset() analyses the FITS WCS keyvalues
+     provided, fills the required values in the lower-level structs contained
+     in wcsprm, and invokes the setup routine for each of them.
+
+Each struct contains a "flag" member that records its setup state.  This is
+cleared by the initialization routine and checked by the routines that use the
+struct; they will invoke the setup routine automatically if necessary, hence
+it need not be invoked specifically by the application programmer.  However,
+if any of the required values in a struct are changed then either the setup
+routine must be invoked on it, or else the flag must be zeroed to signal that
+the struct needs to be reset.
+
+The initialization routine may be invoked repeatedly on a struct if it is
+desired to reuse it.  However, the flag member of structs that contain
+allocated memory (wcsprm, linprm and tabprm) must be set to -1 before the
+first initialization to initialize memory management, but not subsequently or
+else memory leaks will result.
+
+Each struct has one or more service routines: to do deep copies from one to
+another, to print its contents, and to free allocated memory.  Refer to the
+header files for a detailed description.
+
+
+
+THREAD-SAFETY
+-------------
+
+With the following exceptions WCSLIB 4.3 is thread-safe:
+
+  1) The C code generated by Flex is not re-entrant.  Flex does have the
+     capacity for producing re-entrant scanners but they have a different
+     API.  This may be handled by a compile-time option in future but in the
+     meantime calls to the header parsers should be serialized via a mutex.
+
+  2) The low-level functions wcsnpv() and wcsnps() are not thread-safe but
+     within the library itself they are only used by the Flex scanners
+     wcspih() and wcsbth().  They would rarely need to be used by application
+     programmers.
+
+
+
+EXAMPLE CODE, TESTING AND VERIFICATION
+--------------------------------------
+
+WCSLIB has an extensive test suite which also provides programming templates
+as well as demonstrations.  Test programs, with names that indicate the main
+WCSLIB routine under test, reside in ./{C,Fortran}/test and each contains a
+brief description of its purpose.
+
+The high- and middle-level test programs are more instructive for applications
+programming, while the low-level tests are vital for verifying the integrity
+of the mathematical routines.
+
+High level:
+
+  twcstab provides an example of high-level applications programming using
+  WCSLIB and CFITSIO.  It constructs an input FITS test file, specifically for
+  testing TAB coordinates, partly using wcstab.keyrec, and then extracts the
+  coordinate description from it following the steps outlined in wcshdr.h.
+
+  tpih1 and tpih2 verify wcspih().  The first prints the contents of the
+  structs returned by wcspih() using wcsprt() and the second uses cpgsbox() to
+  draw coordinate graticules.  Input for these comes from a FITS WCS test
+  header implemented as a list of keyrecords, wcs.keyrec, one keyrecord per
+  line, together with a program, tofits, that compiles these into a valid FITS
+  file.
+
+  tfitshdr also uses wcs.keyrec to test the generic FITS header parsing
+  routine.
+
+  twcsfix sets up a wcsprm struct containing various non-standard constructs
+  and then invokes wcsfix() to translate them all to standard usage.
+
+Middle level:
+
+  twcs tests closure of wcss2p() and wcsp2s() for a number of selected
+  projections.  twcsmix verifies wcsmix() on the 1 degree grid of celestial
+  longitude and latitude for a number of selected projections.  It plots a
+  test grid for each projection and indicates the location of successful and
+  failed solutions.  twcssub tests the extraction of a coordinate description
+  for a subimage from a wcsprm struct by wcssub().
+
+  tunits tests wcsutrn(), wcsunits() and wcsulex(), the units specification
+  translator, converter and parser, either interactively or using a list of
+  units specifications contained in units_test.
+
+Low level:
+
+  tlin, tlog, tprj1, tsph, tspc, tspc, and ttab1 test "closure" of the
+  respective routines.  Closure tests apply the forward and reverse
+  transformations in sequence and compare the result with the original value.
+  Ideally, the result should agree exactly, but because of floating point
+  rounding errors there is usually a small discrepancy so it is only required
+  to agree within a "closure tolerance".
+
+  tprj1 tests for closure separately for longitude and latitude except at the
+  poles where it only tests for closure in latitude.  Note that closure in
+  longitude does not deal with angular displacements on the sky.  This is
+  appropriate for many projections such as the cylindricals where circumpolar
+  parallels are projected at the same length as the equator.  On the other
+  hand, tsph does test for closure in angular displacement.
+
+  The tolerance for reporting closure discrepancies is set at 1e-10 degree for
+  most projections; this is slightly less than 3 microarcsec.  The worst case
+  closure figure is reported for each projection and this is usually better
+  than the reporting tolerance by several orders of magnitude.  tprj1 and tsph
+  test closure at all points on the 1 degree grid of native longitude and
+  latitude and to within 5 degrees of any latitude of divergence for those
+  projections that cannot represent the full sphere.  Closure is also tested
+  at a sequence of points close to the reference point (tprj1) or pole (tsph).
+
+  Closure has been verified at all test points for SUN workstations.  However,
+  non-closure may be observed for other machines near native latitude -90 for
+  the zenithal, cylindrical and conic equal area projections (ZEA, CEA and
+  COE), and near divergent latitudes of projections such as the azimuthal
+  perspective and stereographic projections (AZP and STG).   Rounding errors
+  may also carry points between faces of the quad-cube projections (CSC, QSC,
+  and TSC).  Although such excursions may produce long lists of non-closure
+  points, this is not necessarily indicative of a fundamental problem.
+
+  Note that the inverse of the COBE quad-qube projection (CSC) is a polynomial
+  approximation and its closure tolerance is intrinsically poor.
+
+  Although tests for closure help to verify the internal consistency of the
+  routines they do not verify them in an absolute sense.  This is partly
+  addressed by tcel1, tcel2, tprj2, ttab2 and ttab3 which plot graticules for
+  visual inspection of scaling, orientation, and other macroscopic
+  characteristics of the projections.
+
+
+
+WCSLIB FORTRAN WRAPPERS
+-----------------------
+
+The Fortran subdirectory contains wrappers, written in C, that allow Fortran
+programs to use WCSLIB.
+
+A prerequisite for using the wrappers is an understanding of the usage of the
+associated C routines, in particular the data structures they are based on.
+The principle difficulty in creating the wrappers was the need to manage these
+C structs from within Fortran, particularly as they contain pointers to
+allocated memory, pointers to C functions, and other structs that themselves
+contain similar entities.
+
+To this end, routines have been provided to set and retrieve values of the
+various structs, for example WCSPUT and WCSGET for the wcsprm struct.  These
+must be used in conjunction with wrappers on the routines provided to manage
+the structs in C, for example WCSINI, WCSSUB, WCSCOPY, WCSFREE, and WCSPRT
+which wrap wcsini(), wcssub(), wcscopy(), wcsfree(), and wcsprt().
+
+The various *PUT and *GET routines are based on codes defined in Fortran
+include files (*.inc), if your Fortran compiler does not support the INCLUDE
+statement then you will need to include these manually wherever necessary.
+Codes are defined as parameters with names like WCS_CRPIX which refers to the
+"crpix" member of the wcsprm struct (if your Fortran compiler does not support
+long symbolic names then you will need to rename these).
+
+The include files also contain parameters, such as WCSLEN, that define the
+length of an INTEGER array that must be declared to hold the struct.  This
+length may differ for different platforms depending on how the C compiler
+aligns data within the structs.  A test program for the C library, twcs,
+prints the size of the struct in sizeof(int) units and the values in the
+Fortran include files must equal or exceed these.
+
+The *PUT routines set only one element of an array at a time; the final one
+or two integer arguments of these routines specify 1-relative array indices
+(N.B. not 0-relative as in C).  The one exception is the pv array in prjprm.
+
+The *PUT routines also reset the flag element to signal that the struct needs
+to be reinitialized.  Therefore, if you wish to set the flag itself to -1
+prior to the first call to WCSINI, for example, then that WCSPUT must be the
+last one before the call.
+
+The *GET routines retrieve whole arrays at a time and expect array arguments
+of the appropriate length where necessary.  Note that they do not initialize
+the structs.
+
+A basic coding fragment is
+
+      INTEGER   LNGIDX, STATUS
+      CHARACTER CTYPE1*72
+
+      INCLUDE 'wcs.inc'
+
+*     WCSLEN is defined as a parameter in wcs.inc.
+      INTEGER   WCS(WCSLEN)
+
+*     Allocate memory and set default values for 2 axes.
+      STATUS = WCSPUT (WCS, WCS_FLAG, -1, 0, 0)
+      STATUS = WCSINI (2, WCS)
+
+*     Set CRPIX1, and CRPIX2; WCS_CRPIX is defined in wcs.inc.
+      STATUS = WCSPUT (WCS, WCS_CRPIX, 512D0, 1, 0)
+      STATUS = WCSPUT (WCS, WCS_CRPIX, 512D0, 2, 0)
+
+*     Set PC1_2 to 5.0 (I = 1, J = 2).
+      STATUS = WCSPUT (WCS, WCS_PC, 5D0, 1, 2)
+
+*     Set CTYPE1 to 'RA---SIN'; N.B. must be given as CHARACTER*72.
+      CTYPE1 = 'RA---SIN'
+      STATUS = WCSPUT (WCS, WCS_CTYPE, CTYPE1, 1, 0)
+
+*     Set PV1_3 to -1.0 (I = 1, M = 3).
+      STATUS = WCSPUT (WCS, WCS_PV, -1D0, 1, 3)
+
+      etc.
+
+*     Initialize.
+      STATUS = WCSSET (WCS)
+
+*     Find the "longitude" axis.
+      STATUS = WCSGET (WCS, WCS_LNG, LNGIDX)
+
+*     Free memory.
+      STATUS = WCSFREE (WCS)
+
+Refer to the various Fortran test programs for further programming examples.
+In particular, twcs and twcsmix show how to retrieve elements of the celprm
+and prjprm structs contained within the wcsprm struct.
+
+Note that the data type of the third argument to the *PUT and *GET routines
+may differ depending on the data type of the corresponding C struct member; be
+it int, double, or char[].  It is essential that the Fortran data type match
+that of the C struct for int and double types, and be a CHARACTER variable of
+the correct length for char[] types.  Compilers (e.g. g77) may warn of
+inconsistent usage of this argument but this can (usually) be safely ignored.
+
+A basic assumption made by the wrappers is that an INTEGER variable is no less
+than half the size of a DOUBLE PRECISION.
+
+
+
+PGSBOX
+------
+
+PGSBOX, which is provided as a separate part of WCSLIB, is a PGPLOT routine
+(PGPLOT being a Fortran graphics library) that draws and labels curvilinear
+coordinate grids.  Example PGSBOX grids can be seen at
+
+   http://www.atnf.csiro.au/~mcalabre/WCS/PGSBOX/index.html
+
+The prologue to pgsbox.f contains usage instructions.  pgtest.f and cpgtest.c
+serve as test and demonstration programs in Fortran and C and also as well-
+documented examples of usage.
+
+PGSBOX requires a separate routine, EXTERNAL NLFUNC, to define the coordinate
+transformation.  Fortran subroutine PGCRFN (pgcrfn.f) is provided to define
+separable pairs of non-linear coordinate systems.  Linear, logarithmic and
+power-law axis types are currently defined; further types may be added as
+required.  A C function, pgwcsl_(), with Fortran-like interface defines an
+NLFUNC that interfaces to WCSLIB 4.x for PGSBOX to draw celestial coordinate
+grids.
+
+PGPLOT is implemented as a Fortran library with a set of C wrapper routines
+that are generated by a software tool.  However, PGSBOX has a more complicated
+interface than any of the standard PGPLOT routines, especially in having an
+EXTERNAL function in its argument list.  Consequently, PGSBOX is implemented
+in Fortran but with a hand-coded C wrapper, cpgsbox().
+
+As an example, in this suite the C test/demo program, cpgtest, calls the C
+wrapper, cpgsbox(), passing it a pointer to pgwcsl_().  In turn, cpgsbox()
+calls PGSBOX, which invokes pgwcsl_() as an EXTERNAL subroutine.  In this
+sequence, a complicated C struct defined by cpgtest is passed through PGSBOX
+to pgwcsl_() as an INTEGER array.
+
+While there are no formal standards for calling Fortran from C, there are some
+fairly well established conventions.  Nevertheless, it's possible that you may
+need to modify the code if you use a combination of Fortran and C compilers
+with linkage conventions that differ from that of the GNU compilers, gcc and
+g77.
+d49 1
+a49 1
+$Id: README,v 4.2.1.5 2007/12/03 04:51:38 cal103 Exp cal103 $
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.4 and PGSBOX 4.4
+d4 2
+a5 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d335 1
+a335 1
+With the following exceptions WCSLIB 4.4 is thread-safe:
+d582 1
+a582 1
+$Id: README,v 4.3 2007/12/27 05:57:06 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Minor rewording.
+@
+text
+@d5 1
+a5 1
+    Copyright (C) 1995-2009, Mark Calabretta
+d34 3
+a36 3
+WCSLIB is a C library that implements the "World Coordinate System" (WCS)
+convention in FITS (Flexible Image Transport System).  It is supplied with a
+full set of Fortran wrappers and also includes a PGPLOT-based routine, PGSBOX,
+d61 1
+a61 1
+   2006, A&A, 446, 747
+d64 1
+a64 1
+   Calabretta, M.R., & Roukema, B.F. 2007, MNRAS, 381, 865
+d87 1
+a87 1
+Additional information on general aspects of FITS and its various software
+d582 1
+a582 1
+$Id: README,v 4.3.1.1 2007/12/27 13:22:58 cal103 Exp cal103 $
+@
+
+
+4.3.1.3
+log
+@Replaced text with references to the WCSLIB programmer's manual, etc.
+@
+text
+@d31 2
+a32 1
+Please refer to
+d34 5
+a38 1
+  ./INSTALL		...Installation instructions.
+d40 3
+a42 2
+  ./html/index.html	...The WCSLIB programmer's manual in HTML format.
+  ./wcslib.pdf		...The WCSLIB programmer's manual in PDF format.
+d44 2
+a45 1
+  ./CHANGES		...Log of changes made to WCSLIB.
+d47 531
+a577 2
+  ./COPYING		...A copy of the GNU General Public License, v3.0.
+  ./COPYING.LESSER	...A copy of the Lesser GNU General Public License.
+d582 1
+a582 1
+$Id: README,v 4.3.1.2 2009/07/21 07:03:00 cal103 Exp cal103 $
+@
+
+
+4.3.1.4
+log
+@Added VALIDATION to the list.
+@
+text
+@a39 3
+  ./VALIDATION		...List of platforms on which the installation
+			   procedures and test suite were exercised.
+
+d46 1
+a46 1
+$Id: README,v 4.3.1.3 2009/08/05 08:35:00 cal103 Exp cal103 $
+@
+
+
+4.2
+log
+@WCSLIB 4.2: initial revision.
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.2 and PGSBOX 4.2
+d4 2
+a5 2
+    WCSLIB 4.2 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2005, Mark Calabretta
+d7 6
+a12 4
+    WCSLIB is free software; you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 2 of the License, or (at your option)
+    any later version.
+d16 2
+a17 2
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+d19 2
+a20 3
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d37 2
+a38 1
+for drawing general curvilinear coordinate graticules.
+d61 4
+a64 1
+   2005, A&A, (submitted)
+d74 2
+a75 1
+Reprints of Papers I and II and drafts of Papers III and IV are available from
+d84 2
+a85 1
+Paper II and is the primary site for Paper IV while it is in preparation.
+d120 2
+a121 1
+This is used optionally by some of the high-level WCSLIB test programs.
+d124 2
+a125 1
+also used by some of the WCSLIB self-test suite, is available from
+d155 4
+a158 1
+       wcspih.l        ...Lexical parser for WCS cards in an image header.
+d162 2
+a163 2
+     A generic FITS header parser is also provided to handle non-WCS cards
+     which are ignored by wcspih():
+d176 3
+a178 3
+     As a concrete example, within this layer the CTYPEia header cards would
+     be extracted from a FITS header and their values copied into the ctype[]
+     array within a wcsprm struct.  None of the header cards are interpreted.
+d192 2
+a193 2
+     To continue the above example, within this layer the ctype[] cards in a
+     wcsprm struct are analysed to determine the nature of the coordinate
+d260 16
+d332 17
+d354 2
+a355 2
+WCSLIB routine under test, reside in ./test and each contains a brief
+description of its purpose.
+d365 1
+a365 1
+  testing TAB coordinates, partly using wcstab.cards, and then extracts the
+d371 3
+a373 2
+  header implemented as a list of card images, wcs.cards, one card per line,
+  together with a program, tofits, that compiles these into a valid FITS file.
+d375 1
+a375 1
+  tfitshdr also uses wcs.cards to test the generic FITS header parsing
+d442 1
+a442 1
+The FORTRAN subdirectory contains wrappers, written in C, that allow Fortran
+d582 1
+a582 1
+$Id$
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d2 1
+a2 1
+                         WCSLIB 4.3 and PGSBOX 4.3
+d4 1
+a4 1
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d536 1
+a536 1
+$Id: README,v 4.2 2005/09/23 04:55:25 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Renamed the FORTRAN subdirectory to Fortran.
+@
+text
+@d5 1
+a5 1
+    Copyright (C) 1995-2007, Mark Calabretta
+d59 1
+a59 1
+   2006, A&A, 446, 747 (Paper III)
+d396 1
+a396 1
+The Fortran subdirectory contains wrappers, written in C, that allow Fortran
+d536 1
+a536 1
+$Id: README,v 4.2.1.1 2005/12/05 03:12:44 cal103 Exp cal103 $
+@
+
+
+4.2.1.3
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d146 1
+a146 4
+       wcspih.l        ...Lexical parser for WCS "keyrecords" in an image
+                          header.  A keyrecord (formerly called "card image")
+                          consists of a keyword, its value - the "keyvalue" -
+                          and an optional comment.
+d150 2
+a151 2
+     A generic FITS header parser is also provided to handle non-WCS
+     keyrecords which are ignored by wcspih():
+d164 3
+a166 3
+     As a concrete example, within this layer the CTYPEia keyvalues would be
+     extracted from a FITS header and copied into the ctype[] array within a
+     wcsprm struct.  None of the header keyrecords are interpreted.
+d180 2
+a181 2
+     To continue the above example, within this layer the ctype[] keyvalues in
+     a wcsprm struct are analysed to determine the nature of the coordinate
+d320 1
+a320 1
+  testing TAB coordinates, partly using wcstab.keyrec, and then extracts the
+d326 2
+a327 3
+  header implemented as a list of keyrecords, wcs.keyrec, one keyrecord per
+  line, together with a program, tofits, that compiles these into a valid FITS
+  file.
+d329 1
+a329 1
+  tfitshdr also uses wcs.keyrec to test the generic FITS header parsing
+d536 1
+a536 1
+$Id: README,v 4.2.1.2 2007/06/29 07:00:23 cal103 Exp cal103 $
+@
+
+
+4.2.1.4
+log
+@Mentioned the HEALPix paper, described the utility programs, and added a
+section on thread-safety.
+@
+text
+@d36 1
+a36 2
+for drawing general curvilinear coordinate graticules and a number of utility
+programs.
+a60 3
+  "Mapping on the HEALPix Grid" (HPX),
+   Calabretta, M.R., & Roukema, B.F. 2007, MNRAS, (in press)
+
+d69 1
+a69 2
+Reprints of Papers I, II (+HPX) and III and a draft of Paper IV are available
+from
+d78 1
+a78 2
+Papers I, II and III and is the primary site for Paper IV while it is in
+preparation.
+d113 1
+a113 2
+It is used optionally by some of the high-level WCSLIB test programs and is
+required by two of the utility programs.
+d116 1
+a116 2
+also used by some of the WCSLIB self-test suite and a utility program, is
+available from
+a250 16
+Several utility programs are also distributed with WCSLIB:
+
+  1) HPXcvt reorganises HEALPix data into a 2-D FITS image with HPX coordinate
+     system.  The input data may be stored in a FITS file as a primary image
+     or image extension, or as a binary table extension.  Both NESTED and RING
+     pixel indices are supported.  It uses CFITSIO.
+
+  2) fitshdr lists headers from a FITS file specified on the command line, or
+     else on stdin, printing them as 80-character keyrecords without trailing
+     blanks.  It is independent of WCSLIB.
+
+  3) wcsgrid extracts the WCS keywords for an image from the specified FITS
+     file and uses pgsbox() to plot a 2-D coordinate graticule for it.  It
+     requires WCSLIB, PGSBOX and CFITSIO.
+
+
+a306 17
+THREAD-SAFETY
+-------------
+
+With the following exceptions WCSLIB 4.3 is thread-safe:
+
+  1) The C code generated by Flex is not re-entrant.  Flex does have the
+     capacity for producing re-entrant scanners but they have a different
+     API.  This may be handled by a compile-time option in future but in the
+     meantime calls to the header parsers should be serialized via a mutex.
+
+  2) The low-level functions wcsnpv() and wcsnps() are not thread-safe but
+     within the library itself they are only used by the Flex scanners
+     wcspih() and wcsbth().  They would rarely need to be used by application
+     programmers.
+
+
+
+d312 2
+a313 2
+WCSLIB routine under test, reside in ./{C,Fortran}/test and each contains a
+brief description of its purpose.
+d540 1
+a540 1
+$Id: README,v 4.2.1.3 2007/08/02 07:04:35 cal103 Exp cal103 $
+@
+
+
+4.2.1.5
+log
+@Switched to LGPL 3.0.
+@
+text
+@d7 4
+a10 6
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+d14 2
+a15 2
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+d17 3
+a19 2
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d581 1
+a581 1
+$Id: README,v 4.2.1.5 2007/11/30 05:37:41 cal103 Exp cal103 $
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 536
+@

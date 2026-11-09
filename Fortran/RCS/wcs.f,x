@@ -1,0 +1,2906 @@
+head	2.22;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+2.22
+date	2002.11.06.06.08.19;	author mcalabre;	state Exp;
+branches;
+next	2.21;
+
+2.21
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.20;
+
+2.20
+date	2002.04.03.01.12.16;	author mcalabre;	state Exp;
+branches;
+next	2.19;
+
+2.19
+date	2001.09.05.04.35.30;	author mcalabre;	state Exp;
+branches;
+next	2.18;
+
+2.18
+date	2001.06.18.05.03.17;	author mcalabre;	state Exp;
+branches;
+next	2.17;
+
+2.17
+date	2001.02.19.00.42.34;	author mcalabre;	state Exp;
+branches;
+next	2.16;
+
+2.16
+date	2000.12.04.06.02.08;	author mcalabre;	state Exp;
+branches;
+next	2.15;
+
+2.15
+date	2000.09.07.22.50.24;	author mcalabre;	state Exp;
+branches;
+next	2.14;
+
+2.14
+date	2000.05.10.04.49.33;	author mcalabre;	state Exp;
+branches;
+next	2.13;
+
+2.13
+date	99.12.14.01.08.58;	author mcalabre;	state Exp;
+branches;
+next	2.12;
+
+2.12
+date	99.11.19.02.27.12;	author mcalabre;	state Exp;
+branches;
+next	2.11;
+
+2.11
+date	99.06.16.00.19.42;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	98.07.20.04.08.43;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	98.02.25.06.41.23;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	97.02.19.03.21.25;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	97.02.19.02.39.02;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	96.09.10.06.49.58;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	96.05.07.21.07.46;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	95.12.22.02.46.09;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	95.11.16.04.51.51;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.11.09.03.24.29;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.09.37.26;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.11.08.45.31;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Driver routines for WCS transformations between (lng,lat) celestial
+coordinates and (i,j) pixel coordinates.
+@
+
+
+2.22
+log
+@Added SZP to the list of recognized projections.
+@
+text
+@*=======================================================================
+*
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*
+*   FORTRAN routines which implement the FITS World Coordinate System
+*   (WCS) convention.
+*
+*   Summary of routines
+*   -------------------
+*   WCSFWD and WCSREV are high level driver routines for the WCS linear
+*   transformation, spherical coordinate transformation, and spherical
+*   projection routines.
+*
+*   Given either the celestial longitude or latitude plus an element of
+*   the pixel coordinate a hybrid routine, WCSMIX, iteratively solves
+*   for the unknown elements.
+*
+*   An initialization routine, WCSSET, computes indices from the CTYPE
+*   array but need not be called explicitly - see the explanation of
+*   WCS(0) below.
+*
+*
+*   Initialization routine; WCSSET
+*   ------------------------------
+*   Initializes elements of the WCS array which holds indices into the
+*   coordinate arrays.  Note that this routine need not be called
+*   directly; it will be invoked by WCSFWD and WCSREV if WCS(0) is zero.
+*
+*   Given:
+*      NAXIS    I        Number of image axes.
+*      CTYPE    C()*8    Coordinate axis types corresponding to the FITS
+*                        CTYPEn header cards.
+*
+*   Returned:
+*      WCS      I(0:3)   Indices for the celestial coordinates obtained
+*                        by parsing the CTYPE() array (see below).
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Inconsistent or unrecognized coordinate
+*                              axis types.
+*
+*
+*   Forward transformation; WCSFWD
+*   ------------------------------
+*   Compute the pixel coordinate for given world coordinates.
+*
+*   Given:
+*      CTYPE    C()*8    Coordinate axis types corresponding to the FITS
+*                        CTYPEn header cards.
+*
+*   Given or returned:
+*      WCS      I(0:3)   Indices for the celestial coordinates obtained
+*                        by parsing the CTYPE() array (see below).
+*
+*   Given:
+*      WORLD    D()      World coordinates.  WORLD(WCS(1)) and
+*                        WORLD(WCS(2)) are the celestial longitude and
+*                        latitude, in degrees.
+*
+*   Given:
+*      CRVAL    D()      Coordinate reference values corresponding to
+*                        the FITS CRVALn header cards (see note 2).
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (usage is described in the prologue to
+*                        "cel.f").
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      IMGCRD   D()      Image coordinate.  IMGCRD(WCS(1)) and
+*                        IMGCRD(WCS(2)) are the projected x-, and
+*                        y-coordinates, in "degrees".  For quadcube
+*                        projections with a CUBEFACE axis the face
+*                        number is also returned in IMGCRD(WCS(3)).
+*
+*   Given and returned:
+*      LIN      D()      Linear transformation parameters (usage is
+*                        described in the prologue to "lin.f").
+*
+*   Returned:
+*      PIXCRD   D()      Pixel coordinate.
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid world coordinate.
+*                           4: Invalid linear transformation parameters.
+*
+*
+*   Reverse transformation; WCSREV
+*   ------------------------------
+*   Compute world coordinates for a given pixel coordinate.
+*
+*   Given:
+*      CTYPE    C()*8    Coordinate axis types corresponding to the FITS
+*                        CTYPEn header cards.
+*
+*   Given or returned:
+*      WCS      I(0:3)   Indices for the celestial coordinates obtained
+*                        by parsing the CTYPE() array (see below).
+*
+*   Given:
+*      PIXCRD   D()      Pixel coordinate.
+*
+*   Given and returned:
+*      LIN      D()      Linear transformation parameters (usage is
+*                        described in the prologue to "lin.f").
+*
+*   Returned:
+*      IMGCRD   D()      Image coordinate.  IMGCRD(WCS(1)) and
+*                        IMGCRD(WCS(2)) are the projected x-, and
+*                        y-coordinates, in "degrees".
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*
+*   Given:
+*      CRVAL    D()      Coordinate reference values corresponding to
+*                        the FITS CRVALn header cards (see note 2).
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (usage is described in the prologue to
+*                        "cel.f").
+*
+*   Returned:
+*      WORLD    D()      World coordinates.  WORLD(WCS(1)) and
+*                        WORLD(WCS(2)) are the celestial longitude and
+*                        latitude, in degrees.
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Invalid pixel coordinate.
+*                           4: Invalid linear transformation parameters.
+*
+*
+*   Hybrid transformation; WCSMIX
+*   -----------------------------
+*   Given either the celestial longitude or latitude plus an element of
+*   the pixel coordinate solve for the remaining elements by iterating
+*   on the unknown celestial coordinate element using WCSFWD.
+*
+*   Given:
+*      CTYPE    C()*8    Coordinate axis types corresponding to the FITS
+*                        CTYPEn header cards.
+*
+*   Given or returned:
+*      WCS      I(0:3)   Indices for the celestial coordinates obtained
+*                        by parsing the CTYPE() array (see below).
+*
+*   Given:
+*      MIXPIX   I        Which element of the pixel coordinate is given.
+*      MIXCEL   I        Which element of the celestial coordinate is
+*                        given:
+*                           1: Celestial longitude is given in
+*                              WORLD(WCS(1)), latitude returned in
+*                              WORLD(WCS(2)).
+*                           2: Celestial latitude is given in
+*                              WORLD(WCS(2)), longitude returned in
+*                              WORLD(WCS(1)).
+*      VSPAN    D(2)     Solution interval for the unknown celestial
+*                        coordinate, in degrees.  The ordering of the
+*                        two limits is irrelevant.  Longitude ranges may
+*                        be specified with any convenient normalization,
+*                        for example [-120,+120] is the same as
+*                        [240,480], except that the solution will be
+*                        returned with the same normalization, i.e. lie
+*                        within the interval specified.
+*      VSTEP    D        Step size for solution search, in degrees.  If
+*                        zero, a sensible, although perhaps non-optimal
+*                        default will be used.
+*      VITER    I        If a solution is not found then the step size
+*                        will be halved and the search recommenced.
+*                        VITER controls how many times the step size is
+*                        halved.  The allowed range is 5 - 10.
+*
+*   Given and returned:
+*      WORLD    D()      World coordinates.  WORLD(WCS(1)) and
+*                        WORLD(WCS(2)) are the celestial longitude and
+*                        latitude, in degrees.  Which is given and which
+*                        returned depends on the value of MIXCEL.  All
+*                        other elements are given.
+*
+*   Given:
+*      CRVAL    D()      Coordinate reference values corresponding to
+*                        the FITS CRVALn header cards (see note 2).
+*
+*   Given and returned:
+*      CEL      D(10)    Spherical coordinate transformation parameters
+*                        (usage is described in the prologue to
+*                        "cel.f").
+*
+*   Returned:
+*      PHI,     D        Longitude and latitude in the native coordinate
+*      THETA             system of the projection, in degrees.
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters (usage is described in
+*                        the prologue to "proj.f").
+*
+*   Returned:
+*      IMGCRD   D()      Image coordinate.  IMGCRD(WCS(1)) and
+*                        IMGCRD(WCS(2)) are the projected x-, and
+*                        y-coordinates, in "degrees".
+*
+*   Given and returned:
+*      LIN      D()      Linear transformation parameters (usage is
+*                        described in the prologue to "lin.f").
+*
+*   Given and returned:
+*      PIXCRD   D()      Pixel coordinate.  The element indicated by
+*                        MIXPIX is given and the remaining elements are
+*                        returned.
+*
+*   Returned:
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Invalid coordinate transformation
+*                              parameters.
+*                           2: Invalid projection parameters.
+*                           3: Coordinate transformation error.
+*                           4: Invalid linear transformation parameters.
+*                           5: No solution found in the specified
+*                              interval.
+*
+*
+*   Notes
+*   -----
+*    1) The CTYPEn must in be upper case and there must be 0 or 1 pair
+*       of matched celestial axis types.
+*
+*    2) Elements of the CRVAL array which correspond to celestial axes
+*       are ignored, the reference coordinate values in CEL(1) and
+*       CEL(2) are the ones used.
+*
+*    3) These routines recognize the NCP projection and convert it to
+*       the equivalent SIN projection.
+*
+*       They also recognize GLS as a synonym for SFL.
+*
+*    4) The quadcube projections (TSC, CSC, QSC) may be represented in
+*       FITS in either of two ways:
+*
+*          a) The six faces may be laid out in one plane and numbered as
+*             follows:
+*
+*                                       0
+*
+*                              4  3  2  1  4  3  2
+*
+*                                       5
+*
+*             Faces 2, 3 and 4 may appear on one side or the other (or
+*             both).  The forward routines map faces 2, 3 and 4 to the
+*             left but the inverse routines accept them on either side.
+*
+*          b) The "COBE" convention in which the six faces are stored
+*             in a three-dimensional structure using a "CUBEFACE" axis
+*             indexed from 0 to 5 as above.
+*
+*       These routines support both methods; WCSSET determines which is
+*       being used by the presence or absence of a CUBEFACE axis in
+*       CTYPE().  WCSFWD and WCSREV translate the CUBEFACE axis
+*       representation to the single plane representation understood by
+*       the lower-level WCSLIB projection routines.
+*
+*
+*   WCS indexing parameters
+*   -----------------------
+*   The WCS array contains indexes derived from the CTYPEn:
+*
+*      WCS(0)
+*         This is an index into an internal array of WCS projection
+*         types.  It must be set to zero when any of the CTYPE() are set
+*         or changed.  This signals the initialization routine, WCSSET,
+*         to recompute the indices.  WCS(0) is set to 999 if there is no
+*         celestial axis pair in the CTYPEn.
+*
+*      WCS(1:2)
+*         Indices into the IMGCRD, and WORLD arrays as described above.
+*         These may also serve as indices for the celestial longitude
+*         and latitude axes in the PIXCRD array provided that the PC
+*         matrix does not transpose axes.
+*
+*      WCS(3)
+*         Index into the PIXCRD array for the CUBEFACE axis.  This is
+*         optionally used for the quadcube projections where each cube
+*         face is stored on a separate axis.
+*
+*
+*   WCSMIX algorithm
+*   ----------------
+*      Initially the specified solution interval is checked to see if
+*      it's a "crossing" interval.  If it isn't, a search is made for a
+*      crossing solution by iterating on the unknown celestial
+*      coordinate starting at the upper limit of the solution interval
+*      and decrementing by the specified step size.  A crossing is
+*      indicated if the trial value of the projected coordinate steps
+*      through the value specified.  If a crossing interval is found
+*      then the solution is determined by a modified form of "regula
+*      falsi" division of the crossing interval.  If no crossing
+*      interval was found within the specified solution interval then a
+*      search is made for a "non-crossing" solution as may arise from a
+*      point of tangency.  The process is complicated by having to make
+*      allowance for the discontinuities that occur in all map
+*      projections.
+*
+*      Once one solution has been determined others may be found by
+*      subsequent invokations of WCSMIX with suitably restricted
+*      solution intervals.
+*
+*      Note the circumstance which arises when the solution point lies
+*      at a native pole of a projection in which the pole is represented
+*      as a finite curve, for example the zenithals and conics.  In such
+*      cases two or more valid solutions may exist but WCSMIX only ever
+*      returns one.
+*
+*      Because of its generality WCSMIX is very compute-intensive.  For
+*      compute-limited applications more efficient special-case solvers
+*      could be written for simple projections, for example non-oblique
+*      cylindrical projections.
+*
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: wcs.f,v 2.21 2002/04/03 01:24:44 mcalabre Exp mcalabre $
+*=======================================================================
+      SUBROUTINE WCSSET (NAXIS, CTYPE, WCS, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR, J, K, NAXIS, WCS(0:3)
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES*120, REQUIR*8
+
+      DATA PCODES(01:40)  /'AZP SZP TAN STG SIN ARC ZPN ZEA AIR CYP '/
+      DATA PCODES(41:80)  /'CEA CAR MER SFL PAR MOL AIT COP COE COD '/
+      DATA PCODES(81:120) /'COO BON PCO TSC CSC QSC         NCP GLS '/
+*-----------------------------------------------------------------------
+      PCODE  = ' '
+      REQUIR = ' '
+      WCS(1) = 0
+      WCS(2) = 0
+      WCS(3) = 0
+
+      DO 10 J = 1, NAXIS
+         IF (CTYPE(J)(5:5).NE.'-') THEN
+            IF (CTYPE(J).EQ.'CUBEFACE') THEN
+               IF (WCS(3).EQ.0) THEN
+                  WCS(3) = J
+               ELSE
+*                 Multiple CUBEFACE axes!
+                  IERR = 1
+                  RETURN
+               END IF
+            END IF
+
+            GO TO 10
+         END IF
+
+*        Got an axis qualifier, is it a recognized WCS projection?
+         IF (INDEX(PCODES,CTYPE(J)(6:8)).EQ.0) THEN
+            GO TO 10
+         END IF
+
+*        Parse the celestial axis type.
+         IF (PCODE.EQ.' ') THEN
+            PCODE = CTYPE(J)(6:8)
+
+            IF (CTYPE(J)(1:4).EQ.'RA--') THEN
+               WCS(1) = J
+               K = 2
+               REQUIR = 'DEC--' // PCODE
+            ELSE IF (CTYPE(J)(1:4).EQ.'DEC-') THEN
+               WCS(2) = J
+               K = 1
+               REQUIR = 'RA---' // PCODE
+            ELSE IF (CTYPE(J)(2:4).EQ.'LON') THEN
+               WCS(1) = J
+               K = 2
+               REQUIR = CTYPE(J)(1:1) // 'LAT-' // PCODE
+            ELSE IF (CTYPE(J)(2:4).EQ.'LAT') THEN
+               WCS(2) = J
+               K = 1
+               REQUIR = CTYPE(J)(1:1) // 'LON-' // PCODE
+            ELSE IF (CTYPE(J)(3:4).EQ.'LN') THEN
+               WCS(1) = J
+               K = 2
+               REQUIR = CTYPE(J)(1:2) // 'LT-' // PCODE
+            ELSE IF (CTYPE(J)(3:4).EQ.'LT') THEN
+               WCS(2) = J
+               K = 1
+               REQUIR = CTYPE(J)(1:2) // 'LN-' // PCODE
+            ELSE
+*              Unrecognized celestial type.
+               IERR = 1
+               RETURN
+            END IF
+         ELSE
+            IF (CTYPE(J).NE.REQUIR) THEN
+*              Inconsistent projection types.
+               IERR = 1
+               RETURN
+            END IF
+
+            WCS(K) = J
+            REQUIR = ' '
+         END IF
+ 10   CONTINUE
+
+      IF (REQUIR.NE.' ') THEN
+*        Unmatched celestial axis.
+         IERR = 1
+         RETURN
+      END IF
+
+*     Do simple alias translations.
+      IF (PCODE.EQ.'GLS') THEN
+         PCODE = 'SFL'
+      END IF
+
+      IF (PCODE.NE.' ') THEN
+         WCS(0) = (INDEX(PCODES,PCODE) - 1)/4 + 1
+      ELSE
+*        Signal for no celestial axis pair.
+         WCS(0) = 999
+      END IF
+
+      IERR = 0
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *   IMGCRD, LIN, PIXCRD, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR, J, NAXIS, WCS(0:3)
+      DOUBLE PRECISION CEL(10), CRVAL(*), IMGCRD(*), LAT, LIN(*), LNG,
+     *          OFFSET, PHI, PIXCRD(*), PRJ(0:20), THETA, WORLD(*), X, Y
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(30)*3
+
+      DOUBLE PRECISION COSD, SIND
+
+      DOUBLE PRECISION PI
+      PARAMETER (PI = 3.141592653589793238462643D0)
+
+      DATA PCODES /'AZP', 'SZP', 'TAN', 'STG', 'SIN', 'ARC', 'ZPN',
+     *             'ZEA', 'AIR', 'CYP', 'CEA', 'CAR', 'MER', 'SFL',
+     *             'PAR', 'MOL', 'AIT', 'COP', 'COE', 'COD', 'COO',
+     *             'BON', 'PCO', 'TSC', 'CSC', 'QSC', '   ', '   ',
+     *             'NCP', 'GLS'/
+*-----------------------------------------------------------------------
+*     Number of image axes.
+      NAXIS = NINT(LIN(3))
+
+*     Initialize if required.
+      IF (WCS(0).LE.0) THEN
+         CALL WCSSET (NAXIS, CTYPE, WCS, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+*     Convert to relative physical coordinates.
+      DO 10 J = 1, NAXIS
+         IF (J.EQ.WCS(1)) GO TO 10
+         IF (J.EQ.WCS(2)) GO TO 10
+         IMGCRD(J) = WORLD(J) - CRVAL(J)
+ 10   CONTINUE
+
+      IF (WCS(0).NE.999) THEN
+*        Compute projected coordinates.
+         LNG = WORLD(WCS(1))
+         LAT = WORLD(WCS(2))
+
+         PCODE = PCODES(WCS(0))
+         IF (PCODE.EQ.'NCP') THEN
+*           Convert NCP to SIN.
+            IF (CEL(2).EQ.0D0) THEN
+               IERR = 2
+               RETURN
+            END IF
+
+            PCODE   = 'SIN'
+            WCS(0)  = 4
+            PRJ(1)  = 0D0
+            PRJ(2)  = COSD(CEL(2))/SIND(CEL(2))
+
+            IF (PRJ(11).LT.0D0) THEN
+               PRJ(11) = -1D0
+            ELSE
+               PRJ(11) = 0D0
+            END IF
+         END IF
+
+         CALL CELFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ, X, Y, IERR)
+         IF (IERR.NE.0) RETURN
+
+         IMGCRD(WCS(1)) = X
+         IMGCRD(WCS(2)) = Y
+
+*        Do we have a CUBEFACE axis?
+         IF (WCS(3).NE.0) THEN
+*           Separation between faces.
+            IF (PRJ(10).EQ.0D0) THEN
+               OFFSET = 90D0
+            ELSE
+               OFFSET = PRJ(10)*PI/2D0
+            END IF
+
+*           Stack faces in a cube.
+            IF (IMGCRD(WCS(2)).LT.-0.5*OFFSET) THEN
+               IMGCRD(WCS(2)) = IMGCRD(WCS(2)) + OFFSET
+               IMGCRD(WCS(3)) = 5D0
+            ELSE IF (IMGCRD(WCS(2)).GT.0.5*OFFSET) THEN
+               IMGCRD(WCS(2)) = IMGCRD(WCS(2)) - OFFSET
+               IMGCRD(WCS(3)) = 0D0
+            ELSE IF (IMGCRD(WCS(1)).GT.2.5*OFFSET) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - 3.0*OFFSET
+               IMGCRD(WCS(3)) = 4D0
+            ELSE IF (IMGCRD(WCS(1)).GT.1.5*OFFSET) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - 2.0*OFFSET
+               IMGCRD(WCS(3)) = 3D0
+            ELSE IF (IMGCRD(WCS(1)).GT.0.5*OFFSET) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - OFFSET
+               IMGCRD(WCS(3)) = 2D0
+            ELSE
+               IMGCRD(WCS(3)) = 1D0
+            END IF
+         END IF
+      END IF
+
+*     Apply forward linear transformation.
+      CALL LINFWD (IMGCRD, LIN, PIXCRD, IERR)
+      IF (IERR.NE.0) THEN
+         IERR = 4
+         RETURN
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE WCSREV (CTYPE, WCS, PIXCRD, LIN, IMGCRD, PRJ, PHI,
+     *   THETA, CRVAL, CEL, WORLD, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   IERR, FACE, J, NAXIS, WCS(0:3)
+      DOUBLE PRECISION CEL(10), CRVAL(*), IMGCRD(*), LIN(*), LAT, LNG,
+     *          OFFSET, PHI, PIXCRD(*), PRJ(0:20), THETA, WORLD(*), X,
+     *          Y
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(30)*3
+
+      DOUBLE PRECISION COSD, SIND
+
+      DOUBLE PRECISION PI
+      PARAMETER (PI = 3.141592653589793238462643D0)
+
+      DATA PCODES /'AZP', 'SZP', 'TAN', 'STG', 'SIN', 'ARC', 'ZPN',
+     *             'ZEA', 'AIR', 'CYP', 'CEA', 'CAR', 'MER', 'SFL',
+     *             'PAR', 'MOL', 'AIT', 'COP', 'COE', 'COD', 'COO',
+     *             'BON', 'PCO', 'TSC', 'CSC', 'QSC', '   ', '   ',
+     *             'NCP', 'GLS'/
+*-----------------------------------------------------------------------
+*     Number of image axes.
+      NAXIS = NINT(LIN(3))
+
+*     Initialize if required.
+      IF (WCS(0).LE.0) THEN
+         CALL WCSSET (NAXIS, CTYPE, WCS, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+*     Apply reverse linear transformation.
+      CALL LINREV (PIXCRD, LIN, IMGCRD, IERR)
+      IF (IERR.NE.0) THEN
+         IERR = 4
+         RETURN
+      END IF
+
+*     Convert to world coordinates.
+      DO 10 J = 1, NAXIS
+         IF (J.EQ.WCS(1)) GO TO 10
+         IF (J.EQ.WCS(2)) GO TO 10
+         WORLD(J) = IMGCRD(J) + CRVAL(J)
+ 10   CONTINUE
+
+      IF (WCS(0).NE.999) THEN
+*        Do we have a CUBEFACE axis?
+         IF (WCS(3).NE.0) THEN
+            FACE = NINT(IMGCRD(WCS(3)))
+            IF (ABS(IMGCRD(WCS(3))-FACE).GT.1D-10) THEN
+               IERR = 3
+               RETURN
+            END IF
+
+*           Separation between faces.
+            IF (PRJ(10).EQ.0D0) THEN
+               OFFSET = 90D0
+            ELSE
+               OFFSET = PRJ(10)*PI/2D0
+            END IF
+
+*           Lay out faces in a plane.
+            IF (FACE.EQ.0) THEN
+               IMGCRD(WCS(2)) = IMGCRD(WCS(2)) + OFFSET
+            ELSE IF (FACE.EQ.1) THEN
+*              Nothing.
+            ELSE IF (FACE.EQ.2) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET
+            ELSE IF (FACE.EQ.3) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET*2
+            ELSE IF (FACE.EQ.4) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET*3
+            ELSE IF (FACE.EQ.5) THEN
+               IMGCRD(WCS(2)) = IMGCRD(WCS(2)) - OFFSET
+            ELSE
+               IERR = 3
+               RETURN
+            END IF
+         END IF
+
+*        Compute celestial coordinates.
+         X = IMGCRD(WCS(1))
+         Y = IMGCRD(WCS(2))
+
+         PCODE = PCODES(WCS(0))
+         IF (PCODE.EQ.'NCP') THEN
+*           Convert NCP to SIN.
+            IF (CEL(2).EQ.0D0) THEN
+               IERR = 2
+               RETURN
+            END IF
+
+            PCODE   = 'SIN'
+            WCS(0)  = 4
+            PRJ(1)  = 0D0
+            PRJ(2)  = COSD(CEL(2))/SIND(CEL(2))
+
+            IF (PRJ(11).LT.0D0) THEN
+               PRJ(11) = -1D0
+            ELSE
+               PRJ(11) = 0D0
+            END IF
+         END IF
+
+         CALL CELREV (PCODE, X, Y, PRJ, PHI, THETA, CEL, LNG, LAT, IERR)
+         IF (IERR.NE.0) RETURN
+
+         WORLD(WCS(1)) = LNG
+         WORLD(WCS(2)) = LAT
+      END IF
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE WCSMIX (CTYPE, WCS, MIXPIX, MIXCEL, VSPAN, VSTEP,
+     *   VITER, WORLD, CRVAL, CEL, PHI, THETA, PRJ, IMGCRD, LIN, PIXCRD,
+     *   IERR)
+*-----------------------------------------------------------------------
+      INTEGER   CROSSED, IERR, ISTEP, ITER, J, K, MIXCEL, MIXPIX, NAXIS,
+     *          NITER, NSTEP, RETRY, VITER, WCS(0:3)
+      DOUBLE PRECISION CEL(10), CEL0(10), CRVAL(*), D, D0, D0M, D1, D1M,
+     *          DABS, DLAT, DLNG, DMIN, DPHI, DX, IMGCRD(*), LAMBDA,
+     *          LAT, LAT0, LAT0M, LAT1, LAT1M, LIN(*), LMIN, LNG, LNG0,
+     *          LNG0M, LNG1, LNG1M, PHI, PHI0, PHI1, PIXCRD(*), PIXMIX,
+     *          PRJ(0:20), SPAN(0:1), STEP, THETA, TOL, TOL2,
+     *          VSPAN(0:1), VSTEP, WORLD(*)
+      CHARACTER CTYPE(*)*8
+
+      PARAMETER (NITER = 60)
+      PARAMETER (TOL  = 1D-10)
+      PARAMETER (TOL2 = 100.0*TOL)
+*-----------------------------------------------------------------------
+*     Number of image axes.
+      NAXIS = NINT(LIN(3))
+
+*     Initialize if required.
+      IF (WCS(0).LE.0) THEN
+         CALL WCSSET (NAXIS, CTYPE, WCS, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+*     Check VSPAN.
+      IF (VSPAN(0).LE.VSPAN(1)) THEN
+         SPAN(0) = VSPAN(0)
+         SPAN(1) = VSPAN(1)
+      ELSE
+*        Swap them.
+         SPAN(0) = VSPAN(1)
+         SPAN(1) = VSPAN(0)
+      END IF
+
+*     Check VSTEP.
+      STEP = ABS(VSTEP)
+      IF (STEP.EQ.0D0) THEN
+         STEP = (SPAN(1) - SPAN(0))/10D0
+         IF (STEP.GT.1D0 .OR. STEP.EQ.0D0) STEP = 1D0
+      END IF
+
+*     Check VITER.
+      NSTEP = VITER
+      IF (NSTEP.LT.5) THEN
+         NSTEP = 5
+      ELSE IF (NSTEP.GT.10) THEN
+         NSTEP = 10
+      END IF
+
+*     Given pixel element.
+      PIXMIX = PIXCRD(MIXPIX)
+
+*     Iterate on the step size.
+      DO 130 ISTEP = 0, NSTEP
+         IF (ISTEP.GT.0) STEP = STEP/2D0
+
+*        Iterate on the sky coordinate between the specified range.
+         IF (MIXCEL.EQ.1) THEN
+*           Celestial longitude is given.
+
+*           Check whether the solution interval is a crossing interval.
+            LAT0 = SPAN(0)
+            WORLD(WCS(2)) = LAT0
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D0 = PIXCRD(MIXPIX) - PIXMIX
+
+            DABS = ABS(D0)
+            IF (DABS.LT.TOL) RETURN
+
+            LAT1 = SPAN(1)
+            WORLD(WCS(2)) = LAT1
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D1 = PIXCRD(MIXPIX) - PIXMIX
+
+            DABS = ABS(D1)
+            IF (DABS.LT.TOL) RETURN
+
+            LMIN = LAT1
+            DMIN = DABS
+
+*           Check for a crossing point.
+            IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) THEN
+               CROSSED = 1
+               DX = D1
+            ELSE
+               CROSSED = 0
+               LAT0 = SPAN(1)
+            END IF
+
+            DO 60 RETRY = 1, 4
+*              Refine the solution interval.
+ 10            IF (LAT0.GT.SPAN(0)) THEN
+                  LAT0 = LAT0 - STEP
+                  IF (LAT0.LT.SPAN(0)) LAT0 = SPAN(0)
+                  WORLD(WCS(2)) = LAT0
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D0 = PIXCRD(MIXPIX) - PIXMIX
+
+*                 Check for a solution.
+                  DABS = ABS(D0)
+                  IF (DABS.LT.TOL) RETURN
+
+*                 Record the point of closest approach.
+                  IF (DABS.LT.DMIN) THEN
+                     LMIN = LAT0
+                     DMIN = DABS
+                  END IF
+
+*                 Check for a crossing point.
+                  IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) THEN
+                     CROSSED = 2
+                     DX = D0
+                     GO TO 20
+                  END IF
+
+*                 Advance to the next subinterval.
+                  LAT1 = LAT0
+                  D1 = D0
+                  GO TO 10
+               END IF
+
+ 20            IF (CROSSED.NE.0) THEN
+*                 A crossing point was found.
+                  DO 30 ITER = 1, NITER
+*                    Use regula falsi division of the interval.
+                     LAMBDA = D0/(D0-D1)
+                     IF (LAMBDA.LT.0.1D0) THEN
+                        LAMBDA = 0.1D0
+                     ELSE IF (LAMBDA.GT.0.9D0) THEN
+                        LAMBDA = 0.9
+                     END IF
+
+                     DLAT = LAT1 - LAT0
+                     LAT = LAT0 + LAMBDA*DLAT
+                     WORLD(WCS(2)) = LAT
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+
+*                    Check for a solution.
+                     D = PIXCRD(MIXPIX) - PIXMIX
+                     DABS = ABS(D)
+                     IF (DABS.LT.TOL) RETURN
+
+                     IF (DLAT.LT.TOL) THEN
+*                       An artifact of numerical imprecision.
+                        IF (DABS.LT.TOL2) RETURN
+
+*                       Must be a discontinuity.
+                        GO TO 40
+                     END IF
+
+*                    Record the point of closest approach.
+                     IF (DABS.LT.DMIN) THEN
+                        LMIN = LAT
+                        DMIN = DABS
+                     END IF
+
+                     IF (SIGN(1D0,D0).EQ.SIGN(1D0,D)) THEN
+                        LAT0 = LAT
+                        D0 = D
+                     ELSE
+                        LAT1 = LAT
+                        D1 = D
+                     END IF
+ 30               CONTINUE
+
+*                 No convergence, must have been a discontinuity.
+ 40               IF (CROSSED.EQ.1) LAT0 = SPAN(1)
+                  LAT1 = LAT0
+                  D1 = DX
+                  CROSSED = 0
+
+               ELSE
+*                 No crossing point; look for a tangent point.
+                  IF (LMIN.EQ.SPAN(0)) GO TO 130
+                  IF (LMIN.EQ.SPAN(1)) GO TO 130
+
+                  LAT  = LMIN
+                  LAT0 = LAT - STEP
+                  IF (LAT0.LT.SPAN(0)) LAT0 = SPAN(0)
+                  LAT1 = LAT + STEP
+                  IF (LAT1.GT.SPAN(1)) LAT1 = SPAN(1)
+
+                  WORLD(WCS(2)) = LAT0
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D0 = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                  D  = DMIN
+
+                  WORLD(WCS(2)) = LAT1
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D1 = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                  DO 50 ITER = 1, NITER
+                     LAT0M = (LAT0 + LAT)/2D0
+                     WORLD(WCS(2)) = LAT0M
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+                     D0M = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                     IF (D0M.LT.TOL) RETURN
+
+                     LAT1M = (LAT1 + LAT)/2D0
+                     WORLD(WCS(2)) = LAT1M
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+                     D1M = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                     IF (D1M.LT.TOL) RETURN
+
+                     IF (D0M.LT.D .AND. D0M.LE.D1M) THEN
+                        LAT1 = LAT
+                        D1   = D
+                        LAT  = LAT0M
+                        D    = D0M
+                     ELSE IF (D1M.LT.D) THEN
+                        LAT0 = LAT
+                        D0   = D
+                        LAT  = LAT1M
+                        D    = D1M
+                     ELSE
+                        LAT0 = LAT0M
+                        D0   = D0M
+                        LAT1 = LAT1M
+                        D1   = D1M
+                     END IF
+ 50               CONTINUE
+               END IF
+ 60         CONTINUE
+
+         ELSE
+*           Celestial latitude is given.
+
+*           Check whether the solution interval is a crossing interval.
+            LNG0 = SPAN(0)
+            WORLD(WCS(1)) = LNG0
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D0 = PIXCRD(MIXPIX) - PIXMIX
+
+            DABS = ABS(D0)
+            IF (DABS.LT.TOL) RETURN
+
+            LNG1 = SPAN(1)
+            WORLD(WCS(1)) = LNG1
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI, THETA, PRJ,
+     *         IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D1 = PIXCRD(MIXPIX) - PIXMIX
+
+            DABS = ABS(D1)
+            IF (DABS.LT.TOL) RETURN
+
+            LMIN = LNG1
+            DMIN = DABS
+
+*           Check for a crossing point.
+            IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) THEN
+               CROSSED = 1
+               DX = D1
+            ELSE
+               CROSSED = 0
+               LNG0 = SPAN(1)
+            END IF
+
+            DO 120 RETRY = 1, 4
+*              Refine the solution interval.
+ 70            IF (LNG0.GT.SPAN(0)) THEN
+                  LNG0 = LNG0 - STEP
+                  IF (LNG0.LT.SPAN(0)) LNG0 = SPAN(0)
+                  WORLD(WCS(1)) = LNG0
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D0 = PIXCRD(MIXPIX) - PIXMIX
+
+*                 Check for a solution.
+                  DABS = ABS(D0)
+                  IF (DABS.LT.TOL) RETURN
+
+*                 Record the point of closest approach.
+                  IF (DABS.LT.DMIN) THEN
+                     LMIN = LNG0
+                     DMIN = DABS
+                  END IF
+
+*                 Check for a crossing point.
+                  IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) THEN
+                     CROSSED = 2
+                     DX = D0
+                     GO TO 80
+                  END IF
+
+*                 Advance to the next subinterval.
+                  LNG1 = LNG0
+                  D1 = D0
+                  GO TO 70
+               END IF
+
+ 80            IF (CROSSED.GT.0) THEN
+*                 A crossing point was found.
+                  DO 90 ITER = 1, NITER
+*                    Use regula falsi division of the interval.
+                     LAMBDA = D0/(D0-D1)
+                     IF (LAMBDA.LT.0.1D0) THEN
+                        LAMBDA = 0.1D0
+                     ELSE IF (LAMBDA.GT.0.9D0) THEN
+                        LAMBDA = 0.9D0
+                     END IF
+
+                     DLNG = LNG1 - LNG0
+                     LNG = LNG0 + LAMBDA*DLNG
+                     WORLD(WCS(1)) = LNG
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+
+*                    Check for a solution.
+                     D = PIXCRD(MIXPIX) - PIXMIX
+                     DABS = ABS(D)
+                     IF (DABS.LT.TOL) RETURN
+
+                     IF (DLNG.LT.TOL) THEN
+*                       An artifact of numerical imprecision.
+                        IF (DABS.LT.TOL2) RETURN
+
+*                       Must be a discontinuity.
+                        GO TO 100
+                     END IF
+
+*                    Record the point of closest approach.
+                     IF (DABS.LT.DMIN) THEN
+                        LMIN = LNG
+                        DMIN = DABS
+                     END IF
+
+                     IF (SIGN(1D0,D0).EQ.SIGN(1D0,D)) THEN
+                        LNG0 = LNG
+                        D0 = D
+                     ELSE
+                        LNG1 = LNG
+                        D1 = D
+                     END IF
+ 90               CONTINUE
+
+*                 No convergence, must have been a discontinuity.
+ 100              IF (CROSSED.EQ.1) LNG0 = SPAN(1)
+                  LNG1 = LNG0
+                  D1 = DX
+                  CROSSED = 0
+
+               ELSE
+*                 No crossing point; look for a tangent point.
+                  IF (LMIN.EQ.SPAN(0)) GO TO 130
+                  IF (LMIN.EQ.SPAN(1)) GO TO 130
+
+                  LNG  = LMIN
+                  LNG0 = LNG - STEP
+                  IF (LNG0.LT.SPAN(0)) LNG0 = SPAN(0)
+                  LNG1 = LNG + STEP
+                  IF (LNG1.GT.SPAN(1)) LNG1 = SPAN(1)
+
+                  WORLD(WCS(1)) = LNG0
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D0 = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                  D  = DMIN
+
+                  WORLD(WCS(1)) = LNG1
+                  CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *               THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                  IF (IERR.NE.0) RETURN
+                  D1 = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                  DO 110 ITER = 1, NITER
+                     LNG0M = (LNG0 + LNG)/2D0
+                     WORLD(WCS(1)) = LNG0M
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+                     D0M = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                     IF (D0M.LT.TOL) RETURN
+
+                     LNG1M = (LNG1 + LNG)/2D0
+                     WORLD(WCS(1)) = LNG1M
+                     CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL, PHI,
+     *                  THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+                     IF (IERR.NE.0) RETURN
+                     D1M = ABS(PIXCRD(MIXPIX) - PIXMIX)
+
+                     IF (D1M.LT.TOL) RETURN
+
+                     IF (D0M.LT.D .AND. D0M.LE.D1M) THEN
+                        LNG1 = LNG
+                        D1   = D
+                        LNG  = LNG0M
+                        D    = D0M
+                     ELSE IF (D1M.LT.D) THEN
+                        LNG0 = LNG
+                        D0   = D
+                        LNG  = LNG1M
+                        D    = D1M
+                     ELSE
+                        LNG0 = LNG0M
+                        D0   = D0M
+                        LNG1 = LNG1M
+                        D1   = D1M
+                     END IF
+ 110              CONTINUE
+               END IF
+ 120        CONTINUE
+         END IF
+ 130  CONTINUE
+
+
+*     Set CEL0 to the unity transformation.
+      CEL0(1)  = CEL(1)
+      CEL0(2)  = CEL(2)
+      CEL0(3)  = CEL(3)
+      CEL0(4)  = CEL(4)
+      CEL0(5)  = CEL(5)
+      CEL0(6)  = -90D0
+      CEL0(7)  =   0D0
+      CEL0(8)  =  90D0
+      CEL0(9)  =   1D0
+      CEL0(10) =   0D0
+
+*     No convergence, check for aberrant behaviour at a native pole.
+      THETA = -90D0
+      DO 170 J = 1, 2
+*        Could the celestial coordinate element map to a native pole?
+         THETA = -THETA
+         CALL SPHREV (0D0, THETA, CEL(6), LNG, LAT, IERR)
+
+         IF (MIXCEL.EQ.1) THEN
+            IF (ABS(MOD(WORLD(WCS(1))-LNG,360D0)).GT.TOL) GO TO 170
+            IF (LAT.LT.SPAN(0)) GO TO 170
+            IF (LAT.GT.SPAN(1)) GO TO 170
+            WORLD(WCS(2)) = LAT
+         ELSE
+            IF (ABS(WORLD(WCS(2))-LAT).GT.TOL) GO TO 170
+            IF (LNG.LT.SPAN(0)) LNG = LNG + 360D0
+            IF (LNG.GT.SPAN(1)) LNG = LNG - 360D0
+            IF (LNG.LT.SPAN(0)) GO TO 170
+            IF (LNG.GT.SPAN(1)) GO TO 170
+            WORLD(WCS(1)) = LNG
+         END IF
+
+*        Is there a solution for the given pixel coordinate element?
+         LNG = WORLD(WCS(1))
+         LAT = WORLD(WCS(2))
+
+*        Feed native coordinates to WCSFWD with CEL0 set to unity.
+         WORLD(WCS(1)) = -180D0
+         WORLD(WCS(2)) = THETA
+         CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL0, PHI, THETA,
+     *      PRJ, IMGCRD, LIN, PIXCRD, IERR)
+         IF (IERR.NE.0) RETURN
+         D0 = PIXCRD(MIXPIX) - PIXMIX
+
+*        Check for a solution.
+         IF (ABS(D0).LT.TOL) THEN
+*           Recall saved world coordinates.
+            WORLD(WCS(1)) = LNG
+            WORLD(WCS(2)) = LAT
+            RETURN
+         END IF
+
+*        Search for a crossing interval.
+         PHI0 = -180D0
+         DO 140  K = -179, 180
+            PHI1 = DBLE(K)
+            WORLD(WCS(1)) = PHI1
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL0, PHI, THETA,
+     *         PRJ, IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D1 = PIXCRD(MIXPIX) - PIXMIX
+
+*           Check for a solution.
+            DABS = ABS(D1)
+            IF (DABS.LT.TOL) THEN
+*              Recall saved world coordinates.
+               WORLD(WCS(1)) = LNG
+               WORLD(WCS(2)) = LAT
+               RETURN
+            END IF
+
+*           Is it a crossing interval?
+            IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) GO TO 150
+
+            PHI0 = PHI1
+            D0 = D1
+ 140     CONTINUE
+         GO TO 170
+
+ 150     DO 160 ITER = 1, NITER
+*           Use regula falsi division of the interval.
+            LAMBDA = D0/(D0-D1)
+            IF (LAMBDA.LT.0.1D0) THEN
+               LAMBDA = 0.1D0
+            ELSE IF (LAMBDA.GT.0.9D0) THEN
+               LAMBDA = 0.9D0
+            END IF
+
+            DPHI = PHI1 - PHI0
+            WORLD(WCS(1)) = PHI0 + LAMBDA*DPHI
+            CALL WCSFWD (CTYPE, WCS, WORLD, CRVAL, CEL0, PHI,
+     *         THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+            IF (IERR.NE.0) RETURN
+            D = PIXCRD(MIXPIX) - PIXMIX
+
+*           Check for a solution.
+            DABS = ABS(D)
+            IF (DABS.LT.TOL .OR. (DPHI.LT.TOL .AND. DABS.LT.TOL2)) THEN
+*              Recall saved world coordinates.
+               WORLD(WCS(1)) = LNG
+               WORLD(WCS(2)) = LAT
+               RETURN
+            END IF
+
+            IF (SIGN(1D0,D0).EQ.SIGN(1D0,D)) THEN
+               PHI0 = WORLD(WCS(1))
+               D0 = D
+            ELSE
+               PHI1 = WORLD(WCS(1))
+               D1 = D
+            END IF
+ 160     CONTINUE
+ 170  CONTINUE
+
+
+*     No solution.
+      IERR = 5
+      RETURN
+      END
+@
+
+
+2.21
+log
+@Updated date in copyright notice.
+@
+text
+@d366 1
+a366 1
+*   $Id: wcs.f,v 2.20 2002/04/03 01:12:16 mcalabre Exp mcalabre $
+d373 3
+a375 3
+      DATA PCODES(01:40)  /'AZP TAN STG SIN ARC ZPN ZEA AIR CYP CEA '/
+      DATA PCODES(41:80)  /'CAR MER SFL PAR MOL AIT COP COE COD COO '/
+      DATA PCODES(81:120) /'BON PCO TSC CSC QSC             NCP GLS '/
+d484 4
+a487 4
+      DATA PCODES /'AZP', 'TAN', 'STG', 'SIN', 'ARC', 'ZPN', 'ZEA',
+     *             'AIR', 'CYP', 'CEA', 'CAR', 'MER', 'SFL', 'PAR',
+     *             'MOL', 'AIT', 'COP', 'COE', 'COD', 'COO', 'BON',
+     *             'PCO', 'TSC', 'CSC', 'QSC', '   ', '   ', '   ',
+d593 4
+a596 4
+      DATA PCODES /'AZP', 'TAN', 'STG', 'SIN', 'ARC', 'ZPN', 'ZEA',
+     *             'AIR', 'CYP', 'CEA', 'CAR', 'MER', 'SFL', 'PAR',
+     *             'MOL', 'AIT', 'COP', 'COE', 'COD', 'COO', 'BON',
+     *             'PCO', 'TSC', 'CSC', 'QSC', '   ', '   ', '   ',
+@
+
+
+2.20
+log
+@Fixed CUBEFACE handling in WCSSET.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d366 1
+a366 1
+*   $Id: wcs.f,v 2.19 2001/09/05 04:35:30 mcalabre Exp mcalabre $
+@
+
+
+2.19
+log
+@Fixed a problem in WCSMIX caused by numerical imprecision which could cause
+it not to recognize when convergence was reached; break out of the loop early
+if a discontinuity is detected.
+@
+text
+@d366 1
+a366 1
+*   $Id: wcs.f,v 2.18 2001/06/18 05:03:17 mcalabre Exp mcalabre $
+d384 1
+a384 4
+         IF (CTYPE(J)(5:5).NE.'-') GO TO 10
+
+*        Got an axis qualifier, is it a recognized WCS projection?
+         IF (INDEX(PCODES,CTYPE(J)(6:8)).EQ.0) THEN
+d395 5
+@
+
+
+2.18
+log
+@Clarified the usage of VSPAN in WCSMIX.
+@
+text
+@d366 1
+a366 1
+*   $Id: wcs.f,v 2.17 2001/02/19 00:42:34 mcalabre Exp mcalabre $
+d697 5
+a701 4
+     *          DABS, DMIN, DX, IMGCRD(*), LAMBDA, LAT, LAT0, LAT0M,
+     *          LAT1, LAT1M, LIN(*), LMIN, LNG, LNG0, LNG0M, LNG1,
+     *          LNG1M, PHI, PHI0, PHI1, PIXCRD(*), PIXMIX, PRJ(0:20),
+     *          SPAN(0:1), STEP, THETA, TOL, VSPAN(0:1), VSTEP, WORLD(*)
+d705 2
+a706 1
+      PARAMETER (TOL = 1D-10)
+d746 1
+a746 1
+      DO 110 ISTEP = 0, NSTEP
+d786 1
+a786 1
+            DO 50 RETRY = 1, 4
+d831 2
+a832 1
+                     LAT = LAT0 + LAMBDA*(LAT1 - LAT0)
+a836 1
+                     D = PIXCRD(MIXPIX) - PIXMIX
+d839 1
+d843 8
+d867 1
+a867 1
+                  IF (CROSSED.EQ.1) LAT0 = SPAN(1)
+d874 2
+a875 2
+                  IF (LMIN.EQ.SPAN(0)) GO TO 110
+                  IF (LMIN.EQ.SPAN(1)) GO TO 110
+d897 1
+a897 1
+                  DO 40 ITER = 1, NITER
+d932 1
+a932 1
+ 40               CONTINUE
+d934 1
+a934 1
+ 50         CONTINUE
+d972 1
+a972 1
+            DO 100 RETRY = 1, 4
+d974 1
+a974 1
+ 60            IF (LNG0.GT.SPAN(0)) THEN
+d997 1
+a997 1
+                     GO TO 70
+d1003 1
+a1003 1
+                  GO TO 60
+d1006 1
+a1006 1
+ 70            IF (CROSSED.GT.0) THEN
+d1008 1
+a1008 1
+                  DO 80 ITER = 1, NITER
+d1017 2
+a1018 1
+                     LNG = LNG0 + LAMBDA*(LNG1 - LNG0)
+a1022 1
+                     D = PIXCRD(MIXPIX) - PIXMIX
+d1025 1
+d1029 8
+d1050 1
+a1050 1
+ 80               CONTINUE
+d1053 1
+a1053 1
+                  IF (CROSSED.EQ.1) LNG0 = SPAN(1)
+d1060 2
+a1061 2
+                  IF (LMIN.EQ.SPAN(0)) GO TO 110
+                  IF (LMIN.EQ.SPAN(1)) GO TO 110
+d1083 1
+a1083 1
+                  DO 90 ITER = 1, NITER
+d1118 1
+a1118 1
+ 90               CONTINUE
+d1120 1
+a1120 1
+ 100        CONTINUE
+d1122 1
+a1122 1
+ 110  CONTINUE
+d1139 1
+a1139 1
+      DO 150 J = 1, 2
+d1145 3
+a1147 3
+            IF (ABS(MOD(WORLD(WCS(1))-LNG,360D0)).GT.TOL) GO TO 150
+            IF (LAT.LT.SPAN(0)) GO TO 150
+            IF (LAT.GT.SPAN(1)) GO TO 150
+d1150 1
+a1150 1
+            IF (ABS(WORLD(WCS(2))-LAT).GT.TOL) GO TO 150
+d1153 2
+a1154 2
+            IF (LNG.LT.SPAN(0)) GO TO 150
+            IF (LNG.GT.SPAN(1)) GO TO 150
+d1180 2
+a1181 2
+         DO 120  K = -179, 180
+            PHI1 = FLOAT(K)
+d1198 1
+a1198 1
+            IF (SIGN(1D0,D0).NE.SIGN(1D0,D1)) GO TO 130
+d1202 2
+a1203 2
+ 120     CONTINUE
+         GO TO 150
+d1205 1
+a1205 1
+ 130     DO 140 ITER = 1, NITER
+d1213 3
+a1215 2
+ 
+            WORLD(WCS(1)) = PHI0 + LAMBDA*(PHI1 - PHI0)
+d1220 1
+a1220 1
+ 
+d1223 1
+a1223 1
+            IF (DABS.LT.TOL) THEN
+d1229 1
+a1229 1
+ 
+d1237 2
+a1238 2
+ 140     CONTINUE
+ 150  CONTINUE
+@
+
+
+2.17
+log
+@In the translation of NCP to SIN, WCSFWD and WCSREV did not honour PRJ(11)
+set to -1 to disable strict bounds checking; WCSMIX was relying on the WCS
+array to have been initialized beforehand.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d203 7
+a209 1
+*                        coordinate, in degrees.
+d366 1
+a366 1
+*   $Id: wcs.f,v 2.16 2000/12/04 06:02:08 mcalabre Exp mcalabre $
+@
+
+
+2.16
+log
+@Recognize GLS as a synonym for SFL; recognize 'xyLN/xyLT' axis pairs;
+reordered projections to match paper.
+@
+text
+@d360 1
+a360 1
+*   $Id: wcs.f,v 2.15 2000/09/07 22:50:24 mcalabre Exp mcalabre $
+d515 6
+a520 1
+            PRJ(11) = 0D0
+d665 6
+a670 1
+            PRJ(11) = 0D0
+d688 2
+a689 2
+      INTEGER   CROSSED, IERR, ISTEP, ITER, J, K, MIXCEL, MIXPIX, NITER,
+     *          NSTEP, RETRY, VITER, WCS(0:3)
+d700 9
+@
+
+
+2.15
+log
+@Added a reference to note 2 in the description of the CRVAL arguments.
+@
+text
+@d274 3
+a276 1
+*    4) The quadcube projections (CSC, QSC, TSC) may be represented in
+d360 1
+a360 1
+*   $Id: wcs.f,v 2.14 2000/05/10 04:49:33 mcalabre Exp mcalabre $
+d365 1
+a365 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES*103, REQUIR*8
+d367 3
+a369 3
+      DATA PCODES(01:40)  /'AZP TAN SIN NCP STG ARC ZPN ZEA AIR CYP '/
+      DATA PCODES(41:80)  /'CAR MER CEA COP COD COE COO BON PCO GLS '/
+      DATA PCODES(81:103) /'PAR AIT MOL CSC QSC TSC'/
+d415 8
+d446 5
+d469 1
+a469 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(26)*3
+d476 5
+a480 4
+      DATA PCODES /'AZP', 'TAN', 'SIN', 'NCP', 'STG', 'ARC', 'ZPN',
+     *             'ZEA', 'AIR', 'CYP', 'CAR', 'MER', 'CEA', 'COP',
+     *             'COD', 'COE', 'COO', 'BON', 'PCO', 'GLS', 'PAR',
+     *             'AIT', 'MOL', 'CSC', 'QSC', 'TSC'/
+d511 2
+a512 2
+            PCODE = 'SIN'
+            WCS(0)  = 3
+d573 1
+a573 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(26)*3
+d580 5
+a584 4
+      DATA PCODES /'AZP', 'TAN', 'SIN', 'NCP', 'STG', 'ARC', 'ZPN',
+     *             'ZEA', 'AIR', 'CYP', 'CAR', 'MER', 'CEA', 'COP',
+     *             'COD', 'COE', 'COO', 'BON', 'PCO', 'GLS', 'PAR',
+     *             'AIT', 'MOL', 'CSC', 'QSC', 'TSC'/
+d656 2
+a657 2
+            PCODE = 'SIN'
+            WCS(0)  = 3
+@
+
+
+2.14
+log
+@Declared COSD and SIND in WCSFWD and WCSREV.
+@
+text
+@d87 1
+a87 1
+*                        the FITS CRVALn header cards.
+d158 1
+a158 1
+*                        the FITS CRVALn header cards.
+d221 1
+a221 1
+*                        the FITS CRVALn header cards.
+d358 1
+a358 1
+*   $Id: wcs.f,v 2.13 1999/12/14 01:08:58 mcalabre Exp mcalabre $
+@
+
+
+2.13
+log
+@Modified prologue comments for generalized cubeface layout.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d358 1
+a358 1
+*   $Id: wcs.f,v 2.12 1999/11/19 02:27:12 mcalabre Exp mcalabre $
+d456 2
+d558 2
+@
+
+
+2.12
+log
+@Further fix for CUBEFACE handling in WCSFWD.
+@
+text
+@d277 2
+a278 2
+*          a) The six faces may be concatenated in one plane in the
+*             "lazy T" configuration numbered as follows:
+d282 1
+a282 1
+*                              4  3  2  1
+d286 4
+d358 1
+a358 1
+*   $Id: wcs.f,v 2.11 1999/06/16 00:19:42 mcalabre Exp mcalabre $
+@
+
+
+2.11
+log
+@Updated date in copyright notice.
+@
+text
+@d354 1
+a354 1
+*   $Id: wcs.f,v 2.10 1998/07/20 04:08:43 mcalabre Exp mcalabre $
+d525 1
+a525 1
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET
+@
+
+
+2.10
+log
+@Fixed cube face handling.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d354 1
+a354 1
+*   $Id: wcs.f,v 2.9 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+@
+
+
+2.9
+log
+@Updated date in copyright notice.
+@
+text
+@d354 1
+a354 1
+*   $Id: wcs.f,v 2.8 1998/02/25 06:41:23 mcalabre Exp mcalabre $
+d506 1
+a506 1
+               OFFSET = 45D0
+d508 1
+a508 1
+               OFFSET = PRJ(10)*PI/4D0
+d512 1
+a512 1
+            IF (IMGCRD(WCS(2)).LT.OFFSET) THEN
+d515 5
+a519 2
+            ELSE IF (IMGCRD(WCS(1)).LT.OFFSET*3) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET*3
+d521 2
+a522 2
+            ELSE IF (IMGCRD(WCS(1)).LT.OFFSET*2) THEN
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) + OFFSET*2
+d524 1
+a524 1
+            ELSE IF (IMGCRD(WCS(1)).LT.OFFSET) THEN
+a526 3
+            ELSE IF (IMGCRD(WCS(2)).GT.OFFSET) THEN
+               IMGCRD(WCS(2)) = IMGCRD(WCS(2)) - OFFSET
+               IMGCRD(WCS(3)) = 0D0
+d595 1
+a595 1
+               OFFSET = 45D0
+d597 1
+a597 1
+               OFFSET = PRJ(10)*PI/4D0
+d606 1
+a606 1
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - OFFSET
+d608 1
+a608 1
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - OFFSET*2
+d610 1
+a610 1
+               IMGCRD(WCS(1)) = IMGCRD(WCS(1)) - OFFSET*3
+@
+
+
+2.8
+log
+@Fixed the problem in WCSMIX where it failed to find a valid solution when
+the solution point lay at a native pole of a projection in which the pole is
+represented as a finite interval.  However, WCSMIX will only ever return one
+solution even when two or more valid solutions may exist.
+
+WCSMIX now accepts VITER in the range 5 - 10, the specified value will be
+pushed up or down into this range if necessary.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1997 Mark Calabretta
+d354 1
+a354 1
+*   $Id: wcs.f,v 2.7 1997/02/19 03:21:25 mcalabre Exp mcalabre $
+@
+
+
+2.7
+log
+@Recognize the NCP projection and convert it to the equivalent SIN
+projection.
+@
+text
+@d210 1
+a210 1
+*                        halved.  The allowed range is 0 - 5.
+d341 5
+a345 5
+*      Note that there is a circumstance where the problem posed to
+*      WCSMIX is ill-conditioned and it may fail to find a valid
+*      solution where one does exist.  This arises when the solution
+*      point lies at a native pole of a projection in which the pole is
+*      represented as a finite interval.
+d354 1
+a354 1
+*   $Id: wcs.f,v 2.6 1997/02/19 02:39:02 mcalabre Exp mcalabre $
+d510 1
+a510 1
+   
+d653 7
+a659 7
+      INTEGER   CROSSED, IERR, ISTEP, ITER, MIXCEL, MIXPIX, NITER,
+     *          RETRY, VITER, WCS(0:3)
+      DOUBLE PRECISION CEL(10), CRVAL(*), D, D0, D0M, D1, D1M, DABS,
+     *          DMIN, DX, IMGCRD(*), LAMBDA, LAT, LAT0, LAT0M, LAT1,
+     *          LAT1M, LIN(*), LMIN, LNG, LNG0, LNG0M, LNG1, LNG1M, PHI,
+     *          PIXCRD(*), PIXMIX, PRJ(0:20), SPAN(0:1), STEP, THETA,
+     *          TOL, VSPAN(0:1), VSTEP, WORLD(*)
+d683 5
+a687 4
+      IF (VITER.LT.0) THEN
+         VITER = 0
+      ELSE IF (VITER.GT.5) THEN
+         VITER = 5
+d694 1
+a694 1
+      DO 110 ISTEP = 0, VITER
+d1053 116
+@
+
+
+2.6
+log
+@Added extra prologue comments to explain the two representations of the
+quadcube projections.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995,1996 Mark Calabretta
+d264 2
+a265 2
+*    1) The CTYPEn must in be upper case and there must be 0 or 1 pair of
+*       matched celestial axis types.
+d268 2
+a269 2
+*       are ignored, the reference coordinate values in CEL(1) and CEL(2)
+*       are the ones used.
+d271 4
+a274 1
+*    3) The quadcube projections (CSC, QSC, TSC) may be represented in
+d354 1
+a354 1
+*   $Id: wcs.f,v 2.5 1996/09/10 06:49:58 mcalabre Exp mcalabre $
+d359 1
+a359 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES*99, REQUIR*8
+d361 3
+a363 3
+      DATA PCODES(01:40) /'AZP TAN SIN STG ARC ZPN ZEA AIR CYP CAR '/
+      DATA PCODES(41:80) /'MER CEA COP COD COE COO BON PCO GLS PAR '/
+      DATA PCODES(81:99) /'AIT MOL CSC QSC TSC'/
+d450 1
+a450 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(25)*3
+d455 3
+a457 4
+      DATA PCODES /'AZP', 'TAN', 'SIN', 'STG', 'ARC',
+     *             'ZPN', 'ZEA', 'AIR', 'CYP', 'CAR',
+     *             'MER', 'CEA', 'COP', 'COD', 'COE',
+     *             'COO', 'BON', 'PCO', 'GLS', 'PAR',
+d482 14
+d551 1
+a551 1
+      CHARACTER CTYPE(*)*8, PCODE*3, PCODES(25)*3
+d556 3
+a558 4
+      DATA PCODES /'AZP', 'TAN', 'SIN', 'STG', 'ARC',
+     *             'ZPN', 'ZEA', 'AIR', 'CYP', 'CAR',
+     *             'MER', 'CEA', 'COP', 'COD', 'COE',
+     *             'COO', 'BON', 'PCO', 'GLS', 'PAR',
+d624 14
+@
+
+
+2.5
+log
+@Changed references to null strings to a single blank to appease the
+DEC/Alpha compiler.
+@
+text
+@d271 2
+d274 20
+d351 1
+a351 1
+*   $Id: wcs.f,v 2.4 1996/05/07 21:07:46 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Implemented the CUBEFACE axis for quadcube projections.
+@
+text
+@d329 1
+a329 1
+*   $Id: wcs.f,v 2.3 1995/12/22 02:46:09 mcalabre Exp mcalabre $
+d340 2
+a341 2
+      PCODE  = ''
+      REQUIR = ''
+d365 1
+a365 1
+         IF (PCODE.EQ.'') THEN
+d397 1
+a397 1
+            REQUIR = ''
+d401 1
+a401 1
+      IF (REQUIR.NE.'') THEN
+d407 1
+a407 1
+      IF (PCODE.NE.'') THEN
+@
+
+
+2.3
+log
+@Changed dimensions from WCS(0:2) to WCS(0:3) to allow future handling of
+the CUBEFACE keyword.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d105 3
+a107 1
+*                        y-coordinates, in "degrees".
+d289 5
+d329 1
+a329 1
+*   $Id: wcs.f,v 2.2 1995/11/16 04:51:51 mcalabre Exp mcalabre $
+d344 1
+d350 10
+a359 1
+         IF (INDEX(PCODES,CTYPE(J)(6:8)).EQ.0) GO TO 10
+d361 3
+d424 1
+a424 1
+     *          PHI, PIXCRD(*), PRJ(0:20), THETA, WORLD(*), X, Y
+d427 3
+d463 30
+d509 1
+a509 1
+      INTEGER   IERR, J, WCS(0:3)
+d511 2
+a512 1
+     *          PHI, PIXCRD(*), PRJ(0:20), THETA, WORLD(*)
+d515 3
+d548 34
+@
+
+
+2.2
+log
+@Added WCSSET and generalized WCSFWD, WCSREV, and WCSMIX to handle the
+CTYPEn and CRVALn FITS header cards and the non-celestial (linear)
+coordinate axes.
+@
+text
+@d60 1
+a60 1
+*      WCS      I(0:2)   Indices for the celestial coordinates obtained
+d77 1
+a77 1
+*      WCS      I(0:2)   Indices for the celestial coordinates obtained
+d131 1
+a131 1
+*      WCS      I(0:2)   Indices for the celestial coordinates obtained
+d187 1
+a187 1
+*      WCS      I(0:2)   Indices for the celestial coordinates obtained
+d322 1
+a322 1
+*   $Id: wcs.f,v 2.1 1995/11/09 03:24:29 mcalabre Exp mcalabre $
+d326 1
+a326 1
+      INTEGER   IERR, J, K, NAXIS, WCS(0:2)
+d402 1
+a402 1
+      INTEGER   IERR, J, NAXIS, WCS(0:2)
+d456 1
+a456 1
+      INTEGER   IERR, J, WCS(0:2)
+d512 1
+a512 1
+     *          RETRY, VITER, WCS(0:2)
+@
+
+
+2.1
+log
+@Clarified the description of WCSMIX and some other prologue comments.
+WCSMIX now returns IERR=5 for no valid solution.  Changed constant array
+declarators of size 1 to assumed-size array declarators.
+@
+text
+@d39 3
+a41 2
+*   Given an element of (LNG,LAT) and of a pixel coordinate a hybrid
+*   routine, WCSMIX, iteratively solves for the unknown elements.
+d43 3
+d47 21
+d70 5
+a74 2
+*   Compute the pixel coordinate for given celestial coordinates
+*   (LNG,LAT).
+d76 9
+d86 2
+a87 2
+*      PCODE    C*3      WCS projection code (see below).
+*      LNG,LAT  D        Celestial longitude and latitude , in degrees.
+d103 3
+a105 3
+*      IMGCRD   D()      Image coordinate.  The first two elements of
+*                        this vector are assumed to be the projected x-,
+*                        and y-coordinates, in "degrees".
+d118 1
+a118 1
+*                           3: Invalid value of (LNG,LAT).
+d121 1
+d124 9
+a132 2
+*   Compute the celestial coordinates (LNG,LAT) for a given pixel
+*   coordinate.
+a134 1
+*      PCODE    C*3      WCS projection code (see below).
+d142 3
+a144 3
+*      IMGCRD   D()      Image coordinate.  The first two elements of
+*                        this vector are assumed to be the projected x-,
+*                        and y-coordinates, in "degrees".
+d154 4
+d164 3
+a166 1
+*      LNG,LAT  D        Celestial longitude and latitude, in degrees.
+d172 1
+a172 1
+*                           3: Invalid value of (LNG,LAT).
+d175 1
+d178 3
+a180 3
+*   Given an element of (LNG,LAT) and of a pixel coordinate solve for
+*   the remaining elements by iterating on the unknown celestial
+*   coordinate element using WCSFWD.
+d183 17
+a199 9
+*      PCODE    C*3      WCS projection code (see below).
+*      MIX      I        The absolute value indicates which element of
+*                        the pixel coordinate (pixcrd) is given, and the
+*                        sign indicates which element of the celestial
+*                        coordinate is given:
+*                           MIX < 0: celestial longitude is given,
+*                                    latitude returned.
+*                           MIX > 0: celestial latitude is given,
+*                                    longitude returned.
+d210 10
+a219 4
+*   Given or returned:
+*      LNG,LAT  D        Celestial longitude or latitude, in degrees.
+*                        Which is given and which returned depends on
+*                        the value of MIX.
+d235 3
+a237 3
+*      IMGCRD   D()      Image coordinate.  It is assumed that the
+*                        projected x-, and y-coordinates are the first
+*                        two elements of this vector.
+d244 2
+a245 2
+*      PIXCRD   D()      Pixel coordinate.  The element indicated by MIX
+*                        is given and the remaining elements are
+d259 31
+a289 1
+*   Algorithm:
+a320 41
+*   WCS projection codes
+*   --------------------
+*   Zenithals/azimuthals:
+*      AZP: zenithal/azimuthal perspective
+*      TAN: gnomonic
+*      SIN: synthesis (generalized orthographic)
+*      STG: stereographic
+*      ARC: zenithal/azimuthal equidistant
+*      ZPN: zenithal/azimuthal polynomial
+*      ZEA: zenithal/azimuthal equal area
+*      AIR: Airy
+*
+*   Cylindricals:
+*      CYP: cylindrical perspective
+*      CAR: Cartesian
+*      MER: Mercator
+*      CEA: cylindrical equal area
+*
+*   Conics:
+*      COP: conic perspective
+*      COD: conic equidistant
+*      COE: conic equal area
+*      COO: conic orthomorphic
+*
+*   Polyconics:
+*      BON: Bonne
+*      PCO: polyconic
+*
+*   Pseudo-cylindricals:
+*      GLS: Sanson-Flamsteed (global sinusoidal)
+*      PAR: parabolic
+*      MOL: Mollweide
+*
+*   Conventional:
+*      AIT: Hammer-Aitoff
+*
+*   Quad-cubes:
+*      CSC: COBE quadrilateralized spherical cube
+*      QSC: quadrilateralized spherical cube
+*      TSC: tangential spherical cube
+*
+d322 1
+a322 1
+*   $Id: wcs.f,v 2.0 1995/09/12 09:37:26 mcalabre Exp mcalabre $
+d324 77
+a400 2
+      SUBROUTINE WCSFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ, IMGCRD,
+     *   LIN, PIXCRD, IERR)
+d402 10
+a411 4
+      INTEGER   IERR
+      DOUBLE PRECISION CEL(10), IMGCRD(*), LIN(*), LAT, LNG, PHI,
+     *          PIXCRD(*), PRJ(0:20), THETA
+      CHARACTER PCODE*3
+d413 24
+d438 3
+a440 4
+*     Compute projected coordinates.
+      CALL CELFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ, IMGCRD(1),
+     *   IMGCRD(2), IERR)
+      IF (IERR.NE.0) RETURN
+d453 2
+a454 2
+      SUBROUTINE WCSREV (PCODE, PIXCRD, LIN, IMGCRD, PRJ, PHI, THETA,
+     *   CEL, LNG, LAT, IERR)
+d456 10
+a465 4
+      INTEGER   IERR
+      DOUBLE PRECISION CEL(10), IMGCRD(*), LIN(*), LAT, LNG, PHI,
+     *          PIXCRD(*), PRJ(0:20), THETA
+      CHARACTER PCODE*3
+d467 9
+d483 15
+a497 4
+*     Compute projected coordinates.
+      CALL CELREV (PCODE, IMGCRD(1), IMGCRD(2), PRJ, PHI, THETA, CEL,
+     *   LNG, LAT, IERR)
+      IF (IERR.NE.0) RETURN
+d499 4
+d507 3
+a509 2
+      SUBROUTINE WCSMIX (PCODE, MIX, VSPAN, VSTEP, VITER, LNG, LAT, CEL,
+     *   PHI, THETA, PRJ, IMGCRD, LIN, PIXCRD, IERR)
+d511 8
+a518 8
+      INTEGER   CROSSED, IERR, ISTEP, ITER, MIX, NIX, NITER, RETRY,
+     *          VITER
+      DOUBLE PRECISION CEL(10), D, D0, D0M, D1, D1M, DABS, DMIN, DX,
+     *          IMGCRD(*), LAMBDA, LAT, LAT0, LAT0M, LAT1, LAT1M,
+     *          LIN(*), LMIN, LNG, LNG0, LNG0M, LNG1, LNG1M, PHI,
+     *          PIXCRD(*), PIXNIX, PRJ(0:20), SPAN(0:1), STEP, THETA,
+     *          TOL, VSPAN(0:1), VSTEP
+      CHARACTER PCODE*3
+d548 1
+a548 2
+      NIX = ABS(MIX)
+      PIXNIX = PIXCRD(NIX)
+d555 1
+a555 1
+         IF (MIX.LT.0) THEN
+d560 3
+a562 2
+            CALL WCSFWD (PCODE, LNG, LAT0, CEL, PHI, THETA, PRJ, IMGCRD,
+     *         LIN, PIXCRD, IERR)
+d564 1
+a564 2
+
+            D0 = PIXCRD(NIX) - PIXNIX
+d567 1
+a567 4
+            IF (DABS.LT.TOL) THEN
+               LAT = LAT0
+               RETURN
+            END IF
+d570 3
+a572 2
+            CALL WCSFWD (PCODE, LNG, LAT1, CEL, PHI, THETA, PRJ, IMGCRD,
+     *         LIN, PIXCRD, IERR)
+d574 1
+d576 2
+a577 1
+            D1 = PIXCRD(NIX) - PIXNIX
+a578 5
+            DABS = ABS(D1)
+            IF (DABS.LT.TOL) THEN
+               LAT = LAT1
+               RETURN
+            END IF
+d596 3
+a598 2
+                  CALL WCSFWD (PCODE, LNG, LAT0, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d600 1
+a601 2
+                  D0 = PIXCRD(NIX) - PIXNIX
+
+d604 1
+a604 4
+                  IF (DABS.LT.TOL) THEN
+                     LAT = LAT0
+                     RETURN
+                  END IF
+d637 3
+a639 2
+                     CALL WCSFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ,
+     *                  IMGCRD, LIN, PIXCRD, IERR)
+d641 1
+a641 2
+
+                     D = PIXCRD(NIX) - PIXNIX
+d679 3
+a681 2
+                  CALL WCSFWD (PCODE, LNG, LAT0, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d683 1
+d685 1
+a685 1
+                  D0 = ABS(PIXCRD(NIX) - PIXNIX)
+d687 3
+a689 3
+                  D  = DMIN
+                  CALL WCSFWD (PCODE, LNG, LAT1, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d691 1
+a691 2
+
+                  D1 = ABS(PIXCRD(NIX) - PIXNIX)
+d695 3
+a697 2
+                     CALL WCSFWD (PCODE, LNG, LAT0M, CEL, PHI, THETA,
+     *                  PRJ, IMGCRD, LIN, PIXCRD, IERR)
+d699 1
+d701 1
+a701 1
+                     D0M = ABS(PIXCRD(NIX) - PIXNIX)
+a702 5
+                     IF (D0M.LT.TOL) THEN
+                        LAT = LAT0M
+                        RETURN
+                     END IF
+
+d704 3
+a706 2
+                     CALL WCSFWD (PCODE, LNG, LAT1M, CEL, PHI, THETA,
+     *                  PRJ, IMGCRD, LIN, PIXCRD, IERR)
+d708 1
+a708 2
+
+                     D1M = ABS(PIXCRD(NIX) - PIXNIX)
+d710 1
+a710 4
+                     IF (D1M.LT.TOL) THEN
+                        LAT = LAT1M
+                        RETURN
+                     END IF
+d737 3
+a739 2
+            CALL WCSFWD (PCODE, LNG0, LAT, CEL, PHI, THETA, PRJ, IMGCRD,
+     *         LIN, PIXCRD, IERR)
+d741 1
+a741 1
+            D0 = PIXCRD(NIX) - PIXNIX
+d744 1
+a744 4
+            IF (DABS.LT.TOL) THEN
+               LNG = LNG0
+               RETURN
+            END IF
+d747 3
+a749 2
+            CALL WCSFWD (PCODE, LNG1, LAT, CEL, PHI, THETA, PRJ, IMGCRD,
+     *         LIN, PIXCRD, IERR)
+d751 1
+a751 1
+            D1 = PIXCRD(NIX) - PIXNIX
+d754 2
+a755 4
+            IF (DABS.LT.TOL) THEN
+               LNG = LNG1
+               RETURN
+            END IF
+d773 3
+a775 2
+                  CALL WCSFWD (PCODE, LNG0, LAT, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d777 1
+a778 2
+                  D0 = PIXCRD(NIX) - PIXNIX
+
+d781 1
+a781 4
+                  IF (DABS.LT.TOL) THEN
+                     LNG = LNG0
+                     RETURN
+                  END IF
+d814 3
+a816 2
+                     CALL WCSFWD (PCODE, LNG, LAT, CEL, PHI, THETA, PRJ,
+     *                  IMGCRD, LIN, PIXCRD, IERR)
+d818 1
+a818 2
+
+                     D = PIXCRD(NIX) - PIXNIX
+d856 3
+a858 2
+                  CALL WCSFWD (PCODE, LNG0, LAT, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d860 1
+a861 2
+                  D0 = ABS(PIXCRD(NIX) - PIXNIX)
+
+d864 3
+a866 2
+                  CALL WCSFWD (PCODE, LNG1, LAT, CEL, PHI, THETA, PRJ,
+     *               IMGCRD, LIN, PIXCRD, IERR)
+d868 1
+a868 1
+                  D1 = ABS(PIXCRD(NIX) - PIXNIX)
+d872 3
+a874 2
+                     CALL WCSFWD (PCODE, LNG0M, LAT, CEL, PHI, THETA,
+     *                  PRJ, IMGCRD, LIN, PIXCRD, IERR)
+d876 1
+a876 2
+
+                     D0M = ABS(PIXCRD(NIX) - PIXNIX)
+d878 1
+a878 4
+                     IF (D0M.LT.TOL) THEN
+                        LNG = LNG0M
+                        RETURN
+                     END IF
+d881 3
+a883 2
+                     CALL WCSFWD (PCODE, LNG1M, LAT, CEL, PHI, THETA,
+     *                  PRJ, IMGCRD, LIN, PIXCRD, IERR)
+d885 1
+d887 1
+a887 6
+                     D1M = ABS(PIXCRD(NIX) - PIXNIX)
+
+                     IF (D1M.LT.TOL) THEN
+                        LNG = LNG1M
+                        RETURN
+                     END IF
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d35 1
+a35 1
+*   WCSFWD and WCSREV are high level driver routine for the WCS linear
+d39 2
+a40 2
+*   Given an element of (LNG,LAT) and of (X,Y) a hybrid routine, WCSMIX,
+*   iteratively solves for the two unknown elements.
+d45 1
+a45 1
+*   Compute (I,J) pixel coordinates from celestial coordinates
+d86 2
+a87 2
+*   Compute the celestial coordinates (LNG,LAT) of pixel coordinate
+*   (I,J).
+d127 3
+a129 2
+*   Given an element of (LNG,LAT) and of (X,Y) solve for the unknowns by
+*   iterating on the unknown celestial coordinate element using CELFWD.
+d141 2
+a142 1
+*      VSPAN    D(2)     Solution interval for VSKY, in degrees.
+d158 2
+a159 1
+*                        (see below)
+d190 2
+a191 1
+*                           4: No solution found in the specified
+d268 1
+a268 1
+*   $Id: wcs.f,v 1.2 1995/09/11 08:45:31 mcalabre Exp mcalabre $
+d274 2
+a275 2
+      DOUBLE PRECISION CEL(10), IMGCRD(1), LIN(1), LAT, LNG, PHI,
+     *          PIXCRD(1), PRJ(0:20), THETA
+d299 2
+a300 2
+      DOUBLE PRECISION CEL(10), IMGCRD(1), LIN(1), LAT, LNG, PHI,
+     *          PIXCRD(1), PRJ(0:20), THETA
+d325 3
+a327 3
+     *          IMGCRD(1), LAMBDA, LAT, LAT0, LAT0M, LAT1, LAT1M,
+     *          LIN(1), LMIN, LNG, LNG0, LNG0M, LNG1, LNG1M, PHI,
+     *          PIXCRD(1), PIXNIX, PRJ(0:20), SPAN(0:1), STEP, THETA,
+d421 1
+a421 1
+                  IF (DABS.lt.TOL) THEN
+d596 1
+a596 1
+            DO 100 RETRY = 1, 3
+d748 1
+a748 1
+      IERR = 4
+@
+
+
+1.2
+log
+@New high level driver routines, the older drivers were renamed to CELSET,
+CELFWD, and CELREV (in cel.f).
+@
+text
+@d264 1
+a264 1
+*   $Id: wcs.f,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d35 3
+a37 6
+*   These routines are provided as drivers for the lower level spherical
+*   coordinate transformation and projection routines.  There are
+*   separate driver routines for the forward (WCSFWD) and reverse
+*   (WCSREV) transformations.  A third routine (WCSSET) initializes
+*   transformation parameters but need not be called explicitly - see
+*   the explanation of WCS below.
+d39 4
+d45 2
+a46 2
+*   Compute (X,Y) coordinates in the plane of projection from celestial
+*   coordinates (LNG,LAT).
+d49 11
+a59 3
+*      PCODE    C*3      WCS projection code (see below)
+*      LNG,LAT  D        Celestial longitude and latitude of the
+*                        projected point, in degrees.
+a61 2
+*      WCS      D(10)    Spherical coordinate transformation parameters
+*                        (see below)
+d66 10
+a75 1
+*      X,Y      D        Projected coordinates, "degrees".
+d82 1
+d86 2
+a87 2
+*   Compute the celestial coordinates (LNG,LAT) of the point with
+*   projected coordinates (X,Y).
+d90 11
+a100 2
+*      PCODE    C*3      WCS projection code.
+*      X,Y      D        Projected coordinates, "degrees".
+a102 2
+*      WCS      D(10)    Coordinate transformation parameters (see
+*                        below)
+d107 10
+a116 2
+*      LNG,LAT  D        Celestial longitude and latitude of the
+*                        projected point, in degrees.
+d123 98
+a262 26
+*   Coordinate transformation parameters; WCS
+*   -----------------------------------------
+*   The WCS array consists of the following:
+*
+*      WCS(1:3)
+*         The first pair of values should be set to the celestial
+*         longitude and latitude (usually right ascension and
+*         declination) of the reference point of the projection.  The
+*         third value is the native longitude of the pole of the
+*         celestial coordinate system which corresponds to the FITS
+*         keyword LONGPOLE.  Note that this has no default value and
+*         should normally be set to 180 degrees.
+*      WCS(4)
+*         This serves as a flag which must be set to zero whenever any
+*         of WCS(1:3) are set or changed.  This signals the
+*         initialization routine (WCSSET) to recompute intermediaries.
+*
+*   The remaining elements of the WCS array are maintained by the
+*   initialization routines and should not be modified.  This is done
+*   for the sake of efficiency and to allow an arbitrary number of
+*   contexts to be maintained simultaneously.
+*
+*      WCS(5:10)
+*         Euler angles and associated intermediaries derived from the
+*         coordinate reference values.
+*
+d264 1
+a264 1
+*   $Id$
+d266 2
+a267 1
+      SUBROUTINE WCSSET (PCODE, WCS, IERR)
+d269 4
+a272 10
+      INTEGER   IERR, IREF(25), NDX
+      DOUBLE PRECISION CPHIP, WCS(10), SLAT0, X, Y
+      CHARACTER PCODES*99, PCODE*3
+
+      DOUBLE PRECISION ASIND, ATAN2D, COSD, SIND
+
+      DATA PCODES(01:40) /'AZP TAN SIN STG ARC ZPN ZEA AIR CYP CAR '/
+      DATA PCODES(41:80) /'MER CEA COP COD COE COO BON PCO GLS PAR '/
+      DATA PCODES(81:99) /'AIT MOL CSC QSC TSC'/
+      DATA IREF /0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1/
+a273 7
+*     Determine the projection type.
+      NDX = (INDEX(PCODES,PCODE) - 1)/4 + 1
+      IF (NDX.EQ.0) THEN
+*        Unrecognized projection code.
+         IERR = 1
+         RETURN
+      END IF
+d275 4
+a278 23
+*     Compute celestial coordinates of the native pole.
+      IF (IREF(NDX).EQ.0) THEN
+*        Reference point is at the native pole.
+         WCS(5) = WCS(1)
+         WCS(6) = 90D0 - WCS(2)
+      ELSE
+*        Reference point is at the native origin.
+         SLAT0 = SIND(WCS(2))
+         CPHIP = COSD(WCS(3))
+         IF (CPHIP.EQ.0D0) THEN
+            IF (SLAT0.NE.0D0) THEN
+               IERR = 1
+               RETURN
+            END IF
+            WCS(6) = 90D0
+         ELSE
+            IF (ABS(SLAT0/CPHIP).GT.1D0) THEN
+               IERR = 1
+               RETURN
+            END IF
+            WCS(6) = ASIND(SLAT0/CPHIP)
+            IF (WCS(6).LT.0D0) WCS(6) = 180D0 + WCS(6)
+         END IF
+d280 5
+a284 11
+         X = -CPHIP*COSD(WCS(6))
+         Y =  SIND(WCS(3))
+         IF (X.EQ.0D0 .AND. Y.EQ.0D0) THEN
+            IF (MOD(WCS(3),360D0).EQ.0D0) THEN
+               WCS(5) = WCS(1) - 90D0
+            ELSE
+               WCS(5) = WCS(1) + 90D0
+            END IF
+         ELSE
+            WCS(5) = WCS(1) - ATAN2D(Y,X)
+         END IF
+a285 5
+      WCS(7)  = WCS(3)
+      WCS(8)  = COSD(WCS(6))
+      WCS(9)  = SIND(WCS(6))
+      WCS(10) = WCS(7) - WCS(5)
+      WCS(4)  = DBLE(NDX)
+a286 1
+      IERR = 0
+d291 2
+a292 1
+      SUBROUTINE WCSFWD (PCODE, LNG, LAT, WCS, PRJ, X, Y, IERR)
+d295 2
+a296 1
+      DOUBLE PRECISION LAT, LNG, PHI, PRJ(0:20), WCS(10), THETA, X, Y
+d299 5
+a303 3
+      IF (WCS(4).EQ.0D0) THEN
+         CALL WCSSET (PCODE, WCS, IERR)
+         IF (IERR.NE.0) RETURN
+d306 4
+a309 114
+*     Compute native coordinates.
+      CALL SPHFWD (LNG, LAT, WCS(5), PHI, THETA, IERR)
+
+*     The computed GOTO is used instead of an IF-block for efficiency.
+      GO TO ( 10,  20,  30,  40,  50,  60,  70,  80,
+     *       110, 120, 130, 140,
+     *       210, 220, 230, 240,
+     *       310, 320, 330, 340, 350, 360, 370, 380, 390) NINT(WCS(4))
+
+*     AZP: zenithal/azimuthal perspective.
+ 10   CALL AZPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     TAN: gnomonic (tan).
+ 20   CALL TANFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     SIN: orthographic (sine).
+ 30   CALL SINFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     STG: stereographic.
+ 40   CALL STGFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ARC: zenithal/azimuthal equidistant.
+ 50   CALL ARCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ZPN: zenithal/azimuthal polynomial.
+ 60   CALL ZPNFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     ZEA: zenithal/azimuthal equal area.
+ 70   CALL ZEAFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     AIR: Airy's zenithal projection.
+ 80   CALL AIRFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CYP: cylindrical perspective.
+ 110  CALL CYPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CAR: Cartesian.
+ 120  CALL CARFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     MER: Mercator's.
+ 130  CALL MERFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CEA: cylindrical equal area.
+ 140  CALL CEAFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COP: conic perspective.
+ 210  CALL COPFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COD: conic equidistant.
+ 220  CALL CODFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COE: conic equal area.
+ 230  CALL COEFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     COO: conic orthomorphic.
+ 240  CALL COOFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     BON: Bonne's projection.
+ 310  CALL BONFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     PCO: polyconic.
+ 320  CALL PCOFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     GLS: Sanson-Flamsteed (global sinusoid).
+ 330  CALL GLSFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     PAR: parabolic.
+ 340  CALL PARFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     AIT: Hammer-Aitoff.
+ 350  CALL AITFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     MOL: Mollweide's projection.
+ 360  CALL MOLFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     CSC: COBE quadrilateralized spherical cube.
+ 370  CALL CSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     QSC: quadrilateralized spherical cube.
+ 380  CALL QSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+*     TSC: tangential spherical cube.
+ 390  CALL TSCFWD (PHI, THETA, PRJ, X, Y, IERR)
+      GO TO 400
+
+ 400  IF (IERR.EQ.1) THEN
+         IERR = 2
+      ELSE IF (IERR.EQ.2) THEN
+         IERR = 3
+      END IF
+d315 2
+a316 1
+      SUBROUTINE WCSREV (PCODE, X, Y, WCS, PRJ, LNG, LAT, IERR)
+d318 7
+a324 2
+      INTEGER   IERR
+      DOUBLE PRECISION LAT, LNG, PHI, PRJ(0:20), THETA, WCS(10), X, Y
+d326 3
+d330 15
+a344 3
+      IF (WCS(4).EQ.0D0) THEN
+         CALL WCSSET (PCODE, WCS, IERR)
+         IF (IERR.NE.0) RETURN
+d347 5
+a351 111
+*     The computed GOTO is used instead of an IF-block for efficiency.
+      GO TO ( 10,  20,  30,  40,  50,  60,  70,  80,
+     *       110, 120, 130, 140,
+     *       210, 220, 230, 240,
+     *       310, 320, 330, 340, 350, 360, 370, 380, 390) NINT(WCS(4))
+
+*     AZP: zenithal/azimuthal perspective.
+ 10   CALL AZPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     TAN: gnomonic (tan).
+ 20   CALL TANREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     SIN: orthographic (sine).
+ 30   CALL SINREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     STG: stereographic.
+ 40   CALL STGREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ARC: zenithal/azimuthal equidistant.
+ 50   CALL ARCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ZPN: zenithal/azimuthal polynomial.
+ 60   CALL ZPNREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     ZEA: zenithal/azimuthal equal area.
+ 70   CALL ZEAREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     AIR: Airy's zenithal projection.
+ 80   CALL AIRREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CYP: cylindrical perspective.
+ 110  CALL CYPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CAR: Cartesian.
+ 120  CALL CARREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     MER: Mercator's.
+ 130  CALL MERREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CEA: cylindrical equal area.
+ 140  CALL CEAREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COP: conic perspective.
+ 210  CALL COPREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COD: conic equidistant.
+ 220  CALL CODREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COE: conic equal area.
+ 230  CALL COEREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     COO: conic orthomorphic.
+ 240  CALL COOREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     BON: Bonne's projection.
+ 310  CALL BONREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     PCO: polyconic.
+ 320  CALL PCOREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     GLS: Sanson-Flamsteed (global sinusoid).
+ 330  CALL GLSREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     PAR: parabolic.
+ 340  CALL PARREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     AIT: Hammer-Aitoff.
+ 350  CALL AITREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     MOL: Mollweide's projection.
+ 360  CALL MOLREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     CSC: COBE quadrilateralized spherical cube.
+ 370  CALL CSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     QSC: quadrilateralized spherical cube.
+ 380  CALL QSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     TSC: tangential spherical cube.
+ 390  CALL TSCREV (X, Y, PRJ, PHI, THETA, IERR)
+      GO TO 400
+
+*     Compute native coordinates.
+ 400  IF (IERR.EQ.1) THEN
+         IERR = 2
+      ELSE IF (IERR.EQ.2) THEN
+         IERR = 3
+d353 238
+a590 1
+      IF (IERR.NE.0) RETURN
+d592 150
+a741 1
+      CALL SPHREV (PHI, THETA, WCS(5), LNG, LAT, IERR)
+d743 2
+@

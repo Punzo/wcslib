@@ -1,0 +1,4963 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.35;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.20;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.06;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.04;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.13;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.08;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.18;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.05;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.03;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.19;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.27;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.54;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.10;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.03;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.54;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.51;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.48;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.10.08.47.17;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.50.31;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	0.0;
+
+0.0
+date	2007.07.11.00.10.43;	author cal103;	state Exp;
+branches
+	0.0.1.1;
+next	;
+
+0.0.1.1
+date	2007.07.11.02.22.59;	author cal103;	state Exp;
+branches;
+next	0.0.1.2;
+
+0.0.1.2
+date	2007.08.02.05.27.04;	author cal103;	state Exp;
+branches;
+next	0.0.1.3;
+
+0.0.1.3
+date	2007.12.03.05.59.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.26.14;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2008.10.23.00.39.51;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.04.30.03.18.02;	author cal103;	state Exp;
+branches;
+next	4.3.1.4;
+
+4.3.1.4
+date	2009.07.28.08.24.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.56.01;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.46.41;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.09.23.07.56.39;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.35.32;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.25.01.04.03;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.28.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.44.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.47.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.48;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.03.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.22.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.01;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.27.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.24.13.51.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.14.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.03.05.55.04;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.29.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.25.21;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.12.36;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.33.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.10.13.39.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.05.29.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.2;
+
+7.11.1.2
+date	2022.09.02.15.04.59;	author mcalabre;	state Exp;
+branches;
+next	7.11.1.3;
+
+7.11.1.3
+date	2022.09.08.04.35.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.43;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.25.07.19.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Extract the WCS keywords for an image from the specified FITS file and use
+pgsbox() to plot a 2-D coordinate graticule for it.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsgrid.c,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+*=============================================================================
+* Usage: wcsgrid [-a<alt>] [-d<pgdev>] [-h<hdu>] [<fitsfile>]
+*-----------------------------------------------------------------------------
+* wcsgrid extracts the WCS keywords for an image from the specified FITS file
+* and uses pgsbox() to plot a 2-D coordinate graticule for each representation
+* found.  Refer to the usage notes below.
+*
+* TODO
+*   Subimaging option.
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: wcsgrid [-a<alt>] [-d<pgdev>] [-h<hdu>] [<fitsfile>]\n"
+"\n"
+"wcsgrid extracts the WCS keywords for an image from the specified FITS\n"
+"file and uses pgsbox() to plot a 2-D coordinate graticule for each\n"
+"alternate representation found.\n\n"
+"The FITS file may be specified according to the syntax understood by\n"
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension (the\n"
+"second HDU) of a gzip'd FITS file.  Use \"-\" or omit the file name for\n"
+"input from stdin.\n"
+"\n"
+"Options:\n"
+"  -a<alt>      Plot a graticule only for the alternate representation\n"
+"               specified (ignored if there is only one).\n"
+"  -d<pgdev>    PGPLOT device type (default XWINDOW, use \"?\" for list).\n"
+"  -h<hdu>      Move to HDU number (1-relative) which is expected to\n"
+"               contain an image array.  (Useful for input from stdin.)\n";
+
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include <fitsio.h>
+#include <cpgplot.h>
+#include <cpgsbox.h>
+
+#include <wcshdr.h>
+#include <wcsfix.h>
+#include <wcsprintf.h>
+#include <wcsutil.h>
+#include <wcs.h>
+#include <getwcstab.h>
+
+
+int main(int argc, char **argv)
+
+{
+  // Parse options.
+  char pgdev[16];
+  int alt = '\0';
+  int hdunum = 0;
+
+  strncpy(pgdev, "/XWINDOW", 16);
+
+  int iopt;
+  for (iopt = 1; iopt < argc && argv[iopt][0] == '-'; iopt++) {
+    if (!argv[iopt][1]) break;
+
+    switch (argv[iopt][1]) {
+    case 'a':
+      // Select an alternate WCS.
+      alt = toupper(argv[iopt][2]);
+      break;
+
+    case 'd':
+      // PGPLOT device.
+      if (argv[iopt][2] == '?') {
+        cpgldev();
+        return 0;
+      }
+
+      if (argv[iopt][2] == '/') {
+        strncpy(pgdev+1, argv[iopt]+3, 12);
+      } else {
+        strncpy(pgdev+1, argv[iopt]+2, 12);
+      }
+      wcsutil_null_fill(-16, pgdev);
+
+      break;
+
+    case 'h':
+      // Move to HDU number.
+      hdunum = atoi(argv[iopt]+2);
+      if (hdunum < 0) {
+        hdunum = 0;
+        wcsfprintf(stderr, "wcsgrid: Invalid HDU number ignored.\n");
+      }
+      break;
+
+    default:
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  }
+
+  char *infile;
+  if (iopt < argc) {
+    infile = argv[iopt++];
+
+    if (iopt < argc) {
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  } else {
+    infile = "-";
+  }
+
+
+  // Open the FITS file and move to the required HDU.
+  int fitstat = 0;
+  fitsfile *fptr;
+  if (fits_open_file(&fptr, infile, READONLY, &fitstat)) goto cleanup;
+
+  int hdutype;
+  if (hdunum) {
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &fitstat)) goto cleanup;
+  } else {
+    fits_get_hdu_num(fptr, &hdunum);
+    if (fits_get_hdu_type(fptr, &hdutype, &fitstat)) goto cleanup;
+  }
+
+  if (hdutype != IMAGE_HDU) {
+    fprintf(stderr, "ERROR, HDU number %d does not contain an image array.\n",
+      hdunum);
+    goto cleanup;
+  }
+
+  // Check that we have at least two image axes.
+  int naxes;
+  if (fits_read_key(fptr, TINT, "NAXIS",  &naxes, NULL, &fitstat)) {
+    goto cleanup;
+  }
+
+  if (naxes < 2) {
+    fprintf(stderr, "ERROR, HDU number %d does not contain a 2-D image.\n",
+      hdunum);
+    goto cleanup;
+  } else if (naxes > 2) {
+    printf("HDU number %d contains a %d-D image array.\n", hdunum, naxes);
+  }
+
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+  char *header = 0x0;
+  int  nkeyrec;
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &fitstat)) {
+    goto cleanup;
+  }
+
+
+  // Interpret the WCS keywords.
+  int nreject, nwcs, status;
+  struct wcsprm *wcs;
+  if ((status = wcspih(header, nkeyrec, WCSHDR_all, -3, &nreject, &nwcs,
+                       &wcs))) {
+    fprintf(stderr, "wcspih ERROR %d: %s.\n", status, wcshdr_errmsg[status]);
+    if (header) free(header);
+    goto cleanup;
+  }
+  free(header);
+
+  // Read -TAB arrays from the binary table extension (if necessary).
+  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &fitstat)) {
+    goto cleanup;
+  }
+
+  // Translate non-standard WCS keyvalues.
+  int stat[NWCSFIX];
+  if ((status = wcsfix(7, 0, wcs, stat))) {
+    status = 0;
+    for (int i = 0; i < NWCSFIX; i++) {
+      if (stat[i] > 0) {
+         fprintf(stderr, "wcsfix ERROR %d: %s.\n", stat[i],
+                 wcsfix_errmsg[stat[i]]);
+
+        // Ignore problems with CDi_ja and DATE-OBS.
+        if (!(i == CDFIX || i == DATFIX)) status = 1;
+      }
+    }
+
+    if (status) goto cleanup;
+  }
+
+  // Sort out alternates.
+  if (alt) {
+    int alts[27];
+    wcsidx(nwcs, &wcs, alts);
+
+    if (alt == ' ') {
+      if (alts[0] == -1) {
+        fprintf(stderr, "WARNING, no primary coordinate representation, "
+                        "doing all.\n");
+        alt = '\0';
+      }
+
+    } else if (alt < 'A' || alt > 'Z') {
+      fprintf(stderr, "WARNING, alternate specifier \"%c\" is invalid, "
+                      "doing all.\n", alt);
+      alt = '\0';
+
+    } else {
+      if (alts[alt - 'A' + 1] == -1) {
+        fprintf(stderr, "WARNING, no alternate coordinate representation "
+                        "\"%c\", doing all.\n", alt);
+        alt = '\0';
+      }
+    }
+  }
+
+  // Get image dimensions from the header.
+  char keyword[32];
+  int  naxis[2];
+  snprintf(keyword, 32, "NAXIS%d", wcs->lng + 1);
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &fitstat);
+  snprintf(keyword, 32, "NAXIS%d", wcs->lat + 1);
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &fitstat);
+
+  if ((naxis[0] < 2) || (naxis[1] < 2)) {
+    fprintf(stderr, "ERROR, HDU number %d contains degenerate image axes.\n",
+      hdunum);
+    goto cleanup;
+  }
+
+  fits_close_file(fptr, &fitstat);
+
+
+  // Plot setup.
+  float blc[2], trc[2];
+  blc[0] = 0.5f;
+  blc[1] = 0.5f;
+  trc[0] = (float)naxis[0] + 0.5f;
+  trc[1] = (float)naxis[1] + 0.5f;
+
+  if (cpgbeg(0, pgdev, 1, 1) != 1) {
+    fprintf(stderr, "ERROR, failed to open PGPLOT device %s.\n", pgdev);
+    goto cleanup;
+  }
+  cpgvstd();
+
+  cpgwnad(blc[0], trc[0], blc[0], trc[1]);
+  cpgask(1);
+  cpgpage();
+
+  // Compact lettering.
+  cpgsch(0.8f);
+
+  // Draw full grid lines and projection boundary.
+  int    gcode[2] = {2, 2};
+  double grid1[3] = {0.0, -180.0, -90.0};
+  double grid2[3] = {0.0,  180.0,  90.0};
+
+  cpgsci(1);
+
+  for (int i = 0; i < nwcs; i++) {
+    if (alt && (wcs+i)->alt[0] != alt) {
+      continue;
+    }
+
+    if ((status = wcsset(wcs+i))) {
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+      continue;
+    }
+
+    // Draw the frame.
+    cpgbox("BC", 0.0f, 0, "BC", 0.0f, 0);
+
+    // Axis labels; use CNAMEia in preference to CTYPEia.
+    char idents[3][80];
+    if ((wcs+i)->cname[0][0]) {
+      strncpy(idents[0], (wcs+i)->cname[0], 80);
+    } else {
+      strncpy(idents[0], (wcs+i)->ctype[0], 80);
+    }
+
+    if ((wcs+i)->cname[1][0]) {
+      strncpy(idents[1], (wcs+i)->cname[1], 80);
+    } else {
+      strncpy(idents[1], (wcs+i)->ctype[1], 80);
+    }
+
+    // Title; use WCSNAME.
+    strncpy(idents[2], (wcs+i)->wcsname, 80);
+    if (strlen(idents[2])) {
+      printf("\n%s\n", idents[2]);
+    }
+
+    // Formatting control for celestial coordinates.
+    char opt[2] = {' ', ' '};
+    int celestial = 1;
+    if (wcs->lng == 0 || wcs->lng == 1) {
+      if (strncmp((wcs+i)->ctype[wcs->lng], "RA--", 4) == 0) {
+        // Right ascension in HMS.
+        opt[wcs->lng] = 'G';
+      } else {
+        // Other angles in decimal degrees.
+        opt[wcs->lng] = 'A';
+      }
+    } else {
+      celestial = 0;
+    }
+
+    if (wcs->lat == 0 || wcs->lat == 1) {
+      if (strncmp((wcs+i)->ctype[wcs->lat], "DEC-", 4) == 0) {
+        // Declination in DMS.
+        opt[wcs->lat] = 'E';
+      } else {
+        // Other angles in decimal degrees.
+        opt[wcs->lat] = 'B';
+      }
+    } else {
+      celestial = 0;
+    }
+
+    // Draw the grid.  The grid density is set for each world coordinate by
+    // specifying LABDEN = 1224.
+    char   nlcprm[1];
+    int    c0[] = {-1, -1, -1, -1, -1, -1, -1}, ic = -1;
+    double cache[257][4], nldprm[1];
+    nlfunc_t pgwcsl_;
+    cpgsbox(blc, trc, idents, opt, 0, 1224, c0, gcode, 0.0, 0, grid1, 0,
+      grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm, 256,
+      &ic, cache, &status);
+
+    if (celestial) {
+      // Delimit the projection boundary.
+      if ((wcs+i)->cel.prj.category != ZENITHAL) {
+        // Reset to the native coordinate graticule.
+        (wcs+i)->crval[wcs->lng] = (wcs+i)->cel.prj.phi0;
+        (wcs+i)->crval[wcs->lat] = (wcs+i)->cel.prj.theta0;
+        (wcs+i)->lonpole  = 999.0;
+        (wcs+i)->latpole  = 999.0;
+        status = wcsset(wcs+i);
+
+        ic = -1;
+        cpgsbox(blc, trc, idents, opt, -1, 0, c0, gcode, 0.0, 2, grid1, 2,
+          grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm,
+          256, &ic, cache, &status);
+      }
+    }
+
+    cpgpage();
+  }
+
+  status = wcsvfree(&nwcs, &wcs);
+
+  return 0;
+
+cleanup:
+  if (fitstat) fits_report_error(stderr, fitstat);
+  fits_close_file(fptr, &fitstat);
+  return 1;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.7.1.1 2026/05/11 12:18:46 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.6.1.2 2026/04/25 07:19:53 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.5.1.2 2026/03/29 13:36:20 mcalabre Exp mcalabre $
+d74 3
+a76 2
+  char alt = '\0', pgdev[16];
+  int  hdunum = 0;
+d78 1
+a78 1
+  strcpy(pgdev, "/XWINDOW");
+d237 1
+a237 1
+  sprintf(keyword, "NAXIS%d", wcs->lng + 1);
+d239 1
+a239 1
+  sprintf(keyword, "NAXIS%d", wcs->lat + 1);
+d255 2
+a256 2
+  trc[0] = naxis[0] + 0.5f;
+  trc[1] = naxis[1] + 0.5f;
+d294 1
+a294 1
+      strcpy(idents[0], (wcs+i)->cname[0]);
+d296 1
+a296 1
+      strcpy(idents[0], (wcs+i)->ctype[0]);
+d300 1
+a300 1
+      strcpy(idents[1], (wcs+i)->cname[1]);
+d302 1
+a302 1
+      strcpy(idents[1], (wcs+i)->ctype[1]);
+d306 1
+a306 1
+    strcpy(idents[2], (wcs+i)->wcsname);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Inconsequential changes prompted by clang-tidy:
+ - Added explicit casts where required to keep things neat and tidy
+   (bugprone-narrowing-conversions).
+ - Replaced use of strcpy() with strncpy(), and sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d74 2
+a75 3
+  char pgdev[16];
+  int alt = '\0';
+  int hdunum = 0;
+d77 1
+a77 1
+  strncpy(pgdev, "/XWINDOW", 16);
+d236 1
+a236 1
+  snprintf(keyword, 32, "NAXIS%d", wcs->lng + 1);
+d238 1
+a238 1
+  snprintf(keyword, 32, "NAXIS%d", wcs->lat + 1);
+d254 2
+a255 2
+  trc[0] = (float)naxis[0] + 0.5f;
+  trc[1] = (float)naxis[1] + 0.5f;
+d293 1
+a293 1
+      strncpy(idents[0], (wcs+i)->cname[0], 80);
+d295 1
+a295 1
+      strncpy(idents[0], (wcs+i)->ctype[0], 80);
+d299 1
+a299 1
+      strncpy(idents[1], (wcs+i)->cname[1], 80);
+d301 1
+a301 1
+      strncpy(idents[1], (wcs+i)->ctype[1], 80);
+d305 1
+a305 1
+    strncpy(idents[2], (wcs+i)->wcsname, 80);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsgrid.c,v 8.4.1.2 2025/12/06 13:37:20 mcalabre Exp mcalabre $
+d311 22
+a332 5
+    char opt[2];
+    if (strncmp((wcs+i)->ctype[0], "RA", 2) == 0) {
+      // Right ascension in HMS, declination in DMS.
+      opt[0] = 'G';
+      opt[1] = 'E';
+d334 1
+a334 3
+      // Other angles in decimal degrees.
+      opt[0] = 'A';
+      opt[1] = 'B';
+d337 2
+a338 2
+    // Draw the celestial grid.  The grid density is set for each world
+    // coordinate by specifying LABDEN = 1224.
+d347 15
+a361 13
+    // Delimit the projection boundary.
+    if ((wcs+i)->cel.prj.category != ZENITHAL) {
+      // Reset to the native coordinate graticule.
+      (wcs+i)->crval[0] = (wcs+i)->cel.prj.phi0;
+      (wcs+i)->crval[1] = (wcs+i)->cel.prj.theta0;
+      (wcs+i)->lonpole  = 999.0;
+      (wcs+i)->latpole  = 999.0;
+      status = wcsset(wcs+i);
+
+      ic = -1;
+      cpgsbox(blc, trc, idents, opt, -1, 0, c0, gcode, 0.0, 2, grid1, 2,
+        grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm, 256,
+        &ic, cache, &status);
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsgrid.c,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+d311 5
+a315 22
+    char opt[2] = {' ', ' '};
+    int celestial = 1;
+    if (wcs->lng == 0 || wcs->lng == 1) {
+      if (strncmp((wcs+i)->ctype[wcs->lng], "RA--", 4) == 0) {
+        // Right ascension in HMS.
+        opt[wcs->lng] = 'G';
+      } else {
+        // Other angles in decimal degrees.
+        opt[wcs->lng] = 'A';
+      }
+    } else {
+      celestial = 0;
+    }
+
+    if (wcs->lat == 0 || wcs->lat == 1) {
+      if (strncmp((wcs+i)->ctype[wcs->lat], "DEC-", 4) == 0) {
+        // Declination in DMS.
+        opt[wcs->lat] = 'E';
+      } else {
+        // Other angles in decimal degrees.
+        opt[wcs->lat] = 'B';
+      }
+d317 3
+a319 1
+      celestial = 0;
+d322 2
+a323 2
+    // Draw the grid.  The grid density is set for each world coordinate by
+    // specifying LABDEN = 1224.
+d332 13
+a344 15
+    if (celestial) {
+      // Delimit the projection boundary.
+      if ((wcs+i)->cel.prj.category != ZENITHAL) {
+        // Reset to the native coordinate graticule.
+        (wcs+i)->crval[wcs->lng] = (wcs+i)->cel.prj.phi0;
+        (wcs+i)->crval[wcs->lat] = (wcs+i)->cel.prj.theta0;
+        (wcs+i)->lonpole  = 999.0;
+        (wcs+i)->latpole  = 999.0;
+        status = wcsset(wcs+i);
+
+        ic = -1;
+        cpgsbox(blc, trc, idents, opt, -1, 0, c0, gcode, 0.0, 2, grid1, 2,
+          grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm,
+          256, &ic, cache, &status);
+      }
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.3.1.1 2024/05/13 16:35:41 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.4.1.1 2024/10/28 13:58:43 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.13.1.2 2023/06/15 04:17:22 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.11.1.3 2022/09/08 04:35:23 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+d41 3
+a43 2
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension of\n"
+"a gzip'd FITS file.  Use \"-\" or omit the file name for input from stdin.\n"
+d64 1
+d75 1
+a75 1
+  int  hdunum = 1;
+d85 1
+d90 1
+d106 1
+d108 4
+a131 5
+  // Check accessibility of the input file.
+  if (strcmp(infile, "-") && access(infile, R_OK) == -1) {
+    printf("wcsgrid: Cannot access %s.\n", infile);
+    return 1;
+  }
+d133 4
+a137 1
+  // Open the FITS file and move to the required HDU.
+d139 7
+a145 4
+  int status = 0;
+  fitsfile *fptr;
+  if (fits_open_file(&fptr, infile, READONLY, &status)) goto fitserr;
+  if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+d149 1
+a149 1
+    return 1;
+d154 2
+a155 2
+  if (fits_read_key(fptr, TINT, "NAXIS",  &naxes, NULL, &status)) {
+    goto fitserr;
+d161 1
+a161 1
+    return 1;
+d167 1
+a167 1
+  char *header;
+d169 2
+a170 2
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &status)) {
+    goto fitserr;
+d175 1
+a175 1
+  int nreject, nwcs;
+d180 2
+a181 1
+    return 1;
+d186 2
+a187 2
+  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &status)) {
+    goto fitserr;
+d204 1
+a204 1
+    if (status) return 1;
+d237 1
+a237 1
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &status);
+d239 1
+a239 1
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &status);
+d244 1
+a244 1
+    return 1;
+d247 1
+a247 1
+  fits_close_file(fptr, &status);
+d259 1
+a259 1
+    return 1;
+d354 3
+a356 3
+fitserr:
+  fits_report_error(stderr, status);
+  fits_close_file(fptr, &status);
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.11.1.2
+log
+@Fixed a bit of confusion relating to cfitsio file opening syntax, e.g.
+file.fits+1.  It now matches wcsware.c in that regard.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+d41 2
+a42 3
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension (the\n"
+"second HDU) of a gzip'd FITS file.  Use \"-\" or omit the file name for\n"
+"input from stdin.\n"
+a62 1
+#include <wcsprintf.h>
+d73 1
+a73 1
+  int  hdunum = 0;
+a82 1
+      // Select an alternate WCS.
+a86 1
+      // PGPLOT device.
+a101 1
+      // Move to HDU number.
+a102 4
+      if (hdunum < 0) {
+        hdunum = 0;
+        wcsfprintf(stderr, "wcsgrid: Invalid HDU number ignored.\n");
+      }
+d123 6
+d131 1
+d135 1
+a135 9
+
+  int hdutype;
+  if (hdunum) {
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+  } else {
+    fits_get_hdu_num(fptr, &hdunum);
+    if (fits_get_hdu_type(fptr, &hdutype, &status)) goto fitserr;
+  }
+
+@
+
+
+7.11.1.3
+log
+@In order to avoid spurious reports of memory leaks, ensure that the input
+FITS file is closed before exiting when any error is encountered.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.11.1.2 2022/09/02 15:04:59 mcalabre Exp mcalabre $
+d134 1
+a134 1
+  int fitstat = 0;
+d136 1
+a136 1
+  if (fits_open_file(&fptr, infile, READONLY, &fitstat)) goto cleanup;
+d140 1
+a140 1
+    if (fits_movabs_hdu(fptr, hdunum, &hdutype, &fitstat)) goto cleanup;
+d143 1
+a143 1
+    if (fits_get_hdu_type(fptr, &hdutype, &fitstat)) goto cleanup;
+d149 1
+a149 1
+    goto cleanup;
+d154 2
+a155 2
+  if (fits_read_key(fptr, TINT, "NAXIS",  &naxes, NULL, &fitstat)) {
+    goto cleanup;
+d161 1
+a161 1
+    goto cleanup;
+d167 1
+a167 1
+  char *header = 0x0;
+d169 2
+a170 2
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &fitstat)) {
+    goto cleanup;
+d175 1
+a175 1
+  int nreject, nwcs, status;
+d180 1
+a180 2
+    if (header) free(header);
+    goto cleanup;
+d185 2
+a186 2
+  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &fitstat)) {
+    goto cleanup;
+d203 1
+a203 1
+    if (status) goto cleanup;
+d236 1
+a236 1
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &fitstat);
+d238 1
+a238 1
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &fitstat);
+d243 1
+a243 1
+    goto cleanup;
+d246 1
+a246 1
+  fits_close_file(fptr, &fitstat);
+d258 1
+a258 1
+    goto cleanup;
+d353 3
+a355 3
+cleanup:
+  if (fitstat) fits_report_error(stderr, fitstat);
+  fits_close_file(fptr, &fitstat);
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.9.1.1 2022/03/25 15:16:41 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.7.1.2 2022/03/25 06:06:01 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.6.1.2 2021/07/01 05:29:09 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.5.1.1 2021/03/20 05:56:43 mcalabre Exp mcalabre $
+d71 3
+a73 10
+  char alt = '\0', *header, idents[3][80], *infile, keyword[32], nlcprm[1],
+       opt[2], pgdev[16];
+  int  c0[] = {-1, -1, -1, -1, -1, -1, -1};
+  int  alts[27], gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2],
+       nkeyrec, nreject, nwcs, stat[NWCSFIX], status;
+  float  blc[2], trc[2];
+  double cache[257][4], grid1[3], grid2[3], nldprm[1];
+  struct wcsprm *wcs;
+  nlfunc_t pgwcsl_;
+  fitsfile *fptr;
+d75 1
+d77 3
+a79 4
+  // Parse options.
+  strcpy(pgdev, "/XWINDOW");
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    if (!argv[i][1]) break;
+d81 1
+a81 1
+    switch (argv[i][1]) {
+d83 1
+a83 1
+      alt = toupper(argv[i][2]);
+d87 1
+a87 1
+      if (argv[i][2] == '?') {
+d92 2
+a93 2
+      if (argv[i][2] == '/') {
+        strncpy(pgdev+1, argv[i]+3, 12);
+d95 1
+a95 1
+        strncpy(pgdev+1, argv[i]+2, 12);
+d102 1
+a102 1
+      hdunum = atoi(argv[i]+2);
+d111 3
+a113 2
+  if (i < argc) {
+    infile = argv[i++];
+d115 1
+a115 1
+    if (i < argc) {
+d131 3
+a133 1
+  status = 0;
+d143 1
+d157 2
+d165 2
+d180 1
+d183 1
+a183 1
+    for (i = 0; i < NWCSFIX; i++) {
+d198 1
+d223 2
+d240 1
+d259 4
+a262 11
+  // Draw full grid lines.
+  gcode[0] = 2;
+  gcode[1] = 2;
+  grid1[0] =    0.0;
+  grid2[0] =    0.0;
+
+  // These are for the projection boundary.
+  grid1[1] = -180.0;
+  grid1[2] =  180.0;
+  grid2[1] =  -90.0;
+  grid2[2] =   90.0;
+d266 1
+a266 1
+  for (i = 0; i < nwcs; i++) {
+d280 1
+d300 1
+d313 4
+a316 1
+    ic = -1;
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+d71 12
+a83 3
+  char alt = '\0', pgdev[16];
+  int  hdunum = 1;
+
+d85 2
+d88 1
+a88 5
+  int iopt;
+  for (iopt = 1; iopt < argc && argv[iopt][0] == '-'; iopt++) {
+    if (!argv[iopt][1]) break;
+
+    switch (argv[iopt][1]) {
+d90 1
+a90 1
+      alt = toupper(argv[iopt][2]);
+d94 1
+a94 1
+      if (argv[iopt][2] == '?') {
+d99 2
+a100 2
+      if (argv[iopt][2] == '/') {
+        strncpy(pgdev+1, argv[iopt]+3, 12);
+d102 1
+a102 1
+        strncpy(pgdev+1, argv[iopt]+2, 12);
+d109 1
+a109 1
+      hdunum = atoi(argv[iopt]+2);
+d118 2
+a119 3
+  char *infile;
+  if (iopt < argc) {
+    infile = argv[iopt++];
+d121 1
+a121 1
+    if (iopt < argc) {
+d137 1
+a137 3
+  int hdutype;
+  int status = 0;
+  fitsfile *fptr;
+a146 1
+  int naxes;
+a159 2
+  char *header;
+  int  nkeyrec;
+a165 2
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+a178 1
+  int stat[NWCSFIX];
+d181 1
+a181 1
+    for (int i = 0; i < NWCSFIX; i++) {
+a195 1
+    int alts[27];
+a219 2
+  char keyword[32];
+  int  naxis[2];
+a234 1
+  float blc[2], trc[2];
+d253 11
+a263 4
+  // Draw full grid lines and projection boundary.
+  int    gcode[2] = {2, 2};
+  double grid1[3] = {0.0, -180.0, -90.0};
+  double grid2[3] = {0.0,  180.0,  90.0};
+d267 1
+a267 1
+  for (int i = 0; i < nwcs; i++) {
+a280 1
+    char idents[3][80];
+a299 1
+    char opt[2];
+d312 1
+a312 4
+    char   nlcprm[1];
+    int    c0[] = {-1, -1, -1, -1, -1, -1, -1}, ic = -1;
+    double cache[257][4], nldprm[1];
+    nlfunc_t pgwcsl_;
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.4.1.2 2021/03/10 13:39:03 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.3.1.4 2021/01/28 12:33:07 mcalabre Exp mcalabre $
+d24 2
+a25 1
+*
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Minor changes to the prologue to make all utilities consistent in style.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d24 1
+a24 2
+* Usage: wcsgrid [-a<alt>] [-d<pgdev>] [-h<hdu>] [<fitsfile>]
+*-----------------------------------------------------------------------------
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsgrid.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d82 1
+a82 1
+  /* Parse options. */
+d128 1
+a128 1
+  /* Check accessibility of the input file. */
+d135 1
+a135 1
+  /* Open the FITS file and move to the required HDU. */
+d145 1
+a145 1
+  /* Check that we have at least two image axes. */
+d158 1
+a158 1
+  /* Read in the FITS header, excluding COMMENT and HISTORY keyrecords. */
+d164 1
+a164 1
+  /* Interpret the WCS keywords. */
+d172 1
+a172 1
+  /* Read -TAB arrays from the binary table extension (if necessary). */
+d177 1
+a177 1
+  /* Translate non-standard WCS keyvalues. */
+d185 1
+a185 1
+        /* Ignore problems with CDi_ja and DATE-OBS. */
+d193 1
+a193 1
+  /* Sort out alternates. */
+d218 1
+a218 1
+  /* Get image dimensions from the header. */
+d233 1
+a233 1
+  /* Plot setup. */
+d249 1
+a249 1
+  /* Compact lettering. */
+d252 1
+a252 1
+  /* Draw full grid lines. */
+d258 1
+a258 1
+  /* These are for the projection boundary. */
+d276 1
+a276 1
+    /* Draw the frame. */
+d279 1
+a279 1
+    /* Axis labels; use CNAMEia in preference to CTYPEia. */
+d292 1
+a292 1
+    /* Title; use WCSNAME. */
+d298 1
+a298 1
+    /* Formatting control for celestial coordinates. */
+d300 1
+a300 1
+      /* Right ascension in HMS, declination in DMS. */
+d304 1
+a304 1
+      /* Other angles in decimal degrees. */
+d309 2
+a310 2
+    /* Draw the celestial grid.  The grid density is set for each world */
+    /* coordinate by specifying LABDEN = 1224. */
+d316 1
+a316 1
+    /* Delimit the projection boundary. */
+d318 1
+a318 1
+      /* Reset to the native coordinate graticule. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d85 1
+a85 1
+  // Parse options.
+d131 1
+a131 1
+  // Check accessibility of the input file.
+d138 1
+a138 1
+  // Open the FITS file and move to the required HDU.
+d148 1
+a148 1
+  // Check that we have at least two image axes.
+d161 1
+a161 1
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+d167 1
+a167 1
+  // Interpret the WCS keywords.
+d175 1
+a175 1
+  // Read -TAB arrays from the binary table extension (if necessary).
+d180 1
+a180 1
+  // Translate non-standard WCS keyvalues.
+d188 1
+a188 1
+        // Ignore problems with CDi_ja and DATE-OBS.
+d196 1
+a196 1
+  // Sort out alternates.
+d221 1
+a221 1
+  // Get image dimensions from the header.
+d236 1
+a236 1
+  // Plot setup.
+d252 1
+a252 1
+  // Compact lettering.
+d255 1
+a255 1
+  // Draw full grid lines.
+d261 1
+a261 1
+  // These are for the projection boundary.
+d279 1
+a279 1
+    // Draw the frame.
+d282 1
+a282 1
+    // Axis labels; use CNAMEia in preference to CTYPEia.
+d295 1
+a295 1
+    // Title; use WCSNAME.
+d301 1
+a301 1
+    // Formatting control for celestial coordinates.
+d303 1
+a303 1
+      // Right ascension in HMS, declination in DMS.
+d307 1
+a307 1
+      // Other angles in decimal degrees.
+d312 2
+a313 2
+    // Draw the celestial grid.  The grid density is set for each world
+    // coordinate by specifying LABDEN = 1224.
+d319 1
+a319 1
+    // Delimit the projection boundary.
+d321 1
+a321 1
+      // Reset to the native coordinate graticule.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsgrid.c,v 7.3.1.2 2020/08/17 11:25:21 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsgrid.c,v 7.3.1.3 2021/01/19 14:12:36 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 7.1.1.1 2019/12/31 13:28:20 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.4.1.3 2019/12/31 03:29:57 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d65 1
+d102 1
+a102 1
+        strncpy(pgdev+1, argv[i]+3, 15);
+d104 1
+a104 1
+        strncpy(pgdev+1, argv[i]+2, 15);
+d106 2
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Attended to warnings generated by -Wstringop-truncation (via -Wall) in
+gcc 9.2.0.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+a64 1
+#include <wcsutil.h>
+d101 1
+a101 1
+        strncpy(pgdev+1, argv[i]+3, 12);
+d103 1
+a103 1
+        strncpy(pgdev+1, argv[i]+2, 12);
+a104 2
+      wcsutil_null_fill(-16, pgdev);
+
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.4.1.2 2019/12/03 05:55:04 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.2.1.2 2019/05/10 02:14:31 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.18.1.2 2018/07/24 13:51:23 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.19 2018/07/26 15:37:06 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.17.1.2 2018/01/10 08:27:45 mcalabre Exp mcalabre $
+d72 1
+a72 1
+  char alt = '\0', *header, idents[3][80], *infile, keyword[16], nlcprm[1],
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Increased the size of the sprintf() output buffer, keyword[], to avert
+-Wformat-overflow warnings from gcc 8.1.0 (with -DFORTIFY_SOURCE=2).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d72 1
+a72 1
+  char alt = '\0', *header, idents[3][80], *infile, keyword[32], nlcprm[1],
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.16.1.1 2017/01/15 04:29:04 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.17.1.1 2017/09/18 08:46:01 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.15.1.2 2017/01/15 04:08:24 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.16 2017/01/15 04:25:04 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.14.1.1 2016/02/07 10:52:49 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.15.1.1 2016/04/05 12:58:39 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.13.1.1 2016/01/26 08:54:36 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.12.1.2 2016/01/25 05:22:53 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.11.1.1 2015/10/18 09:16:31 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.12 2015/11/15 02:13:03 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.10.1.1 2015/10/09 08:22:40 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.11 2015/10/18 09:13:08 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.9.1.1 2015/07/21 09:28:12 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.10 2015/10/09 08:19:18 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.8.1.1 2015/07/08 11:07:23 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.9 2015/07/21 09:20:05 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.7.1.1 2015/06/29 02:47:28 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.8 2015/07/08 11:04:03 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.6.1.1 2015/06/14 07:14:49 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.7 2015/06/29 02:44:19 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.5.1.1 2015/05/05 13:21:05 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.6 2015/06/14 07:11:27 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.4.1.1 2015/04/21 14:44:32 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.5 2015/05/05 13:16:34 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.3.1.1 2015/04/21 02:54:06 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.4 2015/04/21 14:41:08 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.2.1.1 2015/04/15 12:39:19 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.3 2015/04/21 02:50:54 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.2 2015/04/15 12:35:10 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.25.1.2 2015/01/06 01:03:31 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 5.0 2015/04/05 12:25:03 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.25.1.1 2014/12/14 14:32:48 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.23 2014/05/13 05:50:54 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.21.1.1 2014/03/24 05:15:31 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.20.1.2 2014/03/21 06:47:23 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.20 2013/12/18 05:42:51 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.18.1.1 2013/07/13 10:02:40 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.16.1.2 2013/01/29 05:11:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.15.1.1 2012/09/26 14:27:53 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.16.1.1 2012/11/07 04:45:58 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.14.1.1 2012/07/13 10:05:06 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.13.1.2 2012/07/13 03:44:50 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsgrid.c,v 4.14 2012/07/13 10:02:48 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsgrid.c,v 4.12.1.1 2012/02/29 07:59:12 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsgrid.c,v 4.13.1.1 2012/03/14 07:40:39 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.8.1.2 2012/01/24 05:28:46 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.6.1.3 2011/01/25 01:04:03 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.5.1.2 2010/09/23 07:56:39 cal103 Exp cal103 $
+d74 1
+d263 2
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Added a comment.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.6.1.2 2011/01/14 06:35:32 cal103 Exp cal103 $
+a73 1
+
+a261 2
+
+  /* These are for the projection boundary. */
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.4.1.2 2010/01/19 03:46:41 cal103 Exp cal103 $
+d83 1
+a83 1
+  double cache[257][4], grid1[1], grid2[1], nldprm[1];
+d160 1
+a160 1
+    printf("HDU number %d contains an %d-D image array.\n", hdunum, naxes);
+d250 1
+a250 1
+  cpgwnad(0.0f, 1.0f, 0.0f, 1.0f);
+a253 3
+  opt[0] = 'G';
+  opt[1] = 'E';
+
+a257 1
+  cpgsci(1);
+d260 8
+a267 2
+  grid1[0] = 0.0;
+  grid2[0] = 0.0;
+d279 3
+d301 11
+d319 14
+a332 2
+    /* Draw the frame. */
+    cpgbox("BC", 0.0f, 0, "BC", 0.0f, 0);
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.5 2010/07/16 07:01:27 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Various improvements: correct the scaling set via cpgwnad(); label angles
+other than RA,Dec in decimal degrees; draw the projection boundary for
+projections other than zenithals.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.5.1.1 2010/07/16 07:05:33 cal103 Exp cal103 $
+d83 1
+a83 1
+  double cache[257][4], grid1[3], grid2[3], nldprm[1];
+d160 1
+a160 1
+    printf("HDU number %d contains a %d-D image array.\n", hdunum, naxes);
+d250 1
+a250 1
+  cpgwnad(blc[0], trc[0], blc[0], trc[1]);
+d254 3
+d261 1
+d264 2
+a265 8
+  grid1[0] =    0.0;
+  grid2[0] =    0.0;
+  grid1[1] = -180.0;
+  grid1[2] =  180.0;
+  grid2[1] =  -90.0;
+  grid2[2] =   90.0;
+
+  cpgsci(1);
+a276 3
+    /* Draw the frame. */
+    cpgbox("BC", 0.0f, 0, "BC", 0.0f, 0);
+
+a295 11
+    /* Formatting control for celestial coordinates. */
+    if (strncmp((wcs+i)->ctype[0], "RA", 2) == 0) {
+      /* Right ascension in HMS, declination in DMS. */
+      opt[0] = 'G';
+      opt[1] = 'E';
+    } else {
+      /* Other angles in decimal degrees. */
+      opt[0] = 'A';
+      opt[1] = 'B';
+    }
+
+d303 2
+a304 14
+    /* Delimit the projection boundary. */
+    if ((wcs+i)->cel.prj.category != ZENITHAL) {
+      /* Reset to the native coordinate graticule. */
+      (wcs+i)->crval[0] = (wcs+i)->cel.prj.phi0;
+      (wcs+i)->crval[1] = (wcs+i)->cel.prj.theta0;
+      (wcs+i)->lonpole  = 999.0;
+      (wcs+i)->latpole  = 999.0;
+      status = wcsset(wcs+i);
+
+      ic = -1;
+      cpgsbox(blc, trc, idents, opt, -1, 0, c0, gcode, 0.0, 2, grid1, 2,
+        grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm, 256,
+        &ic, cache, &status);
+    }
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.3.1.4 2009/07/28 08:24:45 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.4 2009/08/10 08:47:17 cal103 Exp cal103 $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsgrid.c,v 4.4.1.1 2009/08/10 08:56:01 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 25
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 3 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsgrid.c,v 0.0.1.3 2007/12/03 05:59:18 cal103 Exp cal103 $
+d34 3
+a36 3
+*   wcsgrid extracts the WCS keywords for an image from the specified FITS
+*   file and uses pgsbox() to plot a 2-D coordinate graticule for it.  Refer
+*   to the usage notes below.
+a38 1
+*   Implement alt.
+d43 1
+a43 1
+"Usage: wcsgrid [-a<alt>] [-h<hdu>] [<fitsfile>]\n"
+d46 5
+a50 1
+"file and uses pgsbox() to plot a 2-D coordinate graticule for it.\n"
+d53 5
+a57 4
+"  -a<alt>      Specify an alternate coordinate representation to be used\n"
+"               (ignored if there is only one).\n"
+"  -h<hdu>      Skip to HDU number (1-relative) which is expected to\n"
+"               contain an image array.\n";
+d77 2
+a78 2
+  char alt = ' ', devtyp[16], *header, idents[3][80], *infile, nlcprm[1],
+       opt[2];
+d80 2
+a81 2
+  int  gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2], nkeyrec,
+       nreject, nwcs, stat[NWCSFIX], status;
+d90 1
+d98 14
+d115 1
+a162 10
+  /* Get NAXIS, NAXIS1 & NAXIS2 from the header. */
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &status);
+
+  if ((naxis[0] < 2) || (naxis[1] < 2)) {
+    fprintf(stderr, "ERROR, HDU number %d contains degenerate image axes.\n",
+      hdunum);
+    return 1;
+  }
+
+a181 2
+  fits_close_file(fptr, &status);
+
+d184 1
+d187 1
+a187 1
+         fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+d189 3
+d195 1
+a195 1
+     return 1;
+d198 39
+d244 4
+a247 2
+  strcpy(devtyp, "/XWINDOW");
+  cpgbeg(0, devtyp, 1, 1);
+a253 4
+  /* Annotation. */
+  strcpy(idents[0], "Right ascension");
+  strcpy(idents[1], "Declination");
+
+d268 4
+d273 1
+a273 2
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+d277 14
+a290 1
+    /* Get WCSNAME out of the wcsprm struct. */
+d292 3
+a294 1
+    printf("\n%s\n", idents[2]);
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d32 1
+a32 1
+    $Id: wcsgrid.c,v 4.3 2007/12/27 05:50:31 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Implemented the "-a" option, added "-d<pgdev>" to specify the PGPLOT
+graphics device, and augmented the usage instructions with regard to
+cfitsio filename syntax.
+@
+text
+@d32 1
+a32 1
+    $Id: wcsgrid.c,v 4.3.1.1 2007/12/27 13:26:14 cal103 Exp cal103 $
+d40 1
+d45 1
+a45 1
+"Usage: wcsgrid [-a<alt>] [-d<pgdev>] [-h<hdu>] [<fitsfile>]\n"
+d48 1
+a48 5
+"file and uses pgsbox() to plot a 2-D coordinate graticule for each\n"
+"alternate representation found.\n\n"
+"The FITS file may be specified according to the syntax understood by\n"
+"cfitsio, for example \"file.fits.gz+1\" refers to the first extension of\n"
+"a gzip'd FITS file.  Use \"-\" or omit the file name for input from stdin.\n"
+d51 4
+a54 5
+"  -a<alt>      Plot a graticule only for the alternate representation\n"
+"               specified (ignored if there is only one).\n"
+"  -d<pgdev>    PGPLOT device type (default XWINDOW, use \"?\" for list).\n"
+"  -h<hdu>      Move to HDU number (1-relative) which is expected to\n"
+"               contain an image array.  (Useful for input from stdin.)\n";
+d74 2
+a75 2
+  char alt = '\0', *header, idents[3][80], *infile, nlcprm[1], opt[2],
+       pgdev[16];
+d77 2
+a78 2
+  int  alts[27], gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2],
+       nkeyrec, nreject, nwcs, stat[NWCSFIX], status;
+a86 1
+  strcpy(pgdev, "/XWINDOW");
+a93 14
+
+    case 'd':
+      if (argv[i][2] == '?') {
+        cpgldev();
+        return 0;
+      }
+
+      if (argv[i][2] == '/') {
+        strncpy(pgdev+1, argv[i]+3, 15);
+      } else {
+        strncpy(pgdev+1, argv[i]+2, 15);
+      }
+      break;
+
+a96 1
+
+d184 1
+a184 26
+    return 1;
+  }
+
+  /* Sort out alternates. */
+  if (alt) {
+    wcsidx(nwcs, &wcs, alts);
+
+    if (alt == ' ') {
+      if (alts[0] == -1) {
+        fprintf(stderr, "WARNING, no primary coordinate representation, "
+                        "doing all.\n");
+        alt = '\0';
+      }
+
+    } else if (alt < 'A' || alt > 'Z') {
+      fprintf(stderr, "WARNING, alternate specifier \"%c\" is invalid, "
+                      "doing all.\n", alt);
+      alt = '\0';
+
+    } else {
+      if (alts[alt - 'A' + 1] == -1) {
+        fprintf(stderr, "WARNING, no alternate coordinate representation "
+                        "\"%c\", doing all.\n", alt);
+        alt = '\0';
+      }
+    }
+d194 2
+a195 4
+  if (cpgbeg(0, pgdev, 1, 1) != 1) {
+    fprintf(stderr, "ERROR, failed to open PGPLOT device %s.\n", pgdev);
+    return 1;
+  }
+a219 4
+    if (alt && (wcs+i)->alt[0] != alt) {
+      continue;
+    }
+
+d221 2
+a222 1
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+d228 1
+a228 3
+    if (strlen(idents[2])) {
+      printf("\n%s\n", idents[2]);
+    }
+@
+
+
+4.3.1.3
+log
+@Ignore problems fixing CDi_ja and DATE-OBS; use CNAMEia (preferentially)
+or CTYPEia for the axis labels.
+@
+text
+@d4 1
+a4 1
+    Copyright (C) 1995-2009, Mark Calabretta
+d32 1
+a32 1
+    $Id: wcsgrid.c,v 4.3.1.2 2008/10/23 00:39:51 cal103 Exp cal103 $
+d36 2
+a37 2
+*   file and uses pgsbox() to plot a 2-D coordinate graticule for each
+*   representation found.  Refer to the usage notes below.
+a196 1
+    status = 0;
+d199 1
+a199 1
+         fprintf(stderr, "wcsfix ERROR %d: %s.\n", stat[i],
+a200 3
+
+        /* Ignore problems with CDi_ja and DATE-OBS. */
+        if (!(i == CDFIX || i == DATFIX)) status = 1;
+d204 1
+a204 1
+    if (status) return 1;
+d249 4
+d276 1
+a276 14
+    /* Axis labels; use CNAMEia in preference to CTYPEia. */
+    if ((wcs+i)->cname[0][0]) {
+      strcpy(idents[0], (wcs+i)->cname[0]);
+    } else {
+      strcpy(idents[0], (wcs+i)->ctype[0]);
+    }
+
+    if ((wcs+i)->cname[1][0]) {
+      strcpy(idents[1], (wcs+i)->cname[1]);
+    } else {
+      strcpy(idents[1], (wcs+i)->ctype[1]);
+    }
+
+    /* Title; use WCSNAME. */
+@
+
+
+4.3.1.4
+log
+@Don't assume that longitude and latitude are on axes 1 and 2.
+Changed indentation in the copyright notice.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 25
+a32 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsgrid.c,v 4.3.1.3 2009/04/30 03:18:02 cal103 Exp cal103 $
+d35 3
+a37 3
+* wcsgrid extracts the WCS keywords for an image from the specified FITS file
+* and uses pgsbox() to plot a 2-D coordinate graticule for each representation
+* found.  Refer to the usage notes below.
+d78 2
+a79 2
+  char alt = '\0', *header, idents[3][80], *infile, keyword[16], nlcprm[1],
+       opt[2], pgdev[16];
+d164 10
+d193 2
+a235 14
+  /* Get image dimensions from the header. */
+  sprintf(keyword, "NAXIS%d", wcs->lng + 1);
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &status);
+  sprintf(keyword, "NAXIS%d", wcs->lat + 1);
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &status);
+
+  if ((naxis[0] < 2) || (naxis[1] < 2)) {
+    fprintf(stderr, "ERROR, HDU number %d contains degenerate image axes.\n",
+      hdunum);
+    return 1;
+  }
+
+  fits_close_file(fptr, &status);
+
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 251
+@
+
+
+0.0.1.1
+log
+@Initial revision.
+@
+text
+@a0 247
+/*============================================================================
+*
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2007, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id$
+*=============================================================================
+*
+*   wcsgrid extracts the WCS keywords for an image from the specified FITS
+*   file and uses pgsbox() to plot a 2-D coordinate graticule for it.  Refer
+*   to the usage notes below.
+*
+* TODO
+*   Implement alt.
+*   Subimaging option.
+*---------------------------------------------------------------------------*/
+
+char usage[] =
+"Usage: wcsgrid [-a<alt>] [-h<hdu>] [<fitsfile>]\n"
+"\n"
+"wcsgrid extracts the WCS keywords for an image from the specified FITS\n"
+"file and uses pgsbox() to plot a 2-D coordinate graticule for it.\n"
+"\n"
+"Options:\n"
+"  -a<alt>      Specify an alternate coordinate representation to be used\n"
+"               (ignored if there is only one).\n"
+"  -h<hdu>      Skip to HDU number (1-relative) which is expected to\n"
+"               contain an image array.\n";
+
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#include <fitsio.h>
+#include <cpgplot.h>
+#include <cpgsbox.h>
+
+#include <wcshdr.h>
+#include <wcsfix.h>
+#include <wcs.h>
+#include <getwcstab.h>
+
+int main(int argc, char **argv)
+
+{
+  char alt = ' ', devtyp[16], *header, idents[3][80], *infile, nlcprm[1],
+       opt[2];
+  int  c0[] = {-1, -1, -1, -1, -1, -1, -1};
+  int  gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2], ncards, nreject,
+       nwcs, stat[NWCSFIX], status;
+  float  blc[2], trc[2];
+  double cache[257][4], grid1[1], grid2[1], nldprm[1];
+  struct wcsprm *wcs;
+  nlfunc_t pgwcsl_;
+  fitsfile *fptr;
+
+
+  /* Parse options. */
+  for (i = 1; i < argc && argv[i][0] == '-'; i++) {
+    if (!argv[i][1]) break;
+
+    switch (argv[i][1]) {
+    case 'a':
+      alt = toupper(argv[i][2]);
+      break;
+    case 'h':
+      hdunum = atoi(argv[i]+2);
+      break;
+    default:
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  }
+
+  if (i < argc) {
+    infile = argv[i++];
+
+    if (i < argc) {
+      fprintf(stderr, "%s", usage);
+      return 1;
+    }
+  } else {
+    infile = "-";
+  }
+
+  /* Check accessibility of the input file. */
+  if (strcmp(infile, "-") && access(infile, R_OK) == -1) {
+    printf("HPXcvt: Cannot access %s.\n", infile);
+    return 1;
+  }
+
+
+  /* Open the FITS file and move to the required HDU. */
+  status = 0;
+  if (fits_open_file(&fptr, infile, READONLY, &status)) goto fitserr;
+  if (fits_movabs_hdu(fptr, hdunum, &hdutype, &status)) goto fitserr;
+  if (hdutype != IMAGE_HDU) {
+    fprintf(stderr, "ERROR, HDU number %d does not contain an image array.\n",
+      hdunum);
+    return 1;
+  }
+
+  /* Check that we have at least two image axes. */
+  if (fits_read_key(fptr, TINT, "NAXIS",  &naxes, NULL, &status)) {
+    goto fitserr;
+  }
+
+  if (naxes < 2) {
+    fprintf(stderr, "ERROR, HDU number %d does not contain a 2-D image.\n",
+      hdunum);
+    return 1;
+  } else if (naxes > 2) {
+    printf("HDU number %d contains an %d-D image array.\n", hdunum, naxes);
+  }
+
+  /* Get NAXIS, NAXIS1 & NAXIS2 from the header. */
+  fits_read_key(fptr, TINT, "NAXIS1", naxis,   NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS2", naxis+1, NULL, &status);
+
+  if ((naxis[0] < 2) || (naxis[1] < 2)) {
+    fprintf(stderr, "ERROR, HDU number %d contains degenerate image axes.\n",
+      hdunum);
+    return 1;
+  }
+
+  /* Read in the FITS header discarding COMMENT, &c. cards in the process. */
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &ncards, &status)) goto fitserr;
+
+
+  /* Interpret the WCS keywords. */
+  if ((status = wcspih(header, ncards, WCSHDR_all, -3, &nreject, &nwcs,
+                       &wcs))) {
+    fprintf(stderr, "wcspih ERROR %d: %s.\n", status, wcshdr_errmsg[status]);
+    return 1;
+  }
+  free(header);
+
+  /* Read -TAB arrays from the binary table extension (if necessary). */
+  if (fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb, &status)) {
+    goto fitserr;
+  }
+
+  fits_close_file(fptr, &status);
+
+  /* Translate non-standard WCS keyvalues. */
+  if ((status = wcsfix(7, 0, wcs, stat))) {
+    for (i = 0; i < NWCSFIX; i++) {
+      if (stat[i] > 0) {
+         fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                 wcsfix_errmsg[stat[i]]);
+      }
+    }
+
+     return 1;
+  }
+
+
+  /* Plot setup. */
+  blc[0] = 0.5f;
+  blc[1] = 0.5f;
+  trc[0] = naxis[0] + 0.5f;
+  trc[1] = naxis[1] + 0.5f;
+
+  strcpy(devtyp, "/XWINDOW");
+  cpgbeg(0, devtyp, 1, 1);
+  cpgvstd();
+
+  cpgwnad(0.0f, 1.0f, 0.0f, 1.0f);
+  cpgask(1);
+  cpgpage();
+
+  /* Annotation. */
+  strcpy(idents[0], "Right ascension");
+  strcpy(idents[1], "Declination");
+
+  opt[0] = 'G';
+  opt[1] = 'E';
+
+  /* Compact lettering. */
+  cpgsch(0.8f);
+
+  /* Draw full grid lines. */
+  cpgsci(1);
+  gcode[0] = 2;
+  gcode[1] = 2;
+  grid1[0] = 0.0;
+  grid2[0] = 0.0;
+
+  for (i = 0; i < nwcs; i++) {
+    if ((status = wcsset(wcs+i))) {
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+      continue;
+    }
+
+    /* Get WCSNAME out of the wcsprm struct. */
+    strcpy(idents[2], (wcs+i)->wcsname);
+    printf("\n%s\n", idents[2]);
+
+    /* Draw the celestial grid.  The grid density is set for each world */
+    /* coordinate by specifying LABDEN = 1224. */
+    ic = -1;
+    cpgsbox(blc, trc, idents, opt, 0, 1224, c0, gcode, 0.0, 0, grid1, 0,
+      grid2, 0, pgwcsl_, 1, WCSLEN, 1, nlcprm, (int *)(wcs+i), nldprm, 256,
+      &ic, cache, &status);
+
+    /* Draw the frame. */
+    cpgbox("BC", 0.0f, 0, "BC", 0.0f, 0);
+
+    cpgpage();
+  }
+
+  status = wcsvfree(&nwcs, &wcs);
+
+  return 0;
+
+fitserr:
+  fits_report_error(stderr, status);
+  fits_close_file(fptr, &status);
+  return 1;
+}
+@
+
+
+0.0.1.2
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d30 1
+a30 1
+*   $Id: wcsgrid.c,v 0.0.1.1 2007/07/11 02:22:59 cal103 Exp cal103 $
+d75 2
+a76 2
+  int  gcode[2], hdunum = 1, hdutype, i, ic, naxes, naxis[2], nkeyrec,
+       nreject, nwcs, stat[NWCSFIX], status;
+d114 1
+a114 1
+    printf("wcsgrid: Cannot access %s.\n", infile);
+d152 2
+a153 4
+  /* Read in the FITS header, excluding COMMENT and HISTORY keyrecords. */
+  if (fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec, &status)) {
+    goto fitserr;
+  }
+d157 1
+a157 1
+  if ((status = wcspih(header, nkeyrec, WCSHDR_all, -3, &nreject, &nwcs,
+@
+
+
+0.0.1.3
+log
+@Switched to GPL 3.0.
+@
+text
+@d2 29
+a30 31
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU General Public License as published by the Free
+    Software Foundation; either version 3 of the License, or (at your option)
+    any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+    details.
+
+    You should have received a copy of the GNU General Public License along
+    with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+    59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsgrid.c,v 0.0.1.2 2007/08/02 05:27:04 cal103 Exp cal103 $
+@

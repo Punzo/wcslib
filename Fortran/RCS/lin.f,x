@@ -1,0 +1,623 @@
+head	2.9;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+2.9
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2001.11.15.03.44.38;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.05.10.04.48.49;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	2000.03.10.01.13.47;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.06.16.00.16.08;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	96.05.07.21.05.07;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	95.11.09.03.10.40;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.09.11.08.00.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Implementation of the WCS linear transformation equations.
+@
+
+
+2.9
+log
+@Updated date in copyright notice.
+@
+text
+@*=======================================================================
+*
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+*
+*   This library is free software; you can redistribute it and/or
+*   modify it under the terms of the GNU Library General Public
+*   License as published by the Free Software Foundation; either
+*   version 2 of the License, or (at your option) any later version.
+*
+*   This library is distributed in the hope that it will be useful,
+*   but WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   Library General Public License for more details.
+*
+*   You should have received a copy of the GNU Library General Public
+*   License along with this library; if not, write to the Free
+*   Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+*                      AUSTRALIA
+*
+*=======================================================================
+*
+*   FORTRAN routines which implement the FITS World Coordinate System
+*   (WCS) convention.
+*
+*   Summary of routines
+*   -------------------
+*   These utility routines apply the linear transformation defined by
+*   the WCS FITS header cards.  There are separate routines for the
+*   image-to-pixel, LINFWD, and pixel-to-image, LINREV, transformations.
+*
+*   An initialization routine, LINSET, computes intermediate values from
+*   the transformation parameters but need not be called explicitly -
+*   see the explanation of LIN(1) below.
+*
+*   An auxiliary matrix inversion routine, MATINV, is included.  It uses
+*   LU-triangular factorization with scaled partial pivoting.
+*
+*
+*   Initialization routine; LINSET
+*   ------------------------------
+*   Initializes members of a LIN array which hold intermediate values.
+*   Note that this routine need not be called directly; it will be
+*   invoked by LINFWD and LINREV if LIN(1) is zero.
+*
+*   Given and/or returned:
+*      LIN      D()      Linear transformation parameters (see below).
+*
+*   Returned:
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Number of image axes exceeds maximum.
+*                           2: PC matrix is singular.
+*
+*   Forward transformation; LINFWD
+*   ------------------------------
+*   Compute pixel coordinates from image coordinates.  Note that where
+*   celestial coordinate systems are concerned the image coordinates
+*   correspond to (X,Y) in the plane of projection, not celestial
+*   (LNG,LAT).
+*
+*   Given:
+*      IMGCRD   D()      Image coordinate.
+*
+*   Given and returned:
+*      LIN      D()      Linear transformation parameters (see below).
+*
+*   Returned:
+*      PIXCRD   D()      Pixel coordinate.
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Number of image axes exceeds maximum.
+*                           2: PC matrix is singular.
+*
+*   Reverse transformation; LINREV
+*   ------------------------------
+*   Compute image coordinates from pixel coordinates.  Note that where
+*   celestial coordinate systems are concerned the image coordinates
+*   correspond to (X,Y) in the plane of projection, not celestial
+*   (LNG,LAT).
+*
+*   Given:
+*      PIXCRD   D()      Pixel coordinate.
+*
+*   Given and/or returned:
+*      LIN      D()      Linear transformation parameters (see below).
+*
+*   Returned:
+*      IMGCRD   D()      Image coordinate.
+*      IERR     I        Error status
+*                           0: Success.
+*                           1: Number of image axes exceeds maximum.
+*                           2: PC matrix is singular.
+*
+*   Linear transformation parameters
+*   --------------------------------
+*   The LIN array is a pseudo-datastructure consisting of the following:
+*
+*      LIN(1)
+*         This flag must be set to zero whenever any of the following
+*         members are set or modified.  This signals the initialization
+*         routine, LINSET, to recompute intermediaries.
+*      LIN(2)
+*         Maximum number of image axes (MAXIS) for which space has been
+*         reserved.
+*      LIN(3)
+*         The actual number of image axes (NAXIS), must not exceed
+*         MAXIS.
+*      LIN(4)
+*         The first element of an array of length MAXIS containing the
+*         NAXIS elements of the coordinate reference pixel, CRPIXn.
+*      LIN(4+MAXIS)
+*         The first element of an array of size MAXIS*MAXIS containing
+*         the NAXIS*NAXIS elements of the PC (pixel coordinate)
+*         transformation matrix stored in column-major order with padded
+*         columns, that is PC(1,1), PC(2,1), ..., PC(MAXIS,1), PC(1,2),
+*         PC(2,2) ..., where PC(1,2) = PC1_2, etc.
+*      LIN(4+MAXIS*(1+MAXIS))
+*         The first element of an array of length MAXIS containing NAXIS
+*         coordinate increments, CDELTn.
+*
+*   The remaining members of the LIN array are maintained by the
+*   initialization routine and should not be modified.
+*
+*      LIN(4+MAXIS*(2+MAXIS))
+*         The first element of an array of size MAXIS*MAXIS containing
+*         NAXIS*NAXIS elements of the PIXIMG matrix being the product of
+*         the CDELTn diagonal matrix and the PC matrix and stored in
+*         column-major order.
+*      LIN(4+MAXIS*(2+2*MAXIS))
+*         The first element of IMGPIX, the inverse of the PIXIMG matrix
+*         stored in column-major order.
+*
+*   In all, 3+MAXIS*(2+3*MAXIS) locations must be provided by the
+*   caller.  The structure may conveniently be constructed from
+*   separately declared arrays aligned by means of a COMMON block.
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   $Id: lin.f,v 2.8 2001/11/15 03:44:38 mcalabre Exp mcalabre $
+*=======================================================================
+      SUBROUTINE LINSET (LIN, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   I, IERR, J, LD, LP, LR, M, N
+      DOUBLE PRECISION LIN(*)
+
+*     Statement functions used for array addressing.
+      INTEGER   CRPIX, PC, CDELT, PIXIMG, IMGPIX
+      CRPIX(I) = 3 + I
+      PC(I,J)  = CRPIX(M) + I + (J-1)*M
+      CDELT(I) = PC(M,M)  + I
+      PIXIMG(I,J) = CDELT(M) + I + (J-1)*N
+      IMGPIX(I,J) = PIXIMG(M,M) + I + (J-1)*N
+*-----------------------------------------------------------------------
+      M = NINT(LIN(2))
+      N = NINT(LIN(3))
+      IF (N.GT.M) THEN
+         IERR = 1
+         RETURN
+      END IF
+
+*     Compute the pixel-to-image transformation matrix.
+      LR = PIXIMG(1,1)
+      LP = PC(1,1)
+      DO 20 J = 1, N
+         LD = CDELT(1)
+         DO 10 I = 1, N
+            LIN(LR) = LIN(LD) * LIN(LP)
+            LD = LD + 1
+            LR = LR + 1
+            LP = LP + 1
+ 10      CONTINUE
+
+*        Skip column padding.
+         LP = LP + (M - N)
+ 20   CONTINUE
+
+*     Compute the image-to-pixel transformation matrix.
+      CALL MATINV(N, LIN(PIXIMG(1,1)), LIN(IMGPIX(1,1)), IERR)
+      IF (IERR.NE.0) RETURN
+
+      LIN(1) = 1.0
+
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE LINFWD (IMGCRD, LIN, PIXCRD, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   I, IERR, J, LC, LF, M, N
+      DOUBLE PRECISION IMGCRD(*), LIN(*), PIXCRD(*)
+
+*     Statement functions used for array addressing.
+      INTEGER   CRPIX, PC, CDELT, PIXIMG, IMGPIX
+      CRPIX(I) = 3 + I
+      PC(I,J)  = CRPIX(M) + I + (J-1)*M
+      CDELT(I) = PC(M,M)  + I
+      PIXIMG(I,J) = CDELT(M) + I + (J-1)*N
+      IMGPIX(I,J) = PIXIMG(M,M) + I + (J-1)*N
+*-----------------------------------------------------------------------
+      M = NINT(LIN(2))
+      N = NINT(LIN(3))
+
+      IF (LIN(1).NE.1D0) THEN
+         CALL LINSET (LIN, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+      DO 10 I = 1, N
+         PIXCRD(I) = 0D0
+ 10   CONTINUE
+
+      LC = CRPIX(1)
+      LF = IMGPIX(1,1)
+      DO 30 J = 1, N
+         DO 20 I = 1, N
+            PIXCRD(I) = PIXCRD(I) + LIN(LF)*IMGCRD(J)
+            LF = LF + 1
+ 20      CONTINUE
+         PIXCRD(J) = PIXCRD(J) + LIN(LC)
+         LC = LC + 1
+ 30   CONTINUE
+
+      IERR = 0
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE LINREV (PIXCRD, LIN, IMGCRD, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   I, IERR, J, LC, LR, M, N
+      DOUBLE PRECISION IMGCRD(*), LIN(*), PIXCRD(*), TEMP
+
+*     Statement functions used for array addressing.
+      INTEGER   CRPIX, PC, CDELT, PIXIMG
+      CRPIX(I) = 3 + I
+      PC(I,J)  = CRPIX(M) + I + (J-1)*M
+      CDELT(I) = PC(M,M)  + I
+      PIXIMG(I,J) = CDELT(M) + I + (J-1)*N
+*-----------------------------------------------------------------------
+      M = NINT(LIN(2))
+      N = NINT(LIN(3))
+
+      IF (LIN(1).NE.1D0) THEN
+         CALL LINSET (LIN, IERR)
+         IF (IERR.NE.0) RETURN
+      END IF
+
+      DO 10 I = 1, N
+         IMGCRD(I) = 0D0
+ 10   CONTINUE
+
+      LC = CRPIX(1)
+      LR = PIXIMG(1,1)
+      DO 30 J = 1, N
+         TEMP = PIXCRD(J) - LIN(LC)
+         DO 20 I = 1, N
+            IMGCRD(I) = IMGCRD(I) + LIN(LR)*TEMP
+            LR = LR + 1
+ 20      CONTINUE
+         LC = LC + 1
+ 30   CONTINUE
+
+      IERR = 0
+      RETURN
+      END
+
+*-----------------------------------------------------------------------
+      SUBROUTINE MATINV (N, MAT, INV, IERR)
+*-----------------------------------------------------------------------
+      INTEGER   NMAX
+      PARAMETER (NMAX = 16)
+
+      INTEGER   I, IERR, II, IJ, IK, ITEMP, J, JK, K, KJ, KK, LXM(NMAX),
+     *          MXL(NMAX), N, NK, OJ, OK, PIVOT, PJ
+      DOUBLE PRECISION COLMAX, DTEMP, INV(N*N), LU(NMAX*NMAX), MAT(N*N),
+     *          ROWMAX(NMAX)
+*-----------------------------------------------------------------------
+*     Initialize arrays.
+      DO 10 I = 1, N
+*        Vector which records row interchanges.
+         MXL(I) = I
+
+*        Maximum absolute element in each row.
+         ROWMAX(I) = 0D0
+ 10   CONTINUE
+
+      IJ = 1
+      DO 30 J = 1, N
+         DO 20 I = 1, N
+            DTEMP = ABS(MAT(IJ))
+            IF (DTEMP.GT.ROWMAX(I)) ROWMAX(I) = DTEMP
+
+            LU(IJ)  = MAT(IJ)
+            INV(IJ) = 0D0
+            IJ = IJ + 1
+ 20      CONTINUE
+ 30   CONTINUE
+
+      DO 40 I = 1, N
+*        A row of zeroes indicates a singular matrix.
+         IF (ROWMAX(I).EQ.0D0) THEN
+            IERR = 2
+            RETURN
+         END IF
+ 40   CONTINUE
+
+
+*     Form the LU triangular factorization using scaled partial
+*     pivoting.
+      DO 100 K = 1, N
+*        Decide whether to pivot.
+         OK = (K-1)*N
+         KK = K + OK
+         COLMAX = ABS(LU(KK))/ROWMAX(K)
+         PIVOT = K
+
+         NK = N*K
+         DO 50 I = K+1, N
+            IK = I + OK
+            DTEMP = ABS(LU(IK))/ROWMAX(I)
+            IF (DTEMP.GT.COLMAX) THEN
+               COLMAX = DTEMP
+               PIVOT = I
+            END IF
+ 50      CONTINUE
+
+         IF (PIVOT.GT.K) THEN
+*           We must pivot, interchange the rows of the design matrix.
+            PJ = PIVOT
+            KJ = K
+            DO 60 J = 1, N
+               DTEMP = LU(PJ)
+               LU(PJ) = LU(KJ)
+               LU(KJ) = DTEMP
+               PJ = PJ + N
+               KJ = KJ + N
+ 60         CONTINUE
+
+*           Amend the vector of row maxima.
+            DTEMP = ROWMAX(PIVOT)
+            ROWMAX(PIVOT) = ROWMAX(K)
+            ROWMAX(K) = DTEMP
+
+*           Record the interchange for later use.
+            ITEMP = MXL(PIVOT)
+            MXL(PIVOT) = MXL(K)
+            MXL(K) = ITEMP
+         END IF
+
+*        Gaussian elimination; compute scaling factors.
+         DO 70 IK = KK+1, NK
+            LU(IK) = LU(IK)/LU(KK)
+ 70      CONTINUE
+
+*        Subtract rows.
+         DO 90 J = K+1, N
+            OJ = (J-1)*N
+            OK = (K-1)*N
+            KJ = K + OJ
+            DO 80 I = K+1, N
+               IJ = I + OJ
+               IK = I + OK
+               LU(IJ) = LU(IJ) - LU(IK)*LU(KJ)
+ 80         CONTINUE
+ 90      CONTINUE
+ 100  CONTINUE
+
+
+*     MXL(I) records which row of MAT corresponds to row I of LU.
+*     LXM(I) records which row of LU  corresponds to row I of MAT.
+      DO 110 I = 1, N
+         LXM(MXL(I)) = I
+ 110  CONTINUE
+
+
+*     Determine the inverse matrix.
+      DO 160 K = 1, N
+         OK = (K-1)*N
+         KK = LXM(K) + OK
+         INV(KK) = 1D0
+
+*        Forward substitution.
+         DO 130 I = LXM(K)+1, N
+            IK = I + OK
+            DO 120 J = LXM(K), I-1
+               IJ = I + (J-1)*N
+               JK = J + OK
+               INV(IK) = INV(IK) - LU(IJ)*INV(JK)
+ 120        CONTINUE
+ 130     CONTINUE
+
+*        Backward substitution.
+         DO 150 I = N, 1, -1
+            IK = I + OK
+            DO 140 J = I+1, N
+               IJ = I + (J-1)*N
+               JK = J + OK
+               INV(IK) = INV(IK) - LU(IJ)*INV(JK)
+ 140        CONTINUE
+            II = I + (I-1)*N
+            INV(IK) = INV(IK)/LU(II)
+ 150     CONTINUE
+ 160  CONTINUE
+
+
+      IERR = 0
+      RETURN
+      END
+@
+
+
+2.8
+log
+@Changed date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d146 1
+a146 1
+*   $Id: lin.f,v 2.7 2000/05/10 04:48:49 mcalabre Exp mcalabre $
+@
+
+
+2.7
+log
+@Minor change to prologue.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d146 1
+a146 1
+*   $Id: lin.f,v 2.6 2000/03/10 01:13:47 mcalabre Exp mcalabre $
+@
+
+
+2.6
+log
+@Minor change to prologue.
+@
+text
+@d124 1
+a124 1
+*         PC(2,2) ..., where PC(1,1) = PC1_1, etc.
+d146 1
+a146 1
+*   $Id: lin.f,v 2.5 1999/06/16 00:16:08 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d124 1
+a124 1
+*         PC(2,2) ...
+d143 1
+a143 1
+*   separately declared arrarys aligned by means of a COMMON block.
+d146 1
+a146 1
+*   $Id: lin.f,v 2.4 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d146 1
+a146 1
+*   $Id: lin.f,v 2.3 1996/05/07 21:05:07 mcalabre Exp mcalabre $
+@
+
+
+2.3
+log
+@In LINFWD and LINREV, return error codes from LINSET without alteration.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d146 1
+a146 1
+*   $Id: lin.f,v 2.2 1995/11/09 03:10:40 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Changed constant array declarators of size 1 to assumed-size array
+declarators.
+@
+text
+@d59 1
+d79 2
+a80 1
+*                           1: The transformation is not invertible.
+d99 2
+a100 1
+*                           1: Error.
+d146 1
+a146 1
+*   $Id: lin.f,v 2.1 1995/09/11 08:00:51 mcalabre Exp mcalabre $
+d212 1
+a212 4
+         IF (IERR.NE.0) THEN
+            IERR = 1
+            RETURN
+         END IF
+d252 1
+a252 4
+         IF (IERR.NE.0) THEN
+            IERR = 1
+            RETURN
+         END IF
+@
+
+
+2.1
+log
+@Initial revision
+@
+text
+@d138 1
+a138 1
+*   In all, 4+MAXIS*(2+3*MAXIS) locations must be provided by the
+d143 1
+a143 1
+*   $Id$
+d148 1
+a148 1
+      DOUBLE PRECISION LIN(1)
+d194 1
+a194 1
+      DOUBLE PRECISION IMGCRD(1), LIN(1), PIXCRD(1)
+d238 1
+a238 1
+      DOUBLE PRECISION IMGCRD(1), LIN(1), PIXCRD(1), TEMP
+@

@@ -1,0 +1,4779 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.34.06;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.06.09.45;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.06.30.00;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.05.49.56;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.04.47.45;	author mcalabre;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2004.06.28.04.44.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.06.31.57;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.08.02.07.12.49;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.03.04.32.56;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.03.05.07.19;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.12.03.05.13.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.12.22.07.35.50;	author cal103;	state Exp;
+branches;
+next	4.2.1.8;
+
+4.2.1.8
+date	2007.12.27.05.19.49;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.13.06.14.56;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.08.08.05.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.3;
+
+4.25.1.3
+date	2015.03.13.07.02.35;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.4;
+
+4.25.1.4
+date	2015.03.15.08.32.09;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.5;
+
+4.25.1.5
+date	2015.04.05.06.04.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	5.7.1.2;
+
+5.7.1.2
+date	2015.07.05.15.41.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.3;
+
+5.12.1.3
+date	2016.01.26.07.09.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.06.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.08.32.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.02.36.25;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.09.13.49.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.03.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.3;
+
+7.13.1.3
+date	2023.06.15.03.59.29;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.4;
+
+7.13.1.4
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@FITS header keyrecords for testing wcspih().  This file must be processed by
+utility 'tofits' to produce a valid FITS file for input to tpih1 and tpih2.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# WCSLIB 8.10 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2026, Mark Calabretta
+#
+# This file is part of WCSLIB.
+#
+# WCSLIB is free software: you can redistribute it and/or modify it under the
+# terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option)
+# any later version.
+#
+# WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+# more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: pih.keyrec,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+#
+# FITS header keyrecords used for testing by tpih1 and tpih2.  See also
+# wcslint.keyrec which tests wcspih() for its ability to recognise syntax
+# errors in WCS keyrecords.
+#
+# Use 'tofits' (supplied) to convert this file to proper FITS format via
+#
+#     tofits < pih.keyrec > pih.fits
+#
+# Lines in this file beginning with '#' are ignored by tofits.
+#
+#-----------------------------------------------------------------------------
+SIMPLE  =                    F / Conforms to FITS standard?  NO!
+BITPIX  =                  -32 / IEEE single precision floating point
+NAXIS   =                    0 / No image data
+
+COMMENT                        WARNING  WARNING  WARNING
+COMMENT                        -------------------------
+COMMENT  This header has been developed for test purposes and as such contains
+COMMENT  all standard WCS keywords.  Combining certain of them (e.g. PCi_ja,
+COMMENT  CDi_ja, and CROTAn) within a single FITS header violates certain WCS
+COMMENT  standards.  However, taken individually, each representation is legal,
+COMMENT  except as indicated.
+COMMENT
+COMMENT  The three alternate representations define essentially the same
+COMMENT  coordinate system in three different ways.  The older AIPS convention
+COMMENT  is necessarily used for the primary representation because the
+COMMENT  alternate version code (e.g. the "a" in CTYPEia) is not applicable in
+COMMENT  that convention.
+COMMENT
+COMMENT  For compatibility testing, the header also contains a number of non-
+COMMENT  standard keywords and constructs: the AIPS keywords CROTAn, EPOCH, and
+COMMENT  VELREF retrofitted with alternate version codes, and PROJPn, a
+COMMENT  forerunner of PVi_ma.  However, non-standard CD00i00j and PC00i00j
+COMMENT  keywords, while recognized, are not included since they can only apply
+COMMENT  to the primary representation which is used here to test the AIPS
+COMMENT  convention.
+COMMENT
+COMMENT  A simple TAN projection used in the primary representation is
+COMMENT  expressed as an equivalent SZP projection in the "A" representation,
+COMMENT  and approximated by a ZPN in the "I" representation.  A bulk image
+COMMENT  rotation of 15 deg applied by the defunct CROTAn keyword in the AIPS
+COMMENT  convention is replaced in the alternates by an equivalent bulk image
+COMMENT  rotation of 30 deg applied by the linear transformation matrix,
+COMMENT  together with an effective bulk rotation of -15 deg applied by
+COMMENT  LONPOLE (this is only possible for zenithal projections).
+COMMENT
+COMMENT  Similarly, the spectral axis in the primary representation, a simple
+COMMENT  linear frequency axis, is recast as non-linear wavelength and redshift
+COMMENT  axes in the alternates.
+COMMENT
+COMMENT  Although the parser handles free-format character string, integer, and
+COMMENT  floating-point keyvalues (NOST 100-2.0, Sect. 5.2) most numeric values
+COMMENT  in this header are given in the conventional fixed-format, with only
+COMMENT  CROTA2I, EPOCHI, and VELREFI as exceptions for testing.  Most string
+COMMENT  values are free-format, only those in the "A" representation are fixed.
+
+COMMENT  =======================================================================
+COMMENT  Primary representation
+COMMENT  ----------------------
+COMMENT
+COMMENT  In the AIPS convention CROTAn associated with the latitude axis
+COMMENT  defines a bulk image rotation.  Strictly speaking, the representation
+COMMENT  here is illegal since it mixes new WCS keywords (WCSAXESa and
+COMMENT  WCSNAMEa) with CROTAn, an older AIPS convention keyword.  WCSAXES is
+COMMENT  used here because setting NAXIS non-zero would require that this FITS
+COMMENT  file contain a data section.
+COMMENT
+COMMENT  Several PROJPn keyrecords (non-standard) are also included here for
+COMMENT  test purposes; they were never part of the AIPS convention and only
+COMMENT  appeared in early drafts of the WCS papers.  Their values are not
+COMMENT  actually used in the TAN projection.
+COMMENT  -----------------------------------------------------------------------
+
+COMMENT  The following two keyrecords are not part of the AIPS convention.
+WCSAXES =                    4 / Four coordinate axes
+WCSNAME =   'AIPS convention: TAN projection' / Name of this coordinate system
+
+CRPIX1  =                513.0 / Pixel coordinate of reference point
+CRPIX2  =                513.0 / Pixel coordinate of reference point
+CRPIX3  =               1025.0 / Pixel coordinate of reference point
+CRPIX4  =                  1.0 / Pixel coordinate of reference point
+
+CDELT1  =                -0.10 / x-scale
+CDELT2  =                 0.10 / y-scale
+CROTA2  =                 15.0 / Bulk image rotation
+CTYPE1  = 'RA---TAN'           / Right ascension in a gnomonic projection
+CRVAL1  =                150.0 / [deg] Right ascension at the reference point
+CTYPE2  = 'DEC--TAN'           / Declination in a gnomonic projection
+CRVAL2  =                -30.0 / [deg] Declination at the reference point
+EPOCH   =               2000.0 / Equinox of equatorial coordinates
+
+CDELT3  =               62.5E3 / Frequency scale
+CTYPE3  = 'FREQ    '           / Frequency axis
+CRVAL3  =             1.3945E9 / [Hz] Reference frequency
+VELREF  =                  258 / Barycentric radio velocity
+ALTRPIX =                  0.0 / Alternate reference pixel (not handled)
+ALTRVAL =                  0.0 / Alternate reference value (not handled)
+RESTFREQ=         1.42040575E9 / HI rest frequency
+
+CDELT4  =                  1.0 / Stokes increment
+CTYPE4  = 'STOKES  '           / Stokes convention axis (I, Q, U, V)
+CRVAL4  =                  1.0 / Stokes I
+
+COMMENT  As explained above, the following keyrecords are non-standard.
+PROJP0  =                  0.0 / Projection parameter (not used)
+PROJP1  =                  0.0 / Projection parameter (not used)
+PROJP2  =                  0.0 / Projection parameter (not used)
+
+COMMENT  =======================================================================
+COMMENT  Alternate representation 'A'
+COMMENT  ----------------------------
+COMMENT
+COMMENT  This coordinate representation utilizing a PCi_ja matrix expresses the
+COMMENT  above gnomonic (TAN) projection as a slant zenithal perspective
+COMMENT  projection (SZP) in order to test the reading of a number of PVi_ma
+COMMENT  keywords.
+COMMENT
+COMMENT  The third, spectral, axis, which is linear in frequency, is here
+COMMENT  re-expressed as a non-linear wavelength axis.
+COMMENT
+COMMENT  For testing purposes, the fourth axis, STOKES, here becomes a linear
+COMMENT  TIME axis, which would be impossible in the real world.
+COMMENT
+COMMENT  This representation contains only standard keywords and usage.
+COMMENT  -----------------------------------------------------------------------
+
+WCSAXESA=                    4 / Four coordinate axes
+WCSNAMEA= 'Standard representation: SZP projection' / Name of this system
+
+CRPIX1A =                513.0 / Pixel coordinate of reference point
+CRPIX2A =                513.0 / Pixel coordinate of reference point
+CRPIX3A =               1025.0 / Pixel coordinate of reference point
+CRPIX4A =                  1.0 / Pixel coordinate of reference point
+PC1_1A  =          0.866025404 / Linear transformation matrix element
+PC1_2A  =          0.500000000 / Linear transformation matrix element
+PC2_1A  =         -0.500000000 / Linear transformation matrix element
+PC2_2A  =          0.866025404 / Linear transformation matrix element
+
+CDELT1A =                -0.10 / [deg] x-scale
+CUNIT1A = 'deg'                / Degree units are required
+CTYPE1A = 'RA---SZP'           / Right ascension in slant zenithal projection
+CRVAL1A =                150.0 / [deg] Right ascension at the reference point
+CNAME1A = 'Right ascension (J2000)' / Axis name for labelling purposes
+CDELT2A =                 0.10 / [deg] y-scale
+CUNIT2A = 'deg'                / Degree units are required
+CTYPE2A = 'DEC--SZP'           / Declination in a slant zenithal projection
+CRVAL2A =                -30.0 / [deg] Declination at the reference point
+CNAME2A = 'Declination (J2000)' / Axis name for labelling purposes
+PV1_1A  =                  0.0 / [deg] Native longitude of the reference point
+PV1_2A  =                 90.0 / [deg] Native latitude  of the reference point
+PV1_3A  =                195.0 / [deg] LONPOLEa by another name (precedence)
+PV1_4A  =                999.0 / [deg] LATPOLEa by another name (precedence)
+PV2_1A  =                  0.0 / SZP distance, in spherical radii
+PV2_2A  =                180.0 / [deg] SZP P-longitude
+PV2_3A  =                 45.0 / [deg] SZP P-latitude
+LONPOLEA=                195.0 / [deg] Native longitude of the NCP
+LATPOLEA=                999.0 / [deg] Native latitude of the NCP
+RADESYSA= 'FK5'                / Mean equatorial coordinates, IAU 1984 system
+EQUINOXA=               2000.0 / [yr] Equinox of equatorial coordinates
+
+CDELT3A =      -9.635265432E-6 / [m] Wavelength scale
+CUNIT3A = 'm'                  / Wavelength units
+CTYPE3A = 'WAVE-F2W'           / Frequency axis expressed as wavelength
+CRVAL3A =          0.214982042 / [m] Reference wavelength
+CNAME3A = 'Wavelength'         / Axis name for labelling purposes
+CRDER3A =              1.0E-11 / [m] Wavelength calibration, random error
+CSYER3A =              1.0E-12 / [m] Wavelength calibration, systematic error
+RESTFRQA=         1.42040575E9 / [Hz] HI rest frequency
+RESTWAVA=          0.211061141 / [m] HI rest wavelength
+SPECSYSA= 'BARYCENT'           / Reference frame of spectral coordinates
+SSYSOBSA= 'TOPOCENT'           / Reference frame of observation
+VELOSYSA=               1500.0 / [m/s] Bary-topo velocity towards the source
+ZSOURCEA=               0.0025 / Redshift of the source
+SSYSSRCA= 'LSRK'               / Reference frame of source redshift
+
+CDELT4A =                  1.0 / [s] Time scale
+CUNIT4A = 's'                  / Time units
+CTYPE4A = 'TIME''x'''          / String value and comment containing quotes (')
+CRVAL4A =                 -2E3 / [s] Time at the reference point
+CNAME4A = 'Time offset'        / Axis name for labelling purposes
+PS4_0A  = 'UTC'                / Time scale
+
+COMMENT  =======================================================================
+COMMENT  Alternate representation 'I'
+COMMENT  ----------------------------
+COMMENT
+COMMENT  While encoding a TAN projection as SZP may be good for testing
+COMMENT  purposes, approximating it by a zenithal polynomial projection (ZPN)
+COMMENT  is even better!  The polynomial coefficients are accurate to the
+COMMENT  number of decimal places given (but don't ever do this in a real
+COMMENT  header).
+COMMENT
+COMMENT  The third, spectral, axis, which is linear in frequency, is here
+COMMENT  re-expressed as a non-linear redshift.
+COMMENT
+COMMENT  The fourth axis, TIME in the A representation, is here re-expressed
+COMMENT  as a PHASE axis in order to test the CZPHSia and CPERIia keywords.
+COMMENT
+COMMENT  In the IRAF representation, if one CDi_ja keyword is given then the
+COMMENT  default is zero for any that are omitted.  CDELTia and CROTAn
+COMMENT  keywords are included for informational purposes only and otherwise
+COMMENT  are to be ignored.
+COMMENT
+COMMENT  Strictly speaking, alternate version codes are not defined for CROTAn
+COMMENT  (e.g. CROTA2I below), EPOCHa or VELREFa.  The latter two should be
+COMMENT  overridden by EQUINOXa and SPECSYSa even though they occur later in
+COMMENT  the header.
+COMMENT  -----------------------------------------------------------------------
+
+WCSAXESI=                    4 / Three coordinate axes
+WCSNAMEI= 'IRAF representation: ZPN projection' / Name of this coordinate system
+
+CRPIX1I =                513.0 / Pixel coordinate of reference point
+CRPIX2I =                513.0 / Pixel coordinate of reference point
+CRPIX3I =               1025.0 / Pixel coordinate of reference point
+CRPIX4I =                  1.0 / Pixel coordinate of reference point
+CD1_1I  =         -0.086602540 / [deg] CD matrix element
+CD1_2I  =         -0.050000000 / [deg] CD matrix element
+CD2_1I  =         -0.050000000 / [deg] CD matrix element
+CD2_2I  =          0.086602540 / [deg] CD matrix element
+CD3_3I  =      -4.565153674E-5 / Redshift scale
+CD4_4I  =                 0.01 / [turn] Phase scale
+
+CDELT1I =                -0.10 / [deg] x-scale (informational)
+CUNIT1I = 'deg'                / Degree units are required
+CTYPE1I = 'RA---ZPN'           / Right ascension in slant zenithal projection
+CRVAL1I =                150.0 / [deg] Right ascension at the reference point
+CNAME1I = 'Right ascension (J2000)' / Axis name for labelling purposes
+CDELT2I =                 0.10 / [deg] y-scale (informational)
+CUNIT2I = 'deg'                / Degree units are required
+CTYPE2I = 'DEC--ZPN'           / Declination in a slant zenithal projection
+CRVAL2I =                -30.0 / [deg] Declination at the reference point
+CNAME2I = 'Declination (J2000)' / Axis name for labelling purposes
+PV2_1I  =          1.000000000 / ZPN P1  coefficient for approximating TAN
+PV2_3I  =          0.333333333 / ZPN P3  coefficient for approximating TAN
+PV2_5I  =          0.133333333 / ZPN P5  coefficient for approximating TAN
+PV2_7I  =          0.053968254 / ZPN P7  coefficient for approximating TAN
+PV2_9I  =          0.021869489 / ZPN P9  coefficient for approximating TAN
+PV2_11I =          0.008863236 / ZPN P11 coefficient for approximating TAN
+PV2_13I =          0.003592128 / ZPN P13 coefficient for approximating TAN
+PV2_15I =          0.001455834 / ZPN P15 coefficient for approximating TAN
+PV2_17I =          0.000590027 / ZPN P17 coefficient for approximating TAN
+PV2_19I =          0.000239129 / ZPN P19 coefficient for approximating TAN
+LONPOLEI=                195.0 / [deg] Native longitude of the NCP
+LATPOLEI=                999.0 / [deg] Native latitude of the NCP
+RADESYSI= 'FK5'                / Mean equatorial coordinates, IAU 1984 system
+EQUINOXI=               2000.0 / [yr] Equinox of equatorial coordinates
+
+CDELT3I =      -4.565153674E-5 / Redshift scale (informational)
+CTYPE3I = 'ZOPT-F2W'           / Frequency axis expressed as redshift
+CRVAL3I =          0.018577089 / Reference redshift
+CNAME3I = 'Redshift'           / Axis name for labelling purposes
+CRDER3I =              5.0E-11 / Redshift calibration, random error
+CSYER3I =              5.0E-12 / Redshift calibration, systematic error
+RESTFRQI=         1.42040575E9 / [Hz] HI rest frequency
+RESTWAVI=          0.211061141 / [m] HI rest wavelength
+SSYSOBSI= 'TOPOCENT'           / Reference frame of observation
+VELOSYSI=               1500.0 / [m/s] Bary-topo velocity towards the source
+VSOURCEI=             748544.3 / [m/s] Apparent radial velocity of the source
+SSYSSRCI= 'LSRK'               / Reference frame of source redshift
+VELANGLI=                 0.00 / [deg] Velocity orientation angle
+
+CDELT4I =                 0.01 / [turn] Phase scale
+CUNIT4I = 'turn'               / Phase units
+CTYPE4I = 'PHASE'              / Phase associated with the time axis
+CRVAL4I =                  0.0 / [turn] Phase at the reference point
+CZPHS4I =                  0.0 / [s] Time elapsed from MJDREF at zero phase
+CPERI4I =                100.0 / [s] Period
+CNAME4I = 'Phase'              / Axis name for labelling purposes
+
+COMMENT  As explained above, the following keyrecords are non-standard.
+CROTA2I =     30.0             / [deg] Bulk image rotation
+EPOCHI  =   2000               / [yr] Equinox of equatorial coordinates
+VELREFI =    258               / Barycentric radio velocity
+
+COMMENT  =======================================================================
+COMMENT  By themselves, these primary image header auxiliary WCS keywords
+COMMENT  should not be sufficient to cause a wcsprm struct to be created for
+COMMENT  representation X, nor should they affect any of the others.
+COMMENT  -----------------------------------------------------------------------
+
+LONPOLEX=                180.0 / [deg] Native longitude of the celestial pole
+LATPOLEX=               -999.0 / [deg] Native latitude of the celestial pole
+RESTFRQX=          1667.3590E6 / [Hz] OH maser line rest frequency
+RESTWAVX=           0.17980079 / [m] OH maser line rest wavelength
+
+WCSNAMEX= 'eXtraneous'         / Name of this coordinate system
+
+RADESYSX= 'ICRS'               / Mean equatorial coordinates, IAU 1984 system
+EQUINOXX=               1950.0 / [yr] Equinox of equatorial coordinates
+SPECSYSX= 'HELIOCEN'           / Reference frame of spectral coordinates
+SSYSOBSX= 'GEOCENTR'           / Reference frame of observation
+VELOSYSX=              30000.0 / [m/s] Bary-topo velocity towards the source
+ZSOURCEX=               0.0456 / Redshift of the source
+SSYSSRCX= 'LSRK'               / Reference frame of source redshift
+VELANGLX=                35.25 / Velocity orientation angle
+
+COMMENT  =======================================================================
+COMMENT  The following auxiliary keywords have no alternates; they apply to
+COMMENT  each coordinate representation, even that of the AIPS convention for
+COMMENT  which, strictly, only the DATE-OBS keyword should be recognized.
+COMMENT
+COMMENT  For test purposes, the remaining standard global WCS-related keywords
+COMMENT  are included here, even though there is considerable overlap between
+COMMENT  them.  Specifically, the keywords in the following groups all convey
+COMMENT  the same information, only one need be given:
+COMMENT    - MJDREF, MJDREFI+MJDREFF, JDREF, and JDREFI+JDREFF;
+COMMENT    - DATE-OBS, MJD-OBS, JEPOCH, and BEPOCH;
+COMMENT    - DATE-AVG and MJD-AVG;
+COMMENT    - DATE-BEG, MJD-BEG, and TSTART;
+COMMENT    - DATE-END, MJD-END, and TSTOP;
+COMMENT    - OBSGEO-[XYZ] and OBSGEO-[LBH];
+COMMENT    - TELAPSE and TSTOP-TSTART (END-BEG equivalents).
+COMMENT  Interpretation is undefined if there are any inconsistencies between
+COMMENT  them.
+COMMENT
+COMMENT  The keycomments for OBSGEO-Y and OBSGEO-Z have been omitted
+COMMENT  deliberately for test purposes.
+COMMENT  -----------------------------------------------------------------------
+
+TIMESYS = 'UTC'                / Time scale
+TREFPOS = 'TOPOCENTRE'         / Time reference position, with OBSGEO-[XYZLBH]
+TREFDIR = 'RA_NOM,DEC_NOM'     / Time reference direction
+PLEPHEM = 'DE405'              / Ephemerides used for pathlength delays
+
+TIMEUNIT= 's'                  / Time units
+DATEREF = '1957-02-14T15:00:00'/ ISO-8601 fiducial time
+MJDREF  =         35883.625000 / [d] MJD of fiducial time
+MJDREFI =         35883        / [d] MJD of fiducial time, integer part
+MJDREFF =             0.625000 / [d] MJD of fiducial time, fractional part
+JDREF   =       2435884.125000 / [d] JD of fiducial time
+JDREFI  =       2435884        / [d] JD of fiducial time, integer part
+JDREFF  =             0.125000 / [d] JD of fiducial time, fractional part
+TIMEOFFS=                0.010 / [s] Clock correction
+
+DATE-OBS= '1957-02-14T15:00:00'/ ISO-8601 time of observation
+MJD-OBS =         35883.625000 / [d] MJD of observation
+JEPOCH  =       1957.125598905 / [a] Julian epoch of observation
+BEPOCH  =       1957.125960663 / [a] Besselian epoch of observation
+
+DATE-BEG= '1957-02-14T15:00:00'/ ISO-8601 time at start of observation
+MJD-BEG =         35883.625000 / [d] MJD at start of observation
+TSTART  =                  0.0 / [s] Time elapsed since fiducial time at start
+
+DATE-AVG= '1957-02-14T16:48:00'/ ISO-8601 time at midpoint of observation
+MJD-AVG =         35883.700000 / [d] MJD at midpoint of observation
+
+DATE-END= '1957-02-14T18:36:00'/ ISO-8601 time at end of observation
+MJD-END =         35883.775000 / [d] MJD at end of observation
+TSTOP   =              12960.0 / [s] Time elapsed since fiducial time at end
+
+XPOSURE =              12960.0 / [s] Exposure (integration) time
+TELAPSE =              12960.0 / [s] Elapsed time (start to stop)
+
+TIMSYER =                 5E-5 / [s] Systematic error in time measurements
+TIMRDER =                 1E-9 / [s] Relative error in time measurements
+TIMEDEL =                  1.0 / [s] Time resolution
+TIMEPIXR=                  0.5 / Reference position of timestamp in binned data
+
+OBSGEO-X=         -4554231.533 / [m] WGS84 coordinates of Parkes radiotelescope
+OBSGEO-Y=          2816759.109 /
+OBSGEO-Z=         -3454036.323
+OBSGEO-L=           148.263510 / [deg] WGS84, IAU(1976) ellipsoid, longitude
+OBSGEO-B=           -32.998406 / [deg] WGS84, IAU(1976) ellipsoid, latitude
+OBSGEO-H=              411.793 / [m]   WGS84, IAU(1976) ellipsoid, height
+OBSORBIT= 'sputnik-1957.eph'   / Spacecraft orbit ephemeris file
+
+COMMENT  =======================================================================
+COMMENT  The following global auxiliary keywords are non-standard but widely
+COMMENT  used in particular fields of astronomy.  They reside within the
+COMMENT  auxprm struct in wcsprm.  Their presence here should cause that
+COMMENT  struct to be allocated and filled.
+COMMENT  -----------------------------------------------------------------------
+
+RSUN_REF=               696E+6 / [m] Solar radius
+DSUN_OBS=             150.7E+9 / [m] Distance from centre of Sun to observer
+CRLN_OBS=               120.0  / [deg] Carrington heliographic lng of observer
+HGLN_OBS=                 0.0  / [deg] Stonyhurst heliographic lng of observer
+HGLT_OBS=                 7.25 / [deg] Heliographic latitude of the observer
+A_RADIUS=              12.0E+7 / [m] Object ellipsoid semi-major axis
+B_RADIUS=              11.0E+7 / [m] Object ellipsoid semi-intermediate axis
+C_RADIUS=              10.0E+7 / [m] Object ellipsoid semi-minor axis
+BLON_OBS=               155.0  / [deg] Bodycentric longitude of observer
+BLAT_OBS=               -33.0  / [deg] Bodycentric latitude of observer
+BDIS_OBS=              137E+9  / [m]   Bodycentric distance of observer
+
+END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.5 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: pih.keyrec,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: pih.keyrec,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+# WCSLIB 8.2 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.13.1.4 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.13 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d403 7
+a409 1
+HGLT_OBS=                 7.25 / [deg] heliographic latitude of the observer
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Support planetary keywords A_RADIUS, B_RADIUS, C_RADIUS, PLON_OBS, PLAT_OBS,
+and PDIS_OBS in auxprm.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d403 1
+a403 7
+HGLT_OBS=                 7.25 / [deg] Heliographic latitude of the observer
+A_RADIUS=              12.0E+7 / [m] Object ellipsoid semi-major axis
+B_RADIUS=              11.0E+7 / [m] Object ellipsoid semi-intermediate axis
+C_RADIUS=              10.0E+7 / [m] Object ellipsoid semi-minor axis
+PLON_OBS=               155.0  / [deg] Planetocentric longitude of observer
+PLAT_OBS=               -33.0  / [deg] Planetocentric latitude of observer
+PDIS_OBS=              137E+9  / [m]   Planetocentric distance of observer
+@
+
+
+7.13.1.3
+log
+@(PLON_OBS, PLAT_OBS, PDIS_OBS) -> (BLON_OBS, BLAT_OBS, BDIS_OBS).
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.13.1.2 2023/06/03 08:25:34 mcalabre Exp mcalabre $
+d407 3
+a409 3
+BLON_OBS=               155.0  / [deg] Bodycentric longitude of observer
+BLAT_OBS=               -33.0  / [deg] Bodycentric latitude of observer
+BDIS_OBS=              137E+9  / [m]   Bodycentric distance of observer
+@
+
+
+7.13.1.4
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.13.1.3 2023/06/15 03:59:29 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.7 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.5.1.2 2021/04/09 13:49:30 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d289 1
+a289 1
+CTYPE4I = 'PHASE'              / Phase associated with the ime axis
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Fixed a typo in one of the inline comments.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d289 1
+a289 1
+CTYPE4I = 'PHASE'              / Phase associated with the time axis
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.3.1.3 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+# $Id: pih.keyrec,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 2
+# WCSLIB 7.3 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+# Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+#
+d22 1
+a22 1
+# $Id: pih.keyrec,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+# $Id: pih.keyrec,v 7.3.1.2 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.4.1.3 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 2
+a3 2
+# WCSLIB 6.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2019, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d325 2
+a326 2
+COMMENT  The following keywords have no alternates; they apply to each
+COMMENT  coordinate representation, even that of the AIPS convention for
+d393 13
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Test handling of Solar-related keywords stored in auxprm.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d325 2
+a326 2
+COMMENT  The following auxiliary keywords have no alternates; they apply to
+COMMENT  each coordinate representation, even that of the AIPS convention for
+a392 13
+
+COMMENT  =======================================================================
+COMMENT  The following global auxiliary keywords are non-standard but widely
+COMMENT  used in particular fields of astronomy.  They reside within the
+COMMENT  auxprm struct in wcsprm.  Their presence here should cause that
+COMMENT  struct to be allocated and filled.
+COMMENT  -----------------------------------------------------------------------
+
+RSUN_REF=               696E+6 / [m] Solar radius
+DSUN_OBS=             150.7E+9 / [m] Distance from centre of Sun to observer
+CRLN_OBS=               120.0  / [deg] Carrington heliographic lng of observer
+HGLN_OBS=                 0.0  / [deg] Stonyhurst heliographic lng of observer
+HGLT_OBS=                 7.25 / [deg] heliographic latitude of the observer
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2020, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.4.1.2 2019/12/31 02:36:25 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 2
+a3 2
+# WCSLIB 6.2 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2018, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2019, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.20.1.2 2018/10/19 08:32:13 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+d142 7
+a148 1
+COMMENT  keywords.  It also includes a linear time axis.
+d199 1
+a200 1
+ZSOURCEA=               0.0025 / Redshift of the source
+d207 1
+a207 1
+PS4_0A  = 'UTC'                / Time measurement system
+d213 12
+a233 6
+COMMENT
+COMMENT  While encoding a TAN projection as SZP may be good for testing
+COMMENT  purposes, approximating it by a zenithal polynomial projection (ZPN)
+COMMENT  is even better!  The polynomial coefficients are accurate to the
+COMMENT  number of decimal places given (but don't ever do this in a real
+COMMENT  header).
+d236 1
+a236 1
+WCSAXESI=                    3 / Three coordinate axes
+d242 1
+d248 1
+d285 1
+d287 9
+a295 1
+VSOURCEI=             748544.3 / [m/s] Apparent radial velocity of the source
+a307 1
+WCSNAMEX= 'eXtraneous'         / Name of this coordinate system
+d312 4
+a316 1
+RADESYSX= 'ICRS'               / Mean equatorial coordinates, IAU 1984 system
+d319 2
+a322 2
+VELOSYSX=              30000.0 / [m/s] Bary-topo velocity towards the source
+ZSOURCEX=               0.0456 / Redshift of the source
+d329 14
+d347 46
+a392 7
+OBSGEO-X=           -4554231.9 / [m] ITRF observatory coordinates
+OBSGEO-Y=            2816758.3 /
+OBSGEO-Z=           -3454035.9
+MJD-OBS =            35883.625 / [d] MJD at start of observation (UTC)
+MJD-AVG =            35883.700 / [d] MJD mid-observation time (UTC)
+DATE-OBS= '1957-02-14T15:00:00'/ UTC date corresponding to MJD-OBS
+DATE-AVG= '1957-02-14T16:48:00'/ UTC date corresponding to MJD-AVG
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Test handling of time-related keywords (WCS Paper VII).
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d142 1
+a142 7
+COMMENT  keywords.
+COMMENT
+COMMENT  The third, spectral, axis, which is linear in frequency, is here
+COMMENT  re-expressed as a non-linear wavelength axis.
+COMMENT
+COMMENT  For testing purposes, the fourth axis, STOKES, here becomes a linear
+COMMENT  TIME axis, which would be impossible in the real world.
+d193 1
+a194 1
+SSYSSRCA= 'LSRK'               / Reference frame of source redshift
+d201 1
+a201 1
+PS4_0A  = 'UTC'                / Time scale
+a206 12
+COMMENT  While encoding a TAN projection as SZP may be good for testing
+COMMENT  purposes, approximating it by a zenithal polynomial projection (ZPN)
+COMMENT  is even better!  The polynomial coefficients are accurate to the
+COMMENT  number of decimal places given (but don't ever do this in a real
+COMMENT  header).
+COMMENT
+COMMENT  The third, spectral, axis, which is linear in frequency, is here
+COMMENT  re-expressed as a non-linear redshift.
+COMMENT
+COMMENT  The fourth axis, TIME in the A representation, is here re-expressed
+COMMENT  as a PHASE axis in order to test the CZPHSia and CPERIia keywords.
+COMMENT
+d216 6
+d224 1
+a224 1
+WCSAXESI=                    4 / Three coordinate axes
+a229 1
+CRPIX4I =                  1.0 / Pixel coordinate of reference point
+a234 1
+CD4_4I  =                 0.01 / [turn] Phase scale
+d271 1
+a272 10
+SSYSSRCI= 'LSRK'               / Reference frame of source redshift
+VELANGLI=                 0.00 / [deg] Velocity orientation angle
+
+CDELT4I =                 0.01 / [turn] Phase scale
+CUNIT4I = 'turn'               / Phase units
+CTYPE4I = 'PHASE'              / Phase associated with the ime axis
+CRVAL4I =                  0.0 / [turn] Phase at the reference point
+CZPHS4I =                  0.0 / [s] Time elapsed from MJDREF at zero phase
+CPERI4I =                100.0 / [s] Period
+CNAME4I = 'Phase'              / Axis name for labelling purposes
+d285 1
+d290 1
+a290 3
+
+WCSNAMEX= 'eXtraneous'         / Name of this coordinate system
+
+a291 1
+EQUINOXX=               1950.0 / [yr] Equinox of equatorial coordinates
+d294 2
+a297 2
+SSYSSRCX= 'LSRK'               / Reference frame of source redshift
+VELANGLX=                35.25 / Velocity orientation angle
+a303 14
+COMMENT  For test purposes, the remaining standard global WCS-related keywords
+COMMENT  are included here, even though there is considerable overlap between
+COMMENT  them.  Specifically, the keywords in the following groups all convey
+COMMENT  the same information, only one need be given:
+COMMENT    - MJDREF, MJDREFI+MJDREFF, JDREF, and JDREFI+JDREFF;
+COMMENT    - DATE-OBS, MJD-OBS, JEPOCH, and BEPOCH;
+COMMENT    - DATE-AVG and MJD-AVG;
+COMMENT    - DATE-BEG, MJD-BEG, and TSTART;
+COMMENT    - DATE-END, MJD-END, and TSTOP;
+COMMENT    - OBSGEO-[XYZ] and OBSGEO-[LBH];
+COMMENT    - TELAPSE and TSTOP-TSTART (END-BEG equivalents).
+COMMENT  Interpretation is undefined if there are any inconsistencies between
+COMMENT  them.
+COMMENT
+d308 7
+a314 46
+TIMESYS = 'UTC'                / Time scale
+TREFPOS = 'TOPOCENTRE'         / Time reference position, with OBSGEO-[XYZLBH]
+TREFDIR = 'RA_NOM,DEC_NOM'     / Time reference direction
+PLEPHEM = 'DE405'              / Ephemerides used for pathlength delays
+
+TIMEUNIT= 's'                  / Time units
+DATEREF = '1957-02-14T15:00:00'/ ISO-8601 fiducial time
+MJDREF  =         35883.625000 / [d] MJD of fiducial time
+MJDREFI =         35883        / [d] MJD of fiducial time, integer part
+MJDREFF =             0.625000 / [d] MJD of fiducial time, fractional part
+JDREF   =       2435884.125000 / [d] JD of fiducial time
+JDREFI  =       2435884        / [d] JD of fiducial time, integer part
+JDREFF  =             0.125000 / [d] JD of fiducial time, fractional part
+TIMEOFFS=                0.010 / [s] Clock correction
+
+DATE-OBS= '1957-02-14T15:00:00'/ ISO-8601 time of observation
+MJD-OBS =         35883.625000 / [d] MJD of observation
+JEPOCH  =       1957.125598905 / [a] Julian epoch of observation
+BEPOCH  =       1957.125960663 / [a] Besselian epoch of observation
+
+DATE-BEG= '1957-02-14T15:00:00'/ ISO-8601 time at start of observation
+MJD-BEG =         35883.625000 / [d] MJD at start of observation
+TSTART  =                  0.0 / [s] Time elapsed since fiducial time at start
+
+DATE-AVG= '1957-02-14T16:48:00'/ ISO-8601 time at midpoint of observation
+MJD-AVG =         35883.700000 / [d] MJD at midpoint of observation
+
+DATE-END= '1957-02-14T18:36:00'/ ISO-8601 time at end of observation
+MJD-END =         35883.775000 / [d] MJD at end of observation
+TSTOP   =              12960.0 / [s] Time elapsed since fiducial time at end
+
+XPOSURE =              12960.0 / [s] Exposure (integration) time
+TELAPSE =              12960.0 / [s] Elapsed time (start to stop)
+
+TIMSYER =                 5E-5 / [s] Systematic error in time measurements
+TIMRDER =                 1E-9 / [s] Relative error in time measurements
+TIMEDEL =                  1.0 / [s] Time resolution
+TIMEPIXR=                  0.5 / Reference position of timestamp in binned data
+
+OBSGEO-X=         -4554231.533 / [m] WGS84 coordinates of Parkes radiotelescope
+OBSGEO-Y=          2816759.109 /
+OBSGEO-Z=         -3454036.323
+OBSGEO-L=           148.263510 / [deg] WGS84, IAU(1976) ellipsoid, longitude
+OBSGEO-B=           -32.998406 / [deg] WGS84, IAU(1976) ellipsoid, latitude
+OBSGEO-H=              411.793 / [m]   WGS84, IAU(1976) ellipsoid, height
+OBSORBIT= 'sputnik-1957.eph'   / Spacecraft orbit ephemeris file
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.17 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2017, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2018, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.15.1.2 2017/01/15 04:06:49 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.15 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2016, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2017, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.12.1.3 2016/01/26 07:09:45 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 2
+a3 2
+# WCSLIB 5.12 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2015, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+d118 1
+a118 1
+CDELT3  =               62.5e3 / Frequency scale
+d120 1
+a120 1
+CRVAL3  =             1.3945e9 / [Hz] Reference frequency
+d124 1
+a124 1
+RESTFREQ=         1.42040575e9 / HI rest frequency
+d181 1
+a181 1
+CDELT3A =      -9.635265432e-6 / [m] Wavelength scale
+d186 3
+a188 3
+CRDER3A =              1.0e-11 / [m] Wavelength calibration, random error
+CSYER3A =              1.0e-12 / [m] Wavelength calibration, systematic error
+RESTFRQA=         1.42040575e9 / [Hz] HI rest frequency
+d199 1
+a199 1
+CRVAL4A =                 -2e3 / [s] Time at the reference point
+d234 1
+a234 1
+CD3_3I  =      -4.565153674e-5 / Redshift scale
+d261 1
+a261 1
+CDELT3I =      -4.565153674e-5 / Redshift scale (informational)
+d265 3
+a267 3
+CRDER3I =              5.0e-11 / Redshift calibration, random error
+CSYER3I =              5.0e-12 / Redshift calibration, systematic error
+RESTFRQI=         1.42040575e9 / [Hz] HI rest frequency
+d288 1
+a288 1
+RESTFRQX=          1667.3590e6 / [Hz] OH maser line rest frequency
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2016, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.3
+log
+@Changed exponents 'e' -> 'E' as required by the standard.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+d118 1
+a118 1
+CDELT3  =               62.5E3 / Frequency scale
+d120 1
+a120 1
+CRVAL3  =             1.3945E9 / [Hz] Reference frequency
+d124 1
+a124 1
+RESTFREQ=         1.42040575E9 / HI rest frequency
+d181 1
+a181 1
+CDELT3A =      -9.635265432E-6 / [m] Wavelength scale
+d186 3
+a188 3
+CRDER3A =              1.0E-11 / [m] Wavelength calibration, random error
+CSYER3A =              1.0E-12 / [m] Wavelength calibration, systematic error
+RESTFRQA=         1.42040575E9 / [Hz] HI rest frequency
+d199 1
+a199 1
+CRVAL4A =                 -2E3 / [s] Time at the reference point
+d234 1
+a234 1
+CD3_3I  =      -4.565153674E-5 / Redshift scale
+d261 1
+a261 1
+CDELT3I =      -4.565153674E-5 / Redshift scale (informational)
+d265 3
+a267 3
+CRDER3I =              5.0E-11 / Redshift calibration, random error
+CSYER3I =              5.0E-12 / Redshift calibration, systematic error
+RESTFRQI=         1.42040575E9 / [Hz] HI rest frequency
+d288 1
+a288 1
+RESTFRQX=          1667.3590E6 / [Hz] OH maser line rest frequency
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.7.1.2 2015/07/05 15:41:48 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+d38 1
+a38 1
+SIMPLE  =                    F / Standards-conformant FITS format?  NO!
+d113 1
+a113 1
+CRVAL1  =                150.0 / Right ascension at the reference point
+d115 1
+a115 1
+CRVAL2  =                -30.0 / Declination at the reference point
+d120 1
+a120 1
+CRVAL3  =             1.3945e9 / Reference frequency
+d230 4
+a233 4
+CD1_1I  =         -0.086602540 / Linear transformation matrix element
+CD1_2I  =         -0.050000000 / Linear transformation matrix element
+CD2_1I  =         -0.050000000 / Linear transformation matrix element
+CD2_2I  =          0.086602540 / Linear transformation matrix element
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.7.1.2
+log
+@Standardised a few keycomments.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+d38 1
+a38 1
+SIMPLE  =                    F / Conforms to FITS standard?  NO!
+d113 1
+a113 1
+CRVAL1  =                150.0 / [deg] Right ascension at the reference point
+d115 1
+a115 1
+CRVAL2  =                -30.0 / [deg] Declination at the reference point
+d120 1
+a120 1
+CRVAL3  =             1.3945e9 / [Hz] Reference frequency
+d230 4
+a233 4
+CD1_1I  =         -0.086602540 / [deg] CD matrix element
+CD1_2I  =         -0.050000000 / [deg] CD matrix element
+CD2_1I  =         -0.050000000 / [deg] CD matrix element
+CD2_2I  =          0.086602540 / [deg] CD matrix element
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+# WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25.1.5 2015/04/05 06:04:00 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.25 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2014, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+d27 3
+a29 1
+# FITS header keyrecords used for testing by tpih1, tpih2 and tfitshdr.
+d33 1
+a33 1
+#     tofits < bth.keyrec > bth.fits
+a81 2
+COMMENT
+COMMENT  -----------------------------------------------------------------------
+d83 1
+a83 1
+COMMENT  -----------------------------------------------------------------------
+a97 1
+COMMENT
+d99 1
+d135 1
+a135 1
+COMMENT  -----------------------------------------------------------------------
+a144 1
+COMMENT
+d146 1
+d203 1
+a203 1
+COMMENT  -----------------------------------------------------------------------
+a221 1
+COMMENT
+d223 1
+d279 21
+a299 2
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+a305 1
+COMMENT
+d307 1
+a315 80
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+COMMENT  The following look a little like WCS keywords but should be discarded:
+COMMENT
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+CRPIXELS=                  0.0 / Furphy, not CRPIXja
+PCATALOG=                  0.0 / Furphy, not PCi_ja
+CDELTA  =                  0.0 / Furphy, not CDELTia
+CDI_JA  =                  0.0 / Furphy, not CDi_ja
+CUNITARY=                  0.0 / Furphy, not CUNITia
+CTYPEXY =                  0.0 / Furphy, not CTYPEia
+CRVALUE =                  0.0 / Furphy, not CRVALia
+CNAME   =                  0.0 / Furphy, not CNAMEia
+PV1_1AL =                  0.0 / Furphy, not PVi_ma
+PV02_1  =                  0.0 / Furphy, not PVi_ma (leading zero on i)
+PV2_01  =                  0.0 / Furphy, not PVi_ma (leading zero on m)
+PSEUDO  =                  0.0 / Furphy, not PSi_ma
+EPOCHAL =                  0.0 / Furphy, not EPOCH
+VELREF1 =                  0.0 / Furphy, not VELREF
+
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+COMMENT  The following illegal WCS keyrecords should be rejected by wcspih():
+COMMENT
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+CTYPE1  =                  0.0 / Illegal, CTYPEia must be string type
+PV2_1   =                '0.0' / Illegal, PVi_ma must be numeric
+PV2_1    =                 0.0 / Illegal, "= " not in columns 9-10
+EPOCH   = '2000.0'             / Illegal, EPOCH must be numeric
+
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+COMMENT  The following keyrecords are for testing fitshdr():
+COMMENT
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+NOVLSPEC=1                     / Not a valid value specifier (no " " in col. 10)
+INT32   =          00000012345 / Not a 64-bit integer
+INT32   =     -000000123456789 / Not a 64-bit integer
+INT32   =          -2147483648 / Not a 64-bit integer (INT_MIN)
+INT32   =           2147483647 / Not a 64-bit integer (INT_MAX)
+INT32   =    0000000000000000000000000000000000012345 / Not a very long integer
+INT32   =       -000000000000000000000000000123456789 / Not a very long integer
+INT64   =          -2147483649 / 64-bit integer (INT_MIN - 1)
+INT64   =          +2147483648 / 64-bit integer (INT_MAX + 1)
+INT64   =  +100000000000000000 / 64-bit integer
+INT64   =  -876543210987654321 / 64-bit integer
+INT64   = -9223372036854775808 / Not a very long integer (LONG_MIN)
+INT64   = +9223372036854775807 / Not a very long integer (LONG_MAX)
+INT64   = -000000000000000000000000000000876543210987654321 / 64-bit integer
+INTVL   = -9223372036854775809 / Very long integer (LONG_MIN - 1)
+INTVL   = +9223372036854775808 / Very long integer (LONG_MAX + 1)
+INTVL   = -100000000000000000000000000000876543210987654321 / Very-long integer
+INTVL   = +123456789012345678901234567890123456789012345678901234567890123456789
+INTVL   = 1234567890123456789012345678901234567890123456789012345678901234567890
+COMPLEX =            (137, -1) / An integer complex keyvalue
+COMPLEX =         (10e5, -0.1) / A floating point complex keyvalue
+GOODSTR =     '"G''DAY"  '     / A valid string keyvalue
+BLANKS  =   '              '   / An all-blank string equals a single blank
+LONGSTR = 'The loooooongest possible non-continued string value, 68 characters.'
+CONTSTR = 'The quick brown & ' / Continued string, with & (will be stripped off)
+CONTINUE  'fox jumps over the'   Relaxed handling of invalid keycomment
+CONTINUE      ' lazy dog'
+PI      =  3.14159265358929323 / [!?] is not a valid units specification
+CONTINUE      'Not a valid string continuation'
+
+COMMENT  The following are all deliberate syntax errors:
+BadKey  =                  111 / Example of a syntax error, invalid keyword
+BADKEY! =                  222 / Example of a syntax error, invalid keyword
+BAD KEY =                  333 / Example of a syntax error, invalid keyword
+BADSTR  =                  BAD / Example of a syntax error, invalid keyvalue
+BADSTR  =                "BAD" / Example of a syntax error, invalid keyvalue
+BADSTR  =          'BAD' 'STR' / Example syntax error, invalid string keyvalue
+BADFLT  =              49 + 94 / Example of a syntax error, invalid keyvalue
+BADFLT  =                 1D99 / Example of a syntax error, invalid keyvalue
+BADCOMM =                  999   Example of a syntax error, invalid keycomment
+END     =            'ILLEGAL' / Illegal END keyrecord
+
+a316 4
+
+DANGLE1  Keyrecords following the END keyrecord should be ignored.
+DANGLE2  
+DANGLE3
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2015, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.3
+log
+@Removed the keyrecords intended for testing fitshdr() which now has its own
+special-purpose test header.  wcspih() will now be tested for syntax errors
+in WCS keyrecords by 'twcslint' which uses wcslint.keyrec.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+d27 1
+a27 3
+# FITS header keyrecords used for testing by tpih1 and tpih2.  See also
+# wcslint.keyrec which tests wcspih() for its ability to recognise syntax
+# errors in WCS keyrecords.
+d297 80
+d378 4
+@
+
+
+4.25.1.4
+log
+@Added primary image header auxiliary keywords for representation X.  They
+should not be sufficient to cause a wcsprm struct to be created, nor should
+they affect the other representations.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25.1.3 2015/03/13 07:02:35 mcalabre Exp mcalabre $
+d82 2
+d85 1
+a85 1
+COMMENT  =======================================================================
+d100 1
+a101 1
+
+d137 1
+a137 1
+COMMENT  =======================================================================
+d147 1
+a148 1
+
+d205 1
+a205 1
+COMMENT  =======================================================================
+d224 1
+a225 1
+
+a280 4
+COMMENT  =======================================================================
+COMMENT  By themselves, these primary image header auxiliary WCS keywords
+COMMENT  should not be sufficient to cause a wcsprm struct to be created for
+COMMENT  representation X, nor should they affect any of the others.
+d282 1
+a282 16
+
+WCSNAMEX= 'eXtraneous'         / Name of this coordinate system
+LONPOLEX=                180.0 / [deg] Native longitude of the celestial pole
+LATPOLEX=               -999.0 / [deg] Native latitude of the celestial pole
+RESTFRQX=          1667.3590e6 / [Hz] OH maser line rest frequency
+RESTWAVX=           0.17980079 / [m] OH maser line rest wavelength
+EQUINOXX=               1950.0 / [yr] Equinox of equatorial coordinates
+RADESYSX= 'ICRS'               / Mean equatorial coordinates, IAU 1984 system
+SPECSYSX= 'HELIOCEN'           / Reference frame of spectral coordinates
+SSYSOBSX= 'GEOCENTR'           / Reference frame of observation
+SSYSSRCX= 'LSRK'               / Reference frame of source redshift
+VELANGLX=                35.25 / Velocity orientation angle
+VELOSYSX=              30000.0 / [m/s] Bary-topo velocity towards the source
+ZSOURCEX=               0.0456 / Redshift of the source
+
+COMMENT  =======================================================================
+d289 1
+a290 1
+
+@
+
+
+4.25.1.5
+log
+@Fixed prologue comment.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.25.1.4 2015/03/15 08:32:09 mcalabre Exp mcalabre $
+d33 1
+a33 1
+#     tofits < pih.keyrec > pih.fits
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.20 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2013, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2014, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.16 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2012, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2013, Mark Calabretta
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d24 1
+a24 1
+# $Id: pih.keyrec,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d24 1
+a24 1
+# $Id: pih.keyrec,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d18 1
+a18 1
+# along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d20 5
+a24 11
+# Correspondence concerning WCSLIB may be directed to:
+#    Internet email: mcalabre@@atnf.csiro.au
+#    Postal address: Dr. Mark Calabretta
+#                    Australia Telescope National Facility, CSIRO
+#                    PO Box 76
+#                    Epping NSW 1710
+#                    AUSTRALIA
+#
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: pih.keyrec,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+d26 1
+d34 1
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d18 1
+a18 1
+# along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d20 7
+a26 1
+# Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d28 3
+a30 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: pih.keyrec,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+a31 1
+#
+a38 1
+#
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.8.1.2 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.8 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2011, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2012, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.6 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2010, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2011, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+# WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.4.1.3 2010/07/08 08:05:17 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 2
+a3 2
+# WCSLIB 4.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2009, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.3.1.2 2009/07/13 06:14:56 cal103 Exp cal103 $
+d368 11
+a378 9
+BadKey  =                  111 / Syntax error, invalid keyword
+BADKEY! =                  222 / Syntax error, invalid keyword
+BAD KEY =                  333 / Syntax error, invalid keyword
+BADSTR  =                  BAD / Syntax error, invalid keyvalue
+BADSTR  =                "BAD" / Syntax error, invalid keyvalue
+BADSTR  =          'BAD' 'STR' / Syntax error, invalid string keyvalue
+BADFLT  =              49 + 94 / Syntax error, invalid keyvalue
+BADFLT  =                 1D99 / Syntax error, invalid keyvalue
+BADCOMM =                  999   Syntax error, invalid keycomment
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+# Copyright (C) 1995-2010, Mark Calabretta
+d30 1
+a30 1
+# $Id: pih.keyrec,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Make it perfectly clear that the syntax errors are deliberate!
+@
+text
+@d30 1
+a30 1
+# $Id: pih.keyrec,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+d368 9
+a376 11
+
+COMMENT  The following are all deliberate syntax errors:
+BadKey  =                  111 / Example of a syntax error, invalid keyword
+BADKEY! =                  222 / Example of a syntax error, invalid keyword
+BAD KEY =                  333 / Example of a syntax error, invalid keyword
+BADSTR  =                  BAD / Example of a syntax error, invalid keyvalue
+BADSTR  =                "BAD" / Example of a syntax error, invalid keyvalue
+BADSTR  =          'BAD' 'STR' / Example syntax error, invalid string keyvalue
+BADFLT  =              49 + 94 / Example of a syntax error, invalid keyvalue
+BADFLT  =                 1D99 / Example of a syntax error, invalid keyvalue
+BADCOMM =                  999   Example of a syntax error, invalid keycomment
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d1 39
+a43 5
+COMMENT  -----------------------------------------------------------------------
+COMMENT  Use 'tofits' (supplied) to convert this file to FITS format via
+COMMENT     sed '/^END$/q' pih.keyrec | tofits
+COMMENT  -----------------------------------------------------------------------
+COMMENT
+a383 31
+
+
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+*
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify it under
+*   the terms of the GNU Lesser General Public License as published by the
+*   Free Software Foundation, either version 3 of the License, or (at your
+*   option) any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+*   more details.
+*
+*   You should have received a copy of the GNU Lesser General Public License
+*   along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: pih.keyrec,v 4.2.1.8 2007/12/27 05:19:49 cal103 Exp $
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d352 2
+a353 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d380 1
+a380 1
+*   $Id: pih.keyrec,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Input lines beginning with '#' are treated as comments.
+@
+text
+@a0 39
+#-----------------------------------------------------------------------------
+# WCSLIB 4.4 - an implementation of the FITS WCS standard.
+# Copyright (C) 1995-2009, Mark Calabretta
+#
+# This file is part of WCSLIB.
+#
+# WCSLIB is free software: you can redistribute it and/or modify it under the
+# terms of the GNU Lesser General Public License as published by the Free
+# Software Foundation, either version 3 of the License, or (at your option)
+# any later version.
+#
+# WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+# more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Correspondence concerning WCSLIB may be directed to:
+#    Internet email: mcalabre@@atnf.csiro.au
+#    Postal address: Dr. Mark Calabretta
+#                    Australia Telescope National Facility, CSIRO
+#                    PO Box 76
+#                    Epping NSW 1710
+#                    AUSTRALIA
+#
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: pih.keyrec,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+#-----------------------------------------------------------------------------
+# FITS header keyrecords used for testing by tpih1, tpih2 and tfitshdr.
+#
+# Use 'tofits' (supplied) to convert this file to proper FITS format via
+#
+#     tofits < bth.keyrec > bth.fits
+#
+# Lines in this file beginning with '#' are ignored by tofits.
+#-----------------------------------------------------------------------------
+d5 5
+d350 31
+@
+
+
+4.2
+log
+@WCSLIB 4.2
+@
+text
+@d7 1
+a7 1
+COMMENT     sed '/^END$/q' wcs.cards | tofits
+d28 2
+a29 2
+COMMENT  cards, while recognized, are not included since they can only apply to
+COMMENT  the primary representation which is used here to test the AIPS
+d35 1
+a35 1
+COMMENT  rotation of 15 deg applied by the defunct CROTAn card in the AIPS
+d46 4
+a49 3
+COMMENT  floating-point keyvalues (NOST 100-2.0, Sect. 5.2) most values in this
+COMMENT  header are given in the conventional fixed-format, with only WCSNAME,
+COMMENT  PS4_0A, CROTA2I, EPOCHI, and VELREFI as exceptions for testing.
+d59 4
+a62 4
+COMMENT  here is illegal since it mixes new WCS cards (WCSAXESa and WCSNAMEa)
+COMMENT  with CROTAn, an older AIPS convention card.  WCSAXES is used here
+COMMENT  because setting NAXIS non-zero would require that this FITS file
+COMMENT  contain a data section.
+d64 2
+a65 2
+COMMENT  Several PROJPn cards (non-standard) are also included here for test
+COMMENT  purposes; they were never part of the AIPS convention and only
+d70 2
+a71 2
+COMMENT  The following two cards are not part of the AIPS convention.
+WCSAXES =                    3 / Three coordinate axes
+d77 1
+d96 5
+a100 1
+COMMENT  As explained above, the following cards are non-standard.
+d112 1
+a112 1
+COMMENT  cards.  It also includes a linear time axis.
+d130 1
+a130 1
+CUNIT1A = 'deg     '           / Degree units are required
+d177 4
+a180 4
+COMMENT  In the IRAF representation, if one CDi_ja card is given then the
+COMMENT  default is zero for any that are omitted.  CDELTia and CROTAn cards
+COMMENT  are included for informational purposes only and otherwise are to be
+COMMENT  ignored.
+d244 1
+a244 1
+COMMENT  As explained above, the following cards are non-standard.
+d251 3
+a253 3
+COMMENT  The following cards have no alternates; they apply to each coordinate
+COMMENT  representation, even that of the AIPS convention for which, strictly,
+COMMENT  only the DATE-OBS card should be recognized.
+d255 1
+a255 1
+COMMENT  The inline comments for OBSGEO-Y and OBSGEO-Z have been omitted
+d269 1
+a269 1
+COMMENT  The following look a little like WCS cards but should be discarded:
+d290 1
+a290 1
+COMMENT  The following illegal WCS cards should be rejected by wcspih():
+d301 1
+a301 1
+COMMENT  The following cards are for testing fitshdr():
+d330 1
+a330 1
+CONTINUE  'fox jumps over the'   Relaxed handling of invalid inline comment
+d342 2
+a343 2
+BADCOMM =                  999   Syntax error, invalid inline comment
+END     =            'ILLEGAL' / Illegal END card
+d347 3
+a349 1
+BADCARD Illegal card following END card.
+d352 4
+a355 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d357 4
+a360 4
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+d364 2
+a365 2
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+d367 2
+a368 3
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d380 1
+a380 1
+*   $Id: wcs.cards,v 4.1 2005/08/25 06:09:45 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d344 1
+a344 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d371 1
+a371 1
+*   $Id: wcs.cards,v 4.2 2005/09/21 13:34:06 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Renamed from wcs.cards.
+@
+text
+@d345 1
+a345 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d371 1
+a371 1
+*   $Id: wcs.cards,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+@
+
+
+4.2.1.3
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d7 1
+a7 1
+COMMENT     sed '/^END$/q' wcstab.keyrec | tofits
+d28 2
+a29 2
+COMMENT  keywords, while recognized, are not included since they can only apply
+COMMENT  to the primary representation which is used here to test the AIPS
+d35 1
+a35 1
+COMMENT  rotation of 15 deg applied by the defunct CROTAn keyword in the AIPS
+d58 4
+a61 4
+COMMENT  here is illegal since it mixes new WCS keywords (WCSAXESa and
+COMMENT  WCSNAMEa) with CROTAn, an older AIPS convention keyword.  WCSAXES is
+COMMENT  used here because setting NAXIS non-zero would require that this FITS
+COMMENT  file contain a data section.
+d63 2
+a64 2
+COMMENT  Several PROJPn keyrecords (non-standard) are also included here for
+COMMENT  test purposes; they were never part of the AIPS convention and only
+d69 1
+a69 1
+COMMENT  The following two keyrecords are not part of the AIPS convention.
+d94 1
+a94 1
+COMMENT  As explained above, the following keyrecords are non-standard.
+d106 1
+a106 1
+COMMENT  keywords.  It also includes a linear time axis.
+d171 4
+a174 4
+COMMENT  In the IRAF representation, if one CDi_ja keyword is given then the
+COMMENT  default is zero for any that are omitted.  CDELTia and CROTAn
+COMMENT  keywords are included for informational purposes only and otherwise
+COMMENT  are to be ignored.
+d238 1
+a238 1
+COMMENT  As explained above, the following keyrecords are non-standard.
+d245 3
+a247 3
+COMMENT  The following keywords have no alternates; they apply to each
+COMMENT  coordinate representation, even that of the AIPS convention for
+COMMENT  which, strictly, only the DATE-OBS keyword should be recognized.
+d263 1
+a263 1
+COMMENT  The following look a little like WCS keywords but should be discarded:
+d284 1
+a284 1
+COMMENT  The following illegal WCS keyrecords should be rejected by wcspih():
+d295 1
+a295 1
+COMMENT  The following keyrecords are for testing fitshdr():
+d337 1
+a337 1
+END     =            'ILLEGAL' / Illegal END keyrecord
+d341 1
+a341 1
+BADKEYREC Illegal keyrecord following END keyrecord.
+d371 1
+a371 1
+*   $Id: pih.cards,v 4.2.1.2 2007/06/29 06:31:57 cal103 Exp cal103 $
+@
+
+
+4.2.1.4
+log
+@Added a STOKES axis to the "A" representation, plus minor tweaks related to
+fixed-, and free-format representations.
+@
+text
+@d46 3
+a48 4
+COMMENT  floating-point keyvalues (NOST 100-2.0, Sect. 5.2) most numeric values
+COMMENT  in this header are given in the conventional fixed-format, with only
+COMMENT  CROTA2I, EPOCHI, and VELREFI as exceptions for testing.  Most string
+COMMENT  values are free-format, only those in the "A" representation are fixed.
+d70 1
+a70 1
+WCSAXES =                    4 / Three coordinate axes
+a75 1
+CRPIX4  =                  1.0 / Pixel coordinate of reference point
+a93 4
+CDELT4  =                  1.0 / Stokes increment
+CTYPE4  = 'STOKES  '           / Stokes convention axis (I, Q, U, V)
+CRVAL4  =                  1.0 / Stokes I
+
+d124 1
+a124 1
+CUNIT1A = 'deg'                / Degree units are required
+d371 1
+a371 1
+*   $Id: pih.keyrec,v 4.2.1.3 2007/08/02 07:12:49 cal103 Exp cal103 $
+@
+
+
+4.2.1.5
+log
+@Fixed a couple of comments.
+@
+text
+@d7 1
+a7 1
+COMMENT     sed '/^END$/q' pih.keyrec | tofits
+d71 1
+a71 1
+WCSAXES =                    4 / Four coordinate axes
+d377 1
+a377 1
+*   $Id: pih.keyrec,v 4.2.1.4 2007/08/03 04:32:56 cal103 Exp cal103 $
+@
+
+
+4.2.1.6
+log
+@Switched to LGPL 3.0.
+@
+text
+@d353 4
+a356 6
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify it under
+*   the terms of the GNU Lesser General Public License as published by the
+*   Free Software Foundation, either version 3 of the License, or (at your
+*   option) any later version.
+d360 2
+a361 2
+*   FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+*   more details.
+d363 3
+a365 2
+*   You should have received a copy of the GNU Lesser General Public License
+*   along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d377 1
+a377 1
+*   $Id: pih.keyrec,v 4.2.1.5 2007/12/03 05:07:19 cal103 Exp cal103 $
+@
+
+
+4.2.1.7
+log
+@"Inline comment" -> "keycomment".
+@
+text
+@d255 1
+a255 1
+COMMENT  The keycomments for OBSGEO-Y and OBSGEO-Z have been omitted
+d330 1
+a330 1
+CONTINUE  'fox jumps over the'   Relaxed handling of invalid keycomment
+d342 1
+a342 1
+BADCOMM =                  999   Syntax error, invalid keycomment
+d378 1
+a378 1
+*   $Id: pih.keyrec,v 4.2.1.6 2007/12/03 05:13:43 cal103 Exp cal103 $
+@
+
+
+4.2.1.8
+log
+@Removed BADKEYREC and added a few other keyrecords following END - the
+makefile now stops at the copyright notice.
+@
+text
+@d347 1
+a347 3
+DANGLE1  Keyrecords following the END keyrecord should be ignored.
+DANGLE2  
+DANGLE3
+d378 1
+a378 1
+*   $Id: pih.keyrec,v 4.2.1.7 2007/12/22 07:35:50 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: minor changes to the WCS cards, including addition of DATE-AVG,
+plus additional cards for testing fitshdr().
+@
+text
+@d344 1
+a344 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d371 1
+a371 1
+*   $Id: wcs.cards,v 4.0 2005/02/04 06:30:00 cal103 Exp cal103 $
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d1 1
+a1 1
+SIMPLE  =                    F / Standards-comformant FITS format?
+d6 3
+d21 2
+a22 2
+COMMENT  alternate version code (the "a" in CTYPEia) is not applicable in that
+COMMENT  convention.
+d28 3
+a30 2
+COMMENT  cards are not included since they can only apply to the primary
+COMMENT  representation which is used here to test the AIPS convention.
+d129 1
+a129 1
+CUNIT2A = 'deg     '           / Degree units are required
+d142 1
+a142 1
+RADESYSA= 'FK5     '           / Mean equatorial coordinates, IAU 1984 system
+d146 1
+a146 1
+CUNIT3A = 'm       '           / Wavelength units
+d157 1
+a157 1
+SSYSSRCA= 'LSRK    '           / Reference frame of source redshift
+d161 2
+a162 2
+CUNIT4A = 's       '           / Time units
+CTYPE4A = 'TIME''x'' '         / String value and comment containing quotes (')
+d201 1
+a201 1
+CUNIT1I = 'deg     '           / Degree units are required
+d206 1
+a206 1
+CUNIT2I = 'deg     '           / Degree units are required
+d222 1
+a222 1
+RADESYSI= 'FK5     '           / Mean equatorial coordinates, IAU 1984 system
+d235 1
+a235 1
+SSYSSRCI= 'LSRK    '           / Reference frame of source redshift
+d249 2
+a250 2
+COMMENT  The inline comment for OBSGEO-Z has been omitted deliberately for test
+COMMENT  purposes.
+d253 2
+a254 2
+OBSGEO-X=           -4554231.9 / [m] ITRF x-coordinate of observatory
+OBSGEO-Y=            2816758.3 / [m] ITRF y-coordinate of observatory
+d258 2
+a259 1
+DATE-OBS= '1957-02-15T00:00:00'/ Date corresponding to MJD-OBS
+d284 1
+a284 1
+COMMENT  The following illegal cards should all be rejected:
+d290 48
+a337 3
+PV2_1    =                 0.0 / Illegal, "=" not in column 9
+RADESYS =                  FK5 / Illegal, invalid string syntax
+EPOCH   = '2000.0  '           / Illegal, EPOCH must be numeric
+d341 2
+a342 1
+BADCARD Illegal card following END card; the following should also be ignored:
+d344 1
+a344 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS standard.
+d371 1
+a371 1
+*   $Id: wcs.cards,v 3.6 2004/08/25 05:49:56 cal103 Exp cal103 $
+@
+
+
+3.6
+log
+@WCSLIB 3.6: explain and test free-format keyvalues and changed EPOCHI to free
+format; removed VSOURCEA and ZSOURCEI leaving VSOURCEI to be translated; added
+SSYSSRCA and SSYSSRCI cards; added a comment containing a single quote
+character ('); augmented the inline comment on illegal WCS cards that are to
+be rejected, and WCS-like cards to be discarded; added a header card with no
+inline comment.
+@
+text
+@d293 2
+a294 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d296 4
+a299 4
+*   This library is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU Library General Public License as published
+*   by the Free Software Foundation; either version 2 of the License, or (at
+*   your option) any later version.
+d301 4
+a304 4
+*   This library is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library
+*   General Public License for more details.
+d306 3
+a308 3
+*   You should have received a copy of the GNU Library General Public License
+*   along with this library; if not, write to the Free Software Foundation,
+*   Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d320 1
+a320 1
+*   $Id: wcs.cards,v 3.5 2004/06/28 04:47:45 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5: initial revision.
+@
+text
+@d41 5
+d49 2
+d67 1
+a67 1
+WCSNAME = 'AIPS convention: TAN projection' / Name of this coordinate system
+d96 2
+d153 1
+a153 1
+VSOURCEA=             750000.0 / [m/s] Radial velocity of the source
+d158 1
+a158 1
+CTYPE4A = 'TIME''x'' '         / String value containing quotes
+d161 1
+a161 1
+PS4_0A  = 'UTC     '           / Time measurement system
+d164 2
+d181 1
+a181 1
+COMMENT  header).  
+a228 1
+SPECSYSI= 'BARYCENT'           / Reference frame of spectral coordinates
+d231 2
+a232 2
+VSOURCEI=             750000.0 / [m/s] Radial velocity of the source
+ZSOURCEI=               0.0025 / Redshift of the source
+d235 3
+a237 3
+CROTA2I =                 30.0 / [deg] Bulk image rotation
+EPOCHI  =               2000.0 / [yr] Equinox of equatorial coordinates
+VELREFI =                  258 / Barycentric radio velocity
+d245 3
+d251 1
+a251 1
+OBSGEO-Z=           -3454035.9 / [m] ITRF z-coordinate of observatory
+d262 14
+a275 11
+CRPIXELS=                  0.0 / Furphy
+PCATALOG=                  0.0 / Furphy
+CDELTA  =                  0.0 / Furphy
+CUNITARY=                  0.0 / Furphy
+CTYPEXY =                  0.0 / Furphy
+CRVALUE =                  0.0 / Furphy
+CNAME   =                  0.0 / Furphy
+PV1_1AL =                  0.0 / Furphy
+PSEUDO  =                  0.0 / Furphy
+EPOCHAL =                  0.0 / Furphy
+VELREF1 =                  0.0 / Furphy
+d283 5
+a287 7
+CTYPE1  =                  0.0 / Illegal
+PV02_1  =                  0.0 / Illegal
+PV2_01  =                  0.0 / Illegal
+PV2_1   =                '0.0' / Illegal
+PV2_1    =                 0.0 / Illegal
+RADESYS =                  FK5 / Illegal
+EPOCH   = '2000.0  '           / Illegal
+d293 1
+a293 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d320 1
+a320 1
+*   $Id$
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 306
+@

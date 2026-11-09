@@ -1,0 +1,5690 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.42;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.18;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.31;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.50;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.59;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.20;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.25;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.13;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.33;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.03;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.08;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.18;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.03;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.19;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.34;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.08;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.54;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.10;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.39;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.03;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.54;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.51;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.47;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.45;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.55;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.27;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.54.40;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.49.14;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.23.04.26.18;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.30.08.24.52;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.14.15;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.24.09.05.36;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.05.43.01;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.10.23.56.37;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.22.08.38.10;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.07.50.21;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.08.55.39;	author mcalabre;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.11.06.06.46.20;	author mcalabre;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.11.20.11.37.36;	author mcalabre;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.11.16.01.02.43;	author mcalabre;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	99.12.13.08.12.24;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	97.04.03.04.14.08;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	97.03.10.22.31.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.03.23.34;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2005.12.05.03.25.07;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.03.07.09.57;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.07.04.07.16.10;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.07.05.07.13.36;	author cal103;	state Exp;
+branches;
+next	4.2.1.6;
+
+4.2.1.6
+date	2007.07.11.02.07.35;	author cal103;	state Exp;
+branches;
+next	4.2.1.7;
+
+4.2.1.7
+date	2007.07.12.01.34.46;	author cal103;	state Exp;
+branches;
+next	4.2.1.8;
+
+4.2.1.8
+date	2007.12.24.04.13.26;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.26.31;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.23.04.14.00;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.05.02.03.27;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.45;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2009.08.10.23.57.01;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.07.09.01.46.15;	author cal103;	state Exp;
+branches;
+next	4.4.1.4;
+
+4.4.1.4
+date	2010.07.15.04.37.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.33;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.09.23.08.26.57;	author cal103;	state Exp;
+branches;
+next	4.5.1.3;
+
+4.5.1.3
+date	2010.10.13.23.58.34;	author cal103;	state Exp;
+branches;
+next	4.5.1.4;
+
+4.5.1.4
+date	2010.10.15.05.31.10;	author cal103;	state Exp;
+branches;
+next	4.5.1.5;
+
+4.5.1.5
+date	2010.11.15.06.51.08;	author cal103;	state Exp;
+branches;
+next	4.5.1.6;
+
+4.5.1.6
+date	2010.11.16.06.11.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.20;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2010.11.18.00.46.11;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.18.03.14.44;	author cal103;	state Exp;
+branches;
+next	4.6.1.4;
+
+4.6.1.4
+date	2011.01.18.03.17.53;	author cal103;	state Exp;
+branches;
+next	4.6.1.5;
+
+4.6.1.5
+date	2011.01.18.03.57.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.06.03.00.24.24;	author cal103;	state Exp;
+branches;
+next	4.7.1.3;
+
+4.7.1.3
+date	2011.06.27.00.07.38;	author cal103;	state Exp;
+branches;
+next	4.7.1.4;
+
+4.7.1.4
+date	2011.08.15.03.11.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.09.16.04.41.29;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2011.12.05.06.47.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.39;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.03.21.02.58.19;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.43.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.05.05;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.53;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.40;	author mcalabre;	state Exp;
+branches;
+next	4.18.1.2;
+
+4.18.1.2
+date	2013.07.14.02.16.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.57;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.01;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2017.12.05.07.21.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.03.13.24.33;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.3;
+
+5.19.1.3
+date	2018.10.05.04.34.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.07.06.28.43;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.3;
+
+5.20.1.3
+date	2018.10.19.03.50.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	7.1.1.2;
+
+7.1.1.2
+date	2020.02.26.10.59.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.03.02.13.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.55;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.45;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.15.17.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.59;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.05.06.14.25.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.17;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.45.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.28;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.24.14.43.13;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@#-----------------------------------------------------------------------------
+# GNU makefile for building PGSBOX 8.10
+#
+# Summary of the main targets
+# ---------------------------
+#   build:     Build the library.
+#
+#   clean:     Delete intermediate object files.
+#
+#   cleaner:   clean, and also delete the test executables.
+#
+#   cleanest (distclean, or realclean):  cleaner, and also delete the pgsbox
+#              and WCSLIB object libraries.
+#
+#   check (or test): Compile and run the test programs.  By default they are
+#              executed in batch mode; use
+#
+#                make MODE=interactive check
+#
+#              to run them interactively.
+#
+#   tests:     Compile the test programs (but don't run them).
+#
+# Notes:
+#   1) If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+#
+#   2) In compiling the test programs, this makefile assumes that the
+#      WCSLIB 8.10 sources reside in ../C and ../Fortran (as in the
+#      distribution kit).
+#
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.9.1.1 2026/06/18 13:21:07 mcalabre Exp mcalabre $
+#-----------------------------------------------------------------------------
+# Get configure settings.
+SUBDIR := pgsbox
+include ../makedefs
+
+CFILES  = $(wildcard *.c)
+MODULES := pgsbox.o \
+           cpgsbox.o \
+           pgwcsl.o \
+           pgcrfn.o
+
+ifdef BINDC
+  # Using Fortran 2003 BIND(C) interoperability mechanism.
+  MODULES  += pgsbox_bindc.o \
+              pgwcsl_bindc.o \
+              pgcrfn_bindc.o
+  CPPFLAGS += -DBINDC
+  FFLAGS   += -DBINDC
+endif
+
+PGSBOXLIB := libpgsbox-$(LIBVER).a
+
+WCSLIB  := ../C/$(WCSLIB)
+LIBLOCK := lib.lock
+
+# For building the sharable library.
+PICLIB  := libpgsbox-PIC.a
+WCSSHR  := ../C/$(SHRLIB)
+SHRLIB  := $(subst libwcs,libpgsbox,$(SHRLIB))
+SONAME  := $(subst libwcs,libpgsbox,$(SONAME))
+SHRLD   := $(subst libwcs,libpgsbox,$(SHRLD))
+SHRLN   := $(subst libwcs,libpgsbox,$(SHRLN))
+
+CPPFLAGS += -I. -I.. -I../C
+
+# Required by pgtest.
+WCSLEEP := ../Fortran/wcsleep_f.o
+
+vpath %.h   ..:../C
+vpath %.in  ..
+vpath %.inc ../Fortran
+
+# Pattern rules
+#--------------
+
+$(PGSBOXLIB)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+# Fortran source files with .F suffix are preprocessed.
+$(PGSBOXLIB)(%.o) : %.F
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PGSBOXLIB)(%.o) : %.f90
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PGSBOXLIB)(%.o) : %.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PICLIB)(%.o) : $(PGSBOXLIB)(%.o)
+	-@@ echo ''
+	 @@ if [ -f $(%:.o=.f) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f) ; \
+	   elif [ -f $(%:.o=.F) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.F) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.F) ; \
+	   elif [ -f $(%:.o=.f90) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90) ; \
+	   else \
+	     echo $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c) ; \
+	     $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c) ; \
+	   fi
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+%.i : %.c
+	-@@ echo ''
+	-@@ $(RM) $@@
+	   $(CPP) $(CPPFLAGS) $(CFLAGS) $< > $@@
+
+# Print out include file dependencies.
+%.d : %.c
+	-@@ echo ''
+	-@@ $(CPP) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $< | \
+	   sed -n -e 's|^# 1 "\([^/].*\.h\)".*|\1|p' | \
+	   sed -e 's|.*/||' | \
+	   sort -u
+
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+
+# Static and static pattern rules
+#--------------------------------
+
+.PHONY : analyse build check clean cleaner cleanest distclean install \
+         realclean test tests uninstall wcslib
+
+build : lib
+
+lib :
+	-@@ echo ''
+	-@@ echo 'Building PGSBOX library...'
+	 @@ $(MAKE) --no-print-directory $(PGSBOXLIB)
+
+$(PGSBOXLIB) : $(LIBLOCK) $(MODULES:%=$(PGSBOXLIB)(%))
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       echo $(RANLIB) $@@ ; \
+	       $(RANLIB) $@@ ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+	 @@ if [ "$(SHRLIB)" != "" ] ; then \
+	     $(MAKE) --no-print-directory $(SHRLIB) ; \
+	   fi
+
+$(SHRLIB) : $(PICLIB)
+	-@@ echo ''
+	-@@ $(RM) -r tmp
+	-  mkdir tmp && \
+	     cd tmp && \
+	     trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+	     $(AR) x ../$(PICLIB) && \
+	     $(SHRLD) -o $@@ *.o ../$(WCSSHR) $(LDFLAGS) $(PGPLOTLIB) $(FLIBS) && \
+	     mv $@@ ..
+
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o))
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+
+$(LIBLOCK) : FORCE
+	 @@ $(RM) *.o
+	 @@ touch $@@
+
+analyse : $(CFILES:%.c=%.sca)
+
+install : build
+	   $(MAKE) -C ../Fortran install
+	   if [ "$(ARFLAGS)" = U ] ; then \
+	     $(RM) -r tmp ; \
+	     mkdir tmp && \
+	       cd tmp && \
+	       trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+	       $(AR) x ../$(PGSBOXLIB) && \
+	       $(AR) rD $(PGSBOXLIB) *.o && \
+	       $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR) ; \
+	       cd .. ; \
+	       $(RM) -r tmp ; \
+	   else \
+	     $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR) ; \
+	   fi
+	   $(RANLIB) $(LIBDIR)/$(PGSBOXLIB)
+	-  $(RM) $(LIBDIR)/libpgsbox.a
+	   $(LN_S) $(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+	   if [ "$(SHRLIB)" != "" ] ; then \
+	     $(INSTALL) -m 755 $(SHRLIB) $(LIBDIR) ; \
+	     if [ -h "$(LIBDIR)/$(SONAME)" ] ; then \
+	       $(RM) $(LIBDIR)/$(SONAME) ; \
+	     fi ; \
+	     $(LN_S) $(SHRLIB) $(LIBDIR)/$(SONAME) ; \
+	     if [ "$(SHRLN)" != "" ] ; then \
+	       if [ -h "$(LIBDIR)/$(SHRLN)" ] ; then \
+	         $(RM) $(LIBDIR)/$(SHRLN) ; \
+	       fi ; \
+	       $(LN_S) $(SONAME) $(LIBDIR)/$(SHRLN) ; \
+	     fi ; \
+	   fi
+	   $(INSTALL) -m 444 *.h $(INCDIR)
+
+uninstall :
+	-  cd $(LIBDIR) && $(RM) $(PGSBOXLIB) $(SHRLN) $(SONAME) $(SHRLIB)
+
+clean :
+	-  $(RM) *.o $(LIBLOCK) *.i a.out core *.dSYM *.sca
+	-  $(RM) -r $(EXTRA_CLEAN)
+
+cleaner : clean
+	-  $(RM) pgtest cpgtest
+
+cleanest distclean realclean : cleaner
+	-  $(RM) $(PICLIB) libpgsbox-*.a libpgsbox.so.* libpgsbox.*.dylib
+
+check test : tests
+	-@@ echo ''
+	-@@ $(TIMER)
+	-@@ echo 'Running the PGSBOX test program, PGTEST:'
+	-@@ if [ '$(MODE)' = interactive ] ; then \
+	     ./pgtest ; \
+	   else \
+	     ./pgtest < /dev/null ; \
+	   fi
+	-@@ echo ''
+	-@@ echo ''
+	-@@ $(TIMER)
+	-@@ echo 'Running the cpgsbox() test program, cpgtest:'
+	-@@ if [ '$(MODE)' = interactive ] ; then \
+	     ./cpgtest ; \
+	   else \
+	     ./cpgtest < /dev/null ; \
+	   fi
+
+tests : wcslib pgtest cpgtest
+
+wcslib : $(WCSLIB)
+
+$(WCSLIB) :
+	-@@ echo ''
+	   $(MAKE) -C ../Fortran lib
+
+$(WCSLEEP) :
+	-@@ echo ''
+	   $(MAKE) -C ../Fortran $(@@F)
+
+pgtest : pgtest.f fscan.F lngvel.F $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+	-@@ $(RM) $@@
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -o $@@ $^ $(LDFLAGS) \
+	     $(PGPLOTLIB) $(LIBS)
+
+cpgtest : cpgtest.c fscan.F lngvel.F $(PGSBOXLIB) $(WCSLIB)
+	-@@ $(RM) $@@
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c fscan.F lngvel.F
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) -o $@@ $(^:.F=.o) \
+	     $(LDFLAGS) $(PGPLOTLIB) $(FLIBS) $(LIBS)
+	-@@ $(RM) fscan.o lngvel.o
+
+GNUmakefile : ../makedefs ;
+
+../makedefs ../wcsconfig_f77.h : makedefs.in wcsconfig_f77.h.in \
+    ../config.status
+	-@@ $(RM) ../wcsconfig_f77.h
+	   cd .. && ./config.status
+
+show ::
+	-@@ echo 'For building libpgsbox...'
+	-@@ echo '  BINDC       := $(BINDC)'
+	-@@ echo '  CFILES      := $(CFILES)'
+	-@@ echo '  MODULES     := $(MODULES)'
+	-@@ echo '  PGSBOXLIB   := $(PGSBOXLIB)'
+	-@@ echo ''
+	-@@ echo '  PICLIB      := $(PICLIB)'
+	-@@ echo '  WCSSHR      := $(WCSSHR)'
+	-@@ echo '  SHRLIB      := $(SHRLIB)'
+	-@@ echo '  SONAME      := $(SONAME)'
+	-@@ echo '  SHRFLAGS    := $(SHRFLAGS)'
+	-@@ echo '  SHRLD       := $(SHRLD)'
+	-@@ echo '  SHRLN       := $(SHRLN)'
+
+# Dependencies
+#-------------
+
+$(PGSBOXLIB)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h wcs.h \
+                          wcsconfig_f77.h
+
+pgtest.o  : wcs.inc
+cpgtest.o : cel.h cpgsbox.h lin.h prj.h spc.h spx.h wcs.h wcsconfig_f77.h \
+            wcserr.h wcsfix.h
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.9
+d29 1
+a29 1
+#      WCSLIB 8.9 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.8.1.1 2026/05/22 11:36:16 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.8
+d29 1
+a29 1
+#      WCSLIB 8.8 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.7
+d29 1
+a29 1
+#      WCSLIB 8.7 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.6.1.2 2026/04/24 14:43:13 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.6
+d29 1
+a29 1
+#      WCSLIB 8.6 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.5.1.2 2026/03/29 13:45:30 mcalabre Exp mcalabre $
+d40 5
+a44 5
+PGSBOXLIB := libpgsbox-$(LIBVER).a
+MODULES   := pgsbox.o \
+             cpgsbox.o \
+             pgwcsl.o \
+             pgcrfn.o
+d55 2
+d146 1
+a146 1
+	-@@ $(CPP) $(CPPFLAGS) $(CFLAGS) $< | \
+d151 5
+d159 2
+a160 2
+.PHONY : build check clean cleaner cleanest distclean install realclean test \
+         tests uninstall wcslib
+d208 2
+d247 1
+a247 1
+	-  $(RM) *.o $(LIBLOCK) *.i a.out core *.dSYM
+d310 3
+d314 1
+a321 3
+	-@@ echo ''
+	-@@ echo '  BINDC       := $(BINDC)'
+	-@@ echo '  MODULES     := $(MODULES)'
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Added rules for static code analysis (clang-tidy).
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.6.1.1 2026/03/29 14:19:28 mcalabre Exp mcalabre $
+d40 5
+a44 5
+CFILES  = $(wildcard *.c)
+MODULES := pgsbox.o \
+           cpgsbox.o \
+           pgwcsl.o \
+           pgcrfn.o
+a54 2
+PGSBOXLIB := libpgsbox-$(LIBVER).a
+
+d144 1
+a144 1
+	-@@ $(CPP) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $< | \
+a148 5
+# Static code analysis (clang-tidy).
+%.sca : %.c ../.clang-tidy
+	-@@ echo ''
+	   $(ANALYSE) $< -- 2>&1 | tee $@@
+
+d152 2
+a153 2
+.PHONY : analyse build check clean cleaner cleanest distclean install \
+         realclean test tests uninstall wcslib
+a200 2
+analyse : $(CFILES:%.c=%.sca)
+
+d238 1
+a238 1
+	-  $(RM) *.o $(LIBLOCK) *.i a.out core *.dSYM *.sca
+a300 3
+	-@@ echo '  BINDC       := $(BINDC)'
+	-@@ echo '  CFILES      := $(CFILES)'
+	-@@ echo '  MODULES     := $(MODULES)'
+a301 1
+	-@@ echo ''
+d309 3
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.5
+d29 1
+a29 1
+#      WCSLIB 8.5 sources reside in ../C and ../Fortran (as in the
+d33 2
+a34 2
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.5 2025/12/06 13:47:42 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated the URL for WCSLIB on ATNF's website.
+@
+text
+@d33 2
+a34 2
+# http://www.atnf.csiro.au/computing/software/wcs
+# $Id: GNUmakefile,v 8.5.1.1 2025/12/06 14:05:17 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.4
+d29 1
+a29 1
+#      WCSLIB 8.4 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.4 2024/10/28 13:56:18 mcalabre Exp $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.3
+d29 1
+a29 1
+#      WCSLIB 8.3 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.2.1.2 2024/05/06 14:25:28 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.2
+d29 1
+a29 1
+#      WCSLIB 8.2 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+d46 9
+d87 19
+d120 6
+d278 1
+a278 1
+pgtest : pgtest.f fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+d284 1
+a284 1
+cpgtest : cpgtest.c fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB)
+d287 2
+a288 2
+	   $(FC) -I../Fortran $(FFLAGS) -c fscan.f lngvel.f
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) -o $@@ $(^:.f=.o) \
+d310 1
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.2 2023/11/16 10:00:31 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Changes required to support the new Fortran 2003 BIND(C) wrappers.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.2.1.1 2023/11/16 10:05:59 mcalabre Exp mcalabre $
+a45 9
+ifdef BINDC
+  # Using Fortran 2003 BIND(C) interoperability mechanism.
+  MODULES  += pgsbox_bindc.o \
+              pgwcsl_bindc.o \
+              pgcrfn_bindc.o
+  CPPFLAGS += -DBINDC
+  FFLAGS   += -DBINDC
+endif
+
+a77 19
+# Fortran source files with .F suffix are preprocessed.
+$(PGSBOXLIB)(%.o) : %.F
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+$(PGSBOXLIB)(%.o) : %.f90
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+
+a91 6
+	   elif [ -f $(%:.o=.F) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.F) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.F) ; \
+	   elif [ -f $(%:.o=.f90) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f90) ; \
+d244 1
+a244 1
+pgtest : pgtest.f fscan.F lngvel.F $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+d250 1
+a250 1
+cpgtest : cpgtest.c fscan.F lngvel.F $(PGSBOXLIB) $(WCSLIB)
+d253 2
+a254 2
+	   $(FC) -I../Fortran $(FFLAGS) -c fscan.F lngvel.F
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) -o $@@ $(^:.F=.o) \
+a275 1
+	-@@ echo '  BINDC       := $(BINDC)'
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.1
+d29 1
+a29 1
+#      WCSLIB 8.1 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 8.0.1.2 2023/07/04 15:17:14 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 8.0
+d29 1
+a29 1
+#      WCSLIB 8.0 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+d50 6
+a55 6
+PICLIB := libpgsbox-PIC.a
+WCSSHR := ../C/$(SHRLIB)
+SHRLIB := $(subst libwcs,libpgsbox,$(SHRLIB))
+SONAME := $(subst libwcs,libpgsbox,$(SONAME))
+SHRLD  := $(subst libwcs,libpgsbox,$(SHRLD))
+SHRLN  := $(subst libwcs,libpgsbox,$(SHRLN))
+d59 3
+d240 5
+a244 1
+pgtest : pgtest.f fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB)
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@pgtest now needs to link to ../Fortran/wcsleep_f.o.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 8.0.1.1 2023/07/01 06:22:45 mcalabre Exp mcalabre $
+d50 6
+a55 6
+PICLIB  := libpgsbox-PIC.a
+WCSSHR  := ../C/$(SHRLIB)
+SHRLIB  := $(subst libwcs,libpgsbox,$(SHRLIB))
+SONAME  := $(subst libwcs,libpgsbox,$(SONAME))
+SHRLD   := $(subst libwcs,libpgsbox,$(SHRLD))
+SHRLN   := $(subst libwcs,libpgsbox,$(SHRLN))
+a58 3
+# Required by pgtest.
+WCSLEEP := ../Fortran/wcsleep_f.o
+
+d237 1
+a237 5
+$(WCSLEEP) :
+	-@@ echo ''
+	   $(MAKE) -C ../Fortran $(@@F)
+
+pgtest : pgtest.f fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB) $(WCSLEEP)
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.13
+d29 1
+a29 1
+#      WCSLIB 7.13 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.12
+d29 1
+a29 1
+#      WCSLIB 7.12 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.11
+d29 1
+a29 1
+#      WCSLIB 7.11 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.10.1.1 2022/04/23 14:26:55 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.10
+d29 1
+a29 1
+#      WCSLIB 7.10 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.9
+d29 1
+a29 1
+#      WCSLIB 7.9 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.8
+d29 1
+a29 1
+#      WCSLIB 7.8 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.8 2022/03/25 06:11:50 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.7
+d29 1
+a29 1
+#      WCSLIB 7.7 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.6.1.1 2021/04/13 13:00:37 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.6
+d29 1
+a29 1
+#      WCSLIB 7.6 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.5
+d29 1
+a29 1
+#      WCSLIB 7.5 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.4.1.2 2021/03/02 13:26:04 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.5 2021/03/20 05:54:59 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.4
+d29 1
+a29 1
+#      WCSLIB 7.4 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp $
+d116 1
+a116 1
+         tests wcslib
+d196 3
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added an uninstall rule.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d116 1
+a116 1
+         tests uninstall wcslib
+a195 3
+
+uninstall :
+	-  cd $(LIBDIR) && $(RM) $(PGSBOXLIB) $(SHRLN) $(SONAME) $(SHRLIB)
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.3
+d29 1
+a29 1
+#      WCSLIB 7.3 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.2
+d29 1
+a29 1
+#      WCSLIB 7.2 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 7.1.1.2 2020/02/26 10:59:41 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 7.1
+d29 1
+a29 1
+#      WCSLIB 7.1 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d136 3
+a138 1
+	 @@ $(MAKE) --no-print-directory $(SHRLIB)
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.1 2019/12/31 13:25:20 mcalabre Exp $
+@
+
+
+7.1.1.2
+log
+@In the $(PGSBOXLIB) rule, don't recursively make $(SHRLIB) if it's not
+defined.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d136 1
+a136 3
+	 @@ if [ "$(SHRLIB)" != "" ] ; then \
+	     $(MAKE) --no-print-directory $(SHRLIB) ; \
+	   fi
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 6.4
+d29 1
+a29 1
+#      WCSLIB 6.4 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 6.3
+d29 1
+a29 1
+#      WCSLIB 6.3 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 6.2
+d29 1
+a29 1
+#      WCSLIB 6.2 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 6.1
+d29 1
+a29 1
+#      WCSLIB 6.1 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.20.1.3 2018/10/19 03:50:11 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.20
+d29 1
+a29 1
+#      WCSLIB 5.20 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.19.1.3 2018/10/05 04:34:36 mcalabre Exp mcalabre $
+d37 1
+d123 1
+a123 1
+	 @@ $(MAKE) --no-print-directory -Otarget $(PGSBOXLIB)
+d136 1
+a136 1
+	 @@ $(MAKE) --no-print-directory -Otarget $(SHRLIB)
+d270 1
+a270 1
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h dis.h lin.h prj.h spc.h sph.h spx.h wcs.h \
+d274 2
+a275 2
+cpgtest.o : cel.h cpgsbox.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+            wcsconfig_f77.h wcserr.h wcsfix.h
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Updated the dependency lists.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d269 1
+a269 1
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h wcs.h \
+d273 2
+a274 2
+cpgtest.o : cel.h cpgsbox.h lin.h prj.h spc.h spx.h wcs.h wcsconfig_f77.h \
+            wcserr.h wcsfix.h
+@
+
+
+5.20.1.3
+log
+@Set SUBDIR.  configure now sets '-Otarget' in MAKEFLAGS if it is a recognised
+option.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.20.1.2 2018/10/07 06:28:43 mcalabre Exp mcalabre $
+a36 1
+SUBDIR := pgsbox
+d122 1
+a122 1
+	 @@ $(MAKE) --no-print-directory $(PGSBOXLIB)
+d135 1
+a135 1
+	 @@ $(MAKE) --no-print-directory $(SHRLIB)
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.19
+d29 1
+a29 1
+#      WCSLIB 5.19 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d45 2
+a46 1
+WCSLIB   := ../C/$(WCSLIB)
+d68 5
+a72 2
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
+	-@@ $(RM) $%
+d77 5
+a81 2
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
+	-@@ $(RM) $%
+d83 1
+a83 1
+$(PICLIB)(%.o) : %.f
+d85 12
+a96 9
+	   $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+	-@@ $(RM) $%
+
+$(PICLIB)(%.o) : %.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+	-@@ $(RM) $%
+d103 1
+d108 1
+d119 4
+a122 1
+lib : $(PGSBOXLIB) $(SHRLIB)
+d124 1
+a124 1
+$(PGSBOXLIB) : $(MODULES:%=$(PGSBOXLIB)(%))
+d126 10
+a135 1
+	   $(RANLIB) $@@
+d147 13
+a159 1
+$(PICLIB) : $(MODULES:%.o=$(PICLIB)(%.o)) ;
+d163 13
+a175 1
+	   $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR)
+d177 1
+a177 1
+	   $(RM) $(LIBDIR)/libpgsbox.a
+d179 1
+a179 1
+	-  if [ "$(SHRLIB)" != "" ] ; then \
+d195 2
+a196 1
+	-  $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d269 1
+a269 1
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+d273 2
+a274 2
+cpgtest.o : cel.h cpgsbox.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsfix.h \
+            wcsconfig_f77.h
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@In the 'install' rule, reconstruct the object library in "deterministic"
+mode on installation.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+d127 1
+a127 13
+	   if [ "$(ARFLAGS)" = U ] ; then \
+	     $(RM) -r tmp ; \
+	     mkdir tmp && \
+	       cd tmp && \
+	       trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+	       $(AR) x ../$(PGSBOXLIB) && \
+	       $(AR) rD $(PGSBOXLIB) *.o && \
+	       $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR) ; \
+	       cd .. ; \
+	       $(RM) -r tmp ; \
+	   else \
+	     $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR) ; \
+	   fi
+d129 1
+a129 1
+	-  $(RM) $(LIBDIR)/libpgsbox.a
+d131 1
+a131 1
+	   if [ "$(SHRLIB)" != "" ] ; then \
+@
+
+
+5.19.1.3
+log
+@Support parallel builds, mainly requiring archiving in batch.  Fixed
+dependency analysis for PICLIB modules by making them depend on the
+corresponding WCSLIB module.  Updated the dependency lists.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.19.1.2 2018/10/03 13:24:33 mcalabre Exp mcalabre $
+d45 1
+a45 2
+WCSLIB  := ../C/$(WCSLIB)
+LIBLOCK := lib.lock
+d67 2
+a68 5
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+d73 8
+a80 5
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PGSBOXLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+d82 1
+a82 1
+$(PICLIB)(%.o) : $(PGSBOXLIB)(%.o)
+d84 3
+a86 12
+	 @@ if [ -f $(%:.o=.f) ] ; then \
+	     echo $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f) ; \
+	     $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $(%:.o=.f) ; \
+	   else \
+	     echo $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c) ; \
+	     $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $(%:.o=.c) ; \
+	   fi
+	 @@ if [ ! -f $(LIBLOCK) ] ; then \
+	     echo $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(AR) r$(ARFLAGS) $(PICLIB) $% ; \
+	     $(RM) $% ; \
+	   fi
+a92 1
+# Print out include file dependencies.
+a96 1
+	   sed -e 's|.*/||' | \
+d107 1
+a107 4
+lib :
+	-@@ echo ''
+	-@@ echo 'Building PGSBOX library...'
+	 @@ $(MAKE) --no-print-directory -Otarget $(PGSBOXLIB)
+d109 1
+a109 1
+$(PGSBOXLIB) : $(LIBLOCK) $(MODULES:%=$(PGSBOXLIB)(%))
+d111 1
+a111 10
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       echo $(RANLIB) $@@ ; \
+	       $(RANLIB) $@@ ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+	 @@ $(MAKE) --no-print-directory -Otarget $(SHRLIB)
+d123 1
+a123 13
+$(PICLIB) : $(LIBLOCK) $(MODULES:%.o=$(PICLIB)(%.o))
+	-@@ echo ''
+	 @@ set *.o ; \
+	     if [ "$$1" != "*.o" ] ; then \
+	       echo $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(AR) r$(ARFLAGS) $@@ *.o ; \
+	       $(RM) *.o ; \
+	     fi
+	-@@ $(RM) $<
+
+$(LIBLOCK) : FORCE
+	 @@ $(RM) *.o
+	 @@ touch $@@
+d159 1
+a159 2
+	-  $(RM) *.o $(LIBLOCK) *.i a.out core *.dSYM
+	-  $(RM) -r $(EXTRA_CLEAN)
+d232 1
+a232 1
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h dis.h lin.h prj.h spc.h sph.h spx.h wcs.h \
+d236 2
+a237 2
+cpgtest.o : cel.h cpgsbox.h dis.h lin.h prj.h spc.h spx.h wcs.h \
+            wcsconfig_f77.h wcserr.h wcsfix.h
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.18
+d29 1
+a29 1
+#      WCSLIB 5.18 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.17.1.2 2017/12/05 07:21:27 mcalabre Exp $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.17
+d29 1
+a29 1
+#      WCSLIB 5.17 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.16.1.1 2017/01/15 04:29:04 mcalabre Exp mcalabre $
+d67 1
+a67 1
+	   $(AR) r $(PGSBOXLIB) $%
+d73 1
+a73 1
+	   $(AR) r $(PGSBOXLIB) $%
+d79 1
+a79 1
+	   $(AR) r $(PICLIB) $%
+d85 1
+a85 1
+	   $(AR) r $(PICLIB) $%
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.17 2017/09/18 08:44:25 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Use ARFLAGS when inserting object modules in the static libraries.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.17.1.1 2017/09/18 08:46:01 mcalabre Exp mcalabre $
+d67 1
+a67 1
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
+d73 1
+a73 1
+	   $(AR) r$(ARFLAGS) $(PGSBOXLIB) $%
+d79 1
+a79 1
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+d85 1
+a85 1
+	   $(AR) r$(ARFLAGS) $(PICLIB) $%
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.16
+d29 1
+a29 1
+#      WCSLIB 5.16 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.15.1.1 2016/04/05 12:58:39 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.15
+d29 1
+a29 1
+#      WCSLIB 5.15 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.15 2016/04/05 12:55:13 mcalabre Exp $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.14
+d29 1
+a29 1
+#      WCSLIB 5.14 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.13.1.1 2016/01/26 08:54:36 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.14 2016/02/07 10:49:33 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.13
+d29 1
+a29 1
+#      WCSLIB 5.13 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.12.1.1 2015/11/15 02:16:18 mcalabre Exp $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.12
+d29 1
+a29 1
+#      WCSLIB 5.12 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.11.1.1 2015/10/18 09:16:31 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.12 2015/11/15 02:13:03 mcalabre Exp $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.11
+d29 1
+a29 1
+#      WCSLIB 5.11 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.10.1.1 2015/10/09 08:22:40 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.11 2015/10/18 09:13:08 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.10
+d29 1
+a29 1
+#      WCSLIB 5.10 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.9.1.1 2015/07/21 09:28:12 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.10 2015/10/09 08:19:18 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.9
+d29 1
+a29 1
+#      WCSLIB 5.9 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.8
+d29 1
+a29 1
+#      WCSLIB 5.8 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.7.1.1 2015/06/29 02:47:27 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.8 2015/07/08 11:04:03 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.7
+d29 1
+a29 1
+#      WCSLIB 5.7 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.6.1.1 2015/06/14 07:14:48 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.7 2015/06/29 02:44:19 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.6
+d29 1
+a29 1
+#      WCSLIB 5.6 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.5.1.1 2015/05/05 13:21:04 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.5
+d29 1
+a29 1
+#      WCSLIB 5.5 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.4.1.1 2015/04/21 14:44:32 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.5 2015/05/05 13:16:34 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.4
+d29 1
+a29 1
+#      WCSLIB 5.4 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.3.1.1 2015/04/21 02:54:06 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.4 2015/04/21 14:41:08 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.3
+d29 1
+a29 1
+#      WCSLIB 5.3 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.3 2015/04/21 02:50:54 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.2
+d29 1
+a29 1
+#      WCSLIB 5.2 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.1.1.1 2015/04/07 11:01:13 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.2 2015/04/15 12:35:10 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.1
+d29 1
+a29 1
+#      WCSLIB 5.1 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 5.0.1.1 2015/04/05 12:28:04 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.1 2015/04/07 10:56:39 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 5.0
+d29 1
+a29 1
+#      WCSLIB 5.0 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.25.1.1 2014/12/14 14:32:48 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 5.0 2015/04/05 12:25:03 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.25
+d29 1
+a29 1
+#      WCSLIB 4.25 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.24
+d29 1
+a29 1
+#      WCSLIB 4.24 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.23.1.1 2014/05/13 05:53:52 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.23
+d29 1
+a29 1
+#      WCSLIB 4.23 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.22
+d29 1
+a29 1
+#      WCSLIB 4.22 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.21.1.1 2014/03/24 05:15:31 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.22 2014/04/12 15:03:54 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.21
+d29 1
+a29 1
+#      WCSLIB 4.21 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.20.1.1 2013/12/18 05:46:57 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.20
+d29 1
+a29 1
+#      WCSLIB 4.20 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.19.1.1 2013/09/29 14:20:41 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.20 2013/12/18 05:42:51 mcalabre Exp $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.19
+d29 1
+a29 1
+#      WCSLIB 4.19 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.18.1.2 2013/07/14 02:16:55 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.18
+d29 1
+a29 1
+#      WCSLIB 4.18 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d132 1
+a132 1
+	     $(INSTALL) -m 644 $(SHRLIB) $(LIBDIR) ; \
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.18.1.2
+log
+@Install the shared library with execute permission (755 instead of 644),
+unnecessary but makes it easier to find in a colour-coded directory
+listing.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.18.1.1 2013/07/13 10:02:40 mcalabre Exp mcalabre $
+d132 1
+a132 1
+	     $(INSTALL) -m 755 $(SHRLIB) $(LIBDIR) ; \
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.17
+d29 1
+a29 1
+#      WCSLIB 4.17 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.16.1.1 2012/11/07 04:45:58 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.16
+d29 1
+a29 1
+#      WCSLIB 4.16 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.15.1.1 2012/09/26 14:27:53 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.15
+d29 1
+a29 1
+#      WCSLIB 4.15 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.14.1.1 2012/07/13 10:05:05 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.14
+d29 1
+a29 1
+#      WCSLIB 4.14 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.13.1.3 2012/07/13 03:43:52 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.14 2012/07/13 10:02:47 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.13
+d29 1
+a29 1
+#      WCSLIB 4.13 sources reside in ../C and ../Fortran (as in the
+d32 3
+a34 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+d185 1
+a185 1
+	   $(FC) -I../Fortran $(FFLAGS) $(LDFLAGS) -o $@@ $^ \
+d192 2
+a193 2
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $(LDFLAGS) -o $@@ \
+	     $(^:.f=.o) $(PGPLOTLIB) $(FLIBS) $(LIBS)
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Reordered the compile commands so that $(LDFLAGS) follows the list of
+object modules.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.13.1.1 2012/03/14 07:40:39 cal103 Exp cal103 $
+d185 1
+a185 1
+	   $(FC) -I../Fortran $(FFLAGS) -o $@@ $^ $(LDFLAGS) \
+d192 2
+a193 2
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) -o $@@ $(^:.f=.o) \
+	     $(LDFLAGS) $(PGPLOTLIB) $(FLIBS) $(LIBS)
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d32 3
+a34 3
+# Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+# http://www.atnf.csiro.au/people/Mark.Calabretta
+# $Id: GNUmakefile,v 4.13.1.2 2012/03/21 02:58:19 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.12
+d29 1
+a29 1
+#      WCSLIB 4.12 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.11
+d29 1
+a29 1
+#      WCSLIB 4.11 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.10
+d29 1
+a29 1
+#      WCSLIB 4.10 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.10 2012/02/05 23:41:45 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.9
+d29 1
+a29 1
+#      WCSLIB 4.9 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.8.1.3 2011/12/05 06:47:31 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.8
+d18 1
+a18 1
+#                gmake MODE=interactive check
+d29 1
+a29 1
+#      WCSLIB 4.8 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.7.1.4 2011/08/15 03:11:38 cal103 Exp cal103 $
+d51 1
+d133 4
+d141 1
+a141 1
+	       $(LN_S) $(SHRLIB) $(LIBDIR)/$(SHRLN) ; \
+d209 1
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.8 2011/08/15 08:05:55 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Install the sharable library with full release number and create
+$(SONAME) as a symlink pointing to it.  If defined, $(SHRLN) will
+point to $(SONAME).  Change request from Ole Streicher, Debian
+package maintainer.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a50 1
+SONAME := $(subst libwcs,libpgsbox,$(SONAME))
+a131 4
+	     if [ -h "$(LIBDIR)/$(SONAME)" ] ; then \
+	       $(RM) $(LIBDIR)/$(SONAME) ; \
+	     fi ; \
+	     $(LN_S) $(SHRLIB) $(LIBDIR)/$(SONAME) ; \
+d136 1
+a136 1
+	       $(LN_S) $(SONAME) $(LIBDIR)/$(SHRLN) ; \
+a203 1
+	-@@ echo '  SONAME      := $(SONAME)'
+@
+
+
+4.8.1.3
+log
+@'gmake' -> 'make'.
+@
+text
+@d18 1
+a18 1
+#                make MODE=interactive check
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.8.1.2 2011/09/16 04:41:29 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.7
+d29 1
+a29 1
+#      WCSLIB 4.7 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6.1.5 2011/01/18 03:57:21 cal103 Exp cal103 $
+d119 1
+a119 1
+	     $(SHRLD) -o $@@ *.o ../$(WCSSHR) $(LDFLAGS) $(PGPLOTLIB) && \
+d129 1
+a129 1
+	   $(LN_S) $(LIBDIR)/$(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+d196 1
+a196 1
+	   cd .. && config.status
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Don't assume "." is in the PATH if config.status needs to be run.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d196 1
+a196 1
+	   cd .. && ./config.status
+@
+
+
+4.7.1.3
+log
+@Create a relative symlink to $(PGSBOXLIB) rather than absolute.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.7.1.2 2011/06/03 00:24:24 cal103 Exp cal103 $
+d129 1
+a129 1
+	   $(LN_S) $(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+@
+
+
+4.7.1.4
+log
+@Need to add $(FLIBS) to the link list for the sharable library since the
+Fortran library has been removed from PGPLOTLIB in configure.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.7.1.3 2011/06/27 00:07:38 cal103 Exp cal103 $
+d119 1
+a119 1
+	     $(SHRLD) -o $@@ *.o ../$(WCSSHR) $(LDFLAGS) $(PGPLOTLIB) $(FLIBS) && \
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.6
+d29 1
+a29 1
+#      WCSLIB 4.6 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.6 2010/11/16 06:11:30 cal103 Exp cal103 $
+d39 1
+a39 1
+LIBPGSBOX := libpgsbox-$V.a
+d45 1
+a45 1
+LIBWCS   := ../C/$(LIBWCS)
+d63 1
+a63 1
+$(LIBPGSBOX)(%.o) : %.f
+d66 1
+a66 1
+	   $(AR) r $(LIBPGSBOX) $%
+d69 1
+a69 1
+$(LIBPGSBOX)(%.o) : %.c
+d72 1
+a72 1
+	   $(AR) r $(LIBPGSBOX) $%
+d106 1
+a106 1
+lib : $(LIBPGSBOX) $(SHRLIB)
+d108 1
+a108 1
+$(LIBPGSBOX) : $(MODULES:%=$(LIBPGSBOX)(%))
+d126 2
+a127 2
+	   $(INSTALL) -m 644 $(LIBPGSBOX) $(LIBDIR)
+	   $(RANLIB) $(LIBDIR)/$(LIBPGSBOX)
+d129 1
+a129 1
+	   $(LN_S) $(LIBDIR)/$(LIBPGSBOX) $(LIBDIR)/libpgsbox.a
+d133 1
+a133 1
+	       if [ -L "$(LIBDIR)/$(SHRLN)" ] ; then \
+d171 1
+a171 1
+wcslib : $(LIBWCS)
+d173 1
+a173 1
+$(LIBWCS) :
+d177 1
+a177 1
+pgtest : pgtest.f fscan.f lngvel.f $(LIBPGSBOX) $(LIBWCS)
+d183 1
+a183 1
+cpgtest : cpgtest.c fscan.f lngvel.f $(LIBPGSBOX) $(LIBWCS)
+d200 1
+a200 1
+	-@@ echo '  LIBPGSBOX   := $(LIBPGSBOX)'
+d213 2
+a214 2
+$(LIBPGSBOX)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(LIBPGSBOX)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Bourne shell's built-in test in Solaris doesn't recognize '-L' so use
+'-h' to test for the existence of a symlink.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6.1.1 2010/11/16 06:16:20 cal103 Exp cal103 $
+d133 1
+a133 1
+	       if [ -h "$(LIBDIR)/$(SHRLN)" ] ; then \
+@
+
+
+4.6.1.3
+log
+@LIBPGSBOX -> PGSBOXLIB.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6.1.2 2010/11/18 00:46:11 cal103 Exp $
+d39 1
+a39 1
+PGSBOXLIB := libpgsbox-$V.a
+d63 1
+a63 1
+$(PGSBOXLIB)(%.o) : %.f
+d66 1
+a66 1
+	   $(AR) r $(PGSBOXLIB) $%
+d69 1
+a69 1
+$(PGSBOXLIB)(%.o) : %.c
+d72 1
+a72 1
+	   $(AR) r $(PGSBOXLIB) $%
+d106 1
+a106 1
+lib : $(PGSBOXLIB) $(SHRLIB)
+d108 1
+a108 1
+$(PGSBOXLIB) : $(MODULES:%=$(PGSBOXLIB)(%))
+d126 2
+a127 2
+	   $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR)
+	   $(RANLIB) $(LIBDIR)/$(PGSBOXLIB)
+d129 1
+a129 1
+	   $(LN_S) $(LIBDIR)/$(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+d177 1
+a177 1
+pgtest : pgtest.f fscan.f lngvel.f $(PGSBOXLIB) $(LIBWCS)
+d183 1
+a183 1
+cpgtest : cpgtest.c fscan.f lngvel.f $(PGSBOXLIB) $(LIBWCS)
+d200 1
+a200 1
+	-@@ echo '  PGSBOXLIB   := $(PGSBOXLIB)'
+d213 2
+a214 2
+$(PGSBOXLIB)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+@
+
+
+4.6.1.4
+log
+@LIBWCS -> WCSLIB.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6.1.3 2011/01/18 03:14:44 cal103 Exp cal103 $
+d45 1
+a45 1
+WCSLIB   := ../C/$(WCSLIB)
+d171 1
+a171 1
+wcslib : $(WCSLIB)
+d173 1
+a173 1
+$(WCSLIB) :
+d177 1
+a177 1
+pgtest : pgtest.f fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB)
+d183 1
+a183 1
+cpgtest : cpgtest.c fscan.f lngvel.f $(PGSBOXLIB) $(WCSLIB)
+@
+
+
+4.6.1.5
+log
+@Abbreviated version number used for PGSBOXLIB.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.6.1.4 2011/01/18 03:17:53 cal103 Exp cal103 $
+d39 1
+a39 1
+PGSBOXLIB := libpgsbox-$(LIBVER).a
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.5.
+d29 1
+a29 1
+#      WCSLIB 4.5 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4.1.4 2010/07/15 04:37:52 cal103 Exp cal103 $
+d39 1
+a39 1
+PGSBOXLIB := libpgsbox-$V.a
+d47 7
+d63 7
+a69 1
+%.o : %.c
+d72 14
+a97 8
+%.o : %.F
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -I../Fortran -c -o $@@ $<
+
+%.o : %.f
+	-@@ echo ''
+	   $(FC) $(FFLAGS) -I../Fortran -c -o $@@ $<
+
+d106 1
+a106 1
+lib : $(PGSBOXLIB)
+d108 1
+a108 1
+$(PGSBOXLIB) : $(MODULES:%=$(PGSBOXLIB)(%))
+d112 29
+d142 1
+a142 1
+	- $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d145 1
+a145 1
+	- $(RM) pgtest cpgtest
+d148 1
+a148 1
+	- $(RM) $(PGSBOXLIB) $(LIBWCS)
+d177 5
+a181 7
+install : build
+	   $(MAKE) -C ../Fortran install
+	   $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR)
+	   $(RANLIB) $(LIBDIR)/$(PGSBOXLIB)
+	   $(RM) $(LIBDIR)/libpgsbox.a
+	   $(LN_S) $(LIBDIR)/$(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+	   $(INSTALL) -m 444 *.h $(INCDIR)
+d183 7
+a189 8
+pgtest : pgtest.o lngvel.o fscan.o $(PGSBOXLIB) $(LIBWCS)
+	-@@ rm -f $@@
+	   $(FC) $(FFLAGS) $(LDFLAGS) -o $@@ $^ $(PGPLOTLIB) $(LIBS)
+
+cpgtest : cpgtest.c lngvel.o fscan.o $(PGSBOXLIB) $(LIBWCS)
+	-@@ rm -f $@@
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $(LDFLAGS) \
+	     -o $@@ $^ $(PGPLOTLIB) $(FLIBS) $(LIBS)
+d198 12
+d213 2
+a214 2
+$(PGSBOXLIB)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5 2010/07/16 07:01:27 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Ensure that distclean deletes older object libraries.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.1 2010/07/16 07:05:33 cal103 Exp cal103 $
+d100 1
+a100 1
+	- $(RM) libpgsbox-*.a $(LIBWCS)
+@
+
+
+4.5.1.3
+log
+@Build the sharable library.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.2 2010/09/23 08:26:57 cal103 Exp cal103 $
+d39 1
+a39 1
+LIBPGSBOX := libpgsbox-$V.a
+a46 6
+# For building the sharable library.
+PICLIB := libpgsbox-PIC.a
+SHRLIB := $(subst libwcs,libpgsbox,$(SHRLIB))
+SHRLD  := $(subst libwcs,libpgsbox,$(SHRLD))
+SHRLN  := $(subst libwcs,libpgsbox,$(SHRLN))
+
+d56 1
+a56 1
+$(LIBPGSBOX)(%.o) : %.c
+a58 9
+	   $(AR) r $(LIBPGSBOX) $%
+	-@@ $(RM) $%
+
+
+$(PICLIB)(%.o) : %.c
+	-@@ echo ''
+	   $(CC) $(CPPFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r $(PICLIB) $%
+	-@@ $(RM) $%
+d87 1
+a87 1
+lib : $(LIBPGSBOX) $(SHRLIB)
+d89 1
+a89 1
+$(LIBPGSBOX) : $(MODULES:%=$(LIBPGSBOX)(%))
+a92 26
+$(SHRLIB) : $(PICLIB)
+	-@@ echo ''
+	-@@ $(RM) -r tmp
+	   mkdir tmp
+	   cd tmp && $(AR) x ../$(PICLIB) && $(SHRLD) -o $@@ *.o && mv $@@ ..
+	-  $(RM) -r tmp
+
+$(PICLIB) : $(MODULES:%.o=$(PICLIB)(%.o)) ;
+
+install : build
+	   $(MAKE) -C ../Fortran install
+	   $(INSTALL) -m 644 $(LIBPGSBOX) $(LIBDIR)
+	   $(RANLIB) $(LIBDIR)/$(LIBPGSBOX)
+	   $(RM) $(LIBDIR)/libpgsbox.a
+	   $(LN_S) $(LIBDIR)/$(LIBPGSBOX) $(LIBDIR)/libpgsbox.a
+	-  if [ "$(SHRLIB)" != "" ] ; then \
+	     $(INSTALL) -m 644 $(SHRLIB) $(LIBDIR) ; \
+	     if [ "$(SHRLN)" != "" ] ; then \
+	       if [ -L "$(LIBDIR)/$(SHRLN)" ] ; then \
+	         $(RM) $(LIBDIR)/$(SHRLN) ; \
+	       fi ; \
+	       $(LN_S) $(SHRLIB) $(LIBDIR)/$(SHRLN) ; \
+	     fi ; \
+	   fi
+	   $(INSTALL) -m 444 *.h $(INCDIR)
+
+d100 1
+a100 2
+	- $(RM) $(PICLIB) libpgsbox-*.a libpgsbox.so.* libpgsbox.*.dylib
+	- $(RM) $(LIBWCS)
+d129 9
+a137 1
+pgtest : pgtest.o lngvel.o fscan.o $(LIBPGSBOX) $(LIBWCS)
+d141 1
+a141 1
+cpgtest : cpgtest.c lngvel.o fscan.o $(LIBPGSBOX) $(LIBWCS)
+a152 9
+show ::
+	-@@ echo 'For building libpgsbox...'
+	-@@ echo '  LIBPGSBOX   := $(LIBPGSBOX)'
+	-@@ echo '  PICLIB      := $(PICLIB)'
+	-@@ echo '  SHRLIB      := $(SHRLIB)'
+	-@@ echo '  SHRFLAGS    := $(SHRFLAGS)'
+	-@@ echo '  SHRLD       := $(SHRLD)'
+	-@@ echo '  SHRLN       := $(SHRLN)'
+
+d156 2
+a157 2
+$(LIBPGSBOX)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(LIBPGSBOX)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+@
+
+
+4.5.1.4
+log
+@Compile Fortran with -fPIC for inclusion in the shared library.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.3 2010/10/13 23:58:34 cal103 Exp cal103 $
+d68 1
+d71 1
+a71 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) $(SHRFLAGS) -c $<
+d86 1
+a86 1
+$(LIBPGSBOX)(%.o) : %.f
+d88 1
+a88 3
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	   $(AR) r $(LIBPGSBOX) $%
+	-@@ $(RM) $%
+d90 1
+a90 1
+$(PICLIB)(%.o) : %.f
+d92 1
+a92 3
+	   $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r $(PICLIB) $%
+	-@@ $(RM) $%
+d142 1
+d171 8
+a178 13
+pgtest : pgtest.f fscan.f lngvel.f $(LIBPGSBOX) $(LIBWCS)
+	-@@ $(RM) $@@
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) $(LDFLAGS) -o $@@ $^ \
+	     $(PGPLOTLIB) $(LIBS)
+
+cpgtest : cpgtest.c fscan.f lngvel.f $(LIBPGSBOX) $(LIBWCS)
+	-@@ $(RM) $@@
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c fscan.f lngvel.f
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $(LDFLAGS) -o $@@ \
+	     $(^:.f=.o) $(PGPLOTLIB) $(FLIBS) $(LIBS)
+	-@@ $(RM) fscan.o lngvel.o
+@
+
+
+4.5.1.5
+log
+@Use 'trap' to handle deletion of the tmp directory used in creating
+the sharable library; put pattern rules into a more logical order;
+print the value of MODULES in 'show'.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.4 2010/10/15 05:31:10 cal103 Exp cal103 $
+a61 6
+$(LIBPGSBOX)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) -c $<
+	   $(AR) r $(LIBPGSBOX) $%
+	-@@ $(RM) $%
+
+a67 6
+$(PICLIB)(%.o) : %.f
+	-@@ echo ''
+	   $(FC) -I../Fortran $(FFLAGS) $(SHRFLAGS) -c $<
+	   $(AR) r $(PICLIB) $%
+	-@@ $(RM) $%
+
+d85 12
+d114 3
+a116 6
+	   mkdir tmp && \
+	     cd tmp && \
+	     trap 'cd .. ; $(RM) -r tmp' 0 1 2 3 15 ; \
+	     $(AR) x ../$(PICLIB) && \
+	     $(SHRLD) -o $@@ *.o && \
+	     mv $@@ ..
+d138 1
+a138 1
+	-  $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d141 1
+a141 1
+	-  $(RM) pgtest cpgtest
+d144 1
+a144 1
+	-  $(RM) $(PICLIB) libpgsbox-*.a libpgsbox.so.* libpgsbox.*.dylib
+a201 2
+	-@@ echo ''
+	-@@ echo '  MODULES     := $(MODULES)'
+@
+
+
+4.5.1.6
+log
+@WCSLIB and PGPLOT, including auxiliary graphics libraries, must be added
+to the link list when building the sharable library in MacOSX in order to
+resolve all symbols.  Ignore errors generated if the sharable library
+build fails.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.5.1.5 2010/11/15 06:51:08 cal103 Exp cal103 $
+a48 1
+WCSSHR := ../C/$(SHRLIB)
+d114 1
+a114 1
+	-  mkdir tmp && \
+d118 1
+a118 1
+	     $(SHRLD) -o $@@ *.o ../$(WCSSHR) $(LDFLAGS) $(PGPLOTLIB) && \
+a200 1
+	-@@ echo '  WCSSHR      := $(WCSSHR)'
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.4.
+d12 2
+a13 2
+#   realclean (or cleanest):  cleaner, and also delete the pgsbox and
+#              WCSLIB object libraries.
+d29 1
+a29 1
+#      WCSLIB 4.4 sources reside in ../C and ../Fortran (as in the
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.3.1.3 2009/08/05 02:03:27 cal103 Exp cal103 $
+d82 2
+a83 2
+.PHONY : build check clean cleaner cleanest install realclean test tests \
+         wcslib
+d94 1
+a94 1
+	- $(RM) *.o *.i a.out core $(EXTRA_CLEAN)
+d99 1
+a99 1
+realclean cleanest : cleaner
+a134 1
+	   $(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES_PGSBOX
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4 2009/08/06 07:54:40 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@CHANGES file moved to top-level directory.
+@
+text
+@d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4.1.1 2009/08/10 08:55:45 cal103 Exp cal103 $
+d135 1
+@
+
+
+4.4.1.3
+log
+@Added 'distclean' (GNU standard target name) as a synonym for 'cleanest'
+or 'realclean'.  'clean' recursively deletes *.dSYM (MacOSX 10.6).
+@
+text
+@d12 2
+a13 2
+#   distclean (realclean or cleanest):  cleaner, and also delete the pgsbox
+#              and WCSLIB object libraries.
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4.1.2 2009/08/10 23:57:01 cal103 Exp cal103 $
+d82 2
+a83 2
+.PHONY : build check clean cleaner cleanest distclean install realclean test \
+         tests wcslib
+d94 1
+a94 1
+	- $(RM) -r *.o *.i a.out core *.dSYM $(EXTRA_CLEAN)
+d99 1
+a99 1
+distclean realclean cleanest : cleaner
+@
+
+
+4.4.1.4
+log
+@Reworked the various clean targets.
+@
+text
+@d12 1
+a12 1
+#   cleanest (distclean, or realclean):  cleaner, and also delete the pgsbox
+d34 1
+a34 1
+# $Id: GNUmakefile,v 4.4.1.3 2010/07/09 01:46:15 cal103 Exp cal103 $
+d99 1
+a99 1
+cleanest distclean realclean : cleaner
+@
+
+
+4.3
+log
+@PGSBOX 4.3
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.3.
+d4 31
+a34 21
+#   Summary of the main targets
+#   ---------------------------
+#      build:     Build the library.
+#      clean:     Delete intermediate object files.
+#      cleaner:   clean, and also delete the test executables.
+#      realclean (or cleanest):  cleaner, and also delete the pgsbox and
+#                 WCSLIB object libraries.
+#      check (or test): Compile and run the test programs.
+#      tests:     Compile the test programs (but don't run them).
+#
+#   Notes:
+#      1) If you need to make changes then preferably modify ../makedefs.in
+#         instead and re-run configure.
+#
+#      2) In compiling the test programs, this makefile assumes that the
+#         WCSLIB 4.3 sources reside in ../C and ../Fortran (as in the
+#         distribution kit).
+#
+#   Author: Mark Calabretta, Australia Telescope National Facility
+#   http://www.atnf.csiro.au/~mcalabre/index.html
+#   $Id: GNUmakefile,v 4.2.1.8 2007/12/24 04:13:26 cal103 Exp cal103 $
+d49 2
+a50 1
+vpath %.h   ../C
+d106 5
+a110 1
+	-@@ ./pgtest < /dev/null
+d115 5
+a119 1
+	-@@ ./cpgtest < /dev/null
+d149 3
+a151 1
+../makedefs : ../makedefs.in ../config.status
+d157 3
+a159 2
+$(PGSBOXLIB)(cpgsbox.o) : cpgsbox.h
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h
+d162 2
+a163 1
+cpgtest.o : cel.h cpgsbox.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsfix.h
+@
+
+
+4.3.1.1
+log
+@PGSBOX 4.3 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.4.
+d19 1
+a19 1
+#         WCSLIB 4.4 sources reside in ../C and ../Fortran (as in the
+d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.3 2007/12/27 05:49:14 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Added dependencies on wcsconfig_f77.h.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 4.4.
+d4 9
+a12 9
+# Summary of the main targets
+# ---------------------------
+#    build:     Build the library.
+#    clean:     Delete intermediate object files.
+#    cleaner:   clean, and also delete the test executables.
+#    realclean (or cleanest):  cleaner, and also delete the pgsbox and
+#               WCSLIB object libraries.
+#    check (or test): Compile and run the test programs.
+#    tests:     Compile the test programs (but don't run them).
+d14 3
+a16 3
+# Notes:
+#   1) If you need to make changes then preferably modify ../makedefs.in
+#      instead and re-run configure.
+d18 3
+a20 3
+#   2) In compiling the test programs, this makefile assumes that the
+#      WCSLIB 4.4 sources reside in ../C and ../Fortran (as in the
+#      distribution kit).
+d22 3
+a24 3
+# Author: Mark Calabretta, Australia Telescope National Facility
+# http://www.atnf.csiro.au/~mcalabre/index.html
+# $Id: GNUmakefile,v 4.3.1.1 2007/12/27 13:26:31 cal103 Exp cal103 $
+d39 1
+a39 2
+vpath %.h   ..:../C
+vpath %.in  ..
+d130 1
+a130 3
+../makedefs ../wcsconfig_f77.h : makedefs.in wcsconfig_f77.h.in \
+    ../config.status
+	-@@ $(RM) ../wcsconfig_f77.h
+d136 2
+a137 3
+$(PGSBOXLIB)(cpgsbox.o) : cpgsbox.h wcsconfig_f77.h
+$(PGSBOXLIB)(pgwcsl.o)  : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h \
+                          wcsconfig_f77.h
+d140 1
+a140 2
+cpgtest.o : cel.h cpgsbox.h lin.h prj.h spc.h spx.h tab.h wcs.h wcsfix.h \
+            wcsconfig_f77.h
+@
+
+
+4.3.1.3
+log
+@Added 'gmake MODE=interactive check'.
+@
+text
+@d6 7
+a12 17
+#   build:     Build the library.
+#
+#   clean:     Delete intermediate object files.
+#
+#   cleaner:   clean, and also delete the test executables.
+#
+#   realclean (or cleanest):  cleaner, and also delete the pgsbox and
+#              WCSLIB object libraries.
+#
+#   check (or test): Compile and run the test programs.  By default they are
+#              executed in batch mode; use
+#
+#                gmake MODE=interactive check
+#
+#              to run them interactively.
+#
+#   tests:     Compile the test programs (but don't run them).
+d24 1
+a24 1
+# $Id: GNUmakefile,v 4.3.1.2 2009/07/23 04:14:00 cal103 Exp cal103 $
+d96 1
+a96 5
+	-@@ if [ '$(MODE)' = interactive ] ; then \
+	     ./pgtest ; \
+	   else \
+	     ./pgtest < /dev/null ; \
+	   fi
+d101 1
+a101 5
+	-@@ if [ '$(MODE)' = interactive ] ; then \
+	     ./cpgtest ; \
+	   else \
+	     ./cpgtest < /dev/null ; \
+	   fi
+@
+
+
+4.2
+log
+@WCSLIB 4.2: extensive modifications for GNU autoconf; name changed from
+Makefile to GNUmakefile.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.2.
+d6 1
+a6 1
+#      all:       Build the library.
+d9 2
+a10 2
+#      realclean (or cleanest):  cleaner, and also delete the object library,
+#                 the WCSLIB object library, and GNUmakefile.
+d19 1
+a19 1
+#         WCSLIB 4.2 sources reside in ../C and ../FORTRAN (as in the
+d24 1
+a24 1
+#   $Id: Makefile,v 4.1 2005/08/30 08:24:52 cal103 Exp cal103 $
+a26 1
+PIC := TRUE
+d29 9
+a37 1
+LIBWCS := ../C/$(LIBWCS)
+d40 1
+a40 7
+vpath %.inc ../FORTRAN
+
+PGSBOXLIB := libpgsbox-$V.a
+MODULES := pgsbox.o \
+           cpgsbox.o \
+           pgwcsl.o \
+           pgcrfn.o
+d47 1
+a47 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c -I. -I../C $<
+d51 2
+a52 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -E -I. -I../C -o $@@ $<
+d56 1
+a56 1
+	-@@ $(CC) $(CPPFLAGS) $(CFLAGS) -E -I. -I../C $< | \
+d62 1
+a62 1
+	   $(FC) $(FFLAGS) -I../FORTRAN -c -o $@@ $<
+d66 1
+a66 1
+	   $(FC) $(FFLAGS) -I../FORTRAN -c -o $@@ $<
+d71 2
+a72 1
+.PHONY : all check clean cleaner cleanest install realclean test tests wcslib
+d74 1
+a74 1
+all : show_all lib
+d95 1
+a95 1
+	-@@ pgtest < /dev/null
+d100 1
+a100 1
+	-@@ cpgtest < /dev/null
+d108 1
+a108 1
+	   $(MAKE) -C ../FORTRAN lib
+d110 8
+a117 7
+install : lib
+	$(MAKE) -C ../FORTRAN install
+	$(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR)
+	$(RM) $(LIBDIR)/libpgsbox.a
+	$(LN_S) $(LIBDIR)/$(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+	$(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES_PGSBOX
+	$(INSTALL) -m 444 *.h $(INCDIR)
+d125 2
+a126 2
+	   $(CC) $(CPPFLAGS) -I. -I../C $(PGPLOTINC) $(CFLAGS) $(LDFLAGS) \
+	   -o $@@ $^ $(PGPLOTLIB) $(LIBS)
+d131 1
+a131 1
+	cd .. && config.status
+@
+
+
+4.2.1.1
+log
+@PGSBOX 4.2 development branch.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.3.
+d19 1
+a19 1
+#         WCSLIB 4.3 sources reside in ../C and ../FORTRAN (as in the
+d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2 2005/09/23 04:26:18 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Don't rely on "." being in the PATH when running tests.
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.1 2005/12/05 03:23:34 cal103 Exp cal103 $
+d92 1
+a92 1
+	-@@ ./pgtest < /dev/null
+d97 1
+a97 1
+	-@@ ./cpgtest < /dev/null
+@
+
+
+4.2.1.3
+log
+@Renamed the FORTRAN subdirectory to Fortran; renamed the 'all' target to
+'build'.
+@
+text
+@d6 1
+a6 1
+#      build:     Build the library.
+d9 2
+a10 2
+#      realclean (or cleanest):  cleaner, and also delete the pgsbox and
+#                 WCSLIB object libraries.
+d19 1
+a19 1
+#         WCSLIB 4.3 sources reside in ../C and ../Fortran (as in the
+d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.2 2005/12/05 03:25:07 cal103 Exp $
+d33 1
+a33 1
+vpath %.inc ../Fortran
+d60 1
+a60 1
+	   $(FC) $(FFLAGS) -I../Fortran -c -o $@@ $<
+d64 1
+a64 1
+	   $(FC) $(FFLAGS) -I../Fortran -c -o $@@ $<
+d69 1
+a69 2
+.PHONY : build check clean cleaner cleanest install realclean test tests \
+         wcslib
+d71 1
+a71 1
+build : lib
+d105 1
+a105 1
+	   $(MAKE) -C ../Fortran lib
+d107 2
+a108 2
+install : build
+	$(MAKE) -C ../Fortran install
+@
+
+
+4.2.1.4
+log
+@ranlib the library after installation - important for Macs.
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.3 2007/07/03 07:09:57 cal103 Exp cal103 $
+d109 6
+a114 7
+	   $(MAKE) -C ../Fortran install
+	   $(INSTALL) -m 644 $(PGSBOXLIB) $(LIBDIR)
+	   $(RANLIB) $(LIBDIR)/$(PGSBOXLIB)
+	   $(RM) $(LIBDIR)/libpgsbox.a
+	   $(LN_S) $(LIBDIR)/$(PGSBOXLIB) $(LIBDIR)/libpgsbox.a
+	   $(INSTALL) -m 444 CHANGES $(INCDIR)/CHANGES_PGSBOX
+	   $(INSTALL) -m 444 *.h $(INCDIR)
+d123 1
+a123 1
+	     -o $@@ $^ $(PGPLOTLIB) $(LIBS)
+d128 1
+a128 1
+	   cd .. && config.status
+@
+
+
+4.2.1.5
+log
+@Added FLIBS to the link list for cpgtest (for PGSBOXLIB).
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.4 2007/07/04 07:16:10 cal103 Exp cal103 $
+d124 1
+a124 1
+	     -o $@@ $^ $(PGPLOTLIB) $(FLIBS) $(LIBS)
+@
+
+
+4.2.1.6
+log
+@Trivial tidy-ups.
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.5 2007/07/05 07:13:36 cal103 Exp cal103 $
+d27 1
+d30 1
+a30 7
+PGSBOXLIB := libpgsbox-$V.a
+MODULES   := pgsbox.o \
+             cpgsbox.o \
+             pgwcsl.o \
+             pgcrfn.o
+
+LIBWCS    := ../C/$(LIBWCS)
+d35 6
+@
+
+
+4.2.1.7
+log
+@Replaced instances of $(CC) -E with $(CPP) and incorporated -I flags into
+CPPFLAGS.
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.6 2007/07/11 02:07:35 cal103 Exp cal103 $
+d35 1
+a35 3
+LIBWCS   := ../C/$(LIBWCS)
+
+CPPFLAGS += -I. -I../C
+d45 1
+a45 1
+	   $(CC) $(CPPFLAGS) $(CFLAGS) -c $<
+d49 1
+a49 2
+	-@@ $(RM) $@@
+	   $(CPP) $(CPPFLAGS) $(CFLAGS) $< > $@@
+d53 1
+a53 1
+	-@@ $(CPP) $(CPPFLAGS) $(CFLAGS) $< | \
+d122 1
+a122 1
+	   $(CC) $(CPPFLAGS) $(PGPLOTINC) $(CFLAGS) $(LDFLAGS) \
+@
+
+
+4.2.1.8
+log
+@Added '-I..' to CPPFLAGS to pick up wcsconfig_f77.h.
+@
+text
+@d24 1
+a24 1
+#   $Id: GNUmakefile,v 4.2.1.7 2007/07/12 01:34:46 cal103 Exp cal103 $
+d37 1
+a37 1
+CPPFLAGS += -I. -I.. -I../C
+@
+
+
+4.1
+log
+@PGSBOX 4.1: extensive changes.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.1.
+d6 1
+a6 2
+#      all:       Compile pgsbox.f and cpgsbox.c to produce object modules.
+#      wcslib:    Compile pgwcsl.c and insert it into libwcs.a.
+d9 4
+a12 3
+#      cleanest:  cleaner, and also delete the WCSLIB object library.
+#      test:      Compile and run the test programs.
+#      show_all:  Print the values of all variables used.
+d15 5
+a19 2
+#      1) In compiling the test programs, the makefile assumes that the
+#         WCSLIB 4.1 sources reside in ../C and ../FORTRAN (as in the
+a21 2
+#      2) Refer to ../C/Makefile for an explanation of the FLAVOUR variable.
+#
+d24 1
+a24 107
+#   $Id: Makefile,v 4.0 2005/02/04 12:14:15 cal103 Exp cal103 $
+#-----------------------------------------------------------------------------
+# FORTRAN compiler and options.
+  FC := g77
+  FFLAGS := -O
+
+# C compiler and options.
+  CC := gcc -ansi
+  CFLAGS := -O
+
+# Reset this to ":" if ranlib is not needed.
+  RANLIB := ranlib
+
+# Linker options.
+  LDFLAGS := -s
+
+# Libraries required for building the test programs.
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lX11
+
+# Extra required libraries.
+  LIBS := -lm
+
+# Installation utilities.
+  INSTALL := install
+
+# Overrides for various combinations of
+# architecture, operating system, and compiler.
+#----------------------------------------------
+
+ifeq "$(FLAVOUR)" "SUN/GNU"
+  FFLAGS  += -fPIC -Wimplicit -Wuninitialized -Wno-globals -I.
+  CFLAGS  += -fPIC -Wall -Wno-parentheses
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11 \
+               -L/opt/SUNWspro/lib -lF77 -lM77
+  LIBS    := -lsunmath -lm -lg2c
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNU3"
+  FC      := g77-3.1.1
+  FFLAGS  += -fPIC -Wimplicit -Wuninitialized -Wno-globals -I.
+  CC      := gcc-3.1.1 -ansi
+  CFLAGS  += -fPIC -Wall -Wno-parentheses
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11 \
+               -L/opt/SUNWspro/lib -lF77 -lM77
+  LIBS    := -lsunmath -lm -lg2c
+endif
+
+ifeq "$(FLAVOUR)" "SUN/GNUp"
+  FFLAGS  := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  CFLAGS  := -pg -a -g -O -Wall -Wno-parentheses
+  LDFLAGS := -pg -a -g
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11 \
+               -L/opt/SUNWspro/lib -lF77 -lM77
+  LIBS    := -lsunmath -lm -lg2c
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Pure"
+  FC      := purify gcc
+  FFLAGS  := -g -Wimplicit -Wno-globals -I.
+  CC      := purify gcc
+  CFLAGS  := -g
+  WCSTRIG := NATIVE
+  LDFLAGS :=
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11 \
+               -L/opt/SUNWspro/lib -lF77 -lM77
+  LIBS    := -lsunmath -lm -lg2c
+  override EXTRA_CLEAN := *_pure_p*.[ao] *.pcv .pure
+endif
+
+ifeq "$(FLAVOUR)" "SUN/Quant"
+  FC      := quantify gcc
+  FFLAGS  := -g -Wimplicit -Wno-globals -I.
+  CC      := quantify gcc
+  CFLAGS  := -g
+  WCSTRIG := NATIVE
+  LDFLAGS :=
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11 \
+               -L/opt/SUNWspro/lib -lF77 -lM77
+  LIBS    := -lsunmath -lm -lg2c
+  override EXTRA_CLEAN := *_pure_q*.[ao] .pure
+endif
+
+ifeq "$(FLAVOUR)" "SUN/ANSI"
+  FC      := f77
+  FFLAGS  += -KPIC -erroff=WDECL_LOCAL_NOTUSED
+  CC      := cc
+  CFLAGS  += -KPIC -I/usr/local/include
+  LD      := f77
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lg2c -lX11
+  LIBS    := -lsunmath -lm
+endif
+
+ifeq "$(FLAVOUR)" "Linux"
+  CFLAGS  += -fPIC -Wall -Wno-parentheses
+  FFLAGS  += -fPIC -Wimplicit -Wuninitialized -Wno-globals -I.
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/X11R6/lib -lX11 -lg2c
+endif
+
+ifeq "$(FLAVOUR)" "Linuxp"
+  FFLAGS  := -pg -a -g -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  CFLAGS  := -pg -a -g -O -Wall -Wno-parentheses
+  LDFLAGS := -pg -a -g
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/X11R6/lib -lX11 -lg2c
+  override EXTRA_CLEAN := gmon.out bb.out
+endif
+
+d26 3
+a28 4
+# You shouldn't need to change anything below here.
+
+# Version.
+V := 4.1
+d30 1
+a30 1
+WCSLIB := ../C/libwcs-$V.a
+d35 6
+d45 2
+a46 2
+	-@@ echo ""
+	   $(CC) $(CFLAGS) -c -I. -I../C $<
+d49 2
+a50 2
+	-@@ echo ""
+	   $(CC) $(CFLAGS) -E -I. -I../C -o $@@ $<
+d53 2
+a54 2
+	-@@ echo ""
+	-@@ $(CC) $(CFLAGS) -E -I. -I../C $< | \
+d59 2
+a60 1
+	$(FC) $(FFLAGS) -I../FORTRAN -c -o $@@ $<
+d63 2
+a64 1
+	$(FC) $(FFLAGS) -I../FORTRAN -c -o $@@ $<
+d69 1
+a69 1
+.PHONY : all clean cleaner cleanest install realclean test wcslib
+d71 7
+a77 1
+all : show_all pgsbox.o cpgsbox.o
+d86 1
+a86 1
+	- $(RM) $(WCSLIB)
+d88 4
+a91 4
+test : wcslib show_all pgtest cpgtest
+	-@@ echo ""
+	-@@ echo "Running the PGSBOX test program, PGTEST:"
+	-@@ echo ""
+d93 4
+a96 3
+	-@@ echo ""
+	-@@ echo "Running the cpgsbox() test program, cpgtest:"
+	-@@ echo ""
+d99 3
+a101 1
+wcslib : $(WCSLIB)
+d103 2
+a104 2
+$(WCSLIB) ::
+	-@@ echo ""
+d107 1
+a107 4
+$(WCSLIB) :: $(WCSLIB)(pgwcsl.o)
+	$(RANLIB) $(WCSLIB)
+
+install :
+d109 5
+a113 3
+	$(INSTALL) -m 444 CHANGES /usr/local/include/wcslib/CHANGES_PGSBOX
+	$(INSTALL) -m 444 README  /usr/local/include/wcslib/README_PGSBOX
+	$(INSTALL) -m 444 *.h /usr/local/include/wcslib
+d115 1
+a115 1
+pgtest : pgtest.o pgsbox.o pgcrfn.o lngvel.o fscan.o $(WCSLIB)
+d117 1
+a117 1
+	$(FC) $(LDFLAGS) -o $@@ $^ $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d119 1
+a119 1
+cpgtest : cpgtest.o cpgsbox.o pgsbox.o pgcrfn.o lngvel.o fscan.o $(WCSLIB)
+d121 4
+a124 1
+	$(CC) $(LDFLAGS) -o $@@ $^ $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d126 2
+a127 15
+show_all :
+	-@@ echo ""
+	-@@ echo "FLAVOUR   := $(FLAVOUR)"
+	-@@ echo "FC        := $(FC)"
+	-@@ echo "FFLAGS    := $(FFLAGS)"
+	-@@ echo "CC        := $(CC)"
+	-@@ echo "CFLAGS    := $(CFLAGS)"
+	-@@ echo "RANLIB    := $(RANLIB)"
+	-@@ echo "LDFLAGS   := $(LD)"
+	-@@ echo "LDFLAGS   := $(LDFLAGS)"
+	-@@ echo "WCSLIB    := $(WCSLIB)"
+	-@@ echo "PGPLOTLIB := $(PGPLOTLIB)"
+	-@@ echo "LIBS      := $(LIBS)"
+	-@@ echo "INSTALL   := $(INSTALL)"
+	-@@ echo ""
+d132 2
+a133 3
+cpgsbox.o : cpgsbox.h
+
+$(WCSLIB)(pgwcsl.o) : cel.h lin.h prj.h spc.h sph.h spx.h tab.h wcs.h
+@
+
+
+4.0
+log
+@PGSBOX 4.0: added a version number to the library; added an install target.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 4.0.
+d16 1
+a16 1
+#         WCSLIB 4.0 sources reside in ../C and ../FORTRAN (as in the
+d23 1
+a23 1
+#   $Id: Makefile,v 3.6 2004/08/24 09:05:36 cal103 Exp cal103 $
+a36 1
+  LD := g77
+d55 3
+a57 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d65 3
+a67 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d74 3
+a76 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lF77 -lM77 -lsunmath -lm
+d81 3
+a83 1
+  CC      := purify purecov gcc
+d87 3
+a89 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lsunmath -lm
+d94 2
+d100 3
+a102 2
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+  LIBS    := -L/opt/SUNWspro/lib -lsunmath -lm
+d112 1
+a112 1
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/local/X11/lib -lX11
+d119 1
+a119 1
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -L/usr/X11R6/lib -lX11
+d126 1
+a126 1
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -L/usr/X11R6/lib -lX11
+d134 1
+a134 1
+V := 4.0
+d207 1
+a207 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d211 1
+a211 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(WCSLIB) $(PGPLOTLIB) $(LIBS)
+d234 1
+a234 1
+$(WCSLIB)(pgwcsl.o) : cel.h lin.h prj.h spc.h sph.h spx.h wcs.h
+d237 1
+a237 1
+cpgtest.o : cel.h cpgsbox.h cylfix.h lin.h prj.h spc.h spx.h wcs.h
+@
+
+
+3.6
+log
+@PGSBOX 3.6: Further generalization, with numerous minor fixes.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 3.6.
+d16 1
+a16 1
+#         WCSLIB 3.6 sources reside in ../C and ../FORTRAN (as in the
+d23 1
+a23 1
+#   $Id: Makefile,v 3.5 2004/06/28 05:43:01 mcalabre Exp mcalabre $
+a40 1
+  WCSLIB := -L../C -lwcs
+d46 3
+d125 4
+a128 1
+WCSLIB := ../C/libwcs.a
+d159 1
+a159 1
+.PHONY : all clean cleaner cleanest realclean test wcslib
+d191 6
+d218 1
+@
+
+
+3.5
+log
+@PGSBOX 3.5: generalized this, bringing it into line with the WCSLIB Makefile,
+and adding separate targets for compiling and running the test programs. The
+default target now simply compiles pgsbox.c and cpgsbox.c.  A separate target
+compiles pgwcsl.c and inserts it into ../C/libwcs.a.
+@
+text
+@d2 1
+a2 1
+#   GNU makefile for building PGSBOX 3.5.
+d16 1
+a16 1
+#         WCSLIB 3.5 sources reside in ../C and ../FORTRAN (as in the
+d23 1
+a23 1
+#   $Id: Makefile,v 3.4 2004/02/10 23:56:37 mcalabre Exp mcalabre $
+d30 1
+a30 1
+  CC := gcc
+d41 5
+a45 2
+  LIBS := -L../C -lwcs
+  PGPLOTLIB := -lcpgplot -lpgplot_g77 -lpng -lz -lX11
+a52 1
+  CC      := gcc -ansi
+d54 2
+a55 1
+  PGPLOTLIB := -lcpgplot -lpgplot_g77 -lpng -lz -lX11
+d63 2
+a64 1
+  PGPLOTLIB := -lcpgplot -lpgplot_g77 -lpng -lz -lX11
+d68 26
+a93 6
+  FFLAGS  := -fPIC -pg -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  CC      := gcc -ansi
+  CFLAGS  := -fPIC -pg -O -Wall -Wno-parentheses
+  LDFLAGS := -pg
+  PGPLOTLIB := -lcpgplot -lpgplot_g77 -lpng -lz -lX11
+  override EXTRA_CLEAN := gmon.out
+d97 2
+a98 1
+  FC      := f77 -erroff=WDECL_LOCAL_NOTUSED
+d100 1
+a100 1
+  CFLAGS  += -PIC -I/usr/local/include
+d102 1
+a103 1
+  PGPLOTLIB := -lcpgplot -lpgplot -lpng -lz -lX11
+a106 1
+  CC      := gcc -ansi
+d113 3
+a115 5
+  FFLAGS  := -fPIC -pg -O -Wimplicit -Wuninitialized -Wno-globals -I.
+  CC      := gcc -ansi
+  CFLAGS  := -pg -g -O -fPIC -Wall -Wno-parentheses
+  LD      := g77
+  LDFLAGS := -pg -g
+d117 1
+d132 2
+a133 1
+	$(CC) $(CFLAGS) -I. -I../C -I/usr/local/include -c -o $@@ $<
+d137 1
+a137 1
+	$(CC) $(CFLAGS) -I. -I../C -I/usr/local/include -E -o $@@ $<
+d140 2
+a141 1
+	-@@ $(CC) $(CFLAGS) -I. -I../C -I/usr/local/include -E $< | \
+d159 1
+a159 1
+	$(RM) *.o *.i
+d162 1
+a162 1
+	$(RM) pgtest cpgtest
+d167 1
+a167 1
+test : wcslib pgtest cpgtest
+d180 2
+a181 1
+	$(MAKE) -C ../FORTRAN lib
+d188 1
+a188 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(LIBS) $(PGPLOTLIB)
+d192 1
+a192 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(LIBS) $(PGPLOTLIB)
+d204 2
+a206 1
+	-@@ echo "PGPLOTLIB := $(PGPLOTLIB)"
+@
+
+
+3.4
+log
+@PGSBOX 3.4: added -fPIC to FFLAGS and CFLAGS.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 3.4.
+d4 9
+a12 3
+# This makefile assumes that you will be compiling with g77 and gcc, that
+# WCSLIB 3.4 has already been built in ../C, and that the FORTRAN and C
+# include files reside in ../FORTRAN and ../C (as in the distribution kit).
+d14 4
+a17 1
+# It's quite likely that you will to modify it for your own purposes.
+d19 5
+a23 1
+# $Id: Makefile,v 3.3 2003/10/22 08:38:10 mcalabre Exp mcalabre $
+d26 2
+a27 2
+FC := g77
+FFLAGS := -O -fPIC -Wimplicit -Wno-globals
+d30 5
+a34 2
+CC := gcc
+CFLAGS := -O -fPIC -Wall -Wno-parentheses
+d37 2
+a38 2
+LD := g77
+LDFLAGS := -s
+d41 39
+a79 2
+LIBS := -L../C -lwcs -lcpgplot -lpgplot_g77 -lpng -lz
+LIBS += -L/usr/local/X11/lib -lX11
+d82 13
+a94 1
+  LIBS := -L../C -lwcs -lcpgplot -lpgplot -lpng -L/usr/X11R6/lib -lX11
+d97 11
+d126 2
+a127 1
+.PHONY : all clean cleaner cleanest realclean test
+d129 1
+a129 1
+all : pgtest cpgtest
+d131 1
+a131 3
+test : all
+	pgtest < /dev/null
+	cpgtest < /dev/null
+d136 1
+a136 1
+realclean cleaner cleanest : clean
+d139 22
+a160 1
+pgtest : pgtest.o pgsbox.o pgcrfn.o lngvel.o fscan.o pgwcsl.o
+d162 1
+a162 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(LIBS)
+d164 1
+a164 1
+cpgtest : cpgtest.o cpgsbox.o pgsbox.o pgcrfn.o lngvel.o fscan.o pgwcsl.o
+d166 25
+a190 1
+	$(LD) $(LDFLAGS) -o $@@ $^ $(LIBS)
+@
+
+
+3.3
+log
+@PGSBOX 3.3: recognize "Linux" FLAVOUR; added %.i and %.d pattern rules; added
+"cleaner" and "cleanest" targets as a synonym for "realclean" and separated
+"clean" from them, it only deletes *.o and *.i; added a "test" target to
+compile and run the test programs.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 3.3.
+d5 1
+a5 1
+# WCSLIB 3.3 has already been built in ../C, and that the FORTRAN and C
+d10 1
+a10 1
+# $Id: Makefile,v 3.2 2003/09/09 07:50:21 mcalabre Exp mcalabre $
+d14 1
+a14 1
+FFLAGS := -O -Wimplicit -Wno-globals
+d18 1
+a18 1
+CFLAGS := -O -Wall -Wno-parentheses
+@
+
+
+3.2
+log
+@PGSBOX 3.2: use g77 for linking; added -lz to LIBS; added prologue comments.
+@
+text
+@d2 1
+a2 1
+# GNU makefile for building PGSBOX 3.2.
+d5 1
+a5 1
+# WCSLIB 3.2 has already been built in ../C, and that the FORTRAN and C
+d10 1
+a10 1
+# $Id$
+d28 4
+d35 9
+d50 1
+a50 1
+.PHONY : all clean realclean
+d54 9
+a62 2
+clean realclean :
+	$(RM) *.o pgtest cpgtest
+@
+
+
+3.1
+log
+@PGSBOX 3.1
+@
+text
+@d1 12
+d16 1
+d20 2
+a21 1
+LD := f77
+d24 2
+a25 1
+LIBS := -L../C -lwcs -lcpgplot -lpgplot_g77 -lpng
+@
+
+
+1.6
+log
+@Use g77; added cylfix.o to the list of pgtest's dependencies, and a pattern
+rule for C compilation.
+@
+text
+@d2 1
+a2 1
+FFLAGS := -g -Wimplicit
+d5 1
+a5 1
+CFLAGS := -g -I/usr/local/include/wcslib
+d7 2
+a8 2
+LIBS := -L/usr/local/lib -lwcs_f -lwcs_c -lpgplot_g77 -lpng
+LIBS += -L/usr/local/X11/lib -lX11 -L/opt/SUNWspro/lib -lsunmath
+d10 3
+d14 1
+a14 1
+	$(CC) $(CFLAGS) -c -o $@@ $<
+d17 1
+a17 1
+	$(FC) $(FFLAGS) -c -o $@@ $<
+d20 1
+a20 1
+	$(FC) $(FFLAGS) -c -o $@@ $<
+d24 1
+a24 1
+all : pgtest
+d27 5
+a31 1
+	$(RM) *.o pgtest
+d33 1
+a33 1
+pgtest : pgtest.o pgsbox.o pgcrvl.o pgcrfn.o lngvel.o fscan.o pgwcsl.o cylfix.o
+d35 1
+a35 1
+	$(FC) $(FFLAGS) -o $@@ $^ $(LIBS)
+@
+
+
+1.5
+log
+@Added X11 to the link list for PGPLOT in linux.
+@
+text
+@d1 2
+a2 2
+FC := f77
+FFLAGS := -u -O
+d4 2
+a5 1
+LIBS := -L/usr/local/lib -lwcs_f -lpgplot -L/usr/local/X11/lib -lX11
+d7 6
+d26 1
+a26 1
+pgtest : pgtest.o pgsbox.o pgcrvl.o pgcrfn.o lngvel.o fscan.o pgwcsl.o
+@
+
+
+1.4
+log
+@Link to pgsbox.
+@
+text
+@d4 2
+d21 1
+a21 1
+	f77 $(FFLAGS) -o $@@ $^ -L/usr/local/lib -lwcs_f -lpgplot
+@
+
+
+1.3
+log
+@Added realclean and declared PHONY targets.
+@
+text
+@d1 1
+d5 1
+a5 1
+	f77 $(FFLAGS) -c -o $@@ $<
+d8 1
+a8 1
+	f77 $(FFLAGS) -c -o $@@ $<
+d17 1
+a17 1
+pgtest : pgtest.o pgcrvl.o pgcrfn.o lngvel.o fscan.o pgwcsl.o
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d9 2
+d13 1
+a13 1
+clean :
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+d4 1
+a4 1
+	f77 -u -c -g -o $@@ $<
+d7 1
+a7 1
+	f77 -u -c -g -o $@@ $<
+d14 3
+a16 2
+pgtest : pgtest.o pgcrvl.o lngvel.o radar.o pgwcsl.o
+	f77 -g -o $@@ $^ -L/usr/local/lib -lwcs_f -lpgplot
+@

@@ -1,0 +1,5774 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@c @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.04;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.31;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.11;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.57;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.01;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.02;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.24;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.40;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.42;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.03;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.12;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.16;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.02;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.07;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.17;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.04;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.02;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.18;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.26;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.33;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.07;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.53;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.09;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.02;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.38;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.02;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.53;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.29;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.53;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.06;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.22;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.42;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.31;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.03;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.30;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.43;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.32;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.52.43;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.42.52;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.21.13.37.53;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.26.13.43.27;	author cal103;	state Exp;
+branches;
+next	4.0;
+
+4.0
+date	2005.02.04.12.45.05;	author cal103;	state Exp;
+branches;
+next	3.6;
+
+3.6
+date	2004.08.25.06.32.04;	author cal103;	state Exp;
+branches;
+next	3.5;
+
+3.5
+date	2004.06.28.04.51.23;	author mcalabre;	state Exp;
+branches;
+next	3.4;
+
+3.4
+date	2004.02.11.00.04.18;	author mcalabre;	state Exp;
+branches;
+next	3.3;
+
+3.3
+date	2003.10.21.08.36.48;	author mcalabre;	state Exp;
+branches;
+next	3.2;
+
+3.2
+date	2003.09.09.03.54.37;	author mcalabre;	state Exp;
+branches;
+next	3.1;
+
+3.1
+date	2003.04.28.04.48.53;	author mcalabre;	state Exp;
+branches;
+next	3.0;
+
+3.0
+date	2003.04.01.05.42.56;	author mcalabre;	state Exp;
+branches;
+next	2.10;
+
+2.10
+date	2002.04.03.01.24.44;	author mcalabre;	state Exp;
+branches;
+next	2.9;
+
+2.9
+date	2001.11.16.03.53.59;	author mcalabre;	state Exp;
+branches;
+next	2.8;
+
+2.8
+date	2000.12.04.05.10.16;	author mcalabre;	state Exp;
+branches;
+next	2.7;
+
+2.7
+date	2000.05.10.04.51.30;	author mcalabre;	state Exp;
+branches;
+next	2.6;
+
+2.6
+date	99.12.13.03.39.11;	author mcalabre;	state Exp;
+branches;
+next	2.5;
+
+2.5
+date	99.11.19.02.24.53;	author mcalabre;	state Exp;
+branches;
+next	2.4;
+
+2.4
+date	99.06.16.00.17.38;	author mcalabre;	state Exp;
+branches;
+next	2.3;
+
+2.3
+date	98.02.25.07.02.23;	author mcalabre;	state Exp;
+branches;
+next	2.2;
+
+2.2
+date	96.05.07.21.10.41;	author mcalabre;	state Exp;
+branches;
+next	2.1;
+
+2.1
+date	95.12.22.02.40.38;	author mcalabre;	state Exp;
+branches;
+next	2.0;
+
+2.0
+date	95.09.12.06.34.19;	author mcalabre;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	95.09.12.06.33.56;	author mcalabre;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	95.01.31.03.20.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.37.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.08.02.06.40.51;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.37.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.25.35;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.07.28.07;	author cal103;	state Exp;
+branches;
+next	4.3.1.3;
+
+4.3.1.3
+date	2009.08.06.02.50.21;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.55.07;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.57;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	4.5.1.2;
+
+4.5.1.2
+date	2010.11.15.04.42.27;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.34.16;	author cal103;	state Exp;
+branches;
+next	4.6.1.3;
+
+4.6.1.3
+date	2011.01.27.01.22.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.12.04.51.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.08.16.01.34.41;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.24.12;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.14;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.41.54;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.58;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.11.18;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	4.17.1.2;
+
+4.17.1.2
+date	2013.07.12.04.11.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.41.05;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.3;
+
+4.20.1.3
+date	2014.03.23.06.40.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.47;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.17;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.21.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.48;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.38;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.08.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.53;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.08.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.02.49.50;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.29.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	7.2.1.2;
+
+7.2.1.2
+date	2020.05.07.04.34.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2021.01.19.14.11.08;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.28.12.32.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.02.06.10.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.28;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.21;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.42;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	8.9.1.2;
+
+8.9.1.2
+date	2026.09.18.09.16.57;	author mcalabre;	state Exp;
+branches;
+next	8.9.1.3;
+
+8.9.1.3
+date	2026.09.18.14.49.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test closure of the WCSLIB spherical projection routines.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@*=======================================================================
+*
+* WCSLIB 8.10 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2026, Mark Calabretta
+*
+* This file is part of WCSLIB.
+*
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+*
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+*
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: tprj1.f,v 8.9.1.3 2026/09/18 14:49:01 mcalabre Exp mcalabre $
+*=======================================================================
+
+      PROGRAM TPRJ1
+*-----------------------------------------------------------------------
+*
+* TPRJ1 tests forward and reverse spherical projections for closure.
+*
+*-----------------------------------------------------------------------
+      INCLUDE 'prj.inc'
+
+      INTEGER   J, K, NFAIL, PROJEX, STATUS
+      DOUBLE PRECISION PV(0:29)
+
+      DOUBLE PRECISION PI
+      PARAMETER (PI = 3.141592653589793238462643D0)
+
+      DOUBLE PRECISION TOL
+      PARAMETER (TOL = 1D-9)
+*-----------------------------------------------------------------------
+      WRITE (*, 10)
+ 10   FORMAT ('Testing closure of WCSLIB spherical projection ',
+     :        'routines (tprj1.f)',/,
+     :        '-----------------------------------------------',
+     :        '------------------')
+
+      WRITE (*, '(/,A)') 'List of prj status return values:'
+      DO 40 STATUS = 1, 4
+        DO 30 K = 80, 1, -1
+          IF (PRJ_ERRMSG(STATUS)(K:K).NE.' ') THEN
+            WRITE(*, 20) STATUS, PRJ_ERRMSG(STATUS)(:K)
+ 20         FORMAT(I4,': ',A,'.')
+            GO TO 40
+          END IF
+ 30     CONTINUE
+ 40   CONTINUE
+      WRITE(*, '()')
+
+      DO 50 J = 0, 29
+        PV(J) = 0D0
+ 50   CONTINUE
+
+      NFAIL = 0
+
+*     AZP: zenithal/azimuthal perspective.
+      PV(1) = 0.5D0
+      PV(2) =  30D0
+      NFAIL = NFAIL + PROJEX ('AZP', PV, 90,   5, TOL)
+
+*     SZP: slant zenithal perspective.
+      PV(1) = 0.5D0
+      PV(2) = 210D0
+      PV(3) =  60D0
+      NFAIL = NFAIL + PROJEX ('SZP', PV, 90, -25, TOL)
+
+*     TAN: gnomonic.
+      NFAIL = NFAIL + PROJEX ('TAN', PV, 90,   5, TOL)
+
+*     STG: stereographic.
+      NFAIL = NFAIL + PROJEX ('STG', PV, 90, -85, TOL)
+
+*     SIN: orthographic/synthesis.
+      PV(1) = -0.3D0
+      PV(2) =  0.5D0
+      NFAIL = NFAIL + PROJEX ('SIN', PV, 90,  45, TOL)
+
+*     ARC: zenithal/azimuthal equidistant.
+      NFAIL = NFAIL + PROJEX ('ARC', PV, 90, -90, TOL)
+
+*     ZPN: zenithal/azimuthal polynomial.
+      PV(0) =  0.00000D0
+      PV(1) =  0.95000D0
+      PV(2) = -0.02500D0
+      PV(3) = -0.15833D0
+      PV(4) =  0.00208D0
+      PV(5) =  0.00792D0
+      PV(6) = -0.00007D0
+      PV(7) = -0.00019D0
+      PV(8) =  0.00000D0
+      PV(9) =  0.00000D0
+      NFAIL = NFAIL + PROJEX ('ZPN', PV, 90,  10, TOL)
+
+*     ZEA: zenithal/azimuthal equal area.
+      NFAIL = NFAIL + PROJEX ('ZEA', PV, 90, -85, TOL)
+
+*     AIR: Airy's zenithal projection.
+      PV(1) = 45D0
+      NFAIL = NFAIL + PROJEX ('AIR', PV, 90, -85, TOL)
+
+*     CYP: cylindrical perspective.
+      PV(1) = 3.0D0
+      PV(2) = 0.8D0
+      NFAIL = NFAIL + PROJEX ('CYP', PV, 90, -90, TOL)
+
+*     CEA: cylindrical equal area.
+      PV(1) = 0.75D0
+      NFAIL = NFAIL + PROJEX ('CEA', PV, 90, -90, TOL)
+
+*     CAR: plate carree.
+      NFAIL = NFAIL + PROJEX ('CAR', PV, 90, -90, TOL)
+
+*     MER: Mercator's.
+      NFAIL = NFAIL + PROJEX ('MER', PV, 85, -85, TOL)
+
+*     SFL: Sanson-Flamsteed.
+      NFAIL = NFAIL + PROJEX ('SFL', PV, 90, -90, TOL)
+
+*     PAR: parabolic.
+      NFAIL = NFAIL + PROJEX ('PAR', PV, 90, -90, TOL)
+
+*     MOL: Mollweide's projection.
+      NFAIL = NFAIL + PROJEX ('MOL', PV, 90, -90, TOL)
+
+*     AIT: Hammer-Aitoff.
+      NFAIL = NFAIL + PROJEX ('AIT', PV, 90, -90, TOL)
+
+*     COP: conic perspective.
+      PV(1) =  60D0
+      PV(2) =  15D0
+      NFAIL = NFAIL + PROJEX ('COP', PV, 90, -25, TOL)
+
+*     COE: conic equal area.
+      PV(1) =  60D0
+      PV(2) = -15D0
+      NFAIL = NFAIL + PROJEX ('COE', PV, 90, -90, TOL)
+
+*     COD: conic equidistant.
+      PV(1) = -60D0
+      PV(2) =  15D0
+      NFAIL = NFAIL + PROJEX ('COD', PV, 90, -90, TOL)
+
+*     COO: conic orthomorphic.
+      PV(1) = -60D0
+      PV(2) = -15D0
+      NFAIL = NFAIL + PROJEX ('COO', PV, 85, -90, TOL)
+
+*     BON: Bonne's projection.
+      PV(1) = 30D0
+      NFAIL = NFAIL + PROJEX ('BON', PV, 90, -90, TOL)
+
+*     PCO: polyconic.
+      NFAIL = NFAIL + PROJEX ('PCO', PV, 90, -90, TOL)
+
+*     TSC: tangential spherical cube.
+      NFAIL = NFAIL + PROJEX ('TSC', PV, 90, -90, TOL)
+
+*     CSC: COBE quadrilateralized spherical cube.
+      NFAIL = NFAIL + PROJEX ('CSC', PV, 90, -90, 4D-2)
+
+*     QSC: quadrilateralized spherical cube.
+      NFAIL = NFAIL + PROJEX ('QSC', PV, 90, -90, TOL)
+
+*     HPX: HEALPix projection.
+      PV(1) = 4D0
+      PV(2) = 3D0
+      NFAIL = NFAIL + PROJEX ('HPX', PV, 90, -90, TOL)
+
+*     XPH: HEALPix polar, aka "butterfly" projection.
+      NFAIL = NFAIL + PROJEX ('XPH', PV, 90, -90, TOL)
+
+
+      IF (NFAIL.NE.0) THEN
+        WRITE (*, 60) NFAIL
+ 60     FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+     :    'tolerance.')
+      ELSE
+        WRITE (*, 70)
+ 70     FORMAT (/,'PASS: All closure residuals are within reporting ',
+     :    'tolerance.')
+      END IF
+
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION PROJEX (PCODE, PV, NORTH, SOUTH, TOL)
+*-----------------------------------------------------------------------
+*   PROJEX exercises the spherical projection routines.
+*
+*   Given:
+*      PCODE    C*3      Projection code.
+*      PV       D(0:29)  Projection parameters.
+*      NORTH    I        Northern cutoff latitude, degrees.
+*      SOUTH    I        Southern cutoff latitude, degrees.
+*      TOL      D        Reporting tolerance, degrees.
+*-----------------------------------------------------------------------
+      INTEGER   I, J, LAT, LNG, NFAIL, NORTH, SOUTH, STAT1(361),
+     :          STAT2(361), STATR1(25,25), STATR2(25,25), STATUS
+      DOUBLE PRECISION DLAT, DLATMX, DLNG, DLNGMX, DR, DRMAX, DX, DY,
+     :          LAT1, LAT2(361), LATR(25,25), LNG1(361), LNG2(361),
+     :          LNGR(25,25), PV(0:29), R, TOL, X(361), X1(25),
+     :          X2(25,25), Y(361), Y1(25), Y2(25,25)
+      CHARACTER PCODE*3
+
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+      INCLUDE 'prj.inc'
+      INTEGER   PRJ(PRJLEN)
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (PRJ, DUMMY)
+
+      DOUBLE PRECISION D2R, PI
+      PARAMETER (PI = 3.141592653589793238462643D0)
+      PARAMETER (D2R = PI/180D0)
+*-----------------------------------------------------------------------
+      STATUS = PRJINI(PRJ)
+
+      DO 10 J = 0, 29
+        STATUS = PRJPTD (PRJ, PRJ_PV, PV(J), J)
+ 10   CONTINUE
+
+*     N.B. special case - only three characters need be given.
+      STATUS = PRJPTC (PRJ, PRJ_CODE, PCODE, 0)
+
+*     Uncomment the next line to test alternative initializations of
+*     projection parameters.
+*     STATUS = PRJPTD (PRJ, PRJ_R0, 180D0/PI, 0)
+
+      WRITE (*, 20) PCODE, NORTH, SOUTH, TOL
+ 20   FORMAT ('Testing ',A3,'; latitudes',I3,' to',I4,
+     :        ', reporting tolerance',1PG8.1,' deg.')
+
+      NFAIL  = 0
+      DLNGMX = 0D0
+      DLATMX = 0D0
+
+      DO 100 LAT = NORTH, SOUTH, -1
+        LAT1 = DBLE(LAT)
+
+        J = 1
+        DO 30 LNG = -180, 180
+          LNG1(J) = DBLE(LNG)
+          J = J + 1
+ 30     CONTINUE
+
+        STATUS = PRJS2X (PRJ, 361, 1, 1, 1, LNG1(1), LAT1, X(1), Y(1),
+     :                   STAT1(1))
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 40) PCODE, STATUS
+ 40       FORMAT (3X,A3,'(S2X) ERROR',I2)
+        END IF
+
+        STATUS = PRJX2S (PRJ, 361, 0, 1, 1, X(1), Y(1),
+     :                   LNG2(1), LAT2(1), STAT2(1))
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 50) PCODE, STATUS
+ 50       FORMAT (3X,A3,'(X2S) ERROR',I2)
+        END IF
+
+        LNG = -180
+        DO 90 J = 1, 361
+          IF (STAT1(J).NE.0) THEN
+            WRITE (*, 60) PCODE, LNG1(J), LAT1
+ 60         FORMAT (3X,A3,'(S2X): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '  INVALID')
+            GO TO 90
+          END IF
+
+          IF (STAT2(J).NE.0) THEN
+            WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J)
+ 70         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,
+     :              '  INVALID')
+            GO TO 90
+          END IF
+
+          DLNG = ABS(LNG2(J) - LNG1(J))
+          IF (DLNG.GT.180D0) DLNG = ABS(DLNG-360D0)
+          IF (ABS(LAT).NE.90 .AND. DLNG.GT.DLNGMX) DLNGMX = DLNG
+          DLAT = ABS(LAT2(J) - LAT1)
+          IF (DLAT.GT.DLATMX) DLATMX = DLAT
+
+          IF (DLAT.GT.TOL) THEN
+            NFAIL = NFAIL + 1
+            WRITE (*, 80) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+     :                    LAT2(J)
+ 80         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              8X,'        x =',F20.15,'     y =',F20.15,/,
+     :              8X,'     lng2 =',F20.15,'  lat2 =',F20.15)
+          ELSE IF (ABS(LAT).NE.90) THEN
+            IF (DLNG.GT.TOL) THEN
+              NFAIL = NFAIL + 1
+              WRITE (*, 80) PCODE, LNG1(J), LAT1, X(J), Y(J),
+     :                      LNG2(J), LAT2(J)
+             END IF
+          END IF
+ 90     CONTINUE
+ 100  CONTINUE
+
+      WRITE (*, 110) DLNGMX, DLATMX
+ 110  FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'  lat',E8.1)
+
+
+*     Test closure at points close to the reference point.
+      R = 1D0
+      X1(13) = 0D0
+      Y1(13) = 0D0
+      DO 120 I = 1, 12
+        X1(I) = -R
+        Y1(I) = -R
+        X1(26-I) = R
+        Y1(26-I) = R
+
+        R = R / 10D0
+ 120  CONTINUE
+
+      STATUS = PRJX2S (PRJ, 25, 25, 1, 1, X1(1), Y1(1),
+     :                 LNGR(1,1), LATR(1,1), STATR1(1,1))
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 130) PCODE, STATUS
+ 130    FORMAT (3X,A3,'(X2S): ERROR',I3)
+      END IF
+
+      STATUS = PRJS2X (PRJ, 625, 0, 1, 1, LNGR(1,1), LATR(1,1),
+     :                 X2(1,1), Y2(1,1), STATR2(1,1))
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 140) PCODE, STATUS
+ 140    FORMAT (3X,A3,'(S2X): ERROR',I3)
+      END IF
+
+      DRMAX = 0D0
+
+      DO 190 J = 1, 25
+        DO 180 I = 1, 25
+          IF (STATR1(I,J).NE.0) THEN
+            WRITE (*, 150) PCODE, X1(I), Y1(J)
+ 150        FORMAT (3X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,
+     :              'INVALID')
+            GO TO 180
+          END IF
+
+          IF (STATR2(I,J).NE.0) THEN
+            WRITE (*, 160) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J)
+ 160        FORMAT (3X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,/
+     :              3X,'           lng =',F20.15,'   lat =',F20.15,
+     :              'INVALID')
+            GO TO 180
+          END IF
+
+          DX = X2(I,J) - X1(I)
+          DY = Y2(I,J) - Y1(J)
+          DR = SQRT(DX*DX + DY*DY)
+
+          IF (DR.GT.DRMAX) DRMAX = DR
+          IF (DR.GT.TOL) THEN
+            NFAIL = NFAIL + 1
+            WRITE (*, 170) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J),
+     :                     X2(I,J), Y2(I,J)
+ 170        FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :              8X,'      lng =',F20.15,'   lat =',F20.15,/,
+     :              8X,'       x2 =',F20.15,'    y2 =',F20.15)
+          END IF
+ 180    CONTINUE
+ 190  CONTINUE
+
+
+      WRITE (*, 200) DRMAX
+ 200  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+
+
+      PROJEX = NFAIL
+
+      END
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+d76 1
+a76 1
+      NFAIL = NFAIL + PROJEX ('SZP', PV, 90, -90, TOL)
+d209 1
+a209 1
+     :          STAT2(361), STATR(25,25), STATUS
+d249 1
+a249 1
+      DO 90 LAT = NORTH, SOUTH, -1
+d260 1
+a260 1
+        IF (STATUS.EQ.1) THEN
+a262 1
+          GO TO 90
+d267 1
+a267 1
+        IF (STATUS.EQ.1) THEN
+a269 1
+          GO TO 90
+d273 7
+a279 2
+        DO 80 J = 1, 361
+          IF (STAT1(J).NE.0) GO TO 80
+d282 5
+a286 8
+            NFAIL = NFAIL + 1
+            WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+     :                    LAT2(J), STAT2(J)
+ 60         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,/,
+     :              '             lng2 =',F20.15,'  lat2 =',F20.15,
+     :              '  ERROR',I3)
+            GO TO 80
+d297 1
+a297 1
+            WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+d299 1
+a299 1
+ 70         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+d305 1
+a305 1
+              WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J),
+d309 2
+a310 2
+ 80     CONTINUE
+ 90   CONTINUE
+d312 2
+a313 2
+      WRITE (*, 100) DLNGMX, DLATMX
+ 100  FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'   lat',E8.1)
+d320 1
+a320 1
+      DO 110 I = 1, 12
+d327 1
+a327 1
+ 110  CONTINUE
+d330 1
+a330 1
+     :                 LNGR(1,1), LATR(1,1), STATR(1,1))
+d332 2
+a333 3
+        WRITE (*, 120) PCODE, STATUS
+ 120    FORMAT (8X,A3,'(X2S): ERROR',I3)
+        GO TO 999
+d337 1
+a337 1
+     :                 X2(1,1), Y2(1,1), STATR(1,1))
+d339 2
+a340 3
+        WRITE (*, 130) PCODE, STATUS
+ 130    FORMAT (3X,A3,' ERROR',I3)
+        GO TO 999
+d345 17
+a361 2
+      DO 160 J = 1, 25
+        DO 150 I = 1, 25
+d369 1
+a369 1
+            WRITE (*, 140) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J),
+d371 1
+a371 1
+ 140        FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+d375 2
+a376 2
+ 150    CONTINUE
+ 160  CONTINUE
+d379 2
+a380 2
+      WRITE (*, 170) DRMAX
+ 170  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+d383 1
+a383 1
+ 999  PROJEX = NFAIL
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.9 2026/06/18 13:00:04 mcalabre Exp $
+@
+
+
+8.9.1.2
+log
+@Trivial tweak to output formating to match tprj1.c.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+d313 1
+a313 1
+ 100  FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'  lat',E8.1)
+@
+
+
+8.9.1.3
+log
+@Changes reflecting changes to tprj1.c.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.9.1.2 2026/09/18 09:16:57 mcalabre Exp mcalabre $
+d76 1
+a76 1
+      NFAIL = NFAIL + PROJEX ('SZP', PV, 90, -25, TOL)
+d209 1
+a209 1
+     :          STAT2(361), STATR1(25,25), STATR2(25,25), STATUS
+d249 1
+a249 1
+      DO 100 LAT = NORTH, SOUTH, -1
+d260 1
+a260 1
+        IF (STATUS.NE.0) THEN
+d263 1
+d268 1
+a268 1
+        IF (STATUS.NE.0) THEN
+d271 1
+d275 2
+a276 7
+        DO 90 J = 1, 361
+          IF (STAT1(J).NE.0) THEN
+            WRITE (*, 60) PCODE, LNG1(J), LAT1
+ 60         FORMAT (3X,A3,'(S2X): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '  INVALID')
+            GO TO 90
+          END IF
+d279 8
+a286 5
+            WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J)
+ 70         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,
+     :              '  INVALID')
+            GO TO 90
+d297 1
+a297 1
+            WRITE (*, 80) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+d299 1
+a299 1
+ 80         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+d305 1
+a305 1
+              WRITE (*, 80) PCODE, LNG1(J), LAT1, X(J), Y(J),
+d309 2
+a310 2
+ 90     CONTINUE
+ 100  CONTINUE
+d312 2
+a313 2
+      WRITE (*, 110) DLNGMX, DLATMX
+ 110  FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'  lat',E8.1)
+d320 1
+a320 1
+      DO 120 I = 1, 12
+d327 1
+a327 1
+ 120  CONTINUE
+d330 1
+a330 1
+     :                 LNGR(1,1), LATR(1,1), STATR1(1,1))
+d332 3
+a334 2
+        WRITE (*, 130) PCODE, STATUS
+ 130    FORMAT (3X,A3,'(X2S): ERROR',I3)
+d338 1
+a338 1
+     :                 X2(1,1), Y2(1,1), STATR2(1,1))
+d340 3
+a342 2
+        WRITE (*, 140) PCODE, STATUS
+ 140    FORMAT (3X,A3,'(S2X): ERROR',I3)
+d347 2
+a348 17
+      DO 190 J = 1, 25
+        DO 180 I = 1, 25
+          IF (STATR1(I,J).NE.0) THEN
+            WRITE (*, 150) PCODE, X1(I), Y1(J)
+ 150        FORMAT (3X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,
+     :              'INVALID')
+            GO TO 180
+          END IF
+
+          IF (STATR2(I,J).NE.0) THEN
+            WRITE (*, 160) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J)
+ 160        FORMAT (3X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,/
+     :              3X,'           lng =',F20.15,'   lat =',F20.15,
+     :              'INVALID')
+            GO TO 180
+          END IF
+
+d356 1
+a356 1
+            WRITE (*, 170) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J),
+d358 1
+a358 1
+ 170        FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+d362 2
+a363 2
+ 180    CONTINUE
+ 190  CONTINUE
+d366 2
+a367 2
+      WRITE (*, 200) DRMAX
+ 200  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+d370 1
+a370 1
+      PROJEX = NFAIL
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.7.1.1 2026/05/11 12:18:45 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.8 2026/05/22 11:19:31 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.7 2026/05/11 12:01:11 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.5.1.2 2026/03/29 13:36:19 mcalabre Exp mcalabre $
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.6 2026/03/29 13:53:57 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.5 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2025, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: tprj1.f,v 8.4.1.2 2025/12/06 13:37:19 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2026, Mark Calabretta
+d22 2
+a23 2
+* http://www.atnf.csiro.au/computing/software/wcs
+* $Id: tprj1.f,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2025, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.4.1.1 2024/10/28 13:58:42 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.2.1.2 2024/04/02 14:06:12 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.3 2024/05/13 16:33:01 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 8.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.1.1.1 2023/07/05 17:15:01 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.13.1.2 2023/06/15 04:17:21 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.13 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.11.1.1 2022/04/26 06:15:33 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.7.1.2 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.7 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.6.1.2 2021/07/02 06:10:47 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.7.1.1 2021/07/12 06:38:28 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d222 1
+a222 1
+      EQUIVALENCE (PRJ,DUMMY)
+d258 2
+a259 1
+        STATUS = PRJS2X (PRJ, 361, 1, 1, 1, LNG1, LAT1, X, Y, STAT1)
+d266 2
+a267 1
+        STATUS = PRJX2S (PRJ, 361, 0, 1, 1, X, Y, LNG2, LAT2, STAT2)
+d329 2
+a330 1
+      STATUS = PRJX2S (PRJ, 25, 25, 1, 1, X1, Y1, LNGR, LATR, STATR)
+d337 2
+a338 1
+      STATUS = PRJS2X (PRJ, 625, 0, 1, 1, LNGR, LATR, X2, Y2, STATR)
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.6 2021/04/13 12:57:02 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@gfortran 11.1.0 now compares the argument list in all calls to the same
+subroutine or function that occur anywhere in a source file.  A compilation
+error results if any arguments do not match in rank (scalar, vector, array,
+etc.).  The error can be downgraded to a warning with -std=legacy, but such
+warnings can only be suppressed by inhibiting ALL warnings.  This annoying
+behaviour makes it necessary for the subroutine or function calls to match,
+or at least appear so.  This affected calls to PRJX2S and PRJS2X in relation
+to the various array arguments.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+d222 1
+a222 1
+      EQUIVALENCE (PRJ, DUMMY)
+d258 1
+a258 2
+        STATUS = PRJS2X (PRJ, 361, 1, 1, 1, LNG1(1), LAT1, X(1), Y(1),
+     :                   STAT1(1))
+d265 1
+a265 2
+        STATUS = PRJX2S (PRJ, 361, 0, 1, 1, X(1), Y(1),
+     :                   LNG2(1), LAT2(1), STAT2(1))
+d327 1
+a327 2
+      STATUS = PRJX2S (PRJ, 25, 25, 1, 1, X1(1), Y1(1),
+     :                 LNGR(1,1), LATR(1,1), STATR(1,1))
+d334 1
+a334 2
+      STATUS = PRJS2X (PRJ, 625, 0, 1, 1, LNGR(1,1), LATR(1,1),
+     :                 X2(1,1), Y2(1,1), STATR(1,1))
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.3.1.3 2021/01/28 12:32:09 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+* $Id: tprj1.f,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d3 2
+a4 2
+* WCSLIB 7.3 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2020, Mark Calabretta
+a20 2
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+*
+d23 1
+a23 1
+* $Id: tprj1.f,v 7.2.1.2 2020/05/07 04:34:02 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.3
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d21 2
+d25 1
+a25 1
+* $Id: tprj1.f,v 7.3.1.2 2021/01/19 14:11:08 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d233 1
+a233 1
+        STATUS = PRJPUT (PRJ, PRJ_PV, PV(J), J)
+d237 1
+a237 1
+      STATUS = PRJPUT (PRJ, PRJ_CODE, PCODE, 0)
+d241 1
+a241 1
+*     STATUS = PRJPUT (PRJ, PRJ_R0, 180D0/PI, 0)
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 7.2 2020/03/09 07:31:24 mcalabre Exp $
+@
+
+
+7.2.1.2
+log
+@Replaced calls to PRJPUT with their type-specific equivalents.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d233 1
+a233 1
+        STATUS = PRJPTD (PRJ, PRJ_PV, PV(J), J)
+d237 1
+a237 1
+      STATUS = PRJPTC (PRJ, PRJ_CODE, PCODE, 0)
+d241 1
+a241 1
+*     STATUS = PRJPTD (PRJ, PRJ_R0, 180D0/PI, 0)
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.4.1.3 2019/12/31 03:29:14 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d236 1
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@In PROJEX, added a comment about only needing to give three characters of
+PRJ_CODE to PRJPUT.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+a235 1
+*     N.B. special case - only three characters need be given.
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.4.1.2 2019/12/31 02:49:50 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.2.1.2 2019/05/10 02:08:35 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 6.3 2019/07/12 07:33:40 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+* WCSLIB 6.2 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.19.1.1 2018/07/26 15:41:42 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.20 2018/10/05 05:32:42 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.17.1.2 2018/01/10 08:26:53 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.17 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.16.1.1 2017/01/15 04:29:03 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.15.1.2 2017/01/15 04:08:23 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.16 2017/01/15 04:25:03 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.15 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.14.1.1 2016/02/07 10:52:48 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.15 2016/04/05 12:55:12 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.15.1.1 2016/04/05 12:58:38 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.13.1.1 2016/01/26 08:54:35 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.12.1.2 2016/01/25 05:21:36 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.13 2016/01/26 08:51:16 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+* WCSLIB 5.12 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.11.1.1 2015/10/18 09:16:30 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.12 2015/11/15 02:13:02 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.12.1.1 2015/11/15 02:16:17 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.10.1.1 2015/10/09 08:22:39 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.11 2015/10/18 09:13:07 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.9.1.1 2015/07/21 09:28:11 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.10 2015/10/09 08:19:17 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.8.1.1 2015/07/08 11:07:22 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.9 2015/07/21 09:20:04 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.7.1.1 2015/06/29 02:47:26 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.8 2015/07/08 11:04:02 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.6.1.1 2015/06/14 07:14:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.7 2015/06/29 02:44:18 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.5.1.1 2015/05/05 13:21:03 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.6 2015/06/14 07:11:26 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.4.1.1 2015/04/21 14:44:31 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.5 2015/05/05 13:16:33 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.3.1.1 2015/04/21 02:54:05 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.4 2015/04/21 14:41:07 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.2.1.1 2015/04/15 12:39:18 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.3 2015/04/21 02:50:53 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.1.1.1 2015/04/07 11:01:12 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.2 2015/04/15 12:35:09 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 5.0.1.1 2015/04/05 12:28:03 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+* WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.25.1.2 2015/01/06 01:02:37 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 5.0 2015/04/05 12:25:02 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.25 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.24.1.1 2014/09/18 15:28:12 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.25 2014/12/14 14:29:38 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.25.1.1 2014/12/14 14:32:47 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.24 2014/09/18 15:25:02 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.22.1.1 2014/04/12 15:06:34 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.23 2014/05/13 05:50:53 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.21.1.1 2014/03/24 05:15:30 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.20.1.3 2014/03/23 06:40:42 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.21 2014/03/24 05:12:29 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.20 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+d210 6
+a215 5
+      INTEGER   J, LAT, LNG, NFAIL, NORTH, SOUTH, STAT1(361),
+     :          STAT2(361), STATUS
+      DOUBLE PRECISION DLAT, DLATMX, DLNG, DLNGMX, DR, DRMAX, LAT1,
+     :          LAT2(361), LNG1(361), LNG2(361), PV(0:29), R, THETA,
+     :          TOL, X(361), X1(361), X2(361), Y(361), Y1(361), Y2(361)
+d250 1
+a250 1
+      DO 80 LAT = NORTH, SOUTH, -1
+d263 1
+a263 1
+          GO TO 80
+d270 1
+a270 1
+          GO TO 80
+d274 2
+a275 2
+        DO 70 J = 1, 361
+          IF (STAT1(J).NE.0) GO TO 70
+d278 6
+a283 3
+            WRITE (*, 55) PCODE, LNG1(J), LAT1, X(J), Y(J), STAT2(J)
+ 55         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,
+d285 1
+a285 1
+            GO TO 70
+d296 1
+a296 1
+            WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+d298 1
+a298 1
+ 60         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+d304 1
+a304 1
+              WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J),
+d308 2
+a309 2
+ 70     CONTINUE
+ 80   CONTINUE
+d311 2
+a312 2
+      WRITE (*, 90) DLNGMX, DLATMX
+ 90   FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'   lat',E8.1)
+d316 25
+a340 2
+      R = 1.0
+      THETA = -180D0
+d344 5
+a348 11
+      DO 140 J = 1, 12
+        X1(1) = R*COS(THETA*D2R)
+        Y1(1) = R*SIN(THETA*D2R)
+
+        STATUS = PRJX2S (PRJ, 1, 1, 1, 1, X1, Y1, LNG1, LAT1, STAT2)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 100) PCODE, X1(1), Y1(1), STATUS
+ 100      FORMAT (8X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,
+     :            '  ERROR',I3)
+          GO TO 130
+        END IF
+d350 11
+a360 19
+        STATUS = PRJS2X (PRJ, 1, 1, 1, 1, LNG1, LAT1, X2, Y2, STAT1)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 110) PCODE, X1(1), Y1(1), LNG1(1), LAT1, STATUS
+ 110      FORMAT (3X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :            3X,'      lng =',F20.15,'   lat =',F20.15,'  ERROR',
+     :            I3)
+          GO TO 130
+        END IF
+
+        DR = SQRT((X2(1)-X1(1))**2 + (Y2(1)-Y1(1))**2)
+        IF (DR.GT.DRMAX) DRMAX = DR
+        IF (DR.GT.TOL) THEN
+          NFAIL = NFAIL + 1
+          WRITE (*, 120) PCODE, X1(1), Y1(1), LNG1(1), LAT1, X2(1),
+     :                   Y2(1)
+ 120      FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :            8X,'      lng =',F20.15,'   lat =',F20.15,/,
+     :            8X,'       x2 =',F20.15,'    y2 =',F20.15)
+        END IF
+a361 3
+ 130    R = R/10D0
+        THETA = THETA + 15D0
+ 140  CONTINUE
+d363 2
+a364 2
+      WRITE (*, 150) DRMAX
+ 150  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+d367 1
+a367 1
+      PROJEX = NFAIL
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.3
+log
+@Track changes to tprj1.c.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.20.1.2 2014/03/21 06:41:05 mcalabre Exp mcalabre $
+d210 5
+a214 6
+      INTEGER   I, J, LAT, LNG, NFAIL, NORTH, SOUTH, STAT1(361),
+     :          STAT2(361), STATR(25,25), STATUS
+      DOUBLE PRECISION DLAT, DLATMX, DLNG, DLNGMX, DR, DRMAX, DX, DY,
+     :          LAT1, LAT2(361), LATR(25,25), LNG1(361), LNG2(361),
+     :          LNGR(25,25), PV(0:29), R, TOL, X(361), X1(25),
+     :          X2(25,25), Y(361), Y1(25), Y2(25,25)
+d249 1
+a249 1
+      DO 90 LAT = NORTH, SOUTH, -1
+d262 1
+a262 1
+          GO TO 90
+d269 1
+a269 1
+          GO TO 90
+d273 2
+a274 2
+        DO 80 J = 1, 361
+          IF (STAT1(J).NE.0) GO TO 80
+d277 3
+a279 6
+            NFAIL = NFAIL + 1
+            WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+     :                    LAT2(J), STAT2(J)
+ 60         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,/,
+     :              '             lng2 =',F20.15,'  lat2 =',F20.15,
+d281 1
+a281 1
+            GO TO 80
+d292 1
+a292 1
+            WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+d294 1
+a294 1
+ 70         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+d300 1
+a300 1
+              WRITE (*, 70) PCODE, LNG1(J), LAT1, X(J), Y(J),
+d304 2
+a305 2
+ 80     CONTINUE
+ 90   CONTINUE
+d307 2
+a308 2
+      WRITE (*, 100) DLNGMX, DLATMX
+ 100  FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'   lat',E8.1)
+d312 2
+a313 18
+      R = 1D0
+      X1(13) = 0D0
+      Y1(13) = 0D0
+      DO 110 I = 1, 12
+        X1(I) = -R
+        Y1(I) = -R
+        X1(26-I) = R
+        Y1(26-I) = R
+
+        R = R / 10D0
+ 110  CONTINUE
+
+      STATUS = PRJX2S (PRJ, 25, 25, 1, 1, X1, Y1, LNGR, LATR, STATR)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 120) PCODE, STATUS
+ 120    FORMAT (8X,A3,'(X2S): ERROR',I3)
+        GO TO 999
+      END IF
+d315 1
+a315 6
+      STATUS = PRJS2X (PRJ, 625, 0, 1, 1, LNGR, LATR, X2, Y2, STATR)
+      IF (STATUS.NE.0) THEN
+        WRITE (*, 130) PCODE, STATUS
+ 130    FORMAT (3X,A3,' ERROR',I3)
+        GO TO 999
+      END IF
+d317 11
+a327 1
+      DRMAX = 0D0
+d329 8
+a336 5
+      DO 160 J = 1, 25
+        DO 150 I = 1, 25
+          DX = X2(I,J) - X1(I)
+          DY = Y2(I,J) - Y1(J)
+          DR = SQRT(DX*DX + DY*DY)
+d338 10
+a347 11
+          IF (DR.GT.DRMAX) DRMAX = DR
+          IF (DR.GT.TOL) THEN
+            NFAIL = NFAIL + 1
+            WRITE (*, 140) PCODE, X1(I), Y1(J), LNGR(I,J), LATR(I,J),
+     :                     X2(I,J), Y2(I,J)
+ 140        FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :              8X,'      lng =',F20.15,'   lat =',F20.15,/,
+     :              8X,'       x2 =',F20.15,'    y2 =',F20.15)
+          END IF
+ 150    CONTINUE
+ 160  CONTINUE
+d349 3
+d353 2
+a354 2
+      WRITE (*, 170) DRMAX
+ 170  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+d357 1
+a357 1
+ 999  PROJEX = NFAIL
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.18.1.1 2013/07/13 10:02:39 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.19 2013/09/29 14:17:53 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.17.1.2 2013/07/12 04:11:21 mcalabre Exp mcalabre $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.18 2013/07/13 10:00:06 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.16.1.2 2013/01/29 05:11:18 cal103 Exp cal103 $
+d181 3
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.17 2013/01/29 05:29:22 cal103 Exp $
+@
+
+
+4.17.1.2
+log
+@Added the XPH projection.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+a180 3
+
+*     XPH: HEALPix polar, aka "butterfly" projection.
+      NFAIL = NFAIL + PROJEX ('XPH', PV, 90, -90, TOL)
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.16 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.14.1.1 2012/07/13 10:04:58 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+* $Id: tprj1.f,v 4.13.1.2 2012/07/13 03:41:54 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+* $Id: tprj1.f,v 4.14 2012/07/13 10:02:42 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d21 1
+a21 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d23 3
+a25 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: tprj1.f,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.13 2012/03/14 07:39:31 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d21 7
+a27 1
+* Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+* http://www.atnf.csiro.au/people/Mark.Calabretta
+* $Id: tprj1.f,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.11.1.1 2012/02/20 23:31:14 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.11 2012/02/20 23:30:03 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.8.1.3 2012/01/24 05:24:12 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.9 2012/01/24 05:40:30 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.8 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.7.1.2 2011/08/12 04:51:20 cal103 Exp cal103 $
+d220 3
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added a comment in the code reinforcing the necessity for INTEGER arrays
+holding structs to be aligned on a DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.8.1.1 2011/08/15 08:07:07 cal103 Exp cal103 $
+a219 3
+*     On some systems, such as Sun Sparc, the struct MUST be aligned
+*     on a double precision boundary, done here using an equivalence.
+*     Failure to do this may result in mysterious "bus errors".
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.8.1.2 2011/08/16 01:34:41 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.6.1.3 2011/01/27 01:22:47 cal103 Exp cal103 $
+d42 1
+a42 1
+      INTEGER   J, K, STATUS
+d64 1
+a64 1
+          ENDIF
+d73 2
+d78 1
+a78 1
+      CALL PROJEX ('AZP', PV, 90,   5, TOL)
+d84 1
+a84 1
+      CALL PROJEX ('SZP', PV, 90, -90, TOL)
+d87 1
+a87 1
+      CALL PROJEX ('TAN', PV, 90,   5, TOL)
+d90 1
+a90 1
+      CALL PROJEX ('STG', PV, 90, -85, TOL)
+d95 1
+a95 1
+      CALL PROJEX ('SIN', PV, 90,  45, TOL)
+d98 1
+a98 1
+      CALL PROJEX ('ARC', PV, 90, -90, TOL)
+d111 1
+a111 1
+      CALL PROJEX ('ZPN', PV, 90,  10, TOL)
+d114 1
+a114 1
+      CALL PROJEX ('ZEA', PV, 90, -85, TOL)
+d118 1
+a118 1
+      CALL PROJEX ('AIR', PV, 90, -85, TOL)
+d123 1
+a123 1
+      CALL PROJEX ('CYP', PV, 90, -90, TOL)
+d127 1
+a127 1
+      CALL PROJEX ('CEA', PV, 90, -90, TOL)
+d130 1
+a130 1
+      CALL PROJEX ('CAR', PV, 90, -90, TOL)
+d133 1
+a133 1
+      CALL PROJEX ('MER', PV, 85, -85, TOL)
+d136 1
+a136 1
+      CALL PROJEX ('SFL', PV, 90, -90, TOL)
+d139 1
+a139 1
+      CALL PROJEX ('PAR', PV, 90, -90, TOL)
+d142 1
+a142 1
+      CALL PROJEX ('MOL', PV, 90, -90, TOL)
+d145 1
+a145 1
+      CALL PROJEX ('AIT', PV, 90, -90, TOL)
+d150 1
+a150 1
+      CALL PROJEX ('COP', PV, 90, -25, TOL)
+d155 1
+a155 1
+      CALL PROJEX ('COE', PV, 90, -90, TOL)
+d160 1
+a160 1
+      CALL PROJEX ('COD', PV, 90, -90, TOL)
+d165 1
+a165 1
+      CALL PROJEX ('COO', PV, 85, -90, TOL)
+d169 1
+a169 1
+      CALL PROJEX ('BON', PV, 90, -90, TOL)
+d172 1
+a172 1
+      CALL PROJEX ('PCO', PV, 90, -90, TOL)
+d175 1
+a175 1
+      CALL PROJEX ('TSC', PV, 90, -90, TOL)
+d178 1
+a178 1
+      CALL PROJEX ('CSC', PV, 90, -90, 4D-2)
+d181 1
+a181 1
+      CALL PROJEX ('QSC', PV, 90, -90, TOL)
+d186 12
+a197 1
+      CALL PROJEX ('HPX', PV, 90, -90, TOL)
+d201 2
+a202 2
+
+      SUBROUTINE PROJEX (PCODE, PV, NORTH, SOUTH, TOL)
+d213 2
+a214 2
+      INTEGER   J, LAT, LNG, NORTH, SOUTH, STAT1(361), STAT2(361),
+     :          STATUS
+d245 1
+d291 1
+d299 1
+d308 1
+a308 1
+ 90   FORMAT (13X,'Maximum residual (sky): lng',1P,E10.3,'   lat',E10.3)
+d341 1
+d354 2
+a355 1
+ 150  FORMAT (13X,'Maximum residual (ref):  dR',1PE10.3)
+d357 1
+a358 1
+      RETURN
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.7 2011/02/07 07:03:43 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Report PASS or FAIL and the number of failures.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d42 1
+a42 1
+      INTEGER   J, K, NFAIL, PROJEX, STATUS
+d64 1
+a64 1
+          END IF
+a72 2
+      NFAIL = 0
+
+d76 1
+a76 1
+      NFAIL = NFAIL + PROJEX ('AZP', PV, 90,   5, TOL)
+d82 1
+a82 1
+      NFAIL = NFAIL + PROJEX ('SZP', PV, 90, -90, TOL)
+d85 1
+a85 1
+      NFAIL = NFAIL + PROJEX ('TAN', PV, 90,   5, TOL)
+d88 1
+a88 1
+      NFAIL = NFAIL + PROJEX ('STG', PV, 90, -85, TOL)
+d93 1
+a93 1
+      NFAIL = NFAIL + PROJEX ('SIN', PV, 90,  45, TOL)
+d96 1
+a96 1
+      NFAIL = NFAIL + PROJEX ('ARC', PV, 90, -90, TOL)
+d109 1
+a109 1
+      NFAIL = NFAIL + PROJEX ('ZPN', PV, 90,  10, TOL)
+d112 1
+a112 1
+      NFAIL = NFAIL + PROJEX ('ZEA', PV, 90, -85, TOL)
+d116 1
+a116 1
+      NFAIL = NFAIL + PROJEX ('AIR', PV, 90, -85, TOL)
+d121 1
+a121 1
+      NFAIL = NFAIL + PROJEX ('CYP', PV, 90, -90, TOL)
+d125 1
+a125 1
+      NFAIL = NFAIL + PROJEX ('CEA', PV, 90, -90, TOL)
+d128 1
+a128 1
+      NFAIL = NFAIL + PROJEX ('CAR', PV, 90, -90, TOL)
+d131 1
+a131 1
+      NFAIL = NFAIL + PROJEX ('MER', PV, 85, -85, TOL)
+d134 1
+a134 1
+      NFAIL = NFAIL + PROJEX ('SFL', PV, 90, -90, TOL)
+d137 1
+a137 1
+      NFAIL = NFAIL + PROJEX ('PAR', PV, 90, -90, TOL)
+d140 1
+a140 1
+      NFAIL = NFAIL + PROJEX ('MOL', PV, 90, -90, TOL)
+d143 1
+a143 1
+      NFAIL = NFAIL + PROJEX ('AIT', PV, 90, -90, TOL)
+d148 1
+a148 1
+      NFAIL = NFAIL + PROJEX ('COP', PV, 90, -25, TOL)
+d153 1
+a153 1
+      NFAIL = NFAIL + PROJEX ('COE', PV, 90, -90, TOL)
+d158 1
+a158 1
+      NFAIL = NFAIL + PROJEX ('COD', PV, 90, -90, TOL)
+d163 1
+a163 1
+      NFAIL = NFAIL + PROJEX ('COO', PV, 85, -90, TOL)
+d167 1
+a167 1
+      NFAIL = NFAIL + PROJEX ('BON', PV, 90, -90, TOL)
+d170 1
+a170 1
+      NFAIL = NFAIL + PROJEX ('PCO', PV, 90, -90, TOL)
+d173 1
+a173 1
+      NFAIL = NFAIL + PROJEX ('TSC', PV, 90, -90, TOL)
+d176 1
+a176 1
+      NFAIL = NFAIL + PROJEX ('CSC', PV, 90, -90, 4D-2)
+d179 1
+a179 1
+      NFAIL = NFAIL + PROJEX ('QSC', PV, 90, -90, TOL)
+d184 1
+a184 1
+      NFAIL = NFAIL + PROJEX ('HPX', PV, 90, -90, TOL)
+d186 1
+a187 9
+      IF (NFAIL.NE.0) THEN
+        WRITE (*, 60) NFAIL
+ 60     FORMAT (/,'FAIL:',I5,' closure residuals exceed reporting ',
+     :    'tolerance.')
+      ELSE
+        WRITE (*, 70)
+ 70     FORMAT (/,'PASS: All closure residuals are within reporting ',
+     :    'tolerance.')
+      END IF
+d189 1
+a189 4
+      END
+
+*-----------------------------------------------------------------------
+      INTEGER FUNCTION PROJEX (PCODE, PV, NORTH, SOUTH, TOL)
+d200 2
+a201 2
+      INTEGER   J, LAT, LNG, NFAIL, NORTH, SOUTH, STAT1(361),
+     :          STAT2(361), STATUS
+a231 1
+      NFAIL  = 0
+a276 1
+            NFAIL = NFAIL + 1
+a283 1
+              NFAIL = NFAIL + 1
+d292 1
+a292 1
+ 90   FORMAT (13X,'Maximum residual (sky): lng',1P,E8.1,'   lat',E8.1)
+a324 1
+          NFAIL = NFAIL + 1
+d337 1
+a337 2
+ 150  FORMAT (13X,'Maximum residual (ref):  dR',1PE8.1)
+
+a338 1
+      PROJEX = NFAIL
+d340 1
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.6 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.5.1.2 2010/11/15 04:42:27 cal103 Exp cal103 $
+d209 2
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.6 2010/11/16 06:15:32 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.6.1.3
+log
+@Use an EQUIVALENCE to ensure that the PRJ array is aligned on a
+DOUBLE PRECISION boundary.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.6.1.2 2011/01/14 06:34:16 cal103 Exp cal103 $
+a208 2
+      DOUBLE PRECISION DUMMY
+      EQUIVALENCE (PRJ,DUMMY)
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+* WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.4.1.2 2010/01/19 03:44:57 cal103 Exp cal103 $
+d40 3
+a42 1
+      INTEGER   J
+d57 13
+a69 1
+      DO 20 J = 0, 29
+d71 1
+a71 1
+ 20   CONTINUE
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.5.1.2
+log
+@Print PRJ_ERRMSG.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+d40 1
+a40 3
+      INCLUDE 'prj.inc'
+
+      INTEGER   J, K, STATUS
+d55 1
+a55 13
+      WRITE (*, '(/,A)') 'List of prj status return values:'
+      DO 40 STATUS = 1, 4
+        DO 30 K = 80, 1, -1
+          IF (PRJ_ERRMSG(STATUS)(K:K).NE.' ') THEN
+            WRITE(*, 20) STATUS, PRJ_ERRMSG(STATUS)(:K)
+ 20         FORMAT(I4,': ',A,'.')
+            GO TO 40
+          ENDIF
+ 30     CONTINUE
+ 40   CONTINUE
+      WRITE(*, '()')
+
+      DO 50 J = 0, 29
+d57 1
+a57 1
+ 50   CONTINUE
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.3.1.3 2009/08/06 02:50:21 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.4 2009/08/06 07:52:43 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+* Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+* $Id: tprj1.f,v 4.4.1.1 2009/08/10 08:55:07 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+*   This file is part of WCSLIB.
+d8 4
+a11 4
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 4
+a16 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d18 2
+a19 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+d29 3
+a31 3
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: tprj1.f,v 4.2.1.3 2007/12/03 05:37:50 cal103 Exp cal103 $
+d37 1
+a37 1
+*   TPRJ1 tests forward and reverse spherical projections for closure.
+d56 1
+a56 1
+         PV(J) = 0D0
+d203 1
+a203 1
+         STATUS = PRJPUT (PRJ, PRJ_PV, PV(J), J)
+d220 1
+a220 1
+         LAT1 = DBLE(LAT)
+d222 51
+a272 51
+         J = 1
+         DO 30 LNG = -180, 180
+            LNG1(J) = DBLE(LNG)
+            J = J + 1
+ 30      CONTINUE
+
+         STATUS = PRJS2X (PRJ, 361, 1, 1, 1, LNG1, LAT1, X, Y, STAT1)
+         IF (STATUS.EQ.1) THEN
+            WRITE (*, 40) PCODE, STATUS
+ 40         FORMAT (3X,A3,'(S2X) ERROR',I2)
+            GO TO 80
+         END IF
+
+         STATUS = PRJX2S (PRJ, 361, 0, 1, 1, X, Y, LNG2, LAT2, STAT2)
+         IF (STATUS.EQ.1) THEN
+            WRITE (*, 50) PCODE, STATUS
+ 50         FORMAT (3X,A3,'(X2S) ERROR',I2)
+            GO TO 80
+         END IF
+
+         LNG = -180
+         DO 70 J = 1, 361
+            IF (STAT1(J).NE.0) GO TO 70
+
+            IF (STAT2(J).NE.0) THEN
+               WRITE (*, 55) PCODE, LNG1(J), LAT1, X(J), Y(J), STAT2(J)
+ 55            FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :                 '                x =',F20.15,'     y =',F20.15,
+     :                 '  ERROR',I3)
+               GO TO 70
+            END IF
+
+            DLNG = ABS(LNG2(J) - LNG1(J))
+            IF (DLNG.GT.180D0) DLNG = ABS(DLNG-360D0)
+            IF (ABS(LAT).NE.90 .AND. DLNG.GT.DLNGMX) DLNGMX = DLNG
+            DLAT = ABS(LAT2(J) - LAT1)
+            IF (DLAT.GT.DLATMX) DLATMX = DLAT
+
+            IF (DLAT.GT.TOL) THEN
+               WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+     :                       LAT2(J)
+ 60            FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :                 8X,'        x =',F20.15,'     y =',F20.15,/,
+     :                 8X,'     lng2 =',F20.15,'  lat2 =',F20.15)
+            ELSE IF (ABS(LAT).NE.90) THEN
+               IF (DLNG.GT.TOL) THEN
+                  WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J),
+     :                          LNG2(J), LAT2(J)
+               END IF
+            END IF
+ 70      CONTINUE
+d286 2
+a287 10
+         X1(1) = R*COS(THETA*D2R)
+         Y1(1) = R*SIN(THETA*D2R)
+
+         STATUS = PRJX2S (PRJ, 1, 1, 1, 1, X1, Y1, LNG1, LAT1, STAT2)
+         IF (STATUS.NE.0) THEN
+            WRITE (*, 100) PCODE, X1(1), Y1(1), STATUS
+ 100        FORMAT (8X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,
+     :              '  ERROR',I3)
+            GO TO 130
+         END IF
+d289 26
+a314 18
+         STATUS = PRJS2X (PRJ, 1, 1, 1, 1, LNG1, LAT1, X2, Y2, STAT1)
+         IF (STATUS.NE.0) THEN
+            WRITE (*, 110) PCODE, X1(1), Y1(1), LNG1(1), LAT1, STATUS
+ 110        FORMAT (3X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :              3X,'      lng =',F20.15,'   lat =',F20.15,'  ERROR',
+     :              I3)
+            GO TO 130
+         END IF
+
+         DR = SQRT((X2(1)-X1(1))**2 + (Y2(1)-Y1(1))**2)
+         IF (DR.GT.DRMAX) DRMAX = DR
+         IF (DR.GT.TOL) THEN
+            WRITE (*, 120) PCODE, X1(1), Y1(1), LNG1(1), LAT1, X2(1),
+     :                     Y2(1)
+ 120        FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :              8X,'      lng =',F20.15,'   lat =',F20.15,/,
+     :              8X,'       x2 =',F20.15,'    y2 =',F20.15)
+         END IF
+d316 2
+a317 2
+ 130     R = R/10D0
+         THETA = THETA + 15D0
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.4 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+*   $Id: tprj1.f,v 4.3 2007/12/27 05:42:52 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+* WCSLIB 4.4 - an implementation of the FITS WCS standard.
+* Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+* This file is part of WCSLIB.
+d8 4
+a11 4
+* WCSLIB is free software: you can redistribute it and/or modify it
+* under the terms of the GNU Lesser General Public License as published
+* by the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+d13 4
+a16 4
+* WCSLIB is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+* License for more details.
+d18 2
+a19 2
+* You should have received a copy of the GNU Lesser General Public
+* License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 7
+* Correspondence concerning WCSLIB may be directed to:
+*   Internet email: mcalabre@@atnf.csiro.au
+*   Postal address: Dr. Mark Calabretta
+*                   Australia Telescope National Facility, CSIRO
+*                   PO Box 76
+*                   Epping NSW 1710
+*                   AUSTRALIA
+d29 3
+a31 3
+* Author: Mark Calabretta, Australia Telescope National Facility
+* http://www.atnf.csiro.au/~mcalabre/index.html
+* $Id: tprj1.f,v 4.3.1.1 2007/12/27 13:25:35 cal103 Exp cal103 $
+d37 1
+a37 1
+* TPRJ1 tests forward and reverse spherical projections for closure.
+@
+
+
+4.3.1.3
+log
+@Changed indentation.
+@
+text
+@d31 1
+a31 1
+* $Id: tprj1.f,v 4.3.1.2 2009/07/22 07:28:07 cal103 Exp cal103 $
+d56 1
+a56 1
+        PV(J) = 0D0
+d203 1
+a203 1
+        STATUS = PRJPUT (PRJ, PRJ_PV, PV(J), J)
+d220 1
+a220 1
+        LAT1 = DBLE(LAT)
+d222 51
+a272 51
+        J = 1
+        DO 30 LNG = -180, 180
+          LNG1(J) = DBLE(LNG)
+          J = J + 1
+ 30     CONTINUE
+
+        STATUS = PRJS2X (PRJ, 361, 1, 1, 1, LNG1, LAT1, X, Y, STAT1)
+        IF (STATUS.EQ.1) THEN
+          WRITE (*, 40) PCODE, STATUS
+ 40       FORMAT (3X,A3,'(S2X) ERROR',I2)
+          GO TO 80
+        END IF
+
+        STATUS = PRJX2S (PRJ, 361, 0, 1, 1, X, Y, LNG2, LAT2, STAT2)
+        IF (STATUS.EQ.1) THEN
+          WRITE (*, 50) PCODE, STATUS
+ 50       FORMAT (3X,A3,'(X2S) ERROR',I2)
+          GO TO 80
+        END IF
+
+        LNG = -180
+        DO 70 J = 1, 361
+          IF (STAT1(J).NE.0) GO TO 70
+
+          IF (STAT2(J).NE.0) THEN
+            WRITE (*, 55) PCODE, LNG1(J), LAT1, X(J), Y(J), STAT2(J)
+ 55         FORMAT (3X,A3,'(X2S): lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              '                x =',F20.15,'     y =',F20.15,
+     :              '  ERROR',I3)
+            GO TO 70
+          END IF
+
+          DLNG = ABS(LNG2(J) - LNG1(J))
+          IF (DLNG.GT.180D0) DLNG = ABS(DLNG-360D0)
+          IF (ABS(LAT).NE.90 .AND. DLNG.GT.DLNGMX) DLNGMX = DLNG
+          DLAT = ABS(LAT2(J) - LAT1)
+          IF (DLAT.GT.DLATMX) DLATMX = DLAT
+
+          IF (DLAT.GT.TOL) THEN
+            WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+     :                    LAT2(J)
+ 60         FORMAT (8X,A3,': lng1 =',F20.15,'  lat1 =',F20.15,/,
+     :              8X,'        x =',F20.15,'     y =',F20.15,/,
+     :              8X,'     lng2 =',F20.15,'  lat2 =',F20.15)
+          ELSE IF (ABS(LAT).NE.90) THEN
+            IF (DLNG.GT.TOL) THEN
+              WRITE (*, 60) PCODE, LNG1(J), LAT1, X(J), Y(J),
+     :                      LNG2(J), LAT2(J)
+             END IF
+          END IF
+ 70     CONTINUE
+d286 10
+a295 2
+        X1(1) = R*COS(THETA*D2R)
+        Y1(1) = R*SIN(THETA*D2R)
+d297 18
+a314 26
+        STATUS = PRJX2S (PRJ, 1, 1, 1, 1, X1, Y1, LNG1, LAT1, STAT2)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 100) PCODE, X1(1), Y1(1), STATUS
+ 100      FORMAT (8X,A3,'(X2S):   x1 =',F20.15,'    y1 =',F20.15,
+     :            '  ERROR',I3)
+          GO TO 130
+        END IF
+
+        STATUS = PRJS2X (PRJ, 1, 1, 1, 1, LNG1, LAT1, X2, Y2, STAT1)
+        IF (STATUS.NE.0) THEN
+          WRITE (*, 110) PCODE, X1(1), Y1(1), LNG1(1), LAT1, STATUS
+ 110      FORMAT (3X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :            3X,'      lng =',F20.15,'   lat =',F20.15,'  ERROR',
+     :            I3)
+          GO TO 130
+        END IF
+
+        DR = SQRT((X2(1)-X1(1))**2 + (Y2(1)-Y1(1))**2)
+        IF (DR.GT.DRMAX) DRMAX = DR
+        IF (DR.GT.TOL) THEN
+          WRITE (*, 120) PCODE, X1(1), Y1(1), LNG1(1), LAT1, X2(1),
+     :                   Y2(1)
+ 120      FORMAT (8X,A3,':   x1 =',F20.15,'    y1 =',F20.15,/,
+     :            8X,'      lng =',F20.15,'   lat =',F20.15,/,
+     :            8X,'       x2 =',F20.15,'    y2 =',F20.15)
+        END IF
+d316 2
+a317 2
+ 130    R = R/10D0
+        THETA = THETA + 15D0
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; removed comment
+on catching IEEE floating point exceptions with the Sun Fortran compiler.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+d6 1
+a6 4
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+d8 4
+a11 4
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+d13 7
+a19 3
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d31 1
+a31 1
+*   $Id: tprj1.f,v 4.1 2005/08/26 13:43:27 cal103 Exp cal103 $
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 4.2 2005/09/21 13:37:53 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Fixed long lines in the GNU copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d6 4
+a9 4
+*   WCSLIB is free software; you can redistribute it and/or modify it
+*   under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   WCSLIB is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with WCSLIB; if not, write to the Free Software Foundation,
+*   Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+d30 1
+a30 1
+*   $Id: tprj1.f,v 4.2.1.1 2005/12/05 01:37:43 cal103 Exp cal103 $
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d6 4
+a9 6
+*   This file is part of WCSLIB.
+*
+*   WCSLIB is free software: you can redistribute it and/or modify
+*   it under the terms of the GNU Lesser General Public License as
+*   published by the Free Software Foundation, either version 3 of
+*   the License, or (at your option) any later version.
+d13 2
+a14 2
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*   GNU Lesser General Public License for more details.
+d16 3
+a18 2
+*   You should have received a copy of the GNU Lesser General Public
+*   License along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 4.2.1.2 2007/08/02 06:40:51 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: test closure for the new HPX projection.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 4.0 2005/02/04 12:45:05 cal103 Exp cal103 $
+a47 6
+*     Uncomment the following two lines to raise SIGFPE on floating
+*     point exceptions for the Sun FORTRAN compiler.  This signal can
+*     be caught within 'dbx' by issuing the command "catch FPE".
+*#include <f77_floatingpoint.h>
+*      call ieee_handler ('set', 'common', SIGFPE_ABORT)
+
+d49 4
+a52 4
+ 10   FORMAT (/,'Testing closure of WCSLIB spherical projection ',
+     :          'routines',/,
+     :          '-----------------------------------------------',
+     :          '--------')
+@
+
+
+4.0
+log
+@WCSLIB 4.0: changed from LGPL to GPL.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.0 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 3.6 2004/08/25 06:32:04 cal103 Exp cal103 $
+d172 5
+d207 4
+d215 1
+a215 5
+*     PRJ_R0 = 180D0/PI
+
+      DO 10 J = 0, 29
+         STATUS = PRJPUT (PRJ, PRJ_PV, PV(J), J)
+ 10   CONTINUE
+d227 2
+a228 2
+         LNG = -180
+         DO 30 J = 1, 361
+d230 1
+a230 1
+            LNG = LNG + 1
+d236 1
+a236 1
+ 40         FORMAT (3X,A3,'(S2X):  ERROR',I2)
+d243 1
+a243 1
+ 50         FORMAT (3X,A3,'(X2S):  ERROR',I2)
+@
+
+
+3.6
+log
+@WCSLIB 3.6: Changed "WRITE (6, ...)" to "WRITE (*, ...)" as being standard
+FORTRAN and notionally more portable; in error messages, print "ERROR"
+(in uppercase) - POSIX standard.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.6 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2004, Mark Calabretta
+d6 4
+a9 4
+*   This program is free software; you can redistribute it and/or modify
+*   it under the terms of the GNU General Public License as published by
+*   the Free Software Foundation; either version 2 of the License, or
+*   (at your option) any later version.
+d11 4
+a14 4
+*   This program is distributed in the hope that it will be useful, but
+*   WITHOUT ANY WARRANTY; without even the implied warranty of
+*   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+*   General Public License for more details.
+d16 3
+a18 3
+*   You should have received a copy of the GNU General Public License
+*   along with this library; if not, write to the Free Software
+*   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 3.5 2004/06/28 04:51:23 mcalabre Exp mcalabre $
+@
+
+
+3.5
+log
+@WCSLIB 3.5
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.5 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: tprj1.f,v 3.4 2004/02/11 00:04:18 mcalabre Exp mcalabre $
+d54 1
+a54 1
+      WRITE (6, 10)
+d212 1
+a212 1
+      WRITE (6, 20) PCODE, NORTH, SOUTH, TOL
+d230 2
+a231 2
+            WRITE (6, 40) PCODE, STATUS
+ 40         FORMAT (3X,A3,'(S2X):  Error',I2)
+d237 2
+a238 2
+            WRITE (6, 50) PCODE, STATUS
+ 50         FORMAT (3X,A3,'(X2S):  Error',I2)
+d247 1
+a247 1
+               WRITE (6, 55) PCODE, LNG1(J), LAT1, X(J), Y(J), STAT2(J)
+d250 1
+a250 1
+     :                 '  error',I3)
+d261 1
+a261 1
+               WRITE (6, 60) PCODE, LNG1(J), LAT1, X(J), Y(J), LNG2(J),
+d268 1
+a268 1
+                  WRITE (6, 60) PCODE, LNG1(J), LAT1, X(J), Y(J),
+d275 1
+a275 1
+      WRITE (6, 90) DLNGMX, DLATMX
+d291 1
+a291 1
+            WRITE (6, 100) PCODE, X1(1), Y1(1), STATUS
+d293 1
+a293 1
+     :              '  error',I3)
+d299 1
+a299 1
+            WRITE (6, 110) PCODE, X1(1), Y1(1), LNG1(1), LAT1, STATUS
+d301 1
+a301 1
+     :              3X,'      lng =',F20.15,'   lat =',F20.15,'  error',
+d309 1
+a309 1
+            WRITE (6, 120) PCODE, X1(1), Y1(1), LNG1(1), LAT1, X2(1),
+d320 1
+a320 1
+      WRITE (6, 150) DRMAX
+@
+
+
+3.4
+log
+@WCSLIB 3.4
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.4 - an implementation of the FITS WCS convention.
+d28 3
+d32 1
+d35 1
+a37 1
+*   $Id: tprj1.f,v 3.3 2003/10/21 08:36:48 mcalabre Exp mcalabre $
+@
+
+
+3.3
+log
+@WCSLIB 3.3
+@
+text
+@d3 2
+a4 2
+*   WCSLIB 3.3 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2003, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tprj1.f,v 3.2 2003/09/09 03:54:37 mcalabre Exp mcalabre $
+@
+
+
+3.2
+log
+@WCSLIB 3.2
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.2 - an implementation of the FITS WCS convention.
+d33 1
+a33 1
+*   $Id: tprj1.f,v 3.1 2003/04/28 04:48:53 mcalabre Exp mcalabre $
+d114 1
+a114 1
+*     CAR: Cartesian.
+@
+
+
+3.1
+log
+@WCSLIB 3.1
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.1 - an implementation of the FITS WCS convention.
+d33 1
+a33 1
+*   $Id: tprj1.f,v 3.0 2003/04/01 05:42:56 mcalabre Exp mcalabre $
+@
+
+
+3.0
+log
+@WCSLIB 3.0
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 3.0 - an implementation of the FITS WCS convention.
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.10 2002/04/03 01:24:44 mcalabre Exp $
+@
+
+
+2.10
+log
+@Updated date in copyright notice.
+@
+text
+@d3 2
+a4 2
+*   WCSLIB - an implementation of the FITS WCS proposal.
+*   Copyright (C) 1995-2002, Mark Calabretta
+d22 4
+a25 4
+*      Postal address: Dr. Mark Calabretta,
+*                      Australia Telescope National Facility,
+*                      P.O. Box 76,
+*                      Epping, NSW, 2121,
+d29 1
+a29 1
+      PROGRAM TPROJ1
+d31 1
+a31 1
+*   TPROJ1 tests forward and reverse spherical projections for closure.
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.9 2001/11/16 03:53:59 mcalabre Exp mcalabre $
+d36 1
+a36 1
+      DOUBLE PRECISION PRJ(0:20)
+d42 1
+a42 1
+      PARAMETER (TOL = 1.0D-9)
+d50 9
+a58 5
+      WRITE (6, 5)
+ 5    FORMAT (/,'Testing closure of WCSLIB spherical projection ',
+     *          'routines',/,
+     *          '-----------------------------------------------',
+     *          '--------')
+a59 4
+      DO 10 J = 1, 20
+         PRJ(J) = 0D0
+ 10   CONTINUE
+
+d61 3
+a63 3
+      PRJ(1) = 0.5D0
+      PRJ(2) =  30D0
+      CALL PROJEX ('AZP', PRJ, 90,   5, TOL)
+d66 4
+a69 4
+      PRJ(1) = 0.5D0
+      PRJ(2) = 210D0
+      PRJ(3) =  60D0
+      CALL PROJEX ('SZP', PRJ, 90, -90, TOL)
+d72 1
+a72 1
+      CALL PROJEX ('TAN', PRJ, 90,   5, TOL)
+d75 1
+a75 1
+      CALL PROJEX ('STG', PRJ, 90, -85, TOL)
+d78 3
+a80 3
+      PRJ(1) = -0.3D0
+      PRJ(2) =  0.5D0
+      CALL PROJEX ('SIN', PRJ, 90,  45, TOL)
+d83 1
+a83 1
+      CALL PROJEX ('ARC', PRJ, 90, -90, TOL)
+d86 11
+a96 11
+      PRJ(0) =  0.00000D0
+      PRJ(1) =  0.95000D0
+      PRJ(2) = -0.02500D0
+      PRJ(3) = -0.15833D0
+      PRJ(4) =  0.00208D0
+      PRJ(5) =  0.00792D0
+      PRJ(6) = -0.00007D0
+      PRJ(7) = -0.00019D0
+      PRJ(8) =  0.00000D0
+      PRJ(9) =  0.00000D0
+      CALL PROJEX ('ZPN', PRJ, 90,  10, TOL)
+d99 1
+a99 1
+      CALL PROJEX ('ZEA', PRJ, 90, -85, TOL)
+d102 2
+a103 2
+      PRJ(1) = 45D0
+      CALL PROJEX ('AIR', PRJ, 90, -85, TOL)
+d106 3
+a108 3
+      PRJ(1) = 3.0D0
+      PRJ(2) = 0.8D0
+      CALL PROJEX ('CYP', PRJ, 90, -90, TOL)
+d111 2
+a112 2
+      PRJ(1) = 0.75D0
+      CALL PROJEX ('CEA', PRJ, 90, -90, TOL)
+d115 1
+a115 1
+      CALL PROJEX ('CAR', PRJ, 90, -90, TOL)
+d118 1
+a118 1
+      CALL PROJEX ('MER', PRJ, 85, -85, TOL)
+d121 1
+a121 1
+      CALL PROJEX ('SFL', PRJ, 90, -90, TOL)
+d124 1
+a124 1
+      CALL PROJEX ('PAR', PRJ, 90, -90, TOL)
+d127 1
+a127 1
+      CALL PROJEX ('MOL', PRJ, 90, -90, TOL)
+d130 1
+a130 1
+      CALL PROJEX ('AIT', PRJ, 90, -90, TOL)
+d133 3
+a135 3
+      PRJ(1) =  60D0
+      PRJ(2) =  15D0
+      CALL PROJEX ('COP', PRJ, 90, -25, TOL)
+d138 3
+a140 3
+      PRJ(1) =  60D0
+      PRJ(2) = -15D0
+      CALL PROJEX ('COE', PRJ, 90, -90, TOL)
+d143 3
+a145 3
+      PRJ(1) = -60D0
+      PRJ(2) =  15D0
+      CALL PROJEX ('COD', PRJ, 90, -90, TOL)
+d148 3
+a150 3
+      PRJ(1) = -60D0
+      PRJ(2) = -15D0
+      CALL PROJEX ('COO', PRJ, 85, -90, TOL)
+d153 2
+a154 2
+      PRJ(1) = 30D0
+      CALL PROJEX ('BON', PRJ, 90, -90, TOL)
+d157 1
+a157 1
+      CALL PROJEX ('PCO', PRJ, 90, -90, TOL)
+d160 1
+a160 1
+      CALL PROJEX ('TSC', PRJ, 90, -90, TOL)
+d163 1
+a163 1
+      CALL PROJEX ('CSC', PRJ, 90, -90, 4.0D-2)
+d166 1
+a166 1
+      CALL PROJEX ('QSC', PRJ, 90, -90, TOL)
+d171 1
+a171 1
+      SUBROUTINE PROJEX (PCODE, PRJ, NORTH, SOUTH, TOL)
+d177 1
+a180 3
+*
+*   Given and returned:
+*      PRJ      D(0:20)  Projection parameters.
+d182 2
+a183 1
+      INTEGER   IERR, J, LAT, LNG, NORTH, SOUTH
+d185 2
+a186 2
+     *           LAT2, LNG1, LNG2, PHI0, PRJ(0:20), R, THETA, THETA0,
+     *           TOL, X, X1, X2, Y, Y1, Y2
+d189 4
+a192 1
+      DOUBLE PRECISION PI
+d194 3
+d198 1
+a198 5
+      DOUBLE PRECISION COSD, SIND
+*-----------------------------------------------------------------------
+      DO 10 J = 11, 20
+         PRJ(J) = 0D0
+ 10   CONTINUE
+d202 1
+a202 1
+*     PRJ(10) = 180D0/PI
+d204 3
+a206 1
+      CALL PRJSET (PCODE, PRJ, PHI0, THETA0, IERR)
+d209 2
+a210 2
+ 20   FORMAT ('Testing ',A3,'; Latitudes',I3,' to',I4,
+     *        ', reporting tolerance',1PG8.1,' deg.')
+d215 1
+a215 1
+      DO 70 LAT = NORTH, SOUTH, -1
+d217 13
+a229 2
+         DO 60 LNG = -180, 180
+            LNG1 = DBLE(LNG)
+d231 6
+a236 9
+            CALL PRJFWD (LNG1, LAT1, PRJ, X, Y, IERR)
+            IF (IERR.NE.0) THEN
+               IF (IERR.NE.2) THEN
+                  WRITE (6, 30) PCODE, LNG1, LAT1, IERR
+ 30               FORMAT (8X,A3,':  LNG =',F20.15,'   LAT =',F20.15,
+     *                    '  Error',I3)
+               END IF
+               GO TO 60
+            END IF
+d238 10
+a247 7
+            CALL PRJREV (X, Y, PRJ, LNG2, LAT2, IERR)
+            IF (IERR.NE.0) THEN
+               WRITE (6, 40) PCODE, LNG1, LAT1, X, Y, IERR
+ 40            FORMAT (8X,A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 8X,'        X =',F20.15,'     Y =',F20.15,
+     *                 '  Error',I3)
+               GO TO 60
+d250 1
+a250 1
+            DLNG = ABS(LNG2-LNG1)
+d253 1
+a253 1
+            DLAT = ABS(LAT2-LAT1)
+d257 5
+a261 4
+               WRITE (6, 50) PCODE, LNG1, LAT1, X, Y, LNG2, LAT2
+ 50            FORMAT (8X,A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 8X,'        X =',F20.15,'     Y =',F20.15,/,
+     *                 8X,'     LNG2 =',F20.15,'  LAT2 =',F20.15)
+d264 2
+a265 1
+                  WRITE (6, 50) PCODE, LNG1, LAT1, X, Y, LNG2, LAT2
+d268 2
+a269 2
+ 60      CONTINUE
+ 70   CONTINUE
+d271 2
+a272 2
+      WRITE (6, 80) DLNGMX, DLATMX
+ 80   FORMAT (13X,'Maximum residual (sky): LNG',1P,G10.3,'   LAT',G10.3)
+d281 10
+a290 10
+      DO 130 J = 1, 12
+         X1 = R*COSD(THETA)
+         Y1 = R*SIND(THETA)
+
+         CALL PRJREV (X1, Y1, PRJ, LNG1, LAT1, IERR)
+         IF (IERR.NE.0) THEN
+            WRITE (6, 90) PCODE, X1, Y1, IERR
+ 90         FORMAT (8X,A3,':   X1 =',F20.15,'    Y1 =',F20.15,'  Error',
+     *              I3)
+            GO TO 120
+d293 7
+a299 7
+         CALL PRJFWD (LNG1, LAT1, PRJ, X2, Y2, IERR)
+         IF (IERR.NE.0) THEN
+            WRITE (6, 100) PCODE, X1, Y1, LNG1, LAT1, IERR
+ 100        FORMAT (8X,A3,':   X1 =',F20.15,'    Y1 =',F20.15,/,
+     *              8X,'      LNG =',F20.15,'   LAT =',F20.15,'  Error',
+     *              I3)
+            GO TO 120
+d302 1
+a302 1
+         DR = SQRT((X2-X1)*(X2-X1) + (Y2-Y1)*(Y2-Y1))
+d305 5
+a309 4
+            WRITE (6, 110) PCODE, X1, Y1, LNG1, LAT1, X2, Y2
+ 110        FORMAT (8X,A3,':   X1 =',F20.15,'    Y1 =',F20.15,/,
+     *              8X,'      LNG =',F20.15,'   LAT =',F20.15,/,
+     *              8X,'       X2 =',F20.15,'    Y2 =',F20.15)
+d312 1
+a312 1
+ 120     R = R/10D0
+d314 1
+a314 4
+ 130  CONTINUE
+
+      WRITE (6, 140) DRMAX
+ 140  FORMAT (13X,'Maximum residual (ref):  dR',1P,G10.3)
+d316 2
+a318 3
+      DO 150 J = 0, 20
+         PRJ(J) = 0D0
+ 150  CONTINUE
+@
+
+
+2.9
+log
+@Test AZP with gamma = 30; added new test for SZP; revised parameters for the
+SIN projection; removed the external references to the forward and reverse
+routines from the argument list to PROJEX; ignore error 2 returned from
+PRJFWD.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2001, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.8 2000/12/04 05:10:16 mcalabre Exp mcalabre $
+@
+
+
+2.8
+log
+@Reordered projections to match paper.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2000, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.7 2000/05/10 04:51:30 mcalabre Exp mcalabre $
+a42 26
+
+      EXTERNAL AZPFWD, AZPREV
+      EXTERNAL TANFWD, TANREV
+      EXTERNAL STGFWD, STGREV
+      EXTERNAL SINFWD, SINREV
+      EXTERNAL ARCFWD, ARCREV
+      EXTERNAL ZPNFWD, ZPNREV
+      EXTERNAL ZEAFWD, ZEAREV
+      EXTERNAL AIRFWD, AIRREV
+      EXTERNAL CYPFWD, CYPREV
+      EXTERNAL CEAFWD, CEAREV
+      EXTERNAL CARFWD, CARREV
+      EXTERNAL MERFWD, MERREV
+      EXTERNAL SFLFWD, SFLREV
+      EXTERNAL PARFWD, PARREV
+      EXTERNAL MOLFWD, MOLREV
+      EXTERNAL AITFWD, AITREV
+      EXTERNAL COPFWD, COPREV
+      EXTERNAL COEFWD, COEREV
+      EXTERNAL CODFWD, CODREV
+      EXTERNAL COOFWD, COOREV
+      EXTERNAL BONFWD, BONREV
+      EXTERNAL PCOFWD, PCOREV
+      EXTERNAL TSCFWD, TSCREV
+      EXTERNAL CSCFWD, CSCREV
+      EXTERNAL QSCFWD, QSCREV
+d61 9
+a69 2
+      PRJ(1) = 2D0
+      CALL PROJEX ('AZP', AZPFWD, AZPREV, PRJ, 90, -30, TOL)
+d72 1
+a72 1
+      CALL PROJEX ('TAN', TANFWD, TANREV, PRJ, 90, 5, TOL)
+d75 1
+a75 1
+      CALL PROJEX ('STG', STGFWD, STGREV, PRJ, 90, -85, TOL)
+d78 3
+a80 3
+      PRJ(1) = 0.3D0
+      PRJ(2) = 1.5D0
+      CALL PROJEX ('SIN', SINFWD, SINREV, PRJ, 90, 60, TOL)
+d83 1
+a83 1
+      CALL PROJEX ('ARC', ARCFWD, ARCREV, PRJ, 90, -90, TOL)
+d96 1
+a96 1
+      CALL PROJEX ('ZPN', ZPNFWD, ZPNREV, PRJ, 90, 10, TOL)
+d99 1
+a99 1
+      CALL PROJEX ('ZEA', ZEAFWD, ZEAREV, PRJ, 90, -90, TOL)
+d103 1
+a103 1
+      CALL PROJEX ('AIR', AIRFWD, AIRREV, PRJ, 90, -85, TOL)
+d108 1
+a108 1
+      CALL PROJEX ('CYP', CYPFWD, CYPREV, PRJ, 90, -90, TOL)
+d112 1
+a112 1
+      CALL PROJEX ('CEA', CEAFWD, CEAREV, PRJ,  90, -90, TOL)
+d115 1
+a115 1
+      CALL PROJEX ('CAR', CARFWD, CARREV, PRJ, 90, -90, TOL)
+d118 1
+a118 1
+      CALL PROJEX ('MER', MERFWD, MERREV, PRJ, 85, -85, TOL)
+d121 1
+a121 1
+      CALL PROJEX ('SFL', SFLFWD, SFLREV, PRJ, 90, -90, TOL)
+d124 1
+a124 1
+      CALL PROJEX ('PAR', PARFWD, PARREV, PRJ, 90, -90, TOL)
+d127 1
+a127 1
+      CALL PROJEX ('MOL', MOLFWD, MOLREV, PRJ, 90, -90, TOL)
+d130 1
+a130 1
+      CALL PROJEX ('AIT', AITFWD, AITREV, PRJ, 90, -90, TOL)
+d135 1
+a135 1
+      CALL PROJEX ('COP', COPFWD, COPREV, PRJ, 90, -25, TOL)
+d140 1
+a140 1
+      CALL PROJEX ('COE', COEFWD, COEREV, PRJ, 90, -90, TOL)
+d145 1
+a145 1
+      CALL PROJEX ('COD', CODFWD, CODREV, PRJ, 90, -90, TOL)
+d150 1
+a150 1
+      CALL PROJEX ('COO', COOFWD, COOREV, PRJ, 85, -90, TOL)
+d154 1
+a154 1
+      CALL PROJEX ('BON', BONFWD, BONREV, PRJ, 90, -90, TOL)
+d157 1
+a157 1
+      CALL PROJEX ('PCO', PCOFWD, PCOREV, PRJ, 90, -90, TOL)
+d160 1
+a160 1
+      CALL PROJEX ('TSC', TSCFWD, TSCREV, PRJ, 90, -90, TOL)
+d163 1
+a163 1
+      CALL PROJEX ('CSC', CSCFWD, CSCREV, PRJ, 90, -90, 4.0D-2)
+d166 1
+a166 1
+      CALL PROJEX ('QSC', QSCFWD, QSCREV, PRJ, 90, -90, TOL)
+d171 1
+a171 1
+      SUBROUTINE PROJEX (PCODE, PRJFWD, PRJREV, PRJ, NORTH, SOUTH, TOL)
+a176 2
+*      PRJFWD   E        Forward projection routine.
+*      PRJREV   E        Reverse projection routine.
+d186 2
+a187 2
+     *           LAT2, LNG1, LNG2, PRJ(0:20), R, THETA, TOL, X, X1, X2,
+     *           Y, Y1, Y2
+a193 2
+
+      EXTERNAL PRJFWD, PRJREV
+d195 1
+a195 5
+      WRITE (6, 10) PCODE, NORTH, SOUTH, TOL
+ 10   FORMAT ('Testing ',A3,'; Latitudes',I3,' to',I4,
+     *        ', reporting tolerance',1PG8.1,' deg.')
+
+      DO 20 J = 11, 20
+d197 1
+a197 4
+ 20   CONTINUE
+
+      DLNGMX = 0D0
+      DLATMX = 0D0
+d203 9
+d219 5
+a223 3
+               WRITE (6, 30) PCODE, LNG1, LAT1, IERR
+ 30            FORMAT (8X,A3,':  LNG =',F20.15,'   LAT =',F20.15,
+     *                 '  Error',I3)
+@
+
+
+2.7
+log
+@Updated date in copyright notice.
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 2.6 1999/12/13 03:39:11 mcalabre Exp mcalabre $
+d46 1
+a47 1
+      EXTERNAL STGFWD, STGREV
+d53 1
+d56 4
+a59 1
+      EXTERNAL CEAFWD, CEAREV
+d61 1
+a62 1
+      EXTERNAL COEFWD, COEREV
+d66 1
+a66 4
+      EXTERNAL GLSFWD, GLSREV
+      EXTERNAL PARFWD, PARREV
+      EXTERNAL AITFWD, AITREV
+      EXTERNAL MOLFWD, MOLREV
+a68 1
+      EXTERNAL TSCFWD, TSCREV
+d93 3
+a100 3
+*     STG: stereographic.
+      CALL PROJEX ('STG', STGFWD, STGREV, PRJ, 90, -85, TOL)
+
+d129 4
+d139 11
+a149 3
+*     CEA: cylindrical equal area.
+      PRJ(1) = 0.75D0
+      CALL PROJEX ('CEA', CEAFWD, CEAREV, PRJ,  90, -90, TOL)
+d156 5
+a165 5
+*     COE: conic equal area.
+      PRJ(1) =  60D0
+      PRJ(2) = -15D0
+      CALL PROJEX ('COE', COEFWD, COEREV, PRJ, 90, -90, TOL)
+
+d178 2
+a179 11
+*     GLS: Sanson-Flamsteed (global sinusoid).
+      CALL PROJEX ('GLS', GLSFWD, GLSREV, PRJ, 90, -90, TOL)
+
+*     PAR: parabolic.
+      CALL PROJEX ('PAR', PARFWD, PARREV, PRJ, 90, -90, TOL)
+
+*     AIT: Hammer-Aitoff.
+      CALL PROJEX ('AIT', AITFWD, AITREV, PRJ, 90, -90, TOL)
+
+*     MOL: Mollweide's projection.
+      CALL PROJEX ('MOL', MOLFWD, MOLREV, PRJ, 90, -90, TOL)
+a185 3
+
+*     TSC: tangential spherical cube.
+      CALL PROJEX ('TSC', TSCFWD, TSCREV, PRJ, 90, -90, TOL)
+@
+
+
+2.6
+log
+@Lowered reporting tolerance to 1e-9 (was 1e-10).
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1999, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.5 1999/11/19 02:24:53 mcalabre Exp mcalabre $
+@
+
+
+2.5
+log
+@"Closure tolerance" becomes "Reporting tolerance".
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 2.4 1999/06/16 00:17:38 mcalabre Exp mcalabre $
+d42 1
+a42 1
+      PARAMETER (TOL = 1.0D-10)
+@
+
+
+2.4
+log
+@Updated date in copyright notice.
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 2.3 1998/02/25 07:02:23 mcalabre Exp mcalabre $
+d200 1
+a203 1
+*      TOL      D        Closure tolerance, degrees.
+d220 1
+a220 1
+     *        ', closure tolerance',1P,G8.1,' deg.')
+d319 1
+a319 1
+ 140  FORMAT (13X,'Maximum residual (map):  dR',1P,G10.3)
+@
+
+
+2.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-1998, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.2 1996/05/07 21:10:41 mcalabre Exp mcalabre $
+@
+
+
+2.2
+log
+@Print header.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995, Mark Calabretta
+d33 1
+a33 1
+*   $Id: tproj1.f,v 2.1 1995/12/22 02:40:38 mcalabre Exp mcalabre $
+@
+
+
+2.1
+log
+@Test PRJ(1) < 0 and/or PRJ(2) < 0 for the conics.
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 2.0 1995/09/12 06:34:19 mcalabre Exp mcalabre $
+d75 6
+@
+
+
+2.0
+log
+@WCSLIB 2.0
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 1.2 1995/09/12 06:33:56 mcalabre Exp mcalabre $
+d134 2
+a135 2
+      PRJ(1) = 60D0
+      PRJ(2) = 15D0
+d139 2
+a140 2
+      PRJ(1) = 60D0
+      PRJ(2) = 15D0
+d144 2
+a145 2
+      PRJ(1) = 60D0
+      PRJ(2) = 15D0
+d149 3
+a151 3
+      PRJ(1) = 60D0
+      PRJ(2) = 15D0
+      CALL PROJEX ('COO', COOFWD, COOREV, PRJ, 90, -85, TOL)
+@
+
+
+1.2
+log
+@1) Reference latitude for conics now at the midpoint of the standard
+   parallels.
+2) Test closure at points close to the reference point.
+3) Report maximum closure residuals.
+@
+text
+@d33 1
+a33 1
+*   $Id: tproj1.f,v 1.1 1995/01/31 03:20:39 mcalabre Exp mcalabre $
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d33 1
+a33 1
+*   $Id$
+d99 1
+a99 1
+      PRJ(0) =  0.05000D0
+d134 2
+a135 2
+      PRJ(1) = 45D0
+      PRJ(2) = 75D0
+d139 2
+a140 2
+      PRJ(1) = 45D0
+      PRJ(2) = 75D0
+d144 2
+a145 2
+      PRJ(1) = 45D0
+      PRJ(2) = 75D0
+d149 2
+a150 2
+      PRJ(1) = 45D0
+      PRJ(2) = 75D0
+d200 3
+a202 1
+      DOUBLE PRECISION LNG1, LNG2, PRJ(0:20), LAT1, LAT2, TOL, X, Y
+d208 2
+d214 1
+a214 1
+     *        ', closure tolerance',1PG8.1,' deg.')
+d220 3
+d235 1
+a235 1
+ 30            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,
+d243 2
+a244 2
+ 40            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 '        X =',F20.15,'     Y =',F20.15,
+d249 7
+a255 1
+            IF (ABS(LAT2-LAT1).GT.TOL) THEN
+d257 3
+a259 3
+ 50            FORMAT (A3,': LNG1 =',F20.15,'  LAT1 =',F20.15,/,
+     *                 '        X =',F20.15,'     Y =',F20.15,/,
+     *                 '     LNG2 =',F20.15,'  LAT2 =',F20.15)
+d261 2
+a262 4
+               IF (ABS(LNG2-LNG1).GT.TOL) THEN
+                  IF (ABS(ABS(LNG2-LNG1)-360D0).GT.TOL) THEN
+                     WRITE (6, 50) PCODE, LNG1, LAT1, X, Y, LNG2, LAT2
+                  END IF
+d268 49
+a316 1
+      DO 80 J = 0, 20
+d318 1
+a318 1
+ 80   CONTINUE
+@

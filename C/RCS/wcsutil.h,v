@@ -1,0 +1,5341 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.25;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.41.33;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.41.36;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.08.59.02;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.25.07.26.29;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.25.07.06.15;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.02.39.43;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.08.08.08.44.25;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.12.03.05.02.17;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.23.47;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.05.10.07;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.52.49;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.42.50;	author cal103;	state Exp;
+branches;
+next	4.4.1.3;
+
+4.4.1.3
+date	2010.01.19.04.12.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.31;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.16;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.22;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.09.02.39.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.12.15.27.46;	author cal103;	state Exp;
+branches;
+next	4.13.1.3;
+
+4.13.1.3
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2012.11.28.13.07.37;	author cal103;	state Exp;
+branches;
+next	4.16.1.3;
+
+4.16.1.3
+date	2012.11.29.04.41.32;	author cal103;	state Exp;
+branches;
+next	4.16.1.4;
+
+4.16.1.4
+date	2012.11.29.06.43.00;	author cal103;	state Exp;
+branches;
+next	4.16.1.5;
+
+4.16.1.5
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	4.22.1.2;
+
+4.22.1.2
+date	2014.05.04.08.43.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	4.23.1.2;
+
+4.23.1.2
+date	2014.05.22.10.56.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	5.2.1.2;
+
+5.2.1.2
+date	2015.04.18.07.39.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.27.08.32.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.2;
+
+5.16.1.2
+date	2017.09.12.14.14.58;	author mcalabre;	state Exp;
+branches;
+next	5.16.1.3;
+
+5.16.1.3
+date	2017.09.18.06.03.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.00.22.45;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	5.19.1.2;
+
+5.19.1.2
+date	2018.10.05.04.42.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.07.07.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	6.1.1.2;
+
+6.1.1.2
+date	2018.10.20.09.41.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.11.06.36.12;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.12.02.08.40;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	7.4.1.2;
+
+7.4.1.2
+date	2021.02.22.07.19.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.37.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	7.6.1.2;
+
+7.6.1.2
+date	2021.07.01.08.30.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.3;
+
+8.2.1.3
+date	2024.05.13.14.32.04;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.4;
+
+8.2.1.4
+date	2024.05.13.16.03.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.10.09.19.31;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file for simple utility functions used internally by WCSLIB.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutil.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+*
+* Summary of the wcsutil routines
+* -------------------------------
+* Simple utility functions.  With the exception of wcsdealloc(), these
+* functions are intended for internal use only by WCSLIB.
+*
+* The internal-use functions are documented here solely as an aid to
+* understanding the code.  They are not intended for external use - the API
+* may change without notice!
+*
+*
+* wcsdealloc() - free memory allocated by WCSLIB functions
+* --------------------------------------------------------
+* wcsdealloc() invokes the free() system routine to free memory.
+* Specifically, it is intended to free memory allocated (using calloc()) by
+* certain WCSLIB functions (e.g. wcshdo(), wcsfixi(), fitshdr()), which it is
+* the user's responsibility to deallocate.
+*
+* In certain situations, for example multithreading, it may be important that
+* this be done within the WCSLIB sharable library's runtime environment.
+*
+* PLEASE NOTE: wcsdealloc() must not be used in place of the destructors for
+* particular structs, such as wcsfree(), celfree(), etc.
+*
+* Given and returned:
+*   ptr       void*     Address of the allocated memory.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_strcvt() - Copy character string with padding
+* -----------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_strcvt() copies one character string to another up to the specified
+* maximum number of characters.
+*
+* If the given string is null-terminated, then the NULL character copied to
+* the returned string, and all characters following it up to the specified
+* maximum, are replaced with the specified substitute character, either blank
+* or NULL.
+*
+* If the source string is not null-terminated and the substitute character is
+* blank, then copy the maximum number of characters and do nothing further.
+* However, if the substitute character is NULL, then the last character and
+* all consecutive blank characters preceding it will be replaced with NULLs.
+*
+* Used by the Fortran wrapper functions in translating C strings into Fortran
+* CHARACTER variables and vice versa.
+*
+* Given:
+*   n         int       Maximum number of characters to copy.
+*
+*   c         char      Substitute character, either NULL or blank (anything
+*                       other than NULL).
+*
+*   nt        int       If true, then dst is of length n+1, with the last
+*                       character always set to NULL.
+*
+*   src       char[]    Character string to be copied.  If null-terminated,
+*                       then need not be of length n, otherwise it must be.
+*
+* Returned:
+*   dst       char[]    Destination character string, which must be long
+*                       enough to hold n characters.  Note that this string
+*                       will not be null-terminated if the substitute
+*                       character is blank.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_blank_fill() - Fill a character string with blanks
+* ----------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_blank_fill() pads a character sub-string with blanks starting with
+* the terminating NULL character (if any).
+*
+* Given:
+*   n         int       Length of the sub-string.
+*
+* Given and returned:
+*   c         char[]    The character sub-string, which will not be
+*                       null-terminated on return.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_null_fill() - Fill a character string with NULLs
+* --------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_null_fill() strips trailing blanks from a string (or sub-string) and
+* propagates the terminating NULL character (if any) to the end of the string.
+*
+* If the string is not null-terminated, then the last character and all
+* consecutive blank characters preceding it will be replaced with NULLs.
+*
+* Mainly used in the C library to strip trailing blanks from FITS keyvalues.
+* Also used to make character strings intelligible in the GNU debugger, which
+* prints the rubbish following the terminating NULL character, thereby
+* obscuring the valid part of the string.
+*
+* Given:
+*   n         int       Number of characters.
+*
+* Given and returned:
+*   c         char[]    The character (sub-)string.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_all_ival() - Test if all elements an int array have a given value
+* -------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_ival() tests whether all elements of an array of type int all
+* have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   ival      int       Value to be tested.
+*
+*   iarr      const int[]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_all_dval() - Test if all elements a double array have a given value
+* ---------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_dval() tests whether all elements of an array of type double all
+* have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   dval      int       Value to be tested.
+*
+*   darr      const double[]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_all_sval() - Test if all elements a string array have a given value
+* ---------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_sval() tests whether the elements of an array of type
+* char (*)[72] all have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   sval      const char *
+*                       String to be tested.
+*
+*   sarr      const char (*)[72]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_allEq() - Test for equality of a particular vector element
+* ------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_allEq() tests for equality of a particular element in a set of
+* vectors.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*
+*   nelem     int       The length of each vector.
+*
+*   first     const double*
+*                       Pointer to the first element to test in the array.
+*                       The elements tested for equality are
+*
+=                         *first == *(first + nelem)
+=                                == *(first + nelem*2)
+=                                           :
+=                                == *(first + nelem*(nvec-1));
+*
+*                       The array might be dimensioned as
+*
+=                         double v[nvec][nelem];
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_dblEq() - Test for equality of two arrays of type double
+* ----------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_dblEq() tests for equality of two double-precision arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   tol       double    Tolerance for comparison of the floating-point values.
+*                       For example, for tol == 1e-6, all floating-point
+*                       values in the arrays must be equal to the first 6
+*                       decimal places.  A value of 0 implies exact equality.
+*
+*   arr1      const double*
+*                       The first array.
+*
+*   arr2      const double*
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+* wcsutil_intEq() - Test for equality of two arrays of type int
+* -------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_intEq() tests for equality of two int arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   arr1      const int*
+*                       The first array.
+*
+*   arr2      const int*
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+* wcsutil_strEq() - Test for equality of two string arrays
+* --------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_strEq() tests for equality of two string arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   arr1      const char**
+*                       The first array.
+*
+*   arr2      const char**
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+* wcsutil_setAll() - Set a particular vector element
+* --------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_setAll() sets the value of a particular element in a set of vectors
+* of type double.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*
+*   nelem     int       The length of each vector.
+*
+* Given and returned:
+*   first     double*   Pointer to the first element in the array, the value
+*                       of which is used to set the others
+*
+=                         *(first + nelem) = *first;
+=                         *(first + nelem*2) = *first;
+=                                 :
+=                         *(first + nelem*(nvec-1)) = *first;
+*
+*                       The array might be dimensioned as
+*
+=                         double v[nvec][nelem];
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_setAli() - Set a particular vector element
+* --------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_setAli() sets the value of a particular element in a set of vectors
+* of type int.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*
+*   nelem     int       The length of each vector.
+*
+* Given and returned:
+*   first     int*      Pointer to the first element in the array, the value
+*                       of which is used to set the others
+*
+=                         *(first + nelem) = *first;
+=                         *(first + nelem*2) = *first;
+=                                 :
+=                         *(first + nelem*(nvec-1)) = *first;
+*
+*                       The array might be dimensioned as
+*
+=                         int v[nvec][nelem];
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_setBit() - Set bits in selected elements of an array
+* ------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_setBit() sets bits in selected elements of an array.
+*
+* Given:
+*   nelem     int       Number of elements in the array.
+*
+*   sel       const int*
+*                       Address of a selection array of length nelem.  May
+*                       be specified as the null pointer in which case all
+*                       elements are selected.
+*
+*   bits      int       Bit mask.
+*
+* Given and returned:
+*   array     int*      Address of the array of length nelem.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_fptr2str() - Translate pointer-to-function to string
+* ------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_fptr2str() translates a pointer-to-function to hexadecimal string
+* representation for output.  It is used by the various routines that print
+* the contents of WCSLIB structs, noting that it is not strictly legal to
+* type-pun a function pointer to void*.  See
+* http://stackoverflow.com/questions/2741683/how-to-format-a-function-pointer
+*
+* Given:
+*   fptr      void(*)() Pointer to function.
+*
+* Returned:
+*   hext      char[19]  Null-terminated string.  Should be at least 19 bytes
+*                       in size to accomodate a 64-bit address (16 bytes in
+*                       hex), plus the leading "0x" and trailing '\0'.
+*
+* Function return value:
+*             char *    The address of hext.
+*
+*
+* wcsutil_double2str() - Translate double to string ignoring the locale
+* ---------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_double2str() converts a double to a string, but unlike sprintf() it
+* ignores the locale and always uses a '.' as the decimal separator.  Also,
+* unless it includes an exponent, the formatted value will always have a
+* fractional part, ".0" being appended if necessary.
+*
+* Returned:
+*   buf       char *    The buffer to write the string into.
+*
+* Given:
+*   size      size_t    Length of buf.
+*
+*   format    char *    The formatting directive, such as "%f".  This
+*                       may be any of the forms accepted by sprintf(), but
+*                       should only include a formatting directive and
+*                       nothing else.  For "%g" and "%G" formats, unless it
+*                       includes an exponent, the formatted value will always
+*                       have a fractional part, ".0" being appended if
+*                       necessary.
+*
+*   value     double    The value to convert to a string.
+*
+*
+* wcsutil_str2double() - Translate string to a double, ignoring the locale
+* ------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_str2double() converts a string to a double, but unlike sscanf() it
+* ignores the locale and always expects a '.' as the decimal separator.
+*
+* Given:
+*   buf       char *    The string containing the value
+*
+* Returned:
+*   value     double *  The double value parsed from the string.
+*
+*
+* wcsutil_str2double2() - Translate string to doubles, ignoring the locale
+* ------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_str2double2() converts a string to a pair of doubles containing the
+* integer and fractional parts.  Unlike sscanf() it ignores the locale and
+* always expects a '.' as the decimal separator.
+*
+* Given:
+*   buf       char *    The string containing the value
+*
+* Returned:
+*   value     double[2] The double value, split into integer and fractional
+*                       parts, parsed from the string.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_WCSUTIL
+#define WCSLIB_WCSUTIL
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+void wcsdealloc(void *ptr);
+
+void wcsutil_strcvt(int n, char c, int nt, const char src[], char dst[]);
+
+void wcsutil_blank_fill(int n, char c[]);
+void wcsutil_null_fill (int n, char c[]);
+
+int  wcsutil_all_ival(int nelem, int ival, const int iarr[]);
+int  wcsutil_all_dval(int nelem, double dval, const double darr[]);
+int  wcsutil_all_sval(int nelem, const char *sval, const char (*sarr)[72]);
+int  wcsutil_allEq (int nvec, int nelem, const double *first);
+
+int  wcsutil_dblEq(int nelem, double tol, const double *arr1,
+                   const double *arr2);
+int  wcsutil_intEq(int nelem, const int *arr1, const int *arr2);
+int  wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72]);
+void wcsutil_setAll(int nvec, int nelem, double *first);
+void wcsutil_setAli(int nvec, int nelem, int *first);
+void wcsutil_setBit(int nelem, const int *sel, int bits, int *array);
+char *wcsutil_fptr2str(void (*fptr)(void), char hext[19]);
+void wcsutil_double2str(char *buf, size_t bsize, const char *format,
+                        double value);
+int  wcsutil_str2double(const char *buf, double *value);
+int  wcsutil_str2double2(const char *buf, double *value);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WCSLIB_WCSUTIL
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.6.1.2 2026/04/10 09:19:31 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+d424 2
+d495 2
+a496 1
+void wcsutil_double2str(char *buf, const char *format, double value);
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Changed argument list to wcsutil_double2str() to pass the buffer size.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+a423 2
+*   size      size_t    Length of buf.
+*
+d493 1
+a493 2
+void wcsutil_double2str(char *buf, size_t bsize, const char *format,
+                        double value);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutil.h,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcsutil.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.2.1.4 2024/05/13 16:03:07 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.3
+log
+@Added wcsutil_fletcher32().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+a463 19
+*
+* wcsutil_fletcher32() - Compute the Fletcher-32 checksum
+* -------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_fletcher32() computes the Fletcher-32 checksum for a sequence of
+* 16-bit words.  The algorithm is described in a Wikipedia article
+* (https://en.wikipedia.org/wiki/Fletcher's_checksum).
+*
+* Given:
+*   data      const uint16_t *
+*                      The data as an array of 16-bit words.
+*
+*   len       size_t   Length of data (number of 16-bit words).  Must be less
+*                      than 129600 (no checks are made).
+*
+* Function return value:
+*             int      Fletcher-32 checksum.
+*
+a468 2
+#include <stdint.h>
+
+a495 1
+int  wcsutil_fletcher32(const uint16_t *data, size_t len);
+@
+
+
+8.2.1.4
+log
+@Moved wcsutil_fletcher32() to wcs.c as a static function, wcs_fletcher32().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.2.1.3 2024/05/13 14:32:04 mcalabre Exp mcalabre $
+d464 19
+d488 2
+d517 1
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.6.1.2 2021/07/01 08:30:41 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.5.1.2 2021/04/13 09:37:34 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+d191 1
+a191 1
+* wcsutil_all_sval() tests whether all elements of an array of type
+d197 2
+a198 1
+*   sval      char *    String to be tested.
+d200 1
+a200 1
+*   sarr      const (*char)[72]
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.6.1.2
+log
+@Amended the description of the API for wcsutil_all_sval().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d191 1
+a191 1
+* wcsutil_all_sval() tests whether the elements of an array of type
+d197 1
+a197 2
+*   sval      const char *
+*                       String to be tested.
+d199 1
+a199 1
+*   sarr      const char (*)[72]
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.4.1.2 2021/02/22 07:19:27 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d145 63
+d239 2
+a240 2
+* wcsutil_Eq() - Test for equality of two double arrays
+* -----------------------------------------------------
+d243 1
+a243 1
+* wcsutil_Eq() tests for equality of two double-precision arrays.
+d265 2
+a266 2
+* wcsutil_intEq() - Test for equality of two int arrays
+* -----------------------------------------------------
+d311 2
+a312 1
+* wcsutil_setAll() sets the value of a particular element in a set of vectors.
+d340 2
+a341 1
+* wcsutil_setAli() sets the value of a particular element in a set of vectors.
+d479 3
+d483 3
+a485 2
+int  wcsutil_Eq(int nelem, double tol, const double *arr1,
+                const double *arr2);
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added wcsutil_all_ival(), wcsutil_all_dval(), and wcsutil_all_sval().
+Renamed wcsutil_Eq() -> wcsutil_dblEq().
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+a144 63
+* wcsutil_all_ival() - Test if all elements an int array have a given value
+* -------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_ival() tests whether all elements of an array of type int all
+* have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   ival      int       Value to be tested.
+*
+*   iarr      const int[]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_all_dval() - Test if all elements a double array have a given value
+* ---------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_dval() tests whether all elements of an array of type double all
+* have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   dval      int       Value to be tested.
+*
+*   darr      const double[]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_all_sval() - Test if all elements a string array have a given value
+* ---------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_all_sval() tests whether all elements of an array of type
+* char (*)[72] all have the specified value.
+*
+* Given:
+*   nelem     int       The length of the array.
+*
+*   sval      char *    String to be tested.
+*
+*   sarr      const (*char)[72]
+*                       Pointer to the first element of the array.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+d176 2
+a177 2
+* wcsutil_dblEq() - Test for equality of two arrays of type double
+* ----------------------------------------------------------------
+d180 1
+a180 1
+* wcsutil_dblEq() tests for equality of two double-precision arrays.
+d202 2
+a203 2
+* wcsutil_intEq() - Test for equality of two arrays of type int
+* -------------------------------------------------------------
+d248 1
+a248 2
+* wcsutil_setAll() sets the value of a particular element in a set of vectors
+* of type double.
+d276 1
+a276 2
+* wcsutil_setAli() sets the value of a particular element in a set of vectors
+* of type int.
+a413 3
+int  wcsutil_all_ival(int nelem, int ival, const int iarr[]);
+int  wcsutil_all_dval(int nelem, double dval, const double darr[]);
+int  wcsutil_all_sval(int nelem, const char *sval, const char (*sarr)[72]);
+d415 2
+a416 3
+
+int  wcsutil_dblEq(int nelem, double tol, const double *arr1,
+                   const double *arr2);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d25 1
+a25 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+d67 4
+a70 3
+* If the given string is null-terminated, then the terminating NULL character,
+* and all characters following it up to the specified maximum, are replaced
+* with the specified substitute character, either blank or NULL.
+d86 5
+a90 3
+*   src       const char[]
+*                       Character string to be copied.  Need not be
+*                       null-terminated.
+d409 1
+a409 1
+void wcsutil_strcvt(int n, char c, const char src[], char dst[]);
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.4.1.2
+log
+@Added a new argument, nt, to the wcsutil_strcvt() function prototype.  This
+allows the function to handle an operation that otherwise frequently needed
+to be done by the caller.
+@
+text
+@d22 1
+a22 1
+  $Id: wcsutil.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d67 3
+a69 4
+* If the given string is null-terminated, then the NULL character copied to
+* the returned string, and all characters following it up to the specified
+* maximum, are replaced with the specified substitute character, either blank
+* or NULL.
+d85 3
+a87 5
+*   nt        int       If true, then dst is of length n+1, with the last
+*                       character always set to NULL.
+*
+*   src       char[]    Character string to be copied.  If null-terminated,
+*                       then need not be of length n, otherwise it must be.
+d406 1
+a406 1
+void wcsutil_strcvt(int n, char c, int nt, const char src[], char dst[]);
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: wcsutil.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d25 1
+a25 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d428 1
+a428 1
+#endif /* WCSLIB_WCSUTIL */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: wcsutil.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d431 1
+a431 1
+#endif // WCSLIB_WCSUTIL
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: wcsutil.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: wcsutil.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.4.1.3 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+d63 39
+d106 2
+a107 5
+* wcsutil_blank_fill() pads a character string with blanks starting with the
+* terminating NULL character.
+*
+* Used by the Fortran wrapper functions in translating C character strings
+* into Fortran CHARACTER variables.
+d110 1
+a110 1
+*   n         int       Length of the character array, c[].
+d113 2
+a114 2
+*   c         char[]    The character string.  It will not be null-terminated
+*                       on return.
+d124 2
+a125 2
+* wcsutil_null_fill() strips off trailing blanks and pads the character array
+* holding the string with NULL characters.
+d127 7
+a133 3
+* Used mainly to make character strings intelligible in the GNU debugger which
+* prints the rubbish following the terminating NULL, obscuring the valid part
+* of the string.
+d139 1
+a139 1
+*   c         char[]    The character string.
+d408 2
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Added wcsutil_strcvt(), which is primarily responsible for translating C
+strings into Fortran CHARACTER variables and vice versa.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.4.1.2 2019/12/03 05:03:17 mcalabre Exp mcalabre $
+a62 39
+* wcsutil_strcvt() - Copy character string with padding
+* -----------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_strcvt() copies one character string to another up to the specified
+* maximum number of characters.
+*
+* If the given string is null-terminated, then the terminating NULL character,
+* and all characters following it up to the specified maximum, are replaced
+* with the specified substitute character, either blank or NULL.
+*
+* If the source string is not null-terminated and the substitute character is
+* blank, then copy the maximum number of characters and do nothing further.
+* However, if the substitute character is NULL, then the last character and
+* all consecutive blank characters preceding it will be replaced with NULLs.
+*
+* Used by the Fortran wrapper functions in translating C strings into Fortran
+* CHARACTER variables and vice versa.
+*
+* Given:
+*   n         int       Maximum number of characters to copy.
+*
+*   c         char      Substitute character, either NULL or blank (anything
+*                       other than NULL).
+*
+*   src       const char[]
+*                       Character string to be copied.  Need not be
+*                       null-terminated.
+*
+* Returned:
+*   dst       char[]    Destination character string, which must be long
+*                       enough to hold n characters.  Note that this string
+*                       will not be null-terminated if the substitute
+*                       character is blank.
+*
+* Function return value:
+*             void
+*
+*
+d67 5
+a71 2
+* wcsutil_blank_fill() pads a character sub-string with blanks starting with
+* the terminating NULL character (if any).
+d74 1
+a74 1
+*   n         int       Length of the sub-string.
+d77 2
+a78 2
+*   c         char[]    The character sub-string, which will not be
+*                       null-terminated on return.
+d88 2
+a89 2
+* wcsutil_null_fill() strips trailing blanks from a string (or sub-string) and
+* propagates the terminating NULL character (if any) to the end of the string.
+d91 3
+a93 7
+* If the string is not null-terminated, then the last character and all
+* consecutive blank characters preceding it will be replaced with NULLs.
+*
+* Mainly used in the C library to strip trailing blanks from FITS keyvalues.
+* Also used to make character strings intelligible in the GNU debugger, which
+* prints the rubbish following the terminating NULL character, thereby
+* obscuring the valid part of the string.
+d99 1
+a99 1
+*   c         char[]    The character (sub-)string.
+a367 2
+
+void wcsutil_strcvt(int n, char c, const char src[], char dst[]);
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.4.1.2 2019/12/12 02:08:40 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.2.1.3 2019/07/11 06:36:12 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.1.1.2 2018/10/20 09:41:14 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+d35 26
+a60 3
+* Simple utility functions for internal use only by WCSLIB.  They are
+* documented here solely as an aid to understanding the code.  They are not
+* intended for external use - the API may change without notice!
+d366 2
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Added wcsdealloc() - intended for general use.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d35 3
+a37 26
+* Simple utility functions.  With the exception of wcsdealloc(), these
+* functions are intended for internal use only by WCSLIB.
+*
+* The internal-use functions are documented here solely as an aid to
+* understanding the code.  They are not intended for external use - the API
+* may change without notice!
+*
+*
+* wcsdealloc() - free memory allocated by WCSLIB functions
+* --------------------------------------------------------
+* wcsdealloc() invokes the free() system routine to free memory.
+* Specifically, it is intended to free memory allocated (using calloc()) by
+* certain WCSLIB functions (e.g. wcshdo(), wcsfixi(), fitshdr()), which it is
+* the user's responsibility to deallocate.
+*
+* In certain situations, for example multithreading, it may be important that
+* this be done within the WCSLIB sharable library's runtime environment.
+*
+* PLEASE NOTE: wcsdealloc() must not be used in place of the destructors for
+* particular structs, such as wcsfree(), celfree(), etc.
+*
+* Given and returned:
+*   ptr       void*     Address of the allocated memory.
+*
+* Function return value:
+*             void
+a342 2
+
+void wcsdealloc(void *ptr);
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.20.1.2 2018/10/19 07:07:12 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+d355 1
+a355 1
+char *wcsutil_fptr2str(void (*func)(void), char hext[19]);
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+6.1.1.2
+log
+@Fix for doxygen manual generation - changed the argument names in the
+wcsutil_fptr2str() prototype to match those documented in the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d355 1
+a355 1
+char *wcsutil_fptr2str(void (*fptr)(void), char hext[19]);
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.19.1.2 2018/10/05 04:42:12 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+d319 16
+d356 1
+d358 1
+a358 1
+void wcsutil_double2str(char *buf, const char *format, double value);
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Added wcsutil_str2double2() (for wcspih() and wcsbth()).
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+a318 16
+*
+* wcsutil_str2double2() - Translate string to doubles, ignoring the locale
+* ------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_str2double2() converts a string to a pair of doubles containing the
+* integer and fractional parts.  Unlike sscanf() it ignores the locale and
+* always expects a '.' as the decimal separator.
+*
+* Given:
+*   buf       char *    The string containing the value
+*
+* Returned:
+*   value     double[2] The double value, split into integer and fractional
+*                       parts, parsed from the string.
+*
+d340 1
+a341 2
+int  wcsutil_str2double(const char *buf, double *value);
+int  wcsutil_str2double2(const char *buf, double *value);
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.18.1.2 2018/07/25 00:22:45 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+a318 30
+*
+* wcsutil_dpkey_int() - Get the data value in a dpkey struct as int
+* -----------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_dpkey_int() returns the data value in a dpkey struct as an integer
+* value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             int       The record's value as int.
+*
+*
+* wcsutil_dpkey_double() - Get the data value in a dpkey struct as double
+* -----------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_dpkey_double() returns the data value in a dpkey struct as a
+* floating point value.
+*
+* Given and returned:
+*   dp        const struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecord.
+*
+* Function return value:
+*             double    The record's value as double.
+*
+a323 2
+#include "dis.h"
+
+a341 2
+int    wcsutil_dpkey_int(const struct dpkey *dp);
+double wcsutil_dpkey_double(const struct dpkey *dp);
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.19.1.2
+log
+@Removed wcsutil_dpkey_int() and wcsutil_dpkey_double().  Now moved to
+dis.{h,c} as dpkeyi() and dpkeyd().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d319 30
+d354 2
+d374 2
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+d271 1
+a271 1
+*   fptr      int(*)()  Pointer to function.
+d371 1
+a371 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[19]);
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Changed function prototype of wcsutil_fptr2str() to avert
+-Wcast-function-type warnings from gcc 8.1.0.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d271 1
+a271 1
+*   fptr      void(*)() Pointer to function.
+d371 1
+a371 1
+char *wcsutil_fptr2str(void (*func)(void), char hext[19]);
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.16.1.3 2017/09/18 06:03:26 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+a315 4
+*   format    char *    The formatting directive, such as "%lf".  This
+*                       may be any of the forms accepted by sscanf(), but
+*                       should only include a single formatting directive.
+*
+d329 1
+a329 1
+*                       Parsed contents of a DPja or DQia keyrecords.
+d344 1
+a344 1
+*                       Parsed contents of a DPja or DQia keyrecords.
+d372 1
+a372 1
+int  wcsutil_str2double(const char *buf, const char *format, double *value);
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.16.1.2
+log
+@Revised argument list to wcsutil_str2double().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d316 4
+d376 1
+a376 1
+int  wcsutil_str2double(const char *buf, double *value);
+@
+
+
+5.16.1.3
+log
+@Fixed typos in the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.16.1.2 2017/09/12 14:14:58 mcalabre Exp mcalabre $
+d329 1
+a329 1
+*                       Parsed contents of a DPja or DQia keyrecord.
+d344 1
+a344 1
+*                       Parsed contents of a DPja or DQia keyrecord.
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.6.1.2 2015/06/27 08:32:10 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+d324 2
+a325 2
+* wcsutil_dpkey_int() - Convert the data type in a dpkey struct to int
+* --------------------------------------------------------------------
+d328 2
+a329 2
+* wcsutil_dpkey_int(), if necessary, converts the data type in a dpkey struct
+* to floating point.  The double value itself is returned.
+d332 1
+a332 1
+*   dp        struct dpkey *
+d339 2
+a340 2
+* wcsutil_dpkey_double() - Convert the data type in a dpkey struct to double
+* --------------------------------------------------------------------------
+d343 2
+a344 2
+* wcsutil_dpkey_double(), if necessary, converts the data type in a dpkey
+* struct to floating point.  The integer value itself is returned.
+d347 1
+a347 1
+*   dp        struct dpkey *
+d378 2
+a379 2
+int    wcsutil_dpkey_int(struct dpkey *dp);
+double wcsutil_dpkey_double(struct dpkey *dp);
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Changed wcsutil_dpkey_int() and wcsutil_dpkey_double() so that they don't
+modify the contents of the struct.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d324 2
+a325 2
+* wcsutil_dpkey_int() - Get the data value in a dpkey struct as int
+* -----------------------------------------------------------------
+d328 2
+a329 2
+* wcsutil_dpkey_int() returns the data value in a dpkey struct as an integer
+* value.
+d332 1
+a332 1
+*   dp        const struct dpkey *
+d339 2
+a340 2
+* wcsutil_dpkey_double() - Get the data value in a dpkey struct as double
+* -----------------------------------------------------------------------
+d343 2
+a344 2
+* wcsutil_dpkey_double() returns the data value in a dpkey struct as a
+* floating point value.
+d347 1
+a347 1
+*   dp        const struct dpkey *
+d378 2
+a379 2
+int    wcsutil_dpkey_int(const struct dpkey *dp);
+double wcsutil_dpkey_double(const struct dpkey *dp);
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d28 1
+a28 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d27 5
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Added boilerplate at the start of the prologue.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+a26 5
+*
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.2.1.2 2015/04/18 07:39:09 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+d318 30
+d353 2
+d373 2
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.2.1.2
+log
+@Added wcsutil_dpkey_int() and wcsutil_dpkey_double().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+a317 30
+*
+* wcsutil_dpkey_int() - Convert the data type in a dpkey struct to int
+* --------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_dpkey_int(), if necessary, converts the data type in a dpkey struct
+* to floating point.  The double value itself is returned.
+*
+* Given and returned:
+*   dp        struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecords.
+*
+* Function return value:
+*             int       The record's value as int.
+*
+*
+* wcsutil_dpkey_double() - Convert the data type in a dpkey struct to double
+* --------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_dpkey_double(), if necessary, converts the data type in a dpkey
+* struct to floating point.  The integer value itself is returned.
+*
+* Given and returned:
+*   dp        struct dpkey *
+*                       Parsed contents of a DPja or DQia keyrecords.
+*
+* Function return value:
+*             double    The record's value as double.
+*
+a322 2
+#include "dis.h"
+
+a340 2
+int    wcsutil_dpkey_int(struct dpkey *dp);
+double wcsutil_dpkey_double(struct dpkey *dp);
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.23.1.2 2014/05/22 10:56:16 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.22.1.2 2014/05/04 08:43:18 mcalabre Exp mcalabre $
+d112 1
+a112 1
+* wcsutil_Eq() tests for equality of two arrays.
+d117 5
+d331 2
+a332 1
+int  wcsutil_Eq(int nelem, const double *arr1, const double *arr2);
+d334 1
+a334 1
+int wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72]);
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.23.1.2
+log
+@Changed API to wcsutil_Eq() to allow a tolerance to be specified for
+floating-point comparisons.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+d112 1
+a112 1
+* wcsutil_Eq() tests for equality of two double-precision arrays.
+a116 5
+*   tol       double    Tolerance for comparison of the floating-point values.
+*                       For example, for tol == 1e-6, all floating-point
+*                       values in the arrays must be equal to the first 6
+*                       decimal places.  A value of 0 implies exact equality.
+*
+d326 1
+a326 2
+int  wcsutil_Eq(int nelem, double tol, const double *arr1,
+                const double *arr2);
+d328 1
+a328 1
+int  wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72]);
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+d108 63
+d277 3
+a279 1
+* ignores the locale and always uses a '.' as the decimal separator.
+d288 4
+a291 1
+*                       nothing else.
+d326 3
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.22.1.2
+log
+@Added wcsutil_Eq(), wcsutil_intEq(), and wcsutil_strEq() from Michael
+Droettboom.  Updated the prologue comments for wcsutil_double2str().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+a107 63
+* wcsutil_Eq() - Test for equality of two double arrays
+* -----------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_Eq() tests for equality of two arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   arr1      const double*
+*                       The first array.
+*
+*   arr2      const double*
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+* wcsutil_intEq() - Test for equality of two int arrays
+* -----------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_intEq() tests for equality of two int arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   arr1      const int*
+*                       The first array.
+*
+*   arr2      const int*
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+* wcsutil_strEq() - Test for equality of two string arrays
+* --------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_strEq() tests for equality of two string arrays.
+*
+* Given:
+*   nelem     int       The number of elements in each array.
+*
+*   arr1      const char**
+*                       The first array.
+*
+*   arr2      const char**
+*                       The second array
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not equal.
+*                         1: Equal.
+*
+*
+d214 1
+a214 3
+* ignores the locale and always uses a '.' as the decimal separator.  Also,
+* unless it includes an exponent, the formatted value will always have a
+* fractional part, ".0" being appended if necessary.
+d223 1
+a223 4
+*                       nothing else.  For "%g" and "%G" formats, unless it
+*                       includes an exponent, the formatted value will always
+*                       have a fractional part, ".0" being appended if
+*                       necessary.
+a257 3
+int  wcsutil_Eq(int nelem, const double *arr1, const double *arr2);
+int  wcsutil_intEq(int nelem, const int *arr1, const int *arr2);
+int wcsutil_strEq(int nelem, char (*arr1)[72], char (*arr2)[72]);
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16.1.5 2013/01/29 05:09:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d193 3
+a195 4
+* the contents of WCSLIB structs.  Note that it is not strictly legal to
+* type-pun a function pointer to void*.
+*
+* See stackoverflow.com/questions/2741683/how-to-format-a-function-pointer
+d198 1
+a198 1
+*   fptr      int (*)() Pointer to function.
+d201 1
+a201 1
+*   hext      char[]    Null-terminated string.  Should be at least 19 bytes
+d213 1
+a213 1
+* wcsutil_double2str() converts a double to a string, but unlike sprintf it
+d221 1
+a221 1
+*                       may be any of the forms accepted by sprintf, but
+d232 1
+a232 1
+* wcsutil_str2double() converts a string to a double, but unlike sscanf it
+d239 1
+a239 1
+*                       may be any of the forms accepted by sscanf, but
+d250 4
+d261 1
+a261 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[]);
+d265 4
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Added 'extern "C" {}' for C++ usage.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+a250 4
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+a261 4
+#ifdef __cplusplus
+}
+#endif
+
+@
+
+
+4.16.1.3
+log
+@Indicate the expected size of the array, hext[19], in the
+function prototype for wcsutil_fptr2str().
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16.1.2 2012/11/28 13:07:37 cal103 Exp cal103 $
+d202 1
+a202 1
+*   hext      char[19]  Null-terminated string.  Should be at least 19 bytes
+d262 1
+a262 1
+char *wcsutil_fptr2str(int (*func)(void), char hext[19]);
+@
+
+
+4.16.1.4
+log
+@Changed the prologue for wcsutil_fptr2str() to accomodate doxextr, plus
+other minor changes.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16.1.3 2012/11/29 04:41:32 cal103 Exp cal103 $
+d193 4
+a196 3
+* the contents of WCSLIB structs, noting that it is not strictly legal to
+* type-pun a function pointer to void*.  See
+* http://stackoverflow.com/questions/2741683/how-to-format-a-function-pointer
+d199 1
+a199 1
+*   fptr      int(*)()  Pointer to function.
+d214 1
+a214 1
+* wcsutil_double2str() converts a double to a string, but unlike sprintf() it
+d222 1
+a222 1
+*                       may be any of the forms accepted by sprintf(), but
+d233 1
+a233 1
+* wcsutil_str2double() converts a string to a double, but unlike sscanf() it
+d240 1
+a240 1
+*                       may be any of the forms accepted by sscanf(), but
+@
+
+
+4.16.1.5
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.16.1.4 2012/11/29 06:43:00 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: wcsutil.h,v 4.13.1.3 2012/07/13 03:34:20 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: wcsutil.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutil.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+d209 37
+d258 3
+a260 1
+char *wcsutil_fptr2str(int (*func)(), char hext[]);
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Handle locales such as fr_FR where a comma is used to delimit the decimal
+part of a floating point number - functions wcsutil_str2double() and
+wcsutil_double2str() substitute for sscanf() and sprintf() when dealing
+with floating point numbers.  Patch provided by Michael Droettboom.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+a214 37
+*
+* wcsutil_double2str() - Translate double to string ignoring the locale
+* ---------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_double2str() converts a double to a string, but unlike sprintf it
+* ignores the locale and always uses a '.' as the decimal separator.
+*
+* Returned:
+*   buf       char *    The buffer to write the string into.
+*
+* Given:
+*   format    char *    The formatting directive, such as "%f".  This
+*                       may be any of the forms accepted by sprintf, but
+*                       should only include a formatting directive and
+*                       nothing else.
+*
+*   value     double    The value to convert to a string.
+*
+*
+* wcsutil_str2double() - Translate string to a double, ignoring the locale
+* ------------------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_str2double() converts a string to a double, but unlike sscanf it
+* ignores the locale and always expects a '.' as the decimal separator.
+*
+* Given:
+*   buf       char *    The string containing the value
+*
+*   format    char *    The formatting directive, such as "%lf".  This
+*                       may be any of the forms accepted by sscanf, but
+*                       should only include a single formatting directive.
+*
+* Returned:
+*   value     double *  The double value parsed from the string.
+*
+d227 1
+a227 3
+char *wcsutil_fptr2str(int (*func)(void), char hext[]);
+int  wcsutil_str2double(const char *buf, const char *format, double *value);
+void wcsutil_double2str(char *buf, const char *format, double value);
+@
+
+
+4.13.1.3
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcsutil.h,v 4.13.1.2 2012/07/12 15:27:46 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.8.1.2 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.7.1.2 2011/08/09 02:39:46 cal103 Exp cal103 $
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.6.1.2 2011/01/14 06:33:16 cal103 Exp cal103 $
+d36 3
+a38 3
+* Simple utility functions used by WCSLIB.  They are documented here solely as
+* an aid to understanding the code.  Thay are not intended for external use -
+* the API may change without notice!
+d43 2
+d64 2
+d85 2
+d92 1
+d94 1
+d116 2
+d122 1
+d144 2
+d150 1
+d172 2
+d178 1
+d180 2
+a181 2
+*                       Address of a selection array of length nelem.
+*                       May be specified as the null pointer in which case all
+d183 1
+d192 23
+d227 1
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Added function wcsutil_fptr2str() which translates a pointer-to-function
+to hexadecimal string representation for output.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.7.1.1 2011/02/07 07:04:22 cal103 Exp $
+d36 3
+a38 3
+* Simple utility functions for internal use only by WCSLIB.  They are
+* documented here solely as an aid to understanding the code.  They are not
+* intended for external use - the API may change without notice!
+a42 2
+* INTERNAL USE ONLY.
+*
+a61 2
+* INTERNAL USE ONLY.
+*
+a80 2
+* INTERNAL USE ONLY.
+*
+a85 1
+*
+a86 1
+*
+a107 2
+* INTERNAL USE ONLY.
+*
+a111 1
+*
+a132 2
+* INTERNAL USE ONLY.
+*
+a136 1
+*
+a157 2
+* INTERNAL USE ONLY.
+*
+a161 1
+*
+d163 2
+a164 2
+*                       Address of a selection array of length nelem.  May
+*                       be specified as the null pointer in which case all
+a165 1
+*
+a173 23
+*
+* wcsutil_fptr2str() - Translate pointer-to-function to string
+* ------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcsutil_fptr2str() translates a pointer-to-function to hexadecimal string
+* representation for output.  It is used by the various routines that print
+* the contents of WCSLIB structs.  Note that it is not strictly legal to
+* type-pun a function pointer to void*.
+*
+* See stackoverflow.com/questions/2741683/how-to-format-a-function-pointer
+*
+* Given:
+*   fptr      int (*)() Pointer to function.
+*
+* Returned:
+*   hext      char[]    Null-terminated string.  Should be at least 19 bytes
+*                       in size to accomodate a 64-bit address (16 bytes in
+*                       hex), plus the leading "0x" and trailing '\0'.
+*
+* Function return value:
+*             char *    The address of hext.
+*
+a185 1
+char *wcsutil_fptr2str(int (*func)(), char hext[]);
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.5.1.1 2010/07/16 07:05:31 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.4.1.3 2010/01/19 04:12:10 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.5 2010/07/16 07:01:25 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.3.1.2 2009/07/22 05:10:07 cal103 Exp cal103 $
+d62 2
+a63 1
+* wcsutil_null_fill() pads a character string with NULL characters.
+d65 1
+a65 1
+* Used mainly to make character strings intelligible in the GNU debugger - it
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.4 2009/08/06 07:41:33 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: wcsutil.h,v 4.4.1.1 2009/08/10 08:52:49 cal103 Exp cal103 $
+@
+
+
+4.4.1.3
+log
+@Note that wcsutil_null_fill() strips off trailing blanks.
+@
+text
+@d31 1
+a31 1
+  $Id: wcsutil.h,v 4.4.1.2 2010/01/19 03:42:50 cal103 Exp cal103 $
+d62 1
+a62 2
+* wcsutil_null_fill() strips off trailing blanks and pads the character array
+* holding the string with NULL characters.
+d64 1
+a64 1
+* Used mainly to make character strings intelligible in the GNU debugger which
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutil.h,v 4.2.1.3 2007/12/03 05:02:17 cal103 Exp cal103 $
+d34 138
+a171 2
+*   Simple utility functions used by WCSLIB, undocumented and not intended for
+*   external use - the interfaces may change without notice.
+d178 2
+a179 2
+void wcsutil_blank_fill(int, char []);
+void wcsutil_null_fill(int, char []);
+d181 4
+a184 4
+int  wcsutil_allEq(int, int, const double *);
+void wcsutil_setAll(int, int, double *);
+void wcsutil_setAli(int, int, int *);
+void wcsutil_setBit(int, int*, int, int *);
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: wcsutil.h,v 4.3 2007/12/27 05:41:36 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changes required for generation of the manual using doxextr and doxygen,
+including naming of arguments in function prototypes.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcsutil.h,v 4.3.1.1 2007/12/27 13:23:47 cal103 Exp $
+d34 2
+a35 138
+* Summary of the wcsutil routines
+* -------------------------------
+* Simple utility functions used by WCSLIB.  They are documented here solely as
+* an aid to understanding the code.  Thay are not intended for external use -
+* the API may change without notice!
+*
+*
+* wcsutil_blank_fill() - Fill a character string with blanks
+* ----------------------------------------------------------
+* wcsutil_blank_fill() pads a character string with blanks starting with the
+* terminating NULL character.
+*
+* Used by the Fortran wrapper functions in translating C character strings
+* into Fortran CHARACTER variables.
+*
+* Given:
+*   n         int       Length of the character array, c[].
+*
+* Given and returned:
+*   c         char[]    The character string.  It will not be null-terminated
+*                       on return.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_null_fill() - Fill a character string with NULLs
+* --------------------------------------------------------
+* wcsutil_null_fill() pads a character string with NULL characters.
+*
+* Used mainly to make character strings intelligible in the GNU debugger - it
+* prints the rubbish following the terminating NULL, obscuring the valid part
+* of the string.
+*
+* Given:
+*   n         int       Number of characters.
+*
+* Given and returned:
+*   c         char[]    The character string.
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_allEq() - Test for equality of a particular vector element
+* ------------------------------------------------------------------
+* wcsutil_allEq() tests for equality of a particular element in a set of
+* vectors.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*   nelem     int       The length of each vector.
+*   first     const double*
+*                       Pointer to the first element to test in the array.
+*                       The elements tested for equality are
+*
+=                         *first == *(first + nelem)
+=                                == *(first + nelem*2)
+=                                           :
+=                                == *(first + nelem*(nvec-1));
+*
+*                       The array might be dimensioned as
+*
+=                         double v[nvec][nelem];
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Not all equal.
+*                         1: All equal.
+*
+*
+* wcsutil_setAll() - Set a particular vector element
+* --------------------------------------------------
+* wcsutil_setAll() sets the value of a particular element in a set of vectors.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*   nelem     int       The length of each vector.
+*
+* Given and returned:
+*   first     double*   Pointer to the first element in the array, the value
+*                       of which is used to set the others
+*
+=                         *(first + nelem) = *first;
+=                         *(first + nelem*2) = *first;
+=                                 :
+=                         *(first + nelem*(nvec-1)) = *first;
+*
+*                       The array might be dimensioned as
+*
+=                         double v[nvec][nelem];
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_setAli() - Set a particular vector element
+* --------------------------------------------------
+* wcsutil_setAli() sets the value of a particular element in a set of vectors.
+*
+* Given:
+*   nvec      int       The number of vectors.
+*   nelem     int       The length of each vector.
+*
+* Given and returned:
+*   first     int*      Pointer to the first element in the array, the value
+*                       of which is used to set the others
+*
+=                         *(first + nelem) = *first;
+=                         *(first + nelem*2) = *first;
+=                                 :
+=                         *(first + nelem*(nvec-1)) = *first;
+*
+*                       The array might be dimensioned as
+*
+=                         int v[nvec][nelem];
+*
+* Function return value:
+*             void
+*
+*
+* wcsutil_setBit() - Set bits in selected elements of an array
+* ------------------------------------------------------------
+* wcsutil_setBit() sets bits in selected elements of an array.
+*
+* Given:
+*   nelem     int       Number of elements in the array.
+*   sel       const int*
+*                       Address of a selection array of length nelem.
+*                       May be specified as the null pointer in which case all
+*                       elements are selected.
+*   bits      int       Bit mask.
+*
+* Given and returned:
+*   array     int*      Address of the array of length nelem.
+*
+* Function return value:
+*             void
+d42 2
+a43 2
+void wcsutil_blank_fill(int n, char c[]);
+void wcsutil_null_fill (int n, char c[]);
+d45 4
+a48 4
+int  wcsutil_allEq (int nvec, int nelem, const double *first);
+void wcsutil_setAll(int nvec, int nelem, double *first);
+void wcsutil_setAli(int nvec, int nelem, int *first);
+void wcsutil_setBit(int nelem, const int *sel, int bits, int *array);
+@
+
+
+4.2
+log
+@WCSLIB 4.2: added prototypes for wcsutil_allEq(), wcsutil_setAll(),
+wcsutil_setAli(), and wcsutil_setBit(), the first three originally in wcs.h;
+changed the include guard name.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS standard.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: wcsutil.h,v 4.1 2005/08/25 07:26:29 cal103 Exp cal103 $
+d34 2
+a35 1
+*   Simple utility functions used by WCSLIB.
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id: wcsutil.h,v 4.2 2005/09/22 08:59:02 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Mention in the prologue that these routines are intended for internal use
+only.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: wcsutil.h,v 4.2.1.1 2005/12/05 02:39:43 cal103 Exp cal103 $
+d33 1
+a33 2
+*   Simple utility functions used by WCSLIB, undocumented and not intended for
+*   external use - the interfaces may change without notice.
+@
+
+
+4.2.1.3
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: wcsutil.h,v 4.2.1.2 2007/08/08 08:44:25 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS standard.
+d30 1
+a30 1
+*   $Id$
+d37 2
+a38 2
+#ifndef WCSLIB_UTIL
+#define WCSLIB_UTIL
+d43 6
+a48 1
+#endif /* WCSLIB_UTIL */
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 43
+@

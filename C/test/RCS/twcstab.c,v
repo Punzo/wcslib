@@ -1,0 +1,5153 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.37;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.01;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.52;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.53;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.28;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.50;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.52;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.05;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.21;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.45;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.06;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.32;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.57;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.54;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	4.7;
+
+4.7
+date	2011.02.07.07.03.42;	author cal103;	state Exp;
+branches
+	4.7.1.1;
+next	4.6;
+
+4.6
+date	2010.11.16.06.15.31;	author cal103;	state Exp;
+branches
+	4.6.1.1;
+next	4.5;
+
+4.5
+date	2010.07.16.07.01.26;	author cal103;	state Exp;
+branches
+	4.5.1.1;
+next	4.4;
+
+4.4
+date	2009.08.06.07.45.31;	author cal103;	state Exp;
+branches
+	4.4.1.1;
+next	4.3;
+
+4.3
+date	2007.12.27.05.35.51;	author cal103;	state Exp;
+branches
+	4.3.1.1;
+next	4.2;
+
+4.2
+date	2005.09.22.08.14.21;	author cal103;	state Exp;
+branches
+	4.2.1.1;
+next	4.1;
+
+4.1
+date	2005.08.31.04.08.59;	author cal103;	state Exp;
+branches;
+next	0.0;
+
+0.0
+date	2005.08.25.06.19.05;	author cal103;	state Exp;
+branches;
+next	;
+
+4.2.1.1
+date	2005.12.05.01.39.15;	author cal103;	state Exp;
+branches;
+next	4.2.1.2;
+
+4.2.1.2
+date	2007.06.29.06.46.14;	author cal103;	state Exp;
+branches;
+next	4.2.1.3;
+
+4.2.1.3
+date	2007.07.12.02.35.59;	author cal103;	state Exp;
+branches;
+next	4.2.1.4;
+
+4.2.1.4
+date	2007.08.02.05.58.54;	author cal103;	state Exp;
+branches;
+next	4.2.1.5;
+
+4.2.1.5
+date	2007.12.03.05.12.59;	author cal103;	state Exp;
+branches;
+next	;
+
+4.3.1.1
+date	2007.12.27.13.24.32;	author cal103;	state Exp;
+branches;
+next	4.3.1.2;
+
+4.3.1.2
+date	2009.07.22.06.38.03;	author cal103;	state Exp;
+branches;
+next	;
+
+4.4.1.1
+date	2009.08.10.08.54.26;	author cal103;	state Exp;
+branches;
+next	4.4.1.2;
+
+4.4.1.2
+date	2010.01.19.03.44.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.5.1.1
+date	2010.07.16.07.05.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.6.1.1
+date	2010.11.16.06.16.19;	author cal103;	state Exp;
+branches;
+next	4.6.1.2;
+
+4.6.1.2
+date	2011.01.14.06.33.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.7.1.1
+date	2011.02.07.07.04.23;	author cal103;	state Exp;
+branches;
+next	4.7.1.2;
+
+4.7.1.2
+date	2011.08.13.06.25.01;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.12.05.06.44.07;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.23.30;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.47;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.11;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.38;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.37.00;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.50;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.52;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.57;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2013.01.29.05.10.40;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.33;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.38;	author mcalabre;	state Exp;
+branches;
+next	4.18.1.2;
+
+4.18.1.2
+date	2013.09.29.08.42.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.56;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.26.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.51;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.46;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.52;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.11.05.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.16.05.36.03;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.06.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.11.16.23.38;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.25.08.58.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@CFITSIO-based program that tests wcstab() and also provides sample code for
+using it in conjunction with wcspih() and fits_read_wcstab().
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: twcstab.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* twcstab tests wcstab() and also provides sample code for using it in
+* conjunction with wcspih() and fits_read_wcstab().  Although this example
+* and fits_read_wcstab() are based on the CFITSIO library, wcstab() itself
+* is completely independent of it.
+*
+* The input FITS file is constructed by create_input() from a list of header
+* keyrecords in wcstab.keyrec together with some hard-coded parameters.  The
+* output fits file, wcstab.fits, is left for inspection.
+*
+*===========================================================================*/
+
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+
+#include <fitsio.h>
+
+#include <wcslib.h>
+#include <getwcstab.h>
+
+int create_input();
+double lcprng();
+int do_wcs_stuff(fitsfile *fptr, struct wcsprm *wcs);
+
+int main()
+
+{
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+  setvbuf(stdout, NULL, _IOLBF, 0);
+
+  printf("Testing -TAB interpreter (twcstab.c)\n"
+         "------------------------------------\n\n");
+
+  // Create the input FITS test file.
+  if (create_input()) {
+    fprintf(stderr, "Failed to create FITS test file.");
+    return 1;
+  }
+
+  // Open the FITS test file and read the primary header.
+  int status = 0;
+  fitsfile *fptr;
+  fits_open_file(&fptr, "wcstab.fits", READONLY, &status);
+
+  int nkeyrec;
+  char *header;
+  if ((status = fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec,
+                             &status))) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+
+  //-------------------------------------------------------------------------
+  // Basic steps required to interpret a FITS WCS header, including -TAB.
+  //-------------------------------------------------------------------------
+
+  // Parse the primary header of the FITS file.
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+  if ((status = wcspih(header, nkeyrec, WCSHDR_all, 2, &nreject, &nwcs,
+                       &wcs))) {
+    fprintf(stderr, "wcspih ERROR %d: %s.\n", status,wcshdr_errmsg[status]);
+  }
+
+  // Read coordinate arrays from the binary table extension.
+  if ((status = fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb,
+                                 &status))) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+  // Translate non-standard WCS keyvalues.
+  int stat[NWCSFIX];
+  if ((status = wcsfix(7, 0, wcs, stat))) {
+    for (int i = 0; i < NWCSFIX; i++) {
+      if (stat[i] > 0) {
+        fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                wcsfix_errmsg[stat[i]]);
+      }
+    }
+
+    return 1;
+  }
+
+  //-------------------------------------------------------------------------
+  // The wcsprm struct is now ready for use.
+  //-------------------------------------------------------------------------
+
+  // Do something with it.
+  do_wcs_stuff(fptr, wcs);
+
+  // Finished with the FITS file.
+  fits_close_file(fptr, &status);
+  fits_free_memory(header, &status);
+
+  // Clean up.
+  status = wcsvfree(&nwcs, &wcs);
+
+  return 0;
+}
+
+//----------------------------------------------------------------------------
+
+// The celestial plane is 256 x 128 with the table indexed at every fourth
+// pixel on each axis, but the image is rotated by 5 deg so the table needs
+// to be a bit wider than 65 x 33.
+
+#define K1 70L
+#define K2 40L
+
+int create_input()
+
+{
+  const double TWOPI = 2.0 * 3.14159265358979323846;
+
+  // These must match wcstab.keyrec.
+  const char infile[] = "test/wcstab.keyrec";
+  const long NAXIS1 = 256;
+  const long NAXIS2 = 128;
+  const long NAXIS3 =   4;
+  const char *ttype1[3] = {"CelCoords", "RAIndex", "DecIndex"};
+  const char *tform1[3] = {"5600E", "70E", "40E"};
+  const char *tunit1[3] = {"deg", "", ""};
+  const char *ttype2[4] = {"WaveIndex", "WaveCoord",
+                           "TimeIndex", "TimeCoord"};
+  const char *tform2[4] = {"8E", "8D", "8E", "8D"};
+  const char *tunit2[4] = {"", "m", "", "a"};
+
+  // The remaining parameters may be chosen at will.
+  float  refval[] = {150.0f, -30.0f};
+  float  span[]   = {5.0f, (5.0f*K2)/K1};
+  float  sigma[]  = {0.10f, 0.05f};
+  double wcoord[] = {0.21106114, 0.21076437, 2.0e-6, 2.2e-6,
+                     500.0e-9, 650.0e-9, 1.24e-9, 2.48e-9};
+  double windex[] = {0.5, 1.5, 1.5, 2.5, 2.5, 3.5, 3.5, 4.5};
+  double tcoord[] = {1997.84512, 1997.84631, 1993.28451, 1993.28456,
+                     2001.59234, 2001.59239, 2002.18265, 2002.18301};
+  double tindex[] = {0.0, 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0};
+
+  // Look for the input header keyrecords.
+  FILE *stream;
+  if ((stream = fopen(infile+5, "r")) == 0x0) {
+    if ((stream = fopen(infile, "r")) == 0x0) {
+      printf("ERROR opening %s\n", infile);
+      return 1;
+    }
+  }
+
+  // Create the FITS output file, deleting any pre-existing file.
+  int status = 0;
+  fitsfile *fptr;
+  fits_create_file(&fptr, "!wcstab.fits", &status);
+
+  // Convert header keyrecords to FITS.
+  char keyrec[84];
+  while (fgets(keyrec, 82, stream) != NULL) {
+    // Ignore meta-comments (copyright information, etc.).
+    if (keyrec[0] == '#') continue;
+
+    // Strip off the newline.
+    size_t iz = strlen(keyrec) - 1;
+    if (keyrec[iz] == '\n') keyrec[iz] = '\0';
+
+    fits_write_record(fptr, keyrec, &status);
+  }
+  fclose(stream);
+
+  // Create and write some phoney image data.
+  long firstelem = 1;
+  float image[256], *fp;
+  for (long p3 = 0; p3 < NAXIS3; p3++) {
+    for (long p2 = 0; p2 < NAXIS2; p2++) {
+      fp = image;
+      double s = (p3 + 1) * cos(0.2 * p2);
+      double t = cos(0.8*p2);
+      for (long p1 = 0; p1 < NAXIS1; p1++) {
+        // Do not adjust your set!
+        *(fp++) = sin(0.1*(p1+p2) + s) * cos(0.4*p1) * t;
+      }
+
+      fits_write_img_flt(fptr, 0L, firstelem, NAXIS1, image, &status);
+      firstelem += NAXIS1;
+    }
+  }
+
+
+  // Add the first binary table extension.
+  fits_create_tbl(fptr, BINARY_TBL, 1L, 3L, (char **)ttype1, (char **)tform1,
+     (char **)tunit1, NULL, &status);
+
+  // Write EXTNAME and EXTVER near the top, after TFIELDS.
+  long dummy;
+  fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+  fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+    "WCS Coordinate lookup table", &status);
+  fits_insert_key_lng(fptr, "EXTVER", 1L, "Table number 1", &status);
+
+  // Write the TDIM1 keyrecord after TFORM1.
+  fits_read_key_str(fptr, "TFORM1", keyrec, NULL, &status);
+  snprintf(keyrec, 84, "(2,%ld,%ld)", K1, K2);
+  fits_insert_key_str(fptr, "TDIM1", keyrec, "Dimensions of 3-D array",
+    &status);
+
+  // Plate carrée projection with a bit of noise for the sake of realism.
+  float array[2*K1*K2];
+  fp = array;
+  for (long k2 = 0; k2 < K2; k2++) {
+    for (long k1 = 0; k1 < K1; k1++) {
+      // Box-Muller transformation: uniform -> normal distribution.
+      double x1 = lcprng();
+      double x2 = lcprng();
+      if (x1 == 0.0) x1 = 1.0;
+      double z  = sqrt(-2.0 * log(x1));
+      x2 *= TWOPI;
+      double z1 = z * cos(x2);
+      double z2 = z * sin(x2);
+
+      *(fp++) = refval[0] + span[0] * (k1/(K1-1.0) - 0.5) + z1 * sigma[0];
+      *(fp++) = refval[1] + span[1] * (k2/(K2-1.0) - 0.5) + z2 * sigma[1];
+    }
+  }
+  fits_write_col_flt(fptr, 1, 1L, 1L, 2*K1*K2, array, &status);
+
+  fp = array;
+  for (long k1 = 0; k1 < K1; k1++) {
+    *(fp++) = 4.0f * k1;
+  }
+  fits_write_col_flt(fptr, 2, 1L, 1L, K1, array, &status);
+
+  fp = array;
+  for (long k2 = 0; k2 < K2; k2++) {
+    *(fp++) = 4.0f * k2;
+  }
+  fits_write_col_flt(fptr, 3, 1L, 1L, K2, array, &status);
+
+
+  // Add the second binary table extension.
+  if (fits_create_tbl(fptr, BINARY_TBL, 1L, 4L, (char **)ttype2,
+     (char **)tform2, (char **)tunit2, NULL, &status)) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+  // Write EXTNAME and EXTVER near the top, after TFIELDS.
+  fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+  fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+    "WCS Coordinate lookup table", &status);
+  fits_insert_key_lng(fptr, "EXTVER", 2L, "Table number 2", &status);
+
+  // Write the TDIM2 keyrecord after TFORM2.
+  fits_read_key_str(fptr, "TFORM2", keyrec, NULL, &status);
+  fits_insert_key_str(fptr, "TDIM2", "(1,8)", "Dimensions of 2-D array",
+    &status);
+
+  // Write the TDIM4 keyrecord after TFORM4.
+  fits_read_key_str(fptr, "TFORM4", keyrec, NULL, &status);
+  fits_insert_key_str(fptr, "TDIM4", "(1,8)", "Dimensions of 2-D array",
+    &status);
+
+
+  fits_write_col_dbl(fptr, 1, 1L, 1L, 8L, windex, &status);
+  fits_write_col_dbl(fptr, 2, 1L, 1L, 8L, wcoord, &status);
+  fits_write_col_dbl(fptr, 3, 1L, 1L, 8L, tindex, &status);
+  fits_write_col_dbl(fptr, 4, 1L, 1L, 8L, tcoord, &status);
+
+  fits_close_file(fptr, &status);
+
+  if (status) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+  return 0;
+}
+
+/*----------------------------------------------------------------------------
+* A simple linear congruential pseudo-random number generator that produces
+* the same results on all systems so that the test output can be compared.
+* It produces a fixed sequence of uniformly distributed numbers in [0,1].
+* Adapted from the example in Numerical Recipes in C.
+*---------------------------------------------------------------------------*/
+
+double lcprng()
+
+{
+  static unsigned long next = 137UL;
+
+  next = next * 1664525UL + 1013904223UL;
+  return (double)(next % 1073741824UL) / 1073741823.0;
+}
+
+//----------------------------------------------------------------------------
+
+int do_wcs_stuff(fitsfile *fptr, struct wcsprm *wcs)
+
+{
+  // Initialize the wcsprm struct, also taking control of memory allocated by
+  // fits_read_wcstab().
+  int status;
+  if ((status = wcsset(wcs))) {
+    fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+    return 1;
+  }
+
+  // Print the struct.
+  if ((status = wcsprt(wcs))) return status;
+
+  // Compute coordinates in the corners.
+  int naxis1, naxis2, naxis3;
+  fits_read_key(fptr, TINT, "NAXIS1", &naxis1, NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS2", &naxis2, NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS3", &naxis3, NULL, &status);
+
+  int k = 0;
+  double x3 = 1.0f;
+  double pixcrd[8][4];
+  for (int i3 = 0; i3 < 2; i3++) {
+    double x2 = 0.5f;
+
+    for (int i2 = 0; i2 < 2; i2++) {
+      double x1 = 0.5f;
+
+      for (int i1 = 0; i1 < 2; i1++) {
+        pixcrd[k][0] = x1;
+        pixcrd[k][1] = x2;
+        pixcrd[k][2] = x3;
+        pixcrd[k][3] = 1.0f;
+
+        k++;
+        x1 = naxis1 + 0.5f;
+      }
+
+      x2 = naxis2 + 0.5f;
+    }
+
+    x3 = naxis3;
+  }
+
+  int stat[8];
+  double imgcrd[8][4], phi[8], theta[8], world[8][4];
+  if ((status = wcsp2s(wcs, 8, 4, pixcrd[0], imgcrd[0], phi, theta, world[0],
+                       stat))) {
+    fprintf(stderr, "\n\nwcsp2s ERROR %d: %s.\n", status,
+            wcs_errmsg[status]);
+
+    // Invalid pixel coordinates.
+    if (status == 8) status = 0;
+  }
+
+  if (status == 0) {
+    printf("\n\nCorner world coordinates:\n"
+           "            Pixel                              World\n");
+    for (k = 0; k < 8; k++) {
+      printf("  (%5.1f,%6.1f,%4.1f,%4.1f) -> (%7.3f,%8.3f,%9g,%11.5f)",
+             pixcrd[k][0], pixcrd[k][1], pixcrd[k][2], pixcrd[k][3],
+             world[k][0],  world[k][1],  world[k][2],  world[k][3]);
+      if (stat[k]) printf("  (BAD)");
+      printf("\n");
+    }
+  }
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.6.1.3 2026/04/25 08:58:14 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.5.1.2 2026/03/29 13:36:18 mcalabre Exp mcalabre $
+d46 1
+a47 1
+double lcprng();
+a51 6
+  char *header;
+  int  i, nkeyrec, nreject, nwcs, stat[NWCSFIX], status = 0;
+  fitsfile *fptr;
+  struct wcsprm *wcs;
+
+
+d66 2
+d69 3
+d84 2
+d99 1
+d101 1
+a101 1
+    for (i = 0; i < NWCSFIX; i++) {
+a165 9
+  char   keyrec[84];
+  int    status;
+  size_t iz;
+  long   dummy, firstelem, k1, k2, p1, p2, p3;
+  float  array[2*K1*K2], *fp, image[256];
+  double s, t, x1, x2, z, z1, z2;
+  FILE   *stream;
+  fitsfile *fptr;
+
+d167 1
+d176 2
+a177 1
+  status = 0;
+d181 1
+d187 1
+a187 1
+    iz = strlen(keyrec) - 1;
+d195 4
+a198 3
+  firstelem = 1;
+  for (p3 = 0; p3 < NAXIS3; p3++) {
+    for (p2 = 0; p2 < NAXIS2; p2++) {
+d200 3
+a202 3
+      s = (p3 + 1) * cos(0.2 * p2);
+      t = cos(0.8*p2);
+      for (p1 = 0; p1 < NAXIS1; p1++) {
+d218 1
+d226 1
+a226 1
+  sprintf(keyrec, "(2,%ld,%ld)", K1, K2);
+d231 1
+d233 2
+a234 2
+  for (k2 = 0; k2 < K2; k2++) {
+    for (k1 = 0; k1 < K1; k1++) {
+d236 2
+a237 2
+      x1 = lcprng();
+      x2 = lcprng();
+d239 1
+a239 1
+      z  = sqrt(-2.0 * log(x1));
+d241 2
+a242 2
+      z1 = z * cos(x2);
+      z2 = z * sin(x2);
+d251 1
+a251 1
+  for (k1 = 0; k1 < K1; k1++) {
+d257 1
+a257 1
+  for (k2 = 0; k2 < K2; k2++) {
+d310 1
+a322 4
+  int    i1, i2, i3, k, naxis1, naxis2, naxis3, stat[8], status;
+  double phi[8], pixcrd[8][4], imgcrd[8][4], theta[8], world[8][4],
+         x1, x2, x3;
+
+d325 1
+d335 1
+d340 5
+a344 4
+  k = 0;
+  x3 = 1.0f;
+  for (i3 = 0; i3 < 2; i3++) {
+    x2 = 0.5f;
+d346 2
+a347 2
+    for (i2 = 0; i2 < 2; i2++) {
+      x1 = 0.5f;
+d349 1
+a349 1
+      for (i1 = 0; i1 < 2; i1++) {
+d365 2
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d52 6
+a71 2
+  int status = 0;
+  fitsfile *fptr;
+a72 3
+
+  int  nkeyrec;
+  char *header;
+a84 2
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+a97 1
+  int stat[NWCSFIX];
+d99 1
+a99 1
+    for (int i = 0; i < NWCSFIX; i++) {
+d164 9
+a173 1
+  FILE *stream;
+d182 1
+a182 2
+  int status = 0;
+  fitsfile *fptr;
+a185 1
+  char keyrec[84];
+d191 1
+a191 1
+    size_t iz = strlen(keyrec) - 1;
+d199 3
+a201 4
+  long firstelem = 1;
+  float image[256], *fp;
+  for (long p3 = 0; p3 < NAXIS3; p3++) {
+    for (long p2 = 0; p2 < NAXIS2; p2++) {
+d203 3
+a205 3
+      double s = (p3 + 1) * cos(0.2 * p2);
+      double t = cos(0.8*p2);
+      for (long p1 = 0; p1 < NAXIS1; p1++) {
+a220 1
+  long dummy;
+a232 1
+  float array[2*K1*K2];
+d234 2
+a235 2
+  for (long k2 = 0; k2 < K2; k2++) {
+    for (long k1 = 0; k1 < K1; k1++) {
+d237 2
+a238 2
+      double x1 = lcprng();
+      double x2 = lcprng();
+d240 1
+a240 1
+      double z  = sqrt(-2.0 * log(x1));
+d242 2
+a243 2
+      double z1 = z * cos(x2);
+      double z2 = z * sin(x2);
+d252 1
+a252 1
+  for (long k1 = 0; k1 < K1; k1++) {
+d258 1
+a258 1
+  for (long k2 = 0; k2 < K2; k2++) {
+d323 4
+a328 1
+  int status;
+a337 1
+  int naxis1, naxis2, naxis3;
+d342 4
+a345 5
+  int k = 0;
+  double x3 = 1.0f;
+  double pixcrd[8][4];
+  for (int i3 = 0; i3 < 2; i3++) {
+    double x2 = 0.5f;
+d347 2
+a348 2
+    for (int i2 = 0; i2 < 2; i2++) {
+      double x1 = 0.5f;
+d350 1
+a350 1
+      for (int i1 = 0; i1 < 2; i1++) {
+a365 2
+  int stat[8];
+  double imgcrd[8][4], phi[8], theta[8], world[8][4];
+@
+
+
+8.6.1.3
+log
+@Inconsequential changes prompted by clang-tidy:
+ - Replaced use of sprintf() with snprintf()
+   (clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling).
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.6.1.2 2026/04/11 16:23:38 mcalabre Exp mcalabre $
+d46 1
+a47 1
+int do_wcs_stuff(fitsfile *fptr, struct wcsprm *wcs);
+d70 1
+a70 1
+  int nkeyrec;
+d226 1
+a226 1
+  snprintf(keyrec, 84, "(2,%ld,%ld)", K1, K2);
+a309 1
+
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: twcstab.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: twcstab.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.7.1.2 2022/03/25 06:06:00 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: twcstab.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: twcstab.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d58 2
+a59 2
+  /* Set line buffering in case stdout is redirected to a file, otherwise
+   * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+d65 1
+a65 1
+  /* Create the input FITS test file. */
+d71 1
+a71 1
+  /* Open the FITS test file and read the primary header. */
+d80 3
+a82 3
+  /*-----------------------------------------------------------------------*/
+  /* Basic steps required to interpret a FITS WCS header, including -TAB.  */
+  /*-----------------------------------------------------------------------*/
+d84 1
+a84 1
+  /* Parse the primary header of the FITS file. */
+d90 1
+a90 1
+  /* Read coordinate arrays from the binary table extension. */
+d97 1
+a97 1
+  /* Translate non-standard WCS keyvalues. */
+d109 3
+a111 3
+  /*-----------------------------------------------------------------------*/
+  /* The wcsprm struct is now ready for use.                               */
+  /*-----------------------------------------------------------------------*/
+d113 1
+a113 1
+  /* Do something with it. */
+d116 1
+a116 1
+  /* Finished with the FITS file. */
+d120 1
+a120 1
+  /* Clean up. */
+d126 1
+a126 1
+/*--------------------------------------------------------------------------*/
+d128 3
+a130 3
+/* The celestial plane is 256 x 128 with the table indexed at every fourth  */
+/* pixel on each axis, but the image is rotated by 5 deg so the table needs */
+/* to be a bit wider than 65 x 33.                                          */
+d140 1
+a140 1
+  /* These must match wcstab.keyrec. */
+d153 1
+a153 1
+  /* The remaining parameters may be chosen at will. */
+d173 1
+a173 1
+  /* Look for the input header keyrecords. */
+d181 1
+a181 1
+  /* Create the FITS output file, deleting any pre-existing file. */
+d185 1
+a185 1
+  /* Convert header keyrecords to FITS. */
+d187 1
+a187 1
+    /* Ignore meta-comments (copyright information, etc.). */
+d190 1
+a190 1
+    /* Strip off the newline. */
+d198 1
+a198 1
+  /* Create and write some phoney image data. */
+d206 1
+a206 1
+        /* Do not adjust your set! */
+d216 1
+a216 1
+  /* Add the first binary table extension. */
+d220 1
+a220 1
+  /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+d226 1
+a226 1
+  /* Write the TDIM1 keyrecord after TFORM1. */
+d232 1
+a232 1
+  /* Plate carrée projection with a bit of noise for the sake of realism. */
+d236 1
+a236 1
+      /* Box-Muller transformation: uniform -> normal distribution. */
+d264 1
+a264 1
+  /* Add the second binary table extension. */
+d271 1
+a271 1
+  /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+d277 1
+a277 1
+  /* Write the TDIM2 keyrecord after TFORM2. */
+d282 1
+a282 1
+  /* Write the TDIM4 keyrecord after TFORM4. */
+d303 6
+a308 6
+/*--------------------------------------------------------------------------*/
+
+/* A simple linear congruential pseudo-random number generator that produces
+ * the same results on all systems so that the test output can be compared.
+ * It produces a fixed sequence of uniformly distributed numbers in [0,1].
+ * Adapted from the example in Numerical Recipes in C. */
+d318 1
+a318 1
+/*--------------------------------------------------------------------------*/
+d327 2
+a328 2
+  /* Initialize the wcsprm struct, also taking control of memory allocated by
+   * fits_read_wcstab(). */
+d334 1
+a334 1
+  /* Print the struct. */
+d337 1
+a337 1
+  /* Compute coordinates in the corners. */
+d371 1
+a371 1
+    /* Invalid pixel coordinates. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: twcstab.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d61 2
+a62 2
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+d68 1
+a68 1
+  // Create the input FITS test file.
+d74 1
+a74 1
+  // Open the FITS test file and read the primary header.
+d83 3
+a85 3
+  //-------------------------------------------------------------------------
+  // Basic steps required to interpret a FITS WCS header, including -TAB.
+  //-------------------------------------------------------------------------
+d87 1
+a87 1
+  // Parse the primary header of the FITS file.
+d93 1
+a93 1
+  // Read coordinate arrays from the binary table extension.
+d100 1
+a100 1
+  // Translate non-standard WCS keyvalues.
+d112 3
+a114 3
+  //-------------------------------------------------------------------------
+  // The wcsprm struct is now ready for use.
+  //-------------------------------------------------------------------------
+d116 1
+a116 1
+  // Do something with it.
+d119 1
+a119 1
+  // Finished with the FITS file.
+d123 1
+a123 1
+  // Clean up.
+d129 1
+a129 1
+//----------------------------------------------------------------------------
+d131 3
+a133 3
+// The celestial plane is 256 x 128 with the table indexed at every fourth
+// pixel on each axis, but the image is rotated by 5 deg so the table needs
+// to be a bit wider than 65 x 33.
+d143 1
+a143 1
+  // These must match wcstab.keyrec.
+d156 1
+a156 1
+  // The remaining parameters may be chosen at will.
+d176 1
+a176 1
+  // Look for the input header keyrecords.
+d184 1
+a184 1
+  // Create the FITS output file, deleting any pre-existing file.
+d188 1
+a188 1
+  // Convert header keyrecords to FITS.
+d190 1
+a190 1
+    // Ignore meta-comments (copyright information, etc.).
+d193 1
+a193 1
+    // Strip off the newline.
+d201 1
+a201 1
+  // Create and write some phoney image data.
+d209 1
+a209 1
+        // Do not adjust your set!
+d219 1
+a219 1
+  // Add the first binary table extension.
+d223 1
+a223 1
+  // Write EXTNAME and EXTVER near the top, after TFIELDS.
+d229 1
+a229 1
+  // Write the TDIM1 keyrecord after TFORM1.
+d235 1
+a235 1
+  // Plate carrée projection with a bit of noise for the sake of realism.
+d239 1
+a239 1
+      // Box-Muller transformation: uniform -> normal distribution.
+d267 1
+a267 1
+  // Add the second binary table extension.
+d274 1
+a274 1
+  // Write EXTNAME and EXTVER near the top, after TFIELDS.
+d280 1
+a280 1
+  // Write the TDIM2 keyrecord after TFORM2.
+d285 1
+a285 1
+  // Write the TDIM4 keyrecord after TFORM4.
+d306 6
+a311 6
+/*----------------------------------------------------------------------------
+* A simple linear congruential pseudo-random number generator that produces
+* the same results on all systems so that the test output can be compared.
+* It produces a fixed sequence of uniformly distributed numbers in [0,1].
+* Adapted from the example in Numerical Recipes in C.
+*---------------------------------------------------------------------------*/
+d321 1
+a321 1
+//----------------------------------------------------------------------------
+d330 2
+a331 2
+  // Initialize the wcsprm struct, also taking control of memory allocated by
+  // fits_read_wcstab().
+d337 1
+a337 1
+  // Print the struct.
+d340 1
+a340 1
+  // Compute coordinates in the corners.
+d374 1
+a374 1
+    // Invalid pixel coordinates.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: twcstab.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: twcstab.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.4.1.3 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d168 2
+a169 1
+  int    i, status;
+d194 2
+a195 2
+    i = strlen(keyrec) - 1;
+    if (keyrec[i] == '\n') keyrec[i] = '\0';
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Use a size_t variable to store the result of strlen().
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d168 1
+a168 2
+  int    status;
+  size_t iz;
+d193 2
+a194 2
+    iz = strlen(keyrec) - 1;
+    if (keyrec[iz] == '\n') keyrec[iz] = '\0';
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.4.1.2 2019/12/16 05:36:03 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.2.1.3 2019/07/11 05:31:20 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d121 1
+a121 1
+  free(header);
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@Use fits_free_memory() to free allocated memory returned by fits_hdr2str().
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+d121 1
+a121 1
+  fits_free_memory(header, &status);
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.25.1.2 2015/01/06 01:01:52 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.24.1.1 2014/09/18 15:28:11 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.25 2014/12/14 14:29:37 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.25.1.1 2014/12/14 14:32:46 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.23.1.1 2014/05/13 05:53:51 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.24 2014/09/18 15:25:01 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.22.1.1 2014/04/12 15:06:33 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.23 2014/05/13 05:50:52 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.21.1.1 2014/03/24 05:15:29 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.22 2014/04/12 15:03:53 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.20.1.2 2014/03/21 06:26:03 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.21 2014/03/24 05:12:28 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.19.1.1 2013/09/29 14:20:40 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.20 2013/12/18 05:42:50 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.20.1.1 2013/12/18 05:46:56 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.18.1.2 2013/09/29 08:42:49 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.19 2013/09/29 14:17:52 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.17.1.1 2013/01/29 05:32:33 cal103 Exp cal103 $
+d198 1
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.18 2013/07/13 10:00:05 mcalabre Exp $
+@
+
+
+4.18.1.2
+log
+@In create_input(), close the input file after use (reported by cppcheck).
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.18.1.1 2013/07/13 10:02:38 mcalabre Exp mcalabre $
+a197 1
+  fclose(stream);
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.16.1.2 2013/01/29 05:10:40 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.17 2013/01/29 05:29:21 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.15.1.1 2012/09/26 14:27:52 cal103 Exp cal103 $
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.16 2012/11/07 04:42:45 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.16.1.1 2012/11/07 04:45:57 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.14.1.1 2012/07/13 10:04:50 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.15 2012/09/26 14:26:06 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: twcstab.c,v 4.13.1.2 2012/07/13 03:37:00 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: twcstab.c,v 4.14 2012/07/13 10:02:32 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 5
+a25 11
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: twcstab.c,v 4.12.1.1 2012/02/29 07:59:11 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 11
+a31 5
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: twcstab.c,v 4.13.1.1 2012/03/14 07:40:38 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.12 2012/02/29 07:57:57 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.10.1.1 2012/02/05 23:42:47 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.9.1.1 2012/01/24 05:41:46 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.8.1.3 2012/01/24 05:23:30 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.7.1.2 2011/08/13 06:25:01 cal103 Exp cal103 $
+d314 2
+a315 2
+ * Implemented in such a way that the Fortran test programs can emulate it.
+ * It produces a fixed sequence of uniformly distributed numbers in [0,1].  */
+d319 1
+a319 1
+  static int next = 137;
+d321 2
+a322 2
+  while ((next = next * 1103515245 + 12345) < 0);
+  return (double)(next % 1073741824) / 1073741823.0;
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.8 2011/08/15 08:05:54 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@In lcprng(), the random number generator tried to test for signed integer
+overflow which is an invalid operation in C and no longer accepted by
+gcc 4.6 with -O2 optimization.  Switched to unsigned long as there is no
+longer any need for a Fortran equivalent.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+d314 2
+a315 2
+ * It produces a fixed sequence of uniformly distributed numbers in [0,1].
+ * Adapted from the example in Numerical Recipes in C. */
+d319 1
+a319 1
+  static unsigned long next = 137UL;
+d321 2
+a322 2
+  next = next * 1664525UL + 1013904223UL;
+  return (double)(next % 1073741824UL) / 1073741823.0;
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.8.1.2 2011/12/05 06:44:07 cal103 Exp cal103 $
+@
+
+
+4.7
+log
+@WCSLIB 4.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.6.1.2 2011/01/14 06:33:44 cal103 Exp cal103 $
+a46 1
+#include <stdlib.h>
+d56 1
+d239 1
+a239 2
+  /* Plate carree projection with a bit of noise for the sake of realism. */
+  srand(137u);
+d244 2
+a245 2
+      x1 = ((double)rand()) / RAND_MAX;
+      x2 = ((double)rand()) / RAND_MAX;
+d312 15
+@
+
+
+4.7.1.1
+log
+@WCSLIB 4.7 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.7 2011/02/07 07:03:42 cal103 Exp $
+@
+
+
+4.7.1.2
+log
+@Implemented a pseudo-random number generator which produces the same
+results on all systems so that the test output can be compared.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.7.1.1 2011/02/07 07:04:23 cal103 Exp cal103 $
+d47 1
+a56 1
+double lcprng();
+d239 2
+a240 1
+  /* Plate carrée projection with a bit of noise for the sake of realism. */
+d245 2
+a246 2
+      x1 = lcprng();
+      x2 = lcprng();
+a312 15
+/* A simple linear congruential pseudo-random number generator that produces
+ * the same results on all systems so that the test output can be compared.
+ * Implemented in such a way that the Fortran test programs can emulate it.
+ * It produces a fixed sequence of uniformly distributed numbers in [0,1].  */
+
+double lcprng()
+{
+  static int next = 137;
+
+  while ((next = next * 1103515245 + 12345) < 0);
+  return (double)(next % 1073741824) / 1073741823.0;
+}
+
+/*--------------------------------------------------------------------------*/
+
+@
+
+
+4.6
+log
+@WCSLIB 4.6
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.6 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.5.1.1 2010/07/16 07:05:32 cal103 Exp cal103 $
+@
+
+
+4.6.1.1
+log
+@WCSLIB 4.6 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.6 2010/11/16 06:15:31 cal103 Exp $
+@
+
+
+4.6.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2011, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.6.1.1 2010/11/16 06:16:19 cal103 Exp cal103 $
+@
+
+
+4.5
+log
+@WCSLIB 4.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.5 - an implementation of the FITS WCS standard.
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.4.1.2 2010/01/19 03:44:00 cal103 Exp cal103 $
+@
+
+
+4.5.1.1
+log
+@WCSLIB 4.5 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.5 2010/07/16 07:01:26 cal103 Exp $
+@
+
+
+4.4
+log
+@WCSLIB 4.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.3.1.2 2009/07/22 06:38:03 cal103 Exp cal103 $
+@
+
+
+4.4.1.1
+log
+@WCSLIB 4.4 development branch.
+@
+text
+@d31 1
+a31 1
+  $Id: twcstab.c,v 4.4 2009/08/06 07:45:31 cal103 Exp $
+@
+
+
+4.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2010, Mark Calabretta
+d31 1
+a31 1
+  $Id: twcstab.c,v 4.4.1.1 2009/08/10 08:54:26 cal103 Exp cal103 $
+@
+
+
+4.3
+log
+@WCSLIB 4.3
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+d6 1
+a6 1
+    This file is part of WCSLIB.
+d8 24
+a31 24
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: twcstab.c,v 4.2.1.5 2007/12/03 05:12:59 cal103 Exp $
+d34 4
+a37 4
+*   twcstab tests wcstab() and also provides sample code for using it in
+*   conjunction with wcspih() and fits_read_wcstab().  Although this example
+*   and fits_read_wcstab() are based on the CFITSIO library, wcstab() itself
+*   is completely independent of it.
+d39 3
+a41 3
+*   The input FITS file is constructed by create_input() from a list of header
+*   keyrecords in wcstab.keyrec together with some hard-coded parameters.  The
+*   output fits file, wcstab.fits, is left for inspection.
+d61 51
+a111 52
+   char *header;
+   int  i, nkeyrec, nreject, nwcs, stat[NWCSFIX], status = 0;
+   fitsfile *fptr;
+   struct wcsprm *wcs;
+
+
+   /* Set line buffering in case stdout is redirected to a file, otherwise
+    * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+   setvbuf(stdout, NULL, _IOLBF, 0);
+
+   printf("Testing -TAB interpreter (twcstab.c)\n"
+          "------------------------------------\n\n");
+
+   /* Create the input FITS test file. */
+   if (create_input()) {
+      fprintf(stderr, "Failed to create FITS test file.");
+      return 1;
+   }
+
+   /* Open the FITS test file and read the primary header. */
+   fits_open_file(&fptr, "wcstab.fits", READONLY, &status);
+   if ((status = fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec,
+                              &status))) {
+      fits_report_error(stderr, status);
+      return 1;
+   }
+
+
+   /*-----------------------------------------------------------------------*/
+   /* Basic steps required to interpret a FITS WCS header, including -TAB.  */
+   /*-----------------------------------------------------------------------*/
+
+   /* Parse the primary header of the FITS file. */
+   if ((status = wcspih(header, nkeyrec, WCSHDR_all, 2, &nreject, &nwcs,
+                        &wcs))) {
+      fprintf(stderr, "wcspih ERROR %d: %s.\n", status,wcshdr_errmsg[status]);
+   }
+
+   /* Read coordinate arrays from the binary table extension. */
+   if ((status = fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb,
+                                  &status))) {
+      fits_report_error(stderr, status);
+      return 1;
+   }
+
+   /* Translate non-standard WCS keyvalues. */
+   if ((status = wcsfix(7, 0, wcs, stat))) {
+      for (i = 0; i < NWCSFIX; i++) {
+         if (stat[i] > 0) {
+            fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                    wcsfix_errmsg[stat[i]]);
+         }
+d113 1
+d115 2
+a116 2
+      return 1;
+   }
+d118 3
+a120 3
+   /*-----------------------------------------------------------------------*/
+   /* The wcsprm struct is now ready for use.                               */
+   /*-----------------------------------------------------------------------*/
+d122 2
+a123 2
+   /* Do something with it. */
+   do_wcs_stuff(fptr, wcs);
+d125 3
+a127 3
+   /* Finished with the FITS file. */
+   fits_close_file(fptr, &status);
+   free(header);
+d129 2
+a130 2
+   /* Clean up. */
+   status = wcsvfree(&nwcs, &wcs);
+d132 1
+a132 1
+   return 0;
+d147 1
+a147 1
+   const double TWOPI = 2.0 * 3.14159265358979323846;
+d149 39
+a187 39
+   /* These must match wcstab.keyrec. */
+   const char infile[] = "test/wcstab.keyrec";
+   const long NAXIS1 = 256;
+   const long NAXIS2 = 128;
+   const long NAXIS3 =   4;
+   const char *ttype1[3] = {"CelCoords", "RAIndex", "DecIndex"};
+   const char *tform1[3] = {"5600E", "70E", "40E"};
+   const char *tunit1[3] = {"deg", "", ""};
+   const char *ttype2[4] = {"WaveIndex", "WaveCoord",
+                            "TimeIndex", "TimeCoord"};
+   const char *tform2[4] = {"8E", "8D", "8E", "8D"};
+   const char *tunit2[4] = {"", "m", "", "a"};
+
+   /* The remaining parameters may be chosen at will. */
+   float  refval[] = {150.0f, -30.0f};
+   float  span[]   = {5.0f, (5.0f*K2)/K1};
+   float  sigma[]  = {0.10f, 0.05f};
+   double wcoord[] = {0.21106114, 0.21076437, 2.0e-6, 2.2e-6,
+                      500.0e-9, 650.0e-9, 1.24e-9, 2.48e-9};
+   double windex[] = {0.5, 1.5, 1.5, 2.5, 2.5, 3.5, 3.5, 4.5};
+   double tcoord[] = {1997.84512, 1997.84631, 1993.28451, 1993.28456,
+                      2001.59234, 2001.59239, 2002.18265, 2002.18301};
+   double tindex[] = {0.0, 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0};
+
+   char   keyrec[84];
+   int    i, status;
+   long   dummy, firstelem, k1, k2, p1, p2, p3;
+   float  array[2*K1*K2], *fp, image[256];
+   double s, t, x1, x2, z, z1, z2;
+   FILE   *stream;
+   fitsfile *fptr;
+
+   /* Look for the input header keyrecords. */
+   if ((stream = fopen(infile+5, "r")) == 0x0) {
+      if ((stream = fopen(infile, "r")) == 0x0) {
+         printf("ERROR opening %s\n", infile);
+         return 1;
+      }
+   }
+d189 26
+a214 30
+   /* Create the FITS output file, deleting any pre-existing file. */
+   status = 0;
+   fits_create_file(&fptr, "!wcstab.fits", &status);
+
+   /* Convert header keyrecords to FITS. */
+   while (fgets(keyrec, 82, stream) != NULL) {
+      /* Ignore meta-comments (copyright information, etc.). */
+      if (keyrec[0] == '*') continue;
+
+      /* Strip off the newline. */
+      i = strlen(keyrec) - 1;
+      if (keyrec[i] == '\n') keyrec[i] = '\0';
+
+      fits_write_record(fptr, keyrec, &status);
+   }
+
+   /* Create and write some phoney image data. */
+   firstelem = 1;
+   for (p3 = 0; p3 < NAXIS3; p3++) {
+      for (p2 = 0; p2 < NAXIS2; p2++) {
+         fp = image;
+         s = (p3 + 1) * cos(0.2 * p2);
+         t = cos(0.8*p2);
+         for (p1 = 0; p1 < NAXIS1; p1++) {
+            /* Do not adjust your set! */
+            *(fp++) = sin(0.1*(p1+p2) + s) * cos(0.4*p1) * t;
+         }
+
+         fits_write_img_flt(fptr, 0L, firstelem, NAXIS1, image, &status);
+         firstelem += NAXIS1;
+a215 2
+   }
+
+d217 90
+a306 29
+   /* Add the first binary table extension. */
+   fits_create_tbl(fptr, BINARY_TBL, 1L, 3L, (char **)ttype1, (char **)tform1,
+       (char **)tunit1, NULL, &status);
+
+   /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+   fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+   fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+      "WCS Coordinate lookup table", &status);
+   fits_insert_key_lng(fptr, "EXTVER", 1L, "Table number 1", &status);
+
+   /* Write the TDIM1 keyrecord after TFORM1. */
+   fits_read_key_str(fptr, "TFORM1", keyrec, NULL, &status);
+   sprintf(keyrec, "(2,%ld,%ld)", K1, K2);
+   fits_insert_key_str(fptr, "TDIM1", keyrec, "Dimensions of 3-D array",
+      &status);
+
+   /* Plate carree projection with a bit of noise for the sake of realism. */
+   srand(137u);
+   fp = array;
+   for (k2 = 0; k2 < K2; k2++) {
+      for (k1 = 0; k1 < K1; k1++) {
+         /* Box-Muller transformation: uniform -> normal distribution. */
+         x1 = ((double)rand()) / RAND_MAX;
+         x2 = ((double)rand()) / RAND_MAX;
+         if (x1 == 0.0) x1 = 1.0;
+         z  = sqrt(-2.0 * log(x1));
+         x2 *= TWOPI;
+         z1 = z * cos(x2);
+         z2 = z * sin(x2);
+d308 1
+a308 56
+         *(fp++) = refval[0] + span[0] * (k1/(K1-1.0) - 0.5) + z1 * sigma[0];
+         *(fp++) = refval[1] + span[1] * (k2/(K2-1.0) - 0.5) + z2 * sigma[1];
+      }
+   }
+   fits_write_col_flt(fptr, 1, 1L, 1L, 2*K1*K2, array, &status);
+
+   fp = array;
+   for (k1 = 0; k1 < K1; k1++) {
+      *(fp++) = 4.0f * k1;
+   }
+   fits_write_col_flt(fptr, 2, 1L, 1L, K1, array, &status);
+
+   fp = array;
+   for (k2 = 0; k2 < K2; k2++) {
+      *(fp++) = 4.0f * k2;
+   }
+   fits_write_col_flt(fptr, 3, 1L, 1L, K2, array, &status);
+
+
+   /* Add the second binary table extension. */
+   if (fits_create_tbl(fptr, BINARY_TBL, 1L, 4L, (char **)ttype2,
+       (char **)tform2, (char **)tunit2, NULL, &status)) {
+      fits_report_error(stderr, status);
+      return 1;
+   }
+
+   /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+   fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+   fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+      "WCS Coordinate lookup table", &status);
+   fits_insert_key_lng(fptr, "EXTVER", 2L, "Table number 2", &status);
+
+   /* Write the TDIM2 keyrecord after TFORM2. */
+   fits_read_key_str(fptr, "TFORM2", keyrec, NULL, &status);
+   fits_insert_key_str(fptr, "TDIM2", "(1,8)", "Dimensions of 2-D array",
+      &status);
+
+   /* Write the TDIM4 keyrecord after TFORM4. */
+   fits_read_key_str(fptr, "TFORM4", keyrec, NULL, &status);
+   fits_insert_key_str(fptr, "TDIM4", "(1,8)", "Dimensions of 2-D array",
+      &status);
+
+
+   fits_write_col_dbl(fptr, 1, 1L, 1L, 8L, windex, &status);
+   fits_write_col_dbl(fptr, 2, 1L, 1L, 8L, wcoord, &status);
+   fits_write_col_dbl(fptr, 3, 1L, 1L, 8L, tindex, &status);
+   fits_write_col_dbl(fptr, 4, 1L, 1L, 8L, tcoord, &status);
+
+   fits_close_file(fptr, &status);
+
+   if (status) {
+      fits_report_error(stderr, status);
+      return 1;
+   }
+
+   return 0;
+d316 32
+a347 10
+   int    i1, i2, i3, k, naxis1, naxis2, naxis3, stat[8], status;
+   double phi[8], pixcrd[8][4], imgcrd[8][4], theta[8], world[8][4],
+          x1, x2, x3;
+
+   /* Initialize the wcsprm struct, also taking control of memory allocated by
+    * fits_read_wcstab(). */
+   if ((status = wcsset(wcs))) {
+      fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+      return 1;
+   }
+d349 3
+a351 2
+   /* Print the struct. */
+   if ((status = wcsprt(wcs))) return status;
+d353 2
+a354 22
+   /* Compute coordinates in the corners. */
+   fits_read_key(fptr, TINT, "NAXIS1", &naxis1, NULL, &status);
+   fits_read_key(fptr, TINT, "NAXIS2", &naxis2, NULL, &status);
+   fits_read_key(fptr, TINT, "NAXIS3", &naxis3, NULL, &status);
+
+   k = 0;
+   x3 = 1.0f;
+   for (i3 = 0; i3 < 2; i3++) {
+      x2 = 0.5f;
+
+      for (i2 = 0; i2 < 2; i2++) {
+         x1 = 0.5f;
+
+         for (i1 = 0; i1 < 2; i1++) {
+            pixcrd[k][0] = x1;
+            pixcrd[k][1] = x2;
+            pixcrd[k][2] = x3;
+            pixcrd[k][3] = 1.0f;
+
+            k++;
+            x1 = naxis1 + 0.5f;
+         }
+d356 2
+a357 5
+         x2 = naxis2 + 0.5f;
+      }
+
+      x3 = naxis3;
+   }
+d359 20
+a378 20
+   if ((status = wcsp2s(wcs, 8, 4, pixcrd[0], imgcrd[0], phi, theta, world[0],
+                        stat))) {
+      fprintf(stderr, "\n\nwcsp2s ERROR %d: %s.\n", status,
+              wcs_errmsg[status]);
+
+      /* Invalid pixel coordinates. */
+      if (status == 8) status = 0;
+   }
+
+   if (status == 0) {
+      printf("\n\nCorner world coordinates:\n"
+             "            Pixel                              World\n");
+      for (k = 0; k < 8; k++) {
+         printf("  (%5.1f,%6.1f,%4.1f,%4.1f) -> (%7.3f,%8.3f,%9g,%11.5f)",
+                pixcrd[k][0], pixcrd[k][1], pixcrd[k][2], pixcrd[k][3],
+                 world[k][0],  world[k][1],  world[k][2],  world[k][3]);
+	 if (stat[k]) printf("  (BAD)");
+         printf("\n");
+      }
+   }
+d380 1
+a380 1
+   return 0;
+@
+
+
+4.3.1.1
+log
+@WCSLIB 4.3 development branch.
+@
+text
+@d3 2
+a4 2
+    WCSLIB 4.4 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2008, Mark Calabretta
+d31 1
+a31 1
+    $Id: twcstab.c,v 4.3 2007/12/27 05:35:51 cal103 Exp cal103 $
+@
+
+
+4.3.1.2
+log
+@Changed indentation.
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2009, Mark Calabretta
+d6 1
+a6 1
+  This file is part of WCSLIB.
+d8 24
+a31 24
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: twcstab.c,v 4.3.1.1 2007/12/27 13:24:32 cal103 Exp cal103 $
+d34 4
+a37 4
+* twcstab tests wcstab() and also provides sample code for using it in
+* conjunction with wcspih() and fits_read_wcstab().  Although this example
+* and fits_read_wcstab() are based on the CFITSIO library, wcstab() itself
+* is completely independent of it.
+d39 3
+a41 3
+* The input FITS file is constructed by create_input() from a list of header
+* keyrecords in wcstab.keyrec together with some hard-coded parameters.  The
+* output fits file, wcstab.fits, is left for inspection.
+d61 52
+a112 51
+  char *header;
+  int  i, nkeyrec, nreject, nwcs, stat[NWCSFIX], status = 0;
+  fitsfile *fptr;
+  struct wcsprm *wcs;
+
+
+  /* Set line buffering in case stdout is redirected to a file, otherwise
+   * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+  setvbuf(stdout, NULL, _IOLBF, 0);
+
+  printf("Testing -TAB interpreter (twcstab.c)\n"
+         "------------------------------------\n\n");
+
+  /* Create the input FITS test file. */
+  if (create_input()) {
+    fprintf(stderr, "Failed to create FITS test file.");
+    return 1;
+  }
+
+  /* Open the FITS test file and read the primary header. */
+  fits_open_file(&fptr, "wcstab.fits", READONLY, &status);
+  if ((status = fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec,
+                             &status))) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+
+  /*-----------------------------------------------------------------------*/
+  /* Basic steps required to interpret a FITS WCS header, including -TAB.  */
+  /*-----------------------------------------------------------------------*/
+
+  /* Parse the primary header of the FITS file. */
+  if ((status = wcspih(header, nkeyrec, WCSHDR_all, 2, &nreject, &nwcs,
+                       &wcs))) {
+    fprintf(stderr, "wcspih ERROR %d: %s.\n", status,wcshdr_errmsg[status]);
+  }
+
+  /* Read coordinate arrays from the binary table extension. */
+  if ((status = fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb,
+                                 &status))) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+  /* Translate non-standard WCS keyvalues. */
+  if ((status = wcsfix(7, 0, wcs, stat))) {
+    for (i = 0; i < NWCSFIX; i++) {
+      if (stat[i] > 0) {
+        fprintf(stderr, "wcsfix ERROR %d: %s.\n", status,
+                wcsfix_errmsg[stat[i]]);
+a113 1
+    }
+d115 2
+a116 2
+    return 1;
+  }
+d118 3
+a120 3
+  /*-----------------------------------------------------------------------*/
+  /* The wcsprm struct is now ready for use.                               */
+  /*-----------------------------------------------------------------------*/
+d122 2
+a123 2
+  /* Do something with it. */
+  do_wcs_stuff(fptr, wcs);
+d125 3
+a127 3
+  /* Finished with the FITS file. */
+  fits_close_file(fptr, &status);
+  free(header);
+d129 2
+a130 2
+  /* Clean up. */
+  status = wcsvfree(&nwcs, &wcs);
+d132 1
+a132 1
+  return 0;
+d147 74
+a220 1
+  const double TWOPI = 2.0 * 3.14159265358979323846;
+d222 54
+a275 36
+  /* These must match wcstab.keyrec. */
+  const char infile[] = "test/wcstab.keyrec";
+  const long NAXIS1 = 256;
+  const long NAXIS2 = 128;
+  const long NAXIS3 =   4;
+  const char *ttype1[3] = {"CelCoords", "RAIndex", "DecIndex"};
+  const char *tform1[3] = {"5600E", "70E", "40E"};
+  const char *tunit1[3] = {"deg", "", ""};
+  const char *ttype2[4] = {"WaveIndex", "WaveCoord",
+                           "TimeIndex", "TimeCoord"};
+  const char *tform2[4] = {"8E", "8D", "8E", "8D"};
+  const char *tunit2[4] = {"", "m", "", "a"};
+
+  /* The remaining parameters may be chosen at will. */
+  float  refval[] = {150.0f, -30.0f};
+  float  span[]   = {5.0f, (5.0f*K2)/K1};
+  float  sigma[]  = {0.10f, 0.05f};
+  double wcoord[] = {0.21106114, 0.21076437, 2.0e-6, 2.2e-6,
+                     500.0e-9, 650.0e-9, 1.24e-9, 2.48e-9};
+  double windex[] = {0.5, 1.5, 1.5, 2.5, 2.5, 3.5, 3.5, 4.5};
+  double tcoord[] = {1997.84512, 1997.84631, 1993.28451, 1993.28456,
+                     2001.59234, 2001.59239, 2002.18265, 2002.18301};
+  double tindex[] = {0.0, 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0};
+
+  char   keyrec[84];
+  int    i, status;
+  long   dummy, firstelem, k1, k2, p1, p2, p3;
+  float  array[2*K1*K2], *fp, image[256];
+  double s, t, x1, x2, z, z1, z2;
+  FILE   *stream;
+  fitsfile *fptr;
+
+  /* Look for the input header keyrecords. */
+  if ((stream = fopen(infile+5, "r")) == 0x0) {
+    if ((stream = fopen(infile, "r")) == 0x0) {
+      printf("ERROR opening %s\n", infile);
+d277 23
+a299 2
+    }
+  }
+d301 1
+a301 27
+  /* Create the FITS output file, deleting any pre-existing file. */
+  status = 0;
+  fits_create_file(&fptr, "!wcstab.fits", &status);
+
+  /* Convert header keyrecords to FITS. */
+  while (fgets(keyrec, 82, stream) != NULL) {
+    /* Ignore meta-comments (copyright information, etc.). */
+    if (keyrec[0] == '#') continue;
+
+    /* Strip off the newline. */
+    i = strlen(keyrec) - 1;
+    if (keyrec[i] == '\n') keyrec[i] = '\0';
+
+    fits_write_record(fptr, keyrec, &status);
+  }
+
+  /* Create and write some phoney image data. */
+  firstelem = 1;
+  for (p3 = 0; p3 < NAXIS3; p3++) {
+    for (p2 = 0; p2 < NAXIS2; p2++) {
+      fp = image;
+      s = (p3 + 1) * cos(0.2 * p2);
+      t = cos(0.8*p2);
+      for (p1 = 0; p1 < NAXIS1; p1++) {
+        /* Do not adjust your set! */
+        *(fp++) = sin(0.1*(p1+p2) + s) * cos(0.4*p1) * t;
+      }
+d303 4
+a306 90
+      fits_write_img_flt(fptr, 0L, firstelem, NAXIS1, image, &status);
+      firstelem += NAXIS1;
+    }
+  }
+
+
+  /* Add the first binary table extension. */
+  fits_create_tbl(fptr, BINARY_TBL, 1L, 3L, (char **)ttype1, (char **)tform1,
+     (char **)tunit1, NULL, &status);
+
+  /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+  fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+  fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+    "WCS Coordinate lookup table", &status);
+  fits_insert_key_lng(fptr, "EXTVER", 1L, "Table number 1", &status);
+
+  /* Write the TDIM1 keyrecord after TFORM1. */
+  fits_read_key_str(fptr, "TFORM1", keyrec, NULL, &status);
+  sprintf(keyrec, "(2,%ld,%ld)", K1, K2);
+  fits_insert_key_str(fptr, "TDIM1", keyrec, "Dimensions of 3-D array",
+    &status);
+
+  /* Plate carree projection with a bit of noise for the sake of realism. */
+  srand(137u);
+  fp = array;
+  for (k2 = 0; k2 < K2; k2++) {
+    for (k1 = 0; k1 < K1; k1++) {
+      /* Box-Muller transformation: uniform -> normal distribution. */
+      x1 = ((double)rand()) / RAND_MAX;
+      x2 = ((double)rand()) / RAND_MAX;
+      if (x1 == 0.0) x1 = 1.0;
+      z  = sqrt(-2.0 * log(x1));
+      x2 *= TWOPI;
+      z1 = z * cos(x2);
+      z2 = z * sin(x2);
+
+      *(fp++) = refval[0] + span[0] * (k1/(K1-1.0) - 0.5) + z1 * sigma[0];
+      *(fp++) = refval[1] + span[1] * (k2/(K2-1.0) - 0.5) + z2 * sigma[1];
+    }
+  }
+  fits_write_col_flt(fptr, 1, 1L, 1L, 2*K1*K2, array, &status);
+
+  fp = array;
+  for (k1 = 0; k1 < K1; k1++) {
+    *(fp++) = 4.0f * k1;
+  }
+  fits_write_col_flt(fptr, 2, 1L, 1L, K1, array, &status);
+
+  fp = array;
+  for (k2 = 0; k2 < K2; k2++) {
+    *(fp++) = 4.0f * k2;
+  }
+  fits_write_col_flt(fptr, 3, 1L, 1L, K2, array, &status);
+
+
+  /* Add the second binary table extension. */
+  if (fits_create_tbl(fptr, BINARY_TBL, 1L, 4L, (char **)ttype2,
+     (char **)tform2, (char **)tunit2, NULL, &status)) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+
+  /* Write EXTNAME and EXTVER near the top, after TFIELDS. */
+  fits_read_key_lng(fptr, "TFIELDS", &dummy, NULL, &status);
+  fits_insert_key_str(fptr, "EXTNAME", "WCS-TABLE",
+    "WCS Coordinate lookup table", &status);
+  fits_insert_key_lng(fptr, "EXTVER", 2L, "Table number 2", &status);
+
+  /* Write the TDIM2 keyrecord after TFORM2. */
+  fits_read_key_str(fptr, "TFORM2", keyrec, NULL, &status);
+  fits_insert_key_str(fptr, "TDIM2", "(1,8)", "Dimensions of 2-D array",
+    &status);
+
+  /* Write the TDIM4 keyrecord after TFORM4. */
+  fits_read_key_str(fptr, "TFORM4", keyrec, NULL, &status);
+  fits_insert_key_str(fptr, "TDIM4", "(1,8)", "Dimensions of 2-D array",
+    &status);
+
+
+  fits_write_col_dbl(fptr, 1, 1L, 1L, 8L, windex, &status);
+  fits_write_col_dbl(fptr, 2, 1L, 1L, 8L, wcoord, &status);
+  fits_write_col_dbl(fptr, 3, 1L, 1L, 8L, tindex, &status);
+  fits_write_col_dbl(fptr, 4, 1L, 1L, 8L, tcoord, &status);
+
+  fits_close_file(fptr, &status);
+
+  if (status) {
+    fits_report_error(stderr, status);
+    return 1;
+  }
+d308 1
+a308 1
+  return 0;
+d316 13
+a328 32
+  int    i1, i2, i3, k, naxis1, naxis2, naxis3, stat[8], status;
+  double phi[8], pixcrd[8][4], imgcrd[8][4], theta[8], world[8][4],
+         x1, x2, x3;
+
+  /* Initialize the wcsprm struct, also taking control of memory allocated by
+   * fits_read_wcstab(). */
+  if ((status = wcsset(wcs))) {
+    fprintf(stderr, "wcsset ERROR %d: %s.\n", status, wcs_errmsg[status]);
+    return 1;
+  }
+
+  /* Print the struct. */
+  if ((status = wcsprt(wcs))) return status;
+
+  /* Compute coordinates in the corners. */
+  fits_read_key(fptr, TINT, "NAXIS1", &naxis1, NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS2", &naxis2, NULL, &status);
+  fits_read_key(fptr, TINT, "NAXIS3", &naxis3, NULL, &status);
+
+  k = 0;
+  x3 = 1.0f;
+  for (i3 = 0; i3 < 2; i3++) {
+    x2 = 0.5f;
+
+    for (i2 = 0; i2 < 2; i2++) {
+      x1 = 0.5f;
+
+      for (i1 = 0; i1 < 2; i1++) {
+        pixcrd[k][0] = x1;
+        pixcrd[k][1] = x2;
+        pixcrd[k][2] = x3;
+        pixcrd[k][3] = 1.0f;
+d330 24
+a353 2
+        k++;
+        x1 = naxis1 + 0.5f;
+d356 2
+a357 2
+      x2 = naxis2 + 0.5f;
+    }
+d359 20
+a378 23
+    x3 = naxis3;
+  }
+
+  if ((status = wcsp2s(wcs, 8, 4, pixcrd[0], imgcrd[0], phi, theta, world[0],
+                       stat))) {
+    fprintf(stderr, "\n\nwcsp2s ERROR %d: %s.\n", status,
+            wcs_errmsg[status]);
+
+    /* Invalid pixel coordinates. */
+    if (status == 8) status = 0;
+  }
+
+  if (status == 0) {
+    printf("\n\nCorner world coordinates:\n"
+           "            Pixel                              World\n");
+    for (k = 0; k < 8; k++) {
+      printf("  (%5.1f,%6.1f,%4.1f,%4.1f) -> (%7.3f,%8.3f,%9g,%11.5f)",
+             pixcrd[k][0], pixcrd[k][1], pixcrd[k][2], pixcrd[k][3],
+             world[k][0],  world[k][1],  world[k][2],  world[k][3]);
+      if (stat[k]) printf("  (BAD)");
+      printf("\n");
+    }
+  }
+d380 1
+a380 1
+  return 0;
+@
+
+
+4.2
+log
+@WCSLIB 4.2: identify the name of the program in the output; use wcslib.h in
+place of the several separate include files; print wcsfix_errmsg[] on error;
+increased K1 and K2 to account for corner effects due to the 5 degree image
+rotation (reported by Bill Pence); in do_wcs_stuff(), apply wcsp2s() to the
+corner pixel coordinates and report the results.
+@
+text
+@d2 30
+a31 29
+*
+*   WCSLIB 4.2 - an implementation of the FITS WCS convention.
+*   Copyright (C) 1995-2005, Mark Calabretta
+*
+*   WCSLIB is free software; you can redistribute it and/or modify it under
+*   the terms of the GNU General Public License as published by the Free
+*   Software Foundation; either version 2 of the License, or (at your option)
+*   any later version.
+*
+*   WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+*   WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+*   FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+*   details.
+*
+*   You should have received a copy of the GNU General Public License along
+*   with WCSLIB; if not, write to the Free Software Foundation, Inc.,
+*   59 Temple Place, Suite 330, Boston, MA  02111-1307, USA
+*
+*   Correspondence concerning WCSLIB may be directed to:
+*      Internet email: mcalabre@@atnf.csiro.au
+*      Postal address: Dr. Mark Calabretta
+*                      Australia Telescope National Facility, CSIRO
+*                      PO Box 76
+*                      Epping NSW 1710
+*                      AUSTRALIA
+*
+*   Author: Mark Calabretta, Australia Telescope National Facility
+*   http://www.atnf.csiro.au/~mcalabre/index.html
+*   $Id: twcstab.c,v 4.1 2005/08/31 04:08:59 cal103 Exp cal103 $
+d40 1
+a40 1
+*   cards in wcstab.cards together with some hard-coded parameters.  The
+d62 1
+a62 1
+   int  i, ncard, nreject, nwcs, stat[NWCSFIX], status = 0;
+d67 4
+d82 2
+a83 1
+   if (status = fits_hdr2str(fptr, 1, NULL, 0, &header, &ncard, &status)) {
+d94 2
+a95 1
+   if (status = wcspih(header, ncard, WCSHDR_all, 2, &nreject, &nwcs, &wcs)) {
+d100 2
+a101 2
+   if (status = fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb,
+       &status)) {
+d107 1
+a107 1
+   if (status = wcsfix(7, 0, wcs, stat)) {
+d149 2
+a150 2
+   /* These must match wcstab.cards. */
+   const char infile[] = "test/wcstab.cards";
+d173 1
+a173 1
+   char   card[84];
+d181 1
+a181 1
+   /* Look for the input header cards. */
+d193 2
+a194 2
+   /* Convert header cards to FITS. */
+   while (fgets(card, 82, stream) != NULL) {
+d196 1
+a196 1
+      if (card[0] == '*') continue;
+d199 2
+a200 2
+      i = strlen(card) - 1;
+      if (card[i] == '\n') card[i] = '\0';
+d202 1
+a202 1
+      fits_write_record(fptr, card, &status);
+d233 4
+a236 4
+   /* Write the TDIM1 card after TFORM1. */
+   fits_read_key_str(fptr, "TFORM1", card, NULL, &status);
+   sprintf(card, "(2,%ld,%ld)", K1, K2);
+   fits_insert_key_str(fptr, "TDIM1", card, "Dimensions of 3-D array",
+d285 2
+a286 2
+   /* Write the TDIM2 card after TFORM2. */
+   fits_read_key_str(fptr, "TFORM2", card, NULL, &status);
+d290 2
+a291 2
+   /* Write the TDIM4 card after TFORM4. */
+   fits_read_key_str(fptr, "TFORM4", card, NULL, &status);
+d322 1
+a322 1
+   if (status = wcsset(wcs)) {
+d328 1
+a328 1
+   if (status = wcsprt(wcs)) return status;
+d359 2
+a360 2
+   if (status = wcsp2s(wcs, 8, 4, pixcrd[0], imgcrd[0], phi, theta, world[0],
+                       stat)) {
+@
+
+
+4.2.1.1
+log
+@WCSLIB 4.2 development branch.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.3 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id: twcstab.c,v 4.2 2005/09/22 08:14:21 cal103 Exp cal103 $
+@
+
+
+4.2.1.2
+log
+@Set line buffering on stdout in case it is redirected to a file;
+parenthesised assignments used as truth values.
+@
+text
+@d4 1
+a4 1
+*   Copyright (C) 1995-2007, Mark Calabretta
+d30 1
+a30 1
+*   $Id: twcstab.c,v 4.2.1.1 2005/12/05 01:39:15 cal103 Exp cal103 $
+a65 4
+   /* Set line buffering in case stdout is redirected to a file, otherwise
+    * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+   setlinebuf(stdout);
+
+d77 1
+a77 1
+   if ((status = fits_hdr2str(fptr, 1, NULL, 0, &header, &ncard, &status))) {
+d88 1
+a88 2
+   if ((status = wcspih(header, ncard, WCSHDR_all, 2, &nreject, &nwcs,
+                        &wcs))) {
+d93 2
+a94 2
+   if ((status = fits_read_wcstab(fptr, wcs->nwtb, (wtbarr *)wcs->wtb,
+                                  &status))) {
+d100 1
+a100 1
+   if ((status = wcsfix(7, 0, wcs, stat))) {
+d315 1
+a315 1
+   if ((status = wcsset(wcs))) {
+d321 1
+a321 1
+   if ((status = wcsprt(wcs))) return status;
+d352 2
+a353 2
+   if ((status = wcsp2s(wcs, 8, 4, pixcrd[0], imgcrd[0], phi, theta, world[0],
+                        stat))) {
+@
+
+
+4.2.1.3
+log
+@Use setvbuf(), which is ANSI C89 compliant, in place of setlinebuf() which
+is a BSDism.
+@
+text
+@d30 1
+a30 1
+*   $Id: twcstab.c,v 4.2.1.2 2007/06/29 06:46:14 cal103 Exp cal103 $
+d68 1
+a68 1
+   setvbuf(stdout, NULL, _IOLBF, 0);
+@
+
+
+4.2.1.4
+log
+@Replaced use of the obsolete term "card".
+@
+text
+@d30 1
+a30 1
+*   $Id: twcstab.c,v 4.2.1.3 2007/07/12 02:35:59 cal103 Exp cal103 $
+d39 1
+a39 1
+*   keyrecords in wcstab.keyrec together with some hard-coded parameters.  The
+d61 1
+a61 1
+   int  i, nkeyrec, nreject, nwcs, stat[NWCSFIX], status = 0;
+d81 1
+a81 2
+   if ((status = fits_hdr2str(fptr, 1, NULL, 0, &header, &nkeyrec,
+                              &status))) {
+d92 1
+a92 1
+   if ((status = wcspih(header, nkeyrec, WCSHDR_all, 2, &nreject, &nwcs,
+d147 2
+a148 2
+   /* These must match wcstab.keyrec. */
+   const char infile[] = "test/wcstab.keyrec";
+d171 1
+a171 1
+   char   keyrec[84];
+d179 1
+a179 1
+   /* Look for the input header keyrecords. */
+d191 2
+a192 2
+   /* Convert header keyrecords to FITS. */
+   while (fgets(keyrec, 82, stream) != NULL) {
+d194 1
+a194 1
+      if (keyrec[0] == '*') continue;
+d197 2
+a198 2
+      i = strlen(keyrec) - 1;
+      if (keyrec[i] == '\n') keyrec[i] = '\0';
+d200 1
+a200 1
+      fits_write_record(fptr, keyrec, &status);
+d231 4
+a234 4
+   /* Write the TDIM1 keyrecord after TFORM1. */
+   fits_read_key_str(fptr, "TFORM1", keyrec, NULL, &status);
+   sprintf(keyrec, "(2,%ld,%ld)", K1, K2);
+   fits_insert_key_str(fptr, "TDIM1", keyrec, "Dimensions of 3-D array",
+d283 2
+a284 2
+   /* Write the TDIM2 keyrecord after TFORM2. */
+   fits_read_key_str(fptr, "TFORM2", keyrec, NULL, &status);
+d288 2
+a289 2
+   /* Write the TDIM4 keyrecord after TFORM4. */
+   fits_read_key_str(fptr, "TFORM4", keyrec, NULL, &status);
+@
+
+
+4.2.1.5
+log
+@Switched to LGPL 3.0.
+@
+text
+@d2 29
+a30 30
+
+    WCSLIB 4.3 - an implementation of the FITS WCS standard.
+    Copyright (C) 1995-2007, Mark Calabretta
+
+    This file is part of WCSLIB.
+
+    WCSLIB is free software: you can redistribute it and/or modify it under
+    the terms of the GNU Lesser General Public License as published by the
+    Free Software Foundation, either version 3 of the License, or (at your
+    option) any later version.
+
+    WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+    FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+    more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+    Correspondence concerning WCSLIB may be directed to:
+       Internet email: mcalabre@@atnf.csiro.au
+       Postal address: Dr. Mark Calabretta
+                       Australia Telescope National Facility, CSIRO
+                       PO Box 76
+                       Epping NSW 1710
+                       AUSTRALIA
+
+    Author: Mark Calabretta, Australia Telescope National Facility
+    http://www.atnf.csiro.au/~mcalabre/index.html
+    $Id: twcstab.c,v 4.2.1.4 2007/08/02 05:58:54 cal103 Exp cal103 $
+@
+
+
+4.1
+log
+@WCSLIB 4.1: initial revision.
+@
+text
+@d3 1
+a3 1
+*   WCSLIB 4.1 - an implementation of the FITS WCS convention.
+d30 1
+a30 1
+*   $Id$
+d51 1
+a51 3
+#include <wcs.h>
+#include <wcshdr.h>
+#include <wcsfix.h>
+d55 1
+a55 1
+int do_wcs_stuff();
+d66 3
+a100 1
+      printf("wcsfix error, status returns: (");
+d102 4
+a105 1
+         printf(i ? ", %d" : "%d", stat[i]);
+d107 1
+a107 1
+      printf(")\n");
+d115 3
+a121 3
+   /* Do something with it. */
+   do_wcs_stuff(wcs);
+
+d130 7
+a146 2
+   const long K1 = 69;
+   const long K2 = 37;
+d148 1
+a148 1
+   const char *tform1[3] = {"5106E", "69E", "37E"};
+d306 1
+a306 1
+int do_wcs_stuff(struct wcsprm *wcs)
+d309 3
+a311 1
+   int status;
+d320 1
+a320 1
+   /* Just print the struct for now. */
+d322 50
+@
+
+
+0.0
+log
+@Empty revision
+@
+text
+@d1 314
+@

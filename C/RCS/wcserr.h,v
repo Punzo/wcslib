@@ -1,0 +1,3886 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.33;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.16;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.29;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.04;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.48;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.51;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.02;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.13;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.04;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.23;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.01;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.10;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.31;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.13;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.00;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.05;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.15;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.01;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.03.59;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.16;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.24;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.31;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.05;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.51;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.07;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.36;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.24.59;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	4.25;
+
+4.25
+date	2014.12.14.14.29.36;	author mcalabre;	state Exp;
+branches
+	4.25.1.1;
+next	4.24;
+
+4.24
+date	2014.09.18.15.25.00;	author mcalabre;	state Exp;
+branches
+	4.24.1.1;
+next	4.23;
+
+4.23
+date	2014.05.13.05.50.51;	author mcalabre;	state Exp;
+branches
+	4.23.1.1;
+next	4.22;
+
+4.22
+date	2014.04.12.15.03.52;	author mcalabre;	state Exp;
+branches
+	4.22.1.1;
+next	4.21;
+
+4.21
+date	2014.03.24.05.12.27;	author mcalabre;	state Exp;
+branches
+	4.21.1.1;
+next	4.20;
+
+4.20
+date	2013.12.18.05.42.49;	author mcalabre;	state Exp;
+branches
+	4.20.1.1;
+next	4.19;
+
+4.19
+date	2013.09.29.14.17.51;	author mcalabre;	state Exp;
+branches
+	4.19.1.1;
+next	4.18;
+
+4.18
+date	2013.07.13.10.00.04;	author mcalabre;	state Exp;
+branches
+	4.18.1.1;
+next	4.17;
+
+4.17
+date	2013.01.29.05.29.20;	author cal103;	state Exp;
+branches
+	4.17.1.1;
+next	4.16;
+
+4.16
+date	2012.11.07.04.42.44;	author cal103;	state Exp;
+branches
+	4.16.1.1;
+next	4.15;
+
+4.15
+date	2012.09.26.14.26.05;	author cal103;	state Exp;
+branches
+	4.15.1.1;
+next	4.14;
+
+4.14
+date	2012.07.13.10.02.27;	author cal103;	state Exp;
+branches
+	4.14.1.1;
+next	4.13;
+
+4.13
+date	2012.03.14.07.39.30;	author cal103;	state Exp;
+branches
+	4.13.1.1;
+next	4.12;
+
+4.12
+date	2012.02.29.07.57.56;	author cal103;	state Exp;
+branches
+	4.12.1.1;
+next	4.11;
+
+4.11
+date	2012.02.20.23.30.02;	author cal103;	state Exp;
+branches
+	4.11.1.1;
+next	4.10;
+
+4.10
+date	2012.02.05.23.41.44;	author cal103;	state Exp;
+branches
+	4.10.1.1;
+next	4.9;
+
+4.9
+date	2012.01.24.05.40.29;	author cal103;	state Exp;
+branches
+	4.9.1.1;
+next	4.8;
+
+4.8
+date	2011.08.15.08.05.53;	author cal103;	state Exp;
+branches
+	4.8.1.1;
+next	0.0;
+
+0.0
+date	2011.07.21.03.54.58;	author cal103;	state Exp;
+branches
+	0.0.1.1;
+next	;
+
+0.0.1.1
+date	2011.07.21.04.05.13;	author cal103;	state Exp;
+branches;
+next	0.0.1.2;
+
+0.0.1.2
+date	2011.08.09.02.43.50;	author cal103;	state Exp;
+branches;
+next	0.0.1.3;
+
+0.0.1.3
+date	2011.08.10.05.27.38;	author cal103;	state Exp;
+branches;
+next	;
+
+4.8.1.1
+date	2011.08.15.08.07.06;	author cal103;	state Exp;
+branches;
+next	4.8.1.2;
+
+4.8.1.2
+date	2011.11.17.03.13.24;	author cal103;	state Exp;
+branches;
+next	4.8.1.3;
+
+4.8.1.3
+date	2012.01.24.05.23.06;	author cal103;	state Exp;
+branches;
+next	;
+
+4.9.1.1
+date	2012.01.24.05.41.45;	author cal103;	state Exp;
+branches;
+next	;
+
+4.10.1.1
+date	2012.02.05.23.42.46;	author cal103;	state Exp;
+branches;
+next	;
+
+4.11.1.1
+date	2012.02.20.23.31.13;	author cal103;	state Exp;
+branches;
+next	;
+
+4.12.1.1
+date	2012.02.29.07.59.10;	author cal103;	state Exp;
+branches;
+next	;
+
+4.13.1.1
+date	2012.03.14.07.40.37;	author cal103;	state Exp;
+branches;
+next	4.13.1.2;
+
+4.13.1.2
+date	2012.07.13.03.34.20;	author cal103;	state Exp;
+branches;
+next	;
+
+4.14.1.1
+date	2012.07.13.10.04.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.15.1.1
+date	2012.09.26.14.27.51;	author cal103;	state Exp;
+branches;
+next	;
+
+4.16.1.1
+date	2012.11.07.04.45.56;	author cal103;	state Exp;
+branches;
+next	4.16.1.2;
+
+4.16.1.2
+date	2012.11.28.13.07.37;	author cal103;	state Exp;
+branches;
+next	4.16.1.3;
+
+4.16.1.3
+date	2013.01.29.05.09.44;	author cal103;	state Exp;
+branches;
+next	;
+
+4.17.1.1
+date	2013.01.29.05.32.32;	author cal103;	state Exp;
+branches;
+next	;
+
+4.18.1.1
+date	2013.07.13.10.02.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.19.1.1
+date	2013.09.29.14.20.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.20.1.1
+date	2013.12.18.05.46.55;	author mcalabre;	state Exp;
+branches;
+next	4.20.1.2;
+
+4.20.1.2
+date	2014.03.21.06.32.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.21.1.1
+date	2014.03.24.05.15.28;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.22.1.1
+date	2014.04.12.15.06.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.23.1.1
+date	2014.05.13.05.53.49;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.24.1.1
+date	2014.09.18.15.28.09;	author mcalabre;	state Exp;
+branches;
+next	;
+
+4.25.1.1
+date	2014.12.14.14.32.45;	author mcalabre;	state Exp;
+branches;
+next	4.25.1.2;
+
+4.25.1.2
+date	2015.01.06.01.01.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.28;	author mcalabre;	state Exp;
+branches;
+next	5.4.1.2;
+
+5.4.1.2
+date	2015.04.23.11.03.11;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.07;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.27;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.14;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.35;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.28.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.45.59;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.25.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	5.20.1.2;
+
+5.20.1.2
+date	2018.10.19.06.45.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.01.56.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.31.03.28.03;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.19.09;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.09.10;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.29.30;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	7.5.1.2;
+
+7.5.1.2
+date	2021.04.13.09.34.18;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.35;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.57;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.01.58;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.39;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.15;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.26;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.14;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.05;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Header file and usage notes for the error handling struct, wcserr, and the
+functions used to manage it.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  Module author: Michael Droettboom
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcserr.h,v 8.9.1.1 2026/06/18 13:21:05 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* WCSLIB 8.10 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+*
+* Summary of the wcserr routines
+* ------------------------------
+* Most of the structs in WCSLIB contain a pointer to a wcserr struct as a
+* member.  Functions in WCSLIB that return an error status code can also
+* allocate and set a detailed error message in this struct, which also
+* identifies the function, source file, and line number where the error
+* occurred.
+*
+* For example:
+*
+=     struct prjprm prj;
+=     wcserr_enable(1);
+=     if (prjini(&prj)) {
+=       // Print the error message to stderr.
+=       wcsprintf_set(stderr);
+=       wcserr_prt(prj.err, 0x0);
+=     }
+*
+* A number of utility functions used in managing the wcserr struct are for
+* internal use only.  They are documented here solely as an aid to
+* understanding the code.  They are not intended for external use - the API
+* may change without notice!
+*
+*
+* wcserr struct - Error message handling
+* --------------------------------------
+* The wcserr struct contains the numeric error code, a textual description of
+* the error, and information about the function, source file, and line number
+* where the error was generated.
+*
+*   int status
+*     Numeric status code associated with the error, the meaning of which
+*     depends on the function that generated it.  See the documentation for
+*     the particular function.
+*
+*   int line_no
+*     Line number where the error occurred as given by the __LINE__
+*     preprocessor macro.
+*
+*   const char *function
+*     Name of the function where the error occurred.
+*
+*   const char *file
+*     Name of the source file where the error occurred as given by the
+*     __FILE__ preprocessor macro.
+*
+*   char *msg
+*     Informative error message.
+*
+*
+* wcserr_enable() - Enable/disable error messaging
+* ------------------------------------------------
+* wcserr_enable() enables or disables wcserr error messaging.  By default it
+* is disabled.
+*
+* PLEASE NOTE: This function is not thread-safe.
+*
+* Given:
+*   enable    int       If true (non-zero), enable error messaging, else
+*                       disable it.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Error messaging is disabled.
+*                         1: Error messaging is enabled.
+*
+*
+* wcserr_size() - Compute the size of a wcserr struct
+* ---------------------------------------------------
+* wcserr_size() computes the full size of a wcserr struct, including allocated
+* memory.
+*
+* Given:
+*   err       const struct wcserr*
+*                       The error object.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct wcserr).  The second element
+*                       is the total allocated size of the message buffer, in
+*                       bytes.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* wcserr_prt() - Print a wcserr struct
+* ------------------------------------
+* wcserr_prt() prints the error message (if any) contained in a wcserr struct.
+* It uses the wcsprintf() functions.
+*
+* Given:
+*   err       const struct wcserr*
+*                       The error object.  If NULL, nothing is printed.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*                         2: Error messaging is not enabled.
+*
+*
+* wcserr_clear() - Clear a wcserr struct
+* --------------------------------------
+* wcserr_clear() clears (deletes) a wcserr struct.
+*
+* Given and returned:
+*   err       struct wcserr**
+*                       The error object.  If NULL, nothing is done.  Set to
+*                       NULL on return.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+* wcserr_set() - Fill in the contents of an error object
+* ------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcserr_set() fills a wcserr struct with information about an error.
+*
+* A convenience macro, WCSERR_SET, provides the source file and line number
+* information automatically.
+*
+* Given and returned:
+*   err       struct wcserr**
+*                       Error object.
+*
+*                       If err is NULL, returns the status code given without
+*                       setting an error message.
+*
+*                       If *err is NULL, allocates memory for a wcserr struct
+*                       (provided that status is non-zero).
+*
+* Given:
+*   status    int       Numeric status code to set.  If 0, then *err will be
+*                       deleted and *err will be returned as NULL.
+*
+*   function  const char *
+*                       Name of the function generating the error.  This
+*                       must point to a constant string, i.e. in the
+*                       initialized read-only data section ("data") of the
+*                       executable.
+*
+*   file      const char *
+*                       Name of the source file generating the error.  This
+*                       must point to a constant string, i.e. in the
+*                       initialized read-only data section ("data") of the
+*                       executable such as given by the __FILE__ preprocessor
+*                       macro.
+*
+*   line_no   int       Line number in the source file generating the error
+*                       such as given by the __LINE__ preprocessor macro.
+*
+*   format    const char *
+*                       Format string of the error message.  May contain
+*                       printf-style %-formatting codes.
+*
+*   ...       mixed     The remaining variable arguments are applied (like
+*                       printf) to the format string to generate the error
+*                       message.
+*
+* Function return value:
+*             int       The status return code passed in.
+*
+*
+* wcserr_copy() - Copy an error object
+* ------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcserr_copy() copies one error object to another.  Use of this function
+* should be avoided in general since the function, source file, and line
+* number information copied to the destination may lose its context.
+*
+* Given:
+*   src       const struct wcserr*
+*                       Source error object.  If src is NULL, dst is cleared.
+*
+* Returned:
+*   dst       struct wcserr*
+*                       Destination error object.  If NULL, no copy is made.
+*
+* Function return value:
+*             int       Numeric status code of the source error object.
+*
+*
+* WCSERR_SET() macro - Fill in the contents of an error object
+* ------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* WCSERR_SET() is a preprocessor macro that helps to fill in the argument list
+* of wcserr_set().  It takes status as an argument of its own and provides the
+* name of the source file and the line number at the point where invoked.  It
+* assumes that the err and function arguments of wcserr_set() will be provided
+* by variables of the same names.
+*
+*===========================================================================*/
+
+#ifndef WCSLIB_WCSERR
+#define WCSLIB_WCSERR
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+struct wcserr {
+  int  status;			// Status code for the error.
+  int  line_no;			// Line number where the error occurred.
+  const char *function;		// Function name.
+  const char *file;		// Source file name.
+  char *msg;			// Informative error message.
+};
+
+// Size of the wcserr struct in int units, used by the Fortran wrappers.
+#define ERRLEN (sizeof(struct wcserr)/sizeof(int))
+
+int wcserr_enable(int enable);
+
+int wcserr_size(const struct wcserr *err, int sizes[2]);
+
+int wcserr_prt(const struct wcserr *err, const char *prefix);
+
+int wcserr_clear(struct wcserr **err);
+
+
+// INTERNAL USE ONLY -------------------------------------------------------
+
+int wcserr_set(struct wcserr **err, int status, const char *function,
+  const char *file, int line_no, const char *format, ...);
+
+int wcserr_copy(const struct wcserr *src, struct wcserr *dst);
+
+// Convenience macro for invoking wcserr_set().
+#define WCSERR_SET(status) err, status, function, __FILE__, __LINE__
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif // WSCLIB_WCSERR
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.8.1.1 2026/05/22 11:36:14 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.6.1.1 2026/03/29 14:19:26 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.5.1.2 2026/03/29 13:36:16 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 2
+a23 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcserr.h,v 8.4.1.2 2025/12/06 13:37:16 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d22 2
+a23 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: wcserr.h,v 8.5.1.1 2025/12/06 14:05:15 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.3.1.1 2024/05/13 16:35:39 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.4 2024/10/28 13:56:16 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.2.1.2 2024/04/02 14:01:58 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.2 2023/11/16 10:00:29 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.2.1.1 2023/11/16 10:05:57 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.13.1.2 2023/06/15 04:17:19 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 8.0 - C routines that implement the FITS World Coordinate System
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 8.0 2023/07/01 06:15:04 mcalabre Exp $
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.8.1.1 2022/03/25 06:14:14 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.9 2022/03/25 15:14:48 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.6.1.1 2021/04/13 13:00:35 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.5.1.2 2021/04/13 09:34:18 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.5 - C routines that implement the FITS World Coordinate System
+d34 1
+a34 1
+* allocate and set a detailed error message in this struct which also
+d97 23
+d255 2
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.5.1.2
+log
+@Added new function wcserr_size().
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+d34 1
+a34 1
+* allocate and set a detailed error message in this struct, which also
+a96 23
+* wcserr_size() - Compute the size of a wcserr struct
+* ---------------------------------------------------
+* wcserr_size() computes the full size of a wcserr struct, including allocated
+* memory.
+*
+* Given:
+*   err       const struct wcserr*
+*                       The error object.
+*
+*                       If NULL, the base size of the struct and the allocated
+*                       size are both set to zero.
+*
+* Returned:
+*   sizes     int[2]    The first element is the base size of the struct as
+*                       returned by sizeof(struct wcserr).  The second element
+*                       is the total allocated size of the message buffer, in
+*                       bytes.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+a231 2
+
+int wcserr_size(const struct wcserr *err, int sizes[2]);
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.3.1.4 2021/01/28 12:29:30 mcalabre Exp $
+d26 1
+a26 1
+* WCSLIB 7.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d23 1
+a23 1
+  $Id: wcserr.h,v 7.4 2021/01/31 02:24:51 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d23 1
+a23 1
+  $Id: wcserr.h,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d26 1
+a26 1
+* WCSLIB 7.3 - C routines that implement the FITS World Coordinate System
+d221 5
+a225 5
+  int  status;			/* Status code for the error.               */
+  int  line_no;			/* Line number where the error occurred.    */
+  const char *function;		/* Function name.                           */
+  const char *file;		/* Source file name.                        */
+  char *msg;			/* Informative error message.               */
+d228 1
+a228 1
+/* Size of the wcserr struct in int units, used by the Fortran wrappers. */
+d238 1
+a238 1
+/* INTERNAL USE ONLY -------------------------------------------------------*/
+d245 1
+a245 1
+/* Convenience macro for invoking wcserr_set(). */
+d252 1
+a252 1
+#endif /* WSCLIB_WCSERR */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 7.3 2020/06/03 03:37:02 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d26 1
+a26 1
+  $Id: wcserr.h,v 7.3.1.1 2020/06/03 03:38:10 mcalabre Exp mcalabre $
+d224 5
+a228 5
+  int  status;			// Status code for the error.
+  int  line_no;			// Line number where the error occurred.
+  const char *function;		// Function name.
+  const char *file;		// Source file name.
+  char *msg;			// Informative error message.
+d231 1
+a231 1
+// Size of the wcserr struct in int units, used by the Fortran wrappers.
+d241 1
+a241 1
+// INTERNAL USE ONLY -------------------------------------------------------
+d248 1
+a248 1
+// Convenience macro for invoking wcserr_set().
+d255 1
+a255 1
+#endif // WSCLIB_WCSERR
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d25 1
+a25 1
+  $Id: wcserr.h,v 7.3.1.2 2020/08/17 11:19:09 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d25 1
+a25 1
+  $Id: wcserr.h,v 7.3.1.3 2021/01/19 14:09:10 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 7.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.4.1.2 2019/12/31 03:28:03 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 7.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 6.4 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.2.1.2 2019/05/10 01:56:50 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 6.3 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 6.2 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 6.2 2018/10/20 10:03:13 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.20.1.2 2018/10/19 06:45:42 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 6.1 - C routines that implement the FITS World Coordinate System
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.19.1.1 2018/07/26 15:41:40 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.20 - C routines that implement the FITS World Coordinate System
+d79 1
+a79 1
+*   char msg[WCSERR_MSG_LENGTH]
+d121 1
+a121 1
+* wcserr_clear() clears the error (if any) contained in a wcserr struct.
+a222 2
+#define WCSERR_MSG_LENGTH 160
+
+d228 1
+a228 1
+  char msg[WCSERR_MSG_LENGTH];	/* Informative error message.               */
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.20.1.2
+log
+@Changed wcserr::msg to be a char* to memory, allocated by wcserr_set(), just
+big enough to contain the message.  This allows arbitrarily large messages
+while saving space in storing smaller ones.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+d79 1
+a79 1
+*   char *msg
+d121 1
+a121 1
+* wcserr_clear() clears (deletes) a wcserr struct.
+d223 2
+d230 1
+a230 1
+  char *msg;			/* Informative error message.               */
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.19 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.19 2018/07/26 15:37:04 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.17.1.2 2018/01/10 08:25:34 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.18 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.16.1.1 2017/01/15 04:28:59 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.17 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.17 2017/09/18 08:44:23 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.17.1.1 2017/09/18 08:45:59 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.15.1.2 2017/01/15 04:14:00 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.16 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.16 2017/01/15 04:25:01 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.14.1.1 2016/02/07 10:52:44 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.15 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.15 2016/04/05 12:55:10 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.15.1.1 2016/04/05 12:58:35 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.13.1.1 2016/01/26 08:54:32 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.14 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.14 2016/02/07 10:49:31 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.12.1.2 2016/01/25 05:17:04 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.13 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.13 2016/01/26 08:51:13 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.11.1.1 2015/10/18 09:16:27 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.12 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.12 2015/11/15 02:13:00 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.12.1.1 2015/11/15 02:16:14 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.10.1.1 2015/10/09 08:22:35 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.11 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.11 2015/10/18 09:13:05 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.9.1.1 2015/07/21 09:28:07 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.10 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.10 2015/10/09 08:19:15 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.8.1.1 2015/07/08 11:07:18 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.9 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.9 2015/07/21 09:20:01 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.7.1.1 2015/06/29 02:47:24 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.8 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.8 2015/07/08 11:03:59 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.6.1.1 2015/06/14 07:14:44 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.7 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.7 2015/06/29 02:44:16 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.5.1.1 2015/05/05 13:21:00 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.6 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.6 2015/06/14 07:11:24 mcalabre Exp $
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.4.1.2 2015/04/23 11:03:11 mcalabre Exp mcalabre $
+d29 1
+a29 1
+* WCSLIB 5.5 - C routines that implement the FITS World Coordinate System
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.5 2015/05/05 13:16:31 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.3.1.1 2015/04/21 02:54:02 mcalabre Exp mcalabre $
+d28 4
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.4 2015/04/21 14:41:05 mcalabre Exp $
+@
+
+
+5.4.1.2
+log
+@Added boilerplate at the start of the prologue.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.4.1.1 2015/04/21 14:44:28 mcalabre Exp mcalabre $
+a27 4
+*
+* WCSLIB 5.4 - C routines that implement the FITS World Coordinate System
+* (WCS) standard.  Refer to the README file provided with WCSLIB for an
+* overview of the library.
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.2.1.1 2015/04/15 12:39:14 mcalabre Exp mcalabre $
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.3 2015/04/21 02:50:51 mcalabre Exp $
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.1.1.1 2015/04/07 11:01:10 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.2 2015/04/15 12:35:07 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 5.0.1.1 2015/04/05 12:28:00 mcalabre Exp mcalabre $
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.1 2015/04/07 10:56:36 mcalabre Exp $
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.25.1.2 2015/01/06 01:01:06 mcalabre Exp mcalabre $
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 5.0 2015/04/05 12:24:59 mcalabre Exp $
+@
+
+
+4.25
+log
+@WCSLIB 4.25
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.25 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2014, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.24.1.1 2014/09/18 15:28:09 mcalabre Exp mcalabre $
+@
+
+
+4.25.1.1
+log
+@WCSLIB 4.25 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.25 2014/12/14 14:29:36 mcalabre Exp $
+@
+
+
+4.25.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2015, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.25.1.1 2014/12/14 14:32:45 mcalabre Exp mcalabre $
+@
+
+
+4.24
+log
+@WCSLIB 4.24
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.24 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.23.1.1 2014/05/13 05:53:49 mcalabre Exp mcalabre $
+@
+
+
+4.24.1.1
+log
+@WCSLIB 4.24 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.24 2014/09/18 15:25:00 mcalabre Exp $
+@
+
+
+4.23
+log
+@WCSLIB 4.23
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.23 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.22.1.1 2014/04/12 15:06:32 mcalabre Exp mcalabre $
+@
+
+
+4.23.1.1
+log
+@WCSLIB 4.23 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.23 2014/05/13 05:50:51 mcalabre Exp $
+@
+
+
+4.22
+log
+@WCSLIB 4.22
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.22 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.21.1.1 2014/03/24 05:15:28 mcalabre Exp mcalabre $
+@
+
+
+4.22.1.1
+log
+@WCSLIB 4.22 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.22 2014/04/12 15:03:52 mcalabre Exp $
+@
+
+
+4.21
+log
+@WCSLIB 4.21
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.21 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.20.1.2 2014/03/21 06:32:19 mcalabre Exp mcalabre $
+@
+
+
+4.21.1.1
+log
+@WCSLIB 4.21 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.21 2014/03/24 05:12:27 mcalabre Exp $
+@
+
+
+4.20
+log
+@WCSLIB 4.20
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.20 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2013, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.19.1.1 2013/09/29 14:20:38 mcalabre Exp mcalabre $
+@
+
+
+4.20.1.1
+log
+@WCSLIB 4.20 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.20 2013/12/18 05:42:49 mcalabre Exp $
+@
+
+
+4.20.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2014, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.20.1.1 2013/12/18 05:46:55 mcalabre Exp mcalabre $
+@
+
+
+4.19
+log
+@WCSLIB 4.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.19 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.18.1.1 2013/07/13 10:02:37 mcalabre Exp mcalabre $
+@
+
+
+4.19.1.1
+log
+@WCSLIB 4.19 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.19 2013/09/29 14:17:51 mcalabre Exp $
+@
+
+
+4.18
+log
+@WCSLIB 4.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.18 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.17.1.1 2013/01/29 05:32:32 cal103 Exp cal103 $
+@
+
+
+4.18.1.1
+log
+@WCSLIB 4.18 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.18 2013/07/13 10:00:04 mcalabre Exp $
+@
+
+
+4.17
+log
+@WCSLIB 4.17
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.17 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.16.1.3 2013/01/29 05:09:44 cal103 Exp cal103 $
+@
+
+
+4.17.1.1
+log
+@WCSLIB 4.17 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.17 2013/01/29 05:29:20 cal103 Exp $
+@
+
+
+4.16
+log
+@WCSLIB 4.16
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.16 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2012, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.15.1.1 2012/09/26 14:27:51 cal103 Exp cal103 $
+d215 4
+d249 4
+@
+
+
+4.16.1.1
+log
+@WCSLIB 4.16 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.16 2012/11/07 04:42:44 cal103 Exp $
+@
+
+
+4.16.1.2
+log
+@Added 'extern "C" {}' for C++ usage.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.16.1.1 2012/11/07 04:45:56 cal103 Exp cal103 $
+a214 4
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+a244 4
+#ifdef __cplusplus
+}
+#endif
+
+@
+
+
+4.16.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2013, Mark Calabretta
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.16.1.2 2012/11/28 13:07:37 cal103 Exp cal103 $
+@
+
+
+4.15
+log
+@WCSLIB 4.15
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.15 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.14.1.1 2012/07/13 10:04:44 cal103 Exp cal103 $
+@
+
+
+4.15.1.1
+log
+@WCSLIB 4.15 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.15 2012/09/26 14:26:05 cal103 Exp $
+@
+
+
+4.14
+log
+@WCSLIB 4.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.14 - an implementation of the FITS WCS standard.
+d26 1
+a26 1
+  $Id: wcserr.h,v 4.13.1.2 2012/07/13 03:34:20 cal103 Exp cal103 $
+@
+
+
+4.14.1.1
+log
+@WCSLIB 4.14 development branch.
+@
+text
+@d26 1
+a26 1
+  $Id: wcserr.h,v 4.14 2012/07/13 10:02:27 cal103 Exp $
+@
+
+
+4.13
+log
+@WCSLIB 4.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.13 - an implementation of the FITS WCS standard.
+d19 1
+a19 1
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+d21 1
+a21 7
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+d23 1
+a23 1
+  Author: Mark Calabretta, Australia Telescope National Facility
+d25 2
+a26 2
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id: wcserr.h,v 4.12.1.1 2012/02/29 07:59:10 cal103 Exp cal103 $
+@
+
+
+4.13.1.1
+log
+@WCSLIB 4.13 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.13 2012/03/14 07:39:30 cal103 Exp $
+@
+
+
+4.13.1.2
+log
+@Changed contact details.
+@
+text
+@d19 1
+a19 1
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+d21 7
+a27 1
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+d29 1
+a29 1
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+d31 2
+a32 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: wcserr.h,v 4.13.1.1 2012/03/14 07:40:37 cal103 Exp cal103 $
+@
+
+
+4.12
+log
+@WCSLIB 4.12
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.12 - an implementation of the FITS WCS standard.
+d32 1
+a32 1
+  $Id: wcserr.h,v 4.11.1.1 2012/02/20 23:31:13 cal103 Exp cal103 $
+@
+
+
+4.12.1.1
+log
+@WCSLIB 4.12 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.12 2012/02/29 07:57:56 cal103 Exp $
+@
+
+
+4.11
+log
+@WCSLIB 4.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.11 - an implementation of the FITS WCS standard.
+d32 1
+a32 1
+  $Id: wcserr.h,v 4.10.1.1 2012/02/05 23:42:46 cal103 Exp cal103 $
+@
+
+
+4.11.1.1
+log
+@WCSLIB 4.11 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.11 2012/02/20 23:30:02 cal103 Exp $
+@
+
+
+4.10
+log
+@WCSLIB 4.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.10 - an implementation of the FITS WCS standard.
+d32 1
+a32 1
+  $Id: wcserr.h,v 4.9.1.1 2012/01/24 05:41:45 cal103 Exp cal103 $
+@
+
+
+4.10.1.1
+log
+@WCSLIB 4.10 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.10 2012/02/05 23:41:44 cal103 Exp $
+@
+
+
+4.9
+log
+@WCSLIB 4.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 4.9 - an implementation of the FITS WCS standard.
+d32 1
+a32 1
+  $Id: wcserr.h,v 4.8.1.3 2012/01/24 05:23:06 cal103 Exp cal103 $
+@
+
+
+4.9.1.1
+log
+@WCSLIB 4.9 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.9 2012/01/24 05:40:29 cal103 Exp $
+@
+
+
+4.8
+log
+@WCSLIB 4.8
+@
+text
+@d3 2
+a4 2
+  WCSLIB 4.8 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+d32 1
+a32 1
+  $Id: wcserr.h,v 0.0.1.3 2011/08/10 05:27:38 cal103 Exp cal103 $
+d46 1
+d50 1
+a50 1
+=       wcserr_prt(prj.err);
+d121 14
+d196 1
+a196 1
+*                       Source error object.  If src is NULL, returns 1.
+d238 2
+@
+
+
+4.8.1.1
+log
+@WCSLIB 4.8 development branch.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.8 2011/08/15 08:05:53 cal103 Exp $
+@
+
+
+4.8.1.2
+log
+@Added wcserr_clear(); fixed the example code given in the prologue.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 4.8.1.1 2011/08/15 08:07:06 cal103 Exp cal103 $
+a45 1
+=     wcserr_enable(1);
+d49 1
+a49 1
+=       wcserr_prt(prj.err, 0x0);
+a119 14
+* wcserr_clear() - Clear a wcserr struct
+* --------------------------------------
+* wcserr_clear() clears the error (if any) contained in a wcserr struct.
+*
+* Given and returned:
+*   err       struct wcserr**
+*                       The error object.  If NULL, nothing is done.  Set to
+*                       NULL on return.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Success.
+*
+*
+d181 1
+a181 1
+*                       Source error object.  If src is NULL, dst is cleared.
+a222 2
+int wcserr_clear(struct wcserr **err);
+
+@
+
+
+4.8.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2012, Mark Calabretta
+d32 1
+a32 1
+  $Id: wcserr.h,v 4.8.1.2 2011/11/17 03:13:24 cal103 Exp cal103 $
+@
+
+
+0.0
+log
+@Empty revision.
+@
+text
+@d1 234
+@
+
+
+0.0.1.1
+log
+@Initial revision as supplied by Michael Droettboom.
+@
+text
+@a0 199
+/*============================================================================
+
+  WCSLIB 4.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2011, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see <http://www.gnu.org/licenses/>.
+
+  Correspondence concerning WCSLIB may be directed to:
+    Internet email: mcalabre@@atnf.csiro.au
+    Postal address: Dr. Mark Calabretta
+                    Australia Telescope National Facility, CSIRO
+                    PO Box 76
+                    Epping NSW 1710
+                    AUSTRALIA
+
+  Author: Mark Calabretta, Australia Telescope National Facility
+  Module author: Michael Droettboom
+  http://www.atnf.csiro.au/~mcalabre/index.html
+  $Id:  $
+*=============================================================================
+*
+* Summary of the wcserr routines
+* -------------------------------
+* This header defines utility functions to manage error messages in
+* wcslib.
+*
+* For most functions in wcslib that return a numeric error status
+* code, a detailed error message is also set on an associated wcserr
+* struct.  For example:
+*
+*     int status;
+*     struct wcsprm wcs;
+*     if ((status = wcsini(&wcs))) {
+*         // Print the error message to the console
+*         printf(wcs.err.msg);
+*     }
+*
+*     
+* wcserr struct - Error message handling
+* --------------------------------------
+* The wcserr struct contains the numeric error code, a textual
+* description of the error, and information about the source of the
+* error.
+* 
+*   int status
+*     The numeric status code associated with the error.  See the
+*     documentation for the function that generated the error for the
+*     meaning of these codes -- it differs according to context.
+*
+*   char msg[WCSERR_MESSAGE_LENGTH]
+*     The detailed error message.
+*
+*   char source_file[80]
+*     The name of the source file where the error was thrown.
+*
+*   int line_no
+*     The line number where the error was thrown.
+*
+*     
+* The remainder of the functions defined in this header are for
+* internal use.
+*
+* 
+* wcserr_ini() - Default constructor for the wcserr struct
+* --------------------------------------------------------
+* Initializes the memory in a wcserr struct.  If the struct has
+* already been initialized, calling wcserr_ini() is not harmful, but
+* will merely clear the error information.
+*
+* Given and returned:
+*   err       struct wcserr*
+*                       The error object.
+*
+*                       
+* wcserr_copy() - Copy an error object
+* ------------------------------------
+* Copies an error object from src to dst.
+*
+* Returned:
+*   dst       struct wcserr*
+*                       The destination error object.
+*
+* Given:
+*   src       const struct wcserr*
+*                       The source error object.
+*
+* Function return value:
+*             int
+*                       The numeric status code of the source error
+*                       object.
+*
+*                       
+* wcserr_set() - Fill in the contents of an error object
+* ------------------------------------------------------
+* Fills in an error object with information about an error.  For
+* convenience, consider using the WCSERR_SET macro which will fill in
+* the source file and line number information automatically.
+*
+* Given and returned:
+*   err       struct wcserr*
+*                       The destination error object.  If err is NULL,
+*                       the function will return without setting an
+*                       error message.
+*
+* Given:                       
+*   status    int
+*                       The numeric status code to set
+*
+*   source_file    const char *
+*                       The name of the source file generating the
+*                       error
+*
+*   line_no   int
+*                       The line number in the source file generating
+*                       the error
+*
+*   format    const char *
+*                       The format string of the error message.  May contain
+*                       printf-style %-formatting codes.
+*
+*   ...
+*                       The remaining variable arguments are applied
+*                       (like printf) to the format string to generate
+*                       the error message.
+*
+* Function return value:
+*             int       The status return code passed in.
+*
+*             
+* WCSERR_SET() - Macro to fill in the contents of an error object
+* ---------------------------------------------------------------
+* Fills in an error object with information about an error.  Fills in
+* the source file and line number where WCSERR_SET was called
+* automatically.
+*
+* Given/returned:
+*   err       struct wcserr*
+*                       The destination error object
+*
+* Given:                       
+*   status    int
+*                       The numeric status code to set
+*
+*   format    const char *
+*                       The format string of the error message.  May contain
+*                       printf-style %-formatting codes.
+*
+*   ...
+*                       The remaining variable arguments are applied
+*                       (like printf) to the format string to generate
+*                       the error message.
+*
+* Function return value:
+*             int       The status return code passed in.
+*     
+*===========================================================================*/
+
+#ifndef WCSLIB_WCSERR
+#define WCSLIB_WCSERR
+
+#define WCSERR_MESSAGE_LENGTH 160
+
+struct wcserr {
+  int  status;                     /* Integral status code for the error */
+  char msg[WCSERR_MESSAGE_LENGTH]; /* String message for the error */
+
+  char source_file[80];            /* The source file of the error */
+  int  line_no;                    /* The line number where the error occurred */
+};
+
+void wcserr_ini(struct wcserr *err);
+
+int wcserr_copy(struct wcserr* dst, const struct wcserr* src);
+
+int wcserr_set(
+  struct wcserr *err,
+  int status,
+  const char *source_file,
+  int line_no,
+  const char *format,
+  ...);
+
+#define WCSERR_SET(err, status, format, ...) \
+  wcserr_set((err), (status), __FILE__, __LINE__, (format), ##__VA_ARGS__)
+
+#endif /* WSCLIB_WCSERR */
+@
+
+
+0.0.1.2
+log
+@Revised implementation of Michael Droettboom's error messaging system.
+@
+text
+@d32 1
+a32 1
+  $Id$
+d36 14
+a49 21
+* ------------------------------
+* Most of the structs in WCSLIB contain a pointer to a wcserr struct as a
+* member.  Functions in WCSLIB that return an error status code can also
+* allocate and set a detailed error message in this struct which also
+* identifies the function, source file, and line number where the error
+* occurred.
+*
+* For example:
+*
+=     struct prjprm prj;
+=     if (prjini(&prj)) {
+=       // Print the error message to stderr.
+=       wcsprintf_set(stderr);
+=       wcserr_prt(prj.err);
+=     }
+*
+* A number of utility functions used in managing the wcserr struct are for
+* internal use only.  They are documented here solely as an aid to
+* understanding the code.  They are not intended for external use - the API
+* may change without notice!
+*
+d51 1
+d54 4
+a57 4
+* The wcserr struct contains the numeric error code, a textual description of
+* the error, and information about the function, source file, and line number
+* where the error was generated.
+*
+d59 3
+a61 3
+*     Numeric status code associated with the error, the meaning of which
+*     depends on the function that generated it.  See the documentation for
+*     the particular function.
+d63 2
+a64 3
+*   int line_no
+*     Line number where the error occurred as given by the __LINE__
+*     preprocessor macro.
+d66 2
+a67 2
+*   const char *function
+*     Name of the function where the error occurred.
+d69 2
+a70 3
+*   const char *file
+*     Name of the source file where the error occurred as given by the
+*     __FILE__ preprocessor macro.
+d72 10
+a81 2
+*   char msg[WCSERR_MSG_LENGTH]
+*     Informative error message.
+d83 3
+d87 4
+a90 4
+* wcserr_enable() - Enable/disable error messaging
+* ------------------------------------------------
+* wcserr_enable() enables or disables wcserr error messaging.  By default it
+* is disabled.
+d92 3
+a94 14
+* Given:
+*   enable    int       If true (non-zero), enable error messaging, else
+*                       disable it.
+*
+* Function return value:
+*             int       Status return value:
+*                         0: Error messaging is disabled.
+*                         1: Error messaging is enabled.
+*
+*
+* wcserr_prt() - Print a wcserr struct
+* ------------------------------------
+* wcserr_prt() prints the error message (if any) contained in a wcserr struct.
+* It uses the wcsprintf() functions.
+d97 2
+a98 6
+*   err       const struct wcserr*
+*                       The error object.  If NULL, nothing is printed.
+*
+*   prefix    const char *
+*                       If non-NULL, each output line will be prefixed with
+*                       this string.
+d101 3
+a103 4
+*             int       Status return value:
+*                         0: Success.
+*                         2: Error messaging is not enabled.
+*
+d105 1
+d108 3
+a110 6
+* INTERNAL USE ONLY.
+*
+* wcserr_set() fills a wcserr struct with information about an error.
+*
+* A convenience macro, WCSERR_SET, provides the source file and line number
+* information automatically.
+d113 16
+a128 28
+*   err       struct wcserr**
+*                       Error object.
+*
+*                       If err is NULL, returns the status code given without
+*                       setting an error message.
+*
+*                       If *err is NULL, allocates memory for a wcserr struct
+*                       (provided that status is non-zero).
+*
+* Given:
+*   status    int       Numeric status code to set.  If 0, then *err will be
+*                       deleted and *err will be returned as NULL.
+*
+*   function  const char *
+*                       Name of the function generating the error.  This
+*                       must point to a constant string, i.e. in the
+*                       initialized read-only data section ("data") of the
+*                       executable.
+*
+*   file      const char *
+*                       Name of the source file generating the error.  This
+*                       must point to a constant string, i.e. in the
+*                       initialized read-only data section ("data") of the
+*                       executable such as given by the __FILE__ preprocessor
+*                       macro.
+*
+*   line_no   int       Line number in the source file generating the error
+*                       such as given by the __LINE__ preprocessor macro.
+d131 1
+a131 1
+*                       Format string of the error message.  May contain
+d134 4
+a137 3
+*   ...       mixed     The remaining variable arguments are applied (like
+*                       printf) to the format string to generate the error
+*                       message.
+d142 14
+d157 3
+a159 11
+* wcserr_copy() - Copy an error object
+* ------------------------------------
+* INTERNAL USE ONLY.
+*
+* wcserr_copy() copies one error object to another.  Use of this function
+* should be avoided in general since the function, source file, and line
+* number information copied to the destination may lose its context.
+*
+* Given:
+*   src       const struct wcserr*
+*                       Source error object.  If src is NULL, returns 1.
+d161 4
+a164 3
+* Returned:
+*   dst       struct wcserr*
+*                       Destination error object.  If NULL, no copy is made.
+d167 2
+a168 13
+*             int       Numeric status code of the source error object.
+*
+*
+* WCSERR_SET() macro - Fill in the contents of an error object
+* ------------------------------------------------------------
+* INTERNAL USE ONLY.
+*
+* WCSERR_SET() is a preprocessor macro that helps to fill in the argument list
+* of wcserr_set().  It takes status as an argument of its own and provides the
+* name of the source file and the line number at the point where invoked.  It
+* assumes that the err and function arguments of wcserr_set() will be provided
+* by variables of the same names.
+*
+d174 1
+a174 1
+#define WCSERR_MSG_LENGTH 160
+d177 5
+a181 5
+  int  status;			/* Status code for the error.               */
+  int  line_no;			/* Line number where the error occurred.    */
+  const char *function;		/* Function name.                           */
+  const char *file;		/* Source file name.                        */
+  char msg[WCSERR_MSG_LENGTH];	/* Informative error message.               */
+d184 1
+a184 7
+/* Size of the wcserr struct in int units, used by the Fortran wrappers. */
+#define ERRLEN (sizeof(struct wcserr)/sizeof(int))
+
+int wcserr_enable(int enable);
+
+int wcserr_prt(const struct wcserr *err, const char *prefix);
+
+d186 1
+a186 3
+/* INTERNAL USE ONLY -------------------------------------------------------*/
+int wcserr_set(struct wcserr **err, int status, const char *function,
+  const char *file, int line_no, const char *format, ...);
+d188 7
+a194 1
+int wcserr_copy(const struct wcserr *src, struct wcserr *dst);
+d196 2
+a197 2
+/* Convenience macro for invoking wcserr_set(). */
+#define WCSERR_SET(status) err, status, function, __FILE__, __LINE__
+@
+
+
+0.0.1.3
+log
+@Mention that wcserr_enable() is not thread-safe.
+@
+text
+@d32 1
+a32 1
+  $Id: wcserr.h,v 0.0.1.2 2011/08/09 02:43:50 cal103 Exp cal103 $
+a88 2
+* PLEASE NOTE: This function is not thread-safe.
+*
+a222 1
+
+@

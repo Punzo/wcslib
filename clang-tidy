@@ -1,0 +1,23 @@
+# Configuration file for clang-tidy.
+
+Checks:
+  -  -*
+  -   bugprone-*
+  -  -bugprone-assignment-in-if-condition
+  -  -bugprone-easily-swappable-parameters
+  -  -bugprone-reserved-identifier      # For sundazel.c
+  -   clang-analyzer-*
+  -  -clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling
+  -   concurrency-*
+  -   performance-*
+  -  -performance-no-int-to-ptr         # For getwcstab_f.c
+  -   portability-*
+
+ExtraArgs:
+  -   -I..
+  -   -I../C
+  -   -I../pgsbox
+  -   -I/usr/local/include/cfitsio
+  -   -I/usr/local/include/pgplot
+
+UseColor: true

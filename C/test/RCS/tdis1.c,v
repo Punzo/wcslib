@@ -1,0 +1,4360 @@
+head	8.10;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+8.10
+date	2026.09.27.05.44.34;	author mcalabre;	state Exp;
+branches;
+next	8.9;
+
+8.9
+date	2026.06.18.13.00.03;	author mcalabre;	state Exp;
+branches
+	8.9.1.1;
+next	8.8;
+
+8.8
+date	2026.05.22.11.19.30;	author mcalabre;	state Exp;
+branches
+	8.8.1.1;
+next	8.7;
+
+8.7
+date	2026.05.11.12.01.10;	author mcalabre;	state Exp;
+branches
+	8.7.1.1;
+next	8.6;
+
+8.6
+date	2026.03.29.13.53.56;	author mcalabre;	state Exp;
+branches
+	8.6.1.1;
+next	8.5;
+
+8.5
+date	2025.12.06.13.47.41;	author mcalabre;	state Exp;
+branches
+	8.5.1.1;
+next	8.4;
+
+8.4
+date	2024.10.28.13.56.17;	author mcalabre;	state Exp;
+branches
+	8.4.1.1;
+next	8.3;
+
+8.3
+date	2024.05.13.16.33.00;	author mcalabre;	state Exp;
+branches
+	8.3.1.1;
+next	8.2;
+
+8.2
+date	2023.11.16.10.00.30;	author mcalabre;	state Exp;
+branches
+	8.2.1.1;
+next	8.1;
+
+8.1
+date	2023.07.05.17.12.07;	author mcalabre;	state Exp;
+branches
+	8.1.1.1;
+next	8.0;
+
+8.0
+date	2023.07.01.06.15.05;	author mcalabre;	state Exp;
+branches
+	8.0.1.1;
+next	7.13;
+
+7.13
+date	2022.10.07.03.43.35;	author mcalabre;	state Exp;
+branches
+	7.13.1.1;
+next	7.12;
+
+7.12
+date	2022.09.09.04.57.58;	author mcalabre;	state Exp;
+branches
+	7.12.1.1;
+next	7.11;
+
+7.11
+date	2022.04.26.06.13.52;	author mcalabre;	state Exp;
+branches
+	7.11.1.1;
+next	7.10;
+
+7.10
+date	2022.04.23.14.25.15;	author mcalabre;	state Exp;
+branches
+	7.10.1.1;
+next	7.9;
+
+7.9
+date	2022.03.25.15.14.49;	author mcalabre;	state Exp;
+branches
+	7.9.1.1;
+next	7.8;
+
+7.8
+date	2022.03.25.06.11.49;	author mcalabre;	state Exp;
+branches
+	7.8.1.1;
+next	7.7;
+
+7.7
+date	2021.07.12.06.36.49;	author mcalabre;	state Exp;
+branches
+	7.7.1.1;
+next	7.6;
+
+7.6
+date	2021.04.13.12.57.01;	author mcalabre;	state Exp;
+branches
+	7.6.1.1;
+next	7.5;
+
+7.5
+date	2021.03.20.05.54.58;	author mcalabre;	state Exp;
+branches
+	7.5.1.1;
+next	7.4;
+
+7.4
+date	2021.01.31.02.24.52;	author mcalabre;	state Exp;
+branches
+	7.4.1.1;
+next	7.3;
+
+7.3
+date	2020.06.03.03.37.03;	author mcalabre;	state Exp;
+branches
+	7.3.1.1;
+next	7.2;
+
+7.2
+date	2020.03.09.07.31.23;	author mcalabre;	state Exp;
+branches
+	7.2.1.1;
+next	7.1;
+
+7.1
+date	2019.12.31.13.25.19;	author mcalabre;	state Exp;
+branches
+	7.1.1.1;
+next	6.4;
+
+6.4
+date	2019.08.15.09.30.18;	author mcalabre;	state Exp;
+branches
+	6.4.1.1;
+next	6.3;
+
+6.3
+date	2019.07.12.07.33.39;	author mcalabre;	state Exp;
+branches
+	6.3.1.1;
+next	6.2;
+
+6.2
+date	2018.10.20.10.03.14;	author mcalabre;	state Exp;
+branches
+	6.2.1.1;
+next	6.1;
+
+6.1
+date	2018.10.19.08.35.17;	author mcalabre;	state Exp;
+branches
+	6.1.1.1;
+next	5.20;
+
+5.20
+date	2018.10.05.05.32.41;	author mcalabre;	state Exp;
+branches
+	5.20.1.1;
+next	5.19;
+
+5.19
+date	2018.07.26.15.37.05;	author mcalabre;	state Exp;
+branches
+	5.19.1.1;
+next	5.18;
+
+5.18
+date	2018.01.10.08.32.14;	author mcalabre;	state Exp;
+branches
+	5.18.1.1;
+next	5.17;
+
+5.17
+date	2017.09.18.08.44.24;	author mcalabre;	state Exp;
+branches
+	5.17.1.1;
+next	5.16;
+
+5.16
+date	2017.01.15.04.25.02;	author mcalabre;	state Exp;
+branches
+	5.16.1.1;
+next	5.15;
+
+5.15
+date	2016.04.05.12.55.11;	author mcalabre;	state Exp;
+branches
+	5.15.1.1;
+next	5.14;
+
+5.14
+date	2016.02.07.10.49.32;	author mcalabre;	state Exp;
+branches
+	5.14.1.1;
+next	5.13;
+
+5.13
+date	2016.01.26.08.51.15;	author mcalabre;	state Exp;
+branches
+	5.13.1.1;
+next	5.12;
+
+5.12
+date	2015.11.15.02.13.01;	author mcalabre;	state Exp;
+branches
+	5.12.1.1;
+next	5.11;
+
+5.11
+date	2015.10.18.09.13.06;	author mcalabre;	state Exp;
+branches
+	5.11.1.1;
+next	5.10;
+
+5.10
+date	2015.10.09.08.19.16;	author mcalabre;	state Exp;
+branches
+	5.10.1.1;
+next	5.9;
+
+5.9
+date	2015.07.21.09.20.03;	author mcalabre;	state Exp;
+branches
+	5.9.1.1;
+next	5.8;
+
+5.8
+date	2015.07.08.11.04.01;	author mcalabre;	state Exp;
+branches
+	5.8.1.1;
+next	5.7;
+
+5.7
+date	2015.06.29.02.44.17;	author mcalabre;	state Exp;
+branches
+	5.7.1.1;
+next	5.6;
+
+5.6
+date	2015.06.14.07.11.25;	author mcalabre;	state Exp;
+branches
+	5.6.1.1;
+next	5.5;
+
+5.5
+date	2015.05.05.13.16.32;	author mcalabre;	state Exp;
+branches
+	5.5.1.1;
+next	5.4;
+
+5.4
+date	2015.04.21.14.41.06;	author mcalabre;	state Exp;
+branches
+	5.4.1.1;
+next	5.3;
+
+5.3
+date	2015.04.21.02.50.52;	author mcalabre;	state Exp;
+branches
+	5.3.1.1;
+next	5.2;
+
+5.2
+date	2015.04.15.12.35.08;	author mcalabre;	state Exp;
+branches
+	5.2.1.1;
+next	5.1;
+
+5.1
+date	2015.04.07.10.56.38;	author mcalabre;	state Exp;
+branches
+	5.1.1.1;
+next	5.0;
+
+5.0
+date	2015.04.05.12.25.01;	author mcalabre;	state Exp;
+branches
+	5.0.1.1;
+next	1.0;
+
+1.0
+date	2015.04.03.03.06.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.0.1.1
+date	2015.04.05.12.28.02;	author mcalabre;	state Exp;
+branches;
+next	5.0.1.2;
+
+5.0.1.2
+date	2015.04.07.08.54.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.1.1.1
+date	2015.04.07.11.01.11;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.2;
+
+5.1.1.2
+date	2015.04.08.08.17.47;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.3;
+
+5.1.1.3
+date	2015.04.13.08.39.46;	author mcalabre;	state Exp;
+branches;
+next	5.1.1.4;
+
+5.1.1.4
+date	2015.04.15.09.24.23;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.2.1.1
+date	2015.04.15.12.39.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.3.1.1
+date	2015.04.21.02.54.03;	author mcalabre;	state Exp;
+branches;
+next	5.3.1.2;
+
+5.3.1.2
+date	2015.04.21.12.43.13;	author mcalabre;	state Exp;
+branches;
+next	5.3.1.3;
+
+5.3.1.3
+date	2015.04.21.14.03.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.4.1.1
+date	2015.04.21.14.44.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.5.1.1
+date	2015.05.05.13.21.02;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.6.1.1
+date	2015.06.14.07.14.46;	author mcalabre;	state Exp;
+branches;
+next	5.6.1.2;
+
+5.6.1.2
+date	2015.06.16.07.34.47;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.7.1.1
+date	2015.06.29.02.47.25;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.8.1.1
+date	2015.07.08.11.07.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.9.1.1
+date	2015.07.21.09.28.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.10.1.1
+date	2015.10.09.08.22.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.11.1.1
+date	2015.10.18.09.16.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.12.1.1
+date	2015.11.15.02.16.16;	author mcalabre;	state Exp;
+branches;
+next	5.12.1.2;
+
+5.12.1.2
+date	2016.01.25.05.17.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.13.1.1
+date	2016.01.26.08.54.34;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.14.1.1
+date	2016.02.07.10.52.46;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.15.1.1
+date	2016.04.05.12.58.37;	author mcalabre;	state Exp;
+branches;
+next	5.15.1.2;
+
+5.15.1.2
+date	2017.01.15.04.14.22;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.16.1.1
+date	2017.01.15.04.29.01;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.17.1.1
+date	2017.09.18.08.46.00;	author mcalabre;	state Exp;
+branches;
+next	5.17.1.2;
+
+5.17.1.2
+date	2018.01.10.08.26.04;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.18.1.1
+date	2018.01.10.08.33.04;	author mcalabre;	state Exp;
+branches;
+next	5.18.1.2;
+
+5.18.1.2
+date	2018.07.25.10.23.38;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.19.1.1
+date	2018.07.26.15.41.41;	author mcalabre;	state Exp;
+branches;
+next	;
+
+5.20.1.1
+date	2018.10.05.05.33.33;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.1.1.1
+date	2018.10.19.08.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.2.1.1
+date	2018.10.20.10.04.15;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.2;
+
+6.2.1.2
+date	2019.05.10.02.01.28;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.3;
+
+6.2.1.3
+date	2019.07.07.11.33.32;	author mcalabre;	state Exp;
+branches;
+next	6.2.1.4;
+
+6.2.1.4
+date	2019.07.08.10.43.43;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.3.1.1
+date	2019.07.12.07.34.37;	author mcalabre;	state Exp;
+branches;
+next	;
+
+6.4.1.1
+date	2019.08.15.09.31.29;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.2;
+
+6.4.1.2
+date	2019.12.03.06.14.52;	author mcalabre;	state Exp;
+branches;
+next	6.4.1.3;
+
+6.4.1.3
+date	2019.12.31.03.28.29;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.1.1.1
+date	2019.12.31.13.28.19;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.2.1.1
+date	2020.03.09.07.34.50;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.3.1.1
+date	2020.06.03.03.38.11;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.2;
+
+7.3.1.2
+date	2020.08.17.11.20.48;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.3;
+
+7.3.1.3
+date	2021.01.19.14.10.01;	author mcalabre;	state Exp;
+branches;
+next	7.3.1.4;
+
+7.3.1.4
+date	2021.01.28.12.31.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.4.1.1
+date	2021.01.31.02.26.24;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.5.1.1
+date	2021.03.20.05.56.42;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.6.1.1
+date	2021.04.13.13.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.7.1.1
+date	2021.07.12.06.38.27;	author mcalabre;	state Exp;
+branches;
+next	7.7.1.2;
+
+7.7.1.2
+date	2022.03.25.06.05.59;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.8.1.1
+date	2022.03.25.06.14.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.9.1.1
+date	2022.03.25.15.16.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.10.1.1
+date	2022.04.23.14.26.54;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.11.1.1
+date	2022.04.26.06.15.32;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.12.1.1
+date	2022.09.09.05.00.36;	author mcalabre;	state Exp;
+branches;
+next	;
+
+7.13.1.1
+date	2022.10.07.03.45.47;	author mcalabre;	state Exp;
+branches;
+next	7.13.1.2;
+
+7.13.1.2
+date	2023.06.15.04.17.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.0.1.1
+date	2023.07.01.06.22.44;	author mcalabre;	state Exp;
+branches;
+next	8.0.1.2;
+
+8.0.1.2
+date	2023.07.04.09.06.16;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.1.1.1
+date	2023.07.05.17.15.00;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.2.1.1
+date	2023.11.16.10.05.58;	author mcalabre;	state Exp;
+branches;
+next	8.2.1.2;
+
+8.2.1.2
+date	2024.04.02.14.06.10;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.3.1.1
+date	2024.05.13.16.35.40;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.4.1.1
+date	2024.10.28.13.58.41;	author mcalabre;	state Exp;
+branches;
+next	8.4.1.2;
+
+8.4.1.2
+date	2025.12.06.13.37.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.5.1.1
+date	2025.12.06.14.05.16;	author mcalabre;	state Exp;
+branches;
+next	8.5.1.2;
+
+8.5.1.2
+date	2026.03.29.13.36.17;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.6.1.1
+date	2026.03.29.14.19.27;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.2;
+
+8.6.1.2
+date	2026.04.11.14.58.11;	author mcalabre;	state Exp;
+branches;
+next	8.6.1.3;
+
+8.6.1.3
+date	2026.04.11.15.01.20;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.7.1.1
+date	2026.05.11.12.18.44;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.8.1.1
+date	2026.05.22.11.36.15;	author mcalabre;	state Exp;
+branches;
+next	;
+
+8.9.1.1
+date	2026.06.18.13.21.06;	author mcalabre;	state Exp;
+branches;
+next	;
+
+
+desc
+@Program to test closure of the WCSLIB distortion routines.
+@
+
+
+8.10
+log
+@WCSLIB 8.10
+@
+text
+@/*============================================================================
+  WCSLIB 8.10 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2026, Mark Calabretta
+
+  This file is part of WCSLIB.
+
+  WCSLIB is free software: you can redistribute it and/or modify it under the
+  terms of the GNU Lesser General Public License as published by the Free
+  Software Foundation, either version 3 of the License, or (at your option)
+  any later version.
+
+  WCSLIB is distributed in the hope that it will be useful, but WITHOUT ANY
+  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+  FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for
+  more details.
+
+  You should have received a copy of the GNU Lesser General Public License
+  along with WCSLIB.  If not, see http://www.gnu.org/licenses.
+
+  Author: Mark Calabretta, Australia Telescope National Facility, CSIRO.
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tdis1.c,v 8.9.1.1 2026/06/18 13:21:06 mcalabre Exp mcalabre $
+*=============================================================================
+*
+* tdis1 tests the WCSLIB distortion functions for closure.  Input comes from
+* the FITS file specified as an argument, which must contain a 2D image, or
+* else from TPV7.fits.  The test is done via linp2x() and linx2p().
+*
+*---------------------------------------------------------------------------*/
+
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#include <wcserr.h>
+#include <wcshdr.h>
+#include <wcsprintf.h>
+#include <lin.h>
+#include <dis.h>
+
+#define HEADER_SIZE 36000
+
+int tpv2poly(struct wcsprm *wcs);
+
+// Absolute and fractional tolerance.  Distortions are typically used on
+// large images, so the absolute tolerance in the corners may not be very
+// high, simply due to floating point precision.
+const double ATOL = 1.0e-9;
+const double FTOL = 1.0e-10;
+
+
+int main(int argc, char *argv[])
+
+{
+  wcserr_enable(1);
+  wcsprintf_set(stdout);
+
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+  setvbuf(stdout, NULL, _IOLBF, 0);
+
+  wcsprintf("Testing closure of WCSLIB distortion routines (tdis1.c)\n"
+            "-------------------------------------------------------\n");
+
+  // List status return messages.
+  wcsprintf("\nList of dis status return values:\n");
+  for (int status = 1; status <= 5; status++) {
+    wcsprintf("%4d: %s.\n", status, dis_errmsg[status]);
+  }
+  wcsprintf("\n");
+
+  // Optional file name specified?
+  char *infile = "TPV7.fits";
+  if (1 < argc) {
+    infile = argv[1];
+  }
+
+
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+  FILE *fptr;
+  if ((fptr = fopen(infile, "r")) == 0) {
+    wcsprintf("ERROR opening %s\n", infile);
+    return 1;
+  }
+
+  int naxis[2];
+  memset(naxis, 0, 2*sizeof(int));
+
+  char keyrec[81], header[288001];
+  int hk = 0;
+  int nkeyrec = 0;
+  int gotend = 0;
+  for (int iblock = 0; iblock < 100; iblock++) {
+    for (int ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+      if (fgets(keyrec, 81, fptr) == 0) {
+        break;
+      }
+
+      if (strncmp(keyrec, "        ", 8) == 0) continue;
+      if (strncmp(keyrec, "COMMENT ", 8) == 0) continue;
+      if (strncmp(keyrec, "HISTORY ", 8) == 0) continue;
+
+      if (strncmp(keyrec, "NAXIS", 5) == 0) {
+        int n;
+        if (keyrec[5] == ' ') {
+          sscanf(keyrec+10, "%d", &n);
+          if (n != 2) {
+            wcsprintf("ERROR, expecting a 2D image.\n");
+            return 1;
+          }
+          continue;
+        }
+
+        int j;
+        sscanf(keyrec+5, "%d = %d", &j, &n);
+        naxis[j-1] = n;
+        continue;
+      }
+
+      memcpy(header+hk, keyrec, 80);
+      hk += 80;
+      nkeyrec++;
+
+      if (strncmp(keyrec, "END       ", 10) == 0) {
+        // An END keyrecord was read, but read the rest of the block.
+        gotend = 1;
+      }
+    }
+
+    if (gotend) break;
+  }
+  fclose(fptr);
+
+
+  // Parse the header.
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+  if ((wcspih(header, nkeyrec, WCSHDR_none, 2, &nreject, &nwcs, &wcs))) {
+    wcsperr(wcs, 0x0);
+    return 1;
+  }
+
+  // Is it TPV?
+  int dopoly = 0;
+  struct wcsprm wcspol;
+  if (strcmp(wcs->ctype[0], "RA---TPV") == 0) {
+    // Copy it and translate to Polynomial for later use.
+    wcspol.flag = -1;
+    if (wcscopy(1, wcs, &wcspol)) {
+      wcsperr(wcs, 0x0);
+      return 1;
+    }
+
+    // Translate TPV to Polynomial.
+    tpv2poly(&wcspol);
+
+    wcspol.flag = -1;
+    if (wcsset(&wcspol)) {
+      wcsperr(&wcspol, 0x0);
+      return 1;
+    }
+
+    dopoly = 1;
+  }
+
+
+  // wcsset() translates the TPV "projection" into a sequent distortion.
+  if (wcsset(wcs)) {
+    wcsperr(wcs, 0x0);
+    return 1;
+  }
+
+  // Henceforth, we will work with linprm.
+  struct linprm *lin = &(wcs->lin);
+
+  // Get statistics on the distortion in the inner quarter of the image.
+  double stats[9];
+  double *maxdis = stats;
+  double *maxtot = maxdis + 2;
+  double *avgdis = maxtot + 1;
+  double *avgtot = avgdis + 2;
+  double *rmsdis = avgtot + 1;
+  double *rmstot = rmsdis + 2;
+
+  double pixblc[2], pixtrc[2], pixsamp[2];
+  pixblc[0]  = 0.25 * naxis[0];
+  pixblc[1]  = 0.25 * naxis[1];
+  pixtrc[0]  = 0.75 * naxis[0];
+  pixtrc[1]  = 0.75 * naxis[1];
+  pixsamp[0] = (pixtrc[0] - pixblc[0])/512.0;
+  pixsamp[1] = (pixtrc[1] - pixblc[1])/512.0;
+  if (pixsamp[0] < 1.0) pixsamp[0] = 1.0;
+  if (pixsamp[1] < 1.0) pixsamp[1] = 1.0;
+
+  int nsamp;
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp,
+              maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+    linperr(lin, 0x0);
+    return 1;
+  }
+
+  for (int k = 0; k < 9; k++) {
+    if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+  }
+
+  wcsprintf("linwarp() statistics computed over %d sample points:\n"
+            "  Max distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n"
+            " Mean distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n"
+            "  RMS distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n",
+            nsamp, maxdis[0], maxdis[1], *maxtot,
+                   avgdis[0], avgdis[1], *avgtot,
+                   rmsdis[0], rmsdis[1], *rmstot);
+
+  if (lin->disseq) {
+    // Exercise diswarp() as well.
+    wcsprintf("\n");
+
+    // Define a rectangle in intermediate pixel coordinates that just
+    // encompasses the inner quarter of the image.  For this we need
+    // to switch off CDELTia scaling and all distortions.
+    struct linprm affine;
+    affine.flag = -1;
+    int status;
+    if ((status = lincpy(1, lin, &affine))) {
+      linperr(lin, 0x0);
+      return 1;
+    }
+
+    affine.cdelt[0] = 1.0;
+    affine.cdelt[1] = 1.0;
+    if ((status = (lindis(1, &affine, 0x0) ||
+                   lindis(2, &affine, 0x0) ||
+                   linset(&affine)))) {
+      linperr(&affine, 0x0);
+      return 1;
+    }
+
+    double pix[8], pxi[8];
+    pix[0] = pixblc[0];
+    pix[1] = pixblc[1];
+    pix[2] = pixtrc[0];
+    pix[3] = pixblc[1];
+    pix[4] = pixtrc[0];
+    pix[5] = pixtrc[1];
+    pix[6] = pixblc[0];
+    pix[7] = pixtrc[1];
+    if (linp2x(&affine, 4, 2, pix, pxi)) {
+      linperr(&affine, 0x0);
+      return 1;
+    }
+
+    linfree(&affine);
+
+    pixblc[0] = pxi[0];
+    pixblc[1] = pxi[1];
+    pixtrc[0] = pxi[0];
+    pixtrc[1] = pxi[1];
+    int k = 2;
+    for (int j = 1; j < 4; j++) {
+      if (pixblc[0] > pxi[k]) pixblc[0] = pxi[k];
+      if (pixtrc[0] < pxi[k]) pixtrc[0] = pxi[k];
+      k++;
+      if (pixblc[1] > pxi[k]) pixblc[1] = pxi[k];
+      if (pixtrc[1] < pxi[k]) pixtrc[1] = pxi[k];
+      k++;
+    }
+
+    pixsamp[0] = (pixtrc[0] - pixblc[0])/512.0;
+    pixsamp[1] = (pixtrc[1] - pixblc[1])/512.0;
+
+    if (diswarp(lin->disseq, pixblc, pixtrc, pixsamp, &nsamp,
+                maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+      wcserr_prt(lin->disseq->err, 0x0);
+      return 1;
+    }
+
+    for (int k = 0; k < 9; k++) {
+      if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+    }
+
+    wcsprintf("diswarp() statistics computed over %d sample points:\n"
+              "  Max distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n"
+              " Mean distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n"
+              "  RMS distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n",
+              nsamp, maxdis[0], maxdis[1], *maxtot,
+                     avgdis[0], avgdis[1], *avgtot,
+                     rmsdis[0], rmsdis[1], *rmstot);
+  }
+
+
+  // The image size determines the test domain.
+  int naxis1, naxis2;
+  if ((naxis1 = naxis[0]) == 0) {
+    naxis1 = 2*wcs->crpix[0] + 1;
+  }
+  if ((naxis2 = naxis[1]) == 0) {
+    naxis2 = 2*wcs->crpix[1] + 1;
+  }
+
+  // Limit the number of tests.
+  int inc = 1;
+  while ((naxis1/inc)*(naxis2/inc) > 800000) {
+    inc *= 2;
+  }
+
+  int n   = naxis1 / inc;
+  double *px0 = calloc(4*(2*n), sizeof(double));
+  double *px1 = px0 + 2*n ;
+  double *img  = px1 + 2*n ;
+  double *img1 = img;
+  double *img2 = img + 2*n;
+
+  int nClosure, nFail, nTest;
+  for (int itest = 0; itest < 2; itest++) {
+    if (itest) {
+      if (!dopoly) break;
+
+      lin = &(wcspol.lin);
+    }
+
+    char *disfn;
+    if (lin->dispre) {
+      disfn = lin->dispre->dtype[0];
+    } else if (lin->disseq) {
+      disfn = lin->disseq->dtype[0];
+    } else {
+      disfn = 0x0;
+    }
+
+    wcsprintf("\n");
+
+    // Now the closure test.
+    clock_t tp2x  = 0;
+    clock_t tx2p  = 0;
+    nTest = 0;
+    nFail = 0;
+    nClosure = 0;
+    double absmax = 0.0;
+    double relmax = 0.0;
+    for (int p2 = 1; p2 <= naxis2; p2 += inc) {
+      int k = 0;
+      for (int p1 = 1; p1 <= naxis1; p1 += inc) {
+        px0[k++] = (double)p1;
+        px0[k++] = (double)p2;
+      }
+
+      clock_t t0 = clock();
+      if (linp2x(lin, n, 2, px0, img)) {
+        linperr(lin, 0x0);
+        nFail = 1;
+        break;
+      }
+      tp2x += clock() - t0;
+
+      t0 = clock();
+      if (linx2p(lin, n, 2, img, px1)) {
+        linperr(lin, 0x0);
+        nFail = 1;
+        break;
+      }
+      tx2p += clock() - t0;
+
+      // Check closure.
+      k = 0;
+      for (k = 0; k < 2*n ; k += 2) {
+        double dp1 = fabs(px1[k]   - px0[k]);
+        double dp2 = fabs(px1[k+1] - px0[k+1]);
+
+        double resid = (dp1 > dp2) ? dp1 : dp2;
+        if (resid > absmax) absmax = resid;
+
+        if (resid > ATOL) {
+          nClosure++;
+          wcsprintf("Absolute closure error:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+          wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+          wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+          wcsprintf("\n");
+          continue;
+        }
+
+        resid = 0.0;
+        double px, rel;
+        if ((px = fabs(px0[k]))   > 1.0) resid = dp1/px;
+        if ((px = fabs(px0[k+1])) > 1.0) {
+          if ((rel = dp2/px) > resid) resid = rel;
+        }
+        if (resid > relmax) relmax = resid;
+
+        if (resid > FTOL) {
+          nClosure++;
+          wcsprintf("Relative closure error:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+          wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+          wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+          wcsprintf("\n");
+        }
+      }
+
+      nTest += n;
+    }
+
+    if (nFail) {
+      wcsprintf("\nFAIL: The %s test failed to complete.\n", disfn);
+
+    } else {
+      wcsprintf("linp2x/linx2p with %s distortions:\n"
+        "  Completed %d closure tests.\n"
+        "  Maximum absolute closure residual = %.2e pixel.\n"
+        "  Maximum relative closure residual = %.2e.\n", disfn,
+        nTest, absmax, relmax);
+      wcsprintf("\n");
+
+      wcsprintf("  linp2x time (ns): %6.0f\n  linx2p time (ns): %6.0f\n\n",
+        1.0e9*((double)tp2x/CLOCKS_PER_SEC)/nTest,
+        1.0e9*((double)tx2p/CLOCKS_PER_SEC)/nTest);
+
+      if (nClosure) {
+        wcsprintf("FAIL: %d closure residuals exceed reporting tolerance.\n",
+          nClosure);
+
+      } else {
+        wcsprintf("PASS: All %s closure residuals are within reporting "
+          "tolerance.\n", disfn);
+      }
+    }
+  }
+
+
+  // Compare TPV with Polynomial over the test domain.
+  if (dopoly) {
+    wcsprintf("\n");
+
+    nTest  = 0;
+    nFail  = 0;
+    double absmax = 0.0;
+    struct linprm *lintpv = &(wcs->lin);
+    struct linprm *linpol = &(wcspol.lin);
+    for (int p2 = 1; p2 <= naxis2; p2 += inc) {
+      int k = 0;
+      for (int p1 = 1; p1 <= naxis1; p1 += inc) {
+        px0[k++] = (double)p1;
+        px0[k++] = (double)p2;
+      }
+
+      if (linp2x(lintpv, n, 2, px0, img1)) {
+        linperr(lintpv, 0x0);
+        break;
+      }
+
+      if (linp2x(linpol, n, 2, px0, img2)) {
+        linperr(linpol, 0x0);
+        break;
+      }
+
+      // Check agreement.
+      k = 0;
+      for (k = 0; k < 2*n ; k += 2) {
+        double dp1 = fabs(img2[k]   - img1[k]);
+        double dp2 = fabs(img2[k+1] - img1[k+1]);
+
+        double resid = (dp1 > dp2) ? dp1 : dp2;
+        if (resid > absmax) absmax = resid;
+
+        if (resid > ATOL) {
+          nFail++;
+          wcsprintf("TPV - Polynomial disagreement:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k],  px0[k+1]);
+          wcsprintf(" -> TPV: %18.12f %18.12f\n", img1[k], img1[k+1]);
+          wcsprintf(" -> Pol: %18.12f %18.12f\n", img2[k], img2[k+1]);
+          wcsprintf("\n");
+          continue;
+        }
+      }
+
+      nTest += n;
+    }
+
+    wcsprintf("linp2x, TPV vs Polynomial distortions:\n"
+      "  Completed %d comparisons.\n"
+      "  Maximum absolute disagreement = %.2e units.\n", nTest, absmax);
+    wcsprintf("\n");
+
+    if (nFail) {
+      wcsprintf("FAIL: %d comparisons exceed reporting tolerance.\n", nFail);
+
+    } else {
+      wcsprintf("PASS: All TPV vs Polynomial comparisons are within "
+                "reporting tolerance.\n");
+    }
+  }
+
+
+  free(px0);
+  wcsvfree(&nwcs, &wcs);
+  wcsfree(&wcspol);
+
+  return nFail || nClosure;
+}
+
+/*----------------------------------------------------------------------------
+* Translate a TPV "projection" to a general Polynomial distortion.  Must be
+* done before wcsset() which automatically translates PVi_ma keyvalues to a
+* TPV distortion and elides them.
+----------------------------------------------------------------------------*/
+
+int tpv2poly(struct wcsprm *wcs)
+
+{
+  const int tpvpow[40][3] = {
+    {0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {2, 0, 0},	//  0 -  4
+    {1, 1, 0}, {0, 2, 0}, {3, 0, 0}, {2, 1, 0}, {1, 2, 0},	//  5 -  9
+    {0, 3, 0}, {0, 0, 3}, {4, 0, 0}, {3, 1, 0}, {2, 2, 0},	// 10 - 14
+    {1, 3, 0}, {0, 4, 0}, {5, 0, 0}, {4, 1, 0}, {3, 2, 0},	// 15 - 19
+    {2, 3, 0}, {1, 4, 0}, {0, 5, 0}, {0, 0, 5}, {6, 0, 0},	// 20 - 24
+    {5, 1, 0}, {4, 2, 0}, {3, 3, 0}, {2, 4, 0}, {1, 5, 0},	// 25 - 29
+    {0, 6, 0}, {7, 0, 0}, {6, 1, 0}, {5, 2, 0}, {4, 3, 0},	// 30 - 34
+    {3, 4, 0}, {2, 5, 0}, {1, 6, 0}, {0, 7, 0}, {0, 0, 7}};	// 35 - 39
+
+  // Attach a disprm struct to linprm.  Also inits it.
+  struct disprm *dis;
+  if ((dis = calloc(1, sizeof(struct disprm))) == 0x0) {
+    return 1;
+  }
+
+  // Set values in the disprm struct.
+  dis->flag = -1;
+  disndp(24 + 3*wcs->npv);
+  lindis(2, &(wcs->lin), dis);
+
+
+  // The asterisk after the name prevents translation to TPD.
+  strncpy(dis->dtype[0], "Polynomial*", 72);
+  strncpy(dis->dtype[1], "Polynomial*", 72);
+
+  struct dpkey *keyp = dis->dp;
+  for (int i = 1; i <= 2; i++) {
+    // Glean essential information from the PVi_ma.
+    int naux   = 0;
+    int nterms = 0;
+    for (int k = 0; k < wcs->npv; k++) {
+      if (wcs->pv[k].i != i) continue;
+
+      int m = wcs->pv[k].m;
+      if (tpvpow[m][2]) naux = 1;
+      nterms++;
+    }
+
+    // Distortion parameters for axis i.
+    char dqi[16];
+    snprintf(dqi, 16, "DQ%d", i);
+    dpfill(keyp++, dqi, "NAXES",  i, 0, 2, 0.0);
+    dpfill(keyp++, dqi, "AXIS.1", i, 0, (i==1)?1:2, 0.0);
+    dpfill(keyp++, dqi, "AXIS.2", i, 0, (i==1)?2:1, 0.0);
+    dpfill(keyp++, dqi, "DOCORR", i, 0, 0, 0.0);
+
+    if (naux) {
+      dpfill(keyp++, dqi, "NAUX",   i, 0, 1, 0.0);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.0", i, 1, 0, 0.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.0", i, 1, 0, 0.5);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.1", i, 1, 0, 1.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.1", i, 1, 0, 2.0);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.2", i, 1, 0, 1.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.2", i, 1, 0, 2.0);
+    }
+    dpfill(keyp++, dqi, "NTERMS", i, 0, nterms, 0.0);
+
+    char dqifield[40];
+    nterms = 0;
+    for (int k = 0; k < wcs->npv; k++) {
+      if (wcs->pv[k].i != i) continue;
+
+      snprintf(dqifield, 40, "%s.TERM.%d", dqi, ++nterms);
+      dpfill(keyp++, dqifield, "COEFF", i, 1, 0, wcs->pv[k].value);
+
+      int m = wcs->pv[k].m;
+      if (tpvpow[m][0]) {
+        dpfill(keyp++, dqifield, "VAR.1", i, 1, 0, (double)tpvpow[m][0]);
+      }
+
+      if (tpvpow[m][1]) {
+        dpfill(keyp++, dqifield, "VAR.2", i, 1, 0, (double)tpvpow[m][1]);
+      }
+
+      if (tpvpow[m][2]) {
+        dpfill(keyp++, dqifield, "AUX.1", i, 1, 0, (double)tpvpow[m][2]);
+      }
+    }
+  }
+
+  dis->ndp = keyp - dis->dp;
+
+
+  // TPV now becomes TAN.
+  strncpy(wcs->ctype[0]+5, "TAN", 4);
+  strncpy(wcs->ctype[1]+5, "TAN", 4);
+  wcs->npv = 0;
+
+  return 0;
+}
+@
+
+
+8.9
+log
+@WCSLIB 8.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.8.1.1 2026/05/22 11:36:15 mcalabre Exp mcalabre $
+@
+
+
+8.9.1.1
+log
+@WCSLIB 8.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.9 2026/06/18 13:00:03 mcalabre Exp $
+@
+
+
+8.8
+log
+@WCSLIB 8.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.7.1.1 2026/05/11 12:18:44 mcalabre Exp mcalabre $
+@
+
+
+8.8.1.1
+log
+@WCSLIB 8.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.8 2026/05/22 11:19:30 mcalabre Exp $
+@
+
+
+8.7
+log
+@WCSLIB 8.7
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.7 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.6.1.3 2026/04/11 15:01:20 mcalabre Exp mcalabre $
+@
+
+
+8.7.1.1
+log
+@WCSLIB 8.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.7 2026/05/11 12:01:10 mcalabre Exp $
+@
+
+
+8.6
+log
+@WCSLIB 8.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.5.1.2 2026/03/29 13:36:17 mcalabre Exp mcalabre $
+a56 15
+  char *infile = "TPV7.fits";
+
+  char keyrec[81], header[288001], *disfn;
+  int  dopoly, gotend, iblock, ikeyrec, inc, itest, j, k, n, naxis[2], naxis1,
+       naxis2, nClosure, nFail, nkeyrec, nsamp, nreject, nTest, nwcs, p1, p2,
+       status;
+  clock_t t0, tp2x, tx2p;
+  double absmax, dp1, dp2, *img, *img1, *img2, pix[8], pixblc[2], pixsamp[2],
+         pixtrc[2], px, *px0, *px1, pxi[8], rel, resid, relmax;
+  double *avgdis, *avgtot, *maxdis, *maxtot, *rmsdis, *rmstot, stats[9];
+  FILE   *fptr;
+  struct linprm affine, *lin, *linpol, *lintpv;
+  struct wcsprm *wcs, wcspol;
+
+
+d69 1
+a69 1
+  for (status = 1; status <= 5; status++) {
+d75 1
+d82 1
+d88 1
+d91 6
+a96 5
+  k = 0;
+  nkeyrec = 0;
+  gotend = 0;
+  for (iblock = 0; iblock < 100; iblock++) {
+    for (ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+d106 1
+d116 1
+d122 2
+a123 2
+      memcpy(header+k, keyrec, 80);
+      k += 80;
+d138 2
+d146 2
+a147 1
+  dopoly = 0;
+d176 1
+a176 1
+  lin = &(wcs->lin);
+d179 7
+a185 6
+  maxdis = stats;
+  maxtot = maxdis + 2;
+  avgdis = maxtot + 1;
+  avgtot = avgdis + 2;
+  rmsdis = avgtot + 1;
+  rmstot = rmsdis + 2;
+d187 1
+d197 1
+d204 1
+a204 1
+  for (k = 0; k < 9; k++) {
+d229 1
+d231 1
+d246 1
+d266 2
+a267 2
+    k = 2;
+    for (j = 1; j < 4; j++) {
+d285 1
+a285 1
+    for (k = 0; k < 9; k++) {
+d306 1
+d315 1
+a315 1
+  inc = 1;
+d320 6
+a325 6
+  n   = naxis1 / inc;
+  px0 = calloc(4*(2*n), sizeof(double));
+  px1 = px0 + 2*n ;
+  img = px1 + 2*n ;
+  img1 = img;
+  img2 = img + 2*n;
+d327 2
+a328 1
+  for (itest = 0; itest < 2; itest++) {
+d335 1
+d347 2
+a348 2
+    tp2x  = 0;
+    tx2p  = 0;
+d352 5
+a356 5
+    absmax = 0.0;
+    relmax = 0.0;
+    for (p2 = 1; p2 <= naxis2; p2 += inc) {
+      k = 0;
+      for (p1 = 1; p1 <= naxis1; p1 += inc) {
+d361 1
+a361 1
+      t0 = clock();
+d380 2
+a381 2
+        dp1 = fabs(px1[k]   - px0[k]);
+        dp2 = fabs(px1[k+1] - px0[k+1]);
+d383 1
+a383 1
+        resid = (dp1 > dp2) ? dp1 : dp2;
+d397 1
+d450 6
+a455 6
+    absmax = 0.0;
+    lintpv = &(wcs->lin);
+    linpol = &(wcspol.lin);
+    for (p2 = 1; p2 <= naxis2; p2 += inc) {
+      k = 0;
+      for (p1 = 1; p1 <= naxis1; p1 += inc) {
+d473 2
+a474 2
+        dp1 = fabs(img2[k]   - img1[k]);
+        dp2 = fabs(img2[k+1] - img1[k+1]);
+d476 1
+a476 1
+        resid = (dp1 > dp2) ? dp1 : dp2;
+d534 1
+a534 2
+  char dqi[16], dqifield[40];
+  int  i, k, m, naux, nterms;
+a535 3
+  struct dpkey  *keyp;
+
+  // Attach a disprm struct to linprm.  Also inits it.
+d547 2
+a548 2
+  sprintf(dis->dtype[0], "Polynomial*");
+  sprintf(dis->dtype[1], "Polynomial*");
+d550 2
+a551 2
+  keyp = dis->dp;
+  for (i = 1; i <= 2; i++) {
+d553 3
+a555 3
+    naux   = 0;
+    nterms = 0;
+    for (k = 0; k < wcs->npv; k++) {
+d558 1
+a558 1
+      m = wcs->pv[k].m;
+d564 2
+a565 1
+    sprintf(dqi, "DQ%d", i);
+d582 1
+d584 1
+a584 1
+    for (k = 0; k < wcs->npv; k++) {
+d587 1
+a587 1
+      sprintf(dqifield, "%s.TERM.%d", dqi, ++nterms);
+d590 1
+a590 1
+      m = wcs->pv[k].m;
+d609 2
+a610 2
+  strcpy(wcs->ctype[0]+5, "TAN");
+  strcpy(wcs->ctype[1]+5, "TAN");
+@
+
+
+8.6.1.1
+log
+@WCSLIB 8.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.6 2026/03/29 13:53:56 mcalabre Exp $
+@
+
+
+8.6.1.2
+log
+@Converted to C99-style intermingled variable declarations.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.6.1.1 2026/03/29 14:19:27 mcalabre Exp mcalabre $
+d57 15
+d84 1
+a84 1
+  for (int status = 1; status <= 5; status++) {
+a89 1
+  char *infile = "TPV7.fits";
+a95 1
+  FILE *fptr;
+a100 1
+  int naxis[2];
+d103 5
+a107 6
+  char keyrec[81], header[288001];
+  int hk = 0;
+  int nkeyrec = 0;
+  int gotend = 0;
+  for (int iblock = 0; iblock < 100; iblock++) {
+    for (int ikeyrec = 0; ikeyrec < 36; ikeyrec++) {
+a116 1
+        int n;
+a125 1
+        int j;
+d131 2
+a132 2
+      memcpy(header+hk, keyrec, 80);
+      hk += 80;
+a146 2
+  int nreject, nwcs;
+  struct wcsprm *wcs;
+d153 1
+a153 2
+  int dopoly = 0;
+  struct wcsprm wcspol;
+d182 1
+a182 1
+  struct linprm *lin = &(wcs->lin);
+d185 6
+a190 7
+  double stats[9];
+  double *maxdis = stats;
+  double *maxtot = maxdis + 2;
+  double *avgdis = maxtot + 1;
+  double *avgtot = avgdis + 2;
+  double *rmsdis = avgtot + 1;
+  double *rmstot = rmsdis + 2;
+a191 1
+  double pixblc[2], pixtrc[2], pixsamp[2];
+a200 1
+  int nsamp;
+d207 1
+a207 1
+  for (int k = 0; k < 9; k++) {
+a231 1
+    struct linprm affine;
+a232 1
+    int status;
+a246 1
+    double pix[8], pxi[8];
+d266 2
+a267 2
+    int k = 2;
+    for (int j = 1; j < 4; j++) {
+d285 1
+a285 1
+    for (int k = 0; k < 9; k++) {
+a305 1
+  int naxis1, naxis2;
+d314 1
+a314 1
+  int inc = 1;
+d319 6
+a324 6
+  int n   = naxis1 / inc;
+  double *px0 = calloc(4*(2*n), sizeof(double));
+  double *px1 = px0 + 2*n ;
+  double *img  = px1 + 2*n ;
+  double *img1 = img;
+  double *img2 = img + 2*n;
+d326 1
+a326 2
+  int nClosure, nFail, nTest;
+  for (int itest = 0; itest < 2; itest++) {
+a332 1
+    char *disfn;
+d344 2
+a345 2
+    clock_t tp2x  = 0;
+    clock_t tx2p  = 0;
+d349 5
+a353 5
+    double absmax = 0.0;
+    double relmax = 0.0;
+    for (int p2 = 1; p2 <= naxis2; p2 += inc) {
+      int k = 0;
+      for (int p1 = 1; p1 <= naxis1; p1 += inc) {
+d358 1
+a358 1
+      clock_t t0 = clock();
+d377 2
+a378 2
+        double dp1 = fabs(px1[k]   - px0[k]);
+        double dp2 = fabs(px1[k+1] - px0[k+1]);
+d380 1
+a380 1
+        double resid = (dp1 > dp2) ? dp1 : dp2;
+a393 1
+        double px, rel;
+d446 6
+a451 6
+    double absmax = 0.0;
+    struct linprm *lintpv = &(wcs->lin);
+    struct linprm *linpol = &(wcspol.lin);
+    for (int p2 = 1; p2 <= naxis2; p2 += inc) {
+      int k = 0;
+      for (int p1 = 1; p1 <= naxis1; p1 += inc) {
+d469 2
+a470 2
+        double dp1 = fabs(img2[k]   - img1[k]);
+        double dp2 = fabs(img2[k+1] - img1[k+1]);
+d472 1
+a472 1
+        double resid = (dp1 > dp2) ? dp1 : dp2;
+d530 5
+a535 1
+  struct disprm *dis;
+d550 2
+a551 2
+  struct dpkey *keyp = dis->dp;
+  for (int i = 1; i <= 2; i++) {
+d553 3
+a555 3
+    int naux   = 0;
+    int nterms = 0;
+    for (int k = 0; k < wcs->npv; k++) {
+d558 1
+a558 1
+      int m = wcs->pv[k].m;
+a563 1
+    char dqi[16];
+a580 1
+    char dqifield[40];
+d582 1
+a582 1
+    for (int k = 0; k < wcs->npv; k++) {
+d588 1
+a588 1
+      int m = wcs->pv[k].m;
+@
+
+
+8.6.1.3
+log
+@Replaced use of strcpy() with strncpy(), and sprintf() with snprintf().
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.6.1.2 2026/04/11 14:58:11 mcalabre Exp mcalabre $
+d547 2
+a548 2
+  strncpy(dis->dtype[0], "Polynomial*", 72);
+  strncpy(dis->dtype[1], "Polynomial*", 72);
+d565 1
+a565 1
+    snprintf(dqi, 16, "DQ%d", i);
+d587 1
+a587 1
+      snprintf(dqifield, 40, "%s.TERM.%d", dqi, ++nterms);
+d609 2
+a610 2
+  strncpy(wcs->ctype[0]+5, "TAN", 4);
+  strncpy(wcs->ctype[1]+5, "TAN", 4);
+@
+
+
+8.5
+log
+@WCSLIB 8.5
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.5 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2025, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/people/Mark.Calabretta
+  $Id: tdis1.c,v 8.4.1.2 2025/12/06 13:37:17 mcalabre Exp mcalabre $
+@
+
+
+8.5.1.1
+log
+@WCSLIB 8.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.5 2025/12/06 13:47:41 mcalabre Exp $
+@
+
+
+8.5.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2026, Mark Calabretta
+d21 2
+a22 2
+  http://www.atnf.csiro.au/computing/software/wcs
+  $Id: tdis1.c,v 8.5.1.1 2025/12/06 14:05:16 mcalabre Exp mcalabre $
+@
+
+
+8.4
+log
+@WCSLIB 8.4
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.3.1.1 2024/05/13 16:35:40 mcalabre Exp mcalabre $
+@
+
+
+8.4.1.1
+log
+@WCSLIB 8.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.4 2024/10/28 13:56:17 mcalabre Exp $
+@
+
+
+8.4.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2025, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.4.1.1 2024/10/28 13:58:41 mcalabre Exp mcalabre $
+@
+
+
+8.3
+log
+@WCSLIB 8.3
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.3 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.2.1.2 2024/04/02 14:06:10 mcalabre Exp mcalabre $
+@
+
+
+8.3.1.1
+log
+@WCSLIB 8.3 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.3 2024/05/13 16:33:00 mcalabre Exp $
+@
+
+
+8.2
+log
+@WCSLIB 8.2
+@
+text
+@d2 2
+a3 2
+  WCSLIB 8.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.1.1.1 2023/07/05 17:15:00 mcalabre Exp mcalabre $
+@
+
+
+8.2.1.1
+log
+@WCSLIB 8.2 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.2 2023/11/16 10:00:30 mcalabre Exp $
+@
+
+
+8.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2024, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.2.1.1 2023/11/16 10:05:58 mcalabre Exp mcalabre $
+@
+
+
+8.1
+log
+@WCSLIB 8.1
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.1 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 8.0.1.2 2023/07/04 09:06:16 mcalabre Exp mcalabre $
+@
+
+
+8.1.1.1
+log
+@WCSLIB 8.1 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.1 2023/07/05 17:12:07 mcalabre Exp $
+@
+
+
+8.0
+log
+@WCSLIB 8.0
+@
+text
+@d2 1
+a2 1
+  WCSLIB 8.0 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.13.1.2 2023/06/15 04:17:20 mcalabre Exp mcalabre $
+d530 1
+a530 1
+  char dqi[16], dqifield[32];
+@
+
+
+8.0.1.1
+log
+@WCSLIB 8.0 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.0 2023/07/01 06:15:05 mcalabre Exp $
+@
+
+
+8.0.1.2
+log
+@Quench a nuisance warning from gcc 12.1.0.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 8.0.1.1 2023/07/01 06:22:44 mcalabre Exp mcalabre $
+d530 1
+a530 1
+  char dqi[16], dqifield[40];
+@
+
+
+7.13
+log
+@WCSLIB 7.13
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.13 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.12.1.1 2022/09/09 05:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.13.1.1
+log
+@WCSLIB 7.13 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.13 2022/10/07 03:43:35 mcalabre Exp $
+@
+
+
+7.13.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2023, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.13.1.1 2022/10/07 03:45:47 mcalabre Exp mcalabre $
+@
+
+
+7.12
+log
+@WCSLIB 7.12
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.12 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.11.1.1 2022/04/26 06:15:32 mcalabre Exp mcalabre $
+@
+
+
+7.12.1.1
+log
+@WCSLIB 7.12 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.12 2022/09/09 04:57:58 mcalabre Exp $
+@
+
+
+7.11
+log
+@WCSLIB 7.11
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.11 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.10.1.1 2022/04/23 14:26:54 mcalabre Exp mcalabre $
+@
+
+
+7.11.1.1
+log
+@WCSLIB 7.11 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.11 2022/04/26 06:13:52 mcalabre Exp $
+@
+
+
+7.10
+log
+@WCSLIB 7.10
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.10 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.9.1.1 2022/03/25 15:16:40 mcalabre Exp mcalabre $
+@
+
+
+7.10.1.1
+log
+@WCSLIB 7.10 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.10 2022/04/23 14:25:15 mcalabre Exp $
+@
+
+
+7.9
+log
+@WCSLIB 7.9
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.9 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.8.1.1 2022/03/25 06:14:15 mcalabre Exp mcalabre $
+@
+
+
+7.9.1.1
+log
+@WCSLIB 7.9 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.9 2022/03/25 15:14:49 mcalabre Exp $
+@
+
+
+7.8
+log
+@WCSLIB 7.8
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.8 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.7.1.2 2022/03/25 06:05:59 mcalabre Exp mcalabre $
+@
+
+
+7.8.1.1
+log
+@WCSLIB 7.8 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.8 2022/03/25 06:11:49 mcalabre Exp $
+@
+
+
+7.7
+log
+@WCSLIB 7.7
+@
+text
+@d2 2
+a3 2
+  WCSLIB 7.7 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2021, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.6.1.1 2021/04/13 13:00:36 mcalabre Exp mcalabre $
+@
+
+
+7.7.1.1
+log
+@WCSLIB 7.7 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.7 2021/07/12 06:36:49 mcalabre Exp $
+@
+
+
+7.7.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2022, Mark Calabretta
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.7.1.1 2021/07/12 06:38:27 mcalabre Exp mcalabre $
+@
+
+
+7.6
+log
+@WCSLIB 7.6
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.6 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.5.1.1 2021/03/20 05:56:42 mcalabre Exp mcalabre $
+@
+
+
+7.6.1.1
+log
+@WCSLIB 7.6 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.6 2021/04/13 12:57:01 mcalabre Exp $
+@
+
+
+7.5
+log
+@WCSLIB 7.5
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.5 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.4.1.1 2021/01/31 02:26:24 mcalabre Exp mcalabre $
+@
+
+
+7.5.1.1
+log
+@WCSLIB 7.5 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.5 2021/03/20 05:54:58 mcalabre Exp $
+@
+
+
+7.4
+log
+@WCSLIB 7.4
+@
+text
+@d2 1
+a2 1
+  WCSLIB 7.4 - an implementation of the FITS WCS standard.
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.3.1.4 2021/01/28 12:31:20 mcalabre Exp mcalabre $
+@
+
+
+7.4.1.1
+log
+@WCSLIB 7.4 development branch.
+@
+text
+@d22 1
+a22 1
+  $Id: tdis1.c,v 7.4 2021/01/31 02:24:52 mcalabre Exp $
+@
+
+
+7.3
+log
+@WCSLIB 7.3
+@
+text
+@d2 2
+a3 3
+
+  WCSLIB 7.3 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2020, Mark Calabretta
+a19 2
+  Direct correspondence concerning WCSLIB to mark@@calabretta.id.au
+
+d22 1
+a22 1
+  $Id: tdis1.c,v 7.2.1.1 2020/03/09 07:34:50 mcalabre Exp mcalabre $
+d47 3
+a49 3
+/* Absolute and fractional tolerance.  Distortions are typically used on  */
+/* large images, so the absolute tolerance in the corners may not be very */
+/* high, simply due to floating point precision.                          */
+d75 2
+a76 2
+  /* Set line buffering in case stdout is redirected to a file, otherwise
+   * stdout and stderr messages will be jumbled (stderr is unbuffered). */
+d82 1
+a82 1
+  /* List status return messages. */
+d89 1
+a89 1
+  /* Optional file name specified? */
+d95 1
+a95 1
+  /* Read in the FITS header, excluding COMMENT and HISTORY keyrecords. */
+d136 1
+a136 1
+        /* An END keyrecord was read, but read the rest of the block. */
+d146 1
+a146 1
+  /* Parse the header. */
+d152 1
+a152 1
+  /* Is it TPV? */
+d155 1
+a155 1
+    /* Copy it and translate to Polynomial for later use. */
+d162 1
+a162 1
+    /* Translate TPV to Polynomial. */
+d175 1
+a175 1
+  /* wcsset() translates the TPV "projection" into a sequent distortion. */
+d181 1
+a181 1
+  /* Henceforth, we will work with linprm. */
+d184 1
+a184 1
+  /* Get statistics on the distortion in the inner quarter of the image. */
+d226 1
+a226 1
+    /* Exercise diswarp() as well. */
+d229 3
+a231 3
+    /* Define a rectangle in intermediate pixel coordinates that just */
+    /* encompasses the inner quarter of the image.  For this we need  */
+    /* to switch off CDELTia scaling and all distortions.             */
+d305 1
+a305 1
+  /* The image size determines the test domain. */
+d313 1
+a313 1
+  /* Limit the number of tests. */
+d343 1
+a343 1
+    /* Now the closure test. */
+d374 1
+a374 1
+      /* Check closure. */
+d440 1
+a440 1
+  /* Compare TPV with Polynomial over the test domain. */
+d466 1
+a466 1
+      /* Check agreement. */
+d521 8
+a528 8
+    {0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {2, 0, 0},	/*  0 -  4 */
+    {1, 1, 0}, {0, 2, 0}, {3, 0, 0}, {2, 1, 0}, {1, 2, 0},	/*  5 -  9 */
+    {0, 3, 0}, {0, 0, 3}, {4, 0, 0}, {3, 1, 0}, {2, 2, 0},	/* 10 - 14 */
+    {1, 3, 0}, {0, 4, 0}, {5, 0, 0}, {4, 1, 0}, {3, 2, 0},	/* 15 - 19 */
+    {2, 3, 0}, {1, 4, 0}, {0, 5, 0}, {0, 0, 5}, {6, 0, 0},	/* 20 - 24 */
+    {5, 1, 0}, {4, 2, 0}, {3, 3, 0}, {2, 4, 0}, {1, 5, 0},	/* 25 - 29 */
+    {0, 6, 0}, {7, 0, 0}, {6, 1, 0}, {5, 2, 0}, {4, 3, 0},	/* 30 - 34 */
+    {3, 4, 0}, {2, 5, 0}, {1, 6, 0}, {0, 7, 0}, {0, 0, 7}};	/* 35 - 39 */
+d535 1
+a535 1
+  /* Attach a disprm struct to linprm.  Also inits it. */
+d540 1
+a540 1
+  /* Set values in the disprm struct. */
+d546 1
+a546 1
+  /* The asterisk after the name prevents translation to TPD. */
+d552 1
+a552 1
+    /* Glean essential information from the PVi_ma. */
+d563 1
+a563 1
+    /* Distortion parameters for axis i. */
+d606 1
+a606 1
+  /* TPV now becomes TAN. */
+@
+
+
+7.3.1.1
+log
+@WCSLIB 7.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 7.3 2020/06/03 03:37:03 mcalabre Exp $
+@
+
+
+7.3.1.2
+log
+@Switched to C99 style commenting (i.e. using //) within the code.
+@
+text
+@d2 1
+d25 1
+a25 1
+  $Id: tdis1.c,v 7.3.1.1 2020/06/03 03:38:11 mcalabre Exp mcalabre $
+d50 3
+a52 3
+// Absolute and fractional tolerance.  Distortions are typically used on
+// large images, so the absolute tolerance in the corners may not be very
+// high, simply due to floating point precision.
+d78 2
+a79 2
+  // Set line buffering in case stdout is redirected to a file, otherwise
+  // stdout and stderr messages will be jumbled (stderr is unbuffered).
+d85 1
+a85 1
+  // List status return messages.
+d92 1
+a92 1
+  // Optional file name specified?
+d98 1
+a98 1
+  // Read in the FITS header, excluding COMMENT and HISTORY keyrecords.
+d139 1
+a139 1
+        // An END keyrecord was read, but read the rest of the block.
+d149 1
+a149 1
+  // Parse the header.
+d155 1
+a155 1
+  // Is it TPV?
+d158 1
+a158 1
+    // Copy it and translate to Polynomial for later use.
+d165 1
+a165 1
+    // Translate TPV to Polynomial.
+d178 1
+a178 1
+  // wcsset() translates the TPV "projection" into a sequent distortion.
+d184 1
+a184 1
+  // Henceforth, we will work with linprm.
+d187 1
+a187 1
+  // Get statistics on the distortion in the inner quarter of the image.
+d229 1
+a229 1
+    // Exercise diswarp() as well.
+d232 3
+a234 3
+    // Define a rectangle in intermediate pixel coordinates that just
+    // encompasses the inner quarter of the image.  For this we need
+    // to switch off CDELTia scaling and all distortions.
+d308 1
+a308 1
+  // The image size determines the test domain.
+d316 1
+a316 1
+  // Limit the number of tests.
+d346 1
+a346 1
+    // Now the closure test.
+d377 1
+a377 1
+      // Check closure.
+d443 1
+a443 1
+  // Compare TPV with Polynomial over the test domain.
+d469 1
+a469 1
+      // Check agreement.
+d524 8
+a531 8
+    {0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {2, 0, 0},	//  0 -  4
+    {1, 1, 0}, {0, 2, 0}, {3, 0, 0}, {2, 1, 0}, {1, 2, 0},	//  5 -  9
+    {0, 3, 0}, {0, 0, 3}, {4, 0, 0}, {3, 1, 0}, {2, 2, 0},	// 10 - 14
+    {1, 3, 0}, {0, 4, 0}, {5, 0, 0}, {4, 1, 0}, {3, 2, 0},	// 15 - 19
+    {2, 3, 0}, {1, 4, 0}, {0, 5, 0}, {0, 0, 5}, {6, 0, 0},	// 20 - 24
+    {5, 1, 0}, {4, 2, 0}, {3, 3, 0}, {2, 4, 0}, {1, 5, 0},	// 25 - 29
+    {0, 6, 0}, {7, 0, 0}, {6, 1, 0}, {5, 2, 0}, {4, 3, 0},	// 30 - 34
+    {3, 4, 0}, {2, 5, 0}, {1, 6, 0}, {0, 7, 0}, {0, 0, 7}};	// 35 - 39
+d538 1
+a538 1
+  // Attach a disprm struct to linprm.  Also inits it.
+d543 1
+a543 1
+  // Set values in the disprm struct.
+d549 1
+a549 1
+  // The asterisk after the name prevents translation to TPD.
+d555 1
+a555 1
+    // Glean essential information from the PVi_ma.
+d566 1
+a566 1
+    // Distortion parameters for axis i.
+d609 1
+a609 1
+  // TPV now becomes TAN.
+@
+
+
+7.3.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d3 1
+a3 1
+  Copyright (C) 1995-2021, Mark Calabretta
+d24 1
+a24 1
+  $Id: tdis1.c,v 7.3.1.2 2020/08/17 11:20:48 mcalabre Exp mcalabre $
+@
+
+
+7.3.1.4
+log
+@Removed my email address from the copyright notice.
+@
+text
+@d20 2
+d24 1
+a24 1
+  $Id: tdis1.c,v 7.3.1.3 2021/01/19 14:10:01 mcalabre Exp mcalabre $
+@
+
+
+7.2
+log
+@WCSLIB 7.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 7.1.1.1 2019/12/31 13:28:19 mcalabre Exp mcalabre $
+@
+
+
+7.2.1.1
+log
+@WCSLIB 7.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 7.2 2020/03/09 07:31:23 mcalabre Exp $
+@
+
+
+7.1
+log
+@WCSLIB 7.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 7.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.4.1.3 2019/12/31 03:28:29 mcalabre Exp mcalabre $
+@
+
+
+7.1.1.1
+log
+@WCSLIB 7.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 7.1 2019/12/31 13:25:19 mcalabre Exp $
+@
+
+
+6.4
+log
+@WCSLIB 6.4
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.4 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.3.1.1 2019/07/12 07:34:37 mcalabre Exp mcalabre $
+d134 1
+a134 1
+      strncpy(header+k, keyrec, 80);
+@
+
+
+6.4.1.1
+log
+@WCSLIB 6.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.4 2019/08/15 09:30:18 mcalabre Exp $
+@
+
+
+6.4.1.2
+log
+@Consequent on warnings from gcc 9.2.0 with -Wstringop-truncation (via -Wall),
+replaced use of strncpy() with memcpy().
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.4.1.1 2019/08/15 09:31:29 mcalabre Exp mcalabre $
+d134 1
+a134 1
+      memcpy(header+k, keyrec, 80);
+@
+
+
+6.4.1.3
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2020, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.4.1.2 2019/12/03 06:14:52 mcalabre Exp mcalabre $
+@
+
+
+6.3
+log
+@WCSLIB 6.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.2.1.4 2019/07/08 10:43:43 mcalabre Exp mcalabre $
+@
+
+
+6.3.1.1
+log
+@WCSLIB 6.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.3 2019/07/12 07:33:39 mcalabre Exp $
+@
+
+
+6.2
+log
+@WCSLIB 6.2
+@
+text
+@d3 2
+a4 2
+  WCSLIB 6.2 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.1.1.1 2018/10/19 08:36:15 mcalabre Exp mcalabre $
+d533 1
+a533 1
+  char dqi[8], dqifield[32];
+d545 1
+a545 1
+  disndp(22 + 3*wcs->npv);
+d571 1
+@
+
+
+6.2.1.1
+log
+@WCSLIB 6.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.2 2018/10/20 10:03:14 mcalabre Exp $
+@
+
+
+6.2.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2019, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 6.2.1.1 2018/10/20 10:04:15 mcalabre Exp mcalabre $
+@
+
+
+6.2.1.3
+log
+@In tpv2poly(), set DQia.DOCORR = 0 as the TPV polynomial produces corrected
+coordinates directly.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.2.1.2 2019/05/10 02:01:28 mcalabre Exp mcalabre $
+d545 1
+a545 1
+  disndp(24 + 3*wcs->npv);
+a570 1
+    dpfill(keyp++, dqi, "DOCORR", i, 0, 0, 0.0);
+@
+
+
+6.2.1.4
+log
+@In tpv2poly(), increased the size of the sprintf() output buffer, dqi, to
+avert -Wformat-overflow warnings from gcc 8.3.0 (with -DFORTIFY_SOURCE=2).
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.2.1.3 2019/07/07 11:33:32 mcalabre Exp mcalabre $
+d533 1
+a533 1
+  char dqi[16], dqifield[32];
+@
+
+
+6.1
+log
+@WCSLIB 6.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 6.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.20.1.1 2018/10/05 05:33:33 mcalabre Exp mcalabre $
+@
+
+
+6.1.1.1
+log
+@WCSLIB 6.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 6.1 2018/10/19 08:35:17 mcalabre Exp $
+@
+
+
+5.20
+log
+@WCSLIB 5.20
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.20 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.19.1.1 2018/07/26 15:41:41 mcalabre Exp mcalabre $
+@
+
+
+5.20.1.1
+log
+@WCSLIB 5.20 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.20 2018/10/05 05:32:41 mcalabre Exp $
+@
+
+
+5.19
+log
+@WCSLIB 5.19
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.19 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.18.1.2 2018/07/25 10:23:38 mcalabre Exp mcalabre $
+@
+
+
+5.19.1.1
+log
+@WCSLIB 5.19 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.19 2018/07/26 15:37:05 mcalabre Exp $
+@
+
+
+5.18
+log
+@WCSLIB 5.18
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.18 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.17.1.2 2018/01/10 08:26:04 mcalabre Exp mcalabre $
+d340 2
+@
+
+
+5.18.1.1
+log
+@WCSLIB 5.18 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.18 2018/01/10 08:32:14 mcalabre Exp $
+@
+
+
+5.18.1.2
+log
+@Avert a nuisance compiler warning about possible use of an uninitialized
+variable (gcc -Wmaybe-uninitialized).
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.18.1.1 2018/01/10 08:33:04 mcalabre Exp mcalabre $
+a339 2
+    } else {
+      disfn = 0x0;
+@
+
+
+5.17
+log
+@WCSLIB 5.17
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.17 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.16.1.1 2017/01/15 04:29:01 mcalabre Exp mcalabre $
+@
+
+
+5.17.1.1
+log
+@WCSLIB 5.17 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.17 2017/09/18 08:44:24 mcalabre Exp $
+@
+
+
+5.17.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2018, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.17.1.1 2017/09/18 08:46:00 mcalabre Exp mcalabre $
+@
+
+
+5.16
+log
+@WCSLIB 5.16
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.16 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.15.1.2 2017/01/15 04:14:22 mcalabre Exp mcalabre $
+@
+
+
+5.16.1.1
+log
+@WCSLIB 5.16 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.16 2017/01/15 04:25:02 mcalabre Exp $
+@
+
+
+5.15
+log
+@WCSLIB 5.15
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.15 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.14.1.1 2016/02/07 10:52:46 mcalabre Exp mcalabre $
+@
+
+
+5.15.1.1
+log
+@WCSLIB 5.15 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.15 2016/04/05 12:55:11 mcalabre Exp $
+@
+
+
+5.15.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2017, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.15.1.1 2016/04/05 12:58:37 mcalabre Exp mcalabre $
+@
+
+
+5.14
+log
+@WCSLIB 5.14
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.14 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.13.1.1 2016/01/26 08:54:34 mcalabre Exp mcalabre $
+@
+
+
+5.14.1.1
+log
+@WCSLIB 5.14 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.14 2016/02/07 10:49:32 mcalabre Exp $
+@
+
+
+5.13
+log
+@WCSLIB 5.13
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.13 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.12.1.2 2016/01/25 05:17:40 mcalabre Exp mcalabre $
+@
+
+
+5.13.1.1
+log
+@WCSLIB 5.13 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.13 2016/01/26 08:51:15 mcalabre Exp $
+@
+
+
+5.12
+log
+@WCSLIB 5.12
+@
+text
+@d3 2
+a4 2
+  WCSLIB 5.12 - an implementation of the FITS WCS standard.
+  Copyright (C) 1995-2015, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.11.1.1 2015/10/18 09:16:29 mcalabre Exp mcalabre $
+@
+
+
+5.12.1.1
+log
+@WCSLIB 5.12 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.12 2015/11/15 02:13:01 mcalabre Exp $
+@
+
+
+5.12.1.2
+log
+@Updated date in copyright notice.
+@
+text
+@d4 1
+a4 1
+  Copyright (C) 1995-2016, Mark Calabretta
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.12.1.1 2015/11/15 02:16:16 mcalabre Exp mcalabre $
+@
+
+
+5.11
+log
+@WCSLIB 5.11
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.11 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.10.1.1 2015/10/09 08:22:37 mcalabre Exp mcalabre $
+@
+
+
+5.11.1.1
+log
+@WCSLIB 5.11 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.11 2015/10/18 09:13:06 mcalabre Exp $
+@
+
+
+5.10
+log
+@WCSLIB 5.10
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.10 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.9.1.1 2015/07/21 09:28:10 mcalabre Exp mcalabre $
+@
+
+
+5.10.1.1
+log
+@WCSLIB 5.10 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.10 2015/10/09 08:19:16 mcalabre Exp $
+@
+
+
+5.9
+log
+@WCSLIB 5.9
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.9 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.8.1.1 2015/07/08 11:07:20 mcalabre Exp mcalabre $
+@
+
+
+5.9.1.1
+log
+@WCSLIB 5.9 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.9 2015/07/21 09:20:03 mcalabre Exp $
+@
+
+
+5.8
+log
+@WCSLIB 5.8
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.8 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.7.1.1 2015/06/29 02:47:25 mcalabre Exp mcalabre $
+@
+
+
+5.8.1.1
+log
+@WCSLIB 5.8 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.8 2015/07/08 11:04:01 mcalabre Exp $
+@
+
+
+5.7
+log
+@WCSLIB 5.7
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.7 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.6.1.2 2015/06/16 07:34:47 mcalabre Exp mcalabre $
+@
+
+
+5.7.1.1
+log
+@WCSLIB 5.7 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.7 2015/06/29 02:44:17 mcalabre Exp $
+@
+
+
+5.6
+log
+@WCSLIB 5.6
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.6 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.5.1.1 2015/05/05 13:21:02 mcalabre Exp mcalabre $
+d130 1
+a130 1
+        if (j <= 4) naxis[j-1] = n;
+d195 4
+a198 4
+  pixblc[0]  =  0.25 * naxis[0];
+  pixblc[1]  =  0.25 * naxis[1];
+  pixtrc[0]  =  0.75 * naxis[0];
+  pixtrc[1]  =  0.75 * naxis[1];
+@
+
+
+5.6.1.1
+log
+@WCSLIB 5.6 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.6 2015/06/14 07:11:25 mcalabre Exp $
+@
+
+
+5.6.1.2
+log
+@Spit and polish.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.6.1.1 2015/06/14 07:14:46 mcalabre Exp mcalabre $
+d130 1
+a130 1
+        naxis[j-1] = n;
+d195 4
+a198 4
+  pixblc[0]  = 0.25 * naxis[0];
+  pixblc[1]  = 0.25 * naxis[1];
+  pixtrc[0]  = 0.75 * naxis[0];
+  pixtrc[1]  = 0.75 * naxis[1];
+@
+
+
+5.5
+log
+@WCSLIB 5.5
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.5 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.4.1.1 2015/04/21 14:44:29 mcalabre Exp mcalabre $
+@
+
+
+5.5.1.1
+log
+@WCSLIB 5.5 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.5 2015/05/05 13:16:32 mcalabre Exp $
+@
+
+
+5.4
+log
+@WCSLIB 5.4
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.4 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.3.1.3 2015/04/21 14:03:00 mcalabre Exp mcalabre $
+@
+
+
+5.4.1.1
+log
+@WCSLIB 5.4 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.4 2015/04/21 14:41:06 mcalabre Exp $
+@
+
+
+5.3
+log
+@WCSLIB 5.3
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.3 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.2.1.1 2015/04/15 12:39:16 mcalabre Exp mcalabre $
+d63 3
+a65 2
+  int  gotend, iblock, ikeyrec, inc, itest, j, k, n, naxis[2], naxis1, naxis2,
+       nClosure, nFail, nkeyrec, nsamp, nreject, nTest, nwcs, p1, p2, status;
+d155 9
+a163 5
+  /* Copy it and translate to Polynomial for later use. */
+  if (wcscopy(1, wcs, &wcspol)) {
+    wcsperr(wcs, 0x0);
+    return 1;
+  }
+d165 2
+a166 2
+  /* Translate TPV to Polynomial. */
+  tpv2poly(&wcspol);
+d168 7
+a174 3
+  if (wcsset(&wcspol)) {
+    wcsperr(&wcspol, 0x0);
+    return 1;
+d178 1
+a178 1
+  /* Translate the TPV "projection" into a sequent distortion. */
+d201 2
+a227 1
+  /* Exercise diswarp() as well. */
+d229 1
+a328 1
+  disfn = "TPV";
+d331 2
+a332 1
+      disfn = "Polynomial";
+d336 6
+a439 1
+  wcsprintf("\n");
+d441 31
+d473 12
+a484 40
+  /* Compare TPV with Polynomial over the test domain. */
+  nTest  = 0;
+  nFail  = 0;
+  absmax = 0.0;
+  lintpv = &(wcs->lin);
+  linpol = &(wcspol.lin);
+  for (p2 = 1; p2 <= naxis2; p2 += inc) {
+    k = 0;
+    for (p1 = 1; p1 <= naxis1; p1 += inc) {
+      px0[k++] = (double)p1;
+      px0[k++] = (double)p2;
+    }
+
+    if (linp2x(lintpv, n, 2, px0, img1)) {
+      linperr(lintpv, 0x0);
+      break;
+    }
+
+    if (linp2x(linpol, n, 2, px0, img2)) {
+      linperr(linpol, 0x0);
+      break;
+    }
+
+    /* Check agreement. */
+    k = 0;
+    for (k = 0; k < 2*n ; k += 2) {
+      dp1 = fabs(img2[k]   - img1[k]);
+      dp2 = fabs(img2[k+1] - img1[k+1]);
+
+      resid = (dp1 > dp2) ? dp1 : dp2;
+      if (resid > absmax) absmax = resid;
+
+      if (resid > ATOL) {
+        nFail++;
+        wcsprintf("TPV - Polynomial disagreement:\n");
+        wcsprintf("    pix: %18.12f %18.12f\n", px0[k],  px0[k+1]);
+        wcsprintf(" -> TPV: %18.12f %18.12f\n", img1[k], img1[k+1]);
+        wcsprintf(" -> Pol: %18.12f %18.12f\n", img2[k], img2[k+1]);
+        wcsprintf("\n");
+        continue;
+d486 2
+d490 4
+a493 2
+    nTest += n;
+  }
+d495 2
+a496 4
+  wcsprintf("linp2x, TPV vs Polynomial distortions:\n"
+    "  Completed %d comparisons.\n"
+    "  Maximum absolute disagreement = %.2e units.\n", nTest, absmax);
+  wcsprintf("\n");
+d498 4
+a501 6
+  if (nFail) {
+    wcsprintf("FAIL: %d comparisons exceed reporting tolerance.\n", nFail);
+
+  } else {
+    wcsprintf("PASS: All TPV vs Polynomial comparisons are within reporting "
+              "tolerance.\n");
+d541 1
+d547 3
+a549 3
+  /* Set values in the disprm struct. */
+  sprintf(dis->dtype[0], "Polynomial");
+  sprintf(dis->dtype[1], "Polynomial");
+@
+
+
+5.3.1.1
+log
+@WCSLIB 5.3 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.3 2015/04/21 02:50:52 mcalabre Exp $
+@
+
+
+5.3.1.2
+log
+@Set wcspol.flag to -1 before wcscopy().
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.3.1.1 2015/04/21 02:54:03 mcalabre Exp mcalabre $
+a154 1
+  wcspol.flag = -1;
+@
+
+
+5.3.1.3
+log
+@Generalised it so that it can be fed other types of distortions, such as SIP.
+@
+text
+@d63 2
+a64 3
+  int  dopoly, gotend, iblock, ikeyrec, inc, itest, j, k, n, naxis[2], naxis1,
+       naxis2, nClosure, nFail, nkeyrec, nsamp, nreject, nTest, nwcs, p1, p2,
+       status;
+d154 6
+a159 9
+  /* Is it TPV? */
+  dopoly = 0;
+  if (strcmp(wcs->ctype[0], "RA---TPV") == 0) {
+    /* Copy it and translate to Polynomial for later use. */
+    wcspol.flag = -1;
+    if (wcscopy(1, wcs, &wcspol)) {
+      wcsperr(wcs, 0x0);
+      return 1;
+    }
+d161 2
+a162 2
+    /* Translate TPV to Polynomial. */
+    tpv2poly(&wcspol);
+d164 3
+a166 7
+    wcspol.flag = -1;
+    if (wcsset(&wcspol)) {
+      wcsperr(&wcspol, 0x0);
+      return 1;
+    }
+
+    dopoly = 1;
+d170 1
+a170 1
+  /* wcsset() translates the TPV "projection" into a sequent distortion. */
+a192 2
+  if (pixsamp[0] < 1.0) pixsamp[0] = 1.0;
+  if (pixsamp[1] < 1.0) pixsamp[1] = 1.0;
+d218 1
+a219 1
+    /* Exercise diswarp() as well. */
+d319 1
+d322 1
+a322 2
+      if (!dopoly) break;
+
+a325 6
+    if (lin->dispre) {
+      disfn = lin->dispre->dtype[0];
+    } else if (lin->disseq) {
+      disfn = lin->disseq->dtype[0];
+    }
+
+d424 2
+d428 39
+a466 13
+  if (dopoly) {
+    wcsprintf("\n");
+
+    nTest  = 0;
+    nFail  = 0;
+    absmax = 0.0;
+    lintpv = &(wcs->lin);
+    linpol = &(wcspol.lin);
+    for (p2 = 1; p2 <= naxis2; p2 += inc) {
+      k = 0;
+      for (p1 = 1; p1 <= naxis1; p1 += inc) {
+        px0[k++] = (double)p1;
+        px0[k++] = (double)p2;
+d468 1
+d470 2
+a471 4
+      if (linp2x(lintpv, n, 2, px0, img1)) {
+        linperr(lintpv, 0x0);
+        break;
+      }
+d473 4
+a476 24
+      if (linp2x(linpol, n, 2, px0, img2)) {
+        linperr(linpol, 0x0);
+        break;
+      }
+
+      /* Check agreement. */
+      k = 0;
+      for (k = 0; k < 2*n ; k += 2) {
+        dp1 = fabs(img2[k]   - img1[k]);
+        dp2 = fabs(img2[k+1] - img1[k+1]);
+
+        resid = (dp1 > dp2) ? dp1 : dp2;
+        if (resid > absmax) absmax = resid;
+
+        if (resid > ATOL) {
+          nFail++;
+          wcsprintf("TPV - Polynomial disagreement:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k],  px0[k+1]);
+          wcsprintf(" -> TPV: %18.12f %18.12f\n", img1[k], img1[k+1]);
+          wcsprintf(" -> Pol: %18.12f %18.12f\n", img2[k], img2[k+1]);
+          wcsprintf("\n");
+          continue;
+        }
+      }
+d478 2
+a479 7
+      nTest += n;
+    }
+
+    wcsprintf("linp2x, TPV vs Polynomial distortions:\n"
+      "  Completed %d comparisons.\n"
+      "  Maximum absolute disagreement = %.2e units.\n", nTest, absmax);
+    wcsprintf("\n");
+d481 3
+a483 7
+    if (nFail) {
+      wcsprintf("FAIL: %d comparisons exceed reporting tolerance.\n", nFail);
+
+    } else {
+      wcsprintf("PASS: All TPV vs Polynomial comparisons are within "
+                "reporting tolerance.\n");
+    }
+a522 1
+  /* Set values in the disprm struct. */
+d528 3
+a530 3
+  /* The asterisk after the name prevents translation to TPD. */
+  sprintf(dis->dtype[0], "Polynomial*");
+  sprintf(dis->dtype[1], "Polynomial*");
+@
+
+
+5.2
+log
+@WCSLIB 5.2
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.2 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.1.1.4 2015/04/15 09:24:23 mcalabre Exp mcalabre $
+@
+
+
+5.2.1.1
+log
+@WCSLIB 5.2 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.2 2015/04/15 12:35:08 mcalabre Exp $
+@
+
+
+5.1
+log
+@WCSLIB 5.1
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.1 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id: tdis1.c,v 5.0.1.2 2015/04/07 08:54:17 mcalabre Exp mcalabre $
+d38 1
+d48 2
+d62 2
+a63 2
+  char keyrec[81], header[288001];
+  int  gotend, iblock, ikeyrec, inc, j, k, n, naxis[2], naxis1, naxis2,
+d65 3
+a67 2
+  double absmax, dp1, dp2, *img, pix[8], pixblc[2], pixsamp[2], pixtrc[2], px,
+         *px0, *px1, pxi[8], rel, resid, relmax;
+d70 2
+a71 2
+  struct linprm *lin, affine;
+  struct wcsprm *wcs;
+d103 1
+a103 1
+  memset(naxis, 0, 4*sizeof(int));
+d154 14
+a177 9
+
+  /* The image size determines the test domain. */
+  if ((naxis1 = naxis[0]) == 0) {
+    naxis1 = 2*wcs->crpix[0] + 1;
+  }
+  if ((naxis2 = naxis[1]) == 0) {
+    naxis2 = 2*wcs->crpix[1] + 1;
+  }
+
+d192 3
+a194 2
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp, maxdis, maxtot, avgdis,
+              avgtot, rmsdis, rmstot)) {
+d212 1
+a212 1
+            "                   total: %8.3f pixels\n\n",
+d217 1
+a217 1
+  /* Exercise diswarp() as well. */ 
+d219 2
+d271 2
+a272 2
+    if (diswarp(lin->disseq, pixblc, pixtrc, pixsamp, &nsamp, maxdis, maxtot,
+                avgdis, avgtot, rmsdis, rmstot)) {
+d290 1
+a290 1
+              "                   total: %8.3f units\n\n",
+d297 8
+d312 1
+a312 1
+  px0 = calloc(3*(2*n), sizeof(double));
+d315 68
+d384 45
+a428 3
+  nTest = 0;
+  nFail = 0;
+  nClosure = 0;
+d430 2
+a431 1
+  relmax = 0.0;
+d439 2
+a440 3
+    if (linp2x(lin, n, 2, px0, img)) {
+      linperr(lin, 0x0);
+      nFail = 1;
+d444 2
+a445 3
+    if (linx2p(lin, n, 2, img, px1)) {
+      linperr(lin, 0x0);
+      nFail = 1;
+d449 1
+a449 1
+    /* Check closure. */
+d452 2
+a453 2
+      dp1 = fabs(px1[k]   - px0[k]);
+      dp2 = fabs(px1[k+1] - px0[k+1]);
+d459 5
+a463 5
+        nClosure++;
+        wcsprintf("   Absolute closure error:\n");
+        wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+        wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+        wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+a466 16
+
+      resid = 0.0;
+      if ((px = fabs(px0[k]))   > 1.0) resid = dp1/px;
+      if ((px = fabs(px0[k+1])) > 1.0) {
+        if ((rel = dp2/px) > resid) resid = rel;
+      }
+      if (resid > relmax) relmax = resid;
+
+      if (resid > FTOL) {
+        nClosure++;
+        wcsprintf("   Relative closure error:\n");
+        wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+        wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+        wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+        wcsprintf("\n");
+      }
+d472 5
+d478 1
+a478 1
+    wcsprintf("\nFAIL: The test failed to complete.\n");
+d481 91
+a571 5
+    wcsprintf("linp2x/linx2p with distortions:\n"
+      "  Completed %d closure tests.\n"
+      "  Maximum absolute closure residual = %.1e pixel.\n"
+      "  Maximum relative closure residual = %.1e.\n", nTest, absmax, relmax);
+    wcsprintf("\n");
+d573 3
+a575 3
+    if (nClosure) {
+      wcsprintf("FAIL: %d closure residuals exceed reporting tolerance.\n",
+        nClosure);
+d577 3
+a579 3
+    } else {
+      wcsprintf("PASS: All closure residuals are within reporting "
+        "tolerance.\n");
+d583 2
+d586 4
+a589 2
+  free(px0);
+  wcsvfree(&nwcs, &wcs);
+d591 1
+a591 1
+  return nFail || nClosure;
+@
+
+
+5.1.1.1
+log
+@WCSLIB 5.1 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.1 2015/04/07 10:56:38 mcalabre Exp $
+@
+
+
+5.1.1.2
+log
+@Bug fix, patch provided by Ole Streicher.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.1.1.1 2015/04/07 11:01:11 mcalabre Exp mcalabre $
+d99 1
+a99 1
+  memset(naxis, 0, 2*sizeof(int));
+@
+
+
+5.1.1.3
+log
+@Do the closure test twice, firstly using a TPV distortion, and then with it
+translated to a Polynomial distortion using function tpv2poly().  Added
+code to time the closure tests each way for comparison.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.1.1.2 2015/04/08 08:17:47 mcalabre Exp mcalabre $
+a37 1
+#include <time.h>
+a46 2
+int tpv2poly(struct wcsprm *wcs);
+
+d59 2
+a60 2
+  char keyrec[81], header[288001], *disfn;
+  int  gotend, iblock, ikeyrec, inc, itest, j, k, n, naxis[2], naxis1, naxis2,
+a61 1
+  clock_t t0, tp2x, tx2p;
+d150 1
+d160 9
+d183 2
+a184 3
+
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp,
+              maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+d207 1
+a207 1
+  /* Exercise diswarp() as well. */
+d259 2
+a260 2
+    if (diswarp(lin->disseq, pixblc, pixtrc, pixsamp, &nsamp,
+                maxdis, maxtot, avgdis, avgtot, rmsdis, rmstot)) {
+a284 8
+  /* The image size determines the test domain. */
+  if ((naxis1 = naxis[0]) == 0) {
+    naxis1 = 2*wcs->crpix[0] + 1;
+  }
+  if ((naxis2 = naxis[1]) == 0) {
+    naxis2 = 2*wcs->crpix[1] + 1;
+  }
+
+d296 11
+a306 13
+  disfn = "TPV";
+  for (itest = 0; itest < 2; itest++) {
+    if (itest) {
+      disfn = "Polynomial";
+      wcsprintf("\n");
+
+      wcsvfree(&nwcs, &wcs);
+
+      /* Parse the header. */
+      if ((wcspih(header, nkeyrec, WCSHDR_none, 2, &nreject, &nwcs, &wcs))) {
+        wcsperr(wcs, 0x0);
+        return 1;
+      }
+d308 5
+a312 2
+      /* Translate TPV to Polynomial. */
+      tpv2poly(wcs);
+d314 4
+a317 6
+      if (wcsset(wcs)) {
+        wcsperr(wcs, 0x0);
+        return 1;
+      }
+
+      lin = &(wcs->lin);
+d320 17
+a336 13
+    /* Now the closure test. */
+    tp2x  = 0;
+    tx2p  = 0;
+    nTest = 0;
+    nFail = 0;
+    nClosure = 0;
+    absmax = 0.0;
+    relmax = 0.0;
+    for (p2 = 1; p2 <= naxis2; p2 += inc) {
+      k = 0;
+      for (p1 = 1; p1 <= naxis1; p1 += inc) {
+        px0[k++] = (double)p1;
+        px0[k++] = (double)p2;
+d339 4
+a342 5
+      t0 = clock();
+      if (linp2x(lin, n, 2, px0, img)) {
+        linperr(lin, 0x0);
+        nFail = 1;
+        break;
+d344 1
+a344 1
+      tp2x += clock() - t0;
+d346 7
+a352 5
+      t0 = clock();
+      if (linx2p(lin, n, 2, img, px1)) {
+        linperr(lin, 0x0);
+        nFail = 1;
+        break;
+d354 1
+a354 1
+      tx2p += clock() - t0;
+d356 2
+a357 18
+      /* Check closure. */
+      k = 0;
+      for (k = 0; k < 2*n ; k += 2) {
+        dp1 = fabs(px1[k]   - px0[k]);
+        dp2 = fabs(px1[k+1] - px0[k+1]);
+
+        resid = (dp1 > dp2) ? dp1 : dp2;
+        if (resid > absmax) absmax = resid;
+
+        if (resid > ATOL) {
+          nClosure++;
+          wcsprintf("   Absolute closure error:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+          wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+          wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+          wcsprintf("\n");
+          continue;
+        }
+d359 2
+a360 6
+        resid = 0.0;
+        if ((px = fabs(px0[k]))   > 1.0) resid = dp1/px;
+        if ((px = fabs(px0[k+1])) > 1.0) {
+          if ((rel = dp2/px) > resid) resid = rel;
+        }
+        if (resid > relmax) relmax = resid;
+d362 6
+a367 9
+        if (resid > FTOL) {
+          nClosure++;
+          wcsprintf("   Relative closure error:\n");
+          wcsprintf("    pix: %18.12f %18.12f\n", px0[k], px0[k+1]);
+          wcsprintf(" -> img: %18.12f %18.12f\n", img[k], img[k+1]);
+          wcsprintf(" -> pix: %18.12f %18.12f\n", px1[k], px1[k+1]);
+          wcsprintf("\n");
+        }
+      }
+d369 3
+a371 5
+      nTest += n;
+    }
+
+    if (nFail) {
+      wcsprintf("\nFAIL: The %s test failed to complete.\n", disfn);
+d374 2
+a375 19
+      wcsprintf("linp2x/linx2p with %s distortions:\n"
+        "  Completed %d closure tests.\n"
+        "  Maximum absolute closure residual = %.1e pixel.\n"
+        "  Maximum relative closure residual = %.1e.\n", disfn,
+        nTest, absmax, relmax);
+      wcsprintf("\n");
+
+      wcsprintf("  linp2x time (ns): %5.0f\n  linx2p time (ns): %5.0f\n\n",
+        1.0e9*((double)tp2x/CLOCKS_PER_SEC)/nTest,
+        1.0e9*((double)tx2p/CLOCKS_PER_SEC)/nTest);
+
+      if (nClosure) {
+        wcsprintf("FAIL: %d closure residuals exceed reporting tolerance.\n",
+          nClosure);
+
+      } else {
+        wcsprintf("PASS: All %s closure residuals are within reporting "
+          "tolerance.\n", disfn);
+      }
+a383 101
+}
+
+/*----------------------------------------------------------------------------
+* Translate a TPV "projection" to a general Polynomial distortion.  Must be
+* done before wcsset() which automatically translates the PVi_ma keyvalues to
+* a TPV distortion and elides them.
+----------------------------------------------------------------------------*/
+
+int tpv2poly(struct wcsprm *wcs)
+
+{
+  const int tpvpow[40][3] = {
+    {0, 0, 0}, {1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {2, 0, 0},	/*  0 -  4 */
+    {1, 1, 0}, {0, 2, 0}, {3, 0, 0}, {2, 1, 0}, {1, 2, 0},	/*  5 -  9 */
+    {0, 3, 0}, {0, 0, 3}, {4, 0, 0}, {3, 1, 0}, {2, 2, 0},	/* 10 - 14 */
+    {1, 3, 0}, {0, 4, 0}, {5, 0, 0}, {4, 1, 0}, {3, 2, 0},	/* 15 - 19 */
+    {2, 3, 0}, {1, 4, 0}, {0, 5, 0}, {0, 0, 5}, {6, 0, 0},	/* 20 - 24 */
+    {5, 1, 0}, {4, 2, 0}, {3, 3, 0}, {2, 4, 0}, {1, 5, 0},	/* 25 - 29 */
+    {0, 6, 0}, {7, 0, 0}, {6, 1, 0}, {5, 2, 0}, {4, 3, 0},	/* 30 - 34 */
+    {3, 4, 0}, {2, 5, 0}, {1, 6, 0}, {0, 7, 0}, {0, 0, 7}};	/* 35 - 39 */
+
+  char dqi[8], dqifield[32];
+  int  i, k, m, naux, nterms;
+  struct disprm *dis;
+  struct dpkey  *keyp;
+
+  /* Attach a disprm struct to linprm.  Also inits it. */
+  if ((dis = calloc(1, sizeof(struct disprm))) == 0x0) {
+    return 1;
+  }
+
+  dis->flag = -1;
+  disndp(22 + 3*wcs->npv);
+  lindis(2, &(wcs->lin), dis);
+
+
+  /* Set values in the disprm struct. */
+  sprintf(dis->dtype[0], "Polynomial");
+  sprintf(dis->dtype[1], "Polynomial");
+
+  keyp = dis->dp;
+  for (i = 1; i <= 2; i++) {
+    /* Glean essential information from the PVi_ma. */
+    naux   = 0;
+    nterms = 0;
+    for (k = 0; k < wcs->npv; k++) {
+      if (wcs->pv[k].i != i) continue;
+
+      m = wcs->pv[k].m;
+      if (tpvpow[m][2]) naux = 1;
+      nterms++;
+    }
+
+    /* Distortion parameters for axis i. */
+    sprintf(dqi, "DQ%d", i);
+    dpfill(keyp++, dqi, "NAXES",  i, 0, 2, 0.0);
+    dpfill(keyp++, dqi, "AXIS.1", i, 0, (i==1)?1:2, 0.0);
+    dpfill(keyp++, dqi, "AXIS.2", i, 0, (i==1)?2:1, 0.0);
+
+    if (naux) {
+      dpfill(keyp++, dqi, "NAUX",   i, 0, 1, 0.0);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.0", i, 1, 0, 0.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.0", i, 1, 0, 0.5);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.1", i, 1, 0, 1.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.1", i, 1, 0, 2.0);
+      dpfill(keyp++, dqi, "AUX.1.COEFF.2", i, 1, 0, 1.0);
+      dpfill(keyp++, dqi, "AUX.1.POWER.2", i, 1, 0, 2.0);
+    }
+    dpfill(keyp++, dqi, "NTERMS", i, 0, nterms, 0.0);
+
+    nterms = 0;
+    for (k = 0; k < wcs->npv; k++) {
+      if (wcs->pv[k].i != i) continue;
+
+      sprintf(dqifield, "%s.TERM.%d", dqi, ++nterms);
+      dpfill(keyp++, dqifield, "COEFF", i, 1, 0, wcs->pv[k].value);
+
+      m = wcs->pv[k].m;
+      if (tpvpow[m][0]) {
+        dpfill(keyp++, dqifield, "VAR.1", i, 1, 0, (double)tpvpow[m][0]);
+      }
+
+      if (tpvpow[m][1]) {
+        dpfill(keyp++, dqifield, "VAR.2", i, 1, 0, (double)tpvpow[m][1]);
+      }
+
+      if (tpvpow[m][2]) {
+        dpfill(keyp++, dqifield, "AUX.1", i, 1, 0, (double)tpvpow[m][2]);
+      }
+    }
+  }
+
+  dis->ndp = keyp - dis->dp;
+
+
+  /* TPV now becomes TAN. */
+  strcpy(wcs->ctype[0]+5, "TAN");
+  strcpy(wcs->ctype[1]+5, "TAN");
+  wcs->npv = 0;
+
+  return 0;
+@
+
+
+5.1.1.4
+log
+@Compare TPV with Polynomial over the test domain.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.1.1.3 2015/04/13 08:39:46 mcalabre Exp mcalabre $
+d66 2
+a67 2
+  double absmax, dp1, dp2, *img, *img1, *img2, pix[8], pixblc[2], pixsamp[2],
+         pixtrc[2], px, *px0, *px1, pxi[8], rel, resid, relmax;
+d70 2
+a71 2
+  struct linprm affine, *lin, *linpol, *lintpv;
+  struct wcsprm *wcs, wcspol;
+a153 15
+  /* Copy it and translate to Polynomial for later use. */
+  if (wcscopy(1, wcs, &wcspol)) {
+    wcsperr(wcs, 0x0);
+    return 1;
+  }
+
+  /* Translate TPV to Polynomial. */
+  tpv2poly(&wcspol);
+
+  if (wcsset(&wcspol)) {
+    wcsperr(&wcspol, 0x0);
+    return 1;
+  }
+
+
+d197 1
+a197 1
+            "                   total: %8.3f pixels\n",
+a203 2
+    wcsprintf("\n");
+
+d273 1
+a273 1
+              "                   total: %8.3f units\n",
+d295 1
+a295 1
+  px0 = calloc(4*(2*n), sizeof(double));
+a297 2
+  img1 = img;
+  img2 = img + 2*n;
+d303 19
+a321 1
+      lin = &(wcspol.lin);
+a323 2
+    wcsprintf("\n");
+
+d366 1
+a366 1
+          wcsprintf("Absolute closure error:\n");
+d383 1
+a383 1
+          wcsprintf("Relative closure error:\n");
+d400 2
+a401 2
+        "  Maximum absolute closure residual = %.2e pixel.\n"
+        "  Maximum relative closure residual = %.2e.\n", disfn,
+d405 1
+a405 1
+      wcsprintf("  linp2x time (ns): %6.0f\n  linx2p time (ns): %6.0f\n\n",
+a419 62
+  wcsprintf("\n");
+
+
+  /* Compare TPV with Polynomial over the test domain. */
+  nTest  = 0;
+  nFail  = 0;
+  absmax = 0.0;
+  lintpv = &(wcs->lin);
+  linpol = &(wcspol.lin);
+  for (p2 = 1; p2 <= naxis2; p2 += inc) {
+    k = 0;
+    for (p1 = 1; p1 <= naxis1; p1 += inc) {
+      px0[k++] = (double)p1;
+      px0[k++] = (double)p2;
+    }
+
+    if (linp2x(lintpv, n, 2, px0, img1)) {
+      linperr(lintpv, 0x0);
+      break;
+    }
+
+    if (linp2x(linpol, n, 2, px0, img2)) {
+      linperr(linpol, 0x0);
+      break;
+    }
+
+    /* Check agreement. */
+    k = 0;
+    for (k = 0; k < 2*n ; k += 2) {
+      dp1 = fabs(img2[k]   - img1[k]);
+      dp2 = fabs(img2[k+1] - img1[k+1]);
+
+      resid = (dp1 > dp2) ? dp1 : dp2;
+      if (resid > absmax) absmax = resid;
+
+      if (resid > ATOL) {
+        nFail++;
+        wcsprintf("TPV - Polynomial disagreement:\n");
+        wcsprintf("    pix: %18.12f %18.12f\n", px0[k],  px0[k+1]);
+        wcsprintf(" -> TPV: %18.12f %18.12f\n", img1[k], img1[k+1]);
+        wcsprintf(" -> Pol: %18.12f %18.12f\n", img2[k], img2[k+1]);
+        wcsprintf("\n");
+        continue;
+      }
+    }
+
+    nTest += n;
+  }
+
+  wcsprintf("linp2x, TPV vs Polynomial distortions:\n"
+    "  Completed %d comparisons.\n"
+    "  Maximum absolute disagreement = %.2e units.\n", nTest, absmax);
+  wcsprintf("\n");
+
+  if (nFail) {
+    wcsprintf("FAIL: %d comparisons exceed reporting tolerance.\n", nFail);
+
+  } else {
+    wcsprintf("PASS: All TPV vs Polynomial comparisons are within reporting "
+              "tolerance.\n");
+  }
+
+a422 1
+  wcsfree(&wcspol);
+d429 2
+a430 2
+* done before wcsset() which automatically translates PVi_ma keyvalues to a
+* TPV distortion and elides them.
+@
+
+
+5.0
+log
+@WCSLIB 5.0
+@
+text
+@d3 1
+a3 1
+  WCSLIB 5.0 - an implementation of the FITS WCS standard.
+d25 1
+a25 1
+  $Id$
+d29 2
+a30 2
+* the* FITS file specified as an argument, or else from TPV7.fits.  The test
+* is done via linp2x() and linx2p().
+d60 7
+a66 5
+  int  gotend, iblock, ikeyrec, inc, j, k, n, naxis[4], naxis1, naxis2,
+       nClosure, nFail, nkeyrec, nreject, nTest, nwcs, p1, p2, status;
+  double dp1, dp2, *img, px, *px0, *px1, rel, resid, absmax, relmax;
+  FILE *fptr;
+  struct linprm *lin;
+d115 9
+a123 1
+        if (keyrec[5] == ' ') continue;
+d162 25
+a186 2
+  if ((naxis1 = naxis[wcs->lng]) == 0) {
+    naxis1 = 2*wcs->crpix[wcs->lng] + 1;
+d188 3
+a190 2
+  if ((naxis2 = naxis[wcs->lat]) == 0) {
+    naxis2 = 2*wcs->crpix[wcs->lat] + 1;
+d193 92
+d292 1
+a292 1
+  px0 = calloc(3*(2*n ), sizeof(double));
+@
+
+
+5.0.1.1
+log
+@WCSLIB 5.0 development branch.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.0 2015/04/05 12:25:01 mcalabre Exp $
+@
+
+
+5.0.1.2
+log
+@Exercise linwarp() and diswarp().  Get NAXIS1 and NAXIS2 from the input
+header which must be 2-D.
+@
+text
+@d25 1
+a25 1
+  $Id: tdis1.c,v 5.0.1.1 2015/04/05 12:28:02 mcalabre Exp mcalabre $
+d29 2
+a30 2
+* the FITS file specified as an argument, which must contain a 2D image, or
+* else from TPV7.fits.  The test is done via linp2x() and linx2p().
+d60 5
+a64 7
+  int  gotend, iblock, ikeyrec, inc, j, k, n, naxis[2], naxis1, naxis2,
+       nClosure, nFail, nkeyrec, nsamp, nreject, nTest, nwcs, p1, p2, status;
+  double absmax, dp1, dp2, *img, pix[8], pixblc[2], pixsamp[2], pixtrc[2], px,
+         *px0, *px1, pxi[8], rel, resid, relmax;
+  double *avgdis, *avgtot, *maxdis, *maxtot, *rmsdis, *rmstot, stats[9];
+  FILE   *fptr;
+  struct linprm *lin, affine;
+d113 1
+a113 9
+        if (keyrec[5] == ' ') {
+          sscanf(keyrec+10, "%d", &n);
+          if (n != 2) {
+            wcsprintf("ERROR, expecting a 2D image.\n");
+            return 1;
+          }
+          continue;
+        }
+
+d152 2
+a153 25
+  if ((naxis1 = naxis[0]) == 0) {
+    naxis1 = 2*wcs->crpix[0] + 1;
+  }
+  if ((naxis2 = naxis[1]) == 0) {
+    naxis2 = 2*wcs->crpix[1] + 1;
+  }
+
+  /* Get statistics on the distortion in the inner quarter of the image. */
+  maxdis = stats;
+  maxtot = maxdis + 2;
+  avgdis = maxtot + 1;
+  avgtot = avgdis + 2;
+  rmsdis = avgtot + 1;
+  rmstot = rmsdis + 2;
+
+  pixblc[0]  =  0.25 * naxis[0];
+  pixblc[1]  =  0.25 * naxis[1];
+  pixtrc[0]  =  0.75 * naxis[0];
+  pixtrc[1]  =  0.75 * naxis[1];
+  pixsamp[0] = (pixtrc[0] - pixblc[0])/512.0;
+  pixsamp[1] = (pixtrc[1] - pixblc[1])/512.0;
+  if (linwarp(lin, pixblc, pixtrc, pixsamp, &nsamp, maxdis, maxtot, avgdis,
+              avgtot, rmsdis, rmstot)) {
+    linperr(lin, 0x0);
+    return 1;
+d155 2
+a156 3
+
+  for (k = 0; k < 9; k++) {
+    if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+a158 92
+  wcsprintf("linwarp() statistics computed over %d sample points:\n"
+            "  Max distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n"
+            " Mean distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n"
+            "  RMS distortion, axis 1: %8.3f pixels\n"
+            "                  axis 2: %8.3f pixels\n"
+            "                   total: %8.3f pixels\n\n",
+            nsamp, maxdis[0], maxdis[1], *maxtot,
+                   avgdis[0], avgdis[1], *avgtot,
+                   rmsdis[0], rmsdis[1], *rmstot);
+
+  /* Exercise diswarp() as well. */ 
+  if (lin->disseq) {
+    /* Define a rectangle in intermediate pixel coordinates that just */
+    /* encompasses the inner quarter of the image.  For this we need  */
+    /* to switch off CDELTia scaling and all distortions.             */
+    affine.flag = -1;
+    if ((status = lincpy(1, lin, &affine))) {
+      linperr(lin, 0x0);
+      return 1;
+    }
+
+    affine.cdelt[0] = 1.0;
+    affine.cdelt[1] = 1.0;
+    if ((status = (lindis(1, &affine, 0x0) ||
+                   lindis(2, &affine, 0x0) ||
+                   linset(&affine)))) {
+      linperr(&affine, 0x0);
+      return 1;
+    }
+
+    pix[0] = pixblc[0];
+    pix[1] = pixblc[1];
+    pix[2] = pixtrc[0];
+    pix[3] = pixblc[1];
+    pix[4] = pixtrc[0];
+    pix[5] = pixtrc[1];
+    pix[6] = pixblc[0];
+    pix[7] = pixtrc[1];
+    if (linp2x(&affine, 4, 2, pix, pxi)) {
+      linperr(&affine, 0x0);
+      return 1;
+    }
+
+    linfree(&affine);
+
+    pixblc[0] = pxi[0];
+    pixblc[1] = pxi[1];
+    pixtrc[0] = pxi[0];
+    pixtrc[1] = pxi[1];
+    k = 2;
+    for (j = 1; j < 4; j++) {
+      if (pixblc[0] > pxi[k]) pixblc[0] = pxi[k];
+      if (pixtrc[0] < pxi[k]) pixtrc[0] = pxi[k];
+      k++;
+      if (pixblc[1] > pxi[k]) pixblc[1] = pxi[k];
+      if (pixtrc[1] < pxi[k]) pixtrc[1] = pxi[k];
+      k++;
+    }
+
+    pixsamp[0] = (pixtrc[0] - pixblc[0])/512.0;
+    pixsamp[1] = (pixtrc[1] - pixblc[1])/512.0;
+
+    if (diswarp(lin->disseq, pixblc, pixtrc, pixsamp, &nsamp, maxdis, maxtot,
+                avgdis, avgtot, rmsdis, rmstot)) {
+      wcserr_prt(lin->disseq->err, 0x0);
+      return 1;
+    }
+
+    for (k = 0; k < 9; k++) {
+      if (fabs(stats[k]) < 0.0005) stats[k] = 0.0;
+    }
+
+    wcsprintf("diswarp() statistics computed over %d sample points:\n"
+              "  Max distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n"
+              " Mean distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n"
+              "  RMS distortion, axis 1: %8.3f units\n"
+              "                  axis 2: %8.3f units\n"
+              "                   total: %8.3f units\n\n",
+              nsamp, maxdis[0], maxdis[1], *maxtot,
+                     avgdis[0], avgdis[1], *avgtot,
+                     rmsdis[0], rmsdis[1], *rmstot);
+  }
+
+
+d166 1
+a166 1
+  px0 = calloc(3*(2*n), sizeof(double));
+@
+
+
+1.0
+log
+@Empty revision.
+@
+text
+@d1 258
+@
